@@ -1,0 +1,55 @@
+[.learning-path-lti&image]
+[&image:https://our.s3/book_cover.jpg]
+[!Nullserie]
+[@action:Übungsprüfung]
+[@deeplink:https://other.platform/path/to/quiz]
+[@duration:3600s]
+Of course, it exists without the image resource like any other bit.
+It works like a .article (instruction, body, resources, …)
+It just adds action, duration and deepLink
+Three strings
+
+
+[.learning-path-step]
+[!Nullserie]
+[@action:Päsenz-Seminar]
+[@duration:3600s]
+
+Can also contain resources like all bits
+
+
+[.learning-path-sign]
+[!Nullserie]
+[@action:Päsenz-Seminar]
+[@duration:3600s]
+
+Can also contain resources like all bits
+
+
+[.learning-path-video-call]
+[@videoCallLink:https://yasminboland.com/video/call.php]
+
+
+[.learning-path-learning-goal] 
+[!Nullserie]
+[@action:Päsenz-Seminar]
+[@duration:3600s]
+Can also contain resources like all bits
+
+
+[.learning-path-closing]
+[!Nullserie]
+[@action:Päsenz-Seminar]
+[@duration:3600s]
+Can also contain resources like all bits
+
+
+[.learning-path-feedback]
+[!Nullserie]
+[@action:Päsenz-Seminar]
+[@duration:3600s]
+Can also contain resources like all bits
+
+[.learning-path-bot-training]
+[@bot:b-87687aszd87wed78]
+

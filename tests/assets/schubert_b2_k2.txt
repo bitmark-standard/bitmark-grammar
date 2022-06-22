@@ -1,0 +1,2277 @@
+[.chapter:L1]
+[%2]
+[#Daheim und unterwegs]
+[.article&image]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/seite_35_norwegen_-_2.jpg]
+
+[.chapter]
+[##Teil A]
+
+[.chapter]
+[###Wohnen]
+
+
+[.cloze-solution-grouped:bitmark--]
+[%A1]
+
+1. Wohnungen
+Beim Zensus zählten die Statistiker nicht nur die Bevölkerung, [_sondern auch den Gebäudebestand][@example]. Hier sind einige Ergebnisse:
+In Deutschland stehen 19 Millionen Häuser mit exakt 41 298 747 Wohnungen – das heißt, dass auf jede Wohnung weniger als zwei Menschen kommen.
+
+**2. Stadt oder Land**
+85 Prozent der Deutschen wohnen in Großstädten, Städten und Städtchen. Die höchste Einwohnerzahl hat Berlin,[_hier leben rund 3,5 Millionen Menschen]
+
+**3. Eigentum oder Miete**
+Die meisten Deutschen leben nach wie vor [_zur Miete], nämlich 52 Prozent. 42,6 Prozent besitzen eine eigene Wohnung. Vor allem in den Städten ist der Anteil der Mietwohnungen hoch: In der
+„Mieterstadt“ Berlin etwa [_liegt die Eigentümerquote] bei nur 14,8 Prozent.
+Die höchsten Mieten zahlt man in München mit durchschnittlich 10,25 Euro pro Quadratmeter, das sind 65 Prozent mehr [_als im Bundesdurchschnitt]
+
+**4. Leerstand**
+Fast jede zwanzigste Wohnung (4,5 Prozent) in Deutschland steht leer, wobei die Unterschiede von Region zu Region groß sind. In Sachsen ist jede zehnte Wohnung unbewohnt, in Hamburg [_beträgt der Leerstand] dagegen lediglich 1,6 Prozent.
+
+**5. Ferienwohnungen**
+Rund ein Prozent der Immobilien sind Ferienwohnungen. Besonders viele gibt es [_an der Küste und im Alpenvorland]
+
+**6. Wohnungsgröße**
+Die durchschnittliche Wohnung in Deutschland ist gut 90 Quadratmeter groß und hat 4,4 Zimmer.
+Fast 40 Prozent aller Wohnungen haben sogar fünf oder mehr Zimmer.
+[_Nicht ganz so viel Platz] haben die Menschen in den Städten, vor allem in Hamburg und Berlin. In Berlin ist jede zehnte Wohnung kleiner als 40 Quadratmeter.
+
+**7. Sanitäranlagen**
+Überraschenderweise haben in Deutschland etwa 330 000 Wohnungen weder Dusche noch Toilette. In knapp 680 000 Wohnobjekten fehlt entweder ein WC oder das Bad. Besonders häufig sind [_so karg ausgestattete Wohnungen]in Ostdeutschland.
+
+**8. Heizung**
+Für einige Bundesbürger heißt es im Winter zittern – oder [_warm anziehen]. Beinahe 200 000 Wohnungen hierzulande haben keine Heizung. Knapp 2,5 Millionen Wohnungen werden mit Öfen beheizt.
+[@reference: Ergebnisse des Zensus: Wie die Deutschen wohnen. Handelsblatt Online, 3.6.2013 In: http://www.handelsblatt.com/finanzen/
+© Handelsblatt GmbH. Alle Rechte vorbehalten.]
+
+
+[.interview:bitmark--]
+[%A2]
+[!Sätze mit ähnlicher Bedeutung
+Formen Sie die Sätze so um, dass Sie die in Klammern angegebenen Wörter in der richtigen Form in den Satz einarbeiten. Arbeiten Sie zu zweit und vergleichen Sie im Anschluss Ihre Ergebnisse mit anderen Teilnehmern.]
+===
+[%*]In Deutschland **kommen** auf jede Wohnung weniger als zwei Menschen.__(wohnen – durchschnittlich)__[@shortAnswer]
+[@example:In Deutschland wohnen in jeder Wohnung durchschnittlich weniger als zwei Menschen.]
+===
+[%1.]Die meisten Deutschen **leben** nach wie vor **zur Miete**, nämlich 52 Prozent.__(mieten – Wohnung)__[@shortAnswer]
+[_Die meisten Deutschen mieten eine Wohnung, nämlich 52 Prozent.]
+===
+[%2.]In der „Mieterstadt“ Berlin **liegt die Eigentümerquote** bei nur 14,8 Prozent.__(es – geben – Wohnungseigentümer)__[@shortAnswer]
+[_In der „Mieterstadt“ Berlin gibt es 14,8 Prozent Wohnungseigentümer.]
+===
+[%3.]Die höchsten Mieten zahlt man in München mit durchschnittlich 10,25 Euro pro Quadratmeter, das **sind** 65 Prozent mehr als im Bundesdurchschnitt.__(liegt)__[@shortAnswer]
+[_Die höchsten Mieten zahlt man in München mit durchschnittlich 10,25 Euro pro Quadratmeter, das liegt 65 Prozent über dem Bundesdurchschnitt.]
+===
+[%4.]In Hamburg **beträgt der Wohnungsleerstand** 1,6 Prozent.__(leer stehen – Wohnungen)__[@shortAnswer]
+[_In Hamburg stehen 1,6 Prozent der Wohnungen leer.]
+===
+[%5.]In Deutschland **haben** die Menschen viel Platz: Die durchschnittliche Wohnung **ist** gut 90 Quadratmeter groß und hat 4,4 Zimmer.__(Verfügung – stehen, Größe – haben)__[@shortAnswer]
+[_In Deutschland steht den Menschen viel Platz zur Verfügung: Die durchschnittliche Wohnung hat eine Größe von gut 90 Quadratmetern und 4,4 Zimmer.]
+===
+[%6.]Besonders häufig **sind so karg ausgestattete** Wohnungen in Ostdeutschland.__(verfügen – nicht – Bad oder WC)__[@shortAnswer]
+[_Wohnungen, die nicht über ein Bad oder WC verfügen, gibt es besonders häufig (häufiger) in Ostdeutschland.]
+===
+
+[.assignment]
+[%A3]
+[!Mündlicher Ausdruck: Bericht
+Berichten Sie. Wie ist die allgemeine Wohnungssituation in Ihrem Heimatland? Wo gibt es Unterschiede zu Deutschland? Suchen Sie ggf. Informationen im Internet.]
+
+
+[.interview:bitmark--]
+[%A4]
+[!Interview
+Fragen Sie zwei Kursteilnehmer und fassen Sie im Anschluss die Antworten im Plenum zusammen.]
+===
+**Partnerin/Partner 1**
+Wo wohnen Sie?[@shortAnswer]
+===
+Wie groß ist das Zimmer/die Wohnung/ das Haus, in dem/der Sie wohnen?[@shortAnswer]
+===
+Haben Sie einen Parkplatz, einen Abstellraum oder einen Garten?[@shortAnswer]
+===
+Ist Ihre Wohnung eher modern, klassisch, gemütlich oder pragmatisch eingerichtet?[@shortAnswer]
+===
+Sind Sie ein guter Heimwerker? Wenn ja, was können Sie selbst machen/reparieren?[@shortAnswer]
+===
+
+
+**Partnerin/Partner 2**
+Wo wohnen Sie?[@shortAnswer]
+===
+Wie groß ist das Zimmer/die Wohnung/ das Haus, in dem/der Sie wohnen?[@shortAnswer]
+===
+Haben Sie einen Parkplatz, einen Abstellraum oder einen Garten?[@shortAnswer]
+===
+Ist Ihre Wohnung eher modern, klassisch, gemütlich oder pragmatisch eingerichtet?[@shortAnswer]
+===
+Sind Sie ein guter Heimwerker? Wenn ja, was können Sie selbst machen/reparieren?[@shortAnswer]
+===
+
+
+
+
+[.essay:bitmark++&image]
+[%A5]
+[!Schriftlicher Ausdruck: Beschreibung – Ihre Traumwohnung
+In der Onlineausgabe der Zeitschrift „Modernes Wohnen“ wurden Leser gebeten, ihre Traumwohnung zu beschreiben. Antworten Sie der Onlineredaktion. Schreiben Sie etwa 150 bis 200 Wörter.]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/haus.png]
+<<
+* Dorf – Kleinstadt – Großstadt (Innenstadt/Stadtrand)
+* am Meer – in den Bergen – auf dem Land
+* Hochhaus – Mehrfamilienhaus – Reihenhaus – Doppelhaushälfte – Einfamilienhaus
+* viele Zimmer – großes Wohnzimmer – große Küche – großes Bad – helle Räume – hohe Fenster – Terrasse – Balkon – Stuck an der Decke*
+
+*Verzierung aus Gips, Kalk, Sand und Wasser<<
+
+[.internal-link]
+[!Zusatzübungen zu Ortsangaben ➔ Teil C][►kapitel2c]
+
+
+
+
+[.cloze-instruction-grouped:bitmark--]
+[%A6]
+[!Mietpreise in Deutschland
+Lesen Sie den folgenden Text und ergänzen Sie die fehlenden Verben in der richtigen Form.]
+
+**München hängt alle ab**
+Die Mieten in Deutschland sind im vergangenen Jahr um 1,3 Prozent [_gestiegen][!steigen][@example]. Das [_entspricht][!entsprechen](1) ungefähr dem Anstieg des Vorjahres, wie das Marktforschungsunternehmen F+B [_mitteilte][!mitteilen](2).
+Für den sogenannten Mietspiegel wurden die Mietkosten in 334 Städten und Gemeinden [_ausgewertet][!auswerten](3). Auf Platz eins der teuersten Städte Deutschlands [_liegt][!liegen](4) München – und zwar mit weitem Abstand. Auf Platz zwei des Rankings [_landete][!landen] (5) das bayerische Germering. Auch Stuttgart, Dachau, Tübingen und Köln [_befinden][!befinden] (6) sich unter den Top Ten der Städte mit den höchsten Mieten.
+Insgesamt [_steigen][_stiegen][!steigen] (7) die Mieten vor allem in den Großstädten. Das liegt daran, dass ein attraktives Arbeitsplatzangebot mehr Interessenten  [_anzieht][!anziehen](8), der Wohnungsmarkt wird enger und die Mieten [_klettern][!klettern](9) in die Höhe. In Berlin ist das Wohnen den Angaben zufolge immer noch vergleichsweise günstig. In den westlichen Stadtteilen Berlins [_kosten][!kosten](10) Wohnungen momentan im Schnitt 6,03 Euro, in den östlichen 5,70 Euro pro Quadratmeter.
+[@reference: Deutschland-Ranking der Mietpreise: München hängt alle ab. SPIEGEL ONLINE, 4.2.2014
+In: http://www.spiegel.de/wirtschaft/soziales]
+
+
+[.assignment&article-attachment]
+[%A7]
+[!Angebote vergleichen
+Sie suchen in Berlin eine Zweizimmerwohnung und haben im Internet zwei Mietangebote gefunden. Vergleichen Sie die Wohnungen miteinander und nennen Sie Vor- und Nachteile. Entscheiden Sie sich am Ende für eine Wohnung. Arbeiten Sie zu zweit.]
+
+<<**Redemittel**
+* Als Vorteil/Nachteil würde ich ansehen/betrachten, dass ...
+* Einer der wichtigsten Vorteile/ positiven Aspekte der Wohnung ist ...
+* ... würde mich stören.<<
+
+[.article-attachment:bitmark++]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/616701_original_r_k_by_pogobuschel_pixelio.de.jpg]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/587550_original_r_by_andreas_hermsdorf_pixelio.de.jpg]
+
+
+**Berlin-Mitte
+Modernes Komfortapartment in der Charlottenstraße mit Südwest-Balkon
+Kaltmiete:**	787 Euro
+**Nebenkosten:**	142 Euro
+**Heizkosten:**	69 Euro
+**Gesamtmiete:**	998 Euro Miete für Garage: 80 Euro Kaution:	3 Monatsmieten
+**Zimmer:**	2
+**Schlafzimmer:**	1
+**Bad:**	1
+**Balkon:**	Südwest
+**Einbauküche:**	ja
+**Etage:**	2
+**m² Fläche:**	63
+**bezugsfrei:**	ab sofort
+**Baujahr:**	2000
+**Objektzustand:**	vollständig renoviert
+**Qualität der Ausstattung:** gehoben (Parkett, Einbauküche mit Markengeräten)
+**Heizungsart:** Zentralheizung (Fußbodenheizung)
+**Lage:** zentral, nur wenige Gehminuten bis zur Staatsoper und zu Szenerestaurants, U-Bahn-Station Kochstraße
+
+
+
+**Berlin-Wedding
+Platz für 2 am Humboldthain! Erstbezug nach Sanierung!
+Kaltmiete:**	420 Euro
+**Nebenkosten:**	119 Euro
+**Heizkosten:**	60 Euro
+**Gesamtmiete:**	599 Euro
+**Kaution:**	1260 Euro
+**Zimmer:**	2
+**Schlafzimmer:**	1
+**Bad:**	1
+**Balkon:**	ja
+**Etage:**	3
+**m² Fläche:**	52
+**bezugsfrei:**	ab sofort
+**Baujahr:**	1956
+**Objektzustand:**	saniert 2015 
+**Qualität der Ausstattung:** normal 
+**Heizungsart:** Zentralheizung
+**Lage:** zwischen den Bahnhöfen Humboldthain und Gesundbrunnen, in unmittelbarer Nähe des Volksparks Humboldthain, Anbindung: S-Bahn S41, 42 und S1, U-Bahn U8, diverse Buslinien
+||essay?||
+
+
+
+[.assignment:bitmark++]
+[%A8]
+[!Telefongespräch
+Führen Sie zu zweit ein Telefongespräch, eine/einer ist der Wohnungssuchende, eine/einer der Vermieter/Makler.]
+Sie interessieren sich für eine der oben angebotenen Wohnungen und fragen den Vermieter/Makler: 
+* ob die Wohnung noch zu mieten ist
+* wann man die Wohnung besichtigen kann
+* was Sie sonst noch über die Wohnung wissen möchten.
+
+
+[.assignment:bitmark--]
+[%A9]
+[!Mieten in Deutschland
+Lesen Sie die sechs Hinweise zum Thema __Mietwohnungen in Deutschland__.]
+
+1. Sie können in Deutschland eine Wohnung über einen Makler, einen Vermieterverein oder direkt von einem Vermieter mieten.
+
+2. Es gibt in vielen Mietwohnungen keine eingebauten Küchen. In diesen Fällen muss man eine Küche mitbringen oder sich eine neue kaufen. Sollte doch eine Küche in der Wohnung sein, kann es sein, dass Sie einen Ablösebetrag dafür bezahlen müssen.
+
+3. Vermieter wünschen sich in der Regel eine pünktliche Mietzahlung und keine kurzfristigen Mieterwechsel. Deshalb überprüfen Vermieter die Verdienst- und Arbeitssituation des potenziellen Mieters (z. B. anhand einer Einkommensbescheinigung und des Arbeitsvertrages).
+
+4. Sie sollten sich den Mietvertrag gut durchlesen. Achten Sie auf Kündigungsfristen oder auf Stellen im Vertrag, die etwas verbieten, z. B. das Halten von Haustieren.
+
+5. In Deutschland sind die zu mietenden Wohnungen meistens mit einem Fußbodenbelag ausgestattet und die Wände sind weiß gestrichen. Bei Mietbeginn muss der Mieter eine Kaution bezahlen, die er zurückbekommt, wenn er aus der Wohnung wieder auszieht. Die Wohnung muss aber in dem Zustand verlassen werden, in dem sie vorgefunden wurde. Ist das nicht der Fall, hat der Vermieter das Recht, die Kaution einzubehalten.
+
+6. In vielen Mietshäusern gibt es eine Hausordnung. In so einer Hausordnung wird zum Beispiel vorgeschrieben, ab wann man die Haustür zuzuschließen hat und ob die Mieter das Treppenhaus säubern müssen. Wenn man keinen Ärger mit den Nachbarn möchte, sollte man die Vorschriften der Hausordnung im Wesentlichen befolgen.
+
+
+
+
+
+[.true-false:bitmark++]
+[%A10]
+[!Steht das so im Text oder nicht?
+Kreuzen Sie an, ob die hier genannten Aussagen richtig oder falsch sind.]
+[@label-true:richtig][@label-false:falsch]
+===
+[+1. Die Vermieter interessieren sich für die finanziellen Verhältnisse der künftigen Mieter. ]
+===
+[-2. Man kann in Deutschland eine Wohnung ausschließlich über einen Makler mieten. ]
+===
+[+3. Wenn bereits eine Einbauküche in der Wohnung vorhanden ist, muss der Neumieter im Regelfall eine Ablöse zahlen. ]
+===
+[-4. In Deutschland muss der Mieter beim Verlassen der Wohnung den Fußbodenbelag entfernen. ]
+===
+[-5. Man sollte die Hausordnung beachten, damit man keinen Ärger mit dem Vermieter bekommt. ]
+===
+[+6. In der Hausordnung steht u. a., ob die Treppe von den Mietern gereinigt werden muss. ]
+===
+
+
+1. Sie können in Deutschland eine Wohnung über einen Makler, einen Vermieterverein oder direkt von einem Vermieter mieten.
+
+2. Es gibt in vielen Mietwohnungen keine eingebauten Küchen. In diesen Fällen muss man eine Küche mitbringen oder sich eine neue kaufen. Sollte doch eine Küche in der Wohnung sein, kann es sein, dass Sie einen Ablösebetrag dafür bezahlen müssen.
+
+3. Vermieter wünschen sich in der Regel eine pünktliche Mietzahlung und keine kurzfristigen Mieterwechsel. Deshalb überprüfen Vermieter die Verdienst- und Arbeitssituation des potenziellen Mieters (z. B. anhand einer Einkommensbescheinigung und des Arbeitsvertrages).
+
+4. Sie sollten sich den Mietvertrag gut durchlesen. Achten Sie auf Kündigungsfristen oder auf Stellen im Vertrag, die etwas verbieten, z. B. das Halten von Haustieren.
+
+5. In Deutschland sind die zu mietenden Wohnungen meistens mit einem Fußbodenbelag ausgestattet und die Wände sind weiß gestrichen. Bei Mietbeginn muss der Mieter eine Kaution bezahlen, die er zurückbekommt, wenn er aus der Wohnung wieder auszieht. Die Wohnung muss aber in dem Zustand verlassen werden, in dem sie vorgefunden wurde. Ist das nicht der Fall, hat der Vermieter das Recht, die Kaution einzubehalten.
+
+6. In vielen Mietshäusern gibt es eine Hausordnung. In so einer Hausordnung wird zum Beispiel vorgeschrieben, ab wann man die Haustür zuzuschließen hat und ob die Mieter das Treppenhaus säubern müssen. Wenn man keinen Ärger mit den Nachbarn möchte, sollte man die Vorschriften der Hausordnung im Wesentlichen befolgen.
+
+
+
+
+[.match-solution-grouped]
+[!Bilden Sie zusammengesetzte Nomen (Komposita). Geben Sie auch die Artikel an.]
+[%A11]
+===
+Vermieter- 
+==
+-verein 
+===
+Monats- 
+==
+-miete
+===
+Fußboden- 
+==
+-belag
+===
+Miet-
+==
+-wohnung
+--
+-vertrag
+===
+Einbau-
+==
+-küche
+===
+Ablöse-
+==
+-betrag
+===
+Treppen-
+==
+-haus
+===
+Haus-
+==
+-ordnung
+===
+Kündigungs-
+==
+-frist
+===
+||double solution issue||
+
+||[.cloze]||
+[.multiple-choice-text]
+[+der][-die][-das] Vermieter- [--küche][--wohnung][--haus][--betrag][--miete][+-verein][--belag][--frist][--vertrag][--ordnung]
+[-der][+die][-das] Monats- [--küche][--wohnung][--haus][--betrag][+-miete][--verein][--belag][--frist][--vertrag][--ordnung]
+[+der][-die][-das] Fußboden- [--küche][--wohnung][--haus][--betrag][--miete][--verein][+-belag][--frist][--vertrag][--ordnung]
+[-der][+die][-das] Miet-[--küche][+-wohnung][--haus][--betrag][--miete][--verein][--belag][--frist][--vertrag][--ordnung]
+[+der][-die][-das] Miet-[--küche][--wohnung][--haus][--betrag][--miete][--verein][--belag][--frist][+-vertrag][--ordnung]
+[-der][+die][-das] Einbau- [+-küche][--wohnung][--haus][--betrag][--miete][--verein][--belag][--frist][--vertrag][--ordnung]
+[+der][-die][-das] Ablöse- [--küche][--wohnung][--haus][+-betrag][--miete][--verein][--belag][--frist][--vertrag][--ordnung]
+[-der][-die][+das] Treppen- [--küche][--wohnung][+-haus][--betrag][--miete][--verein][--belag][--frist][--vertrag][--ordnung]
+[-der][+die][-das] Haus- [--küche][--wohnung][--haus][--betrag][--miete][--verein][--belag][--frist][--vertrag][+-ordnung]
+[-der][+die][-das] Kündigungs- [--küche][--wohnung][--haus][--betrag][--miete][--verein][--belag][+-frist][--vertrag][--ordnung]
+
+
+
+
+[.assignment]
+[%A12]
+[!Rollenspiel: Die lieben Nachbarn]
+1. Es ist 23.30 Uhr. Sie müssen morgen sehr früh auf- stehen und wollen schlafen, aber Ihr Nachbar hört sehr laut Musik. Versuchen Sie, mit dem Nachbarn zu reden.
+ 
+2. Es ist Sonntag früh 8.30 Uhr. Die Nachbarin hantiert schon seit einer Stunde mit der Bohrmaschine. Versuchen Sie der Nachbarin deutlich zu machen, dass Sie noch schlafen wollen. Wie reagieren Sie?
+   
+
+[.chapter]
+[###Städte in Deutschland]
+
+[.essay:bitmark++]
+[%A13]
+[!Welche Städte haben die meisten Besucher? Beschreiben Sie die folgende Grafik.]
+
+<<Redemittel
+* Man kann in/aus der Statistik deutlich erkennen ...
+* Aus der Statistik kann man entnehmen ...
+* Aus der Statistik geht hervor ...
+* Die Statistik zeigt ...
+* An der Spitze/Auf Platz eins/zwei steht/liegt ... 
+* Dahinter kommt ...
+* Nicht so viele Besucher verzeichnen die Städte ...<<
+
+||add image- not found||
+
+
+[.interview]
+[%A14]
+[!Partnerinterview
+Fragen Sie Ihre Gesprächspartnerin/Ihren Gesprächspartner und berichten Sie selbst. Fassen Sie im Anschluss die interessantesten Ergebnisse im Plenum zusammen.]
+===
+1. In welchen deutschen Städten waren Sie schon einmal?[@shortAnswer]
+===
+2. Welche deutsche Stadt hat Ihnen am besten gefallen und warum?[@shortAnswer]
+===
+3. Welche deutsche Stadt möchten Sie gerne kennenlernen und warum?[@shortAnswer]
+===
+4. Wenn Sie als Tourist eine Stadt besuchen, was sehen Sie sich dann am liebsten oder zuerst an?[@shortAnswer]
+===
+5. Machen Sie gerne Stadtrundfahrten mit? Wenn ja, warum? Wenn nein, warum nicht?[@shortAnswer]
+===
+6. Spazieren Sie manchmal mit Gästen oder Freunden durch Ihren Wohnort und sind Sie dann der Stadtführer?[@shortAnswer]
+===
+
+
+
+[.multiple-choice&image]
+[%A15]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/dresden002_kap2st_dte.jpg]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/img_6060st_dte40.jpg]
+[!Städtequiz: Informieren Sie sich.
+Welche Antwort ist richtig? Kreuzen Sie an.]
+===
+[!In welcher Stadt wurde der Dichter Johann Wolfgang von Goethe geboren?]
+[-Hamburg ]
+[+Frankfurt a. M. ]
+[-Mainz]
+===
+[!Welche Stadt hat die meisten Einwohner?]
+[+Berlin]
+[-Frankfurt a. M. ]
+[-Köln]
+===
+[!In welcher Stadt fanden 1972 die Olympischen Spiele statt?]
+[+München]
+[-Berlin]
+[-Leipzig]
+===
+[!Welche Stadt ist für ihre Bratwürste berühmt?]
+[-Hamburg ]
+[-Rostock]
+[+Nürnberg]
+===
+[!In welcher Stadt befindet sich die älteste Universität Deutschlands]
+[-Berlin]
+[-München ]
+[+Heidelberg]
+===
+[!In welcher Stadt wohnte und arbeitete der Komponist Johann Sebastian Bach?]
+[-Dresden ]
+[+Leipzig]
+[-Hannover]
+===
+[!In welcher Stadt findet jährlich die größte Industriemesse der Welt statt?]
+[-Leipzig ]
+[-Frankfurt a. M. ]
+[+Hannover]
+===
+[!In welcher Stadt feiert man den Karneval besonders ausgelassen?]
+[-Münster ]
+[+Köln]
+[-Stuttgart]
+===
+
+
+
+
+[.essay:bitmark++]
+[%A16]
+[!Stadtreise
+Sie feiern dieses Jahr einen runden Geburtstag und einige Freunde aus dem Ausland wollen Sie für drei Tage besuchen. Planen Sie zu zweit eine Städtetour für Ihre Freunde. Einigen Sie sich auf eine Stadt und überlegen Sie, was Sie unternehmen werden. Denken Sie dabei u. a. an:]
+* Übernachtung
+* Essen
+* Sehenswürdigkeiten
+* kulturelle Veranstaltungen/Sportveranstaltungen
+* Museens 
+* Ausflüge in die Umgebung
+
+
+
+[.interview]
+[%A17a]
+[!Beurteilung von Städten
+Berichten Sie.]
+===
+Welche Stadt in Ihrem Heimatland gefällt Ihnen am besten und warum?
+===
+
+
+
+[.essay&article-attachment]
+[%A17b]
+[!Wie beurteilen Sie Ihre Heimatstadt oder die Stadt, in der Sie gerade wohnen? Orientieren Sie sich an den fünf Wohlfühlfaktoren für Städte.]
+
+[.article-attachment:bitmark++]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/737057_original_r_by_birgith_pixelio.de-bea.png]
+**Die fünf Wohlfühlfaktoren**
+
+**1. Sicherheit und Ansehen**
+Der Wohnort ist vergleichsweise hoch angesehen, verfügt über ein großes Maß an Sicherheit und wenig soziale Probleme.
+
+**2. Grün und ruhig**
+Dies umfasst den Zugang zur Natur, viele Parks und Grünflächen, ausreichend Parkplätze, geringe Verkehrsdichte sowie Senioren- und Kinderfreundlichkeit.
+
+**3. Hip und lebendig**
+Der Wohnort wird von seinen Bewohnern als lebendig, szenig, alternativ, modern oder aufstrebend eingeschätzt.
+
+**4. Infrastruktur**
+Hierunter fallen ein guter öffentlicher Nahverkehr, viele Cafés und Restaurants, optimale Erreichbarkeit und das Vorhandensein von Supermärkten und Shoppingangeboten sowie von vielen kleinen Geschäften.
+
+**5. Familie und Arbeit**
+Hierzu zählen Faktoren wie das Vorhandensein von Schulen und Kitas, viele Sportstätten, eine gute Erreichbarkeit des Arbeitsplatzes und die Nähe zu Freunden und der Familie.
+[@reference: Deutschlands beliebteste Städte. Sicher, sauber, grün: Diese Stadt läuft sogar München den Rang ab. FOCUS online, 11.12.2013
+In: http://www.focus.de/immobilien/wohnen]||which text? S40||
+
+Redemittel
+* ... verfügt über/bietet ...
+* ... hat gute/schlechte/viele/wenige ...
+* ... für mich ist ... am wichtigsten/steht ... an erster Stelle
+* Ich brauche unbedingt/lege sehr viel Wert auf ...
+* Besonders positiv/negativ an ... ist ...
+* Die Stadt plant für die Zukunft .../braucht dringend mehr Geld für ...
+
+
+
+
+
+[.interview]
+[%A18]
+[!Deutschlands beliebteste Städte
+Berichten Sie über die Resultate einer Studie zum Thema __Zufriedenheit mit der eigenen Stadt__. Formulieren Sie Sätze wie im Beispiel. Achten Sie auch auf eventuell fehlende Präpositionen, den richtigen Kasus und die angegebene Zeitform.]
+===
+das Marktforschungsinstitut GFK – eine Studie zum Thema __Zufriedenheit mit der eigenen Stadt__ – durchführen __(Perfekt)__
+[@example: Das Marktforschungsinstitut GFK hat eine Studie zum Thema Zufriedenheit mit der eigenen Stadt durchgeführt.]
+===
+1. die wichtigste Erkenntnis – Studie – sein, – dass – Sicherheit, Grünanlagen und ein positives Image – der größte Einfluss – die Zufriedenheit – die Stadtbewohner – haben __(Präsens)__
+[_Die wichtigste Erkenntnis der Studie ist, dass Sicherheit, Grünanlagen und ein positives Image den größten Einfluss auf die Zufriedenheit der Stadtbewohner haben]
+===
+2. viele – überraschend finden __(Präteritum)__, – dass – Bürger – Leipzig – ihre Stadt – am zufriedensten sein __(Präsens)__
+[_Viele fanden überraschend, dass die Bürger von Leipzig mit ihrer Stadt am zufriedensten sind. ]
+===
+3. die Leipziger – zahlreiche Grünflächen, herausragende Kinder- und Seniorenfreundlichkeit und gute Infrastruk-tur – vor allem – schätzen __(Präsens)__
+[_Die Leipziger schätzen vor allem die zahlreichen Grünflächen, die herausragende Kinder- und Seniorenfreundlichkeit und die gute Infrastruktur.]
+===
+4. Köln – Platz zwei – kommen __(Präsens)__
+[_Köln kommt auf Platz zwei.]
+===
+5. die Kölner – „die kölsche Geselligkeit“, – das heißt die Atmosphäre – Cafés und Restaurants – mögen __(Präsens)__
+[_Die Kölner mögen„die kölsche Geselligkeit“, das heißt die Atmosphäre in den Cafés und Restaurants. ]
+===
+6. München, drittbeliebteste Stadt, – andere Faktoren – Vordergrund – stehen __(Präsens)__
+[_In München, der drittbeliebtesten Stadt, stehen andere Faktoren im Vordergrund.]
+===
+7. die bayerische Landeshauptstadt – ihre Parks und eine hohe Sicherheit – glänzen __(Präsens)__
+[_Die bayerische Landeshauptstadt glänzt mit ihren Parks und der hohen Sicherheit.]
+===
+||why does example not show?||
+
+
+
+
+
+[.cloze&image&audio]
+[%A19]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/seite_41_-_4.png]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/img_8408-b_cherei.png]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/seite_41-neu.png]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/seite_42-neu.png]
+[&audio::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/audio/04_erkundungen_b2_3a.mp3]
+||could not find the first img||
+[%A19a]
+[!Kennen Sie Leipzig? 
+Sie sind mit einer Reisegruppe in Leipzig und machen eine Stadtrundfahrt mit dem Bus. Der Stadtführer gibt auf
+der Busreise einige Informationen über Leipzig und stellt einige Sehenswürdigkeiten vor.
+Hören Sie die folgenden Texte und ergänzen Sie die fehlenden Angaben.]
+
+
+1.Die **Stadt Leipzig** befindet sich im Bundesland [_Sachsen]. Sie hat mehr als [_550 000]	Einwohner. Das Stadtrecht wurde Leipzig im Jahr [_1165] verliehen. Leipzig hat eine lange Tradition als [_Messestandort]. Die Leipziger Universität wurde [_1409]	gegründet.
+
+
+2.Das **Völkerschlachtdenkmal** ist eines der Wahrzeichen Leipzigs und das größte Denkmal Europas. Es erinnert an die [_Völkerschlacht], die vom 16. bis 19. Oktober 1813 vor den Toren der Stadt stattfand. Sie führte im Rahmen der Befreiungskriege zu einer Niederlage Napoleons gegen die Truppen der Österreicher, Preußen, Russen und Schweden. Der Grundstein für das Denkmal wurde am 18. Oktober 1898 gelegt.
+[_1913] wurde es eingeweiht. Das Denkmal ist [_91] Meter hoch und steht direkt auf dem Brennpunkt des Kampfgeschehens. Von unten bis zur Aussichtsplattform auf der Spitze muss man 500 Stufen nach oben gehen. Von dort aus hat man einen sehr schönen [_Überblick] über Leipzig.
+
+3.Die **Deutsche Nationalbibliothek** wurde 1912 unter dem Namen Deutsche Bücherei gegründet und diente bis zur deutschen Teilung als [_einzige] Sammelstätte für die gesamte deutschsprachige Literatur ab 1913. Seit Dezember 2010 ist auch das Deutsche Musikarchiv am [_Standort] Leipzig angesiedelt. Mit der 1946 gegründeten Deutschen Bibliothek in Frankfurt am Main gehören diese [_drei Einrichtungen] zur 2006 neu benannten Gesamtinstitution: Deutsche Nationalbibliothek. Alle Standorte erfüllen heute gemeinsam die gesetzlich festgelegten Aufgaben zum Sammeln, [_Erschließen] und bibliografischen Verzeichnen der deutschen und deutschsprachigen Literatur und Musik. Der [_Gesamtbestand] der Deutschen Nationalbibliothek umfasst im Moment über 29,7 Millionen Medieneinheiten und täglich kommen Tausende neue Bücher, Zeitschriften oder CDs dazu. Im Mai 2011 wurde der neue Erweiterungsbau eröffnet. Er bietet [_zusätzlichen Platz] für die Bestände der Bibliothek und einen Lesesaal.
+
+4.Hier in der Innenstadt von Leipzig steht die weltberühmte **Thomaskirche**. Sie war die Wirkungsstätte von Johann Sebastian Bach, der hier von [_1723] bis [_zu seinem Tode 1750] als Thomaskantor arbeitete. Ursprünglich war die Thomaskirche eine alte Marktkirche, die zwischen 1212 und 1222 umgebaut wurde. Im gleichen Jahr, also 1212, wurde auch der älteste Knabenchor Deutschlands, der Thomanerchor, gegründet, der noch heute regelmäßig in der Thomaskirche auftritt. Im 15. Jahrhundert wurde die Kirche im spätgotischen Stil umgebaut. [_Zu Pfingsten 1539] predigte hier der Reformator Martin Luther.
+ 
+5.Und hier sehen Sie ein Denkmal, das ganz stark mit der neuen Geschichte Leipzigs zu tun hat: das **Museum in der „Runden Ecke“**. Wie Sie vielleicht schon wissen, haben die Bürger von Leipzig und ihre Montagsdemonstrationen im Jahr 1989 maßgeblich zur [_Wiedervereinigung Deutschlands] beigetragen. Im gleichen Jahr entstand auch das Bürgerkomitee Leipzig, das sich bis heute den Forderungen nach Freiheit und Demokratie verpflichtet fühlt. Im August 1990 [_eröffnete] der Verein in der „Runden Ecke“ die Ausstellung „Stasi – Macht und Banalität“.
+In diesem Gebäude hatte die Leipziger Bezirksverwaltung für [_Staatssicherheit] 40 Jahre lang ihren Sitz. In den ehemaligen Büros der Stasi-Offiziere können sich nun Besucher über Funktion, [_Arbeitsweisen und Geschichte] der Stasi informieren. Das Bürgerkomitee hat versucht, das authentische Umfeld weitgehend zu erhalten, um die Gäste etwas von der Arbeitsatmosphäre erahnen zu lassen, die bis 1989 in der „Runden Ecke“ herrschte.
+
+
+
+
+
+
+[.true-false&article-attachment&audio]
+[%A19b]
+[&audio::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/audio/04_erkundungen_b2_3a.mp3]
+[!Haben Sie die folgenden Aussagen gehört oder gelesen? Kreuzen Sie an.]
+[@label-true:richtig][@label-false:falsch]
+===
+[+1. Bücher und der Buchhandel spielen in Leipzig schon seit Langem eine große Rolle. ]
+===
+[-2. Leipzig ist die einzige Stadt in Deutschland, die die gesamte deutsche und deutschsprachige Literatur sammelt und katalogisiert. ]
+===
+[+3. In der Deutschen Nationalbibliothek wurde mehr Platz benötigt. 2011 wurde ein Erweiterungsbau eröffnet.]
+===
+[+4. Neben der Universität hat Leipzig auch eine Handels- und eine Musikhochschule. ]
+===
+[-5. An dieser Musikhochschule studierte und komponierte unter anderem der Komponist Johann Sebastian Bach.]
+===
+[+6. Im 1212 gegründeten Thomanerchor singen nur Jungen. ]
+===
+[-7. Das Völkerschlachtdenkmal erinnert an den Sieg Napoleons und seiner Truppen im Jahr 1913. ]
+===
+[+8. Das Gebäude des Museums in der „Runden Ecke“ war in der DDR die Bezirksverwaltung der Staatssicherheit.]
+===
+[-9. Damit sich die Besucher über die Arbeitsweise der Stasi-Offiziere und das Geschehen von damals informieren können, wurde das Gebäude umgebaut.]
+===
+
+[.article-attachment:bitmark++]
+1. Die Stadt Leipzig befindet sich im Bundesland Sachsen. Sie hat mehr als 550 000	Einwohner. Das Stadtrecht wurde Leipzig im Jahr 1165 verliehen. Leipzig hat eine lange Tradition als Messestandort. Die Leipziger Universität wurde 1409	gegründet.
+
+
+2. Das Völkerschlachtdenkmal ist eines der Wahrzeichen Leipzigs und das größte Denkmal Europas. Es erinnert an die Völkerschlacht, die vom 16. bis 19. Oktober 1813 vor den Toren der Stadt stattfand. Sie führte im Rahmen der Befreiungskriege zu einer Niederlage Napoleons gegen die Truppen der Österreicher, Preußen, Russen und Schweden. Der Grund- stein für das Denkmal wurde am 18. Oktober 1898 gelegt.
+1913 wurde es eingeweiht. Das Denkmal ist 91 Meter hoch und steht direkt auf dem Brennpunkt des Kampfgeschehens. Von unten bis zur Aussichtsplattform auf der Spitze muss man 500 Stufen nach oben gehen. Von dort aus hat man einen sehr schönen Überblick über Leipzig.
+
+3. Die Deutsche Nationalbibliothek wurde 1912 unter dem Namen Deutsche Bücherei gegründet und diente bis zur deutschen Teilung als einzige Sammelstätte für die gesamte deutschsprachige Literatur ab 1913. Seit Dezember 2010 ist auch das Deutsche Musikarchiv am Standort Leipzig angesiedelt. Mit der 1946 gegründeten Deutschen Bibliothek in Frankfurt am Main gehören diese
+drei Einrichtungen zur 2006 neu benannten Gesamtinstitution: Deutsche Nationalbibliothek. Alle Standorte erfüllen heute gemeinsam die gesetzlich festgelegten Aufgaben zum Sammeln, Erschließen und bibliografischen Verzeichnen der deutschen und deutschsprachigen Literatur und Musik. Der Gesamtbestand der Deutschen Nationalbibliothek umfasst im Moment über 29,7 Millionen Medieneinheiten und täglich kommen Tausende neue Bücher, Zeitschriften oder CDs dazu. Im Mai 2011 wurde der neue Erweiterungsbau eröffnet. Er bietet zusätzlichen Platz für die Bestände der Bibliothek und einen Lesesaal.
+
+4. Hier in der Innenstadt von Leipzig steht die weltberühmte Thomaskirche. Sie war die Wirkungsstätte von Johann Sebastian Bach, der hier von 1723 bis zu seinem Tode 1750 als Thomaskantor arbeitete. Ursprünglich war die Thomaskirche eine alte Marktkirche, die zwischen 1212 und 1222 umgebaut wurde. Im gleichen Jahr, also 1212, wurde auch
+der älteste Knabenchor Deutschlands, der Thomanerchor, gegründet, der noch heute regelmäßig in der Thomaskirche auftritt. Im 15. Jahrhundert wurde die Kirche im spätgotischen Stil umgebaut. Zu Pfingsten 1539 predigte hier der Reformator Martin Luther.
+ 
+5. Und hier sehen Sie ein Denkmal, das ganz stark mit der neuen Geschichte Leipzigs zu tun hat: das Museum in der „Runden Ecke“. Wie Sie vielleicht schon wissen, haben die Bürger von Leipzig und ihre Montagsdemonstrationen im Jahr 1989 maßgeblich zur Wiedervereinigung Deutschlands beigetragen. Im gleichen Jahr entstand auch das Bürgerkomitee Leipzig, das sich bis heute den Forderungen nach Freiheit und Demokratie verpflichtet fühlt. Im August 1990 eröffnete der Verein in der „Runden Ecke“ die Ausstellung „Stasi – Macht und Banalität“.
+In diesem Gebäude hatte die Leipziger Bezirksverwaltung für Staatssicherheit 40 Jahre lang ihren Sitz. In den ehemaligen Büros der Stasi-Offiziere können sich nun Besucher über Funktion, Arbeitsweisen und Geschichte der Stasi informieren. Das Bürgerkomitee hat versucht, das authentische Umfeld weitgehend zu erhalten, um die Gäste etwas von der Arbeitsatmosphäre erahnen zu lassen, die bis 1989 in der „Runden Ecke“ herrschte.
+||article doesn't show||
+
+
+[.cloze-instruction-grouped]
+[%A19c]
+[!Ergänzen Sie die Verben im Passiv Präteritum.]
+1. Leipzig [_wurde] 1165 das Stadtrecht [_verliehen][!verleihen].
+2. Die Universität [_wurde] im Jahre 1409 als „Alma Mater Lipsiensis“ [_gegründet][!gründen].
+3. Der Grundstein für das Völkerschlachtdenkmal [_wurde] am 18. Oktober 1898 [_gelegt][!legen].
+4. Das Völkerschlachtdenkmal [_wurde] 1913 [_eingeweiht][!einweihen].
+5. Ursprünglich war die Thomaskirche eine alte Marktkirche, die zwischen 1212 und 1222 [_umgebaut wurde][!umbauen].
+6. Im gleichen Jahr, also 1212, [_wurde] auch der Thomanerchor [_gegründet][!gründen].
+||trennbare verben stuff||
+
+[.internal-link]
+[!Zusatzübungen zum Passiv ➔ Teil C][►kapitel2c]
+
+
+
+[.cloze]
+[%A20]
+[!Was ist in Ihrem Wohnort vorhanden? Hier finden Sie einige Anhaltspunkte zur Auswahl. Ergänzen Sie die richtigen Artikel und berichten Sie dann mündlich.]
+
+[_das] Museum 
+[_das] Moschee 
+[_das] Schloss 
+[_der] Fluss
+[_das] Denkmal 
+[_die] Stadtmauer 
+[_das] Fußballstadion 
+[_die] Schule
+[_die] Universität 
+[_die] Bibliothek 
+[_der] Marktplatz 
+[_der] Hafen
+[_die] Kirche 
+[_der] Stadtpark 
+[_das] Bürogebäude 
+[_der] Bahnhof
+[_der] historische Stadtkern 
+[_die] Kunstgalerie 
+[_das] Krankenhaus 
+[_die] Fußgängerzone
+
+
+[.chapter]
+[###Reisen]
+
+[.assignment]
+[%A21]
+[!Klassenspaziergang
+Wählen Sie drei Fragen aus und befragen Sie möglichst viele Kursteilnehmer. Berichten Sie dann im Plenum über die gesammelten Informationen.]
+
+1. Wie oft verreisen Sie im Jahr geschäftlich und/oder privat?
+2. Wo haben Sie Ihren letzten Urlaub verbracht?
+3. Was ist Ihr Traum-Urlaubsziel?
+4. Informieren Sie sich vor einer privaten Reise über das Reiseziel? Wenn ja, wie?
+5. Mögen Sie Flughäfen? Fliegen Sie gern?
+6. Was halten Sie von Kreuzfahrten?
+7. Welche Reisen liegen im Moment in Ihrem Heimatland im Trend?
+8. In welche Stadt würden Sie gern einmal reisen?
+9. Nach welchen Kriterien wählen Sie Ihr Urlaubsziel?
+
+
+
+[.cloze]
+[%A22a]
+[!Reisetrends
+Lesen Sie die folgenden Textabschnitte (links) und suchen Sie die passenden Ergänzungen (A, B, C, D, E).]
+
+1. Gute Nachrichten für die Tourismusindustrie: Viele Deutsche werden dieses Jahr wieder die Koffer packen und in den Urlaub fahren – dafür wird auch wieder tief in die Tasche gegriffen.[_b]
+
+2. Im eigenen Land ist es doch ganz schön: Die Deutschen planen für dieses Jahr mehr Inlandsreisen.
+81 Prozent wollen in mindestens einer Urlaubsphase im Land bleiben und das angenehme Wetter genießen.[_e]
+
+3. Ganz egal ob in Deutschland, Europa oder weltweit: Die meisten deutschen Urlauber bevorzugen einen Strandurlaub. 44 Prozent sonnen sich an Stränden. 37 Prozent der Deutschen planen eher Städtereisen. Sie zieht es zu den vielen Sehenswürdigkeiten in den Metropolen weltweit.[_a]
+
+4. Die Katze im Sack kaufen – und am Ende böse Überraschungen erleben – ist out: Fast alle Urlauber recherchieren ausgiebig und informieren sich vor der Reise mittels verschiedenster Kanäle über das anvisierte Ziel.[_c]
+
+5. Die Serviceleistungen, auf die Gäste vor Ort laut der Umfrage am meisten achten, sind kostenloses WLAN (66 Prozent), gefolgt von kostenlosem Frühstück (62 Prozent), Parkplätzen (46 Prozent), Shuttleservice vom Hotel zu Ausflugszielen oder Bahnhöfen und Flughäfen (26 Prozent).[_b]
+
+
+
+A. Insgesamt hat die Anzahl der Städtereisen in den A vergangenen fünf Jahren stark zugenommen. Ein weiterer Reisetrend sind nach wie vor Kreuzfahrten, das Wachstum lag im vergangenen Jahr im zweistelligen Bereich.
+
+B. Das geplante jährliche Urlaubsbudget einer deutschen Familie liegt mit 6 095 Euro – genauso wie das der Österreicher mit 5 405 Euro – über dem europäischen (4 952 Euro) sowie globalen (4 489 Euro) Durchschnitt. Am meisten geben die Schweizer aus – Ihnen ist der Urlaub laut der Befragung 8 468 Euro wert.
+
+C.  Wie alle Nationen nutzen auch die Deutschen zur Recherche immer häufiger mobile Angebote. 29 Prozent gaben an, sich auch am Urlaubsort über die verschiedenen Angebote mobil zu informieren
+
+D. Der Shuttleservice ist vor allem Frauen wichtig, während die Männer häufiger auf die Hotelbar Wert legen.
+ 
+E. Doch viele der Befragten zieht es auch in die Ferne. Europa gilt dabei als Top-Ziel, gefolgt von Asien und Nordamerika. Spanien und Italien waren in den letzten Monaten die beliebtesten Reiseländer der Deutschen.
+[@reference: Urlaubs-Trends: So reist der Weltbürger. Handelsblatt Online, 29.4.2014 In: http://www.handelsblatt.com/panorama/
+© Handelsblatt GmbH. Alle Rechte vorbehalten.]
+
+
+
+[.essay:bitmark++&image]
+[%A22b]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/urlaub.jpg]
+[!Fassen Sie den Inhalt des Textes mündlich oder schriftlich zusammen.]
+Gehen Sie dabei auf die folgenden Punkte ein:
+* Urlaubsbudgets
+* Reiseziele
+* Reisetrends
+* Reiseinformationen 
+* Hotelservice
+
+
+
+[.interview:bitmark--]
+[%A23a]
+[!Vertiefen Sie den Wortschatz des Textes.
+Was bedeuten die folgenden Ausdrücke? Erklären Sie sie mit anderen Worten.]
+===
+1. Dafür wird auch wieder **tief in die Tasche** gegriffen.
+===
+[$viel Geld ausgeben]
+===
+2. **die Katze im Sack kaufen**
+===
+[$sich vorher nicht informieren/et- was ungeprüft kaufen/buchen]
+===
+
+
+
+[.match&image]
+[%A23b]
+||img not found||
+[!Was kann man miteinander kombinieren? Ordnen Sie die passenden Verben zu. Arbeiten Sie zu zweit.]
+===
+die Koffer 
+==
+packen[@example]
+===
+in den Urlaub 
+==
+fahren
+===
+Geld
+==
+ausgeben
+===
+über dem europäischen Durchschnitt 
+==
+liegen
+===
+mehr Inlandsreisen 
+==
+planen
+===
+das angenehme Wetter 
+==
+genießen
+--
+nutzen
+===
+den Strandurlaub 
+==
+bevorzugen
+===
+böse Überraschungen 
+==
+erleben
+===
+mobile Angebote 
+==
+nutzen
+===
+sich über verschiede Angebote 
+==
+informieren
+===
+auf Serviceleistungen 
+==
+achten
+===
+auf die Hotelbar Wert 
+==
+legen
+===
+
+
+
+
+
+
+
+[.cloze]
+[%A23c]
+[!Reisen. Ergänzen Sie die Verben: __reisen, bereisen, herumreisen, verreisen__.]
+1. einen Kontinent [_bereisen]
+2. in fremde Länder [_reisen]
+3. in der Urlaubszeit [_verreisen]
+4. in einem fremden Land [_herumreisen]
+
+
+
+[.interview:bitmark--]
+[%A23d]
+[!Bilden Sie aus den vorgegebenen Wörtern Sätze. Achten Sie auf die angegebene Zeitform, eventuell fehlende Präpositionen und den richtigen Kasus.]
+===
+[%*]viele Reisende – die Sehenswürdigkeiten – die Metropolen – besuchen __(Präsens)__[@shortAnswer]
+[@example:Viele Reisende besuchen die Sehenswürdigkeiten in den Metropolen.]
+===
+[%1.]insgesamt – die Anzahl der Städtereisen – die vergangenen fünf Jahre – stark zunehmen __(Perfekt)__[@shortAnswer]
+[_Insgesamt hat die Anzahl der Städtereisen in den vergangenen fünf Jahren stark zugenommen.]
+===
+[%2.]bei den Kreuzfahrten – das Wachstum – vergangenes Jahr – zweistelliger Bereich – liegen __(Präteritum)__[@shortAnswer]
+[_Bei den Kreuzfahrten lag das Wachstum im vergangenen Jahr im zweistelligen Bereich.]
+===
+[%3.]viele Befragte – es – die Ferne – ziehen __(Präsens)__[@shortAnswer]
+[_Viele Befragte zieht es in die Ferne.]
+===
+[%4.]fast alle Urlauber – vor der Reise – mittels verschiedenster Kanäle – das anvisierte Ziel – sich informieren __(Präsens)__[@shortAnswer]
+[_Fast alle Urlauber informieren sich vor der Reise mittels verschiedenster Kanäle über das anvisierte Ziel.]
+===
+[%5.]die Deutschen – Recherche – immer häufiger – mobile Angebote – nutzen __(Präsens)__[@shortAnswer]
+[_Die Deutschen nutzen zur Recherche immer häufiger mobile Angebote.]
+===
+[%6.]die Umfrage – die meisten Urlauber – kostenloses WLAN – vor Ort – am wichtigsten sein __(Präsens)__[@shortAnswer]
+[_Laut Umfrage ist für die meisten Urlauber kostenloses WLAN vor Ort am wichtigsten.]
+===
+
+
+[.assignment:bitmark++]
+[%A24]
+[!Ratschläge zum Thema __Reisen__]
+1. Ihr Gesprächspartner/Ihre Gesprächspartnerin weiß nicht, wohin er/sie dieses Jahr in den Urlaub fahren soll. Versuchen Sie in einem Gespräch seine/ihre Vorlieben bzw. Abneigungen herauszufinden und geben Sie ihm/ihr Ratschläge.
+
+2. Ihr Gesprächspartner/Ihre Gesprächspartnerin ist der Meinung, dass Urlaub zu Hause am schönsten ist. Erzählen Sie ihm/ihr etwas über die Vorteile eines Auslandsurlaubs und versuchen Sie ihn/sie davon zu überzeugen, nächstes Jahr auch ins Ausland zu fahren.
+
+3. Ihr Gesprächspartner/Ihre Gesprächspartnerin hat große Angst vorm Fliegen und kann deshalb keine fernen Länder besuchen. Geben Sie ihm/ ihr Ratschläge, was er/sie gegen die Flugangst tun kann.
+
+4. Ihr Gesprächspartner/Ihre Gesprächspartnerin versteht nicht, dass Menschen Urlaub auf dem Campingplatz machen. Berichten Sie über Urlaub auf dem Campingplatz und versuchen Sie, Ihren Gesprächspartner/Ihre Gesprächspartnerin von dieser Art des Urlaubs zu überzeugen.
+
+<<
+Empfehlungen geben
+* Du solltest .../Sie sollten ...
+* Ich an deiner/Ihrer Stelle würde ...
+* ... kann ich sehr empfehlen.
+* Ich habe gute Erfahrungen gemacht mit ... in ... 
+* Ich rate dir/Ihnen ...
+* Es wäre gut ...<<
+
+
+
+[.essay:bitmark++]
+[%A25a]
+[!Reiseziele
+Beschreiben Sie die folgende Statistik mithilfe der angegebenen Redemittel.]
+
+
+<<Eine Statistik beschreiben
+* Die Statistik zeigt ...
+* Aus der Umfrage geht hervor, dass ... 
+* ... Prozent der Deutschen reisten/fuhren ...
+* Das beliebteste/Ein weiteres beliebtes Reiseziel war/ist ...
+* An der Spitze/Auf Platz ... liegt ...<<
+
+||add img - not found||
+
+
+
+
+
+[.cloze:bitmark--]
+[%A25b]
+[!Ergänzen Sie die fehlenden Präpositionen und die Artikel, falls erforderlich.]
+
+
+**Wohin fahren Sie in Ihrem nächsten Urlaub?**
+[_in die][@example] Schweiz
+[_an die] Mittelmeerküste 
+[_in die] Niederlande 
+[_nach] Schweden
+[_auf die] Insel Hiddensee 
+[_in eine] einsame Hütte 
+[_an den] Nordpol
+[_nach] Peking 
+[_nach] Sibirien
+
+**Wo wollen Sie Ihren nächsten Urlaub verbringen?**
+[_in der][@example] Schweiz
+[_an der] Mittelmeerküste 
+[_in den] Niederlande 
+[_in] Schweden
+[_auf der] Insel Hiddensee 
+[_in einer] einsame Hütte 
+[_am] Nordpol
+[_in] Peking 
+[_in] Sibirien
+
+
+[.internal-link]
+[!Zusatzübungen zu Richtungsangaben ➔ Teil C][►kapitel2c]
+
+
+
+[.assignment:bitmark++]
+[%A26]
+[!Mündlicher Ausdruck: Präsentation]
+Sie sind zu einer Konferenz zum Thema __Reisen erweitert den Blick__ eingeladen.
+Im Rahmen dieser Veranstaltung sollen Sie in einem kleineren Rahmen Ihr Heimatland, eine bestimmte Gegend in Ihrem Heimatland oder eine Stadt vorstellen.
+Halten Sie eine kurze Präsentation. Beschreiben Sie das gewählte Reiseziel und gehen Sie auf Besonderheiten ein. Geben Sie auch Empfehlungen für potenzielle Reisende.
+Nutzen Sie für Ihre Präsentation ausgewählte Redemittel aus der folgenden Übersicht.
+
+
+<<**Präsentation
+Die Präsentation einleiten und strukturieren**
+* Ich würde Ihnen gerne ... vorstellen.
+* Beginnen möchte ich mit ...
+* Danach beschreibe ich .../erzähle ich etwas über ... 
+* Zum Schluss werde ich noch kurz auf ... eingehen. 
+
+**Allgemeines über das Reiseziel berichten**
+* ... liegt in ...
+* Das Klima/Das Wetter ist ...
+* ... hat viele .../verfügt über ...
+* In ... kann man ... erleben/genießen/bewundern/erkunden ...
+* Hier folgt ein kurzer Ausflug/Rückblick in die Geschichte: ...
+
+**Besonderheiten hervorheben**
+* Als Besonderheit gilt ...
+* Etwas ganz Besonderes ist ...
+* ... ist einzigartig.
+
+**Über Erfahrungen berichten/Empfehlungen geben**
+* Aus eigener Erfahrung weiß ich, dass ...
+* Viele Besucher zieht es ...
+* ... ist sehr beliebt bei ...
+* Ich empfehle jedem Besucher, ...
+* Ich war schon in ... und kann ... wärmstens empfehlen.<<
+
+
+
+[.chapter]
+[###Ärger im Urlaub]
+
+[.interview&image]
+[%A27a]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/044-1b-2.png]
+[!Müll und andere Katastrophen
+Was muss passieren, damit der Urlaub zu einer großen Enttäuschung wird? Erarbeiten Sie in Gruppen fünf Beispiele und stellen Sie diese anschließend im Plenum vor.]
+===
+===
+===
+===
+===
+===
+
+
+
+
+[.interview]
+[%A27b]
+[!Interview: Ärger im Urlaub
+Fragen Sie drei Gesprächspartnerinnen/Gesprächspartner und berichten Sie.]
+1. Haben Sie sich im Urlaub schon mal über das Hotel, die Bedingungen am Urlaubsort, die Bedienung im Restaurant, das Essen o. Ä. geärgert?
+2. Haben Sie sich nach dem Urlaub darüber beschwert? Wenn ja, auf welche Weise?
+===
+1. Wer?[@shortAnswer]
+===
+Geärgert? Worüber?
+===
+Beschwert? Wie?
+===
+
+2. Wer?[@shortAnswer]
+===
+Geärgert? Worüber?
+===
+Beschwert? Wie?
+===
+
+3. Wer?[@shortAnswer]
+===
+Geärgert? Worüber?
+===
+Beschwert? Wie?
+===
+
+
+
+
+[.cloze-instruction-grouped]
+[%A28]
+[!Der Urlaub von Marie
+Marie hatte einen schrecklichen Urlaub.
+In einer E-Mail an Paul hat sie ihre Erlebnisse beschrieben. Ergänzen Sie die fehlenden Verben. Achten Sie dabei besonders auf die richtige Zeitform.]
+
+Lieber Paul,
+ich bin aus dem Urlaub zurück und schon wieder urlaubsreif! Die Reise war so katastrophal, dass ich dir gleich darüber [_berichten][!berichten][@example] möchte. Ich hoffe, du	[_hast][!haben](1) Verständnis für diese Art der Bewältigung meines Ärgers.
+Die ganze Reise [_ging][!losgehen](2) schon mal mit einer vierstündigen Verspätung des Fluges [_los](2). Am Urlaubsort musste ich noch ungefähr eine Stunde auf ein Taxi [_warten][!warten](3) und [_kam][!ankommen](4) dann ziemlich müde im Hotel [_an](4). Wie du weißt, hatte ich ein 5-Sterne-Hotel mit Halbpension [_gebucht][!buchen](5). Das Hotel sollte nur wenige Minuten vom Stadtzentrum entfernt sein und direkt am Strand [_liegen][!liegen](6). Auf der Website des Reiseveranstalters waren ein großer Pool, ein Tennisplatz und ein sehr gemütlich wirkendes Hotelrestaurant zu sehen. Wir haben es uns zusammen [_angesehen][!ansehen](7), erinnerst du dich noch daran?
+Du kannst dir nicht [_vorstellen][!vorstellen](8), wie unsere Unterkunft in Wirklichkeit [_aussah][!aussehen](9)! Das Zimmer	war so klein wie eine Besenkammer und die Wände vermutlich seit 20 Jahren nicht [_gestrichen][!streichen](10) worden. Der Kühlschrank war kaputt und im Bad [_gab][!geben](11) es zum Zähneputzen und Duschen nur kaltes Wasser. Ich hasse kaltes Wasser! Im hoteleigenen Swimmingpool [_reparierte][!reparieren](12) jemand die Fliesen, er war also leer.
+Wer baden wollte, [_musste][!müssen](13) an den Strand gehen, aber der war total überfüllt. Natürlich wollten alle anderen Leute auch die Sonne und das Meer [_genießen][!genießen](14). Der Abstand zwischen den Personen [_betrug][!betragen](15) vielleicht 30 Zentimeter und ich habe mich irgendwie dazwischengedrängelt. Abends kam dann die nächste Überraschung. Um einen Platz im Restaurant zu bekommen, [_stand][!stehen](16) ich fast eine Stunde in einer Warteschlange. Dabei ist mir meist der Appetit vergangen.
+Als ich mich nach dem Tennisplatz [_erkundigte][!erkundigen](17), stellte sich heraus, dass der zum Nachbarhotel [_gehörte][!gehören](18) und man ihn nur gegen eine sehr hohe Gebühr [_benutzen][!benutzen](19) durfte.
+Das ist doch unglaublich, oder? Das fünf Kilometer entfernt liegende historische Stadtzentrum habe ich nicht [_besichtigt][!besichtigen](20). Es [_fuhren][!fahren](21) keine Busse und ich hatte keine Lust, zu laufen oder ein Taxi zu nehmen.
+Ich bin froh, dass ich wieder zu Hause bin. Jetzt [_erhole][!erholen](22) ich mich erst einmal und dann [_verfasse][!verfassen](23) ich eine Beschwerdemail an den Reiseveranstalter und die Fluggesellschaft. Melde dich mal wieder.
+
+Mit lieben Grüßen 
+Marie
+
+
+
+[.essay&article-attachment]
+[%A29]
+[!Eine Beschwerdemail
+Ihnen ist im Urlaub etwas Ähnliches passiert. Schreiben Sie eine E-Mail an den Reiseveranstalter INTERREISE und berichten Sie über die Probleme, die Sie im Urlaub hatten, bzw. die Mängel, die im Hotel aufgetreten sind. Fordern Sie einen Teil Ihres Geldes zurück.]
+
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/beschweren.png]
+<<Sich beschweren
+* Ich möchte mich/Wir möchten uns beschweren über ...
+* Wir waren nicht in vollem Maße zufrieden/sehr unzufrieden mit ...
+* Von/Vom ... waren wir ziemlich enttäuscht./... hat uns enttäuscht.
+* Von/Vom ... hätten wir etwas anderes/mehr erwartet.
+* ... entsprach nicht meinen/unseren Erwartungen.
+* ... mir/uns ... Prozent des gezahlten Betrages zu erstatten/zurückzuzahlen.<<
+
+**Anrede und Gruß in formellen E-Mails:**
+Anrede: __Sehr geehrte Damen und Herren, __
+Gruß: __Mit freundlichen Grüßen__
+
+
+
+
+
+[.assignment:bitmark++]
+[%A30]
+[!Nichts als Ärger
+Spielen Sie Dialoge. Sie beschweren sich, Ihr Ansprechpartner bemüht sich um eine Lösung.]
+
+<<**Auf dem Flughafen** (Tourist – Flughafenangestellter)
+* Ihr Gepäck ist nicht angekommen.
+* Sie können Ihren Koffer nicht finden. Ein anderer Reisender
+hat vermutlich Ihren Koffer mitgenommen, denn auf dem Band bleibt ein ähnlicher Koffer zurück.
+
+**Auf der Polizei** (Tourist – Polizeibeamter) 
+* Bei der Stadtbesichtigung wurde Ihr Portemonnaie gestohlen.
+* Sie haben Ihren Ausweis verloren.
+
+**Im Restaurant** (Tourist – Kellner)
+* Die Vorspeise und das Hauptgericht sind kalt.
+* Der Kellner hat die Getränke doppelt berechnet.
+
+**Im Hotel** (Tourist – Rezeptionistin)
+* Ihr Zimmer liegt zur Straße. Sie können nachts nicht schlafen. 
+* Im Zimmer ist kein Fernseher, obwohl es im Katalog angegeben war.<<
+
+
+
+[.cloze:bitmark--]
+[%A31a]
+[!Fluggastrechte
+Sie lesen in einer Zeitschrift einen Artikel über Fluggastrechte. Welche Sätze passen in die Lücken 1 bis 8? Zwei Sätze passen nicht. Arbeiten Sie zu zweit. Vergleichen Sie danach Ihre Lösungen mit anderen Kursteilnehmern.]
+
+**Ärger beim Fliegen**
+Über vier Milliarden Menschen sind jährlich mit dem Flugzeug unterwegs, Tendenz steigend. In Deutschland gilt das Flugzeug bei Urlaubsreisen als das beliebteste Verkehrsmittel, das sicherste ist es sowieso. Doch gerade zur Urlaubszeit steigt das Verkehrsaufkommen an den Flughäfen. [_g][@example] Für Urlaubsreisende ist dies besonders ärgerlich, denn lange Wartezeiten bedeuten gleichzeitig verlorene Urlaubszeit (1)[_b] Gegen Stress und Ärger auf dem Flughafen helfen dann nur noch eine gewisse Gelassenheit und das Wissen über die Rechte von Fluggästen. (2)[_c]
+In dieser EU-Verordnung wird beschrieben, welche Ausgleichs- und Versorgungsleistungen Passagieren bei großen Verspätungen, bei Nichtbeförderungen, Überbuchungen und Annullierungen von Flügen zustehen.
+(3)[_e] Die Betreuungsleistung beinhaltet zum Beispiel die Versorgung mit Essen und Getränken oder eine Hotelübernachtung einschließlich Transfer vom und zum Flughafen. Einen finanziellen Ausgleich erhalten Passagiere bei Verspätungen von über drei Stunden am Zielort. (4)[_a] Bei Flugstrecken bis zu 1 500 km besteht ein Anspruch auf 250 Euro, bei einer Distanz von 1 500 bis 3 500 km bekommt der Fluggast 400 Euro, bei über 3 500 km sind es 600 Euro. Dabei spielt es keine Rolle, ob es sich um einen Linienflug, Charterflug oder einen Flug innerhalb einer Pauschalreise (Flug und Hotel) handelt.
+Der Anspruch auf Ausgleichszahlung gilt für alle Flüge, die innerhalb der EU starten oder von einer europäischen Fluggesellschaft durchgeführt werden. Und hier wird es auch schon schwierig: (5)[_k] Bucht man die gleiche Reise mit einer türkischen Fluggesellschaft, fällt nur der Flug von Frankfurt unter diese Regelung.
+(6)[_i] Wer zum Beispiel nach einer Verspätung oder einem Flugausfall sein Reiserecht bei einer europäischen Fluggesellschaft geltend machen möchte, kann auf Schwierigkeiten stoßen. (7)[_j] Einige Fluggesellschaften haben ihre Kontaktdaten für den Reklamationsfall auf ihren Websites so gut versteckt, dass man sie nur mit Mühe findet. Hat man sie nach langem Suchen entdeckt, ist der Kundenservice per Telefon nicht erreichbar oder die E-Mails werden nicht beantwortet. (8)[_d] Sie schieben die Verspätung gern auf außergewöhnliche Umstände wie Streiks oder das Wetter. So kann es sein, dass man sich nicht nur über die Verspätung, sondern auch noch über das Verhalten der Fluggesellschaft im Reklamationsfall ärgert.
+[@reference: Nach: Flightright Online, Zugriff: 4.1.2019 https://www.flightright.de/ihre-rechte/]
+
+a. Die Höhe der Zahlung hängt von der Flugdistanz ab.
+b. Viele Passagiere sind demzufolge schon vor dem Abflug genervt.
+c. Die Fluggastrechte für die Europäische Union sind in der Verordnung (EG) Nr. 261/2004 geregelt.
+d. Nicht selten verschweigen die Airlines den wahren Verspätungsgrund.
+e. Zunächst haben die Passagiere Anspruch auf Betreuung und Unterstützung am Flughafen.
+f. Die Rechte von Fluggästen spielen keine Rolle. 
+g. Es kommt gehäuft zu Verspätungen oder Flugausfällen.
+h. Die Urlaubsfreude ist groß.
+i. Aber recht haben bedeutet nicht immer recht bekommen.
+j. Die erste Hürde ist der Ansprechpartner.
+k. Bei einem Hinund Rückflug Frankfurt–Istanbul mit einer deutschen Fluggesellschaft gilt die EU-Verordnung im Verspätungsfall für beide Flüge.
+
+
+[.multiple-choice&article-attachment]
+[%A31b]
+[!Lesen Sie den Text noch einmal. Kreuzen Sie die richtige Lösung an.]
+===
+[!1. Die Verordnung (EG) Nr. 261/2004]
+[-a) regelt die Rechte von europäischen Fluggästen. ]
+[+b) beschreibt die Leistungen, die Fluggästen z. B. im Verspätungsfall zustehen.]
+[-c) sichert Fluggästen ein Recht auf Versorgung]
+[-d) auf dem Flughafen zu.]
+===
+[!2. Die Verordnung gilt]
+[-a) für alle Flüge, die in Europa starten oder landen. ]
+[-b) nur für Flüge von europäischen Fluggesellschaften.]
+[+c) für alle Flüge, die in Europa starten, und alle Flüge von europäischen Fluggesellschaften.]
+===
+[!3. Im Verspätungsfall ist die Höhe der Ausgleichszahlung abhängig von]
+[-a) der Verspätungszeit beim Start.]
+[-b) der Verspätungszeit am Zielort.]
+[+c) der Flugdistanz.]
+===
+[!4. Fluggesellschaften]
+[-a) reagieren auf Reklamationen in jedem Fall.]
+[+b) brauchen unter bestimmten Umständen nichts zu zahlen.]
+[-c) müssen bei allen Verspätungen über drei Stunden einen Ausgleich zahlen.]
+===
+ 
+[.article-attachment:bitmark++]
+**Ärger beim Fliegen**
+Über vier Milliarden Menschen sind jährlich mit dem Flugzeug unterwegs, Tendenz steigend. In Deutschland gilt das Flugzeug bei Urlaubsreisen als das beliebteste Verkehrsmittel, das sicherste ist es sowieso. Doch gerade zur Urlaubszeit steigt das Verkehrsaufkommen an den Flughäfen. Es kommt gehäuft zu Verspätungen oder Flugausfällen. Für Urlaubsreisende ist dies besonders ärgerlich, denn lange Wartezeiten bedeuten gleichzeitig verlorene Urlaubszeit Viele Passagiere sind demzufolge schon vor dem Abflug genervt. Gegen Stress und Ärger auf dem Flughafen helfen dann nur noch eine gewisse Gelassenheit und das Wissen über die Rechte von Fluggästen. Die Fluggastrechte für die Europäische Union sind in der Verordnung (EG) Nr. 261/2004 geregelt.
+In dieser EU-Verordnung wird beschrieben, welche Ausgleichs- und Versorgungsleistungen Passagieren bei großen Verspätungen, bei Nichtbeförderungen, Überbuchungen und Annullierungen von Flügen zustehen.
+Zunächst haben die Passagiere Anspruch auf Betreuung und Unterstützung am Flughafen. Die Betreuungsleistung beinhaltet zum Beispiel die Versorgung mit Essen und Getränken oder eine Hotelübernachtung einschließlich Transfer vom und zum Flughafen. Einen finanziellen Ausgleich erhalten Passagiere bei Verspätungen von über drei Stunden am Zielort. Die Höhe der Zahlung hängt von der Flugdistanz ab. Bei Flugstrecken bis zu 1 500 km besteht ein Anspruch auf 250 Euro, bei einer Distanz von 1 500 bis 3 500 km bekommt der Fluggast 400 Euro, bei über 3 500 km sind es 600 Euro. Dabei spielt es keine Rolle, ob es sich um einen Linienflug, Charterflug oder einen Flug innerhalb einer Pauschalreise (Flug und Hotel) handelt.
+Der Anspruch auf Ausgleichszahlung gilt für alle Flüge, die innerhalb der EU starten oder von einer europäischen Fluggesellschaft durchgeführt werden. Und hier wird es auch schon schwierig: Bei einem Hin- und Rückflug Frankfurt–Istanbul mit einer deutschen Fluggesellschaft gilt die EU-Verordnung im Verspätungsfall für beide Flüge. Bucht man die gleiche Reise mit einer türkischen Fluggesellschaft, fällt nur der Flug von Frankfurt unter diese Regelung.
+Aber recht haben bedeutet nicht immer recht bekommen. Wer zum Beispiel nach einer Verspätung oder einem Flugausfall sein Reiserecht bei einer europäischen Fluggesellschaft geltend machen möchte, kann auf Schwierigkeiten stoßen. Die erste Hürde ist der Ansprechpartner. Einige Fluggesellschaften haben ihre Kontaktdaten für den Reklamationsfall auf ihren Websites so gut versteckt, dass man sie nur mit Mühe findet. Hat man sie nach langem Suchen entdeckt, ist der Kundenservice per Telefon nicht erreichbar oder die E-Mails werden nicht beantwortet. Nicht selten verschweigen die Airlines den wahren Verspätungsgrund. Sie schieben die Verspätung gern auf außergewöhnliche Umstände wie Streiks oder das Wetter. So kann es sein, dass man sich nicht nur über die Verspätung, sondern auch noch über das Verhalten der Fluggesellschaft im Reklamationsfall ärgert.
+
+
+
+
+
+[.cloze:bitmark--]
+[%A31c]
+[!Bilden Sie aus den Verben Nomen auf __-ung__.]
+Der Abflug verspätet sich. [_die Verspätung][@example]
+1. Der Flug ist überbucht. [_die Überbuchung]
+2. Die Airline führt einen Flug durch. [_die Durchführung]
+3. Die Passagiere werden betreut. [_die Betreuung]
+4. Fluggäste werden nicht befördert. [_die Beförderung]
+5. Ein Flug wird annulliert. [_die Annullierung]
+6. Jemand wird unterstützt. [_die Unterstützung]
+7. Etwas wird gesetzlich geregelt. die gesetzliche [_Regelung]
+8. Ein Ausgleich wird gezahlt. die Ausgleichs[_zahlung]
+
+
+
+
+
+[.cloze-instruction-grouped:bitmark--]
+[!Ergänzen Sie die Verben in der richtigen Form und unterstreichen Sie wichtige Wendungen zum Thema __Fluggastrechte__.]
+[%A31d]
+* Die EU hat die Rechte von Fluggästen in einer Verordnung [_geregelt][!regeln][@example]
+1. Den Passagieren [_stehen][!zustehen], z. B. bei großen Verspätungen, Ausgleichs- und Versorgungsleistungen [_zu]. 
+2. Die Passagiere  [_haben][!haben] Anspruch auf Betreuung und Unterstützung am Flughafen.
+3. Einen finanziellen Ausgleich [_erhalten][!erhalten] Passagiere bei Verspätungen von über drei Stunden am Zielort.
+4. Die Höhe der Zahlung [_hängt][!abhängen] von der Flugdistanz [_ab].
+5. Bei Flugstrecken bis zu 1 500 km [_besteht][!bestehen] ein Anspruch auf 250 Euro.
+6. Der Anspruch auf Ausgleichszahlung [_gilt][!gelten] für alle Flüge von europäischen Fluggesellschaften.
+7. Flüge nichteuropäischer Airlines, die außerhalb Europas [_starten][!starten], [_fallen][!fallen]  nicht unter diese Regelung.
+8. Wer sein Reiserecht geltend [_macht][!machen], [_stößt][!stoßen] manchmal auf Schwierigkeiten.
+9. Fluggesellschaften [_schieben][!schieben] die Verspätung gerne auf außergewöhnliche Umstände.
+
+
+
+
+
+[.essay]
+[%A31e]
+[!E-Mail an eine Fluggesellschaft]
+Sie sind mit einer deutschen Fluggesellschaft von Berlin nach Porto (Entfernung Luftlinie 2 085 km) und wieder zurückgeflogen. Die Maschine hatte auf dem Hinflug drei Stunden und zehn Minuten Verspätung. Die Gesellschaft hat keinen Grund für die Verspätung angegeben.
+Schreiben Sie eine E-Mail an die Airline und fordern Sie eine Ausgleichszahlung.
+
+
+
+
+[.cloze-and-multiple-choice-text:bitmark--]
+[%A32a]
+[!Reisebedingungen
+Sie haben bei einem Reiseveranstalter eine Pauschalreise gebucht.
+Lesen Sie die Allgemeinen Reisebedingungen und wählen Sie zu den Punkten 1 bis 6 die passenden Überschriften.]
+
+**◼︎ Auszug aus den Allgemeinen Reisebedingungen**
+[-Mitwirkungspflicht des Reisenden][-Umbuchungen][-Rücktrittsmöglichkeiten des Reiseveranstalters][-Rücktritt und Stornokosten][-Beschränkung der Haftung][-Preiserhöhung][+Bezahlung][-Leistungsveränderungen ][-Datenschutz][-Abschluss des Vertrages][@example]
+Anzahlung und Restzahlung des Reisepreises erfolgen vor Reiseantritt ausschließlich an den Reiseveranstalter und nicht an den Reisevermittler bzw. das Reisebüro. Leistet der Kunde die Anzahlung und/oder die Restzahlung nicht zum vereinbarten Termin, so ist der Reiseveranstalter nach Mahnung des Kunden berechtigt, vom Reisevertrag zurückzutreten und ihm Rücktrittskosten in Rechnung zu stellen. 
+[-Mitwirkungspflicht des Reisenden][-Umbuchungen][-Rücktrittsmöglichkeiten des Reiseveranstalters][-Rücktritt und Stornokosten][-Beschränkung der Haftung][-Preiserhöhung][-Bezahlung][+Leistungsveränderungen ][-Datenschutz][-Abschluss des Vertrages]
+Anpassungen von Reiseleistungen seitens des Reiseveranstalters, die nach Vertragsabschluss aus unterschiedlichen Gründen notwendig werden können, sind nur gestattet, wenn die Änderungen die Gesamtleistung der Reise nicht erheblich beeinträchtigen. Der Reiseveranstalter ist verpflichtet, den Kunden über wesentliche Leistungsänderungen unverzüglich nach Kenntnis zu informieren und ihm den Änderungsgrund mitzuteilen. 
+[-Mitwirkungspflicht des Reisenden][-Umbuchungen][-Rücktrittsmöglichkeiten des Reiseveranstalters][-Rücktritt und Stornokosten][-Beschränkung der Haftung][+Preiserhöhung][-Bezahlung][-Leistungsveränderungen ][-Datenschutz][-Abschluss des Vertrages]
+Der Reiseveranstalter behält sich das Recht vor, den im Reisevertrag vereinbarten Preis im Falle einer nachträglichen Erhöhung der Beförderungskosten durch die ausführende Airline oder der Abgaben für Leistungen wie Hafen- oder Flughafengebühren anzupassen.
+[-Mitwirkungspflicht des Reisenden][-Umbuchungen][-Rücktrittsmöglichkeiten des Reiseveranstalters][+Rücktritt und Stornokosten][-Beschränkung der Haftung][-Preiserhöhung][-Bezahlung][-Leistungsveränderungen ][-Datenschutz][-Abschluss des Vertrages]
+Der Kunde kann jederzeit vor Reisebeginn von der Reise zurücktreten. Der Rücktritt ist gegenüber dem Reiseveranstalter in schriftlicher Form zu erklären.
+Der Reiseveranstalter hat in diesem Fall Anspruch auf eine angemessene Entschädigung für seine Aufwendungen in Abhängigkeit vom Zeitpunkt des Rücktritts. Bei einer Absage bis 10 Tage vor Reiseantritt sind 80 Prozent des Reisepreises fällig.
+[-Mitwirkungspflicht des Reisenden][+Umbuchungen][-Rücktrittsmöglichkeiten des Reiseveranstalters][-Rücktritt und Stornokosten][-Beschränkung der Haftung][-Preiserhöhung][-Bezahlung][-Leistungsveränderungen ][-Datenschutz][-Abschluss des Vertrages]
+Nach Vertragsabschluss hat der Kunde in der Regel kein Recht auf Änderungen des Reisetermins, des Reiseziels, der Unterkunft oder der Beförderungsart. Werden die Änderungswünsche des Kunden dennoch berücksichtigt, kann der Reiseveranstalter zusätzliche Kosten geltend machen.
+[+Mitwirkungspflicht des Reisenden][-Umbuchungen][-Rücktrittsmöglichkeiten des Reiseveranstalters][-Rücktritt und Stornokosten][-Beschränkung der Haftung][-Preiserhöhung][-Bezahlung][-Leistungsveränderungen ][-Datenschutz][-Abschluss des Vertrages]
+Stellt der Kunde während der Reise Mängel fest, so kann er die Beseitigung der Mängel verlangen. Der Reisende ist aber verpflichtet, dem Reiseveranstalter die Mängel unverzüglich anzuzeigen. Erfolgt die Mängelanzeige am Urlaubsort nicht, hat der Reisende keinen Anspruch auf Minderung des Reisepreises.
+[-Mitwirkungspflicht des Reisenden][-Umbuchungen][-Rücktrittsmöglichkeiten des Reiseveranstalters][-Rücktritt und Stornokosten][+Beschränkung der Haftung][-Preiserhöhung][-Bezahlung][-Leistungsveränderungen ][-Datenschutz][-Abschluss des Vertrages]
+Reisende haben nur einen Anspruch auf Ausgleichszahlung für Schäden, wenn der Reiseveranstalter dafür allein verantwortlich ist. Mögliche darüber hinausgehende Ansprüche bei Fremdleistungen, zum Beispiel bei Flugverspätungen, übernimmt der Reiseveranstalter nicht.
+[@reference:Nach: Hurtigruten Online, Zugriff: 4.1.2019 https://www.hurtigruten.de/praktische-informationen/]
+
+||change instruction, why doesn't the bit work?||
+
+
+
+[.essay:bitmark--]
+[%A32b]
+[!Lesen Sie den Text noch einmal und notieren Sie wichtige Redemittel aus dem Reiserecht.]
+** Auszug aus den Allgemeinen Reisebedingungen**
+
+**Bezahlung**
+Anzahlung und Restzahlung des Reisepreises erfolgen vor Reiseantritt ausschließlich an den Reiseveranstalter und nicht an den Reisevermittler bzw. das Reisebüro. Leistet der Kunde die Anzahlung und/oder die Restzahlung nicht zum vereinbarten Termin, so ist der Reiseveranstalter nach Mahnung des Kunden berechtigt, vom Reisevertrag zurückzutreten und ihm Rücktrittskosten in Rechnung zu stellen. 
+
+**Leistungsveränderungen**
+Anpassungen von Reiseleistungen seitens des Reiseveranstalters, die nach Vertragsabschluss aus unterschiedlichen Gründen notwendig werden können, sind nur gestattet, wenn die Änderungen die Gesamtleistung der Reise nicht erheblich beeinträchtigen. Der Reiseveranstalter ist verpflichtet, den Kunden über wesentliche Leistungsänderungen unverzüglich nach Kenntnis zu informieren und ihm den Änderungsgrund mitzuteilen. 
+
+**Preiserhöhung**
+Der Reiseveranstalter behält sich das Recht vor, den im Reisevertrag vereinbarten Preis im Falle einer nachträglichen Erhöhung der Beförderungskosten durch die ausführende Airline oder der Abgaben für Leistungen wie Hafen- oder Flughafengebühren anzupassen.
+
+**Rücktritt und Stornokosten**
+Der Kunde kann jederzeit vor Reisebeginn von der Reise zurücktreten. Der Rücktritt ist gegenüber dem Reiseveranstalter in schriftlicher Form zu erklären.
+Der Reiseveranstalter hat in diesem Fall Anspruch auf eine angemessene Entschädigung für seine Aufwendungen in Abhängigkeit vom Zeitpunkt des Rücktritts. Bei einer Absage bis 10 Tage vor Reiseantritt sind 80 Prozent des Reisepreises fällig.
+
+**Umbuchungen**
+Nach Vertragsabschluss hat der Kunde in der Regel kein Recht auf Änderungen des Reisetermins, des Reiseziels, der Unterkunft oder der Beförderungsart. Werden die Änderungswünsche des Kunden dennoch berücksichtigt, kann der Reiseveranstalter zusätzliche Kosten geltend machen.
+
+**Mitwirkungspflicht des Reisenden**
+Stellt der Kunde während der Reise Mängel fest, so kann er die Beseitigung der Mängel verlangen. Der Reisende ist aber verpflichtet, dem Reiseveranstalter die Mängel unverzüglich anzuzeigen. Erfolgt die Mängelanzeige am Urlaubsort nicht, hat der Reisende keinen Anspruch auf Minderung des Reisepreises.
+
+**Beschränkung der Haftung**
+Reisende haben nur einen Anspruch auf Ausgleichszahlung für Schäden, wenn der Reiseveranstalter dafür allein verantwortlich ist. Mögliche darüber hinausgehende Ansprüche bei Fremdleistungen, zum Beispiel bei Flugverspätungen, übernimmt der Reiseveranstalter nicht.
+
+
+
+
+
+[.match]
+[%A32c]
+[!Was passt? Ordnen Sie zu.]
+===
+eine Anzahlung 
+==
+leisten[@example]
+===
+vom Reisevertrag 
+==
+zurücktreten
+===
+den vereinbarten Preis 
+==
+bezahlen
+===
+kein Recht auf Änderungen 
+==
+haben
+===
+jemanden über einen Änderungsgrund 
+==
+informieren
+===
+Mängel 
+==
+feststellen
+===
+die Beseitigung der Mängel 
+==
+verlangen
+===
+Änderungswünsche 
+==
+berücksichtigen
+===
+jemandem entstandene Kosten in Rechnung 
+==
+stellen
+===
+
+
+
+
+[.chapter]
+[##Teil B]
+
+[.chapter]
+[###Hotels]
+
+[.assignment:bitmark--&image]
+[%B1]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/zahlen_141_auf_blau_schildchen-frei.png]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/pict0202-bea.png]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/pict0202-bea.png]
+[!Von der Herberge zum Luxushotel Lesen Sie den folgenden Text.]
+**Eine kleine Hotel-Geschichte**
+Schon im alten Griechenland bildete sich ein Gewerbe heraus, das von der Beherbergung Fremder lebte. Es genoss jedoch keinen guten Ruf, da die weit auseinander gelegenen Herbergen nur minimalen Standard boten. Reisende mussten ihre eigenen Lebensmittel, ihr Geschirr und das Bettzeug mitbringen.
+Im antiken Rom war es schon wesentlich komfortabler. Es gab bereits detaillierte Herbergsverzeichnisse, die darüber Auskunft gaben, ob eine Herberge beispielsweise ein angeschlossenes Schwimmbad besaß. In speziellen Landkarten für Reisende waren Unterbringungsmöglichkeiten markiert und entsprechend ihrer Ausstattung klassifiziert.
+In Nordeuropa waren die Gaststätten und Herbergen noch im Mittelalter ausgesprochen primitiv. Statt in Betten mussten die Reisenden auf Stroh1 liegen, das oft von Ungeziefer2 wimmelte. Oft teilten sich mehr als zehn Fremde ein gemeinsames Lager und rückten in kalten Nächten eng zusammen, um sich zu wärmen. Adlige Reisende und die gehobene Bürgerschaft suchten solche Herbergen nicht auf. Sie kamen in den Klöstern3 unter oder residierten standesgemäß bei befreundeten Familien.
+Erst im 17. Jahrhundert entstanden in Frankreich Übernachtungsmöglichkeiten, die auch Adligen und der gehobenen Bürgerschaft standesgemäße Unterkunft bieten konnten: sogenannte Hotels.
+Auch in Deutschland und Großbritannien begannen sich solche luxuriösen Alternativen zu den einfachen Herbergen herauszubilden, allerdings hießen sie in Deutschland anfangs meist nicht Hotel, sondern Hof.
+Ab 1820 blühten die Kurreisen4. Die oberen und mittleren Bürgerschichten reisten mit Kindern, Bediensteten und viel Gepäck einige Wochen aufs Land. Nur Reiche konnten sich diesen Luxus leisten. Mit der Kurreise entstanden auch die Kurhotels, in Deutschland vor allem in Baden-Baden und Wiesbaden. Die prächtigsten unter ihnen waren Grand-Hotels. Zu den Grand-Hotels, die sich bis heute ihren großen Ruf erhalten haben, gehören das Ritz in Paris, das Waldorf-Astoria in New York, das Savoy in London und das Adlon in Berlin. Sie stehen für Eleganz und Komfort, Repräsentanz und gesellschaftliche Bestätigung. 
+Nach dem Zweiten Weltkrieg bildeten sich große internationale Hotelketten heraus. Die meisten waren amerikanische Unternehmen, darunter Hyatt, Marriott und Hilton. Die Hotelketten führten zu einer großen Veränderung auf dem Hotelmarkt: Sie führten Standards bezüglich des Services und der Ausstattung ein. „Hier weiß man, was man bekommt“ – das traf oft auch auf die Architektur der Hotels zu, die überwiegend im nüchternen, kastenförmigen Baustil der 1960er- und 1970er-Jahre erbaut wurden.
+[@reference: Eine kleine Hotelgeschichte. Planet Wissen (Christine Buth)
+In: http://www.planet-wissen.de/gesellschaft]
+
+
+
+
+
+
+[.multiple-choice&article-attachment]
+[%B2a]
+[!Textarbeit
+Entscheiden Sie, welche der Antworten a), b) oder c) passt. Es gibt jeweils nur eine richtige Lösung.]
+===
+[!1. Die Unterkünfte im alten Griechenland]
+[-a) waren überall beliebt.]
+[+b) waren sehr einfach.]
+[-c) fand man nur in Großstädten.]
+===
+[!2. In Nordeuropa]
+[+a) mussten die Reisenden im Mittelalter zusammen auf Stroh schlafen.]
+[-b) gab es schon früh einen Reiseatlas.]
+[-c) mussten Adlige mit anderen Reisenden in einem Zimmer übernachten.]
+===
+[!3. Ab 1820]
+[-a) konnten alle Leute reisen.]
+[+b) entstanden mit den Kurreisen auch die großen Grand-Hotels.]
+[-c) reisten hauptsächlich die adligen Familien.]
+===
+[!4. Die großen internationalen Hotelketten]
+[-a) haben eine individualistische Architektur.]
+[-b) gab es in den 1960er- und 1970er-Jahren nur in Amerika.]
+[+c) bezeichnen eine Trendwende hinsichtlich der Servicestandards.]
+===
+
+
+[.article-attachment:bitmark++]
+**Eine kleine Hotel-Geschichte**
+Schon im alten Griechenland bildete sich ein Gewerbe heraus, das von der Beherbergung Fremder lebte. Es genoss jedoch keinen guten Ruf, da die weit auseinander gelegenen Herbergen nur minimalen Standard boten. Reisende mussten ihre eigenen Lebensmittel, ihr Geschirr und das Bettzeug mitbringen.
+Im antiken Rom war es schon wesentlich komfortabler. Es gab bereits detaillierte Herbergsverzeichnisse, die darüber Auskunft gaben, ob eine Herberge beispielsweise ein angeschlossenes Schwimmbad besaß. In speziellen Landkarten für Reisende waren Unterbringungsmöglichkeiten markiert und entsprechend ihrer Ausstattung klassifiziert.
+In Nordeuropa waren die Gaststätten und Herbergen noch im Mittelalter ausgesprochen primitiv. Statt in Betten mussten die Reisenden auf Stroh1 liegen, das oft von Ungeziefer2 wimmelte. Oft teilten sich mehr als zehn Fremde ein gemeinsames Lager und rückten in kalten Nächten eng zusammen, um sich zu wärmen. Adlige Reisende und die gehobene Bürgerschaft suchten solche Herbergen nicht auf. Sie kamen in den Klöstern3 unter oder residierten standesgemäß bei befreundeten Familien.
+Erst im 17. Jahrhundert entstanden in Frankreich Übernachtungsmöglichkeiten, die auch Adligen und der gehobenen Bürgerschaft standesgemäße Unterkunft bieten konnten: sogenannte Hotels.
+Auch in Deutschland und Großbritannien begannen sich solche luxuriösen Alternativen zu den einfachen Herbergen herauszubilden, allerdings hießen sie in Deutschland anfangs meist nicht Hotel, sondern Hof.
+Ab 1820 blühten die Kurreisen4. Die oberen und mittleren Bürgerschichten reisten mit Kindern, Bediensteten und viel Gepäck einige Wochen aufs Land. Nur Reiche konnten sich diesen Luxus leisten. Mit der Kurreise entstanden auch die Kurhotels, in Deutschland vor allem in Baden-Baden und Wiesbaden. Die prächtigsten unter ihnen waren Grand-Hotels. Zu den Grand-Hotels, die sich bis heute ihren großen Ruf erhalten haben, gehören das Ritz in Paris, das Waldorf-Astoria in New York, das Savoy in London und das Adlon in Berlin. Sie stehen für Eleganz und Komfort, Repräsentanz und gesellschaftliche Bestätigung. 
+Nach dem Zweiten Weltkrieg bildeten sich große internationale Hotelketten heraus. Die meisten waren amerikanische Unternehmen, darunter Hyatt, Marriott und Hilton. Die Hotelketten führten zu einer großen Veränderung auf dem Hotelmarkt: Sie führten Standards bezüglich des Services und der Ausstattung ein. „Hier weiß man, was man bekommt“ – das traf oft auch auf die Architektur der Hotels zu, die überwiegend im nüchternen, kastenförmigen Baustil der 1960er- und 1970er-Jahre erbaut wurden.
+
+
+
+
+||[.match-all]||
+[.match]
+[%B2b]
+[!Wortschatz: Suchen Sie jeweils zwei Synonyme.
+Achtung: Nicht alle vorgegebenen Wörter können verwendet werden.]
+hauptsächlich * der kleinste Teil * Ausstattung * Unterbringung * Hotel * logieren * weitgehend * residieren * angesehen sein * Unterbringungsmöglichkeit * einen guten Namen haben * nicht akzeptiert werden * essen * Bürogebäude * Übernachtung * Kneipe
+===
+[%1.]Beherbergung 
+==
+Unterbringung
+--
+Übernachtung
+===
+[%2.]Herberge 
+==
+Hotel
+--
+Unterbringungsmöglichkeit
+===
+[%3.]übernachten 
+==
+logieren
+--
+residieren
+===
+[%4.]überwiegend 
+==
+hauptsächlich
+--
+weitgehend
+===
+[%5.]einen guten Ruf haben 
+==
+einen guten Namen haben
+--
+angesehen sein
+===
+
+
+
+
+[.assignment&article-attachment]
+[%B3a]
+[!Hotels mit besonderer Note
+Herzlichen Glückwunsch! Sie haben eine Reise für vier Tage nach Deutschland gewonnen.
+Lesen Sie die Kurzinformationen.]
+[.article-attachment:bitmark++]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/hotel_leipziger_hof.png]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/kugel_und_kette_angeh_ngt_zu_str_fling_bein_1-sw.png]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/kugel_und_kette_angeh_ngt_zu_str_fling_bein_1-sw.png]
+**1. Galerie Hotel Leipziger Hof – Hier schlafen Sie mit einem Original!**
+72 komfortable, gemütliche Gästezimmer mit Originalarbeiten Leipziger Künstler warten auf Sie. Alle Zimmer – auch die kleinen – sind mit Bad, WC, Fön, Minibar, Telefon, Fax- und Internetanschluss und mit großen Schreibtischen ausgestattet. Raucher- und Nichtraucherzimmer auf Wunsch. Der Sammler, Klaus Eberhard, ist Gründer und Eigentümer dieses originellen Leipziger Hotels. Er hat Gemälde, Zeichnungen und Grafiken aus den 1980er- und 1990er-Jahren bis zum heutigen Tage zusammengetragen. Hinzugekommen sind ebenso Arbeiten früherer Epochen bis zu den 1920er-Jahren. Die Werke spiegeln vielfältige künstlerische Ansätze wider, die meisten von ihnen sind der sogenannten __Leipziger Schule__ zuzuordnen.
+
+**2. Hotel Alcatraz „Haben Sie noch eine Zelle frei?“ **
+Früher logierten die Gäste auf Staatskosten im „Hotel Alcatraz“, zwar nicht freiwillig, dafür aber inklusive Vollpension und Morgensport. Im ehemaligen Gefängnis von Kaiserslautern können jetzt Hotelgäste schlummern, für 49 Euro pro Übernachtung inklusive Zellenpyjama, Gefängnisfrühstück und Blick aufs kleine Gitterfenster.
+Hier erleben die Besucher das richtige Gefängnis-Feeling! Die Zellen verfügen über ein originalgetreues Gefängnisbett, ein Waschbecken und eine Toilette. Die Gemeinschaftsduschen befinden sich auf dem Gang.
+
+**3. Antjes Leuchtturm,**
+erbaut 1300 bis 1310, ein sehr schöner historischer Bau, ist das Wahrzeichen unserer Insel im Hamburgischen Wattenmeer bei Cuxhaven. In früheren Jahrhunderten beschützte er die Elbmündung vor Piraten. 1815 übernahm der Turm die Rolle eines Leuchtturms.
+Seine dicken Mauern beherbergen sieben gemütliche Zimmer, die für junge und ältere Leute immer wieder ein beliebtes Reiseziel sind.
+
+**4. Hotel zur Leuther Mühle**
+Inmitten dieser einzigartigen Landschaft zwischen Rhein und Maas liegt das traditionsreiche Hotel-Restaurant __Leuther Mühle__. Die Gäste finden hier im Herzen der malerischen Seenstadt Nettetal ein ebenso gepflegtes Hotel wie ausgezeichnetes Restaurant vor. Die naturnahe Lage der ehemaligen, aufwendig restaurierten Wassermühle direkt am Flüsschen Nette lassen die Besucher immer wieder ins Schwärmen geraten. Das rustikal-elegante Ambiente und die kulinarische Vielfalt der mehrfach preisgekrönten Küche haben schon unzählige Feinschmecker überzeugt. Freundliche Hotelzimmer, bester Service, eine individuelle Bedienung und ein nahezu unbegrenztes Freizeitangebot runden das umfassende Angebot des Hotel-Restaurants __Leuther Mühle__ ab.
+
+
+
+
+[.essay:bitmark--]
+[%B3b]
+[!Beschreiben Sie die Hotels mit eigenen Worten.]
+**1. Galerie Hotel Leipziger Hof – Hier schlafen Sie mit einem Original!**
+72 komfortable, gemütliche Gästezimmer mit Originalarbeiten Leipziger Künstler warten auf Sie. Alle Zimmer – auch die kleinen – sind mit Bad, WC, Fön, Minibar, Telefon, Fax- und Internetanschluss und mit großen Schreibtischen ausgestattet. Raucher- und Nichtraucherzimmer auf Wunsch. Der Sammler, Klaus Eberhard, ist Gründer und Eigentümer dieses originellen Leipziger Hotels. Er hat Gemälde, Zeichnungen und Grafiken aus den 1980er- und 1990er-Jahren bis zum heutigen Tage zusammengetragen. Hinzugekommen sind ebenso Arbeiten früherer Epochen bis zu den 1920er-Jahren. Die Werke spiegeln vielfältige künstlerische Ansätze wider, die meisten von ihnen sind der sogenannten __Leipziger Schule__ zuzuordnen.
+
+**2. Hotel Alcatraz „Haben Sie noch eine Zelle frei?“ **
+Früher logierten die Gäste auf Staatskosten im „Hotel Alcatraz“, zwar nicht freiwillig, dafür aber inklusive Vollpension und Morgensport. Im ehemaligen Gefängnis von Kaiserslautern können jetzt Hotelgäste schlummern, für 49 Euro pro Übernachtung inklusive Zellenpyjama, Gefängnisfrühstück und Blick aufs kleine Gitterfenster.
+Hier erleben die Besucher das richtige Gefängnis-Feeling! Die Zellen verfügen über ein originalgetreues
+Gefängnisbett, ein Waschbecken und eine Toilette. Die Gemeinschaftsduschen befinden sich auf dem Gang.
+
+**3. Antjes Leuchtturm,**
+erbaut 1300 bis 1310, ein sehr schöner historischer Bau, ist das Wahrzeichen unserer Insel im Hamburgischen Wattenmeer bei Cuxhaven. In früheren Jahrhunderten beschützte er die Elbmündung vor Piraten. 1815 übernahm der Turm die Rolle eines Leuchtturms.
+Seine dicken Mauern beherbergen sieben gemütliche Zimmer, die für junge und ältere Leute immer wieder ein beliebtes Reiseziel sind.
+
+**4. Hotel zur Leuther Mühle**
+Inmitten dieser einzigartigen Landschaft zwischen Rhein und Maas liegt das traditionsreiche Hotel-Restaurant __Leuther Mühle__. Die Gäste finden hier im Herzen der malerischen Seenstadt Nettetal ein ebenso gepflegtes Hotel wie ausgezeichnetes Restaurant vor. Die naturnahe Lage der ehemaligen, aufwendig restaurierten Wassermühle direkt am Flüsschen Nette lassen die Besucher immer wieder ins Schwärmen geraten. Das rustikal-elegante Ambiente und die kulinarische Vielfalt der mehrfach preisgekrönten Küche haben schon unzählige Feinschmecker überzeugt. Freundliche Hotelzimmer, bester Service, eine individuelle Bedienung und ein nahezu unbegrenztes Freizeitangebot runden das umfassende Angebot des Hotel-Restaurants __Leuther Mühle__ ab.
+
+
+
+
+
+
+[.essay:bitmark--]
+[%B3c]
+[!Wählen Sie ein Hotel aus und begründen Sie Ihre Wahl.]
+**1. Galerie Hotel Leipziger Hof – Hier schlafen Sie mit einem Original!**
+72 komfortable, gemütliche Gästezimmer mit Originalarbeiten Leipziger Künstler warten auf Sie. Alle Zimmer – auch die kleinen – sind mit Bad, WC, Fön, Minibar, Telefon, Fax- und Internetanschluss und mit großen Schreibtischen ausgestattet. Raucher- und Nichtraucherzimmer auf Wunsch. Der Sammler, Klaus Eberhard, ist Gründer und Eigentümer dieses originellen Leipziger Hotels. Er hat Gemälde, Zeichnungen und Grafiken aus den 1980er- und 1990er-Jahren bis zum heutigen Tage zusammengetragen. Hinzugekommen sind ebenso Arbeiten früherer Epochen bis zu den 1920er-Jahren. Die Werke spiegeln vielfältige künstlerische Ansätze wider, die meisten von ihnen sind der sogenannten __Leipziger Schule__ zuzuordnen.
+
+**2. Hotel Alcatraz „Haben Sie noch eine Zelle frei?“ **
+Früher logierten die Gäste auf Staatskosten im „Hotel Alcatraz“, zwar nicht freiwillig, dafür aber inklusive Vollpension und Morgensport. Im ehemaligen Gefängnis von Kaiserslautern können jetzt Hotelgäste schlummern, für 49 Euro pro Übernachtung inklusive Zellenpyjama, Gefängnisfrühstück und Blick aufs kleine Gitterfenster.
+Hier erleben die Besucher das richtige Gefängnis-Feeling! Die Zellen verfügen über ein originalgetreues
+Gefängnisbett, ein Waschbecken und eine Toilette. Die Gemeinschaftsduschen befinden sich auf dem Gang.
+
+**3. Antjes Leuchtturm,**
+erbaut 1300 bis 1310, ein sehr schöner historischer Bau, ist das Wahrzeichen unserer Insel im Hamburgischen Wattenmeer bei Cuxhaven. In früheren Jahrhunderten beschützte er die Elbmündung vor Piraten. 1815 übernahm der Turm die Rolle eines Leuchtturms.
+Seine dicken Mauern beherbergen sieben gemütliche Zimmer, die für junge und ältere Leute immer wieder ein beliebtes Reiseziel sind.
+
+**4. Hotel zur Leuther Mühle**
+Inmitten dieser einzigartigen Landschaft zwischen Rhein und Maas liegt das traditionsreiche Hotel-Restaurant __Leuther Mühle__. Die Gäste finden hier im Herzen der malerischen Seenstadt Nettetal ein ebenso gepflegtes Hotel wie ausgezeichnetes Restaurant vor. Die naturnahe Lage der ehemaligen, aufwendig restaurierten Wassermühle direkt am Flüsschen Nette lassen die Besucher immer wieder ins Schwärmen geraten. Das rustikal-elegante Ambiente und die kulinarische Vielfalt der mehrfach preisgekrönten Küche haben schon unzählige Feinschmecker überzeugt. Freundliche Hotelzimmer, bester Service, eine individuelle Bedienung und ein nahezu unbegrenztes Freizeitangebot runden das umfassende Angebot des Hotel-Restaurants __Leuther Mühle__ ab.
+
+
+
+
+
+[.match]
+[%B4]
+[!Ordnen Sie die passenden Verben zu.]
+Man kann:
+
+
+===
+[%1.]Kunstwerke
+==
+genießen
+--
+zuordnen
+===
+[%2.]Werke einer künstlerischen Richtung
+==
+sammeln
+--
+zusammentragen
+===
+[%3.]ins Schwärmen
+==
+geraten
+===
+[%4.]erstklassigen Komfort
+==
+vorfinden
+===
+[%5.]das richtige Feeling
+==
+erleben
+--
+genießen
+===
+[%6.]in einem Hotel
+==
+übernachten
+--
+schlummern
+===
+
+||this bitmark doesn't fit perfectly, it shows the numbers of possible solutions||
+
+
+
+[.essay:bitmark++]
+[%B5]
+[!Rollenspiel: Beschwerde im Hotel
+Wählen Sie eine Rolle und machen Sie sich Stichpunkte. Spielen Sie dann Dialoge.]
+
+<<**Hotelgast**
+* Das Zimmer ist zu laut. Sie haben am nächsten Tag ein wichtiges Treffen und brauchen Ihren Schlaf.
+* Im Badezimmer haben Sie Schimmel entdeckt. Sie möchten das Hotel sofort verlassen und erkundigen sich nach anderen Übernachtungsmöglichkeiten.
+* Im Internet stand, dass das Hotel über einen kostenlosen Internetanschluss verfügt. Jetzt sollen Sie zehn Euro pro Tag für die Internetnutzung zahlen.
+* Sie hatten telefonisch ein Doppelzimmer für 90 Euro reserviert. Jetzt kommen Sie nach einer langen Fahrt im Hotel an und erfahren, dass es nur noch Zimmer ab 200 Euro pro Nacht gibt.
+* Das Essen des Hotelrestaurants wird im Prospekt hoch gelobt. Sie haben dort gerade zu Abend gegessen und sind verärgert. Die Suppe war aus der Dose, der Hauptgang schmeckte mittelmäßig, auf die Nachspeise haben Sie 40 Minuten gewartet.
+
+**Rezeptionist/in**
+* Das Hotel ist ausgebucht.
+* Sie brauchen jeden Hotelgast, denn das Hotel ist halb leer.
+* Leider ist das im Internet falsch beschrieben.
+* Leider haben Sie keine Informationen über die telefonische Reservierung vorliegen.
+* Ihnen ist bekannt, dass es in der Hotelküche zurzeit Probleme gibt, weil zwei Köche in der letzten Woche gekündigt haben.
+
+**Sich beschweren**
+* Ich möchte mich über ... beschweren. 
+* Wir sind davon ausgegangen, dass ... 
+* Jetzt müssen wir feststellen, dass ...
+* Wir sind sehr enttäuscht von ...
+* Wir hoffen, dass Sie ...
+
+**Eine Beschwerde entgegennehmen**
+* Das tut mir leid.
+* Ich kann Ihren Ärger verstehen.
+* Ich werde mich darum kümmern, dass ...
+* Wir werden nach einer Lösung suchen.
+* Uns ist leider ein Fehler passiert/unterlaufen ... 
+* Wir können Ihnen anbieten, dass ...<<
+
+
+
+
+[.essay]
+[%B6]
+[!Wie sind Ihre Erfahrungen?
+Berichten Sie über ein Hotel, an das Sie besonders gute oder besonders schlechte Erinnerungen haben.]
+
+
+
+
+[.correction:bitmark--&image]
+[%B7]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/briefbogen-subshine.png]
+[!Schriftlicher Ausdruck
+Sie arbeiten im __Sunshine-Hotel__ und ein Kollege bittet Sie, diesen Brief zu korrigieren, weil Sie besser Deutsch können. Unterstreichen Sie die falschen Formen und schreiben Sie die richtigen an den Rand.]
+
+[-Reservierungsbestätigung
+
+Sehr geehrter Frau Klug,
+vielen Dank vor Ihre Reservierung. Gerne bestätigen wir das Folgende:
+Anreise: 30. Juli
+Abreise: 5. August
+Preis: 1 Doppelzimmer First Business Class 147,00 EUR pro Zimmer/Nacht
+
+Dieser Preis beinhaltet ein reichhaltigem Frühstücksbuffet
+und die Nutzung unser Wellnessbereichs mit Außenpool, Whirlpool, Sauna und Solarium. Für kosmetische Behandlungen und Massagen empfehlen wir Sie, im Voraus einen Termin
+zu vereinbart.
+Die Zimmer stehen Ihnen im Anreisetag ab 15.00 Uhr zur Verfügung. Sollten Sie nach 18.00 Uhr anreisen, bitten wir Sie, uns das vorher kurz mitteilen.
+Am Abreisetag muss das Zimmer bis 12.00 Uhr geräumt worden. Wann Sie am Abreisetag Ihr Zimmer noch bis zum Abend nutzen möchten, berechnen wir 50 % des Preises.
+Wir freuen euch, Sie in unserem Hause begrüßen zu dürfen und wünschen Ihnen schon jetzt eine angenehme Anreise.
+
+Mit freundlichen Grüsse
+John Summer 
+Sunshine-Hotel]
+[+Reservierungsbestätigung
+
+Sehr geehrte Frau Klug,
+vielen Dank für Ihre Reservierung. Gerne bestätigen wir das Folgende:
+Anreise: 30. Juli
+Abreise: 5. August
+Preis: 1 Doppelzimmer First Business Class 147,00 EUR pro Zimmer/Nacht
+
+Dieser Preis beinhaltet ein reichhaltiges Frühstücksbuffet
+und die Nutzung unseres Wellnessbereichs mit Außenpool, Whirlpool, Sauna und Solarium. Für kosmetische Behandlungen und Massagen empfehlen wir Ihnen, im Voraus einen Termin zu vereinbaren.
+Die Zimmer stehen Ihnen am Anreisetag ab 15.00 Uhr zur Verfügung. Sollten Sie nach 18.00 Uhr anreisen, bitten wir Sie, uns das vorher kurz mitzuteilen.
+Am Abreisetag muss das Zimmer bis 12.00 Uhr geräumt werden. Wenn Sie am Abreisetag Ihr Zimmer noch bis zum Abend nutzen möchten, berechnen wir 50 % des Preises.
+Wir freuen uns, Sie in unserem Hause begrüßen zu dürfen und wünschen Ihnen schon jetzt eine angenehme Anreise.
+
+Mit freundlichen Grüßen
+John Summer 
+Sunshine-Hotel ]
+
+
+
+
+
+[.cloze-and-multiple-choice-text]
+[%B8]
+[!Werbung ist alles.
+Ergänzen Sie die Adjektive durch eine passende Vorsilbe.]
+In unserem Hotel werden Ihnen alle Wünsche erfüllt. Wir bieten [-tief-][-top-][+voll-][-wunder-][-extra-][-aller-][-brand-][-riesen-][@example]klimatisierte Zimmer mit einer [-tief-][-top-][-voll-][+wunder-][-extra-][-aller-][-brand-][-riesen-]schönen (1) Aussicht direkt auf das [+tief-][-top-][-voll-][-wunder-][-extra-][-aller-][-brand-][-riesen-]blaue (2) Meer. Die Zimmer sind im [-tief-][+top-][-voll-][-wunder-][-extra-][-aller-][-brand-][-riesen-]modernen (3) Design ausgestattet und verfügen über [-tief-][-top-][-voll-][-wunder-][+extra-][-aller-][-brand-][-riesen-]breite (4) Betten. Motivierte Animatoren begleiten Sie beim Fitnesstraining in unserem [-tief-][-top-][-voll-][-wunder-][-extra-][-aller-][+brand-][-riesen-]neuen (5) Fitnessstudio. Im hoteleigenen Restaurant erwartet Sie ein [-tief-][-top-][-voll-][-wunder-][-extra-][-aller-][-brand-][+riesen-]großes (6) Angebot an kulinarischen Spezialitäten. Unsere Köche arbeiten nur mit [-tief-][-top-][-voll-][-wunder-][-extra-][+aller-][-brand-][-riesen-]feinsten (7) Zutaten und verwöhnen Ihren Gaumen. Besuchen Sie uns und Ihr Urlaub wird zu einem unvergleichlichen Erlebnis!
+
+
+
+[.chapter][▼kapitel2c]
+[##Teil C]
+
+[.chapter]
+[###Lokalangaben]
+||add table||
+
+
+
+
+[.interview]
+[%C1]
+[!Beantworten Sie die folgenden Fragen.]
+===
+Wo liegt das Buch?[!(Tisch)][@shortAnswer]
+[@example: Das Buch liegt auf dem Tisch.]
+===
+1. Wo hängt das Bild?[!(Wand)][@shortAnswer]
+[_Das Bild hängt an der Wand.]
+===
+2. Wo wohnen Sie?[!(kleine Wohnung, sechste Etage)][@shortAnswer]
+[_Ich wohne in einer kleinen Wohnung in der sechsten Etage.]
+===
+3. Wo haben Sie studiert?[!(Schweiz)][@shortAnswer]
+[_Ich habe in der Schweiz studiert.]
+===
+4. Wo haben Sie Ihren Urlaub verbracht?[!(Niederlande)][@shortAnswer]
+[_Ich habe meinen Urlaub in den Niederlanden verbracht.]
+===
+5. Wo liegt das Dokument?[!(Büro, Schreibtisch)][@shortAnswer]
+[_Das Dokument liegt im Büro auf dem Schreibtisch.]
+===
+6. Wo warst du?[!(Sportplatz)][@shortAnswer]
+[_Ich war auf dem Sportplatz.]
+===
+7. Wo ist er operiert worden?[!(Universitätsklinik)][@shortAnswer]
+[_Er ist in der Universitätsklinik operiert worden.]
+===
+8. Wo befindet sich der Informationsschalter?[!(Eingang, Bahnhof)][@shortAnswer]
+[_Der Informationsschalter befindet sich am Eingang des Bahnhofs.]
+===
+9. Wo liegt das Haus des Försters?[!(Wald)][@shortAnswer]
+[_Das Haus des Försters liegt im Wald.]
+===
+10. Wo lagert der Wein?[!(Keller)][@shortAnswer]
+[_Der Wein lagert im Keller.]
+===
+
+
+
+
+[.cloze&image]
+[%C2.1]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/frau_f__e_in_schwarz_sandalen-sw.png]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/menschen_9483-sw.png]
+[!Ergänzen Sie die Präpositionen und den bestimmten/unbestimmten Artikel. Manchmal gibt es mehrere Möglichkeiten.]
+Wohin gehen Sie?
+Ich gehe ...
+1. [_zum][_in den] Bahnhof
+2. [_zum][_ins] Kino
+3. [_zum] Deutschkurs
+4. [_in den] Keller
+5. [_zum] Arzt
+6. [_an den] Strand
+7. [_zu meiner] Nachbarin
+8. [_auf den] Dachboden
+
+Wohin fahren Sie?
+Ich fahre ...
+9. [_an die] Elbe
+10. [_nach] Italien
+11. [_in die] USA
+12. [_auf die] Kanarischen Inseln
+13. [_in den] Nahen Osten
+14. [_in meine] Heimatstadt
+15. [_in die] Türkei
+16. [_nach] Hause
+17. [_ans] Schwarze Meer
+18. [_nach] Irland
+
+
+
+[.essay]
+[%C2.2]
+Erklären Sie den Unterschied: 
+Ich gehe zum Kino. > Ich gehe ins Kino. 
+Ich gehe zur Post. > Ich gehe in die Post.
+
+[?Unterschied: zum Kino: in Richtung Kino/Post; ins Kino: ins Kino/in die Post hineingehen]
+
+
+
+[.interview:bitmark--]
+[%C3]
+[!Ergänzen Sie Orts- bzw. Richtungsangaben.]
+===
+[%*]Die Leute sitzen 
+[@example: __am Tisch/auf der Parkbank/im Gras ... __][@shortAnswer]
+===
+[%1.]Wir fahren jedes Jahr ...[@shortAnswer]
+===
+[%2.]Marie ist nicht ...[@shortAnswer]
+===
+Sie ist  ...[@shortAnswer]
+===
+[%3.]Er stellt das Fahrrad immer  ...[@shortAnswer]
+===
+[%4.]Aber heute steht das Fahrrad ...[@shortAnswer]
+===
+[%5.]Der Ball liegt ...[@shortAnswer]
+===
+[%6.]Wir waren letztes Jahr ...[@shortAnswer]
+===
+[%7.]Ich würde das Bild ... hängen.[@shortAnswer]
+===
+[%8.]Als wir in ... ankamen, regnete es in Strömen.[@shortAnswer]
+===
+[%9.]Ich lege Bücher niemals ...[@shortAnswer]
+===
+[%10.]Sie ist mit Franz ... verabredet.[@shortAnswer]
+===
+[%11.]Ich bin müde. Ich lege mich ...[@shortAnswer]
+===
+[%12.]Es ist wunderschönes Wetter. Lass uns ... gehen.[@shortAnswer]
+===
+[%13.]Carlo hat seinen Laptop ... vergessen.[@shortAnswer]
+===
+[%14.]Hast du meine Sonnencreme gesehen? Ja,...[@shortAnswer]
+===
+[%15.]Kommst du mit ...?[@shortAnswer]
+===
+[%16.]Judith arbeitet jetzt ...[@shortAnswer]
+===
+[%17.]Der Ehrengast sitzt ...[@shortAnswer]
+===
+
+[?(Beispiele) 1. ans Meer/nach Italien/in die Schweiz 2. im Büro/zu Hause, im Kino/beim Friseur 3. an die Hauswand/ direkt vor den Eingang 4. im Keller 5. im Gras/hinter dem Tor/unter dem Schrank 6. in Spanien/in den Niederlanden/ auf einem Zeltplatz 7. neben den Schrank/über das Bett 8. Moskau/auf den Kanarischen Inseln/am Urlaubsort 9. auf den Ofen/ins Bad/in die Küche 10. vor dem Kino/in dem japanischen Restaurant 11. ins Bett/auf das Sofa 12. an den Strand/in die Stadt/ins Freibad 13. im Büro 14. sie steht im Bad/liegt schon im Koffer 15. in die Kantine zum Mittagessen 16. bei Siemens/im Büro neben mir 17. in der ersten Reihe/neben der Königin]
+
+
+
+
+[.cloze:bitmark--]
+[%C4]
+[!Ergänzen Sie die Wechselpräpositionen __in, auf, an__ und den bestimmten Artikel im Dativ oder Akkusativ.]
+1. Wenn wir in einer anderen Stadt sind, gehen wir immer [_ins] Museum oder [_in die] Kunstgalerie.
+2. [_Im] Warenhaus fühle ich mich nicht wohl, ich gehe lieber [_in die] kleinen Geschäfte.
+3. Die Familie will auch in diesem Jahr wieder Urlaub [_an der ] Ostsee machen.
+4. Dresden liegt [_an der] Elbe.
+5. [_Im] Hotel __Leipziger Hof__ hängt ein originales Kunstwerk [_an der] Wand.
+6. Sie haben hier die Möglichkeit, jeden Abend [_ins] Schwimmbad und [_in die] Sauna zu gehen.
+7. Jungs sind gern [_auf dem] Fußballplatz.
+8. [_In der] Deutschen Nationalbibliothek werden alle deutschsprachigen Bücher gesammelt.
+9. Man kann [_auf den] Berg klettern, aber man braucht viel Mut.
+10. Vorlesungen zur Stadtgeschichte finden montags [_in der][_an der] Volkshochschule statt.
+11. Viele Menschen wollen [_am] Stadtrand wohnen.
+12. Claudia surft gern [_im] Internet.
+13. Gehst du lieber [_ins] Theater oder [_ins] Restaurant?
+14. Die Bürogebäude befinden sich [_im][_in einem] Industriegebiet
+15. Geht sie wirklich jeden Abend [_ins] Einkaufszentrum?
+16. Eine Wanderung [_in den] Bergen ist sehr schön, genauso wie ein Spaziergang [_am] Strand.
+17. Sie belegt einen Deutschkurs [_an der] Universität [_in] Heidelberg.
+18. Die Wohnung liegt [_im] sogenannten Künstlerviertel.
+19. Die alten Fotografien sind [_in] Kartons oben [_auf dem] Dachboden
+20. Im Urlaub saß sie gern [_auf dem] Balkon und sah [_aufs][_auf das] Meer.
+
+
+
+
+[.article]
+||insert table||
+
+
+
+[.interview-instruction-grouped]
+[%C5]
+[!Bilden Sie Sätze in der angegebenen Zeitform.]
+===
+Kerstin – Friseur – kommen – von__(Präsens)__[@shortAnswer]
+[@example:Kerstin kommt vom Friseur.]
+===
+1. du – das Geschirr – Spülmaschine – nehmen – schon – aus – ?__(Perfekt)__[@shortAnswer]
+[_Hast du das Geschirr schon aus der Spülmaschine genommen?]
+===
+2. Polizei – Theater – sich befinden – gegenüber__(Präsens)__[@shortAnswer]
+[_Die Polizei befindet sich gegenüber dem Theater][_Die Polizei befindet sich dem Theater gegenüber.]
+===
+3. Jan – beim Einparken – Verkehrsschild – fahren – gegen__(Perfekt)__[@shortAnswer]
+[_Jan ist beim Einparken gegen das Verkehrsschild gefahren.]
+===
+4. Zug – um 12.56 Uhr – Hamburg-Hauptbahnhof – fahren – ab__(Präsens)__[@shortAnswer]
+[_Der Zug fährt um 12.56 Uhr ab Hamburg-Hauptbahnhof. ]
+===
+5. neues Einkaufszentrum – Stadt – liegen – 3 km – außerhalb__(Präsens)__[@shortAnswer]
+[_Das neue Einkaufszentrum liegt 3 km außerhalb der Stadt.]
+===
+6. Rauchen – Gebäude – verboten sein – innerhalb__(Präsens)__[@shortAnswer]
+[_Rauchen ist innerhalb des Gebäudes verboten.]
+===
+7. Kraftwerk – Fluss – gebaut werden – unweit__(Präsens)__[@shortAnswer]
+[_Das Kraftwerk wird unweit des Flusses gebaut.]
+===
+8. wir – Häuserblock – zweimal – laufen – um__(Präteritum)__[@shortAnswer]
+[_Wir liefen zweimal um den Häuserblock.]
+===
+
+
+
+
+[.cloze-and-multiple-choice-text]
+[%C6]
+[!Wiederholung: Präpositionen
+Lesen Sie die Antwort auf eine Wohnungsanzeige und markieren Sie die richtige Präposition.]
+Sehr geehrte Damen und Herren,
+[+in][-aus][-von] der Süddeutschen Zeitung [-von][+vom][-bis] 13. Mai bieten Sie ein möbliertes Zimmer [-von][+mit][-über] Zentralheizung und warmem Wasser [-gegen][-aus][+für] monatlich 300,– Euro an. Da ich [-bei][-in][+im] Wintersemester dieses Jahres einen Studienplatz [-auf][-in][+an] der Universität München bekommen habe, wäre ich [-für][+an][-in] Ihrem Angebot sehr interessiert. Das Wintersemester dauert [-von][+vom][-aus] 1. Oktober [-bis über][-bis auf][+bis zum] 28. Februar.
+Ich komme [+aus][-bei][-von] Gouda, bin 21 Jahre alt und studiere zurzeit Deutsch und Geschichte [+in][-nach][-bei] Utrecht.
+[+Am][-Im][-Um] Wochenende fahre ich [-in][+nach][-zu] München und würde mir bei dieser Gelegenheit gern das Zimmer ansehen.
+Mit freundlichen Grüßen 
+Wim Berg
+
+
+
+[.article:bitmark++]
+**Relativsätze mit lokalen Präpositionen**
+__Präpositionen + Relativpronomen__
+Das Haus, **in dem** ich wohne, wird renoviert.
+Die Stadt, **in die** ich umgezogen bin, gefällt mir gut. 
+Die Stadt, **aus der** ich komme, war mir zu hektisch.
+
+__oder wo/wohin/woher __
+Das Haus, **wo** ich wohne, wird renoviert.
+Die Stadt, **wohin** ich umgezogen bin, gefällt mir gut.
+Die Stadt, **woher** ich komme, war mir zu hektisch.
+
+Nach Städte- und Ländernamen steht nur wo oder wohin/woher: Leipzig, **wohin** ich umgezogen bin, gefällt mir gut.
+
+
+
+[.cloze]
+[%C7]
+[!Ergänzen Sie die Relativpronomen.]
+* Das ist Salzburg, [_wo][@example] Wolfgang Amadeus Mozart geboren wurde.
+1. Das ist kein Ort, [_an dem][_wo] man sich besonders wohlfühlt.
+2. Die Kleinstadt, [_in die][_wohin] Otto gezogen ist, hat ungefähr 50 000 Einwohner.
+3. In dem sibirischen Dorf, [_aus dem][_woher] er kommt, können die Temperaturen im Winter bis auf 60 Grad unter Null sinken.
+4. In Berlin, [_wo] das Endspiel zur Fußballweltmeisterschaft stattfand, gab es eine riesige Party.
+5. Der Wein kann nur an solchen Orten gut reifen, [_an denen][_wo] die Sonne scheint.
+6. An der Stelle, [_an der][_wo] der Tanker verunglückt ist, bildeten sich riesige Ölflächen auf dem Wasser.
+7. Das Ufer der Elbe, [_an dem][_wo] teure Villen gebaut wurden, kann man vom Schiff aus sehr gut sehen.
+8. Der berühmte Friedhof, [_auf dem][_wo] der deutsche Dichter Heinrich Heine begraben wurde, ist in Paris.
+9. 1931 übersiedelte der Künstler nach New York, [_wo] er den Rest seines Lebens verbrachte.
+10. Ich möchte in einer Gegend wohnen, [_in der][_wo] es viele Restaurants gibt.
+
+
+[.chapter][▼passiv]
+[###Das Passiv]
+
+[.article:bitmark++]
+__Zeitformen__
+**Präsens** Das Gebäude **wird renoviert.**
+**Präteritum** Das Gebäude **wurde renoviert.**
+**Perfekt** Das Gebäude **ist renoviert worden.**
+**Plusquamperfekt** Das Gebäude **war renoviert worden.**
+
+__Passivsätze mit Modalverb__
+**Präsens** Das Gebäude **muss renoviert werden.**
+**Präteritum** Das Gebäude **musste renoviert werden.**
+**Perfekt** Das Gebäude **hat renoviert werden müssen.**.  __(Hilfsverb: haben!)__
+**Plusquamperfekt** Das Gebäude **hatte renoviert werden müssen.**  __(Hilfsverb: haben!)__
+
+__Passiv im Nebensatz__
+Ich habe nicht gewusst, dass das Haus schon **verkauft wurde.**
+Ich habe nicht gewusst, dass das Haus schon **verkauft worden ist.**
+Ich habe nicht gewusst, dass das Haus schon **verkauft werden konnte.**
+
+
+**Beachten Sie:**
+Beim Passivsatz steht nicht eine handelnde Person im Vordergrund, sondern ein Geschehen. 
+z. B. 
+Aktiv: __Meine Hausärztin hat mich vor Kurzem gründlich untersucht.__
+Passiv: __Ich bin vor Kurzem gründlich untersucht worden.__
+
+Passivkonstruktionen verwendet man häufig:
+* in Nachrichten: __Die Friedensverhandlungen wurden unterbrochen.__
+* bei Beschreibungen (auch Gerätebeschreibungen): __Das Schmuckstück wurde aus den teuersten Steinen gefertigt.__
+* bei Verallgemeinerungen: __In Frankreich wird zum Essen Wein getrunken.__
+* wenn die handelnde Person nicht bekannt ist: __Die Universität Leipzig wurde 1409 gegründet.__
+
+
+
+[.interview]
+[%C8]
+[!Wann war was?
+Bilden Sie Fragen im Passiv Perfekt und antworten Sie.]
+===
+[%*]Universität Leipzig – gründen __(1409)__[@shortAnswer]
+[@example:Wann ist die Universität Leipzig gegründet worden? ]
+[@example:Die Universität ist 1409 gegründet worden.]
+===
+[%1.]Museumsinsel in Berlin – in die UNESCO-Liste des Weltkulturerbes – aufnehmen __(1999)__[@shortAnswer]
+[_Wann ist die Museumsinsel in Berlin in die UNESCO-Liste des Weltkulturerbes aufgenommen worden?]
+[_Die Museumsinsel in Berlin ist 1999 in die UNESCO-Liste des Weltkulturerbes aufgenommen worden.]
+===
+[%2.]Brandenburger Tor – errichten __(zwischen 1788 und 1791)__[@shortAnswer]
+[_Wann ist das Brandenburger Tor errichtet worden?]
+[_Das Brandenburger Tor ist zwischen 1788 und 1791 errichtet worden.]
+===
+[%3.]Reichstagsgebäude – durch einen Brand – schwer – beschädigen __(1933)__[@shortAnswer]
+[_Wann ist das Reichstagsgebäude durch einen Brand schwer beschädigt worden?]
+[_Das Reichstagsgebäude ist 1933 durch einen Brand schwer beschädigt worden.]
+===
+[%4.]Dresden – zur Hauptstadt des Freistaates Sachsen – ernennen __(1918)__[@shortAnswer]
+[_Wann ist Dresden zur Hauptstadt des Freistaates Sachsen ernannt worden? ]
+[_Dresden ist 1918 zur Hauptstadt des Freistaates Sachsen ernannt worden.]
+===
+[%5.]Innenstadt von Dresden – total – zerstören __(Februar 1945)__[@shortAnswer]
+[_Wann ist die Innenstadt von Dresden total zerstört worden?]
+[_Die Innenstadt von Dresden ist im Februar 1945 total zerstört worden.]
+===
+[%6.]Berliner Mauer – bauen __(1961)__[@shortAnswer]
+[_Wann ist die Berliner Mauer gebaut worden?]
+[_Die Berliner Mauer ist 1961 gebaut worden.]
+===
+[%7.]„Runde Ecke“ in Leipzig – für Bürger – zugänglich machen __(1990)__[@shortAnswer]
+[_Wann ist die „Runde Ecke“ in Leipzig für Bürger zugänglich gemacht worden?]
+[_Die „Runde Ecke“ in Leipzig ist 1990 für Bürger zugänglich gemacht worden.]
+===
+[%8.]Buchmesse in Frankfurt – eröffnen __(10. Oktober)__[@shortAnswer]
+[_Wann ist die Buchmesse in Frankfurt eröffnet worden?]
+[_Die Buchmesse in Frankfurt ist am 10. Oktober eröffnet worden.]
+===
+
+
+
+[.match]
+[%C9]
+[!Formen Sie die Nominalkonstruktionen in Sätze im Passiv Präteritum um.]
+===
+[%*]die Bestellung der Ware
+==
+[$Die Ware wurde bestellt.][@example]
+===
+[%1.]die Verhinderung des Anschlags
+==
+[$Der Anschlag wurde verhindert.]
+===
+[%2.]die Vertretung des Direktors
+==
+[$Der Direktor wurde vertreten.]
+===
+[%3.]die Belohnung des Kindes
+==
+[$Das Kind wurde belohnt.]
+===
+[%4.]die Unterbrechung der Theatervorstellung
+==
+[$Die Theatervorstellung wurde unterbrochen.]
+===
+[%5.]die Schließung der Abteilung
+==
+[$Die Abteilung wurde geschlossen.]
+===
+[%6.]die Eröffnung der Blumenschau
+==
+[$Die Blumenschau wurde eröffnet.]
+===
+[%7.]die Ansteckung der Familienmitglieder
+==
+[$Die Familienmitglieder wurden angesteckt.]
+===
+[%8.]die Ausweisung des Journalisten
+==
+[$Der Journalist wurde ausgewiesen.]
+===
+[%9.]die Ernennung des neuen Vorsitzenden
+==
+[$Ein neuer Vorsitzender wurde ernannt.]
+===
+[%10.]die Verletzung des Autofahrers
+==
+[$Der Autofahrer wurde verletzt.]
+===
+[%11.]die Vernehmung des Zeugen
+==
+[$Der Zeuge wurde vernommen.]
+===
+[%12.]die Erläuterung des Vorgangs
+==
+[$Der Vorgang wurde erläutert.]
+===
+[%13.]die Aufklärung des Mordfalls
+==
+[$Der Mordfall wurde aufgeklärt.]
+===
+[%14.]die Angleichung der Löhne
+==
+[$Die Löhne wurden angeglichen.]
+===
+
+
+
+[.interview]
+[%C10a]
+[!Was ist heute alles passiert?
+Bilden Sie Sätze in der angegebenen Zeitform im Passiv.]
+===
+* über 20 Autos – verkaufen[!(Perfekt)][@shortAnswer]
+[@example:Heute sind über 20 Autos verkauft worden.]
+===
+1. Brief – bereits – abschicken[!(Perfekt)][@shortAnswer]
+[_Der Brief ist bereits abgeschickt worden.]
+===
+2. Ausstellung junger Künstler – im Museum – eröffnen[!(Präteritum)][@shortAnswer]
+[_Die Ausstellung junger Künstler wurde im Museum eröffnet.]
+===
+3. Verhandlungen der Regierungsvertreter – wieder aufnehmen[!(Präteritum)][@shortAnswer]
+[_Die Verhandlungen der Regierungsvertreter wurden wieder aufgenommen.]
+[_Die Verhandlungen mit dem Regierungsvertreter wurden wieder aufgenommen.]
+===
+4. Vorschläge – von den Arbeitskollegen – akzeptieren[!(Perfekt)][@shortAnswer]
+[_Die Vorschläge sind von den Arbeitskollegen akzeptiert worden.]
+===
+5. Wissenschaftler – Nobelpreis – ehren[!(Perfekt)][@shortAnswer]
+[_Der Wissenschaftler ist mit dem Nobelpreis geehrt worden.]
+===
+6. geheime Dokumente – in der Zeitung – veröffentlichen[!(Perfekt)][@shortAnswer]
+[_Die geheimen Dokumente sind von der Zeitung veröffentlicht worden.]
+[_Die geheimen Dokumente sind in der Zeitung veröffentlicht worden.]
+===
+7. Flugzeug der Lufthansa – vor drei Stunden – kontrollieren[!(Präteritum)][@shortAnswer]
+[_Das Flugzeug der Lufthansa wurde vor drei Stunden kontrolliert.]
+===
+8. Bau des neuen Kanzleramtes – abschließen[!(Perfekt)][@shortAnswer]
+[_Der Bau des neuen Kanzleramtes ist abgeschlossen worden.]
+===
+9. Dieb – von der Polizei – auf frischer Tat – ertappen[!(Präteritum)][@shortAnswer]
+[_Der Dieb wurde von der Polizei auf frischer Tat ertappt.]
+===
+10. illegaler Müllexport – von Umweltschützern – stoppen[!(Perfekt)][@shortAnswer]
+[_Der illegale Müllexport ist von Umweltschützern gestoppt worden.]
+===
+
+
+
+
+[.interview:bitmark--]
+[%C10b]
+[!Bilden Sie Sätze im Passiv Präteritum.]
+===
+[%*]Verunglückte – sofort – können – helfen
+==
+[@example:Den Verunglückten konnte sofort geholfen werden.]
+===
+[%1.]entlaufener Tiger – können – wieder einfangen
+==
+[$Der entlaufene Tiger konnte wieder eingefangen werden.]
+===
+[%2.]Bücher – rechtzeitig – können – liefern
+==
+[$Die Bücher konnten rechtzeitig geliefert werden.]
+===
+[%3.]die Unfallursache – können – finden
+==
+[$Die Unfallursache konnte gefunden werden.]
+===
+[%4.]Schäden – sofort – müssen – beseitigen
+==
+[$Die Schäden mussten sofort beseitigt werden.]
+===
+[%5.]geschmuggelte Zigaretten – können – sicherstellen
+==
+[$Die geschmuggelten Zigaretten konnten sichergestellt werden.]
+===
+[%6.]Abteilung – müssen – schließen
+==
+[$Die Abteilung musste geschlossen werden.]
+===
+
+
+
+[.match:bitmark--]
+[%C11]
+[!Bilden Sie Nebensätze im Passiv.]
+===
+[%*]Peter – helfen – können
+Es ist schön, dass
+==
+[@example: Es ist schön, dass **Peter geholfen werden kann/konnte.**]
+===
+[%1.]Strom – abstellen
+Ich weiß nicht, wann
+==
+[$der Strom abgestellt wird.]
+--
+[$der Strom abgestellt wurde.]
+--
+[$der Strom abgestellt worden ist.]
+===
+[%2.]neue Galerie – eröffnen
+Ich freue mich darüber, dass 
+==
+[$eine neue Galerie eröffnet wird.]
+--
+[$eine neue Galerie eröffnet wurde.]
+--
+[$eine neue Galerie eröffnet worden ist.]
+===
+[%3.]Projekt – Regierung – unterstützen
+Ich finde es toll, dass 
+==
+[$das Projekt von der Regierung unterstützt wird.]
+--
+[$das Projekt von der Regierung unterstützt wurde.]
+--
+[$das Projekt von der Regierung unterstützt worden ist.]
+===
+[%4.]Kursgebühren – erhöhen – sollen
+Ich weiß nicht, ob
+==
+[$die Kursgebühren erhöht werden sollen.]
+===
+[%5.]Fenster – streichen – müssen
+Ich bin auch der Meinung, dass 
+==
+[$die Fenster gestrichen werden müssen.]
+===
+[%6.]Mitarbeiter – entlassen – müssen
+Ich weiß nicht, wie viele 
+==
+[$Mitarbeiter entlassen werden mussten.]
+--
+[$Mitarbeiter entlassen werden mussten.]
+===
+
+
+
+[.interview]
+[%C12]
+[!Wortschatzwiederholung: Fluggast- und Reiserechte
+Bilden Sie aus den vorgegebenen Wörtern Sätze. Achten Sie auf die fehlenden Präpositionen und den richtigen Kasus der Ergänzungen und Angaben.]
+* [ zur] Urlaubszeit – es – gehäuft – [ zu] Verspätungen oder (Flugausfälle) – kommen Zur Urlaubszeit kommt es gehäuft zu Verspätungen oder Flugausfällen.
+
+Gegen Stress und Ärger auf dem Flughafen hilft das Wissen über die Rechte von Fluggästen. 
+
+
+
+||we need interview and cloze bit weirdo exercise||
+
+
+
+
+
+
+
+[.cloze:bitmark--]
+[%C13]
+[!Wiederholung: Deklination der Adjektive (Diese Übung bezieht sich auf die Hotelbeschreibungen im Teil B.) Ergänzen Sie die Endungen der Adjektive und Artikel.]
+1. 72 komfortabl[_e], gemütlich[_e] Gästezimmer warten auf Sie.
+2. Alle Zimmer – auch die klein[_en] – sind mit groß[_en] Schreibtischen ausgestattet.
+3. Zu der Sammlung hinzugekommen sind Kunstwerke früher[_er] Epochen.
+4. Die Werke spiegeln vielfältig[_e] künstlerisch[_e] Ansätze wider.
+5. Inmitten dies[_er] einzigartig[_en] Landschaft liegt d[_as] traditionsreich[_e] Hotel-Restaurant __Leuther Mühle.__
+6. Die Gäste finden hier im Herzen d[_er] malerisch[_en] Stadt Nettetal ein ebenso gepflegt[_es] Hotel wie ausgezeichnet[_es] Restaurant vor.
+7. D[_ie] naturnah[_e] Lage der ehemalig[_en] aufwendig restauriert[_en] Wassermühle lassen die Besucher ins Schwärmen geraten.
+8. D[_as] rustikal-elegant[_e] Ambiente und d[_ie] kulinarisch[_e]. Vielfalt d[_er] mehrfach preisgekrönt[_en] Küche haben schon unzählig[_e] Feinschmecker überzeugt.
+9. Freundlich[_e] Hotelzimmer, best[_er] Service, individuell[_e] Bedienung und ein nahezu unbegrenzt[_es] Freizeitangebot runden d[_as] umfassend[_e] Angebot des Hotel-Restaurants __Leuther__ Mühle ab.
+10. D[_ie] dick[_en] Mauern d[_es] alt[_en] Leuchtturms beherbergen sieben gemütlich[_e] Zimmer, die für jung[_e] und älter[_e] Leute immer wieder ein beliebt[_es] Reiseziel sind.
+
+
+[.chapter]
+[##Teil D]
+
+[.chapter]
+[###Rückblick]
+
+[.assignment:bitmark++]
+[!Hier finden Sie wichtigen Wortschatz des Kapitels.]
+[%D1]
+**Wohnen**
+* auf dem Land/in der Stadt/am Stadtrand/in einer ländlichen Umgebung/am Meer/in den Bergen wohnen/leben
+* zur Miete wohnen/Mieter sein
+* die höchsten Mieten zahlen
+* die Kaltmiete/die Gesamtmiete/die Nebenkosten/die Heizkosten beträgt/betragen ...
+* Die Mieten steigen/klettern in die Höhe.
+* Die Wohnungsnachfrage zieht an.
+* Vermieter wünschen sich eine pünktliche Mietzahlung und keine kurzfristigen Mieterwechsel.
+* bei Mietbeginn eine Kaution bezahlen/die Kaution einbehalten
+* sich den Mietvertrag gut durchlesen
+* die Hausordnung einhalten
+* Regeln/Vorschriften berücksichtigen
+* eine eigene Wohnung/eine Eigentumswohnung besitzen/selbst nutzen
+* Eine Wohnung steht leer./der Leerstand
+* viel/wenig Platz haben/über viel/wenig Platz verfügen 
+* Die Wohnungen sind karg ausgestattet/haben keine Sanitäreinrichtungen.
+* Wohnungen über eine Zentralheizung mit Wärme versorgen
+* eine Wohnung modern/klassisch/gemütlich/praktisch einrichten
+* ein guter Heimwerker sein
+
+
+**Städte in Deutschland**
+* mit einer Stadt zufrieden sein
+* Einfluss auf die Zufriedenheit der Bürger haben
+* Grünflächen, Sicherheit, Seniorenfreundlichkeit schätzen/wichtig finden
+* gute Freizeitmöglichkeiten bieten
+* soziale Probleme und mangelnde Infrastruktur beklagen 
+* die Großstadt/die Kleinstadt/die Innenstadt/die Sehenswürdigkeit/den historischen Stadtkern besuchen/besichtigen
+* eine Stadtrundfahrt/eine Busreise machen
+* das Stadtrecht besitzen/verleihen 
+* das Wahrzeichen sein
+* die Stadt/die Universität gründen 
+* die Bibliothek eröffnen
+* die Kirche/das Denkmal einweihen
+* den Grundstein für ein Denkmal/ein Gebäude legen 
+* Zur Stadt gehören: die Stadtmauer/die Fußgängerzone/das Gewerbegelände/das Bürogebäude/das Einkaufszentrum/das Schloss/der Fluss/kulturelle Einrichtungen.
+
+**Reisen**
+* die Koffer packen und in den Urlaub fahren 
+* für den Urlaub tief in die Tasche greifen
+* viel/wenig Geld ausgeben
+* Viele Urlauber zieht es in die Ferne.
+* als Top-Ziel gelten
+* einen Strandurlaub bevorzugen/sich an Stränden sonnen
+* Städtereisen planen
+* sich über das anvisierte Ziel informieren 
+* mobile Angebote zur Recherche nutzen 
+* die Katze im Sack kaufen
+* eine/keine böse Überraschung erleben 
+* auf Servicleistungen achten
+* auf ein kostenloses Frühstück/die Hotelbar Wert legen 
+* Ausgleichs- und Versorgungsleistungen enthalten
+* einen Anspruch auf Unterstützung haben
+* sein Recht geltend machen
+* eine Anzahlung leisten
+* vom Reisevertrag zurücktreten
+* die Reise beeinträchtigen
+* den vereinbarten Preis anpassen
+* jemanden über einen Änderungsgrund informieren 
+* Mängel feststellen/anzeigen
+* die Beseitigung der Mängel verlangen
+* Änderungswünsche berücksichtigen
+* jemandem entstandene Kosten in Rechnung stellen
+
+**Hotels**
+* im Hotel/in der Herberge/in der Pension/in der Unterkunft übernachten
+* das luxuriöse/einfache/komfortable/preisgünstige/ prächtige/elegante/gepflegte/ausgezeichnete/traditionsreiche Hotel
+* Das Hotel/Die Hotelkette hat einen guten Ruf.
+* Das Hotel verfügt über gemütliche/komfortable Gästezimmer.
+* Das Hotel bietet Einzel-/Doppel-/Dreibettzimmer mit Bad/WC/Minibar/Telefon/Internetanschluss.
+* Der Hoteleigentümer/Der Hotelbesitzer hat das Hotel aufwendig renoviert.
+* Das Hotel liegt inmitten einer einzigartigen Landschaft/in verkehrsgünstiger Lage.
+* die aufwendig restaurierte Wassermühle 
+* die kulinarische Vielfalt genießen
+* Feinschmecker geraten ins Schwärmen. 
+* ein beliebtes Reiseziel sein
+* über ein großes/unbegrenztes/vielfältiges Freizeitangebot verfügen
+
+
+
+[.self-assessment]
+[%D2]
+[!Evaluation
+Überprüfen Sie sich selbst.]
+===
+Ich kann Texte zum Thema Wohnen in Deutschland verstehen.
+[•gut ]
+[•nicht so gut]
+===
+Ich kann meine persönliche Wohnsituation und die allgemeine Wohnsituation in meinem Heimatland beschreiben.
+[•gut ]
+[•nicht so gut]
+===
+Ich kann mich zu verschiedenen Wohnformen und Wohnbedingungen mündlich und schriftlich äußern und meine Ansichten begründen.
+[•gut ]
+[•nicht so gut]
+===
+Ich kann Wohnungsangebote auf Websites verstehen, vergleichen und darauf reagieren.
+[•gut ]
+[•nicht so gut]
+===
+Ich kann allgemeine Informationen über Städte und detaillierte Informationen bei einer Stadtführung verstehen und über Städte, die ich kenne, berichten.
+[•gut ]
+[•nicht so gut]
+===
+Ich kann Texte zum Thema Reisen verstehen, mich nach allem Wissenswerten bei einer Reise erkundigen und über eigene Reisen ausführlich berichten.
+[•gut ]
+[•nicht so gut]
+===
+Ich kann über das Thema Ärger im Urlaub sprechen und eine Beschwerde formulieren. Ich kann Texte zum Thema Reiserecht verstehen und eine E-Mail an eine Fluggesellschaft schreiben.
+[•gut ]
+[•nicht so gut]
+===
+Ich kann ausführlichere Texte über Hotels verstehen, Hotelbeschreibungen wiedergeben und eine Hotelauswahl begründen. (fakultativ)
+[•gut ]
+[•nicht so gut]
+===

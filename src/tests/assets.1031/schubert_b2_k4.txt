@@ -1,0 +1,2566 @@
+[.chapter:L1]
+[#Arbeit und Studium]
+[%4]
+
+[.article&image]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/img_7751ro.jpg]
+
+[.chapter:L2]
+[#Teil A]
+
+[.chapter:L3]
+[#Im Arbeitsalltag]
+
+
+
+[.assignment]
+[%A1a]
+[!Tätigkeiten von Managern
+Was machen eigentlich Führungskräfte den ganzen Tag? Diskutieren Sie in Kleingruppen über Tätigkeiten von
+Führungskräften und berichten Sie anschließend darüber im Plenum.]
+
+
+
+[.assignment:bitmark--&image]
+[%A1b]
+[!Lesen Sie den folgenden Text.]
+
+
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/haus_und_heimat_7012.png]
+** Das rätselhafte Leben der Chefs**
+
+Das tägliche Arbeitspensum der meisten Manager ist stramm: Sitzungen leiten, mit Mitarbeitern und Vorgesetzten sprechen, Berichte lesen und schreiben, die E-Mail-Flut bewältigen, Kunden und Lieferanten treffen und nicht zuletzt Entscheidungen fällen. Aber wie viel Zeit kosten alle diese Tätigkeiten?Hier finden Sie einige Angaben aus Studien und Umfragen unter Managern.
+**1. Chefetage**
+60 Prozent ihrer Arbeitszeit verbringen Menschen aus der Führungsetage tatsächlich in Meetings.
+**2. Pendeln**
+Für die meisten Manager ist der Weg ins Büro Teil des Arbeitstages. Nur 30 Prozent definieren das Pendeln als Freizeit. Die meisten holen die gute alte Zeitung aus dem Koffer und blättern sie durch, 17 Prozent arbeiten mit dem Laptop.
+**3. Teamarbeit**
+Zu den Aufgaben von Führungskräften gehören viele Branchenkontakte, Treffen mit Politikern und anderen Unternehmern. Doch Manager verbringen auch einen Teil ihrer Zeit, nämlich 42 Prozent, ausschließlich mit den eigenen Angestellten.
+**4. Mittagspause** 
+Durchschnittlich gönnen sich Manager	eine	Auszeit	von 35 Minuten für die Mittagspause. Allerdings nur an zwei Tagen in der Woche: Untersuchungen zeigen, dass sie im Schnitt an drei Arbeitstagen ohne Mittagspause weiterarbeiten.
+**5. Recherche**
+Manager brauchen Informationen, um gute Entscheidungen zu treffen. Deshalb investieren sie an einem durchschnittlichen Arbeitstag zwei Stunden, um Informationen zu suchen. Das Problem ist nur: Die Hälfte dieser Informationen stellt sich später als unnütz heraus.
+**6. E-Mails**
+Nach einer Umfrage wenden Manager zwei bis drei Stunden pro Tag auf, um E-Mails zu lesen, zu beantworten und zu versenden. Einige von ihnen checken vom Moment des Aufstehens bis Mitternacht permanent ihre E-Mails.
+**7. Mitarbeiterführung**
+Manager müssen dafür sorgen, dass Mitarbeiter ihre Arbeit pünktlich und gut erledigen. Im Durchschnitt beschäftigen sich Manager in 10 bis 40 Prozent ihrer Arbeitszeit mit der Mitarbeiterführung, zum Beispiel, indem sie die Mitarbeiter direkt betreuen und weiterbilden.
+**8. Schreibarbeit**
+Berichte, Nachrichten, Stellungnahmen, E-Mails – Manager müssen viel schreiben. 11,6 Stunden wöchentlich fallen für die schriftlichen Tätigkeiten an. Manager der höheren Hierarchieebenen müssen mehr Schreibarbeit leisten, sie finden diese Tätigkeit aber auch störender als andere.
+**9. Fitness** 
+Manager sind durchaus sportbegeistert. 85 Prozent treiben regelmäßig Sport, die meisten morgens (70 Prozent).
+[@reference: Manager-Quiz: Das rätselhafte Leben der Chefs. SPIEGEL ONLINE, 8.3.2012 (Christopher Krämer/Christina Kestel/Sven Bergmann)
+In: http://www.spiegel.de/karriere/berufsleben/]
+
+
+
+[.essay&article-attachment]
+[%A1c]
+[!Fassen Sie den Text kurz zusammen.
+Stimmen die Angaben im Text mit Ihren Erwartungen überein? Berichten Sie.]
+[.article-attachment:bitmark++]
+** Das rätselhafte Leben der Chefs**
+
+Das tägliche Arbeitspensum der meisten Manager ist stramm: Sitzungen leiten, mit Mitarbeitern und Vorgesetzten sprechen, Berichte lesen und schreiben, die E-Mail-Flut bewältigen, Kunden und Lieferanten treffen und nicht zuletzt Entscheidungen fällen. Aber wie viel Zeit kosten alle diese Tätigkeiten?Hier finden Sie einige Angaben aus Studien und Umfragen unter Managern.
+**1. Chefetage**
+60 Prozent ihrer Arbeitszeit verbringen Menschen aus der Führungsetage tatsächlich in Meetings.
+**2. Pendeln**
+Für die meisten Manager ist der Weg ins Büro Teil des Arbeitstages. Nur 30 Prozent definieren das Pendeln als Freizeit. Die meisten holen die gute alte Zeitung aus dem Koffer und blättern sie durch, 17 Prozent arbeiten mit dem Laptop.
+**3. Teamarbeit**
+Zu den Aufgaben von Führungskräften gehören viele Branchenkontakte, Treffen mit Politikern und anderen Unternehmern. Doch Manager verbringen auch einen Teil ihrer Zeit, nämlich 42 Prozent, ausschließlich mit den eigenen Angestellten.
+**4. Mittagspause** 
+Durchschnittlich gönnen sich Manager	eine	Auszeit	von 35 Minuten für die Mittagspause. Allerdings nur an zwei Tagen in der Woche: Untersuchungen zeigen, dass sie im Schnitt an drei Arbeitstagen ohne Mittagspause weiterarbeiten.
+**5. Recherche**
+Manager brauchen Informationen, um gute Entscheidungen zu treffen. Deshalb investieren sie an einem durchschnittlichen Arbeitstag zwei Stunden, um Informationen zu suchen. Das Problem ist nur: Die Hälfte dieser Informationen stellt sich später als unnütz heraus.
+**6. E-Mails**
+Nach einer Umfrage wenden Manager zwei bis drei Stunden pro Tag auf, um E-Mails zu lesen, zu beantworten und zu versenden. Einige von ihnen checken vom Moment des Aufstehens bis Mitternacht permanent ihre E-Mails.
+**7. Mitarbeiterführung**
+Manager müssen dafür sorgen, dass Mitarbeiter ihre Arbeit pünktlich und gut erledigen. Im Durchschnitt beschäftigen sich Manager in 10 bis 40 Prozent ihrer Arbeitszeit mit der Mitarbeiterführung, zum Beispiel, indem sie die Mitarbeiter direkt betreuen und weiterbilden.
+**8. Schreibarbeit**
+Berichte, Nachrichten, Stellungnahmen, E-Mails – Manager müssen viel schreiben. 11,6 Stunden wöchentlich fallen für die schriftlichen Tätigkeiten an. Manager der höheren Hierarchieebenen müssen mehr Schreibarbeit leisten, sie finden diese Tätigkeit aber auch störender als andere.
+**9. Fitness** 
+Manager sind durchaus sportbegeistert. 85 Prozent treiben regelmäßig Sport, die meisten morgens (70 Prozent).
+
+
+
+
+
+[.match&article-attachment&image]
+[%A2a]
+[!Vertiefen Sie den Wortschatz des Textes.
+Was passt zusammen? Ordnen Sie die richtigen Verben zu. Orientieren Sie sich am Inhalt des Textes.]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/meeting4.png]
+===
+[%1]die Arbeitszeit in Meetings 
+==
+[@example]verbringen
+===
+[%2]Sitzungen 
+==
+leiten
+===
+[%3]die gute alte Zeitung 
+==
+durchblättern
+===
+[%4]sich eine halbe Stunde Mittagspause 
+==
+gönnen
+===
+[%5]während der Mittagspause 
+==
+Error Missing answer
+===
+[%6]Informationen 
+==
+suchen
+===
+[%7]die E-Mail-Flut 
+==
+bewältigen
+===
+[%8]zwei bis drei Stunden für E-Mails 
+==
+aufwenden
+===
+[%9]Mails von morgens bis Mitternacht 
+==
+checken
+===
+[%10]sich mit der Mitarbeiterführung 
+==
+beschäftigen
+===
+[%11]Entscheidungen 
+==
+treffen
+===
+[%12]Mitarbeiter 
+==
+betreuen
+===
+[%13]Berichte 
+==
+schreiben
+===
+[%14]Schreibarbeit 
+==
+leisten
+===
+[%15]regelmäßig Sport 
+==
+treiben
+===
+
+||5. während der Mittagspause durcharbeiten ||
+(g) weiterarbeiten 
+
+
+
+[.article-attachment:bitmark++]
+** Das rätselhafte Leben der Chefs**
+
+Das tägliche Arbeitspensum der meisten Manager ist stramm: Sitzungen leiten, mit Mitarbeitern und Vorgesetzten sprechen, Berichte lesen und schreiben, die E-Mail-Flut bewältigen, Kunden und Lieferanten treffen und nicht zuletzt Entscheidungen fällen. Aber wie viel Zeit kosten alle diese Tätigkeiten?Hier finden Sie einige Angaben aus Studien und Umfragen unter Managern.
+**1. Chefetage**
+60 Prozent ihrer Arbeitszeit verbringen Menschen aus der Führungsetage tatsächlich in Meetings.
+2. Pendeln
+Für die meisten Manager ist der Weg ins Büro Teil des Arbeitstages. Nur 30 Prozent definieren das Pendeln als Freizeit. Die meisten holen die gute alte Zeitung aus dem Koffer und blättern sie durch, 17 Prozent arbeiten mit dem Laptop.
+**3. Teamarbeit**
+Zu den Aufgaben von Führungskräften gehören viele Branchenkontakte, Treffen mit Politikern und anderen Unternehmern. Doch Manager verbringen auch einen Teil ihrer Zeit, nämlich 42 Prozent, ausschließlich mit den eigenen Angestellten.
+**4. Mittagspause** 
+Durchschnittlich gönnen sich Manager	eine	Auszeit	von 35 Minuten für die Mittagspause. Allerdings nur an zwei Tagen in der Woche: Untersuchungen zeigen, dass sie im Schnitt an drei Arbeitstagen ohne Mittagspause weiterarbeiten.
+**5. Recherche**
+Manager brauchen Informationen, um gute Entscheidungen zu treffen. Deshalb investieren sie an einem durchschnittlichen Arbeitstag zwei Stunden, um Informationen zu suchen. Das Problem ist nur: Die Hälfte dieser Informationen stellt sich später als unnütz heraus.
+**6. E-Mails**
+Nach einer Umfrage wenden Manager zwei bis drei Stunden pro Tag auf, um E-Mails zu lesen, zu beantworten und zu versenden. Einige von ihnen checken vom Moment des Aufstehens bis Mitternacht permanent ihre E-Mails.
+**7. Mitarbeiterführung**
+Manager müssen dafür sorgen, dass Mitarbeiter ihre Arbeit pünktlich und gut erledigen. Im Durchschnitt beschäftigen sich Manager in 10 bis 40 Prozent ihrer Arbeitszeit mit der Mitarbeiterführung, zum Beispiel, indem sie die Mitarbeiter direkt betreuen und weiterbilden.
+**8. Schreibarbeit**
+Berichte, Nachrichten, Stellungnahmen, E-Mails – Manager müssen viel schreiben. 11,6 Stunden wöchentlich fallen für die schriftlichen Tätigkeiten an. Manager der höheren Hierarchieebenen müssen mehr Schreibarbeit leisten, sie finden diese Tätigkeit aber auch störender als andere.
+**9. Fitness** 
+Manager sind durchaus sportbegeistert. 85 Prozent treiben regelmäßig Sport, die meisten morgens (70 Prozent).
+||add image
+5. issue||
+
+
+
+
+[.essay]
+[%A2b]
+[!Bilden Sie so viele Komposita wie möglich. Nennen Sie auch den Artikel.]
+
+Mittag * Arbeit * Branchen (Pl.) * Mitarbeiter * Hierarchie * Führung
+
+Pensum * Etage * Tag * Kraft * Kontakte (Pl.) * Zeit * Pause * Führung * Ebene
+
+die Mittagspause...
+
+[?das Arbeitspensum, der Arbeitstag, die Arbeitskraft, die Arbeitspause, die Arbeitszeit, Branchenkontakte (Pl.), die Mitarbeiterführung, die Hierarchieebene, die Führungsetage, die Führungskraft]
+||not the best bit||
+
+
+
+
+[.essay]
+[%A3]
+[!Klassenspaziergang
+Wählen Sie vier Fragen aus und befragen Sie möglichst viele Kursteilnehmer. Berichten Sie dann im Plenum über die gesammelten Informationen.]
+
+1. Wann beginnt Ihre Arbeitszeit und wann endet sie?
+2. Was genau tun Sie während Ihrer Arbeitszeit? Beschreiben Sie kurz Ihre Tätigkeiten.
+3. Welche Tätigkeiten empfinden Sie als Zeitverschwendung? Warum?
+4. Für welche Tätigkeiten hätten Sie gern mehr Zeit?
+5. Wie lange machen Sie Mittagspause? Wo essen Sie mittags?
+6. Machen Sie manchmal Überstunden? Wenn ja, werden die Überstunden bezahlt, bekommen Sie freie Tage oder gehören die Überstunden zu Ihrer normalen Tätigkeit?
+7. Wie oft nehmen Sie an Besprechungen oder Konferenzen teil?
+8. Wie viele E-Mails erhalten Sie pro Tag, wie viele schreiben Sie?
+9. Lesen und/oder schreiben Sie am Wochenende oder im Urlaub dienstliche Mails?
+10. Trinken Sie gelegentlich mit einem oder mehreren Kollegen Kaffee? Wenn ja, worüber sprechen Sie in der Kaffeepause?
+11. Machen Sie während Ihrer Arbeitszeit Entspannungsübungen oder Übungen für den Rücken, den „Mausarm“ oder Ähnliches?
+12. Fühlen Sie sich manchmal gestresst? Wenn ja, was tun Sie dagegen?
+
+
+
+
+[.essay]
+[%A4]
+[!Stress im Büro
+Was sehen Sie als größte Stressfaktoren im Büro?
+Erstellen Sie in Kleingruppen eine Liste und präsentieren Sie Ihre Ergebnisse im Plenum.]
+
+
+
+
+
+[.cloze-solution-grouped]
+[%A5a]
+[!Leistungsdruck
+Lesen Sie den folgenden Text aus einer Zeitung und ergänzen Sie die fehlenden Textstellen.]
+Stress macht krank, dieser Zusammenhang ist schon lange bekannt. Einer aktuellen Umfrage zufolge leiden viele Beschäftigte in Deutschland [_unter zu großem Druck am Arbeitsplatz](1). Für ein Viertel der Befragten ist das eigene Arbeitstempo zu hoch und langfristig nicht durchzuhalten. 18 Prozent stoßen oft [_an ihre Leistungsgrenzen](2), 23 Prozent machen keine Pausen. Viele beklagten, dass das Arbeitsumfeld [_durch steigende Leistungsziele](3) geprägt wird. Werden die hohen Ziele dann erreicht, gelten diese sofort [_als neuer Maßstab](4) Jeder zweite Befragte gab an, keinen oder nur geringen Einfluss [_auf die Arbeitsmenge](5) zu haben. Laut Studie besteht ein großer Handlungsbedarf vonseiten der Unternehmen. Das Management kann die Leistungskultur maßgeblich beeinflussen und [_durch realistische Arbeitsziele](6) ein gesünderes Arbeitsumfeld schaffen. Dazu gehören verbindliche Zielvereinbarungsgespräche zwischen Arbeitgeber und Arbeitnehmer. Wichtig ist, dass die vereinbarten Ziele [_innerhalb der vertraglichen Arbeitszeit](7) erreichbar sind.
+
+
+
+[.assignment]
+[%A5b]
+[!Fassen Sie den Text mündlich zusammen.]
+Stress macht krank, dieser Zusammenhang ist schon lange bekannt. Einer aktuellen Umfrage zufolge leiden viele Beschäftigte in Deutschland unter zu großem Druck am Arbeitsplatz. Für ein Viertel der Befragten ist das eigene Arbeitstempo zu hoch und langfristig nicht durchzuhalten. 18 Prozent stoßen oft an ihre Leistungsgrenzen, 23 Prozent machen keine Pausen. Viele beklagten, dass das Arbeitsumfeld durch steigende Leistungsziele geprägt wird. Werden die hohen Ziele dann erreicht, gelten diese sofort als neuer Maßstab. Jeder zweite Befragte gab an, keinen oder nur geringen Einfluss auf die Arbeitsmenge zu haben. Laut Studie besteht ein großer Handlungsbedarf vonseiten der Unternehmen. Das Management kann die Leistungskultur maßgeblich beeinflussen und durch realistische Arbeitsziele ein gesünderes Arbeitsumfeld schaffen. Dazu gehören verbindliche Zielvereinbarungsgespräche zwischen Arbeitgeber und Arbeitnehmer. Wichtig ist, dass die vereinbarten Ziele innerhalb der vertraglichen Arbeitszeit erreichbar sind.
+
+
+
+
+
+[.cloze-solution-grouped]
+[%A5c]
+1. Viele Beschäftige machen keine [_Pausen].
+2. Wenn ein Ziel erreicht ist, gilt es im nächsten Jahr als neuer [_Maßstab].
+3. Viele Arbeitnehmer haben keinen Einfluss auf die von ihnen zu bearbeitende [_Arbeitsmenge].
+4. Wenn der Druck zu groß ist, stoßen die Arbeitnehmer schnell an ihre [_Leistungsgrenzen].
+5. Vonseiten der Unternehmen besteht ein großer [_Handlungsbedarf].
+6. Es müssen [_Zielvereinbarungsgespräche] geführt werden.
+7. Vereinbarte Ziele müssen innerhalb der vertraglichen [_Arbeitszeit] erreichbar sein.
+
+
+
+
+[.essay:bitmark--]
+[%A6]
+[!Schriftlicher Ausdruck: Reaktion auf einen Zeitungsartikel
+Schreiben Sie eine E-Mail mit Ihrer Meinung zum Text __Leistungsdruck__ an die Redaktion der Zeitung. Verwenden Sie in Ihrer E-Mail acht der folgenden Nomen.]
+Druck * Leistungsgrenzen * Leistungsziele * Arbeitsumfang * Gespräche * Arbeitsumfeld * Pausen * Arbeitszeit * Arbeitsmenge * Maßstab
+
+
+
+
+
+[.interview]
+[%A7]
+[!Formulieren Sie Tipps für gestresste Arbeitnehmer.]
+Es ist wichtig, ...* Man sollte ... * Empfehlenswert ist es auch ...
+===
+[%*]die Mittagspause einhalten
+[@example: Es ist wichtig, die Mittagspause einzuhalten.]
+===
+[%1.]regelmäßig Pausen machen
+===
+[%2.]Probleme ansprechen, nicht verschweigen
+===
+[%3.]Prioritäten setzen
+===
+[%4.]Nein sagen lernen
+===
+[%5.]Ablenkungen vermeiden
+===
+[%6.]einen kurzen Spaziergang machen
+===
+
+
+[?(Beispielsätze) 1. Man sollte regelmäßig Pausen machen. 2. Es ist wichtig, Probleme anzusprechen und nicht zu verschweigen. 3. Empfehlenswert ist (es) auch, Prioritäten zu setzen. 4. Es ist wichtig, Nein sagen zu lernen. 5. Ablen- kungen sollte man vermeiden. 6. Empfehlenswert ist (es) auch, einen kurzen Spaziergang zu machen.]
+
+
+
+
+
+[.chapter:L3]
+[#E-Mails]
+
+
+
+[.assignment:bitmark--&image]
+[%A8a]
+[!Permanente Erreichbarkeit
+Lesen Sie den folgenden Text.]
+[.article-attachment:bitmark++]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/laptop_freizeit-pfad.png]
+**Keine E-Mails in der Freizeit**
+Der Siegeszug des Internets hat das Arbeitsleben verändert. Mit der Verbreitung von Smartphones geht die Entwicklung weiter. Wer will, ist rund um die Uhr fast überall auf der Welt online und erreichbar, auch für den Chef. Insbesondere Vorgesetzte nutzen die technischen Möglichkeiten nur allzu gerne, um ihre Mitarbeiter auf sämtlichen möglichen Kanälen zu konsultieren – wenn nötig nach Dienstschluss, am Wochenende,
+im Urlaub und an Feiertagen. Das müsse ein Ende haben, sagte die ehemalige Bundesarbeitsministerin Ursula von der Leyen schon im Jahr 2012: Sie forderte Regeln zur klaren Trennung zwischen Arbeit und Freizeit. Bedarf dafür scheint es zu geben: Einer Untersuchung zufolge müssen 60 Prozent der Arbeitnehmer auch in ihrer Freizeit erreichbar sein, 33 Prozent sogar oft oder sehr oft. Die Zahl der Beschwerden von Menschen, die sich im Job überfordert fühlen und eine „Entgrenzung“ ihrer Arbeit beklagen, nehme zu.
+Einige prominente Unternehmen haben bereits Initiativen gestartet, um ihre Mitarbeiter vor einer Dauerbeanspruchung durch den Arbeitgeber zu schützen: Sportartikelhersteller Puma und die Deutsche Telekom bestehen nicht darauf, dass ihre Mitarbeiter in ihrer Freizeit E-Mails lesen und beantworten. Bei VW werden 30 Minuten nach Arbeitsende keine E-Mails mehr auf die Smartphones der Beschäftigten weitergeleitet. Die Beschäftigten bei Autobauer BMW sollen mit ihren Vorgesetzten Zeiten vereinbaren, in denen sie grundsätzlich nicht erreichbar sind.
+Die meisten Unternehmen machen es sich allerdings zunutze, dass das Arbeitsrecht keine expliziten Regeln dazu trifft und dass viele Arbeitnehmer die Auf hebung der Grenzen zwischen Arbeits- und Freizeit bereits akzeptiert haben.
+[@reference: Stress nach Feierabend. Permanente Erreichbarkeit: E-Mail, Anrufe, SMS – so weit darf Ihr Chef gehen. FOCUS online (Danuta Szarek) In: http://www.focus.de/finanzen/recht/]
+
+
+
+
+
+
+[.assignment:bitmark++&article-attachment]
+[%A8b]
+[!Halten Sie einen Kurzvortrag über den Inhalt des Lesetextes. Sprechen Sie ungefähr drei Minuten und gehen Sie auf folgende Punkte ein:]
+
+* Welche Aussage enthält die Meldung? 
+* Welche Beispiele fallen Ihnen dazu ein? 
+* Welche Meinung haben Sie dazu?
+<<Redemittel
+Das Thema des Textes ist ... * Der Text handelt von ... *In dem Text geht es um ... * Als Beispiele nennt der Text ... *... werden als Beispiele im Text angeführt. * Ich kann ähnliche/ganz andere Beispiele anführen: ...* Dazu fällt mir folgendes Beispiel ein: ... *Aus meinen Erfahrungen kann ich berichten, dass ... * In meinem Arbeitsbereich ist es (nicht) üblich, dass ...* Meiner Meinung nach ...* Ich bin der Meinung, dass ...<<
+
+[.article-attachment:bitmark--]
+**Keine E-Mails in der Freizeit**
+Der Siegeszug des Internets hat das Arbeitsleben verändert. Mit der Verbreitung von Smartphones geht die Entwicklung weiter. Wer will, ist rund um die Uhr fast überall auf der Welt online und erreichbar, auch für den Chef. Insbesondere Vorgesetzte nutzen die technischen Möglichkeiten nur allzu gerne, um ihre Mitarbeiter auf sämtlichen möglichen Kanälen zu konsultieren – wenn nötig nach Dienstschluss, am Wochenende,
+im Urlaub und an Feiertagen. Das müsse ein Ende haben, sagte die ehemalige Bundesarbeitsministerin Ursula von der Leyen schon im Jahr 2012: Sie forderte Regeln zur klaren Trennung zwischen Arbeit und Freizeit. Bedarf dafür scheint es zu geben: Einer Untersuchung zufolge müssen 60 Prozent der Arbeitnehmer auch in ihrer Freizeit erreichbar sein, 33 Prozent sogar oft oder sehr oft. Die Zahl der Beschwerden von Menschen, die sich im Job überfordert fühlen und eine „Entgrenzung“ ihrer Arbeit beklagen, nehme zu.
+Einige prominente Unternehmen haben bereits Initiativen gestartet, um ihre Mitarbeiter vor einer Dauerbeanspruchung durch den Arbeitgeber zu schützen: Sportartikelhersteller Puma und die Deutsche Telekom bestehen nicht darauf, dass ihre Mitarbeiter in ihrer Freizeit E-Mails lesen und beantworten. Bei VW werden 30 Minuten nach Arbeitsende keine E-Mails mehr auf die Smartphones der Beschäftigten weitergeleitet. Die Beschäftigten bei Autobauer BMW sollen mit ihren Vorgesetzten Zeiten vereinbaren, in denen sie grundsätzlich nicht erreichbar sind.
+Die meisten Unternehmen machen es sich allerdings zunutze, dass das Arbeitsrecht keine expliziten Regeln dazu trifft und dass viele Arbeitnehmer die Auf hebung der Grenzen zwischen Arbeits- und Freizeit bereits akzeptiert haben.
+[@reference: Stress nach Feierabend. Permanente Erreichbarkeit: E-Mail, Anrufe, SMS – so weit darf Ihr Chef gehen. FOCUS online (Danuta Szarek) In: http://www.focus.de/finanzen/recht/]
+
+
+[.interview:bitmark--]
+[%A9a]
+[!Vertiefen Sie den Wortschatz des Textes.
+Bilden Sie aus den vorgegebenen Wörtern Sätze. Achten Sie auf die angegebene Zeitform.]
+===
+[%*]der Siegeszug des Internets – das Arbeitsleben – verändern [!(Perfekt)]
+[@example: Der Siegeszug des Internets hat das Arbeitsleben verändert.]
+===
+[%1.]viele Chefs – die Bereitschaft der Mitarbeiter – ausnutzen
+[_Viele Chefs nutzen die Bereitschaft der Mitarbeiter aus.]
+===
+[%2.]sie – ihre Kollegen – nach Dienstschluss, am Wochenende, im Urlaub und an Feiertagen – kontaktieren
+[_Sie kontaktieren ihre Kollegen nach Dienstschluss, am Wochenende, im Urlaub und an Feiertagen.]
+===
+[%3.]die ehemalige Bundesarbeitsministerin – Regeln zur klaren Trennung zwischen Arbeit und Freizeit – fordern
+(Präteritum)
+[_Die ehemalige Bundesarbeitsministerin forderte Regeln zur klaren Trennung zwischen Arbeit und Freizeit.]
+===
+[%4.]einige prominente Unternehmen – bereits Initiativen zum Schutz der Mitarbeiter – starten [!(Präteritum)]
+[_Einige prominente Unternehmen starteten bereits Initiativen zum Schutz der Mitarbeiter.]
+===
+[%5.]bei VW – 30 Minuten nach Arbeitsende – keine E-Mails – mehr – weitergeleitet werden [!(Präsens)]
+[_Bei VW werden 30 Minuten nach Arbeitsende keine E-Mails mehr weitergeleitet.]
+===
+[%6.]viele Arbeitnehmer – aber – die Aufhebung der Grenzen zwischen Arbeit und Freizeit – akzeptieren [!(Präsens)]
+[_Viele Arbeitnehmer akzeptieren aber die Aufhebung der Grenzen von Arbeit und Freizeit.]
+===
+
+
+
+[.match:bitmark--]
+[%A9b]
+[!Bilden Sie aus dem Verb ein Nomen.
+Formulieren Sie nominale Ausdrücke mit dem Genitiv oder der Präposition von.]
+===
+[%*]das Arbeitsleben hat sich verändert
+==
+[@example: die Veränderung des Arbeitslebens]
+===
+[%1.]Smartphones nutzen 
+==
+[$die Nutzung von Smartphones]
+===
+[%2.]Mitarbeiter sind ständig erreichbar
+==
+[$die ständige Erreichbarkeit der Mitarbeiter]
+===
+[%3.]Arbeits- und Freizeit klar trennen
+==
+[$die klare Trennung von Arbeits- und Freizeit]
+===
+[%4.]Grenzen aufheben
+==
+[$die Aufhebung der Grenzen]
+===
+[%5.]die gesundheitlichen Beschwerden nehmen zu
+==
+[$die Zunahme der gesundheitlichen Beschwerden]
+===
+[%6.]Mitarbeiter vor Dauerbeanspruchung schützen
+==
+[$der Schutz der Mitarbeiter vor Dauerbeanspruchung]
+===
+[%7.]E-Mails nach der Arbeitszeit weiterleiten
+==
+[$die Weiterleitung von E-Mails nach der Arbeitszeit]
+===
+
+
+
+
+
+
+[.assignment:bitmark--]
+[%A10a]
+[!E-Mails im Büro
+Anrede- und Grußformeln in geschäftlichen E-Mails
+Ordnen Sie die Anrede- und Grußformeln dem richtigen Adressaten/Kontext zu.]
+(a) informell/persönlich: Man kennt den Adressaten gut, spricht ihn/sie mit dem Vornamen an.
+(b) sehr formell: Man kennt den Adressaten nicht bzw. kennt nur den Namen.
+(c) zum internen Gebrauch im Kollegenkreis an eine größere Adressatenrunde
+(d) formell/neutral: Man hatte mit dem Adressaten bereits Kontakt (schriftlich, mündlich oder persönlich).
+(e) formell/persönlich: Man hatte mit dem Adressaten bereits Kontakt (schriftlich, mündlich oder persönlich).
+
+
+||finish this||
+
+
+
+
+
+[.assignment:bitmark--]
+[%A10b]
+[!Lesen Sie die folgenden Tipps:]
+* Nach der Anrede (Liebe Frau Müller,) steht ein Komma, nach dem Komma schreibt man klein weiter: __Liebe Frau Müller, vielen Dank für Ihre Mail.__
+* Die formelle persönliche Anrede __(Sie, Ihnen, Ihre Firma usw.)__ wird großgeschrieben.
+* Wenn mehrere Mails aufeinanderfolgen und der Mailverkehr den Charakter einer Unterhaltung hat, kann man auf die Anrede und den Gruß verzichten. Allerdings müssen am Anfang und am Ende der „Unterhaltung“ immer eine Anrede und eine Grußformel stehen.
+* Abkürzungen wie MfG __(Mit freundlichen Grüßen)__ oder LG __(Liebe Grüße)__ sind in formellen oder neutralen E-Mails kein guter Stil.
+
+
+
+
+
+
+[.essay]
+[%A10c]
+[!Berichten Sie von E-Mail-Regeln in Ihrer Muttersprache/Ihrem Heimatland.]
+
+
+
+
+
+[.essay&image]
+[%A11]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/508353_original_r_k_by_iwona_golczyk_pixelio.de.png]
+[!Schriftlicher Ausdruck: E-Mails im Büro
+Schreiben Sie mindestens eine E-Mail. Vergessen Sie Anrede und Gruß nicht.]
+1. Laden Sie Ihre Kollegen zu einer kurzen Teambesprechung ein. Geben Sie Ort, Zeit und einige Tagesordnungspunkte an.
+2. Der deutsche Kollege Klaus Schmidt (Sie kennen ihn nicht) hat für die Zweigstelle in München einen Vorschlag für ein neues Evaluationssystem erarbeitet. Sie möchten diesen Vorschlag gerne sehen, weil Sie auch über ein neues Evaluationssystem nachdenken.
+3. Sie haben am Donnerstag um 17.00 Uhr einen Termin beim Abteilungsleiter Max Fisch.
+Leider müssen Sie genau um diese Zeit Ihr Kind vom Kindergarten abholen, Ihr Partner/Ihre Partnerin ist krank.
+
+
+
+
+
+[.chapter]
+[###Besprechungen]
+
+
+
+
+[.interview]
+[%A12]
+[!Führen Sie Blitzinterviews mit zwei Gesprächspartnern. Geben Sie danach die interessantesten Informationen wieder.]
+===
+Name:[@shortAnswer]
+===
+Wie viele Besprechungen haben Sie monatlich/wöchentlich? Was für Besprechungen sind das?[@shortAnswer]
+===
+Worin sehen Sie Vorteile und Nachteile von Besprechungen?[@shortAnswer]
+===
+Welche Punkte/Teile/Situationen finden Sie überflüssig bzw. stören Sie in einer Besprechung?[@shortAnswer]
+===
+
+Name:[@shortAnswer]
+===
+Wie viele Besprechungen haben Sie monatlich/wöchentlich? Was für Besprechungen sind das?[@shortAnswer]
+===
+Worin sehen Sie Vorteile und Nachteile von Besprechungen?[@shortAnswer]
+===
+Welche Punkte/Teile/Situationen finden Sie überflüssig bzw. stören Sie in einer Besprechung?[@shortAnswer]
+===
+
+
+
+[.multiple-choice:bitmark--&audio]
+[%A13a]
+[&audio::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/audio/07_erkundungen_b2_3a.mp3]
+[!Motivierende Treffen?
+Sie hören ein Interview mit dem Managementtrainer Hartmut Laufer zum Thema __Besprechungen__. Welche Aussage entspricht dem Text? Kreuzen Sie die richtige Antwort an. Überprüfen Sie beim zweiten Hören.]
+===
+[!1. Die Entwicklungen in der Arbeitswelt haben dazu geführt,]
+[-a) dass die Mitarbeiter besser informiert sind.]
+[-b) dass im höheren Management mehr Besprechungen durchgeführt werden. ]
+[+c) dass es generell mehr Besprechungen gibt.]
+===
+[!2. Bevor ein Meeting stattfindet, sollte man sich überlegen,]
+[+a) ob man über das Thema auch in einer anderen Form kommunizieren kann. ]
+[-b) wie man Kopierpapier spart.]
+[-c) wie man Personalkosten spart.]
+===
+[!3. Der Vorteil eines Meetings gegenüber einer E-Mail liegt darin, dass]
+[-a) die Mitarbeiter ihre Gefühle ausleben können.]
+[+b) man eine unmittelbare Reaktion von allen Teilnehmern erhält. ]
+[-c) man über das entscheidende Thema lange diskutieren kann.]
+===
+[!4. Ein Meeting ist erfolgreich, wenn]
+[-a) es wenig Widerspruch gibt.]
+[-b) der Chef seine Meinung durchsetzen kann.]
+[+c) das Besprechungsresultat zur Zufriedenheit und Motivation der Teilnehmer beiträgt.]
+===
+[!5. Erfolg kann man erzielen, indem man]
+[+a) die Teilnehmer und ihre Meinungen ernst nimmt. ]
+[-b) alle ausreden lässt.]
+[-c) die beschlossenen Maßnahmen sofort kontrolliert.]
+===
+[!6. Regelmäßige Besprechungen]
+[-a) sind immer sinnvoll.]
+[-b) sind reine Zeitverschwendung.]
+[+c) sollten nur dann eingeführt werden, wenn sie mit Inhalten gefüllt werden können.]
+===
+[@reference: Zeitfresser Meeting. heute.de, 7.5.2012 (Dorothea von Trotha Interview mit Hartmut Laufer)
+In: http://www.heute.de/zeitfresser-meeting]
+||there is no A13b||
+
+
+
+[.cloze-instruction-grouped&image]
+[%A14]
+[!Vertiefen Sie den Wortschatz des Hörtextes. Ergänzen Sie die fehlenden Verben in der richtigen Form.]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/meeting.png]
+Es [_gibt][!geben][@example] eine klare Tendenz zu mehr Meetings. Und je höher man in der Hierarchie [_steht][!stehen](1), umso mehr Meetings werden es. Die Gründe dafür liegen auf der Hand: Die Arbeitsabläufe werden immer komplexer, die Unternehmen sind heute internationaler aufgestellt. Mitarbeiter müssen besser [_informiert][!informieren](2) werden. Das [_führt][!führen](3) dazu, dass nicht nur sehr viel mehr Besprechungen [_stattfinden][!stattfinden](4), sondern in Besprechungen auch sehr viel
+Zeit [_vergeudet][!vergeuden](5) wird. Um das zu [_vermeiden][!vermeiden](6), sollte vor jeder Besprechung [_überlegt][!überlegen](7) werden: Ist das Meeting wirklich notwendig?
+Oder könnte man das Thema auch per E-Mail [_klären][!klären](8)? Entscheidet man sich für ein Treffen, dann sollte man es professionell [_planen][!planen](9)
+und [_leiten][!leiten](10).
+Der Vorteil einer Besprechung [_liegt][!liegen](11) darin, dass man ein sehr direktes Feedback [_bekommt][!bekommen](12), manchmal auch nur durch Körpersprache. Die Reaktionen der Teilnehmer muss der Moderator wahrnehmen und darauf [_reagieren][!reagieren](13). Außerdem [_erreicht][!erreichen](14) man in einem Meeting alle Teilnehmer gleichzeitig und [_erhält][!erhalten](15) sofort eine Gruppenmeinung.
+
+
+
+
+
+[.interview]
+[%A15]
+[!Regeln für ein erfolgreiches Meeting
+Formulieren Sie Sätze im Passiv. Orientieren Sie sich an den Beispielsätzen.]
+===
+Tagesordnung – rechtzeitig zuschicken[@shortAnswer]
+[@example:Die Tagesordnung muss rechtzeitig zugeschickt werden.]
+===
+genaue Zeitplanung – erstellen[@shortAnswer]
+[@example:Es muss eine genaue Zeitplanung erstellt werden.]
+===
+1. Zeitpuffer für Unvorhergesehenes – einplanen[@shortAnswer]
+[_Es muss ein Zeitpuffer für Unvorhergesehenes eingeplant werden.]
+===
+2. während der Besprechung – Zeitplanung – einhalten[@shortAnswer]
+[_Während der Besprechung muss die Zeitplanung eingehalten werden.]
+===
+3. Unterlagen – vorher bereitstellen[@shortAnswer]
+[_(Die/Alle) Unterlagen müssen vorher bereitgestellt werden.]
+===
+4. Teilnehmer – gezielt auswählen[@shortAnswer]
+[_Die Teilnehmer müssen gezielt ausgewählt werden.]
+===
+5. diejenigen Mitarbeiter, die wichtige Kenntnisse haben – einladen[@shortAnswer]
+[_Diejenigen Mitarbeiter, die wichtige Kenntnisse haben, müssen eingeladen werden.]
+===
+6. Diskussion – von einem Moderator – lenken[@shortAnswer]
+[_Die Diskussion muss von einem Moderator gelenkt werden.]
+===
+7. Vielredner – stoppen[@shortAnswer]
+[_Vielredner müssen gestoppt werden.]
+===
+8. mit Besprechung – grundsätzlich pünktlich beginnen, auch wenn einzelne Teilnehmer noch fehlen[@shortAnswer]
+[_Mit der Besprechung muss grundsätzlich pünktlich begonnen werden, auch wenn einzelne Teilnehmer noch fehlen.]
+===
+9. Besprechungen – vormittags – anberaumen[@shortAnswer]
+[_Besprechungen müssen vormittags anberaumt werden.]
+===
+10. die Leistungskurve des Menschen – beachten[@shortAnswer]
+[_Die Leistungskurve des Menschen muss beachtet werden.]
+===
+11. alle mobilen Geräte – für die Dauer der Besprechung – ausschalten[@shortAnswer]
+[_Alle mobilen Geräte müssen für die Dauer der Besprechung ausgeschaltet werden.]
+===
+12. alle 11/2 Stunden – Pause – einlegen[@shortAnswer]
+[_Alle 11/2 Stunden muss eine Pause eingelegt werden.]
+===
+
+[.internal-link]
+[!Hinweise zum Passiv ➔ Kapitel 2][►passiv]
+
+
+
+
+
+[.article:bitmark--]
+[%A16]
+[!Lesen Sie die folgenden Redemittel.]
+**Besprechungen**
+* eine Besprechung/eine Sitzung durchführen
+* eine Versammlung/eine Tagung/eine Konferenz abhalten
+* Eine Besprechung findet statt.
+* eine Besprechung leiten/moderieren
+* an einer Besprechung teilnehmen
+* die Tagesordnung/die Tagesordnungspunkte festlegen 
+* das/ein Protokoll/schreiben/führen/abfassen
+* protokollieren
+
+* Auf unserer Tagesordnung stehen heute folgende Punkte/Themen: ...
+* Ich schlage folgende Tagesordnungspunkte vor: ...
+* Wir befassen uns (heute) mit ...
+* Wir sprechen/diskutieren (heute) über .../Wir besprechen heute ...
+* Wir haben uns folgendes Programm vorgenommen ... 
+* Erstens .../Zweitens .../Drittens ...
+
+* Der erste Punkt unserer Tagesordnung ist ...
+* Als zweiten Punkt haben wir ... vorgesehen ... 
+* Als letztes Thema steht ... auf dem Programm.
+
+* Am Anfang/Zu Beginn sprechen wir über .../Wir beginnen mit ...
+* Danach werden wir ... 
+* Anschließend ...
+* Zum Schluss ...
+
+
+
+
+
+
+[.assignment:bitmark--]
+[%A17]
+[!Sammeln Sie in Gruppen Tagesordnungspunkte für eine der folgenden Sitzungen. Stellen Sie die erarbeitete Tagesordnung anschließend im Plenum vor. Achten Sie auf die zeitliche Abfolge.]
+
+
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/haus_und_heimat_141.png]
+**Sitzung des Stadtrates**
+Der Stadtrat plant eine Sitzung zum Bau eines großen Einkaufs- und Erlebniszentrums.
+
+**Sitzung der Mitarbeiter eines Fernsehsenders**
+Beim Fernsehsender LOOK sind die Einschaltquoten drastisch zurückgegangen. Auf einer Sitzung sollen Maßnahmen getroffen werden, um wieder mehr Zuschauer zu gewinnen.
+
+**Sitzung der Mitarbeiter eines Theaters mit dem Kulturdezernenten**
+Der Kulturdezernent der Stadt hat dem Theater die Hälfte der finanziellen Unterstützung gestrichen. Auf einer Sitzung mit dem Kulturdezernenten wollen die Mitarbeiter des Theaters dagegen kämpfen.
+
+**Lehrersitzung**
+Die Lehrer an einem Sprachinstitut wollen den Unterricht teilnehmerorientierter gestalten. In einer Sitzung sollen dazu Ideen gesammelt und Entscheidungen getroffen werden.
+
+**Betriebsversammlung**
+In der Firma Siemens sollen Mitarbeiter stärker motiviert werden. Zu diesem Thema wird eine Sitzung mit Vertretern des Managements und Mitarbeitern aus verschiedenen Abteilungen stattfinden.
+
+
+
+[.essay:bitmark--]
+[%A18]
+[!Schriftlicher Ausdruck: Reaktion auf einen Vorschlag]
+In der Zeitschrift __Management heute__ hat ein führender Unternehmensberater folgende zwei Vorschläge gegen die Zeitverschwendung in Arbeitsbesprechungen unterbreitet:
+Schreiben Sie eine E-Mail (ca. 200 Wörter) an die Zeitschrift, in der Sie Ihre Meinung zu den genannten Vorschlägen darlegen und vielleicht eigene Vorschlä- ge zu diesem Thema machen.
+
+**Lesermeinung**
+Keine Zeitverschwendung in Arbeitsbesprechungen:
+1. Alle Arbeitsbesprechungen werden im Stehen abgehalten. 
+2. Arbeitsbesprechungen finden prinzipiell eine Stunde vor
+Beginn der offiziellen Arbeitszeit statt.
+
+
+[.chapter]
+[###Telefonate]
+
+
+
+
+
+[.interview&image]
+[%A19]
+[!Termine Berichten Sie.]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/l1030950-bea.png]
+===
+1. Haben Sie regelmäßige Termine, z. B. Besprechungen, Kundengespräche? Wenn ja, wann? Und wie sieht der Inhalt dieser regelmäßigen Termine aus?[@shortAnswer]
+===
+2. Passiert es Ihnen manchmal, dass Sie Termine nicht einhalten können oder dass Sie einen Termin verschieben müssen? Warum?[@shortAnswer]
+===
+3. Haben Sie schon einmal einen Termin vergessen?[@shortAnswer]
+===
+
+
+
+
+
+
+
+
+
+[.multiple-choice&audio]
+[%A20]
+[&audio::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/audio/08_erkundungen_b2_3a.mp3]
+[!Einen Termin telefonisch vereinbaren
+Sie hören jetzt zwei kurze Dialoge. Welche Aussage entspricht dem Text? Kreuzen Sie die richtige Antwort an.]
+===
+[!**Dialog 1**
+1. Herr Jansson]
+[-a) hat eine Autopanne.]
+[-b) kann den Weg zum Unternehmen SAMSON nicht finden. ]
+[+c) steht mit seinem Auto im Stau.]
+===
+[!2. Herr Oppelt]
+[-a) streicht den Termin.]
+[+b) verschiebt den Termin auf 11.30 Uhr. ]
+[-c) reserviert einen Termin um 10.30 Uhr.]
+===
+[!3. Herr Jansson hofft,]
+[+a) dass er den neuen Termin einhalten kann.]
+[-b) dass sich Herr Oppelt noch mal bei ihm meldet. ]
+[-c) dass Herr Oppelt keine Terminprobleme hat.]
+===
+[!**Dialog 2**
+1. Herr Traverso wird]
+[-a) gebeten, seine Telefonnummer zu hinterlassen. ]
+[-b) gebeten, später noch einmal anzurufen.]
+[+c) mit der Sprachabteilung verbunden.]
+===
+[!2. Frau Blum sagt,]
+[+a) dass Herr Traverso einen kleinen Sprachtest machen muss.]
+[-b) dass Herr Traverso einen Anfängerkurs belegen soll.]
+[-c) dass Herr Traverso nächste Woche einen Termin vereinbaren kann.]
+===
+[!3. Herr Traverso]
+[-a) macht heute um 16.00 Uhr den Test.]
+[-b) hat 15 bis 20 Minuten Vorbereitungszeit für den Test. ]
+[+c) ist morgen um 17.00 Uhr im Goethe-Institut.]
+===
+
+
+
+
+[.article:bitmark--]
+[%A21]
+[!Lesen Sie die folgenden Redemittel und markieren Sie wichtige Ausdrücke. ]
+Termine
+* einen Termin kann man ...
+vereinbarensmachensfestlegensfestsetzenssich geben lassens einhalten * überschreiten * verschieben * verlegen * absagen * vergessen * nicht wahrnehmen * versäumen * verschwitzen **(umg.)** * in den Terminkalender eintragen
+
+* weitere Termine:
+Arzttermin * Operationstermin * Gerichtstermin * Abgabetermin
+(z. B. für eine schriftliche Arbeit)sEinsendetermin (z. B. bei einem Preisausschreiben) * Zahlungstermin * Liefertermin * Besuchstermin
+
+* Wann haben/hätten Sie Zeit?
+morgen * übermorgen
+
+* Wann geht/ginge es bei Ihnen?
+am Freitag (vormittags/nachmittags)
+
+* Wann passt es Ihnen?/ würde es Ihnen passen?
+um 13.00 Uhr
+um 11.30 Uhr/halb zwölf
+
+* Wann ist/wäre es Ihnen recht?
+um 13.15 Uhr/Viertel nach eins/viertel zwei 
+um 15.45 Uhr/Viertel vor vier/drei viertel vier 
+nächste Woche/in der nächsten Woche
+
+* Das passt mir gut. Am Montag passt es ausgezeichnet. Das ist mir recht. Morgen wäre es mir lieber. Die Zeit/Der Termin kommt mir gelegen. Das trifft sich gut. Dann kann ich auch.
+
+
+
+[.article:bitmark--]
+[%A22]
+[!Lesen Sie noch einmal die folgenden Sätze aus den Dialogen und beachten Sie die unterstrichenen Verbformen.]
+1. **Könnten** wir vielleicht für die nächste Woche einen Termin bei Ihnen in Köln vereinbaren?
+2. Es **müsste** allerdings Ende der Woche sein.
+3. Donnerstagnachmittag **wäre** mir sehr recht. Sagen wir um 15.00 Uhr. **Ginge** das bei Ihnen?
+4. **Hätten** Sie um 16.00 Uhr Zeit?
+5. Ich **würde** gern einen Sprachkurs bei Ihnen **machen**.
+
+> Die Sätze stehen im Konjunktiv II. Man verwendet den Konjunktiv II unter anderem, wenn man höflich und zurückhaltend wirken möchte. Im Geschäftsleben ist diese Form üblich.
+
+||change instructions||
+
+
+
+[.cloze&image]
+[%A23a]
+[!Sagen Sie es höflich.
+Ergänzen Sie das Verb im Konjunktiv II.]
+1. Ich [_hätte] gern Frau Schneider gesprochen.
+2. [_Könnten][_Würden] Sie mich mit der Verkaufsabteilung verbinden?
+3. Ich [_würde] gern an einem Sprachkurs teilnehmen.
+4. [_Könnten] wir vielleicht für die nächste Woche einen Termin bei Ihnen in Köln vereinbaren?
+5. Wann [_hätten] Sie Zeit?
+6. [_Ginge] es auch eine Stunde später?
+7. Es [_müsste] allerdings vor 12.00 Uhr sein, dann habe ich den nächsten Termin. 
+8. Morgen [_wäre] mir lieber.
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/dossiers1_4arbeitb_ro.png]
+
+
+
+[.interview]
+[%A23b]
+[!Formulieren Sie die Sätze höflicher. Manchmal gibt es mehrere Möglichkeiten.]
+===
+[%*]Ich will Herrn Huber sprechen.[@shortAnswer]
+[@example:Ich würde gern Herrn Huber sprechen. 
+Könnte ich bitte Herrn Huber sprechen?]
+===
+[%1.]Schicken Sie mir bitte die Unterlagen zu?[@shortAnswer]
+[_Würden Sie mir bitte die Unterlagen zuschicken?]
+===
+[%2.]Ich will mit Frau Reschke einen Termin vereinbaren.[@shortAnswer]
+[_Ich würde gern mit Frau Reschke einen Termin vereinbaren.]
+===
+[%3.]Kann ich den Termin verschieben?[@shortAnswer]
+[_Könnte ich den Termin verschieben?]
+===
+[%4.]Tragen Sie den Termin in den Kalender ein?[@shortAnswer]
+[_Könnten Sie den Termin in den Kalender eintragen?]
+[_Würden Sie den Termin in den Kalender eintragen?]
+===
+[%5.]Rufen Sie mich morgen zurück?[@shortAnswer]
+[_Würden Sie mich morgen zurückrufen? ]
+[_Könnten Sie mich morgen zurückrufen? ]
+===
+[%6.]Schreiben Sie heute Protokoll, Frau Meier?[@shortAnswer]
+[_Könnten Sie heute Protokoll schreiben?]
+===
+[%7.]Haben Sie um 15.00 Uhr eine Stunde Zeit für mich?[@shortAnswer]
+[_Hätten Sie um 15.00 Uhr eine Stunde Zeit für mich?]
+===
+[%8.]Kann ich mal telefonieren?[@shortAnswer]
+[_Könnte ich mal telefonieren?]
+===
+
+[.internal-link]
+[!Zusatzübungen zum Konjunktiv II ➔ Teil C][►kapitel4c]
+
+
+
+
+
+[.essay]
+[%A24]
+[!Vereinbaren Sie Termine. Spielen oder schreiben Sie Dialoge.]
+1. Sie möchten einen Termin mit Herrn Jans von der Anwaltskanzlei Möller vereinbaren. Sie haben Fehler in einem Vertrag entdeckt und möchten den Vertrag noch einmal von einem Anwalt prüfen lassen.
+2. Sie haben einen Termin beim Zahnarzt. Eine Sitzung in Ihrem Büro hat so lange gedauert, dass Sie den Termin nicht einhalten konnten. Entschuldigen Sie sich und bitten Sie um einen neuen Termin.
+3. Sie haben in zwei Wochen einen Termin in Deutschland und müssen die Ergebnisse eines Projekts präsentieren. Sie können aber schon jetzt absehen, dass Sie in zwei Wochen noch keine Ergebnisse vorlegen können. Verschieben Sie den Termin.
+4. Sie sind die Sekretärin von Frau Schneider. Ein Firmenvertreter ruft schon zum dritten Mal an, um einen Termin bei Frau Schneider zu bekommen. Frau Schneider hat allerdings an einem solchen Gespräch kein Interesse. Versuchen Sie, dem Firmenvertreter auf freundliche Weise abzusagen.
+
+
+
+
+
+[.interview]
+[%A25]
+[!Erarbeiten Sie in Gruppen: Was sagt man in den folgenden Situationen am Telefon?]
+===
+Sie melden sich und verlangen eine bestimmte Person.
+[@example: Guten Tag, Franz Appelt hier, KONAK International.
+Ich hätte gern Herrn Schimanski gesprochen./Ich würde gern Herrn Schimanski sprechen. Könnte ich bitte Herrn Schimanski sprechen?]
+===
+1. Sie müssen eine Person entschuldigen, weil diese nicht da ist, und bieten Ihre Hilfe an.[@shortAnswer]
+===
+2. Sie möchten die im Moment nicht erreichbare Person wissen lassen, dass die Waren noch nicht eingetroffen sind.[@shortAnswer]
+===
+3. Sie möchten den Namen des Anrufers wissen, Sie haben ihn schon wieder vergessen.[@shortAnswer]
+===
+4. Sie haben Probleme, Ihren Telefonpartner akustisch zu verstehen.[@shortAnswer]
+===
+5. Sie fragen nach dem Grund des Anrufs.[@shortAnswer]
+===
+6. Sie werden um Informationen gebeten. Sie können diese Fragen aber nicht beantworten.[@shortAnswer]
+===
+7. Sie möchten Ihren Telefonpartner treffen und geben einen Grund an.[@shortAnswer]
+===
+8. Sie brauchen die Unterlagen bis morgen Abend.[@shortAnswer]
+===
+9. Sie möchten das Gespräch beenden und versprechen, Ihren Telefonpartner auf dem Laufenden zu halten.[@shortAnswer]
+===
+10. Sie reagieren auf einen Dank.[@shortAnswer]
+===
+[?1. Tut mir leid, Frau/Herr Müller ist im Moment nicht da/nicht im Büro/nicht im Hause/in einer Besprechung/zu Tisch. Kann ich Ihnen vielleicht helfen?/Kann ich Frau/Herrn Müller etwas ausrichten? Möchten Sie eine Nachricht hinterlassen? 2. Könnten Sie Frau/Herrn Müller bitte ausrichten/sagen, dass die Waren noch nicht eingetroffen sind? 3. Wie war Ihr Name, bitte? 4. Ich kann Sie leider sehr schlecht verstehen. Könnten/Würden Sie bitte etwas lauter/langsamer sprechen? Könnten/Würden Sie das bitte noch einmal wiederholen? 5. Worum geht es?/Worum handelt es sich?/Was kann ich für Sie tun? 6. Leider kann ich Ihnen diese Frage im Moment nicht beantworten/diese Informationen nicht geben. Kann ich Sie zurückrufen, wenn mir die Informationen vorliegen?/Ich melde mich bei Ihnen, sobald ich die Informationen habe. Ich kümmere mich darum und rufe Sie sofort zurück. 7. Könnten wir einen Termin vereinbaren/machen? Ich würde Ihnen gern unsere neuen Produkte vorstellen./Es geht um unsere neuen Produkte. 8. Ich hätte die Unterlagen gerne bis morgen Abend./Sagen Sie bitte Herrn Müller, dass ich die Unterlagen bis morgen Abend brauche. 9. Ich glaube, wir haben alles Wichtige besprochen. Ich halte Sie auf dem Laufenden./Ich melde mich, sobald sich etwas Neues ergibt/sobald es etwas Neues gibt. 10. Ich danke Ihnen./Gern geschehen./Keine Ursache.]
+
+[.internal-link]
+[!Eine Übersicht über Redemittel zum Telefonieren finden Sie im Teil D.][►kapitel4d]
+
+
+
+
+
+
+[.cloze-instruction-grouped:bitmark--]
+[%A26]
+[!Ergänzen Sie die fehlenden Verben in der richtigen Form.]
+**Dialog 1**
+1.	Könnte ich bitte Herrn Prof. Müller [_sprechen][!sprechen]?
+2.	Tut mir leid, Herr Prof. Müller [_hat][!haben] zurzeit eine wichtige Besprechung.
+3.	Wann kann ich ihn wieder [_erreichen][!erreichen]?
+4.	Das kann ich Ihnen leider nicht [_sagen][!sagen]. Kann er Sie morgen [_zurückrufen][!zurückrufen]?
+5.	Könnten Sie ihm bitte [_ausrichten][!ausrichten], dass die Untersuchungen abgeschlossen sind?
+6.	Ich werde ihn [_informieren][!informieren], sobald die Besprechung [_beendet][!beenden]	ist.
+
+
+**Dialog 2**
+1.	Könnten Sie mich bitte mit Frau Herz [_verbinden][!verbinden]?
+2.	Tut mir leid, Frau Herz ist nicht im Hause. Kann ich Ihnen [_weiterhelfen][!weiterhelfen]?
+3.	Ja, ich möchte gerne [_wissen][!wissen], was in dem Abschlussbericht steht.
+4.	Tut mir leid, solche Auskünfte können wir am Telefon nicht [_geben][!geben]. Da müssten Sie persönlich	[_vorbeikommen][!vorbeikommen] und mit Frau Herz reden.
+5.	Könnten Sie Frau Herz [_bitten][!bitten], mich zurückzurufen?
+6.	Ja, gerne. Könnten Sie Ihren Namen bitte [_buchstabieren][!buchstabieren]?
+
+
+
+
+
+[.cloze-and-multiple-choice-text:bitmark--]
+[%A27]
+[!Ergänzen Sie __Sie__ oder __Ihnen__.]
+1. Kann ich [+Sie][-Ihnen] morgen zurückrufen?
+2. Ich werde [-Sie][+Ihnen] die Ergebnisse noch heute mailen.
+3. Wir konnten [+Sie][-Ihnen] leider nicht eher benachrichtigen.
+4. Ich kann [-Sie][+Ihnen] die neuen Preise frühestens nächste Woche mitteilen.
+5. Ich halte [+Sie][-Ihnen] auf dem Laufenden.
+6. Ich verbinde [+Sie][-Ihnen] mit dem Kundenservice. Die Kollegen werden [-Sie][+Ihnen] weiterhelfen.
+7. Es freut mich, dass wir [-Sie][+Ihnen] eine Freude bereiten konnten.
+8. Ich danke [-Sie][+Ihnen]
+9. Ich kann [+Sie][-Ihnen] leider überhaupt nicht verstehen. Die Verbindung ist sehr schlecht.
+10. Ich soll [-Sie][+Ihnen] ausrichten, dass die Ware erst morgen eintrifft.
+11. Wo können wir [+Sie][-Ihnen] erreichen?
+12. Der Mitarbeiter antwortet [-Sie][+Ihnen], sobald wir mehr wissen.
+
+[.internal-link]
+[!Zusatzübungen zu Verben mit direktem Kasus und zur Wortstellung im Mittelfeld ➔ Teil C][►kapitel4c]
+
+
+
+
+
+[.cloze-instruction-grouped]
+[%A28]
+[!Informationen erfragen
+Lesen Sie die folgende E-Mail an einen Verlag und ergänzen Sie die fehlenden Verben in der richtigen Form. Arbeiten Sie zu zweit. Markieren Sie danach die Redemittel zur Frage nach Liefer- und Zahlungsbedingungen.]
+
+Sehr geehrte Damen und Herren,
+ich [_arbeite][!arbeiten][@example] als Dozentin für Geschichte an einer Hochschule in Polen und möchte im Rahmen eines Projekts mit meinen Studenten eine Woche nach Berlin [_fahren][!fahren](1). In Ihrem Verlagsprogramm habe ich [_gesehen][!sehen](2), dass Sie verschiedene Bücher zu Berlin [_anbieten][!anbieten](3). Mich würde [_interessieren][!interessieren](4), welches Buch sich besonders für Geschichtsstudenten [_eignet][!eignen](5). Es sollte in jedem Fall einige Fakten zur Geschichte der Stadt im 19. und 20. Jahrhundert [_enthalten][!enthalten](6).
+Des Weiteren hätte ich noch einige Fragen zu den Liefer- und Zahlungsbedingungen: [_Gewähren][!gewähren](7) Sie bei einer Anzahl von 30 Büchern Rabatt oder [_gibt][!geben](8) es für Studenten generell eine Ermäßigung? Wie und wann [_erfolgt][!erfolgen](9) die Zahlung? Wie schnell können Sie die Bücher nach Polen [_liefern][!liefern](10)? Mit welchen Versandkosten müssen wir [_rechnen][!rechnen](11)? Unsere Reise ist für den 14. Juni [_geplant][!planen](12). Wir [_benötigen][!benötigen](13) die Bücher spätestens acht Wochen vor Reisebeginn.
+Mit Dank im Voraus und freundlichen Grüßen 
+Ivanka Koslowski
+
+
+
+
+[.assignment]
+[%A29]
+[!Spielen Sie Dialoge.
+Bereiten Sie sich auf Ihre Rolle vor und machen Sie sich Stichpunkte.]
+
+1. Sie sind eine Mitarbeiterin/ein Mitarbeiter der Firma IMO und möchten neue Schreibtische bestellen. Im Katalog der Firma GRÜNHOLZ haben Sie Schreibtische gesehen, die Ihnen gefallen. Rufen Sie bei der Firma GRÜNHOLZ an und fragen Sie nach Einzelheiten: Zahlungsbedingungen, Lieferfristen, evtl. andere Farben.
+
+2. Sie sind eine Mitarbeiterin/ein Mitarbeiter der Firma POLO und haben vor acht Wochen bei der Firma DELTA neue Computer gekauft. Jetzt gibt es damit Probleme. Rufen Sie bei DELTA an, erklären Sie die Situation und verlangen Sie Hilfe.
+
+3. Sie sind eine Mitarbeiterin/ein Mitarbeiter der Baufirma NEUHAUS und warten seit einem Tag auf Zement, ohne den Sie nicht weiterbauen können. Rufen Sie die Zementfabrik ZEMA an, erklären Sie die Situation und setzen Sie eine Frist.
+
+4. Sie sind eine Mitarbeiterin/ein Mitarbeiter der Firma AIR. Sie planen die Inneneinrichtung von Flugzeugen. Rufen Sie Ihren Kollegen Max Schnell in München an und vereinbaren Sie einen Termin, um über die neuen Sitze zu diskutieren. Sie möchten sich unbedingt dort treffen, weil Sie noch nie in München waren.
+
+
+
+
+
+
+[.true-false:bitmark--&audio]
+[%A30.1]
+[&audio::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/audio/09_erkundungen_b2_3a.mp3]
+[@label-true:rather richtig][@label-false:rather falsch]
+[!Gespräche und Äußerungen 9
+Sie hören jetzt vier Gespräche und Äußerungen. Sie hören jeden Text einmal.
+Wählen Sie bei den Aufgaben die korrekte Lösung __richtig__ oder __falsch__ und a), b) oder c).]
+
+===
+[+Die Frau empfiehlt Peter, einen Sprachkurs zu besuchen.]
+===
+[+__Reverse__ Mentoring ist ein Programm zur Entwicklung von Mitarbeitern.]
+===
+[-Der Mann findet den Vorschlag der Kollegin sehr gut.]
+===
+[+Nach Meinung der Gewerkschaften hat die Bearbeitung von E-Mails in der Freizeit negative Folgen für die Gesundheit.]
+===
+
+
+[.multiple-choice]
+[%A30.2]
+===
+[!Peter ]
+[+a) will aus beruflichen Gründen Französisch lernen. ]
+[-b) will keinen Kurs machen, weil er keine Zeit hat. ]
+[-c) will sich sofort bei dem Sprachkurs anmelden.]
+===
+[!In dem Programm ]
+[-a) übernehmen die jungen Mitarbeiter Managementaufgaben.]
+[-b) werden Manager von jungen Mitarbeitern in die digitale Arbeit eingeführt.]
+[+c) profitieren beide Seiten von den Kenntnissen des jeweils anderen.]
+===
+[!Der Vorschlag dient dazu, ]
+[+a) dass Informationen und Ideen einem bestimmten Personenkreis schneller zugänglich gemacht werden.]
+[-b) dass die Kollegen in München mithilfe einer digitalen Plattform über alles informiert werden.]
+[-c) dass jeder Mitarbeiter weiß, was in der Firma passiert.]
+===
+[!Der Betriebsratschef forderte ]
+[-a) die Sperrung der Mailkonten für Mitarbeiter. ]
+[-b) die Bezahlung von Arbeit in der Freizeit.]
+[+c) die Beschränkung der Bearbeitung von Mails auf die Arbeitszeit.]
+===
+
+
+
+
+[.essay]
+[%A31]
+[!Eine E-Mail an Frau Maler
+Sie arbeiten seit einem halben Jahr für eine deutsche Firma. Die Abteilungsleiterin, Frau Maler, und die Mitarbeiter sind sehr nett, aber Sie fühlen sich unterfordert. Jetzt gibt es ein neues, großes Projekt mit internationalen Partnern und Sie möchten gerne an diesem Projekt mitarbeiten. Schreiben Sie eine E-Mail an Frau Maler.]
+
+Machen Sie einen Vorschlag.
+Begründen Sie, warum gerade Sie geeignet sind.
+Schildern Sie Ihre Situation.
+Zeigen Sie auch Verständnis für die bisherige Vorgehensweise der Leitung.
+
+Überlegen Sie sich eine passende Reihenfolge der inhaltlichen Punkte.
+Achten Sie neben der Korrektheit auch auf abwechslungsreiche und sinnvolle sprachliche Übergänge und Verknüpfungen. Schreiben Sie mindestens 100 Wörter.
+
+
+
+[.chapter]
+[###An der Universität]
+
+
+
+
+
+[.essay:bitmark--]
+[%A32]
+[!Was assoziieren Sie mit dem Wort __Universität__? Arbeiten Sie in Kleingruppen und präsentieren Sie Ihr Assoziogramm im Plenum.]
+
+
+
+
+[.interview]
+[%A33]
+[!Führen Sie Blitzinterviews mit zwei Gesprächspartnern. Geben Sie danach die interessantesten Informationen wieder.]
+===
+Name:[@shortAnswer]
+===
+Haben Sie studiert, studieren Sie gerade oder möchten Sie studieren? Wenn ja, was?[@shortAnswer]
+===
+Wenn Sie sich ein Studienfach und eine Universität aussuchen könnten, was würden Sie wählen?[@shortAnswer]
+===
+Möchten Sie, dass Ihre Kinder einmal studieren? Warum/Warum nicht?[@shortAnswer]
+===
+
+
+Name:[@shortAnswer]
+===
+Haben Sie studiert, studieren Sie gerade oder möchten Sie studieren? Wenn ja, was?[@shortAnswer]
+===
+Wenn Sie sich ein Studienfach und eine Universität aussuchen könnten, was würden Sie wählen?[@shortAnswer]
+===
+Möchten Sie, dass Ihre Kinder einmal studieren? Warum/Warum nicht?[@shortAnswer]
+===
+
+
+[.interview:bitmark--]
+[%A34]
+[!Lesen Sie den folgenden Text und geben Sie den Textabschnitten Überschriften. Arbeiten Sie zu zweit.]
+
+**So leben Deutschlands Studenten**
+55 Prozent aller jungen Menschen eines Jahrgangs nehmen inzwischen ein Studium auf – so viele wie noch nie. Ungefähr 2,5 Millionen Studenten studieren in Deutschland an Hochschulen und Universitäten. Eine Sozialerhebung des deutschen Studentenwerks zum Leben der Studenten ergab folgendes Bild:
+===
+Der größte Anteil der Studenten (22 Prozent) ist in den Ingenieurwissenschaften eingeschrieben (alle Ingenieurfächer zusammen) – seit 1997 stellen sie zum ersten Mal wieder die größte Fächergruppe. An zweiter Stelle stehen Rechts- und Wirtschaftswissenschaften (21 Prozent), Mathematik und Naturwissenschaften stehen mit 20 Prozent an dritter Stelle.
+Betrachtet man hingegen die 25 einzelnen Fächer, bleibt BWL (Betriebswirtschaftslehre) Spitzenreiter.[@shortAnswer]
+===
+35 Stunden pro Woche investieren Studenten nach eigenen Angaben durchschnittlich in ihr Studium: 18 Stunden für Lehrveranstaltungen, 17 Stunden für
+das Selbststudium. Wer neben dem Studium jobbt, verbringt zirka 33 Stunden mit dem Studium, hat aber eine wöchentliche Gesamtbelastung von 46 Stunden. Wer nicht jobbt, studiert hingegen mehr: 39 Stunden. Die durchschnittliche Gesamtarbeitszeit von Studenten (Studium und Job) liegt derzeit bei 42 Stunden pro Woche.[@shortAnswer]
+===
+Gut die Hälfte der Studenten lebt in einer festen Beziehung, darunter mehr Frauen als Männer. 43 Prozent sind Singles, darunter mehr Männer als Frauen. 6 Prozent sind verheiratet, 5 Prozent haben ein Kind.[@shortAnswer]
+===
+Obwohl Kinder aus Akademikerfamilien mit höherer Wahrscheinlichkeit, nämlich zu 77 Prozent, ein Studium beginnen als Kinder aus Arbeiterfamilien (23 Prozent), sind beide Gruppen an der Hochschule gleich groß – was auch daran liegt, dass Akademiker in der Gesamtbevölkerung eine eher kleinere Gruppe mit tendenziell weniger Nachwuchs darstellen.[@shortAnswer]
+===
+Der Durchschnittsstudent verfügt über 864 Euro im Monat. 87 Prozent gaben an, von den Eltern mit durchschnittlich 476 Euro unterstützt zu werden. Knapp zwei Drittel arbeiten neben dem Studium und verdienen damit durchschnittlich 323 Euro im Monat. Fast jeder Dritte bezieht BAföG* (durchschnittlich 443 Euro), 6 Prozent der Studenten haben einen Kredit aufgenommen.[@shortAnswer]
+===
+Immer weniger setzen ihr Studium aus. Die Unterbrecherquote verringerte sich von 11 Prozent auf 9 Prozent. Gründe für eine Unterbrechung gibt es viele: Krankheit und Zweifel am Studium sind die häufigsten.[@shortAnswer]
+===
+Die größte Gruppe wohnt allein oder mit dem Partner in einer eigenen Wohnung (37 Prozent). Wohngemeinschaften sind mit 29 Prozent die am zweitstärksten verbreitete Wohnform. Fast jeder Vierte lebt bei den Eltern oder anderen Verwandten, jeder Zehnte in einem Studentenwohnheim.[@shortAnswer]
+===
+*BAföG = Bundesausbildungsförderungsgesetz (staatliche finanzielle Unterstützung für Studenten)
+[@reference: Sozialerhebung: So leben Deutschlands Studenten. SPIEGEL ONLINE, 26.6.2013 (Lena Greiner)
+In: http://www.spiegel.de/unispiegel/studium/]
+
+
+
+[.interview&article-attachment]
+[%A35a]
+[!Textverständnis
+Vervollständigen Sie die Sätze. Orientieren Sie sich inhaltlich am Text in A34.]
+===
+[%*]55 Prozent aller jungen Menschen eines Jahrgangs[@shortAnswer]
+[@example: studieren/besuchen eine Universität oder Hochschule.]
+===
+[%1.]Die meisten Studenten[@shortAnswer]
+===
+[%2.]Betrachtet man die Studentenzahlen der einzelnen Fächer,[@shortAnswer]
+===
+[%3.]Durchschnittlich 35 Stunden pro Woche[@shortAnswer]
+===
+[%4.]43 Prozent der Studenten[@shortAnswer]
+===
+[%5.]Bei Kindern aus Akademikerfamilien[@shortAnswer]
+===
+[%6.]864 Euro im Monat[@shortAnswer]
+===
+[%7.]9 Prozent der Studenten[@shortAnswer]
+===
+[%8.]Krankheit und Zweifel am Studium[@shortAnswer]
+===
+
+[.article-attachment:bitmark++]
+**So leben Deutschlands Studenten**
+55 Prozent aller jungen Menschen eines Jahrgangs nehmen inzwischen ein Studium auf – so viele wie noch nie. Ungefähr 2,5 Millionen Studenten studieren in Deutschland an Hochschulen und Universitäten. Eine Sozialerhebung des deutschen Studentenwerks zum Leben der Studenten ergab folgendes Bild:
+Der größte Anteil der Studenten (22 Prozent) ist in den Ingenieurwissenschaften eingeschrieben (alle Ingenieurfächer zusammen) – seit 1997 stellen sie zum ersten Mal wieder die größte Fächergruppe. An zweiter Stelle stehen Rechts- und Wirtschaftswissenschaften (21 Prozent), Mathematik und Naturwissenschaften stehen mit 20 Prozent an dritter Stelle.
+Betrachtet man hingegen die 25 einzelnen Fächer, bleibt BWL (Betriebswirtschaftslehre) Spitzenreiter.
+35 Stunden pro Woche investieren Studenten nach eigenen Angaben durchschnittlich in ihr Studium: 18 Stunden für Lehrveranstaltungen, 17 Stunden für
+das Selbststudium. Wer neben dem Studium jobbt, verbringt zirka 33 Stunden mit dem Studium, hat aber eine wöchentliche Gesamtbelastung von 46 Stunden. Wer nicht jobbt, studiert hingegen mehr: 39 Stunden. Die durchschnittliche Gesamtarbeitszeit von Studenten (Studium und Job) liegt derzeit bei 42 Stunden pro Woche.
+Gut die Hälfte der Studenten lebt in einer festen Beziehung, darunter mehr Frauen als Männer. 43 Prozent sind Singles, darunter mehr Männer als Frauen. 6 Prozent sind verheiratet, 5 Prozent haben ein Kind.
+Obwohl Kinder aus Akademikerfamilien mit höherer Wahrscheinlichkeit, nämlich zu 77 Prozent, ein Studium beginnen als Kinder aus Arbeiterfamilien (23 Prozent), sind beide Gruppen an der Hochschule gleich groß – was auch daran liegt, dass Akademiker in der Gesamtbevölkerung eine eher kleinere Gruppe mit tendenziell weniger Nachwuchs darstellen.
+Der Durchschnittsstudent verfügt über 864 Euro im Monat. 87 Prozent gaben an, von den Eltern mit durchschnittlich 476 Euro unterstützt zu werden. Knapp zwei Drittel arbeiten neben dem Studium und verdienen damit durchschnittlich 323 Euro im Monat. Fast jeder Dritte bezieht BAföG* (durchschnittlich 443 Euro), 6 Prozent der Studenten haben einen Kredit aufgenommen.
+Immer weniger setzen ihr Studium aus. Die Unterbrecherquote verringerte sich von 11 Prozent auf 9 Prozent. Gründe für eine Unterbrechung gibt es viele: Krankheit und Zweifel am Studium sind die häufigsten.
+Die größte Gruppe wohnt allein oder mit dem Partner in einer eigenen Wohnung (37 Prozent). Wohngemeinschaften sind mit 29 Prozent die am zweitstärksten verbreitete Wohnform. Fast jeder Vierte lebt bei den Eltern oder anderen Verwandten, jeder Zehnte in einem Studentenwohnheim.
+*BAföG = Bundesausbildungsförderungsgesetz (staatliche finanzielle Unterstützung für Studenten)
+
+
+
+
+[.match-solution-grouped]
+[%A35b]
+[!Was gehört zusammen. Ergänzen Sie das passende Verb.]
+===
+ein Studium an einer Universität[@example]
+==
+aufnehmen
+===
+an einer Universität
+==
+studieren
+===
+sich an einer Universität
+==
+einschreiben
+===
+sich für ein Studienfach
+==
+entscheiden
+===
+viel Zeit pro Woche in das Studium
+==
+investieren
+===
+in einer festen Beziehung
+==
+leben
+===
+über 864 Euro im Monat
+==
+verfügen
+===
+staatliche Unterstützung (BAföG)
+==
+beziehen
+===
+einen Kredit
+==
+aufnehmen
+===
+das Studium aus Krankheitsgründen
+==
+unterbrechen
+===
+
+
+
+
+
+
+[.interview&image]
+[!Berichten Sie aus Ihrem Heimatland.]
+[%A36]
+===
+* Wie viel Prozent eines Jahrgangs studieren?[@shortAnswer]
+===
+* Aus welchen sozialen Schichten kommen die meisten Studenten?[@shortAnswer]
+===
+* Wie viel kostet ein Studium?[@shortAnswer]
+===
+* Wie finanzieren die meisten Studenten ihr Studium?[@shortAnswer]
+===
+* Wo wohnen die Studenten?[@shortAnswer]
+===
+* Was sind die beliebtesten Studienfächer? Vergleichen Sie Ihre Angaben/Vermutungen mit den Zahlen aus Deutschland.[@shortAnswer]
+===
+||add image - not found||
+
+
+
+[.interview&image]
+[%A37a]
+[!Akademische Berufe
+Beschreiben Sie die Tätigkeiten der folgenden Berufe.]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/doctor_with_stethoscope_around_his_neck_uid_9.png]
+
+===
+1. Arzt/Ärztin[@shortAnswer]
+===
+2. Rechtsanwalt/-anwältin[@shortAnswer]
+===
+3. Apotheker/-in[@shortAnswer]
+===
+4. Hochschullehrer/-in[@shortAnswer]
+===
+5. Informatiker/-in[@shortAnswer]
+===
+6. Astrophysiker/-in[@shortAnswer]
+===
+7. Topmanager/-in in einer großen Firma[@shortAnswer]
+===
+8. Finanzexperte/-expertin in einer Bank[@shortAnswer]
+===
+9. Bauingenieur/-in[@shortAnswer]
+===
+10. Architekt/-in[@shortAnswer]
+===
+
+
+
+
+
+[.essay:bitmark--]
+[%A37b]
+[!Forumsbeitrag
+Schreiben Sie einen Forumsbeitrag zum Thema __Akademische Berufe.__]
+* Beschreiben Sie den Ausbildungsweg zu einem akademischen Beruf in Ihrem Heimatland.
+* Beschreiben Sie Vor- und Nachteile einiger ausgewählter akademischer Berufe.
+* Nennen Sie einige Berufe, die in Ihrem Heimatland hohes Ansehen haben, und begründen Sie Ihre Aussage. 
+* Beschreiben und begründen Sie Ihre eigene Berufswahl.
+Denken Sie an eine Einleitung und einen Schluss. Bearbeiten Sie alle Inhaltspunkte und achten Sie neben der Korrektheit auch auf abwechslungsreiche und sinnvolle sprachliche Übergänge und Verknüpfungen. Schreiben Sie mindestens 150 Wörter.
+
+
+
+
+
+[.interview&image]
+[%A37c]
+[!Berichten Sie.]
+===
+1. Welche akademischen Berufe genießen in Ihrem Heimatland einen besonders hohen Stellenwert? Nennen Sie auch Gründe.
+===
+2. Wie wichtig sind in Ihrem Heimatland akademische Titel? In welchen Berufen gibt es besonders viele Promovierte? Welche Vorteile bringt der Doktortitel mit sich? Welche Nachteile kann ein Doktortitel haben?
+===
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/abschluss.png]
+===
+
+
+
+[.true-false:bitmark--]
+[@label-true:richtig][@label-false:falsch]
+[%A38]
+[!Deutschlands beliebtestes Studienfach: Betriebswirtschaftslehre (BWL)
+Sie hören jetzt ein Interview mit Professor Alfred Kieser zum BWL-Studium in Deutschland. Entsprechen die folgenden Aussagen dem Hörtext? Wenn ja, markieren Sie __richtig__, wenn nein, markieren Sie __falsch__.]
+[&audio::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/audio/10_erkundungen_b2_3a.mp3]
+15_erkundungen_b2_3a.mp3
+===
+[+1. Viele Studenten erhoffen sich nach dem Studium gute Berufschancen.]
+===
+[-2. Schon in der Schule interessieren sich viele Schüler inhaltlich für das Fach Ökonomie.]
+===
+[+3. Die Studieninhalte sind festgelegt, es gibt wenig Spielraum für Spezialisierung.]
+===
+[-4. Beim BWL-Studium geht es um die kritische Auseinandersetzung mit verschiedenen Theoriemodellen.]
+===
+[-5. Gute Schüler werden auch gute Studenten.]
+===
+[+6. Die hohe Anzahl an Studierenden erfordert von den Studenten Eigeninitiative und Selbstständigkeit.]
+===
+[-7. Die Mehrheit bewältigt die Studienanforderungen nicht.]
+===
+[-8. Die meisten BWL-Studenten werden Spitzenmanager.]
+===
+[@reference: Deutschlands beliebtestes Studienfach: „BWLer müssen vor allem büffeln“ SPIEGEL ONLINE, 10.4.2011 (Christoph Titz Interview mit Alfred Kieser) In: http://www.spiegel.de/karriere/berufsstart/]
+
+
+
+[.cloze-solution-grouped&image]
+[%A39]
+[!Vertiefen Sie den Wortschatz des Hörtextes. Ergänzen Sie die fehlenden Nomen.]
+BWL ist das größte [_Massenfach][@example] seit Erfindung der Hochschule. 205 900 [_Studierende](1) in Deutschland studieren Betriebswirtschaftslehre. Damit ist das Fach die mit weitem Abstand beliebteste [_Studienrichtung](2). Das liegt unter anderem daran, dass das Fach gute [_Berufschancen](3) verspricht. Denn kaum einer studiert BWL, weil er ein besonderes [_Interesse](4) daran hat. Wer seinen [_Neigungen](5) folgt, landet eher bei Kunstgeschichte oder Germanistik.
+Das Bachelorstudium ist sehr standardisiert, es gibt kaum [_Wahlmöglichkeiten](6). Auch der [_Masterstudiengang](7) ist nicht so freizügig wie früher. BWL-Studenten müssen vor allem gut büffeln*. Ein Student im ersten Semester muss
+jetzt viel [_Eigeninitiative](8) zeigen und selbstständig arbeiten. Die Gefahr für die Erstsemester-Studenten besteht darin, dass sie die [_Orientierung](9) verlieren. Gerade wer mit sehr guten [_Noten](10) aus der Schule kommt, tut sich oft schwer mit der Selbstorganisation und der gewaltigen [_Stoffmenge](11).
+Man muss sehr viele [_Lehrveranstaltungen](12) besuchen, zu denen man keine sehr tiefe Beziehung entwickelt. Manche Studenten kleiden sich schon wie Manager,
+das ist die frühe [_Identifizierung](13) mit dem Beruf. Aber man fängt natürlich nicht als Topmanager
+an. Zunächst kommen [_Berufseinsteiger](14) in die Personalabteilung oder ins Marketing. Viele [_Absolventen](15) werden in Jobs eingestellt, für die sie überqualifiziert sind. Nach dem Studienstart ist das oft die zweite [_Enttäuschung](16): Die Stelle entspricht nicht den hohen [_Erwartungen](17).
+*büffeln: lernen
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/uniabschluss-pfad.png]
+
+
+
+[.match]
+[%A40]
+[!Uni-Wortschatz
+Beschreiben Sie die folgenden Begriffe mit anderen Worten.]
+===
+[%1.]der Kommilitone
+==
+[$der Mitstudent/Studienkollege]
+===
+[%2.]das Stipendium
+==
+[$finanzielle Unterstützung (meist vom Staat, von einer Organisation oder von der Universität) für Studierende]
+===
+[%3.]die Exmatrikulation
+==
+[$offizielles Austragen aus dem Personenverzeichnis beim Verlassen der Universität]
+===
+[%4.]die Immatrikulation
+==
+[$Einschreibung an einer Universität]
+===
+[%5.]die Promotion
+==
+[$Schreiben der Doktorarbeit, später Verleihung des Doktortitels]
+===
+[%6.]das Auslandssemester
+==
+[$ein Semester im Ausland studieren]
+===
+[%7.]das Praktikum
+==
+[$praktische Erfahrungen (z. B. in einer Firma) sammeln]
+===
+[%8.]der Absolvent
+==
+[$jemand, der eine Ausbildung an einer Bildungseinrichtung erfolgreich abgeschlossen hat]
+===
+[%9.]der Studiengang
+==
+[$Studienprogramm (Abfolge von Vorlesungen und Seminaren) in einem bestimmten Fachgebiet]
+===
+[%10.]die Studiengebühren
+==
+[$Geld, das eine Universität für das Studium verlangt]
+===
+[%11.]die Vorlesung
+==
+[$Lehrveranstaltung, bei der ein Dozent über ein bestimmtes Thema vorträgt]
+===
+[%12.]das Studentenwohnheim
+==
+[$Gebäude, in dem ausschließlich Studenten wohnen]
+===
+[%13.]ein Studium mit Zulassungsbeschränkung
+==
+[$Studium, für dessen Zulassung bestimmte Auswahlkriterien gelten (Numerus clausus)]
+===
+
+
+
+
+
+
+
+[.essay]
+[%A41a]
+[!Universitäten
+Berichten Sie. Welche großen und besonders bekannten Universitäten gibt es in Ihrem Heimatland?]
+
+
+
+[.essay&article-attachment]
+[%A41b]
+[!Sie möchten gerne in Deutschland studieren. Freunde haben Ihnen zwei Universitäten empfohlen, die Freie Universität Berlin und die Universität Erfurt.
+Lesen Sie die folgenden Kurzinformationen (einschließlich der Informationen in A42a) und überlegen Sie, welche Universität für Sie eher infrage käme. Wägen Sie Vor- und Nachteile gegeneinander ab. Arbeiten Sie zu zweit.]
+
+Einen Vergleich anstellen
+* Wenn man die Universitäten miteinander vergleicht, ...
+* Im Vergleich zur Universität Erfurt ... 
+* An der Freien Universität Berlin ..., in Erfurt dagegen ...
+* ... sehe ich als großen Vorteil.
+* Ein Nachteil ist .../Als Nachteil empfinde ich ...
+* Ich persönlich bevorzuge ...
+* Für mich kommt nur ... infrage, weil dort ...
+* Ich würde gern in ... studieren, denn ...
+
+[.article-attachment:bitmark++]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/eingangsbereich_unierfurt_s.110.jpg]
+◼︎**Studium an der Freien Universität Berlin**
+Die Freie Universität Berlin ist eine von wenigen Universitäten, die in einem deutschen Exzellenzwettbewerb gleich zweimal ausgezeichnet wurden. Sie bietet knapp 200 Studiengänge in einer Vielzahl von Fächern. Derzeit gibt es 29 000 Studierende, von diesen kommen 15 Prozent aus dem Ausland. Die Freie Universität ist seit vielen Jahren bei ausländischen Forschern und Studierenden sehr beliebt. Der universitäre Infoservice berät umfassend über das Studium. Unter dem Dach der „Dahlem Research School“ werden Nachwuchswissenschaftler in 23 Promotionsprogrammen gefördert. An der Freien Universität haben zahlreiche bekannte Persönlichkeiten aus Politik und Gesellschaft studiert oder gelehrt.
+[@reference: Studium an der Freien Universität Berlin.
+In: http://www.fu-berlin.de/studium/index.html]
+
+◼︎**Neun Gründe für ein Studium an der Universität Erfurt**
+**1. Geisteswissenschaften**
+Die Universität Erfurt ist eine geisteswissenschaftliche Reformuniversität. Sie bietet insgesamt 47 Bachelor- und Master- Studiengänge an. An der Hochschule gibt es 700 Studierende, 102 Professoren und Professorinnen sowie 228 wissenschaftliche Mitarbeiter und Mitarbeiterinnen.
+**2. Fächerübergreifend studieren**
+Mit dem Zwei-Fach-Bachelor studieren Sie an der Universität Erfurt eine Hauptstudienrichtung und eine Nebenstudienrichtung. Dabei können Sie fast alle Bachelor-Studiengänge miteinander
+kombinieren.
+**3. Gut ausgestattet**
+Zum Forschen, Recherchieren und Lernen steht Ihnen die Universitäts- und Forschungsbibliothek mit mehr als einer Million Büchern und Medien direkt auf dem Campus zur Verfügung. Außerdem sind die Vorlesungs- und Seminarräume und ComputerPools bestens ausgestattet.
+**4. Campus-Universität**
+Die Wege zu den Lehrgebäuden, Wohnheimen, Sportanlagen und Cafés sind kurz. Auch die Universitätsbibliothek und die Verwaltung sind direkt auf dem Campus.
+5. Betreuung von Anfang an Sie werden von Anfang an intensiv begleitet und betreut. Bei den Studieneinführungstagen lernen Sie neben Ihren Kommilitonen auch den Campus und die moderne Bibliothek kennen. In den ersten Phasen des Studiums hilft Ihnen außerdem das Mentoren-Programm, sich schnell zurechtzufinden. Der Mentor unterstützt Sie dabei, die passende Strategie fürs Studium zu finden und ist für Sie da, wenn es doch mal Schwierigkeiten gibt.
+**6. Lebendige Wissenschaft**
+Auf den wissenschaftlichen Nachwuchs legt die Universität besonderen Wert. So können sich auch nach dem Master vielfältige Möglichkeiten für Sie ergeben, hier weiterhin zu forschen – beispielsweise in einer Forschergruppe des renommierten Max-Weber-Kollegs für kultur- und sozialwissenschaftliche Studien.
+**7. Uni global: Im Ausland studieren und arbeiten**
+An der Universität Erfurt studieren zurzeit 379 internationale Studierende, die den Campus mit ihrer Sprache und Kultur bereichern. Nutzen auch Sie die Möglichkeit, ein oder zwei Semester an einer unserer 45 Partnerhochschulen zu studieren oder an einem der 75 ERASMUS-Programme teilzunehmen!
+**8. Stadt mit historischem Flair**
+Vom Campus der Universität gelangen Sie direkt mit der Straßenbahn oder dem Fahrrad in zehn Minuten in die Altstadt. Sie zählt zu den schönsten mittelalterlichen
+Innenstädten Deutschlands. Als Landeshauptstadt Thüringens mit rund 200 000 Einwohnern ist Erfurt eine moderne Großstadt mit historischem Flair.
+**9. Günstig leben und wohnen **
+In Erfurt sind die Lebenshaltungskosten im Vergleich zu anderen Städten niedrig. Ein schönes Zimmer, gesundes Essen, Kino- und Barbesuche sind auch mit einem kleinen Budget möglich.
+[@reference: 10 Gründe für ein Studium an der Universität Erfurt.
+In: https://www.uni-erfurt.de/studium/studieninteressierte/warum/]
+
+
+
+
+
+[.match-solution-grouped]
+[%A42a]
+[!Beratung und Information
+Was passt zusammen? Verbinden Sie die Satzteile miteinander.]
+===
+Bei Fragen rund um ein Studium an der Freien Universität Berlin können sich Studieninteressierte und immatrikulierte Studierende
+==
+an den Infoservice der Freien Universität Berlin wenden.
+===
+Die Mitarbeiterinnen und Mitarbeiter beantworten telefonisch, per E-Mail oder im Chat Fragen
+==
+zu Studienangebot, Bewerbung, Auslandsaufenthalt oder Hochschulwechsel.
+===
+Die Allgemeine Studienberatung bietet den Studierenden die Gelegenheit
+==
+zu persönlichen Beratungsgesprächen, u. a. zu folgenden Themen Unsicherheit darüber, ob oder was man studieren sollte, fehlende Vorkenntnisse, Zulassungschancen, Orientierungsschwierigkeiten bei Studienbeginn oder falsche Fächerwahl.
+===
+Die psychologische Beratung unterstützt Studierende der Freien Universität Berlin
+==
+durch ein Angebot an Veranstaltungen sowie Lernmodulen zu Themen wie Zeit- und Selbstmanagement, Überwindung von Prüfungs- und Redeängsten, Examensvorbereitung oder wissenschaftliches Schreiben.
+===
+Die psychologische Beratung steht den Studierenden auch
+==
+für eine persönliche Einzelberatung zur Verfügung.
+===
+Darüber hinaus bietet die Freie Universität ihren Studierenden weitere Beratungseinrichtungen
+==
+für diverse Fragen und Herausforderungen, die sich im Studium ergeben können.
+===
+
+
+
+
+
+
+[.assignment&image]
+[%A42b]
+[!Informationen bei einer Universität einholen.]
+Rufen Sie beim Infoservice der FU Berlin an und holen Sie Informationen ein. Spielen Sie Telefondialoge.
+
+1. Sie würden gern im nächsten Jahr an der FU Berlin Germanistik im Bachelor-Studiengang studieren. Fragen Sie nach folgenden Punkten: Semesterbeginn, Bewerbungsschluss, Bewerbungsunterlagen, besondere Bedingungen für die Bewerbung (Sprachnachweis o. Ä.), Wohnmöglichkeiten, Studiengebühr, Inhalt und Dauer des Studiums.
+
+2. Sie studieren BWL und haben nach zwei Monaten festgestellt, dass dieses Studienfach nicht das richtige für Sie ist. Erkundigen Sie sich nach Möglichkeiten, mit einem anderen Studiengang zu beginnen.
+ 
+3.  Sie haben bereits einen Studienplatz. Ihr Studium beginnt in drei Monaten. Fragen Sie nach verschiedenen Möglichkeiten der Unterbringung, der Lage der Studentenwohnheime, Preisen, Anreise/Abreise und Unterkunftsmöglichkeiten in den Semesterferien.
+
+4. Sie wollten eigentlich im Herbstsemester an der Freien Universität Berlin studieren, doch die Bewerbungsfrist ist abgelaufen. Rufen Sie die Universität an und fragen Sie nach Möglichkeiten, damit Sie doch noch im Oktober mit dem Studium beginnen können.
+
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/738099_original_r_by_www.einstellungstest-polizei-zoll.de_pixelio.de.png]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/738099_original_r_by_www.einstellungstest-polizei-zoll.de_pixelio.de1.png]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/738099_original_r_by_www.einstellungstest-polizei-zoll.de_pixelio.de2.png]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/738099_original_r_by_www.einstellungstest-polizei-zoll.de_pixelio.de3.png]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/738099_original_r_by_www.einstellungstest-polizei-zoll.de_pixelio.de4.png]
+
+
+
+
+
+[.essay]
+[%A42c]
+[!Schreiben Sie zu zwei Themen eine E-Mail an den Infoservice der FU Berlin.]
+1. Sie würden gern im nächsten Jahr an der FU Berlin Germanistik im Bachelor-Studiengang studieren. Fragen Sie nach folgenden Punkten: Semesterbeginn, Bewerbungsschluss, Bewerbungsunterlagen, besondere Bedingungen für die Bewerbung (Sprachnachweis o. Ä.), Wohnmöglichkeiten, Studiengebühr, Inhalt und Dauer des Studiums.
+
+2. Sie studieren BWL und haben nach zwei Monaten festgestellt, dass dieses Studienfach nicht das richtige für Sie ist. Erkundigen Sie sich nach Möglichkeiten, mit einem anderen Studiengang zu beginnen.
+ 
+3.  Sie haben bereits einen Studienplatz. Ihr Studium beginnt in drei Monaten. Fragen Sie nach verschiedenen Möglichkeiten der Unterbringung, der Lage der Studentenwohnheime, Preisen, Anreise/Abreise und Unterkunftsmöglichkeiten in den Semesterferien.
+
+4. Sie wollten eigentlich im Herbstsemester an der Freien Universität Berlin studieren, doch die Bewerbungsfrist ist abgelaufen. Rufen Sie die Universität an und fragen Sie nach Möglichkeiten, damit Sie doch noch im Oktober mit dem Studium beginnen können.
+
+
+[.chapter]
+[##Teil B – fakultativ]
+
+[.chapter]
+[###Geschäftskorrespondenz]
+[.article:bitmark--]
+Die Texte und Aufgaben in diesem __fakultativen Teil B__ stellen ein Angebot für Lerner und Lerngruppen dar, die ihre sprachlichen Fähigkeiten zusätzlich erweitern möchten.
+
+
+
+
+[.assignment:bitmark--]
+[%B1a]
+[!Die Anfrage
+Lesen Sie den Text.]
+
+UTR-Pädagogikzentrum 
+Laura Weber
+Korte Gracht 84
+2743 RL Utrecht 
+Niederlande
+
+Verlag Land & Leute 
+Vertriebsabteilung 
+Völkerstr. 18
+04207 Leipzig 
+Deutschland
+
+**Anfrage Reiseführer Leipzig**
+Sehr geehrte Damen und Herren,
+für unsere Pädagogikstudenten sind wir auf der Suche nach einem geeigneten Buchtitel zur Vorbereitung auf eine Leipzigreise. Im Internet haben wir gesehen, dass Sie drei Bücher über Leipzig im Verlagsprogramm haben. Uns interessiert besonders das Taschenbuch „Leipzig und die Wende“.
+Wir wären Ihnen dankbar, wenn Sie uns zu diesem Titel ein Angebot für 40 Exemplare unterbreiten könnten. Teilen Sie uns bitte auch die Höhe der Versandkosten und die Lieferzeit mit.
+Wir hoffen auf ein baldiges Angebot und danken Ihnen im Voraus.
+Mit freundlichen Grüßen
+Laura Weber
+Arbeitsgruppe Deutsch
+
+Anlage: Broschüre der Arbeitsgruppe Deutsch
+cc: Deutschdozenten: Holger Dorn, Antje Hanke, Kirsten Gruber
+||add screenshot||
+
+
+
+[.cloze-and-multiple-choice-text]
+[%B1b]
+[!Nennen Sie die einzelnen Bestandteile eines Geschäftsbriefes.]
+||add screenshot||
+1. [-die Anlage][-die Anschrift/die Adresse des Empfängers][-der Ort und das Datum][-die Unterschrift][-das Bezugszeichen][-die Schlussformel][-die Anrede][+die Anschrift/die Adresse des Absenders (der Briefkopf)][-der Brieftext][-der Verteiler][-der Betreff oder die Betreffzeile][@example]
+2. [-die Anlage][+die Anschrift/die Adresse des Empfängers][-der Ort und das Datum][-die Unterschrift][-das Bezugszeichen][-die Schlussformel][-die Anrede][-die Anschrift/die Adresse des Absenders (der Briefkopf)][-der Brieftext][-der Verteiler][-der Betreff oder die Betreffzeile]
+3. [-die Anlage][-die Anschrift/die Adresse des Empfängers][-der Ort und das Datum][-die Unterschrift][+das Bezugszeichen][-die Schlussformel][-die Anrede][-die Anschrift/die Adresse des Absenders (der Briefkopf)][-der Brieftext][-der Verteiler][-der Betreff oder die Betreffzeile]
+4. [-die Anlage][-die Anschrift/die Adresse des Empfängers][+der Ort und das Datum][-die Unterschrift][-das Bezugszeichen][-die Schlussformel][-die Anrede][-die Anschrift/die Adresse des Absenders (der Briefkopf)][-der Brieftext][-der Verteiler][-der Betreff oder die Betreffzeile]
+5. [-die Anlage][-die Anschrift/die Adresse des Empfängers][-der Ort und das Datum][-die Unterschrift][-das Bezugszeichen][-die Schlussformel][-die Anrede][-die Anschrift/die Adresse des Absenders (der Briefkopf)][-der Brieftext][-der Verteiler][+der Betreff oder die Betreffzeile]
+6. [-die Anlage][-die Anschrift/die Adresse des Empfängers][-der Ort und das Datum][-die Unterschrift][-das Bezugszeichen][-die Schlussformel][+die Anrede][-die Anschrift/die Adresse des Absenders (der Briefkopf)][-der Brieftext][-der Verteiler][-der Betreff oder die Betreffzeile]
+7. [-die Anlage][-die Anschrift/die Adresse des Empfängers][-der Ort und das Datum][-die Unterschrift][-das Bezugszeichen][-die Schlussformel][-die Anrede][-die Anschrift/die Adresse des Absenders (der Briefkopf)][+der Brieftext][-der Verteiler][-der Betreff oder die Betreffzeile]
+8. [-die Anlage][-die Anschrift/die Adresse des Empfängers][-der Ort und das Datum][-die Unterschrift][-das Bezugszeichen][+die Schlussformel][-die Anrede][-die Anschrift/die Adresse des Absenders (der Briefkopf)][-der Brieftext][-der Verteiler][-der Betreff oder die Betreffzeile]
+9. [-die Anlage][-die Anschrift/die Adresse des Empfängers][-der Ort und das Datum][+die Unterschrift][-das Bezugszeichen][-die Schlussformel][-die Anrede][-die Anschrift/die Adresse des Absenders (der Briefkopf)][-der Brieftext][-der Verteiler][-der Betreff oder die Betreffzeile]
+10. [+die Anlage][-die Anschrift/die Adresse des Empfängers][-der Ort und das Datum][-die Unterschrift][-das Bezugszeichen][-die Schlussformel][-die Anrede][-die Anschrift/die Adresse des Absenders (der Briefkopf)][-der Brieftext][-der Verteiler][-der Betreff oder die Betreffzeile]
+11. [-die Anlage][-die Anschrift/die Adresse des Empfängers][-der Ort und das Datum][-die Unterschrift][-das Bezugszeichen][-die Schlussformel][-die Anrede][-die Anschrift/die Adresse des Absenders (der Briefkopf)][-der Brieftext][+der Verteiler][-der Betreff oder die Betreffzeile]
+
+
+▶︎ Geschäftsbriefe weisen nicht immer alle genannten Punkte auf. Einige Bestandteile werden nur bei Bedarf verwendet.
+
+
+
+[.cloze:bitmark--]
+[%B2]
+[!Lesen Sie das Angebot und ergänzen Sie die Personalpronomen im richtigen Kasus.]
+**Angebot zu „Leipzig und die Wende“**
+Sehr geehrte Frau Weber,
+wir danken [_Ihnen] für Ihre Anfrage vom 27.9. und freuen uns, dass [_Sie] an unserem Verlagsprogramm und insbesondere an dem Titel „Leipzig und die Wende“ interessiert sind. [_Sie][_Wir] meinen, dass das praktische Taschenbuch für Pädagogikstudenten im Ausland sehr gut geeignet ist. Der Preis eines Exemplars „Leipzig und die Wende“ beträgt 16 Euro zzgl. 1 Euro Versandkosten pro Exemplar. Wir können [_Ihnen] auf den Gesamtpreis von 680 Euro eine Ermäßigung von fünf Prozent anbieten. Sobald der Betrag von 646 Euro auf unserem Konto verbucht ist, senden wir [_Ihnen] die Bücher zu. Unsere Lieferzeit ins benachbarte Ausland beträgt etwa vier Tage. In der Anlage senden wir [_Ihnen] die Rechnung sowie unser neues Verlagsprogramm für das nächste Halbjahr und hoffen, dass [_Sie] auch weiterhin Interesse an unserem Verlagsprogramm und unseren Titeln haben.
+
+
+Mit freundlichen Grüßen
+Helmut Koch Vertriebsleiter Verlag Land & Leute
+
+
+
+
+[.essay&image]
+[%B3]
+[!Schreiben Sie selbst Anfragen bzw. Angebote und nutzen Sie dazu die Redemittel. Wählen Sie einen Auftrag aus.]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/schilder_und_symbole_1731.png]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/schilder_und_symbole_1732.png]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/schilder_und_symbole_1735.png]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/schilder_und_symbole_1737.png]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/schilder_und_symbole_1744.png]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/schilder_und_symbole_1745.png]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/schilder_und_symbole_1750.png]
+
+1. Erkundigen Sie sich bei einem Sprachinstitut nach dem Kursangebot, den Preisen und den Kurszeiten für das nächste Jahr. (Es steht nichts auf der Website.)
+2. Sie wollen mit Ihrer Abteilung einen Ausflug nach Aachen unternehmen. Höhepunkt des Ausflugs soll eine Betriebsbesichtigung sein. Sie haben im Internet gelesen, dass die Süßwarenfabrik Zentis solche Betriebsbesichtigungen nach schriftlicher Voranmeldung für ausländische Besuchergruppen durchführt. Schreiben Sie eine Anfrage. In Ihrem Brief sollten folgende Punkte enthalten sein: Datumsvorschläge, Teilnehmerzahl, Grund des Besuchs, kurze Vorstellung Ihrer Abteilung, Frage nach Kosten und einer Informationsbroschüre. Adresse: Zentis GmbH & Co. KG, Abteilung Öffentlichkeitsarbeit, Jülicher Straße 177, 52070 Aachen, Deutschland.
+3. Anfrage: Sie suchen für Ihre Firma zehn neue Flachbildschirme. Erkundigen Sie sich bei der Firma IMAX nach dem Angebot (Typen/Preise/ Lieferzeiten/Wartung).
+Angebot: Sie sind Mitarbeiter der Firma IMAX. Unterbreiten Sie ein Angebot für zehn Flachbildschirme.
+4. Sie sollen nach Stichpunkten Ihres Chefs/Ihrer Chefin eine Dienstreise nach Mecklenburg-Vorpommern organisieren und haben im Internet ein neu eröffnetes Hotel an der deutschen Ostseeküste entdeckt. Entwerfen Sie zu den Stichworten eine Anfrage per E-Mail.
+Datum: 24.9. bis 28.9.
+Unterkunft: drei Einzelzimmer/Dusche/Halbpension,
+vier Doppelzimmer/Dusche/Halbpension Anfrage: Menüvorschlag für ein geschäftliches
+Mittagessen für 15 Personen, 26.9., 13.30 Uhr und Ausflugsvorschlag für den 27.9.
+
+<<Geschäftsbriefe schreiben
+* Anrede: Sehr geehrte Frau ...,/Sehr geehrter Herr ..., Sehr geehrte Damen und Herren ...,
+* Schluss: Mit freundlichen Grüßen ...
+
+* Ihrer Anzeige/Ihrer Website entnehmen wir .../ Sie bieten ... an./Wir haben ... gelesen ...
+* Ich suche .../Wir sind auf der Suche nach .../Ich interessiere mich für ...
+* Bitte senden Sie uns ausführliche Informationen/ein Angebot über ...
+* Vielen Dank für Ihr Interesse an .../Ihr Schreiben vom ...
+* Wir können Ihnen folgendes Angebot unterbreiten: ... zum Stückpreis von ...
+* Unsere Liefer- und Zahlungsbedingungen lauten: Die Zahlung erfolgt innerhalb von .../Der Kaufpreis ist binnen ... nach Erhalt der Rechnung fällig.
+Die Lieferfrist beträgt .../Die Lieferung erfolgt am/ innerhalb von ...
+* Wir halten unser Angebot ... offen. 
+* Wir freuen uns auf Ihren Auftrag.<<
+
+
+
+[.essay]
+[%B4]
+[!Schreiben Sie halbformelle E-Mails und Briefe. Wählen Sie einen Auftrag aus.]
+1. Entwerfen Sie eine E-Mail an einen deutschen Mitarbeiter, der bald für vier Wochen in Ihrer Abteilung arbeiten wird. Beschreiben Sie ihm Ihre Abteilung, Ihren Arbeitsplatz, die Pausenmöglichkeiten und verschiedene Möglichkeiten zur Freizeitgestaltung in Ihrer Heimatstadt.
+2. Langjährige Geschäftsfreunde von Ihnen wollen Ihre Heimatstadt besuchen. Sie möchten sich gern mit Ihren Geschäftsfreunden treffen und bieten außerdem Ihre Hilfe als Stadtführer an.
+3. Schreiben Sie eine kurze E-Mail an den Kollegen Dr. Götz in Freiburg/Deutschland und fragen Sie ihn, ob er in der nächsten Woche zu dringenden Verhandlungsgesprächen (bitte genaues Datum, Zeit, Ort angeben) in Ihr Unternehmen kommen kann. Fragen Sie auch, ob er eine Unterkunft in Ihrem Heimatort benötigt.
+4. Sie haben eine Projektbesprechung bei einer deutschen Tochterfirma. Erkundigen Sie sich bei den dortigen Kollegen nach Einzelheiten der Besprechung.
+
+<<Halbformelle Briefe schreiben
+* Anrede: Lieber Herr ...,/Liebe Frau ...,
+* Schluss: Beste Grüße/Mit bestem Gruß ... Herzliche Grüße/Mit herzlichen Grüßen ...<<
+
+
+
+[.correction]
+[%B5]
+[!Eine Reklamation
+Ein ausländischer Freund bittet Sie darum, eine Reklamation an einen deutschen Schulbuchverlag zu korrigieren, da Sie besser Deutsch können.]
+1. Fehler im Wort: Schreiben Sie die richtige Form an den Rand. (Beispiel 1)
+2. Fehler in der Satzstellung: Schreiben Sie das falsch platzierte Wort an den Rand, zusammen mit dem Wort, mit dem es vorkommen soll. (Beispiel 2)
+
+[-Sehr geehrte Dame und Herren,
+
+gestern ich habe die bestellten Bücher aus Ihrem Verlag erhalten, es sich handelt um die Titel „Neue Redemittel“ und „Grammatik 3“. Leider sind die Bücher beschädigd, vermutlich sind sie unterwegs
+nass geworden. Viele Seiten war zusammengeklebt. So kann ich die Bücher leider nicht meer verwenden. Ich benötige die Bücher jedoch dringend vor mein Studium. Ich hoffe, dass Sie mir kurzfristig zwei
+neuen Exemplare der genannten Titel unentgeltlich zur Verfügung stellen können. Würden Sie mich bitte auch noch mitteilen, ob ich Ihnen die beschädigten Bücher soll zurücksenden?
+Mir gefällt ihre neue Schulbuchreihe „Was denn nun?“ sehr gut.
+Weil ich als Pädagogikstudentin gerade ein Praktikum an eine Schule mache, wurde ich gern mit dem neuen Material arbeiten. Könnten Sie mir eine Probeexemplar zusenden?
+Vielen Dank in Voraus.
+
+Mit freundlichem Grüßen
+Danielle Montain]
+[+Sehr geehrte Damen und Herren,
+
+gestern ich habe die bestellten Bücher aus Ihrem Verlag erhalten, es handelt sich um die Titel „Neue Redemittel“ und „Grammatik 3“. Leider sind die Bücher beschädigt, vermutlich sind sie unterwegs
+nass geworden. Viele Seiten waren zusammengeklebt. So kann ich die Bücher leider nicht mehr verwenden. Ich benötige die Bücher jedoch dringend vor mein Studium. Ich hoffe, dass Sie mir kurzfristig zwei neue Exemplare der genannten Titel unentgeltlich zur Verfügung stellen können. Würden Sie mir bitte auch noch mitteilen, ob ich Ihnen die beschädigten Bücher zurücksenden soll?
+Mir gefällt Ihre neue Schulbuchreihe „Was denn nun?“ sehr gut.
+Weil ich als Pädagogikstudentin gerade ein Praktikum an einer Schule mache, würde ich gern mit dem neuen Material arbeiten. Könnten Sie mir ein Probeexemplar zusenden?
+Vielen Dank im Voraus.
+
+Mit freundlichen Grüßen
+Danielle Montain]
+
+||how to show the examples?||
+7. für?  
+
+
+
+
+[.chapter]
+[##Teil C][▼kapitel4c]
+
+[.chapter]
+[###Konjunktiv II: Höflichkeit und Irrealität]
+
+
+[.article:bitmark--]
+◼︎Gebrauch
+**Könnte** ich bitte Herrn Müller sprechen? ➔ höfliche Frage
+**Würdest** du bitte das Fenster öffnen? ➔ höfliche Aufforderung
+Wir **sollten** mit der Entscheidung noch warten. ➔ Vorschlag
+Ich **würde** mir das (an deiner Stelle) noch einmal überlegen. ➔ Meinungsäußerung
+**Müsste** ich doch nicht immer neue Wörter lernen! ➔ Wunsch (irreal)
+Wenn ich Zeit **hätte**, würde ich sofort zu ihm fahren. ➔ Bedingung (irreal)
+Fast/Beinahe **hätte** ich fünf Millionen Euro gewonnen. ➔ verpasste Gelegenheit
+Er tut so, als ob er mich nicht sehen **würde**. ➔ Vergleich (irreal)
+
+◼︎Gegenwart
+||add table?||
+
+◼︎Vergangenheit
+||add table||
+
+
+
+
+
+[.match]
+[%C1]
+[!Formulieren Sie Vorschläge.]
+Ich würde vorschlagen, dass .../Es wäre gut/sinnvoll/ratsam, wenn wir .../Wir sollten .../Wir könnten z. B. auch ...
+===
+[%1.] gemeinsam – zum Essen – gehen
+==
+[$Ich würde vorschlagen, dass wir gemeinsam essen gehen.]
+===
+[%2.] zusätzlich – Mitarbeiter – einstellen
+==
+[$Wir sollten zusätzlich einen Mitarbeiter/neue Mitarbeiter einstellen.]
+===
+[%3.] Dr. Hofmann – Mithilfe – Projekt – bitten
+==
+[$Es wäre gut, wenn wir Dr. Hofmann um Mithilfe bei dem Projekt bitten würden.]
+===
+[%4.] Englischkurs – Mitarbeiter – organisieren
+==
+[$Wir könnten z. B. auch einen Englischkurs für die Mitarbeiter organisieren.]
+===
+[%5.] Einsparungen – Materialverbrauch – nachdenken
+==
+[$Es wäre ratsam, wenn wir auch über Einsparungen beim Materialverbrauch nachdenken würden.]
+===
+[%6.] krank, Mitarbeiter – Blumenstrauß – Krankenhaus – schicken
+==
+[$Wir sollten dem kranken Mitarbeiter einen Blumenstrauß ins Krankenhaus schicken.]
+===
+[%7.] wöchentlich – Teamsitzung – durchführen
+==
+[$Ich würde vorschlagen, dass wir wöchentlich eine Teamsitzung durchführen.]
+===
+[%8.] Forschungsergebnisse – Konferenz – München – vorstellen
+==
+[$Es wäre sinnvoll, die Forschungsergebnisse auf der Konferenz in München vorzustellen.]
+===
+
+
+
+
+[.interview]
+[%C2a]
+[!Bilden Sie irreale Bedingungssätze.
+Wenn ich Zeit hätte, ...]
+===
+Auto[@shortAnswer]
+[@example:Wenn ich Zeit hätte, würde ich mal mein Auto waschen.]
+===
+[%1.] Hausaufgaben[@shortAnswer]
+[$Wenn ich Zeit hätte, würde ich immer meine Hausaufgaben machen.]
+===
+[%2.] Bücher[@shortAnswer]
+[$Wenn ich Zeit hätte, würde ich all die Bücher lesen, die ich mir im Urlaub gekauft habe.]
+===
+[%3.] Wohnung[@shortAnswer]
+[$Wenn ich Zeit hätte, würde ich mal meine Wohnung aufräumen.]
+===
+[%4.] Sport[@shortAnswer]
+[$Wenn ich Zeit hätte, würde ich regelmäßig Sport treiben.]
+===
+[%5.] Essen[@shortAnswer]
+[$Wenn ich Zeit hätte, würde ich ein wunderbares Essen kochen.]
+===
+[%6.] Freunde[@shortAnswer]
+[$Wenn ich Zeit hätte, würde ich meine Freunde in Frankreich besuchen.]
+===
+
+
+[.interview]
+[%C2b]
+[!Bilden Sie irreale Bedingungssätze.
+Was würden Sie tun, ...]
+===
+[%1.] wenn Sie von einer fremden Person um 100 Euro gebeten würden?
+Wenn ich von einer fremden Person um 100 Euro gebeten würde,[@shortAnswer]
+[@example:würde ich die Person/sie für verrückt halten. ]
+===
+[%2.] wenn Sie neben Ihrem Lieblingsschauspieler/Ihrer Lieblingsschauspielerin im Flugzeug sitzen würden?[@shortAnswer]
+[$Wenn ich neben meinem Lieblingsschauspieler im Flugzeug sitzen würde, würde ich ihn um ein Autogramm bitten.]
+===
+[%3.] wenn Sie nach dem Essen in einem Restaurant bemerken würden, dass Sie kein Geld bei sich hätten?[@shortAnswer]
+[$Wenn ich nach dem Essen in einem Restaurant bemerken würde, dass ich weder Geld noch Kreditkarten bei mir hätte, würde ich meinen Mann fragen, ob er die Rechnung bezahlt.]
+===
+[%4.] wenn Sie auf der Autobahn feststellen würden, dass der Tank leer ist?[@shortAnswer]
+[$Wenn ich auf der Autobahn feststellen würde, dass der Tank leer ist, würde ich mich schwarz ärgern.]
+===
+[%5.] wenn Ihr Handy mitten in einem Konzert klingeln würde?[@shortAnswer]
+[$Wenn mein Handy mitten in einem Konzert klingeln würde, würde ich vor Scham im/in den Erdboden versinken.]
+===
+[%6.] wenn Sie eine E-Mail mit einem Virus geöffnet hätten?[@shortAnswer]
+[$Wenn ich eine E-Mail mit einem Virus geöffnet hätte, würde ich laut um Hilfe schreien.]
+===
+
+
+
+
+[.interview:bitmark--]
+[%C3]
+[!Bilden Sie Sätze in der Vergangenheit mit __fast__ oder __beinahe__. Beschreiben Sie die nicht eingetretene Folge.]
+===
+Der Hut hat mir so gut gefallen.[@shortAnswer]
+[@example:Beinahe hätte ich ihn gekauft.]
+===
+[%1.] Die Polizei verfolgte den Bankräuber.[@shortAnswer]
+[$Beinahe wäre der Räuber entkommen.]
+===
+[%2.] Ich war früher in Peter sehr verliebt.[@shortAnswer]
+[$Beinahe hätte ich ihn geheiratet.]
+===
+[%3.] Ich hatte gestern zum siebten Mal Fahrprüfung.[@shortAnswer]
+[$Fast hätte ich sie diesmal bestanden.]
+===
+[%4.] Ich war am Wochenende auf der Rennbahn und habe auf ein Pferd gewettet.[@shortAnswer]
+[$Fast hätte ich 5 000 Euro gewonnen.]
+===
+[%5.] Der Taxifahrer achtete nicht auf die Ampel.[@shortAnswer]
+[$Fast wäre er deshalb bei Rot über die Kreuzung gefahren.]
+===
+[%6.] Während der Landung des Flugzeugs kam ein Sturm auf.[@shortAnswer]
+[$Beinahe hätten wir notlanden müssen.]
+===
+[%7.] Max hat den Termin nicht in seinen Kalender eingetragen.[@shortAnswer]
+[$Fast hätte er den Termin vergessen.]
+===
+[%8.] Der Kunde hatte keine Wegbeschreibung zur Firma und keinen Stadtplan.[@shortAnswer]
+[$Fast hätte er die Firma nicht gefunden.]
+===
+
+
+
+
+[.match:bitmark--]
+[%C4]
+[!Was wäre, wenn ...?
+Bilden Sie Sätze in der Vergangenheit.]
+===
+ich: Zeit haben – die Arbeit abschließen können
+==
+[@example:Wenn ich Zeit **gehabt hätte**, __hätte ich die Arbeit abschließen können.__]
+===
+[%1.] wir: rechtzeitig ankommen – noch etwas essen können
+==
+[$Wenn wir rechtzeitig angekommen wären, hätten wir noch etwas essen können.]
+===
+[%2.] ich: Herrn Schneiders Handynummer haben – ihn informieren können
+==
+[$Wenn ich Herrn Schneiders Handynummer gehabt hätte, hätte ich ihn informieren können.]
+===
+[%3.] wir: sich Argumente vorher gut überlegen – die Verhandlungen besser führen können
+==
+[$Wenn wir uns die Argumente vorher gut überlegt hätten, hätten wir die Verhandlungen besser führen können.]
+===
+[%4.] wir: die Preise nicht erhöhen – mehr Produkte verkaufen können
+==
+[$Wenn wir die Preise nicht erhöht hätten, hätten wir mehr Produkte verkaufen können.]
+===
+[%5.] die Mannschaft: sich besser vorbereiten – das Spiel gewinnen können
+==
+[$Wenn sich die Mannschaft besser vorbereitet hätte, hätte sie das Spiel gewinnen können.]
+===
+[%6.] du: die E-Mail gleich beantworten – das Problem sofort lösen können
+==
+[$Wenn du die E-Mail gleich beantwortet hättest, hättest du das Problem sofort lösen können.]
+===
+
+
+
+
+
+[.match:bitmark--]
+[%C5]
+[!Leider ist die Welt oft anders, als man es sich wünscht. Bilden Sie irreale Wunschsätze.]
+===
+**Realität:** Es regnet schon den fünften Tag.
+**Wunsch:**
+==
+Wenn doch endlich die Sonne schiene/scheinen würde![@example]
+===
+[%1.] **Realität:** Er ruft mich nicht an.
+**Wunsch:**
+==
+Wenn er mich doch endlich anrufen würde!
+===
+[%2.] **Realität:** Es ist kalt und ich habe keinen Pullover eingepackt.
+**Wunsch:**
+==
+Wenn ich doch nur etwas Warmes zum Anziehen/einen Pullover eingepackt hätte!
+===
+[%3.] **Realität:** Sie hat ihr ganzes Geld für diesen Ring ausgegeben, jetzt ist sie pleite.
+**Wunsch:**
+==
+Wenn sie ihr Geld doch gespart/nicht für diesen Ring ausgegeben hätte! 
+===
+[%4.] **Realität:** Er hat vor dem Examen nicht gelernt.
+**Wunsch:**
+==
+Wenn er doch bloß gelernt hätte!
+===
+[%5.] **Realität:** Sie erinnert sich nicht mehr an ihr Versprechen.
+**Wunsch:**
+==
+Wenn sie sich doch an ihr Versprechen erinnern würde/erinnert hätte!
+===
+[%6.] **Realität:** Ich habe zu wenig Zeit.
+**Wunsch:**
+==
+Wenn ich doch mehr Zeit hätte!
+===
+[%7.] **Realität:** Der Urlaub ist schon zu Ende.
+**Wunsch:**
+==
+Wenn der Urlaub doch nicht schon zu Ende wäre/noch ewig dauern würde!
+===
+[%8.] **Realität:** Er hat mal wieder nicht auf seine Eltern gehört.
+**Wunsch:**
+==
+Wenn er doch auf seine Eltern gehört hätte!
+===
+
+
+
+
+
+[.match]
+[%C6]
+[!Bilden Sie irreale Vergleichssätze.]
+===
+[%*]mich nicht sehen
+Er tut so, als ob
+==
+er mich nicht sehen würde.[@example]
+===
+[%1.]krank sein
+Sie macht auf mich den Eindruck, als ob
+==
+sie krank wäre
+===
+[%2.]nächtelang nicht geschlafen
+Er sieht aus, als ob
+==
+er nächtelang nicht geschlafen hätte
+===
+[%3.]tagelang gehungert
+Anna aß so viel, als ob
+==
+sie tagelang gehungert hätte
+===
+[%4.]jahrelang in Polen gelebt
+Sigmund spricht Polnisch, als ob
+==
+er jahrelang in Polen gelebt hätte
+===
+[%5.]jemanden verfolgen
+Er rannte die Treppen hinunter, als ob
+==
+ihn jemand verfolgt hätte
+===
+[%6.]noch nie davon gehört
+Er schien so überrascht, als ob
+==
+er noch nie davon gehört hätte
+===
+
+
+
+
+[.chapter]
+[###Rektion der Verben: Das Verb regiert im Satz.]
+
+[.article:bitmark--]
+||add tables||
+
+**Einige Verben mit Nominativ und Akkusativ:**
+__jemanden__ ... befragen ◇ beglückwünschen (zu) ◇ beneiden (um) ◇ besuchensbitten (um) ◇ langweilen ◇ lieben ◇ loben (für) ◇ kennen ◇ sehen ◇ treffen ◇ unterbrechen ◇ untersuchen ◇ verhören ◇ verlassen ◇ verstehen
+
+**Einige Verben mit Nominativ und Dativ:**
+__jemandem__ ... antworten (auf) ◇ begegnen ◇ beistehen ◇ danken (für) ◇ drohen (mit) ◇ gefallen ◇ glauben ◇ gratulieren (zu) ◇ helfen ◇ imponieren ◇ missfallen ◇ misstrauen ◇ nachgeben ◇ nützen ◇ schaden ◇ vertrauen ◇ widersprechen ◇ zuhören ◇ zulächeln ◇ zureden ◇ zusehen (bei) ◇ zustimmen ◇ zuwinken
+
+**Einige Verben mit Nominativ, Dativ und Akkusativ:**
+__jemandem etwas__ ... anvertrauen ◇ beantworten ◇ bewilligen ◇ borgen ◇ bringen ◇ empfehlen ◇ entziehen ◇ erlauben ◇ erzählen ◇ faxen ◇ geben ◇ leihen ◇ mitteilen ◇ sagen ◇ schenken ◇ schicken ◇ schreiben ◇ senden ◇ überreichen ◇ verbieten ◇ verdanken ◇ verschweigen ◇ versprechen ◇ verkaufen ◇ verweigern ◇ verzeihen ◇ wegnehmen ◇ wünschen ◇ zeigen
+
+
+
+
+[.match]
+[%C7]
+[!Dativ oder Akkusativ? Bilden Sie Sätze. Achten Sie auch auf eventuell fehlende Präpositionen. (Das erste Wort ist das Subjekt.)]
+===
+[%*]Chef – Angestellter – Kündigung – drohen
+==
+[$Der Chef drohte/droht dem Angestellten mit der Kündigung.][@example]
+===
+[%1.]Vortrag – ich – langweilen
+==
+[$Der Vortrag langweilt mich.]
+--
+[$Der Vortrag langweilte mich.]
+===
+[%2.]Polizei – Einbrecher – verhören
+==
+[$Die Polizei verhört den Einbrecher.]
+--
+[$Die Polizei verhörte den Einbrecher.]
+===
+[%3.]ich – du – danken – Blumen
+==
+[$Ich danke dir für die Blumen.]
+--
+[$Ich dankte dir für die Blumen.]
+===
+[%4.]Tochter – Vater – widersprechen
+==
+[$Die Tochter widerspricht dem Vater.]
+--
+[$Die Tochter widersprach dem Vater.]
+===
+[%5.]Nachbar – er – Gefallen – bitten
+==
+[$Der Nachbar bittet ihn um einen Gefallen.]
+--
+[$Der Nachbar bat ihn um einen Gefallen.]
+===
+[%6.]sie – kein Handwerker – mehr vertrauen
+==
+[$Sie vertraut keinem Handwerker mehr.]
+--
+[$Sie vertraute keinem Handwerker mehr.]
+===
+[%7.]er – ich – freundlich zulächeln
+==
+[$Er lächelt mir freundlich zu. ]
+--
+[$Er lächelte mir freundlich zu.]
+===
+[%8.]Arzt – Patient – untersuchen
+==
+[$Der Arzt untersucht den Patienten.]
+--
+[$Der Arzt untersuchte den Patienten.]
+===
+[%9.]dein Benehmen – ich – gar nicht gefallen
+==
+[$Dein Benehmen gefällt mir gar nicht.]
+--
+[$Dein Benehmen gefiel mir gar nicht.]
+===
+[%10.]alle Kollegen – Vorschlag – zustimmen
+==
+[$Alle Kollegen stimmen dem Vorschlag zu.]
+--
+[$Alle Kollegen stimmten dem Vorschlag zu.]
+===
+
+
+
+
+[.match]
+[%C8]
+[!Dativ und Akkusativ oder Akkusativ und Akkusativ? Bilden Sie Sätze. (Das erste Wort ist das Subjekt.)]
+===
+[%*]ich – er – kein Geheimnis – anvertrauen können
+==
+Ich kann ihm kein Geheimnis anvertrauen.[@example]
+--
+Ich konnte ihm kein Geheimnis anvertrauen.[@example]
+===
+[%1.]Bank – Kunde – Kredit – bewilligen
+==
+Die Bank bewilligt dem Kunden den Kredit.
+--
+Die Bank bewilligte dem Kunden den Kredit.
+===
+[%2.]Arzt – ich – Untersuchungsergebnisse – mitteilen
+==
+Der Arzt teilt mir die Untersuchungsergebnisse mit. 
+--
+Der Arzt teilte mir die Untersuchungsergebnisse mit. 
+===
+[%3.]er – ich – Geigespielen – lehren
+==
+Er lehrt mich (das) Geigespielen. 
+--
+Er lehrte mich (das) Geigespielen. 
+===
+[%4.]Präsident IOC – Sieger – Medaille – überreichen
+==
+Der Präsident des IOC überreicht dem Sieger die Medaille. 
+--
+Der Präsident des IOC überreichte dem Sieger die Medaille. 
+===
+[%5.]Tennisspieler – Trainer – Sieg – verdanken
+==
+Der Tennisspieler verdankt dem Trainer den Sieg.
+--
+Der Tennisspieler verdankte dem Trainer den Sieg.
+--
+Der Tennisspieler verdankt dem Trainer seinen Sieg.
+--
+Der Tennisspieler verdankte dem Trainer seinen Sieg.
+===
+[%6.]unbedachte Äußerung – Manager – weitere Karriere – kosten
+==
+Die unbedachte Äußerung kostet den Manager die weitere Karriere. 
+--
+Die unbedachte Äußerung kostete den Manager die weitere Karriere. 
+===
+[%7.]Regierung – Diplomaten – Einreise – verweigern
+==
+Die Regierung verweigert dem Diplomaten die Einreise. 
+--
+Die Regierung verweigerte dem Diplomaten die Einreise. 
+===
+[%8.]Polizei – er – Führerschein – entziehen
+==
+Die Polizei entzieht ihm den Führerschein. 
+--
+Die Polizei entzog ihm den Führerschein. 
+--
+Die Polizei entzieht ihm seinen Führerschein. 
+--
+Die Polizei entzog ihm seinen Führerschein. 
+===
+[%9.]Mannschaftskapitän – Torwart – Flasche* – nennen
+==
+Der Mannschaftskapitän nennt den Torwart eine Flasche.
+--
+Der Mannschaftskapitän nannte den Torwart eine Flasche.
+===
+[%10.]Vater – Kind – Belohnung – versprechen
+==
+Der Vater verspricht dem Kind eine Belohnung.
+--
+Der Vater versprach dem Kind eine Belohnung.
+===
+[%11.]ich – Sie – neuer Termin – morgen – mitteilen
+==
+Ich teile Ihnen den neuen Termin morgen mit.
+===
+[%12.]Seminararbeit – ich – zu viel Zeit – kosten
+==
+Die Seminararbeit kostet mich zu viel Zeit.
+--
+Die Seminararbeit kostete mich zu viel Zeit.
+===
+
+*Flasche = Schimpfwort
+
+
+
+[.cloze:bitmark--]
+[%C9]
+[!Dativ oder Akkusativ? Ergänzen Sie __mir__ oder __mich__, __dir__ oder __dich__.]
+1. Ich habe [_mich] gestern über das Verhalten meines Kollegen geärgert.
+2. Kannst du [_mir] bis morgen Bescheid sagen?
+3. Ich kann [_dir] mein Fahrrad nicht schon wieder borgen, kauf [_dir] doch mal selber eins.
+4. Ich möchte [_mich] für das Geschenk sehr herzlich bedanken.
+5. Es hat [_mich] gefreut, dass er [_mich][_dich] gleich angerufen hat.
+6. Könnten Sie [_mich] am Bahnhof abholen?
+7. Wie hat er [_dich] genannt?
+8. Du hast [_mir] versprochen, dass du pünktlich bist, aber du hast [_dich] nicht daran gehalten.
+9. Die Reise nach Rom hat [_mir] sehr gefallen. Genauso habe ich [_mir] Rom vorgestellt.
+10. Ich habe [_dir] bei der Konzertprobe zugehört. Du hast [_dich] ja unglaublich verbessert!
+
+
+
+
+[.chapter]
+[###Die Wortstellung im Satz]
+
+
+[.article:bitmark--]
+◼︎**Die Position der Verben im Hauptsatz**
+
+||add table||
+
+▶︎ Außer im Ja-Nein-Fragesatz steht das finite Verb in Aussage- und Fragesätzen immer an Position 2.
+▶︎ Zweiteilige Verben bilden eine Satzklammer.
+Bei Nomen-Verb-Verbindungen wird die Satzklammer mit dem Nomen gebildet.
+
+
+◼︎**Die Wortstellung im Mittelfeld**
+
+**a) Kasusergänzungen**
+||add table||
+
+▶︎ Normalerweise ist die Reihenfolge: Dativ vor Akkusativ. Gibt es zwei Pronomen, steht der Akkusativ vor dem Dativ.
+▶︎ Dativ- oder Akkusativergänzungen stehen vor präpositionalen Ergänzungen.
+
+**b) Angaben**
+||add table||
+
+▶︎ Die Reihenfolge der Angaben ist meistens:
+**te**mporal (wann?) – **ka**usal (warum?) – **mo**dal und instrumental (wie? mit wem? womit?) – **lo**kal (wo? wohin?) Kleine Eselsbrücke: __te – ka – mo – lo__.
+▶︎ Die Angaben stehen oft zwischen den Dativ- und Akkusativergänzungen.
+
+
+◼︎**Das Nachfeld**
+||add table||
+▶︎ In Vergleichssätzen können Angaben mit als und wie nach der Satzklammer stehen.
+
+◼︎**Variable Wortstellungen**
+||add table||
+
+▶︎ Überraschende, hervorgehobene oder neue Informationen stehen am Ende, bekannte Informationen stehen vorn. Die Betonung liegt auf den neuen Informationen.
+▶︎ Quellenangaben stehen oft auf Position 1.
+
+
+
+
+[.match]
+[%C10]
+[!Bilden Sie Sätze. Achten Sie auf die Reihenfolge der Angaben. Es gibt mehrere Möglichkeiten.]
+Andrea hat viel zu tun.
+===
+[%*]Sie muss fahren – (zur Arbeit – mit dem Auto – jeden Morgen)
+==
+Andrea muss jeden Morgen mit dem Auto zur Arbeit fahren.[@example]
+===
+[%1.]Sie muss kochen – (Kaffee – für den Chef)
+==
+Sie muss für den Chef Kaffee kochen.
+--
+Sie muss Kaffee für den Chef kochen.
+===
+[%2.]Sie muss erinnern – (an die Besprechung – gleich – mit dem Informatiker – den Chef)
+==
+Sie muss den Chef gleich an die Besprechung mit dem Informatiker erinnern. 
+===
+[%3.]Sie muss sprechen – (in ihrem Büro – mit Kunden – vormittags)
+==
+Sie muss vormittags mit Kunden in ihrem Büro sprechen.
+===
+[%4.]Sie muss organisieren – (nach Hannover – eine Dienstreise – zur Messe – für ihre Kollegen)
+==
+Sie muss eine Dienstreise für ihre Kollegen zur Messe nach Hannover organisieren.
+===
+[%5.]Sie muss eingeben – (die Verkaufszahlen – in die Excel-Tabelle – zur Abrechnung)
+==
+Sie muss die Verkaufszahlen zur Abrechnung in die Excel-Tabelle eingeben.
+===
+
+
+
+
+[.match-all]
+[%C11]
+[!Bilden Sie Fragen und antworten Sie wie im Beispiel.]
+
+Kannst Du ...?
+===
+[%*]ich – dein Bleistift – mal – leihen
+==
+Kannst du mir mal deinen Bleistift leihen? Ja, ich leihe ihn dir.[@example]
+===
+[%1.]die Gäste – das Restaurant Milano – auf dem Stadtplan – zeigen
+==
+Kannst du den Gästen auf dem Stadtplan das Restaurant „Milano“ zeigen?
+--
+Ja, ich zeige es ihnen.
+===
+[%2.]die Firma Krüger – das Angebot – faxen
+==
+Kannst du der Firma Krüger das Angebot faxen?
+--
+Ja, ich faxe es ihr.
+===
+[%3.]ich – die Hausarbeit – am Wochenende – abnehmen
+==
+Kannst du mir am Wochenende die Hausarbeit abnehmen?
+--
+Ja, ich nehme sie dir ab.
+===
+[%4.]der Chef – das Protokoll der Sitzung – heute noch – geben
+==
+Kannst du dem Chef heute noch das Protokoll der Sitzung geben?
+--
+Ja, ich gebe es ihm.
+===
+[%5.]ich – dein Auto – schenken
+==
+Kannst du mir dein Auto schenken?
+--
+Nein, ich schenke es dir nicht.
+===
+[%6.]wir – zwei Flaschen Mineralwasser – mitbringen
+==
+Kannst du uns zwei Flaschen Mineralwasser mitbringen?
+--
+Ja, ich bringe sie euch mit.
+===
+
+
+||better interview bit?||
+
+
+[.match]
+[%C12]
+[!Bilden Sie Sätze. Achten Sie auf die Reihenfolge der Satzglieder, den Kasus und die fehlenden Präpositionen.]
+===
+[%1.]haben – tägliches Leben – ehrlich gemeinte Komplimente – eine soziale Funktion
+==
+[$Ehrlich gemeinte Komplimente haben eine soziale Funktion im täglichen Leben/im täglichen Leben eine soziale Funktion.]
+===
+[%2.]Interesse und Aufmerksamkeit – andere Menschen – ein Kompliment – signalisieren
+==
+[$Ein Kompliment signalisiert anderen Menschen Interesse und Aufmerksamkeit.]
+===
+[%3.]USA – nette Floskeln – gehören – Alltag
+==
+[$In den USA gehören nette Floskeln zum Alltag.]
+===
+[%4.]Deutschland – haben – viele Leute – Probleme – Annehmen von Komplimenten
+==
+[$In Deutschland haben viele Leute Probleme mit dem Annehmen von Komplimenten.]
+===
+[%5.]Bemerkungen – Anzug des Kollegen – nicht – wirken – glaubwürdig
+==
+[$Bemerkungen über den Anzug des Kollegen wirken nicht glaubwürdig.]
+===
+               
+
+
+[.chapter]
+[##Teil D][▼kapitel4d]
+
+[.chapter]
+[###Rückblick]
+
+
+[.article:bitmark--]
+[%D1]
+[!Hier finden Sie wichtigen Wortschatz des Kapitels.]
+**Am Telefon**
+**1. Sie melden sich am Telefon.**
+* Guten Tag, __(Name)__ hier./Guten, Tag, mein Name ist .../__(Name)__, von der Firma ...
+
+**2. Sie möchten eine bestimmte Person sprechen.**
+* Kann/Könnte ich bitte Herrn/Frau ... sprechen?
+* Ich möchte/würde gerne (mit) Herrn/Frau ... sprechen.
+* Ich hätte gern Herrn/Frau ... gesprochen.
+             
+**3. Sie verbinden den Anrufer und fragen nach dem Namen.**
+* Ich verbinde Sie. Einen Moment bitte.
+* Wie war Ihr Name? __(Der Anrufer hat seinen Namen schon genannt.)__
+* Wie ist Ihr Name? __(Der Anrufer hat seinen Namen noch nicht genannt.)__
+* Könnten Sie Ihren Namen buchstabieren?
+
+**4. Die gewünschte Person ist nicht da.**
+* Tut mir leid, Herr/Frau ... ist heute nicht im Büro. 
+* Ich kann Herrn/Frau ... im Moment leider nicht erreichen.
+* Kann ich ihm/ihr etwas ausrichten?/Möchten Sie eine Nachricht hinterlassen?
+* Möchten Sie später noch einmal anrufen?/Soll Herr/Frau ... Sie zurückrufen?
+
+**5. Sie bieten Ihre Hilfe an.**
+* Kann ich Ihnen helfen?/Was kann ich für Sie tun?
+
+**6. Sie möchten einer Person, die nicht da ist, eine Nachricht hinterlassen.**
+* Könnten Sie Herrn/Frau ... ausrichten, dass __(die Verträge noch nicht da sind)__.
+* Könnten Sie Herrn/Frau ... bitte sagen, er/sie soll mich zurückrufen.
+
+**7. Sie fragen nach dem Grund des Anrufes.**
+* Worum geht es?/Worum handelt es sich?
+
+**8. Sie nennen den Grund.**
+* Ich möchte/würde gern __(unsere neuen Produkte vorstellen)__.
+* Es geht um/Es handelt sich um __(die neuen Produkte)__.
+* Ich rufe an, weil __(ich Ihnen ein neues Produkt vorstellen möchte ...)__
+* Ich rufe wegen __(der neuen Produkte)__ an.
+
+**9. Sie möchten Informationen.**
+* Ich möchte gerne wissen, __(wann ...)__
+* Könnten Sie mir sagen, __(wann ...)__
+* Ich habe eine Frage: __(Wann ...)__
+
+**10. Sie möchten eine bestimmte Person treffen.**
+* Ich würde gern mit __(Ihnen/Herrn .../Frau ...)__ einen Termin vereinbaren.
+
+**11. Sie machen einen Terminvorschlag.**
+* Geht/Ginge es am __(Dienstag, dem fünften März)__ um (11.00) Uhr?
+* Passt es Ihnen am __(Dienstag, dem fünften März)__ um (11.00) Uhr?
+* Hätten Sie nächste Woche Zeit?
+
+**12. Sie reagieren auf den Terminvorschlag.**
+* Da muss ich erst mal in meinem Terminkalender nachsehen.
+* Nein, das tut mir leid. Am ... habe ich leider keine Zeit.
+* Ja, der ... um ... passt mir./Ja, am ... würde es mir passen./Ich hätte am ... Zeit.
+* Der Termin kommt mir sehr gelegen./Das trifft sich gut. Zu diesem Zeitpunkt kann ich auch.
+
+**13. Sie müssen einen Termin absagen.**
+* Ich muss den Termin am ... leider absagen, denn ... 
+* Mir ist leider etwas dazwischengekommen. Könnten wir den Termin verschieben?
+
+**14. Sie sagen, was Sie noch tun wollen.**
+* Ich werde Sie auf dem Laufenden halten./Ich werde Sie informieren, sobald .../Ich sage Ihnen sofort Bescheid, wenn ...
+* Ich werde mich um __(die Angelegenheit)__ kümmern.
+
+**15. Sie beenden das Gespräch.**
+* Danke für Ihren Anruf.
+* Ich melde mich __(nächste Woche)__ wieder. 
+* Auf Wiederhören.
+
+
+
+**Im Arbeitsalltag**
+* die Arbeitszeit in Meetings verbringen
+* Sitzungen leiten/an Sitzungen/Besprechungen teilnehmen
+* sich eine halbe Stunde Mittagspause gönnen/während der Pause weiterarbeiten/die Pausen einhalten 
+* Informationen suchen und bekommen
+* Mitarbeiter betreuen/führen
+* die E-Mail-Flut bewältigen/zwei bis drei Stunden für E-Mails aufwenden/Mails von morgens bis Mitternacht checken
+* sich mit der Mitarbeiterführung beschäftigen
+* Entscheidungen treffen
+* Berichte schreiben/Schreibarbeit leisten
+* unter Druck am Arbeitsplatz/unter Stress leiden
+* das Arbeitstempo nicht durchhalten
+* an Leistungsgrenzen stoßen
+* ein Ziel erreichen/Ziele setzen/Ziele vereinbaren/ Zielvereinbarungsgespräche führen
+* ein gesundes Arbeitsumfeld schaffen
+* Probleme ansprechen/nicht verschweigen
+* sich entspannen/Entspannungsübungen machen/Sport treiben
+
+
+**E-Mails**
+* die Bereitschaft der Mitarbeiter ausnutzen
+* Kollegen nach Dienstschluss kontaktieren
+* ständig erreichbar sein
+* Gesundheitliche Beschwerden nehmen zu.
+* Regeln zur klaren Trennung zwischen Arbeits- und Freizeit fordern
+* Initiativen zum Schutz der Mitarbeiter starten
+* nach Arbeitsende keine E-Mails mehr weiterleiten
+* Mitarbeiter vor Dauerbeanspruchung schützen
+* die Aufhebung der Grenzen von Arbeits- und Freizeit __(nicht)__ akzeptieren
+
+
+**Besprechungen**
+* eine Tendenz zu mehr Meetings verzeichnen
+* als Zeitfresser gelten
+* Themen schriftlich oder per E-Mail klären
+* sich für ein Meeting/eine Besprechung/eine Sitzung entscheiden
+* ein Treffen professionell vorbereiten
+* einen Zeitpuffer für Unvorhergesehenes einplanen
+* die Zeitplanung einhalten
+* Unterlagen bereitstellen
+* Teilnehmer gezielt auswählen
+* Mitarbeiter, die wichtige Kenntnisse mitbringen, einladen
+* Diskussionen leiten und lenken
+* Vielredner stoppen
+* mit der Besprechung pünktlich beginnen
+* Besprechungen vormittags anberaumen
+* die Leistungskurve des Menschen beachten/berücksichtigen
+* mobile Geräte ausschalten
+* direktes Feedback, manchmal durch Körpersprache, bekommen
+* Reaktionen der Teilnehmer wahrnehmen und darauf reagieren
+
+
+**An der Universität**
+* sich für ein Studienfach entscheiden/interessieren
+* ein Studienfach wählen/wechseln
+* das größte Massenfach seit der Erfindung der Hochschule sein
+* Ein Studienfach verspricht gute Berufschancen.
+* seinen Neigungen/Vorlieben folgen
+* sich an einer Universität einschreiben/ein Studium an einer Universität aufnehmen/an einer Universität studieren
+* das Studium __(aus Krankheitsgründen)__ unterbrechen/beenden
+* Zeit in das Studium investieren/Zeit mit dem Studium verbringen
+* Eigeninitiative zeigen und selbstständig arbeiten/gut büffeln __(umg.)__ können
+* viele Lehrveranstaltungen besuchen
+* die Orientierung verlieren
+* eine Enttäuschung erleben/nicht den hohen Erwartungen entsprechen
+* in einer festen Beziehung/allein leben/in einem Studentenwohnheim wohnen
+* über 864 Euro im Monat verfügen/staatliche Unterstützung (BAföG) beziehen/einen Kredit aufnehmen
+
+
+**Korrespondenz**
+* die Anfrage/das Angebot/der Auftrag
+* Wir sind auf der Suche nach .../Wir suchen ...
+* Im Internet/Auf Ihrer Homepage/In Ihrer Anzeige haben wir gesehen/gelesen, dass ...
+* sich besonders interessieren für .../interessiert sein an .../besonderes Interesse haben an ...
+* für eine schnelle Antwort dankbar sein/auf ein baldiges Angebot hoffen/sich auf den Auftrag freuen 
+* im Voraus danken
+* die Anschrift des Empfängers/des Absenders
+* In der Anlage senden wir ein Belegexemplar/eine Kopie/einen Vertrag.
+* den Katalog/die Broschüre/den Prospekt schicken/ senden/zusenden/erhalten/bekommen/anfordern/bestellen
+* um ausführliche Informationen bitten
+* Die Liefer- und Zahlungsbedingungen lauten: ...
+* Die Zahlung ist nach Erhalt der Rechnung fällig.
+* dem Absender danken/sich beim Absender bedanken
+
+
+
+**Anrede und Grüße in Briefen oder E-Mails**
+* Formell:
+Anrede: Sehr geehrte Damen und Herren,
+Sehr geehrte Frau __(Müller)__,
+Sehr geehrter Herr __(Müller)__, 
+Gruß: Mit freundlichen Grüßen
+
+* Informell:
+Anrede: Gruß:
+Liebe __(Petra)__,
+Lieber __(Peter)__,
+Gruß: Mit herzlichen Grüßen 
+Mit lieben Grüßen
+__Die persönliche Anrede mit „Du“, „Ihr“ usw. kann groß- oder kleingeschrieben werden.__
+
+* Halbformell:
+Anrede: Liebe Frau __(Müller)__,
+Lieber Herr __(Müller)__, Gruß: Mit besten Grüßen
+__Die formelle Anrede mit „Sie“, „Ihnen“ usw. wird großgeschrieben__
+
+
+
+[.self-assessment]
+[%D2]
+[!Evaluation
+Überprüfen Sie sich selbst.]
+===
+Ich kann über meine beruflichen Tätigkeiten berichten und einen Text über Tätigkeiten von Managern verstehen.
+[•gut ]
+[•nicht so gut]
+===
+Ich kann mich zum Thema __Stress und Leistungsdruck im Arbeitsalltag__ schriftlich äußern. 
+[•gut ]
+[•nicht so gut]
+===
+Ich kann bei Anweisungen, Aufträgen und Nachfragen die Höflichkeitsform verwenden.
+[•gut ]
+[•nicht so gut]
+===
+Ich kann einen Text zum Thema __E-Mails in der Freizeit__ zusammengefasst wiedergeben und einen Kurzvortrag darüber halten.
+[•gut ]
+[•nicht so gut]
+===
+Ich kann Anrede- und Grußformeln in E-Mails adressatenbezogen korrekt verwenden.
+[•gut ]
+[•nicht so gut]
+===
+Ich kann über meine Erfahrungen mit Besprechungen/Meetings berichten und ein Gespräch darüber verstehen.
+[•gut ]
+[•nicht so gut]
+===
+Ich kann eine Tagesordnung für eine Besprechung präsentieren.
+[•gut ]
+[•nicht so gut]
+===
+Ich kann telefonisch Termine vereinbaren, absagen, verschieben sowie Informationen einholen und geben.
+[•gut ]
+[•nicht so gut]
+===
+Ich kann bei Anweisungen, Aufträgen und Nachfragen die Höflichkeitsform verwenden. Ich kann Texte zu Studieren in Deutschland verstehen und über das Thema __Studieren in meinem Heimatland__ berichten.
+[•gut ]
+[•nicht so gut]
+===
+Ich kann bei Universitäten und Hochschulen Informationen erfragen.
+[•gut ]
+[•nicht so gut]
+===
+Ich kann geschäftliche Briefe wie Anfragen und Angebote schreiben. __(fakultativ)__
+[•gut ]
+[•nicht so gut]
+===
+

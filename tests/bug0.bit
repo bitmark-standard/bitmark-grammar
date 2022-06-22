@@ -1,0 +1,46 @@
+[.article:bitmark--&imageLink]
+[@id:119760]
+[&imageLink:https://youtube.com/web-resources/video/rav_video.mp4]
+
+
+[.article:bitmark--&documentLink]
+[@id:119762]
+[&documentLink:https://youtube.com/web-resources/video/rav_video.mp4]
+
+[.article:bitmark--&audioLink]
+[@id:119762]
+[&audioLink:https://youtube.com/web-resources/video/rav_music.mp3]
+
+[.article:bitmark--&articleLink]
+[@id:119762]
+[&articleLink:https://youtube.com/web-resources/video/rav_music.mp3]
+
+[.article:bitmark--&appLink]
+[@id:119762]
+[&appLink:https://youtube.com/web-resources/video/rav_music.mp3]
+
+[.article:bitmark--&websiteLink]
+[@id:119762]
+[&websiteLink:https://youtube.com/web-resources/video/rav_music.mp3]
+
+[.article:bitmark--&website]
+[@id:119762]
+[&website:https://youtube.com/web-resources/video/rav_music.mp3]
+
+||
+videoLink ok
+imageLink ok
+documentLink ok
+audioLink ok
+articleLink ok
+appLink  ok
+websiteLink ok
+||
+[.chapter]
+[#nil]
+[@progress:false]
+
+[.chapter]
+[##Preface]
+[@progress:false]
+[@toc:false]

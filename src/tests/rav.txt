@@ -1,0 +1,845 @@
+[.book]
+[#Auf Stellensuche in der Schweiz]
+[@language:de]
+
+[.article:bitmark--&image]
+[&image:https://docs.bitmark.cloud/bit-books/rav/web-resources/images/rav.png]
+
+[.article:bitmark++]
+[%Willkommen]
+Auf dem besten Weg zur neuen Arbeitsstelle mit Ihrem RAV!
+
+Wir vom Regionalen Arbeitsvermittlungszentrum (RAV) unterstützen Sie bei der Suche nach einer neuen Stelle.
+Hier finden Sie Informationen für Ihre Stellensuche. Wir zeigen Ihnen auf
+
+• wie Sie mit dem RAV zusammenarbeiten,
+• welche Rechte und Pflichten Sie haben.
+
+[.article:bitmark++]
+**Bitte beachten Sie:**
+• Die Erklärungen in diesem Informationsmodul sind allgemein und beispielhaft. Jeder Einzelfall wird nach den gesetzlichen Bestimmungen beurteilt.
+• Das Lesen und Verstehen dieser Informationen (inklusive dem bestandenen Test) sind obligatorischer Teil Ihrer Anmeldung.
+• Nur wenn Sie richtig informiert sind, können wir Sie wirksam unterstützen.
+• Wir verwenden in diesen Informationen aus Gründen der besseren Lesbarkeit die männliche Form.
+
+[.article:bitmark--&video]
+[&video:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4]
+
+
+[.chapter:bitmark--]
+
+[##Weitere Informationen]
+
+[.article:bitmark--]
+
+Weiterführende Informationen finden Sie im Internet.
+Die Website des Kantons Zürich: www.rav.zh.ch
+Die Website des Bundes: www.arbeit.swiss
+
+**Glossar und Dokumente**
+Im Anhang finden Sie ein Glossar, in dem Fachbegriffe erklärt werden. Sie können das Glossar direkt über die Kapitelübersicht oben rechts aufrufen.
+
+[.chapter]
+[#Sie und Ihr RAV: Auf gutem Weg]
+
+[.chapter]
+[##Der erste Schritt]
+
+[.article:bitmark--&image]
+[&image:https://docs.bitmark.cloud/bit-books/rav/web-resources/images/auge.png]
+
+[.article:bitmark++]
+Sie suchen eine Stelle oder Ihnen wurde gekündigt. Beginnen Sie **sofort** mit der Suche nach einer neuen Stelle. Machen Sie Notizen oder Kopien von allen Bewerbungen (wann, wo, bei wem). Hier finden Sie das Formular "Nachweis der persönlichen Arbeitsbemühungen", das Sie fürs RAV ausfüllen müssen: ==Formulare auf arbeit.swiss==(:https://www.arbeit.swiss/dam/secoalv/de/dokumente/formulare/arbeitslose/716.007_neu.pdf.download.pdf/716.007_neu.pdf)==
+
+**Tipps zur Stellensuche**
+::image::
+https://docs.bitmark.cloud/bit-books/rav/web-resources/images/ab.png
+::
+**Überlegen Sie sich:**
+• Welche Tätigkeiten könnten Sie ausführen?
+• Bei welchen Firmen?
+• Gibt es Alternativen, an die Sie noch nicht gedacht haben?
+
+**Bringen Sie Ihre Bewerbungsdokumente schnellstmöglich auf den aktuellen Stand:**
+• Lebenslauf
+• Arbeitszeugnisse
+• Ausbildungen (Zertifikate, Diplome, etc.)
+
+**Nutzen Sie verschiedene Quellen:**
+• Stelleninserate im Internet und in Zeitungen
+• Stellenportale wie z. B. ==Job-Room==(:https://www.job-room.ch/)==
+• Netzwerke: Fragen Sie Freunde und Bekannte
+
+**Dokumentieren Sie Ihre Arbeitssuche:**
+• Bewahren Sie Kopien der Bewerbungen auf
+• Machen Sie sich Notizen von Ihren Suchaktivitäten (z. B. von Telefonaten, Anfragen bei Bekannten)
+
+Wichtig: Sie müssen Ihre Arbeitsbemühungen beim RAV nachweisen. Das Formular „Nachweis der persönlichen Arbeitsbemühungen“ finden Sie hier: ==Formulare auf arbeit.swiss==(:https://www.arbeit.swiss/secoalv/de/home/service/formulare/formulare-fuer-arbeitslose.html)==
+
+::info::Weitere Infos: Haben Sie Fragen zu Ihrer Kündigung?
+Bei rechtlichen Fragen zu Ihrer Kündigung können Sie sich an Rechtsberatungsstellen in Ihrer Region wenden. Eine Adressliste erhalten Sie in Ihrem RAV.
+::
+
+[.multiple-choice-1:bitmark--]
+[%Alles klar?]
+[!Wann müssen Sie mit der Stellensuche beginnen?]
+[-Nach 3 Monaten]
+[+Sofort]
+
+[.chapter]
+[##Anmeldung beim RAV]
+
+[.article:bitmark--&image]
+[&image:https://docs.bitmark.cloud/bit-books/rav/web-resources/images/city.png]
+
+[.article:bitmark++]
+Melden Sie sich bitte bei Stellenverlust oder Arbeitslosigkeit sofort persönlich bei Ihrem zuständigen RAV an.
+
+==Hier==(:https://awa.zh.ch/internet/volkswirtschaftsdirektion/awa/de/arbeitsmarkt/beratung_im_rav/rav_standorte.html)== finden Sie das RAV in Ihrer Nähe.
+::image::
+https://docs.bitmark.cloud/bit-books/rav/web-resources/images/block.png
+::
+
+**Was müssen Sie zur Anmeldung mitbringen?**
+
+• Kopie Sozialversicherungsausweis (falls noch nicht vorhanden: Krankenkassenausweis)
+• Schweizer Bürger: Kopie des Schriftenempfangsschein der Gemeinde (gilt als Wohnsitzbestätigung)
+• Ausländer: Kopie des Ausländerausweises (gilt als Wohnsitzbestätigung)
+• Komplettes Bewerbungsdossier (Lebenslauf, Arbeitszeugnisse, Diplome etc.), möglichst auch in elektronischer Form
+• Kopie des letzten Arbeitsvertrages
+• Kopie des Kündigungsschreibens
+• Bewerbungen während der bisherigen Kündigungsfrist
+• Allfällige Arztzeugnisse
+
+
+**Bei der Anmeldung beginnt unsere Zusammenarbeit:**
+::image::
+https://docs.bitmark.cloud/bit-books/rav/web-resources/images/ask.png
+::
+
+Sie geben uns **Informationen** über sich, Ihre bisherigen Tätigkeiten, Ihre Fähigkeiten und Erfahrungen. So können wir Sie optimal bei der Stellensuche unterstützen.
+
+Sie wählen eine **Arbeitslosenkasse** aus, die für die Berechnung Ihres Anspruchs und die Auszahlung der Arbeitslosenentschädigung zuständig ist.
+
+Sie werden in die grösste **Stellenvermittlungs-Plattform** der Schweiz aufgenommen. Arbeitgeber können Sie dort sofort finden. So haben Sie bessere Chancen auf Stellen – auch auf solche, die noch nicht öffentlich ausgeschrieben sind.
+
+Sie entscheiden, ob Sie Ihre **Daten und Informationen freigeben**. Nur durch eine Freigabe werden Arbeitgeber auf Sie aufmerksam und können mit Stellenangeboten auf Sie zukommen.
+
+[.multiple-response-1]
+[%Alles klar?]
+[!Bei der Anmeldung beim RAV:]
+[+Wählen Sie die Arbeitslosenkasse aus.]
+[-Bekommen Sie bereits Ihre erste Arbeitslosenentschädigung.]
+[+Werden Sie in die grösste Stellenvermittlungsplattform der Schweiz aufgenommen.]
+
+[.chapter]
+[##Persönliche Beratung beim RAV]
+
+[.article:bitmark--&image]
+[&image:https://docs.bitmark.cloud/bit-books/rav/web-resources/images/beratung.png]
+
+[.article:bitmark++]
+**Im ersten Beratungsgespräch lernen Sie Ihre Beratungsperson kennen.**
+[&video:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video2.mp4]
+
+[.article:bitmark--]
+Im ersten Beratungsgespräch bespricht und prüft Ihre Beratungsperson mit Ihnen Ihre Bewerbungskompetenz. Bitte bereiten Sie sich darauf vor:
+||wird hier kein Abstand angezeigt wegen der Sandbox?||
+::note::1. Sind Ihre Bewerbungsunterlagen gut und vollständig?
+• Bewerbungsschreiben
+• Lebenslauf: Persönliche Angaben, chronologische Berufserfahrung, Aus- und Weiterbildungen, weitere Fähigkeiten, evtl. Foto und Referenzen
+• Arbeitszeugnisse: Vollständigkeit und inhaltliche Qualität
+• Diplome Ihrer Aus- und Weiterbildung
+::
+::note::2. Was ist Ihre berufliche und persönliche Situation? Was sind Ihre Chancen auf dem Arbeitsmarkt?
+• Kündigungssituation
+• Gesundheit
+• Persönliches Umfeld
+• Ressourcen und Stärken
+• Schwächen und Hindernisse
+• Selbstpräsentation und persönlicher Auftritt
+::
+::note::3. Welche Stellen suchen Sie? Wo und wie?
+• Welches sind für Sie geeignete und realistische Arbeitgeber?
+• Wo und wie suchen Sie passende Stellenangebote?
+• Wie erweitern Sie Ihre Stellensuche?
+::
+
+**Die Beratungsperson**
+
+• hilft Ihnen, Ihre Bewerbungsunterlagen zu optimieren
+• erklärt Ihnen, wie Sie Ihr Netzwerk (Freunde, Bekannte, Berufskollegen) für Ihre Stellensuche einsetzen können
+• unterstützt Sie bei der Vorbereitung von Bewerbungsgesprächen
+• zeigt Ihnen, wo und wie Sie zielgerichtet im Internet passende Stellen suchen
+• hilft Ihnen beim Kontakt mit privaten Arbeitsvermittlungen
+• kann Sie bei Arbeitgebern für geeignete und zumutbare Stellen vorschlagen
+• hilft Ihnen, geeignete Probetage und Schnuppereinsätze zu finden
+• prüft, ob Ihre Teilnahme an Kursen und Beschäftigungsprogrammen sinnvoll ist und kann solche Kurse und Programme für Sie buchen
+• kann Ihnen Adressen oder Termine bei weiteren Fachstellen vermitteln (z.B. Berufs-, Rechts- oder Suchtberatung, Selbstständigkeit, etc.)
+• prüft Ihre monatlichen persönlichen Arbeitsbemühungen
+• klärt mit Ihnen allfällige Fragen zu Ihren Rechten und Pflichten bzw. den Gesetzen und Vorschriften und kontrolliert deren Umsetzung
+
+[.multiple-response-1:bitmark--]
+[%Alles klar?]
+[!Was ist die Aufgabe der Beratungsperson?]
+[+Sie ist Ihre persönliche Beratungsperson.]
+[+Sie ist Ihre Expertin für die Stellensuche.]
+[-Sie trifft sich nur einmal mit Ihnen bei der Anmeldung.]
+[+Sie kontrolliert, ob Sie Ihre Pflichten und Termine einhalten.]
+
+[.chapter]
+[##Arbeitsmarktliche Massnahmen]
+
+[.article:bitmark--&image]
+[&image:https://docs.bitmark.cloud/bit-books/rav/web-resources/images/arbeitsmarktliche_massnahmen.png]
+
+[.article:bitmark++]
+Sie können Ihre Chancen auf dem Arbeitsmarkt auch verbessern, indem Sie bisherige Kenntnisse oder Fähigkeiten auffrischen oder neue Fertigkeiten erwerben.
+Besprechen Sie mit Ihrer Beratungsperson, welche arbeitsmarktlichen Massnahmen für Sie persönlich sinnvoll sind.
+::image::
+https://docs.bitmark.cloud/bit-books/rav/web-resources/images/massnahmen.png
+::
+**Kurse und Programme**
+Wir bieten verschiedene Kurse und befristete Beschäftigungsprogramme, die Ihre Chance verbessern, rasch eine Stelle zu finden.
+Insbesondere Kurse zur Stärkung der Bewerbungskompetenz schlagen wir sehr oft bereits kurz nach der Anmeldung vor.
+
+==Hier==(:https://awa.zh.ch/internet/volkswirtschaftsdirektion/awa/de/arbeitsmarkt/qus/kurse_programme.html)== finden Sie Kurse und Beschäftigungsprogramme für Stellensuchende, die beim RAV angemeldet sind.
+
+**Weiterbildung**
+Ein Gesuch zur Finanzierung von Weiterbildungen kann bewilligt werden, wenn damit Ihre Chancen auf dem Arbeitsmarkt deutlich verbessert werden. Orientieren Sie sich dazu im freien Weiterbildungsmarkt über passende Angebote. Ihre Beratungsperson gibt Ihnen ein Gesuchformular. Füllen Sie das Formular vollständig aus und reichen Sie es bei Ihrem RAV ein. Weitere Informationen zu arbeitsmarktlichen Massnahmen finden Sie ==hier==(:https://www.arbeit.swiss/secoalv/de/home/menue/stellensuchende/arbeitslos-was-tun-/arbeitsmarktliche-massnahmen.html)==.
+
+[.multiple-choice-1:bitmark--]
+[%Alles klar?]
+[!Wenn die Beratungsperson Ihnen ein bestimmtes Beschäftigungsprogramm anordnet, müssen Sie daran auch teilnehmen. Stimmt das?]
+[+Ja.]
+[-Nein, solche Massnahmen sind freiwillig.]
+
+[.chapter]
+[##Vermittlung durch das RAV]
+
+[.article:bitmark--&image]
+[&image:https://docs.bitmark.cloud/bit-books/rav/web-resources/images/rufen.png]
+
+[.article:bitmark++]
+::image::
+https://docs.bitmark.cloud/bit-books/rav/web-resources/images/schritt1.png
+::
+Arbeitgeber melden offene Stellen dem RAV. Bestimmte Stellen müssen von Gesetzes wegen zuerst mit einer Vorlauffrist dem RAV gemeldet werden, bevor sie öffentlich ausgeschrieben werden dürfen. So können sich Stellensuchende, die beim RAV gemeldet sind, schneller bewerben.
+::image::
+https://docs.bitmark.cloud/bit-books/rav/web-resources/images/schritt2.png
+::
+In den Beratungsgesprächen lernen wir Sie und Ihre Fähigkeiten kennen. Je besser wir Sie kennen, desto wirksamer können wir Sie unterstützen.
+::image::
+https://docs.bitmark.cloud/bit-books/rav/web-resources/images/schritt3.png
+::
+Wir vermitteln geeignete Kandidaten auf offene Stellen. Wir sind also auch Vermittler.
+
+
+
+[.multiple-choice-1:bitmark--]
+[%Alles klar?]
+[!Stellt das RAV auch Kontakt zwischen Stellensuchenden und Arbeitgebern her?]
+[-Nein. Das RAV berät nur.]
+[+Ja.]
+
+[.chapter]
+[#Ihre Pflichten: Was Sie tun müssen]
+
+[.chapter]
+[##Arbeit suchen]
+
+[.article:bitmark--&image]
+[&image:https://docs.bitmark.cloud/bit-books/rav/web-resources/images/arbeit_suchen.png]
+
+[.article:bitmark++]
+Die Arbeitslosenentschädigung wird nur dann vollständig ausbezahlt, wenn Sie alle Ihre Pflichten innerhalb der gesetzten Fristen erfüllen. Es ist daher wichtig, dass Sie Ihre Pflichten gut kennen.
+::image::
+https://docs.bitmark.cloud/bit-books/rav/web-resources/images/lupe.png
+::
+**Sie müssen Arbeit suchen**
+
+Ihre wichtigste Pflicht ist es, aktiv Arbeit zu suchen und sich auf Stellen zu bewerben. Diese Pflicht beginnt, wenn Sie Kenntnis von Ihrer Kündigung erhalten oder selber gekündigt haben. Beginnen Sie also sofort mit der Stellensuche und nehmen Sie Ihre Bewerbungen zum ersten Beratungsgespräch mit.
+::image::
+https://docs.bitmark.cloud/bit-books/rav/web-resources/images/bewerbungen.png
+::
+**Sie müssen Bewerbungen nachweisen können**
+
+Ihre Bewerbungen müssen Sie als "persönliche Arbeitsbemühungen" nachweisen. Machen Sie daher von jeder Bewerbung Kopien oder Notizen.
+In der Regel werden pro Monat mindestens 10 – 12 Arbeitsbemühungen verlangt.
+
+Im ersten Beratungsgespräch vereinbaren Sie dann mit der Beratungsperson, wie Ihre Stellensuche erfolgen soll. Zum Beispiel:
+• Wie viele Bewerbungen?
+• Schriftlich, mündlich, telefonisch?
+• Welche Branchen?
+
+[.multiple-choice-1]
+[%Alles klar?]
+[!Bekommen Sie auch Arbeitslosenentschädigung, wenn Sie nicht aktiv Arbeit suchen?]
+[+Nein. Sie haben die Pflicht, Arbeit zu suchen.]
+[-Ja, wenn Sie beim RAV angemeldet sind.]
+
+[.chapter]
+[##Erreichbar sein, Änderungen melden und sich informieren]
+
+[.article:bitmark--&image]
+[&image:https://docs.bitmark.cloud/bit-books/rav/web-resources/images/info.png]
+
+[.article:bitmark++]
+::image::
+https://docs.bitmark.cloud/bit-books/rav/web-resources/images/uhr.png
+::
+**Sie müssen erreichbar sein**
+
+Wenn Sie beim RAV angemeldet sind, müssen Sie innert 24 Stunden erreichbar sein. Es ist jederzeit möglich, dass Sie von einem Arbeitgeber kontaktiert werden, der ein Stellenangebot für Sie hat.
+Zudem müssen Sie auf Post, E-Mails oder Anrufe vom RAV oder der Arbeitslosenkasse innerhalb 24 Stunden oder der gesetzten Frist antworten.
+**Sie müssen bereit sein, sofort eine Stelle anzutreten.**
+::image::
+https://docs.bitmark.cloud/bit-books/rav/web-resources/images/telefon.png
+::
+**Sie müssen Änderungen melden**
+
+Wenn sich Ihre Situation ändert, müssen Sie dies sofort dem RAV melden. Grundsatz: Alles, was Sie Ihrem Arbeitgeber melden würden, müssen Sie auch dem RAV mitteilen.
+
+Beispiele:
+
+• Arbeitsunfähigkeit wegen Krankheit, Unfall oder Schwangerschaft
+• Antritt einer neuen Stelle
+• Beginn und Ende eines Zwischenverdienstes
+• Möglichkeit für einen Probeeinsatz
+• Änderung von Adresse, E-Mail oder Telefonnummer
+• Geplante Ferien oder andere Abwesenheiten
+• Militär, Zivildienst
+• Stellen eines IV Antrages oder Erhalt einer IV Rente
+• Planung, Aufnahme oder Ausübung einer selbständigen Erwerbstätigkeit
+::image::
+https://docs.bitmark.cloud/bit-books/rav/web-resources/images/info2.png
+::
+**Sie müssen sich selber informieren**
+
+Sie haben die Pflicht, sich selbst zu informieren. Das heisst, Sie müssen die erhaltenen Informationen sorgfältig durchlesen.
+
+Wenn Sie etwas nicht verstehen:
+• Fragen Sie Ihre Beratungsperson
+• Suchen Sie bei www.rav.zh.ch  nach weiteren Informationen
+
+[.multiple-response-1:bitmark--]
+[%Alles klar?]
+[!Welche der folgenden Änderungen müssten Sie dem RAV melden?]
+[+Neue Adresse]
+[+Arbeitsunfähigkeit (z. B. Krankheit)]
+[+Neue Stelle]
+[+Geplante Ferien]
+[-Neues Fahrrad]
+
+[.chapter]
+[##Formulare einreichen]
+
+[.article:bitmark--&image]
+[&image:https://docs.bitmark.cloud/bit-books/rav/web-resources/images/formulare_einreichen.png]
+
+[.article:bitmark++]
+::image::
+https://docs.bitmark.cloud/bit-books/rav/web-resources/images/kalender.png
+::
+Jeden Monat erhalten Sie ca. am 20. Tag per Post zwei Formulare. Sie müssen die beiden Formulare sorgfältig ausfüllen, unterschreiben und einreichen.
+
+Achten Sie darauf, dass Sie die Formulare fristgerecht bei der zuständigen Stelle einreichen:
+• Formular "Angaben der versicherten Person" → bei der Arbeitslosenkasse
+• Formular "Nachweis der persönlichen Arbeitsbemühungen" → beim RAV
+
+Wenn Sie die Formulare zu spät, am falschen Ort oder unvollständig einreichen, kann es zur Verzögerung von Auszahlungen oder Kürzung von Taggeldern kommen.
+
+**Formular "Angaben der versicherten Person"**
+::image::
+https://docs.bitmark.cloud/bit-books/rav/web-resources/images/formular1.png
+::
+::image::
+https://docs.bitmark.cloud/bit-books/rav/web-resources/images/formular2.png
+::
+**Formular "Nachweis der persönlichen Arbeitsbemühungen"**
+::image::
+https://docs.bitmark.cloud/bit-books/rav/web-resources/images/formular3.png
+::
+::image::
+https://docs.bitmark.cloud/bit-books/rav/web-resources/images/formular4.png
+::
+• In der Regel müssen Sie pro Monat mindestens 10-12 persönliche Arbeitsbemühungen nachweisen. Ihre Beratungsperson kann Ausnahmen festlegen.
+• Sie müssen das Formular spätestens am 5. Tag des folgenden Monats einreichen (per Post, E-Mail, direkt beim RAV). Andernfalls können Ihre Bewerbungen nicht mehr berücksichtigt werden, was Kürzungen Ihrer Taggelder zur Folge hat.
+• Achten Sie auf die Vollständigkeit aller verlangten Angaben sowie Ihren Namen, den korrekten Monat und Ihre Unterschrift.
+Vollständig Formular "Angaben der versicherten Person"
+
+**Formular "Angaben der versicherten Person"**
+
+Senden Sie das komplett ausgefüllte und unterschriebene Formular an Ihre Arbeitslosenkasse. Falls Sie nicht alle Fragen beantwortet haben, kann die Arbeitslosenkasse keine Auszahlung vornehmen.
+||image-zoom
+eigenes bit|||
+
+
+[.article:bitmark--&video]
+[&video:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video3.mp4]
+
+[.multiple-response-1:bitmark--]
+[%Alles klar?]
+[!Warum müssen Sie jeden Monat diese zwei Formulare ausfüllen?]
+[-So melden Sie sich für ein Beratungsgespräch an.]
+[+So weisen Sie nach, dass Sie aktiv genug nach einer Stelle suchen.]
+[+So bekommen Sie Ihre Arbeitslosenentschädigung.]
+
+[.chapter]
+[##Sich auf zugewiesene Stellen bewerben und zumutbare Stellen annehmen]
+
+[.article:bitmark--&image]
+[&image:https://docs.bitmark.cloud/bit-books/rav/web-resources/images/internet_seite.png]
+
+[.article:bitmark++]
+**Sie müssen sich auf zugewiesene Stellen bewerben**
+::image::
+https://docs.bitmark.cloud/bit-books/rav/web-resources/images/telefon2.png
+::
+Wenn das RAV Sie auf eine offene Stelle hinweist, müssen Sie sich innerhalb der gesetzten Frist bewerben.
+Wenn Sie glauben, dass diese Stelle für Sie nicht zumutbar ist, besprechen Sie das sofort mit Ihrer Beratungsperson.
+Ihre Taggelder können gekürzt werden:
+• Wenn Sie sich nicht fristgerecht auf die vorgeschlagene Stelle bewerben und
+• wenn Sie das RAV nicht darüber informieren und keinen entschuldbaren Grund dafür haben.
+::image::
+https://docs.bitmark.cloud/bit-books/rav/web-resources/images/zeitung.png
+::
+**Sie müssen eine zumutbare Arbeit annehmen**
+
+Wenn Sie Fragen dazu haben, ob eine Stelle zumutbar ist, wenden Sie sich bitte an Ihre Beratungsperson.
+Sie sind verpflichtet, eine zumutbare Arbeit anzunehmen. Zumutbare Arbeit bedeutet gemäss Gesetz beispielsweise:
+• Der Lohn ist orts-, berufs- und branchenüblich.
+• Die Stelle entspricht den üblichen Arbeitsbedingungen    (z. B. bei Schichtarbeit).
+• Der Arbeitsweg überschreitet insgesamt nicht 4 Stunden.
+• Die Arbeit nimmt auf Ihre Fähigkeiten und bisherigen Tätigkeiten angemessen Rücksicht.
+
+[.multiple-choice-1:bitmark--]
+[%Alles klar?]
+[!Müssen Sie zumutbare Arbeit annehmen?]
+[-Nein. Sie können darauf bestehen, dass Sie an der neuen Stelle gleich viel verdienen wie bisher.]
+[+Ja, das ist Ihre Pflicht.]
+
+[.chapter]
+[##Termine einhalten]
+
+[.article:bitmark--&image]
+[&image:https://docs.bitmark.cloud/bit-books/rav/web-resources/images/termine.png]
+
+[.article:bitmark--&image]
+[&image:https://docs.bitmark.cloud/bit-books/rav/web-resources/images/corporate_buddha.png]
+Sie müssen alle Termine einhalten. Wenn Sie einen Termin nicht einhalten können, z. B. weil Sie krank sind, müssen Sie das Ihrer Beratungsperson unbedingt so schnell wie möglich mitteilen.
+
+[.multiple-choice-text:bitmark--]
+[%Alles klar?
+[!Können Sie sich an die wichtigsten Termine erinnern?]
+Sie müssen das Formular "Nachweis der persönlichen Arbeitsbemühungen" jeden Monat einreichen. Bis wann müssen Sie das spätestens einreichen?
+[+Spätestens am 5. Tag des folgenden Monats]
+[-Spätestens bis Ende Monat]
+
+Wie oft müssen Sie das Formular "Angaben der versicherten Person für den Monat..." an die Arbeitslosenkasse senden?
+[-Jeden zweiten Monat]
+[+Jeden Monat]
+
+
+Wie schnell müssen Sie per Post, E-Mail oder Telefon erreichbar sein?
+[-Innerhalb von 48 Stunden]
+[+Innerhalb von 24 Stunden]
+
+Wann müssen Sie mit der Stellensuche beginnen?
+[+Sofort, wenn Ihnen gekündigt wird]
+[-2 Wochen nach Kündigung]
+
+[.chapter]
+[##Wenn Sie Ihre Pflichten nicht erfüllen]
+
+[.article:bitmark--&image]
+[&image:https://docs.bitmark.cloud/bit-books/rav/web-resources/images/turme.png]
+
+[.article:bitmark++]
+Sollten Sie Ihre Pflichten nicht erfüllen, müssen Sie damit rechnen, dass Ihre Arbeitslosenentschädigung gekürzt wird. Das heisst, Sie würden für eine bestimmte Anzahl Tage (bis zu 60 Tage pro Pflichtverletzung) keine Arbeitslosenentschädigung erhalten.
+Diese Tage heissen **Einstelltage**.
+::image::
+https://docs.bitmark.cloud/bit-books/rav/web-resources/images/kopf.png
+::
+Wenn Sie Ihre Pflichten wiederholt nicht erfüllen, kann es passieren, dass Sie gar kein Geld mehr bekommen.
+
+Hinweis: Wenn Ihre Angaben unwahr oder unvollständig sind, machen Sie sich **strafbar**. Das bedeutet, es drohen Geld- oder Freiheitsstrafen. Für Ausländer/innen kann das sogar zur Ausschaffung aus der Schweiz führen.
+
+[.multiple-choice-1:bitmark--]
+[%Alles klar?]
+[!Kann Ihre Arbeitslosenentschädigung gekürzt oder sogar gestoppt werden, wenn Sie Ihre Pflichten nicht erfüllen?]
+[-Nein]
+[+Ja]
+
+[.chapter]
+[#Ihre Rechte: Was Sie erhalten]
+
+[.chapter]
+[##Geld: Unter welchen Voraussetzungen haben Sie Anspruch auf Arbeitslosen- entschädigung (Taggeld)?]
+
+[.article:bitmark--&image]
+[&image:https://docs.bitmark.cloud/bit-books/rav/web-resources/images/taggeld.png]
+
+[.article:bitmark--]
+Wenn Sie diese Voraussetzungen erfüllen, haben Sie im Grundsatz Anspruch auf Arbeitslosenentschädigung:
+
+• Sie sind ganz oder teilweise arbeitslos.
+• Sie wohnen in der Schweiz.
+• Sie sind nicht mehr schulpflichtig.
+• Sie sind nicht im AHV-Alter.
+• Sie beziehen keine Altersrente der AHV.
+• Sie haben innerhalb der letzten 2 Jahre mindestens 12 Monate lang als arbeitnehmende Person Beiträge an die Arbeitslosenversicherung bezahlt. Diese Beiträge werden automatisch vom Lohn abgezogen (hiervor gibt es allerdings Ausnahmen, die weiter unten aufgeführt sind).
+• Sie können, wollen und dürfen sofort eine zumutbare Arbeit annehmen (d.h. Sie sind "vermittlungsfähig").
+• Sie erfüllen Ihre Pflichten gegenüber dem RAV und der Arbeitslosenkasse.
+• Sie haben einen anrechenbaren Arbeitsausfall.
+• Sie gelten nicht als Person in einer arbeitgeberähnlichen Stellung.
+::info::Ausnahmen, wenn Sie nicht genug Beiträge an die Arbeitslosenversicherung gezahlt haben
+
+Sie können Arbeitslosenentschädigung bekommen, wenn Sie innert den letzten 2 Jahren während mindestens 12 Monaten wegen einer der folgenden Situationen nicht arbeiten konnten:
+
+•. Sie waren z. B. in einer Ausbildung (mindestens zehn Jahre Wohnsitz in der Schweiz vorausgesetzt).
+•. Sie konnten z. B. nicht arbeiten wegen einer Krankheit oder eines Unfalls.
+•. Sie haben sich um die Erziehung Ihres Kindes gekümmert.
+•. Sie waren in einer Anstalt (d.h. in einer schweizerischen Haft- oder Arbeitserziehungsanstalt oder in einer ähnlichen schweizerischen Einrichtung).
+•. Sie waren im Ausland tätig (ausserhalb des EU- bzw. EFTA-Raums). Dann können Sie unter gewissen Umständen als Ausnahme gelten. Erkundigen Sie sich bei Ihrer Arbeitslosenkasse.
+•. Sie haben bisher nicht gearbeitet, müssen aber wegen einer wirtschaftlichen Zwangslage jetzt eine Arbeit finden, beispielsweise wegen Ehescheidung, Trennung, Tod des Ehegatten oder Wegfall einer IV-Rente (Invalidenrente). Das Ereignis darf nicht mehr als ein Jahr zurückliegen und Sie müssen bei Eintritt des Ereignis den Wohnsitz in der Schweiz gehabt haben.
+::
+**Wartetage: Bevor Sie Arbeitslosenentschädigung erhalten…**
+
+…werden zu Beginn Ihrer Bezugszeit Wartetage getilgt. Die Anzahl Wartetage ist abhängig von verschiedenen Faktoren wie zum Beispiel der Höhe des Lohns oder ob Sie eine Unterhaltspflicht gegenüber Kindern haben.
+Das Arbeitslosenversicherungsgesetz hat die Wartetage (0-20, in Spezialfällen bei Befreiungsgründen bis 120 Tage, siehe ==Broschüre Arbeitslosigkeit==(:https://www.arbeit.swiss/dam/secoalv/de/dokumente/publikationen/broschueren/stellensuchende/SECO_716%20200_d_2019_web.pdf.download.pdf/SECO_716%20200_d_2019_web.pdf)==) festgelegt und versteht diese als „Selbstbehalt“ der versicherten Person.
+
+[.multiple-choice-1:bitmark--]
+[%Alles klar?]
+[!Wie lange müssen Sie mindestens Beiträge an die Arbeitslosenversicherung bezahlt haben, damit Sie Anspruch auf Arbeitslosenentschädigung erhalten?]
+[-Mindestens 20 Jahre]
+[-Mindestens 2 Jahre]
+[+Mindestens 12 Monate in den letzten 2 Jahren]
+
+[.chapter]
+[##Geld: Wie viel erhalten Sie?]
+
+[.article:bitmark--&image]
+[&image:https://docs.bitmark.cloud/bit-books/rav/web-resources/images/wieviel_geld.png]
+
+[.article:bitmark++]
+In der Regel erhalten Sie **70 % des versicherten Verdienstes** (= Ihr früherer Lohn, auf den Sie AHV-Beiträge bezahlt haben).
+::image::
+https://docs.bitmark.cloud/bit-books/rav/web-resources/images/familie.png
+::
+**Wer erhält 80 % des versicherten Verdienstes?**
+
+• unterhaltspflichtige Kinder haben (Kinder unter 25 Jahren) oder
+• weniger als CHF 3'797.- pro Monat verdient haben oder
+• mindestens 40 % invalid sind und dafür eine IV-Rente beziehen.
+
+Die Arbeitslosenentschädigung wird monatlich ausbezahlt. Sie bekommen aber nicht jeden Monat gleich viel. Die genaue Summe hängt von der Anzahl der Werktage (Montag bis Freitag) pro Monat ab. Darum heisst die Arbeitslosenentschädigung auch "Taggeld".
+
+[.article:bitmark--&video]
+[&video:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video4.mp4]
+
+[.multiple-choice-1:bitmark--]
+[%Alles klar?]
+[!Wie viel Prozent Ihres versicherten Lohns erhalten Stellensuchende als Arbeitslosenentschädigung?]
+[-50 %]
+[+70 % bis 80 %]
+
+[.chapter]
+[##Geld: Wie lange können Sie Arbeitslosenentschädigung erhalten?]
+
+[.article:bitmark--&image]
+[&image:https://docs.bitmark.cloud/bit-books/rav/web-resources/images/wie_lange.png]
+
+[.article:bitmark++]
+Wie lange Sie Arbeitslosenentschädigung erhalten, wird auch in Taggeldern berechnet. Grundsätzlich können Sie zwischen 90 Taggeldern und 640 Taggeldern erhalten.
+
+Die Anzahl der Taggelder hängt davon ab
+• wie alt Sie sind oder ob Sie maximal 4 Jahre vor dem ordentlichen AHV-Alter stehen,
+• ob Sie für Kinder verantwortlich sind (Unterhaltspflicht gegenüber Kindern unter 25 Jahren) und
+• wie lange Sie in den letzten 2 Jahren in die Arbeitslosenversicherung (Beitragszeit) einbezahlt haben.
+
+**Wie viele Taggelder erhalten Sie maximal?**
+::info::Bis 25 Jahre und 12 bis 24 Beitragsmonate:
+200 Taggelder
+::
+::info::Ab 25 Jahren und ab 12 bis <18 Beitragsmonaten:
+260 Taggelder
+::
+::info::Ab 25 Jahren und 18 bis 24 Beitragsmonaten:
+400 Taggelder
+::
+::info::Ab 55 Jahren und 22 bis 24 Beitragsmonaten:
+520 Taggelder
+::
+::info::Bei Arbeitsverlust weniger als 4 Jahre vor ordentlichem AHV-Alter:
+Noch zusätzlich 120 Taggelder
+::
+::info::Weniger Beitragsmonate:
+Prüfen Sie mit Ihrer Arbeitslosenkasse, ob eine Ausnahme auf Sie zutrifft. Beitragsbefreite Versicherte erhalten maximal 90 Taggelder.
+::
+
+**Wie viele Taggelder bei IV-Rente?**
+
+Wenn Sie eine IV-Rente beziehen, die einem IV-Grad von mindestens 40 % entspricht, dann haben Sie maximal folgende Ansprüche auf Taggelder:
+::info::Bis 25 Jahre und 22 bis 24 Beitragsmonaten:
+520 Taggelder (nur mit Unterhaltspflicht gegenüber Kindern)
+::
+::info::Ab 25 Jahren und 22 bis 24 Beitragsmonaten:
+520 Taggelder
+::
+::info::Weniger Beitragsmonate:
+Ihre Arbeitslosenkasse prüft, ob eine Ausnahme auf Sie zutrifft.
+::
+
+[.multiple-choice-1:bitmark--]
+[%Beispiel:]
+[!Maria ist 30 Jahre alt, hat keine Kinder und hat vor ihrer Anmeldung beim RAV 5 Jahre gearbeitet. Wie viele Taggelder erhält sie maximal?]
+[-200 Taggelder]
+[+400 Taggelder]
+
+[.multiple-choice-1:bitmark--]
+[%Alles klar?]
+[!Erhält jemand, der 10 Jahre Beiträge bezahlt hat, länger Arbeitslosenentschädigung, als jemand, der 5 Jahre einbezahlt hat?]
+[+Nein]
+[-Ja]
+
+[.chapter]
+[##Zwischenverdienst]
+
+[.article:bitmark--&image]
+[&image:https://docs.bitmark.cloud/bit-books/rav/web-resources/images/zwischenverdienst.png]
+
+[.article:bitmark--]
+Wenn Sie während Ihrer Arbeitslosigkeit etwas verdienen (Erwerbseinkommen), handelt es sich um einen Zwischenverdienst. Oft sind dies Teilzeitbeschäftigungen oder befristete Aushilfstätigkeiten.
+Einen Zwischenverdienst müssen Sie dem RAV unbedingt melden.
+
+**Vorteile eines Zwischenverdienstes**
+
+• Mit einem Zwischenverdienst liegt Ihr Einkommen fast immer höher als wenn Sie nur Taggelder beziehen.
+• Gleichzeitig verbrauchen Sie weniger Taggelder.
+• Zusätzlich erwerben Sie neue Beitragszeiten, die sich auf eine weitere Rahmenfrist positiv auswirken.
+• Sie bekommen neue Referenzen für Ihren Lebenslauf.
+• Sie erwerben neue Kompetenzen und knüpfen wichtige Kontakte.
+
+
+**Wie stellt sich Ihr Einkommen bei einem Zwischenverdienst zusammen?**
+
+•. Der Arbeitgeber bezahlt Ihnen den **Lohn** für den Zwischenverdienst.
+•. Die Arbeitslosenkasse bezahlt Ihnen zusätzlich **Kompensationszahlungen** (anstelle der normalen Arbeitslosenentschädigung).
+
+[.article:bitmark--&video]
+Sehen Sie sich das Video an, um mehr zu erfahren.
+[&video:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video5.mp4]
+
+[.multiple-response-1:bitmark--]
+[%Alles klar?]
+[!Was passiert bei einem Zwischenverdienst?]
+[+Sie erwerben neue Kompetenzen und knüpfen neue Kontakte.]
+[-Sie bekommen vom Staat kein Geld mehr.]
+[+Sie verbrauchen weniger Taggelder.]
+[+Sie verdienen mehr (zusammen mit den Kompensationszahlungen).]
+
+[.chapter]
+[##Krankheit und Unfall]
+
+[.article:bitmark--&image]
+[&image:https://docs.bitmark.cloud/bit-books/rav/web-resources/images/krank.png]
+
+[.article:bitmark++]
+Sie sind im Fall von Krankheit oder Unfall versichert.
+::image::
+https://docs.bitmark.cloud/bit-books/rav/web-resources/images/kreuz.png
+::
+**Krankheit**
+Wenn Sie krank sind, melden Sie sich sofort beim RAV.
+Ab dem 4. Tag der Krankheit brauchen Sie ein Arztzeugnis, das Sie an das RAV senden müssen.
+Wenn Sie krank sind, setzen Sie sich bitte mit Ihrer Krankenversicherung bezüglich Heilungskosten in Verbindung.
+Taggelder erhalten Sie immer noch von Ihrer Arbeitslosenkasse, aber nur für eine begrenzte Zeit:
+::image::
+https://docs.bitmark.cloud/bit-books/rav/web-resources/images/kalender2.png
+::
+**Erste 30 Kalendertage**
+Wenn Sie krank sind, zahlt Ihnen die Arbeitslosenversicherung während max. 30 Kalendertagen das volle Taggeld weiter.
+
+**Nach den ersten 30 Kalendertagen**
+Nach dem 30. Tag hängt die Höhe der Arbeitslosenentschädigung davon ab, wie arbeitsfähig Sie sind.
+
+**Beispiel**
+Wenn Sie wegen Krankheit nur 40% arbeitsfähig sind, erhalten Sie ab dem 31. Kalendertag nur noch 40% des Taggeldes (wenn Sie weiterhin krank sind).
+
+Pro Rahmenfrist können Sie maximal 44 Taggelder während einer Krankheit beziehen.
+
+**Private Krankentaggeldversicherung (KTV)**
+
+Es kann sinnvoll sein, eine private Krankentaggeldversicherung abzuschliessen, damit sich Ihr Einkommen nach dem 30. Krankheitstag nicht reduziert.
+Je nach Grad der Arbeitsunfähigkeit bezahlen die Arbeitslosenversicherung (ALV) oder die Krankentaggeldversicherung (KTV) oder beide Versicherer ab dem 31. Kalendertag der Krankheit einen Anteil an den Taggeldern.
+
+Wenn Sie bereits beim letzten Arbeitgeber in einer kollektiven Krankentaggeldversicherung waren, haben Sie das Recht, ohne Versicherungsvorbehalt in eine Einzelkrankentaggeldversicherung zu wechseln.
+
+Dieses Übertrittsrecht besteht aber nur während einer bestimmten Zeit ab Ende des Arbeitsverhältnisses. Nehmen Sie dafür Kontakt mit dem Versicherer auf.
+::image::
+https://docs.bitmark.cloud/bit-books/rav/web-resources/images/ghypsum.png
+::
+**Unfall**
+
+Melden Sie einen Unfall sofort beim RAV und der Arbeitslosenkasse.
+
+Solange Sie Arbeitslosenentschädigung beziehen, sind Sie bei der **Suva unfallversichert**. Der Beitrag zur Versicherung wird von Ihrem Taggeld abgezogen.
+
+Das bedeutet, dass nach einem Unfall die Suva Ihre Behandlungskosten und ab dem 4. Tag nach dem Unfall auch Ihr Taggeld bezahlt.
+
+Da das Geld von der Suva und nicht von der Arbeitslosenversicherung kommt, besteht keine Beschränkung der Zahlungen auf 30 Kalendertage.
+
+[.multiple-choice-1:bitmark--]
+[%Alles klar?]
+[!An wen wenden Sie sich im Krankheitsfall bezüglich der Heilungskosten?]
+[+Krankenkasse]
+[-RAV]
+
+[.chapter]
+[##Mutterschaft]
+
+[.article:bitmark--&image]
+[&image:https://docs.bitmark.cloud/bit-books/rav/web-resources/images/mutterschaft.png]
+
+[.article:bitmark--&image]
+[&image:https://docs.bitmark.cloud/bit-books/rav/web-resources/images/familie2.png]
+Wenn Frauen während des Bezugs der Arbeitslosenentschädigung ein Kind zur Welt bringen, bekommen sie während 14 Wochen (98 Taggelder) nach der Geburt eine Mutterschaftsentschädigung
+(= bezahlter Mutterschaftsurlaub).
+
+Sie müssen die **Mutterschaftsentschädigung** bei der zuständigen AHV-Ausgleichskasse beantragen. Weitere Informationen und ein Merkblatt erhalten Sie beim RAV.
+
+[.multiple-choice-1:bitmark--]
+[%Alles klar?]
+[!Der Mutterschaftsurlaub dauert:]
+[-7 Wochen]
+[+14 Wochen]
+
+[.chapter]
+[##AHV und Berufliche Vorsorge]
+
+[.article:bitmark--&image]
+[&image:https://docs.bitmark.cloud/bit-books/rav/web-resources/images/saulen.png]
+
+[.article:bitmark++]
+**AHV (1. Säule)**
+::image::
+https://docs.bitmark.cloud/bit-books/rav/web-resources/images/saule1.png
+::
+Die AHV (1. Säule) läuft ganz normal weiter: Auch als arbeitssuchende Person sind Sie weiterhin in der Alters- und Hinterbliebenenvorsorge (AHV) versichert.
+
+Die AHV-Beiträge werden automatisch von Ihrem Taggeld abgezogen (5.125% AHV-Beiträge). Die andere Hälfte bezahlt die Arbeitslosenversicherung (ALV) an die AHV.
+
+Sie müssen also keine Beitragslücken befürchten.
+
+[.article:bitmark++]
+**Berufliche Vorsorge BVG (2. Säule)**
+::image::
+https://docs.bitmark.cloud/bit-books/rav/web-resources/images/saule2.png
+::
+Die Berufliche Vorsorge wird oft auch einfach "Pensionskasse" genannt.
+
+Sie besteht aus 2 Teilen:
+
+•. **Risikoversicherung:** Sie sind weiterhin obligatorisch für die Risiken Tod und Invalidität versichert.
+•. **Sparen fürs Alter:** Dieser Teil wird nicht mehr weitergeführt, wenn Sie arbeitslos sind. Das heisst: das Ansparen von BVG-Alterskapital wird unterbrochen, wenn Sie arbeitslos sind.
+
+Weitere Informationen dazu finden Sie in der Broschüre "==Berufliche Vorsorge für arbeitslose Personen==(:https://www.arbeit.swiss/dam/secoalv/de/dokumente/publikationen/broschueren/stellensuchende/SECO_716%20201%20d_2019_web.pdf.download.pdf/SECO_716%20201%20d_2019_web.pdf)=="
+
+[.multiple-choice-1:bitmark--]
+[%Alles klar?]
+[!Stellensuchende bezahlen Beiträge an die AHV.]
+[-Stimmt nicht]
+[+Stimmt]
+
+[.chapter]
+[##Ferien]
+
+[.article:bitmark--&image]
+[&image:https://docs.bitmark.cloud/bit-books/rav/web-resources/images/ferien.png]
+
+[.article:bitmark--]
+Nach 60 Tagen kontrollierter Arbeitslosigkeit haben Sie das Recht auf 5 Tage Ferien. Diese Tage werden "kontrollfreie Tage" genannt.
+
+In dieser Zeit müssen Sie keine Arbeitsbemühungen nachweisen und auch nicht vermittlungsfähig sein. Während dieser Zeit erhalten Sie weiterhin Arbeitslosenentschädigung.
+
+::hint::Tipp||Wird nicht dargestellt wie in der Dokumentation. Sandbox erweitern?||
+Sie können die 5 kontrollfreien Tage auch aufsparen. Dann haben Sie zum Beispiel nach 120 Tagen kontrollierter Arbeitslosigkeit 10 Werktage "kontrollfreie Tage" (= 2 Wochen). Diese sind auch tageweise einlösbar.
+
+Wenn Sie Ihre Taggelder aufgebraucht haben, verfallen auch die kontrollfreien Tage, die Sie noch nicht bezogen haben.
+
+Sie können diese Tage nicht auf eine neue Rahmenfrist übertragen.
+::
+
+**Wichtig:** Melden Sie Ihre Ferien unbedingt spätestens 2 Wochen vorher beim RAV an.
+
+[.multiple-choice-1:bitmark--]
+[%Alles klar?]
+[!Was bedeuten "kontrollfreie Tage"?]
+[-Das RAV bezahlt Ihnen einen Flug nach Amerika.]
+[+Sie müssen in dieser Zeit keine Arbeitsbemühungen unternehmen.]
+
+[.chapter]
+[#Abschluss: Beantworten Sie die Testfragen]
+
+[.article:bitmark--]
+Sie können den Abschlusstest erst starten, wenn Sie jedes Kapitel ganz durchgearbeitet haben. Klicken Sie sich durch alle Texte durch, d.h. klicken Sie auch auf > und +, um alle Texte zu lesen und beantworten Sie alle Zwischenfragen.
+
+[.chapter]
+[##Abschluss]
+
+[.chapter]
+[##Test]
+
+[.chapter]
+[##Glossar]
+
+[.article:bitmark--]
+• AHV Alters- und Hinterlassenenversicherung
+• ALE Arbeitslosentschädigung
+• ALK Arbeitslosenkasse
+• Arbeitslosenentschädigung Die Wörter "Arbeitslosengeld", "Arbeitslosenunterstützung", "Arbeitslosenentschädigung" und "Taggeld" haben die gleiche Bedeutung: Geld, das Stellensuchende von der Arbeitslosenkasse bekommen, wenn sie die Bedingungen dafür erfüllen.
+• Arbeitslosenkasse (ALK) Für Geldfragen wenden Sie sich an die Arbeitslosenkasse (und nicht an das RAV). Jeder Kanton betreibt eine öffentliche Arbeitslosenkasse. Zusätzlich gibt es in der Schweiz 38 private Arbeitslosenkassen, meistens von Gewerkschaften. Die Arbeitslosenkassen klären ab, ob jemand Anspruch auf Arbeitslosenentschädigung hat, und wenn ja, wie lange und wie viel. Sie bezahlen dann die Arbeitslosenentschädigung entsprechend aus.
+• Arbeitslosenversicherung (ALV) In der Schweiz sind alle Arbeitnehmer obligatorisch gegen Arbeitslosigkeit versichert. Es wird ihnen automatisch ein Beitrag an die Arbeitslosenversicherung vom Lohn abgezogen. Wenn Sie also Ihren Arbeitsplatz verlieren, bezahlt die Arbeitslosenversicherung (ALV) für eine gewisse Zeit eine Arbeitslosenentschädigung, sofern Sie die erforderlichen Voraussetzungen dafür erfüllen. Die Arbeitslosenkassen klären ab, ob jemand Anspruch auf Arbeitslosenentschädigung hat.
+• Arbeitsmarktliche Massnahmen Arbeitsmarktliche Massnahmen sind zum Beispiel Kurse, Programme zur vorübergehenden Beschäftigung oder Ausbildungs- und Berufspraktika, die Ihnen helfen, dauerhaft wieder eine Arbeit zu bekommen. Mit diesen Massnahmen können Sie Ihre Kenntnisse verbessern, neue Techniken lernen, neue Kontakte knüpfen und sich mit Blick auf den Arbeitsmarkt auf dem Laufenden halten.
+• AVIG Arbeitslosenversicherungsgesetz
+• AVIV Arbeitslosenversicherungsverordnung
+• BAG Bundesamt für Gesundheit
+• Beitragszeit Die Beitragszeit ist die Anzahl Monate in den 2 Jahren vor Ihrer Anmeldung beim RAV, in denen Sie gearbeitet und Beiträge an die Arbeitslosenversicherung bezahlt haben. Um Anspruch auf Arbeitslosenentschädigung zu haben, müssen Sie grundsätzlich innerhalb der letzten 2 Jahre vor der Anmeldung mindestens 12 Monate lang Beiträge an die Arbeitslosenversicherung bezahlt haben. Während einer Anstellung werden Ihnen diese Beiträge automatisch vom Lohn abgezogen. Unter gewissen Umständen haben Sie auch Anspruch, wenn Sie die Beitragszeit nicht erfüllt haben.
+• BSV Bundesamt für Sozialversicherungen
+• EFTA Europäische Freihandelsassoziation
+• Einstelltag Einstelltage sind Tage, an denen Taggelder gestrichen werden. Dies bedeutet, dass keine Arbeitslosenentschädigung bezahlt wird. Einstelltage müssen ausgesprochen werden, wenn sich die stellensuchende Person nicht an die Spielregeln (Pflichten) hält.
+• EOG Erwerbsersatzgesetz
+• Erstgespräch Mit dem Erstgespräch im RAV beginnt die eigentliche Beratungsphase. Sie lernen Ihre Beratungsperson kennen. Das Gespräch dauert ca. 60 Minuten. Zusammen mit Ihrer Beratungsperson erarbeiten Sie einen Plan, wie Sie eine neue Stelle finden können (Wiedereingliederungsstrategie mit den Inhalten Standortbestimmung, Suchbereich, Suchstrategie, Bewerbungsdossier und Selbstpräsentation).
+• EU Europäische Union
+• IV Invalidenversicherung
+• KAST Kantonale Amtsstelle
+• KIGA Kantonales Amt für Industrie, Gewerbe und Arbeit
+• Kompensationszahlungen Wenn Sie Lohn aus einem Zwischenverdienst erhalten, bekommen Sie statt Taggeld so genannte Kompensationszahlungen. Grundsätzlich gilt das folgende Vorgehen zur Berechnung der Kompensationszahlung: Man nehme den versicherten Verdienst. Ziehe davon den Lohn aus dem Zwischenverdienst ab. Das ergibt den Differenzbetrag. Die Kompensationszahlung beträgt 80%, bzw. 70% dieses Differenzbetrags.
+• Kontrollfreie Bezugstage Kontrollfreie Bezugstage sind Tage, an denen Sie von den Kontrollvorschriften befreit sind. Sie müssen an diesen Tagen keine Arbeitsbemühungen (= Stellensuche) unternehmen und auch nicht vermittlungsfähig sein. Mit anderen Worten: Sie haben Ferien.
+• Kranken-Taggeldversicherung Bei Krankheit bezahlt die Arbeitslosenkasse für eine bestimmte Zeit das volle Taggeld weiter (maximal 30 Kalendertage bei ununterbrochener Krankheit). Wenn Sie eine Kranken-Taggeldversicherung abgeschlossen haben, übernimmt diese die Taggeldzahlungen ganz oder teilweise. Solche Versicherungen sind meistens teuer. Das RAV informiert Sie gerne ausführlicher.
+• Kurse und Programmeinsätze Das RAV kann Kurse und Programmeinsätze anordnen und bezahlen. Ausbildungen werden aber nicht von der Arbeitslosenversicherung finanziert. Stellensuchende können jedoch Gesuche zur Finanzierung von Kursen und Weiterbildungen einreichen, wenn diese Kurse oder Weiterbildungen ihre Chancen auf dem Arbeitsmarkt deutlich verbessern.
+• KVG Krankenversicherungsgesetz
+• PartG Partnerschaftsgesetz
+• Rahmenfrist Die Rahmenfrist ist der Zeitraum, in dem Sie Leistungen von der Arbeitslosenkasse bekommen können. Sie dauert in der Regel 2 Jahre. Wenn die Rahmenfrist beendet ist, können Sie keine Taggelder mehr erhalten. Wenn Sie alle Taggelder bezogen haben, bevor die Rahmenfrist zu Ende ist, bekommen Sie ebenfalls kein Geld mehr.
+• RAV "RAV" steht für Regionales Arbeitsvermittlungszentrum. RAV sind Organisationen, die in den Bereichen Arbeitslosigkeit, Stellenvermittlung und Arbeitsmarkt spezialisiert sind. Die RAV unterstützen Sie bei der Stellensuche. Für Geldfragen richten Sie sich an die Arbeitslosenkasse.
+• SECO Staatssekretariat für Wirtschaft
+• Suva Suva steht für "Schweizerische Unfallversicherungsanstalt". Wenn Sie Arbeitslosenentschädigung beziehen, sind Sie automatisch bei der Suva gegen Unfall versichert.
+• SV Sozialversicherung
+• Taggeld Die Bezeichnungen "Arbeitslosengeld", "Arbeitslosenunterstützung", "Arbeitslosenentschädigung" und "Taggeld" haben die gleiche Bedeutung: Geld, das eine stellensuchende Person von der Arbeitslosenkasse bekommt, wenn die Bedingungen dafür erfüllt sind.
+• Unfallversicherung Wenn Sie Arbeitslosenentschädigung beziehen, sind Sie automatisch bei der Suva gegen Unfall versichert. Die Versicherungsbeiträge werden automatisch von der Arbeitslosenentschädigung abgezogen.
+• Vermittlungsfähigkeit Damit Sie Arbeitslosenentschädigung bekommen, müssen Sie während der Zeit, in der Sie beim RAV angemeldet sind, vermittlungsfähig sein. Das bedeutet, dass Sie jederzeit bereit, berechtigt und in der Lage sein müssen, eine zumutbare Arbeit anzunehmen oder an angeordneten arbeitsmarktlichen Massnahmen teilzunehmen.
+• Versicherter Verdienst Der versicherte Verdienst wird aus dem Lohn berechnet, den Sie vor der Arbeitslosigkeit verdient haben und auf den Sie AHV Beiträge bezahlt haben. Er dient als Basis für die Berechnung Ihrer Arbeitslosenentschädigung oder der Kompensationszahlungen (wenn Sie einen Zwischenverdienst haben).
+• VVG Versicherungsvertragsgesetz
+• Wartetage Wartetage sind Werktage, an denen Sie keine Arbeitslosenentschädigung bekommen. Zu Beginn der Arbeitslosigkeit erhalten Sie für diese (0 bis max. 120) Wartetage kein Geld (Selbstbehalt). Wartetage sind keine Einstelltage.
+• Zumutbare Arbeit 
+Grundsatz: Jede Arbeit ist zumutbar, ausser es gibt einen der folgenden Unzumutbarkeitsgründe. Nicht zumutbar ist eine Arbeit, die
+- nicht den üblichen Arbeitsbedingungen entspricht.
+- nicht angemessen auf Ihre Fähigkeiten oder bisherige Tätigkeit Rücksicht nimmt. Für unter 30-Jährige ist auch eine Arbeit zumutbar, die nicht angemessen auf ihre Fähigkeiten und die bisherige Tätigkeit Rücksicht nimmt. Das heisst, diese Personen müssen sozusagen jede Arbeit annehmen.
+- nicht Ihren persönlichen Verhältnissen entspricht (Alter, Gesundheit, Familie).
+- einen Arbeitsweg von täglich mehr als 4 Std. notwendig macht.
+- den Wiedereinstieg in Ihren Beruf erschwert, falls darauf in absehbarer Zeit Aussicht besteht.
+- ausschliessliche auf Provisionsbasis bezahlt wird.
+- Ihnen einen Lohn einbringt, der geringer ist als 70% Ihres versicherten Verdienstes (ausser Sie erhalten Kompensationszahlungen im Rahmen eines Zwischenverdiensts)
+• Zwischenverdienst Als Zwischenverdienst gilt jedes Einkommen aus unselbständiger oder selbständiger Erwerbstätigkeit, das Sie während dem Bezug von Arbeitslosenentschädigung erzielen. Die Erwerbstätigkeit kann auch eine Teilzeitbeschäftigung oder eine Aushilfetätigkeit sein.
+

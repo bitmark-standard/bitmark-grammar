@@ -1,0 +1,14 @@
+[.article&document]
+[&document-online::https://itunes.apple.com/ch/album/like-sugar-single/1392081432?l=en]
+::warning::
+Using this like this is dangeroous
+::
+::code:JavaScript::
+// And a code block
+let a = 3;
+let b = 4;
+::
+::embed:LaTeX::\f{x} = 3::
+::image:: Optional Picture Caption (Title)
+@2x:http://cdn.bitbook.education/images/cat3_big_image.jpg
+::

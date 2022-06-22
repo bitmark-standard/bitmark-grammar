@@ -1,0 +1,568 @@
+[.book]
+[#
+
+[.chapter]
+[#Einleitung]
+
+[.chapter]
+[##Grüezi!]
+
+
+[.article:bitmark--]
+Das sind Frau Huber und Herr Meier. Sie erklären Ihnen in diesem Teil der Pflichtinformationen das Wichtigste, was Sie über Ihre Rechte und Pflichten wissen müssen.
+
+In diesem Teil wird Ihnen erklärt:
+• wie das RAV bei Ihrer Stellensuche helfen kann.
+• wie Sie Arbeitslosengeld von der Arbeitslosenkasse erhalten, während Sie auf Stellensuche sind.
+• und ganz wichtig, welches Ihre Rechte und Pflichten als Stellensuchende(r) sind.
+
+||Achtung:
+
+Sie können erst auf die nächste Seite gehen, wenn Sie auf einer Seite alles gelesen oder bearbeitet haben. Sie sollten also alle Reiter anklicken und alle Fragen jeweils beantworten.||
+Sie können auch jederzeit oben auf "Glossar" klicken, wenn Sie ein Wort nicht verstehen oder Erklärungen suchen.
+
+||Für die Themen "Rechte und Pflichten" benötigen Sie etwa 30 Minuten. Bitte arbeiten Sie möglichst ohne Unterbrechung und schliessen Sie den Browser nicht. Sonst müssen Sie nochmals von vorne beginnen.
+
+Um weiter zu blättern, bitte oben auf den Vorwärts-Pfeil klicken. (Für weitere Hinweise zur Navigation klicken Sie oben auf "Hilfe".)||
+
+[.chapter]
+[##Arbeitslos – was tun?]
+
+[.article:bitmark++]
+
+Was Sie als erstes tun sollten, wenn Sie arbeitslos sind:
+
+[.chapter]
+[###Sofort Arbeit suchen]
+
+[.article:++]
+Das Wichtigste: **Sofort mit der Arbeitssuche beginnen.**
+
+Machen Sie sich Notizen und behalten Sie alle Unterlagen von Ihren Bewerbungsbemühungen.
+
+Sie würden ja auch sofort eine Wohnung suchen, wenn Ihnen die Wohnung gekündigt würde.
+
+Sie müssen beim RAV jeden Monat nachweisen können, dass Sie aktiv Arbeit suchen.
+
+
+Auf den nächsten Seiten begleiten wir Herrn Meier bei der Anmeldung und dann bei der Beratung.
+(Sie müssen auf alle Reiter klicken, bevor Sie zur nächsten Seite gelangen können.)
+||shows up on all pages||
+
+[.chapter]
+[###Wichtige Hinweise]
+
+[.article:bitmark++]
+Wichtige Hinweise zur Stellensuche:
+
+•. Überlegen Sie sich, welche Arbeiten / Tätigkeiten Sie bei welchen Firmen ausüben könnten. Gibt es auch Alternativen?
+
+•. Bringen Sie Ihre Bewerbungsdokumente auf den aktuellen Stand (Lebenslauf, Bewerbungsschreiben, Arbeitszeugnisse).
+
+•. Suchen Sie auf verschiedene Arten: Stelleninserate in Zeitungen und im Internet, Freunde und Bekannte fragen, etc.
+
+•. Bewahren Sie Kopien Ihrer Bewerbungen auf. Sie müssen pro Monat in der Regel mindestens 8-12 Arbeitsbemühungen (Bewerbungen) d. h. 2-3 pro Woche ab Kündigungsdatum beim RAV nachweisen können.
+
+[.chapter]
+[###Anmelden]
+
+[.article:bitmark++]
+Melden Sie sich noch während der Kündigungsfrist, spätestens aber am ersten Tag Ihrer Arbeitslosigkeit **bei Ihrem zuständigen Regionalen Arbeitsvermittlungszentrum (RAV).**
+
+Falls Sie sich schon beim RAV angemeldet und eine Kasse ausgewählt haben, merken Sie sich folgendes:
+|image:
+
+"RAV" steht für **R**egionales **A**rbeits**v**ermittlungszentrum.
+Das RAV unterstützt Sie bei der Stellensuche.
+
+|image:
+
+Für alle **Geldfragen** wenden Sie sich an Ihre Arbeitslosenkasse (ALK)
+
+[.chapter]
+[#Die Anmeldung]
+
+[.chapter]
+[###Meldung im RAV]
+
+[.article:bitmark--&image]
+Die Öffnungszeiten des RAV Zug sind:
+Montag – Freitag, 08.00 – 11.45 Uhr / 13.15 – 17.00 Uhr
+
+**Für die Anmeldung nehmen Sie bitte folgende Unterlagen mit:**
+• Kopie Sozialversicherungsausweis (AHV-Ausweis) oder Krankenkassen-Ausweis
+• Schweizer BürgerInnen: Kopie von Pass, ID oder Führerschein
+• AusländerInnen: Kopie des Ausländerausweises
+• Komplettes Bewerbungsdossier (Lebenslauf, Arbeitszeugnisse, Diplome etc.)
+• Kopie des letzten Arbeitsvertrages
+• Kopie des Kündigungsschreibens
+• Bewerbungen während der Kündigungsfrist
+• Arztzeugnis (falls vorhanden)
+• IV-Anmeldebestätigung (falls vorhanden)
+
+Wir bitten Sie, sämtliche Unterlagen mitzubringen. Im RAV können Sie auch Broschüren und Merkblätter beziehen.
+
+[.chapter]
+[###Sich informieren und Formulare ausfüllen]
+
+[.article:bitmark--&image]
+Sie sind verpflichtet, sich zu informieren und bestimmte Formulare auszufüllen.
+
+**Arbeitgeberbescheinigung beschaffen**
+Geben Sie allen Ihren Arbeitgebern der letzten 2 Jahre das Formular "Arbeitgeberbescheinigung" und lassen Sie es ausfüllen (Gelbes Formular).
+
+**Formulare ausfüllen**
+• "==Antrag auf Arbeitslosenentschädigung==(:http://www.rechteundpflichten.rav-zg.ch/content/standard/content/media/pdf/arbeitlosenentschaedigung.pdf)=="
+• "Nachweis der persönlichen Arbeitsbemühungen" (für jeden Monat ein Formular abgeben)
+• eventuell "==Unterhaltspflicht gegenüber Kindern==(:http://www.rechteundpflichten.rav-zg.ch/content/standard/content/media/pdf/unterhaltspflicht.pdf)=="
+• Angaben der versicherten Person (monatlich)
+
+**Nicht vergessen**: Weiter eine Stelle suchen.
+
+[.chapter]
+[###Anmeldegespräch im RAV]
+
+[.article:bitmark--&image]
+**Wichtig**: Das Anmeldegespräch ist noch kein Beratungsgespräch, sondern dient der administrativen Erfassung (Dauer: ca. 30 Minuten). Sie erhalten bei der Anmeldung einen Termin für das Erstgespräch bei Ihrer Beratungsperson.
+
+**Was passiert im Anmeldegespräch?**
+• Ihre Daten werden aufgenommen.
+• Sie wählen eine Arbeitslosenkasse aus.
+• Sie erhalten eine Anmeldebestätigung und unterschreiben diese.
+• Sie können allgemeine Fragen zur Anmeldung klären.
+• Es wird Ihnen eine Beratungsperson zugeteilt.
+
+[.chapter]
+[###Was kommt dann per Post?]
+
+[.article:bitmark--&image]
+• Sie erhalten von "Ihrer" Arbeitslosenkasse eine Bestätigung, dass Ihr Antrag auf Arbeitslosenentschädigung eingetroffen ist. Die Arbeitslosenkasse wird fehlende Unterlagen direkt bei Ihnen anfordern.
+• Sie erhalten einmal pro Monat die Formulare "Angaben der versicherten Person" sowie "Nachweis der persönlichen Arbeitsbemühungen".
+
+[.chapter]
+[#Die Beratung]
+
+[.chapter]
+[###Erstgespräch im RAV]
+
+[.article:bitmark--&image]
+Das Erstgespräch ist das erste Beratungsgespräch. Zusammen mit Ihrem Personalberater oder Ihrer Personalberaterin (Beratungsperson) machen Sie eine Standortbestimmung und beginnen mit der Erarbeitung eines persönlichen Plans, wie Sie gezielt eine Stelle finden können.
+
+**Was müssen Sie mitbringen?**
+• Ausgefülltes Formular "Nachweis der persönlichen Arbeitsbemühungen"
+• Weitere Unterlagen, falls diese im Anmeldegespräch noch fehlten
+• Bestätigungen der Online-Module
+
+**Was passiert im Gespräch?**
+Im Erstgespräch wird Ihnen die Beratungsperson viele Fragen stellen, um mit Ihnen Ihre Situation zu analysieren:
+• Letzte Arbeit/Stellenverlust
+• Berufserfahrung
+• Bildung / Wissen
+• Gesuchte Tätigkeiten
+• Bewerbungskompetenz / Qualität Ihrer Bewerbungsunterlagen
+• Erklären der Rechte und Pflichten
+
+Danach werden die weiteren Schritte vereinbart und Massnahmen besprochen.
+
+[.chapter]
+[###Rolle der Personalberaterin im RAV]
+
+[.article:bitmark--&image]
+Die Beratungsperson **unterstützt** Sie:
+• Sie beantwortet Ihre Fragen.
+• Sie stellt sicher, dass alle erforderlichen Unterlagen für das RAV und die Arbeitslosenkasse vorhanden sind.
+• Sie macht mit Ihnen zusammen eine Standortbestimmung und berät Sie bei Ihren Bewerbungen.
+• Sie kann Ihnen gemäss Ihrem Profil passende Stellen zuweisen, auf die Sie sich bewerben müssen.
+
+Und die Beratungsperson muss Folgendes **kontrollieren**:
+• ob alle gesetzlichen Pflichten eingehalten werden.
+• ob die Qualität und Quantität der persönlichen Arbeitsbemühungen genügen.
+• ob die ==Vermittlungsfähigkeit==(:http://www.rechteundpflichten.rav-zg.ch/#glossary/0== fortlaufend gegeben ist.
+
+[.chapter]
+[###Weitere Beratungsgespräche im RAV]
+
+[.article:bitmark--&image]
+Mit Ihrer Beratungsperson vereinbaren Sie regelmässige Beratungsgespräche und Ziele für die Stellensuche.
+
+**Was müssen Sie mitbringen?**
+• Die Beratungsperson vereinbart mit Ihnen, was Sie jeweils ins Beratungsgespräch mitnehmen müssen.
+
+**Was passiert im Gespräch?**
+Die Beratungsperson:
+• überprüft, ob die vereinbarten Ziele erreicht worden sind.
+• definiert mit Ihnen – wenn nötig – neue Ziele.
+• vereinbart mit Ihnen je nach Situation Massnahmen wie qualifizierende Kurse oder Programme zur vorübergehenden Beschäftigung.
+• vereinbart einen Termin für das nächste Beratungsgespräch.
+
+[.chapter]
+[#Rechte]
+
+[.chapter]
+[##Arbeitslosenentschädigung]
+
+[.article:bitmark--&image]
+
+[.multiple-choice-text:bitmark--]
+[!Vervollständigen Sie die folgenden Bedingungen, indem Sie die richtigen Wörter aus den Auswahlmenüs wählen.]
+Um Anspruch auf Arbeitslosenentschädigung zu haben,
+• müssen Sie ganz oder teilweise [+arbeitslos][-krank][-arm] sein,
+• müssen Sie die **obligatorische Schulzeit** absolviert haben und dürfen noch nicht das [-50. Altersjahr][-100. Altersjahr][+Rentenalter der AHV] erreicht haben und keine Altersrente der AHV beziehen.
+• müssen Sie [-den Militärdienst][-den Zivildienst][+die Beitragszeit]
+ erfüllt haben oder davon befreit sein,
+• müssen Sie [+vermittlungsfähig][-vielseitig][-arbeitsunfähig] sein (d.h. bereit, in der Lage und berechtigt sein, eine zumutbare Arbeit anzunehmen).
+
+|note:Weitere Bedingungen
+Hier sind noch weitere Bedingungen, die Sie erfüllen müssen:
+• die Kontrollvorschriften erfüllen, d.h. alle Pflichten einhalten.
+• einen anrechenbaren Arbeitsausfall erlitten haben (Mindestausfall von 2 Arbeitstagen und Lohneinbusse).
+
+
+[.chapter]
+[##Arbeitslosenentschädigung]
+
+[.article:bitmark--&image]
+
+[.chapter]
+[###Unfall]
+
+[.article:bitmark--&image]
+Solange Sie Arbeitslosenentschädigung beziehen, sind Sie über die Suva versichert. Das bedeutet, dass die Behandlungskosten und das Taggeld von der SUVA bezahlt werden, wenn Sie einen Unfall haben. Der Beitrag zur Versicherung wird vom Taggeld abgezogen. Das Formular "Unfallmeldung" erhalten Sie bei der Arbeitslosenkasse.
+
+**Wichtig:** Sie müssen sofort das RAV und der Arbeitslosenkasse informieren, wenn Sie einen Unfall haben.
+
+[.chapter]
+[###Krankheit]
+
+[.article:bitmark--&image]
+Auch während einer Krankheit erhalten Sie Taggelder von Ihrer Arbeitslosenkasse, aber nur für max. 44 Taggelder (30 Tage am Stück). Deshalb kann es sinnvoll sein, eine private Krankentaggeldversicherung ==Krankentaggeldversicherung==(:http://www.rechteundpflichten.rav-zg.ch/#glossary/1)== abzuschliessen.
+
+**Wichtig:** Sie müssen sofort das RAV und die Arbeitlosenkasse informieren, wenn Sie krank sind (spätestens innerhalb 7 Kalendertage)
+
+[.chapter]
+[###Ferien]
+
+[.article:bitmark--&image]
+Sie haben auch Anspruch auf Ferien. In der RAV-Sprache heisst dies "==kontrollfreie Bezugstage==(:http://www.rechteundpflichten.rav-zg.ch/#glossary/2)==".
+
+Immer nach 60 Tagen kontrollierter Arbeitslosigkeit (d.h. nach 60 Arbeitstagen, also ca. 3 Monaten) haben Sie Anspruch auf 1 Woche bezahlte Ferien (kontrollfreie Bezugstage). Diese können nur wochenweise bezogen werden.
+
+**Wichtig:** Kontrollfreie Tage müssen zwingend spätestens 14 Tage vorher dem RAV gemeldet werden.
+
+
+[.chapter]
+[###Mutterschaft]
+
+[.article:bitmark--&image]
+Frauen, die während des Bezugs von Arbeitslosengeld ein Kind zur Welt bringen, haben während 14 Wochen nach der Geburt Anspruch auf bezahlten Mutterschaftsurlaub.
+
+Ab Niederkunft werden Sie von der Arbeitslosenversicherung abgemeldet. Sie können sich nach dem Mutterschaftsurlaub wieder beim RAV Zug anmelden.
+
+[.chapter]
+[##Ein Zwischenverdienst lohnt sich!]
+
+[.article:bitmark++]
+|image:
+ 
+|image:
+
+|note:Vorteile eines Zwischenverdienstes
+Ein Zwischenverdiesnst bietet Ihnen folgende Vorteile:
+• führt zu einem höheren Einkommen
+• Ihre berufliche Fähigkeiten bleiben erhalten
+• Sie können sich neue Kentnisse erwerben
+• Sie können Ihr persöndliches Netzwerk erwitern
+• Sie erhalten aktuelle Arbeitszeugnisse und Referenzen
+• Während Sie arbeiten und Lohn bekommen, brauchen Sie Ihre Taggelder weniger schnell auf. Ausserdem gilt diese Zeit als Beitragszeit.
+• Sie lernen etwas und vielleicht ergibt sich daraus eine feste Anstellung.
+
+Formular "==Bescheinigung über Zwischenverdienst==(:http://www.rechteundpflichten.rav-zg.ch/content/standard/content/media/pdf/zwischenverdienst.pdf)=="
+
+
+[.chapter]
+[##Unterstützung bei der Stellensuche]
+
+[.article:bitmark++]
+|image: 
+
+
+Wer beim RAV angemeldet ist, kann unter Umständen auch von gewissen Kursen und Programmen zur vorübergehenden Beschäftigung (Arbeitsmarktliche Massnahmen) profitieren. Sie dienen dazu, Ihre Chancen im Arbeitsmarkt zu erhöhen.
+
+Die Beratungsperson wird mit Ihnen mögliche und sinnvolle Massnahmen besprechen. Das Angebot ist sehr breit und geht von Tageskursen über Praktika bis zu Einsätzen in Beschäftigungsprogrammen.
+|image: 
+
+
+
+[.multiple-choice-1:bitmark++]
+[!Welche der folgenden Aussagen ist richtig? Klicken SIe darauf.]
+[-Ich kann selber über einen Kursbesuch entscheiden.]
+[-Es ist wichtig, möglichst viele Kurse zu besuchen.]
+[+Die Teilnahme an Kursen und Programmen sind mit der Beratungsperson zu besprechen.]
+
+|note:Arbeitsmarktliches Angebot
+Oder Arbeitsmarktlichen Massnahmen helfen Ihnen bei der raschen Wiedereingliederung in den Erwerbsprozess. Mit diesen Massnahmen können Sie Ihre Kenntnisse verbessern, neue Kompetenzen erwerben, und Ihr Netzwerk erweitern.
+
+
+[.chapter]
+[#Pflichten]
+
+[.chapter]
+[##Auskunft, Information, Mitwirkung]
+Sie müssen alles Zumutbare unternehmen, um die Arbeitslosigkeit zu vermeiden, zu verkürzen oder zu beenden.
+
+Sobald Sie angemeldet sind, haben Sie auch Pflichten zu erfüllen. Diese sind gesetzlich geregelt und wenn Sie gegen Regeln verstossen, müssen Sie mit Konsequenzen rechnen (z.B. Kürzung der Arbeitslosenentschädigung).
+
+[.chapter]
+[###Erreichbarkeit]
+
+[.article:bitmark++]
+|image:
+
+Wenn Sie beim RAV angemeldet sind, müssen Sie telefonisch oder per Post innert 24 Stunden erreichbar sein.
+|image:
+
+OK. Ich muss also täglich meine Post und andere Kommunikationsmittel prüfen und schauen, ob ich vom RAV oder der Arbeitslosenkasse Nachrichten erhalten habe.
+
+
+[.chapter]
+[###
+
+[.article:bitmark++]
+|image:
+
+Alles, was Sie auch Ihrem Arbeitgeber melden würden, müssen Sie der Beratungsperson mitteilen.
+|image:
+
+OK. Muss ich ihr zum Beispiel sagen, wenn ich krank bin oder wenn ich eine temporäre Stelle gefunden habe?
+
+Ja, das ist richtig.
+|note:Was man melden muss
+• Arbeitsunfähigkeit wegen Krankheit oder Unfall (innert 1 Woche)
+• Stellenantritt
+• Beginn und Ende eines Zwischenverdiensts
+• Probeeinsatz (Eignungsabklärung)
+• Änderung von Adresse oder Telefonnummer
+• Ferien oder andere Abwesenheiten (14 Tage vor Bezug)
+• Militär, Zivildienst
+• IV-Antrag oder IV-Rente
+• Planung, Aufnahme oder Ausübung einer selbständigen Erwerbstätigkeit
+
+
+
+[.chapter]
+[###Informationspflicht]
+
+[.article:bitmark++]
+|image:
+
+Was ist mit Informationspflicht gemeint?
+|image:
+
+Sie haben die Pflicht, sich zu informieren. Das heisst, Sie müssen die erhaltenen Informationen sorgfältig durchlesen.
+
+Und wenn ich etwas nicht verstehe?
+
+Bei Fragen, wenden Sie sich an Ihre Beratungsperson.
+
+
+[.chapter]
+[###Mitwirkungspflicht]
+
+[.article:bitmark++]
+Aufträge und Weisungen Ihrer Beratungsperson sind für Sie verbindlich.
+
+So sind zum Beispiel alle Beratungsgespräche obligatorisch und alle Termine sind pünktlich wahrzunehmen.
+
+Wenn Sie verhindert sind, so melden Sie dies bitte sofort Ihrer Beratungsperson, wie wenn Sie einen Termin bei Ihrem Arbeitgeber hätten.
+
+[.chapter]
+[##Arbeitsbemühungen]
+
+[.article:bitmark--&image]
+Das Wichtigste: Sofort mit der Arbeitssuche beginnen, und zwar schon während der Kündigungsfrist. Sie müssen dem RAV Ihre Stellensuche nachweisen können.
+
+Solange Sie noch kein Gespräch mit Ihrer Beratungsperson geführt haben, machen Sie in der Regel mindestens 10-12 Bewerbungen pro Monat (bzw. 2-3 pro Woche). Diese Bewerbungen müssen Sie dann beim RAV auch nachweisen können.
+
+[.true-false:bitmark--]
+[@labelTrue:Stimmt][@labelFalse:Stimmt nicht]
+[!Klicken Sie für jede Aussage in die zutreffende Spalte.]
+===
+[+Ich muss mich um eine neue Stelle bemühen, sobald mir gekündigt wurde.]
+===
+[-Während der Kündigungsfrist muss ich mich noch nicht um eine neue Stelle kümmern.]
+===
+[-Ich muss mich nur in den ersten 3 Monaten der Arbeitslosigkeit um eine neue Stelle kümmern.]
+===
+
+[.chapter]
+[##Einreichen der Formulare]
+
+[.article:bitmark++]
+Damit Sie regelmässig die Zahlungen der Arbeitslosenkasse erhalten, ist es sehr wichtig, dass Sie jeden Monat zwei Formulare einreichen. Die Formulare bekommen Sie per Post jeweils gegen Ende des Monats zugestellt. Das eine Formular ("Arbeitsbemühungen") schicken Sie dann ans RAV, das andere ("Angaben der versicherten Person") an "Ihre" Arbeitslosenkasse.
+
+Wählen Sie den Brief, um mehr über das Einreichen der Formulare zu erfahren.
+||?||
+
+Um den 20. des entsprechenden Monats erhalten Sie zwei Formulare.
+
+|note:Formular "Nachweis der persönlichen Arbeitsbemühungen": An das RAV
+
+Formular ausfüllen: Wenn Sie nichts anderes mit Ihrem/Ihrer RAV-Berater/in vereinbart haben, müssen Sie monatlich in der Regel mindestens 8 - 12 Arbeitsbemühungen, d. h. 2 - 3 pro Woche, nachweisen. Bitte bringen Sie zu den Beratungsterminen das Formular des laufenden Monats immer mit, damit wir die Bewerbungen mit Ihnen besprechen können.
+
+**Das vollständig ausgefüllte Formular "**==Nachweis der persönlichen Arbeitsbemühungen==(:http://www.rechteundpflichten.rav-zg.ch/content/standard/content/media/pdf/arbeitsbemuehung.pdf)==**" muss bis spätestens am 5. Tag des Folgemonats eingereicht werden (Abgabe im RAV oder Einsendedatum der schweizerischen Post). Nach diesem Datum eingereichte Formulare können nicht mehr berücksichtigt werden und können Sanktionen zur Folge haben.**
+
+Achtung: Das Formular für den richtigen Monat verwenden und unterschreiben.
+
+
+|note:Die "Angaben der versicherten Person": An die Arbeitslosenkasse
+
+Beantworten Sie alle Fragen, sobald Sie das ==Formular==(:http://www.rechteundpflichten.rav-zg.ch/content/standard/content/media/pdf/Muster_Angaben_der_versicherten_Person.docm)== erhalten.
+
+Schicken Sie es erst ab dem 25. jeden Monats an die **Arbeitslosenkasse**, die Sie ausgewählt haben.
+
+Achtung: Unbedingt alle Fragen beantworten und das Formular unterschreiben.
+
+Ohne korrekt und vollständig ausgefülltes Formular erhalten Sie kein Geld.
+
+
+[.chapter]
+[##Allzeit bereit für den Stellenantritt]
+
+[.article:bitmark--&image]
+Sie sind selber dafür verantwortlich, so schnell wie möglich eine Stelle zu finden. Dabei unterstützt Sie das RAV.
+
+Sie müssen jederzeit bereit und in der Lage sein, eine zumutbare Stelle anzutreten.
+
+[.chapter]
+[###Bewerbung auf zugewiesene Stellen]
+
+[.article:bitmark++]
+|image:
+
+Wenn Ihnen das RAV eine Stelle zuweist, müssen Sie sich in der gesetzten Frist bewerben. Wenn Sie sich nicht bewerben, könnte dies als Konsequenz eine Kürzung der Arbeitslosenentschädigung zur Folge haben.
+|image:
+
+Also wenn ich mich auf eine zugewiesene Stelle nicht bewerbe, dann könnte ich weniger Geld erhalten.
+
+
+[.chapter]
+[###Annahme von zumutbarer Arbeit]
+
+[.article:bitmark++]
+|image:
+
+Sie sind verpflichtet, eine **zumutbare Arbeit** anzunehmen. Zumutbare Arbeit bedeutet gemäss Gesetz:
+• Der Lohn ist orts-, berufs- und branchenüblich.
+• Die Stelle entspricht den üblichen Arbeitsbedingungen (z.B. bei Schichtarbeit).
+• Der Arbeitsweg überschreitet insgesamt nicht 4 Stunden.
+• Die Arbeit nimmt auf die Fähigkeiten und bisherigen Tätigkeiten angemessen Rücksicht.
+
+Es kann also sein, dass Sie einen weiteren Arbeitsweg oder einen tieferen Lohn in Kauf nehmen müssen.
+|image:
+
+
+[.chapter]
+[#Konsequenzen]
+
+[.article:bitmark--]
+Konsequenzen, wenn Pflichten nicht wahrgenommen werden
+Bei Pflichtverletzungen und anderem fehlbarem Verhalten müssen Sie mit Konsequenzen rechnen.
+
+
+[.chapter]
+[###Konsequenzen]
+
+[.article:bitmark--&image]
+• Einzelne Taggelder können **gestrichen** werden, d.h. Sie erhalten keine Arbeitslosenentschädigung für eine bestimmte Zeit.
+• Im Wiederholungsfall kann der Anspruch auf Arbeitslosenentschädigung ganz gestrichen werden: Es gibt also **gar kein Geld** mehr.
+
+[.chapter]
+[###Gründe]
+
+[.article:bitmark--&image]
+Insbesondere riskieren Sie eine Kürzung der Arbeitslosenentschädigung, wenn Sie:
+• sich zu wenig um Arbeit bemühen
+• einen Kurs oder ein Programm nicht antreten oder abbrechen
+• unentschuldigt dem Beratungsgespräch fern bleiben
+• zumutbare Arbeit ablehnen
+• die Meldepflicht verletzen
+
+[.chapter]
+[#Das Wichtigste in Kürze]
+
+[.article:bitmark--]
+Wenn Sie die vorhergehenden Themen aufmerksam gelesen haben, dann können Sie jetzt diese Fragen sicher alle beantworten.
+
+
+[.true-false-1]
+[@labelTrue:Stimmt][@labelFalse:Stimmt nicht]
+[%Testen Sie Ihr Wissen (1 / 8)]
+[!Klicken Sie auf die zutreffende Antwort.
+Um weiter zu blättern, bitte oben rechts auf den Vorwärts-Pfeil klicken. (Für weitere Hinweise zur Navigation klicken Sie oben auf "Hilfe".)]
+[+Wenn ich Fragen zu meiner Taggeldabrechnung habe, frage ich die von mir gewählte Arbeitslosenkasse.]
+
+[.true-false-1]
+[@labelTrue:Stimmt][@labelFalse:Stimmt nicht]
+[%Testen Sie Ihr Wissen (2 / 8)]
+[!Klicken Sie auf die zutreffende Antwort.]
+[-RAV-Beratungsgespräche sind freiwillig.]
+
+[.true-false-1]
+[@labelTrue:Stimmt][@labelFalse:Stimmt nicht]
+[%Testen Sie Ihr Wissen (3 / 8)]
+[!Klicken Sie auf die zutreffende Antwort.]
+[+Alles, was ich meinem Arbeitgeber melden würde, muss ich auch der Beratungsperson im RAV melden.]
+
+[.true-false-1]
+[@labelTrue:Stimmt][@labelFalse:Stimmt nicht]
+[%Testen Sie Ihr Wissen (4 / 8)]
+[!Klicken Sie auf die zutreffende Antwort.]
+[-Ich bin nicht verpflichtet, mir alle notwendigen Informationen zu beschaffen.]
+
+[.true-false-1]
+[@labelTrue:Stimmt][@labelFalse:Stimmt nicht]
+[%Testen Sie Ihr Wissen (5 / 8)]
+[!Klicken Sie auf die zutreffende Antwort.]
+[+Meine Beratungsperson kann mir Aufträge im Zusammenhang mit meiner Arbeitssuche erteilen.]
+
+[.true-false-1]
+[@labelTrue:Stimmt][@labelFalse:Stimmt nicht]
+[%Testen Sie Ihr Wissen (6 / 8)]
+[!Klicken Sie auf die zutreffende Antwort.]
+[+Ich muss jeden Monat das Formular "Nachweis der persönlichen Arbeitsbemühungen" beim RAV einreichen.]
+
+[.true-false-1]
+[@labelTrue:Stimmt][@labelFalse:Stimmt nicht]
+[%Testen Sie Ihr Wissen (7 / 8)]
+[!Klicken Sie auf die zutreffende Antwort.]
+[-Ich erhalte auch Arbeitslosenentschädigung, wenn ich aus irgendwelchen Gründen gar keine Stelle annehmen könnte.]
+
+[.true-false-1]
+[@labelTrue:Stimmt][@labelFalse:Stimmt nicht]
+[%Testen Sie Ihr Wissen (8 / 8)]
+[!Klicken Sie auf die zutreffende Antwort.]
+[-Wenn Sie nicht alle Informationen gelesen haben, kann man von Ihnen auch nicht verlangen, dass Sie alle Regeln einhalten.]
+
+[.chapter]
+[#Viel Erfolg!]
+
+[.article:bitmark++]
+[%Alles Gute!]
+|image:
+
+Sie haben jetzt die wichtigsten Informationen zu den Themen "Rechte und Pflichten" erhalten. Wenn Sie darüber hinaus noch Fragen haben, dann richten Sie diese bitte an Ihre Beratungsperson beim nächsten Gespräch.
+|image:
+
+Sie sollten sich aber nicht nur über die "Rechte und Pflichten" informieren, sondern auch über die "Leistungen und Fristen". Bearbeiten Sie hierzu auch das zweite Lernmodul.
+
+**Hilfe im Internet:**
+• ==www.treffpunkt-arbeit.ch==: Webseite des Staatssekretariats für Wirtschaft (SECO) (Informationen zur Stellensuche, Arbeitslos – was tun? Downloads und Formulare)
+• ==www.awa.zg.ch==: Webseite des Amtes für Wirtschaft und Arbeit, Kanton Zug
+• ==www.rav-zg.ch==: Webseite des RAVs des Kantons Zug
+
+**Herzliche Gratulation!**
+Sie haben das Modul vollständig durchgearbeitet. Sie können sich nun eine Bestätigung ausdrucken, indem Sie unten Ihren Namen eintragen und auf "Zertifikat drucken" klicken. Geben Sie die beiden Bestätigungen Ihrem RAV-Berater oder Ihrer RAV-Beraterin.
+||zertifikat drucken||
+
+
+

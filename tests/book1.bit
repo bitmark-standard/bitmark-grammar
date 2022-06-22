@@ -1,0 +1,21 @@
+[.book:book]
+[! this is my book]
+[# Erkundungen]
+[##  Deutsch als Fremdsprache]
+[@subject: Integriertes Kurs- und Arbeitsbuch Sprachniveau B2]
+[@ language:en]
+[@ copyright: © 2012 by A Publisher International Ltd., Zurich, Switzerland]
+[@ skills: reading]
+[@ ageRange: 18, 969]
+[@ complexity: intermediate]
+[@seriesTitle: German as a Foreign Language]
+[@seriesId: com.firstpub.e0111]
+[@numberInSeries: 1]
+[@format: Integrated course and work book]
+[@type: book]
+[@isLiveBook: false]
+[@isSmartBook: false]
+[@isHighQuality: true]
+
+
+

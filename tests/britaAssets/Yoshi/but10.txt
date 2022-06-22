@@ -1,0 +1,12 @@
+[.chapter]
+[##Teil A]
+
+[.chapter]
+[###Lebensläufe]
+[@leave.context:business]
+[@leave.subject:Lebensläufe]
+
+[.chapter]
+[####Sich kennenlernen]
+[@leave.context:personal]
+[@leave.subject:Sich kennenlernen]

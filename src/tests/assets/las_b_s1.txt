@@ -1,0 +1,187 @@
+PRÜFUNG INFORMATIK SEMESTER 1
+Name:			Vorname:		
+Zeit:	20 Min.	Pkt. max.:	50
+Hilfsmittel: Frei	Pkt. erreicht:		
+
+[.multiple-choice:bitmark--]
+[%Aufgabe 1]
+(1 Antwort)	2 Pkt.
+[!Ein Router wird auch bezeichnet als …]
+[-A. Multi-Layer Switch]
+[-B.	Firewall]
+[+C.	Gateway]
+[-D.	ISP]
+
+[.multiple-choice:bitmark--]
+[%Aufgabe 2]
+(1 Antwort)	2 Pkt.
+[!Die primäre Aufgabe eines Routers ist …]
+[-A.	Unterschiedliche Netzwerke mit verschiedenen Protokoll miteinander zu verbinden]
+[-B.	Sicherstellen, dass Daten nicht durch technische Vorfälle verloren gehen können]
+[+C.	Unterschiedliche Netzwerke mit gleichem Protokoll miteinander zu verbinden]
+[-D.	Zugriffe von nicht Berechtigten zu verhindern]
+
+[.multiple-choice:bitmark--]
+[%Aufgabe 3]
+(1 Antwort)	2 Pkt.
+[!Welche Schutzmassnahme in Netzwerken wird unter anderem durch den Firewall wahrgenommen?]
+[-A.	Netzwerk & Computer vor Viren, Würmern und Trojaner schützen]
+[-B.	Sicherstellen, dass Daten nicht durch Internetausfälle verloren gehen können]
+[-C.	Verhindern von Social Engineering, Spam-Mails und unerwünschter Werbemails]
+[+D.	Sicherstellen, dass nur identifizierte Personen von aussen auf das Netz zugreifen können]
+
+[.multiple-choice:bitmark--]
+[%Aufgabe 4]
+(1 Antwort)	2 Pkt.
+[!Was muss installiert sein, damit ein Computer eine physische und elektronische Verbindung zu einem Netzwerk aufnehmen kann?]
+[-A.	Ein Router]
+[-B.	Ein Switch]
+[-C.	Ein Gateway]
+[+D.	Eine Netzwerkkarte]
+
+[.multiple-choice:bitmark--]
+[%Aufgabe 5] (1 Antwort)	2 Pkt.
+[!Wie lautet die korrekte Reihenfolge, wenn Sie von einem Computer im LAN auf die Website der Bauschule zugreifen?]
+[-A.	Netzwerkkarte, Switch, Firewall, Router, Telefonleitung, Provider, Internet, Website]
+[+B.	Netzwerkkarte, Switch, Router, Firewall, Telefonleitung, Provider, Internet, Website]
+[-C.	Netzwerkkarte, Switch, Firewall, Router, Provider, Telefonleitung, Internet, Website]
+[-D.	Netzwerkkarte, Switch, Firewall, Router, Telefonleitung, Internet, Provider, Website]
+
+[.multiple-choice:bitmark--]
+[%Aufgabe 6]
+(1 Antwort)	2 Pkt.
+[!In welchem Zusammenhang steht der Begriff RAID?]
+[-A.	Datenschutz]
+[+B.	Datensicherheit]
+[-D.	Datenübermittlung]
+[-E.	Datenkomprimierung]
+
+[.multiple-choice:bitmark--]
+[%Aufgabe 7]
+(1 Antwort)	2 Pkt.
+[!Zu welcher Geräteart gehören die Abkürzungen DC, Proxy?]
+[-A.	Client]
+[-B.	Router]
+[+C.	Server]
+[-D.	Host]
+
+[.multiple-choice:bitmark--]
+[%Aufgabe 8]
+(1 Antwort)	2 Pkt.
+[!Wie viele Standardgateway-Adressen benötigt ein Computer, um in einem LAN problemlos arbei-ten zu können und um ins Internet zu gelangen?]
+[-A.	Keine]
+[+B.	Eine]
+[-C. Zwei]
+[-D.	Drei]
+
+[.multiple-choice:bitmark--]
+[%Aufgabe 9] (1 Antwort)	2 Pkt.
+[!Netzwerke werden nach ihrem «Aufbau» unterschieden. Wie lautet der Fachbegriff dafür?]
+[-A.	Local Area Network LAN]
+[+B.	Toplogie]
+[-C.	Transmissionsaufbau]
+[-D.	Netzwerkinfrastruktur]
+
+
+[.multiple-choice:bitmark--]
+[%Aufgabe 10]
+ (1 Antwort)	2 Pkt.
+[!Welcher Dienst ermöglich die automatische Vergabe von IP-Adressen?]
+[-A.	DNS]
+[-B.	NAT]
+[-C.	RAID]
+[+D.	DHCP]
+
+[.multiple-choice:bitmark--]
+[%Aufgabe 11] (1 Antwort)	2 Pkt.
+[!Aus wie vielen Schichten besteht das OSI-Modell?]
+[-A.	5]
+[-B.	6]
+[+C.	7]
+[-D.	9]
+
+[.multiple-choice:bitmark--]
+[%Aufgabe 12]
+(1 Antwort)	2 Pkt.
+[!Wie heisst das Protokoll, das für die Übertragung von Webseiten zuständig ist?]
+[-A.	HTML]
+[+B.	HTTP]
+[-C.	WWW]
+[-D.	POP3]
+
+[.multiple-choice:bitmark--]
+[%Aufgabe 13]
+(1 Antwort)	2 Pkt.
+[!Wie lautet eine andere Bezeichnung für RAID 1?]
+[-A.	Stripset]
+[-B.	Stripset mit Parität]
+[+C.	Mirroring (Spiegelung)]
+[-D.	Festplattenkopplung]
+
+[.multiple-choice:bitmark--]
+[%Aufgabe 14]
+(1 Antwort)	2 Pkt.
+[!Welcher Teil der Adresse http://www.bauschule.ch/Dokumente wird als Top Level Domain be-zeichnet?]
+[-A.	http]
+[-B.	www]
+[-C.	bauschule]
+[+D.	ch]
+[-E.	Dokumente]
+
+[.true-false]
+[%Aufgabe 15]
+(Ja oder Nein)	4 Pkt.
+[!Sie bewegen sich im internen Netz (Domäne) und greifen auf verschiedene Ordner zu. Bei einigen Ordnern erhalten Sie Zugriff, bei anderen nicht. Welche Aussagen zu diesem Verhalten sind richtig oder falsch? (1 Punkt pro richtige Antwort).]
+[-A.	Der Zugriff auf die Ordner wird durch einen Firewall gewährleistet oder verweigert]
+[-B.	Die Zugriffe in einem Domänennetzwerk werden durch Freigabe & Passwort gere-gelt]
+[+C.	In einer Domäne wird der Zugriff via Rechte für Gruppen oder Benutzer geregelt]
+[-D.	Switch & Router regeln die Zugriffe auf Hardware und damit auch auf die Daten, die sich auf den jeweiligen Servern befinden]
+
+[.true-false]
+[%Aufgabe 16]
+(Ja oder Nein)	12 Pkt.
+[!Ein Kollege spricht über Cloud-Computing und macht einige Aussagen, die richtig sind, andere aber offensichtlich falsch. Stellen Sie die Tatsachen richtig. (1 Punkt pro richtige Antwort)]
+
+[-A.	Cloud-Computing eignet sich nicht für den geschäftlichen Einsatz (zu unsicher)]
+[+B.	Die Datensicherheit hinsichtlich Backup ist in der Cloud generell besser geregelt als bei der Mehrzahl der Bauunternehmen, die eine lokale Lösung haben.]
+[-C.	Der Begriff «On Premis» bedeutet, dass die IT in die Cloud ausgelagert ist.]
+[+D.	Der Zugriffsgeschwindigkeit auf die Daten ist massgeblich vom Datendurchsatz der Internetverbindung abhängig.]
+[+E.	Mit der Mehrzahl internettauglicher Geräte (Tablett, Notebook, Smartphones) kann von überall auf der Welt auf die Unternehmensdaten in der Cloud zugegriffen wer-den.]
+[-F.	Die Daten eines Unternehmens können auch via «Dopbox» ausgelagert werden, das ist ebenso sicher oder unsicher wie eine teure Cloud-Lösung.]
+[-G.	Dropbox ist eine «Privat-Cloud», da dieser Dienst primär privat genutzt wird.]
+[-H.	Wenn man seine Programme in der Cloud ausgelagert hat, wird das als PaaS be-zeichnet.]
+[+I.	Bei «Pay-Per-Use» wird nur das bezahlt, was man auch tatsächlich genutzt hat.]
+[+K.	Egal wo die Daten in der Cloud gelagert sind, gilt immer das schweizerische Daten-schutzrecht für die korrekte Verwendung der Daten.]
+[-L.	Egal wo die Daten in der Cloud gelagert sind, gilt für den behördlichen Zugriff auf die Daten immer die schweizerische Gesetzgebung.]
+[+M.	Korrekt verwendet eignet sich die Cloud besonders gut für rasch wachsende Unter-nehmen und für solche, die saisonal bedingte Spitzenkapazitäten in der IT haben.]
+
+[.true-false]
+[%Aufgabe 17]
+(Ja oder Nein)	6 Pkt.
+[!Nachfolgend finden Sie verschiedene Aussagen zum Thema Netzwerk. Geben Sie jeweils an, ob die Aussage richtig oder falsch ist (1 Punkt pro richtige Antwort)]
+[+A.	ISP ist ein Dienstleister, der u.a. den Zugang ins Internet zur Verfüg stellt]
+[-B.	Koaxialkabel sind die üblichen Kabel in Sternnetzen]
+[+C.	Die Stecker an einem UTP/STP Kabel werden mit RJ45 bezeichnet]
+[-D.	Ein LAN ohne Gateway funktioniert nicht.]
+[-E.	Mit HTML werden Webseiten über TCP/IP übertragen]
+[+F.	Verschlüsselte («sichere») Webseiten erkennt man u.a. daran, dass sie ein vorange-stelltes «https» in der URL haben.]
+
+
+
+[.assignment]
+Erreichte Punkte		Note	
+
+Notenraster
+Note	Punkte von-bis			
+6	    48-50		
+5.5	  43-47		
+5	    38-42		
+4.5	  33-37		
+4	    28-32
+3.5	  23-27		
+3	    18-22
+2.5	  13-17
+2	    8-12
+1.5	  3-7
+1	    0-2
+||todo: points and assignment type - what to do with those||

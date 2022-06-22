@@ -1,0 +1,25 @@
+|| ok ||
+[.chat&image]
+[%X002]
+[!test chat]
+[&image::https://www.bitbook.education/avatars/human_70x70@3.jpg][@src2x::https://www.bitbook.education/avatars/human_70x70@3.jpg][@src3x::https://www.bitbook.education/avatars/human_70x70@3.jpg]
+===
+[#Emilie]
+[&image::https://cdn.bitbook.education/avatars/cat_70x70@3.jpg][@src2x::https://cdn.bitbook.education/avatars/cat_70x70@3.jpg]
+===
+[#John Done]
+[&image::https://cdn.bitbook.education/avatars/john_done_70x70@3.jpg][@src2x::https://cdn.bitbook.education/avatars/john_done_70x70@3.jpg]
+===
+Hi John
+---
+How are you today?
+===
+I am fine, thanks. How are you, Emilie?
+---
+I just wanted to let you know ...
+===
+Thanks!
+---
+cu
+===
+

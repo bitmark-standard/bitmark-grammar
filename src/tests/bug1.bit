@@ -1,0 +1,27 @@
+[.multiple-choice&imageWithAudio]
+[%A30a]
+[!Singles in Deutschland
+
+Sie hören jetzt ein Interview über Singles in Deutschland. Welche Aussage entspricht dem Text? Kreuzen Sie die richtige Antwort an.]
+
+===
+[!Die Anzahl der Singlehaushalte in Deutschland]
+[+a) ist so hoch wie nie.][@example]
+[-b) ist stabil.]
+[-c) zeigt einen gesellschaftlichen Umbruch.]
+===
+
+[@reference: Allein zu Haus. Single als Lebensmodell? Tagesspiegel online, 11.7.2012
+(Hanna Gieffers/Matthias Schlegel). In: https://www.tagesspiegel.de/politik]
+
+[&image:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/727494_original_r_k_b_by_lupo_pixelio-heller.png][@width:256][@height:1024][@caption:fish and chips][@alt:gloovy day!][@license:gnu v3][@copyright:2022 noda yoshikazu]
+
+[&audio:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/audio/03_erkundungen_b2_3a.mp3][@width:256][@height:1024][@caption:fish and chips][@alt:gloovy day!][@license:gnu v3][@copyright:2022 noda yoshikazu]
+
+[&video:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/audio/03_erkundungen_b2_3a.mp3][@width:128][@height:102][@caption:gozzillla II][@alt:oh my goodness!][@license:gnu v3][@copyright:2024 noda yoshikazu]
+
+[@example:]
+[@botAnnouceAt: Allein zu Haus]
+[@botSaveAt:Tagesspiegel]
+[@botSendAt:Tagesspiegel]
+[@botRemindAt: Welche Aussage entspricht]

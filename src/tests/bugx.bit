@@ -1,0 +1,14 @@
+[.article:bitmark++]
+Digital is not just digital. **The decisive factor is structuring:** In order for a digital textbook to be optimally machine-processed and displayed on all conceivable devices and screen sizes, its various structural elements and contents must be technically (i.e. invisible to users) ==tagged==(:https://en.wikipedia.org/wiki/Tag_(metadata))== appropriately.
+
+**Example:**
+::image::
+https://docs.bitmark.cloud/bit-books/gmb/bitmark_artikel/web-resources/images/example.png
+::
+__The left column includes the learning content with appropriate tags.__
+• [.cloze] = __This is an exercise of the type “cloze” (gap text)__
+• [!] = __The section “Solve this simple quiz” is an instruction__
+• [_first] = __Instead of the word “first”, a gap should be represented + the word “first” is the solution to the gap__
+
+__The right column shows the output after machine processing.__
+
