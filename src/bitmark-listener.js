@@ -31,8 +31,9 @@ let BitmarkListener = function(error_listener, source, parser) {
   this.reslist = ['&image', '&audio', '&video',
 		  '&document', '&app', '&website', '&stillImageFilm'];
   this.atdef_str = ['date', 'location', 'book', 'duration', 'action', 'deepLink',
-		    'botAnnounceAt', 'botSaveAt', 'botSendAt', 'botRemindAt',   // added Apr.19,2022
-		    'externalLink', 'videoCallLink', 'externalLinkText', 'textReference'
+		    'botAnnounceAt', 'botSaveAt', 'botSendAt', 'botRemindAt',
+		    'externalLink', 'videoCallLink', 'externalLinkText', 'textReference',
+		    'quotedPerson',
 		   ];
   this.body_key = 'body';
   this.num_angleref = 0;
