@@ -20,9 +20,12 @@ Sie hören jetzt ein Interview über Singles in Deutschland. Welche Aussage ents
 
 [&video:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/audio/03_erkundungen_b2_3a.mp3][@width:128][@height:102][@caption:gozzillla II][@alt:oh my goodness!][@license:gnu v3][@copyright:2024 noda yoshikazu]
 
+
 [@example:]
 [@botAnnouceAt: Allein zu Haus]
 [@botSaveAt:Tagesspiegel]
 [@botSendAt:Tagesspiegel]
 [@botRemindAt: Welche Aussage entspricht]
 [@quotedPerson:Yoshikazu Noda]
+[@theme:darksky]
+[@subType:collection]

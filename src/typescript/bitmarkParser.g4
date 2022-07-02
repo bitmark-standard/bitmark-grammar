@@ -62,7 +62,7 @@ bit:
 ;
 //
 book:
-    BitBook ( ColonCollection | ColonBook | format )? CL ( NL* bitElem )+
+    BitBook (format)? CL ( NL* bitElem )+
 ;
 chapter:
     BitChapter format? CL NL* ( anchor NL )?

@@ -29,11 +29,12 @@ let BitmarkListener = function(error_listener, source, parser) {
   this.format = "";  // &image, &audio, &video etc
   this.resformat = "";
   this.reslist = ['&image', '&audio', '&video',
-		  '&document', '&app', '&website', '&stillImageFilm'];
+		  '&document', '&app', '&website', '&stillImageFilm',
+		  'collection', 'book', 'pdf'];
   this.atdef_str = ['date', 'location', 'book', 'duration', 'action', 'deepLink',
 		    'botAnnounceAt', 'botSaveAt', 'botSendAt', 'botRemindAt',
 		    'externalLink', 'videoCallLink', 'externalLinkText', 'textReference',
-		    'quotedPerson',
+		    'quotedPerson', 'kind',  
 		   ];
   this.body_key = 'body';
   this.num_angleref = 0;
@@ -176,7 +177,7 @@ BitmarkListener.prototype.enterBit = function(ctx) {
 // Exit a parse tree produced by bitmarkParser#bit.
 BitmarkListener.prototype.exitBit = function(ctx) {
   // Add an empty resource data if format is defined.
-  if (this.resformat != '' && this.stk.top().bit.resource==undefined
+  if (this.resformat != '' && this.stk.top().bit.resource===undefined
       && 0 <= this.reslist.indexOf(this.resformat)) {
     let res = this.resformat;
     if (this.resformat.startsWith('&'))
@@ -1606,7 +1607,7 @@ BitmarkListener.prototype.exitAtdef_ = function(ctx) {
   let re = /\[@([^:]*)\s*:\s*([^\]]*)\s*\]/g;
   let vals = this.but.get_bit_value_colonsep(re, code);
   let what = this.curr_bit_stk.top();
-  
+
   if (what=='footer')
     return;
   if (0 < vals.length) {

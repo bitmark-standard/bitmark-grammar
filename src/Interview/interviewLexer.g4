@@ -137,8 +137,6 @@ AtDate:		 OPAT S* 'date:' ;
 
 Http:	  	 'http://'  ;
 Https:   	 'https://'  ;
-ColonCollection: ':collection'  ;
-ColonBook:       ':book' ;
 AmpAudio:	 '&audio' ;
 AmpImage:	 '&image' ;
 AmpImageZoom:    '&image-zoom' ;

@@ -27,11 +27,12 @@ let BitmarkListener = function(error_listener, source, parser) {
   this.format = "";  // &image, &audio, &video etc
   this.resformat = "";
   this.reslist = ['&image', '&audio', '&video',
-		  '&document', '&app', '&website', '&stillImageFilm'];
+		  '&document', '&app', '&website', '&stillImageFilm',
+		  'collection', 'book', 'pdf'];
   this.atdef_str = ['date', 'location', 'book', 'duration', 'action', 'deepLink',
 		    'botAnnounceAt', 'botSaveAt', 'botSendAt', 'botRemindAt',
 		    'externalLink', 'videoCallLink', 'externalLinkText', 'textReference',
-		    'quotedPerson',
+		    'quotedPerson', 'kind', 
 		   ];
   this.body_key = 'body';
   this.num_angleref = 0;

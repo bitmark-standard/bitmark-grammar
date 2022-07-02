@@ -1,4 +1,4 @@
-<<<<../tests/learning-path1.bit
+<<<<./tests/learning-path1.bit
 [
     {
         "bitmark": "[.learning-path-lti&image]\n[&image:https://our.s3/book_cover.jpg]\n[!Nullserie]\n[@action:Übungsprüfung]\n[@deeplink:https://other.platform/path/to/quiz]\n[@duration:3600s]\nOf course, it exists without the image resource like any other bit.\nIt works like a .article (instruction, body, resources, …)\nIt just adds action, duration and deepLink\nThree strings",
@@ -152,7 +152,7 @@
         }
     }
 ]
-<<<<../tests/learning-path3.bit
+<<<<./tests/learning-path3.bit
 [
     {
         "bitmark": "[.learning-path-book&websiteLink]\n[!Skript «Grundausbildung Altersvorsorge»]\n[@action:Selbststudium]\n[@duration:3600s]\n[@book:e-876z78z87og87g8zg][►Ref4.2.34][►Ref4.3.1]\n\nFirst one is the normal reference.\nSecond is the optional property called “referenceEnd”\nAll these bits support all resources (like &websiteLink, …\nAll of these bits (starting with .learning-path support the following optional properties:\n[@date:2015-03-25T12:00:00Z]\n[@location:Zug]",
@@ -178,7 +178,7 @@
     }
 ]
 
-<<<<../tests/resource-all.bit
+<<<<./tests/resource-all.bit
 [
     {
         "bitmark": "[.article:bitmark--&imageLink]\n[@id:119760]\n[&imageLink:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4][@src2x:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/poster.png]",
@@ -457,7 +457,7 @@
     }
 ]
 
-<<<<../tests/learning-path4.bit
+<<<<./tests/learning-path4.bit
 [
     {
         "bitmark": "[.learning-path-book&websiteLink]\n[!Skript «Grundausbildung Altersvorsorge»]\n[@action:Selbststudium]\n[@duration:3600s]\n[@book:e-876z78z87og87g8zg][►Ref4.2.34][►Ref4.3.1]\n\nFirst one is the normal reference.\nSecond is the optional property called “referenceEnd”\nAll these bits support all resources (like &websiteLink, …\nAll of these bits (starting with .learning-path support the following optional properties:\n[@date:2015-03-25T12:00:00Z]\n[@location:Zug]\n[@list:One]\n[@list:Two]\n[@list:Three]\n[@list:Four]\n[@id:119760]\n||[&websiteLink:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4]||",
@@ -491,7 +491,7 @@
         }
     }
 ]
-<<<<../tests/learning-path5.bit
+<<<<./tests/learning-path5.bit
 [
     {
         "bitmark": "[.learning-path-external-link]\n[!Skript «Grundausbildung Altersvorsorge»]\n[@action:Selbststudium]\n[@duration:3600s]\n[@book:e-876z78z87og87g8zg][►Ref4.2.34][►Ref4.3.1]\n\nFirst one is the normal reference.\nSecond is the optional property called “referenceEnd”\nAll these bits support all resources (like &websiteLink, …\nAll of these bits (starting with .learning-path support the following optional properties:\n[@date:2015-03-25T12:00:00Z][@date:2022-04-19T00:00:00]\n[@location:Zug]\n[@list:One]\n[@list:Two]\n[@list:Three]\n[@list:Four]\n[@id:119760]\n[@botAnnounceAt: Allein zu Haus]\n[@botSaveAt:Tagesspiegel]\n[@botSendAt:Tagesspiegel]\n[@botRemindAt: Welche Aussage entspricht]\n[@externalLink: optional property ]\n[@videoCallLink:https://zoom.us/j/96545131108?pwd=RXdvTTVhW1aG1GcWFJeEEvQT09]",
@@ -532,7 +532,7 @@
         }
     }
 ]
-<<<<../tests/learning-path6.bit
+<<<<./tests/learning-path6.bit
 [
     {
         "bitmark": "[.learning-path-classroom-training]\n[!Skript «Grundausbildung Altersvorsorge»]\n[@action:Selbststudium]\n[@duration:3600s]\n[@book:e-876z78z87og87g8zg][►Ref4.2.34][►Ref4.3.1]\n\nFirst one is the normal reference.\nSecond is the optional property called “referenceEnd”\nAll these bits support all resources (like &websiteLink, …\nAll of these bits (starting with .learning-path support the following optional properties:\n[@date:2015-03-25T12:00:00Z]\n[@location:Zug]\n[@list:One]\n[@list:Two]\n[@list:Three]\n[@list:Four]\n[@id:119760]\n||[&websiteLink:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4]||",
@@ -607,7 +607,7 @@
         }
     }
 ]
-<<<<../tests/learning-path7.bit
+<<<<./tests/learning-path7.bit
 [
     {
         "bitmark": "[.learning-path-external-link]\n[!Grundlagen 1 – Externe Konserve]\n[@action:Selbststudium]\n[@duration: 3600s]\n[@externalLinkText:www.apple.com]\n[@externalLink:https://www.apple.com]\n[@progressPoints:not12345]",
@@ -670,10 +670,10 @@
         ]
     }
 ]
-<<<<../tests/book1.bit
+<<<<./tests/book1.bit
 [
     {
-        "bitmark": "[.book:book]\n[! this is my book]\n[# Erkundungen]\n[##  Deutsch als Fremdsprache]\n[@subject: Integriertes Kurs- und Arbeitsbuch Sprachniveau B2]\n[@ language:en]\n[@ copyright: © 2012 by A Publisher International Ltd., Zurich, Switzerland]\n[@ skills: reading]\n[@ ageRange: 18, 969]\n[@ complexity: intermediate]\n[@seriesTitle: German as a Foreign Language]\n[@seriesId: com.firstpub.e0111]\n[@numberInSeries: 1]\n[@format: Integrated course and work book]\n[@type: book]\n[@isLiveBook: false]\n[@isSmartBook: false]\n[@isHighQuality: true]",
+        "bitmark": "[.book:text]\n[! this is my book]\n[# Erkundungen]\n[##  Deutsch als Fremdsprache]\n[@subject: Integriertes Kurs- und Arbeitsbuch Sprachniveau B2]\n[@ language:en]\n[@ copyright: © 2012 by A Publisher International Ltd., Zurich, Switzerland]\n[@ skills: reading]\n[@ ageRange: 18, 969]\n[@ complexity: intermediate]\n[@seriesTitle: German as a Foreign Language]\n[@seriesId: com.firstpub.e0111]\n[@numberInSeries: 1]\n[@format: Integrated course and work book]\n[@type: book]\n[@isLiveBook: false]\n[@isSmartBook: false]\n[@isHighQuality: true]",
         "bit": {
             "type": "book",
             "format": "bitmark--",
@@ -730,7 +730,7 @@
         }
     }
 ]
-<<<<../tests/book2.bit
+<<<<./tests/book2.bit
 [
     {
         "bitmark": "[.   book   \t]\n[%bk2]\n[@authors.name:Anne Buschas]\n[@authors.name:Susanne Raven]\n[@authors.name:Szilvia Szita]\n\n[#Erkundungen B2]\n[##Deutsch als Fremdsprache]\n[@subject: Integriertes Kurs- und Arbeitsbuch]\n\n[@  leave.levelCEFR:B2]\n\n[@     publications:3., veränderte Auflage]\n\n[@      publisher.name:SCHUBERT-Verlag, Leipzig]\n\n[@ISBN:978-3-941323-43-8]",
@@ -768,7 +768,7 @@
     }
 ]
 
-<<<<../tests/page1.bit 
+<<<<./tests/page1.bit 
 [
     {
         "bitmark": "[.page:bitmark++]\n[@ageRange:18][@ageRange:120]\n[@language:en]\n[@language:jp]\n[@language:cn]\n\n**Some bold text,**\nfollowed by some plain text. cloze open close cloze1 book.\n[&image:https://cdn.bitbook.education/cat.jpg]\n\nSome more text.\n::remark::\n::",
@@ -800,7 +800,7 @@
         }
     }
 ]
-<<<<../tests/page2.bit 
+<<<<./tests/page2.bit 
 [
     {
         "bitmark": "[.page:bitmark++]\n**Erfolg um jeden Preis**\n\nImmer, wenn ein Dopingfall durch die Medien geht, melden sich auch die Moralisten zu Wort.\n\n[&image:http://cdn.bitbook.education/publishers/3/books/26363/erfolg.jpg]\n\nWas sind dagegen ein paar anabole Steroide ==anabole Steroide==(*synthetisch hergestellte Mittel zur Leistungssteigerung)==",
@@ -823,7 +823,7 @@
         }
     }
 ]
-<<<<../tests/article1.bit
+<<<<./tests/article1.bit
 [
     {
         "bitmark": "[.article:bitmark++]\n[@ageRange:18][@ageRange:120]\n[@language:en]\n[@language:jp]\n[@language:cn]\n\n**Some bold text,**\nfollowed by some plain text. cloze open close cloze1 book.\n[&image:https://cdn.bitbook.education/cat.jpg]\n\nSome more text.\n::remark::\n::",
@@ -852,7 +852,7 @@
         }
     }
 ]
-<<<<../tests/article2.bit
+<<<<./tests/article2.bit
 [
     {
         "bitmark": "[.essay&article]\n[!Fassen Sie den Text kurz mit eigenen Worten zusammen.]",
@@ -886,7 +886,7 @@
         }
     }
 ]
-<<<<../tests/assign1.bit
+<<<<./tests/assign1.bit
 [
     {
         "bitmark": "[.assignment]\n[!Read the following text.]\nOnce upon a time...",
@@ -902,7 +902,7 @@
         }
     }
 ]
-<<<<../tests/botinterview1.bit
+<<<<./tests/botinterview1.bit
 [
     {
         "bitmark": "[.bot-interview&audio]\n===\nSie hören jetzt einen Text zum Thema __Einkommen von Spitzensportlern.__\n---\n[&audio:http://cdn.bitbook.education/publishers/3/books/26363/einkommen_spitzensportler.mp3]\n---\nHören Sie den Text zweimal.\n---\nWie hoch ist ein durchschnittliches monatliches Bruttoeinkommen von Spitzensportlern?\n===\n[_20000 ][!Euro ]\n===\nWieviel Zeit bleibt für die Berufstätigkeit?\n===\n[-10h][+20h][-30h][-42h]\n===\nWürde es Sie reizen, als Spitzsportler zu arbeiten?\n===\n[_]\n===",
@@ -948,7 +948,7 @@
         }
     }
 ]
-<<<<../tests/botinterview2.bit
+<<<<./tests/botinterview2.bit
 [
     {
         "bitmark": "[.bot-interview&audio]\n===\n[_oooo]\n===",
@@ -977,7 +977,7 @@
         }
     }
 ]
-<<<<../tests/chat1.bit
+<<<<./tests/chat1.bit
 [
     {
         "bitmark": "[.chat]\n===\n[#Emilie]\n[&image:https://cdn.bitbook.education/avatars/cat_70x70@3.jpg]\n===\n[#John Done]\n===\nHi John\n---\nHow are you today?\n===\nI am fine, thanks. How are you, Emilie?\n---\nI just wanted to let you know ...\n===\nThanks!\n---\ncu\n===",
@@ -1052,7 +1052,7 @@
         }
     }
 ]
-<<<<../tests/chat2.bit
+<<<<./tests/chat2.bit
 [
     {
         "bitmark": "[.chat&image]\n[%X002]\n[!test chat]\n[&image:https://www.bitbook.education/avatars/human_70x70@1.jpg]\n===\n[#Emilie]\n[&image:https://cdn.bitbook.education/avatars/cat_70x70@2.jpg]\n===\n[#John Done]\n[&image:https://cdn.bitbook.education/avatars/john_done_70x70@3.jpg]\n===\nHi John\n---\nHow are you today?\n===\nI am fine, thanks. How are you, Emilie?\n---\nI just wanted to let you know ...\n===\nThanks!\n---\ncu\n===\n\n[&article:\n\nViel wichtiger als die virtuelle Welt ist für die Partnersuche das Arbeitsleben geworden. Frauen sind heute berufstätig, Kollegen kommen sich durch flachere Hierarchien und verschwindende Grenzen zwischen Job und Privatleben schneller näher. Neben der räumlichen Nähe bietet das Arbeitsumfeld einen weiteren Indikator für eine erfolgreiche Partnersuche: Gemeinsamkeiten. Insbesondere für langfristige Beziehungen wählen die meisten Menschen jemanden, mit dem sie Interessen teilen können und dessen sozialer Hintergrund sich vom eigenen kaum unterscheidet. Das gilt heute mehr als früher. Während vor drei Jahrzehnten 70 Prozent der Ehen in Deutschland zwischen zwei Menschen aus der gleichen sozialen Schicht geschlossen wurden, sind es heute 90 Prozent. Auch das Internet scheint daran wenig zu ändern. Die Onlineportale suchen in ihren Datenbanken vor allem nach Gemeinsamkeiten.]",
@@ -1140,7 +1140,7 @@
         }
     }
 ]
-<<<<../tests/conversation1.bit
+<<<<./tests/conversation1.bit
 [
     {
         "bitmark": "[.conversation]\n===\n[#Emilie]\n[&image:https://cdn.bitbook.education/avatars/cat_70x70@3.jpg]\n===\n[#John Done]\n===\nHi John\n---\nHow are you today?\n===\nI am fine, thanks. How are you, Emilie?\n---\nI just wanted to let you know ...\n===\nThanks!\n---\ncu\n===",
@@ -1215,7 +1215,7 @@
         }
     }
 ]
-<<<<../tests/cloze.bit
+<<<<./tests/cloze.bit
 [
     {
         "bitmark": "[.cloze][%cl1]I am coffee toast[_cloze][!noun ain hint for the second gap][?1 or 2][_gap text][!verb]",
@@ -1245,7 +1245,7 @@
         }
     }
 ]
-<<<<../tests/cloze2.bit
+<<<<./tests/cloze2.bit
 [
     {
         "bitmark": "[.cloze][%cl2]     This sentence is a[_Onsen][_gap text][!test1 test2 test3]",
@@ -1275,7 +1275,7 @@
         }
     }
 ]
-<<<<../tests/cloze3.bit
+<<<<./tests/cloze3.bit
 [
     {
         "bitmark": "[.cloze][%cl3] This sentence is a [_cloze][_gap text][!noun] with [_4][?1 or 2] gaps including an instruction for the first and a hint for the second gap",
@@ -1317,7 +1317,7 @@
         }
     }
 ]
-<<<<../tests/cloze4.bit
+<<<<./tests/cloze4.bit
 [
     {
         "bitmark": "[.cloze][%cl4] This sentence is a [_cloze][_gap text][!noun] with [_2][?1 or 2] gaps including an instruction for the first and a hint for the second gap.",
@@ -1359,7 +1359,7 @@
         }
     }
 ]
-<<<<../tests/cloze5.bit
+<<<<./tests/cloze5.bit
 [
     {
         "bitmark": "[.cloze][%cl5] This sentence is a [_cloze][_gap][?This is a hint to solve this gap and not a hint for the whole quiz][@example]",
@@ -1427,7 +1427,7 @@
         }
     }
 ]
-<<<<../tests/cloze10.bit
+<<<<./tests/cloze10.bit
 [
     {
         "bitmark": "[.cloze&image][%cl10] This sentence is a [_cloze][_gap text][!noun] with [_4][?1 or 2] gaps including an instruction for the first and a hint for the second ] gap means the start of bit[.match][@example]\n::remark:: what te\n[&image:https://cdn.bitbook.education/cat.jpg]\nEND\n::",
@@ -1470,7 +1470,7 @@
         "example": ""
     }
 ]
-<<<<../tests/cloze11.bit
+<<<<./tests/cloze11.bit
 [
     {
         "bitmark": "[.cloze&image][%cl11] This sentence is a [_cloze][_gap text][!noun] with [_4][?1 or 2] gaps including an instruction for the first and a hint for the second ] gap  means the start of bit\n::remark::\n[&image:https://cdn.bitbook.education/cat.jpg][@src2x:https://cdn.bitbook.education/cat2.jpg][@src3x:https://cdn.bitbook.education/cat3.jpg][@src4x:https://cdn.bitbook.education/cat4.jpg]\nEND\n::",
@@ -1512,7 +1512,7 @@
         }
     }
 ]
-<<<<../tests/cloze12.bit
+<<<<./tests/cloze12.bit
 [
     {
         "bitmark": "[.cloze] This sentence is a [_cloze][_gap text][!noun] with [_4][?1 or 2] gaps including an instruction for the first and a hint for the second ] gap [. [& means the start of bit [.match][@example]::remark::  <<kool<<\n[&audio:https://cdn.bitbook.education/cat.wmv]\nEND",
@@ -1564,7 +1564,7 @@
         }
     }
 ]
-<<<<../tests/cloze13.bit
+<<<<./tests/cloze13.bit
 [
     {
         "bitmark": "[.cloze][%cl13] This sentence is a [_cloze][_gap text][!noun] with [_4][?1 or 2] gaps including an instruction for the first and a hint for the second ] gap means the start of bit [.match][@example]\n::remark::\n[&audio:https://cdn.bitbook.education/cat.wmv]\nEND\n::",
@@ -1607,7 +1607,7 @@
         "example": ""
     }
 ]
-<<<<../tests/cloze-emoji.bit
+<<<<./tests/cloze-emoji.bit
 [
     {
         "bitmark": "[.cloze][%clm]I am coffee toast[_cloze][!😄😄✊✊✋noun ain hint for the second gap][?1 or 2]  [_gap text][!verb]",
@@ -1648,7 +1648,7 @@
         }
     }
 ]
-<<<<../tests/cloze-emoji2.bit
+<<<<./tests/cloze-emoji2.bit
 [
     {
         "bitmark": "[.cloze][%clm2] This sentence is a [_cloze][_gap text][!😄😅✊✊✋foobar baz] with [_✊✊]",
@@ -1690,7 +1690,7 @@
         }
     }
 ]
-<<<<../tests/clozeig.bit
+<<<<./tests/clozeig.bit
 [
     {
         "bitmark": "[.cloze-instruction-grouped]\n[%clig1]\nDer Fußball [_erfreut][!_erfreuen][@example] sich nicht nur in Deutschland besonderer Beliebtheit, er [_steht][!stehen] auch in vielen anderen, Ländern in der Rangliste der beliebtesten Sportarten ganz oben.",
@@ -1731,7 +1731,7 @@
         }
     }
 ]
-<<<<../tests/clozenmultx.bit
+<<<<./tests/clozenmultx.bit
 [
     {
         "bitmark": "[.cloze-and-multiple-choice-text]\nThe students completed the [_cloze] with the correct verb [+forms][-formats].",
@@ -1778,7 +1778,7 @@
         }
     }
 ]
-<<<<../tests/clozesg1.bit
+<<<<./tests/clozesg1.bit
 [
     {
         "bitmark": "[.cloze-solution-grouped] Der Fußball [_erfreut] sich nicht nur in Deutschland besonderer Beliebtheit, er [_steht] auch in vielen anderen Ländern in der Rangliste der beliebtesten Sportarten ganz oben.",
@@ -1819,7 +1819,7 @@
         }
     }
 ]
-<<<<../tests/corr1.bit
+<<<<./tests/corr1.bit
 [
     {
         "bitmark": "[.correction]\n[!Please correct the following text.]\n\n[-This Text meight has some speling and grammar mistakes.]\n[+This Text meight has some speling and grammar mistakes.]",
@@ -1835,7 +1835,7 @@
         }
     }
 ]
-<<<<../tests/corr2.bit
+<<<<./tests/corr2.bit
 [
     {
         "bitmark": "[.correction]\n[!Please correct the following text.]\n\n[-This Text meight has some speling and grammar mistakes.]\n[+This Text might have some spelling and grammar mistakes.]",
@@ -1851,7 +1851,7 @@
         }
     }
 ]
-<<<<../tests/corr3.bit
+<<<<./tests/corr3.bit
 [
     {
         "bitmark": "[.correction]\n[!Please correct the upper and lower case..]\n\n[-in der Deutschen sprache spielt die Gross- und kleinschreibung eine Grosse Rolle.]\n[+In der deutschen Sprache spielt die Gross- und Kleinschreibung eine grosse Rolle.]",
@@ -1867,7 +1867,7 @@
         }
     }
 ]
-<<<<../tests/docup1.bit
+<<<<./tests/docup1.bit
 [
     {
         "bitmark": "[.document-upload:mp4]\n[!Please upload your favorite song (as mp3-file).]\nDo you like music?",
@@ -1883,7 +1883,7 @@
         }
     }
 ]
-<<<<../tests/essay1.bit
+<<<<./tests/essay1.bit
 [
     {
         "bitmark": "[.  essay]\n[%ess1]\n[! What is an essay?]\n\n::essay::\nYes. Choices are missing\nMany things are wrong.\nPlease be aware, that the item  is possible at different places\nOne per bit for the bit itself.\nOne per \"line\" if a quiz supports/is using \"lines\" (separated blocks by ===.\nBut item can also be chained.\nBut that's not what we want. Bit still valid.\nThis is a [_cloze][%a)] with [_two][%b)] gaps.\nIt would we \"acceptable\" to write this as This is a *a)* [_cloze] with *b)* [_two] gaps.\n::",
@@ -1900,7 +1900,7 @@
         }
     }
 ]
-<<<<../tests/essay2.bit
+<<<<./tests/essay2.bit
 [
     {
         "bitmark": "[.essay&image]\n[!Beschreiben Sie die Grafik. Was haben Sie erwartet, was hat Sie überrascht?]\n[&image:http://cdn.bitbook.education/publishers/3/books/26363/statistik.jpg][@src2x:http://cdn.bitbook.education/publishers/3/books/26363/statistik2.jpg][@src3x:http://cdn.bitbook.education/publishers/3/books/26363/statistik3.jpg]",
@@ -1933,7 +1933,7 @@
         }
     }
 ]
-<<<<../tests/essay3.bit
+<<<<./tests/essay3.bit
 [
     {
         "bitmark": "[.essay&article]\n[!Fassen Sie den Text kurz mit eigenen Worten zusammen.]",
@@ -1967,7 +1967,7 @@
         }
     }
 ]
-<<<<../tests/essay4.bit
+<<<<./tests/essay4.bit
 [
     {
         "bitmark": "[.essay:bitmark--&image]\n[!Describe the graphic. What did you expect, what surprised you?]\n[&image:http://cdn.bitbook.education/publishers/3/books/26363/statistics_en.jpg]\n[@example:\nThis is a **really** nice graphic!\nIt really surprised me, that the chosen color of the graph is blue.\n]",
@@ -1999,7 +1999,7 @@
     }
 ]
 
-<<<<../tests/essay5.bit
+<<<<./tests/essay5.bit
 [
     {
         "bitmark": "[.essay&image]\n[%05_Ablauf und Termine_022 (Freitext) ]\n[!Berechnen Sie aufgrund des & folgenden Projektablaufplans die Projektdauer in Monaten. \nHinweis: In den Spalten «Vorgänger» und «Nachfolger» ist jeweils nur eine Nummer aufgeführt.][?Korrekte Lösung \n18 Monate. (Hinweis: Für die Berechnung kann das Zeichnen eines Gantt-Diagramms hilfreich sein.)]\n[&audioLink:https://docs.bitbook.education/bit-books/compendio/schubert_erkundungen_c1/web-resources/cover/compendio_uebungen/web_resources/images/05_ablauf_und_termine_022.mp3]\n[&videoLink:https://docs.bitbook.education/bit-books/compendio/schubert_erkundungen_c1/web-resources/cover/compendio_uebungen/web_resources/images/05_ablauf_und_termine_022.wmv]",
@@ -2034,7 +2034,7 @@
         }
     }
 ]
-<<<<../tests/essay6.bit
+<<<<./tests/essay6.bit
 [
     {
         "bitmark": "[.essay&imageLink]\n[%05_Ablauf und Termine_022 (Freitext)]\n[!Berechnen Sie aufgrund des & folgenden Projektablaufplans die Projektdauer in Monaten. \nHinweis: In den Spalten «Vorgänger» und «Nachfolger» ist jeweils nur eine Nummer aufgeführt.][?Korrekte Lösung \n18 Monate. (Hinweis: Für die Berechnung kann das Zeichnen eines Gantt-Diagramms hilfreich sein.)]\n[&imageLink:https://docs.bitbook.education/bit-books/compendio/schubert_erkundungen_c1/web-resources/cover/compendio_uebungen/web_resources/images/05_ablauf_und_termine_022.png]",
@@ -2058,7 +2058,7 @@
         }
     }
 ]
-<<<<../tests/essay7.bit
+<<<<./tests/essay7.bit
 [
     {
         "bitmark": "[.essay&audio]\n[%A30b]\n[&audio:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/audio/03_erkundungen_b2_3a.mp3]\n[!Singles in Deutschland\n\nHören Sie das Interview noch einmal. Fassen Sie die wichtigsten Aussagen mündlich oder schriftlich zusammen.]\n\n[@reference: Allein zu Haus. Single als Lebensmodell? Tagesspiegel online, 11.7.2012 (Hanna Gieffers/Matthias Schlegel). In: https://www.tagesspiegel.de/politik]\n||reference not attached to a text?||",
@@ -2085,7 +2085,7 @@
         }
     }
 ]
-<<<<../tests/essay8.bit
+<<<<./tests/essay8.bit
 [
     {
         "bitmark": "[.essay&article:bitmark++]\n[%B1]\n[!Die Helden der Deutschen\n\nDie Zeitschrift DER SPIEGEL beauftragte ein demoskopisches Institut, in einer Umfrage herauszufinden, welcher Deutsche den bedeutendsten Beitrag zur Entwicklung der Menschheit geleistet hat.\nErstellen Sie zuerst selbst in Gruppen- oder Einzelarbeit eine Rangliste der BESTEN DREI und erklären Sie Ihre Wahl.\n\nHier sind die Kandidaten:]\n\n[@reference: Die Helden der Deutschen. Der SPIEGEL 52/1999.]\n\n[&article:\n**Albert Einstein**\nEinstein revolutionierte die Physik. Er entwickelte die Relativitätstheorie und die einheitliche Feldtheorie. Den Nobelpreis bekam er 1921 für seine Deutung des Fotoeffekts.\nDer Mediziner entdeckte 1882 den Erreger der Tuberkulose mit einer neuen Färbemethode unter dem Mikroskop. Der Kampf gegen die Seuche konnte beginnen. 1905 erhielt er dafür den Nobelpreis.\n\n**Max Planck**\nMax Planck leistete mit seiner Quantentheorie einen grundlegenden Beitrag zur Entwicklung der Physik. 1918 erhielt er dafür den Nobelpreis.\n\n**Wilhelm Conrad Röntgen**\nRöntgen entdeckte die X-Strahlen (die später nach ihm als Röntgenstrahlen bezeichnet wurden). 1895 wendete er sie erstmals zur Durchleuchtung der Hand seiner Frau an und setzte so mit der Röntgenfotografie einen Meilenstein in der Entwicklung der Medizin. 1901 wurde er dafür mit dem Nobelpreis ausgezeichnet.\n\n**Johannes Gutenberg**\nGutenberg erfand im Jahre 1440 den Buchdruck mit beweglichen Lettern. Bis dahin brauchte ein Mönch Jahre, um eine einzige Bibel herzustellen. Gutenberg brachte es im gleichen Zeitraum auf 80 Bibeln.\n\n**Martin Luther**\nMartin Luther übersetzte die Bibel ins Deutsche (1522 das Neue Testament, 1534 die gesamte Bibel) und schuf mit dieser Übersetzung die Grundlage des Hochdeutschen als gemeinsamer Sprache der Deutschen. Außerdem reformierte er mit seinen Reformationsschriften die Kirche.\n\n**Johann Wolfgang v. Goethe**\nGoethe gilt bis heute als das Genie der deutschen Literatur. Höhepunkt seines Schaffens ist sein 1808 veröffentlichtes Theaterstück „Faust I“.\n\n**Robert Koch**\nDer Mediziner entdeckte 1882 den Erreger der Tuberkulose mit einer neuen Färbemethode unter dem Mikroskop. Der Kampf gegen die Seuche konnte beginnen. 1905 erhielt er dafür den Nobelpreis.\n\n**Karl Marx**\nMarx schrieb mit seinem „Kapital“ die klassische Theorie des Geldes und mit dem Pamphlet „Das kommunistische Manifest“ legte er den theoretischen Grundstein für den Kommunismus.\n\n**Helmut Kohl**\nKohl wurde als Kanzler der deutschen Wiedervereinigung (1990) gefeiert. Allerdings schadeten ungeklärte Geldgeschäfte während seiner Regierungszeit seinem Ansehen.\n\n**Albert Schweitzer**\n1952 wurde der Mediziner mit dem Friedensnobelpreis für sein jahrelanges Wirken in der Urwaldkrankenstation Lambaréné geehrt.\n\n**Ludwig van Beethoven**\nDer schwerhörige Musiker komponierte zu  Beginn des 19. Jahrhunderts meisterhafte Sinfonien.\n\n**Otto von Bismarck**\nBismarck gründete 1871 das Deutsche Reich und führte eine Sozialversicherung für Arbeiter ein.\n\n**Nikolaus Kopernikus**\n1543 veröffentlichte Kopernikus seine Erkenntnis, dass nicht die Erde im Mittelpunkt der Welt steht und alles um sie kreist, sondern die Sonne. Damit wurde das geozentrische Weltbild durch das heliozentrische abgelöst.\n*An der müßigen Diskussion, ob Kopernikus\nPole oder Deutscher war, wollen wir uns nicht beteiligen.\nZu seiner Zeit existierten Nationalstaaten im heutigen Sinne noch nicht.\n]\n\n||images are separate, should be addapted /ich denke wir sollten Schubert vorschlagen, hier zu jedem Kandidaten ein Bild zu ergänzen und dafür bei B2 auf die Bilder von Gutenberg und Bismarck zu verzichten, siehe auch die Anmerkung zu B2||",
@@ -2142,7 +2142,7 @@
     }
 ]
 
-<<<<../tests/essay9.bit
+<<<<./tests/essay9.bit
 [
     {
         "bitmark": "[.essay&image]\n||ich denke wir sollten Schubert vorschlagen, hier nur das Bild “Umfrage” aufzuführen, siehe auch die Anmerkung zu B1||\n[%B2]\n[!Vergleichen Sie Ihre persönliche Reihenfolge mit der Wahl der deutschen Umfrageteilnehmer.]\n[&image:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/014-2b.jpg]\n[&image:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/otto_von_bismarck.jpg]\n||no graphic||",
@@ -2201,7 +2201,7 @@
         }
     }
 ]
-<<<<../tests/flashcard1.bit
+<<<<./tests/flashcard1.bit
 [
     {
         "bitmark": "[.flashcard-1]\nSide 1\n==\nSide 2",
@@ -2216,7 +2216,7 @@
         }
     }
 ]
-<<<<../tests/flashcard2.bit
+<<<<./tests/flashcard2.bit
 [
     {
         "bitmark": "[.flashcard-1]\nSeitenlinie\n==\nside line[!Brit. | ˈsʌɪdlʌɪn |][&audio:http://cdn.bitbook.education/publishers/3/books/26363/sideline_brit.mp3]\n--\nside line[!Amer. | ˈsaɪdlaɪn |][&audio:http://cdn.bitbook.education/publishers/3/books/26363/sideline_us.mp3]\n--\ntouch line",
@@ -2246,7 +2246,7 @@
         }
     }
 ]
-<<<<../tests/flashcard3.bit
+<<<<./tests/flashcard3.bit
 [
     {
         "bitmark": "[.flashcard-1]\n[@language:de]Seitenlinie\n==\n[@language:en]side line\n--\n[@language:en]touch line",
@@ -2266,7 +2266,7 @@
         }
     }
 ]
-<<<<../tests/flashcard4.bit
+<<<<./tests/flashcard4.bit
 [
     {
         "bitmark": "[.flashcard]\n===\nSeitenlinie[@lang:de jp][@pos:noun]\n==\nside line[@lang:en][@pos:noun]\n--\ntouch line[@lang:en][@pos:noun]\n===\nFussball[@lang:de][@pos:noun]\n==\nfootball[@lang:en][@pos:noun]\n--\nsoccer[@lang:en][@pos:noun]\n===",
@@ -2297,7 +2297,7 @@
         }
     }
 ]
-<<<<../tests/flashcard-set.bit
+<<<<./tests/flashcard-set.bit
 [
     {
         "bitmark": "[.flashcard-set&image]\n===\nracism\n==\nPrejudice, discrimination, or antagonism directed against a person or people on the basis of their membership of a particular racial or ethnic group, typically one that is a minority or marginalized.\n===\nasian [!noun]\n==\na native or inhabitant of Asia\n--\na person of Asian descent\n===\n[&image:https://docs.bitbook.education/data_model_overview/foo.png][@src2x:https://docs.bitbook.education/data_model_overview/foo2.png]\n==\na native or inhabitant of Europe\n--\na person of Asian descent\n===",
@@ -2328,7 +2328,7 @@
         }
     }
 ]
-<<<<../tests/interview1.bit
+<<<<./tests/interview1.bit
 [
     {
         "bitmark": "[.interview]\n[%X01]\n[!This is a job interview.]\n\n===\nWhat was your last job? [@example:I worked at Miller's as an internal lawyer.]\n===\nWhy did you quit your last job?[@partialAnswer: Hello Hello World]\n===\nHow much did you earn in your last job?\n===",
@@ -2379,7 +2379,7 @@
     }
 ]
 
-<<<<../tests/interview2.bit
+<<<<./tests/interview2.bit
 [
     {
         "bitmark": "[.interview&audio]\n[!Sie hören jetzt einen Text zum Thema __Einkommen von Spitzensportlern.__ Hören Sie den Text zweimal und ergänzen Sie die Informationen zu den angegebenen Punkten.]\n[&audio:http://cdn.bitbook.education/publishers/3/books/26363/einkommen_spitzensportler.mp3]\n\n===\nzwei Leben der Sportler\n===\ndurchschnittliches monatliches Bruttoeinkommen von Spitzensportlern[@shortAnswer]\n===\nZeit für Berufstätigkeit[@longAnswer]\n===",
@@ -2436,7 +2436,7 @@
         }
     }
 ]
-<<<<../tests/interview3.bit
+<<<<./tests/interview3.bit
 [
     {
         "bitmark": "[.interview-instruction-grouped]\n[!Please rewrite the following sentences by using one of the verbs above.]\n\n===\nIch habe den Mörder sofort erkannt. [!identifizieren]\n===\nDer Umsatz hat in den letzten zehn Jahren stark zugenommen. [!steigern]\n===\nGen der Umsatz hat in den letzten zehn Jahren stark zugenommen. [!steigern]\n===\nDen gen der Umsatz hat in den letzten zehn Jahren stark zugenommen. [!steigern]\n===",
@@ -2498,7 +2498,7 @@
     }
 ]
 
-<<<<../tests/interview4.bit
+<<<<./tests/interview4.bit
 [
     {
         "bitmark": "[.interview]\n[%A2]\n[!Bilden Sie Fragen zu den vorgegebenen Antworten.]\n\n===\n[%◇]Ulrike Lipka.[@shortAnswer]\n[@example:Wie heißen Sie? Wie ist Ihr Name?]\n===\n[%1]In Berlin, Ewaldstraße 15. In Hamburg.[@shortAnswer]\n[$Wo wohnen Sie?]\n===\n[%2]In Hamburg.[@shortAnswer]\n[$Wo sind Sie geboren?]\n===\n[%3]Am 23. August 1975.[@shortAnswer]\n[$Wann Sind Sie geboren?]\n===\n[%4]Ja, ich bin Deutsche.[@shortAnswer]\n[$Sind Sie Deutsche?]\n===\n[%5]Ich war auf der Grundschule und dann auf dem Gymnasium. Dort habe ich mein Abitur gemacht.[@shortAnswer]\n[$Was für eine Schulausbildung haben Sie?]\n===\n[%6]Ich habe Journalistik studiert.[@shortAnswer]\n[$Haben Sie studiert?/Was haben Sie studiert?]\n===\n[%7]Ich bin jetzt Nachrichtenredakteurin.[@shortAnswer]\n[$Als was arbeiten Sie jetzt?/Was für eine Stelle haben Sie?/Was machen Sie jetzt beruflich?]\n===\n[%8]Beim Deutschlandradio Kultur.[@shortAnswer]\n[$Wo arbeiten Sie?]\n===\n[%9]Nein, ich bin geschieden.[@shortAnswer]\n[$Sind Sie verheiratet/ledig?]\n===\n[%10]Ja, ich habe eine Tochter.[@shortAnswer]\n[$Haben Sie Kinder?]\n===\n[%11]Ich lese gern Krimis und spiele Tischtennis. Englisch, Russisch und Französisch.[@shortAnswer]\n[$Was machen Sie in Ihrer Freizeit?/Was sind Ihre Hobbys?]\n===",
@@ -2647,7 +2647,7 @@
         }
     }
 ]
-<<<<../tests/interview100.bit
+<<<<./tests/interview100.bit
 [
     {
         "bitmark": "[.interview:bitmark--]\n[%A1b]\n[!Nachrichten\n\nGlauben Sie dem Untersuchungsergebnis?\nWelche Eigenschaften sollte Ihrer Meinung nach eine Nachrichtensprecherin/ein Nachrichtensprecher besitzen?]\n\n**Wussten Sie das schon?**\nEine Untersuchung der Europäischen Gesellschaft für Psychoanalyse hat ergeben: Je hübscher die Nachrichtensprecherin, desto mehr Informationen verpassen die Männer. Bei den Attraktivsten kann es bis zu zwei Minuten dauern, bis der Mann wieder aufmerksam den Nachrichten folgt. Man kann übrigens auch davon ausgehen, dass Frauen bei Nachrichtensprechern ähnlich reagieren.\n===\n===",
@@ -2779,7 +2779,7 @@
         }
     }
 ]
-<<<<../tests/interview101.bit
+<<<<./tests/interview101.bit
 [
     {
         "bitmark": "[.interview:bitmark++&article:bitmark++]\n[%A3b]\n[!Nachrichten\nFassen Sie die Nachrichten kurz zusammen und nutzen Sie die angegebenen Redemittel.]\n[&image:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/dsc01835-sw.png]\n\n::info::Nachrichten\n◇ Das Thema der Nachricht ist ...\n◇ In der Nachricht geht es (hauptsächlich) um ... \n◇ Zusammenfassend kann man sagen ...\n◇ Kurz gesagt, ...\n◇ In den Nachrichten wurde gemeldet, dass ...\n◇ Aus der Nachricht geht hervor, dass ...\n::\n\n===\nBerlin:\n===\nLondon:\n===\nWien:\n===\nAmsterdam:\n===\n\n[&article:\n1. **Berlin: Studie zur Jugendgesundheit Immer mehr Kinder sind psychisch auffällig** \n\nIm Auftrag des Bundesbildungsministeriums untersuchte das __Robert-Koch-Institut-- den physischen und psychischen Gesundheitszustand von Kindern und Jugendlichen in Deutschland. Die Ergebnisse seien alarmierend, meinte die Ministerin, die den Bericht des Instituts gestern auf einer Pressekonferenz vorstellte. Fast jedes fünfte Kind in Deutschland habe psychische Probleme und zehn Prozent der Kinder würden unter Ängsten leiden. 15 Prozent der Kinder seien übergewichtig und 28,9 Prozent der Mädchen zwischen 11 und 17 Jahren hätten Essstörungen. Für die Studie hatten Wissenschaftler fast 18 000 Kinder und Jugendliche bis 17 Jahre untersucht.\n\n2. **London: Käse ist böse!\nWerbeverbot im britischen Kinderfernsehen**\nKäse zerstöre den Körper, mache fett, faul und krank. Außerdem sei er zu salzig für Kinder, so die Meinung der britischen Rundfunk-Aufsichtsbehörde Ofcom. Nach mehrjährigen Beratungen entschied die Behörde jetzt, Käse in die Kategorie „Junk Food“ einzuordnen. Die Konsequenz: Für das Milchprodukt darf künftig nicht mehr in Kinderprogrammen geworben werden – ein Schicksal, das der Käse übrigens mit vielen Lebensmitteln, unter anderem mit Rosinen, teilt.\n\n3. **Wien: Verbindung zwischen Budapest und Wien Kaninchen blockieren Autobahn**\nAlarm auf der wichtigsten Verkehrsverbindung zwischen Budapest und Wien: Beim Zusammenstoß von zwei Lastwagen westlich von Budapest sind etwa 5 000 Kaninchen entlaufen, als ein Lkw umstürzte und der Laderaum aufbrach. Die Polizei sperrte die Unfallstelle weiträumig ab. Menschen seien nicht zu Schaden gekommen. Polizisten, Feuerwehrleute und der Fahrer des betroffenen Lastwagens seien allerdings noch viele Stunden damit beschäftigt gewesen, die Kaninchen wieder einzufangen, sagte eine Sprecherin der Autobahnpolizei.\n \n4. **Amsterdam: Dreister Überfall am Flughafen Diamanten im Wert von 100 Millionen Dollar gestohlen**\nMehrere bewaffnete Räuber haben gestern bei einem Überfall auf dem Amsterdamer Flughafen Schiphol Edelsteine im Wert von 100 Millionen Dollar erbeutet. In einem Wagen der Fluggesellschaft KLM fuhren die Diebe vor einen KLM-Jet, der mit seiner teuren Fracht eigentlich nach Brüssel fliegen sollte. Sie bedrohten das Sicherheitspersonal und ließen innerhalb weniger Minuten die Diamanten in einem gepanzerten Fahrzeug verschwinden. Das Fahrzeug wurde später leer in der Nähe des Flughafens gefunden. Der Flughafensprecher meinte heute zu dem Vorfall, die Polizei habe noch keinen Verdächtigen, von den Tätern fehle jede Spur.]",
@@ -2857,7 +2857,7 @@
         }
     }
 ]
-<<<<../tests/interview102.bit
+<<<<./tests/interview102.bit
 [
     {
         "bitmark": "[.interview&image]\n[%A7]\n[!Berichten Sie.]\n===\n[%1] Welchen Platz nehmen Nachrichten bei den Fernsehsendern Ihres Heimatlandes ein?[@shortAnswer]\n===\n[%2] Welche Art von Nachrichtensendungen gibt es in den Fernsehprogrammen Ihres Heimatlandes?[@shortAnswer]\n===\n[%3] Wann werden die Nachrichten gesendet?[@shortAnswer]\n===\n[%4] Welche Themen werden behandelt? Welche Themen interessieren Sie, welche nicht?[@shortAnswer]\n===\n[%7] Welche dieser Nachrichtensendungen sehen Sie und warum?[@shortAnswer]\n===\n[%8] Kennen Sie Nachrichtensendungen für Kinder? Was halten Sie davon?[@shortAnswer]\n===\n[%9] Sollte man Ihrer Meinung nach Gewaltszenen in Nachrichten zeigen?[@shortAnswer]\n===\n[&image:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/zdf-logo.png]\n\n[&image:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/news_header.jpg]",
@@ -2958,7 +2958,7 @@
         ]
     }
 ]
-<<<<../tests/interview103.bit
+<<<<./tests/interview103.bit
 [
     {
         "bitmark": "[.interview]\n[%A9c]\n[!Textarbeit\n\nKomposita: Was passt zusammen?\nOrdnen Sie zu. Nennen Sie auch den Artikel.]\n\n-träger -streitigkeiten -redaktion -sendung -macher -mann -versuch -auswahl -wert -thema\n\n===\nWiedererkennungs-[@shortAnswer]\n[$der Wiedererkennungswert]\n===\nNachrichten-[@shortAnswer]\n[$die Nachrichtenredaktion, die Nachrichtensendung, die Nachrichtenmacher, die Nachrichtenauswahl]\n===\nErklärungs-[@shortAnswer]\n[$der Erklärungsversuch]\n===\nNobelpreis-[@shortAnswer]\n[$der Nobelpreisträger]\n===\nKamera-[@shortAnswer]\n[$der Kameramann]\n===\nGrenz-[@shortAnswer]\n[$die Grenzstreitigkeiten (Pl.)]\n===\nThemen-[@shortAnswer]\n[$die Themenauswahl]\n===\nGesprächs-[@shortAnswer]\n[$das Gesprächsthema]\n===",
@@ -3133,7 +3133,7 @@
     }
 ]
 
-<<<<../tests/interview104.bit
+<<<<./tests/interview104.bit
 [
     {
         "bitmark": "[.interview:bitmark--]\n[%A11b]\n[!Folgende Nachrichten kommen bei einem Fernsehsender ungeordnet in die Redaktion:\n\nFormulieren Sie als Nachrichtenschreiber aus den ausgewählten Nachrichten (maximal sechs) Meldungen.]\n||adapt instructions||\n\n**1. Verkehrsunfall auf der A 9**\nLastkraftwagenfahrer am Steuer eingeschlafen – Gegenfahrbahn – Pkw – Zusammenstoß – zwei Tote, zwei Schwerverletzte\n\n**2. Anzahl der Arbeitslosen in Deutschland sinkt**\nArbeitsminister: „Das ist das Resultat der erfolgreichen Regierungspolitik.“\nOppositionsführer: „Die Verbesserung der Lage auf dem Arbeitsmarkt hat mit der Regierungspolitik nichts zu tun.\nSie ist die Folge der wachsenden Weltwirtschaft.“\n\n**3. Auszeichnung für Schriftsteller Navid Kermani**\nÜberreichung – Friedenspreis des Deutschen Buchhandels – heute – Frankfurter Paulskirche\n\n**4. Deutsche Hilfe für Afghanistan** \nEinweihung – Botschafter – zwei Mädchenschulen\n\n**5. Promi-Hochzeit**\nSchauspielerin Eva Blond heiratet Sänger James Black.\n\n**6. Wetter**\nBayern: Sonne – Nordsee: Regen + Sturm – zehn Grad Celsius\n\n**7. Deutscher Außenminister in Moskau**\nGespräche mit russischem Amtskollegen – Verhältnis Russlands zur Europäischen Union\n\n**8. Bundesliga**\nStürmer Fritz Schnell wechselt für 25 Millionen Euro von Bayern München zu Manchester United.\n\n**9. Hochwasser in China** \nÜberschwemmungen – Dörfer und Städte zerstört – Menschen obdachlos\n\n**10. Oberbürgermeisterwahl in Wiesbaden**\nSieger: \nSven Gerich (SPD) – 50,9 % der Stimmen \nHelmut Müller (CDU) – 49,1 %\nWahlbeteiligung: 34,1 % Amtszeit: 6 Jahre\n\n===",
@@ -3150,7 +3150,7 @@
     }
 ]
 
-<<<<../tests/interview105.bit
+<<<<./tests/interview105.bit
 [
     {
         "bitmark": "[.interview]\n[%A16]\n[!Partnerarbeit: Fernsehen\n\nFragen Sie Ihre Nachbarin/Ihren Nachbarn und berichten Sie.]\n===\n[%1] Wie viele Stunden sehen Sie pro Tag fern?[@shortAnswer]\n===\n[%2] Was sind die beliebtesten Fernsehsendungen in Ihrem Heimatland?[@shortAnswer]\n===\n[%3] Was sehen Sie selbst am liebsten und warum? Was sehen Sie nie?[@shortAnswer]\n===\n[%4] Sehen oder lesen Sie gern Krimis? Warum?/Warum nicht?[@shortAnswer]\n===\n[%5] Welche Art von Krimis kann man in Ihrem Heimatland sehen? (einheimische/amerikanische/englische ... Serien/Spielfilme ...)[@shortAnswer]\n===\n[%6] Gibt es in Ihrem Heimatland einen beliebten Fernsehkommissar?[@shortAnswer]\n===\n[%7] Warum sind Ihrer Meinung nach Krimis bei vielen Zuschauern so beliebt?[@shortAnswer]\n===",
@@ -3361,7 +3361,7 @@
     }
 ]
 
-<<<<../tests/interview106.bit
+<<<<./tests/interview106.bit
 [
     {
         "bitmark": "[.interview&article:bitmark--]\n[%B2b]\n[!Textarbeit und Wortschatz\nBeantworten Sie die folgenden Fragen.]\n[@reference: Das sind die gefährlichsten Städte Deutschlands. DIE WELT online, 2.6.2014 (Manuel Bewarder/Martin Lutz)\nIn: https://www.welt.de/politik/]\n\n===\n[%1] Was hat Sie an den Ergebnissen der Kriminalstatistik überrascht? Was haben Sie erwartet?[@shortAnswer]\n===\n[%2] Welche Stadt gilt als die gefährlichste in Ihrem Heimatland? Recherchieren Sie im Internet.[@shortAnswer]\n===\n[%3] Welche Tendenzen gibt es in Ihrem Heimatland bezüglich der Delikte und Tätergruppen?[@shortAnswer]\n===\n\n[&article:\n**Die gefährlichsten Städte Deutschlands**\n\nWeltweit haben sich die Menschen in Berlin verliebt. Die Hauptstadt an der Spree gilt als cool und äußerst attraktiv – auch für Verbrecher. Der Stadtstaat Berlin führt nämlich die Kriminalitätsrangliste der Bundesländer an. Im Großstadtvergleich sind nur Frankfurt/Main und Köln unsicherer. Das geht aus der neuen Polizeilichen Kriminalstatistik\n(PKS) hervor.\n\nDie Kriminalität in Deutschland bleibt laut Statistik auf einem hohen Niveau. Vor allem Eigentumsdelikte wie Wohnungseinbrüche, Auto- und Taschendiebstähle nehmen deutlich zu.\n\nVergleicht man die Bundesländer miteinander, schneiden die Stadtstaaten wie Berlin, Hamburg und Bremen schlecht ab. Das ist kein überraschendes Ergebnis, sondern vielmehr seit Jahren bestehende Kriminalitätsverteilung. In Städten lebt es sich gefährlicher als auf dem Land. Vergleicht man die Städte mit mehr als 200 000 Einwohnern miteinander, liegt Berlin auf Platz drei der Verbrecherhochburgen. Die gefährlichste Stadt ist wie schon in den Vorjahren Frankfurt mit 16 000 Verbrechen je 100 000 Einwohner. In München wurden im vorigen Jahr nur knapp 7 400 Straftaten gezählt, das ist weniger als die Hälfte.\n\nBesonders besorgniserregend ist der bundesweite Trend zu mehr Eigentumsdelikten. Diebstähle machen inzwischen einen Anteil von 40 Prozent an den Gesamtfällen aus. Deutlich angezogen haben Taschendiebstahl und Wohnungseinbruchsdiebstahl. Alarmierend ist dabei, dass es im letzten Jahr einerseits deutlich mehr Diebstähle als in den vergangenen 15 Jahren gab und dass andererseits die Aufklärungsquote ihren schlechtesten Wert seit Mitte der 1990er-Jahre erreichte. Mehr als 80 Prozent der Diebe bleiben unerkannt.\n\nDie Polizeistatistik beleuchtet aber nicht nur die Deliktfelder, sondern auch die Täter. Bemerkenswert ist dabei die Tatsache, dass die sogenannten „grauen Ganoven“ ein Problem geworden sind. Der demografische Wandel spiegelt sich auch in der Kriminalstatistik wider. Mit der alternden Gesellschaft wächst die Zahl der älteren Straftäter. Fachleute sprechen von „Ü-60-Gangstern“, also rüstigen Senioren, die über 60 Jahre alt sind. Die Altersgruppe stellt inzwischen 7,4 Prozent aller Tatverdächtigen, also gut 150 000 Personen. Davon waren fast 48 000 zwischen 70 und 80 Jahre alt.\n]",
@@ -3422,7 +3422,7 @@
         }
     }
 ]
-<<<<../tests/interview107.bit
+<<<<./tests/interview107.bit
 [
     {
         "bitmark": "[.interview:bitmark--]\n[%B4]\n[!Überlegen Sie sich einen Vorfall und erstatten Sie selbst Strafanzeige gegen unbekannt.]\n(Vorname, Nachname) \n(Straße, Hausnummer) \n(Postleitzahl, Ort) \n(Telefonnummer)\n\nAn die Staatsanwaltschaft \n(Straße, Hausnummer) \n(Postleitzahl, Ort)\n\n__Strafanzeige gegen unbekannt__\n\n(Ort, Datum)\n===\nSehr geehrte Damen und Herren,\nfolgenden Vorfall möchte ich zur Anzeige bringen:\n===\n===\n\n[&article:\nBitte nehmen Sie die Ermittlungen auf und teilen Sie mir das Aktenzeichen mit, unter dem der Vorgang bearbeitet wird.\n\nMit freundlichen Grüßen \n(Vorname, Nachname)\n]\n\n||it doesn\\t show up right, interview slot between text lines||",
@@ -3450,7 +3450,7 @@
         }
     }
 ]
-<<<<../tests/interview108.bit
+<<<<./tests/interview108.bit
 [
     {
         "bitmark": "[.interview:bitmark++]\n[%B6a]\n[!Textarbeit\n\nGeben Sie den Inhalt des Textes zu den folgenden Punkten mit eigenen Worten wieder:]\n[@reference: Korruption. Rheinische Post, 18.8.2001]\n\n===\n[%1] die Schwerpunkte der Korruption in Deutschland[@shortAnswer]\n[$Als Schwerpunkte der Korruption werden die Vergabe von öffentlichen Aufträgen und die Erteilung von Arbeits-, Fahr- und Aufenthaltserlaubnissen genannt.]\n===\n[%2] die Situation der Polizei[@shortAnswer]\n[$Die Ermittler haben es schwer, weil es eigentlich keine Opfer gibt, sondern nur Täter. Es will keiner aussagen. Alle schweigen.]\n===\n[%3] die Folgen für den Staat[@shortAnswer]\n[$Der Staat erleidet einen Vertrauensverlust in/ bei der Bevölkerung.]\n===\n[%4] die Bemühungen der Regierun[@shortAnswer]\n[$Den Bürgern soll es ermöglicht werden, amtliche Informationen zu erhalten. Damit werden Vorgänge wie z. B. Ausschreibungen öffentlich. (o. Ä.)]\n===\n\n[&article:\n**Korruption – alltägliches Geschäft im Schatten**\n\nPolitik und Korruption – zu diesem Thema fallen vielen nur Sprüche ein wie: „Wenn einer dir etwas in die rechte Tasche steckt, so halte ihm auch die linke hin.“ Und in der Tat: Deutschen Firmen und Politikern wurde es nicht schwer gemacht, denn bis vor einigen Jahren konnten Firmen ==Bestechungsgelder==(@note:Bestechungsgelder = Gelder, die ausgegeben werden, um sich auf rechtswidrigem Wege einen Vorteil zu verschaffen) sogar steuerlich absetzen: „Zur Erlangung eines dienstlichen Geheimnisses habe ich 150 Euro an einen Mitarbeiter der Kommunalverwaltung Potsdam gezahlt. Ich bitte um ==steuerliche Berücksichtigung==(@note:steuerliche Berücksichtigung finden/etwas steuerlich absetzen = den ausgegebenen Betrag ganz oder teilweise von der Steuer/dem Staat zurückerstattet bekommen).“ Diese fingierte Erklärung schickte die Organisation __Transparency International (TI)__, die den weltweiten Kampf gegen die Korruption angetreten hat, an das Finanzamt. Die Finanzbeamten berücksichtigten die Ausgaben unter „sonstige Werbekosten“.\n\nKorruption ist Missbrauch von Macht zu privatem Nutzen, so lautet die Definition von TI, sie untergräbt ====(@note:die gesellschaftliche Integrität untergraben = zerstören) die gesellschaftliche Integrität und verstärkt die Armut. Großaufträge würden nicht wegen des besten Preis-Leistungs-Verhältnisses vergeben, sondern nach der Höhe der Bestechungsgelder.\n\nLaut Bundeskriminalamt gelten als Schwerpunkte der Korruption in Deutschland: die Vergabe öffentlicher Aufträge und im Bereich der Leistungsverwaltung die Erteilung von Arbeits-, Aufenthalts- oder Fahrerlaubnissen. Bei der Bewertung des Phänomens Korruption ist aber nicht allein der materielle Schaden entscheidend. Schlimmer ist, dass die Bevölkerung allmählich das Vertrauen in die staatliche Verwaltung verliert. Der ehemalige Präsident des Bundeskriminalamtes verwies vor Kurzem auf die Höhe der Dunkelziffer in diesem Deliktbereich. „Zu jedem Korrumpierten gehört auch ein Korrumpierender, das heißt, bei der Korruption gibt es nur Täter, keine unmittelbaren Opfer. Die Ermittler stoßen daher meist auf eine Mauer des Schweigens.“\n\nMit einem Gesetz zur „Informationsfreiheit“ bemüht sich die Regierung in Berlin, mehr Transparenz in die Arbeit der Behörden zu bringen. Bürger erhalten damit einen Zugang zu allen amtlichen Informationen. Das Modell des „gläsernen Staates“ kann ein Anfang zur stärkeren Bekämpfung der Korruption sein.\n]",
@@ -3522,7 +3522,7 @@
         }
     }
 ]
-<<<<../tests/interview109.bit
+<<<<./tests/interview109.bit
 [
     {
         "bitmark": "[.interview:bitmark--]\n[%C3]\n[!Einige Politiker haben beruflich gutgeschriebene Flugmeilen für private Zwecke genutzt und sollen bei einer Pressekonferenz Rede und Antwort stehen. Geben Sie die folgenden Aussagen in der indirekten Rede wieder.]\n===\n[%1] Herr A: „Ich __weiß__ nicht, wie diese Informationen die Presse erreicht haben. Da __muss__ es doch bei der Lufthansa eine undichte Stelle geben.“\n__Herr A meinte zu Beginn der Pressekonferenz, dass er nicht wisse, wie diese Informati- onen die Presse erreicht hätten. Da__[@shortAnswer]\n[$müsse es doch bei der Lufthansa eine undichte Stelle geben.]\n===\n[%2] Herr B: „Man __muss__ jetzt erst mal überprüfen, ob es überhaupt mit den Gesetzen __übereinstimmt__, solche Details aus dem Leben von Politikern zu veröffentlichen.“\n__Herr B war der Ansicht, dass__[@shortAnswer]\n[$dass man jetzt erst mal überprüfen müsse, ob es überhaupt mit den Gesetzen übereinstimme, solche Details aus dem Leben von Politikern zu veröffentlichen.]\n===\n[%3] Herr C: „Ich __werde__ in jedem Fall Strafantrag gegen die Zeitung stellen!“\n__Herr C rief erregt, er__[@shortAnswer]\n[$er werde in jedem Fall Strafantrag gegen die Zeitung stellen.]\n===\n[%4] Zwischenruf eines Journalisten: „Zur Diskussion __steht__ aber das unkorrekte Verhalten der Politiker, nicht das Verhalten der Zeitung!“\n__Ein Journalist rief dazwischen, dass__[@shortAnswer]\n[$dass aber das unkorrekte Verhalten der Politiker zur Diskussion stehe, nicht das Verhalten der Zeitung.]\n===\n[%5] Frau D: „Ich __bin__ für eine vollständige Untersuchung des Falls durch den Bundestag.“ \n__Frau D versuchte die Situation zu entspannen. Sie erklärte, sie__[@shortAnswer]\n[$sie sei für eine vollständige Untersuchung des Falls durch den Bundestag.]\n===\n[%6] Herr F: „Ich __habe__ im Dienst erworbene Flugmeilen privat genutzt. Ich __werde__ von allen meinen politischen Ämtern zurücktreten.“\n__Darauf bekannte der Politiker F, dass er und nannte seine Konsequenzen: Er__[@shortAnswer]\n[$dass er im Dienst erworbene Flugmeilen privat genutzt habe, und nannte seine Konsequenzen: Er werde von allen seinen politischen Ämtern zurücktreten.]\n===\n[%7] Herr A: „Das __ist__ die falsche Reaktion des Kollegen F! Das __ist__ keine kluge Entscheidung!“\n__Herr A zeigte sich schockiert. Nach seiner Auffassung__[@shortAnswer]\n[$Nach seiner Auffassung sei das die falsche Reaktion von Kollegen F. Das sei keine kluge Entscheidung.]\n===\n[%8] Herr B: „Nicht alle Politiker, die mal einen ganz kleinen Fehler begangen __haben, können__ zurücktreten!“ \n__Herr B unterstützte Kollegen A. Er meinte auch, dass__[@shortAnswer]\n[$dass nicht alle Politiker, die mal einen ganz kleinen Fehler begangen hätten, zurücktreten könnten.]\n===\n[%9] Herr F: „Ein Politiker __soll__ sich zu seinem Fehlverhalten bekennen und daraus die Konsequenzen ziehen. Das __ist__ seine moralische Pflicht.“\n__Herr F verteidigte sich. Nach seiner Ansicht__[@shortAnswer]\n[$Nach seiner Ansicht solle sich ein Politiker zu seinem Fehlver- halten bekennen und daraus die Konsequenzen ziehen. Das sei seine moralische Pflicht.]\n===\n[%10] Frage eines Journalisten: „__Muss__ dann der ganze Bundestag zurücktreten?“ \n__An dieser Stelle fragte ein Journalist Herrn F, ob__[@shortAnswer]\n[$ob dann der ganze Bundestag zurücktreten müsse.]\n===",
@@ -3774,7 +3774,7 @@
     }
 ]
 
-<<<<../tests/interview110.bit
+<<<<./tests/interview110.bit
 [
     {
         "bitmark": "[.interview:bitmark--]\n[%C3]\n[!Ergänzen Sie Orts- bzw. Richtungsangaben.]\n[?(Beispiele) 1. ans Meer/nach Italien/in die Schweiz 2. im Büro/zu Hause, im Kino/beim Friseur 3. an die Hauswand/ direkt vor den Eingang 4. im Keller 5. im Gras/hinter dem Tor/unter dem Schrank 6. in Spanien/in den Niederlanden/ auf einem Zeltplatz 7. neben den Schrank/über das Bett 8. Moskau/auf den Kanarischen Inseln/am Urlaubsort 9. auf den Ofen/ins Bad/in die Küche 10. vor dem Kino/in dem japanischen Restaurant 11. ins Bett/auf das Sofa 12. an den Strand/in die Stadt/ins Freibad 13. im Büro 14. sie steht im Bad/liegt schon im Koffer 15. in die Kantine zum Mittagessen 16. bei Siemens/im Büro neben mir 17. in der ersten Reihe/neben der Königin]\n\n===\n[%◇]Die Leute sitzen \n[@example: __am Tisch/auf der Parkbank/im Gras ... __][@shortAnswer]\n===\n[%1]Wir fahren jedes Jahr ...[@shortAnswer]\n===\n[%2]Marie ist nicht ...[@shortAnswer]\n===\nSie ist  ...[@shortAnswer]\n===\n[%3]Er stellt das Fahrrad immer  ...[@shortAnswer]\n===\n[%4]Aber heute steht das Fahrrad ...[@shortAnswer]\n===\n[%5]Der Ball liegt ...[@shortAnswer]\n===\n[%6]Wir waren letztes Jahr ...[@shortAnswer]\n===\n[%7]Ich würde das Bild ... hängen.[@shortAnswer]\n===\n[%8]Als wir in ... ankamen, regnete es in Strömen.[@shortAnswer]\n===\n[%9]Ich lege Bücher niemals ...[@shortAnswer]\n===\n[%10]Sie ist mit Franz ... verabredet.[@shortAnswer]\n===\n[%11]Ich bin müde. Ich lege mich ...[@shortAnswer]\n===\n[%12]Es ist wunderschönes Wetter. Lass uns ... gehen.[@shortAnswer]\n===\n[%13]Carlo hat seinen Laptop ... vergessen.[@shortAnswer]\n===\n[%14]Hast du meine Sonnencreme gesehen? Ja,...[@shortAnswer]\n===\n[%15]Kommst du mit ...?[@shortAnswer]\n===\n[%16]Judith arbeitet jetzt ...[@shortAnswer]\n===\n[%17]Der Ehrengast sitzt ...[@shortAnswer]\n===",
@@ -4001,7 +4001,7 @@
     }
 ]
 
-<<<<../tests/interview-image1.bit
+<<<<./tests/interview-image1.bit
 [
     {
         "bitmark": "[.interview&image]\n[%A16]\n[!Partnerarbeit: Fernsehen\n\nFragen Sie Ihre Nachbarin/Ihren Nachbarn und berichten Sie.]\n[&image:https://www.django.com/myimage.png][@src2x:https://www.django.com/myimage2.png][@src3x:https://www.django.com/myimage3.png][@src4x:https://www.django.com/myimage4.png]\n===\n[%1] Wie viele Stunden sehen Sie pro Tag fern?[@shortAnswer]\n===\n[%2] Was sind die beliebtesten Fernsehsendungen in Ihrem Heimatland?[@shortAnswer]\n===\n[%3] Was sehen Sie selbst am liebsten und warum? Was sehen Sie nie?[@shortAnswer]\n===\n[%4] Sehen oder lesen Sie gern Krimis? Warum?/Warum nicht?[@shortAnswer]\n===\n[%5] Welche Art von Krimis kann man in Ihrem Heimatland sehen? (einheimische/amerikanische/englische ... Serien/Spielfilme ...)[@shortAnswer]\n===\n[%6] Gibt es in Ihrem Heimatland einen beliebten Fernsehkommissar?[@shortAnswer]\n===\n[%7] Warum sind Ihrer Meinung nach Krimis bei vielen Zuschauern so beliebt?[@shortAnswer]\n===",
@@ -4229,7 +4229,7 @@
     }
 ]
 
-<<<<../tests/mark1.bit
+<<<<./tests/mark1.bit
 [
     {
         "bitmark": "[.mark:bitmark--]\n[!Please mark all ==verbs==(blue)== and ==nouns==(red)==.]\n[%  A128]\n\nWhen ['Diaz][@mark  :  red  ][%256][!My instruction][? myhint] ['  returned][@mark:blue] and ['seated][@mark:blue] himself to ['play][@mark:blue] the ['Berceuse][@mark:red], I ['saw][@mark:blue] that he ['could][@mark:blue] ['look][@mark:blue] at me without ['turning][@mark:blue] his ['head][@mark:red].",
@@ -4329,7 +4329,7 @@
         }
     }
 ]
-<<<<../tests/mark2.bit
+<<<<./tests/mark2.bit
 [
     {
         "bitmark": "[.mark:bitmark--&image]\n[!Please mark all ==verbs==(blue)== and ==nouns==(red)==.]\n[&  image: http://cdn.bitbook.education/publishers/3/books/26363/statistik.jpg][@  src2x:  http://cdn.bitbook.education/publishers/3/books/26363/statistik2.jpg][@src3x:http://cdn.bitbook.education/publishers/3/books/26363/statistik3.jpg  ]\nWhen ['Diaz][@mark:red] ['returned][@mark:blue] and ['seated][@mark:blue] himself to ['play][@mark:blue] the ['Berceuse][@mark:red], I ['saw][@mark:blue] that he ['could][@mark:blue] ['look][@mark:blue] at me without ['turning][@mark:blue] his ['head][@mark:red].",
@@ -4452,7 +4452,7 @@
     }
 ]
 
-<<<<../tests/match1.bit
+<<<<./tests/match1.bit
 [
     {
         "bitmark": "[.match]\n[!Please translate.]\n\n===\nFussball[@example]\n==\nSuccor\n===",
@@ -4481,7 +4481,7 @@
         }
     }
 ]
-<<<<../tests/match2.bit
+<<<<./tests/match2.bit
 [
     {
         "bitmark": "[.match]\n[!Wie heißen die passenden Nomen?]\nI ran this code [ eay good.\n===\n[#Adjektiv]\n==\n[#Nomen]\n===\ntalentiert[@example]\n==\ndeb-][ [[ugger\n===\nausdauernd\n==\ndie Ausdauer\n===\nfleißig[&exec\n==\nder Fleiß\n===\nkämpferisch\n==\nder Kampf\n===",
@@ -4605,7 +4605,7 @@
         ]
     }
 ]
-<<<<../tests/match3.bit
+<<<<./tests/match3.bit
 [
     {
         "bitmark": "[.match]\n[!Wie heißen die passenden Nomen?]\n\n===\n[#Adjektiv]\n==\n[#Nomen]\n===\ntalentiert[@example]\n==\ndas Talent\n===\nausdauernd\n==\ndie Ausdauer\n===\nfleißig\n==\nder Fleiß [?I am the blue][!This is supposed to be inst]\n===\nkämpferisch\n==\nder Kampf\n===",
@@ -4676,7 +4676,7 @@
         }
     }
 ]
-<<<<../tests/match4.bit
+<<<<./tests/match4.bit
 [
     {
         "bitmark": "[.match]\n[!Wie heißen die passenden Nomen?]\n\n===\n[#Adjektiv]\n==\n[#Nomen]\n===\n[%a]talentiert[@example: Yoshikazu Noda]\n==\ndas Talent\n===\n[%b]ausdauernd\n==\ndie Ausdauer\n===\n[%c]fleißig\n==\nder Fleiß\n--\nder Fleiss\n===\n[%d]kämpferisch\n==\nder Kampf\n===",
@@ -4748,7 +4748,7 @@
         }
     }
 ]
-<<<<../tests/match5.bit
+<<<<./tests/match5.bit
 [
     {
         "bitmark": "[.match:bitmark--]\n[%A3a]\n[!Fragen Sie.\n\nBilden Sie aus den Wortreihen Fragen im Präsens oder Präteritum.]\n===\n[%◇] Sie – historische Romane – mögen __(Präsens)__\n==\nMögen Sie historische Romane?[@example]\n===\n[%◇] wollen – werden – was – früher – Sie __(Präteritum)__\n==\nWas wollten Sie früher werden?[@example]\n===\n[%1] warum – Deutsch lernen – Sie – wollen __(Präsens)__\n==\nWarum wollen Sie Deutsch lernen?\n===\n[%2] möchten – wohin – fahren – Sie – im nächsten Urlaub __(Präsens)__\n==\nWohin möchten Sie im nächsten Urlaub fahren?\n===\n[%3] Musik – mögen – welche – Sie __(Präsens)__\n==\nWelche Musik mögen Sie?\n===\n[%4] können – welche – sprechen – Sprachen – besonders gut – Sie __(Präsens)__\n==\nWelche Sprachen können Sie besonders gut sprechen?\n===\n[%5] als Kind – dürfen – Sie – was – nicht – tun __(Präteritum)__\n==\nWas durften Sie als Kind nicht tun?\n===\n[%6] aufstehen – Sie – morgens – müssen – wann __(Präsens)__\n==\nWann müssen Sie morgens aufstehen?\n===\n[%7] wohnen – Sie – wo – möchten – am liebsten __(Präsens)__\n==\nWo möchten Sie am liebsten wohnen?\n===\n[%8] Sie – Ski laufen – als Kind – können __(Präteritum)__\n==\nKonnten Sie als Kind Ski laufen?\n===\n[%9] mögen – Sie – früher – Zeichentrickfilme __(Präteritum)__\n==\nMochten Sie früher Zeichentrickfilme?\n===\n[%10] eine Prüfung – wiederholen – schon mal – müssen – Sie __(Präteritum)__\n==\nMussten Sie schon mal eine Prüfung wiederholen?\n===\n[%11] in Ihrer Arbeitszeit – dürfen – Sie – privat im Internet – surfen __(Präsens)__\n==\nDürfen Sie in Ihrer Arbeitszeit privat im Internet surfen?\n===",
@@ -5888,7 +5888,7 @@
     }
 ]
 
-<<<<../tests/matchsg1.bit
+<<<<./tests/matchsg1.bit
 [
     {
         "bitmark": "[.match-solution-grouped]\n[!Wie heißen die passenden Nomen?]\n\n===\n[#Adjektiv]\n==\n[#Nomen]\n===\ntalentiert\n==\ndas Talent\n===\nausdauernd\n==\ndie Ausdauer\n===\nfleißig\n==\nder Fleiß\n===\nkämpferisch\n==\nder Kampf\n===",
@@ -5959,7 +5959,7 @@
         }
     }
 ]
-<<<<../tests/match-pict1.bit
+<<<<./tests/match-pict1.bit
 [
     {
         "bitmark": "[.match-picture]\n[!Name the animals on the pictures.]\n\n===\n[&image:http://cdn.bitbook.education/books/com.firstpub.book98789/animals/cat.jpg]\n==\ncat\n===\n[&image:http://cdn.bitbook.education/books/com.firstpub.book98789/animals/tiger.jpg]\n==\ntiger\n===",
@@ -6009,7 +6009,7 @@
         }
     }
 ]
-<<<<../tests/match-pict2.bit
+<<<<./tests/match-pict2.bit
 [
     {
         "bitmark": "[.match-picture]\n[!Name the animals on the pictures.]\n\n===\n[&image:https://cdn.bitbook.education/avatars/cat_70x70@1.jpg][@src1x:https://cdn.bitbook.education/avatars/cat_70x70@2.jpg][@src2x:https://cdn.bitbook.education/avatars/cat_70x70@3.jpg]\n==\ncat\n===\n[&image:http://cdn.bitbook.education/books/com.firstpub.book98789/animals/tiger.jpg]\n==\ntiger\n===",
@@ -6061,7 +6061,7 @@
         }
     }
 ]
-<<<<../tests/match-audio1.bit
+<<<<./tests/match-audio1.bit
 [
     {
         "bitmark": "[.match-audio&audio]\n[!Listen to the audio and name the animal you are hearing.]\n\n===\n[#Audio file url]\n==\n[#Object]\n===\n[&audio:http://cdn.bitbook.education/publishers/3/books/26363/miau.mp3]\n==\ncat\n===",
@@ -6096,7 +6096,7 @@
         }
     }
 ]
-<<<<../tests/match-article1.bit
+<<<<./tests/match-article1.bit
 [
     {
         "bitmark": "[.match&article:bitmark--]\n[!Please translate.]\n\n===\nFussball [@example]\n==\nfootball\n--\nsoccer\n===\n\n**Nice!**\nFinally I get proper new line support.",
@@ -6126,7 +6126,7 @@
         }
     }
 ]
-<<<<../tests/match-matrix1.bit
+<<<<./tests/match-matrix1.bit
 [
     {
         "bitmark": "[.match-matrix]\n[!Bring the german verbs into the correct tense.]\n\n===\n[#Verb]\n==\n[#Future, 1st Person, Singular]\n==\n[#Past, 3rd Person, Plural]\n===\ngehen\n==\nich werde gehen\n==\nsie gingen\n===\nsprechen\n==\nich werde sprechen\n==\nsie sprachen\n===",
@@ -6604,7 +6604,7 @@
         }
     }
 ]
-<<<<../tests/match-matrix3.bit
+<<<<./tests/match-matrix3.bit
 [
     {
         "bitmark": "[.match-matrix]\n[%C4.1]\n[!Ergänzen Sie die Bezeichnungen für die Einwohner der folgenden Länder.]\n===\n[#Land]\n==\n[#männliche Einwohner]\n==\n[#Einwohnerin]\n==\n[#Einwohner (Plural)]\n===\n1. der Sudan\n==\nder Sudanese\n==\ndie Sudanesin\n==\ndie Sudanesen\n===\n2. der Iran\n==\nder Iraner\n==\ndie Iranerin\n==\ndie Iraner\n==\n3. Peru\n==\nder Peruaner\n==\ndie Peruanerin\n==\ndie Peruaner\n==\n4. Chile\n==\nder Chilene\n==\ndie Chilenin\n==\ndie Chilenen\n==\n5. Kanada\n==\nder Kanadier\n==\ndie Kanadierin\n==\ndie Kanadier\n==\n6. die Türkei\n==\nder Türke\n==\ndie Türkin\n==\ndie Türken\n==\n7. China\n==\nder Chinese\n==\ndie Chinesin\n==\ndie Chinesen\n==\n8. Japan\n==\nder Japaner\n==\ndie Japanerin\n==\ndie Japaner\n==\n9. Mexiko\n==\nder Mexikaner\n==\ndie Mexikanerin\n==\ndie Mexikaner\n==\n10. Russland\n==\nder Russe\n==\ndie Russin\n==\ndie Russen\n==\n11. Indien\n==\nder Inder\n==\ndie Inderin\n==\ndie Inder\n==\n12. Thailand\n==\nder Thailänder\n==\ndie Thailänderin\n==\ndie Thailänder\n==\n13. Ukraine\n==\nder Ukrainer\n==\ndie Ukrainerin\n==\ndie Ukrainer\n==\n14. die Schweiz\n==\nder Schweizer\n==\ndie Schweizerin\n==\ndie Schweizer\n==\n15. Marokko\n==\nder Marokkaner\n==\ndie Marokkanerin\n==\ndie Marokkaner\n==\n16. Jordanien\n==\nder Jordanier\n==\ndie Jordanierin\n==\ndie Jordanier\n===",
@@ -7083,7 +7083,7 @@
         }
     }
 ]
-<<<<../tests/multich-1.bit
+<<<<./tests/multich-1.bit
 [
     {
         "bitmark": "[.multiple-choice-1]\n[%321x][!What color is milk?]\n[?Cows produce milk.]\n[+white][?cow][!color of milk]\n[-red][?snake][!color of snake]\n[-blue][?spider][!color of sky]",
@@ -7122,7 +7122,7 @@
         }
     }
 ]
-<<<<../tests/multich-1-2.bit
+<<<<./tests/multich-1-2.bit
 [
     {
         "bitmark": "[.multiple-choice-1]\n[%mc1_1]\n[!What color is milk?]\n[+white][?paper]\n[-red][?anger]\n[-blue][?by yo]",
@@ -7161,7 +7161,7 @@
         }
     }
 ]
-<<<<../tests/multires-1.bit
+<<<<./tests/multires-1.bit
 [
     {
         "bitmark": "[.multiple-response-1]\n[%123a][!What colours can cows have in Switzerland?]\n[+brown]\n[+purple]\n[-blue]\n[-green]",
@@ -7207,7 +7207,7 @@
         }
     }
 ]
-<<<<../tests/multires-1-2.bit
+<<<<./tests/multires-1-2.bit
 [
     {
         "bitmark": "[.multiple-response-1]\n[%123a][!What colours can cows have in Switzerland?]\n[+brown][?suger]\n[+purple][?heze]\n[-blue][?by yo]\n[-green][?day]",
@@ -7253,7 +7253,7 @@
         }
     }
 ]
-<<<<../tests/multich1.bit
+<<<<./tests/multich1.bit
 [
     {
         "bitmark": "[.multiple-choice-1]\n[!What color is milk]\n[+white]\n[-red]\n[-blue]",
@@ -7292,7 +7292,7 @@
         }
     }
 ]
-<<<<../tests/multich2.bit
+<<<<./tests/multich2.bit
 [
     {
         "bitmark": "[.multiple-choice]\n[!What color do the following beverages have?]\n===\n[!Milk]\n[+white]\n[-red]\n[-blue]\n===\n[!Red Wine]\n[+red]\n[-white]\n[-green]\n===",
@@ -7369,7 +7369,7 @@
         }
     }
 ]
-<<<<../tests/multichtx1.bit
+<<<<./tests/multichtx1.bit
 [
     {
         "bitmark": "[.multiple-choice-text]\nThe students ['complete][+d][-t][-s] the [+cloxe][-close][-cloth] with the correct verb forms.\n\n::remark::\nBut item can also be chained.\nThis is a [_cloze][%a)] with [_two][%b)] gaps.\nIt would we \"acceptable\" to write this as This is a *a)* [_cloze] with *b)* [_two] gaps.\nBut that's not what we want. Bit still valid.\n::",
@@ -7436,7 +7436,7 @@
         }
     }
 ]
-<<<<../tests/multichtx2.bit
+<<<<./tests/multichtx2.bit
 [
     {
         "bitmark": "[.multiple-choice-text]\nThe students ['complete][+d][-t][-s] the [+clo**ze**][-clo**th**][-clo**se**] with the correct verb forms.",
@@ -7503,7 +7503,7 @@
         }
     }
 ]
-<<<<../tests/multichtx3.bit
+<<<<./tests/multichtx3.bit
 [
     {
         "bitmark": "[.multiple-choice-text]\n[%6]\n[!Du stehst am Bahnhof. Ein Fremder spricht dich an. Wähl die passenden Antworten.]\n\"Kann ich Ihnen helfen?\" \n[-\"Danke schön.\"][+\"Ja, gerne.\"][-\"Sehr gut.\"]\n  \n\"Sie sprechen sehr gut Deutsch.\" \n[+\"Danke schön.\"][-\"Ja, gerne.\"][-\"Sehr gut.\"]\n  \n\"Wie gefällt es Ihnen hier?\" \n[-\"Danke schön.\"][-\"Ja, gerne.\"][+\"Sehr gut.\"]",
@@ -7599,7 +7599,7 @@
         }
     }
 ]
-<<<<../tests/multichtx4.bit
+<<<<./tests/multichtx4.bit
 [
     {
         "bitmark": "[.multiple-choice-text]\n[+Ich][-Du] würde gerne einen [-Kuchen][+Kaffee][?A hot drink (caffeinated)] bestellen. [+Ich mir][+Wir uns][?what the hell] auch.",
@@ -7784,7 +7784,7 @@
     }
 ]
 
-<<<<../tests/multires1.bit
+<<<<./tests/multires1.bit
 [
     {
         "bitmark": "[.multiple-response-1]\n[!What colours can cows have in Switzerland?]\n[+brown ]\n[+purple, but only in chocolate ads]\n[-blue ]\n[-green ]",
@@ -7830,7 +7830,7 @@
         }
     }
 ]
-<<<<../tests/multires2.bit
+<<<<./tests/multires2.bit
 [
     {
         "bitmark": "[.multiple-response]\n[!What colors can animals have in Switzerland?]\n===\n[!What colours can cows have in Switzerland?]\n[+brown]\n[+purple, but only in chocolate ads]\n[-blue][?by you]\n[-green]\n===\n[!What colours can cats have in Switzerland?]\n[+brown]\n[+black]\n[+blue][?is green]\n[-green]\n===",
@@ -7921,7 +7921,7 @@
         }
     }
 ]
-<<<<../tests/multitxt1.bit
+<<<<./tests/multitxt1.bit
 [
     {
         "bitmark": "[.multiple-choice-text]\n[%A18a]\n[!Wörtern auf der Spur\n\nErgänzen Sie die bestimmten Artikel.]\n\n[+der][-die][-das] Schuss \n[-der][-die][+das] Verbrechen\n[-der][+die][-das] Spur\n[-der][+die][-das] Aufklärung\n\n[-der][+die][-das] Polizei \n[+der][-die][-das] Beweis \n[+der][-die][-das] Mord \n[-der][+die][-das] Tat\n\n[-der][-die][+das] Blaulicht\n[+der][-die][-das] Totschlag\n[-der][-die][+das] Geständnis\n[-der][-die][+das] Ergebnis\n\n[-der][+die][-das] Spurensicherung\n[-der][+die][-das] Mordkommission\n[-der][+die][-das] DNA-Analyse\n[-der][+die][-das] Spannung\n\n[+der][-die][-das] Ermittler\n[-der][-die][+das] Gefängnis\n[+der][-die][-das] Tatort\n[-der][+die][-das] Realität",
@@ -8476,7 +8476,7 @@
         }
     }
 ]
-<<<<../tests/multitxt2.bit
+<<<<./tests/multitxt2.bit
 [
     {
         "bitmark": "[.multiple-choice-text:bitmark--]\n[%A29a]\n[!„Es wächst zusammen, was zusammengehört.“\nLesen Sie den Text. Welche Sätze passen in die Lücken 1 bis 6? Ein Satz passt nicht.]\n[@reference: Nach: Badische Zeitung, 2.10.2017]\n\n**Eine Einheit?**\n\nSehen sich die Ost- und Westdeutschen nach drei Jahrzehnten Wiedervereinigung nun als eine Einheit? Diese Frage stellen sich die Politiker jedes Jahr am 3. Oktober, wenn der Jahrestag der deutschen Wiedervereinigung gefeiert wird. [%1][-Im Vergleich zu 2011 ist das aber ein deutlicher Fortschritt.][-Heute sind viele Menschen im Osten mit ihrer Umwelt zufrieden.][+Und jedes Jahr sind die Antworten ernüchternd.][-Die Folge sind verwahrloste und verwaiste Orte.][-Die Erfolge nach der Wiedervereinigung sind enorm.][-Auch einige ostdeutsche Großstädte zählen zu den Gewinnern.][-Aber es geht in kleinen Schritten in die richtige Richtung.]\n\nNach einer Umfrage des Meinungsforschungsinstituts Forsa scheint sich Willy Brandts berühmter Satz: „Es wächst zusammen, was zusammengehört“, den er kurz nach dem Mauerfall geäußert hat, nicht so einfach in die Realität umsetzen zu lassen. [%2][-Im Vergleich zu 2011 ist das aber ein deutlicher Fortschritt.][-Heute sind viele Menschen im Osten mit ihrer Umwelt zufrieden.][-Und jedes Jahr sind die Antworten ernüchternd.][-Die Folge sind verwahrloste und verwaiste Orte.][-Die Erfolge nach der Wiedervereinigung sind enorm.][-Auch einige ostdeutsche Großstädte zählen zu den Gewinnern.][+Aber es geht in kleinen Schritten in die richtige Richtung.] Immerhin sagt nun schon jeder Zweite, die beiden Teile Deutschlands seien sich nähergekommen. Das bedeutet aber auch, die Hälfte der Deutschen sieht das nicht so, in den ostdeutschen Bundesländern sind es sogar 55 Prozent. [%3][+Im Vergleich zu 2011 ist das aber ein deutlicher Fortschritt.][-Heute sind viele Menschen im Osten mit ihrer Umwelt zufrieden.][-Und jedes Jahr sind die Antworten ernüchternd.][-Die Folge sind verwahrloste und verwaiste Orte.][-Die Erfolge nach der Wiedervereinigung sind enorm.][-Auch einige ostdeutsche Großstädte zählen zu den Gewinnern.][-Aber es geht in kleinen Schritten in die richtige Richtung.] Damals gaben 67 Prozent der Ostdeutschen an, dass es immer noch deutliche Unterschiede zwischen den alten und den neuen Bundesländern gebe. Große Differenzen sehen die Bürger vor allem bei der Verteilung des Wohlstands. Ein Beispiel dafür ist die Tatsache, dass nur sechs der 500 reichsten Deutschen in den neuen Bundesländern leben. Viele Regionen im Westen profitierten von der guten wirtschaftlichen Entwicklung. [%4][-Im Vergleich zu 2011 ist das aber ein deutlicher Fortschritt.][-Heute sind viele Menschen im Osten mit ihrer Umwelt zufrieden.][-Und jedes Jahr sind die Antworten ernüchternd.][-Die Folge sind verwahrloste und verwaiste Orte.][-Die Erfolge nach der Wiedervereinigung sind enorm.][+Auch einige ostdeutsche Großstädte zählen zu den Gewinnern.][-Aber es geht in kleinen Schritten in die richtige Richtung.] Verlierer sind die ländlichen Gebiete im Osten des Landes, die von überdurchschnittlich hoher Arbeitslosigkeit und der Abwanderung junger Familien geprägt sind. [%5][-Im Vergleich zu 2011 ist das aber ein deutlicher Fortschritt.][-Heute sind viele Menschen im Osten mit ihrer Umwelt zufrieden.][-Und jedes Jahr sind die Antworten ernüchternd.][+Die Folge sind verwahrloste und verwaiste Orte.][-Die Erfolge nach der Wiedervereinigung sind enorm.][-Auch einige ostdeutsche Großstädte zählen zu den Gewinnern.][-Aber es geht in kleinen Schritten in die richtige Richtung.]\n\nEinen positiven Effekt hatte die Wiedervereinigung auf die Umwelt in Ostdeutschland. Weil die Führung in der DDR die Chemieindustrie förderte und sich gleichzeitig nicht um die ökologischen Aspekte kümmerte, litten die Menschen und die Landschaft jahrzehntelang unter Giften und Abgasen. [%6][-Im Vergleich zu 2011 ist das aber ein deutlicher Fortschritt.][+Heute sind viele Menschen im Osten mit ihrer Umwelt zufrieden.][-Und jedes Jahr sind die Antworten ernüchternd.][-Die Folge sind verwahrloste und verwaiste Orte.][-Die Erfolge nach der Wiedervereinigung sind enorm.][-Auch einige ostdeutsche Großstädte zählen zu den Gewinnern.][-Aber es geht in kleinen Schritten in die richtige Richtung.]\n\nHoffnung für die Zukunft geben auch die jungen Leute, die immerhin zu 67 Prozent den Einheitsgedanken bejahen.",
@@ -8777,7 +8777,7 @@
     }
 ]
 
-<<<<../tests/multitxt3.bit
+<<<<./tests/multitxt3.bit
 [
     {
         "bitmark": "[.multiple-choice-text:bitmark--]\n[%A23c]\n[!Lesen Sie die folgenden Sätze und überlegen Sie, welche Funktion __werden__ hat. Ordnen Sie zu.]\n1. Ich werde mich sofort darum kümmern. [-Ausdruck einer Vermutung][-Vollverb][-Hilfsverb für das Passiv][+Ausdruck einer Absicht oder eines Versprechens][-Ausdruck einer Zukunftserwartung]\n2. Wo ist Otto? Er wird wohl noch im Büro sein. [+Ausdruck einer Vermutung][-Vollverb][-Hilfsverb für das Passiv][-Ausdruck einer Absicht oder eines Versprechens][-Ausdruck einer Zukunftserwartung]\n3. Der Fisch wird gekocht. [-Ausdruck einer Vermutung][-Vollverb][+Hilfsverb für das Passiv][-Ausdruck einer Absicht oder eines Versprechens][-Ausdruck einer Zukunftserwartung]\n4. Otto wird Polizist. [-Ausdruck einer Vermutung][+Vollverb][-Hilfsverb für das Passiv][-Ausdruck einer Absicht oder eines Versprechens][-Ausdruck einer Zukunftserwartung]\n5. Morgen wird es regnen. [-Ausdruck einer Vermutung][-Vollverb][-Hilfsverb für das Passiv][-Ausdruck einer Absicht oder eines Versprechens][+Ausdruck einer Zukunftserwartung]\n6. Maria ist gestern 30 geworden. [-Ausdruck einer Vermutung][+Vollverb][-Hilfsverb für das Passiv][-Ausdruck einer Absicht oder eines Versprechens][-Ausdruck einer Zukunftserwartung]\n7. Wir werden dir helfen. [-Ausdruck einer Vermutung][-Vollverb][-Hilfsverb für das Passiv][+Ausdruck einer Absicht oder eines Versprechens][-Ausdruck einer Zukunftserwartung]\n8. Der Klimawandel wird weiter voranschreiten. [-Ausdruck einer Vermutung][-Vollverb][-Hilfsverb für das Passiv][-Ausdruck einer Absicht oder eines Versprechens][+Ausdruck einer Zukunftserwartung]",
@@ -9088,7 +9088,7 @@
         }
     }
 ]
-<<<<../tests/multitxt4.bit
+<<<<./tests/multitxt4.bit
 [
     {
         "bitmark": "[.multiple-choice-text&image]\n[%A27a]\n[&image:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/verschmutzung.png]\n||image doesn't show up||\n[!Vertiefen Sie den Wortschatz des Textes A26b. Arbeiten Sie zu zweit.\nWas kann man miteinander verbinden? Bilden Sie Komposita und nennen Sie auch die Artikel.]\n\n[+die][-der][-das][@example] Luft[-Kraftwerk][-Krise][-Szenarium][+Verschmutzung][-Katastrophe][-Herd][-Sterben][-Gefahren][@example]\n[+die][-der][-das] Reaktor[-Kraftwerk][-Krise][-Szenarium][-Verschmutzung][+Katastrophe][-Herd][-Sterben][-Gefahren]\n[-die][-der][+das] Kern[+Kraftwerk][-Krise][-Szenarium][-Verschmutzung][-Katastrophe][-Herd][-Sterben][-Gefahren]\n[-die][-der][+das] Bedrohungs[-Kraftwerk][-Krise][+Szenarium][-Verschmutzung][-Katastrophe][-Herd][-Sterben][-Gefahren]\n[-die][+der][-das] Gefahren[-Kraftwerk][-Krise][-Szenarium][-Verschmutzung][-Katastrophe][+Herd][-Sterben][-Gefahren]\n[-die][-der][+das] Regenwald[-Kraftwerk][-Krise][-Szenarium][-Verschmutzung][-Katastrophe][-Herd][+Sterben][-Gefahren]\n[+die][-der][-das] Umwelt[-Kraftwerk][-Krise][-Szenarium][-Verschmutzung][-Katastrophe][-Herd][-Sterben][+Gefahren]\n[+die][-der][-das] Finanz[-Kraftwerk][+Krise][-Szenarium][-Verschmutzung][-Katastrophe][-Herd][-Sterben][-Gefahren]",
@@ -9750,7 +9750,7 @@
     }
 ]
 
-<<<<../tests/prepnote1.bit
+<<<<./tests/prepnote1.bit
 [
     {
         "bitmark": "[.preparation-note]\n[!Prepare to discuss this question in the next session. Take some notes to help you.]\nDo you like music?",
@@ -9766,7 +9766,7 @@
         }
     }
 ]
-<<<<../tests/rec1.bit
+<<<<./tests/rec1.bit
 [
     {
         "bitmark": "[.record-audio]\n[!Say \"hello\"]",
@@ -9782,7 +9782,7 @@
         }
     }
 ]
-<<<<../tests/seq1.bit
+<<<<./tests/seq1.bit
 [
     {
         "bitmark": "[.sequence]\n[%seq1]\n===\nEin Elefant\n--\nist\n--\ngrösser als\n--\neine Maus.\n===",
@@ -9804,7 +9804,7 @@
         }
     }
 ]
-<<<<../tests/seq2.bit
+<<<<./tests/seq2.bit
 [
     {
         "bitmark": "[.sequence:bitmark--]\n[%seq2]\n===\n**zu oberst**\nDach\n--\n**oben**\n3. Stock\n--\n**in der Mitte**\n2. Stock\n--\n**in der Mitte**\n1. Stock\n--\n**unten**\nErdgeschoss\n--\n**zu unterst**\nKeller\n===",
@@ -9828,7 +9828,7 @@
         }
     }
 ]
-<<<<../tests/takepic1.bit
+<<<<./tests/takepic1.bit
 [
     {
         "bitmark": "[.take-picture]\n[!Take a picture of your art work.]",
@@ -9844,7 +9844,7 @@
         }
     }
 ]
-<<<<../tests/truefalse1.bit
+<<<<./tests/truefalse1.bit
 [
     {
         "bitmark": "[.true-false-1]\n[+Ein Elefant ist grösser als eine Maus.]",
@@ -9862,7 +9862,7 @@
         }
     }
 ]
-<<<<../tests/truefalse2.bit
+<<<<./tests/truefalse2.bit
 [
     {
         "bitmark": "[.true-false]\n===\n[+Ein Elefant ist grösser als eine Maus.][@example:meiyou]\n===\n[+Ein Tiger ist grösser als eine Hauskatze.]\n===\n[-Eine Kuh ist kleiner als ein Hund.]\n===",
@@ -9897,7 +9897,7 @@
         }
     }
 ]
-<<<<../tests/truefalse3.bit
+<<<<./tests/truefalse3.bit
 [
     {
         "bitmark": "[.true-false]\n[@labelTrue:rather yes][@labelFalse:rather no]\n===\n[+A house is bigger than a car.]\n===\n[+A tiger is bigger than a cat.]\n===\n[-A cow is bigger than a dog.]\n===",
@@ -9931,7 +9931,7 @@
         }
     }
 ]
-<<<<../tests/truefalse4.bit
+<<<<./tests/truefalse4.bit
 [
     {
         "bitmark": "[.true-false]\n\n[!What colors can cows have in Switzerland?]\n===\n[+brown ]\n===\n[+purple, but only in chocolate ads][@example:we are the world]\n===\n[-blue ]\n===\n[-green ]\n===",
@@ -9971,7 +9971,7 @@
         }
     }
 ]
-<<<<../tests/truefalse5.bit
+<<<<./tests/truefalse5.bit
 [
     {
         "bitmark": "[.true-false&image]\n[&image:https://cdn.bitbook.education/cat.jpg]\n===\n[+On the picture, you see a mouse.]\n===\n[+There is a cat on the picture.]\n===",
@@ -10014,7 +10014,7 @@
         }
     }
 ]
-<<<<../tests/selfass1.bit
+<<<<./tests/selfass1.bit
 [
     {
         "bitmark": "[.self-assessment]\n===\nI can discuss technical issues.\n[• well]\n[• not so well]\n===\nI can discuss sports.\n[• well]\n[• not so well]\n===",
@@ -10035,7 +10035,7 @@
         }
     }
 ]
-<<<<../tests/selfass2.bit
+<<<<./tests/selfass2.bit
 [
     {
         "bitmark": "[.self-assessment]\n===\nI feel confindent, talking about sports.\n[• ***** (very much)][@points:2]\n[• ****][@points:1]\n[• ***][@points:0]\n[• **][@points:-1]\n[• * (not at all)][@points:-2]\n===\nI feel confindent, talking about technical issues.\n[• ***** (very much)][@points:5]\n[• ****][@points:4]\n[• ***][@points:3]\n[• **][@points:2]\n[• * (not at all)][@points:1]\n===",
@@ -10074,7 +10074,7 @@
         }
     }
 ]
-<<<<../tests/rating1.bit
+<<<<./tests/rating1.bit
 [
     {
         "bitmark": "[.rating]\n===\nThe mood in the company is...\n[• good]\n[• not so good]\n===\nWe can discuss problems...\n[• well]\n[• not so well]\n===",
@@ -10095,7 +10095,7 @@
         }
     }
 ]
-<<<<../tests/survey1.bit
+<<<<./tests/survey1.bit
 [
     {
         "bitmark": "[.  survey]\n===\nThe mood in the company is...\n[ • good  ]\n[ • not so good  ]\n===\nWe can discuss problems...\n[  • well  ]\n[  • not so well   ]\n===",
@@ -10117,7 +10117,7 @@
     }
 ]
 
-<<<<../tests/survey-anon1.bit
+<<<<./tests/survey-anon1.bit
 [
     {
         "bitmark": "[.survey-anonymous]\n===\nThe mood in the company is...\n[• good]\n[• not so good]\n===\nWe can discuss problems...\n[• well]\n[• not so well]\n===",
@@ -10138,7 +10138,7 @@
         }
     }
 ]
-<<<<../tests/highlighttext1.bit
+<<<<./tests/highlighttext1.bit
 [
     {
         "bitmark": "[.highlight-text]\nShe went to the [+mall][-sea] and ate [+breakfast][-fish][-trees].",
@@ -10205,7 +10205,7 @@
         }
     }
 ]
-<<<<../tests/highlighttext2.bit
+<<<<./tests/highlighttext2.bit
 [
     {
         "bitmark": "[.highlight-text]\n[+Ich][-Du] würde gerne einen [-Kuchen][+Kaffee][?A hot drink (caffeinated)] bestellen. [+Ich mir][+Wir uns][?what the hell] auch.",
@@ -10290,7 +10290,7 @@
         }
     }
 ]
-<<<<../tests/bit-alias1.bit
+<<<<./tests/bit-alias1.bit
 [
     {
         "bitmark": "[.bit-alias][►com.firstpub.09823409h44]",
@@ -10321,10 +10321,10 @@
         }
     }
 ]
-<<<<../tests/bit-alias2.bit
+<<<<./tests/bit-alias2.bit
 [
     {
-        "bitmark": "[.book:book]\n[#BookTitle]\n[##BookSubtitle]\n[@subject:German as a Foreign Language]",
+        "bitmark": "[.book:bitmark--]\n[#BookTitle]\n[##BookSubtitle]\n[@subject:German as a Foreign Language]",
         "bit": {
             "type": "book",
             "format": "bitmark--",
@@ -10717,7 +10717,7 @@
         }
     }
 ]
-<<<<../tests/blocktags.bit
+<<<<./tests/blocktags.bit
 [
     {
         "bitmark": "[.article]\n[!shows the sample block tags]\n\n>>abcdefg>>\n>> This is the optional title\nof the note\n>>",
@@ -10729,7 +10729,7 @@
         }
     }
 ]
-<<<<../tests/article-online.bit
+<<<<./tests/article-online.bit
 [
     {
         "bitmark": "[.article&article]I am coffee toast[_cloze][!noun ain hint for the second gap][?1 or 2][_gap text][!verb]\n[!wtf]\n[&article-online:https://docs.bitbook.education/bit-books/compendio/schubert_erkundungen_c1/web-resources/cover/compendio_uebungen/web_resources/images/05_ablauf_und_termine_022.html]",
@@ -10764,7 +10764,7 @@
         }
     }
 ]
-<<<<../tests/appresource.bit
+<<<<./tests/appresource.bit
 [
     {
         "bitmark": "[.essay]\n[&app:https://itunes.apple.com/ch/album/like-sugar-single/1392081432?l=en]",
@@ -10786,7 +10786,7 @@
         }
     }
 ]
-<<<<../tests/GMB/cloze.bit
+<<<<./tests/GMB/cloze.bit
 [
     {
         "bitmark": "[.cloze&image] This sentence is a [_cloze][_gap text][!noun] with [_2][?1 or 2] gaps including an instruction for the first and a hint for the second gap.",
@@ -10828,7 +10828,7 @@
         }
     }
 ]
-<<<<../tests/GMB/cloze_attachment.bit
+<<<<./tests/GMB/cloze_attachment.bit
 [
     {
         "bitmark": "[.cloze&image][&image:http://some-url.jpg] This sentence is a [_cloze][_gap text][!noun] with [_2][?1 or 2] gaps including an instruction for the first and a hint for the second gap.",
@@ -10885,7 +10885,7 @@
     }
 ]
 
-<<<<../tests/GMB/cloze_bitmark--.bit
+<<<<./tests/GMB/cloze_bitmark--.bit
 [
     {
         "bitmark": "[.cloze:bitmark--] This sentence is a [_cloze][_gap text][!noun].",
@@ -10915,7 +10915,7 @@
         }
     }
 ]
-<<<<../tests/GMB/cloze_emoticons.bit
+<<<<./tests/GMB/cloze_emoticons.bit
 [
     {
         "bitmark": "[.cloze] This sentence is a [_cloze][_gap text][!noun] with [_😊][_😊][?😊 or 😊] gaps including an instruction for the first and a hint for the second gap 😊 omg.",
@@ -10958,7 +10958,7 @@
         }
     }
 ]
-<<<<../tests/GMB/essay.bit
+<<<<./tests/GMB/essay.bit
 [
     {
         "bitmark": "[.essay]\n[!Schreiben Sie über Ihre Erfahrungen mit Kotlin.]\nBitte hierhin schreiben.",
@@ -10975,7 +10975,7 @@
         }
     }
 ]
-<<<<../tests/GMB/bitmark_example.bit
+<<<<./tests/GMB/bitmark_example.bit
 [
     {
         "bitmark": "[.multiple-choice-1]\n[!What color is milk?]\n[+white]\n[-red]\n[-blue]",
@@ -11028,7 +11028,7 @@
         }
     }
 ]
-<<<<../tests/vocab1.bit
+<<<<./tests/vocab1.bit
 [
     {
         "bitmark": "[.vocabulary]\nBasic english vocabulary\n===\nWoche\n[&image:https://media/images/calendar_week.jpg]\n[@language:de]\n[@pos:noun]\n[@gender:f]\n[@number:singular]\n==\nweek\n[@language:en]\n[@ipa:'wi:k]\n[@pronunciation:https://media/audio/week.mp3]\n==\nAlex tells Sandra that his band will be playing in Kensington next week.\n[@language:en]\n===\nfeste Freundin\n[@language:de]\n[@pos:noun]\n==\ngirlfriend [!m. boyfriend]\n[@language:en]\n[@ipa:ˈɡɜːlfrɛnd]\n[@pronunciation:https://media/audio/girlfriend.mp3]\n==\nAlex tells Sandra that his band will be playing in Kensington next week.\n[@language:en]\n===",
@@ -11080,7 +11080,7 @@
     }
 ]
 
-<<<<../tests/vocab2.bit 
+<<<<./tests/vocab2.bit 
 [
     {
         "bitmark": "[.vocabulary-1]\nSeitenlinie\n[@language:de]\n==\nside line\n[@language:en-gb]\n[@ipa:ˈsʌɪdlʌɪn]\n[@pronunciation::media/audio/sideline_brit.mp3]\n--\nside line\n[@language:en-us]\n[@ipa:ˈssaɪdlaɪn]\n[@pronunciation::media/audio/sideline_us.mp3]\n--\ntouch line\n[@language:en]",
