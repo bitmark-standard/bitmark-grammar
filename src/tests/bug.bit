@@ -1,4 +1,4 @@
-[.book:bitmark++]
+[.book&pdf]
 
 [@example:]
 [@botAnnouceAt: Allein zu Haus]
@@ -11,4 +11,32 @@
 
 ::image::
 @src2x:https://cdn.bitbook.education/cat.jpg
+::
+
+[.button-copy-text:bitmark++]
+[@ageRange:18][@ageRange:120]
+[@language:en]
+[@language:jp]
+[@language:cn]
+
+**Some bold text,**
+followed by some plain text. cloze open close cloze1 book.
+[&image:https://cdn.bitbook.education/cat.jpg]
+
+Some more text.
+::remark::
+::
+
+[.wbt-continue:bitmark++]
+[@ageRange:18][@ageRange:120]
+[@language:en]
+[@language:jp]
+[@language:cn]
+
+**Some bold text,**
+followed by some plain text. cloze open close cloze1 book.
+[&image:https://cdn.bitbook.education/cat.jpg]
+
+Some more text.
+::remark::
 ::

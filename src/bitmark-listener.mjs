@@ -28,11 +28,11 @@ let BitmarkListener = function(error_listener, source, parser) {
   this.resformat = "";
   this.reslist = ['&image', '&audio', '&video',
 		  '&document', '&app', '&website', '&stillImageFilm',
-		  'collection', 'book', 'pdf'];
+		  '&pdf'];
   this.atdef_str = ['date', 'location', 'book', 'duration', 'action', 'deepLink',
 		    'botAnnounceAt', 'botSaveAt', 'botSendAt', 'botRemindAt',
 		    'externalLink', 'videoCallLink', 'externalLinkText', 'textReference',
-		    'quotedPerson', 'kind', 
+		    'quotedPerson', 'kind', 'collection', 'book',
 		   ];
   this.body_key = 'body';
   this.num_angleref = 0;
@@ -1700,6 +1700,16 @@ BitmarkListener.prototype.enterDetails = function(ctx) {
   // same as article
   this.push_tmpl(ctx, 'details-1', R_clone(JSON_BIT_TEMPLATES.Article_bit));
 };
+BitmarkListener.prototype.enterWbtcontinue = function(ctx) { 
+  // same as article
+  this.push_tmpl(ctx, 'wbt-continue', R_clone(JSON_BIT_TEMPLATES.Article_bit));
+};
+BitmarkListener.prototype.enterButtoncopytext = function(ctx) { 
+  // same as article
+  this.push_tmpl(ctx, 'button-copy-text', R_clone(JSON_BIT_TEMPLATES.Article_bit));
+};
+
+
 //BitmarkListener.prototype.exitArticle = function(ctx) {};
 // Enter a parse tree produced by bitmarkParser#article.
 BitmarkListener.prototype.enterPage = function(ctx) { 
@@ -1936,7 +1946,7 @@ BitmarkListener.prototype.exitImage_one = function(ctx) {
     (this.stk.top()).bit[slot][key]['provider'] = this.but.get_domain_from_url(url);    
   }  
   else if (key !== 'pimage' && bittype != 'interview') { // not match-pair
-    slot= 'excessResources';
+    const slot= 'excessResources';
     if ((this.stk.top()).parser == undefined)
       (this.stk.top())['parser'] = {};
     if ((this.stk.top()).parser[slot]===undefined)

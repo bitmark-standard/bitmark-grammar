@@ -1,6 +1,6 @@
 {
   "name": "@getMoreBrain/bitmark-grammar",
-  "version": "2.3.7",
+  "version": "2.3.8",
   "publishConfig": {
     "access": "restricted",
     "registry": "https://npm.pkg.github.com/getMoreBrain"
@@ -10,10 +10,10 @@
   },
   "description": "",
   "scripts": {
-    "build": "export BITMARK_BUNDLE_VERSION=2.3.7 && npm run compile-grammar && npm run build-bundle",
-    "build-nc": "export BITMARK_BUNDLE_VERSION=2.3.7 && npm run build-bundle",
-    "build-light": "export BITMARK_BUNDLE_VERSION=2.3.7 && npm run build-bundle-nc",
-    "set-envvar": "export BITMARK_BUNDLE_VERSION=2.3.7",
+    "build": "export BITMARK_BUNDLE_VERSION=2.3.8 && npm run compile-grammar && npm run build-bundle",
+    "build-nc": "export BITMARK_BUNDLE_VERSION=2.3.8 && npm run build-bundle",
+    "build-light": "export BITMARK_BUNDLE_VERSION=2.3.8 && npm run build-bundle-nc",
+    "set-envvar": "export BITMARK_BUNDLE_VERSION=2.3.8",
     "compile-grammar": "cd src && make -f makefile-es6.mk es6",
     "build-bundle": "cd webpack && make -f makefile-es6.mk update",
     "build-bundle-nc": "cd webpack && make -f makefile-es6.noclosure.mk update"

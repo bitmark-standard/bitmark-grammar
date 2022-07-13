@@ -59,6 +59,8 @@ BitStickynote:	 NL OPDOT S* 'sticky-note';
 BitQuote:	 NL OPDOT S* 'quote' ;
 BitFootnote:	 NL OPDOT S* 'foot-note' ;
 BitExample:	 NL OPDOT S* 'example' ;
+BitButtonCopytext: NL OPDOT S* 'button-copy-text' ;
+BitWbtContinue:	 NL OPDOT S* 'wbt-continue' ;
 
 // New April 2022
 BitLearningPathLti:          NL OPDOT S* 'learning-path-lti' ;

@@ -45,6 +45,7 @@ bit:
 	| article
 	| statement		// 6/16/2022
 	| details		// 6/18/2022
+	| buttoncopytext | wbtcontinue
 	| note | info | warning | remark | hintbit | help | danger | bug    // 02/06/22
 	| sidenote | stickynote | quote | footnote | examplebit  // 02/06/22
 	| page
@@ -245,12 +246,10 @@ assignment:
 article:
     BitArticle format CL NL* ( bitElem NL* )+
 ;
-statement:
-    BitStatement format CL NL* ( bitElem NL* )+
-;
-details:
-    BitDetails format CL NL* ( bitElem NL* )+
-;
+statement: BitStatement format CL NL* ( bitElem NL* )+ ;
+details:   BitDetails format CL NL* ( bitElem NL* )+ ;
+buttoncopytext:  BitButtonCopytext format CL NL* ( bitElem NL* )+ ;
+wbtcontinue: BitWbtContinue format CL NL* ( bitElem NL* )+ ;
 
 // May 20,2021
 page:		BitPage format CL NL* ( bitElem NL* )+ ;
@@ -334,6 +333,7 @@ resource_format:
 resource_format_extra:
    image_format | audio_format | video_format | article_format
   | document_format | app_format | website_format | stillimagefilm_format
+  | AmpPdf
 ;
 
 //

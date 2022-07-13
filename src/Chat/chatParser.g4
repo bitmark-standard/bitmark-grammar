@@ -107,6 +107,7 @@ resource_format:
 resource_format_extra:
    image_format | audio_format | video_format | article_format
   | document_format | app_format | website_format | stillimagefilm_format
+  | AmpPdf
 ;
 
 //

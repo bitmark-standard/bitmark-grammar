@@ -147,6 +147,7 @@ AmpDocument:     '&document' ;
 AmpApp:        	 '&app' ;
 AmpWebsite:      '&website' ;  // NEW added 12/2/2020 usage [.message&website]..
 AmpStillImageFilm:'&stillImageFilm' ;
+AmpPdf:	         '&pdf' ;
 
 OpAmpAudio:	 '[&' S* 'audio' ;
 OpAmpImage:	 '[&' S* 'image' ;

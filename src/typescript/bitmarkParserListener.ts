@@ -54,6 +54,8 @@ import { AssignmentContext } from "./bitmarkParser";
 import { ArticleContext } from "./bitmarkParser";
 import { StatementContext } from "./bitmarkParser";
 import { DetailsContext } from "./bitmarkParser";
+import { ButtoncopytextContext } from "./bitmarkParser";
+import { WbtcontinueContext } from "./bitmarkParser";
 import { PageContext } from "./bitmarkParser";
 import { NoteContext } from "./bitmarkParser";
 import { InfoContext } from "./bitmarkParser";
@@ -712,6 +714,28 @@ export interface bitmarkParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitDetails?: (ctx: DetailsContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.buttoncopytext`.
+	 * @param ctx the parse tree
+	 */
+	enterButtoncopytext?: (ctx: ButtoncopytextContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.buttoncopytext`.
+	 * @param ctx the parse tree
+	 */
+	exitButtoncopytext?: (ctx: ButtoncopytextContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.wbtcontinue`.
+	 * @param ctx the parse tree
+	 */
+	enterWbtcontinue?: (ctx: WbtcontinueContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.wbtcontinue`.
+	 * @param ctx the parse tree
+	 */
+	exitWbtcontinue?: (ctx: WbtcontinueContext) => void;
 
 	/**
 	 * Enter a parse tree produced by `bitmarkParser.page`.
