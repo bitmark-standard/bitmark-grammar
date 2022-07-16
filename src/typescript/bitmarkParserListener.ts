@@ -56,6 +56,7 @@ import { StatementContext } from "./bitmarkParser";
 import { DetailsContext } from "./bitmarkParser";
 import { ButtoncopytextContext } from "./bitmarkParser";
 import { WbtcontinueContext } from "./bitmarkParser";
+import { LearningpathdetailsContext } from "./bitmarkParser";
 import { PageContext } from "./bitmarkParser";
 import { NoteContext } from "./bitmarkParser";
 import { InfoContext } from "./bitmarkParser";
@@ -736,6 +737,17 @@ export interface bitmarkParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitWbtcontinue?: (ctx: WbtcontinueContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.learningpathdetails`.
+	 * @param ctx the parse tree
+	 */
+	enterLearningpathdetails?: (ctx: LearningpathdetailsContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.learningpathdetails`.
+	 * @param ctx the parse tree
+	 */
+	exitLearningpathdetails?: (ctx: LearningpathdetailsContext) => void;
 
 	/**
 	 * Enter a parse tree produced by `bitmarkParser.page`.

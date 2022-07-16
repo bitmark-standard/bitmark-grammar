@@ -1708,7 +1708,10 @@ BitmarkListener.prototype.enterButtoncopytext = function(ctx) {
   // same as article
   this.push_tmpl(ctx, 'button-copy-text', R_clone(JSON_BIT_TEMPLATES.Article_bit));
 };
-
+BitmarkListener.prototype.enterLearningpathdetails = function(ctx) { 
+  // same as article
+  this.push_tmpl(ctx, 'learning-path-details', R_clone(JSON_BIT_TEMPLATES.Article_bit));
+};
 
 //BitmarkListener.prototype.exitArticle = function(ctx) {};
 // Enter a parse tree produced by bitmarkParser#article.
