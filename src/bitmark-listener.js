@@ -29,8 +29,9 @@ let BitmarkListener = function(error_listener, source, parser) {
   this.format = "";  // &image, &audio, &video etc
   this.resformat = "";
   this.reslist = ['&image', '&audio', '&video',
-		  '&document', '&app', '&website', '&stillImageFilm',
-		  '&pdf'];
+		  '&document', '&app', '&website', '&stillImageFilm', '&pdf'];
+  this.fmtlist = ['prosemirror', 'placeholder', 'text'];
+  
   this.atdef_str = ['date', 'location', 'book', 'duration', 'action', 'deepLink',
 		    'botAnnounceAt', 'botSaveAt', 'botSendAt', 'botRemindAt',
 		    'externalLink', 'videoCallLink', 'externalLinkText', 'textReference',
@@ -78,7 +79,9 @@ BitmarkListener.prototype.push_tmpl = function(ctx, type, template) {
   let res = this.but.get_bit_resource(code);
   // closing ] may be there
   this.resformat = res.length === 0 ? 'bitmark--' : res[0];
-  
+  if (this.fmtlist.indexOf(this.resformat) >= 0)
+      b.bit.format = this.resformat; // 8/1/2022
+
   this.stk.push(b);
 };
 //
@@ -685,7 +688,6 @@ BitmarkListener.prototype.exitHighlight_inline_choices = function(ctx) {
   let code = this.but.getcode(ctx);
   let key = this.curr_bit_stk.pop();
 
-  //console.log('exitHighlight_inline_choices  '+code);
   // replace the choices with the placeholder seq num
   code = code.replace(/\[[^\+\-][^\]]+\]/g, '');
   this.stk.top().bit['body'] = this.stk.top().bit['body'].replace(code, key);
@@ -1875,16 +1877,18 @@ BitmarkListener.prototype.exitResource_format = function(ctx) {
     this.format = fmt;  // @1
     this.stk.top().bit.format = fmt.substring(1);
   }
-  else
+  else {
     this.resformat = fmt;
+  }
 };
 BitmarkListener.prototype.exitResource_format_extra = function(ctx) {
   let fmt = this.but.remove_close_bracket_and_follow(this.but.getcode(ctx));
   if (fmt.startsWith(':bitmark')) {
     this.format = fmt;  // @2
   }
-  else
+  else {
     this.resformat = fmt;
+  }
 };
 
 BitmarkListener.prototype.enterPimage_one = function(ctx) {

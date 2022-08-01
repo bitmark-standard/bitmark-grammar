@@ -217,7 +217,8 @@ format:
  ( resource_format )* ( ColonText | resource_format_extra )*
 ;
 resource_format:
-   BitmarkMinus | BitmarkPlus | AmpArticle | AmpDocument 
+   BitmarkMinus | BitmarkPlus | Prosemirror | Placeholder
+ | AmpArticle | AmpDocument 
  | AmpWebsite | AmpStillImageFilm
  | AmpAudioLink | AmpImageLink | AmpVideoLink | AmpArticleLink
  | AmpDocumentLink | AmpAppLink | AmpWebsiteLink | AmpStillImageFilmLink

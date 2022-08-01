@@ -676,7 +676,7 @@
         "bitmark": "[.book:text]\n[! this is my book]\n[# Erkundungen]\n[##  Deutsch als Fremdsprache]\n[@subject: Integriertes Kurs- und Arbeitsbuch Sprachniveau B2]\n[@ language:en]\n[@ copyright: © 2012 by A Publisher International Ltd., Zurich, Switzerland]\n[@ skills: reading]\n[@ ageRange: 18, 969]\n[@ complexity: intermediate]\n[@seriesTitle: German as a Foreign Language]\n[@seriesId: com.firstpub.e0111]\n[@numberInSeries: 1]\n[@format: Integrated course and work book]\n[@type: book]\n[@isLiveBook: false]\n[@isSmartBook: false]\n[@isHighQuality: true]",
         "bit": {
             "type": "book",
-            "format": "bitmark--",
+            "format": "text",
             "body": "",
             "item": "",
             "hint": "",

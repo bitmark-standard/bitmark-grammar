@@ -148,23 +148,25 @@ export class matchParser extends Parser {
 	public static readonly BitmarkMinus = 120;
 	public static readonly BitmarkPlus = 121;
 	public static readonly ColonText = 122;
-	public static readonly BASIC = 123;
-	public static readonly JPG = 124;
-	public static readonly PNG = 125;
-	public static readonly GIF = 126;
-	public static readonly SVG = 127;
-	public static readonly MP2 = 128;
-	public static readonly MP3 = 129;
-	public static readonly MP4 = 130;
-	public static readonly FLV = 131;
-	public static readonly WMV = 132;
-	public static readonly MPEG = 133;
-	public static readonly MPG = 134;
-	public static readonly TEL = 135;
-	public static readonly DotArticleAtt = 136;
-	public static readonly STAR = 137;
-	public static readonly URL = 138;
-	public static readonly LIST_LINE = 139;
+	public static readonly Prosemirror = 123;
+	public static readonly Placeholder = 124;
+	public static readonly BASIC = 125;
+	public static readonly JPG = 126;
+	public static readonly PNG = 127;
+	public static readonly GIF = 128;
+	public static readonly SVG = 129;
+	public static readonly MP2 = 130;
+	public static readonly MP3 = 131;
+	public static readonly MP4 = 132;
+	public static readonly FLV = 133;
+	public static readonly WMV = 134;
+	public static readonly MPEG = 135;
+	public static readonly MPG = 136;
+	public static readonly TEL = 137;
+	public static readonly DotArticleAtt = 138;
+	public static readonly STAR = 139;
+	public static readonly URL = 140;
+	public static readonly LIST_LINE = 141;
 	public static readonly RULE_bitmark = 0;
 	public static readonly RULE_bitmark_ = 1;
 	public static readonly RULE_matches = 2;
@@ -333,9 +335,10 @@ export class matchParser extends Parser {
 		"'&imageLink'", "'&videoLink'", "'&articleLink'", "'&documentLink'", "'&appLink'", 
 		"'&websiteLink'", "'&stillImageFilmLink'", undefined, undefined, undefined, 
 		undefined, undefined, undefined, undefined, undefined, "':bitmark--'", 
-		"':bitmark++'", "':text'", "':basic'", "':jpg'", "':png'", "':gif'", "':svg'", 
-		"':mp2'", "':mp3'", "':mp4'", "':flv'", "':wmv'", "':mpeg'", "':mpg'", 
-		"'tel:'", "'.article-attachment'", "'*'",
+		"':bitmark++'", "':text'", "':prosemirror'", "':placeholder'", "':basic'", 
+		"':jpg'", "':png'", "':gif'", "':svg'", "':mp2'", "':mp3'", "':mp4'", 
+		"':flv'", "':wmv'", "':mpeg'", "':mpg'", "'tel:'", "'.article-attachment'", 
+		"'*'",
 	];
 	private static readonly _SYMBOLIC_NAMES: Array<string | undefined> = [
 		undefined, "OPDOT", "S", "OP", "BitMatch", "BitMatchmatrix", "BitMatchall", 
@@ -359,8 +362,9 @@ export class matchParser extends Parser {
 		"AmpWebsiteLink", "AmpStillImageFilmLink", "OpAmpAudioLink", "OpAmpImageLink", 
 		"OpAmpVideoLink", "OpAmpArticleLink", "OpAmpDocumentLink", "OpAmpAppLink", 
 		"OpAmpWebsiteLink", "OpAmpStillImageFilmLink", "BitmarkMinus", "BitmarkPlus", 
-		"ColonText", "BASIC", "JPG", "PNG", "GIF", "SVG", "MP2", "MP3", "MP4", 
-		"FLV", "WMV", "MPEG", "MPG", "TEL", "DotArticleAtt", "STAR", "URL", "LIST_LINE",
+		"ColonText", "Prosemirror", "Placeholder", "BASIC", "JPG", "PNG", "GIF", 
+		"SVG", "MP2", "MP3", "MP4", "FLV", "WMV", "MPEG", "MPG", "TEL", "DotArticleAtt", 
+		"STAR", "URL", "LIST_LINE",
 	];
 	public static readonly VOCABULARY: Vocabulary = new VocabularyImpl(matchParser._LITERAL_NAMES, matchParser._SYMBOLIC_NAMES, []);
 
@@ -4822,7 +4826,7 @@ export class matchParser extends Parser {
 			{
 			this.state = 1292;
 			_la = this._input.LA(1);
-			if (!(((((_la - 86)) & ~0x1F) === 0 && ((1 << (_la - 86)) & ((1 << (matchParser.AmpArticle - 86)) | (1 << (matchParser.AmpDocument - 86)) | (1 << (matchParser.AmpWebsite - 86)) | (1 << (matchParser.AmpStillImageFilm - 86)) | (1 << (matchParser.AmpAudioLink - 86)) | (1 << (matchParser.AmpImageLink - 86)) | (1 << (matchParser.AmpVideoLink - 86)) | (1 << (matchParser.AmpArticleLink - 86)) | (1 << (matchParser.AmpDocumentLink - 86)) | (1 << (matchParser.AmpAppLink - 86)) | (1 << (matchParser.AmpWebsiteLink - 86)) | (1 << (matchParser.AmpStillImageFilmLink - 86)))) !== 0) || _la === matchParser.BitmarkMinus || _la === matchParser.BitmarkPlus)) {
+			if (!(((((_la - 86)) & ~0x1F) === 0 && ((1 << (_la - 86)) & ((1 << (matchParser.AmpArticle - 86)) | (1 << (matchParser.AmpDocument - 86)) | (1 << (matchParser.AmpWebsite - 86)) | (1 << (matchParser.AmpStillImageFilm - 86)) | (1 << (matchParser.AmpAudioLink - 86)) | (1 << (matchParser.AmpImageLink - 86)) | (1 << (matchParser.AmpVideoLink - 86)) | (1 << (matchParser.AmpArticleLink - 86)) | (1 << (matchParser.AmpDocumentLink - 86)) | (1 << (matchParser.AmpAppLink - 86)) | (1 << (matchParser.AmpWebsiteLink - 86)) | (1 << (matchParser.AmpStillImageFilmLink - 86)))) !== 0) || ((((_la - 120)) & ~0x1F) === 0 && ((1 << (_la - 120)) & ((1 << (matchParser.BitmarkMinus - 120)) | (1 << (matchParser.BitmarkPlus - 120)) | (1 << (matchParser.Prosemirror - 120)) | (1 << (matchParser.Placeholder - 120)))) !== 0))) {
 			this._errHandler.recoverInline(this);
 			} else {
 				if (this._input.LA(1) === Token.EOF) {
@@ -7713,7 +7717,7 @@ export class matchParser extends Parser {
 				this.state = 1785;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-			} while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << matchParser.OPDOT) | (1 << matchParser.S) | (1 << matchParser.OP) | (1 << matchParser.BitMatch) | (1 << matchParser.BitMatchmatrix) | (1 << matchParser.BitMatchall) | (1 << matchParser.BitMatchrev) | (1 << matchParser.BitMatchallrev) | (1 << matchParser.BitMatchpic) | (1 << matchParser.BitMatchaudio) | (1 << matchParser.BitMatchsolgrp) | (1 << matchParser.COMMENT) | (1 << matchParser.Image_type) | (1 << matchParser.Audio_type) | (1 << matchParser.Video_type) | (1 << matchParser.OPDOLL) | (1 << matchParser.OPBUL) | (1 << matchParser.OPRANGLES) | (1 << matchParser.OPRANGLEL) | (1 << matchParser.OPDANGLE) | (1 << matchParser.OPU) | (1 << matchParser.OPB) | (1 << matchParser.OPQ) | (1 << matchParser.OPA) | (1 << matchParser.OPP) | (1 << matchParser.OPM) | (1 << matchParser.OPS) | (1 << matchParser.OPR) | (1 << matchParser.OPC) | (1 << matchParser.OPHASH))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (matchParser.COLON - 32)) | (1 << (matchParser.AMP - 32)) | (1 << (matchParser.DBLCOLON - 32)) | (1 << (matchParser.PLUS - 32)) | (1 << (matchParser.DotAt - 32)) | (1 << (matchParser.Greater - 32)) | (1 << (matchParser.Less - 32)) | (1 << (matchParser.DOT - 32)) | (1 << (matchParser.RightAngle - 32)) | (1 << (matchParser.RightArrow - 32)) | (1 << (matchParser.EQ - 32)) | (1 << (matchParser.HSPL - 32)) | (1 << (matchParser.OR - 32)) | (1 << (matchParser.TENSE - 32)) | (1 << (matchParser.DCANY - 32)) | (1 << (matchParser.ArticleText - 32)) | (1 << (matchParser.NOTCL - 32)) | (1 << (matchParser.NUMERIC - 32)) | (1 << (matchParser.STRING - 32)) | (1 << (matchParser.NL - 32)) | (1 << (matchParser.SENTENCE - 32)) | (1 << (matchParser.OPAT - 32)) | (1 << (matchParser.AtProgress - 32)) | (1 << (matchParser.AtReference - 32)) | (1 << (matchParser.AtWidth - 32)) | (1 << (matchParser.AtHeight - 32)) | (1 << (matchParser.AtProgressPoints - 32)) | (1 << (matchParser.AtShortanswer - 32)) | (1 << (matchParser.AtLonganswer - 32)) | (1 << (matchParser.AtExampleWithStr - 32)) | (1 << (matchParser.AtExamplecol - 32)) | (1 << (matchParser.AtExamplecl - 32)))) !== 0) || ((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (matchParser.AtPartialAnswerS - 64)) | (1 << (matchParser.AtPartialAnswer - 64)) | (1 << (matchParser.AtLabeltrue - 64)) | (1 << (matchParser.AtLabelfalse - 64)) | (1 << (matchParser.AtPoints - 64)) | (1 << (matchParser.AtSrc - 64)) | (1 << (matchParser.OPATALT - 64)) | (1 << (matchParser.OPAMARK - 64)) | (1 << (matchParser.ShowInIndex - 64)) | (1 << (matchParser.OpAtCaption - 64)) | (1 << (matchParser.OpAtLicense - 64)) | (1 << (matchParser.OpAtCopyright - 64)) | (1 << (matchParser.OpAtIsTracked - 64)) | (1 << (matchParser.OpAtIsInfoOnly - 64)) | (1 << (matchParser.AtDate - 64)) | (1 << (matchParser.Http - 64)) | (1 << (matchParser.Https - 64)) | (1 << (matchParser.AmpAudio - 64)) | (1 << (matchParser.AmpImage - 64)) | (1 << (matchParser.AmpImageZoom - 64)) | (1 << (matchParser.AmpImageWAudio - 64)) | (1 << (matchParser.AmpVideo - 64)) | (1 << (matchParser.AmpArticle - 64)) | (1 << (matchParser.AmpDocument - 64)) | (1 << (matchParser.AmpApp - 64)) | (1 << (matchParser.AmpWebsite - 64)) | (1 << (matchParser.AmpStillImageFilm - 64)) | (1 << (matchParser.AmpPdf - 64)) | (1 << (matchParser.OpAmpAudio - 64)) | (1 << (matchParser.OpAmpImage - 64)) | (1 << (matchParser.OpAmpImageZoom - 64)) | (1 << (matchParser.OpAmpImageWAudio - 64)))) !== 0) || ((((_la - 96)) & ~0x1F) === 0 && ((1 << (_la - 96)) & ((1 << (matchParser.OpAmpVideo - 96)) | (1 << (matchParser.OpAmpArticle - 96)) | (1 << (matchParser.OpAmpArticleAtt - 96)) | (1 << (matchParser.OpAmpDocument - 96)) | (1 << (matchParser.OpAmpApp - 96)) | (1 << (matchParser.OpAmpWebsite - 96)) | (1 << (matchParser.OpAmpStillImageFilm - 96)) | (1 << (matchParser.BracEnclose - 96)) | (1 << (matchParser.AmpAudioLink - 96)) | (1 << (matchParser.AmpImageLink - 96)) | (1 << (matchParser.AmpVideoLink - 96)) | (1 << (matchParser.AmpArticleLink - 96)) | (1 << (matchParser.AmpDocumentLink - 96)) | (1 << (matchParser.AmpAppLink - 96)) | (1 << (matchParser.AmpWebsiteLink - 96)) | (1 << (matchParser.AmpStillImageFilmLink - 96)) | (1 << (matchParser.OpAmpAudioLink - 96)) | (1 << (matchParser.OpAmpImageLink - 96)) | (1 << (matchParser.OpAmpVideoLink - 96)) | (1 << (matchParser.OpAmpArticleLink - 96)) | (1 << (matchParser.OpAmpDocumentLink - 96)) | (1 << (matchParser.OpAmpAppLink - 96)) | (1 << (matchParser.OpAmpWebsiteLink - 96)) | (1 << (matchParser.OpAmpStillImageFilmLink - 96)) | (1 << (matchParser.BitmarkMinus - 96)) | (1 << (matchParser.BitmarkPlus - 96)) | (1 << (matchParser.ColonText - 96)) | (1 << (matchParser.BASIC - 96)) | (1 << (matchParser.JPG - 96)) | (1 << (matchParser.PNG - 96)) | (1 << (matchParser.GIF - 96)) | (1 << (matchParser.SVG - 96)))) !== 0) || ((((_la - 128)) & ~0x1F) === 0 && ((1 << (_la - 128)) & ((1 << (matchParser.MP2 - 128)) | (1 << (matchParser.MP3 - 128)) | (1 << (matchParser.MP4 - 128)) | (1 << (matchParser.FLV - 128)) | (1 << (matchParser.WMV - 128)) | (1 << (matchParser.MPEG - 128)) | (1 << (matchParser.MPG - 128)) | (1 << (matchParser.TEL - 128)) | (1 << (matchParser.DotArticleAtt - 128)) | (1 << (matchParser.STAR - 128)) | (1 << (matchParser.URL - 128)) | (1 << (matchParser.LIST_LINE - 128)))) !== 0));
+			} while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << matchParser.OPDOT) | (1 << matchParser.S) | (1 << matchParser.OP) | (1 << matchParser.BitMatch) | (1 << matchParser.BitMatchmatrix) | (1 << matchParser.BitMatchall) | (1 << matchParser.BitMatchrev) | (1 << matchParser.BitMatchallrev) | (1 << matchParser.BitMatchpic) | (1 << matchParser.BitMatchaudio) | (1 << matchParser.BitMatchsolgrp) | (1 << matchParser.COMMENT) | (1 << matchParser.Image_type) | (1 << matchParser.Audio_type) | (1 << matchParser.Video_type) | (1 << matchParser.OPDOLL) | (1 << matchParser.OPBUL) | (1 << matchParser.OPRANGLES) | (1 << matchParser.OPRANGLEL) | (1 << matchParser.OPDANGLE) | (1 << matchParser.OPU) | (1 << matchParser.OPB) | (1 << matchParser.OPQ) | (1 << matchParser.OPA) | (1 << matchParser.OPP) | (1 << matchParser.OPM) | (1 << matchParser.OPS) | (1 << matchParser.OPR) | (1 << matchParser.OPC) | (1 << matchParser.OPHASH))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (matchParser.COLON - 32)) | (1 << (matchParser.AMP - 32)) | (1 << (matchParser.DBLCOLON - 32)) | (1 << (matchParser.PLUS - 32)) | (1 << (matchParser.DotAt - 32)) | (1 << (matchParser.Greater - 32)) | (1 << (matchParser.Less - 32)) | (1 << (matchParser.DOT - 32)) | (1 << (matchParser.RightAngle - 32)) | (1 << (matchParser.RightArrow - 32)) | (1 << (matchParser.EQ - 32)) | (1 << (matchParser.HSPL - 32)) | (1 << (matchParser.OR - 32)) | (1 << (matchParser.TENSE - 32)) | (1 << (matchParser.DCANY - 32)) | (1 << (matchParser.ArticleText - 32)) | (1 << (matchParser.NOTCL - 32)) | (1 << (matchParser.NUMERIC - 32)) | (1 << (matchParser.STRING - 32)) | (1 << (matchParser.NL - 32)) | (1 << (matchParser.SENTENCE - 32)) | (1 << (matchParser.OPAT - 32)) | (1 << (matchParser.AtProgress - 32)) | (1 << (matchParser.AtReference - 32)) | (1 << (matchParser.AtWidth - 32)) | (1 << (matchParser.AtHeight - 32)) | (1 << (matchParser.AtProgressPoints - 32)) | (1 << (matchParser.AtShortanswer - 32)) | (1 << (matchParser.AtLonganswer - 32)) | (1 << (matchParser.AtExampleWithStr - 32)) | (1 << (matchParser.AtExamplecol - 32)) | (1 << (matchParser.AtExamplecl - 32)))) !== 0) || ((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (matchParser.AtPartialAnswerS - 64)) | (1 << (matchParser.AtPartialAnswer - 64)) | (1 << (matchParser.AtLabeltrue - 64)) | (1 << (matchParser.AtLabelfalse - 64)) | (1 << (matchParser.AtPoints - 64)) | (1 << (matchParser.AtSrc - 64)) | (1 << (matchParser.OPATALT - 64)) | (1 << (matchParser.OPAMARK - 64)) | (1 << (matchParser.ShowInIndex - 64)) | (1 << (matchParser.OpAtCaption - 64)) | (1 << (matchParser.OpAtLicense - 64)) | (1 << (matchParser.OpAtCopyright - 64)) | (1 << (matchParser.OpAtIsTracked - 64)) | (1 << (matchParser.OpAtIsInfoOnly - 64)) | (1 << (matchParser.AtDate - 64)) | (1 << (matchParser.Http - 64)) | (1 << (matchParser.Https - 64)) | (1 << (matchParser.AmpAudio - 64)) | (1 << (matchParser.AmpImage - 64)) | (1 << (matchParser.AmpImageZoom - 64)) | (1 << (matchParser.AmpImageWAudio - 64)) | (1 << (matchParser.AmpVideo - 64)) | (1 << (matchParser.AmpArticle - 64)) | (1 << (matchParser.AmpDocument - 64)) | (1 << (matchParser.AmpApp - 64)) | (1 << (matchParser.AmpWebsite - 64)) | (1 << (matchParser.AmpStillImageFilm - 64)) | (1 << (matchParser.AmpPdf - 64)) | (1 << (matchParser.OpAmpAudio - 64)) | (1 << (matchParser.OpAmpImage - 64)) | (1 << (matchParser.OpAmpImageZoom - 64)) | (1 << (matchParser.OpAmpImageWAudio - 64)))) !== 0) || ((((_la - 96)) & ~0x1F) === 0 && ((1 << (_la - 96)) & ((1 << (matchParser.OpAmpVideo - 96)) | (1 << (matchParser.OpAmpArticle - 96)) | (1 << (matchParser.OpAmpArticleAtt - 96)) | (1 << (matchParser.OpAmpDocument - 96)) | (1 << (matchParser.OpAmpApp - 96)) | (1 << (matchParser.OpAmpWebsite - 96)) | (1 << (matchParser.OpAmpStillImageFilm - 96)) | (1 << (matchParser.BracEnclose - 96)) | (1 << (matchParser.AmpAudioLink - 96)) | (1 << (matchParser.AmpImageLink - 96)) | (1 << (matchParser.AmpVideoLink - 96)) | (1 << (matchParser.AmpArticleLink - 96)) | (1 << (matchParser.AmpDocumentLink - 96)) | (1 << (matchParser.AmpAppLink - 96)) | (1 << (matchParser.AmpWebsiteLink - 96)) | (1 << (matchParser.AmpStillImageFilmLink - 96)) | (1 << (matchParser.OpAmpAudioLink - 96)) | (1 << (matchParser.OpAmpImageLink - 96)) | (1 << (matchParser.OpAmpVideoLink - 96)) | (1 << (matchParser.OpAmpArticleLink - 96)) | (1 << (matchParser.OpAmpDocumentLink - 96)) | (1 << (matchParser.OpAmpAppLink - 96)) | (1 << (matchParser.OpAmpWebsiteLink - 96)) | (1 << (matchParser.OpAmpStillImageFilmLink - 96)) | (1 << (matchParser.BitmarkMinus - 96)) | (1 << (matchParser.BitmarkPlus - 96)) | (1 << (matchParser.ColonText - 96)) | (1 << (matchParser.Prosemirror - 96)) | (1 << (matchParser.Placeholder - 96)) | (1 << (matchParser.BASIC - 96)) | (1 << (matchParser.JPG - 96)) | (1 << (matchParser.PNG - 96)))) !== 0) || ((((_la - 128)) & ~0x1F) === 0 && ((1 << (_la - 128)) & ((1 << (matchParser.GIF - 128)) | (1 << (matchParser.SVG - 128)) | (1 << (matchParser.MP2 - 128)) | (1 << (matchParser.MP3 - 128)) | (1 << (matchParser.MP4 - 128)) | (1 << (matchParser.FLV - 128)) | (1 << (matchParser.WMV - 128)) | (1 << (matchParser.MPEG - 128)) | (1 << (matchParser.MPG - 128)) | (1 << (matchParser.TEL - 128)) | (1 << (matchParser.DotArticleAtt - 128)) | (1 << (matchParser.STAR - 128)) | (1 << (matchParser.URL - 128)) | (1 << (matchParser.LIST_LINE - 128)))) !== 0));
 			this.state = 1787;
 			this.match(matchParser.CL);
 			}
@@ -8371,7 +8375,7 @@ export class matchParser extends Parser {
 				this.state = 1904;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-			} while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << matchParser.OPDOT) | (1 << matchParser.S) | (1 << matchParser.OP) | (1 << matchParser.BitMatch) | (1 << matchParser.BitMatchmatrix) | (1 << matchParser.BitMatchall) | (1 << matchParser.BitMatchrev) | (1 << matchParser.BitMatchallrev) | (1 << matchParser.BitMatchpic) | (1 << matchParser.BitMatchaudio) | (1 << matchParser.BitMatchsolgrp) | (1 << matchParser.COMMENT) | (1 << matchParser.Image_type) | (1 << matchParser.Audio_type) | (1 << matchParser.Video_type) | (1 << matchParser.OPDOLL) | (1 << matchParser.OPBUL) | (1 << matchParser.OPRANGLES) | (1 << matchParser.OPRANGLEL) | (1 << matchParser.OPDANGLE) | (1 << matchParser.OPU) | (1 << matchParser.OPB) | (1 << matchParser.OPQ) | (1 << matchParser.OPA) | (1 << matchParser.OPP) | (1 << matchParser.OPM) | (1 << matchParser.OPS) | (1 << matchParser.OPR) | (1 << matchParser.OPC) | (1 << matchParser.OPHASH) | (1 << matchParser.CL))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (matchParser.COLON - 32)) | (1 << (matchParser.AMP - 32)) | (1 << (matchParser.PLUS - 32)) | (1 << (matchParser.DotAt - 32)) | (1 << (matchParser.Greater - 32)) | (1 << (matchParser.Less - 32)) | (1 << (matchParser.DOT - 32)) | (1 << (matchParser.RightAngle - 32)) | (1 << (matchParser.RightArrow - 32)) | (1 << (matchParser.EQ - 32)) | (1 << (matchParser.HSPL - 32)) | (1 << (matchParser.OR - 32)) | (1 << (matchParser.TENSE - 32)) | (1 << (matchParser.DCANY - 32)) | (1 << (matchParser.ArticleText - 32)) | (1 << (matchParser.NOTCL - 32)) | (1 << (matchParser.NUMERIC - 32)) | (1 << (matchParser.STRING - 32)) | (1 << (matchParser.NL - 32)) | (1 << (matchParser.SENTENCE - 32)) | (1 << (matchParser.OPAT - 32)) | (1 << (matchParser.AtProgress - 32)) | (1 << (matchParser.AtReference - 32)) | (1 << (matchParser.AtWidth - 32)) | (1 << (matchParser.AtHeight - 32)) | (1 << (matchParser.AtProgressPoints - 32)) | (1 << (matchParser.AtShortanswer - 32)) | (1 << (matchParser.AtLonganswer - 32)) | (1 << (matchParser.AtExampleWithStr - 32)) | (1 << (matchParser.AtExamplecol - 32)) | (1 << (matchParser.AtExamplecl - 32)))) !== 0) || ((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (matchParser.AtPartialAnswerS - 64)) | (1 << (matchParser.AtPartialAnswer - 64)) | (1 << (matchParser.AtLabeltrue - 64)) | (1 << (matchParser.AtLabelfalse - 64)) | (1 << (matchParser.AtPoints - 64)) | (1 << (matchParser.AtSrc - 64)) | (1 << (matchParser.OPATALT - 64)) | (1 << (matchParser.OPAMARK - 64)) | (1 << (matchParser.ShowInIndex - 64)) | (1 << (matchParser.OpAtCaption - 64)) | (1 << (matchParser.OpAtLicense - 64)) | (1 << (matchParser.OpAtCopyright - 64)) | (1 << (matchParser.OpAtIsTracked - 64)) | (1 << (matchParser.OpAtIsInfoOnly - 64)) | (1 << (matchParser.AtDate - 64)) | (1 << (matchParser.Http - 64)) | (1 << (matchParser.Https - 64)) | (1 << (matchParser.AmpAudio - 64)) | (1 << (matchParser.AmpImage - 64)) | (1 << (matchParser.AmpImageZoom - 64)) | (1 << (matchParser.AmpImageWAudio - 64)) | (1 << (matchParser.AmpVideo - 64)) | (1 << (matchParser.AmpArticle - 64)) | (1 << (matchParser.AmpDocument - 64)) | (1 << (matchParser.AmpApp - 64)) | (1 << (matchParser.AmpWebsite - 64)) | (1 << (matchParser.AmpStillImageFilm - 64)) | (1 << (matchParser.AmpPdf - 64)) | (1 << (matchParser.OpAmpAudio - 64)) | (1 << (matchParser.OpAmpImage - 64)) | (1 << (matchParser.OpAmpImageZoom - 64)) | (1 << (matchParser.OpAmpImageWAudio - 64)))) !== 0) || ((((_la - 96)) & ~0x1F) === 0 && ((1 << (_la - 96)) & ((1 << (matchParser.OpAmpVideo - 96)) | (1 << (matchParser.OpAmpArticle - 96)) | (1 << (matchParser.OpAmpArticleAtt - 96)) | (1 << (matchParser.OpAmpDocument - 96)) | (1 << (matchParser.OpAmpApp - 96)) | (1 << (matchParser.OpAmpWebsite - 96)) | (1 << (matchParser.OpAmpStillImageFilm - 96)) | (1 << (matchParser.BracEnclose - 96)) | (1 << (matchParser.AmpAudioLink - 96)) | (1 << (matchParser.AmpImageLink - 96)) | (1 << (matchParser.AmpVideoLink - 96)) | (1 << (matchParser.AmpArticleLink - 96)) | (1 << (matchParser.AmpDocumentLink - 96)) | (1 << (matchParser.AmpAppLink - 96)) | (1 << (matchParser.AmpWebsiteLink - 96)) | (1 << (matchParser.AmpStillImageFilmLink - 96)) | (1 << (matchParser.OpAmpAudioLink - 96)) | (1 << (matchParser.OpAmpImageLink - 96)) | (1 << (matchParser.OpAmpVideoLink - 96)) | (1 << (matchParser.OpAmpArticleLink - 96)) | (1 << (matchParser.OpAmpDocumentLink - 96)) | (1 << (matchParser.OpAmpAppLink - 96)) | (1 << (matchParser.OpAmpWebsiteLink - 96)) | (1 << (matchParser.OpAmpStillImageFilmLink - 96)) | (1 << (matchParser.BitmarkMinus - 96)) | (1 << (matchParser.BitmarkPlus - 96)) | (1 << (matchParser.ColonText - 96)) | (1 << (matchParser.BASIC - 96)) | (1 << (matchParser.JPG - 96)) | (1 << (matchParser.PNG - 96)) | (1 << (matchParser.GIF - 96)) | (1 << (matchParser.SVG - 96)))) !== 0) || ((((_la - 128)) & ~0x1F) === 0 && ((1 << (_la - 128)) & ((1 << (matchParser.MP2 - 128)) | (1 << (matchParser.MP3 - 128)) | (1 << (matchParser.MP4 - 128)) | (1 << (matchParser.FLV - 128)) | (1 << (matchParser.WMV - 128)) | (1 << (matchParser.MPEG - 128)) | (1 << (matchParser.MPG - 128)) | (1 << (matchParser.TEL - 128)) | (1 << (matchParser.DotArticleAtt - 128)) | (1 << (matchParser.STAR - 128)) | (1 << (matchParser.URL - 128)) | (1 << (matchParser.LIST_LINE - 128)))) !== 0));
+			} while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << matchParser.OPDOT) | (1 << matchParser.S) | (1 << matchParser.OP) | (1 << matchParser.BitMatch) | (1 << matchParser.BitMatchmatrix) | (1 << matchParser.BitMatchall) | (1 << matchParser.BitMatchrev) | (1 << matchParser.BitMatchallrev) | (1 << matchParser.BitMatchpic) | (1 << matchParser.BitMatchaudio) | (1 << matchParser.BitMatchsolgrp) | (1 << matchParser.COMMENT) | (1 << matchParser.Image_type) | (1 << matchParser.Audio_type) | (1 << matchParser.Video_type) | (1 << matchParser.OPDOLL) | (1 << matchParser.OPBUL) | (1 << matchParser.OPRANGLES) | (1 << matchParser.OPRANGLEL) | (1 << matchParser.OPDANGLE) | (1 << matchParser.OPU) | (1 << matchParser.OPB) | (1 << matchParser.OPQ) | (1 << matchParser.OPA) | (1 << matchParser.OPP) | (1 << matchParser.OPM) | (1 << matchParser.OPS) | (1 << matchParser.OPR) | (1 << matchParser.OPC) | (1 << matchParser.OPHASH) | (1 << matchParser.CL))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (matchParser.COLON - 32)) | (1 << (matchParser.AMP - 32)) | (1 << (matchParser.PLUS - 32)) | (1 << (matchParser.DotAt - 32)) | (1 << (matchParser.Greater - 32)) | (1 << (matchParser.Less - 32)) | (1 << (matchParser.DOT - 32)) | (1 << (matchParser.RightAngle - 32)) | (1 << (matchParser.RightArrow - 32)) | (1 << (matchParser.EQ - 32)) | (1 << (matchParser.HSPL - 32)) | (1 << (matchParser.OR - 32)) | (1 << (matchParser.TENSE - 32)) | (1 << (matchParser.DCANY - 32)) | (1 << (matchParser.ArticleText - 32)) | (1 << (matchParser.NOTCL - 32)) | (1 << (matchParser.NUMERIC - 32)) | (1 << (matchParser.STRING - 32)) | (1 << (matchParser.NL - 32)) | (1 << (matchParser.SENTENCE - 32)) | (1 << (matchParser.OPAT - 32)) | (1 << (matchParser.AtProgress - 32)) | (1 << (matchParser.AtReference - 32)) | (1 << (matchParser.AtWidth - 32)) | (1 << (matchParser.AtHeight - 32)) | (1 << (matchParser.AtProgressPoints - 32)) | (1 << (matchParser.AtShortanswer - 32)) | (1 << (matchParser.AtLonganswer - 32)) | (1 << (matchParser.AtExampleWithStr - 32)) | (1 << (matchParser.AtExamplecol - 32)) | (1 << (matchParser.AtExamplecl - 32)))) !== 0) || ((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (matchParser.AtPartialAnswerS - 64)) | (1 << (matchParser.AtPartialAnswer - 64)) | (1 << (matchParser.AtLabeltrue - 64)) | (1 << (matchParser.AtLabelfalse - 64)) | (1 << (matchParser.AtPoints - 64)) | (1 << (matchParser.AtSrc - 64)) | (1 << (matchParser.OPATALT - 64)) | (1 << (matchParser.OPAMARK - 64)) | (1 << (matchParser.ShowInIndex - 64)) | (1 << (matchParser.OpAtCaption - 64)) | (1 << (matchParser.OpAtLicense - 64)) | (1 << (matchParser.OpAtCopyright - 64)) | (1 << (matchParser.OpAtIsTracked - 64)) | (1 << (matchParser.OpAtIsInfoOnly - 64)) | (1 << (matchParser.AtDate - 64)) | (1 << (matchParser.Http - 64)) | (1 << (matchParser.Https - 64)) | (1 << (matchParser.AmpAudio - 64)) | (1 << (matchParser.AmpImage - 64)) | (1 << (matchParser.AmpImageZoom - 64)) | (1 << (matchParser.AmpImageWAudio - 64)) | (1 << (matchParser.AmpVideo - 64)) | (1 << (matchParser.AmpArticle - 64)) | (1 << (matchParser.AmpDocument - 64)) | (1 << (matchParser.AmpApp - 64)) | (1 << (matchParser.AmpWebsite - 64)) | (1 << (matchParser.AmpStillImageFilm - 64)) | (1 << (matchParser.AmpPdf - 64)) | (1 << (matchParser.OpAmpAudio - 64)) | (1 << (matchParser.OpAmpImage - 64)) | (1 << (matchParser.OpAmpImageZoom - 64)) | (1 << (matchParser.OpAmpImageWAudio - 64)))) !== 0) || ((((_la - 96)) & ~0x1F) === 0 && ((1 << (_la - 96)) & ((1 << (matchParser.OpAmpVideo - 96)) | (1 << (matchParser.OpAmpArticle - 96)) | (1 << (matchParser.OpAmpArticleAtt - 96)) | (1 << (matchParser.OpAmpDocument - 96)) | (1 << (matchParser.OpAmpApp - 96)) | (1 << (matchParser.OpAmpWebsite - 96)) | (1 << (matchParser.OpAmpStillImageFilm - 96)) | (1 << (matchParser.BracEnclose - 96)) | (1 << (matchParser.AmpAudioLink - 96)) | (1 << (matchParser.AmpImageLink - 96)) | (1 << (matchParser.AmpVideoLink - 96)) | (1 << (matchParser.AmpArticleLink - 96)) | (1 << (matchParser.AmpDocumentLink - 96)) | (1 << (matchParser.AmpAppLink - 96)) | (1 << (matchParser.AmpWebsiteLink - 96)) | (1 << (matchParser.AmpStillImageFilmLink - 96)) | (1 << (matchParser.OpAmpAudioLink - 96)) | (1 << (matchParser.OpAmpImageLink - 96)) | (1 << (matchParser.OpAmpVideoLink - 96)) | (1 << (matchParser.OpAmpArticleLink - 96)) | (1 << (matchParser.OpAmpDocumentLink - 96)) | (1 << (matchParser.OpAmpAppLink - 96)) | (1 << (matchParser.OpAmpWebsiteLink - 96)) | (1 << (matchParser.OpAmpStillImageFilmLink - 96)) | (1 << (matchParser.BitmarkMinus - 96)) | (1 << (matchParser.BitmarkPlus - 96)) | (1 << (matchParser.ColonText - 96)) | (1 << (matchParser.Prosemirror - 96)) | (1 << (matchParser.Placeholder - 96)) | (1 << (matchParser.BASIC - 96)) | (1 << (matchParser.JPG - 96)) | (1 << (matchParser.PNG - 96)))) !== 0) || ((((_la - 128)) & ~0x1F) === 0 && ((1 << (_la - 128)) & ((1 << (matchParser.GIF - 128)) | (1 << (matchParser.SVG - 128)) | (1 << (matchParser.MP2 - 128)) | (1 << (matchParser.MP3 - 128)) | (1 << (matchParser.MP4 - 128)) | (1 << (matchParser.FLV - 128)) | (1 << (matchParser.WMV - 128)) | (1 << (matchParser.MPEG - 128)) | (1 << (matchParser.MPG - 128)) | (1 << (matchParser.TEL - 128)) | (1 << (matchParser.DotArticleAtt - 128)) | (1 << (matchParser.STAR - 128)) | (1 << (matchParser.URL - 128)) | (1 << (matchParser.LIST_LINE - 128)))) !== 0));
 			this.state = 1906;
 			this.dcolon();
 			}
@@ -9132,7 +9136,7 @@ export class matchParser extends Parser {
 
 	private static readonly _serializedATNSegments: number = 4;
 	private static readonly _serializedATNSegment0: string =
-		"\x03\uC91D\uCABA\u058D\uAFBA\u4F53\u0607\uEA8B\uC241\x03\x8D\u07DA\x04" +
+		"\x03\uC91D\uCABA\u058D\uAFBA\u4F53\u0607\uEA8B\uC241\x03\x8F\u07DA\x04" +
 		"\x02\t\x02\x04\x03\t\x03\x04\x04\t\x04\x04\x05\t\x05\x04\x06\t\x06\x04" +
 		"\x07\t\x07\x04\b\t\b\x04\t\t\t\x04\n\t\n\x04\v\t\v\x04\f\t\f\x04\r\t\r" +
 		"\x04\x0E\t\x0E\x04\x0F\t\x0F\x04\x10\t\x10\x04\x11\t\x11\x04\x12\t\x12" +
@@ -9331,8 +9335,8 @@ export class matchParser extends Parser {
 		"\xB6\x02\xB8\x02\xBA\x02\xBC\x02\xBE\x02\xC0\x02\xC2\x02\xC4\x02\xC6\x02" +
 		"\xC8\x02\xCA\x02\xCC\x02\xCE\x02\xD0\x02\xD2\x02\xD4\x02\xD6\x02\xD8\x02" +
 		"\xDA\x02\xDC\x02\xDE\x02\xE0\x02\xE2\x02\xE4\x02\xE6\x02\xE8\x02\xEA\x02" +
-		"\xEC\x02\xEE\x02\xF0\x02\xF2\x02\xF4\x02\xF6\x02\x02\x16\x04\x02..55\x06" +
-		"\x02XY[\\jqz{\x04\x02WWll\x04\x02XXmm\x04\x02YYnn\x04\x02ZZoo\x04\x02" +
+		"\xEC\x02\xEE\x02\xF0\x02\xF2\x02\xF4\x02\xF6\x02\x02\x16\x04\x02..55\x07" +
+		"\x02XY[\\jqz{}~\x04\x02WWll\x04\x02XXmm\x04\x02YYnn\x04\x02ZZoo\x04\x02" +
 		"[[pp\x04\x02\\\\qq\x04\x02ccuu\x04\x02eevv\x04\x02ffww\x04\x02ggxx\x04" +
 		"\x02hhyy\x03\x02:;\x04\x02HHKM\x03\x02!!\x04\x02\"\"$$\x03\x02$$\x03\x02" +
 		"\'\'\x03\x02((\x02\u08E4\x02\u0105\x03\x02\x02\x02\x04\u010B\x03\x02\x02" +
@@ -9345,22 +9349,21 @@ export class matchParser extends Parser {
 		"(\u02EE\x03\x02\x02\x02*\u0303\x03\x02\x02\x02,\u030C\x03\x02\x02\x02" +
 		".\u0315\x03\x02\x02\x020\u031E\x03\x02\x02\x022\u036F\x03\x02\x02\x02" +
 		"4\u0379\x03\x02\x02\x026\u03A3\x03\x02\x02\x028\u03A5\x03\x02\x02\x02" +
-		":\u03A7\x03\x02\x02\x02<\u03F0\x03\x02\x02\x02>\u03F2\x03\x02\x02\x02" +
-		"@";
+		":\u03A7\x03\x02\x02\x02<\u03F0\x03\x02\x02\x02>\u03F2\x03\x02\x02";
 	private static readonly _serializedATNSegment1: string =
-		"\u03F9\x03\x02\x02\x02B\u040C\x03\x02\x02\x02D\u0413\x03\x02\x02\x02F" +
-		"\u0426\x03\x02\x02\x02H\u042D\x03\x02\x02\x02J\u0444\x03\x02\x02\x02L" +
-		"\u045A\x03\x02\x02\x02N\u045E\x03\x02\x02\x02P\u047D\x03\x02\x02\x02R" +
-		"\u047F\x03\x02\x02\x02T\u04D2\x03\x02\x02\x02V\u04D4\x03\x02\x02\x02X" +
-		"\u04EB\x03\x02\x02\x02Z\u04ED\x03\x02\x02\x02\\\u04F7\x03\x02\x02\x02" +
-		"^\u04FD\x03\x02\x02\x02`\u0504\x03\x02\x02\x02b\u050E\x03\x02\x02\x02" +
-		"d\u0519\x03\x02\x02\x02f\u0529\x03\x02\x02\x02h\u052B\x03\x02\x02\x02" +
-		"j\u0530\x03\x02\x02\x02l\u0532\x03\x02\x02\x02n\u0534\x03\x02\x02\x02" +
-		"p\u0536\x03\x02\x02\x02r\u0538\x03\x02\x02\x02t\u053A\x03\x02\x02\x02" +
-		"v\u053C\x03\x02\x02\x02x\u053E\x03\x02\x02\x02z\u0540\x03\x02\x02\x02" +
-		"|\u054C\x03\x02\x02\x02~\u054E\x03\x02\x02\x02\x80\u0556\x03\x02\x02\x02" +
-		"\x82\u0558\x03\x02\x02\x02\x84\u0562\x03\x02\x02\x02\x86\u056C\x03\x02" +
-		"\x02\x02\x88\u0579\x03\x02\x02\x02\x8A\u0580\x03\x02\x02\x02\x8C\u058B" +
+		"\x02@\u03F9\x03\x02\x02\x02B\u040C\x03\x02\x02\x02D\u0413\x03\x02\x02" +
+		"\x02F\u0426\x03\x02\x02\x02H\u042D\x03\x02\x02\x02J\u0444\x03\x02\x02" +
+		"\x02L\u045A\x03\x02\x02\x02N\u045E\x03\x02\x02\x02P\u047D\x03\x02\x02" +
+		"\x02R\u047F\x03\x02\x02\x02T\u04D2\x03\x02\x02\x02V\u04D4\x03\x02\x02" +
+		"\x02X\u04EB\x03\x02\x02\x02Z\u04ED\x03\x02\x02\x02\\\u04F7\x03\x02\x02" +
+		"\x02^\u04FD\x03\x02\x02\x02`\u0504\x03\x02\x02\x02b\u050E\x03\x02\x02" +
+		"\x02d\u0519\x03\x02\x02\x02f\u0529\x03\x02\x02\x02h\u052B\x03\x02\x02" +
+		"\x02j\u0530\x03\x02\x02\x02l\u0532\x03\x02\x02\x02n\u0534\x03\x02\x02" +
+		"\x02p\u0536\x03\x02\x02\x02r\u0538\x03\x02\x02\x02t\u053A\x03\x02\x02" +
+		"\x02v\u053C\x03\x02\x02\x02x\u053E\x03\x02\x02\x02z\u0540\x03\x02\x02" +
+		"\x02|\u054C\x03\x02\x02\x02~\u054E\x03\x02\x02\x02\x80\u0556\x03\x02\x02" +
+		"\x02\x82\u0558\x03\x02\x02\x02\x84\u0562\x03\x02\x02\x02\x86\u056C\x03" +
+		"\x02\x02\x02\x88\u0579\x03\x02\x02\x02\x8A\u0580\x03\x02\x02\x02\x8C\u058B" +
 		"\x03\x02\x02\x02\x8E\u0592\x03\x02\x02\x02\x90\u059C\x03\x02\x02\x02\x92" +
 		"\u05A7\x03\x02\x02\x02\x94\u05C0\x03\x02\x02\x02\x96\u05D3\x03\x02\x02" +
 		"\x02\x98\u05E6\x03\x02\x02\x02\x9A\u05E8\x03\x02\x02\x02\x9C\u05EF\x03" +
@@ -9662,54 +9665,54 @@ export class matchParser extends Parser {
 		"\u0359\u035C\x03\x02\x02\x02\u035A\u0358\x03\x02\x02\x02\u035A\u035B\x03" +
 		"\x02\x02\x02\u035B\u035D\x03\x02\x02\x02\u035C\u035A\x03\x02\x02\x02\u035D" +
 		"\u035E\x075\x02\x02\u035E\u035F\x07,\x02\x02\u035F\u0360\x075\x02\x02" +
-		"\u0360\u0361\x03";
+		"\u0360";
 	private static readonly _serializedATNSegment2: string =
-		"\x02\x02\x02\u0361\u0365\x05:\x1E\x02\u0362\u0364\x075\x02\x02\u0363\u0362" +
-		"\x03\x02\x02\x02\u0364\u0367\x03\x02\x02\x02\u0365\u0363\x03\x02\x02\x02" +
-		"\u0365\u0366\x03\x02\x02\x02\u0366\u0368\x03\x02\x02\x02\u0367\u0365\x03" +
-		"\x02\x02\x02\u0368\u036C\x07-\x02\x02\u0369\u036B\x075\x02\x02\u036A\u0369" +
-		"\x03\x02\x02\x02\u036B\u036E\x03\x02\x02\x02\u036C\u036A\x03\x02\x02\x02" +
-		"\u036C\u036D\x03\x02\x02\x02\u036D\u0370\x03\x02\x02\x02\u036E\u036C\x03" +
-		"\x02\x02\x02\u036F\u0325\x03\x02\x02\x02\u036F\u0340\x03\x02\x02\x02\u036F" +
-		"\u0353\x03\x02\x02\x02\u03703\x03\x02\x02\x02\u0371\u0375\x056\x1C\x02" +
-		"\u0372\u0374\x056\x1C\x02\u0373\u0372\x03\x02\x02\x02\u0374\u0377\x03" +
-		"\x02\x02\x02\u0375\u0373\x03\x02\x02\x02\u0375\u0376\x03\x02\x02\x02\u0376" +
-		"\u037A\x03\x02\x02\x02\u0377\u0375\x03\x02\x02\x02\u0378\u037A\x03\x02" +
-		"\x02\x02\u0379\u0371\x03\x02\x02\x02\u0379\u0378\x03\x02\x02\x02\u037A" +
-		"5\x03\x02\x02\x02\u037B\u037D\x075\x02\x02\u037C\u037B\x03\x02\x02\x02" +
-		"\u037D\u0380\x03\x02\x02\x02\u037E\u037C\x03\x02\x02\x02\u037E\u037F\x03" +
-		"\x02\x02\x02\u037F\u0384\x03\x02\x02\x02\u0380\u037E\x03\x02\x02\x02\u0381" +
-		"\u0383\x07\x04\x02\x02\u0382\u0381\x03\x02\x02\x02\u0383\u0386\x03\x02" +
-		"\x02\x02\u0384\u0382\x03\x02\x02\x02\u0384\u0385\x03\x02\x02\x02\u0385" +
-		"\u038A\x03\x02\x02\x02\u0386\u0384\x03\x02\x02\x02\u0387\u038B\x05\xA8" +
-		"U\x02\u0388\u038B\x05\xD8m\x02\u0389\u038B\x07\"\x02\x02\u038A\u0387\x03" +
-		"\x02\x02\x02\u038A\u0388\x03\x02\x02\x02\u038A\u0389\x03\x02\x02\x02\u038B" +
-		"\u038C\x03\x02\x02\x02\u038C\u038A\x03\x02\x02\x02\u038C\u038D\x03\x02" +
-		"\x02\x02\u038D\u0395\x03\x02\x02\x02\u038E\u0390\x07\x04\x02\x02\u038F" +
-		"\u038E\x03\x02\x02\x02\u0390\u0393\x03\x02\x02\x02\u0391\u038F\x03\x02" +
-		"\x02\x02\u0391\u0392\x03\x02\x02\x02\u0392\u0394\x03\x02\x02\x02\u0393" +
-		"\u0391\x03\x02\x02\x02\u0394\u0396\x05\xAEX\x02\u0395\u0391\x03\x02\x02" +
-		"\x02\u0395\u0396\x03\x02\x02\x02\u0396\u039A\x03\x02\x02\x02\u0397\u039B" +
-		"\x05 \x11\x02\u0398\u039B\x05\"\x12\x02\u0399\u039B\x058\x1D\x02\u039A" +
-		"\u0397\x03\x02\x02\x02\u039A\u0398\x03\x02\x02\x02\u039A\u0399\x03\x02" +
-		"\x02\x02\u039A\u039B\x03\x02\x02\x02\u039B\u03A4\x03\x02\x02\x02\u039C" +
-		"\u039E\x075\x02\x02\u039D\u039C\x03\x02\x02\x02\u039E\u03A1\x03\x02\x02" +
-		"\x02\u039F\u039D\x03\x02\x02\x02\u039F\u03A0\x03\x02\x02\x02\u03A0\u03A2" +
-		"\x03\x02\x02\x02\u03A1\u039F\x03\x02\x02\x02\u03A2\u03A4\x05\xBA^\x02" +
-		"\u03A3\u037E\x03\x02\x02\x02\u03A3\u039F\x03\x02\x02\x02\u03A47\x03\x02" +
-		"\x02\x02\u03A5\u03A6\x07/\x02\x02\u03A69\x03\x02\x02\x02\u03A7\u03AB\x05" +
-		"<\x1F\x02\u03A8\u03AC\x05 \x11\x02\u03A9\u03AC\x05\"\x12\x02\u03AA\u03AC" +
-		"\x05\xAEX\x02\u03AB\u03A8\x03\x02\x02\x02\u03AB\u03A9\x03\x02\x02\x02" +
-		"\u03AB\u03AA\x03\x02\x02\x02\u03AB\u03AC\x03\x02\x02\x02\u03AC;\x03\x02" +
-		"\x02\x02\u03AD\u03AF\x05\xAEX\x02\u03AE\u03AD\x03\x02\x02\x02\u03AE\u03AF" +
-		"\x03\x02\x02\x02\u03AF\u03B1\x03\x02\x02\x02\u03B0\u03B2\x05\xA8U\x02" +
-		"\u03B1\u03B0\x03\x02\x02\x02\u03B1\u03B2\x03\x02\x02\x02\u03B2\u03B9\x03" +
-		"\x02\x02\x02\u03B3\u03BA\x05\xD8m\x02\u03B4\u03BA\x075\x02\x02\u03B5\u03BA" +
-		"\x07\x04\x02\x02\u03B6\u03BA\x07\x05\x02\x02\u03B7\u03BA\x07!\x02\x02" +
-		"\u03B8\u03BA\x07$\x02\x02\u03B9\u03B3\x03\x02\x02\x02\u03B9\u03B4\x03" +
-		"\x02\x02\x02\u03B9\u03B5\x03\x02\x02\x02\u03B9\u03B6\x03\x02\x02\x02\u03B9" +
-		"\u03B7\x03\x02\x02\x02\u03B9\u03B8\x03\x02\x02\x02\u03BA\u03BB\x03\x02" +
-		"\x02\x02\u03BB\u03B9\x03\x02\x02\x02\u03BB\u03BC\x03\x02\x02\x02\u03BC" +
+		"\u0361\x03\x02\x02\x02\u0361\u0365\x05:\x1E\x02\u0362\u0364\x075\x02\x02" +
+		"\u0363\u0362\x03\x02\x02\x02\u0364\u0367\x03\x02\x02\x02\u0365\u0363\x03" +
+		"\x02\x02\x02\u0365\u0366\x03\x02\x02\x02\u0366\u0368\x03\x02\x02\x02\u0367" +
+		"\u0365\x03\x02\x02\x02\u0368\u036C\x07-\x02\x02\u0369\u036B\x075\x02\x02" +
+		"\u036A\u0369\x03\x02\x02\x02\u036B\u036E\x03\x02\x02\x02\u036C\u036A\x03" +
+		"\x02\x02\x02\u036C\u036D\x03\x02\x02\x02\u036D\u0370\x03\x02\x02\x02\u036E" +
+		"\u036C\x03\x02\x02\x02\u036F\u0325\x03\x02\x02\x02\u036F\u0340\x03\x02" +
+		"\x02\x02\u036F\u0353\x03\x02\x02\x02\u03703\x03\x02\x02\x02\u0371\u0375" +
+		"\x056\x1C\x02\u0372\u0374\x056\x1C\x02\u0373\u0372\x03\x02\x02\x02\u0374" +
+		"\u0377\x03\x02\x02\x02\u0375\u0373\x03\x02\x02\x02\u0375\u0376\x03\x02" +
+		"\x02\x02\u0376\u037A\x03\x02\x02\x02\u0377\u0375\x03\x02\x02\x02\u0378" +
+		"\u037A\x03\x02\x02\x02\u0379\u0371\x03\x02\x02\x02\u0379\u0378\x03\x02" +
+		"\x02\x02\u037A5\x03\x02\x02\x02\u037B\u037D\x075\x02\x02\u037C\u037B\x03" +
+		"\x02\x02\x02\u037D\u0380\x03\x02\x02\x02\u037E\u037C\x03\x02\x02\x02\u037E" +
+		"\u037F\x03\x02\x02\x02\u037F\u0384\x03\x02\x02\x02\u0380\u037E\x03\x02" +
+		"\x02\x02\u0381\u0383\x07\x04\x02\x02\u0382\u0381\x03\x02\x02\x02\u0383" +
+		"\u0386\x03\x02\x02\x02\u0384\u0382\x03\x02\x02\x02\u0384\u0385\x03\x02" +
+		"\x02\x02\u0385\u038A\x03\x02\x02\x02\u0386\u0384\x03\x02\x02\x02\u0387" +
+		"\u038B\x05\xA8U\x02\u0388\u038B\x05\xD8m\x02\u0389\u038B\x07\"\x02\x02" +
+		"\u038A\u0387\x03\x02\x02\x02\u038A\u0388\x03\x02\x02\x02\u038A\u0389\x03" +
+		"\x02\x02\x02\u038B\u038C\x03\x02\x02\x02\u038C\u038A\x03\x02\x02\x02\u038C" +
+		"\u038D\x03\x02\x02\x02\u038D\u0395\x03\x02\x02\x02\u038E\u0390\x07\x04" +
+		"\x02\x02\u038F\u038E\x03\x02\x02\x02\u0390\u0393\x03\x02\x02\x02\u0391" +
+		"\u038F\x03\x02\x02\x02\u0391\u0392\x03\x02\x02\x02\u0392\u0394\x03\x02" +
+		"\x02\x02\u0393\u0391\x03\x02\x02\x02\u0394\u0396\x05\xAEX\x02\u0395\u0391" +
+		"\x03\x02\x02\x02\u0395\u0396\x03\x02\x02\x02\u0396\u039A\x03\x02\x02\x02" +
+		"\u0397\u039B\x05 \x11\x02\u0398\u039B\x05\"\x12\x02\u0399\u039B\x058\x1D" +
+		"\x02\u039A\u0397\x03\x02\x02\x02\u039A\u0398\x03\x02\x02\x02\u039A\u0399" +
+		"\x03\x02\x02\x02\u039A\u039B\x03\x02\x02\x02\u039B\u03A4\x03\x02\x02\x02" +
+		"\u039C\u039E\x075\x02\x02\u039D\u039C\x03\x02\x02\x02\u039E\u03A1\x03" +
+		"\x02\x02\x02\u039F\u039D\x03\x02\x02\x02\u039F\u03A0\x03\x02\x02\x02\u03A0" +
+		"\u03A2\x03\x02\x02\x02\u03A1\u039F\x03\x02\x02\x02\u03A2\u03A4\x05\xBA" +
+		"^\x02\u03A3\u037E\x03\x02\x02\x02\u03A3\u039F\x03\x02\x02\x02\u03A47\x03" +
+		"\x02\x02\x02\u03A5\u03A6\x07/\x02\x02\u03A69\x03\x02\x02\x02\u03A7\u03AB" +
+		"\x05<\x1F\x02\u03A8\u03AC\x05 \x11\x02\u03A9\u03AC\x05\"\x12\x02\u03AA" +
+		"\u03AC\x05\xAEX\x02\u03AB\u03A8\x03\x02\x02\x02\u03AB\u03A9\x03\x02\x02" +
+		"\x02\u03AB\u03AA\x03\x02\x02\x02\u03AB\u03AC\x03\x02\x02\x02\u03AC;\x03" +
+		"\x02\x02\x02\u03AD\u03AF\x05\xAEX\x02\u03AE\u03AD\x03\x02\x02\x02\u03AE" +
+		"\u03AF\x03\x02\x02\x02\u03AF\u03B1\x03\x02\x02\x02\u03B0\u03B2\x05\xA8" +
+		"U\x02\u03B1\u03B0\x03\x02\x02\x02\u03B1\u03B2\x03\x02\x02\x02\u03B2\u03B9" +
+		"\x03\x02\x02\x02\u03B3\u03BA\x05\xD8m\x02\u03B4\u03BA\x075\x02\x02\u03B5" +
+		"\u03BA\x07\x04\x02\x02\u03B6\u03BA\x07\x05\x02\x02\u03B7\u03BA\x07!\x02" +
+		"\x02\u03B8\u03BA\x07$\x02\x02\u03B9\u03B3\x03\x02\x02\x02\u03B9\u03B4" +
+		"\x03\x02\x02\x02\u03B9\u03B5\x03\x02\x02\x02\u03B9\u03B6\x03\x02\x02\x02" +
+		"\u03B9\u03B7\x03\x02\x02\x02\u03B9\u03B8\x03\x02\x02\x02\u03BA\u03BB\x03" +
+		"\x02\x02\x02\u03BB\u03B9\x03\x02\x02\x02\u03BB\u03BC\x03\x02\x02\x02\u03BC" +
 		"\u03C4\x03\x02\x02\x02\u03BD\u03BF\x07\x04\x02\x02\u03BE\u03BD\x03\x02" +
 		"\x02\x02\u03BF\u03C2\x03\x02\x02\x02\u03C0\u03BE\x03\x02\x02\x02\u03C0" +
 		"\u03C1\x03\x02\x02\x02\u03C1\u03C3\x03\x02\x02\x02\u03C2\u03C0\x03\x02" +
@@ -9797,7 +9800,7 @@ export class matchParser extends Parser {
 		"\x02\x02\u0476\u0478\x075\x02\x02\u0477\u0476\x03\x02\x02\x02\u0478\u047B" +
 		"\x03\x02\x02\x02\u0479\u0477\x03\x02\x02\x02\u0479\u047A\x03\x02\x02\x02" +
 		"\u047A\u047C\x03\x02\x02\x02\u047B\u0479\x03\x02\x02\x02\u047C\u047E\x07" +
-		"\x8D\x02\x02\u047D\u0469\x03\x02\x02\x02\u047D\u0479\x03\x02\x02\x02\u047E" +
+		"\x8F\x02\x02\u047D\u0469\x03\x02\x02\x02\u047D\u0479\x03\x02\x02\x02\u047E" +
 		"Q\x03\x02\x02\x02\u047F\u0482\x05T+\x02\u0480\u0483\x05 \x11\x02\u0481" +
 		"\u0483\x05\"\x12\x02\u0482\u0480\x03\x02\x02\x02\u0482\u0481\x03\x02\x02" +
 		"\x02\u0482\u0483\x03\x02\x02\x02\u0483\u048C\x03\x02\x02\x02\u0484\u0485" +
@@ -9876,7 +9879,7 @@ export class matchParser extends Parser {
 		"\u0513\x03\x02\x02\x02\u0519\u0514\x03\x02\x02\x02\u0519\u0515\x03\x02" +
 		"\x02\x02\u0519\u0516\x03\x02\x02\x02\u0519\u0517\x03\x02\x02\x02\u0519" +
 		"\u0518\x03\x02\x02\x02\u051Ae\x03\x02\x02\x02\u051B\u051E\x07T\x02\x02" +
-		"\u051C\u051F\x07\x0F\x02\x02\u051D\u051F\x07\x8A\x02\x02\u051E\u051C\x03" +
+		"\u051C\u051F\x07\x0F\x02\x02\u051D\u051F\x07\x8C\x02\x02\u051E\u051C\x03" +
 		"\x02\x02\x02\u051E\u051D\x03\x02\x02\x02\u051E\u051F\x03\x02\x02\x02\u051F" +
 		"\u052A\x03\x02\x02\x02\u0520\u0522\x07k\x02\x02\u0521\u0523\x07\x0F\x02" +
 		"\x02\u0522\u0521\x03\x02\x02\x02\u0522\u0523\x03\x02\x02\x02\u0523\u052A" +
@@ -9941,7 +9944,7 @@ export class matchParser extends Parser {
 		"\x03\x02\x02\x02\u05AD\u05AF\x03\x02\x02\x02\u05AE\u05AC\x03\x02\x02\x02" +
 		"\u05AF\u05B0\x05\xA6T\x02\u05B0\u05B1\x07!\x02\x02\u05B1\x93\x03\x02\x02" +
 		"\x02\u05B2\u05B5\x07_\x02\x02\u05B3\u05B6\x07\x0F\x02\x02\u05B4\u05B6" +
-		"\x07\x8A\x02\x02\u05B5\u05B3\x03\x02\x02\x02\u05B5\u05B4\x03\x02\x02\x02" +
+		"\x07\x8C\x02\x02\u05B5\u05B3\x03\x02\x02\x02\u05B5\u05B4\x03\x02\x02\x02" +
 		"\u05B5\u05B6\x03\x02\x02\x02\u05B6\u05C1\x03\x02\x02\x02\u05B7\u05B9\x07" +
 		"s\x02\x02\u05B8\u05BA\x07\x0F\x02\x02\u05B9\u05B8\x03\x02\x02\x02\u05B9" +
 		"\u05BA\x03\x02\x02\x02\u05BA\u05C1\x03\x02\x02\x02\u05BB\u05BD\x07`\x02" +
@@ -9976,22 +9979,22 @@ export class matchParser extends Parser {
 		"\u05FB\x07\"\x02\x02\u05FB\u05FD\x07\x10\x02\x02\u05FC\u05FA\x03\x02\x02" +
 		"\x02\u05FC\u05FD\x03\x02\x02\x02\u05FD\u0604\x03\x02\x02\x02\u05FE\u0601" +
 		"\x07j\x02\x02\u05FF\u0600\x07\"\x02\x02\u0600\u0602\x07\x10\x02\x02\u0601" +
-		"\u05FF\x03\x02\x02\x02\u0601\u0602\x03\x02\x02";
+		"\u05FF\x03\x02\x02\x02\u0601\u0602\x03";
 	private static readonly _serializedATNSegment3: string =
-		"\x02\u0602\u0604\x03\x02\x02\x02\u0603\u05F9\x03\x02\x02\x02\u0603\u05FE" +
-		"\x03\x02\x02\x02\u0604\x9F\x03\x02\x02\x02\u0605\u0608\x07^\x02\x02\u0606" +
-		"\u0607\x07\"\x02\x02\u0607\u0609\x07\x10\x02\x02\u0608\u0606\x03\x02\x02" +
-		"\x02\u0608\u0609\x03\x02\x02\x02\u0609\u0610\x03\x02\x02\x02\u060A\u060D" +
-		"\x07r\x02\x02\u060B\u060C\x07\"\x02\x02\u060C\u060E\x07\x10\x02\x02\u060D" +
-		"\u060B\x03\x02\x02\x02\u060D\u060E\x03\x02\x02\x02\u060E\u0610\x03\x02" +
-		"\x02\x02\u060F\u0605\x03\x02\x02\x02\u060F\u060A\x03\x02\x02\x02\u0610" +
-		"\xA1\x03\x02\x02\x02\u0611\u0612\x07\x1A\x02\x02\u0612\u0615\x05\xD8m" +
-		"\x02\u0613\u0615\x07G\x02\x02\u0614\u0611\x03\x02\x02\x02\u0614\u0613" +
-		"\x03\x02\x02\x02\u0615\u0616\x03\x02\x02\x02\u0616\u061A\x07\"\x02\x02" +
-		"\u0617\u0619\x07\x04\x02\x02\u0618\u0617\x03\x02\x02\x02\u0619\u061C\x03" +
-		"\x02\x02\x02\u061A\u0618\x03\x02\x02\x02\u061A\u061B\x03\x02\x02\x02\u061B" +
-		"\u061F\x03\x02\x02\x02\u061C\u061A\x03\x02\x02\x02\u061D\u0620\x05\xD8" +
-		"m\x02\u061E\u0620\x075\x02\x02\u061F\u061D\x03\x02\x02\x02\u061F\u061E" +
+		"\x02\x02\x02\u0602\u0604\x03\x02\x02\x02\u0603\u05F9\x03\x02\x02\x02\u0603" +
+		"\u05FE\x03\x02\x02\x02\u0604\x9F\x03\x02\x02\x02\u0605\u0608\x07^\x02" +
+		"\x02\u0606\u0607\x07\"\x02\x02\u0607\u0609\x07\x10\x02\x02\u0608\u0606" +
+		"\x03\x02\x02\x02\u0608\u0609\x03\x02\x02\x02\u0609\u0610\x03\x02\x02\x02" +
+		"\u060A\u060D\x07r\x02\x02\u060B\u060C\x07\"\x02\x02\u060C\u060E\x07\x10" +
+		"\x02\x02\u060D\u060B\x03\x02\x02\x02\u060D\u060E\x03\x02\x02\x02\u060E" +
+		"\u0610\x03\x02\x02\x02\u060F\u0605\x03\x02\x02\x02\u060F\u060A\x03\x02" +
+		"\x02\x02\u0610\xA1\x03\x02\x02\x02\u0611\u0612\x07\x1A\x02\x02\u0612\u0615" +
+		"\x05\xD8m\x02\u0613\u0615\x07G\x02\x02\u0614\u0611\x03\x02\x02\x02\u0614" +
+		"\u0613\x03\x02\x02\x02\u0615\u0616\x03\x02\x02\x02\u0616\u061A\x07\"\x02" +
+		"\x02\u0617\u0619\x07\x04\x02\x02\u0618\u0617\x03\x02\x02\x02\u0619\u061C" +
+		"\x03\x02\x02\x02\u061A\u0618\x03\x02\x02\x02\u061A\u061B\x03\x02\x02\x02" +
+		"\u061B\u061F\x03\x02\x02\x02\u061C\u061A\x03\x02\x02\x02\u061D\u0620\x05" +
+		"\xD8m\x02\u061E\u0620\x075\x02\x02\u061F\u061D\x03\x02\x02\x02\u061F\u061E" +
 		"\x03\x02\x02\x02\u0620\u0621\x03\x02\x02\x02\u0621\u061F\x03\x02\x02\x02" +
 		"\u0621\u0622\x03\x02\x02\x02\u0622\u0623\x03\x02\x02\x02\u0623\u0631\x07" +
 		"!\x02\x02\u0624\u0625\t\x0F\x02\x02\u0625\u0626\x07\"\x02\x02\u0626\u0627" +
@@ -10000,9 +10003,9 @@ export class matchParser extends Parser {
 		"\x02\u062C\u062D\x03\x02\x02\x02\u062C\u062A\x03\x02\x02\x02\u062D\u062F" +
 		"\x03\x02\x02\x02\u062E\u062C\x03\x02\x02\x02\u062F\u0631\x07!\x02\x02" +
 		"\u0630\u0614\x03\x02\x02\x02\u0630\u0624\x03\x02\x02\x02\u0630\u0628\x03" +
-		"\x02\x02\x02\u0631\xA3\x03\x02\x02\x02\u0632\u0633\x07\x89\x02\x02\u0633" +
+		"\x02\x02\x02\u0631\xA3\x03\x02\x02\x02\u0632\u0633\x07\x8B\x02\x02\u0633" +
 		"\u0634\x07%\x02\x02\u0634\u0635\x073\x02\x02\u0635\xA5\x03\x02\x02\x02" +
-		"\u0636\u0637\x07\x8C\x02\x02\u0637\xA7\x03\x02\x02\x02\u0638\u0639\x07" +
+		"\u0636\u0637\x07\x8E\x02\x02\u0637\xA7\x03\x02\x02\x02\u0638\u0639\x07" +
 		"\x1F\x02\x02\u0639\u0641\x07!\x02\x02\u063A\u063C\x07\x04\x02\x02\u063B" +
 		"\u063A\x03\x02\x02\x02\u063C\u063F\x03\x02\x02\x02\u063D\u063B\x03\x02" +
 		"\x02\x02\u063D\u063E\x03\x02\x02\x02\u063E\u0640\x03\x02\x02\x02\u063F" +
@@ -10053,12 +10056,12 @@ export class matchParser extends Parser {
 		"\x02\x02\u069D\u069B\x03\x02\x02\x02\u069E\u06A0\x07\x02\x02\x03\u069F" +
 		"\u0678\x03\x02\x02\x02\u069F\u0695\x03\x02\x02\x02\u06A0\xB1\x03\x02\x02" +
 		"\x02\u06A1\u06A6\x079\x02\x02\u06A2\u06A7\x05\xD8m\x02\u06A3\u06A7\x07" +
-		"\"\x02\x02\u06A4\u06A7\x07\x8C\x02\x02\u06A5\u06A7\x075\x02\x02\u06A6" +
+		"\"\x02\x02\u06A4\u06A7\x07\x8E\x02\x02\u06A5\u06A7\x075\x02\x02\u06A6" +
 		"\u06A2\x03\x02\x02\x02\u06A6\u06A3\x03\x02\x02\x02\u06A6\u06A4\x03\x02" +
 		"\x02\x02\u06A6\u06A5\x03\x02\x02\x02\u06A7\u06A8\x03\x02\x02\x02\u06A8" +
 		"\u06A6\x03\x02\x02\x02\u06A8\u06A9\x03\x02\x02\x02\u06A9\u06AA\x03\x02" +
 		"\x02\x02\u06AA\u06B8\x07!\x02\x02\u06AB\u06B3\x079\x02\x02\u06AC\u06B2" +
-		"\x05\xD8m\x02\u06AD\u06B2\x07\"\x02\x02\u06AE\u06B2\x07\x8C\x02\x02\u06AF" +
+		"\x05\xD8m\x02\u06AD\u06B2\x07\"\x02\x02\u06AE\u06B2\x07\x8E\x02\x02\u06AF" +
 		"\u06B2\x075\x02\x02\u06B0\u06B2\x07\x04\x02\x02\u06B1\u06AC\x03\x02\x02" +
 		"\x02\u06B1\u06AD\x03\x02\x02\x02\u06B1\u06AE\x03\x02\x02\x02\u06B1\u06AF" +
 		"\x03\x02\x02\x02\u06B1\u06B0\x03\x02\x02\x02\u06B2\u06B5\x03\x02\x02\x02" +
@@ -10154,7 +10157,7 @@ export class matchParser extends Parser {
 		"5\x02\x02\u0778\u0777\x03\x02\x02\x02\u0778\u0779\x03\x02\x02\x02\u0779" +
 		"\u077B\x03\x02\x02\x02\u077A\u0776\x03\x02\x02\x02\u077B\u077C\x03\x02" +
 		"\x02\x02\u077C\u077A\x03\x02\x02\x02\u077C\u077D\x03\x02\x02\x02\u077D" +
-		"\xD5\x03\x02\x02\x02\u077E\u077F\x07\x8D\x02\x02\u077F\xD7\x03\x02\x02" +
+		"\xD5\x03\x02\x02\x02\u077E\u077F\x07\x8F\x02\x02\u077F\xD7\x03\x02\x02" +
 		"\x02\u0780\u0787\x074\x02\x02\u0781\u0783\x07\x04\x02\x02\u0782\u0781" +
 		"\x03\x02\x02\x02\u0783\u0784\x03\x02\x02\x02\u0784\u0782\x03\x02\x02\x02" +
 		"\u0784\u0785\x03\x02\x02\x02\u0785\u0786\x03\x02\x02\x02\u0786\u0788\x07" +
@@ -10175,7 +10178,7 @@ export class matchParser extends Parser {
 		"\u07A5\x03\x02\x02\x02\u07A7\u07AA\x03\x02\x02\x02\u07A8\u07A6\x03\x02" +
 		"\x02\x02\u07A8\u07A9\x03\x02\x02\x02\u07A9\u07B0\x03\x02\x02\x02\u07AA" +
 		"\u07A8\x03\x02\x02\x02\u07AB\u07B0\x07!\x02\x02\u07AC\u07B0\x07$\x02\x02" +
-		"\u07AD\u07B0\x07\x8D\x02\x02\u07AE\u07B0\x05\xD2j\x02\u07AF\u0780\x03" +
+		"\u07AD\u07B0\x07\x8F\x02\x02\u07AE\u07B0\x05\xD2j\x02\u07AF\u0780\x03" +
 		"\x02\x02\x02\u07AF\u0789\x03\x02\x02\x02\u07AF\u0792\x03\x02\x02\x02\u07AF" +
 		"\u0796\x03\x02\x02\x02\u07AF\u079A\x03\x02\x02\x02\u07AF\u07A4\x03\x02" +
 		"\x02\x02\u07AF\u07AB\x03\x02\x02\x02\u07AF\u07AC\x03\x02\x02\x02\u07AF" +
@@ -12542,6 +12545,8 @@ export class FormatContext extends ParserRuleContext {
 export class Resource_formatContext extends ParserRuleContext {
 	public BitmarkMinus(): TerminalNode | undefined { return this.tryGetToken(matchParser.BitmarkMinus, 0); }
 	public BitmarkPlus(): TerminalNode | undefined { return this.tryGetToken(matchParser.BitmarkPlus, 0); }
+	public Prosemirror(): TerminalNode | undefined { return this.tryGetToken(matchParser.Prosemirror, 0); }
+	public Placeholder(): TerminalNode | undefined { return this.tryGetToken(matchParser.Placeholder, 0); }
 	public AmpArticle(): TerminalNode | undefined { return this.tryGetToken(matchParser.AmpArticle, 0); }
 	public AmpDocument(): TerminalNode | undefined { return this.tryGetToken(matchParser.AmpDocument, 0); }
 	public AmpWebsite(): TerminalNode | undefined { return this.tryGetToken(matchParser.AmpWebsite, 0); }

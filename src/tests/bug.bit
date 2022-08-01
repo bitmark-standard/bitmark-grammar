@@ -1,19 +1,32 @@
-[.book&pdf]
+[.button-copy-text:placeholder]
+[@ageRange:18][@ageRange:120]
+[@language:en]
+[@language:jp]
+[@language:cn]
 
-[@example:]
-[@botAnnouceAt: Allein zu Haus]
-[@botSaveAt:Tagesspiegel]
-[@botSendAt:Tagesspiegel]
-[@botRemindAt: Welche Aussage entspricht]
-[@quotedPerson:Yoshikazu Noda]
-[@theme:book]
-[@kind:collection]
+**Some bold text,**
+followed by some plain text. cloze open close cloze1 book.
+[&image:https://cdn.bitbook.education/cat.jpg]
 
-::image::
-@src2x:https://cdn.bitbook.education/cat.jpg
+Some more text.
+::remark::
 ::
 
-[.button-copy-text:bitmark++]
+[.wbt-continue:prosemirror]
+[@ageRange:18][@ageRange:120]
+[@language:en]
+[@language:jp]
+[@language:cn]
+
+**Some bold text,**
+followed by some plain text. cloze open close cloze1 book.
+[&image:https://cdn.bitbook.education/cat.jpg]
+
+Some more text.
+::remark::
+::
+
+[.wbt-continue&image]
 [@ageRange:18][@ageRange:120]
 [@language:en]
 [@language:jp]
@@ -28,20 +41,6 @@ Some more text.
 ::
 
 [.wbt-continue:bitmark++]
-[@ageRange:18][@ageRange:120]
-[@language:en]
-[@language:jp]
-[@language:cn]
-
-**Some bold text,**
-followed by some plain text. cloze open close cloze1 book.
-[&image:https://cdn.bitbook.education/cat.jpg]
-
-Some more text.
-::remark::
-::
-
-[.learning-path-details:bitmark++]
 [@ageRange:18][@ageRange:120]
 [@language:en]
 [@language:jp]

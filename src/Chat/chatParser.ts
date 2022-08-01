@@ -142,23 +142,25 @@ export class chatParser extends Parser {
 	public static readonly BitmarkMinus = 114;
 	public static readonly BitmarkPlus = 115;
 	public static readonly ColonText = 116;
-	public static readonly BASIC = 117;
-	public static readonly JPG = 118;
-	public static readonly PNG = 119;
-	public static readonly GIF = 120;
-	public static readonly SVG = 121;
-	public static readonly MP2 = 122;
-	public static readonly MP3 = 123;
-	public static readonly MP4 = 124;
-	public static readonly FLV = 125;
-	public static readonly WMV = 126;
-	public static readonly MPEG = 127;
-	public static readonly MPG = 128;
-	public static readonly TEL = 129;
-	public static readonly DotArticleAtt = 130;
-	public static readonly STAR = 131;
-	public static readonly URL = 132;
-	public static readonly LIST_LINE = 133;
+	public static readonly Prosemirror = 117;
+	public static readonly Placeholder = 118;
+	public static readonly BASIC = 119;
+	public static readonly JPG = 120;
+	public static readonly PNG = 121;
+	public static readonly GIF = 122;
+	public static readonly SVG = 123;
+	public static readonly MP2 = 124;
+	public static readonly MP3 = 125;
+	public static readonly MP4 = 126;
+	public static readonly FLV = 127;
+	public static readonly WMV = 128;
+	public static readonly MPEG = 129;
+	public static readonly MPG = 130;
+	public static readonly TEL = 131;
+	public static readonly DotArticleAtt = 132;
+	public static readonly STAR = 133;
+	public static readonly URL = 134;
+	public static readonly LIST_LINE = 135;
 	public static readonly RULE_bitmark = 0;
 	public static readonly RULE_bitmark_ = 1;
 	public static readonly RULE_chat = 2;
@@ -275,9 +277,10 @@ export class chatParser extends Parser {
 		undefined, undefined, "'&audioLink'", "'&imageLink'", "'&videoLink'", 
 		"'&articleLink'", "'&documentLink'", "'&appLink'", "'&websiteLink'", "'&stillImageFilmLink'", 
 		undefined, undefined, undefined, undefined, undefined, undefined, undefined, 
-		undefined, "':bitmark--'", "':bitmark++'", "':text'", "':basic'", "':jpg'", 
-		"':png'", "':gif'", "':svg'", "':mp2'", "':mp3'", "':mp4'", "':flv'", 
-		"':wmv'", "':mpeg'", "':mpg'", "'tel:'", "'.article-attachment'", "'*'",
+		undefined, "':bitmark--'", "':bitmark++'", "':text'", "':prosemirror'", 
+		"':placeholder'", "':basic'", "':jpg'", "':png'", "':gif'", "':svg'", 
+		"':mp2'", "':mp3'", "':mp4'", "':flv'", "':wmv'", "':mpeg'", "':mpg'", 
+		"'tel:'", "'.article-attachment'", "'*'",
 	];
 	private static readonly _SYMBOLIC_NAMES: Array<string | undefined> = [
 		undefined, "OPDOT", "S", "BitChat", "BitConv", "COMMENT", "Image_type", 
@@ -300,8 +303,9 @@ export class chatParser extends Parser {
 		"AmpWebsiteLink", "AmpStillImageFilmLink", "OpAmpAudioLink", "OpAmpImageLink", 
 		"OpAmpVideoLink", "OpAmpArticleLink", "OpAmpDocumentLink", "OpAmpAppLink", 
 		"OpAmpWebsiteLink", "OpAmpStillImageFilmLink", "BitmarkMinus", "BitmarkPlus", 
-		"ColonText", "BASIC", "JPG", "PNG", "GIF", "SVG", "MP2", "MP3", "MP4", 
-		"FLV", "WMV", "MPEG", "MPG", "TEL", "DotArticleAtt", "STAR", "URL", "LIST_LINE",
+		"ColonText", "Prosemirror", "Placeholder", "BASIC", "JPG", "PNG", "GIF", 
+		"SVG", "MP2", "MP3", "MP4", "FLV", "WMV", "MPEG", "MPG", "TEL", "DotArticleAtt", 
+		"STAR", "URL", "LIST_LINE",
 	];
 	public static readonly VOCABULARY: Vocabulary = new VocabularyImpl(chatParser._LITERAL_NAMES, chatParser._SYMBOLIC_NAMES, []);
 
@@ -1578,7 +1582,7 @@ export class chatParser extends Parser {
 			{
 			this.state = 396;
 			_la = this._input.LA(1);
-			if (!(((((_la - 80)) & ~0x1F) === 0 && ((1 << (_la - 80)) & ((1 << (chatParser.AmpArticle - 80)) | (1 << (chatParser.AmpDocument - 80)) | (1 << (chatParser.AmpWebsite - 80)) | (1 << (chatParser.AmpStillImageFilm - 80)) | (1 << (chatParser.AmpAudioLink - 80)) | (1 << (chatParser.AmpImageLink - 80)) | (1 << (chatParser.AmpVideoLink - 80)) | (1 << (chatParser.AmpArticleLink - 80)) | (1 << (chatParser.AmpDocumentLink - 80)) | (1 << (chatParser.AmpAppLink - 80)) | (1 << (chatParser.AmpWebsiteLink - 80)) | (1 << (chatParser.AmpStillImageFilmLink - 80)))) !== 0) || _la === chatParser.BitmarkMinus || _la === chatParser.BitmarkPlus)) {
+			if (!(((((_la - 80)) & ~0x1F) === 0 && ((1 << (_la - 80)) & ((1 << (chatParser.AmpArticle - 80)) | (1 << (chatParser.AmpDocument - 80)) | (1 << (chatParser.AmpWebsite - 80)) | (1 << (chatParser.AmpStillImageFilm - 80)) | (1 << (chatParser.AmpAudioLink - 80)) | (1 << (chatParser.AmpImageLink - 80)) | (1 << (chatParser.AmpVideoLink - 80)) | (1 << (chatParser.AmpArticleLink - 80)) | (1 << (chatParser.AmpDocumentLink - 80)) | (1 << (chatParser.AmpAppLink - 80)) | (1 << (chatParser.AmpWebsiteLink - 80)) | (1 << (chatParser.AmpStillImageFilmLink - 80)))) !== 0) || ((((_la - 114)) & ~0x1F) === 0 && ((1 << (_la - 114)) & ((1 << (chatParser.BitmarkMinus - 114)) | (1 << (chatParser.BitmarkPlus - 114)) | (1 << (chatParser.Prosemirror - 114)) | (1 << (chatParser.Placeholder - 114)))) !== 0))) {
 			this._errHandler.recoverInline(this);
 			} else {
 				if (this._input.LA(1) === Token.EOF) {
@@ -4442,7 +4446,7 @@ export class chatParser extends Parser {
 				this.state = 889;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-			} while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << chatParser.OPDOT) | (1 << chatParser.S) | (1 << chatParser.BitChat) | (1 << chatParser.BitConv) | (1 << chatParser.COMMENT) | (1 << chatParser.Image_type) | (1 << chatParser.Audio_type) | (1 << chatParser.Video_type) | (1 << chatParser.OPDOLL) | (1 << chatParser.OPBUL) | (1 << chatParser.OPESC) | (1 << chatParser.OPRANGLES) | (1 << chatParser.OPRANGLEL) | (1 << chatParser.OPDANGLE) | (1 << chatParser.OPU) | (1 << chatParser.OPB) | (1 << chatParser.OPQ) | (1 << chatParser.OPA) | (1 << chatParser.OPP) | (1 << chatParser.OPM) | (1 << chatParser.OPS) | (1 << chatParser.OPR) | (1 << chatParser.OPC) | (1 << chatParser.OPHASH) | (1 << chatParser.COLON) | (1 << chatParser.AMP) | (1 << chatParser.DBLCOLON) | (1 << chatParser.PLUS) | (1 << chatParser.DotAt) | (1 << chatParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (chatParser.Less - 32)) | (1 << (chatParser.RightAngle - 32)) | (1 << (chatParser.RightArrow - 32)) | (1 << (chatParser.DBLEQ - 32)) | (1 << (chatParser.HSPL - 32)) | (1 << (chatParser.HSPL2 - 32)) | (1 << (chatParser.SSPL - 32)) | (1 << (chatParser.SSPL2 - 32)) | (1 << (chatParser.DCANY - 32)) | (1 << (chatParser.ArticleText - 32)) | (1 << (chatParser.NOTCL - 32)) | (1 << (chatParser.NUMERIC - 32)) | (1 << (chatParser.STRING - 32)) | (1 << (chatParser.NL - 32)) | (1 << (chatParser.SENTENCE - 32)) | (1 << (chatParser.OPAT - 32)) | (1 << (chatParser.AtProgress - 32)) | (1 << (chatParser.AtReference - 32)) | (1 << (chatParser.AtWidth - 32)) | (1 << (chatParser.AtHeight - 32)) | (1 << (chatParser.AtProgressPoints - 32)) | (1 << (chatParser.AtShortanswer - 32)) | (1 << (chatParser.AtLonganswer - 32)) | (1 << (chatParser.AtExampleWithStr - 32)) | (1 << (chatParser.AtExamplecol - 32)) | (1 << (chatParser.AtExamplecl - 32)) | (1 << (chatParser.AtPartialAnswerS - 32)) | (1 << (chatParser.AtPartialAnswer - 32)) | (1 << (chatParser.AtLabeltrue - 32)) | (1 << (chatParser.AtLabelfalse - 32)) | (1 << (chatParser.AtPoints - 32)) | (1 << (chatParser.AtSrc - 32)))) !== 0) || ((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (chatParser.OPATALT - 64)) | (1 << (chatParser.OPAMARK - 64)) | (1 << (chatParser.ShowInIndex - 64)) | (1 << (chatParser.OpAtCaption - 64)) | (1 << (chatParser.OpAtLicense - 64)) | (1 << (chatParser.OpAtCopyright - 64)) | (1 << (chatParser.OpAtIsTracked - 64)) | (1 << (chatParser.OpAtIsInfoOnly - 64)) | (1 << (chatParser.AtDate - 64)) | (1 << (chatParser.Http - 64)) | (1 << (chatParser.Https - 64)) | (1 << (chatParser.AmpAudio - 64)) | (1 << (chatParser.AmpImage - 64)) | (1 << (chatParser.AmpImageZoom - 64)) | (1 << (chatParser.AmpImageWAudio - 64)) | (1 << (chatParser.AmpVideo - 64)) | (1 << (chatParser.AmpArticle - 64)) | (1 << (chatParser.AmpDocument - 64)) | (1 << (chatParser.AmpApp - 64)) | (1 << (chatParser.AmpWebsite - 64)) | (1 << (chatParser.AmpStillImageFilm - 64)) | (1 << (chatParser.AmpPdf - 64)) | (1 << (chatParser.OpAmpAudio - 64)) | (1 << (chatParser.OpAmpImage - 64)) | (1 << (chatParser.OpAmpImageZoom - 64)) | (1 << (chatParser.OpAmpImageWAudio - 64)) | (1 << (chatParser.OpAmpVideo - 64)) | (1 << (chatParser.OpAmpArticle - 64)) | (1 << (chatParser.OpAmpArticleAtt - 64)) | (1 << (chatParser.OpAmpDocument - 64)) | (1 << (chatParser.OpAmpApp - 64)) | (1 << (chatParser.OpAmpWebsite - 64)))) !== 0) || ((((_la - 96)) & ~0x1F) === 0 && ((1 << (_la - 96)) & ((1 << (chatParser.OpAmpStillImageFilm - 96)) | (1 << (chatParser.BracEnclose - 96)) | (1 << (chatParser.AmpAudioLink - 96)) | (1 << (chatParser.AmpImageLink - 96)) | (1 << (chatParser.AmpVideoLink - 96)) | (1 << (chatParser.AmpArticleLink - 96)) | (1 << (chatParser.AmpDocumentLink - 96)) | (1 << (chatParser.AmpAppLink - 96)) | (1 << (chatParser.AmpWebsiteLink - 96)) | (1 << (chatParser.AmpStillImageFilmLink - 96)) | (1 << (chatParser.OpAmpAudioLink - 96)) | (1 << (chatParser.OpAmpImageLink - 96)) | (1 << (chatParser.OpAmpVideoLink - 96)) | (1 << (chatParser.OpAmpArticleLink - 96)) | (1 << (chatParser.OpAmpDocumentLink - 96)) | (1 << (chatParser.OpAmpAppLink - 96)) | (1 << (chatParser.OpAmpWebsiteLink - 96)) | (1 << (chatParser.OpAmpStillImageFilmLink - 96)) | (1 << (chatParser.BitmarkMinus - 96)) | (1 << (chatParser.BitmarkPlus - 96)) | (1 << (chatParser.ColonText - 96)) | (1 << (chatParser.BASIC - 96)) | (1 << (chatParser.JPG - 96)) | (1 << (chatParser.PNG - 96)) | (1 << (chatParser.GIF - 96)) | (1 << (chatParser.SVG - 96)) | (1 << (chatParser.MP2 - 96)) | (1 << (chatParser.MP3 - 96)) | (1 << (chatParser.MP4 - 96)) | (1 << (chatParser.FLV - 96)) | (1 << (chatParser.WMV - 96)) | (1 << (chatParser.MPEG - 96)))) !== 0) || ((((_la - 128)) & ~0x1F) === 0 && ((1 << (_la - 128)) & ((1 << (chatParser.MPG - 128)) | (1 << (chatParser.TEL - 128)) | (1 << (chatParser.DotArticleAtt - 128)) | (1 << (chatParser.STAR - 128)) | (1 << (chatParser.URL - 128)) | (1 << (chatParser.LIST_LINE - 128)))) !== 0));
+			} while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << chatParser.OPDOT) | (1 << chatParser.S) | (1 << chatParser.BitChat) | (1 << chatParser.BitConv) | (1 << chatParser.COMMENT) | (1 << chatParser.Image_type) | (1 << chatParser.Audio_type) | (1 << chatParser.Video_type) | (1 << chatParser.OPDOLL) | (1 << chatParser.OPBUL) | (1 << chatParser.OPESC) | (1 << chatParser.OPRANGLES) | (1 << chatParser.OPRANGLEL) | (1 << chatParser.OPDANGLE) | (1 << chatParser.OPU) | (1 << chatParser.OPB) | (1 << chatParser.OPQ) | (1 << chatParser.OPA) | (1 << chatParser.OPP) | (1 << chatParser.OPM) | (1 << chatParser.OPS) | (1 << chatParser.OPR) | (1 << chatParser.OPC) | (1 << chatParser.OPHASH) | (1 << chatParser.COLON) | (1 << chatParser.AMP) | (1 << chatParser.DBLCOLON) | (1 << chatParser.PLUS) | (1 << chatParser.DotAt) | (1 << chatParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (chatParser.Less - 32)) | (1 << (chatParser.RightAngle - 32)) | (1 << (chatParser.RightArrow - 32)) | (1 << (chatParser.DBLEQ - 32)) | (1 << (chatParser.HSPL - 32)) | (1 << (chatParser.HSPL2 - 32)) | (1 << (chatParser.SSPL - 32)) | (1 << (chatParser.SSPL2 - 32)) | (1 << (chatParser.DCANY - 32)) | (1 << (chatParser.ArticleText - 32)) | (1 << (chatParser.NOTCL - 32)) | (1 << (chatParser.NUMERIC - 32)) | (1 << (chatParser.STRING - 32)) | (1 << (chatParser.NL - 32)) | (1 << (chatParser.SENTENCE - 32)) | (1 << (chatParser.OPAT - 32)) | (1 << (chatParser.AtProgress - 32)) | (1 << (chatParser.AtReference - 32)) | (1 << (chatParser.AtWidth - 32)) | (1 << (chatParser.AtHeight - 32)) | (1 << (chatParser.AtProgressPoints - 32)) | (1 << (chatParser.AtShortanswer - 32)) | (1 << (chatParser.AtLonganswer - 32)) | (1 << (chatParser.AtExampleWithStr - 32)) | (1 << (chatParser.AtExamplecol - 32)) | (1 << (chatParser.AtExamplecl - 32)) | (1 << (chatParser.AtPartialAnswerS - 32)) | (1 << (chatParser.AtPartialAnswer - 32)) | (1 << (chatParser.AtLabeltrue - 32)) | (1 << (chatParser.AtLabelfalse - 32)) | (1 << (chatParser.AtPoints - 32)) | (1 << (chatParser.AtSrc - 32)))) !== 0) || ((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (chatParser.OPATALT - 64)) | (1 << (chatParser.OPAMARK - 64)) | (1 << (chatParser.ShowInIndex - 64)) | (1 << (chatParser.OpAtCaption - 64)) | (1 << (chatParser.OpAtLicense - 64)) | (1 << (chatParser.OpAtCopyright - 64)) | (1 << (chatParser.OpAtIsTracked - 64)) | (1 << (chatParser.OpAtIsInfoOnly - 64)) | (1 << (chatParser.AtDate - 64)) | (1 << (chatParser.Http - 64)) | (1 << (chatParser.Https - 64)) | (1 << (chatParser.AmpAudio - 64)) | (1 << (chatParser.AmpImage - 64)) | (1 << (chatParser.AmpImageZoom - 64)) | (1 << (chatParser.AmpImageWAudio - 64)) | (1 << (chatParser.AmpVideo - 64)) | (1 << (chatParser.AmpArticle - 64)) | (1 << (chatParser.AmpDocument - 64)) | (1 << (chatParser.AmpApp - 64)) | (1 << (chatParser.AmpWebsite - 64)) | (1 << (chatParser.AmpStillImageFilm - 64)) | (1 << (chatParser.AmpPdf - 64)) | (1 << (chatParser.OpAmpAudio - 64)) | (1 << (chatParser.OpAmpImage - 64)) | (1 << (chatParser.OpAmpImageZoom - 64)) | (1 << (chatParser.OpAmpImageWAudio - 64)) | (1 << (chatParser.OpAmpVideo - 64)) | (1 << (chatParser.OpAmpArticle - 64)) | (1 << (chatParser.OpAmpArticleAtt - 64)) | (1 << (chatParser.OpAmpDocument - 64)) | (1 << (chatParser.OpAmpApp - 64)) | (1 << (chatParser.OpAmpWebsite - 64)))) !== 0) || ((((_la - 96)) & ~0x1F) === 0 && ((1 << (_la - 96)) & ((1 << (chatParser.OpAmpStillImageFilm - 96)) | (1 << (chatParser.BracEnclose - 96)) | (1 << (chatParser.AmpAudioLink - 96)) | (1 << (chatParser.AmpImageLink - 96)) | (1 << (chatParser.AmpVideoLink - 96)) | (1 << (chatParser.AmpArticleLink - 96)) | (1 << (chatParser.AmpDocumentLink - 96)) | (1 << (chatParser.AmpAppLink - 96)) | (1 << (chatParser.AmpWebsiteLink - 96)) | (1 << (chatParser.AmpStillImageFilmLink - 96)) | (1 << (chatParser.OpAmpAudioLink - 96)) | (1 << (chatParser.OpAmpImageLink - 96)) | (1 << (chatParser.OpAmpVideoLink - 96)) | (1 << (chatParser.OpAmpArticleLink - 96)) | (1 << (chatParser.OpAmpDocumentLink - 96)) | (1 << (chatParser.OpAmpAppLink - 96)) | (1 << (chatParser.OpAmpWebsiteLink - 96)) | (1 << (chatParser.OpAmpStillImageFilmLink - 96)) | (1 << (chatParser.BitmarkMinus - 96)) | (1 << (chatParser.BitmarkPlus - 96)) | (1 << (chatParser.ColonText - 96)) | (1 << (chatParser.Prosemirror - 96)) | (1 << (chatParser.Placeholder - 96)) | (1 << (chatParser.BASIC - 96)) | (1 << (chatParser.JPG - 96)) | (1 << (chatParser.PNG - 96)) | (1 << (chatParser.GIF - 96)) | (1 << (chatParser.SVG - 96)) | (1 << (chatParser.MP2 - 96)) | (1 << (chatParser.MP3 - 96)) | (1 << (chatParser.MP4 - 96)) | (1 << (chatParser.FLV - 96)))) !== 0) || ((((_la - 128)) & ~0x1F) === 0 && ((1 << (_la - 128)) & ((1 << (chatParser.WMV - 128)) | (1 << (chatParser.MPEG - 128)) | (1 << (chatParser.MPG - 128)) | (1 << (chatParser.TEL - 128)) | (1 << (chatParser.DotArticleAtt - 128)) | (1 << (chatParser.STAR - 128)) | (1 << (chatParser.URL - 128)) | (1 << (chatParser.LIST_LINE - 128)))) !== 0));
 			this.state = 891;
 			this.match(chatParser.CL);
 			}
@@ -5498,7 +5502,7 @@ export class chatParser extends Parser {
 
 	private static readonly _serializedATNSegments: number = 3;
 	private static readonly _serializedATNSegment0: string =
-		"\x03\uC91D\uCABA\u058D\uAFBA\u4F53\u0607\uEA8B\uC241\x03\x87\u043A\x04" +
+		"\x03\uC91D\uCABA\u058D\uAFBA\u4F53\u0607\uEA8B\uC241\x03\x89\u043A\x04" +
 		"\x02\t\x02\x04\x03\t\x03\x04\x04\t\x04\x04\x05\t\x05\x04\x06\t\x06\x04" +
 		"\x07\t\x07\x04\b\t\b\x04\t\t\t\x04\n\t\n\x04\v\t\v\x04\f\t\f\x04\r\t\r" +
 		"\x04\x0E\t\x0E\x04\x0F\t\x0F\x04\x10\t\x10\x04\x11\t\x11\x04\x12\t\x12" +
@@ -5603,75 +5607,75 @@ export class chatParser extends Parser {
 		"X\x02Z\x02\\\x02^\x02`\x02b\x02d\x02f\x02h\x02j\x02l\x02n\x02p\x02r\x02" +
 		"t\x02v\x02x\x02z\x02|\x02~\x02\x80\x02\x82\x02\x84\x02\x86\x02\x88\x02" +
 		"\x8A\x02\x8C\x02\x8E\x02\x90\x02\x92\x02\x94\x02\x96\x02\x98\x02\x9A\x02" +
-		"\x9C\x02\x9E\x02\x02\x16\x03\x02&\'\x06\x02RSUVdktu\x04\x02QQff\x04\x02" +
-		"RRgg\x04\x02SShh\x04\x02TTii\x04\x02UUjj\x04\x02VVkk\x04\x02]]oo\x04\x02" +
-		"__pp\x04\x02``qq\x04\x02aarr\x04\x02bbss\x03\x0245\x04\x02BBEG\x03\x02" +
-		"\x1B\x1B\x04\x02\x1C\x1C\x1E\x1E\x03\x02()\x03\x02!!\x03\x02\"\"\x02\u04BB" +
-		"\x02\xAD\x03\x02\x02\x02\x04\xBB\x03\x02\x02\x02\x06\xBD\x03\x02\x02\x02" +
-		"\b\xF8\x03\x02\x02\x02\n\u0133\x03\x02\x02\x02\f\u0138\x03\x02\x02\x02" +
-		"\x0E\u013D\x03\x02\x02\x02\x10\u0141\x03\x02\x02\x02\x12\u0143\x03\x02" +
-		"\x02\x02\x14\u0145\x03\x02\x02\x02\x16\u015E\x03\x02\x02\x02\x18\u0160" +
-		"\x03\x02\x02\x02\x1A\u0162\x03\x02\x02\x02\x1C\u016D\x03\x02\x02\x02\x1E" +
-		"\u017B\x03\x02\x02\x02 \u017D\x03\x02\x02\x02\"\u0184\x03\x02\x02\x02" +
-		"$\u018E\x03\x02\x02\x02&\u0199\x03\x02\x02\x02(\u01A9\x03\x02\x02\x02" +
-		"*\u01AB\x03\x02\x02\x02,\u01B0\x03\x02\x02\x02.\u01B2\x03\x02\x02\x02" +
-		"0\u01B4\x03\x02\x02\x022\u01B6\x03\x02\x02\x024\u01B8\x03\x02\x02\x02" +
-		"6\u01BA\x03\x02\x02\x028\u01BC\x03\x02\x02\x02:\u01BE\x03\x02\x02\x02" +
-		"<\u01C0\x03\x02\x02\x02>\u01CC\x03\x02\x02\x02@\u01CE\x03\x02\x02\x02" +
-		"B\u01D6\x03\x02\x02\x02D\u01D8\x03\x02\x02\x02F\u01E2\x03\x02\x02\x02" +
-		"H\u01EC\x03\x02\x02\x02J\u01F9\x03\x02\x02\x02L\u0200\x03\x02\x02\x02" +
-		"N\u020B\x03\x02\x02\x02P\u0212\x03\x02\x02\x02R\u021C\x03\x02\x02\x02" +
-		"T\u0227\x03\x02\x02\x02V\u0240\x03\x02\x02\x02X\u0253\x03\x02\x02\x02" +
-		"Z\u0266\x03\x02\x02\x02\\\u0268\x03\x02\x02\x02^\u026F\x03\x02\x02\x02" +
-		"`\u0283\x03\x02\x02\x02b\u028F\x03\x02\x02\x02d\u02B0\x03\x02\x02\x02" +
-		"f\u02B2\x03\x02\x02\x02h\u02B6\x03\x02\x02\x02j\u02D6\x03\x02\x02\x02" +
-		"l\u02D8\x03\x02\x02\x02n\u02ED\x03\x02\x02\x02p\u02F6\x03\x02\x02\x02" +
-		"r\u031F\x03\x02\x02\x02t\u0337\x03\x02\x02\x02v\u0339\x03\x02\x02\x02" +
-		"x\u033D\x03\x02\x02\x02z\u0349\x03\x02\x02\x02|\u0375\x03\x02\x02\x02" +
-		"~\u0377\x03\x02\x02\x02\x80\u038B\x03\x02\x02\x02\x82\u0395\x03\x02\x02" +
-		"\x02\x84\u03A0\x03\x02\x02\x02\x86\u03A2\x03\x02\x02\x02\x88\u03A6\x03" +
-		"\x02\x02\x02\x8A\u03AA\x03\x02\x02\x02\x8C\u03CD\x03\x02\x02\x02\x8E\u03E2" +
-		"\x03\x02\x02\x02\x90\u03E4\x03\x02\x02\x02\x92\u03EE\x03\x02\x02\x02\x94" +
-		"\u0420\x03\x02\x02\x02\x96\u0422\x03\x02\x02\x02\x98\u0426\x03\x02\x02" +
-		"\x02\x9A\u0428\x03\x02\x02\x02\x9C\u0433\x03\x02\x02\x02\x9E\u0437\x03" +
-		"\x02\x02\x02\xA0\xAA\x05\x04\x03\x02\xA1\xA3\x07\x04\x02\x02\xA2\xA1\x03" +
-		"\x02\x02\x02\xA3\xA6\x03\x02\x02\x02\xA4\xA2\x03\x02\x02\x02\xA4\xA5\x03" +
-		"\x02\x02\x02\xA5\xA7\x03\x02\x02\x02\xA6\xA4\x03\x02\x02\x02\xA7\xA9\x07" +
-		"/\x02\x02\xA8\xA4\x03\x02\x02\x02\xA9\xAC\x03\x02\x02\x02\xAA\xA8\x03" +
-		"\x02\x02\x02\xAA\xAB\x03\x02\x02\x02\xAB\xAE\x03\x02\x02\x02\xAC\xAA\x03" +
-		"\x02\x02\x02\xAD\xA0\x03\x02\x02\x02\xAE\xAF\x03\x02\x02\x02\xAF\xAD\x03" +
-		"\x02\x02\x02\xAF\xB0\x03\x02\x02\x02\xB0\xB4\x03\x02\x02\x02\xB1\xB3\x07" +
-		"/\x02\x02\xB2\xB1\x03\x02\x02\x02\xB3\xB6\x03\x02\x02\x02\xB4\xB2\x03" +
-		"\x02\x02\x02\xB4\xB5\x03\x02\x02\x02\xB5\xB7\x03\x02\x02\x02\xB6\xB4\x03" +
-		"\x02\x02\x02\xB7\xB8\x07\x02\x02\x03\xB8\x03\x03\x02\x02\x02\xB9\xBC\x05" +
-		"\x06\x04\x02\xBA\xBC\x05\b\x05\x02\xBB\xB9\x03\x02\x02\x02\xBB\xBA\x03" +
-		"\x02\x02\x02\xBC\x05\x03\x02\x02\x02\xBD\xBE\x07\x05\x02\x02\xBE\xBF\x05" +
-		"\"\x12\x02\xBF\xC3\x07\x1B\x02\x02\xC0\xC2\x07/\x02\x02\xC1\xC0\x03\x02" +
-		"\x02\x02\xC2\xC5\x03\x02\x02\x02\xC3\xC1\x03\x02\x02\x02\xC3\xC4\x03\x02" +
-		"\x02\x02\xC4\xCF\x03\x02\x02\x02\xC5\xC3\x03\x02\x02\x02\xC6\xCA\x05\x16" +
-		"\f\x02\xC7\xC9\x07/\x02\x02\xC8\xC7\x03\x02\x02\x02\xC9\xCC\x03\x02\x02" +
-		"\x02\xCA\xC8\x03\x02\x02\x02\xCA\xCB\x03\x02\x02\x02\xCB\xCE\x03\x02\x02" +
-		"\x02\xCC\xCA\x03\x02\x02\x02\xCD\xC6\x03\x02\x02\x02\xCE\xD1\x03\x02\x02" +
-		"\x02\xCF\xCD\x03\x02\x02\x02\xCF\xD0\x03\x02\x02\x02\xD0\xD2\x03\x02\x02" +
-		"\x02\xD1\xCF\x03\x02\x02\x02\xD2\xD3\t\x02\x02\x02\xD3\xD4\x05\n\x06\x02" +
-		"\xD4\xD5\t\x02\x02\x02\xD5\xDE\x05\f\x07\x02\xD6\xD7\t\x02\x02\x02\xD7" +
-		"\xDB\x05\x10\t\x02\xD8\xDA\x05\x14\v\x02\xD9\xD8\x03\x02\x02\x02\xDA\xDD" +
-		"\x03\x02\x02\x02\xDB\xD9\x03\x02\x02\x02\xDB\xDC\x03\x02\x02\x02\xDC\xDF" +
-		"\x03\x02\x02\x02\xDD\xDB\x03\x02\x02\x02\xDE\xD6\x03\x02\x02\x02\xDF\xE0" +
-		"\x03\x02\x02\x02\xE0\xDE\x03\x02\x02\x02\xE0\xE1\x03\x02\x02\x02\xE1\xE2" +
-		"\x03\x02\x02\x02\xE2\xE6\t\x02\x02\x02\xE3\xE5\x07/\x02\x02\xE4\xE3\x03" +
-		"\x02\x02\x02\xE5\xE8\x03\x02\x02\x02\xE6\xE4\x03\x02\x02\x02\xE6\xE7\x03" +
-		"\x02\x02\x02\xE7\xF6\x03\x02\x02\x02\xE8\xE6\x03\x02\x02\x02\xE9\xF3\x05" +
-		"\x18\r\x02\xEA\xEC\x07/\x02\x02\xEB\xEA\x03\x02\x02\x02\xEC\xEF\x03\x02" +
-		"\x02\x02\xED\xEB\x03\x02\x02\x02\xED\xEE\x03\x02\x02\x02\xEE\xF0\x03\x02" +
-		"\x02\x02\xEF\xED\x03\x02\x02\x02\xF0\xF2\x05\x18\r\x02\xF1\xED\x03\x02" +
-		"\x02\x02\xF2\xF5\x03\x02\x02\x02\xF3\xF1\x03\x02\x02\x02\xF3\xF4\x03\x02" +
-		"\x02\x02\xF4\xF7\x03\x02\x02\x02\xF5\xF3\x03\x02\x02\x02\xF6\xE9\x03\x02" +
-		"\x02\x02\xF6\xF7\x03\x02\x02\x02\xF7\x07\x03\x02\x02\x02\xF8\xF9\x07\x06" +
-		"\x02\x02\xF9\xFA\x05\"\x12\x02\xFA\xFE\x07\x1B\x02\x02\xFB\xFD\x07/\x02" +
-		"\x02\xFC\xFB\x03\x02\x02\x02\xFD\u0100\x03\x02\x02\x02\xFE\xFC\x03\x02" +
-		"\x02\x02\xFE\xFF\x03\x02\x02\x02\xFF\u010A\x03\x02\x02\x02\u0100\xFE\x03" +
-		"\x02\x02\x02\u0101\u0105\x05\x16\f\x02\u0102\u0104\x07/\x02\x02\u0103" +
+		"\x9C\x02\x9E\x02\x02\x16\x03\x02&\'\x07\x02RSUVdktuwx\x04\x02QQff\x04" +
+		"\x02RRgg\x04\x02SShh\x04\x02TTii\x04\x02UUjj\x04\x02VVkk\x04\x02]]oo\x04" +
+		"\x02__pp\x04\x02``qq\x04\x02aarr\x04\x02bbss\x03\x0245\x04\x02BBEG\x03" +
+		"\x02\x1B\x1B\x04\x02\x1C\x1C\x1E\x1E\x03\x02()\x03\x02!!\x03\x02\"\"\x02" +
+		"\u04BB\x02\xAD\x03\x02\x02\x02\x04\xBB\x03\x02\x02\x02\x06\xBD\x03\x02" +
+		"\x02\x02\b\xF8\x03\x02\x02\x02\n\u0133\x03\x02\x02\x02\f\u0138\x03\x02" +
+		"\x02\x02\x0E\u013D\x03\x02\x02\x02\x10\u0141\x03\x02\x02\x02\x12\u0143" +
+		"\x03\x02\x02\x02\x14\u0145\x03\x02\x02\x02\x16\u015E\x03\x02\x02\x02\x18" +
+		"\u0160\x03\x02\x02\x02\x1A\u0162\x03\x02\x02\x02\x1C\u016D\x03\x02\x02" +
+		"\x02\x1E\u017B\x03\x02\x02\x02 \u017D\x03\x02\x02\x02\"\u0184\x03\x02" +
+		"\x02\x02$\u018E\x03\x02\x02\x02&\u0199\x03\x02\x02\x02(\u01A9\x03\x02" +
+		"\x02\x02*\u01AB\x03\x02\x02\x02,\u01B0\x03\x02\x02\x02.\u01B2\x03\x02" +
+		"\x02\x020\u01B4\x03\x02\x02\x022\u01B6\x03\x02\x02\x024\u01B8\x03\x02" +
+		"\x02\x026\u01BA\x03\x02\x02\x028\u01BC\x03\x02\x02\x02:\u01BE\x03\x02" +
+		"\x02\x02<\u01C0\x03\x02\x02\x02>\u01CC\x03\x02\x02\x02@\u01CE\x03\x02" +
+		"\x02\x02B\u01D6\x03\x02\x02\x02D\u01D8\x03\x02\x02\x02F\u01E2\x03\x02" +
+		"\x02\x02H\u01EC\x03\x02\x02\x02J\u01F9\x03\x02\x02\x02L\u0200\x03\x02" +
+		"\x02\x02N\u020B\x03\x02\x02\x02P\u0212\x03\x02\x02\x02R\u021C\x03\x02" +
+		"\x02\x02T\u0227\x03\x02\x02\x02V\u0240\x03\x02\x02\x02X\u0253\x03\x02" +
+		"\x02\x02Z\u0266\x03\x02\x02\x02\\\u0268\x03\x02\x02\x02^\u026F\x03\x02" +
+		"\x02\x02`\u0283\x03\x02\x02\x02b\u028F\x03\x02\x02\x02d\u02B0\x03\x02" +
+		"\x02\x02f\u02B2\x03\x02\x02\x02h\u02B6\x03\x02\x02\x02j\u02D6\x03\x02" +
+		"\x02\x02l\u02D8\x03\x02\x02\x02n\u02ED\x03\x02\x02\x02p\u02F6\x03\x02" +
+		"\x02\x02r\u031F\x03\x02\x02\x02t\u0337\x03\x02\x02\x02v\u0339\x03\x02" +
+		"\x02\x02x\u033D\x03\x02\x02\x02z\u0349\x03\x02\x02\x02|\u0375\x03\x02" +
+		"\x02\x02~\u0377\x03\x02\x02\x02\x80\u038B\x03\x02\x02\x02\x82\u0395\x03" +
+		"\x02\x02\x02\x84\u03A0\x03\x02\x02\x02\x86\u03A2\x03\x02\x02\x02\x88\u03A6" +
+		"\x03\x02\x02\x02\x8A\u03AA\x03\x02\x02\x02\x8C\u03CD\x03\x02\x02\x02\x8E" +
+		"\u03E2\x03\x02\x02\x02\x90\u03E4\x03\x02\x02\x02\x92\u03EE\x03\x02\x02" +
+		"\x02\x94\u0420\x03\x02\x02\x02\x96\u0422\x03\x02\x02\x02\x98\u0426\x03" +
+		"\x02\x02\x02\x9A\u0428\x03\x02\x02\x02\x9C\u0433\x03\x02\x02\x02\x9E\u0437" +
+		"\x03\x02\x02\x02\xA0\xAA\x05\x04\x03\x02\xA1\xA3\x07\x04\x02\x02\xA2\xA1" +
+		"\x03\x02\x02\x02\xA3\xA6\x03\x02\x02\x02\xA4\xA2\x03\x02\x02\x02\xA4\xA5" +
+		"\x03\x02\x02\x02\xA5\xA7\x03\x02\x02\x02\xA6\xA4\x03\x02\x02\x02\xA7\xA9" +
+		"\x07/\x02\x02\xA8\xA4\x03\x02\x02\x02\xA9\xAC\x03\x02\x02\x02\xAA\xA8" +
+		"\x03\x02\x02\x02\xAA\xAB\x03\x02\x02\x02\xAB\xAE\x03\x02\x02\x02\xAC\xAA" +
+		"\x03\x02\x02\x02\xAD\xA0\x03\x02\x02\x02\xAE\xAF\x03\x02\x02\x02\xAF\xAD" +
+		"\x03\x02\x02\x02\xAF\xB0\x03\x02\x02\x02\xB0\xB4\x03\x02\x02\x02\xB1\xB3" +
+		"\x07/\x02\x02\xB2\xB1\x03\x02\x02\x02\xB3\xB6\x03\x02\x02\x02\xB4\xB2" +
+		"\x03\x02\x02\x02\xB4\xB5\x03\x02\x02\x02\xB5\xB7\x03\x02\x02\x02\xB6\xB4" +
+		"\x03\x02\x02\x02\xB7\xB8\x07\x02\x02\x03\xB8\x03\x03\x02\x02\x02\xB9\xBC" +
+		"\x05\x06\x04\x02\xBA\xBC\x05\b\x05\x02\xBB\xB9\x03\x02\x02\x02\xBB\xBA" +
+		"\x03\x02\x02\x02\xBC\x05\x03\x02\x02\x02\xBD\xBE\x07\x05\x02\x02\xBE\xBF" +
+		"\x05\"\x12\x02\xBF\xC3\x07\x1B\x02\x02\xC0\xC2\x07/\x02\x02\xC1\xC0\x03" +
+		"\x02\x02\x02\xC2\xC5\x03\x02\x02\x02\xC3\xC1\x03\x02\x02\x02\xC3\xC4\x03" +
+		"\x02\x02\x02\xC4\xCF\x03\x02\x02\x02\xC5\xC3\x03\x02\x02\x02\xC6\xCA\x05" +
+		"\x16\f\x02\xC7\xC9\x07/\x02\x02\xC8\xC7\x03\x02\x02\x02\xC9\xCC\x03\x02" +
+		"\x02\x02\xCA\xC8\x03\x02\x02\x02\xCA\xCB\x03\x02\x02\x02\xCB\xCE\x03\x02" +
+		"\x02\x02\xCC\xCA\x03\x02\x02\x02\xCD\xC6\x03\x02\x02\x02\xCE\xD1\x03\x02" +
+		"\x02\x02\xCF\xCD\x03\x02\x02\x02\xCF\xD0\x03\x02\x02\x02\xD0\xD2\x03\x02" +
+		"\x02\x02\xD1\xCF\x03\x02\x02\x02\xD2\xD3\t\x02\x02\x02\xD3\xD4\x05\n\x06" +
+		"\x02\xD4\xD5\t\x02\x02\x02\xD5\xDE\x05\f\x07\x02\xD6\xD7\t\x02\x02\x02" +
+		"\xD7\xDB\x05\x10\t\x02\xD8\xDA\x05\x14\v\x02\xD9\xD8\x03\x02\x02\x02\xDA" +
+		"\xDD\x03\x02\x02\x02\xDB\xD9\x03\x02\x02\x02\xDB\xDC\x03\x02\x02\x02\xDC" +
+		"\xDF\x03\x02\x02\x02\xDD\xDB\x03\x02\x02\x02\xDE\xD6\x03\x02\x02\x02\xDF" +
+		"\xE0\x03\x02\x02\x02\xE0\xDE\x03\x02\x02\x02\xE0\xE1\x03\x02\x02\x02\xE1" +
+		"\xE2\x03\x02\x02\x02\xE2\xE6\t\x02\x02\x02\xE3\xE5\x07/\x02\x02\xE4\xE3" +
+		"\x03\x02\x02\x02\xE5\xE8\x03\x02\x02\x02\xE6\xE4\x03\x02\x02\x02\xE6\xE7" +
+		"\x03\x02\x02\x02\xE7\xF6\x03\x02\x02\x02\xE8\xE6\x03\x02\x02\x02\xE9\xF3" +
+		"\x05\x18\r\x02\xEA\xEC\x07/\x02\x02\xEB\xEA\x03\x02\x02\x02\xEC\xEF\x03" +
+		"\x02\x02\x02\xED\xEB\x03\x02\x02\x02\xED\xEE\x03\x02\x02\x02\xEE\xF0\x03" +
+		"\x02\x02\x02\xEF\xED\x03\x02\x02\x02\xF0\xF2\x05\x18\r\x02\xF1\xED\x03" +
+		"\x02\x02\x02\xF2\xF5\x03\x02\x02\x02\xF3\xF1\x03\x02\x02\x02\xF3\xF4\x03" +
+		"\x02\x02\x02\xF4\xF7\x03\x02\x02\x02\xF5\xF3\x03\x02\x02\x02\xF6\xE9\x03" +
+		"\x02\x02\x02\xF6\xF7\x03\x02\x02\x02\xF7\x07\x03\x02\x02\x02\xF8\xF9\x07" +
+		"\x06\x02\x02\xF9\xFA\x05\"\x12\x02\xFA\xFE\x07\x1B\x02\x02\xFB\xFD\x07" +
+		"/\x02\x02\xFC\xFB\x03\x02\x02\x02\xFD\u0100\x03\x02\x02\x02\xFE\xFC\x03" +
+		"\x02\x02\x02\xFE\xFF\x03\x02\x02\x02\xFF\u010A\x03\x02\x02\x02\u0100\xFE" +
+		"\x03\x02\x02\x02\u0101\u0105\x05\x16\f\x02\u0102\u0104\x07/\x02\x02\u0103" +
 		"\u0102\x03\x02\x02\x02\u0104\u0107\x03\x02\x02\x02\u0105\u0103\x03\x02" +
 		"\x02\x02\u0105\u0106\x03\x02\x02\x02\u0106\u0109\x03\x02\x02\x02\u0107" +
 		"\u0105\x03\x02\x02\x02\u0108\u0101\x03\x02\x02\x02\u0109\u010C\x03\x02" +
@@ -5702,7 +5706,7 @@ export class chatParser extends Parser {
 		"\x0F\x03\x02\x02\x02\u0141\u0142\x05\x94K\x02\u0142\x11\x03\x02\x02\x02" +
 		"\u0143\u0144\x05\x94K\x02\u0144\x13\x03\x02\x02\x02\u0145\u0146\x05\x9A" +
 		"N\x02\u0146\u0147\x05\x12\n\x02\u0147\x15\x03\x02\x02\x02\u0148\u015F" +
-		"\x07\x87\x02\x02\u0149\u015F\x05\x1A\x0E\x02\u014A\u015F\x05\x8AF\x02" +
+		"\x07\x89\x02\x02\u0149\u015F\x05\x1A\x0E\x02\u014A\u015F\x05\x8AF\x02" +
 		"\u014B\u015F\x05t;\x02\u014C\u015F\x05j6\x02\u014D\u015F\x05\x80A\x02" +
 		"\u014E\u015F\x05|?\x02\u014F\u015F\x05~@\x02\u0150\u015F\x05\x94K\x02" +
 		"\u0151\u015F\x05p9\x02\u0152\u015F\x05\x82B\x02\u0153\u015F\x05R*\x02" +
@@ -5745,66 +5749,66 @@ export class chatParser extends Parser {
 		"\x02\u0195\u019A\x050\x19\x02\u0196\u019A\x052\x1A\x02\u0197\u019A\x05" +
 		"4\x1B\x02\u0198\u019A\x07W\x02\x02\u0199\u0190\x03\x02\x02\x02\u0199\u0191" +
 		"\x03\x02\x02\x02\u0199\u0192\x03\x02\x02\x02\u0199\u0193\x03\x02\x02\x02" +
-		"\u0199\u0194\x03\x02\x02\x02\u0199\u0195\x03\x02\x02\x02\u0199\u0196\x03";
+		"\u0199\u0194\x03\x02\x02\x02\u0199\u0195\x03\x02\x02\x02\u0199";
 	private static readonly _serializedATNSegment1: string =
-		"\x02\x02\x02\u0199\u0197\x03\x02\x02\x02\u0199\u0198\x03\x02\x02\x02\u019A" +
-		"\'\x03\x02\x02\x02\u019B\u019E\x07N\x02\x02\u019C\u019F\x07\b\x02\x02" +
-		"\u019D\u019F\x07\x84\x02\x02\u019E\u019C\x03\x02\x02\x02\u019E\u019D\x03" +
-		"\x02\x02\x02\u019E\u019F\x03\x02\x02\x02\u019F\u01AA\x03\x02\x02\x02\u01A0" +
-		"\u01A2\x07e\x02\x02\u01A1\u01A3\x07\b\x02\x02\u01A2\u01A1\x03\x02\x02" +
-		"\x02\u01A2\u01A3\x03\x02\x02\x02\u01A3\u01AA\x03\x02\x02\x02\u01A4\u01A6" +
-		"\x07O\x02\x02\u01A5\u01A7\x07\b\x02\x02\u01A6\u01A5\x03\x02\x02\x02\u01A6" +
-		"\u01A7\x03\x02\x02\x02\u01A7\u01AA\x03\x02\x02\x02\u01A8\u01AA\x07P\x02" +
-		"\x02\u01A9\u019B\x03\x02\x02\x02\u01A9\u01A0\x03\x02\x02\x02\u01A9\u01A4" +
-		"\x03\x02\x02\x02\u01A9\u01A8\x03\x02\x02\x02\u01AA)\x03\x02\x02\x02\u01AB" +
-		"\u01AE\t\x04\x02\x02\u01AC\u01AD\x07\x1C\x02\x02\u01AD\u01AF\x07\n\x02" +
-		"\x02\u01AE\u01AC\x03\x02\x02\x02\u01AE\u01AF\x03\x02\x02\x02\u01AF+\x03" +
-		"\x02\x02\x02\u01B0\u01B1\t\x05\x02\x02\u01B1-\x03\x02\x02\x02\u01B2\u01B3" +
-		"\t\x06\x02\x02\u01B3/\x03\x02\x02\x02\u01B4\u01B5\t\x07\x02\x02\u01B5" +
-		"1\x03\x02\x02\x02\u01B6\u01B7\t\b\x02\x02\u01B73\x03\x02\x02\x02\u01B8" +
-		"\u01B9\t\t\x02\x02\u01B95\x03\x02\x02\x02\u01BA\u01BB\t\n\x02\x02\u01BB" +
-		"7\x03\x02\x02\x02\u01BC\u01BD\t\v\x02\x02\u01BD9\x03\x02\x02\x02\u01BE" +
-		"\u01BF\t\f\x02\x02\u01BF;\x03\x02\x02\x02\u01C0\u01C1\t\r\x02\x02\u01C1" +
-		"=\x03\x02\x02\x02\u01C2\u01C5\x07\\\x02\x02\u01C3\u01C4\x07\x1C\x02\x02" +
-		"\u01C4\u01C6\x07\n\x02\x02\u01C5\u01C3\x03\x02\x02\x02\u01C5\u01C6\x03" +
-		"\x02\x02\x02\u01C6\u01CD\x03\x02\x02\x02\u01C7\u01CA\x07n\x02\x02\u01C8" +
-		"\u01C9\x07\x1C\x02\x02\u01C9\u01CB\x07\n\x02\x02\u01CA\u01C8\x03\x02\x02" +
-		"\x02\u01CA\u01CB\x03\x02\x02\x02\u01CB\u01CD\x03\x02\x02\x02\u01CC\u01C2" +
-		"\x03\x02\x02\x02\u01CC\u01C7\x03\x02\x02\x02\u01CD?\x03\x02\x02\x02\u01CE" +
-		"\u01CF\t\x0E\x02\x02\u01CFA\x03\x02\x02\x02\u01D0\u01D1\x056\x1C\x02\u01D1" +
-		"\u01D2\x07\x1C\x02\x02\u01D2\u01D3\x05h5\x02\u01D3\u01D4\x07\x1B\x02\x02" +
-		"\u01D4\u01D7\x03\x02\x02\x02\u01D5\u01D7\x07+\x02\x02\u01D6\u01D0\x03" +
-		"\x02\x02\x02\u01D6\u01D5\x03\x02\x02\x02\u01D7C\x03\x02\x02\x02\u01D8" +
-		"\u01D9\x058\x1D\x02\u01D9\u01DA\x07\x1C\x02\x02\u01DA\u01DB\x05h5\x02" +
-		"\u01DB\u01E0\x07\x1B\x02\x02\u01DC\u01DD\x07B\x02\x02\u01DD\u01DE\x05" +
-		"\x9CO\x02\u01DE\u01DF\x07\x1B\x02\x02\u01DF\u01E1\x03\x02\x02\x02\u01E0" +
-		"\u01DC\x03\x02\x02\x02\u01E0\u01E1\x03\x02\x02\x02\u01E1E\x03\x02\x02" +
-		"\x02\u01E2\u01E3\x05<\x1F\x02\u01E3\u01E4\x07\x1C\x02\x02\u01E4\u01E5" +
-		"\x05h5\x02\u01E5\u01EA\x07\x1B\x02\x02\u01E6\u01E7\x07B\x02\x02\u01E7" +
-		"\u01E8\x05\x9CO\x02\u01E8\u01E9\x07\x1B\x02\x02\u01E9\u01EB\x03\x02\x02" +
-		"\x02\u01EA\u01E6\x03\x02\x02\x02\u01EA\u01EB\x03\x02\x02\x02\u01EBG\x03" +
-		"\x02\x02\x02\u01EC\u01ED\x05:\x1E\x02\u01ED\u01F0\x07\x1C\x02\x02\u01EE" +
-		"\u01F1\x05h5\x02\u01EF\u01F1\x05f4\x02\u01F0\u01EE\x03\x02\x02\x02\u01F0" +
-		"\u01EF\x03\x02\x02\x02\u01F1\u01F2\x03\x02\x02\x02\u01F2\u01F7\x07\x1B" +
-		"\x02\x02\u01F3\u01F4\x07B\x02\x02\u01F4\u01F5\x05\x9CO\x02\u01F5\u01F6" +
-		"\x07\x1B\x02\x02\u01F6\u01F8\x03\x02\x02\x02\u01F7\u01F3\x03\x02\x02\x02" +
-		"\u01F7\u01F8\x03\x02\x02\x02\u01F8I\x03\x02\x02\x02\u01F9\u01FD\x05L\'" +
-		"\x02\u01FA\u01FC\x05d3\x02\u01FB\u01FA\x03\x02\x02\x02\u01FC\u01FF\x03" +
-		"\x02\x02\x02\u01FD\u01FB\x03\x02\x02\x02\u01FD\u01FE\x03\x02\x02\x02\u01FE" +
-		"K\x03\x02\x02\x02\u01FF\u01FD\x03\x02\x02\x02\u0200\u0201\x05@!\x02\u0201" +
-		"\u0205\x07\x1C\x02\x02\u0202\u0204\x07\x04\x02\x02\u0203\u0202\x03\x02" +
-		"\x02\x02\u0204\u0207\x03\x02\x02\x02\u0205\u0203\x03\x02\x02\x02\u0205" +
-		"\u0206\x03\x02\x02\x02\u0206\u0208\x03\x02\x02\x02\u0207\u0205\x03\x02" +
-		"\x02\x02\u0208\u0209\x05h5\x02\u0209\u020A\x07\x1B\x02\x02\u020AM\x03" +
-		"\x02\x02\x02\u020B\u020F\x05P)\x02\u020C\u020E\x05d3\x02\u020D\u020C\x03" +
-		"\x02\x02\x02\u020E\u0211\x03\x02\x02\x02\u020F\u020D\x03\x02\x02\x02\u020F" +
-		"\u0210\x03\x02\x02\x02\u0210O\x03\x02\x02\x02\u0211\u020F\x03\x02\x02" +
-		"\x02\u0212\u0213\x05> \x02\u0213\u0214\x07\x1C\x02\x02\u0214\u0215\x05" +
-		"h5\x02\u0215\u021A\x07\x1B\x02\x02\u0216\u0217\x07B\x02\x02\u0217\u0218" +
-		"\x05\x9CO\x02\u0218\u0219\x07\x1B\x02\x02\u0219\u021B\x03\x02\x02\x02" +
-		"\u021A\u0216\x03\x02\x02\x02\u021A\u021B\x03\x02\x02\x02\u021BQ\x03\x02" +
-		"\x02\x02\u021C\u0220\x05T+\x02\u021D\u021F\x05X-\x02\u021E\u021D\x03\x02" +
-		"\x02\x02\u021F\u0222\x03\x02\x02\x02\u0220\u021E\x03\x02\x02\x02\u0220" +
+		"\u0196\x03\x02\x02\x02\u0199\u0197\x03\x02\x02\x02\u0199\u0198\x03\x02" +
+		"\x02\x02\u019A\'\x03\x02\x02\x02\u019B\u019E\x07N\x02\x02\u019C\u019F" +
+		"\x07\b\x02\x02\u019D\u019F\x07\x86\x02\x02\u019E\u019C\x03\x02\x02\x02" +
+		"\u019E\u019D\x03\x02\x02\x02\u019E\u019F\x03\x02\x02\x02\u019F\u01AA\x03" +
+		"\x02\x02\x02\u01A0\u01A2\x07e\x02\x02\u01A1\u01A3\x07\b\x02\x02\u01A2" +
+		"\u01A1\x03\x02\x02\x02\u01A2\u01A3\x03\x02\x02\x02\u01A3\u01AA\x03\x02" +
+		"\x02\x02\u01A4\u01A6\x07O\x02\x02\u01A5\u01A7\x07\b\x02\x02\u01A6\u01A5" +
+		"\x03\x02\x02\x02\u01A6\u01A7\x03\x02\x02\x02\u01A7\u01AA\x03\x02\x02\x02" +
+		"\u01A8\u01AA\x07P\x02\x02\u01A9\u019B\x03\x02\x02\x02\u01A9\u01A0\x03" +
+		"\x02\x02\x02\u01A9\u01A4\x03\x02\x02\x02\u01A9\u01A8\x03\x02\x02\x02\u01AA" +
+		")\x03\x02\x02\x02\u01AB\u01AE\t\x04\x02\x02\u01AC\u01AD\x07\x1C\x02\x02" +
+		"\u01AD\u01AF\x07\n\x02\x02\u01AE\u01AC\x03\x02\x02\x02\u01AE\u01AF\x03" +
+		"\x02\x02\x02\u01AF+\x03\x02\x02\x02\u01B0\u01B1\t\x05\x02\x02\u01B1-\x03" +
+		"\x02\x02\x02\u01B2\u01B3\t\x06\x02\x02\u01B3/\x03\x02\x02\x02\u01B4\u01B5" +
+		"\t\x07\x02\x02\u01B51\x03\x02\x02\x02\u01B6\u01B7\t\b\x02\x02\u01B73\x03" +
+		"\x02\x02\x02\u01B8\u01B9\t\t\x02\x02\u01B95\x03\x02\x02\x02\u01BA\u01BB" +
+		"\t\n\x02\x02\u01BB7\x03\x02\x02\x02\u01BC\u01BD\t\v\x02\x02\u01BD9\x03" +
+		"\x02\x02\x02\u01BE\u01BF\t\f\x02\x02\u01BF;\x03\x02\x02\x02\u01C0\u01C1" +
+		"\t\r\x02\x02\u01C1=\x03\x02\x02\x02\u01C2\u01C5\x07\\\x02\x02\u01C3\u01C4" +
+		"\x07\x1C\x02\x02\u01C4\u01C6\x07\n\x02\x02\u01C5\u01C3\x03\x02\x02\x02" +
+		"\u01C5\u01C6\x03\x02\x02\x02\u01C6\u01CD\x03\x02\x02\x02\u01C7\u01CA\x07" +
+		"n\x02\x02\u01C8\u01C9\x07\x1C\x02\x02\u01C9\u01CB\x07\n\x02\x02\u01CA" +
+		"\u01C8\x03\x02\x02\x02\u01CA\u01CB\x03\x02\x02\x02\u01CB\u01CD\x03\x02" +
+		"\x02\x02\u01CC\u01C2\x03\x02\x02\x02\u01CC\u01C7\x03\x02\x02\x02\u01CD" +
+		"?\x03\x02\x02\x02\u01CE\u01CF\t\x0E\x02\x02\u01CFA\x03\x02\x02\x02\u01D0" +
+		"\u01D1\x056\x1C\x02\u01D1\u01D2\x07\x1C\x02\x02\u01D2\u01D3\x05h5\x02" +
+		"\u01D3\u01D4\x07\x1B\x02\x02\u01D4\u01D7\x03\x02\x02\x02\u01D5\u01D7\x07" +
+		"+\x02\x02\u01D6\u01D0\x03\x02\x02\x02\u01D6\u01D5\x03\x02\x02\x02\u01D7" +
+		"C\x03\x02\x02\x02\u01D8\u01D9\x058\x1D\x02\u01D9\u01DA\x07\x1C\x02\x02" +
+		"\u01DA\u01DB\x05h5\x02\u01DB\u01E0\x07\x1B\x02\x02\u01DC\u01DD\x07B\x02" +
+		"\x02\u01DD\u01DE\x05\x9CO\x02\u01DE\u01DF\x07\x1B\x02\x02\u01DF\u01E1" +
+		"\x03\x02\x02\x02\u01E0\u01DC\x03\x02\x02\x02\u01E0\u01E1\x03\x02\x02\x02" +
+		"\u01E1E\x03\x02\x02\x02\u01E2\u01E3\x05<\x1F\x02\u01E3\u01E4\x07\x1C\x02" +
+		"\x02\u01E4\u01E5\x05h5\x02\u01E5\u01EA\x07\x1B\x02\x02\u01E6\u01E7\x07" +
+		"B\x02\x02\u01E7\u01E8\x05\x9CO\x02\u01E8\u01E9\x07\x1B\x02\x02\u01E9\u01EB" +
+		"\x03\x02\x02\x02\u01EA\u01E6\x03\x02\x02\x02\u01EA\u01EB\x03\x02\x02\x02" +
+		"\u01EBG\x03\x02\x02\x02\u01EC\u01ED\x05:\x1E\x02\u01ED\u01F0\x07\x1C\x02" +
+		"\x02\u01EE\u01F1\x05h5\x02\u01EF\u01F1\x05f4\x02\u01F0\u01EE\x03\x02\x02" +
+		"\x02\u01F0\u01EF\x03\x02\x02\x02\u01F1\u01F2\x03\x02\x02\x02\u01F2\u01F7" +
+		"\x07\x1B\x02\x02\u01F3\u01F4\x07B\x02\x02\u01F4\u01F5\x05\x9CO\x02\u01F5" +
+		"\u01F6\x07\x1B\x02\x02\u01F6\u01F8\x03\x02\x02\x02\u01F7\u01F3\x03\x02" +
+		"\x02\x02\u01F7\u01F8\x03\x02\x02\x02\u01F8I\x03\x02\x02\x02\u01F9\u01FD" +
+		"\x05L\'\x02\u01FA\u01FC\x05d3\x02\u01FB\u01FA\x03\x02\x02\x02\u01FC\u01FF" +
+		"\x03\x02\x02\x02\u01FD\u01FB\x03\x02\x02\x02\u01FD\u01FE\x03\x02\x02\x02" +
+		"\u01FEK\x03\x02\x02\x02\u01FF\u01FD\x03\x02\x02\x02\u0200\u0201\x05@!" +
+		"\x02\u0201\u0205\x07\x1C\x02\x02\u0202\u0204\x07\x04\x02\x02\u0203\u0202" +
+		"\x03\x02\x02\x02\u0204\u0207\x03\x02\x02\x02\u0205\u0203\x03\x02\x02\x02" +
+		"\u0205\u0206\x03\x02\x02\x02\u0206\u0208\x03\x02\x02\x02\u0207\u0205\x03" +
+		"\x02\x02\x02\u0208\u0209\x05h5\x02\u0209\u020A\x07\x1B\x02\x02\u020AM" +
+		"\x03\x02\x02\x02\u020B\u020F\x05P)\x02\u020C\u020E\x05d3\x02\u020D\u020C" +
+		"\x03\x02\x02\x02\u020E\u0211\x03\x02\x02\x02\u020F\u020D\x03\x02\x02\x02" +
+		"\u020F\u0210\x03\x02\x02\x02\u0210O\x03\x02\x02\x02\u0211\u020F\x03\x02" +
+		"\x02\x02\u0212\u0213\x05> \x02\u0213\u0214\x07\x1C\x02\x02\u0214\u0215" +
+		"\x05h5\x02\u0215\u021A\x07\x1B\x02\x02\u0216\u0217\x07B\x02\x02\u0217" +
+		"\u0218\x05\x9CO\x02\u0218\u0219\x07\x1B\x02\x02\u0219\u021B\x03\x02\x02" +
+		"\x02\u021A\u0216\x03\x02\x02\x02\u021A\u021B\x03\x02\x02\x02\u021BQ\x03" +
+		"\x02\x02\x02\u021C\u0220\x05T+\x02\u021D\u021F\x05X-\x02\u021E\u021D\x03" +
+		"\x02\x02\x02\u021F\u0222\x03\x02\x02\x02\u0220\u021E\x03\x02\x02\x02\u0220" +
 		"\u0221\x03\x02\x02\x02\u0221\u0225\x03\x02\x02\x02\u0222\u0220\x03\x02" +
 		"\x02\x02\u0223\u0224\x07/\x02\x02\u0224\u0226\x07D\x02\x02\u0225\u0223" +
 		"\x03\x02\x02\x02\u0225\u0226\x03\x02\x02\x02\u0226S\x03\x02\x02\x02\u0227" +
@@ -5813,7 +5817,7 @@ export class chatParser extends Parser {
 		"\x02\x02\x02\u022C\u022D\x03\x02\x02\x02\u022D\u022F\x03\x02\x02\x02\u022E" +
 		"\u022C\x03\x02\x02\x02\u022F\u0230\x05h5\x02\u0230\u0231\x07\x1B\x02\x02" +
 		"\u0231U\x03\x02\x02\x02\u0232\u0235\x07Y\x02\x02\u0233\u0236\x07\b\x02" +
-		"\x02\u0234\u0236\x07\x84\x02\x02\u0235\u0233\x03\x02\x02\x02\u0235\u0234" +
+		"\x02\u0234\u0236\x07\x86\x02\x02\u0235\u0233\x03\x02\x02\x02\u0235\u0234" +
 		"\x03\x02\x02\x02\u0235\u0236\x03\x02\x02\x02\u0236\u0241\x03\x02\x02\x02" +
 		"\u0237\u0239\x07m\x02\x02\u0238\u023A\x07\b\x02\x02\u0239\u0238\x03\x02" +
 		"\x02\x02\u0239\u023A\x03\x02\x02\x02\u023A\u0241\x03\x02\x02\x02\u023B" +
@@ -5871,8 +5875,8 @@ export class chatParser extends Parser {
 		"\x02\x02\u02AC\u02AA\x03\x02\x02\x02\u02AD\u02AF\x03\x02\x02\x02\u02AE" +
 		"\u02AC\x03\x02\x02\x02\u02AF\u02B1\x07\x1B\x02\x02\u02B0\u0294\x03\x02" +
 		"\x02\x02\u02B0\u02A4\x03\x02\x02\x02\u02B0\u02A8\x03\x02\x02\x02\u02B1" +
-		"e\x03\x02\x02\x02\u02B2\u02B3\x07\x83\x02\x02\u02B3\u02B4\x07\x1F\x02" +
-		"\x02\u02B4\u02B5\x07-\x02\x02\u02B5g\x03\x02\x02\x02\u02B6\u02B7\x07\x86" +
+		"e\x03\x02\x02\x02\u02B2\u02B3\x07\x85\x02\x02\u02B3\u02B4\x07\x1F\x02" +
+		"\x02\u02B4\u02B5\x07-\x02\x02\u02B5g\x03\x02\x02\x02\u02B6\u02B7\x07\x88" +
 		"\x02\x02\u02B7i\x03\x02\x02\x02\u02B8\u02B9\x07\x19\x02\x02\u02B9\u02C1" +
 		"\x07\x1B\x02\x02\u02BA\u02BC\x07\x04\x02\x02\u02BB\u02BA\x03\x02\x02\x02" +
 		"\u02BC\u02BF\x03\x02\x02\x02\u02BD\u02BB\x03\x02\x02\x02\u02BD\u02BE\x03" +
@@ -5924,12 +5928,12 @@ export class chatParser extends Parser {
 		"\x02\x02\u031E\u0320\x07\x02\x02\x03\u031F\u02F8\x03\x02\x02\x02\u031F" +
 		"\u0315\x03\x02\x02\x02\u0320s\x03\x02\x02\x02\u0321\u0326\x073\x02\x02" +
 		"\u0322\u0327\x05\x94K\x02\u0323\u0327\x07\x1C\x02\x02\u0324\u0327\x07" +
-		"\x86\x02\x02\u0325\u0327\x07/\x02\x02\u0326\u0322\x03\x02\x02\x02\u0326" +
+		"\x88\x02\x02\u0325\u0327\x07/\x02\x02\u0326\u0322\x03\x02\x02\x02\u0326" +
 		"\u0323\x03\x02\x02\x02\u0326\u0324\x03\x02\x02\x02\u0326\u0325\x03\x02" +
 		"\x02\x02\u0327\u0328\x03\x02\x02\x02\u0328\u0326\x03\x02\x02\x02\u0328" +
 		"\u0329\x03\x02\x02\x02\u0329\u032A\x03\x02\x02\x02\u032A\u0338\x07\x1B" +
 		"\x02\x02\u032B\u0333\x073\x02\x02\u032C\u0332\x05\x94K\x02\u032D\u0332" +
-		"\x07\x1C\x02\x02\u032E\u0332\x07\x86\x02\x02\u032F\u0332\x07/\x02\x02" +
+		"\x07\x1C\x02\x02\u032E\u0332\x07\x88\x02\x02\u032F\u0332\x07/\x02\x02" +
 		"\u0330\u0332\x07\x04\x02\x02\u0331\u032C\x03\x02\x02\x02\u0331\u032D\x03" +
 		"\x02\x02\x02\u0331\u032E\x03\x02\x02\x02\u0331\u032F\x03\x02\x02\x02\u0331" +
 		"\u0330\x03\x02\x02\x02\u0332\u0335\x03\x02\x02\x02\u0333\u0331\x03\x02" +
@@ -6040,7 +6044,7 @@ export class chatParser extends Parser {
 		"\x02\x02\u0417\u0419\x07\x04\x02\x02\u0418\u0417\x03\x02\x02\x02\u0419" +
 		"\u041C\x03\x02\x02\x02\u041A\u0418\x03\x02\x02\x02\u041A\u041B\x03\x02" +
 		"\x02\x02\u041B\u0421\x03\x02\x02\x02\u041C\u041A\x03\x02\x02\x02\u041D" +
-		"\u0421\x07\x1E\x02\x02\u041E\u0421\x07%\x02\x02\u041F\u0421\x07\x86\x02" +
+		"\u0421\x07\x1E\x02\x02\u041E\u0421\x07%\x02\x02\u041F\u0421\x07\x88\x02" +
 		"\x02\u0420\u03F2\x03\x02\x02\x02\u0420\u03FB\x03\x02\x02\x02\u0420\u0404" +
 		"\x03\x02\x02\x02\u0420\u0408\x03\x02\x02\x02\u0420\u040C\x03\x02\x02\x02" +
 		"\u0420\u0416\x03\x02\x02\x02\u0420\u041D\x03\x02\x02\x02\u0420\u041E\x03" +
@@ -6063,13 +6067,13 @@ export class chatParser extends Parser {
 		"\u021A\u0220\u0225\u022C\u0235\u0239\u023D\u0240\u024F\u0253\u0262\u0266" +
 		"\u026C\u0277\u027C\u0281\u0283\u0288\u028D\u028F\u0294\u029A\u029F\u02A1" +
 		"\u02AC\u02B0\u02BD\u02C1\u02C7\u02C9\u02D0\u02D4\u02D6\u02DC\u02DE\u02E5" +
-		"\u02EA\u02ED\u02F3\u02F6\u02FA\u0301\u0306\u030C";
+		"\u02EA\u02ED\u02F3\u02F6\u02FA\u0301";
 	private static readonly _serializedATNSegment2: string =
-		"\u0311\u0319\u031B\u031F\u0326\u0328\u0331\u0333\u0337\u0341\u0343\u0347" +
-		"\u034D\u034F\u0355\u035C\u0361\u0367\u036C\u0372\u0375\u037B\u0382\u0384" +
-		"\u038B\u0395\u03A0\u03AE\u03B4\u03BE\u03C0\u03C9\u03CD\u03D3\u03D5\u03DC" +
-		"\u03DE\u03E2\u03E6\u03EC\u03F0\u03F6\u03F9\u03FF\u0402\u040C\u0413\u041A" +
-		"\u0420\u0433\u0435";
+		"\u0306\u030C\u0311\u0319\u031B\u031F\u0326\u0328\u0331\u0333\u0337\u0341" +
+		"\u0343\u0347\u034D\u034F\u0355\u035C\u0361\u0367\u036C\u0372\u0375\u037B" +
+		"\u0382\u0384\u038B\u0395\u03A0\u03AE\u03B4\u03BE\u03C0\u03C9\u03CD\u03D3" +
+		"\u03D5\u03DC\u03DE\u03E2\u03E6\u03EC\u03F0\u03F6\u03F9\u03FF\u0402\u040C" +
+		"\u0413\u041A\u0420\u0433\u0435";
 	public static readonly _serializedATN: string = Utils.join(
 		[
 			chatParser._serializedATNSegment0,
@@ -6820,6 +6824,8 @@ export class FormatContext extends ParserRuleContext {
 export class Resource_formatContext extends ParserRuleContext {
 	public BitmarkMinus(): TerminalNode | undefined { return this.tryGetToken(chatParser.BitmarkMinus, 0); }
 	public BitmarkPlus(): TerminalNode | undefined { return this.tryGetToken(chatParser.BitmarkPlus, 0); }
+	public Prosemirror(): TerminalNode | undefined { return this.tryGetToken(chatParser.Prosemirror, 0); }
+	public Placeholder(): TerminalNode | undefined { return this.tryGetToken(chatParser.Placeholder, 0); }
 	public AmpArticle(): TerminalNode | undefined { return this.tryGetToken(chatParser.AmpArticle, 0); }
 	public AmpDocument(): TerminalNode | undefined { return this.tryGetToken(chatParser.AmpDocument, 0); }
 	public AmpWebsite(): TerminalNode | undefined { return this.tryGetToken(chatParser.AmpWebsite, 0); }

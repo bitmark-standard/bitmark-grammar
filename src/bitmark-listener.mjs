@@ -29,6 +29,8 @@ let BitmarkListener = function(error_listener, source, parser) {
   this.reslist = ['&image', '&audio', '&video',
 		  '&document', '&app', '&website', '&stillImageFilm',
 		  '&pdf'];
+  this.fmtlist = ['prosemirror', 'placeholder', 'text'];
+
   this.atdef_str = ['date', 'location', 'book', 'duration', 'action', 'deepLink',
 		    'botAnnounceAt', 'botSaveAt', 'botSendAt', 'botRemindAt',
 		    'externalLink', 'videoCallLink', 'externalLinkText', 'textReference',
@@ -76,7 +78,9 @@ BitmarkListener.prototype.push_tmpl = function(ctx, type, template) {
   let res = this.but.get_bit_resource(code);
   // closing ] may be there
   this.resformat = res.length === 0 ? 'bitmark--' : res[0];
-  
+  if (this.fmtlist.indexOf(this.resformat) >= 0)
+      b.bit.format = this.resformat; // ????????
+
   this.stk.push(b);
 };
 //
