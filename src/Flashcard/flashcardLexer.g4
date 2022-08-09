@@ -77,9 +77,10 @@ NUMERIC:  ('+'|'-')?[0-9]+ ;
 STRING:   STR  ;
 NL:	  ('\n'|'\r\n') ;
 
-fragment EM0:      '\u{1F400}' .. '\u{1F4FF}' ;
-fragment EM2:      '\u{1F650}' .. '\u{1F9F0}' ;
-fragment VS0:      '\u{FE00}' .. '\u{FE0F}' ;
+fragment EM0:      '\u{1F400}' .. '\u{1F4FF}' ;   // emoji 1
+fragment EM2:      '\u{1F650}' .. '\u{1F9F0}' ;   // emoji 2
+fragment VS0:      '\u{FE00}' .. '\u{FE0F}' ;     // Variation Selectors
+fragment SS0:      '\u{2070}' .. '\u{209C}' ;     // superscript and subscript
 
 fragment ROMANIA:  [ÂâĂăÎîşŞţŢșȘțȚ] ;
 fragment GERMAN:   [ÄäẞÖöÜü] ;
@@ -100,10 +101,10 @@ STR_SPX:
 
 fragment
 STR:
-  ([-0-9̈A-Za-z_"\p{Block=Latin_1_Supplement}\p{Emoji}]|IPA|EM0|EM2|VS0|EURO|TRANSL|GERMAN|POLISH|ROMANIA|JAPANESE|'\\'|'{'|'}')+ ;
+  ([-0-9̈A-Za-z_"\p{Block=Latin_1_Supplement}\p{Emoji}]|IPA|EM0|EM2|VS0|SS0|EURO|TRANSL|GERMAN|POLISH|ROMANIA|JAPANESE|'\\'|'{'|'}')+ ;
 
 SENTENCE:   // Has a space
-  ([0-9A-Za-z_̈%?@!=*+-/ \t$#;"'–•●—➔^ |()\p{Block=Latin_1_Supplement}\p{Emoji}]|IPA|EM0|EM2|VS0|EURO|TRANSL|GERMAN|POLISH|ROMANIA|JAPANESE|'\\'|'{'|'}')+
+  ([0-9A-Za-z_̈%?@!=*+-/ \t$#;"'–•●—➔^ |()\p{Block=Latin_1_Supplement}\p{Emoji}]|IPA|EM0|EM2|VS0|SS0|EURO|TRANSL|GERMAN|POLISH|ROMANIA|JAPANESE|'\\'|'{'|'}')+
 ;
 
 
