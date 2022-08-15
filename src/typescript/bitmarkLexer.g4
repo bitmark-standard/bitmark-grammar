@@ -83,6 +83,7 @@ BitBotActionAnnounce:          NL OPDOT S* 'bot-action-announce' ;
 BitBotActionSave: 	       NL OPDOT S* 'bot-action-save' ;
 BitBotActionRemind:  	       NL OPDOT S* 'bot-action-remind' ;
 
+BitVendorPadletEmbed:	       NL OPDOT S* 'vendor-padlet-embed' ;
 
 
 //
@@ -213,7 +214,7 @@ OpAtIsTracked:	 OPAT S* 'isTracked:'  ;
 OpAtIsInfoOnly:	 OPAT S* 'isInfoOnly:' ;
 
 AtDate:		 OPAT S* 'date:' ;
-
+//OpAtPadletId:	 OPAT S* 'padletId' ;
 
 Http:	  	 'http://'  ;
 Https:   	 'https://'  ;

@@ -1,3 +1,4 @@
-[.article:bitmark--]
+[.vendor-padlet-embed:bitmark--]
 [%][%Umrechnung und Bezeichnung der Bytes]
+[@padletId: uguz234234]
 Nach dem Byte kommt als nächste Grösse das Kilobyte. Aber aufgepasst: 1 Kilobyte umfasst eigentlich nicht 1000 Bytes, sondern 1024 Bytes. Dies hängt damit zusammen, dass 10 Bits nebeneinander 2¹⁴⁵⁶⁷⁸⁺⁰ = 1024 ergeben. 1₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉ ₊ ₋ ₌ ₍ ₎ ₐ ₑ ₒ ₓ ₔ ₕ ₖ ₗ ₘ ₙ ₚ ₛ ₜ. Dennoch ist man dazu übergegangen, für den Sprung zur nächsten Einheit den Wert 1000 zu verwenden. Nach dem gleichen Muster folgt zuerst das Megabyte. 1 Megabyte = 1000 Kilobyte. Danach kommt das Gigabyte (= 1000 Megabyte), das Terabyte (= 1000 Gigabyte) und langsam rückt heute das Petabyte (= 1000 Terabyte) in greifbare Nähe.

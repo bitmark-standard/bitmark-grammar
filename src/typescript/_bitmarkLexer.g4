@@ -83,6 +83,7 @@ BitBotActionAnnounce:          NL OPDOT S* 'bot-action-announce' ;
 BitBotActionSave: 	       NL OPDOT S* 'bot-action-save' ;
 BitBotActionRemind:  	       NL OPDOT S* 'bot-action-remind' ;
 
+BitVendorPadletEmbed:	       NL OPDOT S* 'vendor-padlet-embed' ;
 
 
 //
