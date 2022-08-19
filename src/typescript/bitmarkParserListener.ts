@@ -72,6 +72,7 @@ import { FootnoteContext } from "./bitmarkParser";
 import { HintbitContext } from "./bitmarkParser";
 import { ExamplebitContext } from "./bitmarkParser";
 import { Vendor_padlet_embedContext } from "./bitmarkParser";
+import { ScormContext } from "./bitmarkParser";
 import { MessageContext } from "./bitmarkParser";
 import { Bot_interviewContext } from "./bitmarkParser";
 import { Bot_choiceContext } from "./bitmarkParser";
@@ -914,6 +915,17 @@ export interface bitmarkParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitVendor_padlet_embed?: (ctx: Vendor_padlet_embedContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.scorm`.
+	 * @param ctx the parse tree
+	 */
+	enterScorm?: (ctx: ScormContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.scorm`.
+	 * @param ctx the parse tree
+	 */
+	exitScorm?: (ctx: ScormContext) => void;
 
 	/**
 	 * Enter a parse tree produced by `bitmarkParser.message`.

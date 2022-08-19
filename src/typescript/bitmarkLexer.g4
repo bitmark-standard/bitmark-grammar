@@ -84,7 +84,7 @@ BitBotActionSave: 	       NL OPDOT S* 'bot-action-save' ;
 BitBotActionRemind:  	       NL OPDOT S* 'bot-action-remind' ;
 
 BitVendorPadletEmbed:	       NL OPDOT S* 'vendor-padlet-embed' ;
-
+BitScorm:		       NL OPDOT S* 'scorm' ;
 
 //
 COMMENT:  '||' UTF8*? '||' S* '\n'* ->skip ;

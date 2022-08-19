@@ -54,7 +54,7 @@ bit:
 	| self_assessment
 	| rating | survey | survey_1 | survey_anonymous | survey_anonymous_1
 	| hint
-	| vendor_padlet_embed
+	| vendor_padlet_embed | scorm
 	| learning_path_lti | learning_path_step | learning_path_book
 	| learning_path_sign | learning_path_video_call | learning_path_learning_goal 
 	| learning_path_closing | learning_path_feedback | learning_path_bot_training
@@ -271,7 +271,7 @@ footnote:	BitFootnote  format CL NL* ( bitElem NL* )+ ;
 hintbit:	BitHint  format CL NL* ( bitElem NL* )+ ;
 examplebit:     BitExample format CL NL* ( bitElem NL* )+ ;
 vendor_padlet_embed:  BitVendorPadletEmbed format CL NL* ( bitElem NL* )+ ;
-
+scorm:  	BitScorm format CL NL* ( bitElem NL* )+ ;
 
 
 // NEW 12/2/2020

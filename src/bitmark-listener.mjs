@@ -35,6 +35,7 @@ let BitmarkListener = function(error_listener, source, parser) {
 		    'botAnnounceAt', 'botSaveAt', 'botSendAt', 'botRemindAt',
 		    'externalLink', 'videoCallLink', 'externalLinkText', 'textReference',
 		    'quotedPerson', 'kind', 'collection', 'book', 'padletId',
+		    'scormSource',
 		   ];
   this.body_key = 'body';
   this.num_angleref = 0;
@@ -2419,6 +2420,8 @@ BitmarkListener.prototype.enterFootnote = function(ctx){this.push_tmpl(ctx, 'foo
 BitmarkListener.prototype.enterHintbit = function(ctx) { this.push_tmpl(ctx, 'hint');};
 BitmarkListener.prototype.enterExamplebit = function(ctx){this.push_tmpl(ctx, 'example');};
 BitmarkListener.prototype.enterVendor_padlet_embed = function(ctx) { this.push_tmpl(ctx, 'vendor_padlet_embed');};
+BitmarkListener.prototype.enterScorm = function(ctx){this.push_tmpl(ctx, 'scorm');};
+
 
 BitmarkListener.prototype.exitAnchor = function(ctx) {
   let code = this.but.getcode(ctx);
