@@ -81,6 +81,10 @@ fragment EM0:      '\u{1F400}' .. '\u{1F4FF}' ;   // emoji 1
 fragment EM2:      '\u{1F650}' .. '\u{1F9F0}' ;   // emoji 2
 fragment VS0:      '\u{FE00}' .. '\u{FE0F}' ;     // Variation Selectors
 fragment SS0:      '\u{2070}' .. '\u{209C}' ;     // superscript and subscript
+fragment LEA:	   '\u{0100}' .. '\u{017F}' ;     // latin extended A
+fragment LEB:	   '\u{0200}' .. '\u{024F}' ;     // latin extended B
+fragment GAL:      '\u{03B1}' .. '\u{03C9}' ;     // Greek alpha α β v ...
+fragment GALC:     '\u{0391}' .. '\u{03A9}' ;     // Greek alpha Capital
 
 fragment ROMANIA:  [ÂâĂăÎîşŞţŢșȘțȚ] ;
 fragment GERMAN:   [ÄäẞÖöÜü] ;
@@ -101,10 +105,10 @@ STR_SPX:
 
 fragment
 STR:
-  ([-0-9̈A-Za-z_"\p{Block=Latin_1_Supplement}\p{Emoji}]|IPA|EM0|EM2|VS0|SS0|EURO|TRANSL|GERMAN|POLISH|ROMANIA|JAPANESE|'\\'|'{'|'}')+ ;
+  ([-0-9̈A-Za-z_"\p{Block=Latin_1_Supplement}\p{Emoji}]|IPA|EM0|EM2|VS0|SS0|LEA|LEB|GAL|GALC|EURO|TRANSL|GERMAN|POLISH|ROMANIA|JAPANESE|'\\'|'{'|'}')+ ;
 
 SENTENCE:   // Has a space
-  ([0-9A-Za-z_̈%?@!=*+-/ \t$#;"'–•●—➔^ |()\p{Block=Latin_1_Supplement}\p{Emoji}]|IPA|EM0|EM2|VS0|SS0|EURO|TRANSL|GERMAN|POLISH|ROMANIA|JAPANESE|'\\'|'{'|'}')+
+  ([0-9A-Za-z_̈%?@!=*+-/ \t$#;"'–•●—➔^ |()\p{Block=Latin_1_Supplement}\p{Emoji}]|IPA|EM0|EM2|VS0|SS0|LEA|LEB|GAL|GALC|EURO|TRANSL|GERMAN|POLISH|ROMANIA|JAPANESE|'\\'|'{'|'}')+
 ;
 
 

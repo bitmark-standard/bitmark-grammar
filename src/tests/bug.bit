@@ -1,5 +1,22 @@
-[.scorm:bitmark--]
-[%][%Umrechnung und Bezeichnung der Bytes]
-[@padletId: uguz234234]
-[@scormSource: https://app.slack.com/client/T2YEGACLW/C010STKE494?selected_team_id=T2YEGACLW]
-Nach dem Byte kommt als nächste Grösse das Kilobyte. Aber aufgepasst: 1 Kilobyte umfasst eigentlich nicht 1000 Bytes, sondern 1024 Bytes. Dies hängt damit zusammen, dass 10 Bits nebeneinander 2¹⁴⁵⁶⁷⁸⁺⁰ = 1024 ergeben. 1₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉ ₊ ₋ ₌ ₍ ₎ ₐ ₑ ₒ ₓ ₔ ₕ ₖ ₗ ₘ ₙ ₚ ₛ ₜ. Dennoch ist man dazu übergegangen, für den Sprung zur nächsten Einheit den Wert 1000 zu verwenden. Nach dem gleichen Muster folgt zuerst das Megabyte. 1 Megabyte = 1000 Kilobyte. Danach kommt das Gigabyte (= 1000 Megabyte), das Terabyte (= 1000 Gigabyte) und langsam rückt heute das Petabyte (= 1000 Terabyte) in greifbare Nähe.
+[.multiple-choice]
+[@id:206260]
+[%2][%Contrôle des connaissances]
+[!Un contrat contient l'ordre des bénéficiaires selon l'art. 2 de l'OPP3. Le preneur d'assurance n'a fait de modification à cet effet. Définissez la répartition de la somme d'assurance selon les différentes situations proposées:]
+===
+[!a. Enfant du 1er mariage, concubin depuis huit ans]
+[-L'enfant reçoit tout œ α β v Γ Δ]
+[-Le concubin reçoit tout]
+[+L'enfant et le concubin reçoivent chacun une moitié]
+===
+[!b. Depuis neuf ans en concubinage, un frère et une soeur]
+[-Le frère reçoit tout]
+[+Le concubin reçoit tout]
+[-La sœur reçoit tout]
+[-Le frère et la soeur reçoivent chacun une moitié]
+===
+[!c. Divorcée, 2 enfants du 1er mariage, concubin depuis trois ans]
+[-Le conjoint divorcé reçoit tout]
+[-Le concubin reçoit tout]
+[+Les enfants reçoivent chacun une moitié]
+[-Les enfants et le concubin reçoivent chacun un tiers]
+===
