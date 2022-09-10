@@ -1,31 +1,48 @@
-[.multiple-choice&imageWithAudio]
-[%A30a]
-[!Singles in Deutschland
-
-Sie hören jetzt ein Interview über Singles in Deutschland. Welche Aussage entspricht dem Text? Kreuzen Sie die richtige Antwort an.]
-
+[.match-matrix:bitmark--]
+[@id:213911]
+[%130]
+[!Ordnen Sie folgende Risiken aus dem Unternehmensalltag eines grossen, im Exportgeschäft tätigen Papierfabrikanten den folgenden Kategorien zu und begründen Sie kurz.]
+Kategorien: A Strategische Risiken, B Operative Risiken, C Finanzrisiken, D Soziale Risiken
 ===
-[!Die Anzahl der Singlehaushalte in Deutschland]
-[+a) ist so hoch wie nie.][@example]
-[-b) ist stabil.]
-[-c) zeigt einen gesellschaftlichen Umbruch.]
+[#Risiko]
+==
+[#Risikokategorie]
+==
+[#Begründung]
 ===
-
-[@reference: Allein zu Haus. Single als Lebensmodell? Tagesspiegel online, 11.7.2012
-(Hanna Gieffers/Matthias Schlegel). In: https://www.tagesspiegel.de/politik]
-
-[&image:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/727494_original_r_k_b_by_lupo_pixelio-heller.png][@width:256][@height:1024][@caption:fish and chips][@alt:gloovy day!][@license:gnu v3][@copyright:2022 noda yoshikazu]
-
-[&audio:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/audio/03_erkundungen_b2_3a.mp3][@width:256][@height:1024][@caption:fish and chips][@alt:gloovy day!][@license:gnu v3][@copyright:2022 noda yoshikazu]
-
-[&video:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/audio/03_erkundungen_b2_3a.mp3][@width:128][@height:102][@caption:gozzillla II][@alt:oh my goodness!][@license:gnu v3][@copyright:2024 noda yoshikazu]
-
-
-[@example:]
-[@botAnnouceAt: Allein zu Haus]
-[@botSaveAt:Tagesspiegel]
-[@botSendAt:Tagesspiegel]
-[@botRemindAt: Welche Aussage entspricht]
-[@quotedPerson:Yoshikazu Noda]
-[@theme:darksky]
-[@subType:collection]
+Der Sehweizer Franken erfahrt eine massive Aufwertung, d. h., er wird im Vergleich tu ausländischen Währungen massiv teurer.
+==
+C
+==
+Für ein in der Exportindustrie tätiges Unternehmen bedeutet eine Aufwertung des Schweizer Frankens einen Rückgang der Nachfrage, well die Produkte für das Ausland teurer werden. Die Gewinnmarge für die einzelnen Produkte wird zwar grosser, der Mengenrückgang im Absatz führt jedoch zu geringeren Gesamteinnahmen. Bei einer langfristig bestehenden Aufwertung des Schweizer Frankens kann dieses Risiko auch als ein strategisches Risiko (Kategorie A) bezeichnet werden.
+===
+Eine neue Technologie wird entdeckt und bewirkt, dass unsere Produkte nicht mehr zu von den Kunden erwarteten Qualitatsstandards angeboten werden können.
+==
+A
+==
+Die Entwicklung von technologischen Neuerungen kann von einem Unternehmen über eine ausgebaute F-&-E-Abteilung beeinflusst werden. Wenn ein Konkurrent wider Erwarten eine technologische Neuerung auf den Markt bringt, so muss die Strategie neu überdacht werden.
+===
+Die Medien berichten, dass eines unserer Verwaltungsratsmitglieder in einen Bestechungsskandal verwickelt sei. Dadurch leidet unser Image in der Bevölkerung.
+==
+D
+==
+Negative Pressemeldungen können - ob sie der Wahrheit entsprechen oder nicht - das Nachfrageverhalten der Konsumenten negativ beeinflussen.
+===
+Verursacht durch einen landesweiten Stromausfall, stehen unsere Maschinen mehrere Stunden lang still.
+==
+B
+==
+Ein Produktionsausfall verursacht durch «höhere Gewalt» führt aufgrund der kurzfristig fixen Kosten und der entgangenen Einnahmen zu hohen Kostenbelastungen im operativen Bereich.
+===
+Wir halten eine Beteiligung von 40% des Aktienkapitals eines börsenkotierten Konkurrenzunternehmens. Die Aktien verlieren an der Börse massiv an Wert.
+==
+C
+==
+Der Wertverlust der Beteiligung ist ein Finanzrisiko. Sinkt der Wert der Aktien aufgrund eines schlechten Geschäftsgangs oder einer nachhaltigen Erfolglosigkeit des Unternehmens, an dem die Beteiligung gehalten wird, so kann das Risiko auch als strategisches Risiko bezeichnet werden. (Beteiligungen werden meistens aufgrund von strategischen Absichten gehalten).
+===
+Änderungen der gesetzlichen Regelungen betreffend Altersvorsorge erhöhen unsere Personalkosten um 12%.
+==
+A
+==
+Die Änderung der gesetzlichen Bestimmungen kann vom Unternehmen nicht direkt beeinflusst werden. Ist die Wirkung der Änderung nachhaltig, so stellt sie ein strategisches Risiko dar. Dazu kommt, dass die Personalkosten kurzfristig fix sind und aufgrund der Sozial- Partnerschaft (zwischen Arbeitgebern und Arbeitnehmenden) auch mittel- bis langfristig nur geringfügig reduziert werden können.
+===

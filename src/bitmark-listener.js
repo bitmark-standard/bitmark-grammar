@@ -1350,11 +1350,20 @@ BitmarkListener.prototype.exitMpanswer = function(ctx) {
 BitmarkListener.prototype.enterMpanswer__ = function(ctx) {
   this.curr_bit_stk.push('mpanswer'); // let children know the key
 };
+
+// Sep 10, 2022 added this to fix  a bug in exitMpanswer__ body text replace.
+String.prototype.replaceFrom = function(search, replace, from) {
+  if (this.length > from) {
+    return this.slice(0, from) + this.slice(from).replace(search, replace);
+  }
+  return this;
+}
 //
 BitmarkListener.prototype.exitMpanswer__ = function(ctx) {
   let code = this.but.getcode(ctx, true); // pass true to say this could end without ]
   code = this.but.remove_tail(code, '\n=+\n?');
   let vals = code.split('\n--\n');
+  debugger
   // Could be an empty answer
   if (code.startsWith('==='))  
     return;
@@ -1367,7 +1376,10 @@ BitmarkListener.prototype.exitMpanswer__ = function(ctx) {
 	// ORed values go into the same slot.
 	let cellsz = this.stk.top().bit['matrix'][lastmxidx]['cells'].length;
 	this.stk.top().bit['matrix'][lastmxidx]['cells'][cellsz-1]['values'] .push(val.trim());
-	(this.stk.top()).bit.body = (this.stk.top()).bit.body.replace(val,'');
+	
+	// Sep 10,2022 bug fix. replace should not replace text before matrix text.
+	let i = (this.stk.top()).bit.body.indexOf('===');
+	(this.stk.top()).bit.body = (this.stk.top()).bit.body.replaceFrom(val,'',i);	
       }
   }
   else
