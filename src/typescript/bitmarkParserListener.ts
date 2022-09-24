@@ -54,6 +54,7 @@ import { AssignmentContext } from "./bitmarkParser";
 import { ArticleContext } from "./bitmarkParser";
 import { StatementContext } from "./bitmarkParser";
 import { DetailsContext } from "./bitmarkParser";
+import { Sample_solutionContext } from "./bitmarkParser";
 import { ButtoncopytextContext } from "./bitmarkParser";
 import { WbtcontinueContext } from "./bitmarkParser";
 import { LearningpathdetailsContext } from "./bitmarkParser";
@@ -717,6 +718,17 @@ export interface bitmarkParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitDetails?: (ctx: DetailsContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.sample_solution`.
+	 * @param ctx the parse tree
+	 */
+	enterSample_solution?: (ctx: Sample_solutionContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.sample_solution`.
+	 * @param ctx the parse tree
+	 */
+	exitSample_solution?: (ctx: Sample_solutionContext) => void;
 
 	/**
 	 * Enter a parse tree produced by `bitmarkParser.buttoncopytext`.

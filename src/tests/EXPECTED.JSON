@@ -10321,6 +10321,20 @@
         }
     }
 ]
+<<<<./tests/sample-soln.bit
+[
+    {
+        "bitmark": "[.sample-solution][!More examples and quizzes...][►Ref4.2.34]\n\n[▼I am an anchor]",
+        "bit": {
+            "type": "sample-solution",
+            "format": "bitmark--",
+            "body": "",
+            "instruction": "More examples and quizzes...",
+            "reference": "Ref4.2.34",
+            "anchor": "I am an anchor"
+        }
+    }
+]
 <<<<./tests/bit-alias2.bit
 [
     {

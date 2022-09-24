@@ -1,6 +1,8 @@
 /*
  *  bitmark-listener.js
  *
+ *  last update
+ *  Sep 24,2022
  */
 import R_clone from 'ramda/es/clone.js';
 import { Stack } from './stack.mjs';
@@ -1715,6 +1717,10 @@ BitmarkListener.prototype.enterStatement = function(ctx) {
 BitmarkListener.prototype.enterDetails = function(ctx) { 
   // same as article
   this.push_tmpl(ctx, 'details-1', R_clone(JSON_BIT_TEMPLATES.Article_bit));
+};
+BitmarkListener.prototype.enterSample_solution = function(ctx) { 
+  // same as article
+  this.push_tmpl(ctx, 'sample-solution', R_clone(JSON_BIT_TEMPLATES.Article_bit));
 };
 BitmarkListener.prototype.enterWbtcontinue = function(ctx) { 
   // same as article

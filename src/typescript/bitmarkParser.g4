@@ -45,6 +45,7 @@ bit:
 	| article
 	| statement		// 6/16/2022
 	| details		// 6/18/2022
+	| sample_solution
 	| buttoncopytext | wbtcontinue | learningpathdetails
 	| note | info | warning | remark | hintbit | help | danger | bug    // 02/06/22
 	| sidenote | stickynote | quote | footnote | examplebit  // 02/06/22
@@ -249,6 +250,7 @@ article:
 ;
 statement: BitStatement format CL NL* ( bitElem NL* )+ ;
 details:   BitDetails format CL NL* ( bitElem NL* )+ ;
+sample_solution: BitSampleSolution format CL NL* ( bitElem NL* )+ ;
 buttoncopytext:  BitButtonCopytext format CL NL* ( bitElem NL* )+ ;
 wbtcontinue: BitWbtContinue format CL NL* ( bitElem NL* )+ ;
 learningpathdetails: BitLearningPathDetails format CL NL* ( bitElem NL* )+ ;
