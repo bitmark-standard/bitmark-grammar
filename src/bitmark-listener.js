@@ -1555,26 +1555,21 @@ BitmarkListener.prototype.enterMark_color = function(ctx) {
 BitmarkListener.prototype.enterDocument_upload = function(ctx) {
   this.push_tmpl(ctx, 'document-upload');
 }
-// Exit a parse tree produced by bitmarkParser#document_upload.
-//BitmarkListener.prototype.exitDocument_upload = function(ctx) {};
 // Enter a parse tree produced by bitmarkParser#take_picture.
 BitmarkListener.prototype.enterTake_picture = function(ctx) {
   this.push_tmpl(ctx, 'take-picture');
 };
-// Exit a parse tree produced by bitmarkParser#take_picture.
-//BitmarkListener.prototype.exitTake_picture = function(ctx) {};
+BitmarkListener.prototype.enterTake_audio = function(ctx) {
+  this.push_tmpl(ctx, 'take-audio');
+};
 // Enter a parse tree produced by bitmarkParser#record.
 BitmarkListener.prototype.enterRecord_audio = function(ctx) {
   this.push_tmpl(ctx, 'record');
 };
-// Exit a parse tree produced by bitmarkParser#record.
-//BitmarkListener.prototype.exitRecord = function(ctx) {};
 // Enter a parse tree produced by bitmarkParser#preparation_note.
 BitmarkListener.prototype.enterPreparation_note = function(ctx) {
   this.push_tmpl(ctx, 'preparation-note');
 }
-// Exit a parse tree produced by bitmarkParser#preparation_note.
-//BitmarkListener.prototype.exitPreparation_note = function(ctx) {};
 
 // Enter a parse tree produced by bitmarkParser#assignment.
 BitmarkListener.prototype.enterAssignment = function(ctx) {

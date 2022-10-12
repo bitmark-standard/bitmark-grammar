@@ -95,72 +95,73 @@ export class chatParser extends Parser {
 	public static readonly OpAtCaption = 67;
 	public static readonly OpAtLicense = 68;
 	public static readonly OpAtCopyright = 69;
-	public static readonly OpAtIsTracked = 70;
-	public static readonly OpAtIsInfoOnly = 71;
-	public static readonly AtDate = 72;
-	public static readonly Http = 73;
-	public static readonly Https = 74;
-	public static readonly AmpAudio = 75;
-	public static readonly AmpImage = 76;
-	public static readonly AmpImageZoom = 77;
-	public static readonly AmpImageWAudio = 78;
-	public static readonly AmpVideo = 79;
-	public static readonly AmpArticle = 80;
-	public static readonly AmpDocument = 81;
-	public static readonly AmpApp = 82;
-	public static readonly AmpWebsite = 83;
-	public static readonly AmpStillImageFilm = 84;
-	public static readonly AmpPdf = 85;
-	public static readonly OpAmpAudio = 86;
-	public static readonly OpAmpImage = 87;
-	public static readonly OpAmpImageZoom = 88;
-	public static readonly OpAmpImageWAudio = 89;
-	public static readonly OpAmpVideo = 90;
-	public static readonly OpAmpArticle = 91;
-	public static readonly OpAmpArticleAtt = 92;
-	public static readonly OpAmpDocument = 93;
-	public static readonly OpAmpApp = 94;
-	public static readonly OpAmpWebsite = 95;
-	public static readonly OpAmpStillImageFilm = 96;
-	public static readonly BracEnclose = 97;
-	public static readonly AmpAudioLink = 98;
-	public static readonly AmpImageLink = 99;
-	public static readonly AmpVideoLink = 100;
-	public static readonly AmpArticleLink = 101;
-	public static readonly AmpDocumentLink = 102;
-	public static readonly AmpAppLink = 103;
-	public static readonly AmpWebsiteLink = 104;
-	public static readonly AmpStillImageFilmLink = 105;
-	public static readonly OpAmpAudioLink = 106;
-	public static readonly OpAmpImageLink = 107;
-	public static readonly OpAmpVideoLink = 108;
-	public static readonly OpAmpArticleLink = 109;
-	public static readonly OpAmpDocumentLink = 110;
-	public static readonly OpAmpAppLink = 111;
-	public static readonly OpAmpWebsiteLink = 112;
-	public static readonly OpAmpStillImageFilmLink = 113;
-	public static readonly BitmarkMinus = 114;
-	public static readonly BitmarkPlus = 115;
-	public static readonly ColonText = 116;
-	public static readonly Prosemirror = 117;
-	public static readonly Placeholder = 118;
-	public static readonly BASIC = 119;
-	public static readonly JPG = 120;
-	public static readonly PNG = 121;
-	public static readonly GIF = 122;
-	public static readonly SVG = 123;
-	public static readonly MP2 = 124;
-	public static readonly MP3 = 125;
-	public static readonly MP4 = 126;
-	public static readonly FLV = 127;
-	public static readonly WMV = 128;
-	public static readonly MPEG = 129;
-	public static readonly MPG = 130;
-	public static readonly TEL = 131;
-	public static readonly DotArticleAtt = 132;
-	public static readonly STAR = 133;
-	public static readonly URL = 134;
-	public static readonly LIST_LINE = 135;
+	public static readonly OpAtSearch = 70;
+	public static readonly OpAtIsTracked = 71;
+	public static readonly OpAtIsInfoOnly = 72;
+	public static readonly AtDate = 73;
+	public static readonly Http = 74;
+	public static readonly Https = 75;
+	public static readonly AmpAudio = 76;
+	public static readonly AmpImage = 77;
+	public static readonly AmpImageZoom = 78;
+	public static readonly AmpImageWAudio = 79;
+	public static readonly AmpVideo = 80;
+	public static readonly AmpArticle = 81;
+	public static readonly AmpDocument = 82;
+	public static readonly AmpApp = 83;
+	public static readonly AmpWebsite = 84;
+	public static readonly AmpStillImageFilm = 85;
+	public static readonly AmpPdf = 86;
+	public static readonly OpAmpAudio = 87;
+	public static readonly OpAmpImage = 88;
+	public static readonly OpAmpImageZoom = 89;
+	public static readonly OpAmpImageWAudio = 90;
+	public static readonly OpAmpVideo = 91;
+	public static readonly OpAmpArticle = 92;
+	public static readonly OpAmpArticleAtt = 93;
+	public static readonly OpAmpDocument = 94;
+	public static readonly OpAmpApp = 95;
+	public static readonly OpAmpWebsite = 96;
+	public static readonly OpAmpStillImageFilm = 97;
+	public static readonly BracEnclose = 98;
+	public static readonly AmpAudioLink = 99;
+	public static readonly AmpImageLink = 100;
+	public static readonly AmpVideoLink = 101;
+	public static readonly AmpArticleLink = 102;
+	public static readonly AmpDocumentLink = 103;
+	public static readonly AmpAppLink = 104;
+	public static readonly AmpWebsiteLink = 105;
+	public static readonly AmpStillImageFilmLink = 106;
+	public static readonly OpAmpAudioLink = 107;
+	public static readonly OpAmpImageLink = 108;
+	public static readonly OpAmpVideoLink = 109;
+	public static readonly OpAmpArticleLink = 110;
+	public static readonly OpAmpDocumentLink = 111;
+	public static readonly OpAmpAppLink = 112;
+	public static readonly OpAmpWebsiteLink = 113;
+	public static readonly OpAmpStillImageFilmLink = 114;
+	public static readonly BitmarkMinus = 115;
+	public static readonly BitmarkPlus = 116;
+	public static readonly ColonText = 117;
+	public static readonly Prosemirror = 118;
+	public static readonly Placeholder = 119;
+	public static readonly BASIC = 120;
+	public static readonly JPG = 121;
+	public static readonly PNG = 122;
+	public static readonly GIF = 123;
+	public static readonly SVG = 124;
+	public static readonly MP2 = 125;
+	public static readonly MP3 = 126;
+	public static readonly MP4 = 127;
+	public static readonly FLV = 128;
+	public static readonly WMV = 129;
+	public static readonly MPEG = 130;
+	public static readonly MPG = 131;
+	public static readonly TEL = 132;
+	public static readonly DotArticleAtt = 133;
+	public static readonly STAR = 134;
+	public static readonly URL = 135;
+	public static readonly LIST_LINE = 136;
 	public static readonly RULE_bitmark = 0;
 	public static readonly RULE_bitmark_ = 1;
 	public static readonly RULE_chat = 2;
@@ -270,11 +271,11 @@ export class chatParser extends Parser {
 		undefined, undefined, undefined, undefined, undefined, undefined, undefined, 
 		undefined, undefined, undefined, undefined, undefined, undefined, undefined, 
 		undefined, undefined, undefined, undefined, undefined, undefined, undefined, 
-		undefined, "'http://'", "'https://'", "'&audio'", "'&image'", "'&image-zoom'", 
-		"'&imageWithAudio'", "'&video'", "'&article'", "'&document'", "'&app'", 
-		"'&website'", "'&stillImageFilm'", "'&pdf'", undefined, undefined, undefined, 
+		undefined, undefined, "'http://'", "'https://'", "'&audio'", "'&image'", 
+		"'&image-zoom'", "'&imageWithAudio'", "'&video'", "'&article'", "'&document'", 
+		"'&app'", "'&website'", "'&stillImageFilm'", "'&pdf'", undefined, undefined, 
 		undefined, undefined, undefined, undefined, undefined, undefined, undefined, 
-		undefined, undefined, "'&audioLink'", "'&imageLink'", "'&videoLink'", 
+		undefined, undefined, undefined, "'&audioLink'", "'&imageLink'", "'&videoLink'", 
 		"'&articleLink'", "'&documentLink'", "'&appLink'", "'&websiteLink'", "'&stillImageFilmLink'", 
 		undefined, undefined, undefined, undefined, undefined, undefined, undefined, 
 		undefined, "':bitmark--'", "':bitmark++'", "':text'", "':prosemirror'", 
@@ -293,8 +294,8 @@ export class chatParser extends Parser {
 		"AtShortanswer", "AtLonganswer", "AtExampleWithStr", "AtExamplecol", "AtExamplecl", 
 		"AtPartialAnswerS", "AtPartialAnswer", "AtLabeltrue", "AtLabelfalse", 
 		"AtPoints", "AtSrc", "OPATALT", "OPAMARK", "ShowInIndex", "OpAtCaption", 
-		"OpAtLicense", "OpAtCopyright", "OpAtIsTracked", "OpAtIsInfoOnly", "AtDate", 
-		"Http", "Https", "AmpAudio", "AmpImage", "AmpImageZoom", "AmpImageWAudio", 
+		"OpAtLicense", "OpAtCopyright", "OpAtSearch", "OpAtIsTracked", "OpAtIsInfoOnly", 
+		"AtDate", "Http", "Https", "AmpAudio", "AmpImage", "AmpImageZoom", "AmpImageWAudio", 
 		"AmpVideo", "AmpArticle", "AmpDocument", "AmpApp", "AmpWebsite", "AmpStillImageFilm", 
 		"AmpPdf", "OpAmpAudio", "OpAmpImage", "OpAmpImageZoom", "OpAmpImageWAudio", 
 		"OpAmpVideo", "OpAmpArticle", "OpAmpArticleAtt", "OpAmpDocument", "OpAmpApp", 
@@ -486,7 +487,7 @@ export class chatParser extends Parser {
 			this.state = 205;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
-			while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << chatParser.S) | (1 << chatParser.OPRANGLES) | (1 << chatParser.OPRANGLEL) | (1 << chatParser.OPDANGLE) | (1 << chatParser.OPU) | (1 << chatParser.OPB) | (1 << chatParser.OPQ) | (1 << chatParser.OPA) | (1 << chatParser.OPS) | (1 << chatParser.OPC) | (1 << chatParser.OPHASH) | (1 << chatParser.COLON) | (1 << chatParser.AMP) | (1 << chatParser.DBLCOLON) | (1 << chatParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (chatParser.Less - 32)) | (1 << (chatParser.RightAngle - 32)) | (1 << (chatParser.RightArrow - 32)) | (1 << (chatParser.DBLEQ - 32)) | (1 << (chatParser.ArticleText - 32)) | (1 << (chatParser.NUMERIC - 32)) | (1 << (chatParser.STRING - 32)) | (1 << (chatParser.SENTENCE - 32)) | (1 << (chatParser.AtReference - 32)) | (1 << (chatParser.AtExampleWithStr - 32)) | (1 << (chatParser.AtExamplecol - 32)) | (1 << (chatParser.AtExamplecl - 32)) | (1 << (chatParser.AtLabeltrue - 32)) | (1 << (chatParser.AtLabelfalse - 32)))) !== 0) || ((((_la - 69)) & ~0x1F) === 0 && ((1 << (_la - 69)) & ((1 << (chatParser.OpAtCopyright - 69)) | (1 << (chatParser.OpAmpAudio - 69)) | (1 << (chatParser.OpAmpImage - 69)) | (1 << (chatParser.OpAmpImageZoom - 69)) | (1 << (chatParser.OpAmpImageWAudio - 69)) | (1 << (chatParser.OpAmpVideo - 69)) | (1 << (chatParser.OpAmpArticle - 69)) | (1 << (chatParser.OpAmpDocument - 69)) | (1 << (chatParser.OpAmpApp - 69)) | (1 << (chatParser.OpAmpWebsite - 69)) | (1 << (chatParser.OpAmpStillImageFilm - 69)))) !== 0) || ((((_la - 106)) & ~0x1F) === 0 && ((1 << (_la - 106)) & ((1 << (chatParser.OpAmpAudioLink - 106)) | (1 << (chatParser.OpAmpImageLink - 106)) | (1 << (chatParser.OpAmpVideoLink - 106)) | (1 << (chatParser.OpAmpArticleLink - 106)) | (1 << (chatParser.OpAmpDocumentLink - 106)) | (1 << (chatParser.OpAmpAppLink - 106)) | (1 << (chatParser.OpAmpWebsiteLink - 106)) | (1 << (chatParser.OpAmpStillImageFilmLink - 106)) | (1 << (chatParser.URL - 106)) | (1 << (chatParser.LIST_LINE - 106)))) !== 0)) {
+			while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << chatParser.S) | (1 << chatParser.OPRANGLES) | (1 << chatParser.OPRANGLEL) | (1 << chatParser.OPDANGLE) | (1 << chatParser.OPU) | (1 << chatParser.OPB) | (1 << chatParser.OPQ) | (1 << chatParser.OPA) | (1 << chatParser.OPS) | (1 << chatParser.OPC) | (1 << chatParser.OPHASH) | (1 << chatParser.COLON) | (1 << chatParser.AMP) | (1 << chatParser.DBLCOLON) | (1 << chatParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (chatParser.Less - 32)) | (1 << (chatParser.RightAngle - 32)) | (1 << (chatParser.RightArrow - 32)) | (1 << (chatParser.DBLEQ - 32)) | (1 << (chatParser.ArticleText - 32)) | (1 << (chatParser.NUMERIC - 32)) | (1 << (chatParser.STRING - 32)) | (1 << (chatParser.SENTENCE - 32)) | (1 << (chatParser.AtReference - 32)) | (1 << (chatParser.AtExampleWithStr - 32)) | (1 << (chatParser.AtExamplecol - 32)) | (1 << (chatParser.AtExamplecl - 32)) | (1 << (chatParser.AtLabeltrue - 32)) | (1 << (chatParser.AtLabelfalse - 32)))) !== 0) || ((((_la - 69)) & ~0x1F) === 0 && ((1 << (_la - 69)) & ((1 << (chatParser.OpAtCopyright - 69)) | (1 << (chatParser.OpAmpAudio - 69)) | (1 << (chatParser.OpAmpImage - 69)) | (1 << (chatParser.OpAmpImageZoom - 69)) | (1 << (chatParser.OpAmpImageWAudio - 69)) | (1 << (chatParser.OpAmpVideo - 69)) | (1 << (chatParser.OpAmpArticle - 69)) | (1 << (chatParser.OpAmpDocument - 69)) | (1 << (chatParser.OpAmpApp - 69)) | (1 << (chatParser.OpAmpWebsite - 69)) | (1 << (chatParser.OpAmpStillImageFilm - 69)))) !== 0) || ((((_la - 107)) & ~0x1F) === 0 && ((1 << (_la - 107)) & ((1 << (chatParser.OpAmpAudioLink - 107)) | (1 << (chatParser.OpAmpImageLink - 107)) | (1 << (chatParser.OpAmpVideoLink - 107)) | (1 << (chatParser.OpAmpArticleLink - 107)) | (1 << (chatParser.OpAmpDocumentLink - 107)) | (1 << (chatParser.OpAmpAppLink - 107)) | (1 << (chatParser.OpAmpWebsiteLink - 107)) | (1 << (chatParser.OpAmpStillImageFilmLink - 107)) | (1 << (chatParser.URL - 107)) | (1 << (chatParser.LIST_LINE - 107)))) !== 0)) {
 				{
 				{
 				this.state = 196;
@@ -701,7 +702,7 @@ export class chatParser extends Parser {
 			this.state = 264;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
-			while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << chatParser.S) | (1 << chatParser.OPRANGLES) | (1 << chatParser.OPRANGLEL) | (1 << chatParser.OPDANGLE) | (1 << chatParser.OPU) | (1 << chatParser.OPB) | (1 << chatParser.OPQ) | (1 << chatParser.OPA) | (1 << chatParser.OPS) | (1 << chatParser.OPC) | (1 << chatParser.OPHASH) | (1 << chatParser.COLON) | (1 << chatParser.AMP) | (1 << chatParser.DBLCOLON) | (1 << chatParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (chatParser.Less - 32)) | (1 << (chatParser.RightAngle - 32)) | (1 << (chatParser.RightArrow - 32)) | (1 << (chatParser.DBLEQ - 32)) | (1 << (chatParser.ArticleText - 32)) | (1 << (chatParser.NUMERIC - 32)) | (1 << (chatParser.STRING - 32)) | (1 << (chatParser.SENTENCE - 32)) | (1 << (chatParser.AtReference - 32)) | (1 << (chatParser.AtExampleWithStr - 32)) | (1 << (chatParser.AtExamplecol - 32)) | (1 << (chatParser.AtExamplecl - 32)) | (1 << (chatParser.AtLabeltrue - 32)) | (1 << (chatParser.AtLabelfalse - 32)))) !== 0) || ((((_la - 69)) & ~0x1F) === 0 && ((1 << (_la - 69)) & ((1 << (chatParser.OpAtCopyright - 69)) | (1 << (chatParser.OpAmpAudio - 69)) | (1 << (chatParser.OpAmpImage - 69)) | (1 << (chatParser.OpAmpImageZoom - 69)) | (1 << (chatParser.OpAmpImageWAudio - 69)) | (1 << (chatParser.OpAmpVideo - 69)) | (1 << (chatParser.OpAmpArticle - 69)) | (1 << (chatParser.OpAmpDocument - 69)) | (1 << (chatParser.OpAmpApp - 69)) | (1 << (chatParser.OpAmpWebsite - 69)) | (1 << (chatParser.OpAmpStillImageFilm - 69)))) !== 0) || ((((_la - 106)) & ~0x1F) === 0 && ((1 << (_la - 106)) & ((1 << (chatParser.OpAmpAudioLink - 106)) | (1 << (chatParser.OpAmpImageLink - 106)) | (1 << (chatParser.OpAmpVideoLink - 106)) | (1 << (chatParser.OpAmpArticleLink - 106)) | (1 << (chatParser.OpAmpDocumentLink - 106)) | (1 << (chatParser.OpAmpAppLink - 106)) | (1 << (chatParser.OpAmpWebsiteLink - 106)) | (1 << (chatParser.OpAmpStillImageFilmLink - 106)) | (1 << (chatParser.URL - 106)) | (1 << (chatParser.LIST_LINE - 106)))) !== 0)) {
+			while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << chatParser.S) | (1 << chatParser.OPRANGLES) | (1 << chatParser.OPRANGLEL) | (1 << chatParser.OPDANGLE) | (1 << chatParser.OPU) | (1 << chatParser.OPB) | (1 << chatParser.OPQ) | (1 << chatParser.OPA) | (1 << chatParser.OPS) | (1 << chatParser.OPC) | (1 << chatParser.OPHASH) | (1 << chatParser.COLON) | (1 << chatParser.AMP) | (1 << chatParser.DBLCOLON) | (1 << chatParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (chatParser.Less - 32)) | (1 << (chatParser.RightAngle - 32)) | (1 << (chatParser.RightArrow - 32)) | (1 << (chatParser.DBLEQ - 32)) | (1 << (chatParser.ArticleText - 32)) | (1 << (chatParser.NUMERIC - 32)) | (1 << (chatParser.STRING - 32)) | (1 << (chatParser.SENTENCE - 32)) | (1 << (chatParser.AtReference - 32)) | (1 << (chatParser.AtExampleWithStr - 32)) | (1 << (chatParser.AtExamplecol - 32)) | (1 << (chatParser.AtExamplecl - 32)) | (1 << (chatParser.AtLabeltrue - 32)) | (1 << (chatParser.AtLabelfalse - 32)))) !== 0) || ((((_la - 69)) & ~0x1F) === 0 && ((1 << (_la - 69)) & ((1 << (chatParser.OpAtCopyright - 69)) | (1 << (chatParser.OpAmpAudio - 69)) | (1 << (chatParser.OpAmpImage - 69)) | (1 << (chatParser.OpAmpImageZoom - 69)) | (1 << (chatParser.OpAmpImageWAudio - 69)) | (1 << (chatParser.OpAmpVideo - 69)) | (1 << (chatParser.OpAmpArticle - 69)) | (1 << (chatParser.OpAmpDocument - 69)) | (1 << (chatParser.OpAmpApp - 69)) | (1 << (chatParser.OpAmpWebsite - 69)) | (1 << (chatParser.OpAmpStillImageFilm - 69)))) !== 0) || ((((_la - 107)) & ~0x1F) === 0 && ((1 << (_la - 107)) & ((1 << (chatParser.OpAmpAudioLink - 107)) | (1 << (chatParser.OpAmpImageLink - 107)) | (1 << (chatParser.OpAmpVideoLink - 107)) | (1 << (chatParser.OpAmpArticleLink - 107)) | (1 << (chatParser.OpAmpDocumentLink - 107)) | (1 << (chatParser.OpAmpAppLink - 107)) | (1 << (chatParser.OpAmpWebsiteLink - 107)) | (1 << (chatParser.OpAmpStillImageFilmLink - 107)) | (1 << (chatParser.URL - 107)) | (1 << (chatParser.LIST_LINE - 107)))) !== 0)) {
 				{
 				{
 				this.state = 255;
@@ -1513,7 +1514,7 @@ export class chatParser extends Parser {
 			this.state = 393;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
-			while (((((_la - 75)) & ~0x1F) === 0 && ((1 << (_la - 75)) & ((1 << (chatParser.AmpAudio - 75)) | (1 << (chatParser.AmpImage - 75)) | (1 << (chatParser.AmpImageZoom - 75)) | (1 << (chatParser.AmpImageWAudio - 75)) | (1 << (chatParser.AmpVideo - 75)) | (1 << (chatParser.AmpArticle - 75)) | (1 << (chatParser.AmpDocument - 75)) | (1 << (chatParser.AmpApp - 75)) | (1 << (chatParser.AmpWebsite - 75)) | (1 << (chatParser.AmpStillImageFilm - 75)) | (1 << (chatParser.AmpPdf - 75)) | (1 << (chatParser.AmpAudioLink - 75)) | (1 << (chatParser.AmpImageLink - 75)) | (1 << (chatParser.AmpVideoLink - 75)) | (1 << (chatParser.AmpArticleLink - 75)) | (1 << (chatParser.AmpDocumentLink - 75)) | (1 << (chatParser.AmpAppLink - 75)) | (1 << (chatParser.AmpWebsiteLink - 75)) | (1 << (chatParser.AmpStillImageFilmLink - 75)))) !== 0) || _la === chatParser.ColonText) {
+			while (((((_la - 76)) & ~0x1F) === 0 && ((1 << (_la - 76)) & ((1 << (chatParser.AmpAudio - 76)) | (1 << (chatParser.AmpImage - 76)) | (1 << (chatParser.AmpImageZoom - 76)) | (1 << (chatParser.AmpImageWAudio - 76)) | (1 << (chatParser.AmpVideo - 76)) | (1 << (chatParser.AmpArticle - 76)) | (1 << (chatParser.AmpDocument - 76)) | (1 << (chatParser.AmpApp - 76)) | (1 << (chatParser.AmpWebsite - 76)) | (1 << (chatParser.AmpStillImageFilm - 76)) | (1 << (chatParser.AmpPdf - 76)) | (1 << (chatParser.AmpAudioLink - 76)) | (1 << (chatParser.AmpImageLink - 76)) | (1 << (chatParser.AmpVideoLink - 76)) | (1 << (chatParser.AmpArticleLink - 76)) | (1 << (chatParser.AmpDocumentLink - 76)) | (1 << (chatParser.AmpAppLink - 76)) | (1 << (chatParser.AmpWebsiteLink - 76)) | (1 << (chatParser.AmpStillImageFilmLink - 76)))) !== 0) || _la === chatParser.ColonText) {
 				{
 				this.state = 391;
 				this._errHandler.sync(this);
@@ -1582,7 +1583,7 @@ export class chatParser extends Parser {
 			{
 			this.state = 396;
 			_la = this._input.LA(1);
-			if (!(((((_la - 80)) & ~0x1F) === 0 && ((1 << (_la - 80)) & ((1 << (chatParser.AmpArticle - 80)) | (1 << (chatParser.AmpDocument - 80)) | (1 << (chatParser.AmpWebsite - 80)) | (1 << (chatParser.AmpStillImageFilm - 80)) | (1 << (chatParser.AmpAudioLink - 80)) | (1 << (chatParser.AmpImageLink - 80)) | (1 << (chatParser.AmpVideoLink - 80)) | (1 << (chatParser.AmpArticleLink - 80)) | (1 << (chatParser.AmpDocumentLink - 80)) | (1 << (chatParser.AmpAppLink - 80)) | (1 << (chatParser.AmpWebsiteLink - 80)) | (1 << (chatParser.AmpStillImageFilmLink - 80)))) !== 0) || ((((_la - 114)) & ~0x1F) === 0 && ((1 << (_la - 114)) & ((1 << (chatParser.BitmarkMinus - 114)) | (1 << (chatParser.BitmarkPlus - 114)) | (1 << (chatParser.Prosemirror - 114)) | (1 << (chatParser.Placeholder - 114)))) !== 0))) {
+			if (!(((((_la - 81)) & ~0x1F) === 0 && ((1 << (_la - 81)) & ((1 << (chatParser.AmpArticle - 81)) | (1 << (chatParser.AmpDocument - 81)) | (1 << (chatParser.AmpWebsite - 81)) | (1 << (chatParser.AmpStillImageFilm - 81)) | (1 << (chatParser.AmpAudioLink - 81)) | (1 << (chatParser.AmpImageLink - 81)) | (1 << (chatParser.AmpVideoLink - 81)) | (1 << (chatParser.AmpArticleLink - 81)) | (1 << (chatParser.AmpDocumentLink - 81)) | (1 << (chatParser.AmpAppLink - 81)) | (1 << (chatParser.AmpWebsiteLink - 81)) | (1 << (chatParser.AmpStillImageFilmLink - 81)))) !== 0) || ((((_la - 115)) & ~0x1F) === 0 && ((1 << (_la - 115)) & ((1 << (chatParser.BitmarkMinus - 115)) | (1 << (chatParser.BitmarkPlus - 115)) | (1 << (chatParser.Prosemirror - 115)) | (1 << (chatParser.Placeholder - 115)))) !== 0))) {
 			this._errHandler.recoverInline(this);
 			} else {
 				if (this._input.LA(1) === Token.EOF) {
@@ -2924,11 +2925,12 @@ export class chatParser extends Parser {
 			case chatParser.OpAtCaption:
 			case chatParser.OpAtLicense:
 			case chatParser.OpAtCopyright:
+			case chatParser.OpAtSearch:
 				this.enterOuterAlt(_localctx, 3);
 				{
 				this.state = 585;
 				_la = this._input.LA(1);
-				if (!(((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (chatParser.OPATALT - 64)) | (1 << (chatParser.OpAtCaption - 64)) | (1 << (chatParser.OpAtLicense - 64)) | (1 << (chatParser.OpAtCopyright - 64)))) !== 0))) {
+				if (!(((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (chatParser.OPATALT - 64)) | (1 << (chatParser.OpAtCaption - 64)) | (1 << (chatParser.OpAtLicense - 64)) | (1 << (chatParser.OpAtCopyright - 64)) | (1 << (chatParser.OpAtSearch - 64)))) !== 0))) {
 				this._errHandler.recoverInline(this);
 				} else {
 					if (this._input.LA(1) === Token.EOF) {
@@ -3027,11 +3029,12 @@ export class chatParser extends Parser {
 			case chatParser.OpAtCaption:
 			case chatParser.OpAtLicense:
 			case chatParser.OpAtCopyright:
+			case chatParser.OpAtSearch:
 				this.enterOuterAlt(_localctx, 3);
 				{
 				this.state = 604;
 				_la = this._input.LA(1);
-				if (!(((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (chatParser.OPATALT - 64)) | (1 << (chatParser.OpAtCaption - 64)) | (1 << (chatParser.OpAtLicense - 64)) | (1 << (chatParser.OpAtCopyright - 64)))) !== 0))) {
+				if (!(((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (chatParser.OPATALT - 64)) | (1 << (chatParser.OpAtCaption - 64)) | (1 << (chatParser.OpAtLicense - 64)) | (1 << (chatParser.OpAtCopyright - 64)) | (1 << (chatParser.OpAtSearch - 64)))) !== 0))) {
 				this._errHandler.recoverInline(this);
 				} else {
 					if (this._input.LA(1) === Token.EOF) {
@@ -3420,11 +3423,12 @@ export class chatParser extends Parser {
 			case chatParser.OpAtCaption:
 			case chatParser.OpAtLicense:
 			case chatParser.OpAtCopyright:
+			case chatParser.OpAtSearch:
 				this.enterOuterAlt(_localctx, 3);
 				{
 				this.state = 678;
 				_la = this._input.LA(1);
-				if (!(((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (chatParser.OPATALT - 64)) | (1 << (chatParser.OpAtCaption - 64)) | (1 << (chatParser.OpAtLicense - 64)) | (1 << (chatParser.OpAtCopyright - 64)))) !== 0))) {
+				if (!(((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (chatParser.OPATALT - 64)) | (1 << (chatParser.OpAtCaption - 64)) | (1 << (chatParser.OpAtLicense - 64)) | (1 << (chatParser.OpAtCopyright - 64)) | (1 << (chatParser.OpAtSearch - 64)))) !== 0))) {
 				this._errHandler.recoverInline(this);
 				} else {
 					if (this._input.LA(1) === Token.EOF) {
@@ -4446,7 +4450,7 @@ export class chatParser extends Parser {
 				this.state = 889;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-			} while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << chatParser.OPDOT) | (1 << chatParser.S) | (1 << chatParser.BitChat) | (1 << chatParser.BitConv) | (1 << chatParser.COMMENT) | (1 << chatParser.Image_type) | (1 << chatParser.Audio_type) | (1 << chatParser.Video_type) | (1 << chatParser.OPDOLL) | (1 << chatParser.OPBUL) | (1 << chatParser.OPESC) | (1 << chatParser.OPRANGLES) | (1 << chatParser.OPRANGLEL) | (1 << chatParser.OPDANGLE) | (1 << chatParser.OPU) | (1 << chatParser.OPB) | (1 << chatParser.OPQ) | (1 << chatParser.OPA) | (1 << chatParser.OPP) | (1 << chatParser.OPM) | (1 << chatParser.OPS) | (1 << chatParser.OPR) | (1 << chatParser.OPC) | (1 << chatParser.OPHASH) | (1 << chatParser.COLON) | (1 << chatParser.AMP) | (1 << chatParser.DBLCOLON) | (1 << chatParser.PLUS) | (1 << chatParser.DotAt) | (1 << chatParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (chatParser.Less - 32)) | (1 << (chatParser.RightAngle - 32)) | (1 << (chatParser.RightArrow - 32)) | (1 << (chatParser.DBLEQ - 32)) | (1 << (chatParser.HSPL - 32)) | (1 << (chatParser.HSPL2 - 32)) | (1 << (chatParser.SSPL - 32)) | (1 << (chatParser.SSPL2 - 32)) | (1 << (chatParser.DCANY - 32)) | (1 << (chatParser.ArticleText - 32)) | (1 << (chatParser.NOTCL - 32)) | (1 << (chatParser.NUMERIC - 32)) | (1 << (chatParser.STRING - 32)) | (1 << (chatParser.NL - 32)) | (1 << (chatParser.SENTENCE - 32)) | (1 << (chatParser.OPAT - 32)) | (1 << (chatParser.AtProgress - 32)) | (1 << (chatParser.AtReference - 32)) | (1 << (chatParser.AtWidth - 32)) | (1 << (chatParser.AtHeight - 32)) | (1 << (chatParser.AtProgressPoints - 32)) | (1 << (chatParser.AtShortanswer - 32)) | (1 << (chatParser.AtLonganswer - 32)) | (1 << (chatParser.AtExampleWithStr - 32)) | (1 << (chatParser.AtExamplecol - 32)) | (1 << (chatParser.AtExamplecl - 32)) | (1 << (chatParser.AtPartialAnswerS - 32)) | (1 << (chatParser.AtPartialAnswer - 32)) | (1 << (chatParser.AtLabeltrue - 32)) | (1 << (chatParser.AtLabelfalse - 32)) | (1 << (chatParser.AtPoints - 32)) | (1 << (chatParser.AtSrc - 32)))) !== 0) || ((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (chatParser.OPATALT - 64)) | (1 << (chatParser.OPAMARK - 64)) | (1 << (chatParser.ShowInIndex - 64)) | (1 << (chatParser.OpAtCaption - 64)) | (1 << (chatParser.OpAtLicense - 64)) | (1 << (chatParser.OpAtCopyright - 64)) | (1 << (chatParser.OpAtIsTracked - 64)) | (1 << (chatParser.OpAtIsInfoOnly - 64)) | (1 << (chatParser.AtDate - 64)) | (1 << (chatParser.Http - 64)) | (1 << (chatParser.Https - 64)) | (1 << (chatParser.AmpAudio - 64)) | (1 << (chatParser.AmpImage - 64)) | (1 << (chatParser.AmpImageZoom - 64)) | (1 << (chatParser.AmpImageWAudio - 64)) | (1 << (chatParser.AmpVideo - 64)) | (1 << (chatParser.AmpArticle - 64)) | (1 << (chatParser.AmpDocument - 64)) | (1 << (chatParser.AmpApp - 64)) | (1 << (chatParser.AmpWebsite - 64)) | (1 << (chatParser.AmpStillImageFilm - 64)) | (1 << (chatParser.AmpPdf - 64)) | (1 << (chatParser.OpAmpAudio - 64)) | (1 << (chatParser.OpAmpImage - 64)) | (1 << (chatParser.OpAmpImageZoom - 64)) | (1 << (chatParser.OpAmpImageWAudio - 64)) | (1 << (chatParser.OpAmpVideo - 64)) | (1 << (chatParser.OpAmpArticle - 64)) | (1 << (chatParser.OpAmpArticleAtt - 64)) | (1 << (chatParser.OpAmpDocument - 64)) | (1 << (chatParser.OpAmpApp - 64)) | (1 << (chatParser.OpAmpWebsite - 64)))) !== 0) || ((((_la - 96)) & ~0x1F) === 0 && ((1 << (_la - 96)) & ((1 << (chatParser.OpAmpStillImageFilm - 96)) | (1 << (chatParser.BracEnclose - 96)) | (1 << (chatParser.AmpAudioLink - 96)) | (1 << (chatParser.AmpImageLink - 96)) | (1 << (chatParser.AmpVideoLink - 96)) | (1 << (chatParser.AmpArticleLink - 96)) | (1 << (chatParser.AmpDocumentLink - 96)) | (1 << (chatParser.AmpAppLink - 96)) | (1 << (chatParser.AmpWebsiteLink - 96)) | (1 << (chatParser.AmpStillImageFilmLink - 96)) | (1 << (chatParser.OpAmpAudioLink - 96)) | (1 << (chatParser.OpAmpImageLink - 96)) | (1 << (chatParser.OpAmpVideoLink - 96)) | (1 << (chatParser.OpAmpArticleLink - 96)) | (1 << (chatParser.OpAmpDocumentLink - 96)) | (1 << (chatParser.OpAmpAppLink - 96)) | (1 << (chatParser.OpAmpWebsiteLink - 96)) | (1 << (chatParser.OpAmpStillImageFilmLink - 96)) | (1 << (chatParser.BitmarkMinus - 96)) | (1 << (chatParser.BitmarkPlus - 96)) | (1 << (chatParser.ColonText - 96)) | (1 << (chatParser.Prosemirror - 96)) | (1 << (chatParser.Placeholder - 96)) | (1 << (chatParser.BASIC - 96)) | (1 << (chatParser.JPG - 96)) | (1 << (chatParser.PNG - 96)) | (1 << (chatParser.GIF - 96)) | (1 << (chatParser.SVG - 96)) | (1 << (chatParser.MP2 - 96)) | (1 << (chatParser.MP3 - 96)) | (1 << (chatParser.MP4 - 96)) | (1 << (chatParser.FLV - 96)))) !== 0) || ((((_la - 128)) & ~0x1F) === 0 && ((1 << (_la - 128)) & ((1 << (chatParser.WMV - 128)) | (1 << (chatParser.MPEG - 128)) | (1 << (chatParser.MPG - 128)) | (1 << (chatParser.TEL - 128)) | (1 << (chatParser.DotArticleAtt - 128)) | (1 << (chatParser.STAR - 128)) | (1 << (chatParser.URL - 128)) | (1 << (chatParser.LIST_LINE - 128)))) !== 0));
+			} while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << chatParser.OPDOT) | (1 << chatParser.S) | (1 << chatParser.BitChat) | (1 << chatParser.BitConv) | (1 << chatParser.COMMENT) | (1 << chatParser.Image_type) | (1 << chatParser.Audio_type) | (1 << chatParser.Video_type) | (1 << chatParser.OPDOLL) | (1 << chatParser.OPBUL) | (1 << chatParser.OPESC) | (1 << chatParser.OPRANGLES) | (1 << chatParser.OPRANGLEL) | (1 << chatParser.OPDANGLE) | (1 << chatParser.OPU) | (1 << chatParser.OPB) | (1 << chatParser.OPQ) | (1 << chatParser.OPA) | (1 << chatParser.OPP) | (1 << chatParser.OPM) | (1 << chatParser.OPS) | (1 << chatParser.OPR) | (1 << chatParser.OPC) | (1 << chatParser.OPHASH) | (1 << chatParser.COLON) | (1 << chatParser.AMP) | (1 << chatParser.DBLCOLON) | (1 << chatParser.PLUS) | (1 << chatParser.DotAt) | (1 << chatParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (chatParser.Less - 32)) | (1 << (chatParser.RightAngle - 32)) | (1 << (chatParser.RightArrow - 32)) | (1 << (chatParser.DBLEQ - 32)) | (1 << (chatParser.HSPL - 32)) | (1 << (chatParser.HSPL2 - 32)) | (1 << (chatParser.SSPL - 32)) | (1 << (chatParser.SSPL2 - 32)) | (1 << (chatParser.DCANY - 32)) | (1 << (chatParser.ArticleText - 32)) | (1 << (chatParser.NOTCL - 32)) | (1 << (chatParser.NUMERIC - 32)) | (1 << (chatParser.STRING - 32)) | (1 << (chatParser.NL - 32)) | (1 << (chatParser.SENTENCE - 32)) | (1 << (chatParser.OPAT - 32)) | (1 << (chatParser.AtProgress - 32)) | (1 << (chatParser.AtReference - 32)) | (1 << (chatParser.AtWidth - 32)) | (1 << (chatParser.AtHeight - 32)) | (1 << (chatParser.AtProgressPoints - 32)) | (1 << (chatParser.AtShortanswer - 32)) | (1 << (chatParser.AtLonganswer - 32)) | (1 << (chatParser.AtExampleWithStr - 32)) | (1 << (chatParser.AtExamplecol - 32)) | (1 << (chatParser.AtExamplecl - 32)) | (1 << (chatParser.AtPartialAnswerS - 32)) | (1 << (chatParser.AtPartialAnswer - 32)) | (1 << (chatParser.AtLabeltrue - 32)) | (1 << (chatParser.AtLabelfalse - 32)) | (1 << (chatParser.AtPoints - 32)) | (1 << (chatParser.AtSrc - 32)))) !== 0) || ((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (chatParser.OPATALT - 64)) | (1 << (chatParser.OPAMARK - 64)) | (1 << (chatParser.ShowInIndex - 64)) | (1 << (chatParser.OpAtCaption - 64)) | (1 << (chatParser.OpAtLicense - 64)) | (1 << (chatParser.OpAtCopyright - 64)) | (1 << (chatParser.OpAtSearch - 64)) | (1 << (chatParser.OpAtIsTracked - 64)) | (1 << (chatParser.OpAtIsInfoOnly - 64)) | (1 << (chatParser.AtDate - 64)) | (1 << (chatParser.Http - 64)) | (1 << (chatParser.Https - 64)) | (1 << (chatParser.AmpAudio - 64)) | (1 << (chatParser.AmpImage - 64)) | (1 << (chatParser.AmpImageZoom - 64)) | (1 << (chatParser.AmpImageWAudio - 64)) | (1 << (chatParser.AmpVideo - 64)) | (1 << (chatParser.AmpArticle - 64)) | (1 << (chatParser.AmpDocument - 64)) | (1 << (chatParser.AmpApp - 64)) | (1 << (chatParser.AmpWebsite - 64)) | (1 << (chatParser.AmpStillImageFilm - 64)) | (1 << (chatParser.AmpPdf - 64)) | (1 << (chatParser.OpAmpAudio - 64)) | (1 << (chatParser.OpAmpImage - 64)) | (1 << (chatParser.OpAmpImageZoom - 64)) | (1 << (chatParser.OpAmpImageWAudio - 64)) | (1 << (chatParser.OpAmpVideo - 64)) | (1 << (chatParser.OpAmpArticle - 64)) | (1 << (chatParser.OpAmpArticleAtt - 64)) | (1 << (chatParser.OpAmpDocument - 64)) | (1 << (chatParser.OpAmpApp - 64)))) !== 0) || ((((_la - 96)) & ~0x1F) === 0 && ((1 << (_la - 96)) & ((1 << (chatParser.OpAmpWebsite - 96)) | (1 << (chatParser.OpAmpStillImageFilm - 96)) | (1 << (chatParser.BracEnclose - 96)) | (1 << (chatParser.AmpAudioLink - 96)) | (1 << (chatParser.AmpImageLink - 96)) | (1 << (chatParser.AmpVideoLink - 96)) | (1 << (chatParser.AmpArticleLink - 96)) | (1 << (chatParser.AmpDocumentLink - 96)) | (1 << (chatParser.AmpAppLink - 96)) | (1 << (chatParser.AmpWebsiteLink - 96)) | (1 << (chatParser.AmpStillImageFilmLink - 96)) | (1 << (chatParser.OpAmpAudioLink - 96)) | (1 << (chatParser.OpAmpImageLink - 96)) | (1 << (chatParser.OpAmpVideoLink - 96)) | (1 << (chatParser.OpAmpArticleLink - 96)) | (1 << (chatParser.OpAmpDocumentLink - 96)) | (1 << (chatParser.OpAmpAppLink - 96)) | (1 << (chatParser.OpAmpWebsiteLink - 96)) | (1 << (chatParser.OpAmpStillImageFilmLink - 96)) | (1 << (chatParser.BitmarkMinus - 96)) | (1 << (chatParser.BitmarkPlus - 96)) | (1 << (chatParser.ColonText - 96)) | (1 << (chatParser.Prosemirror - 96)) | (1 << (chatParser.Placeholder - 96)) | (1 << (chatParser.BASIC - 96)) | (1 << (chatParser.JPG - 96)) | (1 << (chatParser.PNG - 96)) | (1 << (chatParser.GIF - 96)) | (1 << (chatParser.SVG - 96)) | (1 << (chatParser.MP2 - 96)) | (1 << (chatParser.MP3 - 96)) | (1 << (chatParser.MP4 - 96)))) !== 0) || ((((_la - 128)) & ~0x1F) === 0 && ((1 << (_la - 128)) & ((1 << (chatParser.FLV - 128)) | (1 << (chatParser.WMV - 128)) | (1 << (chatParser.MPEG - 128)) | (1 << (chatParser.MPG - 128)) | (1 << (chatParser.TEL - 128)) | (1 << (chatParser.DotArticleAtt - 128)) | (1 << (chatParser.STAR - 128)) | (1 << (chatParser.URL - 128)) | (1 << (chatParser.LIST_LINE - 128)))) !== 0));
 			this.state = 891;
 			this.match(chatParser.CL);
 			}
@@ -5502,7 +5506,7 @@ export class chatParser extends Parser {
 
 	private static readonly _serializedATNSegments: number = 3;
 	private static readonly _serializedATNSegment0: string =
-		"\x03\uC91D\uCABA\u058D\uAFBA\u4F53\u0607\uEA8B\uC241\x03\x89\u043A\x04" +
+		"\x03\uC91D\uCABA\u058D\uAFBA\u4F53\u0607\uEA8B\uC241\x03\x8A\u043A\x04" +
 		"\x02\t\x02\x04\x03\t\x03\x04\x04\t\x04\x04\x05\t\x05\x04\x06\t\x06\x04" +
 		"\x07\t\x07\x04\b\t\b\x04\t\t\t\x04\n\t\n\x04\v\t\v\x04\f\t\f\x04\r\t\r" +
 		"\x04\x0E\t\x0E\x04\x0F\t\x0F\x04\x10\t\x10\x04\x11\t\x11\x04\x12\t\x12" +
@@ -5607,9 +5611,9 @@ export class chatParser extends Parser {
 		"X\x02Z\x02\\\x02^\x02`\x02b\x02d\x02f\x02h\x02j\x02l\x02n\x02p\x02r\x02" +
 		"t\x02v\x02x\x02z\x02|\x02~\x02\x80\x02\x82\x02\x84\x02\x86\x02\x88\x02" +
 		"\x8A\x02\x8C\x02\x8E\x02\x90\x02\x92\x02\x94\x02\x96\x02\x98\x02\x9A\x02" +
-		"\x9C\x02\x9E\x02\x02\x16\x03\x02&\'\x07\x02RSUVdktuwx\x04\x02QQff\x04" +
-		"\x02RRgg\x04\x02SShh\x04\x02TTii\x04\x02UUjj\x04\x02VVkk\x04\x02]]oo\x04" +
-		"\x02__pp\x04\x02``qq\x04\x02aarr\x04\x02bbss\x03\x0245\x04\x02BBEG\x03" +
+		"\x9C\x02\x9E\x02\x02\x16\x03\x02&\'\x07\x02STVWeluvxy\x04\x02RRgg\x04" +
+		"\x02SShh\x04\x02TTii\x04\x02UUjj\x04\x02VVkk\x04\x02WWll\x04\x02^^pp\x04" +
+		"\x02``qq\x04\x02aarr\x04\x02bbss\x04\x02cctt\x03\x0245\x04\x02BBEH\x03" +
 		"\x02\x1B\x1B\x04\x02\x1C\x1C\x1E\x1E\x03\x02()\x03\x02!!\x03\x02\"\"\x02" +
 		"\u04BB\x02\xAD\x03\x02\x02\x02\x04\xBB\x03\x02\x02\x02\x06\xBD\x03\x02" +
 		"\x02\x02\b\xF8\x03\x02\x02\x02\n\u0133\x03\x02\x02\x02\f\u0138\x03\x02" +
@@ -5706,7 +5710,7 @@ export class chatParser extends Parser {
 		"\x0F\x03\x02\x02\x02\u0141\u0142\x05\x94K\x02\u0142\x11\x03\x02\x02\x02" +
 		"\u0143\u0144\x05\x94K\x02\u0144\x13\x03\x02\x02\x02\u0145\u0146\x05\x9A" +
 		"N\x02\u0146\u0147\x05\x12\n\x02\u0147\x15\x03\x02\x02\x02\u0148\u015F" +
-		"\x07\x89\x02\x02\u0149\u015F\x05\x1A\x0E\x02\u014A\u015F\x05\x8AF\x02" +
+		"\x07\x8A\x02\x02\u0149\u015F\x05\x1A\x0E\x02\u014A\u015F\x05\x8AF\x02" +
 		"\u014B\u015F\x05t;\x02\u014C\u015F\x05j6\x02\u014D\u015F\x05\x80A\x02" +
 		"\u014E\u015F\x05|?\x02\u014F\u015F\x05~@\x02\u0150\u015F\x05\x94K\x02" +
 		"\u0151\u015F\x05p9\x02\u0152\u015F\x05\x82B\x02\u0153\u015F\x05R*\x02" +
@@ -5740,26 +5744,26 @@ export class chatParser extends Parser {
 		"\x07\x1B\x02\x02\u0180!\x03\x02\x02\x02\u0181\u0183\x05$\x13\x02\u0182" +
 		"\u0181\x03\x02\x02\x02\u0183\u0186\x03\x02\x02\x02\u0184\u0182\x03\x02" +
 		"\x02\x02\u0184\u0185\x03\x02\x02\x02\u0185\u018B\x03\x02\x02\x02\u0186" +
-		"\u0184\x03\x02\x02\x02\u0187\u018A\x07v\x02\x02\u0188\u018A\x05&\x14\x02" +
+		"\u0184\x03\x02\x02\x02\u0187\u018A\x07w\x02\x02\u0188\u018A\x05&\x14\x02" +
 		"\u0189\u0187\x03\x02\x02\x02\u0189\u0188\x03\x02\x02\x02\u018A\u018D\x03" +
 		"\x02\x02\x02\u018B\u0189\x03\x02\x02\x02\u018B\u018C\x03\x02\x02\x02\u018C" +
 		"#\x03\x02\x02\x02\u018D\u018B\x03\x02\x02\x02\u018E\u018F\t\x03\x02\x02" +
 		"\u018F%\x03\x02\x02\x02\u0190\u019A\x05(\x15\x02\u0191\u019A\x05`1\x02" +
 		"\u0192\u019A\x05*\x16\x02\u0193\u019A\x05,\x17\x02\u0194\u019A\x05.\x18" +
 		"\x02\u0195\u019A\x050\x19\x02\u0196\u019A\x052\x1A\x02\u0197\u019A\x05" +
-		"4\x1B\x02\u0198\u019A\x07W\x02\x02\u0199\u0190\x03\x02\x02\x02\u0199\u0191" +
+		"4\x1B\x02\u0198\u019A\x07X\x02\x02\u0199\u0190\x03\x02\x02\x02\u0199\u0191" +
 		"\x03\x02\x02\x02\u0199\u0192\x03\x02\x02\x02\u0199\u0193\x03\x02\x02\x02" +
 		"\u0199\u0194\x03\x02\x02\x02\u0199\u0195\x03\x02\x02\x02\u0199";
 	private static readonly _serializedATNSegment1: string =
 		"\u0196\x03\x02\x02\x02\u0199\u0197\x03\x02\x02\x02\u0199\u0198\x03\x02" +
-		"\x02\x02\u019A\'\x03\x02\x02\x02\u019B\u019E\x07N\x02\x02\u019C\u019F" +
-		"\x07\b\x02\x02\u019D\u019F\x07\x86\x02\x02\u019E\u019C\x03\x02\x02\x02" +
+		"\x02\x02\u019A\'\x03\x02\x02\x02\u019B\u019E\x07O\x02\x02\u019C\u019F" +
+		"\x07\b\x02\x02\u019D\u019F\x07\x87\x02\x02\u019E\u019C\x03\x02\x02\x02" +
 		"\u019E\u019D\x03\x02\x02\x02\u019E\u019F\x03\x02\x02\x02\u019F\u01AA\x03" +
-		"\x02\x02\x02\u01A0\u01A2\x07e\x02\x02\u01A1\u01A3\x07\b\x02\x02\u01A2" +
+		"\x02\x02\x02\u01A0\u01A2\x07f\x02\x02\u01A1\u01A3\x07\b\x02\x02\u01A2" +
 		"\u01A1\x03\x02\x02\x02\u01A2\u01A3\x03\x02\x02\x02\u01A3\u01AA\x03\x02" +
-		"\x02\x02\u01A4\u01A6\x07O\x02\x02\u01A5\u01A7\x07\b\x02\x02\u01A6\u01A5" +
+		"\x02\x02\u01A4\u01A6\x07P\x02\x02\u01A5\u01A7\x07\b\x02\x02\u01A6\u01A5" +
 		"\x03\x02\x02\x02\u01A6\u01A7\x03\x02\x02\x02\u01A7\u01AA\x03\x02\x02\x02" +
-		"\u01A8\u01AA\x07P\x02\x02\u01A9\u019B\x03\x02\x02\x02\u01A9\u01A0\x03" +
+		"\u01A8\u01AA\x07Q\x02\x02\u01A9\u019B\x03\x02\x02\x02\u01A9\u01A0\x03" +
 		"\x02\x02\x02\u01A9\u01A4\x03\x02\x02\x02\u01A9\u01A8\x03\x02\x02\x02\u01AA" +
 		")\x03\x02\x02\x02\u01AB\u01AE\t\x04\x02\x02\u01AC\u01AD\x07\x1C\x02\x02" +
 		"\u01AD\u01AF\x07\n\x02\x02\u01AE\u01AC\x03\x02\x02\x02\u01AE\u01AF\x03" +
@@ -5769,10 +5773,10 @@ export class chatParser extends Parser {
 		"\x02\x02\x02\u01B8\u01B9\t\t\x02\x02\u01B95\x03\x02\x02\x02\u01BA\u01BB" +
 		"\t\n\x02\x02\u01BB7\x03\x02\x02\x02\u01BC\u01BD\t\v\x02\x02\u01BD9\x03" +
 		"\x02\x02\x02\u01BE\u01BF\t\f\x02\x02\u01BF;\x03\x02\x02\x02\u01C0\u01C1" +
-		"\t\r\x02\x02\u01C1=\x03\x02\x02\x02\u01C2\u01C5\x07\\\x02\x02\u01C3\u01C4" +
+		"\t\r\x02\x02\u01C1=\x03\x02\x02\x02\u01C2\u01C5\x07]\x02\x02\u01C3\u01C4" +
 		"\x07\x1C\x02\x02\u01C4\u01C6\x07\n\x02\x02\u01C5\u01C3\x03\x02\x02\x02" +
 		"\u01C5\u01C6\x03\x02\x02\x02\u01C6\u01CD\x03\x02\x02\x02\u01C7\u01CA\x07" +
-		"n\x02\x02\u01C8\u01C9\x07\x1C\x02\x02\u01C9\u01CB\x07\n\x02\x02\u01CA" +
+		"o\x02\x02\u01C8\u01C9\x07\x1C\x02\x02\u01C9\u01CB\x07\n\x02\x02\u01CA" +
 		"\u01C8\x03\x02\x02\x02\u01CA\u01CB\x03\x02\x02\x02\u01CB\u01CD\x03\x02" +
 		"\x02\x02\u01CC\u01C2\x03\x02\x02\x02\u01CC\u01C7\x03\x02\x02\x02\u01CD" +
 		"?\x03\x02\x02\x02\u01CE\u01CF\t\x0E\x02\x02\u01CFA\x03\x02\x02\x02\u01D0" +
@@ -5816,14 +5820,14 @@ export class chatParser extends Parser {
 		"\u022A\u0229\x03\x02\x02\x02\u022B\u022E\x03\x02\x02\x02\u022C\u022A\x03" +
 		"\x02\x02\x02\u022C\u022D\x03\x02\x02\x02\u022D\u022F\x03\x02\x02\x02\u022E" +
 		"\u022C\x03\x02\x02\x02\u022F\u0230\x05h5\x02\u0230\u0231\x07\x1B\x02\x02" +
-		"\u0231U\x03\x02\x02\x02\u0232\u0235\x07Y\x02\x02\u0233\u0236\x07\b\x02" +
-		"\x02\u0234\u0236\x07\x86\x02\x02\u0235\u0233\x03\x02\x02\x02\u0235\u0234" +
+		"\u0231U\x03\x02\x02\x02\u0232\u0235\x07Z\x02\x02\u0233\u0236\x07\b\x02" +
+		"\x02\u0234\u0236\x07\x87\x02\x02\u0235\u0233\x03\x02\x02\x02\u0235\u0234" +
 		"\x03\x02\x02\x02\u0235\u0236\x03\x02\x02\x02\u0236\u0241\x03\x02\x02\x02" +
-		"\u0237\u0239\x07m\x02\x02\u0238\u023A\x07\b\x02\x02\u0239\u0238\x03\x02" +
+		"\u0237\u0239\x07n\x02\x02\u0238\u023A\x07\b\x02\x02\u0239\u0238\x03\x02" +
 		"\x02\x02\u0239\u023A\x03\x02\x02\x02\u023A\u0241\x03\x02\x02\x02\u023B" +
-		"\u023D\x07Z\x02\x02\u023C\u023E\x07\b\x02\x02\u023D\u023C\x03\x02\x02" +
+		"\u023D\x07[\x02\x02\u023C\u023E\x07\b\x02\x02\u023D\u023C\x03\x02\x02" +
 		"\x02\u023D\u023E\x03\x02\x02\x02\u023E\u0241\x03\x02\x02\x02\u023F\u0241" +
-		"\x07[\x02\x02\u0240\u0232\x03\x02\x02\x02\u0240\u0237\x03\x02\x02\x02" +
+		"\x07\\\x02\x02\u0240\u0232\x03\x02\x02\x02\u0240\u0237\x03\x02\x02\x02" +
 		"\u0240\u023B\x03\x02\x02\x02\u0240\u023F\x03\x02\x02\x02\u0241W\x03\x02" +
 		"\x02\x02\u0242\u0243\x07A\x02\x02\u0243\u0244\x07\x1C\x02\x02\u0244\u0245" +
 		"\x05h5\x02\u0245\u0246\x07\x1B\x02\x02\u0246\u0254\x03\x02\x02\x02\u0247" +
@@ -5848,15 +5852,15 @@ export class chatParser extends Parser {
 		"\x07\x1C\x02\x02\u0271\u0272\x05h5\x02\u0272\u0277\x07\x1B\x02\x02\u0273" +
 		"\u0274\x07B\x02\x02\u0274\u0275\x05\x9CO\x02\u0275\u0276\x07\x1B\x02\x02" +
 		"\u0276\u0278\x03\x02\x02\x02\u0277\u0273\x03\x02\x02\x02\u0277\u0278\x03" +
-		"\x02\x02\x02\u0278_\x03\x02\x02\x02\u0279\u027C\x07M\x02\x02\u027A\u027B" +
+		"\x02\x02\x02\u0278_\x03\x02\x02\x02\u0279\u027C\x07N\x02\x02\u027A\u027B" +
 		"\x07\x1C\x02\x02\u027B\u027D\x07\t\x02\x02\u027C\u027A\x03\x02\x02\x02" +
 		"\u027C\u027D\x03\x02\x02\x02\u027D\u0284\x03\x02\x02\x02\u027E\u0281\x07" +
-		"d\x02\x02\u027F\u0280\x07\x1C\x02\x02\u0280\u0282\x07\t\x02\x02\u0281" +
+		"e\x02\x02\u027F\u0280\x07\x1C\x02\x02\u0280\u0282\x07\t\x02\x02\u0281" +
 		"\u027F\x03\x02\x02\x02\u0281\u0282\x03\x02\x02\x02\u0282\u0284\x03\x02" +
 		"\x02\x02\u0283\u0279\x03\x02\x02\x02\u0283\u027E\x03\x02\x02\x02\u0284" +
-		"a\x03\x02\x02\x02\u0285\u0288\x07X\x02\x02\u0286\u0287\x07\x1C\x02\x02" +
+		"a\x03\x02\x02\x02\u0285\u0288\x07Y\x02\x02\u0286\u0287\x07\x1C\x02\x02" +
 		"\u0287\u0289\x07\t\x02\x02\u0288\u0286\x03\x02\x02\x02\u0288\u0289\x03" +
-		"\x02\x02\x02\u0289\u0290\x03\x02\x02\x02\u028A\u028D\x07l\x02\x02\u028B" +
+		"\x02\x02\x02\u0289\u0290\x03\x02\x02\x02\u028A\u028D\x07m\x02\x02\u028B" +
 		"\u028C\x07\x1C\x02\x02\u028C\u028E\x07\t\x02\x02\u028D\u028B\x03\x02\x02" +
 		"\x02\u028D\u028E\x03\x02\x02\x02\u028E\u0290\x03\x02\x02\x02\u028F\u0285" +
 		"\x03\x02\x02\x02\u028F\u028A\x03\x02\x02\x02\u0290c\x03\x02\x02\x02\u0291" +
@@ -5875,8 +5879,8 @@ export class chatParser extends Parser {
 		"\x02\x02\u02AC\u02AA\x03\x02\x02\x02\u02AD\u02AF\x03\x02\x02\x02\u02AE" +
 		"\u02AC\x03\x02\x02\x02\u02AF\u02B1\x07\x1B\x02\x02\u02B0\u0294\x03\x02" +
 		"\x02\x02\u02B0\u02A4\x03\x02\x02\x02\u02B0\u02A8\x03\x02\x02\x02\u02B1" +
-		"e\x03\x02\x02\x02\u02B2\u02B3\x07\x85\x02\x02\u02B3\u02B4\x07\x1F\x02" +
-		"\x02\u02B4\u02B5\x07-\x02\x02\u02B5g\x03\x02\x02\x02\u02B6\u02B7\x07\x88" +
+		"e\x03\x02\x02\x02\u02B2\u02B3\x07\x86\x02\x02\u02B3\u02B4\x07\x1F\x02" +
+		"\x02\u02B4\u02B5\x07-\x02\x02\u02B5g\x03\x02\x02\x02\u02B6\u02B7\x07\x89" +
 		"\x02\x02\u02B7i\x03\x02\x02\x02\u02B8\u02B9\x07\x19\x02\x02\u02B9\u02C1" +
 		"\x07\x1B\x02\x02\u02BA\u02BC\x07\x04\x02\x02\u02BB\u02BA\x03\x02\x02\x02" +
 		"\u02BC\u02BF\x03\x02\x02\x02\u02BD\u02BB\x03\x02\x02\x02\u02BD\u02BE\x03" +
@@ -5907,7 +5911,7 @@ export class chatParser extends Parser {
 		"\u02F2\u02F4\x070\x02\x02\u02F3\u02F2\x03\x02\x02\x02\u02F3\u02F4\x03" +
 		"\x02\x02\x02\u02F4\u02F5\x03\x02\x02\x02\u02F5\u02F7\x07\x02\x02\x03\u02F6" +
 		"\u02EF\x03\x02\x02\x02\u02F6\u02F0\x03\x02\x02\x02\u02F6\u02F1\x03\x02" +
-		"\x02\x02\u02F7q\x03\x02\x02\x02\u02F8\u02FA\x07c\x02\x02\u02F9\u02FB\x05" +
+		"\x02\x02\u02F7q\x03\x02\x02\x02\u02F8\u02FA\x07d\x02\x02\u02F9\u02FB\x05" +
 		"\x94K\x02\u02FA\u02F9\x03\x02\x02\x02\u02FA\u02FB\x03\x02\x02\x02\u02FB" +
 		"\u0311\x03\x02\x02\x02\u02FC\u0306\x05\x94K\x02\u02FD\u0301\x07/\x02\x02" +
 		"\u02FE\u0300\x07\x04\x02\x02\u02FF\u02FE\x03\x02\x02\x02\u0300\u0303\x03" +
@@ -5920,7 +5924,7 @@ export class chatParser extends Parser {
 		"\u030D\u0310\x03\x02\x02\x02\u030E\u030C\x03\x02\x02\x02\u030F\u02FC\x03" +
 		"\x02\x02\x02\u0310\u0313\x03\x02\x02\x02\u0311\u030F\x03\x02\x02\x02\u0311" +
 		"\u0312\x03\x02\x02\x02\u0312\u0314\x03\x02\x02\x02\u0313\u0311\x03\x02" +
-		"\x02\x02\u0314\u0320\x07\x1B\x02\x02\u0315\u031B\x07c\x02\x02\u0316\u031A" +
+		"\x02\x02\u0314\u0320\x07\x1B\x02\x02\u0315\u031B\x07d\x02\x02\u0316\u031A" +
 		"\x05\x94K\x02\u0317\u031A\x07/\x02\x02\u0318\u031A\x07\x04\x02\x02\u0319" +
 		"\u0316\x03\x02\x02\x02\u0319\u0317\x03\x02\x02\x02\u0319\u0318\x03\x02" +
 		"\x02\x02\u031A\u031D\x03\x02\x02\x02\u031B\u0319\x03\x02\x02\x02\u031B" +
@@ -5928,12 +5932,12 @@ export class chatParser extends Parser {
 		"\x02\x02\u031E\u0320\x07\x02\x02\x03\u031F\u02F8\x03\x02\x02\x02\u031F" +
 		"\u0315\x03\x02\x02\x02\u0320s\x03\x02\x02\x02\u0321\u0326\x073\x02\x02" +
 		"\u0322\u0327\x05\x94K\x02\u0323\u0327\x07\x1C\x02\x02\u0324\u0327\x07" +
-		"\x88\x02\x02\u0325\u0327\x07/\x02\x02\u0326\u0322\x03\x02\x02\x02\u0326" +
+		"\x89\x02\x02\u0325\u0327\x07/\x02\x02\u0326\u0322\x03\x02\x02\x02\u0326" +
 		"\u0323\x03\x02\x02\x02\u0326\u0324\x03\x02\x02\x02\u0326\u0325\x03\x02" +
 		"\x02\x02\u0327\u0328\x03\x02\x02\x02\u0328\u0326\x03\x02\x02\x02\u0328" +
 		"\u0329\x03\x02\x02\x02\u0329\u032A\x03\x02\x02\x02\u032A\u0338\x07\x1B" +
 		"\x02\x02\u032B\u0333\x073\x02\x02\u032C\u0332\x05\x94K\x02\u032D\u0332" +
-		"\x07\x1C\x02\x02\u032E\u0332\x07\x88\x02\x02\u032F\u0332\x07/\x02\x02" +
+		"\x07\x1C\x02\x02\u032E\u0332\x07\x89\x02\x02\u032F\u0332\x07/\x02\x02" +
 		"\u0330\u0332\x07\x04\x02\x02\u0331\u032C\x03\x02\x02\x02\u0331\u032D\x03" +
 		"\x02\x02\x02\u0331\u032E\x03\x02\x02\x02\u0331\u032F\x03\x02\x02\x02\u0331" +
 		"\u0330\x03\x02\x02\x02\u0332\u0335\x03\x02\x02\x02\u0333\u0331\x03\x02" +
@@ -5941,13 +5945,13 @@ export class chatParser extends Parser {
 		"\u0333\x03\x02\x02\x02\u0336\u0338\x07\x02\x02\x03\u0337\u0321\x03\x02" +
 		"\x02\x02\u0337\u032B\x03\x02\x02\x02\u0338u\x03\x02\x02\x02\u0339\u033A" +
 		"\x072\x02\x02\u033A\u033B\x05\x94K\x02\u033B\u033C\x07\x1B\x02\x02\u033C" +
-		"w\x03\x02\x02\x02\u033D\u0341\x07J\x02\x02\u033E\u0342\x05\x94K\x02\u033F" +
+		"w\x03\x02\x02\x02\u033D\u0341\x07K\x02\x02\u033E\u0342\x05\x94K\x02\u033F" +
 		"\u0342\x07\x1C\x02\x02\u0340\u0342\x07/\x02\x02\u0341\u033E\x03\x02\x02" +
 		"\x02\u0341\u033F\x03\x02\x02\x02\u0341\u0340\x03\x02\x02\x02\u0342\u0343" +
 		"\x03\x02\x02\x02\u0343\u0341\x03\x02\x02\x02\u0343\u0344\x03\x02\x02\x02" +
 		"\u0344\u0345\x03\x02\x02\x02\u0345\u0347\x07\x1B\x02\x02\u0346\u0348\x05" +
 		"z>\x02\u0347\u0346\x03\x02\x02\x02\u0347\u0348\x03\x02\x02\x02\u0348y" +
-		"\x03\x02\x02\x02\u0349\u034D\x07J\x02\x02\u034A\u034E\x05\x94K\x02\u034B" +
+		"\x03\x02\x02\x02\u0349\u034D\x07K\x02\x02\u034A\u034E\x05\x94K\x02\u034B" +
 		"\u034E\x07\x1C\x02\x02\u034C\u034E\x07/\x02\x02\u034D\u034A\x03\x02\x02" +
 		"\x02\u034D\u034B\x03\x02\x02\x02\u034D\u034C\x03\x02\x02\x02\u034E\u034F" +
 		"\x03\x02\x02\x02\u034F\u034D\x03\x02\x02\x02\u034F\u0350\x03\x02\x02\x02" +
@@ -5987,9 +5991,9 @@ export class chatParser extends Parser {
 		"\u03A1\x07\x1B\x02\x02\u039B\u039C\x076\x02\x02\u039C\u039D\x07\x1C\x02" +
 		"\x02\u039D\u039E\x05\x94K\x02\u039E\u039F\x07\x1B\x02\x02\u039F\u03A1" +
 		"\x03\x02\x02\x02\u03A0\u0397\x03\x02\x02\x02\u03A0\u039B\x03\x02\x02\x02" +
-		"\u03A1\x85\x03\x02\x02\x02\u03A2\u03A3\x07H\x02\x02\u03A3\u03A4\x05\x94" +
+		"\u03A1\x85\x03\x02\x02\x02\u03A2\u03A3\x07I\x02\x02\u03A3\u03A4\x05\x94" +
 		"K\x02\u03A4\u03A5\x07\x1B\x02\x02\u03A5\x87\x03\x02\x02\x02\u03A6\u03A7" +
-		"\x07I\x02\x02\u03A7\u03A8\x05\x94K\x02\u03A8\u03A9\x07\x1B\x02\x02\u03A9" +
+		"\x07J\x02\x02\u03A7\u03A8\x05\x94K\x02\u03A8\u03A9\x07\x1B\x02\x02\u03A9" +
 		"\x89\x03\x02\x02\x02\u03AA\u03B4\x05\x8CG\x02\u03AB\u03AD\x07/\x02\x02" +
 		"\u03AC\u03AB\x03\x02\x02\x02\u03AD\u03B0\x03\x02\x02\x02\u03AE\u03AC\x03" +
 		"\x02\x02\x02\u03AE\u03AF\x03\x02\x02\x02\u03AF\u03B1\x03\x02\x02\x02\u03B0" +
@@ -6044,7 +6048,7 @@ export class chatParser extends Parser {
 		"\x02\x02\u0417\u0419\x07\x04\x02\x02\u0418\u0417\x03\x02\x02\x02\u0419" +
 		"\u041C\x03\x02\x02\x02\u041A\u0418\x03\x02\x02\x02\u041A\u041B\x03\x02" +
 		"\x02\x02\u041B\u0421\x03\x02\x02\x02\u041C\u041A\x03\x02\x02\x02\u041D" +
-		"\u0421\x07\x1E\x02\x02\u041E\u0421\x07%\x02\x02\u041F\u0421\x07\x88\x02" +
+		"\u0421\x07\x1E\x02\x02\u041E\u0421\x07%\x02\x02\u041F\u0421\x07\x89\x02" +
 		"\x02\u0420\u03F2\x03\x02\x02\x02\u0420\u03FB\x03\x02\x02\x02\u0420\u0404" +
 		"\x03\x02\x02\x02\u0420\u0408\x03\x02\x02\x02\u0420\u040C\x03\x02\x02\x02" +
 		"\u0420\u0416\x03\x02\x02\x02\u0420\u041D\x03\x02\x02\x02\u0420\u041E\x03" +
@@ -7624,6 +7628,7 @@ export class Image_chainedContext extends ParserRuleContext {
 	public AtHeight(): TerminalNode | undefined { return this.tryGetToken(chatParser.AtHeight, 0); }
 	public OPATALT(): TerminalNode | undefined { return this.tryGetToken(chatParser.OPATALT, 0); }
 	public OpAtCaption(): TerminalNode | undefined { return this.tryGetToken(chatParser.OpAtCaption, 0); }
+	public OpAtSearch(): TerminalNode | undefined { return this.tryGetToken(chatParser.OpAtSearch, 0); }
 	public OpAtLicense(): TerminalNode | undefined { return this.tryGetToken(chatParser.OpAtLicense, 0); }
 	public OpAtCopyright(): TerminalNode | undefined { return this.tryGetToken(chatParser.OpAtCopyright, 0); }
 	constructor(parent: ParserRuleContext | undefined, invokingState: number) {
@@ -7658,6 +7663,7 @@ export class Image_chained4matchContext extends ParserRuleContext {
 	public AtHeight(): TerminalNode | undefined { return this.tryGetToken(chatParser.AtHeight, 0); }
 	public OPATALT(): TerminalNode | undefined { return this.tryGetToken(chatParser.OPATALT, 0); }
 	public OpAtCaption(): TerminalNode | undefined { return this.tryGetToken(chatParser.OpAtCaption, 0); }
+	public OpAtSearch(): TerminalNode | undefined { return this.tryGetToken(chatParser.OpAtSearch, 0); }
 	public OpAtLicense(): TerminalNode | undefined { return this.tryGetToken(chatParser.OpAtLicense, 0); }
 	public OpAtCopyright(): TerminalNode | undefined { return this.tryGetToken(chatParser.OpAtCopyright, 0); }
 	constructor(parent: ParserRuleContext | undefined, invokingState: number) {
@@ -7841,6 +7847,7 @@ export class Resource_chainedContext extends ParserRuleContext {
 	public AtHeight(): TerminalNode | undefined { return this.tryGetToken(chatParser.AtHeight, 0); }
 	public OPATALT(): TerminalNode | undefined { return this.tryGetToken(chatParser.OPATALT, 0); }
 	public OpAtCaption(): TerminalNode | undefined { return this.tryGetToken(chatParser.OpAtCaption, 0); }
+	public OpAtSearch(): TerminalNode | undefined { return this.tryGetToken(chatParser.OpAtSearch, 0); }
 	public OpAtLicense(): TerminalNode | undefined { return this.tryGetToken(chatParser.OpAtLicense, 0); }
 	public OpAtCopyright(): TerminalNode | undefined { return this.tryGetToken(chatParser.OpAtCopyright, 0); }
 	constructor(parent: ParserRuleContext | undefined, invokingState: number) {

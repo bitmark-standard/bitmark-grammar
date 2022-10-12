@@ -695,7 +695,7 @@ let sequenceParser = /** @class */ (() => {
                     this.state = 294;
                     this._errHandler.sync(this);
                     _la = this._input.LA(1);
-                    while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPESC) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.RightAngle - 32)) | (1 << (sequenceParser.RightArrow - 32)) | (1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.SENTENCE - 32)))) !== 0) || ((((_la - 75)) & ~0x1F) === 0 && ((1 << (_la - 75)) & ((1 << (sequenceParser.AmpAudio - 75)) | (1 << (sequenceParser.AmpImage - 75)) | (1 << (sequenceParser.AmpVideo - 75)) | (1 << (sequenceParser.AmpArticle - 75)) | (1 << (sequenceParser.AmpDocument - 75)) | (1 << (sequenceParser.AmpApp - 75)) | (1 << (sequenceParser.AmpWebsite - 75)) | (1 << (sequenceParser.AmpAudioLink - 75)) | (1 << (sequenceParser.AmpImageLink - 75)) | (1 << (sequenceParser.AmpArticleLink - 75)) | (1 << (sequenceParser.AmpDocumentLink - 75)))) !== 0) || ((((_la - 114)) & ~0x1F) === 0 && ((1 << (_la - 114)) & ((1 << (sequenceParser.BitmarkMinus - 114)) | (1 << (sequenceParser.BitmarkPlus - 114)) | (1 << (sequenceParser.URL - 114)) | (1 << (sequenceParser.LIST_LINE - 114)))) !== 0)) {
+                    while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPESC) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.RightAngle - 32)) | (1 << (sequenceParser.RightArrow - 32)) | (1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.SENTENCE - 32)))) !== 0) || ((((_la - 76)) & ~0x1F) === 0 && ((1 << (_la - 76)) & ((1 << (sequenceParser.AmpAudio - 76)) | (1 << (sequenceParser.AmpImage - 76)) | (1 << (sequenceParser.AmpVideo - 76)) | (1 << (sequenceParser.AmpArticle - 76)) | (1 << (sequenceParser.AmpDocument - 76)) | (1 << (sequenceParser.AmpApp - 76)) | (1 << (sequenceParser.AmpWebsite - 76)) | (1 << (sequenceParser.AmpAudioLink - 76)) | (1 << (sequenceParser.AmpImageLink - 76)) | (1 << (sequenceParser.AmpArticleLink - 76)) | (1 << (sequenceParser.AmpDocumentLink - 76)))) !== 0) || ((((_la - 115)) & ~0x1F) === 0 && ((1 << (_la - 115)) & ((1 << (sequenceParser.BitmarkMinus - 115)) | (1 << (sequenceParser.BitmarkPlus - 115)) | (1 << (sequenceParser.URL - 115)) | (1 << (sequenceParser.LIST_LINE - 115)))) !== 0)) {
                         {
                             {
                                 this.state = 291;
@@ -757,7 +757,7 @@ let sequenceParser = /** @class */ (() => {
                         this.state = 306;
                         this._errHandler.sync(this);
                         _la = this._input.LA(1);
-                    } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPESC) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.RightAngle - 32)) | (1 << (sequenceParser.RightArrow - 32)) | (1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.SENTENCE - 32)))) !== 0) || ((((_la - 75)) & ~0x1F) === 0 && ((1 << (_la - 75)) & ((1 << (sequenceParser.AmpAudio - 75)) | (1 << (sequenceParser.AmpImage - 75)) | (1 << (sequenceParser.AmpVideo - 75)) | (1 << (sequenceParser.AmpArticle - 75)) | (1 << (sequenceParser.AmpDocument - 75)) | (1 << (sequenceParser.AmpApp - 75)) | (1 << (sequenceParser.AmpWebsite - 75)) | (1 << (sequenceParser.AmpAudioLink - 75)) | (1 << (sequenceParser.AmpImageLink - 75)) | (1 << (sequenceParser.AmpArticleLink - 75)) | (1 << (sequenceParser.AmpDocumentLink - 75)))) !== 0) || ((((_la - 114)) & ~0x1F) === 0 && ((1 << (_la - 114)) & ((1 << (sequenceParser.BitmarkMinus - 114)) | (1 << (sequenceParser.BitmarkPlus - 114)) | (1 << (sequenceParser.URL - 114)) | (1 << (sequenceParser.LIST_LINE - 114)))) !== 0));
+                    } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPESC) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.RightAngle - 32)) | (1 << (sequenceParser.RightArrow - 32)) | (1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.SENTENCE - 32)))) !== 0) || ((((_la - 76)) & ~0x1F) === 0 && ((1 << (_la - 76)) & ((1 << (sequenceParser.AmpAudio - 76)) | (1 << (sequenceParser.AmpImage - 76)) | (1 << (sequenceParser.AmpVideo - 76)) | (1 << (sequenceParser.AmpArticle - 76)) | (1 << (sequenceParser.AmpDocument - 76)) | (1 << (sequenceParser.AmpApp - 76)) | (1 << (sequenceParser.AmpWebsite - 76)) | (1 << (sequenceParser.AmpAudioLink - 76)) | (1 << (sequenceParser.AmpImageLink - 76)) | (1 << (sequenceParser.AmpArticleLink - 76)) | (1 << (sequenceParser.AmpDocumentLink - 76)))) !== 0) || ((((_la - 115)) & ~0x1F) === 0 && ((1 << (_la - 115)) & ((1 << (sequenceParser.BitmarkMinus - 115)) | (1 << (sequenceParser.BitmarkPlus - 115)) | (1 << (sequenceParser.URL - 115)) | (1 << (sequenceParser.LIST_LINE - 115)))) !== 0));
                     this.state = 308;
                     this.match(sequenceParser.CL);
                 }
@@ -809,7 +809,7 @@ let sequenceParser = /** @class */ (() => {
                         this.state = 317;
                         this._errHandler.sync(this);
                         _la = this._input.LA(1);
-                    } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPESC) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.RightAngle - 32)) | (1 << (sequenceParser.RightArrow - 32)) | (1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.SENTENCE - 32)))) !== 0) || ((((_la - 75)) & ~0x1F) === 0 && ((1 << (_la - 75)) & ((1 << (sequenceParser.AmpAudio - 75)) | (1 << (sequenceParser.AmpImage - 75)) | (1 << (sequenceParser.AmpVideo - 75)) | (1 << (sequenceParser.AmpArticle - 75)) | (1 << (sequenceParser.AmpDocument - 75)) | (1 << (sequenceParser.AmpApp - 75)) | (1 << (sequenceParser.AmpWebsite - 75)) | (1 << (sequenceParser.AmpAudioLink - 75)) | (1 << (sequenceParser.AmpImageLink - 75)) | (1 << (sequenceParser.AmpArticleLink - 75)) | (1 << (sequenceParser.AmpDocumentLink - 75)))) !== 0) || ((((_la - 114)) & ~0x1F) === 0 && ((1 << (_la - 114)) & ((1 << (sequenceParser.BitmarkMinus - 114)) | (1 << (sequenceParser.BitmarkPlus - 114)) | (1 << (sequenceParser.URL - 114)) | (1 << (sequenceParser.LIST_LINE - 114)))) !== 0));
+                    } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPESC) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.RightAngle - 32)) | (1 << (sequenceParser.RightArrow - 32)) | (1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.SENTENCE - 32)))) !== 0) || ((((_la - 76)) & ~0x1F) === 0 && ((1 << (_la - 76)) & ((1 << (sequenceParser.AmpAudio - 76)) | (1 << (sequenceParser.AmpImage - 76)) | (1 << (sequenceParser.AmpVideo - 76)) | (1 << (sequenceParser.AmpArticle - 76)) | (1 << (sequenceParser.AmpDocument - 76)) | (1 << (sequenceParser.AmpApp - 76)) | (1 << (sequenceParser.AmpWebsite - 76)) | (1 << (sequenceParser.AmpAudioLink - 76)) | (1 << (sequenceParser.AmpImageLink - 76)) | (1 << (sequenceParser.AmpArticleLink - 76)) | (1 << (sequenceParser.AmpDocumentLink - 76)))) !== 0) || ((((_la - 115)) & ~0x1F) === 0 && ((1 << (_la - 115)) & ((1 << (sequenceParser.BitmarkMinus - 115)) | (1 << (sequenceParser.BitmarkPlus - 115)) | (1 << (sequenceParser.URL - 115)) | (1 << (sequenceParser.LIST_LINE - 115)))) !== 0));
                     this.state = 319;
                     this.match(sequenceParser.CL);
                 }
@@ -861,7 +861,7 @@ let sequenceParser = /** @class */ (() => {
                         this.state = 328;
                         this._errHandler.sync(this);
                         _la = this._input.LA(1);
-                    } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPESC) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.RightAngle - 32)) | (1 << (sequenceParser.RightArrow - 32)) | (1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.SENTENCE - 32)))) !== 0) || ((((_la - 75)) & ~0x1F) === 0 && ((1 << (_la - 75)) & ((1 << (sequenceParser.AmpAudio - 75)) | (1 << (sequenceParser.AmpImage - 75)) | (1 << (sequenceParser.AmpVideo - 75)) | (1 << (sequenceParser.AmpArticle - 75)) | (1 << (sequenceParser.AmpDocument - 75)) | (1 << (sequenceParser.AmpApp - 75)) | (1 << (sequenceParser.AmpWebsite - 75)) | (1 << (sequenceParser.AmpAudioLink - 75)) | (1 << (sequenceParser.AmpImageLink - 75)) | (1 << (sequenceParser.AmpArticleLink - 75)) | (1 << (sequenceParser.AmpDocumentLink - 75)))) !== 0) || ((((_la - 114)) & ~0x1F) === 0 && ((1 << (_la - 114)) & ((1 << (sequenceParser.BitmarkMinus - 114)) | (1 << (sequenceParser.BitmarkPlus - 114)) | (1 << (sequenceParser.URL - 114)) | (1 << (sequenceParser.LIST_LINE - 114)))) !== 0));
+                    } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPESC) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.RightAngle - 32)) | (1 << (sequenceParser.RightArrow - 32)) | (1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.SENTENCE - 32)))) !== 0) || ((((_la - 76)) & ~0x1F) === 0 && ((1 << (_la - 76)) & ((1 << (sequenceParser.AmpAudio - 76)) | (1 << (sequenceParser.AmpImage - 76)) | (1 << (sequenceParser.AmpVideo - 76)) | (1 << (sequenceParser.AmpArticle - 76)) | (1 << (sequenceParser.AmpDocument - 76)) | (1 << (sequenceParser.AmpApp - 76)) | (1 << (sequenceParser.AmpWebsite - 76)) | (1 << (sequenceParser.AmpAudioLink - 76)) | (1 << (sequenceParser.AmpImageLink - 76)) | (1 << (sequenceParser.AmpArticleLink - 76)) | (1 << (sequenceParser.AmpDocumentLink - 76)))) !== 0) || ((((_la - 115)) & ~0x1F) === 0 && ((1 << (_la - 115)) & ((1 << (sequenceParser.BitmarkMinus - 115)) | (1 << (sequenceParser.BitmarkPlus - 115)) | (1 << (sequenceParser.URL - 115)) | (1 << (sequenceParser.LIST_LINE - 115)))) !== 0));
                     this.state = 330;
                     this.match(sequenceParser.CL);
                 }
@@ -1005,7 +1005,7 @@ let sequenceParser = /** @class */ (() => {
                     this.state = 354;
                     this._errHandler.sync(this);
                     _la = this._input.LA(1);
-                    while (((((_la - 75)) & ~0x1F) === 0 && ((1 << (_la - 75)) & ((1 << (sequenceParser.AmpAudio - 75)) | (1 << (sequenceParser.AmpImage - 75)) | (1 << (sequenceParser.AmpImageZoom - 75)) | (1 << (sequenceParser.AmpImageWAudio - 75)) | (1 << (sequenceParser.AmpVideo - 75)) | (1 << (sequenceParser.AmpArticle - 75)) | (1 << (sequenceParser.AmpDocument - 75)) | (1 << (sequenceParser.AmpApp - 75)) | (1 << (sequenceParser.AmpWebsite - 75)) | (1 << (sequenceParser.AmpStillImageFilm - 75)) | (1 << (sequenceParser.AmpPdf - 75)) | (1 << (sequenceParser.AmpAudioLink - 75)) | (1 << (sequenceParser.AmpImageLink - 75)) | (1 << (sequenceParser.AmpVideoLink - 75)) | (1 << (sequenceParser.AmpArticleLink - 75)) | (1 << (sequenceParser.AmpDocumentLink - 75)) | (1 << (sequenceParser.AmpAppLink - 75)) | (1 << (sequenceParser.AmpWebsiteLink - 75)) | (1 << (sequenceParser.AmpStillImageFilmLink - 75)))) !== 0) || _la === sequenceParser.ColonText) {
+                    while (((((_la - 76)) & ~0x1F) === 0 && ((1 << (_la - 76)) & ((1 << (sequenceParser.AmpAudio - 76)) | (1 << (sequenceParser.AmpImage - 76)) | (1 << (sequenceParser.AmpImageZoom - 76)) | (1 << (sequenceParser.AmpImageWAudio - 76)) | (1 << (sequenceParser.AmpVideo - 76)) | (1 << (sequenceParser.AmpArticle - 76)) | (1 << (sequenceParser.AmpDocument - 76)) | (1 << (sequenceParser.AmpApp - 76)) | (1 << (sequenceParser.AmpWebsite - 76)) | (1 << (sequenceParser.AmpStillImageFilm - 76)) | (1 << (sequenceParser.AmpPdf - 76)) | (1 << (sequenceParser.AmpAudioLink - 76)) | (1 << (sequenceParser.AmpImageLink - 76)) | (1 << (sequenceParser.AmpVideoLink - 76)) | (1 << (sequenceParser.AmpArticleLink - 76)) | (1 << (sequenceParser.AmpDocumentLink - 76)) | (1 << (sequenceParser.AmpAppLink - 76)) | (1 << (sequenceParser.AmpWebsiteLink - 76)) | (1 << (sequenceParser.AmpStillImageFilmLink - 76)))) !== 0) || _la === sequenceParser.ColonText) {
                         {
                             this.state = 352;
                             this._errHandler.sync(this);
@@ -1075,7 +1075,7 @@ let sequenceParser = /** @class */ (() => {
                 {
                     this.state = 357;
                     _la = this._input.LA(1);
-                    if (!(((((_la - 80)) & ~0x1F) === 0 && ((1 << (_la - 80)) & ((1 << (sequenceParser.AmpArticle - 80)) | (1 << (sequenceParser.AmpDocument - 80)) | (1 << (sequenceParser.AmpWebsite - 80)) | (1 << (sequenceParser.AmpStillImageFilm - 80)) | (1 << (sequenceParser.AmpAudioLink - 80)) | (1 << (sequenceParser.AmpImageLink - 80)) | (1 << (sequenceParser.AmpVideoLink - 80)) | (1 << (sequenceParser.AmpArticleLink - 80)) | (1 << (sequenceParser.AmpDocumentLink - 80)) | (1 << (sequenceParser.AmpAppLink - 80)) | (1 << (sequenceParser.AmpWebsiteLink - 80)) | (1 << (sequenceParser.AmpStillImageFilmLink - 80)))) !== 0) || ((((_la - 114)) & ~0x1F) === 0 && ((1 << (_la - 114)) & ((1 << (sequenceParser.BitmarkMinus - 114)) | (1 << (sequenceParser.BitmarkPlus - 114)) | (1 << (sequenceParser.Prosemirror - 114)) | (1 << (sequenceParser.Placeholder - 114)))) !== 0))) {
+                    if (!(((((_la - 81)) & ~0x1F) === 0 && ((1 << (_la - 81)) & ((1 << (sequenceParser.AmpArticle - 81)) | (1 << (sequenceParser.AmpDocument - 81)) | (1 << (sequenceParser.AmpWebsite - 81)) | (1 << (sequenceParser.AmpStillImageFilm - 81)) | (1 << (sequenceParser.AmpAudioLink - 81)) | (1 << (sequenceParser.AmpImageLink - 81)) | (1 << (sequenceParser.AmpVideoLink - 81)) | (1 << (sequenceParser.AmpArticleLink - 81)) | (1 << (sequenceParser.AmpDocumentLink - 81)) | (1 << (sequenceParser.AmpAppLink - 81)) | (1 << (sequenceParser.AmpWebsiteLink - 81)) | (1 << (sequenceParser.AmpStillImageFilmLink - 81)))) !== 0) || ((((_la - 115)) & ~0x1F) === 0 && ((1 << (_la - 115)) & ((1 << (sequenceParser.BitmarkMinus - 115)) | (1 << (sequenceParser.BitmarkPlus - 115)) | (1 << (sequenceParser.Prosemirror - 115)) | (1 << (sequenceParser.Placeholder - 115)))) !== 0))) {
                         this._errHandler.recoverInline(this);
                     }
                     else {
@@ -2435,11 +2435,12 @@ let sequenceParser = /** @class */ (() => {
                     case sequenceParser.OpAtCaption:
                     case sequenceParser.OpAtLicense:
                     case sequenceParser.OpAtCopyright:
+                    case sequenceParser.OpAtSearch:
                         this.enterOuterAlt(_localctx, 3);
                         {
                             this.state = 546;
                             _la = this._input.LA(1);
-                            if (!(((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (sequenceParser.OPATALT - 64)) | (1 << (sequenceParser.OpAtCaption - 64)) | (1 << (sequenceParser.OpAtLicense - 64)) | (1 << (sequenceParser.OpAtCopyright - 64)))) !== 0))) {
+                            if (!(((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (sequenceParser.OPATALT - 64)) | (1 << (sequenceParser.OpAtCaption - 64)) | (1 << (sequenceParser.OpAtLicense - 64)) | (1 << (sequenceParser.OpAtCopyright - 64)) | (1 << (sequenceParser.OpAtSearch - 64)))) !== 0))) {
                                 this._errHandler.recoverInline(this);
                             }
                             else {
@@ -2539,11 +2540,12 @@ let sequenceParser = /** @class */ (() => {
                     case sequenceParser.OpAtCaption:
                     case sequenceParser.OpAtLicense:
                     case sequenceParser.OpAtCopyright:
+                    case sequenceParser.OpAtSearch:
                         this.enterOuterAlt(_localctx, 3);
                         {
                             this.state = 565;
                             _la = this._input.LA(1);
-                            if (!(((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (sequenceParser.OPATALT - 64)) | (1 << (sequenceParser.OpAtCaption - 64)) | (1 << (sequenceParser.OpAtLicense - 64)) | (1 << (sequenceParser.OpAtCopyright - 64)))) !== 0))) {
+                            if (!(((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (sequenceParser.OPATALT - 64)) | (1 << (sequenceParser.OpAtCaption - 64)) | (1 << (sequenceParser.OpAtLicense - 64)) | (1 << (sequenceParser.OpAtCopyright - 64)) | (1 << (sequenceParser.OpAtSearch - 64)))) !== 0))) {
                                 this._errHandler.recoverInline(this);
                             }
                             else {
@@ -2916,7 +2918,7 @@ let sequenceParser = /** @class */ (() => {
                                 this.state = 632;
                                 this._errHandler.sync(this);
                                 _la = this._input.LA(1);
-                            } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPESC) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.RightAngle - 32)) | (1 << (sequenceParser.RightArrow - 32)) | (1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NL - 32)) | (1 << (sequenceParser.SENTENCE - 32)))) !== 0) || ((((_la - 75)) & ~0x1F) === 0 && ((1 << (_la - 75)) & ((1 << (sequenceParser.AmpAudio - 75)) | (1 << (sequenceParser.AmpImage - 75)) | (1 << (sequenceParser.AmpVideo - 75)) | (1 << (sequenceParser.AmpArticle - 75)) | (1 << (sequenceParser.AmpDocument - 75)) | (1 << (sequenceParser.AmpApp - 75)) | (1 << (sequenceParser.AmpWebsite - 75)) | (1 << (sequenceParser.AmpAudioLink - 75)) | (1 << (sequenceParser.AmpImageLink - 75)) | (1 << (sequenceParser.AmpArticleLink - 75)) | (1 << (sequenceParser.AmpDocumentLink - 75)))) !== 0) || ((((_la - 114)) & ~0x1F) === 0 && ((1 << (_la - 114)) & ((1 << (sequenceParser.BitmarkMinus - 114)) | (1 << (sequenceParser.BitmarkPlus - 114)) | (1 << (sequenceParser.URL - 114)) | (1 << (sequenceParser.LIST_LINE - 114)))) !== 0));
+                            } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPESC) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.RightAngle - 32)) | (1 << (sequenceParser.RightArrow - 32)) | (1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NL - 32)) | (1 << (sequenceParser.SENTENCE - 32)))) !== 0) || ((((_la - 76)) & ~0x1F) === 0 && ((1 << (_la - 76)) & ((1 << (sequenceParser.AmpAudio - 76)) | (1 << (sequenceParser.AmpImage - 76)) | (1 << (sequenceParser.AmpVideo - 76)) | (1 << (sequenceParser.AmpArticle - 76)) | (1 << (sequenceParser.AmpDocument - 76)) | (1 << (sequenceParser.AmpApp - 76)) | (1 << (sequenceParser.AmpWebsite - 76)) | (1 << (sequenceParser.AmpAudioLink - 76)) | (1 << (sequenceParser.AmpImageLink - 76)) | (1 << (sequenceParser.AmpArticleLink - 76)) | (1 << (sequenceParser.AmpDocumentLink - 76)))) !== 0) || ((((_la - 115)) & ~0x1F) === 0 && ((1 << (_la - 115)) & ((1 << (sequenceParser.BitmarkMinus - 115)) | (1 << (sequenceParser.BitmarkPlus - 115)) | (1 << (sequenceParser.URL - 115)) | (1 << (sequenceParser.LIST_LINE - 115)))) !== 0));
                             this.state = 634;
                             this.match(sequenceParser.CL);
                         }
@@ -2949,11 +2951,12 @@ let sequenceParser = /** @class */ (() => {
                     case sequenceParser.OpAtCaption:
                     case sequenceParser.OpAtLicense:
                     case sequenceParser.OpAtCopyright:
+                    case sequenceParser.OpAtSearch:
                         this.enterOuterAlt(_localctx, 3);
                         {
                             this.state = 639;
                             _la = this._input.LA(1);
-                            if (!(((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (sequenceParser.OPATALT - 64)) | (1 << (sequenceParser.OpAtCaption - 64)) | (1 << (sequenceParser.OpAtLicense - 64)) | (1 << (sequenceParser.OpAtCopyright - 64)))) !== 0))) {
+                            if (!(((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (sequenceParser.OPATALT - 64)) | (1 << (sequenceParser.OpAtCaption - 64)) | (1 << (sequenceParser.OpAtLicense - 64)) | (1 << (sequenceParser.OpAtCopyright - 64)) | (1 << (sequenceParser.OpAtSearch - 64)))) !== 0))) {
                                 this._errHandler.recoverInline(this);
                             }
                             else {
@@ -3110,7 +3113,7 @@ let sequenceParser = /** @class */ (() => {
                             this.state = 672;
                             this._errHandler.sync(this);
                             _la = this._input.LA(1);
-                            while (((((_la - 25)) & ~0x1F) === 0 && ((1 << (_la - 25)) & ((1 << (sequenceParser.COLON - 25)) | (1 << (sequenceParser.AMP - 25)) | (1 << (sequenceParser.Greater - 25)) | (1 << (sequenceParser.Less - 25)) | (1 << (sequenceParser.RightAngle - 25)) | (1 << (sequenceParser.RightArrow - 25)) | (1 << (sequenceParser.SENTENCE - 25)))) !== 0) || ((((_la - 75)) & ~0x1F) === 0 && ((1 << (_la - 75)) & ((1 << (sequenceParser.AmpAudio - 75)) | (1 << (sequenceParser.AmpImage - 75)) | (1 << (sequenceParser.AmpVideo - 75)) | (1 << (sequenceParser.AmpArticle - 75)) | (1 << (sequenceParser.AmpDocument - 75)) | (1 << (sequenceParser.AmpApp - 75)) | (1 << (sequenceParser.AmpWebsite - 75)) | (1 << (sequenceParser.AmpAudioLink - 75)) | (1 << (sequenceParser.AmpImageLink - 75)) | (1 << (sequenceParser.AmpArticleLink - 75)) | (1 << (sequenceParser.AmpDocumentLink - 75)))) !== 0) || ((((_la - 114)) & ~0x1F) === 0 && ((1 << (_la - 114)) & ((1 << (sequenceParser.BitmarkMinus - 114)) | (1 << (sequenceParser.BitmarkPlus - 114)) | (1 << (sequenceParser.LIST_LINE - 114)))) !== 0)) {
+                            while (((((_la - 25)) & ~0x1F) === 0 && ((1 << (_la - 25)) & ((1 << (sequenceParser.COLON - 25)) | (1 << (sequenceParser.AMP - 25)) | (1 << (sequenceParser.Greater - 25)) | (1 << (sequenceParser.Less - 25)) | (1 << (sequenceParser.RightAngle - 25)) | (1 << (sequenceParser.RightArrow - 25)) | (1 << (sequenceParser.SENTENCE - 25)))) !== 0) || ((((_la - 76)) & ~0x1F) === 0 && ((1 << (_la - 76)) & ((1 << (sequenceParser.AmpAudio - 76)) | (1 << (sequenceParser.AmpImage - 76)) | (1 << (sequenceParser.AmpVideo - 76)) | (1 << (sequenceParser.AmpArticle - 76)) | (1 << (sequenceParser.AmpDocument - 76)) | (1 << (sequenceParser.AmpApp - 76)) | (1 << (sequenceParser.AmpWebsite - 76)) | (1 << (sequenceParser.AmpAudioLink - 76)) | (1 << (sequenceParser.AmpImageLink - 76)) | (1 << (sequenceParser.AmpArticleLink - 76)) | (1 << (sequenceParser.AmpDocumentLink - 76)))) !== 0) || ((((_la - 115)) & ~0x1F) === 0 && ((1 << (_la - 115)) & ((1 << (sequenceParser.BitmarkMinus - 115)) | (1 << (sequenceParser.BitmarkPlus - 115)) | (1 << (sequenceParser.LIST_LINE - 115)))) !== 0)) {
                                 {
                                     this.state = 670;
                                     this._errHandler.sync(this);
@@ -3214,7 +3217,7 @@ let sequenceParser = /** @class */ (() => {
                     this.state = 693;
                     this._errHandler.sync(this);
                     _la = this._input.LA(1);
-                    while (((((_la - 25)) & ~0x1F) === 0 && ((1 << (_la - 25)) & ((1 << (sequenceParser.COLON - 25)) | (1 << (sequenceParser.AMP - 25)) | (1 << (sequenceParser.Greater - 25)) | (1 << (sequenceParser.Less - 25)) | (1 << (sequenceParser.RightAngle - 25)) | (1 << (sequenceParser.RightArrow - 25)) | (1 << (sequenceParser.SENTENCE - 25)))) !== 0) || ((((_la - 75)) & ~0x1F) === 0 && ((1 << (_la - 75)) & ((1 << (sequenceParser.AmpAudio - 75)) | (1 << (sequenceParser.AmpImage - 75)) | (1 << (sequenceParser.AmpVideo - 75)) | (1 << (sequenceParser.AmpArticle - 75)) | (1 << (sequenceParser.AmpDocument - 75)) | (1 << (sequenceParser.AmpApp - 75)) | (1 << (sequenceParser.AmpWebsite - 75)) | (1 << (sequenceParser.AmpAudioLink - 75)) | (1 << (sequenceParser.AmpImageLink - 75)) | (1 << (sequenceParser.AmpArticleLink - 75)) | (1 << (sequenceParser.AmpDocumentLink - 75)))) !== 0) || ((((_la - 114)) & ~0x1F) === 0 && ((1 << (_la - 114)) & ((1 << (sequenceParser.BitmarkMinus - 114)) | (1 << (sequenceParser.BitmarkPlus - 114)) | (1 << (sequenceParser.LIST_LINE - 114)))) !== 0)) {
+                    while (((((_la - 25)) & ~0x1F) === 0 && ((1 << (_la - 25)) & ((1 << (sequenceParser.COLON - 25)) | (1 << (sequenceParser.AMP - 25)) | (1 << (sequenceParser.Greater - 25)) | (1 << (sequenceParser.Less - 25)) | (1 << (sequenceParser.RightAngle - 25)) | (1 << (sequenceParser.RightArrow - 25)) | (1 << (sequenceParser.SENTENCE - 25)))) !== 0) || ((((_la - 76)) & ~0x1F) === 0 && ((1 << (_la - 76)) & ((1 << (sequenceParser.AmpAudio - 76)) | (1 << (sequenceParser.AmpImage - 76)) | (1 << (sequenceParser.AmpVideo - 76)) | (1 << (sequenceParser.AmpArticle - 76)) | (1 << (sequenceParser.AmpDocument - 76)) | (1 << (sequenceParser.AmpApp - 76)) | (1 << (sequenceParser.AmpWebsite - 76)) | (1 << (sequenceParser.AmpAudioLink - 76)) | (1 << (sequenceParser.AmpImageLink - 76)) | (1 << (sequenceParser.AmpArticleLink - 76)) | (1 << (sequenceParser.AmpDocumentLink - 76)))) !== 0) || ((((_la - 115)) & ~0x1F) === 0 && ((1 << (_la - 115)) & ((1 << (sequenceParser.BitmarkMinus - 115)) | (1 << (sequenceParser.BitmarkPlus - 115)) | (1 << (sequenceParser.LIST_LINE - 115)))) !== 0)) {
                         {
                             this.state = 691;
                             this._errHandler.sync(this);
@@ -3294,7 +3297,7 @@ let sequenceParser = /** @class */ (() => {
                             this.state = 700;
                             this._errHandler.sync(this);
                             _la = this._input.LA(1);
-                            if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPESC) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.RightAngle - 32)) | (1 << (sequenceParser.RightArrow - 32)) | (1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.SENTENCE - 32)))) !== 0) || ((((_la - 75)) & ~0x1F) === 0 && ((1 << (_la - 75)) & ((1 << (sequenceParser.AmpAudio - 75)) | (1 << (sequenceParser.AmpImage - 75)) | (1 << (sequenceParser.AmpVideo - 75)) | (1 << (sequenceParser.AmpArticle - 75)) | (1 << (sequenceParser.AmpDocument - 75)) | (1 << (sequenceParser.AmpApp - 75)) | (1 << (sequenceParser.AmpWebsite - 75)) | (1 << (sequenceParser.AmpAudioLink - 75)) | (1 << (sequenceParser.AmpImageLink - 75)) | (1 << (sequenceParser.AmpArticleLink - 75)) | (1 << (sequenceParser.AmpDocumentLink - 75)))) !== 0) || ((((_la - 114)) & ~0x1F) === 0 && ((1 << (_la - 114)) & ((1 << (sequenceParser.BitmarkMinus - 114)) | (1 << (sequenceParser.BitmarkPlus - 114)) | (1 << (sequenceParser.URL - 114)) | (1 << (sequenceParser.LIST_LINE - 114)))) !== 0)) {
+                            if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPESC) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.RightAngle - 32)) | (1 << (sequenceParser.RightArrow - 32)) | (1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.SENTENCE - 32)))) !== 0) || ((((_la - 76)) & ~0x1F) === 0 && ((1 << (_la - 76)) & ((1 << (sequenceParser.AmpAudio - 76)) | (1 << (sequenceParser.AmpImage - 76)) | (1 << (sequenceParser.AmpVideo - 76)) | (1 << (sequenceParser.AmpArticle - 76)) | (1 << (sequenceParser.AmpDocument - 76)) | (1 << (sequenceParser.AmpApp - 76)) | (1 << (sequenceParser.AmpWebsite - 76)) | (1 << (sequenceParser.AmpAudioLink - 76)) | (1 << (sequenceParser.AmpImageLink - 76)) | (1 << (sequenceParser.AmpArticleLink - 76)) | (1 << (sequenceParser.AmpDocumentLink - 76)))) !== 0) || ((((_la - 115)) & ~0x1F) === 0 && ((1 << (_la - 115)) & ((1 << (sequenceParser.BitmarkMinus - 115)) | (1 << (sequenceParser.BitmarkPlus - 115)) | (1 << (sequenceParser.URL - 115)) | (1 << (sequenceParser.LIST_LINE - 115)))) !== 0)) {
                                 {
                                     this.state = 699;
                                     this.s_and_w();
@@ -3312,7 +3315,7 @@ let sequenceParser = /** @class */ (() => {
                             this.state = 705;
                             this._errHandler.sync(this);
                             _la = this._input.LA(1);
-                            if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPESC) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.RightAngle - 32)) | (1 << (sequenceParser.RightArrow - 32)) | (1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.SENTENCE - 32)))) !== 0) || ((((_la - 75)) & ~0x1F) === 0 && ((1 << (_la - 75)) & ((1 << (sequenceParser.AmpAudio - 75)) | (1 << (sequenceParser.AmpImage - 75)) | (1 << (sequenceParser.AmpVideo - 75)) | (1 << (sequenceParser.AmpArticle - 75)) | (1 << (sequenceParser.AmpDocument - 75)) | (1 << (sequenceParser.AmpApp - 75)) | (1 << (sequenceParser.AmpWebsite - 75)) | (1 << (sequenceParser.AmpAudioLink - 75)) | (1 << (sequenceParser.AmpImageLink - 75)) | (1 << (sequenceParser.AmpArticleLink - 75)) | (1 << (sequenceParser.AmpDocumentLink - 75)))) !== 0) || ((((_la - 114)) & ~0x1F) === 0 && ((1 << (_la - 114)) & ((1 << (sequenceParser.BitmarkMinus - 114)) | (1 << (sequenceParser.BitmarkPlus - 114)) | (1 << (sequenceParser.URL - 114)) | (1 << (sequenceParser.LIST_LINE - 114)))) !== 0)) {
+                            if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPESC) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.RightAngle - 32)) | (1 << (sequenceParser.RightArrow - 32)) | (1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.SENTENCE - 32)))) !== 0) || ((((_la - 76)) & ~0x1F) === 0 && ((1 << (_la - 76)) & ((1 << (sequenceParser.AmpAudio - 76)) | (1 << (sequenceParser.AmpImage - 76)) | (1 << (sequenceParser.AmpVideo - 76)) | (1 << (sequenceParser.AmpArticle - 76)) | (1 << (sequenceParser.AmpDocument - 76)) | (1 << (sequenceParser.AmpApp - 76)) | (1 << (sequenceParser.AmpWebsite - 76)) | (1 << (sequenceParser.AmpAudioLink - 76)) | (1 << (sequenceParser.AmpImageLink - 76)) | (1 << (sequenceParser.AmpArticleLink - 76)) | (1 << (sequenceParser.AmpDocumentLink - 76)))) !== 0) || ((((_la - 115)) & ~0x1F) === 0 && ((1 << (_la - 115)) & ((1 << (sequenceParser.BitmarkMinus - 115)) | (1 << (sequenceParser.BitmarkPlus - 115)) | (1 << (sequenceParser.URL - 115)) | (1 << (sequenceParser.LIST_LINE - 115)))) !== 0)) {
                                 {
                                     this.state = 704;
                                     this.s_and_w();
@@ -3429,7 +3432,7 @@ let sequenceParser = /** @class */ (() => {
                             this.state = 744;
                             this._errHandler.sync(this);
                             _la = this._input.LA(1);
-                            while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPESC) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.RightAngle - 32)) | (1 << (sequenceParser.RightArrow - 32)) | (1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.SENTENCE - 32)))) !== 0) || ((((_la - 75)) & ~0x1F) === 0 && ((1 << (_la - 75)) & ((1 << (sequenceParser.AmpAudio - 75)) | (1 << (sequenceParser.AmpImage - 75)) | (1 << (sequenceParser.AmpVideo - 75)) | (1 << (sequenceParser.AmpArticle - 75)) | (1 << (sequenceParser.AmpDocument - 75)) | (1 << (sequenceParser.AmpApp - 75)) | (1 << (sequenceParser.AmpWebsite - 75)) | (1 << (sequenceParser.AmpAudioLink - 75)) | (1 << (sequenceParser.AmpImageLink - 75)) | (1 << (sequenceParser.AmpArticleLink - 75)) | (1 << (sequenceParser.AmpDocumentLink - 75)))) !== 0) || ((((_la - 114)) & ~0x1F) === 0 && ((1 << (_la - 114)) & ((1 << (sequenceParser.BitmarkMinus - 114)) | (1 << (sequenceParser.BitmarkPlus - 114)) | (1 << (sequenceParser.URL - 114)) | (1 << (sequenceParser.LIST_LINE - 114)))) !== 0)) {
+                            while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPESC) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.RightAngle - 32)) | (1 << (sequenceParser.RightArrow - 32)) | (1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.SENTENCE - 32)))) !== 0) || ((((_la - 76)) & ~0x1F) === 0 && ((1 << (_la - 76)) & ((1 << (sequenceParser.AmpAudio - 76)) | (1 << (sequenceParser.AmpImage - 76)) | (1 << (sequenceParser.AmpVideo - 76)) | (1 << (sequenceParser.AmpArticle - 76)) | (1 << (sequenceParser.AmpDocument - 76)) | (1 << (sequenceParser.AmpApp - 76)) | (1 << (sequenceParser.AmpWebsite - 76)) | (1 << (sequenceParser.AmpAudioLink - 76)) | (1 << (sequenceParser.AmpImageLink - 76)) | (1 << (sequenceParser.AmpArticleLink - 76)) | (1 << (sequenceParser.AmpDocumentLink - 76)))) !== 0) || ((((_la - 115)) & ~0x1F) === 0 && ((1 << (_la - 115)) & ((1 << (sequenceParser.BitmarkMinus - 115)) | (1 << (sequenceParser.BitmarkPlus - 115)) | (1 << (sequenceParser.URL - 115)) | (1 << (sequenceParser.LIST_LINE - 115)))) !== 0)) {
                                 {
                                     {
                                         this.state = 723;
@@ -3498,7 +3501,7 @@ let sequenceParser = /** @class */ (() => {
                             this.state = 754;
                             this._errHandler.sync(this);
                             _la = this._input.LA(1);
-                            while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPESC) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.RightAngle - 32)) | (1 << (sequenceParser.RightArrow - 32)) | (1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NL - 32)) | (1 << (sequenceParser.SENTENCE - 32)))) !== 0) || ((((_la - 75)) & ~0x1F) === 0 && ((1 << (_la - 75)) & ((1 << (sequenceParser.AmpAudio - 75)) | (1 << (sequenceParser.AmpImage - 75)) | (1 << (sequenceParser.AmpVideo - 75)) | (1 << (sequenceParser.AmpArticle - 75)) | (1 << (sequenceParser.AmpDocument - 75)) | (1 << (sequenceParser.AmpApp - 75)) | (1 << (sequenceParser.AmpWebsite - 75)) | (1 << (sequenceParser.AmpAudioLink - 75)) | (1 << (sequenceParser.AmpImageLink - 75)) | (1 << (sequenceParser.AmpArticleLink - 75)) | (1 << (sequenceParser.AmpDocumentLink - 75)))) !== 0) || ((((_la - 114)) & ~0x1F) === 0 && ((1 << (_la - 114)) & ((1 << (sequenceParser.BitmarkMinus - 114)) | (1 << (sequenceParser.BitmarkPlus - 114)) | (1 << (sequenceParser.URL - 114)) | (1 << (sequenceParser.LIST_LINE - 114)))) !== 0)) {
+                            while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPESC) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.RightAngle - 32)) | (1 << (sequenceParser.RightArrow - 32)) | (1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NL - 32)) | (1 << (sequenceParser.SENTENCE - 32)))) !== 0) || ((((_la - 76)) & ~0x1F) === 0 && ((1 << (_la - 76)) & ((1 << (sequenceParser.AmpAudio - 76)) | (1 << (sequenceParser.AmpImage - 76)) | (1 << (sequenceParser.AmpVideo - 76)) | (1 << (sequenceParser.AmpArticle - 76)) | (1 << (sequenceParser.AmpDocument - 76)) | (1 << (sequenceParser.AmpApp - 76)) | (1 << (sequenceParser.AmpWebsite - 76)) | (1 << (sequenceParser.AmpAudioLink - 76)) | (1 << (sequenceParser.AmpImageLink - 76)) | (1 << (sequenceParser.AmpArticleLink - 76)) | (1 << (sequenceParser.AmpDocumentLink - 76)))) !== 0) || ((((_la - 115)) & ~0x1F) === 0 && ((1 << (_la - 115)) & ((1 << (sequenceParser.BitmarkMinus - 115)) | (1 << (sequenceParser.BitmarkPlus - 115)) | (1 << (sequenceParser.URL - 115)) | (1 << (sequenceParser.LIST_LINE - 115)))) !== 0)) {
                                 {
                                     this.state = 752;
                                     this._errHandler.sync(this);
@@ -3599,7 +3602,7 @@ let sequenceParser = /** @class */ (() => {
                                 this.state = 767;
                                 this._errHandler.sync(this);
                                 _la = this._input.LA(1);
-                            } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPESC) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.RightAngle - 32)) | (1 << (sequenceParser.RightArrow - 32)) | (1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NL - 32)) | (1 << (sequenceParser.SENTENCE - 32)))) !== 0) || ((((_la - 75)) & ~0x1F) === 0 && ((1 << (_la - 75)) & ((1 << (sequenceParser.AmpAudio - 75)) | (1 << (sequenceParser.AmpImage - 75)) | (1 << (sequenceParser.AmpVideo - 75)) | (1 << (sequenceParser.AmpArticle - 75)) | (1 << (sequenceParser.AmpDocument - 75)) | (1 << (sequenceParser.AmpApp - 75)) | (1 << (sequenceParser.AmpWebsite - 75)) | (1 << (sequenceParser.AmpAudioLink - 75)) | (1 << (sequenceParser.AmpImageLink - 75)) | (1 << (sequenceParser.AmpArticleLink - 75)) | (1 << (sequenceParser.AmpDocumentLink - 75)))) !== 0) || ((((_la - 114)) & ~0x1F) === 0 && ((1 << (_la - 114)) & ((1 << (sequenceParser.BitmarkMinus - 114)) | (1 << (sequenceParser.BitmarkPlus - 114)) | (1 << (sequenceParser.URL - 114)) | (1 << (sequenceParser.LIST_LINE - 114)))) !== 0));
+                            } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPESC) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.RightAngle - 32)) | (1 << (sequenceParser.RightArrow - 32)) | (1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NL - 32)) | (1 << (sequenceParser.SENTENCE - 32)))) !== 0) || ((((_la - 76)) & ~0x1F) === 0 && ((1 << (_la - 76)) & ((1 << (sequenceParser.AmpAudio - 76)) | (1 << (sequenceParser.AmpImage - 76)) | (1 << (sequenceParser.AmpVideo - 76)) | (1 << (sequenceParser.AmpArticle - 76)) | (1 << (sequenceParser.AmpDocument - 76)) | (1 << (sequenceParser.AmpApp - 76)) | (1 << (sequenceParser.AmpWebsite - 76)) | (1 << (sequenceParser.AmpAudioLink - 76)) | (1 << (sequenceParser.AmpImageLink - 76)) | (1 << (sequenceParser.AmpArticleLink - 76)) | (1 << (sequenceParser.AmpDocumentLink - 76)))) !== 0) || ((((_la - 115)) & ~0x1F) === 0 && ((1 << (_la - 115)) & ((1 << (sequenceParser.BitmarkMinus - 115)) | (1 << (sequenceParser.BitmarkPlus - 115)) | (1 << (sequenceParser.URL - 115)) | (1 << (sequenceParser.LIST_LINE - 115)))) !== 0));
                             this.state = 769;
                             this.match(sequenceParser.CL);
                         }
@@ -3612,7 +3615,7 @@ let sequenceParser = /** @class */ (() => {
                             this.state = 778;
                             this._errHandler.sync(this);
                             _la = this._input.LA(1);
-                            while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPESC) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.RightAngle - 32)) | (1 << (sequenceParser.RightArrow - 32)) | (1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NL - 32)) | (1 << (sequenceParser.SENTENCE - 32)))) !== 0) || ((((_la - 75)) & ~0x1F) === 0 && ((1 << (_la - 75)) & ((1 << (sequenceParser.AmpAudio - 75)) | (1 << (sequenceParser.AmpImage - 75)) | (1 << (sequenceParser.AmpVideo - 75)) | (1 << (sequenceParser.AmpArticle - 75)) | (1 << (sequenceParser.AmpDocument - 75)) | (1 << (sequenceParser.AmpApp - 75)) | (1 << (sequenceParser.AmpWebsite - 75)) | (1 << (sequenceParser.AmpAudioLink - 75)) | (1 << (sequenceParser.AmpImageLink - 75)) | (1 << (sequenceParser.AmpArticleLink - 75)) | (1 << (sequenceParser.AmpDocumentLink - 75)))) !== 0) || ((((_la - 114)) & ~0x1F) === 0 && ((1 << (_la - 114)) & ((1 << (sequenceParser.BitmarkMinus - 114)) | (1 << (sequenceParser.BitmarkPlus - 114)) | (1 << (sequenceParser.URL - 114)) | (1 << (sequenceParser.LIST_LINE - 114)))) !== 0)) {
+                            while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPESC) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.RightAngle - 32)) | (1 << (sequenceParser.RightArrow - 32)) | (1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NL - 32)) | (1 << (sequenceParser.SENTENCE - 32)))) !== 0) || ((((_la - 76)) & ~0x1F) === 0 && ((1 << (_la - 76)) & ((1 << (sequenceParser.AmpAudio - 76)) | (1 << (sequenceParser.AmpImage - 76)) | (1 << (sequenceParser.AmpVideo - 76)) | (1 << (sequenceParser.AmpArticle - 76)) | (1 << (sequenceParser.AmpDocument - 76)) | (1 << (sequenceParser.AmpApp - 76)) | (1 << (sequenceParser.AmpWebsite - 76)) | (1 << (sequenceParser.AmpAudioLink - 76)) | (1 << (sequenceParser.AmpImageLink - 76)) | (1 << (sequenceParser.AmpArticleLink - 76)) | (1 << (sequenceParser.AmpDocumentLink - 76)))) !== 0) || ((((_la - 115)) & ~0x1F) === 0 && ((1 << (_la - 115)) & ((1 << (sequenceParser.BitmarkMinus - 115)) | (1 << (sequenceParser.BitmarkPlus - 115)) | (1 << (sequenceParser.URL - 115)) | (1 << (sequenceParser.LIST_LINE - 115)))) !== 0)) {
                                 {
                                     this.state = 776;
                                     this._errHandler.sync(this);
@@ -3745,7 +3748,7 @@ let sequenceParser = /** @class */ (() => {
                         this.state = 794;
                         this._errHandler.sync(this);
                         _la = this._input.LA(1);
-                    } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPESC) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.RightAngle - 32)) | (1 << (sequenceParser.RightArrow - 32)) | (1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NL - 32)) | (1 << (sequenceParser.SENTENCE - 32)))) !== 0) || ((((_la - 75)) & ~0x1F) === 0 && ((1 << (_la - 75)) & ((1 << (sequenceParser.AmpAudio - 75)) | (1 << (sequenceParser.AmpImage - 75)) | (1 << (sequenceParser.AmpVideo - 75)) | (1 << (sequenceParser.AmpArticle - 75)) | (1 << (sequenceParser.AmpDocument - 75)) | (1 << (sequenceParser.AmpApp - 75)) | (1 << (sequenceParser.AmpWebsite - 75)) | (1 << (sequenceParser.AmpAudioLink - 75)) | (1 << (sequenceParser.AmpImageLink - 75)) | (1 << (sequenceParser.AmpArticleLink - 75)) | (1 << (sequenceParser.AmpDocumentLink - 75)))) !== 0) || ((((_la - 114)) & ~0x1F) === 0 && ((1 << (_la - 114)) & ((1 << (sequenceParser.BitmarkMinus - 114)) | (1 << (sequenceParser.BitmarkPlus - 114)) | (1 << (sequenceParser.URL - 114)) | (1 << (sequenceParser.LIST_LINE - 114)))) !== 0));
+                    } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPESC) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.RightAngle - 32)) | (1 << (sequenceParser.RightArrow - 32)) | (1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NL - 32)) | (1 << (sequenceParser.SENTENCE - 32)))) !== 0) || ((((_la - 76)) & ~0x1F) === 0 && ((1 << (_la - 76)) & ((1 << (sequenceParser.AmpAudio - 76)) | (1 << (sequenceParser.AmpImage - 76)) | (1 << (sequenceParser.AmpVideo - 76)) | (1 << (sequenceParser.AmpArticle - 76)) | (1 << (sequenceParser.AmpDocument - 76)) | (1 << (sequenceParser.AmpApp - 76)) | (1 << (sequenceParser.AmpWebsite - 76)) | (1 << (sequenceParser.AmpAudioLink - 76)) | (1 << (sequenceParser.AmpImageLink - 76)) | (1 << (sequenceParser.AmpArticleLink - 76)) | (1 << (sequenceParser.AmpDocumentLink - 76)))) !== 0) || ((((_la - 115)) & ~0x1F) === 0 && ((1 << (_la - 115)) & ((1 << (sequenceParser.BitmarkMinus - 115)) | (1 << (sequenceParser.BitmarkPlus - 115)) | (1 << (sequenceParser.URL - 115)) | (1 << (sequenceParser.LIST_LINE - 115)))) !== 0));
                     this.state = 796;
                     this.match(sequenceParser.CL);
                     this.state = 798;
@@ -3815,7 +3818,7 @@ let sequenceParser = /** @class */ (() => {
                         this.state = 806;
                         this._errHandler.sync(this);
                         _la = this._input.LA(1);
-                    } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPESC) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.RightAngle - 32)) | (1 << (sequenceParser.RightArrow - 32)) | (1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NL - 32)) | (1 << (sequenceParser.SENTENCE - 32)))) !== 0) || ((((_la - 75)) & ~0x1F) === 0 && ((1 << (_la - 75)) & ((1 << (sequenceParser.AmpAudio - 75)) | (1 << (sequenceParser.AmpImage - 75)) | (1 << (sequenceParser.AmpVideo - 75)) | (1 << (sequenceParser.AmpArticle - 75)) | (1 << (sequenceParser.AmpDocument - 75)) | (1 << (sequenceParser.AmpApp - 75)) | (1 << (sequenceParser.AmpWebsite - 75)) | (1 << (sequenceParser.AmpAudioLink - 75)) | (1 << (sequenceParser.AmpImageLink - 75)) | (1 << (sequenceParser.AmpArticleLink - 75)) | (1 << (sequenceParser.AmpDocumentLink - 75)))) !== 0) || ((((_la - 114)) & ~0x1F) === 0 && ((1 << (_la - 114)) & ((1 << (sequenceParser.BitmarkMinus - 114)) | (1 << (sequenceParser.BitmarkPlus - 114)) | (1 << (sequenceParser.URL - 114)) | (1 << (sequenceParser.LIST_LINE - 114)))) !== 0));
+                    } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPESC) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.RightAngle - 32)) | (1 << (sequenceParser.RightArrow - 32)) | (1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NL - 32)) | (1 << (sequenceParser.SENTENCE - 32)))) !== 0) || ((((_la - 76)) & ~0x1F) === 0 && ((1 << (_la - 76)) & ((1 << (sequenceParser.AmpAudio - 76)) | (1 << (sequenceParser.AmpImage - 76)) | (1 << (sequenceParser.AmpVideo - 76)) | (1 << (sequenceParser.AmpArticle - 76)) | (1 << (sequenceParser.AmpDocument - 76)) | (1 << (sequenceParser.AmpApp - 76)) | (1 << (sequenceParser.AmpWebsite - 76)) | (1 << (sequenceParser.AmpAudioLink - 76)) | (1 << (sequenceParser.AmpImageLink - 76)) | (1 << (sequenceParser.AmpArticleLink - 76)) | (1 << (sequenceParser.AmpDocumentLink - 76)))) !== 0) || ((((_la - 115)) & ~0x1F) === 0 && ((1 << (_la - 115)) & ((1 << (sequenceParser.BitmarkMinus - 115)) | (1 << (sequenceParser.BitmarkPlus - 115)) | (1 << (sequenceParser.URL - 115)) | (1 << (sequenceParser.LIST_LINE - 115)))) !== 0));
                     this.state = 808;
                     this.match(sequenceParser.CL);
                 }
@@ -3863,7 +3866,7 @@ let sequenceParser = /** @class */ (() => {
                             this.state = 835;
                             this._errHandler.sync(this);
                             _la = this._input.LA(1);
-                            while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPESC) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.RightAngle - 32)) | (1 << (sequenceParser.RightArrow - 32)) | (1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.SENTENCE - 32)))) !== 0) || ((((_la - 75)) & ~0x1F) === 0 && ((1 << (_la - 75)) & ((1 << (sequenceParser.AmpAudio - 75)) | (1 << (sequenceParser.AmpImage - 75)) | (1 << (sequenceParser.AmpVideo - 75)) | (1 << (sequenceParser.AmpArticle - 75)) | (1 << (sequenceParser.AmpDocument - 75)) | (1 << (sequenceParser.AmpApp - 75)) | (1 << (sequenceParser.AmpWebsite - 75)) | (1 << (sequenceParser.AmpAudioLink - 75)) | (1 << (sequenceParser.AmpImageLink - 75)) | (1 << (sequenceParser.AmpArticleLink - 75)) | (1 << (sequenceParser.AmpDocumentLink - 75)))) !== 0) || ((((_la - 114)) & ~0x1F) === 0 && ((1 << (_la - 114)) & ((1 << (sequenceParser.BitmarkMinus - 114)) | (1 << (sequenceParser.BitmarkPlus - 114)) | (1 << (sequenceParser.URL - 114)) | (1 << (sequenceParser.LIST_LINE - 114)))) !== 0)) {
+                            while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPESC) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.RightAngle - 32)) | (1 << (sequenceParser.RightArrow - 32)) | (1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.SENTENCE - 32)))) !== 0) || ((((_la - 76)) & ~0x1F) === 0 && ((1 << (_la - 76)) & ((1 << (sequenceParser.AmpAudio - 76)) | (1 << (sequenceParser.AmpImage - 76)) | (1 << (sequenceParser.AmpVideo - 76)) | (1 << (sequenceParser.AmpArticle - 76)) | (1 << (sequenceParser.AmpDocument - 76)) | (1 << (sequenceParser.AmpApp - 76)) | (1 << (sequenceParser.AmpWebsite - 76)) | (1 << (sequenceParser.AmpAudioLink - 76)) | (1 << (sequenceParser.AmpImageLink - 76)) | (1 << (sequenceParser.AmpArticleLink - 76)) | (1 << (sequenceParser.AmpDocumentLink - 76)))) !== 0) || ((((_la - 115)) & ~0x1F) === 0 && ((1 << (_la - 115)) & ((1 << (sequenceParser.BitmarkMinus - 115)) | (1 << (sequenceParser.BitmarkPlus - 115)) | (1 << (sequenceParser.URL - 115)) | (1 << (sequenceParser.LIST_LINE - 115)))) !== 0)) {
                                 {
                                     {
                                         this.state = 814;
@@ -3932,7 +3935,7 @@ let sequenceParser = /** @class */ (() => {
                             this.state = 841;
                             this._errHandler.sync(this);
                             _la = this._input.LA(1);
-                            if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPESC) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.RightAngle - 32)) | (1 << (sequenceParser.RightArrow - 32)) | (1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.SENTENCE - 32)))) !== 0) || ((((_la - 75)) & ~0x1F) === 0 && ((1 << (_la - 75)) & ((1 << (sequenceParser.AmpAudio - 75)) | (1 << (sequenceParser.AmpImage - 75)) | (1 << (sequenceParser.AmpVideo - 75)) | (1 << (sequenceParser.AmpArticle - 75)) | (1 << (sequenceParser.AmpDocument - 75)) | (1 << (sequenceParser.AmpApp - 75)) | (1 << (sequenceParser.AmpWebsite - 75)) | (1 << (sequenceParser.AmpAudioLink - 75)) | (1 << (sequenceParser.AmpImageLink - 75)) | (1 << (sequenceParser.AmpArticleLink - 75)) | (1 << (sequenceParser.AmpDocumentLink - 75)))) !== 0) || ((((_la - 114)) & ~0x1F) === 0 && ((1 << (_la - 114)) & ((1 << (sequenceParser.BitmarkMinus - 114)) | (1 << (sequenceParser.BitmarkPlus - 114)) | (1 << (sequenceParser.URL - 114)) | (1 << (sequenceParser.LIST_LINE - 114)))) !== 0)) {
+                            if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPESC) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.RightAngle - 32)) | (1 << (sequenceParser.RightArrow - 32)) | (1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.SENTENCE - 32)))) !== 0) || ((((_la - 76)) & ~0x1F) === 0 && ((1 << (_la - 76)) & ((1 << (sequenceParser.AmpAudio - 76)) | (1 << (sequenceParser.AmpImage - 76)) | (1 << (sequenceParser.AmpVideo - 76)) | (1 << (sequenceParser.AmpArticle - 76)) | (1 << (sequenceParser.AmpDocument - 76)) | (1 << (sequenceParser.AmpApp - 76)) | (1 << (sequenceParser.AmpWebsite - 76)) | (1 << (sequenceParser.AmpAudioLink - 76)) | (1 << (sequenceParser.AmpImageLink - 76)) | (1 << (sequenceParser.AmpArticleLink - 76)) | (1 << (sequenceParser.AmpDocumentLink - 76)))) !== 0) || ((((_la - 115)) & ~0x1F) === 0 && ((1 << (_la - 115)) & ((1 << (sequenceParser.BitmarkMinus - 115)) | (1 << (sequenceParser.BitmarkPlus - 115)) | (1 << (sequenceParser.URL - 115)) | (1 << (sequenceParser.LIST_LINE - 115)))) !== 0)) {
                                 {
                                     this.state = 840;
                                     this.s_and_w();
@@ -3992,7 +3995,7 @@ let sequenceParser = /** @class */ (() => {
                         this.state = 850;
                         this._errHandler.sync(this);
                         _la = this._input.LA(1);
-                    } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.OPDOT) | (1 << sequenceParser.S) | (1 << sequenceParser.BitSequence) | (1 << sequenceParser.COMMENT) | (1 << sequenceParser.Image_type) | (1 << sequenceParser.Audio_type) | (1 << sequenceParser.Video_type) | (1 << sequenceParser.OPDOLL) | (1 << sequenceParser.OPBUL) | (1 << sequenceParser.OPESC) | (1 << sequenceParser.OPRANGLES) | (1 << sequenceParser.OPRANGLEL) | (1 << sequenceParser.OPDANGLE) | (1 << sequenceParser.OPU) | (1 << sequenceParser.OPB) | (1 << sequenceParser.OPQ) | (1 << sequenceParser.OPA) | (1 << sequenceParser.OPP) | (1 << sequenceParser.OPM) | (1 << sequenceParser.OPS) | (1 << sequenceParser.OPR) | (1 << sequenceParser.OPC) | (1 << sequenceParser.OPHASH) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.DBLCOLON) | (1 << sequenceParser.PLUS) | (1 << sequenceParser.DotAt) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.RightAngle - 32)) | (1 << (sequenceParser.RightArrow - 32)) | (1 << (sequenceParser.Dot - 32)) | (1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.DBLMI - 32)) | (1 << (sequenceParser.HSPL - 32)) | (1 << (sequenceParser.SSPL - 32)) | (1 << (sequenceParser.SSPL2 - 32)) | (1 << (sequenceParser.DCANY - 32)) | (1 << (sequenceParser.ArticleText - 32)) | (1 << (sequenceParser.NOTCL - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NL - 32)) | (1 << (sequenceParser.SENTENCE - 32)) | (1 << (sequenceParser.OPAT - 32)) | (1 << (sequenceParser.AtProgress - 32)) | (1 << (sequenceParser.AtReference - 32)) | (1 << (sequenceParser.AtWidth - 32)) | (1 << (sequenceParser.AtHeight - 32)) | (1 << (sequenceParser.AtProgressPoints - 32)) | (1 << (sequenceParser.AtShortanswer - 32)) | (1 << (sequenceParser.AtLonganswer - 32)) | (1 << (sequenceParser.AtExampleWithStr - 32)) | (1 << (sequenceParser.AtExamplecol - 32)) | (1 << (sequenceParser.AtExamplecl - 32)) | (1 << (sequenceParser.AtPartialAnswerS - 32)) | (1 << (sequenceParser.AtPartialAnswer - 32)) | (1 << (sequenceParser.AtLabeltrue - 32)) | (1 << (sequenceParser.AtLabelfalse - 32)) | (1 << (sequenceParser.AtPoints - 32)) | (1 << (sequenceParser.AtSrc - 32)))) !== 0) || ((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (sequenceParser.OPATALT - 64)) | (1 << (sequenceParser.OPAMARK - 64)) | (1 << (sequenceParser.ShowInIndex - 64)) | (1 << (sequenceParser.OpAtCaption - 64)) | (1 << (sequenceParser.OpAtLicense - 64)) | (1 << (sequenceParser.OpAtCopyright - 64)) | (1 << (sequenceParser.OpAtIsTracked - 64)) | (1 << (sequenceParser.OpAtIsInfoOnly - 64)) | (1 << (sequenceParser.AtDate - 64)) | (1 << (sequenceParser.Http - 64)) | (1 << (sequenceParser.Https - 64)) | (1 << (sequenceParser.AmpAudio - 64)) | (1 << (sequenceParser.AmpImage - 64)) | (1 << (sequenceParser.AmpImageZoom - 64)) | (1 << (sequenceParser.AmpImageWAudio - 64)) | (1 << (sequenceParser.AmpVideo - 64)) | (1 << (sequenceParser.AmpArticle - 64)) | (1 << (sequenceParser.AmpDocument - 64)) | (1 << (sequenceParser.AmpApp - 64)) | (1 << (sequenceParser.AmpWebsite - 64)) | (1 << (sequenceParser.AmpStillImageFilm - 64)) | (1 << (sequenceParser.AmpPdf - 64)) | (1 << (sequenceParser.OpAmpAudio - 64)) | (1 << (sequenceParser.OpAmpImage - 64)) | (1 << (sequenceParser.OpAmpImageZoom - 64)) | (1 << (sequenceParser.OpAmpImageWAudio - 64)) | (1 << (sequenceParser.OpAmpVideo - 64)) | (1 << (sequenceParser.OpAmpArticle - 64)) | (1 << (sequenceParser.OpAmpArticleAtt - 64)) | (1 << (sequenceParser.OpAmpDocument - 64)) | (1 << (sequenceParser.OpAmpApp - 64)) | (1 << (sequenceParser.OpAmpWebsite - 64)))) !== 0) || ((((_la - 96)) & ~0x1F) === 0 && ((1 << (_la - 96)) & ((1 << (sequenceParser.OpAmpStillImageFilm - 96)) | (1 << (sequenceParser.BracEnclose - 96)) | (1 << (sequenceParser.AmpAudioLink - 96)) | (1 << (sequenceParser.AmpImageLink - 96)) | (1 << (sequenceParser.AmpVideoLink - 96)) | (1 << (sequenceParser.AmpArticleLink - 96)) | (1 << (sequenceParser.AmpDocumentLink - 96)) | (1 << (sequenceParser.AmpAppLink - 96)) | (1 << (sequenceParser.AmpWebsiteLink - 96)) | (1 << (sequenceParser.AmpStillImageFilmLink - 96)) | (1 << (sequenceParser.OpAmpAudioLink - 96)) | (1 << (sequenceParser.OpAmpImageLink - 96)) | (1 << (sequenceParser.OpAmpVideoLink - 96)) | (1 << (sequenceParser.OpAmpArticleLink - 96)) | (1 << (sequenceParser.OpAmpDocumentLink - 96)) | (1 << (sequenceParser.OpAmpAppLink - 96)) | (1 << (sequenceParser.OpAmpWebsiteLink - 96)) | (1 << (sequenceParser.OpAmpStillImageFilmLink - 96)) | (1 << (sequenceParser.BitmarkMinus - 96)) | (1 << (sequenceParser.BitmarkPlus - 96)) | (1 << (sequenceParser.ColonText - 96)) | (1 << (sequenceParser.Prosemirror - 96)) | (1 << (sequenceParser.Placeholder - 96)) | (1 << (sequenceParser.BASIC - 96)) | (1 << (sequenceParser.JPG - 96)) | (1 << (sequenceParser.PNG - 96)) | (1 << (sequenceParser.GIF - 96)) | (1 << (sequenceParser.SVG - 96)) | (1 << (sequenceParser.MP2 - 96)) | (1 << (sequenceParser.MP3 - 96)) | (1 << (sequenceParser.MP4 - 96)) | (1 << (sequenceParser.FLV - 96)))) !== 0) || ((((_la - 128)) & ~0x1F) === 0 && ((1 << (_la - 128)) & ((1 << (sequenceParser.WMV - 128)) | (1 << (sequenceParser.MPEG - 128)) | (1 << (sequenceParser.MPG - 128)) | (1 << (sequenceParser.TEL - 128)) | (1 << (sequenceParser.DotArticleAtt - 128)) | (1 << (sequenceParser.STAR - 128)) | (1 << (sequenceParser.URL - 128)) | (1 << (sequenceParser.LIST_LINE - 128)))) !== 0));
+                    } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.OPDOT) | (1 << sequenceParser.S) | (1 << sequenceParser.BitSequence) | (1 << sequenceParser.COMMENT) | (1 << sequenceParser.Image_type) | (1 << sequenceParser.Audio_type) | (1 << sequenceParser.Video_type) | (1 << sequenceParser.OPDOLL) | (1 << sequenceParser.OPBUL) | (1 << sequenceParser.OPESC) | (1 << sequenceParser.OPRANGLES) | (1 << sequenceParser.OPRANGLEL) | (1 << sequenceParser.OPDANGLE) | (1 << sequenceParser.OPU) | (1 << sequenceParser.OPB) | (1 << sequenceParser.OPQ) | (1 << sequenceParser.OPA) | (1 << sequenceParser.OPP) | (1 << sequenceParser.OPM) | (1 << sequenceParser.OPS) | (1 << sequenceParser.OPR) | (1 << sequenceParser.OPC) | (1 << sequenceParser.OPHASH) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.DBLCOLON) | (1 << sequenceParser.PLUS) | (1 << sequenceParser.DotAt) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.RightAngle - 32)) | (1 << (sequenceParser.RightArrow - 32)) | (1 << (sequenceParser.Dot - 32)) | (1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.DBLMI - 32)) | (1 << (sequenceParser.HSPL - 32)) | (1 << (sequenceParser.SSPL - 32)) | (1 << (sequenceParser.SSPL2 - 32)) | (1 << (sequenceParser.DCANY - 32)) | (1 << (sequenceParser.ArticleText - 32)) | (1 << (sequenceParser.NOTCL - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NL - 32)) | (1 << (sequenceParser.SENTENCE - 32)) | (1 << (sequenceParser.OPAT - 32)) | (1 << (sequenceParser.AtProgress - 32)) | (1 << (sequenceParser.AtReference - 32)) | (1 << (sequenceParser.AtWidth - 32)) | (1 << (sequenceParser.AtHeight - 32)) | (1 << (sequenceParser.AtProgressPoints - 32)) | (1 << (sequenceParser.AtShortanswer - 32)) | (1 << (sequenceParser.AtLonganswer - 32)) | (1 << (sequenceParser.AtExampleWithStr - 32)) | (1 << (sequenceParser.AtExamplecol - 32)) | (1 << (sequenceParser.AtExamplecl - 32)) | (1 << (sequenceParser.AtPartialAnswerS - 32)) | (1 << (sequenceParser.AtPartialAnswer - 32)) | (1 << (sequenceParser.AtLabeltrue - 32)) | (1 << (sequenceParser.AtLabelfalse - 32)) | (1 << (sequenceParser.AtPoints - 32)) | (1 << (sequenceParser.AtSrc - 32)))) !== 0) || ((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (sequenceParser.OPATALT - 64)) | (1 << (sequenceParser.OPAMARK - 64)) | (1 << (sequenceParser.ShowInIndex - 64)) | (1 << (sequenceParser.OpAtCaption - 64)) | (1 << (sequenceParser.OpAtLicense - 64)) | (1 << (sequenceParser.OpAtCopyright - 64)) | (1 << (sequenceParser.OpAtSearch - 64)) | (1 << (sequenceParser.OpAtIsTracked - 64)) | (1 << (sequenceParser.OpAtIsInfoOnly - 64)) | (1 << (sequenceParser.AtDate - 64)) | (1 << (sequenceParser.Http - 64)) | (1 << (sequenceParser.Https - 64)) | (1 << (sequenceParser.AmpAudio - 64)) | (1 << (sequenceParser.AmpImage - 64)) | (1 << (sequenceParser.AmpImageZoom - 64)) | (1 << (sequenceParser.AmpImageWAudio - 64)) | (1 << (sequenceParser.AmpVideo - 64)) | (1 << (sequenceParser.AmpArticle - 64)) | (1 << (sequenceParser.AmpDocument - 64)) | (1 << (sequenceParser.AmpApp - 64)) | (1 << (sequenceParser.AmpWebsite - 64)) | (1 << (sequenceParser.AmpStillImageFilm - 64)) | (1 << (sequenceParser.AmpPdf - 64)) | (1 << (sequenceParser.OpAmpAudio - 64)) | (1 << (sequenceParser.OpAmpImage - 64)) | (1 << (sequenceParser.OpAmpImageZoom - 64)) | (1 << (sequenceParser.OpAmpImageWAudio - 64)) | (1 << (sequenceParser.OpAmpVideo - 64)) | (1 << (sequenceParser.OpAmpArticle - 64)) | (1 << (sequenceParser.OpAmpArticleAtt - 64)) | (1 << (sequenceParser.OpAmpDocument - 64)) | (1 << (sequenceParser.OpAmpApp - 64)))) !== 0) || ((((_la - 96)) & ~0x1F) === 0 && ((1 << (_la - 96)) & ((1 << (sequenceParser.OpAmpWebsite - 96)) | (1 << (sequenceParser.OpAmpStillImageFilm - 96)) | (1 << (sequenceParser.BracEnclose - 96)) | (1 << (sequenceParser.AmpAudioLink - 96)) | (1 << (sequenceParser.AmpImageLink - 96)) | (1 << (sequenceParser.AmpVideoLink - 96)) | (1 << (sequenceParser.AmpArticleLink - 96)) | (1 << (sequenceParser.AmpDocumentLink - 96)) | (1 << (sequenceParser.AmpAppLink - 96)) | (1 << (sequenceParser.AmpWebsiteLink - 96)) | (1 << (sequenceParser.AmpStillImageFilmLink - 96)) | (1 << (sequenceParser.OpAmpAudioLink - 96)) | (1 << (sequenceParser.OpAmpImageLink - 96)) | (1 << (sequenceParser.OpAmpVideoLink - 96)) | (1 << (sequenceParser.OpAmpArticleLink - 96)) | (1 << (sequenceParser.OpAmpDocumentLink - 96)) | (1 << (sequenceParser.OpAmpAppLink - 96)) | (1 << (sequenceParser.OpAmpWebsiteLink - 96)) | (1 << (sequenceParser.OpAmpStillImageFilmLink - 96)) | (1 << (sequenceParser.BitmarkMinus - 96)) | (1 << (sequenceParser.BitmarkPlus - 96)) | (1 << (sequenceParser.ColonText - 96)) | (1 << (sequenceParser.Prosemirror - 96)) | (1 << (sequenceParser.Placeholder - 96)) | (1 << (sequenceParser.BASIC - 96)) | (1 << (sequenceParser.JPG - 96)) | (1 << (sequenceParser.PNG - 96)) | (1 << (sequenceParser.GIF - 96)) | (1 << (sequenceParser.SVG - 96)) | (1 << (sequenceParser.MP2 - 96)) | (1 << (sequenceParser.MP3 - 96)) | (1 << (sequenceParser.MP4 - 96)))) !== 0) || ((((_la - 128)) & ~0x1F) === 0 && ((1 << (_la - 128)) & ((1 << (sequenceParser.FLV - 128)) | (1 << (sequenceParser.WMV - 128)) | (1 << (sequenceParser.MPEG - 128)) | (1 << (sequenceParser.MPG - 128)) | (1 << (sequenceParser.TEL - 128)) | (1 << (sequenceParser.DotArticleAtt - 128)) | (1 << (sequenceParser.STAR - 128)) | (1 << (sequenceParser.URL - 128)) | (1 << (sequenceParser.LIST_LINE - 128)))) !== 0));
                     this.state = 852;
                     this.match(sequenceParser.CL);
                 }
@@ -4080,7 +4083,7 @@ let sequenceParser = /** @class */ (() => {
                                 this.state = 859;
                                 this._errHandler.sync(this);
                                 _la = this._input.LA(1);
-                            } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPESC) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.RightAngle - 32)) | (1 << (sequenceParser.RightArrow - 32)) | (1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NL - 32)) | (1 << (sequenceParser.SENTENCE - 32)))) !== 0) || ((((_la - 75)) & ~0x1F) === 0 && ((1 << (_la - 75)) & ((1 << (sequenceParser.AmpAudio - 75)) | (1 << (sequenceParser.AmpImage - 75)) | (1 << (sequenceParser.AmpVideo - 75)) | (1 << (sequenceParser.AmpArticle - 75)) | (1 << (sequenceParser.AmpDocument - 75)) | (1 << (sequenceParser.AmpApp - 75)) | (1 << (sequenceParser.AmpWebsite - 75)) | (1 << (sequenceParser.AmpAudioLink - 75)) | (1 << (sequenceParser.AmpImageLink - 75)) | (1 << (sequenceParser.AmpArticleLink - 75)) | (1 << (sequenceParser.AmpDocumentLink - 75)))) !== 0) || ((((_la - 114)) & ~0x1F) === 0 && ((1 << (_la - 114)) & ((1 << (sequenceParser.BitmarkMinus - 114)) | (1 << (sequenceParser.BitmarkPlus - 114)) | (1 << (sequenceParser.URL - 114)) | (1 << (sequenceParser.LIST_LINE - 114)))) !== 0));
+                            } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPESC) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.RightAngle - 32)) | (1 << (sequenceParser.RightArrow - 32)) | (1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NL - 32)) | (1 << (sequenceParser.SENTENCE - 32)))) !== 0) || ((((_la - 76)) & ~0x1F) === 0 && ((1 << (_la - 76)) & ((1 << (sequenceParser.AmpAudio - 76)) | (1 << (sequenceParser.AmpImage - 76)) | (1 << (sequenceParser.AmpVideo - 76)) | (1 << (sequenceParser.AmpArticle - 76)) | (1 << (sequenceParser.AmpDocument - 76)) | (1 << (sequenceParser.AmpApp - 76)) | (1 << (sequenceParser.AmpWebsite - 76)) | (1 << (sequenceParser.AmpAudioLink - 76)) | (1 << (sequenceParser.AmpImageLink - 76)) | (1 << (sequenceParser.AmpArticleLink - 76)) | (1 << (sequenceParser.AmpDocumentLink - 76)))) !== 0) || ((((_la - 115)) & ~0x1F) === 0 && ((1 << (_la - 115)) & ((1 << (sequenceParser.BitmarkMinus - 115)) | (1 << (sequenceParser.BitmarkPlus - 115)) | (1 << (sequenceParser.URL - 115)) | (1 << (sequenceParser.LIST_LINE - 115)))) !== 0));
                             this.state = 861;
                             this.match(sequenceParser.CL);
                         }
@@ -4365,7 +4368,7 @@ let sequenceParser = /** @class */ (() => {
                             this.state = 919;
                             this._errHandler.sync(this);
                             _la = this._input.LA(1);
-                            while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPESC) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.RightAngle - 32)) | (1 << (sequenceParser.RightArrow - 32)) | (1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NL - 32)) | (1 << (sequenceParser.SENTENCE - 32)))) !== 0) || ((((_la - 75)) & ~0x1F) === 0 && ((1 << (_la - 75)) & ((1 << (sequenceParser.AmpAudio - 75)) | (1 << (sequenceParser.AmpImage - 75)) | (1 << (sequenceParser.AmpVideo - 75)) | (1 << (sequenceParser.AmpArticle - 75)) | (1 << (sequenceParser.AmpDocument - 75)) | (1 << (sequenceParser.AmpApp - 75)) | (1 << (sequenceParser.AmpWebsite - 75)) | (1 << (sequenceParser.AmpAudioLink - 75)) | (1 << (sequenceParser.AmpImageLink - 75)) | (1 << (sequenceParser.AmpArticleLink - 75)) | (1 << (sequenceParser.AmpDocumentLink - 75)))) !== 0) || ((((_la - 114)) & ~0x1F) === 0 && ((1 << (_la - 114)) & ((1 << (sequenceParser.BitmarkMinus - 114)) | (1 << (sequenceParser.BitmarkPlus - 114)) | (1 << (sequenceParser.URL - 114)) | (1 << (sequenceParser.LIST_LINE - 114)))) !== 0)) {
+                            while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPESC) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.RightAngle - 32)) | (1 << (sequenceParser.RightArrow - 32)) | (1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NL - 32)) | (1 << (sequenceParser.SENTENCE - 32)))) !== 0) || ((((_la - 76)) & ~0x1F) === 0 && ((1 << (_la - 76)) & ((1 << (sequenceParser.AmpAudio - 76)) | (1 << (sequenceParser.AmpImage - 76)) | (1 << (sequenceParser.AmpVideo - 76)) | (1 << (sequenceParser.AmpArticle - 76)) | (1 << (sequenceParser.AmpDocument - 76)) | (1 << (sequenceParser.AmpApp - 76)) | (1 << (sequenceParser.AmpWebsite - 76)) | (1 << (sequenceParser.AmpAudioLink - 76)) | (1 << (sequenceParser.AmpImageLink - 76)) | (1 << (sequenceParser.AmpArticleLink - 76)) | (1 << (sequenceParser.AmpDocumentLink - 76)))) !== 0) || ((((_la - 115)) & ~0x1F) === 0 && ((1 << (_la - 115)) & ((1 << (sequenceParser.BitmarkMinus - 115)) | (1 << (sequenceParser.BitmarkPlus - 115)) | (1 << (sequenceParser.URL - 115)) | (1 << (sequenceParser.LIST_LINE - 115)))) !== 0)) {
                                 {
                                     this.state = 917;
                                     this._errHandler.sync(this);
@@ -4487,7 +4490,7 @@ let sequenceParser = /** @class */ (() => {
                                 this.state = 940;
                                 this._errHandler.sync(this);
                                 _la = this._input.LA(1);
-                            } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPESC) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.RightAngle - 32)) | (1 << (sequenceParser.RightArrow - 32)) | (1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NL - 32)) | (1 << (sequenceParser.SENTENCE - 32)))) !== 0) || ((((_la - 75)) & ~0x1F) === 0 && ((1 << (_la - 75)) & ((1 << (sequenceParser.AmpAudio - 75)) | (1 << (sequenceParser.AmpImage - 75)) | (1 << (sequenceParser.AmpVideo - 75)) | (1 << (sequenceParser.AmpArticle - 75)) | (1 << (sequenceParser.AmpDocument - 75)) | (1 << (sequenceParser.AmpApp - 75)) | (1 << (sequenceParser.AmpWebsite - 75)) | (1 << (sequenceParser.AmpAudioLink - 75)) | (1 << (sequenceParser.AmpImageLink - 75)) | (1 << (sequenceParser.AmpArticleLink - 75)) | (1 << (sequenceParser.AmpDocumentLink - 75)))) !== 0) || ((((_la - 114)) & ~0x1F) === 0 && ((1 << (_la - 114)) & ((1 << (sequenceParser.BitmarkMinus - 114)) | (1 << (sequenceParser.BitmarkPlus - 114)) | (1 << (sequenceParser.URL - 114)) | (1 << (sequenceParser.LIST_LINE - 114)))) !== 0));
+                            } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPESC) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.RightAngle - 32)) | (1 << (sequenceParser.RightArrow - 32)) | (1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NL - 32)) | (1 << (sequenceParser.SENTENCE - 32)))) !== 0) || ((((_la - 76)) & ~0x1F) === 0 && ((1 << (_la - 76)) & ((1 << (sequenceParser.AmpAudio - 76)) | (1 << (sequenceParser.AmpImage - 76)) | (1 << (sequenceParser.AmpVideo - 76)) | (1 << (sequenceParser.AmpArticle - 76)) | (1 << (sequenceParser.AmpDocument - 76)) | (1 << (sequenceParser.AmpApp - 76)) | (1 << (sequenceParser.AmpWebsite - 76)) | (1 << (sequenceParser.AmpAudioLink - 76)) | (1 << (sequenceParser.AmpImageLink - 76)) | (1 << (sequenceParser.AmpArticleLink - 76)) | (1 << (sequenceParser.AmpDocumentLink - 76)))) !== 0) || ((((_la - 115)) & ~0x1F) === 0 && ((1 << (_la - 115)) & ((1 << (sequenceParser.BitmarkMinus - 115)) | (1 << (sequenceParser.BitmarkPlus - 115)) | (1 << (sequenceParser.URL - 115)) | (1 << (sequenceParser.LIST_LINE - 115)))) !== 0));
                             this.state = 942;
                             this.match(sequenceParser.CL);
                         }
@@ -4500,7 +4503,7 @@ let sequenceParser = /** @class */ (() => {
                             this.state = 949;
                             this._errHandler.sync(this);
                             _la = this._input.LA(1);
-                            while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPESC) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.RightAngle - 32)) | (1 << (sequenceParser.RightArrow - 32)) | (1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NL - 32)) | (1 << (sequenceParser.SENTENCE - 32)))) !== 0) || ((((_la - 75)) & ~0x1F) === 0 && ((1 << (_la - 75)) & ((1 << (sequenceParser.AmpAudio - 75)) | (1 << (sequenceParser.AmpImage - 75)) | (1 << (sequenceParser.AmpVideo - 75)) | (1 << (sequenceParser.AmpArticle - 75)) | (1 << (sequenceParser.AmpDocument - 75)) | (1 << (sequenceParser.AmpApp - 75)) | (1 << (sequenceParser.AmpWebsite - 75)) | (1 << (sequenceParser.AmpAudioLink - 75)) | (1 << (sequenceParser.AmpImageLink - 75)) | (1 << (sequenceParser.AmpArticleLink - 75)) | (1 << (sequenceParser.AmpDocumentLink - 75)))) !== 0) || ((((_la - 114)) & ~0x1F) === 0 && ((1 << (_la - 114)) & ((1 << (sequenceParser.BitmarkMinus - 114)) | (1 << (sequenceParser.BitmarkPlus - 114)) | (1 << (sequenceParser.URL - 114)) | (1 << (sequenceParser.LIST_LINE - 114)))) !== 0)) {
+                            while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPESC) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.RightAngle - 32)) | (1 << (sequenceParser.RightArrow - 32)) | (1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NL - 32)) | (1 << (sequenceParser.SENTENCE - 32)))) !== 0) || ((((_la - 76)) & ~0x1F) === 0 && ((1 << (_la - 76)) & ((1 << (sequenceParser.AmpAudio - 76)) | (1 << (sequenceParser.AmpImage - 76)) | (1 << (sequenceParser.AmpVideo - 76)) | (1 << (sequenceParser.AmpArticle - 76)) | (1 << (sequenceParser.AmpDocument - 76)) | (1 << (sequenceParser.AmpApp - 76)) | (1 << (sequenceParser.AmpWebsite - 76)) | (1 << (sequenceParser.AmpAudioLink - 76)) | (1 << (sequenceParser.AmpImageLink - 76)) | (1 << (sequenceParser.AmpArticleLink - 76)) | (1 << (sequenceParser.AmpDocumentLink - 76)))) !== 0) || ((((_la - 115)) & ~0x1F) === 0 && ((1 << (_la - 115)) & ((1 << (sequenceParser.BitmarkMinus - 115)) | (1 << (sequenceParser.BitmarkPlus - 115)) | (1 << (sequenceParser.URL - 115)) | (1 << (sequenceParser.LIST_LINE - 115)))) !== 0)) {
                                 {
                                     this.state = 947;
                                     this._errHandler.sync(this);
@@ -4563,7 +4566,7 @@ let sequenceParser = /** @class */ (() => {
                     this.state = 957;
                     this._errHandler.sync(this);
                     _la = this._input.LA(1);
-                    if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPESC) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.RightAngle - 32)) | (1 << (sequenceParser.RightArrow - 32)) | (1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.SENTENCE - 32)))) !== 0) || ((((_la - 75)) & ~0x1F) === 0 && ((1 << (_la - 75)) & ((1 << (sequenceParser.AmpAudio - 75)) | (1 << (sequenceParser.AmpImage - 75)) | (1 << (sequenceParser.AmpVideo - 75)) | (1 << (sequenceParser.AmpArticle - 75)) | (1 << (sequenceParser.AmpDocument - 75)) | (1 << (sequenceParser.AmpApp - 75)) | (1 << (sequenceParser.AmpWebsite - 75)) | (1 << (sequenceParser.AmpAudioLink - 75)) | (1 << (sequenceParser.AmpImageLink - 75)) | (1 << (sequenceParser.AmpArticleLink - 75)) | (1 << (sequenceParser.AmpDocumentLink - 75)))) !== 0) || ((((_la - 114)) & ~0x1F) === 0 && ((1 << (_la - 114)) & ((1 << (sequenceParser.BitmarkMinus - 114)) | (1 << (sequenceParser.BitmarkPlus - 114)) | (1 << (sequenceParser.URL - 114)) | (1 << (sequenceParser.LIST_LINE - 114)))) !== 0)) {
+                    if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPESC) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.RightAngle - 32)) | (1 << (sequenceParser.RightArrow - 32)) | (1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.SENTENCE - 32)))) !== 0) || ((((_la - 76)) & ~0x1F) === 0 && ((1 << (_la - 76)) & ((1 << (sequenceParser.AmpAudio - 76)) | (1 << (sequenceParser.AmpImage - 76)) | (1 << (sequenceParser.AmpVideo - 76)) | (1 << (sequenceParser.AmpArticle - 76)) | (1 << (sequenceParser.AmpDocument - 76)) | (1 << (sequenceParser.AmpApp - 76)) | (1 << (sequenceParser.AmpWebsite - 76)) | (1 << (sequenceParser.AmpAudioLink - 76)) | (1 << (sequenceParser.AmpImageLink - 76)) | (1 << (sequenceParser.AmpArticleLink - 76)) | (1 << (sequenceParser.AmpDocumentLink - 76)))) !== 0) || ((((_la - 115)) & ~0x1F) === 0 && ((1 << (_la - 115)) & ((1 << (sequenceParser.BitmarkMinus - 115)) | (1 << (sequenceParser.BitmarkPlus - 115)) | (1 << (sequenceParser.URL - 115)) | (1 << (sequenceParser.LIST_LINE - 115)))) !== 0)) {
                         {
                             this.state = 956;
                             this.s_and_w();
@@ -5246,72 +5249,73 @@ let sequenceParser = /** @class */ (() => {
     sequenceParser.OpAtCaption = 67;
     sequenceParser.OpAtLicense = 68;
     sequenceParser.OpAtCopyright = 69;
-    sequenceParser.OpAtIsTracked = 70;
-    sequenceParser.OpAtIsInfoOnly = 71;
-    sequenceParser.AtDate = 72;
-    sequenceParser.Http = 73;
-    sequenceParser.Https = 74;
-    sequenceParser.AmpAudio = 75;
-    sequenceParser.AmpImage = 76;
-    sequenceParser.AmpImageZoom = 77;
-    sequenceParser.AmpImageWAudio = 78;
-    sequenceParser.AmpVideo = 79;
-    sequenceParser.AmpArticle = 80;
-    sequenceParser.AmpDocument = 81;
-    sequenceParser.AmpApp = 82;
-    sequenceParser.AmpWebsite = 83;
-    sequenceParser.AmpStillImageFilm = 84;
-    sequenceParser.AmpPdf = 85;
-    sequenceParser.OpAmpAudio = 86;
-    sequenceParser.OpAmpImage = 87;
-    sequenceParser.OpAmpImageZoom = 88;
-    sequenceParser.OpAmpImageWAudio = 89;
-    sequenceParser.OpAmpVideo = 90;
-    sequenceParser.OpAmpArticle = 91;
-    sequenceParser.OpAmpArticleAtt = 92;
-    sequenceParser.OpAmpDocument = 93;
-    sequenceParser.OpAmpApp = 94;
-    sequenceParser.OpAmpWebsite = 95;
-    sequenceParser.OpAmpStillImageFilm = 96;
-    sequenceParser.BracEnclose = 97;
-    sequenceParser.AmpAudioLink = 98;
-    sequenceParser.AmpImageLink = 99;
-    sequenceParser.AmpVideoLink = 100;
-    sequenceParser.AmpArticleLink = 101;
-    sequenceParser.AmpDocumentLink = 102;
-    sequenceParser.AmpAppLink = 103;
-    sequenceParser.AmpWebsiteLink = 104;
-    sequenceParser.AmpStillImageFilmLink = 105;
-    sequenceParser.OpAmpAudioLink = 106;
-    sequenceParser.OpAmpImageLink = 107;
-    sequenceParser.OpAmpVideoLink = 108;
-    sequenceParser.OpAmpArticleLink = 109;
-    sequenceParser.OpAmpDocumentLink = 110;
-    sequenceParser.OpAmpAppLink = 111;
-    sequenceParser.OpAmpWebsiteLink = 112;
-    sequenceParser.OpAmpStillImageFilmLink = 113;
-    sequenceParser.BitmarkMinus = 114;
-    sequenceParser.BitmarkPlus = 115;
-    sequenceParser.ColonText = 116;
-    sequenceParser.Prosemirror = 117;
-    sequenceParser.Placeholder = 118;
-    sequenceParser.BASIC = 119;
-    sequenceParser.JPG = 120;
-    sequenceParser.PNG = 121;
-    sequenceParser.GIF = 122;
-    sequenceParser.SVG = 123;
-    sequenceParser.MP2 = 124;
-    sequenceParser.MP3 = 125;
-    sequenceParser.MP4 = 126;
-    sequenceParser.FLV = 127;
-    sequenceParser.WMV = 128;
-    sequenceParser.MPEG = 129;
-    sequenceParser.MPG = 130;
-    sequenceParser.TEL = 131;
-    sequenceParser.DotArticleAtt = 132;
-    sequenceParser.STAR = 133;
-    sequenceParser.URL = 134;
-    sequenceParser.LIST_LINE = 135;
+    sequenceParser.OpAtSearch = 70;
+    sequenceParser.OpAtIsTracked = 71;
+    sequenceParser.OpAtIsInfoOnly = 72;
+    sequenceParser.AtDate = 73;
+    sequenceParser.Http = 74;
+    sequenceParser.Https = 75;
+    sequenceParser.AmpAudio = 76;
+    sequenceParser.AmpImage = 77;
+    sequenceParser.AmpImageZoom = 78;
+    sequenceParser.AmpImageWAudio = 79;
+    sequenceParser.AmpVideo = 80;
+    sequenceParser.AmpArticle = 81;
+    sequenceParser.AmpDocument = 82;
+    sequenceParser.AmpApp = 83;
+    sequenceParser.AmpWebsite = 84;
+    sequenceParser.AmpStillImageFilm = 85;
+    sequenceParser.AmpPdf = 86;
+    sequenceParser.OpAmpAudio = 87;
+    sequenceParser.OpAmpImage = 88;
+    sequenceParser.OpAmpImageZoom = 89;
+    sequenceParser.OpAmpImageWAudio = 90;
+    sequenceParser.OpAmpVideo = 91;
+    sequenceParser.OpAmpArticle = 92;
+    sequenceParser.OpAmpArticleAtt = 93;
+    sequenceParser.OpAmpDocument = 94;
+    sequenceParser.OpAmpApp = 95;
+    sequenceParser.OpAmpWebsite = 96;
+    sequenceParser.OpAmpStillImageFilm = 97;
+    sequenceParser.BracEnclose = 98;
+    sequenceParser.AmpAudioLink = 99;
+    sequenceParser.AmpImageLink = 100;
+    sequenceParser.AmpVideoLink = 101;
+    sequenceParser.AmpArticleLink = 102;
+    sequenceParser.AmpDocumentLink = 103;
+    sequenceParser.AmpAppLink = 104;
+    sequenceParser.AmpWebsiteLink = 105;
+    sequenceParser.AmpStillImageFilmLink = 106;
+    sequenceParser.OpAmpAudioLink = 107;
+    sequenceParser.OpAmpImageLink = 108;
+    sequenceParser.OpAmpVideoLink = 109;
+    sequenceParser.OpAmpArticleLink = 110;
+    sequenceParser.OpAmpDocumentLink = 111;
+    sequenceParser.OpAmpAppLink = 112;
+    sequenceParser.OpAmpWebsiteLink = 113;
+    sequenceParser.OpAmpStillImageFilmLink = 114;
+    sequenceParser.BitmarkMinus = 115;
+    sequenceParser.BitmarkPlus = 116;
+    sequenceParser.ColonText = 117;
+    sequenceParser.Prosemirror = 118;
+    sequenceParser.Placeholder = 119;
+    sequenceParser.BASIC = 120;
+    sequenceParser.JPG = 121;
+    sequenceParser.PNG = 122;
+    sequenceParser.GIF = 123;
+    sequenceParser.SVG = 124;
+    sequenceParser.MP2 = 125;
+    sequenceParser.MP3 = 126;
+    sequenceParser.MP4 = 127;
+    sequenceParser.FLV = 128;
+    sequenceParser.WMV = 129;
+    sequenceParser.MPEG = 130;
+    sequenceParser.MPG = 131;
+    sequenceParser.TEL = 132;
+    sequenceParser.DotArticleAtt = 133;
+    sequenceParser.STAR = 134;
+    sequenceParser.URL = 135;
+    sequenceParser.LIST_LINE = 136;
     sequenceParser.RULE_bitmark = 0;
     sequenceParser.RULE_bitmark_ = 1;
     sequenceParser.RULE_bit = 2;
@@ -5419,17 +5423,17 @@ let sequenceParser = /** @class */ (() => {
         undefined, undefined, undefined, undefined, undefined, undefined, undefined,
         undefined, undefined, undefined, undefined, undefined, undefined, undefined,
         undefined, undefined, undefined, undefined, undefined, undefined, undefined,
-        "'http://'", "'https://'", "'&audio'", "'&image'", "'&image-zoom'", "'&imageWithAudio'",
-        "'&video'", "'&article'", "'&document'", "'&app'", "'&website'", "'&stillImageFilm'",
-        "'&pdf'", undefined, undefined, undefined, undefined, undefined, undefined,
-        undefined, undefined, undefined, undefined, undefined, undefined, "'&audioLink'",
-        "'&imageLink'", "'&videoLink'", "'&articleLink'", "'&documentLink'", "'&appLink'",
-        "'&websiteLink'", "'&stillImageFilmLink'", undefined, undefined, undefined,
-        undefined, undefined, undefined, undefined, undefined, "':bitmark--'",
-        "':bitmark++'", "':text'", "':prosemirror'", "':placeholder'", "':basic'",
-        "':jpg'", "':png'", "':gif'", "':svg'", "':mp2'", "':mp3'", "':mp4'",
-        "':flv'", "':wmv'", "':mpeg'", "':mpg'", "'tel:'", "'.article-attachment'",
-        "'*'",
+        undefined, "'http://'", "'https://'", "'&audio'", "'&image'", "'&image-zoom'",
+        "'&imageWithAudio'", "'&video'", "'&article'", "'&document'", "'&app'",
+        "'&website'", "'&stillImageFilm'", "'&pdf'", undefined, undefined, undefined,
+        undefined, undefined, undefined, undefined, undefined, undefined, undefined,
+        undefined, undefined, "'&audioLink'", "'&imageLink'", "'&videoLink'",
+        "'&articleLink'", "'&documentLink'", "'&appLink'", "'&websiteLink'", "'&stillImageFilmLink'",
+        undefined, undefined, undefined, undefined, undefined, undefined, undefined,
+        undefined, "':bitmark--'", "':bitmark++'", "':text'", "':prosemirror'",
+        "':placeholder'", "':basic'", "':jpg'", "':png'", "':gif'", "':svg'",
+        "':mp2'", "':mp3'", "':mp4'", "':flv'", "':wmv'", "':mpeg'", "':mpg'",
+        "'tel:'", "'.article-attachment'", "'*'",
     ];
     sequenceParser._SYMBOLIC_NAMES = [
         undefined, "OPDOT", "S", "BitSequence", "COMMENT", "Image_type", "Audio_type",
@@ -5442,8 +5446,8 @@ let sequenceParser = /** @class */ (() => {
         "AtShortanswer", "AtLonganswer", "AtExampleWithStr", "AtExamplecol", "AtExamplecl",
         "AtPartialAnswerS", "AtPartialAnswer", "AtLabeltrue", "AtLabelfalse",
         "AtPoints", "AtSrc", "OPATALT", "OPAMARK", "ShowInIndex", "OpAtCaption",
-        "OpAtLicense", "OpAtCopyright", "OpAtIsTracked", "OpAtIsInfoOnly", "AtDate",
-        "Http", "Https", "AmpAudio", "AmpImage", "AmpImageZoom", "AmpImageWAudio",
+        "OpAtLicense", "OpAtCopyright", "OpAtSearch", "OpAtIsTracked", "OpAtIsInfoOnly",
+        "AtDate", "Http", "Https", "AmpAudio", "AmpImage", "AmpImageZoom", "AmpImageWAudio",
         "AmpVideo", "AmpArticle", "AmpDocument", "AmpApp", "AmpWebsite", "AmpStillImageFilm",
         "AmpPdf", "OpAmpAudio", "OpAmpImage", "OpAmpImageZoom", "OpAmpImageWAudio",
         "OpAmpVideo", "OpAmpArticle", "OpAmpArticleAtt", "OpAmpDocument", "OpAmpApp",
@@ -5458,7 +5462,7 @@ let sequenceParser = /** @class */ (() => {
     ];
     sequenceParser.VOCABULARY = new VocabularyImpl(sequenceParser._LITERAL_NAMES, sequenceParser._SYMBOLIC_NAMES, []);
     sequenceParser._serializedATNSegments = 2;
-    sequenceParser._serializedATNSegment0 = "\x03\uC91D\uCABA\u058D\uAFBA\u4F53\u0607\uEA8B\uC241\x03\x89\u0422\x04" +
+    sequenceParser._serializedATNSegment0 = "\x03\uC91D\uCABA\u058D\uAFBA\u4F53\u0607\uEA8B\uC241\x03\x8A\u0422\x04" +
         "\x02\t\x02\x04\x03\t\x03\x04\x04\t\x04\x04\x05\t\x05\x04\x06\t\x06\x04" +
         "\x07\t\x07\x04\b\t\b\x04\t\t\t\x04\n\t\n\x04\v\t\v\x04\f\t\f\x04\r\t\r" +
         "\x04\x0E\t\x0E\x04\x0F\t\x0F\x04\x10\t\x10\x04\x11\t\x11\x04\x12\t\x12" +
@@ -5558,10 +5562,10 @@ let sequenceParser = /** @class */ (() => {
         "P\x02R\x02T\x02V\x02X\x02Z\x02\\\x02^\x02`\x02b\x02d\x02f\x02h\x02j\x02" +
         "l\x02n\x02p\x02r\x02t\x02v\x02x\x02z\x02|\x02~\x02\x80\x02\x82\x02\x84" +
         "\x02\x86\x02\x88\x02\x8A\x02\x8C\x02\x8E\x02\x90\x02\x92\x02\x94\x02\x96" +
-        "\x02\x98\x02\x9A\x02\x9C\x02\x9E\x02\x02\x15\x07\x02RSUVdktuwx\x04\x02" +
-        "QQff\x04\x02RRgg\x04\x02SShh\x04\x02TTii\x04\x02UUjj\x04\x02VVkk\x04\x02" +
-        "]]oo\x04\x02__pp\x04\x02``qq\x04\x02aarr\x04\x02bbss\x03\x0245\x04\x02" +
-        "BBEG\x03\x02\x1A\x1A\x04\x02\x1B\x1B\x1D\x1D\x03\x02()\x03\x02  \x03\x02" +
+        "\x02\x98\x02\x9A\x02\x9C\x02\x9E\x02\x02\x15\x07\x02STVWeluvxy\x04\x02" +
+        "RRgg\x04\x02SShh\x04\x02TTii\x04\x02UUjj\x04\x02VVkk\x04\x02WWll\x04\x02" +
+        "^^pp\x04\x02``qq\x04\x02aarr\x04\x02bbss\x04\x02cctt\x03\x0245\x04\x02" +
+        "BBEH\x03\x02\x1A\x1A\x04\x02\x1B\x1B\x1D\x1D\x03\x02()\x03\x02  \x03\x02" +
         "!!\x02\u04AF\x02\xAD\x03\x02\x02\x02\x04\xB9\x03\x02\x02\x02\x06\xBB\x03" +
         "\x02\x02\x02\b\xBD\x03\x02\x02\x02\n\xF2\x03\x02\x02\x02\f\xF7\x03\x02" +
         "\x02\x02\x0E\u0112\x03\x02\x02\x02\x10\u0114\x03\x02\x02\x02\x12\u011F" +
@@ -5623,7 +5627,7 @@ let sequenceParser = /** @class */ (() => {
         "\x02\xF1\xF4\x03\x02\x02\x02\xF2\xF0\x03\x02\x02\x02\xF2\xF3\x03\x02\x02" +
         "\x02\xF3\xF5\x03\x02\x02\x02\xF4\xF2\x03\x02\x02\x02\xF5\xF6\x05\x92J" +
         "\x02\xF6\v\x03\x02\x02\x02\xF7\xF8\x07&\x02\x02\xF8\r\x03\x02\x02\x02" +
-        "\xF9\u0113\x07\x89\x02\x02\xFA\u0113\x05\x94K\x02\xFB\u0113\x05\x10\t" +
+        "\xF9\u0113\x07\x8A\x02\x02\xFA\u0113\x05\x94K\x02\xFB\u0113\x05\x10\t" +
         "\x02\xFC\u0113\x05\x88E\x02\xFD\u0113\x05r:\x02\xFE\u0113\x05\x8CG\x02" +
         "\xFF\u0113\x05h5\x02\u0100\u0113\x05~@\x02\u0101\u0113\x05z>\x02\u0102" +
         "\u0113\x05|?\x02\u0103\u0113\x05\x92J\x02\u0104\u0113\x05n8\x02\u0105" +
@@ -5676,24 +5680,24 @@ let sequenceParser = /** @class */ (() => {
         "\x02\x02\x02\u015A\u015C\x05\"\x12\x02\u015B\u015A\x03\x02\x02\x02\u015C" +
         "\u015F\x03\x02\x02\x02\u015D\u015B\x03\x02\x02\x02\u015D\u015E\x03\x02" +
         "\x02\x02\u015E\u0164\x03\x02\x02\x02\u015F\u015D\x03\x02\x02\x02\u0160" +
-        "\u0163\x07v\x02\x02\u0161\u0163\x05$\x13\x02\u0162\u0160\x03\x02\x02\x02" +
+        "\u0163\x07w\x02\x02\u0161\u0163\x05$\x13\x02\u0162\u0160\x03\x02\x02\x02" +
         "\u0162\u0161\x03\x02\x02\x02\u0163\u0166\x03\x02\x02\x02\u0164\u0162\x03" +
         "\x02\x02\x02\u0164\u0165\x03\x02\x02\x02\u0165!\x03\x02\x02\x02\u0166" +
         "\u0164\x03\x02\x02\x02\u0167\u0168\t\x02\x02\x02\u0168#\x03\x02\x02\x02" +
         "\u0169\u0173\x05&\x14\x02\u016A\u0173\x05^0\x02\u016B\u0173\x05(\x15\x02" +
         "\u016C\u0173\x05*\x16\x02\u016D\u0173\x05,\x17\x02\u016E\u0173\x05.\x18" +
         "\x02\u016F\u0173\x050\x19\x02\u0170\u0173\x052\x1A\x02\u0171\u0173\x07" +
-        "W\x02\x02\u0172\u0169\x03\x02\x02\x02\u0172\u016A\x03\x02\x02\x02\u0172" +
+        "X\x02\x02\u0172\u0169\x03\x02\x02\x02\u0172\u016A\x03\x02\x02\x02\u0172" +
         "\u016B\x03\x02\x02\x02\u0172\u016C\x03\x02\x02\x02\u0172\u016D\x03\x02" +
         "\x02\x02\u0172\u016E\x03\x02\x02\x02\u0172\u016F\x03\x02\x02\x02\u0172" +
         "\u0170\x03\x02\x02\x02\u0172\u0171\x03\x02\x02\x02\u0173%\x03\x02\x02" +
-        "\x02\u0174\u0177\x07N\x02\x02\u0175\u0178\x07\x07\x02\x02\u0176\u0178" +
-        "\x07\x86\x02\x02\u0177\u0175\x03\x02\x02\x02\u0177\u0176\x03\x02\x02\x02" +
+        "\x02\u0174\u0177\x07O\x02\x02\u0175\u0178\x07\x07\x02\x02\u0176\u0178" +
+        "\x07\x87\x02\x02\u0177\u0175\x03\x02\x02\x02\u0177\u0176\x03\x02\x02\x02" +
         "\u0177\u0178\x03\x02\x02\x02\u0178\u0183\x03\x02\x02\x02\u0179\u017B\x07" +
-        "e\x02\x02\u017A\u017C\x07\x07\x02\x02\u017B\u017A\x03\x02\x02\x02\u017B" +
-        "\u017C\x03\x02\x02\x02\u017C\u0183\x03\x02\x02\x02\u017D\u017F\x07O\x02" +
+        "f\x02\x02\u017A\u017C\x07\x07\x02\x02\u017B\u017A\x03\x02\x02\x02\u017B" +
+        "\u017C\x03\x02\x02\x02\u017C\u0183\x03\x02\x02\x02\u017D\u017F\x07P\x02" +
         "\x02\u017E\u0180\x07\x07\x02\x02\u017F\u017E\x03\x02\x02\x02\u017F\u0180" +
-        "\x03\x02\x02\x02\u0180\u0183\x03\x02\x02\x02\u0181\u0183\x07P\x02\x02" +
+        "\x03\x02\x02\x02\u0180\u0183\x03\x02\x02\x02\u0181\u0183\x07Q\x02\x02" +
         "\u0182\u0174\x03\x02\x02\x02\u0182\u0179\x03\x02\x02\x02\u0182\u017D\x03" +
         "\x02\x02\x02\u0182\u0181\x03\x02\x02\x02\u0183\'\x03\x02\x02\x02\u0184" +
         "\u0187\t\x03\x02\x02\u0185\u0186\x07\x1B\x02\x02\u0186\u0188\x07\t\x02" +
@@ -5704,10 +5708,10 @@ let sequenceParser = /** @class */ (() => {
         "\u0192\t\b\x02\x02\u01923\x03\x02\x02\x02\u0193\u0194\t\t\x02\x02\u0194" +
         "5\x03\x02\x02\x02\u0195\u0196\t\n\x02\x02\u01967\x03\x02\x02\x02\u0197" +
         "\u0198\t\v\x02\x02\u01989\x03\x02\x02\x02\u0199\u019A\t\f\x02\x02\u019A" +
-        ";\x03\x02\x02\x02\u019B\u019E\x07\\";
+        ";\x03\x02\x02\x02\u019B\u019E\x07]";
     sequenceParser._serializedATNSegment1 = "\x02\x02\u019C\u019D\x07\x1B\x02\x02\u019D\u019F\x07\t\x02\x02\u019E\u019C" +
         "\x03\x02\x02\x02\u019E\u019F\x03\x02\x02\x02\u019F\u01A6\x03\x02\x02\x02" +
-        "\u01A0\u01A3\x07n\x02\x02\u01A1\u01A2\x07\x1B\x02\x02\u01A2\u01A4\x07" +
+        "\u01A0\u01A3\x07o\x02\x02\u01A1\u01A2\x07\x1B\x02\x02\u01A2\u01A4\x07" +
         "\t\x02\x02\u01A3\u01A1\x03\x02\x02\x02\u01A3\u01A4\x03\x02\x02\x02\u01A4" +
         "\u01A6\x03\x02\x02\x02\u01A5\u019B\x03\x02\x02\x02\u01A5\u01A0\x03\x02" +
         "\x02\x02\u01A6=\x03\x02\x02\x02\u01A7\u01A8\t\r\x02\x02\u01A8?\x03\x02" +
@@ -5751,14 +5755,14 @@ let sequenceParser = /** @class */ (() => {
         "\x07\x04\x02\x02\u0203\u0202\x03\x02\x02\x02\u0204\u0207\x03\x02\x02\x02" +
         "\u0205\u0203\x03\x02\x02\x02\u0205\u0206\x03\x02\x02\x02\u0206\u0208\x03" +
         "\x02\x02\x02\u0207\u0205\x03\x02\x02\x02\u0208\u0209\x05f4\x02\u0209\u020A" +
-        "\x07\x1A\x02\x02\u020AS\x03\x02\x02\x02\u020B\u020E\x07Y\x02\x02\u020C" +
-        "\u020F\x07\x07\x02\x02\u020D\u020F\x07\x86\x02\x02\u020E\u020C\x03\x02" +
+        "\x07\x1A\x02\x02\u020AS\x03\x02\x02\x02\u020B\u020E\x07Z\x02\x02\u020C" +
+        "\u020F\x07\x07\x02\x02\u020D\u020F\x07\x87\x02\x02\u020E\u020C\x03\x02" +
         "\x02\x02\u020E\u020D\x03\x02\x02\x02\u020E\u020F\x03\x02\x02\x02\u020F" +
-        "\u021A\x03\x02\x02\x02\u0210\u0212\x07m\x02\x02\u0211\u0213\x07\x07\x02" +
+        "\u021A\x03\x02\x02\x02\u0210\u0212\x07n\x02\x02\u0211\u0213\x07\x07\x02" +
         "\x02\u0212\u0211\x03\x02\x02\x02\u0212\u0213\x03\x02\x02\x02\u0213\u021A" +
-        "\x03\x02\x02\x02\u0214\u0216\x07Z\x02\x02\u0215\u0217\x07\x07\x02\x02" +
+        "\x03\x02\x02\x02\u0214\u0216\x07[\x02\x02\u0215\u0217\x07\x07\x02\x02" +
         "\u0216\u0215\x03\x02\x02\x02\u0216\u0217\x03\x02\x02\x02\u0217\u021A\x03" +
-        "\x02\x02\x02\u0218\u021A\x07[\x02\x02\u0219\u020B\x03\x02\x02\x02\u0219" +
+        "\x02\x02\x02\u0218\u021A\x07\\\x02\x02\u0219\u020B\x03\x02\x02\x02\u0219" +
         "\u0210\x03\x02\x02\x02\u0219\u0214\x03\x02\x02\x02\u0219\u0218\x03\x02" +
         "\x02\x02\u021AU\x03\x02\x02\x02\u021B\u021C\x07A\x02\x02\u021C\u021D\x07" +
         "\x1B\x02\x02\u021D\u021E\x05f4\x02\u021E\u021F\x07\x1A\x02\x02\u021F\u022D" +
@@ -5784,15 +5788,15 @@ let sequenceParser = /** @class */ (() => {
         "f4\x02\u024B\u0250\x07\x1A\x02\x02\u024C\u024D\x07B\x02\x02\u024D\u024E" +
         "\x05\x9CO\x02\u024E\u024F\x07\x1A\x02\x02\u024F\u0251\x03\x02\x02\x02" +
         "\u0250\u024C\x03\x02\x02\x02\u0250\u0251\x03\x02\x02\x02\u0251]\x03\x02" +
-        "\x02\x02\u0252\u0255\x07M\x02\x02\u0253\u0254\x07\x1B\x02\x02\u0254\u0256" +
+        "\x02\x02\u0252\u0255\x07N\x02\x02\u0253\u0254\x07\x1B\x02\x02\u0254\u0256" +
         "\x07\b\x02\x02\u0255\u0253\x03\x02\x02\x02\u0255\u0256\x03\x02\x02\x02" +
-        "\u0256\u025D\x03\x02\x02\x02\u0257\u025A\x07d\x02\x02\u0258\u0259\x07" +
+        "\u0256\u025D\x03\x02\x02\x02\u0257\u025A\x07e\x02\x02\u0258\u0259\x07" +
         "\x1B\x02\x02\u0259\u025B\x07\b\x02\x02\u025A\u0258\x03\x02\x02\x02\u025A" +
         "\u025B\x03\x02\x02\x02\u025B\u025D\x03\x02\x02\x02\u025C\u0252\x03\x02" +
         "\x02\x02\u025C\u0257\x03\x02\x02\x02\u025D_\x03\x02\x02\x02\u025E\u0261" +
-        "\x07X\x02\x02\u025F\u0260\x07\x1B\x02\x02\u0260\u0262\x07\b\x02\x02\u0261" +
+        "\x07Y\x02\x02\u025F\u0260\x07\x1B\x02\x02\u0260\u0262\x07\b\x02\x02\u0261" +
         "\u025F\x03\x02\x02\x02\u0261\u0262\x03\x02\x02\x02\u0262\u0269\x03\x02" +
-        "\x02\x02\u0263\u0266\x07l\x02\x02\u0264\u0265\x07\x1B\x02\x02\u0265\u0267" +
+        "\x02\x02\u0263\u0266\x07m\x02\x02\u0264\u0265\x07\x1B\x02\x02\u0265\u0267" +
         "\x07\b\x02\x02\u0266\u0264\x03\x02\x02\x02\u0266\u0267\x03\x02\x02\x02" +
         "\u0267\u0269\x03\x02\x02\x02\u0268\u025E\x03\x02\x02\x02\u0268\u0263\x03" +
         "\x02\x02\x02\u0269a\x03\x02\x02\x02\u026A\u026B\x07\x13\x02\x02\u026B" +
@@ -5811,8 +5815,8 @@ let sequenceParser = /** @class */ (() => {
         "\x02\x02\u0286\u0288\x03\x02\x02\x02\u0287\u0285\x03\x02\x02\x02\u0288" +
         "\u028A\x07\x1A\x02\x02\u0289\u026D\x03\x02\x02\x02\u0289\u027D\x03\x02" +
         "\x02\x02\u0289\u0281\x03\x02\x02\x02\u028Ac\x03\x02\x02\x02\u028B\u028C" +
-        "\x07\x85\x02\x02\u028C\u028D\x07\x1E\x02\x02\u028D\u028E\x07-\x02\x02" +
-        "\u028Ee\x03\x02\x02\x02\u028F\u0290\x07\x88\x02\x02\u0290g\x03\x02\x02" +
+        "\x07\x86\x02\x02\u028C\u028D\x07\x1E\x02\x02\u028D\u028E\x07-\x02\x02" +
+        "\u028Ee\x03\x02\x02\x02\u028F\u0290\x07\x89\x02\x02\u0290g\x03\x02\x02" +
         "\x02\u0291\u0292\x07\x18\x02\x02\u0292\u029A\x07\x1A\x02\x02\u0293\u0295" +
         "\x07\x04\x02\x02\u0294\u0293\x03\x02\x02\x02\u0295\u0298\x03\x02\x02\x02" +
         "\u0296\u0294\x03\x02\x02\x02\u0296\u0297\x03\x02\x02\x02\u0297\u0299\x03" +
@@ -5843,7 +5847,7 @@ let sequenceParser = /** @class */ (() => {
         "0\x02\x02\u02CC\u02CB\x03\x02\x02\x02\u02CC\u02CD\x03\x02\x02\x02\u02CD" +
         "\u02CE\x03\x02\x02\x02\u02CE\u02D0\x07\x02\x02\x03\u02CF\u02C8\x03\x02" +
         "\x02\x02\u02CF\u02C9\x03\x02\x02\x02\u02CF\u02CA\x03\x02\x02\x02\u02D0" +
-        "o\x03\x02\x02\x02\u02D1\u02D3\x07c\x02\x02\u02D2\u02D4\x05\x92J\x02\u02D3" +
+        "o\x03\x02\x02\x02\u02D1\u02D3\x07d\x02\x02\u02D2\u02D4\x05\x92J\x02\u02D3" +
         "\u02D2\x03\x02\x02\x02\u02D3\u02D4\x03\x02\x02\x02\u02D4\u02EA\x03\x02" +
         "\x02\x02\u02D5\u02DF\x05\x92J\x02\u02D6\u02DA\x07/\x02\x02\u02D7\u02D9" +
         "\x07\x04\x02\x02\u02D8\u02D7\x03\x02\x02\x02\u02D9\u02DC\x03\x02\x02\x02" +
@@ -5856,20 +5860,20 @@ let sequenceParser = /** @class */ (() => {
         "\x03\x02\x02\x02\u02E7\u02E5\x03\x02\x02\x02\u02E8\u02D5\x03\x02\x02\x02" +
         "\u02E9\u02EC\x03\x02\x02\x02\u02EA\u02E8\x03\x02\x02\x02\u02EA\u02EB\x03" +
         "\x02\x02\x02\u02EB\u02ED\x03\x02\x02\x02\u02EC\u02EA\x03\x02\x02\x02\u02ED" +
-        "\u02F9\x07\x1A\x02\x02\u02EE\u02F4\x07c\x02\x02\u02EF\u02F3\x05\x92J\x02" +
+        "\u02F9\x07\x1A\x02\x02\u02EE\u02F4\x07d\x02\x02\u02EF\u02F3\x05\x92J\x02" +
         "\u02F0\u02F3\x07/\x02\x02\u02F1\u02F3\x07\x04\x02\x02\u02F2\u02EF\x03" +
         "\x02\x02\x02\u02F2\u02F0\x03\x02\x02\x02\u02F2\u02F1\x03\x02\x02\x02\u02F3" +
         "\u02F6\x03\x02\x02\x02\u02F4\u02F2\x03\x02\x02\x02\u02F4\u02F5\x03\x02" +
         "\x02\x02\u02F5\u02F7\x03\x02\x02\x02\u02F6\u02F4\x03\x02\x02\x02\u02F7" +
         "\u02F9\x07\x02\x02\x03\u02F8\u02D1\x03\x02\x02\x02\u02F8\u02EE\x03\x02" +
         "\x02\x02\u02F9q\x03\x02\x02\x02\u02FA\u02FF\x073\x02\x02\u02FB\u0300\x05" +
-        "\x92J\x02\u02FC\u0300\x07\x1B\x02\x02\u02FD\u0300\x07\x88\x02\x02\u02FE" +
+        "\x92J\x02\u02FC\u0300\x07\x1B\x02\x02\u02FD\u0300\x07\x89\x02\x02\u02FE" +
         "\u0300\x07/\x02\x02\u02FF\u02FB\x03\x02\x02\x02\u02FF\u02FC\x03\x02\x02" +
         "\x02\u02FF\u02FD\x03\x02\x02\x02\u02FF\u02FE\x03\x02\x02\x02\u0300\u0301" +
         "\x03\x02\x02\x02\u0301\u02FF\x03\x02\x02\x02\u0301\u0302\x03\x02\x02\x02" +
         "\u0302\u0303\x03\x02\x02\x02\u0303\u0311\x07\x1A\x02\x02\u0304\u030C\x07" +
         "3\x02\x02\u0305\u030B\x05\x92J\x02\u0306\u030B\x07\x1B\x02\x02\u0307\u030B" +
-        "\x07\x88\x02\x02\u0308\u030B\x07/\x02\x02\u0309\u030B\x07\x04\x02\x02" +
+        "\x07\x89\x02\x02\u0308\u030B\x07/\x02\x02\u0309\u030B\x07\x04\x02\x02" +
         "\u030A\u0305\x03\x02\x02\x02\u030A\u0306\x03\x02\x02\x02\u030A\u0307\x03" +
         "\x02\x02\x02\u030A\u0308\x03\x02\x02\x02\u030A\u0309\x03\x02\x02\x02\u030B" +
         "\u030E\x03\x02\x02\x02\u030C\u030A\x03\x02\x02\x02\u030C\u030D\x03\x02" +
@@ -5877,13 +5881,13 @@ let sequenceParser = /** @class */ (() => {
         "\u0311\x07\x02\x02\x03\u0310\u02FA\x03\x02\x02\x02\u0310\u0304\x03\x02" +
         "\x02\x02\u0311s\x03\x02\x02\x02\u0312\u0313\x072\x02\x02\u0313\u0314\x05" +
         "\x92J\x02\u0314\u0315\x07\x1A\x02\x02\u0315u\x03\x02\x02\x02\u0316\u031A" +
-        "\x07J\x02\x02\u0317\u031B\x05\x92J\x02\u0318\u031B\x07\x1B\x02\x02\u0319" +
+        "\x07K\x02\x02\u0317\u031B\x05\x92J\x02\u0318\u031B\x07\x1B\x02\x02\u0319" +
         "\u031B\x07/\x02\x02\u031A\u0317\x03\x02\x02\x02\u031A\u0318\x03\x02\x02" +
         "\x02\u031A\u0319\x03\x02\x02\x02\u031B\u031C\x03\x02\x02\x02\u031C\u031A" +
         "\x03\x02\x02\x02\u031C\u031D\x03\x02\x02\x02\u031D\u031E\x03\x02\x02\x02" +
         "\u031E\u0320\x07\x1A\x02\x02\u031F\u0321\x05x=\x02\u0320\u031F\x03\x02" +
         "\x02\x02\u0320\u0321\x03\x02\x02\x02\u0321w\x03\x02\x02\x02\u0322\u0326" +
-        "\x07J\x02\x02\u0323\u0327\x05\x92J\x02\u0324\u0327\x07\x1B\x02\x02\u0325" +
+        "\x07K\x02\x02\u0323\u0327\x05\x92J\x02\u0324\u0327\x07\x1B\x02\x02\u0325" +
         "\u0327\x07/\x02\x02\u0326\u0323\x03\x02\x02\x02\u0326\u0324\x03\x02\x02" +
         "\x02\u0326\u0325\x03\x02\x02\x02\u0327\u0328\x03\x02\x02\x02\u0328\u0326" +
         "\x03\x02\x02\x02\u0328\u0329\x03\x02\x02\x02\u0329\u032A\x03\x02\x02\x02" +
@@ -5923,8 +5927,8 @@ let sequenceParser = /** @class */ (() => {
         "\u0374\u0375\x076\x02\x02\u0375\u0376\x07\x1B\x02\x02\u0376\u0377\x05" +
         "\x92J\x02\u0377\u0378\x07\x1A\x02\x02\u0378\u037A\x03\x02\x02\x02\u0379" +
         "\u0370\x03\x02\x02\x02\u0379\u0374\x03\x02\x02\x02\u037A\x83\x03\x02\x02" +
-        "\x02\u037B\u037C\x07H\x02\x02\u037C\u037D\x05\x92J\x02\u037D\u037E\x07" +
-        "\x1A\x02\x02\u037E\x85\x03\x02\x02\x02\u037F\u0380\x07I\x02\x02\u0380" +
+        "\x02\u037B\u037C\x07I\x02\x02\u037C\u037D\x05\x92J\x02\u037D\u037E\x07" +
+        "\x1A\x02\x02\u037E\x85\x03\x02\x02\x02\u037F\u0380\x07J\x02\x02\u0380" +
         "\u0381\x05\x92J\x02\u0381\u0382\x07\x1A\x02\x02\u0382\x87\x03\x02\x02" +
         "\x02\u0383\u038D\x05\x8AF\x02\u0384\u0386\x07/\x02\x02\u0385\u0384\x03" +
         "\x02\x02\x02\u0386\u0389\x03\x02\x02\x02\u0387\u0385\x03\x02\x02\x02\u0387" +
@@ -5977,7 +5981,7 @@ let sequenceParser = /** @class */ (() => {
         "\x02\x02\u03EB\u03EA\x03\x02\x02\x02\u03EC\u03EF\x03\x02\x02\x02\u03ED" +
         "\u03EB\x03\x02\x02\x02\u03ED\u03EE\x03\x02\x02\x02\u03EE\u03F4\x03\x02" +
         "\x02\x02\u03EF\u03ED\x03\x02\x02\x02\u03F0\u03F4\x07%\x02\x02\u03F1\u03F4" +
-        "\x07\x88\x02\x02\u03F2\u03F4\x05\x96L\x02\u03F3\u03C5\x03\x02\x02\x02" +
+        "\x07\x89\x02\x02\u03F2\u03F4\x05\x96L\x02\u03F3\u03C5\x03\x02\x02\x02" +
         "\u03F3\u03CE\x03\x02\x02\x02\u03F3\u03D7\x03\x02\x02\x02\u03F3\u03DB\x03" +
         "\x02\x02\x02\u03F3\u03DF\x03\x02\x02\x02\u03F3\u03E9\x03\x02\x02\x02\u03F3" +
         "\u03F0\x03\x02\x02\x02\u03F3\u03F1\x03\x02\x02\x02\u03F3\u03F2\x03\x02" +
@@ -5988,15 +5992,15 @@ let sequenceParser = /** @class */ (() => {
         "\u03FF\x07\x1A\x02\x02\u03FE\u03FD\x03\x02\x02\x02\u03FE\u03FF\x03\x02" +
         "\x02\x02\u03FF\x97\x03\x02\x02\x02\u0400\u0401\x07\x1A\x02\x02\u0401\x99" +
         "\x03\x02\x02\x02\u0402\u0403\t\x12\x02\x02\u0403\x9B\x03\x02\x02\x02\u0404" +
-        "\u041C\x070\x02\x02\u0405\u041C\x07\x89\x02\x02\u0406\u041C\x07\x1C\x02" +
+        "\u041C\x070\x02\x02\u0405\u041C\x07\x8A\x02\x02\u0406\u041C\x07\x1C\x02" +
         "\x02\u0407\u0408\x07 \x02\x02\u0408\u041C\n\x13\x02\x02\u0409\u040A\x07" +
         "!\x02\x02\u040A\u041C\n\x14\x02\x02\u040B\u041C\x07#\x02\x02\u040C\u041C" +
-        "\x07\"\x02\x02\u040D\u041C\x07R\x02\x02\u040E\u041C\x07S\x02\x02\u040F" +
-        "\u041C\x07h\x02\x02\u0410\u041C\x07U\x02\x02\u0411\u041C\x07N\x02\x02" +
-        "\u0412\u041C\x07M\x02\x02\u0413\u041C\x07Q\x02\x02\u0414\u041C\x07T\x02" +
-        "\x02\u0415\u041C\x07g\x02\x02\u0416\u041C\x07d\x02\x02\u0417\u041C\x07" +
-        "e\x02\x02\u0418\u041C\x07h\x02\x02\u0419\u041C\x07t\x02\x02\u041A\u041C" +
-        "\x07u\x02\x02\u041B\u0404\x03\x02\x02\x02\u041B\u0405\x03\x02\x02\x02" +
+        "\x07\"\x02\x02\u040D\u041C\x07S\x02\x02\u040E\u041C\x07T\x02\x02\u040F" +
+        "\u041C\x07i\x02\x02\u0410\u041C\x07V\x02\x02\u0411\u041C\x07O\x02\x02" +
+        "\u0412\u041C\x07N\x02\x02\u0413\u041C\x07R\x02\x02\u0414\u041C\x07U\x02" +
+        "\x02\u0415\u041C\x07h\x02\x02\u0416\u041C\x07e\x02\x02\u0417\u041C\x07" +
+        "f\x02\x02\u0418\u041C\x07i\x02\x02\u0419\u041C\x07u\x02\x02\u041A\u041C" +
+        "\x07v\x02\x02\u041B\u0404\x03\x02\x02\x02\u041B\u0405\x03\x02\x02\x02" +
         "\u041B\u0406\x03\x02\x02\x02\u041B\u0407\x03\x02\x02\x02\u041B\u0409\x03" +
         "\x02\x02\x02\u041B\u040B\x03\x02\x02\x02\u041B\u040C\x03\x02\x02\x02\u041B" +
         "\u040D\x03\x02\x02\x02\u041B\u040E\x03\x02\x02\x02\u041B\u040F\x03\x02" +
@@ -7380,6 +7384,7 @@ export class Image_chainedContext extends ParserRuleContext {
     AtHeight() { return this.tryGetToken(sequenceParser.AtHeight, 0); }
     OPATALT() { return this.tryGetToken(sequenceParser.OPATALT, 0); }
     OpAtCaption() { return this.tryGetToken(sequenceParser.OpAtCaption, 0); }
+    OpAtSearch() { return this.tryGetToken(sequenceParser.OpAtSearch, 0); }
     OpAtLicense() { return this.tryGetToken(sequenceParser.OpAtLicense, 0); }
     OpAtCopyright() { return this.tryGetToken(sequenceParser.OpAtCopyright, 0); }
     constructor(parent, invokingState) {
@@ -7412,6 +7417,7 @@ export class Image_chained4matchContext extends ParserRuleContext {
     AtHeight() { return this.tryGetToken(sequenceParser.AtHeight, 0); }
     OPATALT() { return this.tryGetToken(sequenceParser.OPATALT, 0); }
     OpAtCaption() { return this.tryGetToken(sequenceParser.OpAtCaption, 0); }
+    OpAtSearch() { return this.tryGetToken(sequenceParser.OpAtSearch, 0); }
     OpAtLicense() { return this.tryGetToken(sequenceParser.OpAtLicense, 0); }
     OpAtCopyright() { return this.tryGetToken(sequenceParser.OpAtCopyright, 0); }
     constructor(parent, invokingState) {
@@ -7580,6 +7586,7 @@ export class Resource_chainedContext extends ParserRuleContext {
     AtHeight() { return this.tryGetToken(sequenceParser.AtHeight, 0); }
     OPATALT() { return this.tryGetToken(sequenceParser.OPATALT, 0); }
     OpAtCaption() { return this.tryGetToken(sequenceParser.OpAtCaption, 0); }
+    OpAtSearch() { return this.tryGetToken(sequenceParser.OpAtSearch, 0); }
     OpAtLicense() { return this.tryGetToken(sequenceParser.OpAtLicense, 0); }
     OpAtCopyright() { return this.tryGetToken(sequenceParser.OpAtCopyright, 0); }
     constructor(parent, invokingState) {

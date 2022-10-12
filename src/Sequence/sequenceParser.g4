@@ -164,11 +164,11 @@ op_image_format:
 ;
 image_chained:
     AtSrc COLON url CL | (AtWidth | AtHeight) COLON NUMERIC CL
-  | ( OPATALT | OpAtCaption | OpAtLicense | OpAtCopyright ) .*? CL
+  | ( OPATALT | OpAtCaption | OpAtSearch | OpAtLicense | OpAtCopyright ) .*? CL
 ;
 image_chained4match:
     AtSrc COLON url CL | (AtWidth | AtHeight) COLON NUMERIC CL 
-  | ( OPATALT | OpAtCaption | OpAtLicense | OpAtCopyright ) .*? CL
+  | ( OPATALT | OpAtCaption | OpAtSearch | OpAtLicense | OpAtCopyright ) .*? CL
 ;
 audiobit:    audio_one ( resource_chained )* ;
 audio_one:   op_audio_format  COLON url CL ( OPATALT words CL )? ;
@@ -186,7 +186,7 @@ op_audio_format:
 resource_chained:
    ( OPA s_and_w | AtSrc ) COLON S* (s_and_w|NL)+  CL
  | ( AtWidth | AtHeight ) COLON NUMERIC CL 
- | ( OPATALT | OpAtCaption | OpAtLicense | OpAtCopyright ) .*? CL
+ | ( OPATALT | OpAtCaption | OpAtSearch | OpAtLicense | OpAtCopyright ) .*? CL
 ;
 
 telephone:   TEL PLUS NUMERIC ;

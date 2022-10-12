@@ -21,6 +21,7 @@ BitPlaceholder:  NL OPDOT S* 'placeholder'  ; // for internal use only
 BitStatement:	 NL OPDOT S* 'statement'    ;
 BitDetails:	 NL OPDOT S* 'details-1'    ;
 BitSampleSolution:  NL OPDOT S* 'sample-solution'    ;
+BitTakeAudio:	 NL OPDOT S* 'take-audio'    ;
 CLOZE:		 'CLOZE' ;
 MATCH:		 'MATCH' ;
 
@@ -213,6 +214,7 @@ ShowInIndex:     OPAT S* 'showInIndex]' ;
 OpAtCaption:     OPAT S* 'caption:' ;
 OpAtLicense:	 OPAT S* 'license:' ;
 OpAtCopyright:	 OPAT S* 'copyright:' ;
+OpAtSearch:      OPAT S* 'search:' ;
 
 // Boolean  property
 OpAtIsTracked:	 OPAT S* 'isTracked:'  ;

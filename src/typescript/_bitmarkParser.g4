@@ -38,7 +38,7 @@ bit:
 	| correction
 	| mark_
 	| document_upload
-	| take_picture
+	| take_picture | take_audio
 	| record_audio
 	| preparation_note
 	| assignment
@@ -229,6 +229,9 @@ document_upload:
 ;
 
 //
+take_audio:
+    BitTakeAudio format CL NL ( bitElem NL* )* NL* ( resource (NL* resource)* )?
+;
 take_picture:
     BitTakepic format CL NL ( bitElem NL* )* NL* ( resource (NL* resource)* )?
 ;
