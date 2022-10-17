@@ -1215,7 +1215,8 @@ BitmarkListener.prototype.exitImage_chained = function(ctx) {
   let parent = 'resource'; //this.curr_bit_stk.top();
   let child = this.curr_bit_stk.top().trim();
   key = key.substring(1).trim();
-  
+  url = url.trim();
+
   if (1 < this.curr_bit_stk.size) {
     let second = this.curr_bit_stk.second();
     if (second==='initiator'||second==='partner')
