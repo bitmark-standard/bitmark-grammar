@@ -38,7 +38,7 @@ let BitmarkListener = function(error_listener, source, parser) {
 		    'botAnnounceAt', 'botSaveAt', 'botSendAt', 'botRemindAt',
 		    'externalLink', 'videoCallLink', 'externalLinkText', 'textReference',
 		    'quotedPerson', 'kind', 'collection', 'book', 'padletId',
-		    'scormSource',
+		    'scormSource', 'posterImage',
 		   ];
   this.body_key = 'body';
   this.num_angleref = 0;
