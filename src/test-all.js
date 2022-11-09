@@ -150,14 +150,15 @@ const testfiles = [
   './tests/learning-path7.bit',
 
   './tests/resource-all.bit',
+  './tests/utfgpun.bit',
 
   // GMB
-  './tests/GMB/cloze.bit',  // X
-  './tests/GMB/cloze_attachment.bit', // X
-  './tests/GMB/cloze_bitmark--.bit',  // X
-  './tests/GMB/cloze_emoticons.bit',  // X
-  './tests/GMB/essay.bit',  // X
-  './tests/GMB/bitmark_example.bit', // X
+  './tests/GMB/cloze.bit',
+  './tests/GMB/cloze_attachment.bit',
+  './tests/GMB/cloze_bitmark--.bit',
+  './tests/GMB/cloze_emoticons.bit',
+  './tests/GMB/essay.bit', 
+  './tests/GMB/bitmark_example.bit',
 ];
 
 const problematic = [

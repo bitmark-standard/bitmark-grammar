@@ -72,7 +72,8 @@ NL:	  ('\n'|'\r\n') ;
 fragment EM0:      '\u{1F400}' .. '\u{1F4FF}' ;   // emoji 1
 fragment EM2:      '\u{1F650}' .. '\u{1F9F0}' ;   // emoji 2
 fragment VS0:      '\u{FE00}' .. '\u{FE0F}' ;     // Variation Selectors
-fragment SS0:      '\u{2070}' .. '\u{209C}' ;     // superscript and subscript
+//fragment SS0:    '\u{2070}' .. '\u{209C}' ;     // superscript and subscript
+fragment SS0:      '\u{2000}' .. '\u{209C}' ;     // superscript and subscript + General Punctuation
 fragment LEA:	   '\u{0100}' .. '\u{017F}' ;     // latin extended A
 fragment LEB:	   '\u{0200}' .. '\u{024F}' ;     // latin extended B
 fragment GAL:      '\u{03B1}' .. '\u{03C9}' ;     // Greek alpha α β v ...
@@ -105,7 +106,7 @@ SENTENCE:   // Has a space
 
 
 
-fragment UTF8:    [̈\u0000-\u00FF\u27CC] ;
+fragment UTF8:    [̈\u0000-\u00FF\u200c\u200d\u27CC] ;
 OPAT:	 	 '[@' ;
 AtProgress:      OPAT S* 'progress:'  ;  //-> AtDef
 AtReference:     OPAT S* 'reference:'  ; //-> AtDef
