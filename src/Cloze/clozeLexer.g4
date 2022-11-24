@@ -82,7 +82,7 @@ fragment ROMANIA:  [ÂâĂăÎîşŞţŢșȘțȚ] ;
 fragment GERMAN:   [ÄäẞÖöÜü] ;
 fragment POLISH:   [ĄąĆćĘęŁłŃńÓóŚśŹźŻż] ;
 fragment TRANSL:   [ČčĎďĚěǦǧȞȟǏǐJ̌ǰǨǩĽľŇňǑǒŘřŠšŤťǓǔǙǚŽžǮǯ] ;
-fragment EURO:     [☞→↓←↑€“”’…„́«»◇◼︎◎ʌɪˈ_̈₂‰] ;  
+fragment EURO:     [☞→↓←↑€“”’…„́«»◇◼︎◎ʌɪˈ_̈₂‰≤≥] ;  
 fragment IPA:	   [ɛɜːɡʊuɔɪəɒæʌʉo] ;
 fragment JAPANESE : [\p{Script=Hiragana}\p{Script=Katakana}\p{Script=Han}\u{FF01}-\u{FF20}\u{FF61}-\u{FF64}\u{2460}-\u{24FF}\u{3001}-\u{3002}\u{3220}-\u{325F}] ;
 
