@@ -36,6 +36,7 @@ import { AtpointContext } from "./interviewParser";
 import { FormatContext } from "./interviewParser";
 import { Resource_formatContext } from "./interviewParser";
 import { Resource_format_extraContext } from "./interviewParser";
+import { Format2Context } from "./interviewParser";
 import { Image_formatContext } from "./interviewParser";
 import { Video_formatContext } from "./interviewParser";
 import { Article_formatContext } from "./interviewParser";
@@ -466,6 +467,17 @@ export interface interviewParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitResource_format_extra?: (ctx: Resource_format_extraContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `interviewParser.format2`.
+	 * @param ctx the parse tree
+	 */
+	enterFormat2?: (ctx: Format2Context) => void;
+	/**
+	 * Exit a parse tree produced by `interviewParser.format2`.
+	 * @param ctx the parse tree
+	 */
+	exitFormat2?: (ctx: Format2Context) => void;
 
 	/**
 	 * Enter a parse tree produced by `interviewParser.image_format`.

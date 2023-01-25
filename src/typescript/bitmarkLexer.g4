@@ -65,7 +65,6 @@ BitButtonCopytext: NL OPDOT S* 'button-copy-text' ;
 BitWbtContinue:	 NL OPDOT S* 'wbt-continue' ;
 BitLearningPathDetails: NL OPDOT S* 'learning-path-details' ;
 
-
 // New April 2022
 BitLearningPathLti:          NL OPDOT S* 'learning-path-lti' ;
 BitLearningPathStep:         NL OPDOT S* 'learning-path-step' ;
@@ -87,6 +86,29 @@ BitBotActionRemind:  	       NL OPDOT S* 'bot-action-remind' ;
 
 BitVendorPadletEmbed:	       NL OPDOT S* 'vendor-padlet-embed' ;
 BitScorm:		       NL OPDOT S* 'scorm' ;
+
+// New Jan 24, 2023
+BitImage:		NL OPDOT S* 'image'   ;
+BitImageLink:		NL OPDOT S* 'imageLink'   ;
+BitImageZoom:		NL OPDOT S* 'imageZoom'   ;
+BitAudio:		NL OPDOT S* 'audio'   ;
+BitAudioLink:		NL OPDOT S* 'audioLink'   ;
+BitAudioEmbed:		NL OPDOT S* 'audioEmbed'   ;
+BitVideo:		NL OPDOT S* 'video'   ;
+BitVideoLink:		NL OPDOT S* 'videoLink'   ;
+BitVideoEmbed:		NL OPDOT S* 'videoEmbed'   ;
+BitStillImageFilm: 	NL OPDOT S* 'stillImageFilm'   ;
+BitStillImageFilmLink:	NL OPDOT S* 'stillImageFilmLink'   ;
+BitStillImageFilmEmbed:	NL OPDOT S* 'stillImageFilmEmbed'   ;
+BitWebsiteLink:		NL OPDOT S* 'websiteLink'   ;
+BitDocument:		NL OPDOT S* 'document'   ;
+BitDocumentLink:	NL OPDOT S* 'documentLink'   ;
+BitDocumentEmbed:	NL OPDOT S* 'documentEmbed'   ;
+BitDocumentDownload:	NL OPDOT S* 'documentDownload'   ;
+BitAppLink:		NL OPDOT S* 'appLink'   ;
+BitEditorial:		NL OPDOT S* 'editorial'   ;
+
+
 
 //
 COMMENT:  '||' UTF8*? '||' S* '\n'* ->skip ;
@@ -165,7 +187,7 @@ fragment ROMANIA:  [ÂâĂăÎîşŞţŢșȘțȚ] ;
 fragment GERMAN:   [ÄäẞÖöÜü] ;
 fragment POLISH:   [ĄąĆćĘęŁłŃńÓóŚśŹźŻż] ;
 fragment TRANSL:   [ČčĎďĚěǦǧȞȟǏǐJ̌ǰǨǩĽľŇňǑǒŘřŠšŤťǓǔǙǚŽžǮǯ] ;
-fragment EURO:     [☞→↓←↑€“”’…„́«»◇◼︎◎ʌɪˈ_̈₂‰≤≥‘≠] ;
+fragment EURO:     [☞→↓←↑€“”’…„́«»◇◼︎◎ʌɪˈ_̈₂‰≤≥‘≠Ω] ;
 fragment IPA:	   [ɛɜːɡʊuɔɪəɒæʌʉo] ;
 fragment JAPANESE : [\p{Script=Hiragana}\p{Script=Katakana}\p{Script=Han}\u{FF01}-\u{FF20}\u{FF61}-\u{FF64}\u{2460}-\u{24FF}\u{3001}-\u{3002}\u{3220}-\u{325F}] ;
 

@@ -75,6 +75,25 @@ import { HintbitContext } from "./bitmarkParser";
 import { ExamplebitContext } from "./bitmarkParser";
 import { Vendor_padlet_embedContext } from "./bitmarkParser";
 import { ScormContext } from "./bitmarkParser";
+import { Bit_imageContext } from "./bitmarkParser";
+import { Bit_imageLinkContext } from "./bitmarkParser";
+import { Bit_imageZoomContext } from "./bitmarkParser";
+import { Bit_audioContext } from "./bitmarkParser";
+import { Bit_audioLinkContext } from "./bitmarkParser";
+import { Bit_audioEmbedContext } from "./bitmarkParser";
+import { Bit_videoContext } from "./bitmarkParser";
+import { Bit_videoLinkContext } from "./bitmarkParser";
+import { Bit_videoEmbedContext } from "./bitmarkParser";
+import { Bit_stillImageFilmContext } from "./bitmarkParser";
+import { Bit_stillImageFilmLinkContext } from "./bitmarkParser";
+import { Bit_stillImageFilmEmbedContext } from "./bitmarkParser";
+import { Bit_websiteLinkContext } from "./bitmarkParser";
+import { Bit_documentContext } from "./bitmarkParser";
+import { Bit_documentLinkContext } from "./bitmarkParser";
+import { Bit_documentEmbedContext } from "./bitmarkParser";
+import { Bit_documentDownloadContext } from "./bitmarkParser";
+import { Bit_appLinkContext } from "./bitmarkParser";
+import { Bit_editorialContext } from "./bitmarkParser";
 import { MessageContext } from "./bitmarkParser";
 import { Bot_interviewContext } from "./bitmarkParser";
 import { Bot_choiceContext } from "./bitmarkParser";
@@ -90,6 +109,7 @@ import { AtpointContext } from "./bitmarkParser";
 import { FormatContext } from "./bitmarkParser";
 import { Resource_formatContext } from "./bitmarkParser";
 import { Resource_format_extraContext } from "./bitmarkParser";
+import { Format2Context } from "./bitmarkParser";
 import { Image_formatContext } from "./bitmarkParser";
 import { Video_formatContext } from "./bitmarkParser";
 import { Article_formatContext } from "./bitmarkParser";
@@ -952,6 +972,215 @@ export interface bitmarkParserListener extends ParseTreeListener {
 	exitScorm?: (ctx: ScormContext) => void;
 
 	/**
+	 * Enter a parse tree produced by `bitmarkParser.bit_image`.
+	 * @param ctx the parse tree
+	 */
+	enterBit_image?: (ctx: Bit_imageContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.bit_image`.
+	 * @param ctx the parse tree
+	 */
+	exitBit_image?: (ctx: Bit_imageContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.bit_imageLink`.
+	 * @param ctx the parse tree
+	 */
+	enterBit_imageLink?: (ctx: Bit_imageLinkContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.bit_imageLink`.
+	 * @param ctx the parse tree
+	 */
+	exitBit_imageLink?: (ctx: Bit_imageLinkContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.bit_imageZoom`.
+	 * @param ctx the parse tree
+	 */
+	enterBit_imageZoom?: (ctx: Bit_imageZoomContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.bit_imageZoom`.
+	 * @param ctx the parse tree
+	 */
+	exitBit_imageZoom?: (ctx: Bit_imageZoomContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.bit_audio`.
+	 * @param ctx the parse tree
+	 */
+	enterBit_audio?: (ctx: Bit_audioContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.bit_audio`.
+	 * @param ctx the parse tree
+	 */
+	exitBit_audio?: (ctx: Bit_audioContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.bit_audioLink`.
+	 * @param ctx the parse tree
+	 */
+	enterBit_audioLink?: (ctx: Bit_audioLinkContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.bit_audioLink`.
+	 * @param ctx the parse tree
+	 */
+	exitBit_audioLink?: (ctx: Bit_audioLinkContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.bit_audioEmbed`.
+	 * @param ctx the parse tree
+	 */
+	enterBit_audioEmbed?: (ctx: Bit_audioEmbedContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.bit_audioEmbed`.
+	 * @param ctx the parse tree
+	 */
+	exitBit_audioEmbed?: (ctx: Bit_audioEmbedContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.bit_video`.
+	 * @param ctx the parse tree
+	 */
+	enterBit_video?: (ctx: Bit_videoContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.bit_video`.
+	 * @param ctx the parse tree
+	 */
+	exitBit_video?: (ctx: Bit_videoContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.bit_videoLink`.
+	 * @param ctx the parse tree
+	 */
+	enterBit_videoLink?: (ctx: Bit_videoLinkContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.bit_videoLink`.
+	 * @param ctx the parse tree
+	 */
+	exitBit_videoLink?: (ctx: Bit_videoLinkContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.bit_videoEmbed`.
+	 * @param ctx the parse tree
+	 */
+	enterBit_videoEmbed?: (ctx: Bit_videoEmbedContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.bit_videoEmbed`.
+	 * @param ctx the parse tree
+	 */
+	exitBit_videoEmbed?: (ctx: Bit_videoEmbedContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.bit_stillImageFilm`.
+	 * @param ctx the parse tree
+	 */
+	enterBit_stillImageFilm?: (ctx: Bit_stillImageFilmContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.bit_stillImageFilm`.
+	 * @param ctx the parse tree
+	 */
+	exitBit_stillImageFilm?: (ctx: Bit_stillImageFilmContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.bit_stillImageFilmLink`.
+	 * @param ctx the parse tree
+	 */
+	enterBit_stillImageFilmLink?: (ctx: Bit_stillImageFilmLinkContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.bit_stillImageFilmLink`.
+	 * @param ctx the parse tree
+	 */
+	exitBit_stillImageFilmLink?: (ctx: Bit_stillImageFilmLinkContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.bit_stillImageFilmEmbed`.
+	 * @param ctx the parse tree
+	 */
+	enterBit_stillImageFilmEmbed?: (ctx: Bit_stillImageFilmEmbedContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.bit_stillImageFilmEmbed`.
+	 * @param ctx the parse tree
+	 */
+	exitBit_stillImageFilmEmbed?: (ctx: Bit_stillImageFilmEmbedContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.bit_websiteLink`.
+	 * @param ctx the parse tree
+	 */
+	enterBit_websiteLink?: (ctx: Bit_websiteLinkContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.bit_websiteLink`.
+	 * @param ctx the parse tree
+	 */
+	exitBit_websiteLink?: (ctx: Bit_websiteLinkContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.bit_document`.
+	 * @param ctx the parse tree
+	 */
+	enterBit_document?: (ctx: Bit_documentContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.bit_document`.
+	 * @param ctx the parse tree
+	 */
+	exitBit_document?: (ctx: Bit_documentContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.bit_documentLink`.
+	 * @param ctx the parse tree
+	 */
+	enterBit_documentLink?: (ctx: Bit_documentLinkContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.bit_documentLink`.
+	 * @param ctx the parse tree
+	 */
+	exitBit_documentLink?: (ctx: Bit_documentLinkContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.bit_documentEmbed`.
+	 * @param ctx the parse tree
+	 */
+	enterBit_documentEmbed?: (ctx: Bit_documentEmbedContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.bit_documentEmbed`.
+	 * @param ctx the parse tree
+	 */
+	exitBit_documentEmbed?: (ctx: Bit_documentEmbedContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.bit_documentDownload`.
+	 * @param ctx the parse tree
+	 */
+	enterBit_documentDownload?: (ctx: Bit_documentDownloadContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.bit_documentDownload`.
+	 * @param ctx the parse tree
+	 */
+	exitBit_documentDownload?: (ctx: Bit_documentDownloadContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.bit_appLink`.
+	 * @param ctx the parse tree
+	 */
+	enterBit_appLink?: (ctx: Bit_appLinkContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.bit_appLink`.
+	 * @param ctx the parse tree
+	 */
+	exitBit_appLink?: (ctx: Bit_appLinkContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.bit_editorial`.
+	 * @param ctx the parse tree
+	 */
+	enterBit_editorial?: (ctx: Bit_editorialContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.bit_editorial`.
+	 * @param ctx the parse tree
+	 */
+	exitBit_editorial?: (ctx: Bit_editorialContext) => void;
+
+	/**
 	 * Enter a parse tree produced by `bitmarkParser.message`.
 	 * @param ctx the parse tree
 	 */
@@ -1115,6 +1344,17 @@ export interface bitmarkParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitResource_format_extra?: (ctx: Resource_format_extraContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.format2`.
+	 * @param ctx the parse tree
+	 */
+	enterFormat2?: (ctx: Format2Context) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.format2`.
+	 * @param ctx the parse tree
+	 */
+	exitFormat2?: (ctx: Format2Context) => void;
 
 	/**
 	 * Enter a parse tree produced by `bitmarkParser.image_format`.

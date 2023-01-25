@@ -28,6 +28,7 @@ import { AtpointContext } from "./flashcardParser";
 import { FormatContext } from "./flashcardParser";
 import { Resource_formatContext } from "./flashcardParser";
 import { Resource_format_extraContext } from "./flashcardParser";
+import { Format2Context } from "./flashcardParser";
 import { Image_formatContext } from "./flashcardParser";
 import { Video_formatContext } from "./flashcardParser";
 import { Article_formatContext } from "./flashcardParser";
@@ -370,6 +371,17 @@ export interface flashcardParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitResource_format_extra?: (ctx: Resource_format_extraContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `flashcardParser.format2`.
+	 * @param ctx the parse tree
+	 */
+	enterFormat2?: (ctx: Format2Context) => void;
+	/**
+	 * Exit a parse tree produced by `flashcardParser.format2`.
+	 * @param ctx the parse tree
+	 */
+	exitFormat2?: (ctx: Format2Context) => void;
 
 	/**
 	 * Enter a parse tree produced by `flashcardParser.image_format`.

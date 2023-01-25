@@ -41,6 +41,7 @@ import { AtpointContext } from "./choiceParser";
 import { FormatContext } from "./choiceParser";
 import { Resource_formatContext } from "./choiceParser";
 import { Resource_format_extraContext } from "./choiceParser";
+import { Format2Context } from "./choiceParser";
 import { Image_formatContext } from "./choiceParser";
 import { Video_formatContext } from "./choiceParser";
 import { Article_formatContext } from "./choiceParser";
@@ -526,6 +527,17 @@ export interface choiceParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitResource_format_extra?: (ctx: Resource_format_extraContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `choiceParser.format2`.
+	 * @param ctx the parse tree
+	 */
+	enterFormat2?: (ctx: Format2Context) => void;
+	/**
+	 * Exit a parse tree produced by `choiceParser.format2`.
+	 * @param ctx the parse tree
+	 */
+	exitFormat2?: (ctx: Format2Context) => void;
 
 	/**
 	 * Enter a parse tree produced by `choiceParser.image_format`.

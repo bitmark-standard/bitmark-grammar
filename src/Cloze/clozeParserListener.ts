@@ -25,6 +25,7 @@ import { AtpointContext } from "./clozeParser";
 import { FormatContext } from "./clozeParser";
 import { Resource_formatContext } from "./clozeParser";
 import { Resource_format_extraContext } from "./clozeParser";
+import { Format2Context } from "./clozeParser";
 import { Image_formatContext } from "./clozeParser";
 import { Video_formatContext } from "./clozeParser";
 import { Article_formatContext } from "./clozeParser";
@@ -346,6 +347,17 @@ export interface clozeParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitResource_format_extra?: (ctx: Resource_format_extraContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `clozeParser.format2`.
+	 * @param ctx the parse tree
+	 */
+	enterFormat2?: (ctx: Format2Context) => void;
+	/**
+	 * Exit a parse tree produced by `clozeParser.format2`.
+	 * @param ctx the parse tree
+	 */
+	exitFormat2?: (ctx: Format2Context) => void;
 
 	/**
 	 * Enter a parse tree produced by `clozeParser.image_format`.

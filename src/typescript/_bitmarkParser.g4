@@ -43,12 +43,12 @@ bit:
 	| preparation_note
 	| assignment
 	| article
-	| statement		// 6/16/2022
-	| details		// 6/18/2022
+	| statement 
+	| details 
 	| sample_solution
 	| buttoncopytext | wbtcontinue | learningpathdetails
-	| note | info | warning | remark | hintbit | help | danger | bug    // 02/06/22
-	| sidenote | stickynote | quote | footnote | examplebit  // 02/06/22
+	| note | info | warning | remark | hintbit | help | danger | bug
+	| sidenote | stickynote | quote | footnote | examplebit
 	| page
 	| message 
 	| bot_interview
@@ -62,6 +62,13 @@ bit:
 	| learning_path_external_link | learning_path_classroom_training
 	| learning_path_classroom_event
 	| bot_action_send | bot_action_announce	| bot_action_save | bot_action_remind
+
+	| bit_image | bit_imageLink | bit_imageZoom
+	| bit_audio | bit_audioLink | bit_audioEmbed
+	| bit_video | bit_videoLink | bit_videoEmbed
+	| bit_stillImageFilm | bit_stillImageFilmLink | bit_stillImageFilmEmbed
+	| bit_document | bit_documentLink | bit_documentEmbed | bit_documentDownload
+	| bit_websiteLink | bit_appLink | bit_editorial
 ;
 //
 book:
@@ -258,10 +265,7 @@ buttoncopytext:  BitButtonCopytext format CL NL* ( bitElem NL* )+ ;
 wbtcontinue: BitWbtContinue format CL NL* ( bitElem NL* )+ ;
 learningpathdetails: BitLearningPathDetails format CL NL* ( bitElem NL* )+ ;
 
-
-// May 20,2021
 page:		BitPage format CL NL* ( bitElem NL* )+ ;
-// New bits added these on 02/06/22
 note:	        BitNote format CL NL* ( bitElem NL* )+ ;
 info:		BitInfo  format CL NL* ( bitElem NL* )+ ;
 warning:	BitWarning  format CL NL* ( bitElem NL* )+ ;
@@ -278,8 +282,28 @@ examplebit:     BitExample format CL NL* ( bitElem NL* )+ ;
 vendor_padlet_embed:  BitVendorPadletEmbed format CL NL* ( bitElem NL* )+ ;
 scorm:  	BitScorm format CL NL* ( bitElem NL* )+ ;
 
+// New Jan 24. 2023
+bit_image:            BitImage format2 CL NL* ( bitElem NL*)+ ;
+bit_imageLink:	      BitImageLink format2 CL NL* ( bitElem NL*)+ ;
+bit_imageZoom:	      BitImageZoom format2 CL NL* ( bitElem NL*)+ ;
+bit_audio:	      BitAudio format2 CL NL* ( bitElem NL*)+ ;
+bit_audioLink:	      BitAudioLink format2 CL NL* ( bitElem NL*)+ ;
+bit_audioEmbed:	      BitAudioEmbed format2 CL NL* ( bitElem NL*)+ ;
+bit_video:	      BitVideo format2 CL NL* ( bitElem NL*)+ ;
+bit_videoLink:	      BitVideoLink format2 CL NL* ( bitElem NL*)+ ;
+bit_videoEmbed:	      BitVideoEmbed format2 CL NL* ( bitElem NL*)+ ;
+bit_stillImageFilm:   BitStillImageFilm format2 CL NL* ( bitElem NL*)+ ;
+bit_stillImageFilmLink:   BitStillImageFilmLink format2 CL NL* ( bitElem NL*)+ ;
+bit_stillImageFilmEmbed:  BitStillImageFilmEmbed format2 CL NL* ( bitElem NL*)+ ;
+bit_websiteLink:	      BitWebsiteLink format2 CL NL* ( bitElem NL*)+ ;
+bit_document:	      BitDocument format2 CL NL* ( bitElem NL*)+ ;
+bit_documentLink:     BitDocumentLink format2 CL NL* ( bitElem NL*)+ ;
+bit_documentEmbed:    BitDocumentEmbed format2 CL NL* ( bitElem NL*)+ ;
+bit_documentDownload: BitDocumentDownload format2 CL NL* ( bitElem NL*)+ ;
+bit_appLink:	      BitAppLink format2 CL NL* ( bitElem NL*)+ ;
+bit_editorial:	      BitEditorial format2 CL NL* ( bitElem NL*)+ ;
 
-// NEW 12/2/2020
+
 message:
     BitMessage format CL NL* ( bitElem NL* )+
 ;

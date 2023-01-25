@@ -21,6 +21,7 @@ import { AtpointContext } from "./sequenceParser";
 import { FormatContext } from "./sequenceParser";
 import { Resource_formatContext } from "./sequenceParser";
 import { Resource_format_extraContext } from "./sequenceParser";
+import { Format2Context } from "./sequenceParser";
 import { Image_formatContext } from "./sequenceParser";
 import { Video_formatContext } from "./sequenceParser";
 import { Article_formatContext } from "./sequenceParser";
@@ -286,6 +287,17 @@ export interface sequenceParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitResource_format_extra?: (ctx: Resource_format_extraContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `sequenceParser.format2`.
+	 * @param ctx the parse tree
+	 */
+	enterFormat2?: (ctx: Format2Context) => void;
+	/**
+	 * Exit a parse tree produced by `sequenceParser.format2`.
+	 * @param ctx the parse tree
+	 */
+	exitFormat2?: (ctx: Format2Context) => void;
 
 	/**
 	 * Enter a parse tree produced by `sequenceParser.image_format`.

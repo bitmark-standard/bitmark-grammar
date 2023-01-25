@@ -22,6 +22,7 @@ import { AtpointContext } from "./chatParser";
 import { FormatContext } from "./chatParser";
 import { Resource_formatContext } from "./chatParser";
 import { Resource_format_extraContext } from "./chatParser";
+import { Format2Context } from "./chatParser";
 import { Image_formatContext } from "./chatParser";
 import { Video_formatContext } from "./chatParser";
 import { Article_formatContext } from "./chatParser";
@@ -297,6 +298,17 @@ export interface chatParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitResource_format_extra?: (ctx: Resource_format_extraContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `chatParser.format2`.
+	 * @param ctx the parse tree
+	 */
+	enterFormat2?: (ctx: Format2Context) => void;
+	/**
+	 * Exit a parse tree produced by `chatParser.format2`.
+	 * @param ctx the parse tree
+	 */
+	exitFormat2?: (ctx: Format2Context) => void;
 
 	/**
 	 * Enter a parse tree produced by `chatParser.image_format`.

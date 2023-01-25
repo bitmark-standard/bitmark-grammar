@@ -2438,6 +2438,26 @@ BitmarkListener.prototype.enterExamplebit = function(ctx){this.push_tmpl(ctx, 'e
 BitmarkListener.prototype.enterVendor_padlet_embed = function(ctx) { this.push_tmpl(ctx, 'vendor-padlet-embed');};
 BitmarkListener.prototype.enterScorm = function(ctx){this.push_tmpl(ctx, 'scorm');};
 
+BitmarkListener.prototype.enterBit_image = function(ctx) { this.push_tmpl(ctx, 'image'); }
+BitmarkListener.prototype.enterBit_imageLink = function(ctx) { this.push_tmpl(ctx, 'imageLink'); }
+BitmarkListener.prototype.enterBit_imageZoom = function(ctx) { this.push_tmpl(ctx, 'imageZoom'); }
+BitmarkListener.prototype.enterBit_audio = function(ctx) { this.push_tmpl(ctx, 'audio'); }
+BitmarkListener.prototype.enterBit_audioLink = function(ctx) { this.push_tmpl(ctx, 'audioLink'); }
+BitmarkListener.prototype.enterBit_audioEmbed = function(ctx) { this.push_tmpl(ctx, 'audioEmbed'); }
+BitmarkListener.prototype.enterBit_video = function(ctx) { this.push_tmpl(ctx, 'video'); }
+BitmarkListener.prototype.enterBit_videoLink = function(ctx) { this.push_tmpl(ctx, 'videoLink'); }
+BitmarkListener.prototype.enterBit_videoEmbed = function(ctx) { this.push_tmpl(ctx, 'videoEmbed'); }
+BitmarkListener.prototype.enterBit_stillImageFilm = function(ctx) { this.push_tmpl(ctx, 'stillImageFilm'); }
+BitmarkListener.prototype.enterBit_stillImageFilmLink = function(ctx) { this.push_tmpl(ctx, 'stillImageFilmLink'); }
+BitmarkListener.prototype.enterBit_stillImageFilmEmbed = function(ctx) { this.push_tmpl(ctx, 'stillImageFilmEmbed'); }
+BitmarkListener.prototype.enterBit_websiteLink = function(ctx) { this.push_tmpl(ctx, 'websiteLink'); }
+BitmarkListener.prototype.enterBit_document = function(ctx) { this.push_tmpl(ctx, 'document'); }
+BitmarkListener.prototype.enterBit_documentLink = function(ctx) { this.push_tmpl(ctx, 'documentLink'); }
+BitmarkListener.prototype.enterBit_documentEmbed = function(ctx) { this.push_tmpl(ctx, 'documentEmbed'); }
+BitmarkListener.prototype.enterBit_documentDownload = function(ctx) { this.push_tmpl(ctx, 'documentDownload'); }
+BitmarkListener.prototype.enterBit_appLink = function(ctx) { this.push_tmpl(ctx, 'appLink'); }
+BitmarkListener.prototype.enterBit_editorial = function(ctx) { this.push_tmpl(ctx, 'editorial'); }
+
 
 BitmarkListener.prototype.exitAnchor = function(ctx) {
   let code = this.but.getcode(ctx);

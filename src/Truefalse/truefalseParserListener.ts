@@ -26,6 +26,7 @@ import { AtpointContext } from "./truefalseParser";
 import { FormatContext } from "./truefalseParser";
 import { Resource_formatContext } from "./truefalseParser";
 import { Resource_format_extraContext } from "./truefalseParser";
+import { Format2Context } from "./truefalseParser";
 import { Image_formatContext } from "./truefalseParser";
 import { Video_formatContext } from "./truefalseParser";
 import { Article_formatContext } from "./truefalseParser";
@@ -346,6 +347,17 @@ export interface truefalseParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitResource_format_extra?: (ctx: Resource_format_extraContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `truefalseParser.format2`.
+	 * @param ctx the parse tree
+	 */
+	enterFormat2?: (ctx: Format2Context) => void;
+	/**
+	 * Exit a parse tree produced by `truefalseParser.format2`.
+	 * @param ctx the parse tree
+	 */
+	exitFormat2?: (ctx: Format2Context) => void;
 
 	/**
 	 * Enter a parse tree produced by `truefalseParser.image_format`.

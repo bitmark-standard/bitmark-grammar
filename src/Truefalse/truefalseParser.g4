@@ -126,6 +126,10 @@ resource_format_extra:
   | AmpPdf
 ;
 
+format2:
+   BitmarkMinus | BitmarkPlus | ColonText | /*nil*/
+;
+
 //
 //
 image_format:  // No [ included

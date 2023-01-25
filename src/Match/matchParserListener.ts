@@ -53,6 +53,7 @@ import { AtpointContext } from "./matchParser";
 import { FormatContext } from "./matchParser";
 import { Resource_formatContext } from "./matchParser";
 import { Resource_format_extraContext } from "./matchParser";
+import { Format2Context } from "./matchParser";
 import { Image_formatContext } from "./matchParser";
 import { Video_formatContext } from "./matchParser";
 import { Article_formatContext } from "./matchParser";
@@ -682,6 +683,17 @@ export interface matchParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitResource_format_extra?: (ctx: Resource_format_extraContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `matchParser.format2`.
+	 * @param ctx the parse tree
+	 */
+	enterFormat2?: (ctx: Format2Context) => void;
+	/**
+	 * Exit a parse tree produced by `matchParser.format2`.
+	 * @param ctx the parse tree
+	 */
+	exitFormat2?: (ctx: Format2Context) => void;
 
 	/**
 	 * Enter a parse tree produced by `matchParser.image_format`.
