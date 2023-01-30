@@ -94,6 +94,35 @@ import { Bit_documentEmbedContext } from "./bitmarkParser";
 import { Bit_documentDownloadContext } from "./bitmarkParser";
 import { Bit_appLinkContext } from "./bitmarkParser";
 import { Bit_editorialContext } from "./bitmarkParser";
+import { Book_frontispieceContext } from "./bitmarkParser";
+import { Book_titleContext } from "./bitmarkParser";
+import { Book_copyrightContext } from "./bitmarkParser";
+import { Book_dedicationContext } from "./bitmarkParser";
+import { Book_forwordContext } from "./bitmarkParser";
+import { Book_prefaceContext } from "./bitmarkParser";
+import { Book_prologueContext } from "./bitmarkParser";
+import { Book_epilogueContext } from "./bitmarkParser";
+import { Book_introductionContext } from "./bitmarkParser";
+import { Book_inciting_incidentContext } from "./bitmarkParser";
+import { Book_conclusionContext } from "./bitmarkParser";
+import { Book_afterwordContext } from "./bitmarkParser";
+import { Book_postscriptContext } from "./bitmarkParser";
+import { Book_appendixContext } from "./bitmarkParser";
+import { Book_addendumContext } from "./bitmarkParser";
+import { Book_acknowledgmentsContext } from "./bitmarkParser";
+import { Book_list_of_contributorsContext } from "./bitmarkParser";
+import { Book_bibliographyContext } from "./bitmarkParser";
+import { Book_reference_listContext } from "./bitmarkParser";
+import { Book_endnotesContext } from "./bitmarkParser";
+import { Book_notesContext } from "./bitmarkParser";
+import { Book_copyright_permissionsContext } from "./bitmarkParser";
+import { Book_teaserContext } from "./bitmarkParser";
+import { Book_auther_bioContext } from "./bitmarkParser";
+import { Book_request_for_a_book_reviewContext } from "./bitmarkParser";
+import { Book_coming_soonContext } from "./bitmarkParser";
+import { Book_read_moreContext } from "./bitmarkParser";
+import { Book_summaryContext } from "./bitmarkParser";
+import { Book_epigraphContext } from "./bitmarkParser";
 import { MessageContext } from "./bitmarkParser";
 import { Bot_interviewContext } from "./bitmarkParser";
 import { Bot_choiceContext } from "./bitmarkParser";
@@ -1179,6 +1208,325 @@ export interface bitmarkParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitBit_editorial?: (ctx: Bit_editorialContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.book_frontispiece`.
+	 * @param ctx the parse tree
+	 */
+	enterBook_frontispiece?: (ctx: Book_frontispieceContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.book_frontispiece`.
+	 * @param ctx the parse tree
+	 */
+	exitBook_frontispiece?: (ctx: Book_frontispieceContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.book_title`.
+	 * @param ctx the parse tree
+	 */
+	enterBook_title?: (ctx: Book_titleContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.book_title`.
+	 * @param ctx the parse tree
+	 */
+	exitBook_title?: (ctx: Book_titleContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.book_copyright`.
+	 * @param ctx the parse tree
+	 */
+	enterBook_copyright?: (ctx: Book_copyrightContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.book_copyright`.
+	 * @param ctx the parse tree
+	 */
+	exitBook_copyright?: (ctx: Book_copyrightContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.book_dedication`.
+	 * @param ctx the parse tree
+	 */
+	enterBook_dedication?: (ctx: Book_dedicationContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.book_dedication`.
+	 * @param ctx the parse tree
+	 */
+	exitBook_dedication?: (ctx: Book_dedicationContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.book_forword`.
+	 * @param ctx the parse tree
+	 */
+	enterBook_forword?: (ctx: Book_forwordContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.book_forword`.
+	 * @param ctx the parse tree
+	 */
+	exitBook_forword?: (ctx: Book_forwordContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.book_preface`.
+	 * @param ctx the parse tree
+	 */
+	enterBook_preface?: (ctx: Book_prefaceContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.book_preface`.
+	 * @param ctx the parse tree
+	 */
+	exitBook_preface?: (ctx: Book_prefaceContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.book_prologue`.
+	 * @param ctx the parse tree
+	 */
+	enterBook_prologue?: (ctx: Book_prologueContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.book_prologue`.
+	 * @param ctx the parse tree
+	 */
+	exitBook_prologue?: (ctx: Book_prologueContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.book_epilogue`.
+	 * @param ctx the parse tree
+	 */
+	enterBook_epilogue?: (ctx: Book_epilogueContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.book_epilogue`.
+	 * @param ctx the parse tree
+	 */
+	exitBook_epilogue?: (ctx: Book_epilogueContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.book_introduction`.
+	 * @param ctx the parse tree
+	 */
+	enterBook_introduction?: (ctx: Book_introductionContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.book_introduction`.
+	 * @param ctx the parse tree
+	 */
+	exitBook_introduction?: (ctx: Book_introductionContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.book_inciting_incident`.
+	 * @param ctx the parse tree
+	 */
+	enterBook_inciting_incident?: (ctx: Book_inciting_incidentContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.book_inciting_incident`.
+	 * @param ctx the parse tree
+	 */
+	exitBook_inciting_incident?: (ctx: Book_inciting_incidentContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.book_conclusion`.
+	 * @param ctx the parse tree
+	 */
+	enterBook_conclusion?: (ctx: Book_conclusionContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.book_conclusion`.
+	 * @param ctx the parse tree
+	 */
+	exitBook_conclusion?: (ctx: Book_conclusionContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.book_afterword`.
+	 * @param ctx the parse tree
+	 */
+	enterBook_afterword?: (ctx: Book_afterwordContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.book_afterword`.
+	 * @param ctx the parse tree
+	 */
+	exitBook_afterword?: (ctx: Book_afterwordContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.book_postscript`.
+	 * @param ctx the parse tree
+	 */
+	enterBook_postscript?: (ctx: Book_postscriptContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.book_postscript`.
+	 * @param ctx the parse tree
+	 */
+	exitBook_postscript?: (ctx: Book_postscriptContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.book_appendix`.
+	 * @param ctx the parse tree
+	 */
+	enterBook_appendix?: (ctx: Book_appendixContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.book_appendix`.
+	 * @param ctx the parse tree
+	 */
+	exitBook_appendix?: (ctx: Book_appendixContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.book_addendum`.
+	 * @param ctx the parse tree
+	 */
+	enterBook_addendum?: (ctx: Book_addendumContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.book_addendum`.
+	 * @param ctx the parse tree
+	 */
+	exitBook_addendum?: (ctx: Book_addendumContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.book_acknowledgments`.
+	 * @param ctx the parse tree
+	 */
+	enterBook_acknowledgments?: (ctx: Book_acknowledgmentsContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.book_acknowledgments`.
+	 * @param ctx the parse tree
+	 */
+	exitBook_acknowledgments?: (ctx: Book_acknowledgmentsContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.book_list_of_contributors`.
+	 * @param ctx the parse tree
+	 */
+	enterBook_list_of_contributors?: (ctx: Book_list_of_contributorsContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.book_list_of_contributors`.
+	 * @param ctx the parse tree
+	 */
+	exitBook_list_of_contributors?: (ctx: Book_list_of_contributorsContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.book_bibliography`.
+	 * @param ctx the parse tree
+	 */
+	enterBook_bibliography?: (ctx: Book_bibliographyContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.book_bibliography`.
+	 * @param ctx the parse tree
+	 */
+	exitBook_bibliography?: (ctx: Book_bibliographyContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.book_reference_list`.
+	 * @param ctx the parse tree
+	 */
+	enterBook_reference_list?: (ctx: Book_reference_listContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.book_reference_list`.
+	 * @param ctx the parse tree
+	 */
+	exitBook_reference_list?: (ctx: Book_reference_listContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.book_endnotes`.
+	 * @param ctx the parse tree
+	 */
+	enterBook_endnotes?: (ctx: Book_endnotesContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.book_endnotes`.
+	 * @param ctx the parse tree
+	 */
+	exitBook_endnotes?: (ctx: Book_endnotesContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.book_notes`.
+	 * @param ctx the parse tree
+	 */
+	enterBook_notes?: (ctx: Book_notesContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.book_notes`.
+	 * @param ctx the parse tree
+	 */
+	exitBook_notes?: (ctx: Book_notesContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.book_copyright_permissions`.
+	 * @param ctx the parse tree
+	 */
+	enterBook_copyright_permissions?: (ctx: Book_copyright_permissionsContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.book_copyright_permissions`.
+	 * @param ctx the parse tree
+	 */
+	exitBook_copyright_permissions?: (ctx: Book_copyright_permissionsContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.book_teaser`.
+	 * @param ctx the parse tree
+	 */
+	enterBook_teaser?: (ctx: Book_teaserContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.book_teaser`.
+	 * @param ctx the parse tree
+	 */
+	exitBook_teaser?: (ctx: Book_teaserContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.book_auther_bio`.
+	 * @param ctx the parse tree
+	 */
+	enterBook_auther_bio?: (ctx: Book_auther_bioContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.book_auther_bio`.
+	 * @param ctx the parse tree
+	 */
+	exitBook_auther_bio?: (ctx: Book_auther_bioContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.book_request_for_a_book_review`.
+	 * @param ctx the parse tree
+	 */
+	enterBook_request_for_a_book_review?: (ctx: Book_request_for_a_book_reviewContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.book_request_for_a_book_review`.
+	 * @param ctx the parse tree
+	 */
+	exitBook_request_for_a_book_review?: (ctx: Book_request_for_a_book_reviewContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.book_coming_soon`.
+	 * @param ctx the parse tree
+	 */
+	enterBook_coming_soon?: (ctx: Book_coming_soonContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.book_coming_soon`.
+	 * @param ctx the parse tree
+	 */
+	exitBook_coming_soon?: (ctx: Book_coming_soonContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.book_read_more`.
+	 * @param ctx the parse tree
+	 */
+	enterBook_read_more?: (ctx: Book_read_moreContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.book_read_more`.
+	 * @param ctx the parse tree
+	 */
+	exitBook_read_more?: (ctx: Book_read_moreContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.book_summary`.
+	 * @param ctx the parse tree
+	 */
+	enterBook_summary?: (ctx: Book_summaryContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.book_summary`.
+	 * @param ctx the parse tree
+	 */
+	exitBook_summary?: (ctx: Book_summaryContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.book_epigraph`.
+	 * @param ctx the parse tree
+	 */
+	enterBook_epigraph?: (ctx: Book_epigraphContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.book_epigraph`.
+	 * @param ctx the parse tree
+	 */
+	exitBook_epigraph?: (ctx: Book_epigraphContext) => void;
 
 	/**
 	 * Enter a parse tree produced by `bitmarkParser.message`.

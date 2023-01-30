@@ -2458,6 +2458,36 @@ BitmarkListener.prototype.enterBit_documentDownload = function(ctx) { this.push_
 BitmarkListener.prototype.enterBit_appLink = function(ctx) { this.push_tmpl(ctx, 'appLink'); }
 BitmarkListener.prototype.enterBit_editorial = function(ctx) { this.push_tmpl(ctx, 'editorial'); }
 
+BitmarkListener.prototype.enterBook_frontispiece= function(ctx) { this.push_tmpl(ctx, 'book-frontispiece'); }
+BitmarkListener.prototype.enterBook_title= function(ctx) { this.push_tmpl(ctx, 'book-title'); }
+BitmarkListener.prototype.enterBook_copyright= function(ctx) { this.push_tmpl(ctx, 'book-copyright'); }
+BitmarkListener.prototype.enterBook_dedication= function(ctx) { this.push_tmpl(ctx, 'book-dedication'); }
+BitmarkListener.prototype.enterBook_forword= function(ctx) { this.push_tmpl(ctx, 'book-foreword'); }
+BitmarkListener.prototype.enterBook_preface= function(ctx) { this.push_tmpl(ctx, 'book-preface'); }
+BitmarkListener.prototype.enterBook_prologue= function(ctx) { this.push_tmpl(ctx, 'book-prologue'); }
+BitmarkListener.prototype.enterBook_epilogue= function(ctx) { this.push_tmpl(ctx, 'book-epilogue'); }
+BitmarkListener.prototype.enterBook_introduction= function(ctx) { this.push_tmpl(ctx, 'book-introduction'); }
+BitmarkListener.prototype.enterBook_inciting_incident= function(ctx) { this.push_tmpl(ctx, 'book-inciting-incident'); }
+BitmarkListener.prototype.enterBook_conclusion= function(ctx) { this.push_tmpl(ctx, 'book-conclusion'); }
+BitmarkListener.prototype.enterBook_afterword= function(ctx) { this.push_tmpl(ctx, 'book-afterword'); }
+BitmarkListener.prototype.enterBook_postscript= function(ctx) { this.push_tmpl(ctx, 'book-postscript'); }
+BitmarkListener.prototype.enterBook_appendix= function(ctx) { this.push_tmpl(ctx, 'book-appendix'); }
+BitmarkListener.prototype.enterBook_addendum= function(ctx) { this.push_tmpl(ctx, 'book-addendum'); }
+BitmarkListener.prototype.enterBook_acknowledgments= function(ctx) { this.push_tmpl(ctx, 'book-acknowledgments'); }
+BitmarkListener.prototype.enterBook_list_of_contributors= function(ctx) { this.push_tmpl(ctx, 'book-list-of-contributors'); }
+BitmarkListener.prototype.enterBook_bibliography= function(ctx) { this.push_tmpl(ctx, 'book-bibliography'); }
+BitmarkListener.prototype.enterBook_reference_list= function(ctx) { this.push_tmpl(ctx, 'book-reference-list'); }
+BitmarkListener.prototype.enterBook_endnotes= function(ctx) { this.push_tmpl(ctx, 'book-endnotes'); }
+BitmarkListener.prototype.enterBook_notes= function(ctx) { this.push_tmpl(ctx, 'book-notes'); }
+BitmarkListener.prototype.enterBook_copyright_permissions= function(ctx) { this.push_tmpl(ctx, 'book-copyright-permissions'); }
+BitmarkListener.prototype.enterBook_teaser= function(ctx) { this.push_tmpl(ctx, 'book-teaser'); }
+BitmarkListener.prototype.enterBook_auther_bio= function(ctx) { this.push_tmpl(ctx, 'book-author-bio'); }
+BitmarkListener.prototype.enterBook_request_for_a_book_review= function(ctx) { this.push_tmpl(ctx, 'book-request-for-a-book-review'); }
+BitmarkListener.prototype.enterBook_coming_soon= function(ctx) { this.push_tmpl(ctx, 'book-coming-soon'); }
+BitmarkListener.prototype.enterBook_read_more= function(ctx) { this.push_tmpl(ctx, 'book-read-more'); }
+BitmarkListener.prototype.enterBook_summary= function(ctx) { this.push_tmpl(ctx, 'book-summary'); }
+BitmarkListener.prototype.enterBook_epigraph= function(ctx) { this.push_tmpl(ctx, 'book-epigraph'); }
+
 
 BitmarkListener.prototype.exitAnchor = function(ctx) {
   let code = this.but.getcode(ctx);

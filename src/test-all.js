@@ -149,6 +149,8 @@ const testfiles = [
   './tests/learning-path6.bit',
   './tests/learning-path7.bit',
 
+  './tests/book-bits.bit',
+
   './tests/resource-all.bit',
   './tests/utfgpun.bit',
 
