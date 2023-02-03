@@ -11635,4 +11635,54 @@
         }
     }
 ]
+<<<<./tests/code.bit
+[
+    {
+        "bitmark": "[.code]\n[@id:51861]\n[@language:javascript]\n[%][%Ausgleichsmassnahmen für Frauen der Übergangsgeneration]\nFrauen welche der Übergangsgeneration angehören und ≠ ihre Altersrente nicht vorbeziehen, erhalten einen lebenslangen Rentenzuschlag.",
+        "bit": {
+            "type": "code",
+            "format": "bitmark--",
+            "body": "Frauen welche der Übergangsgeneration angehören und ≠ ihre Altersrente nicht vorbeziehen, erhalten einen lebenslangen Rentenzuschlag.",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "51861"
+            ],
+            "language": "javascript",
+            "lead": "Ausgleichsmassnahmen für Frauen der Übergangsgeneration"
+        }
+    },
+    {
+        "bitmark": "[.card-1]\n[@language:Japanese]\n::info::\n**Gebrauch der Zeitformen:**\nDas Präteritum verwendet man vor allem für schriftliche Äußerungen.\nIn der mündlichen Kommunikation gebrauchen wir in der Regel das Perfekt.\nDie Hilfsverben __haben__ und __sein__ und die Modalverben bilden eine Ausnahme und werden meistens im Präteritum verwendet.\n::\n\n::info::\n**Bildung des Perfekts:**\nAlle Verben, die einen Akkusativ verlangen, und alle reflexiven Verben bilden das Perfekt mit __haben__.\n__Wir haben ein Haus gebaut. Ich habe mich geärgert.__\nVerben der Orts- und Zustandsänderung sowie sein und bleiben bilden das Perfekt mit __sein__.\n__Wir sind nach Italien gefahren. Die Blumen sind verblüht.__\n::",
+        "bit": {
+            "type": "card-1",
+            "format": "bitmark--",
+            "body": "::info::\n**Gebrauch der Zeitformen:**\nDas Präteritum verwendet man vor allem für schriftliche Äußerungen.\nIn der mündlichen Kommunikation gebrauchen wir in der Regel das Perfekt.\nDie Hilfsverben __haben__ und __sein__ und die Modalverben bilden eine Ausnahme und werden meistens im Präteritum verwendet.\n::\n\n::info::\n**Bildung des Perfekts:**\nAlle Verben, die einen Akkusativ verlangen, und alle reflexiven Verben bilden das Perfekt mit __haben__.\n__Wir haben ein Haus gebaut. Ich habe mich geärgert.__\nVerben der Orts- und Zustandsänderung sowie sein und bleiben bilden das Perfekt mit __sein__.\n__Wir sind nach Italien gefahren. Die Blumen sind verblüht.__\n::",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "language": [
+                "Japanese"
+            ]
+        }
+    },
+    {
+        "bitmark": "[.question-1]\n\n**Hier finden Sie wichtigen Wortschatz des Kapitels:**\n[%D1]\n[@language:Indonesian]\n**Angaben zur eigenen Person**\n* Ich heiße ...\n* Mein Name ist ...\n* Ich komme aus ...\n* Ich wohne in ...\n* Ich bin von Beruf ...\n* Ich arbeite bei ... als ...\n* Ich bin ledig/Single, verheiratet, geschieden.\n* Ich habe die __(deutsche)__ Staatsbürgerschaft.\n* Ich bin __(Deutsche(r)). __\n* In meiner Freizeit ...\n\n**Schule und Ausbildung**",
+        "bit": {
+            "type": "question-1",
+            "format": "bitmark--",
+            "body": "**Hier finden Sie wichtigen Wortschatz des Kapitels:**\n\n\n**Angaben zur eigenen Person**\n* Ich heiße ...\n* Mein Name ist ...\n* Ich komme aus ...\n* Ich wohne in ...\n* Ich bin von Beruf ...\n* Ich arbeite bei ... als ...\n* Ich bin ledig/Single, verheiratet, geschieden.\n* Ich habe die __(deutsche)__ Staatsbürgerschaft.\n* Ich bin __(Deutsche(r)). __\n* In meiner Freizeit ...\n\n**Schule und Ausbildung**",
+            "item": "D1",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "language": [
+                "Indonesian"
+            ]
+        }
+    }
+]
 <<<<

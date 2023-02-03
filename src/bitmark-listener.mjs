@@ -37,7 +37,7 @@ let BitmarkListener = function(error_listener, source, parser) {
 		    'botAnnounceAt', 'botSaveAt', 'botSendAt', 'botRemindAt',
 		    'externalLink', 'videoCallLink', 'externalLinkText', 'textReference',
 		    'quotedPerson', 'kind', 'collection', 'book', 'padletId',
-		    'scormSource', 'posterImage',
+		    'scormSource', 'posterImage'
 		   ];
   this.body_key = 'body';
   this.num_angleref = 0;
@@ -1629,11 +1629,15 @@ BitmarkListener.prototype.exitAtdef_ = function(ctx) {
     if (vals[0] === 'format' || vals[0] === 'type')
       vals[0] = '_'+vals[0];  // because those keys are already there
 
+    if (vals[0] == 'language' && -1 < ['code'].indexOf(this.stk.top().bit.type))
+      this.atdef_str.push('language');    // @language for 'code' bit is a string.
+
     if (-1 < this.atdef_str.indexOf(vals[0])) {
-      // Not a list
+      // Not a list = string
       this.stk.top().bit[vals[0]] = vals[1];
     }
     else {
+      // @def values be in a list
       if (!(vals[0] in this.stk.top().bit)) {
 	this.stk.top().bit[vals[0]] = [];
       }
@@ -2485,6 +2489,10 @@ BitmarkListener.prototype.enterBook_coming_soon= function(ctx) { this.push_tmpl(
 BitmarkListener.prototype.enterBook_read_more= function(ctx) { this.push_tmpl(ctx, 'book-read-more'); }
 BitmarkListener.prototype.enterBook_summary= function(ctx) { this.push_tmpl(ctx, 'book-summary'); }
 BitmarkListener.prototype.enterBook_epigraph= function(ctx) { this.push_tmpl(ctx, 'book-epigraph'); }
+
+BitmarkListener.prototype.enterCode= function(ctx) { this.push_tmpl(ctx, 'code'); }
+BitmarkListener.prototype.enterCard1= function(ctx) { this.push_tmpl(ctx, 'card-1'); }
+BitmarkListener.prototype.enterQuestion1= function(ctx) { this.push_tmpl(ctx, 'question-1'); }
 
 
 BitmarkListener.prototype.exitAnchor = function(ctx) {

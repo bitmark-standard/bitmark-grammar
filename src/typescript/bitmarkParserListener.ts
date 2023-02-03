@@ -123,6 +123,9 @@ import { Book_coming_soonContext } from "./bitmarkParser";
 import { Book_read_moreContext } from "./bitmarkParser";
 import { Book_summaryContext } from "./bitmarkParser";
 import { Book_epigraphContext } from "./bitmarkParser";
+import { CodeContext } from "./bitmarkParser";
+import { Card1Context } from "./bitmarkParser";
+import { Question1Context } from "./bitmarkParser";
 import { MessageContext } from "./bitmarkParser";
 import { Bot_interviewContext } from "./bitmarkParser";
 import { Bot_choiceContext } from "./bitmarkParser";
@@ -1527,6 +1530,39 @@ export interface bitmarkParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitBook_epigraph?: (ctx: Book_epigraphContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.code`.
+	 * @param ctx the parse tree
+	 */
+	enterCode?: (ctx: CodeContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.code`.
+	 * @param ctx the parse tree
+	 */
+	exitCode?: (ctx: CodeContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.card1`.
+	 * @param ctx the parse tree
+	 */
+	enterCard1?: (ctx: Card1Context) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.card1`.
+	 * @param ctx the parse tree
+	 */
+	exitCard1?: (ctx: Card1Context) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.question1`.
+	 * @param ctx the parse tree
+	 */
+	enterQuestion1?: (ctx: Question1Context) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.question1`.
+	 * @param ctx the parse tree
+	 */
+	exitQuestion1?: (ctx: Question1Context) => void;
 
 	/**
 	 * Enter a parse tree produced by `bitmarkParser.message`.

@@ -138,7 +138,9 @@ BitBookReadMore:		NL OPDOT S* 'book-read-more'   ;
 BitBookSummary:			NL OPDOT S* 'book-summary'   ;
 BitBookEpigraph:		NL OPDOT S* 'book-epigraph'   ;
 
-
+BitCode:			NL OPDOT S* 'code'   ;
+BitCard1:			NL OPDOT S* 'card-1'   ;
+BitQuestion1:			NL OPDOT S* 'question-1'   ;
 
 //
 COMMENT:  '||' UTF8*? '||' S* '\n'* ->skip ;

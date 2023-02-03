@@ -78,6 +78,8 @@ bit:
 	| book_endnotes | book_notes | book_copyright_permissions | book_teaser
 	| book_auther_bio | book_request_for_a_book_review | book_coming_soon
 	| book_read_more | book_summary | book_epigraph
+
+	| code | card1 | question1
 ;
 //
 book:
@@ -341,6 +343,9 @@ book_read_more:		       BitBookReadMore format CL NL* ( bitElem NL* )+ ;
 book_summary:		       BitBookSummary format CL NL* ( bitElem NL* )+ ;
 book_epigraph:		       BitBookEpigraph format CL NL* ( bitElem NL* )+ ;
 
+code:			       BitCode format CL NL* ( bitElem NL* )+ ;
+card1:			       BitCard1 format CL NL* ( bitElem NL* )+ ;
+question1:		       BitQuestion1 format CL NL* ( bitElem NL* )+ ;
 
 
 message:

@@ -150,7 +150,8 @@ const testfiles = [
   './tests/learning-path7.bit',
 
   './tests/book-bits.bit',
-
+  './tests/code.bit',
+  
   './tests/resource-all.bit',
   './tests/utfgpun.bit',
 
