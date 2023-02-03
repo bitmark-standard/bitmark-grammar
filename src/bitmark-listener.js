@@ -38,7 +38,7 @@ let BitmarkListener = function(error_listener, source, parser) {
 		    'botAnnounceAt', 'botSaveAt', 'botSendAt', 'botRemindAt',
 		    'externalLink', 'videoCallLink', 'externalLinkText', 'textReference',
 		    'quotedPerson', 'kind', 'collection', 'book', 'padletId',
-		    'scormSource', 'posterImage'
+		    'scormSource', 'posterImage', 'computerLanguage'
 		   ];
   this.body_key = 'body';
   this.num_angleref = 0;
@@ -1625,9 +1625,6 @@ BitmarkListener.prototype.exitAtdef_ = function(ctx) {
     if (vals[0] === 'format' || vals[0] === 'type')
       vals[0] = '_'+vals[0];  // because those keys are already there
 
-    if (vals[0] == 'language' && -1 < ['code'].indexOf(this.stk.top().bit.type))
-      this.atdef_str.push('language');  // @language for 'code' bit is a string.
-    
     if (-1 < this.atdef_str.indexOf(vals[0])) {
       // Not a list = string
       this.stk.top().bit[vals[0]] = vals[1];

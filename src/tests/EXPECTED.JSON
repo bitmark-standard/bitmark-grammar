@@ -11638,7 +11638,7 @@
 <<<<./tests/code.bit
 [
     {
-        "bitmark": "[.code]\n[@id:51861]\n[@language:javascript]\n[%][%Ausgleichsmassnahmen für Frauen der Übergangsgeneration]\nFrauen welche der Übergangsgeneration angehören und ≠ ihre Altersrente nicht vorbeziehen, erhalten einen lebenslangen Rentenzuschlag.",
+        "bitmark": "[.code]\n[@id:51861]\n[@computerLanguage:javascript]\n[%][%Ausgleichsmassnahmen für Frauen der Übergangsgeneration]\nFrauen welche der Übergangsgeneration angehören und ≠ ihre Altersrente nicht vorbeziehen, erhalten einen lebenslangen Rentenzuschlag.",
         "bit": {
             "type": "code",
             "format": "bitmark--",
@@ -11650,7 +11650,7 @@
             "id": [
                 "51861"
             ],
-            "language": "javascript",
+            "computerLanguage": "javascript",
             "lead": "Ausgleichsmassnahmen für Frauen der Übergangsgeneration"
         }
     },
