@@ -49,6 +49,46 @@ const JSON_BIT_TEMPLATES = {
       example: '',
     }
   },
+  Regular_image_bit: {
+    bitmark: '',
+    bit: {
+      type: '',
+      format: 'image',
+      body: '',
+      // Other stuff should be added as needed.Below added 4/3/2021
+      item: '',
+      hint: '',
+      isExample: false,
+      example: '',
+    }
+  },
+  Regular_audio_bit: {
+    bitmark: '',
+    bit: {
+      type: '',
+      format: 'audio',
+      body: '',
+      // Other stuff should be added as needed.Below added 4/3/2021
+      item: '',
+      hint: '',
+      isExample: false,
+      example: '',
+    }
+  },
+  Regular_video_bit: {
+    bitmark: '',
+    bit: {
+      type: '',
+      format: 'video',
+      body: '',
+      // Other stuff should be added as needed.Below added 4/3/2021
+      item: '',
+      hint: '',
+      isExample: false,
+      example: '',
+    }
+  },
+
   LearningPath_bit: {
     bitmark: '',
     bit: {

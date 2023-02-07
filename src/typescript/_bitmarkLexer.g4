@@ -142,6 +142,19 @@ BitCode:			NL OPDOT S* 'code'   ;
 BitCard1:			NL OPDOT S* 'card-1'   ;
 BitQuestion1:			NL OPDOT S* 'question-1'   ;
 
+BitScreenshot:			NL OPDOT S* 'screenshot'   ;
+BitFocusImage:			NL OPDOT S* 'focus-image'   ;
+BitPhoto:			NL OPDOT S* 'photo'   ;
+BitBrowserImage:		NL OPDOT S* 'browser-image'   ;
+BitBotActionResponse:		NL OPDOT S* 'bot-action-response'   ;
+BitBotActionTrueFalse:		NL OPDOT S* 'bot-action-true-false'   ;
+BitBotActionRatingNumber:	NL OPDOT S* 'bot-action-rating-number'   ;
+BitBotActionRatingStars:	NL OPDOT S* 'bot-action-rating-star'   ;
+
+
+
+
+
 //
 COMMENT:  '||' UTF8*? '||' S* '\n'* ->skip ;
 Image_type: BASIC | JPG | PNG | GIF | SVG ;

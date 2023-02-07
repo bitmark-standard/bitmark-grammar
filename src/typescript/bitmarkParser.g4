@@ -80,6 +80,11 @@ bit:
 	| book_read_more | book_summary | book_epigraph
 
 	| code | card1 | question1
+
+	| screenshot | focus_image | photo | browser_image
+	| bot_action_response | bot_action_true_false
+	| bot_action_rating_number | bot_action_rating_stars
+
 ;
 //
 book:
@@ -138,17 +143,21 @@ learning_path_external_link:
     BitLearningPathExternalLink format CL NL* ( bitElem NL* )+ ;
 learning_path_classroom_training:
     BitLearningPathClassroomTraining format CL NL* ( bitElem NL* )+ ;
-
 learning_path_classroom_event:
     BitLearningPathClassroomEvent format CL NL* ( bitElem NL* )+ ;
-bot_action_send:
-    BitBotActionSend format CL NL* ( bitElem NL* )+ ;
-bot_action_announce:
-    BitBotActionAnnounce format CL NL* ( bitElem NL* )+ ;
-bot_action_save:
-    BitBotActionSave format CL NL* ( bitElem NL* )+ ;
-bot_action_remind:
-    BitBotActionRemind format CL NL* ( bitElem NL* )+ ;
+
+bot_action_send:           BitBotActionSend format CL NL* ( bitElem NL* )+ ;
+bot_action_announce:       BitBotActionAnnounce format CL NL* ( bitElem NL* )+ ;
+bot_action_save:           BitBotActionSave format CL NL* ( bitElem NL* )+ ;
+bot_action_remind:         BitBotActionRemind format CL NL* ( bitElem NL* )+ ;
+//
+bot_action_response:	   BitBotActionResponse format CL NL* ( bitElem NL* )+  bot_action ;
+bot_action_true_false:	   BitBotActionTrueFalse format CL NL* ( bitElem NL* )+  bot_action ;
+bot_action_rating_number:  BitBotActionRatingNumber format CL NL* ( bitElem NL* )+  bot_action ;
+bot_action_rating_stars:   BitBotActionRatingStars format CL NL* ( bitElem NL* )+  bot_action; 
+bot_action:		   (HSPL (NL* bot_action_elem NL*)+ )+  HSPL NL* ;
+bot_action_elem:	   bitElem ;
+
 
 //
 bitElem:
@@ -347,6 +356,11 @@ code:			       BitCode format CL NL* ( bitElem NL* )+ ;
 card1:			       BitCard1 format CL NL* ( bitElem NL* )+ ;
 question1:		       BitQuestion1 format CL NL* ( bitElem NL* )+ ;
 
+screenshot:		       BitScreenshot format CL NL* ( bitElem NL*)+ ;
+focus_image:		       BitFocusImage format CL NL* ( bitElem NL*)+ ;
+photo:			       BitPhoto format CL NL* ( bitElem NL*)+ ;
+browser_image:		       BitBrowserImage format CL NL* ( bitElem NL*)+ ;
+
 
 message:
     BitMessage format CL NL* ( bitElem NL* )+
@@ -535,8 +549,8 @@ dateprop_chained:
 
 // Instruction
 instruction:
-    OPB s_and_w? ( s_and_w ( NL S* )* NL* )* CL
-  | OPB s_and_w? EOF
+    OPB NL* s_and_w? ( s_and_w ( NL S* )* NL* )* CL
+  | OPB NL* s_and_w? EOF
 ;
 // Hint
 hint:

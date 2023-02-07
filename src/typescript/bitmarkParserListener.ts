@@ -31,6 +31,12 @@ import { Bot_action_sendContext } from "./bitmarkParser";
 import { Bot_action_announceContext } from "./bitmarkParser";
 import { Bot_action_saveContext } from "./bitmarkParser";
 import { Bot_action_remindContext } from "./bitmarkParser";
+import { Bot_action_responseContext } from "./bitmarkParser";
+import { Bot_action_true_falseContext } from "./bitmarkParser";
+import { Bot_action_rating_numberContext } from "./bitmarkParser";
+import { Bot_action_rating_starsContext } from "./bitmarkParser";
+import { Bot_actionContext } from "./bitmarkParser";
+import { Bot_action_elemContext } from "./bitmarkParser";
 import { BitElemContext } from "./bitmarkParser";
 import { GapContext } from "./bitmarkParser";
 import { Single_gapContext } from "./bitmarkParser";
@@ -126,6 +132,10 @@ import { Book_epigraphContext } from "./bitmarkParser";
 import { CodeContext } from "./bitmarkParser";
 import { Card1Context } from "./bitmarkParser";
 import { Question1Context } from "./bitmarkParser";
+import { ScreenshotContext } from "./bitmarkParser";
+import { Focus_imageContext } from "./bitmarkParser";
+import { PhotoContext } from "./bitmarkParser";
+import { Browser_imageContext } from "./bitmarkParser";
 import { MessageContext } from "./bitmarkParser";
 import { Bot_interviewContext } from "./bitmarkParser";
 import { Bot_choiceContext } from "./bitmarkParser";
@@ -518,6 +528,72 @@ export interface bitmarkParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitBot_action_remind?: (ctx: Bot_action_remindContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.bot_action_response`.
+	 * @param ctx the parse tree
+	 */
+	enterBot_action_response?: (ctx: Bot_action_responseContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.bot_action_response`.
+	 * @param ctx the parse tree
+	 */
+	exitBot_action_response?: (ctx: Bot_action_responseContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.bot_action_true_false`.
+	 * @param ctx the parse tree
+	 */
+	enterBot_action_true_false?: (ctx: Bot_action_true_falseContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.bot_action_true_false`.
+	 * @param ctx the parse tree
+	 */
+	exitBot_action_true_false?: (ctx: Bot_action_true_falseContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.bot_action_rating_number`.
+	 * @param ctx the parse tree
+	 */
+	enterBot_action_rating_number?: (ctx: Bot_action_rating_numberContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.bot_action_rating_number`.
+	 * @param ctx the parse tree
+	 */
+	exitBot_action_rating_number?: (ctx: Bot_action_rating_numberContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.bot_action_rating_stars`.
+	 * @param ctx the parse tree
+	 */
+	enterBot_action_rating_stars?: (ctx: Bot_action_rating_starsContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.bot_action_rating_stars`.
+	 * @param ctx the parse tree
+	 */
+	exitBot_action_rating_stars?: (ctx: Bot_action_rating_starsContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.bot_action`.
+	 * @param ctx the parse tree
+	 */
+	enterBot_action?: (ctx: Bot_actionContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.bot_action`.
+	 * @param ctx the parse tree
+	 */
+	exitBot_action?: (ctx: Bot_actionContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.bot_action_elem`.
+	 * @param ctx the parse tree
+	 */
+	enterBot_action_elem?: (ctx: Bot_action_elemContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.bot_action_elem`.
+	 * @param ctx the parse tree
+	 */
+	exitBot_action_elem?: (ctx: Bot_action_elemContext) => void;
 
 	/**
 	 * Enter a parse tree produced by `bitmarkParser.bitElem`.
@@ -1563,6 +1639,50 @@ export interface bitmarkParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitQuestion1?: (ctx: Question1Context) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.screenshot`.
+	 * @param ctx the parse tree
+	 */
+	enterScreenshot?: (ctx: ScreenshotContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.screenshot`.
+	 * @param ctx the parse tree
+	 */
+	exitScreenshot?: (ctx: ScreenshotContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.focus_image`.
+	 * @param ctx the parse tree
+	 */
+	enterFocus_image?: (ctx: Focus_imageContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.focus_image`.
+	 * @param ctx the parse tree
+	 */
+	exitFocus_image?: (ctx: Focus_imageContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.photo`.
+	 * @param ctx the parse tree
+	 */
+	enterPhoto?: (ctx: PhotoContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.photo`.
+	 * @param ctx the parse tree
+	 */
+	exitPhoto?: (ctx: PhotoContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.browser_image`.
+	 * @param ctx the parse tree
+	 */
+	enterBrowser_image?: (ctx: Browser_imageContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.browser_image`.
+	 * @param ctx the parse tree
+	 */
+	exitBrowser_image?: (ctx: Browser_imageContext) => void;
 
 	/**
 	 * Enter a parse tree produced by `bitmarkParser.message`.
