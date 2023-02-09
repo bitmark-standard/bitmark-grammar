@@ -36,7 +36,9 @@ import { Bot_action_true_falseContext } from "./bitmarkParser";
 import { Bot_action_rating_numberContext } from "./bitmarkParser";
 import { Bot_action_rating_starsContext } from "./bitmarkParser";
 import { Bot_actionContext } from "./bitmarkParser";
-import { Bot_action_elemContext } from "./bitmarkParser";
+import { Bo_actionsContext } from "./bitmarkParser";
+import { BoactsContext } from "./bitmarkParser";
+import { FeedbackContext } from "./bitmarkParser";
 import { BitElemContext } from "./bitmarkParser";
 import { GapContext } from "./bitmarkParser";
 import { Single_gapContext } from "./bitmarkParser";
@@ -90,6 +92,8 @@ import { Bit_audioEmbedContext } from "./bitmarkParser";
 import { Bit_videoContext } from "./bitmarkParser";
 import { Bit_videoLinkContext } from "./bitmarkParser";
 import { Bit_videoEmbedContext } from "./bitmarkParser";
+import { Bit_videoPortraitContext } from "./bitmarkParser";
+import { Bit_videoLandscapeContext } from "./bitmarkParser";
 import { Bit_stillImageFilmContext } from "./bitmarkParser";
 import { Bit_stillImageFilmLinkContext } from "./bitmarkParser";
 import { Bit_stillImageFilmEmbedContext } from "./bitmarkParser";
@@ -585,15 +589,37 @@ export interface bitmarkParserListener extends ParseTreeListener {
 	exitBot_action?: (ctx: Bot_actionContext) => void;
 
 	/**
-	 * Enter a parse tree produced by `bitmarkParser.bot_action_elem`.
+	 * Enter a parse tree produced by `bitmarkParser.bo_actions`.
 	 * @param ctx the parse tree
 	 */
-	enterBot_action_elem?: (ctx: Bot_action_elemContext) => void;
+	enterBo_actions?: (ctx: Bo_actionsContext) => void;
 	/**
-	 * Exit a parse tree produced by `bitmarkParser.bot_action_elem`.
+	 * Exit a parse tree produced by `bitmarkParser.bo_actions`.
 	 * @param ctx the parse tree
 	 */
-	exitBot_action_elem?: (ctx: Bot_action_elemContext) => void;
+	exitBo_actions?: (ctx: Bo_actionsContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.boacts`.
+	 * @param ctx the parse tree
+	 */
+	enterBoacts?: (ctx: BoactsContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.boacts`.
+	 * @param ctx the parse tree
+	 */
+	exitBoacts?: (ctx: BoactsContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.feedback`.
+	 * @param ctx the parse tree
+	 */
+	enterFeedback?: (ctx: FeedbackContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.feedback`.
+	 * @param ctx the parse tree
+	 */
+	exitFeedback?: (ctx: FeedbackContext) => void;
 
 	/**
 	 * Enter a parse tree produced by `bitmarkParser.bitElem`.
@@ -1177,6 +1203,28 @@ export interface bitmarkParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitBit_videoEmbed?: (ctx: Bit_videoEmbedContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.bit_videoPortrait`.
+	 * @param ctx the parse tree
+	 */
+	enterBit_videoPortrait?: (ctx: Bit_videoPortraitContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.bit_videoPortrait`.
+	 * @param ctx the parse tree
+	 */
+	exitBit_videoPortrait?: (ctx: Bit_videoPortraitContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.bit_videoLandscape`.
+	 * @param ctx the parse tree
+	 */
+	enterBit_videoLandscape?: (ctx: Bit_videoLandscapeContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.bit_videoLandscape`.
+	 * @param ctx the parse tree
+	 */
+	exitBit_videoLandscape?: (ctx: Bit_videoLandscapeContext) => void;
 
 	/**
 	 * Enter a parse tree produced by `bitmarkParser.bit_stillImageFilm`.

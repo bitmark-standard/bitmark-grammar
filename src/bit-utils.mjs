@@ -148,6 +148,34 @@ class BitUtil {
     return '';
   }
   
+  // Retrieve the string between ]nl and nl
+  getstring_insidenl(ctx) {
+    let tmps = 'no children';
+    if (!ctx.children) {
+      
+      let stop;
+      if (ctx.stop===undefined) {
+	stop = ctx._start.stop;  // this happens when there is an syntax error
+      } else
+	stop = ctx.stop.stop;    
+      let start = ctx.start.start;
+      let nlat = this.source.indexOf(']\n', start);
+      let nloff = 0;
+      if (0 < nlat && (nlat - start) < 8) {  // 8 is a hack value
+	nloff = (nlat - start) + 2;  // x]\n
+      }
+      let nloff0 = nloff;
+      tmps = R.slice(start+nloff, stop+nloff+2, this.source);
+      let i = 0;
+      while (tmps[i++].match(/[ \t\n\r]/)) 
+	nloff++;
+      if (nloff0 != nloff)
+	tmps = R.slice(start+nloff, stop+nloff+2, this.source);
+      return tmps;
+    }
+    return '';
+  }
+  
   /*
    * Splits the source bitbook into each and every bit.
    * Returns an array of bit={offset:x, bit:text}

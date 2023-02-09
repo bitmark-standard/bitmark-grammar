@@ -62,10 +62,13 @@ bit:
 	| learning_path_external_link | learning_path_classroom_training
 	| learning_path_classroom_event
 	| bot_action_send | bot_action_announce	| bot_action_save | bot_action_remind
+	| bot_action_response | bot_action_true_false
+	| bot_action_rating_number | bot_action_rating_stars
 
 	| bit_image | bit_imageLink | bit_imageZoom
 	| bit_audio | bit_audioLink | bit_audioEmbed
 	| bit_video | bit_videoLink | bit_videoEmbed
+	| bit_videoPortrait | bit_videoLandscape
 	| bit_stillImageFilm | bit_stillImageFilmLink | bit_stillImageFilmEmbed
 	| bit_document | bit_documentLink | bit_documentEmbed | bit_documentDownload
 	| bit_websiteLink | bit_appLink | bit_editorial
@@ -82,8 +85,6 @@ bit:
 	| code | card1 | question1
 
 	| screenshot | focus_image | photo | browser_image
-	| bot_action_response | bot_action_true_false
-	| bot_action_rating_number | bot_action_rating_stars
 
 ;
 //
@@ -151,13 +152,15 @@ bot_action_announce:       BitBotActionAnnounce format CL NL* ( bitElem NL* )+ ;
 bot_action_save:           BitBotActionSave format CL NL* ( bitElem NL* )+ ;
 bot_action_remind:         BitBotActionRemind format CL NL* ( bitElem NL* )+ ;
 //
-bot_action_response:	   BitBotActionResponse format CL NL* ( bitElem NL* )+  bot_action ;
-bot_action_true_false:	   BitBotActionTrueFalse format CL NL* ( bitElem NL* )+  bot_action ;
-bot_action_rating_number:  BitBotActionRatingNumber format CL NL* ( bitElem NL* )+  bot_action ;
-bot_action_rating_stars:   BitBotActionRatingStars format CL NL* ( bitElem NL* )+  bot_action; 
-bot_action:		   (HSPL (NL* bot_action_elem NL*)+ )+  HSPL NL* ;
-bot_action_elem:	   bitElem ;
-
+bot_action_response:	   BitBotActionResponse format CL NL* ( bitElem NL* )+  bot_action+ HSPL NL* ;
+bot_action_true_false:	   BitBotActionTrueFalse format CL NL* ( bitElem NL* )+  bot_action+ HSPL NL* ;
+bot_action_rating_number:  BitBotActionRatingNumber format CL NL* ( bitElem NL* )+  bot_action+ HSPL NL* ;
+bot_action_rating_stars:   BitBotActionRatingStars format CL NL* ( bitElem NL* )+  bot_action+ HSPL NL* ;
+//
+bot_action:		   HSPL bo_actions   ;
+bo_actions:		   (NL* boacts NL*)+ ;
+boacts:			   instruction | item | atdef | hint | choice_minus | choice_plus | feedback ;
+feedback:		   s_and_w ;
 
 //
 bitElem:
@@ -311,6 +314,8 @@ bit_audioEmbed:	      		BitAudioEmbed format2 CL NL* ( bitElem NL*)+ ;
 bit_video:	      		BitVideo format2 CL NL* ( bitElem NL*)+ ;
 bit_videoLink:	      		BitVideoLink format2 CL NL* ( bitElem NL*)+ ;
 bit_videoEmbed:	      		BitVideoEmbed format2 CL NL* ( bitElem NL*)+ ;
+bit_videoPortrait:		BitVideoPortrait format2 CL NL* ( bitElem NL*)+ ;
+bit_videoLandscape:		BitVideoLandscape format2 CL NL* ( bitElem NL*)+ ;
 bit_stillImageFilm:   		BitStillImageFilm format2 CL NL* ( bitElem NL*)+ ;
 bit_stillImageFilmLink:   	BitStillImageFilmLink format2 CL NL* ( bitElem NL*)+ ;
 bit_stillImageFilmEmbed:  	BitStillImageFilmEmbed format2 CL NL* ( bitElem NL*)+ ;
@@ -356,10 +361,10 @@ code:			       BitCode format CL NL* ( bitElem NL* )+ ;
 card1:			       BitCard1 format CL NL* ( bitElem NL* )+ ;
 question1:		       BitQuestion1 format CL NL* ( bitElem NL* )+ ;
 
-screenshot:		       BitScreenshot format CL NL* ( bitElem NL*)+ ;
-focus_image:		       BitFocusImage format CL NL* ( bitElem NL*)+ ;
-photo:			       BitPhoto format CL NL* ( bitElem NL*)+ ;
-browser_image:		       BitBrowserImage format CL NL* ( bitElem NL*)+ ;
+screenshot:		       BitScreenshot format2 CL NL* ( bitElem NL*)+ ;
+focus_image:		       BitFocusImage format2 CL NL* ( bitElem NL*)+ ;
+photo:			       BitPhoto format2 CL NL* ( bitElem NL*)+ ;
+browser_image:		       BitBrowserImage format2 CL NL* ( bitElem NL*)+ ;
 
 
 message:

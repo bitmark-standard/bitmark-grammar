@@ -6,11 +6,24 @@ Wusstest du, dass du einen **Teil der Kosten selbst bezahlen** musst, wenn du be
 Der Entscheid darüber liegt nicht bei der Versicherung, sondern ist **gesetzlich vorgeschrieben.**
 
 ===
-[!Ja, das weiss ich]
+[%A]
+[!👍 Cool! Ja, das weiss ich]
 [@reaction:celebrate]
 👍 Cool!
 ===
+[%B]
+[!👍 Cool n groovy!]
+[@reaction:like]
+👍 Cool n groovy!
+===
+[%C]
 [!Das war mir nicht bewusst]
+[@reaction:like]
+👍 Cool n groovy n farout!
+===
+[%D]
 
+
+👍 Cool n groovy n good!
 [@reaction:like]
 ===

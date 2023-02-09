@@ -97,6 +97,8 @@ BitAudioEmbed:			NL OPDOT S* 'audioEmbed'   ;
 BitVideo:			NL OPDOT S* 'video'   ;
 BitVideoLink:			NL OPDOT S* 'videoLink'   ;
 BitVideoEmbed:			NL OPDOT S* 'videoEmbed'   ;
+BitVideoPortrait:		NL OPDOT S* 'video-portrait'   ;
+BitVideoLandscape:		NL OPDOT S* 'video-landscape'   ;
 BitStillImageFilm: 		NL OPDOT S* 'stillImageFilm'   ;
 BitStillImageFilmLink:		NL OPDOT S* 'stillImageFilmLink'   ;
 BitStillImageFilmEmbed:		NL OPDOT S* 'stillImageFilmEmbed'   ;
