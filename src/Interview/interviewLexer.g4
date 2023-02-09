@@ -221,5 +221,7 @@ LIST_LINE:
     S* '('? [0-9]+    (')') S+ SENTENCE NL
   | S* '('? [A-Za-z]+ (')') S+ SENTENCE NL
 ;
+ENCLBARS:	'|' .*? '|' ;
+
 //<<<<<<<<<<<<<<<< COMMON <<<<<<<<<<<<<<<<<<<<
 

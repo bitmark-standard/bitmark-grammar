@@ -148,29 +148,42 @@ class BitUtil {
     return '';
   }
   
-  // Retrieve the string between ]nl and nl
+  /*
+   *  Retrieve the string between ]nl and nl
+   */
   getstring_insidenl(ctx) {
     let tmps = 'no children';
     if (!ctx.children) {
-      
+
       let stop;
-      if (ctx.stop===undefined) {
-	stop = ctx._start.stop;  // this happens when there is an syntax error
-      } else
-	stop = ctx.stop.stop;    
+      stop = ctx.stop===undefined? ctx._start.stop : ctx.stop.stop;
       let start = ctx.start.start;
-      let nlat = this.source.indexOf(']\n', start);
-      let nloff = 0;
-      if (0 < nlat && (nlat - start) < 8) {  // 8 is a hack value
-	nloff = (nlat - start) + 2;  // x]\n
+      if (this.source[start-1] === '|') {
+	// ENCLBARS (enclose in ||) then
+	start -= 1;
+	tmps = R_slice(start, stop, this.source);
       }
-      let nloff0 = nloff;
-      tmps = R.slice(start+nloff, stop+nloff+2, this.source);
-      let i = 0;
-      while (tmps[i++].match(/[ \t\n\r]/)) 
-	nloff++;
-      if (nloff0 != nloff)
-	tmps = R.slice(start+nloff, stop+nloff+2, this.source);
+      else {
+	// not ENCLBARS
+	let nlat = this.source.indexOf(']\n', start);
+	let nloff = 0;
+	if (0 < nlat && (nlat - start) < 8) {  // 8 is a hack value
+	  nloff = (nlat - start) + 2;  // x]\n
+	}
+	else if (this.source[start-1] != '\n') {
+	  while (this.source[start-nloff] != '\n')
+	    nloff++;
+	  nloff--;   // skip \n
+	  return R_slice(start-nloff, stop+nloff, this.source);
+	}
+	let nloff0 = nloff;
+	tmps = R_slice(start+nloff, stop+nloff+2, this.source);
+	let i = 0;
+	while (tmps[i++].match(/[ \t\n\r]/)) 
+	  nloff++;
+	if (nloff0 != nloff)
+	  tmps = R_slice(start+nloff, stop+nloff+2, this.source);
+      }
       return tmps;
     }
     return '';

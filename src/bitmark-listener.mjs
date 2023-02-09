@@ -1655,8 +1655,17 @@ BitmarkListener.prototype.exitAtdef_ = function(ctx) {
     else if (what === 'bot_action') {
       // bot-action-response
       let l = this.stk.top().bit.responses.length;
+      const REACTIONS = ['correct','wrong','unknown','agree','disagree','celebrate',
+			 'like','success','funny','love','insightful','ok','neutral',
+			 'happy','cool','what?'];
+      if (vals[0]==='reaction') {
+	if (REACTIONS.indexOf(vals[1]) < 0) {
+	  this.error_listener.manualError(ctx, ctx._start.line-1, 0,
+		      `Reaction value "${vals[1]}" is not allowed`);
+	  return null; }
+      }
       this.stk.top().bit.responses[l-1][vals[0]] = vals[1];
-    }
+    }    
     else {
       // @def values be in a list
       if (!(vals[0] in this.stk.top().bit)) {

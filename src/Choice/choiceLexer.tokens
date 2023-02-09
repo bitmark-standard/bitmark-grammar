@@ -141,6 +141,7 @@ DotArticleAtt=140
 STAR=141
 URL=142
 LIST_LINE=143
+ENCLBARS=144
 '[.'=1
 '[^'=15
 ':'=30

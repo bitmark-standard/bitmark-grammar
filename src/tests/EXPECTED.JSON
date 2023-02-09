@@ -12262,4 +12262,94 @@
         }
     }
 ]
+<<<<./tests/bot-action-response.bit
+[
+    {
+        "bitmark": "[.bot-action-response]\n[!\nWusstest du, dass du einen **Teil der Kosten selbst bezahlen** musst, wenn du bekifft einen Unfall verursachst?\n]\n\nDer Entscheid darüber liegt nicht bei der Versicherung, sondern ist **gesetzlich vorgeschrieben.**\n\n===\n[%A]\n[!Ja, das weiss ich]\n[@reaction:celebrate]\n👍 Cool!\n===\n[%B]\n[!Das war mir nicht bewusst]\n😅\n[@reaction:like]\n===",
+        "bit": {
+            "type": "bot-action-response",
+            "format": "bitmark--",
+            "body": "Der Entscheid darüber liegt nicht bei der Versicherung, sondern ist **gesetzlich vorgeschrieben.**\n\n===\n\n\n\n\n===\n\n\n\n\n===",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "instruction": "Wusstest du, dass du einen **Teil der Kosten selbst bezahlen** musst, wenn du bekifft einen Unfall verursachst?",
+            "responses": [
+                {
+                    "response": "Ja, das weiss ich",
+                    "reaction": "celebrate",
+                    "item": "A",
+                    "feedback": "👍 Cool!"
+                },
+                {
+                    "response": "Das war mir nicht bewusst",
+                    "reaction": "like",
+                    "item": "B",
+                    "feedback": "😅"
+                }
+            ]
+        }
+    },
+    {
+        "bitmark": "[.bot-action-response:bitmark++]\n[!Wenn du Cannabis konsumiert hast, musst du übrigens lange warten, bis du dich wieder hinters Steuer setzen darfst. THC wird nicht regelmässig abgebaut: Im Blut kann Cannabis 8 bis 30 Stunden nach dem Konsum nachgewiesen werden.]\n\nWie sich legale CBD-Hanf-Zigaretten auf dein Fahrverhalten auswirken, erfährst du in unserem ==Blog.==|link:http://https://www.axa.ch/de/privatkunden/blog/unterwegs/sicherheit-auf-der-strasse/cbd-hanfzigaretten-und-fahrtuechtigkeit.html|\n\n\n===\n[!Okay]\n[@reaction:insightful]\n|image:http://memes.com/funny.gif|\n===\nBei regelmässigem Cannabiskonsum muss ganz auf das Autofahren verzichtet werden, weil der THC-Gehalt im Blut nicht mehr auf Null fällt.",
+        "bit": {
+            "type": "bot-action-response",
+            "format": "bitmark++",
+            "body": "Wie sich legale CBD-Hanf-Zigaretten auf dein Fahrverhalten auswirken, erfährst du in unserem ==Blog.==|link:http://https://www.axa.ch/de/privatkunden/blog/unterwegs/sicherheit-auf-der-strasse/cbd-hanfzigaretten-und-fahrtuechtigkeit.html|\n\n\n===\n\n\n\n===\nBei regelmässigem Cannabiskonsum muss ganz auf das Autofahren verzichtet werden, weil der THC-Gehalt im Blut nicht mehr auf Null fällt.",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "instruction": "Wenn du Cannabis konsumiert hast, musst du übrigens lange warten, bis du dich wieder hinters Steuer setzen darfst. THC wird nicht regelmässig abgebaut: Im Blut kann Cannabis 8 bis 30 Stunden nach dem Konsum nachgewiesen werden.",
+            "responses": [
+                {
+                    "response": "Okay",
+                    "reaction": "insightful",
+                    "item": "",
+                    "feedback": "|image:http://memes.com/funny.gif|"
+                }
+            ]
+        }
+    },
+    {
+        "bitmark": "[.bot-action-response]\n[!\nWusstest du, dass du einen **Teil der Kosten selbst bezahlen** musst, wenn du bekifft einen Unfall verursachst?\n]\n\nDer Entscheid darüber liegt nicht bei der Versicherung, sondern ist **gesetzlich vorgeschrieben.**\n\n===\n[%A]\n[!👍 Cool! Ja, das weiss ich]\n[@reaction:celebrate]\n👍 Cool!\n===\n[%B]\n[!👍 Cool n groovy!]\n[@reaction:like]\n👍 Cool n groovy!\n===\n[%C]\n[!Das war mir nicht bewusst]\n[@reaction:like]\n👍 Cool n groovy n farout!\n===\n[%D]\n\n\n👍 Cool n groovy n good!\n[@reaction:like]\n===",
+        "bit": {
+            "type": "bot-action-response",
+            "format": "bitmark--",
+            "body": "Der Entscheid darüber liegt nicht bei der Versicherung, sondern ist **gesetzlich vorgeschrieben.**\n\n===\n\n\n\n\n===\n\n\n\n\n===\n\n\n\n\n===\n\n\n\n\n\n===",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "instruction": "Wusstest du, dass du einen **Teil der Kosten selbst bezahlen** musst, wenn du bekifft einen Unfall verursachst?",
+            "responses": [
+                {
+                    "response": "👍 Cool! Ja, das weiss ich",
+                    "reaction": "celebrate",
+                    "item": "A",
+                    "feedback": "👍 Cool!"
+                },
+                {
+                    "response": "👍 Cool n groovy!",
+                    "reaction": "like",
+                    "item": "B",
+                    "feedback": "👍 Cool n groovy!"
+                },
+                {
+                    "response": "Das war mir nicht bewusst",
+                    "reaction": "like",
+                    "item": "C",
+                    "feedback": "👍 Cool n groovy n farout!"
+                },
+                {
+                    "response": "",
+                    "reaction": "like",
+                    "item": "D",
+                    "feedback": "👍 Cool n groovy n good!"
+                }
+            ]
+        }
+    }
+]
 <<<<

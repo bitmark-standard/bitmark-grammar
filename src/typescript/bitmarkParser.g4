@@ -160,7 +160,7 @@ bot_action_rating_stars:   BitBotActionRatingStars format CL NL* ( bitElem NL* )
 bot_action:		   HSPL bo_actions   ;
 bo_actions:		   (NL* boacts NL*)+ ;
 boacts:			   instruction | item | atdef | hint | choice_minus | choice_plus | feedback ;
-feedback:		   s_and_w ;
+feedback:		   ENCLBARS | s_and_w ;
 
 //
 bitElem:

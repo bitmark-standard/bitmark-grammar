@@ -152,7 +152,8 @@ const testfiles = [
   './tests/book-bits.bit',
   './tests/code.bit',
   './tests/image-audio-video.bit',
-  
+  './tests/bot-action-response.bit',
+
   './tests/resource-all.bit',
   './tests/utfgpun.bit',
 

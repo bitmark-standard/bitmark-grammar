@@ -1655,6 +1655,15 @@ BitmarkListener.prototype.exitAtdef_ = function(ctx) {
     else if (what === 'bot_action') {
       // bot-action-response
       let l = this.stk.top().bit.responses.length;
+      const REACTIONS = ['correct','wrong','unknown','agree','disagree','celebrate',
+			 'like','success','funny','love','insightful','ok','neutral',
+			 'happy','cool','what?'];
+      if (vals[0]==='reaction') {
+	if (REACTIONS.indexOf(vals[1]) < 0) {
+	  this.error_listener.manualError(ctx, ctx._start.line-1, 0,
+		      `Reaction value "${vals[1]}" is not allowed`);
+	  return null; }
+      }
       this.stk.top().bit.responses[l-1][vals[0]] = vals[1];
     }
     else {
@@ -2451,7 +2460,7 @@ BitmarkListener.prototype.enterBot_action = function(ctx) {
   if (this.stk.top().bit.responses === undefined)
     this.stk.top().bit['responses'] = [];
   this.stk.top().bit.responses.push({ "response": "", "reaction": "", "item": "", "feedback": "" });
-  this.curr_bit_stk.push('bot_action');
+  this.curr_bit_stk.push('bot_action');  // push a marker.
 };
 BitmarkListener.prototype.exitBot_action = function(ctx) {
   this.curr_bit_stk.pop();
