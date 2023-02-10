@@ -79,16 +79,16 @@ BitmarkListener.prototype.push_tmpl = function(ctx, type, template=R_clone(JSON_
   // bit_type is like "[.video]"
   let bit_type = this.source.match(/\s*\[([^\]]+)\]/)[0];
   let body = this.source.replace(bit_type, '');
-  b.bit['body'] = body;
   let code = this.but.getcode(ctx).trim(); 
   let res = this.but.get_bit_resource(code);
   // closing ] may be there
-  //this.resformat = b.bit.format==='' && res.length === 0 ? 'bitmark--' : res[0];
-  this.resformat = res.length === 0 ? 'bitmark--' : res[0];
+  let bitfmt = res.length === 0 ? 'bitmark--' : res[0];
+  b.bit['body'] = body;
 
   // If arg type is one of [image, audio, video], then set the resformat as the bit name
   let found = false;
   for (let t of this.resselfdesc) {
+    // ['image', 'audio', 'video', 'stillImageFilm']
     if (type.startsWith(t)) {
       this.resformat = '&'+t;  // image audio video
       found = true;
@@ -98,9 +98,9 @@ BitmarkListener.prototype.push_tmpl = function(ctx, type, template=R_clone(JSON_
   if (!found && -1 < this.resimagegrp.indexOf(type)) 
     this.resformat = '&image';  // image audio video
   
-  if (this.fmtlist.indexOf(this.resformat) >= 0)
-      b.bit.format = this.resformat;
-
+  if (-1 < ['bitmark++', 'bitmark--', 'text'].indexOf(bitfmt))
+    b.bit.format = bitfmt;
+  
   this.stk.push(b);
 };
 //
