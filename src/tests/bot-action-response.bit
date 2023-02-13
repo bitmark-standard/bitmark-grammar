@@ -1,0 +1,66 @@
+[.bot-action-response]
+[!
+Wusstest du, dass du einen **Teil der Kosten selbst bezahlen** musst, wenn du bekifft einen Unfall verursachst?
+]
+
+Der Entscheid darüber liegt nicht bei der Versicherung, sondern ist **gesetzlich vorgeschrieben.**
+
+===
+[%A]
+[!Ja, das weiss ich]
+[@reaction:celebrate]
+👍 Cool!
+===
+[%B]
+[!Das war mir nicht bewusst]
+😅
+[@reaction:like]
+===
+
+
+[.bot-action-response:bitmark++]
+[!Wenn du Cannabis konsumiert hast, musst du übrigens lange warten, bis du dich wieder hinters Steuer setzen darfst. THC wird nicht regelmässig abgebaut: Im Blut kann Cannabis 8 bis 30 Stunden nach dem Konsum nachgewiesen werden.]
+
+Wie sich legale CBD-Hanf-Zigaretten auf dein Fahrverhalten auswirken, erfährst du in unserem ==Blog.==|link:http://https://www.axa.ch/de/privatkunden/blog/unterwegs/sicherheit-auf-der-strasse/cbd-hanfzigaretten-und-fahrtuechtigkeit.html|
+
+
+===
+[!Okay]
+[@reaction:insightful]
+|image:http://memes.com/funny.gif|
+===
+Bei regelmässigem Cannabiskonsum muss ganz auf das Autofahren verzichtet werden, weil der THC-Gehalt im Blut nicht mehr auf Null fällt.
+
+
+
+[.bot-action-response]
+[!
+Wusstest du, dass du einen **Teil der Kosten selbst bezahlen** musst, wenn du bekifft einen Unfall verursachst?
+]
+
+Der Entscheid darüber liegt nicht bei der Versicherung, sondern ist **gesetzlich vorgeschrieben.**
+
+===
+[%A]
+[!👍 Cool! Ja, das weiss ich]
+[@reaction:celebrate]
+👍 Cool!
+===
+[%B]
+[!👍 Cool n groovy!]
+[@reaction:like]
+👍 Cool n groovy!
+===
+[%C]
+[!Das war mir nicht bewusst]
+[@reaction:like]
+👍 Cool n groovy n farout!
+===
+[%D]
+
+
+👍 Cool n groovy n good!
+[@reaction:like]
+===
+
+

@@ -1,0 +1,33 @@
+
+
+
+
+
+
+[&image: :https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/259375_original_r_by_thomas_k_lsch_pixelio.de.jpg]
+
+[&image: :https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/karabinerhacken.jpg]
+
+[&image: :https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/schlafen-neu.jpg][@reference]
+
+
+
+[&audio: :https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/audio/10_erkundungen_b2_3a.mp3]
+15_erkundungen_b2_3a.mp3
+
+[@reference:Nach: Heise Online, 28.1.2018 https://www.heise.de/newsticker/meldung/]
+[@reference: Hansgeorg Stengel: Bücherwurm und Leseratte. Aus: H. Stengel/ H.-E. Ernst: Wasserhahn und Muskelkater. LEiV-Verlag Leipzig 2000.]
+
+[@reference: Pixabay][@copyright: flooy]
+
+[@reference: Pixabay][@author: flooy][@role: photographer]
+
+[@reference: Fotolia][@author: ]
+
+
+
+
+[.internal-link]
+[!Zusatzübungen zu Modalverben ➔ Teil C][►kapitel1c]
+ 
+[.chapter][▼kapitel1c]

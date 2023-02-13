@@ -1,0 +1,18 @@
+[.multiple-choice-text]
+[%A28c2]
+[!Das Privatleben von Prominenten
+In welchem Genus, Kasus und Numerus steht die Nomengruppe?]
+
+des berühmten Sängers[+maskulin][-feminin][-neutral] [+singular][-plural] [+Genitiv][-Akkusativ][-Nominativ][-Dativ],
+In der letzten Zeit[-maskulin][+feminin][-neutral] [+singular][-plural] [-Genitiv][-Akkusativ][-Nominativ][+Dativ]
+der schönen Backgroundsängerin[-maskulin][+feminin][-neutral] [+singular][-plural] [-Genitiv][-Akkusativ][-Nominativ][+Dativ]
+den erfolgreichen Scheidungsanwalt[+maskulin][-feminin][-neutral] [+singular][-plural] [-Genitiv][+Akkusativ][-Nominativ][-Dativ]
+das alleinige Sorgerecht[-maskulin][-feminin][+neutral] [+singular][-plural] [-Genitiv][+Akkusativ][-Nominativ][-Dativ]
+den gemeinsamen Sohn[+maskulin][-feminin][-neutral] [+singular][-plural] [-Genitiv][+Akkusativ][-Nominativ][-Dativ]
+der betrogenen Ehefrau[-maskulin][+feminin][-neutral] [+singular][-plural] [-Genitiv][-Akkusativ][-Nominativ][+Dativ]
+finanzielle Ansprüche[-singular][+plural] [-Genitiv][+Akkusativ][-Nominativ][-Dativ]
+eine unerwartete Wendung[-maskulin][+feminin][-neutral] [+singular][-plural] [-Genitiv][+Akkusativ][-Nominativ][-Dativ]
+Ein stadtbekannter Juwelier[+maskulin][-feminin][-neutral] [+singular][-plural] [-Genitiv][-Akkusativ][+Nominativ][-Dativ]
+der wertvolle Schmuck[+maskulin][-feminin][-neutral] [+singular][-plural] [-Genitiv][-Akkusativ][+Nominativ][-Dativ]
+eine romantische Versöhnung[-maskulin][+feminin][-neutral] [+singular][-plural] [-Genitiv][+Akkusativ][-Nominativ][-Dativ]
+||Der Teil "Vergleichen Sie Ihre Ergebnisse mit anderen Lernern." wurde in der Instruktion weggelassen (Workshop 15.9.2020)||

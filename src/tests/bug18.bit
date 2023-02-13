@@ -1,0 +1,13 @@
+[.article:bitmark++]
+
+[&image::https://docs.bitbook.education/bit-books/gmb/tipps/web-resources/images/1.png]
+
+In cases where there is a defined correct answer [.match] bits should be used
+Where there are open questions with suggested answers the [.interview] + [$o] should be used
+
+**.interview**
+This bit has 2 types of possible answers
+_ are answers that are compared to the user input
+If the input is equal to one of the answers the feedback to the user is that his answer was correct (green), wrong otherwise
+ 
+$ answers are a hint to the user. A sample solution. It's not taken into account for giving feedback, right/wrong

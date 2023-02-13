@@ -1,0 +1,845 @@
+[.multiple-choice-1:bitmark--]
+[!Beispiel: 
+Paolo ___ Italiener.] 
+[-a) sind] [-b) seid] [+c) ist][@example] [-d) bin] 
+ 
+Stufe eins: 
+[.multiple-choice-1:bitmark--]
+[%1.] 
+[!Hallo! Ich ________________ Ralf Müller.] 
+[-a) ist] 
+[-b) Name] 
+[+c) bin] 
+[-d) von] 
+  
+[.multiple-choice-1:bitmark--]
+[%2.] 
+[!________________ ist das? Das ist der Lehrer.] 
+[-a)Was ] 
+[-b)Wo] 
+[-c) Wie] 
+[+d) Wer] 
+  
+[.multiple-choice-1:bitmark--]
+[%3.] 
+[!Das ist mein Laptop. Das sind ________________ E-Mails.] 
+[-a) mein] 
+[+b) meine]  
+[-c) meines] 
+[-d) meinen] 
+  
+[.multiple-choice-1:bitmark--]
+[%4.] 
+[!Haben Sie ________________? Ja, ich habe einen Bruder.] 
+[-a) einen Mann] 
+[-b) Kinder] 
+[+c) Geschwister] 
+[-d) einen Sohn] 
+  
+[.multiple-choice-1:bitmark--]
+[%5.] 
+[!Wie spät ist es? 19.30 Uhr.] 
+[+a) halb acht] 
+[-b) neun Uhr dreißig] 
+[-c) neunzehn Uhr dreizehn] 
+[-d) halb zehn] 
+  
+[.multiple-choice-1:bitmark--]
+[%6.] 
+[!Wo steht der Fernseher? Er steht ________________ dem Tisch.] 
+[-a) ein] 
+[-b) zwischen] 
+[-c) durch] 
+[+d) auf] 
+  
+  
+[.multiple-choice-1:bitmark--]
+[%7.]  
+[!Wohin fährst du? Ich fahre ________________ Berlin.] 
+[-a) zu] 
+[+b) nach]  
+[-c) auf] 
+[-d) hin] 
+  
+[.multiple-choice-1:bitmark--]
+[%8.]  
+[!Als ________________ nehme ich eine Suppe.] 
+[+a) Vorspeise] 
+[-b) Nachspeise] 
+[-c) Salat] 
+[-d) Getränk] 
+ 
+ 
+ 
+Stufe 2 
+ 
+[.multiple-choice-1:bitmark--]
+[%9.] 
+[!Das Buch gehört ________________!] 
+a) mich  
+b) meinen Bruder  
+c) meine Schwester 
+d) mir 
+  
+[.multiple-choice-1:bitmark--]
+[%10.]  
+[!Welche ________________ haben Sie? Bei Hosen habe ich 40.] 
+a) Zahl  
+b) Hose  
+c) Größe 
+d) Jacke 
+  
+[.multiple-choice-1:bitmark--]
+[%11.] 
+[!Der Arzt schreibt mich krank. Ich bin ________________.] 
+a) krankschreiben  
+b) krankenschrift  
+c) krankenschreiben 
+d) krankgeschrieben 
+  
+[.multiple-choice-1:bitmark--]
+[%12.] 
+[!Ich möchte mich für die Prüfung ________________.] 
+a) beantragen  
+b) ablegen  
+c) anmelden 
+d) finden 
+  
+[.multiple-choice-1:bitmark--]
+[%13.] 
+[!Ich möchte wissen, ________________ der Bahnhof ist.] 
+a) wann  
+b) wo  
+c) wer 
+d) ob 
+  
+[.multiple-choice-1:bitmark--]
+[%14.] 
+[!Frau Friedrich ________________ das Fenster ________________.] 
+a) hast/zumachen  
+b) hat/zumacht  
+c) hat/zugemacht 
+d) habe/zumachst 
+  
+[.multiple-choice-1:bitmark--]
+[%15.]  
+[!Das sind die ________________ Modelle.] 
+a) aktuellen  
+b) aktuelles  
+c) aktuelle 
+d) aktueller 
+  
+[.multiple-choice-1:bitmark--]
+[%16.] 
+[!Erholen Sie sich in unserem ________________ Wellnessbereich.] 
+a) neuen  
+b) neuem  
+c) neuer 
+d) neues 
+ 
+ 
+ 
+ 
+Stufe drei 
+[.multiple-choice-1:bitmark--]
+[%17.] 
+[!Das Haus hat nicht nur einen Balkon, ________________ auch einen Garten.] 
+a) aber  
+b) sondern  
+c) oder  
+d) mit 
+  
+  
+[.multiple-choice-1:bitmark--]
+[%18.] 
+[!Ich brauche einen Hammer, ________________ Nägel in die Wand ________________ schlagen.] 
+a) und/für  
+b) zwei/von  
+c) für/zu 
+d) um/zu 
+  
+  
+  
+[.multiple-choice-1:bitmark--]
+[%19.] 
+[!________________ Tag ist heute?] 
+a) Welcher  
+b) Was für eine  
+c) Was 
+d) Wann  
+  
+  
+[.multiple-choice-1:bitmark--]
+[%20.] 
+[!________________ es regnet, bleibe ich zu Hause.] 
+a) Wann  
+b) Als  
+c) So 
+d) Wenn 
+  
+[.multiple-choice-1:bitmark--]
+[%21.]  
+[!Das Buch ist spannender ________________ der Film.] 
+a) wie  
+b) als  
+c) als wie 
+d) wie als 
+  
+[.multiple-choice-1:bitmark--]
+[%22.]  
+[!Es liegt hinter ________________.] 
+a) mir  
+b) dich  
+c) sie 
+d) ihn 
+  
+[.multiple-choice-1:bitmark--]
+[%23.] 
+[!Ich bin mit ________________ einverstanden.] 
+a) alle  
+b) alles  
+c) allem 
+d) aller 
+  
+[.multiple-choice-1:bitmark--]
+[%24.] 
+[!Ich freue mich ________________ den Urlaub.] 
+a) an  
+b) auf  
+c) über 
+d) für 
+ 
+ 
+ 
+Stufe vier 
+[.multiple-choice-1:bitmark--]
+[%25.] 
+[!Schön, dich zu ______________!] 
+a) nennen  
+b) kennenlernen  
+c) sehen 
+d) gehen 
+  
+[.multiple-choice-1:bitmark--]
+[%26.]  
+[!Der Verkäufer zeigt ________ Mann ______ Uhr.] 
+a) das/der  
+b) den/das  
+c) dem/den 
+d) dem/die 
+  
+[.multiple-choice-1:bitmark--]
+[%27.]  
+[!Ein Haus in Japan kostet im Vergleich zu Deutschland ________________.] 
+a) jede zweite  
+b) ungefähr  
+c) halb  
+d) das Doppelte 
+  
+  
+[.multiple-choice-1:bitmark--]
+[%28.]  
+[!Die Werbung ist ________________.] 
+a) schnellsten  
+b) einfallsreich  
+c) neue  
+d) günstigere 
+  
+  
+[.multiple-choice-1:bitmark--]
+[%29.]  
+[!Ich bin an einer Mitarbeit in Ihrer Firma interessiert, ________________ bewerbe ich mich bei Ihnen.] 
+a) deshalb  
+b) damit  
+c) sodass 
+d) denn 
+  
+  
+  
+[.multiple-choice-1:bitmark--]
+[%30.]  
+[!Während ________________ Ferien habe ich gelesen.] 
+a) den  
+b) die  
+c) der 
+d) denen 
+  
+  
+[.multiple-choice-1:bitmark--]
+[%31.]  
+[!Kannst du ________________ sehen?] 
+a) irgendetwas  
+b) irgendwo  
+c) irgendwer 
+d) irgendein 
+  
+  
+[.multiple-choice-1:bitmark--]
+[%32.]  
+[!Bevor er sie heiratete, ________________ er sich in sie verliebt.] 
+a) hat  
+b) ist  
+c) war 
+d) hatte 
+  
+  
+  
+  
+ 
+Stufe fünf 
+[.multiple-choice-1:bitmark--]
+[%33.] 
+[!Die Bedienungsanleitung ________________ noch gedruckt.] 
+a) ist  
+b) kann  
+c) wird  
+d) soll 
+  
+[.multiple-choice-1:bitmark--]
+[%34. ] 
+[!Der Mann, ________________ das Auto gehört, heißt Paul.] 
+a) der  
+b) dem  
+c) des  
+d) den 
+  
+[.multiple-choice-1:bitmark--]
+[%35.]  
+[!Das ist ________________ Wagen, aber nicht ________________.] 
+a) derselbe/der gleiche  
+b) denselben/den gleichen  
+c) den gleichen/denselben  
+d) der gleiche/derselbe 
+  
+  
+[.multiple-choice-1:bitmark--]
+[%36.]  
+[!Ich ________________ mich gerne verkleiden ________________.] 
+a) ware/haben  
+b) würde/können  
+c) wurde/gehabt  
+d) war/sein 
+  
+  
+[.multiple-choice-1:bitmark--]
+[%37.]  
+[!________________ Sie noch so nett, sich frei zu machen, damit ich Ihre Lunge abhören kann?] 
+a) Hätten  
+b) Wären  
+c) Könnten  
+d) Sollten 
+  
+[.multiple-choice-1:bitmark--]
+[%38. ] 
+[!Ich muss sie ________________ kennen, ________________ muss ich sie mögen.] 
+a) eigentlich/aber  
+b) nicht nur/sondern auch  
+c) sowohl/als auch  
+d) weder/noch 
+  
+  
+[.multiple-choice-1:bitmark--]
+[%39. ] 
+[!Du findest es sicher toll, alle Sehenswürdigkeiten ________________.] 
+a) zu besichtigen  
+b) zu beschichten  
+c) zu beschützen 
+d) zu berichten  
+  
+[.multiple-choice-1:bitmark--]
+[%40. ] 
+Wir leben kurz außerhalb ________________. 
+a) die Stadt  
+b) zur Stadt  
+c) der Stadt 
+d) vom Stadt 
+ 
+ 
+ 
+Stufe sechs 
+[.multiple-choice-1:bitmark--]
+[%41.] 
+[!Ich hatte Glück, ________________ ich den Job bekommen habe.] 
+a) ob  
+b) dass  
+c) wie 
+d) wo 
+  
+  
+[.multiple-choice-1:bitmark--]
+[%42.]  
+[!Trotz ________________ geht er spazieren.] 
+a) dem starken Regen  
+b) der starke Regen  
+c) des starken Regens 
+d) den starken Regen 
+  
+[.multiple-choice-1:bitmark--]
+[%43.]  
+[!Warum fällt das Konzert aus? __________ der Sänger erkrankt ist.] 
+a) Darum  
+b) Denn  
+c) Deshalb 
+d) Weil 
+  
+[.multiple-choice-1:bitmark--]
+[%44.]  
+[!Komm‘ bitte rauf! Ja, ich komme gleich ________________.] 
+a) hoch  
+b) unten 
+c) draußen 
+d) oben 
+  
+[.multiple-choice-1:bitmark--]
+[%45.]  
+[!Vorher ________________.] 
+a) kauf ich mir ein Auto  
+b) ich mir ein Auto kauf  
+c) ich kauf mir ein Auto 
+d) ich mir kauf ein Auto 
+  
+[.multiple-choice-1:bitmark--]
+[%46.]  
+[!Vielleicht ________________.] 
+a) bist du Recht  
+b) hast du Richtig 
+c) hast du Recht 
+d) liegst du Recht 
+  
+[.multiple-choice-1:bitmark--]
+[%47.]  
+[!Wo haben Sie sich die Haare schneiden ________________?] 
+a) machen  
+b) färben  
+c) werden 
+d) lassen 
+  
+[.multiple-choice-1:bitmark--]
+[%48.]  
+[!________ Absender schickt__________ Empfänger ___________ Brief.] 
+a) der/den/dem  
+b) der/dem/dem  
+c) den/den/der  
+d) der/dem/den 
+ 
+ 
+Stufe sieben: 
+ 
+[.multiple-choice-1:bitmark--]
+[%49.] 
+[!Ich freue mich sehr, Sie ________________.] 
+a) zu kennenlernen  
+b) kennen zu lernen  
+c) kennenlernen  
+d) zu lernenkennen 
+  
+  
+[.multiple-choice-1:bitmark--]
+[%50.] 
+[!Die Familie wohnt ________________ einem Supermarkt.] 
+a) gegenüber  
+b) zu  
+c) durch  
+d) ohne 
+  
+  
+[.multiple-choice-1:bitmark--]
+[%51.] 
+[!Der alte Mann, ________________ Wohnung im 3. Stock liegt, ist hilfebedürftig.] 
+a) dem  
+b) dessen  
+c) die 
+d) sein 
+  
+  
+[.multiple-choice-1:bitmark--]
+[%52.]  
+[!Ich kenne einen ________________, der drei Schwestern hat.] 
+d) Junges 
+a) Jungen  
+b) Jung  
+c) Junge 
+  
+  
+[.multiple-choice-1:bitmark--]
+[%53.] 
+[!Nach ________________ Arbeit gehe ich in die Stadt.] 
+a) die  
+b) der  
+c) des 
+d) den 
+  
+[.multiple-choice-1:bitmark--]
+[%54.] 
+[!Das müssen wir machen! Das ________________ wir nächste Woche in Angriff.] 
+a) sehen  
+b) machen  
+c) legen 
+d) nehmen 
+  
+  
+[.multiple-choice-1:bitmark--]
+[%55.]  
+[!Ich liebe ______________ Steak mit ________________ Salat.] 
+a) gegrillte/frische  
+b) gegrilltes/frischem  
+c) gegrillter/frischem 
+d) gegrilltes/frisches 
+  
+[.multiple-choice-1:bitmark--]
+[%56.]  
+[!Eine Fußballmannschaft __________ aus 11 Spielern.] 
+a) versteht  
+b) gesteht  
+c) steht 
+d) besteht 
+ 
+ 
+Stufe acht 
+[.multiple-choice-1:bitmark--]
+[%57.] 
+[!Er kann das Problem lösen = Er ist ________________, das Problem zu lösen.] 
+a) stetig  
+b) fertig  
+c) nötig  
+d) fähig 
+  
+[.multiple-choice-1:bitmark--]
+[%58.]  
+[!Er soll an dem Banküberfall ________________.] 
+a) beteiligt gewesen sein  
+b) begangen worden sein  
+c) verteilt haben  
+d) gefahndet werden haben 
+  
+[.multiple-choice-1:bitmark--]
+[%59.]  
+[!Man kann den Termin auch verschieben, ________________ man einen neuen Termin finden kann.] 
+a) sodass  
+b) sofern  
+c) inwiefern  
+d) damit 
+  
+[.multiple-choice-1:bitmark--]
+[%60.] 
+[!“Ich bin jeden Montag im Kino”. Er sagt, er ________________ jeden Montag im Kino.] 
+a) ist  
+b) wäre  
+c) sei  
+d) war 
+  
+[.multiple-choice-1:bitmark--]
+[%61.] 
+[!Auf der Strecke ist es nicht leicht, einen Stau ________________.] 
+a) um zu fahren  
+b) umfahren  
+c) umzufahren  
+d) zu umfahren 
+  
+[.multiple-choice-1:bitmark--]
+[%62.] 
+[!Wenn es weniger Verkehr ______________, ___________ die Belastung durch Abgase weniger.] 
+a) gibt / würde  
+b) gab / wird  
+c) gaben / wurde  
+d) gäbe / wäre 
+  
+[.multiple-choice-1:bitmark--]
+[%63.]  
+[!________________ wäre gerne Passagier auf einer Kreuzfahrt.] 
+a) Mancher  
+b) Manches  
+c) Manchen  
+d) Manch ein 
+  
+  
+[.multiple-choice-1:bitmark--]
+[%64.]  
+[!________________ sie zur Völkerverständigung beitragen, können die Olympischen Spiele keinen universellen Frieden schaffen.] 
+a) Trotz  
+b) Weil  
+c) Obwohl  
+d) Desto 
+ 
+ 
+ 
+Stufe neun 
+[.multiple-choice-1:bitmark--]
+  
+[%65.] 
+[!Es ist manchmal schwer, bei Großveranstaltungen die Sicherheit der Gäste zu ________________.] 
+a) gewähren  
+b) gewährleisten  
+c) gelingen  
+d) gehören 
+  
+[.multiple-choice-1:bitmark--]
+[%66.] 
+[!Du kannst das Buch behalten, ich habe es ________________.] 
+a) zwei  
+b) doppel  
+c) doppelt  
+d) zu zweit 
+  
+[.multiple-choice-1:bitmark--]
+[%67.]  
+[!________________ des Arbeitskräftemangels nach dem Krieg wurden Gastarbeiter angeworben.] 
+a) Denn  
+b) Deswegen  
+c) Da  
+d) Aufgrund 
+  
+  
+[.multiple-choice-1:bitmark--]
+[%68. ] 
+[!Raumschiffe mit Lichtgeschwindigkeit werden ________________ werden.] 
+a) geflogen haben  
+b) gebaut  
+c) hergestellt sind  
+d) beigelegt worden 
+  
+[.multiple-choice-1:bitmark--]
+[%69. ] 
+[!Auf der Buchmesse habe ich ________________ erfolgreichsten Schriftsteller kennengelernt.] 
+a) einen der  
+b) einer der  
+c) eine der  
+d) eines der 
+  
+  
+[.multiple-choice-1:bitmark--]
+[%70.]  
+[!________________, ________ meine Facebook-Seite nicht gefällt, muss sie nicht lesen.] 
+a) Derjenigen/dem  
+b) Diejenige/des  
+c) Denjenigen/der  
+d) Derjenige/dem 
+  
+[.multiple-choice-1:bitmark--]
+[%71.] 
+[!Das Haus + die Tür + der Schlüssel = ________________ Haustürschlüssel.] 
+a) Das  
+b) Die  
+c) Der  
+d) Dem 
+  
+[.multiple-choice-1:bitmark--]
+[%72.] 
+[!________________ mag ich ihn ja, aber ________________ finde ich ihn nervig.] 
+a) Diesseits/jenseits  
+b) Hierseits/daseits  
+c) Einerseits/andererseits  
+d) Aufseits/abseits 
+ 
+ 
+Stufe zehn 
+[.multiple-choice-1:bitmark--]
+[%73. ] 
+[!Der Chirurg behauptete, ________________ Patientin gehe es heute blendend.] 
+a) ihrer  
+b) seiner  
+c) dessen  
+d) dem 
+  
+  
+[.multiple-choice-1:bitmark--]
+[%74. ] 
+[!Kleine Schäden lassen sich ________________ regulieren, ________________ eine Versicherung ist trotzdem sinnvoll.] 
+a) zwar/aber  
+b) sowohl/als auch  
+c) zu/um  
+d) entweder/oder 
+  
+[.multiple-choice-1:bitmark--]
+[%75.]  
+[!Könnten Sie mir ________________ eine Infobroschüre schicken?] 
+a) ruhig  
+b) aber  
+c) genau  
+d) vielleicht 
+  
+[.multiple-choice-1:bitmark--]
+[%76.]  
+[!Es war ein ________________ und ________________ Ausflug.] 
+a) ereignis/abwechslung  
+b) ereignisreiches/abwechslungsreiches  
+c) ereignisreicher/abwechslungsreicher  
+d) ereignisreicher/abwechselnd 
+  
+[.multiple-choice-1:bitmark--]
+[%77.] 
+[!Die Oper gestern war nichts ________________.] 
+a) Besonders  
+b) besonders  
+c) besonder  
+d) Besonderes 
+  
+[.multiple-choice-1:bitmark--]
+[%78.]  
+[!Viele Leute schwärmen von den vielen Brotsorten hier. Ich tue ________________ auch.] 
+a) diesen  
+b) es  
+c) dessen  
+d) diese 
+  
+[.multiple-choice-1:bitmark--]
+[%79.]  
+[!Er sagt jedem immer gleich seine Meinung. Er ________________.] 
+a) nimmt kein Blatt vor den Mund.  
+b) redet um den heißen Brei herum.  
+c) dreht einem das Wort im Mund um.  
+d) redet wie ein Wasserfall. 
+  
+[.multiple-choice-1:bitmark--]
+[%80.]  
+[!Das Buch ________________ Wissenschaftlers war innerhalb weniger Tage ausverkauft.] 
+a) dem bekannten  
+b) der bekannten  
+c) des bekannten  
+d) dieses bekannte 
+  
+  
+ 
+Stufe elf 
+[.multiple-choice-1:bitmark--]
+[%81. ] 
+[!Außerhalb der Sprechstunde wählen Sie bitte folgende Notrufnummer zwecks ________________.] 
+a) dem Bereitschaftsdienstplan  
+b) der Bereitschaftsdienstplan 
+c) den Bereitschaftsdienstplan  
+d) des Bereitschaftsdienstplans 
+  
+  
+[.multiple-choice-1:bitmark--]
+[%82. ] 
+[!Für die feierliche Abendveranstaltung beachten Sie bitte folgenden Kleidungsstil: ________________.] 
+a) bequem und geschmacklos  
+b) salopp und ungemütlich  
+c) festlich und elegant  
+d) korrekt und neutral 
+  
+[.multiple-choice-1:bitmark--]
+[%83.]  
+[!Die Männer misstrauten den Frauen völlig und die Frauen reagierten ________________.] 
+a) entsprechend  
+b) bindend  
+c) folgend  
+d) aufsteigend 
+  
+[.multiple-choice-1:bitmark--]
+[%84. ] 
+[!Nach langem Hin und Her ________________ er zu ________________, dass er doch einen Fehler gemacht haben könnte.] 
+a) beschloss/den Zeitpunkt  
+b) fand/die Erkenntnis  
+c) gelangte/der Überzeugung  
+d) kam/den Beschluss 
+  
+[.multiple-choice-1:bitmark--]
+[%85.]  
+[!Eine Fortsetzung des Projektes kam ________________.] 
+a) zum Vorschein  
+b) unter Anklage  
+c) zur Sprache  
+d) in Abhängigkeit 
+  
+[.multiple-choice-1:bitmark--]
+[%86.] 
+[!Er ging ________________ Labor und befand sich in ________________ Rauchwolke.] 
+a) ins/einer  
+b) in dem/eine  
+c) ins/eine  
+d) in dem/einer 
+  
+[.multiple-choice-1:bitmark--]
+[%87.]  
+[!Stelle das Paket bitte vor ________________ Regal, vor ________________ der Computer steht.] 
+a) dem/dem  
+b) das/dem 
+c) das/das  
+d) dem/das 
+  
+  
+[.multiple-choice-1:bitmark--]
+[%88.]  
+[!Da wird der Hund ________________.] 
+a) zum Schuh 
+b) in der Pfanne verrückt  
+c) von dem Elch geknutschtd) vor die Säue geworfen 
+d) vor die Säue geworfen 
+ 
+ 
+ 
+Stufe zwölf 
+ 
+[.multiple-choice-1:bitmark--]
+[%89. ] 
+[!Alle Männer tragen Rüstungen aus Leder und Metall; es _______________] 
+a) soll  
+b) darf  
+c) muss  
+d) mag 
+  
+[.multiple-choice-1:bitmark--]
+[%90.]  
+[!Man will ein Produkt verkaufen. Der angebotene Gegenstand sollte vom ________________ des Kunden aus begehrenswert sein.] 
+a) Grund  
+b) Anlass  
+c) Standpunkt  
+d) Stand 
+  
+[.multiple-choice-1:bitmark--]
+[%91.]  
+[!Darauf ________________ der Regierungssprecher, man solle doch vor der eigenen Tür kehren, schließlich sei das eine böswillige Unterstellung.] 
+a) fragte  
+b) entgegnete  
+c) hoffte  
+d) erörterte 
+  
+[.multiple-choice-1:bitmark--]
+[%92.]  
+[!Im Ausland ist die Deutsche Welle der bekannteste deutsche Sender. 
+Er strahlt ________________ seine Programme auf allen fünf Kontinenten aus.] 
+a) hoffentlich  
+b) deshalb  
+c) öffentlich  
+d) nämlich 
+  
+[.multiple-choice-1:bitmark--]
+[%93.]  
+[!Der Einsatz der Technik hat uns zweifellos einen hohen Lebensstandard gebracht, für den wir gern manchen Nachteil ________________.] 
+a) zum Kauf nehmen  
+b) in Rechnung stellen  
+c) auf Rechnung setzen  
+d) in Kauf nehmen 
+  
+[.multiple-choice-1:bitmark--]
+[%94.] 
+[!Im Handwerk bleiben die Männer häufig ________________, weibliche Lehrlinge sind dagegen in vielen kaufmännischen Berufen in der Mehrzahl.] 
+a) für sich  
+b) miteinander  
+c) unter sich  
+d) beieinander 
+  
+[.multiple-choice-1:bitmark--]
+[%95.]  
+[!General Motors in Detroit ________________ den größten Automobilkonzernen der Welt und stellt auch viele andere Produkte her.] 
+a) macht aus  
+b) gehört in  
+c) liegt in  
+d) zählt zu 
+  
+[.multiple-choice-1:bitmark--]
+[%96.] 
+[!Texte in neuer Rechtschreibung sind weder unlesbar noch unverständlich. 
+Für das Urteil der Bundesverfassungsrichter hat dies erkennbar ________________ gegeben.]  
+a) den Ausschlag  
+b) den Auftrag  
+c) die Entscheidung  
+d) die Begründung 
+  
+  
+ 
+ 
+ 
+ 
+

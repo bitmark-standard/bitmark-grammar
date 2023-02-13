@@ -1,0 +1,408 @@
+[.multiple-choice]
+[!Es ist Sonntag. Frau Aybek möchte Blumen kaufen. Sie geht .... Bahnhof.]
+[%1]
+[+a) zum]
+[-b) in die]
+[-c) vom]
+ 
+[.multiple-choice]
+[!Frau Aybek kauft Blumen sonst immer .... Markt, aber das geht sonntags.]
+[%2]
+[-a) in die]
+[+b) auf dem]
+[-c) von der]
+ 
+[.multiple-choice]
+[%3]
+[!Zoran geht ... Berufswahlschule.]
+[- a) auf][+b) in die][-c) über dem]
+ 
+[.multiple-choice]
+[%4]
+[!Frau Meier macht eine Reise ... Türkei.]
+[-a) ins][-b) im][+c) in die]
+ 
+[.multiple-choice]
+[%5]
+[!Wer kommt morgen mit ... Kino?]
+[-a) im][-b) auf die][+c) ins]
+ 
+[.multiple-choice]
+[%6]
+[!Warst du heute morgen ... Supermarkt?]
+[-a) in die][-b) in der][+c) im]
+ 
+[.multiple-choice]
+[%7]
+[!Gestern ... wir ein Picknick auf dem Uetliberg.]
+[+a) hatten][-b) waren][-c) war]
+ 
+[.multiple-choice]
+[%8]
+[!Am Freitag ... Sandra den ganzen Nachmittag Prüfung.]
+[+a) hatte][-b) gehabt][-c) war]
+ 
+[.multiple-choice]
+[%9]
+[!Wer ... am Montag das Buch hier vergessen?]
+[+a) hat][-b) ist][-c) muss]
+ 
+[.multiple-choice]
+[%10]
+[!Hast du den Film auch schon ...?]
+[-a) sehen][+b) gesehen][-c) anschauen]
+ 
+[.multiple-choice]
+[%11]
+[!Mit wem hast du gestern ...?]
+[-a) getelefoniert][+b) telefoniert][-c) angerufen]
+ 
+[.multiple-choice]
+[%12]
+[!Seid ihr vor einer Stunde erst ...?]
+[+a) angekommen][-b) ankommen][-c) gekommen an]
+ 
+[.multiple-choice]
+[%13]
+[!Wo ... ihr gestern übernachtet?]
+[-a) hat][+b) habt][-c) seid]
+ 
+[.multiple-choice]
+[%14]
+[!Am vergangenen Mittwoch ... den ganzen Tag geregnet.]
+[-a) es hat][-b) es ist][+c) hat es]
+ 
+[.multiple-choice]
+[%15]
+[!Warum seid ihr gestern nicht ...?]
+[-a) kommt mit][-b) mitkommen][+c) mitgekommen]
+ 
+[.multiple-choice]
+[%16]
+|| [!<<Warum wolltest du wieder in die Schweiz zurück?>> 
+<<Weil ich keine Arbeit ....>> ] ||
+[-a) gefunden][+b) hatte][-c) war]
+ 
+ 
+ 
+[.cloze:bitmark--]
+[! Bilden Sie das Perfekt]
+Ich esse.  [_Ich habe gegessen.][@example]
+17. Wir kaufen ein. [_Wir haben eingekauft]
+18. Die Autos fahren. [_Die Autos sind gefahren]
+19. Ich singe. [_Ich habe gesungen]
+ 
+ 
+ 
+[.cloze]
+[!Ordnen Sie der Zahl den richtigen Buchstaben zu.]
+ 
+20. Ich kaufe [_c]
+21. Ich bringe [_b]
+22. Ich lade [_d]
+23. Ich arbeite [_a]
+ 
+a) von acht bis fünf.
+b) ihnen ein Geschenk mit. 
+c) mir eine neue Hose.
+d) zum Fest viele Gäste ein
+ 
+ 
+[.multiple-choice]
+[%24]
+[!Ich träume immer ... meinem Vater.]
+[+ a) von][- b) vom][- c) an]
+ 
+[.multiple-choice]
+[%25]
+[!Herr Alili interessiert sich ... das Schachspiel.]
+[- a) an][- b) mit][+ c) für]
+ 
+[.multiple-choice]
+[%26]
+[!Adrian geht ins Gymnasium ...]
+[+ a) weil er Architektur studieren will.][- b) deshalb er will die Matura machen.][- c) dass will er Architektur studieren.]
+ 
+[.multiple-choice]
+[%27]
+[!... Dzemilja schon gut Deutsch kann, geht sie noch einen Monat in den Deutsch-Intensivkurs.]
+[- a) weil][- b) bevor][+ c) obwohl]
+ 
+ 
+[.cloze-solution-grouped]
+[%28-35]
+[!Ergänzen Sie die Sätze 28. – 35. mit einem der Wörter]
+28. [_wenn] man studieren will, muss man ins Gymnasium gehen.
+29. Andrea möchte auf die Universität gehen. [_trotzdem] lernt sie erst einmal einen Beruf.
+30. Die Stelle gefällt mir, [_obwohl] ich sonntags arbeiten muss.
+31. <<Warum gefällt dir die Stelle nicht?<< >>[_weil] mir der Arbeitsweg zu lang ist.>>
+32. Peter hat erzählt, [_dass] er die Stelle in Regensdorf nun doch nicht annehmen will.
+33. [_als] der Personalchef mir den Arbeitsplatz gezeigt hat, wollte ich sofort unterschreiben.
+34. Ich muss viele Überstunden machen. Das gefällt mir nicht. [_deshalb] suche ich einen anderen Arbeitsplatz.
+35. Immer [_wenn] wenn ich Zeit für Weiterbildung habe, melde ich mich zu einem neuen Kurs an.
+ 
+ 
+[.multiple-choice]
+[%36]
+[!«Möchtest du auch ein Stück Schokolade?» 
+«Nein danke, wenn ich Süssigkeiten esse ...» ]
+[+ a) bekomme ich Pickel.][- b) ich bekomme Pickel.][- c) ich Pickel bekomme.][- d) Pickel bekomme ich.]
+ 
+ 
+[.multiple-choice]
+[%37]
+[!«Was machst du ... du nervös bist?» 
+«Ich lege mich hin und höre Musik.»]
+[- a) wann][- b) als][- c) weil][+ d) wenn]
+ 
+[.multiple-choice]
+[%38]
+[!«Was ist deine Lieblingsfarbe?» 
+«Ich ... Gelb besonders gern, weil es so hell und freundlich ist.»]
+[- a) möchte][+ b) mag][-c) will][- d) nehme]
+ 
+[.multiple-choice]
+[%39]
+[!... einen Rock möchtest du denn gern kaufen?]
+[- a) Welchen][+ b) Was für][-c) Wie viele][- d) Manchen]
+ 
+ 
+[.cloze-solution-grouped]
+[%40-45]
+[!Ergänzen Sie mit dem passenden Verb]
+konnte/durfte/konnten/wollte/mussten/wollten
+40. Mein Bruder [_durfte] mit fünfzehn Jahren abends nicht nach zehn Uhr ausgehen.
+41. Mit dreizehn [_wollten] den Campingplatz nach Nizza.
+42. Die meisten Kinder in unserer Klasse [_konnten] nicht besonders gut
+schwimmen. Ich war der Beste.
+43. Ich [_wollte] mit vierzehn mit der Schule aufhören. Aber meine Eltern waren dagegen.
+44. Wir [_mussten] immer Schuluniformen tragen.
+45. Mit fünf Jahren [_konnte] meine kleine Schwester schon lesen und schreiben.
+ 
+[.multiple-choice:bitmark--]
+[%46]
+[!________ Fluss fliesst durch Zürich? ]
+[-a) Welche]
+[-b) Welches] [-c) Welchen] [+d) Welcher]
+ 
+[.multiple-choice:bitmark--]
+[%47]
+[!An _______ See liegt Luzern?]
+[-a) welchen]
+[-b) welche] [+c) welchem] [-d) welches]
+ 
+[.multiple-choice:bitmark--]
+[%48]
+[!«Ich suche ________ Rock.»
+«Ich zeige Ihnen gern ein paar Modelle.»]
+[-a) dunkelgrüne]
+[-b) eine dunkelgrüne]
+[+c) einen dunkelgrünen]
+[-d) ein dunkelgrünes]
+ 
+[.multiple-choice:bitmark--]
+[%49]
+[!Was soll ich heute Abend bloss anziehen? Das ________ Kleid?]
+[-a) schwarz]
+[+b) schwarze]
+[-c) schwarzes] [-d) schwarzen]
+ 
+[.multiple-choice:bitmark--]
+[%50]
+[!Nimmst du ________ elegante oder sportliche Schuhe mit auf die Reise?]
+[-a) den]
+[-b) eine]
+[-c) die]
+[+d) -]
+ 
+[.multiple-choice:bitmark--]
+[%51]
+[!Das ist ein sehr ________ Projekt. ]
+[-a) interessante]
+[-b) interessanter]
+[+c) interessantes]
+[-d) interessant]
+ 
+ 
+[.multiple-choice:bitmark--]
+[%52]
+[! ________ junge Mann arbeitet in meiner Firma, den anderen kenne ich nicht. ]
+[-a) Manche]
+[+b) Der]
+[-c) Diese] [-d) Eine]
+  
+[.multiple-choice:bitmark--]
+[%53]
+[!Ich finde, __________ Mensch hat ein Recht zu arbeiten, nur steht das nicht im Gesetz.] [+a) jeder]
+[-b) alle]
+[-c) manchen] [-d) viele]
+  
+[.multiple-choice:bitmark--]
+[%54]
+[!Ich wohne in einer kleinen Wohnung. Aber ich ____ gern in einer grossen Villa ________.]
+[+a) würde – wohnen]
+[-b) würde – gewohnt] [-c) habe – wohnen] [-d) wäre – gewohnt]
+  
+[.multiple-choice:bitmark--]
+[%55]
+[!Der Dichter ________ im Jahre 1875 geboren.]
+[-a) wird]
+[-b) werden]
+[+c) wurde] [-d) würde]
+  
+[.multiple-choice:bitmark--]
+[%56]
+[!Als Kind _________ ich gern Abenteuerromane.]
+[-a) lese]
+[-b) liest]
+[+c) las]
+[-d) gelesen]
+  
+[.multiple-choice:bitmark--]
+[%57]
+[!Als ich klein war, _________ ich gern mit meinem Vater zum Zürichsee.]
+[-a) geht]
+[-b) gegangen]
+[+c) ging] [-d) gingen]
+  
+[.multiple-choice:bitmark--]
+[%58]
+[!Ich sagte: «Geh endlich weg!», aber er __________ einfach nur da und sah mich an. ][+a) stand]
+[-b) stehe]
+[-c) steht]
+[-d) gestanden]
+  
+[.multiple-choice:bitmark--]
+[%59]
+[!_________ ich ins Restaurant ging, hatte ich die Speisekarte an der Tür gelesen.]
+[+a) Bevor]
+[-b) Nachdem]
+[-c) Nachher] [-d) Danach]
+  
+[.multiple-choice:bitmark--]
+[%60]
+[!In der Prüfung war er so nervös, dass er nicht einmal die einfachsten Regeln _________.]
+[-a) weiss]
+[+b) wusste] [-c) weisst] [-d) gewusst]
+  
+  
+[.multiple-choice:bitmark--]
+[%61]
+[!«Könnten Sie mir einen Tipp geben, was man in Berlin machen kann?» – «Sie __________ zum Beispiel auf den Fernsehturm gehen.»]
+[-a) würden] [+b) könnten] [-c) sollen] [-d) haben]
+  
+[.multiple-choice:bitmark--]
+[%62]
+[!Könnten Sie mir sagen, __________ ich hier auch mit Kreditkarte bezahlen kann?] [+a) ob]
+[-b) aber]
+[-c) dass] [-d) als]
+  
+[.multiple-choice:bitmark--]
+[%63]
+[!Gehen Sie nach links bis zur Kreuzung. Der Supermarkt ist direkt ________, neben der Post.]
+[-a) vorbei]
+[-b) dagegen]
+[+c) an der Ecke] [-d) herum]
+  
+[.multiple-choice:bitmark--]
+[%64]
+[!Sie warten _________ ihre Freunde.]
+[-a) für]
+[+b) auf] [-c) nach] [-d) von]
+  
+[.multiple-choice:bitmark--]
+[%65]
+[!In ________ Woche fahre ich nach Bern.] [-a) ein]
+[-b) einem] [-c) einen] [+d) einer]
+ 
+ 
+[.multiple-choice:bitmark--]
+[%66]
+[!Sie haben ___________ im Zug kennen gelernt.]
+[+a) ihn]
+[-b) euren] [-c) mir] [-d) Ihnen]
+  
+[.multiple-choice:bitmark--]
+[%67]
+[!Ramón hat Anna in Zürich getroffen. Sie gefällt ________.]
+[+a) ihm] [-b) ihr] [-c) sich] [-d) ihn]
+  
+  
+[.multiple-choice:bitmark--]
+[%68]
+[!Anna findet Ramón sympathisch. Jetzt bekommt sie viele Briefe von _______.]
+[-a) Ihnen]
+[-b) ihn]
+[-c) ihr] [+d) ihm]
+  
+[.multiple-choice:bitmark--]
+[%69]
+[!Ramon schreibt Anna oft. Jetzt lädt er _________ nach Spanien ein.]
+[-a) ihr]
+[-b) ihn]
+[+c) sie] [-d) ihren]
+  
+[.multiple-choice:bitmark--]
+[%70]
+[!Ich lade Anna und __________ Bruder ein.]
+[-a) ihre]
+[-b) seine] [-c) seinen] [+d) ihren]
+  
+[.multiple-choice:bitmark--]
+[%71]
+[!Ramón kommt mit __________ Schwester zur Party.]
+[-a) unserem] [+b) seiner]
+[-c) ihres]
+[-d) ihrer]
+  
+[.cloze:bitmark--]
+[%72-79]
+[!Wie passen die Sätze zusammen? Ordnen Sie der Zahl den richtigen Buchstaben a) bis h) zu.]
+  
+72. Mein Freund meint, [_b]
+73. Er möchte auf keinen [_f]
+74. Er will keine Medikamente nehmen, [_e]
+75. Sicher gibt es gegen Schnupfen [_h]
+76. Ausserdem fühlt er sich [_a]
+77. Heute Abend geht er [_c]
+78. Und am Wochenende schläft [_g]
+79. Er hofft, dass [_d]
+  
+  
+a) eigentlich gar nicht richtig krank. 
+b) dass Sauna gegen Grippe hilft. 
+c) früh ins Bett. 
+d) er am Montag wieder ganz gesund ist. e) weil er sie unnatürlich findet. 
+f) Fall zu Hause bleiben. 
+g) er lange. 
+h) keine wirklich gute Medizin. 
+  
+  
+[.multiple-choice:bitmark--]
+[%80]
+[!«Ich habe Zahnschmerzen.» «Dann _________ du wirklich zum Arzt gehen.» ]
+[-a) willst]
+[+b) solltest]
+[-c) müssen]
+  
+[.multiple-choice:bitmark--]
+[%81]
+[!Wie sieht es denn hier aus, so ein ____________ habe ich ja noch nie gesehen!]
+[+a) Durcheinander]
+[-b) Miteinander]
+[-c) Auseinander]
+ 
+[.cloze-solution-grouped]
+[%82-90]
+[!Schreiben Sie die Wörter am Ende des Textes an die richtige Stelle.]
+Ich wohnte auch noch als Studentin bei meinen Eltern, bis ich 24 war. In meiner 
+(82)[_Erinnerung] war Leipzig, meine Heimatstadt, ein düsterer, grauer Ort. Es (83)[_gab] dort sehr viel Industrie. Die Luft und der Fluss waren zu jeder (84)[_Jahreszeit] schmutzig. Meine Mutter (85)[_musste] fast täglich den (86)[_Balkon] und die Fenster putzen. Auch der (87)[_Regen] war schmutzig, also waren die Häuser grau, und viele waren noch kaputt vom Krieg. 
+Die Wohnung meiner Eltern hatte keinen Stil. (88)[_trotzdem] fühlte ich mich dort wohl, auch noch, wenn ich sie später besuchte. Heute (89)[_fällt] es mir schwer, mir vorzustellen, wie man in einer solchen Enge überhaupt Kinder grossziehen (90)[_konnte]. 
+ 
+
+||todo: _______ or .... ?||
+ 
+ 
+
+ 
+

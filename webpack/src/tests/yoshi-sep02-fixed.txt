@@ -1,0 +1,3012 @@
+[.book]
+
+[@authors.name:Anne Buschas]
+[@authors.name:Susanne Raven]
+[@authors.name:Szilvia Szita]
+
+[#Erkundungen B2]
+[##Deutsch als Fremdsprache]
+[@subject: Integriertes Kurs- und Arbeitsbuch]
+
+[@leave.levelCEFR:B2]
+
+[@publications:3., veränderte Auflage]
+
+[@publisher.name:SCHUBERT-Verlag, Leipzig]
+
+[@ISBN:978-3-941323-43-8]
+
+[.article]
+||Excluded: Bitte beachten Sie unser Internet-Angebot mit zusätzlichen Aufgaben und Übungen zum Lehrwerk unter: www.aufgaben.schubert-verlag.de||
+
+||Excluded: Das vorliegende Lehrbuch beinhaltet einen herausnehmbaren Lösungsschlüssel sowie eine CD zur Hörverstehensschulung.
+Die Hörmaterialien sind außerdem auf der Website des Verlags unter
+https://www.schubert-verlag.de/erkundungen_b2_audio3a.php
+und in unserer Audio-App verfügbar.||
+
+Zeichnungen: Jean-Marc Deltorn
+||Excluded: Layout und Satz: Diana Liebers||
+
+Die Hörtexte wurden gesprochen von: Burkhard Behnke, Claudia Gräf, Susanne Prager, Axel Thielmann
+
+© SCHUBERT-Verlag, Leipzig 3., veränderte Auflage 2019 Alle Rechte vorbehalten
+||Excluded: Printed in Germany||
+ISBN:978-3-941323-43-8
+
+[.toc]
+
+
+[.summary]
+
+[.chapter]
+[@progress:false]
+[#Kursübersicht]
+
+[.article:bitmark++]
+
+**Kapitel 1
+Personen und Lebensläufe**
+
+__Sprachliche Handlungen__
+
+Sich und andere vorstellen - Über Schulzeit und Ausbildung berichten - Das deutsche Schulsystem und das Schulsystem des Heimatlandes beschreiben - Eine Diskussion zum __Thema__ Lernen führen - Einen Leserbrief an eine Zeitschrift verfassen - Einen persönlichen Brief schreiben - Einen tabellarischen Lebenslauf schreiben - Unterschiede und Gemeinsamkeiten zwischen Lebensläufen in Deutschland und dem Heimatland erläutern - Eine Infografik zum Thema __Hochzeit__ beschreiben und über Hochzeitstraditionen im Heimatland mündlich und schriftlich berichten - Themenbezogene Lese - und Hörtexte verstehen
+
+__Wortschatz__
+
+Angaben zur Person - Schulzeit und Schulsystem - Ausbildung - Lebenslauf - Partnersuche, Hochzeit und Singlehaushalte
+
+__Grammatik__
+
+Modalverben - Vergangenheitsformen der regelmäßigen und unregelmäßigen Verben - Deklination der Adjektive
+
+__Fakultativ (Teil B)__
+
+Besondere Menschen
+
+
+**Kapitel 2
+Daheim und unterwegs**
+
+__Sprachliche Handlungen__
+
+Informationen über die eigene Wohnsituation erfragen und geben - Über die allgemeinen Wohnbedingungen im Heimatland sprechen - Die Traumwohnung beschreiben - Wohnungsanzeigen in einem Internetportal lesen und darauf reagieren - Grafiken zum Thema __Städte__ und __Reisen__ beschreiben - Eine Städtetour planen - Städte beurteilen - Ratschläge zum Thema __Reisen__ geben - Ein Reiseziel präsentieren - Über Probleme beim Reisen berichten - Eine Beschwerdemail lesen und verfassen - Sich mündlich über etwas beschweren - Themenbezogene Lese- und Hörtexte verstehen
+
+__Wortschatz__
+
+Wohnen - Städte - Reisetrends und Reiseziele - Beschwerde
+
+__Grammatik__
+
+Lokalangaben: Lokale Präpositionen, Relativsätze mit __wo, woher/wohin__ - Passiv - Deklination der Adjektive (Wiederholung)
+
+__Fakultativ (Teil B)__
+
+Eine kleine Hotelgeschichte - Besondere Hotels
+
+
+**Kapitel 3
+Zwischen den Kulturen**
+
+__Sprachliche Handlungen__
+
+Über Bewohner des Heimatlandes berichten - Verschiedene Nationalitäten benennen - Eine Diskussion über das Thema __Heimat__ führen - Über Leben und Arbeiten im Ausland sprechen - Gründe und Folgen benennen - Über interkulturelle Unterschiede und Gemeinsamkeiten im Geschäftsleben und im Alltag diskutieren - Einen Smalltalk führen - Einen persönlichen Brief schreiben - Eine Mindmap erstellen - Themenbezogene Lese- und Hörtexte verstehen
+
+__Wortschatz__
+
+Länder und Nationalitäten - Auswandern - Interkulturelle Unterschiede - Smalltalk
+
+__Grammatik__
+
+__n-__Deklination - Kausal- und Konsekutivangaben - Verben mit präpositionalem Kasus
+
+__Fakultativ (Teil B)__ Kennen Sie die Sorben?
+
+
+**Kapitel 4
+Arbeit und Studium**
+
+__Sprachliche Handlungen__
+
+Über Arbeitszeit und Tätigkeiten reden - Sich zum Thema __Stressfaktoren__ äußern und eine Reaktion auf einen Artikel verfassen - Über Anrede- und Grußformeln in geschäftlichen E-Mails diskutieren - E-Mails schreiben - Sich zum Thema __Besprechungen__ äußern - Eine Tagesordnung für eine Besprechung präsentieren - Einen Leserbrief an eine Zeitschrift
+verfassen - Telefonisch Termine vereinbaren und Informationen erfragen und geben - Informationen weiterleiten - Über Universitäten und Studienmöglichkeiten des Heimatlandes berichten - Eine Grafik zu beliebten Studienfächern beschreiben - Angebote von Universitäten miteinander vergleichen - Themenbezogene Lese- und Hörtexte verstehen
+
+__Wortschatz__
+
+Arbeitszeit und Stressfaktoren - Anrede- und Grußformen für E-Mails - Besprechungen und Tagesordnung - Telefonieren und Termine - Studium und Universität
+
+__Grammatik__
+
+Konjunktiv II: Höflichkeit und Irrealität - Rektion der Verben - Die Wortstellung im Satz
+
+__Fakultativ (Teil B)__
+
+Geschäftskorrespondenz
+
+
+**Kapitel 5
+Zeit und Tätigkeit**
+
+__Sprachliche Handlungen__
+
+Über Tätigkeiten und Zeiteinteilung reden - Den Tagesablauf beschreiben - Über Freizeit- beschäftigungen und Lesegewohnheiten sprechen - Forschungsergebnisse wiedergeben - Einen Forumsbeitrag schreiben - Eine Buchauswahl treffen und begründen - Über das Lesen bzw. bestimmte Bücher diskutieren - Einen Vortrag zum Thema __Lesen__ halten - Ein Gespräch über Sport und Sportvereine führen - Einen Artikel über die Geschichte des Fußballs vervollständigen - Die Geschichte des Fußballs im Heimatland oder einer anderen Sportart vorstellen - Themenbezogene Lese- und Hörtexte verstehen
+
+__Wortschatz__
+
+Tätigkeiten und Tagesablauf - Freizeitbeschäftigungen - Lesen und Bücher - Fußball und andere Sportarten
+
+__Grammatik__
+
+Temporalangaben: Temporale Präpositionen, Temporalsätze, temporale Adjektive - Konditionalangaben - Umformung von Präpositionalgruppen in Nebensätze
+
+__Fakultativ (Teil B)__
+
+Besondere Tätigkeiten und Hobbys
+
+
+**Kapitel 6
+Spannung und Entspannung**
+
+__Sprachliche Handlungen__
+
+Über Vor- und Nachteile verschiedener Nachrichtenquellen sprechen - Über Inhalt und Objektivität von Nachrichten diskutieren - Nachrichten selbst schreiben und vortragen - Meinungen anderer Personen und Gerüchte wiedergeben - Über Krimis im Fernsehen berichten - Einen Text zusammenfassen - Einen Kurzkrimi schreiben - Über das Interesse an Geschichte und Politik berichten - Veränderungen beschreiben - Kurzvorträge zu verschiedenen Themen halten - Themenbezogene Lese- und Hörtexte verstehen
+
+__Wortschatz__
+
+Nachrichten und Aktuelles - Kriminalfilme - Politik und Geschichte
+
+__Grammatik__
+
+Weitergabe von Informationen: Konjunktiv I und das Modalverb __sollen__ - Nomen-Verb-Verbindungen - Präpositionen
+
+__Fakultativ (Teil B)__
+
+Kriminalität im Alltagsleben und in Wirtschaft und Politik
+
+
+**Kapitel 7
+Technik und Trends**
+
+__Sprachliche Handlungen__
+
+Über Geräte und den Umgang mit Technik sprechen - Grafiken zu den Themen __Technische Geräte__ und __Smartphones__ beschreiben - Geräte und andere Produkte beschreiben und präsentieren - Über Produkte mit eingebauten Fehlern sprechen - Sich über wichtige Dinge beim Produktkauf austauschen - Über Gefahren im Netz und Sicherheitsmaßnahmen berichten und diskutieren - Einen Kurzbericht für eine Zeitung nach Vorgaben schreiben - Die Art und Weise von Vorgängen beschreiben - Einen Forumsbeitrag verfassen - Über Lerntechniken berichten und Tipps zum Lernen geben - Themenbezogene Lese- und Hörtexte verstehen
+
+__Wortschatz__
+
+Geräte - Produkte und Eigenschaften - Umgang mit Technik - Computer und Computerfrust - Trends
+
+__Grammatik__
+
+Passiv und Passiversatzformen - Komparation der Adjektive - Partizipien als Adjektive - Modalangaben
+
+__Fakultativ (Teil B)__
+
+Erfindungen und Erfinder
+
+
+**Kapitel 8
+Gesundheit und Umwelt**
+
+__Sprachliche Handlungen__
+
+Einen Vortrag zum Thema __Gesundes Leben__ strukturieren und halten - Empfehlungen zur Gesundheit geben - Gegensätze benennen - Über Krankheiten und Hausmittel sprechen - Über die ärztliche Versorgung berichten - Pro-und-Kontra-Diskussionen über die Themen __Gesunde Ernährung__ und __Tempolimit__ führen - Zukünftiges ausdrücken - Grafiken zu den Themen __Gesundheitswesen__ und __Umwelt__ beschreiben - Über Umweltbelastungen im täglichen Leben reden - Über eine Fotoauswahl diskutieren - Vorschläge zur Verbesserung der Umweltsituation unterbreiten - Einen Leserbrief an eine Onlineredaktion zum Thema __Tempolimit__ verfassen - Themenbezogene Lese- und Hörtexte verstehen
+
+__Wortschatz__
+
+Gesundheit und Krankheit - Ärztliche Versorgung - Essen und Nahrungsmittel - Umweltbelastungen für den Menschen - Tempolimit
+
+__Grammatik__
+
+Konzessivangaben - Erweiterte Partizipien - __werden__ in Zukunfts-, Absichts- und Vermutungsbedeutung
+
+__Fakultativ (Teil B)__
+
+Gesunder Mittagsschlaf - Schlafstörungen - Träume
+
+
+[.chapter]
+[@progress:false]
+[#Kursübersicht]
+
+[.article:bitmark--]
+**Kapitel 1
+Personen und Lebensläufe**
+
+__Sprachliche Handlungen__
+Sich und andere vorstellen - Über Schulzeit und Ausbildung berichten - Das deutsche Schulsystem und das Schulsystem des Heimatlandes beschreiben - Eine Diskussion zum Thema __Lernen__ führen - Einen Leserbrief an eine Zeitschrift verfassen - Einen persönlichen Brief schreiben - Einen tabellarischen Lebenslauf schreiben - Unterschiede und Gemeinsamkeiten zwischen Lebensläufen in Deutschland und dem Heimatland erläutern - Eine Infografik zum Thema __Hochzeit__ beschreiben und über Hochzeitstraditionen im Heimatland mündlich und schriftlich berichten - Themenbezogene Lese- und Hörtexte verstehen
+
+__Wortschatz__
+Angaben zur Person - Schulzeit und Schulsystem - Ausbildung - Lebenslauf - Partnersuche, Hochzeit und Singlehaushalte
+
+__Grammatik__
+Modalverben - Vergangenheitsformen der regelmäßigen und unregelmäßigen Verben - Deklination der Adjektive
+
+__Fakultativ (Teil B)__
+Besondere Menschen
+
+[.article:bitmark--]
+**Kapitel 2
+Daheim und unterwegs**
+
+__Sprachliche Handlungen__
+Informationen über die eigene Wohnsituation erfragen und geben - Über die allgemeinen Wohnbedingungen im Heimatland sprechen - Die Traumwohnung beschreiben - Wohnungsanzeigen in einem Internetportal lesen und darauf reagieren - Grafiken zum Thema __Städte__ und __Reisen__ beschreiben - Eine Städtetour planen - Städte beurteilen - Ratschläge zum Thema Reisen geben - Ein Reiseziel präsentieren - Über Probleme beim Reisen berichten - Eine Beschwerdemail lesen und verfassen - Sich mündlich über etwas beschweren - Themenbezogene Lese- und Hörtexte verstehen
+
+__Wortschatz__
+Wohnen - Städte - Reisetrends und Reiseziele - Beschwerde
+
+__Grammatik__
+Lokalangaben: Lokale Präpositionen, Relativsätze mit __wo, woher/wohin__ - Passiv - Deklination der Adjektive (Wiederholung)
+
+__Fakultativ (Teil B)__
+Eine kleine Hotelgeschichte - Besondere Hotels
+
+
+
+[.article:bitmark--]
+**Kapitel 3
+Zwischen den Kulturen**
+
+__Sprachliche Handlungen__
+Über Bewohner des Heimatlandes berichten - Verschiedene Nationalitäten benennen - Eine Diskussion über das Thema __Heimat__ führen - Über Leben und Arbeiten im Ausland sprechen - Gründe und Folgen benennen - Über interkulturelle Unterschiede und Gemeinsamkeiten im Geschäftsleben und im Alltag diskutieren - Einen Smalltalk führen - Einen persönlichen Brief schreiben - Eine Mindmap erstellen - Themenbezogene Lese- und Hörtexte verstehen
+
+__Wortschatz__
+Länder und Nationalitäten - Auswandern - Interkulturelle Unterschiede - Smalltalk
+
+__Grammatik__
+__n__-Deklination - Kausal- und Konsekutivangaben - Verben mit präpositionalem Kasus
+
+__Fakultativ (Teil B)__
+Kennen Sie die Sorben?
+
+[.article:bitmark--]
+**Kapitel 4
+Arbeit und Studium**
+
+__Sprachliche Handlungen__
+Über Arbeitszeit und Tätigkeiten reden - Sich zum Thema __Stressfaktoren__ äußern und eine Reaktion auf einen Artikel verfassen - Über Anrede- und Grußformeln in geschäftlichen E-Mails diskutieren - E-Mails schreiben - Sich zum Thema __Besprechungen__ äußern - Eine Tagesordnung für eine Besprechung präsentieren - Einen Leserbrief an eine Zeitschrift
+verfassen - Telefonisch Termine vereinbaren und Informationen erfragen und geben - Informationen weiterleiten - Über Universitäten und Studienmöglichkeiten des Heimatlandes berichten - Eine Grafik zu beliebten Studienfächern beschreiben - Angebote von Universitäten miteinander vergleichen - Themenbezogene Lese- und Hörtexte verstehen
+
+__Wortschatz__
+Arbeitszeit und Stressfaktoren - Anrede- und Grußformen für E-Mails - Besprechungen und Tagesordnung - Telefonieren und Termine - Studium und Universität
+
+__Grammatik__
+Konjunktiv II: Höflichkeit und Irrealität - Rektion der Verben - Die Wortstellung im Satz
+
+__Fakultativ (Teil B)__
+Geschäftskorrespondenz
+
+[.article:bitmark--]
+**Kapitel 5
+Zeit und Tätigkeit**
+
+__Sprachliche Handlungen__
+Über Tätigkeiten und Zeiteinteilung reden - Den Tagesablauf beschreiben - Über Freizeit- beschäftigungen und Lesegewohnheiten sprechen - Forschungsergebnisse wiedergeben - Einen Forumsbeitrag schreiben - Eine Buchauswahl treffen und begründen - Über das Lesen bzw. bestimmte Bücher diskutieren - Einen Vortrag zum Thema __Lesen__ halten - Ein Gespräch über Sport und Sportvereine führen - Einen Artikel über die Geschichte des Fußballs vervollständigen - Die Geschichte des Fußballs im Heimatland oder einer anderen Sportart vorstellen - Themenbezogene Lese- und Hörtexte verstehen
+
+__Wortschatz__
+Tätigkeiten und Tagesablauf - Freizeitbeschäftigungen - Lesen und Bücher - Fußball und andere Sportarten
+
+__Grammatik__
+Temporalangaben: Temporale Präpositionen, Temporalsätze, temporale Adjektive - Konditionalangaben - Umformung von Präpositionalgruppen in Nebensätze
+
+__Fakultativ (Teil B)__
+Besondere Tätigkeiten und Hobbys
+
+[.article:bitmark--]
+**Kapitel 6
+Spannung und Entspannung**
+
+__Sprachliche Handlungen__
+Über Vor- und Nachteile verschiedener Nachrichtenquellen sprechen - Über Inhalt und Objektivität von Nachrichten diskutieren - Nachrichten selbst schreiben und vortragen - Meinungen anderer Personen und Gerüchte wiedergeben - Über Krimis im Fernsehen berichten - Einen Text zusammenfassen - Einen Kurzkrimi schreiben - Über das Interesse an Geschichte und Politik berichten - Veränderungen beschreiben - Kurzvorträge zu verschiedenen Themen halten - Themenbezogene Lese- und Hörtexte verstehen
+
+__Wortschatz__
+Nachrichten und Aktuelles - Kriminalfilme - Politik und Geschichte
+
+__Grammatik__
+Weitergabe von Informationen: Konjunktiv I und das Modalverb __sollen__ - Nomen-Verb-Verbindungen - Präpositionen
+
+__Fakultativ (Teil B)__
+Kriminalität im Alltagsleben und in Wirtschaft und Politik
+
+[.article:bitmark--]
+**Kapitel 7
+Technik und Trends**
+
+__Sprachliche Handlungen__
+Über Geräte und den Umgang mit Technik sprechen - Grafiken zu den Themen __Technische Geräte__ und __Smartphones__ beschreiben - Geräte und andere Produkte beschreiben und präsentieren - Über Produkte mit eingebauten Fehlern sprechen - Sich über wichtige Dinge beim Produktkauf austauschen - Über Gefahren im Netz und Sicherheitsmaßnahmen berichten und diskutieren - Einen Kurzbericht für eine Zeitung nach Vorgaben schreiben - Die Art und Weise von Vorgängen beschreiben - Einen Forumsbeitrag verfassen - Über Lerntechniken berichten und Tipps zum Lernen geben - Themenbezogene Lese- und Hörtexte verstehen
+
+__Wortschatz__
+Geräte - Produkte und Eigenschaften - Umgang mit Technik - Computer und Computerfrust - Trends
+
+__Grammatik__
+Passiv und Passiversatzformen - Komparation der Adjektive - Partizipien als Adjektive - Modalangaben
+
+__Fakultativ (Teil B)__
+Erfindungen und Erfinder
+
+[.article:bitmark--]
+**Kapitel 8
+Gesundheit und Umwelt**
+
+__Sprachliche Handlungen__
+Einen Vortrag zum Thema __Gesundes Leben__ strukturieren und halten - Empfehlungen zur Gesundheit geben - Gegensätze benennen - Über Krankheiten und Hausmittel sprechen - Über die ärztliche Versorgung berichten - Pro-und-Kontra-Diskussionen über die Themen __Gesunde Ernährung__ und __Tempolimit__ führen - Zukünftiges ausdrücken - Grafiken zu den Themen __Gesundheitswesen__ und __Umwelt__ beschreiben - Über Umweltbelastungen im täglichen Leben reden - Über eine Fotoauswahl diskutieren - Vorschläge zur Verbesserung der Umweltsituation unterbreiten - Einen Leserbrief an eine Onlineredaktion zum Thema __Tempolimit__ verfassen - Themenbezogene Lese- und Hörtexte verstehen
+
+__Wortschatz__
+Gesundheit und Krankheit - Ärztliche Versorgung - Essen und Nahrungsmittel - Umweltbelastungen für den Menschen - Tempolimit
+
+__Grammatik__
+Konzessivangaben - Erweiterte Partizipien - __werden__ in Zukunfts-, Absichts- und Vermutungsbedeutung
+
+__Fakultativ (Teil B)__
+Gesunder Mittagsschlaf - Schlafstörungen - Träume
+
+
+
+
+
+
+
+[.chapter]
+[#Vorwort]
+[@progress:false]
+
+
+[.article:bitmark--]
+**Erkundungen B2** ist ein modernes und kommunikatives Lehrwerk für fortgeschrittene erwachsene Lerner. Es schließt an **Begegnungen B1+** an und liegt in 3., aktualisierter Auflage vor. Das Lehrwerk richtet sich an Lerner, die auf schnelle und effektive Weise Deutsch lernen möchten.
+
+**Erkundungen B2** bietet:
+
+**◼︎ einen klar strukturierten Aufbau**
+
+Die acht Kapitel des Buches sind in jeweils vier Teile gegliedert:
+
+__Teil A: Themen und Aufgaben (obligatorischer Teil)__
+Dieser Teil umfasst Lese- und Hörtexte, Wortschatztraining, Übungen zur mündlichen und schriftlichen Kommunikation und Grammatikübungen zu einem Thema. Hier werden grundlegende Fertigkeiten einführend behandelt und trainiert.
+
+__Teil B: Wissenswertes (fakultativer Teil)__
+Im Teil B finden Sie Texte, Grafiken und Übungen, die auf interessante Weise das Thema erweitern und landeskundliche Einblicke vermitteln. Es ist ein Angebot für alle, die ihre sprachlichen Fähigkeiten zusätzlich erweitern möchten.
+
+__Teil C: Übersichten und Zusatzübungen zur Grammatik__
+Dieser Übungsteil ermöglicht mit systematisierenden Übersichten und zahlreichen Übungen die Vertiefung der Grammatikkenntnisse.
+
+__Teil D: Rückblick__
+Teil D besteht aus zwei Komponenten: wichtige Redemittel und Selbstevaluation. Er dient zur Festigung des Gelernten und zur Motivation weiterzulernen.
+
+**◼︎ ein integriertes Lehr- und Arbeitsbuch**
+
+Dadurch sind Vermittlung sowie Training und Übung des sprachlichen Materials eng miteinander verflochten. Das ist unkompliziert, praktisch und ermöglicht effektives Lernen.
+
+**◼︎ eine anspruchsvolle Progression**
+
+Die Progression ist auf erwachsene Lerner abgestimmt, die zügig erkennbare Lernerfolge erzielen möchten.
+
+**◼︎ einen informativen Anhang**
+
+Der Anhang enthält eine Redemittelübersicht, einen Übungssatz zur Vorbereitung auf das Goethe-Zertifikat B2, Grammatikübersichten und eine Liste unregelmäßiger Verben.
+
+**Erkundungen B2** führt zum Niveau B2 des Europäischen Referenzrahmens für Sprachen und zur Prüfung Goethe-Zertifikat B2. Das Lehrwerk wird durch ein Lehrerhandbuch ergänzt, in dem methodische Hinweise sowie Arbeitsblätter und Abschlusstests zu den einzelnen Kapiteln enthalten sind.
+
+Wir wünschen viel Erfolg und Freude bei der Arbeit mit **Erkundungen B2**.
+
+Anne Buscha, Susanne Raven und Szilvia Szita
+
+||tbd: Außerdem werden vielfältige Zusatzmaterialien im Internet auf der Seite __www.aufgaben.schubert-verlag.de__ bereitgestellt.||
+
+|| tbd: Zum Lehrwerk gehört ein herausnehmbares Lösungsheft. Hier sind auch die Transkriptionen der Hörtexte abgedruckt. Außerdem liegt dem Lehrwerk eine **Audio-CD** zur Schulung des Hörverstehens bei. Der Inhalt der CD ist auch unter *https://www.schubert-verlag.de/erkundungen_b2_audio3a.php* als kostenloser MP3-Download und in unserer Audio-App verfügbar.||
+
+||tbd: Zu **Erkundungen B2** stehen auf unserer Website unter __www.schubert-verlag.de/b2_whiteboard.php__
+Zusatzmaterialien für die Arbeit am Whiteboard kostenfrei zur Verfügung.||
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[.chapter]
+[%1]
+[#Personen und Lebensläufe]
+[.article&image]
+Aline und Peter
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/l1030913-2.jpg]
+
+[.chapter]
+[##Teil A]
+
+[.chapter]
+[###Sich kennenlernen]
+[@leave.context:personal]
+[@leave.subject:Sich kennenlernen]
+
+
+
+[.interview:bitmark--&image]
+[%A1]
+
+[!Partnerarbeit: Sich kennenlernen
+
+Befragen Sie Ihre Nachbarin/Ihren Nachbarn zu den folgenden Stichpunkten, machen Sie sich Notizen und stellen Sie dann Ihre Nachbarin/Ihren Nachbarn den anderen Kursteilnehmern vor.]
+
+Meine Nachbarin/Mein Nachbar heißt ...
+Er/Sie wohnt in/kommt aus ...
+
+
+**Diese Angaben muss man meistens machen:**
+===
+Name:[@shortAnswer]
+===
+Wohnort:[@shortAnswer]
+===
+Geburtsort:[@shortAnswer]
+===
+Staatsangehörigkeit:[@shortAnswer]
+===
+Studium oder Berufsausbildung:[@shortAnswer]
+===
+jetzige Tätigkeit:[@shortAnswer]
+===
+Arbeitgeber:[@shortAnswer]
+===
+Familienstand:[@shortAnswer]
+===
+**Das kann man fragen oder sagen (wenn man will):**
+
+Kinder:[@shortAnswer]
+===
+Hobbys:[@shortAnswer]
+===
+**Und das möchte man manchmal wissen:**
+
+Lieblingstier:[@shortAnswer]
+===
+Lieblingsfarbe:[@shortAnswer]
+===
+Lieblingsessen:[@shortAnswer]
+===
+Lieblingsbuch oder Lieblingsfilm:[@shortAnswer]
+===
+**Und was interessiert Sie noch?**
+
+===
+
+
+
+
+
+
+[.interview]
+[%A2]
+[!Bilden Sie Fragen zu den vorgegebenen Antworten.]
+
+===
+[%◇]Ulrike Lipka.[@shortAnswer]
+[@example:Wie heißen Sie? Wie ist Ihr Name?]
+===
+[%1]In Berlin, Ewaldstraße 15. In Hamburg.[@shortAnswer]
+[$Wo wohnen Sie?]
+===
+[%2]In Hamburg.[@shortAnswer]
+[$Wo sind Sie geboren?]
+===
+[%3]Am 23. August 1975.[@shortAnswer]
+[$Wann Sind Sie geboren?]
+===
+[%4]Ja, ich bin Deutsche.[@shortAnswer]
+[$Sind Sie Deutsche?]
+===
+[%5]Ich war auf der Grundschule und dann auf dem Gymnasium. Dort habe ich mein Abitur gemacht.[@shortAnswer]
+[$Was für eine Schulausbildung haben Sie?]
+===
+[%6]Ich habe Journalistik studiert.[@shortAnswer]
+[$Haben Sie studiert?/Was haben Sie studiert?]
+===
+[%7]Ich bin jetzt Nachrichtenredakteurin.[@shortAnswer]
+[$Als was arbeiten Sie jetzt?/Was für eine Stelle haben Sie?/Was machen Sie jetzt beruflich?]
+===
+[%8]Beim Deutschlandradio Kultur.[@shortAnswer]
+[$Wo arbeiten Sie?]
+===
+[%9]Nein, ich bin geschieden.[@shortAnswer]
+[$Sind Sie verheiratet/ledig?]
+===
+[%10]Ja, ich habe eine Tochter.[@shortAnswer]
+[$Haben Sie Kinder?]
+===
+[%11]Ich lese gern Krimis und spiele Tischtennis. Englisch, Russisch und Französisch.[@shortAnswer]
+[$Was machen Sie in Ihrer Freizeit?/Was sind Ihre Hobbys?]
+===
+
+
+
+
+
+
+
+
+[.match:bitmark--]
+[%A3a]
+[!Fragen Sie.
+
+Bilden Sie aus den Wortreihen Fragen im Präsens oder Präteritum.]
+===
+[%◇] Sie – historische Romane – mögen __(Präsens)__
+==
+Mögen Sie historische Romane?[@example]
+===
+[%◇] wollen – werden – was – früher – Sie __(Präteritum)__
+==
+Was wollten Sie früher werden?[@example]
+===
+[%1] warum – Deutsch lernen – Sie – wollen __(Präsens)__
+==
+Warum wollen Sie Deutsch lernen?
+===
+[%2] möchten – wohin – fahren – Sie – im nächsten Urlaub __(Präsens)__
+==
+Wohin möchten Sie im nächsten Urlaub fahren?
+===
+[%3] Musik – mögen – welche – Sie __(Präsens)__
+==
+Welche Musik mögen Sie?
+===
+[%4] können – welche – sprechen – Sprachen – besonders gut – Sie __(Präsens)__
+==
+Welche Sprachen können Sie besonders gut sprechen?
+===
+[%5] als Kind – dürfen – Sie – was – nicht – tun __(Präteritum)__
+==
+Was durften Sie als Kind nicht tun?
+===
+[%6] aufstehen – Sie – morgens – müssen – wann __(Präsens)__
+==
+Wann müssen Sie morgens aufstehen?
+===
+[%7] wohnen – Sie – wo – möchten – am liebsten __(Präsens)__
+==
+Wo möchten Sie am liebsten wohnen?
+===
+[%8] Sie – Ski laufen – als Kind – können __(Präteritum)__
+==
+Konnten Sie als Kind Ski laufen?
+===
+[%9] mögen – Sie – früher – Zeichentrickfilme __(Präteritum)__
+==
+Mochten Sie früher Zeichentrickfilme?
+===
+[%10] eine Prüfung – wiederholen – schon mal – müssen – Sie __(Präteritum)__
+==
+Mussten Sie schon mal eine Prüfung wiederholen?
+===
+[%11] in Ihrer Arbeitszeit – dürfen – Sie – privat im Internet – surfen __(Präsens)__
+==
+Dürfen Sie in Ihrer Arbeitszeit privat im Internet surfen?
+===
+
+
+
+
+[.interview]
+[%A3b]
+[!Fragen Sie.
+
+Stellen Sie Ihrer Nachbarin/Ihrem Nachbarn acht Fragen aus der folgenden Auswahl und notieren Sie die Antworten.]
+||angepasste Instruktion mit Schubert besprechen||
+===
+[%◇] Mögen Sie historische Romane?[@shortAnswer]
+[@example:Mein Nachbar mag keine historischen Romane.]
+===
+[%1]Was wollten Sie früher werden?[@shortAnswer]
+===
+[%2]Warum wollen Sie Deutsch lernen?[@shortAnswer]
+===
+[%3]Wohin möchten Sie im nächsten Urlaub fahren?[@shortAnswer]
+===
+[%4]Welche Musik mögen Sie?[@shortAnswer]
+===
+[%5]Welche Sprachen können Sie besonders gut sprechen?[@shortAnswer]
+===
+[%6]Was durften Sie als Kind nicht tun?[@shortAnswer]
+===
+[%7]Wann müssen Sie morgens aufstehen?[@shortAnswer]
+===
+[%8]Wo möchten Sie am liebsten wohnen?[@shortAnswer]
+===
+[%9]Konnten Sie als Kind Ski laufen?[@shortAnswer]
+===
+[%9]Mochten Sie früher Zeichentrickfilme?[@shortAnswer]
+===
+[%10]Mussten Sie schon mal eine Prüfung wiederholen?[@shortAnswer]
+===
+[%11]Dürfen Sie in Ihrer Arbeitszeit privat im Internet surfen?[@shortAnswer]
+===
+||what to do with unanswered questions?||
+
+
+[.internal-link]
+[!Zusatzübungen zu Modalverben ➔ Teil C][►kapitel1c]
+
+
+
+
+
+[.chapter]
+[###Schule und Ausbildung]
+[@leave.context:academic]
+[@leave.subject:Schule und Ausbildung]
+
+
+[.interview:bitmark--&imageWithAudio]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/l1030934.png]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/l1030926.png]
+[&audio::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/audio/02_erkundungen_b2_3a.mp3]
+[%A4a]
+[!Erinnern Sie sich an Ihre Schulzeit?
+
+Hören Sie die Berichte und ergänzen Sie die Informationen. Lesen Sie zuerst die Stichworte.]
+===
+**Jürgen**
+
+Schulweg:[@shortAnswer]
+[$lang, Busfahrt, 45 Minuten]
+===
+Lieblingsfächer:[@shortAnswer]
+[$naturwissenschaftliche Fächer (Physik, Chemie, Biologie)]
+===
+Probleme:[@shortAnswer]
+[$beim Sprachenlernen]
+===
+Berufswunsch:[@shortAnswer]
+[$Tiefseetaucher]
+===
+jetziger Beruf:[@shortAnswer]
+[$Betriebswirt]
+===
+**Martina**
+
+Schulweg:[@shortAnswer]
+[$sehr kurz, Schule war in der Nähe des Hauses]
+===
+Lieblingsfächer:[@shortAnswer]
+[$Deutsch, Englisch, Geschichte]
+===
+Probleme:[@shortAnswer]
+[$in Mathematik]
+===
+Berufswunsch:[@shortAnswer]
+[$Lehrerin]
+===
+jetziger Beruf:[@shortAnswer]
+[$Englischlehrerin]
+===
+
+
+
+[.cloze-solution-grouped]
+[%A4b]
+[!Ergänzen Sie die fehlenden Nomen.]
+Ich kann mich natürlich sehr gut an meinen Schulweg erinnern, denn meine Schule war in einem anderen [_Stadtteil][%1] und ich musste ziemlich lange mit dem Bus fahren, 45 Minuten. Meistens habe ich während der Busfahrt meine [_Hausaufgaben][%2] gemacht. Meine [_Handschrift][%3] war dann aber nicht die schönste und viele Lehrer konnten meine Hausaufgaben nicht richtig lesen. Ich kann mich auch noch an unseren Physiklehrer erinnern. Das war ein junger Lehrer und wir haben sehr viele interessante [_Experimente][%4] durchgeführt. Meine [_Lieblingsfächer][%5] waren eigentlich alle naturwissenschaftlichen Fächer, also Physik, Chemie und Biologie. Ich wollte früher immer Tiefseetaucher werden und im Ozean nach [_Schätzen][%6] und versunkenen Schiffen suchen. Unsere Englischlehrerin, Mrs. Jones, war sehr attraktiv und ich glaube, die [_Hälfte][%7] der Jungen war in sie verliebt. Ich auch. Leider hatte ich [_Schwierigkeiten][%8] mit Sprachen, weil ich zu faul war, [_Vokabeln][%9] zu lernen. Deshalb konnte mich Mrs. Jones nicht besonders gut leiden.
+
+
+
+
+[.interview&image]
+[%A5]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/532871_original_r_by_kathi_paul_pixelio.de.png]
+[!Fragen Sie Ihren Nachbarn/Ihre Nachbarin.
+
+Berichten Sie dann über die interessantesten Informationen, die Sie erhalten haben.]
+===
+[%1] Sind Sie gern/ungern zur Schule gegangen?[@shortAnswer]
+===
+[%2] Wie viele Schülerinnen/Schüler waren in Ihrer Klasse?[@shortAnswer]
+===
+[%3] Können Sie Ihren Schulweg beschreiben?[@shortAnswer]
+===
+[%4] Was waren Ihre Lieblingsfächer?[@shortAnswer]
+===
+[%5] Hatten Sie eine Lieblingslehrerin/einen Lieblingslehrer?[@shortAnswer]
+===
+[%6] Was wollten Sie damals gerne werden?[@shortAnswer]
+===
+[%7] Können Sie sich an etwas besonders Aufregendes/Lustiges aus Ihrer Schulzeit erinnern?[@shortAnswer]
+===
+[%8] Haben Sie noch Kontakt zu Schülern oder Lehrern der Grundschule?[@shortAnswer]
+===
+
+
+[.interview:bitmark--]
+[%A6a]
+[!Der erste Schultag
+
+Berichten Sie.]
+===
+Erinnern Sie sich an Ihren ersten Schultag?[@shortAnswer]
+===
+Hatten Sie auch eine Schultüte?[@shortAnswer]
+===
+Gibt es in Ihrem Heimatland einen besonderen Brauch am ersten Schultag?[@shortAnswer]
+===
+
+||Auf Aufzählungzeichen verzichtet||
+
+[.assignment:bitmark--&image]
+[%A6b]
+[!Der erste Schultag
+
+Lesen Sie den folgenden Text.]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/dok_detail_file.png]
+
+**Der erste Schultag**
+
+Wenn man in Deutschland über den ersten Schultag spricht, muss man auch von der Schultüte reden. Sie ist das deutlichste Kennzeichen der Mädchen und Jungen, die zum allerersten Mal in die Schule gehen.
+
+Der Schulanfang ist so alt wie die Schule selbst. Früher erfolgte der Schulanfang im Frühjahr oder Herbst und mit ihm entwickelten sich zahlreiche Bräuche. Die Tradition, den Schulanfang der Kinder mit Gebäck und Früchten zu versüßen, kann man bis in die Antike zurückverfolgen: „Es geben die Lehrer den Knaben süßes Gebäck, damit sie Lust bekommen, die ersten Lektionen zu lernen.“ (Horaz) Im Mittelalter erhielten Kinder zur Einschulung Brezeln, Feigen, Rosinen und Mandeln. Der Brauch, den Schulanfängern Süßigkeiten in einer Schultüte zu überreichen, entstand Anfang des 19. Jahrhunderts. Die „Zuckertüte“, wie sie wegen ihres Inhaltes vor allem in Thüringen und Sachsen heute noch heißt, war bereits im Jahre 1852 Anlass, ein Kinderbuch darüber zu zeichnen und zu schreiben. Der Überlieferung nach wuchsen die Zuckertüten an einem Zuckertütenbaum, der im Schulgebäude stand. Dieser Baum konnte sich auf dem Dachboden oder im Keller der Schule befinden. Heute hängen die Tüten in manchen Orten sogar an richtigen Bäumen.
+
+Vor 150 Jahren waren es nur Kinder der gehobenen Schichten, die ein Einschulungsgeschenk bekamen. Die meisten anderen Kinder mussten in der Landwirtschaft helfen oder durch andere Arbeiten zum Familienunterhalt beitragen. Als sich die Schulpflicht immer mehr durchsetzte, wurden die Schultüten häufiger – zunächst in Thüringen und Sachsen. Um 1910 begann Carl August Nestler, Zuckertüten fabrikmäßig herzustellen. Seit dieser Zeit wanderte der Schultütenbrauch auch in das übrige Deutschland. In den kleinen Orten Westdeutschlands kamen die Tüten allerdings erst in den 1950er-Jahren an. Die Form der Tüten hat sich in den letzten hundert Jahren nicht wesentlich geändert. Es überwiegt der runde Spitzkegel. In der ehemaligen DDR hatte sich eine sechseckige Tüte durchgesetzt.
+
+Heute klingt das Wort „Zuckertüte“ vor allem für Zahnärzte und gesundheitsbewusste Eltern sehr verdächtig. Die vielen Süßigkeiten in den Tüten müssen oft Zeichenstiften oder Spielzeug weichen. In mancher Schultüte findet sich sogar ein Handy. Hinweise, was alles in die Tüte kommen sollte und was nicht, kann man alle Jahre wieder in den Medien nachlesen.
+
+
+
+[.true-false&article:bitmark--]
+[%A6c]
+[!Der erste Schultag
+
+Stehen die hier genannten Aussagen im Text? Kreuzen Sie an.]
+[@label-true:richtig][@label-false:falsch]
+===
+[+1. Früher konnten die Kinder im Herbst oder im Frühjahr mit der Schule beginnen.]
+===
+[+2. Schon in der Antike gab es am ersten Schultag etwas Süßes, um die Kinder zum Lernen zu motivieren.]
+===
+[-3. Die erste Zuckertüte gab es im Jahr 1852.]
+===
+[-4. In den Schulen wuchsen früher sogenannte Zuckertütenbäume.]
+===
+[+5. Der Brauch mit der Zuckertüte stammt aus den Bundesländern Sachsen und Thüringen und breitete sich Anfang des 20. Jahrhunderts über ganz Deutschland aus.]
+===
+[+6. Heute sind die Zuckertüten nicht mehr ausschließlich mit Süßigkeiten gefüllt.]
+===
+
+[.article]
+**Der erste Schultag**
+
+Wenn man in Deutschland über den ersten Schultag spricht, muss man auch von der Schultüte reden. Sie ist das deutlichste Kennzeichen der Mädchen und Jungen, die zum allerersten Mal in die Schule gehen.
+
+Der Schulanfang ist so alt wie die Schule selbst. Früher erfolgte der Schulanfang im Frühjahr oder Herbst und mit ihm entwickelten sich zahlreiche Bräuche. Die Tradition, den Schulanfang der Kinder mit Gebäck und Früchten zu versüßen, kann man bis in die Antike zurückverfolgen: „Es geben die Lehrer den Knaben süßes Gebäck, damit sie Lust bekommen, die ersten Lektionen zu lernen.“ (Horaz) Im Mittelalter erhielten Kinder zur Einschulung Brezeln, Feigen, Rosinen und Mandeln. Der Brauch, den Schulanfängern Süßigkeiten in einer Schultüte zu überreichen, entstand Anfang des 19. Jahrhunderts. Die „Zuckertüte“, wie sie wegen ihres Inhaltes vor allem in Thüringen und Sachsen heute noch heißt, war bereits im Jahre 1852 Anlass, ein Kinderbuch darüber zu zeichnen und zu schreiben. Der Überlieferung nach wuchsen die Zuckertüten an einem Zuckertütenbaum, der im Schulgebäude stand. Dieser Baum konnte sich auf dem Dachboden oder im Keller der Schule befinden. Heute hängen die Tüten in manchen Orten sogar an richtigen Bäumen.
+
+Vor 150 Jahren waren es nur Kinder der gehobenen Schichten, die ein Einschulungsgeschenk bekamen. Die meisten anderen Kinder mussten in der Landwirtschaft helfen oder durch andere Arbeiten zum Familienunterhalt beitragen. Als sich die Schulpflicht immer mehr durchsetzte, wurden die Schultüten häufiger – zunächst in Thüringen und Sachsen. Um 1910 begann Carl August Nestler, Zuckertüten fabrikmäßig herzustellen. Seit dieser Zeit wanderte der Schultütenbrauch auch in das übrige Deutschland. In den kleinen Orten Westdeutschlands kamen die Tüten allerdings erst in den 1950er-Jahren an. Die Form der Tüten hat sich in den letzten hundert Jahren nicht wesentlich geändert. Es überwiegt der runde Spitzkegel. In der ehemaligen DDR hatte sich eine sechseckige Tüte durchgesetzt.
+
+Heute klingt das Wort „Zuckertüte“ vor allem für Zahnärzte und gesundheitsbewusste Eltern sehr verdächtig. Die vielen Süßigkeiten in den Tüten müssen oft Zeichenstiften oder Spielzeug weichen. In mancher Schultüte findet sich sogar ein Handy. Hinweise, was alles in die Tüte kommen sollte und was nicht, kann man alle Jahre wieder in den Medien nachlesen.
+
+
+
+[.interview]
+[%A6d]
+[!Der erste Schultag
+
+Bilden Sie aus den vorgegebenen Wörtern Sätze im Präteritum.
+Achten Sie auch auf eventuell fehlende Präpositionen, den Kasus und die Reihenfolge der Satzglieder.]
+===
+[%◇] Schulanfang – zahlreiche Bräuche – sich entwickeln
+[@example:Mit dem Schulanfang entwickelten sich zahlreiche Bräuche.][@shortAnswer]
+===
+[%1] die Lehrer – schon – Antike – süßes Gebäck – Schüler – geben[@shortAnswer]
+[$Die Lehrer gaben den/ihren Schülern schon in der Antike süßes Gebäck. ]
+===
+[%2] Anfang, 19. Jahrhundert – Deutschland – der Brauch mit der Zuckertüte – entstehen[@shortAnswer]
+[$Anfang des 19. Jahrhunderts entstand in Deutschland der Brauch mit der Zuckertüte.]
+===
+[%3] viele Süßigkeiten – Zuckertüte – sich befinden[@shortAnswer]
+[$In der Zuckertüte befanden sich viele Süßigkeiten.]
+===
+[%4] man – sagen – dass – Zuckertüten – Zuckertütenbäume – wachsen[@shortAnswer]
+[$Man sagte, dass die Zuckertüten an Zuckertütenbäumen wuchsen.]
+===
+[%5] vor 150 Jahren – nur – Kinder reicher Leute – ein Geschenk – Einschulung – bekommen[@shortAnswer]
+[$Vor 150 Jahren bekamen nur die Kinder reicher Leute ein Geschenk zur Einschulung.]
+===
+[%6] arme Kinder – arbeiten – müssen – um – Geld – verdienen[@shortAnswer]
+[$Arme Kinder mussten arbeiten, um Geld zu verdienen.]
+===
+[%7] 1910 – Carl August Nestler – beginnen – Zuckertüten – Fabrik – herstellen[@shortAnswer]
+[$1910 begann Carl August Nestler, Zuckertüten in einer Fabrik herzustellen. ]
+===
+[%8] der Brauch – ganz Deutschland – danach – sich verbreiten[@shortAnswer]
+[$Der Brauch verbreitete sich danach in ganz Deutschland.]
+===
+
+[.internal-link]
+[!Zusatzübungen zu den Vergangenheitsformen der Verben ➔ Teil C][►kapitel1c]
+
+
+
+
+
+[.essay&image]
+[%A7a]
+[!Lernen in Deutschland
+
+Beschreiben Sie die folgende Grafik.]
+||Bild wurde uns nicht zur Verfügung gestellt||
+
+
+
+[.interview&article:bitmark++&image]
+[%A7b]
+[!Lernen in Deutschland
+
+Lesen Sie den Text und beantworten Sie dazu die Fragen.]
+
+===
+[%1] Welche staatlichen und privaten Einrichtungen gibt es in Ihrem Heimatland für Kinder bis zum sechsten Lebensjahr?[@shortAnswer]
+===
+[%2] Welche Schulabschlüsse gibt es in Ihrem Heimatland und wie lange dauert die allgemeine Schulpflicht?[@shortAnswer]
+===
+[%3] Gibt es in Ihrem Heimatland staatliche Schulen und/oder Privatschulen?[@shortAnswer]
+===
+[%4] Tragen die Schüler eine Schuluniform?[@shortAnswer]
+===
+
+[.article]
+
+**Schulpflicht in Deutschland**
+
+Ab drei Jahren haben Kinder das Recht auf einen Kindergartenplatz. Der Kindergarten ist freiwillig. Mit sechs/sieben Jahren gilt die allgemeine Schulpflicht und das Kind besucht die erste Klasse.
+
+Die Schulpflicht beträgt im Allgemeinen neun Jahre, in vier Bundesländern zehn Jahre. Ab der fünften Klasse (etwa ab dem zehnten Lebensjahr) besucht das Kind/der Jugendliche eine weiterführende Schule. Das kann zum Beispiel eine Hauptschule (Schulabschluss nach neun Jahren), eine Realschule (Schulabschluss nach zehn Jahren) oder ein Gymnasium (Schulabschluss nach 12 oder 13 Jahren) sein. Eine gymnasiale Ausbildung wird außer am Gymnasium auch an der Gesamtschule angeboten.
+
+* Kinder, die __(zwei Jahre)__ alt sind, gehen in __(die Kinderkrippe).__
+
+* Wenn Kinder __(drei Jahre)__ alt sind, besuchen sie __(den Kindergarten).__
+
+* Mit __(sechs/sieben Jahren)__ beginnt die Schulzeit/die Schule.
+
+* Ab dem __(zehnten)__ Lebensjahr geht man auf __(das Gymnasium/die Realschule/die Hauptschule).__
+
+* __(Das Gymnasium/Die Realschule/Die Hauptschule)__ schließt man mit ... ab.
+
+* Nach __(dem Gymnasium/der Realschule/der Hauptschule)__ kann man __(an einer Universität)__ studieren/einen Beruf erlernen
+
+
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/klassenfoto-2-sw.png]
+
+
+
+
+
+[.assignment:bitmark--]
+[%A8a]
+[!Wortschatz: Schule und Ausbildung
+
+Lesen Sie die folgenden Redemittel zum Thema Schule und Ausbildung.]
+
+**Schulzeit**
+* eine Schule besuchen/zur Schule gehen
+* auf eine Schule gehen/in die Schule gehen
+* die Schule schwänzen
+* die Schulausbildung abschließen
+* Fächer haben/wählen/mögen
+* ein gutes/mittelmäßiges/schlechtes Zeugnis erhalten/bekommen
+* für eine Prüfung lernen/büffeln (umg.)
+* eine Prüfung/das Abitur/die mittlere Reife machen/ablegen/bestehen
+* durch eine Prüfung fallen/bei einer Prüfung durchfallen
+* in die nächste Klasse (nicht) versetzt werden/sitzen bleiben
+
+**Nach der Schule**
+* einen Beruf wählen/ergreifen/erlernen
+* an einer Fachhochschule/Hochschule/Universität studieren
+* ein Studium beginnen/unterbrechen/weiterführen/abschließen
+* Vorlesungen und Seminare besuchen
+* Kurse machen/besuchen/belegen; an einem Kurs teilnehmen
+
+
+
+
+[.interview]
+[%A8b]
+[!Wortschatz: Schule und Ausbildung
+
+Dialog: Fragen Sie Ihre Nachbarin/Ihren Nachbarn.
+Formulieren Sie Fragen mit den angegebenen Wörtern. Ihre Nachbarin/Ihr Nachbar antwortet Ihnen.]
+===
+[%◇] Schule[@shortAnswer]
+[@example:Welche Schule hast du/haben Sie besucht?
+Auf welche Schule bist du/sind Sie gegangen?]
+===
+[%*1.] Fächer[@shortAnswer]
+===
+[%2] schwänzen[@shortAnswer]
+===
+[%3] Nachhilfeunterricht[@shortAnswer]
+===
+[%4] Zeugnis[@shortAnswer]
+===
+[%5] Prüfungen[@shortAnswer]
+===
+[%6] Berufswunsch[@shortAnswer]
+===
+
+
+
+[.match-solution-grouped&image]
+[%A8c]
+[!Wortschatz: Schule und Ausbildung
+
+Ordnen Sie das passende Verb/die passenden Verben zu.]
+===
+[%1] auf eine Schule
+==
+[%b]gehen[@example]
+===
+[%2] an einer Hochschule
+==
+[%f]studieren
+===
+[%3] einen Beruf
+==
+[%g]ergreifen
+===
+[%4] einen Kurs
+==
+[%a]belegen
+--
+[%e]besuchen
+===
+[%5] in der Freizeit Deutsch
+==
+[%d]lernen
+===
+[%6] eine Prüfung
+==
+[%h]ablegen
+===
+[%7] an einer Semesterarbeit
+==
+[%c]schreiben
+===
+[%8] Vorlesungen
+==
+[%e]besuchen
+===
+
+||add image- not found in general folder||
+
+
+[.cloze-solution-grouped]
+[%A9]
+[!Ergänzen Sie die passenden Nomen.]
+Andreas war ein [_Musterschüler][@example]. Schon in der Grundschule war er [_Klassenbester][%1] Sein liebstes [_Fach][%2] war von Anfang an Mathematik. Er vergaß nie, seine [_Hausaufgaben][%3] zu machen. Nach der Grundschule ging er auf das[_Gymnasium][%4]. Jedes Jahr brachte er das beste[_Zeugnis][%5] der Klasse mit nach Hause. Er schrieb sehr gute [_Aufsätze][%6] und seine [_Diktate][%7] waren fehlerfrei. Als er älter wurde, gab er schwächeren Schülern [_Nachhilfeunterricht][%8]. Außerhalb der [_Schulzeit][%9] las Andreas viel, um seine [_Allgemeinbildung][%10] zu verbessern. Im [_Unterricht][%11] bereitete er sich auf seine [_Prüfungen][%12] gut vor. Sein [_Abitur][%13] bestand er mit einer sehr guten [_Durchschnittsnote][%14].
+
+
+
+[.assignment:bitmark++]
+[%A10]
+[!Diskussion
+
+Lesen Sie die folgenden Aussagen zum Thema Lernen. Wählen Sie dann gemeinsam drei Aussagen, über die Sie in der Gruppe diskutieren wollen. Nutzen Sie bei Ihrer Argumentation auch die angegebenen Redemittel.]
+
+1. Jeder kann alles lernen, wenn er nur will.
+2. In der Schule soll in erster Linie Wissen vermittelt werden.
+3. Wer in der Schule gute Zensuren hat, wird auch ein guter Arzt/Anwalt.
+4. Früher waren die Schüler viel fleißiger.
+5. Was Hänschen nicht lernt, lernt Hans nimmermehr.
+6. Nicht für die Schule, für das Leben lernen wir.
+
+
+<<remark<<
+**zustimmen**
+* Damit/Mit dieser Aussage bin ich einverstanden.
+* Das sehe ich auch so.
+* Das entspricht auch meiner Erfahrung.
+* Ich kann dem nur zustimmen.
+
+**widersprechen**
+* Ich glaube eher, dass...
+* Das sehe ich ganz anders.
+* In diesem Punkt habe ich eine ganz andere Meinung.
+* Das kann ich mir nicht vorstellen.
+
+
+
+
+
+[.essay:bitmark--]
+[%A11a]
+[!Schriftlicher Ausdruck
+
+Brief an eine Zeitung]
+
+Schreiben Sie eine Reaktion auf diesen Artikel an die Zeitung (ungefähr 180 Wörter).
+
+Sagen Sie,
+* warum Sie schreiben
+* ob Schüler in Ihrem Heimatland eine Schuluniform tragen
+* welche Vorteile oder Nachteile das Tragen einer Schuluniform Ihrer Meinung nach hat.
+
+<<remark<<
+**Schulkleidung statt Markenwahn**
+
+Schüler in Uniform? Bayerns Ministerpräsident, die Bundesbildungsministerin und die Bundesjustizministerin sprachen sich für die Schuluniform aus. Die Bildungsministerin sagte gestern dazu, dass das Tragen einer Schuluniform zu begrüßen ist, wenn einheitliche Schulkleidung zur Identifizierung mit der Schule beiträgt und Symbol einer Gemeinschaft aller Schüler ist. „Falls Schulkleidung darüber hinaus dem verbreiteten Markenwahn entgegenwirkt, umso besser.“
+
+
+||tbd: Instruktion angepasst (Originalwortlaut: "Wählen Sie Thema a) oder b)||
+
+
+
+[.essay:bitmark++&image]
+[%A11b]
+
+[!Schriftlicher Ausdruck
+
+Persönlicher Brief]
+Sie haben eine Freundin/einen Freund aus Ihrer Schulzeit lange nicht gesehen. Jetzt möchten Sie mit ihr/ihm wieder Kontakt aufnehmen. Schreiben Sie einen Brief und berichten Sie,
+* warum Sie schreiben
+* was Sie seit Ihrer Schulzeit gemacht haben
+* über Ihre jetzige Situation und Ihre Pläne für die nächsten Wochen.
+
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/briefe_schreiben-neu.png]
+<<remark<<
+**Anrede und Gruß in persönlichen Briefen oder E-Mails**
+* Anrede: Liebe Petra, Lieber Peter, Hallo Petra/Peter,
+* Gruß: Mit herzlichen Grüßen/Herzliche Grüße Mit lieben Grüßen/Liebe Grüße
+Sei herzlich/lieb gegrüßt von ...
+
+Die persönliche Anrede mit __Du/du, Ihr/ihr__ usw. kann groß- oder kleingeschrieben werden. Die gebräuchliche Form ist die Kleinschreibung.
+
+
+
+||tbd: Instruktion angepasst (Originalwortlaut: "Wählen Sie Thema a) oder b)||
+
+[.chapter]
+[###Lebensläufe]
+[@leave.context:business]
+[@leave.subject:Lebensläufe]
+
+[.assignment]
+[%A12]
+[!Wann war was?
+
+Ein Kursteilnehmer schreibt eine Jahreszahl aus seinem Lebenslauf an die Tafel. Die anderen Kursteilnehmer müssen das Ereignis erraten, das hinter der Jahreszahl steckt, indem sie Fragen stellen.]
+||add picture:not found in main folder||
+
+
+[.assignment:bitmark++]
+[%A13]
+[!Diskutieren Sie in Kleingruppen und berichten Sie über die interessantesten Diskussionsergebnisse im Plenum.]
+* In welchen Situationen braucht man einen Lebenslauf?
+* Wie sieht ein Lebenslauf in Ihrem Heimatland aus?
+Welche Angaben sind enthalten? Wie lang ist er? Worauf sollte man achten?
+* Was meinen Sie: Welche Rolle spielt der Lebenslauf im Rahmen einer Stellenbewerbung?
+
+
+
+[.essay:bitmark++]
+[%A14]
+[!Lebenslauf: Alles oder nichts auf knapp zwei Seiten
+
+Lesen Sie die folgenden Hinweise zum Verfassen eines Lebenslaufs und markieren Sie die Punkte, die sich von einem Lebenslauf in Ihrem Heimatland unterscheiden. Berichten Sie anschließend darüber.]
+
+Die meisten Personalchefs lesen zuerst den Lebenslauf. Er ist die wichtigste Visitenkarte eines Bewerbers. Der Lebenslauf muss auf Anhieb überzeugen, denn viele Personaler in deutschen Unternehmen fällen ihr Urteil in weniger als einer Minute. Erfüllt der Lebenslauf eines Kandidaten die Anforderungen nicht, werden die Bewerbungsunterlagen ohne weitere Beachtung aussortiert. Der Lebenslauf muss demzufolge aussagekräftig und leserfreundlich gestaltet sein.
+
+Das Grundprinzip eines erfolgreichen Lebenslaufs ist die Klarheit. Er sollte in übersichtliche Blöcke eingeteilt werden und darf eine Länge von zwei Seiten nicht überschreiten.
+
+<<remark<<
+**1. Persönliche Angaben**
+* Vor- und Nachname, evtl. Geburtsname
+* Anschrift mit Telefonnummer und E-Mail-Adresse
+* Geburtsdatum, Geburtsort
+* Familienstand
+* Staatsangehörigkeit
+
+
+<<remark<<
+**2. Berufserfahrung, bei Einsteigern Praxiserfahrung aus Praktika oder Hochschule**
+* Arbeitgeber und Ort
+* Abteilung und Position
+* Kurzbeschreibung von zwei bis fünf Tätigkeitsbeispielen
+
+
+<<remark<<
+**3. Schule und Ausbildung/Studium**
+* Datum des Abschlusszeugnisses, Note
+* freiwilliges soziales Jahr/freiwilliges ökologisches Jahr/Bundesfreiwilligendienst (BFD)
+* Ausbildungsbezeichnung, Ausbildungsort, kennengelernte Bereiche, Abschluss
+* Hochschulstudium (Studiengang, Universität, Abschluss und Abschlussnote, Schwerpunkte und Thema der Abschlussarbeit)
+
+
+<<remark<<
+**4. Zusatzqualifikationen**
+* Sprachen (mit Angabe des Sprachniveaus)
+* PC-Kenntnisse
+* andere Zusatzqualifikationen
+
+
+<<remark<<
+**5. Auslandsaufenthalte**
+* Auslandssemester und Auslandspraktika
+* Auslandseinsätze im Beruf
+
+
+<<remark<<
+**6. Fort- und Weiterbildung (nicht für Berufseinsteiger)**
+* Seminare, die über den Beruf hinausgehen
+
+
+<<remark<<
+**7. Hobbys** (nur, wenn sie dem Beruf dienlich sind oder eine ehrenamtliche Tätigkeit beinhalten)
+
+[@reference:Lebenslauf: Alles oder nichts auf knapp zwei Seiten. FOCUS online In: https://www.focus.de/finanzen/]
+Am Ende des Lebenslaufs stehen Datum und Unterschrift.
+
+In Deutschland wird der Lebenslauf normalerweise mit einem Bewerbungsfoto versehen. Diese Tradition hat sich in den letzten Jahren etwas gelockert. Experten empfehlen aber, auf das Bewerbungsfoto nicht zu verzichten, da es einen ersten persönlichen Eindruck vermittelt. Das Bild sollte nicht älter als ein Jahr sein und von einem Profi im Fotostudio angefertigt werden. Es kommt rechts oben auf den Lebenslauf.
+
+
+
+[.cloze-solution-grouped:bitmark++&image]
+[%A15]
+[!Lesen Sie den Lebenslauf von Eva Schmidt.
+
+Ergänzen Sie die fehlenden Nomen. Arbeiten Sie zu zweit oder in Kleingruppen.]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/screenshot.png]
+
+
+**Persönliche Angaben**
+
+Geburtsdatum: 22. Mai 1986
+Staatsangehörigkeit: deutsch
+[_Familienstand][%1]: ledig
+
+**Berufserfahrung**
+
+10/2012 bis heute: **Marketing-Communications-Managerin**, Network-GmbH, Leipzig
+Eigenständige Entwicklung, Durchführung und Steuerung von Marketing- und PR-Maßnahmen:
+* [_Optimierung][%2] von Prozessen und Instrumenten der internen und externen Kommunikation sowie deren Umsetzung
+* [_Erstellung][%3] und Aktualisierung von Verkaufsmaterialien (z. B. Broschüren)
+* Entwicklung und Monitoring von Direktmarketing-[_Kampagnen][%4]
+
+04/2010 bis 09/2012: **PR-Assistentin**, Paul & Partner, Berlin
+* Analyse von Online-Marketingmaßnahmen für verschiedene [_Startup-Unternehmen][%5]
+* Unterstützung beim [_Aufbau][%6] von Websites
+* Platzierung von Unternehmen und Produkten in den sozialen Netzwerken
+
+09/2009 bis 03/2010: **Praktikum**, Müller-Mediengruppe, Berlin [_Mitarbeit][%7] an der Werbekampagne „Berlin als grüne Stadt“
+
+**Ausbildung**
+
+07/2009: **Master of Arts Kommunikationswissenschaften** (Note 2,0), Freie Universität Berlin
+
+10/2007 bis 07/2009: **Masterstudium Kommunikationswissenschaften**, Freie Universität Berlin
+* Schwerpunkt: Werbung und Öffentlichkeitsarbeit
+* [_Spezialisierung][%8]: Nutzung von Social-Media-Instrumenten
+* [_Titel][%9] der Masterarbeit: „Werbung in sozialen Medien“ (Note 1,5)
+
+07/2007: **Bachelor of Arts Medienmanagement** (Note 1,8), Freie Universität Berlin
+
+10/2004 bis 07/2007: **Bachelorstudium Medienmanagement**, Freie Universität Berlin
+
+06/2004: [_Abitur][%10] (Note 1,8), Max-Planck-Gymnasium, Leipzig
+
+**Zusatzqualifikationen**
+
+__Englisch__: verhandlungssicher (Niveau C2 des Gemeinsamen Europäischen Referenzrahmens für Sprachen)
+__Französisch__: fließend (Niveau C1 des GER)
+__Spanisch__: [_Grundkenntnisse][%11] (Niveau A2 des GER)
+__EDV__: Microsoft Office (Outlook, Word, Excel, Powerpoint), CMS-Systeme, MS Dynamics, Google Analytics, E-Mail-Marketing-Tools
+
+**Fort- und Weiterbildung:**
+
+09/2014 - Qualitätsmanagementsystem (ISO 9001)
+11/2013 - Projektmanagement (PRINCE2)
+
+**Auslandsaufenthalte:**
+
+07/2007 bis 09/2009
+**Auslandspraktikum**, Werbefirma JUST, London
+Mitarbeit bei der Erarbeitung von Online-Werbekampagnen für die Firmen Easy-FLY und Take Away
+
+09/2006 bis 01/2007
+[_Auslandssemester][%12] (5. Studiensemester), University of Manchester
+
+Leipzig, 14. April 2016
+E. Schmidt
+
+
+
+
+[.interview]
+[%A16]
+[!Formulieren Sie Wendungen für einen Lebenslauf im Nominalstil.]
+===
+[%◇] Werbematerialien eigenständig erstellen[@shortAnswer]
+[@example:eigenständige Erstellung von Werbematerialien]
+===
+[%1] Daten analysieren[@shortAnswer]
+[$Analyse von Daten]
+===
+[%2] Veranstaltungen organisieren[@shortAnswer]
+[$Organisation von Veranstaltungen]
+===
+[%3] Kunden betreuen[@shortAnswer]
+[$Betreuung von Kunden]
+===
+[%4] Unterricht erteilen[@shortAnswer]
+[$Erteilen von Unterricht]
+===
+[%5] Websites aktualisieren[@shortAnswer]
+[$Aktualisierung von Websites]
+===
+[%6] Konzepte entwickeln[@shortAnswer]
+[$Entwicklung von Konzepten]
+===
+[%7] Seminare durchführen[@shortAnswer]
+[$Durchführung von Seminaren]
+===
+[%8] Arbeitsprozesse optimieren[@shortAnswer]
+[$Optimierung von Arbeitsprozessen]
+===
+[%9] Produktpräsentationen erarbeiten[@shortAnswer]
+[$Erarbeitung von Produktpräsentationen]
+===
+[%10] innovative Produkte vermarkten[@shortAnswer]
+[$Vermarktung innovativer Produkte oder Vermarktung von innovativen Produkten]
+===
+[%11] Strategien konzipieren[@shortAnswer]
+[$Konzeption von Strategien]
+===
+[%12] Kosten kalkulieren[@shortAnswer]
+[$Kalkulation der Kosten/ Kalkulation von Kosten/ Kostenkalkulation]
+===
+[%13.] Firmen beraten[@shortAnswer]
+[$Beratung von Firmen oder Firmenberatung]
+===
+[%14.] ein Projekt leiten[@shortAnswer]
+[$Leitung eines Projekts oder Projektleitung]
+===
+[%15.] ein Qualitätsmanagementsystem implementieren[@shortAnswer]
+[$Implementierung eines Qualitätsmanagementsystems]
+===
+
+
+[.essay&image]
+[%A17]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/studieren.png]
+[!Schriftlicher Ausdruck: Lebenslauf
+
+Schreiben Sie Ihren Lebenslauf oder den einer erfundenen Person.]
+
+
+[.interview:bitmark--]
+[%A18]
+[!Geben Sie folgende Angaben aus dem Lebenslauf des Bewerbers Otto Patzer wieder. Bilden Sie Sätze im Perfekt, wenn keine andere Zeitform angegeben ist.
+
+Achten Sie auch auf eventuell fehlende Präpositionen und den richtigen Kasus.]
+===
+[%◇] 2001 – Abitur[@shortAnswer]
+[@example:Er hat im Jahr 2001 Abitur gemacht.]
+===
+[%1] 2001 bis 2002 – freiwilliges soziales Jahr im Altenpflegeheim „Trost“[@shortAnswer]
+[$Von 2001 bis 2002 hat Otto ein freiwilliges soziales Jahr im Altenpflegeheim „Trost“ gemacht oder Von 2001 bis 2002 hat Otto ein freiwilliges soziales Jahr im Altenpflegeheim „Trost“ absolviert.]
+===
+[%2] 2002 bis 2007 – Studium Bauingenieurwesen an der TU Braunschweig[@shortAnswer]
+[$Von 2002 bis 2007 hat er Bauingenieurwesen an der TU Braunschweig studiert.]
+===
+[%3] Studienschwerpunkte: Baustoffe und Bauwerkserhaltung __(Präteritum)__[@shortAnswer]
+[$Seine Studienschwerpunkte waren Baustoffe und Bauwerkserhaltung.]
+===
+[%4] 2007 – Abschluss als Diplom-Bauingenieur[@shortAnswer]
+[$2007 hat er sein Studium als Diplom-Bauingenieur abgeschlossen.]
+===
+[%5] 09/2007 bis 12/2007 – Praktikum im Bereich Holzbau bei der „Häusle-AG“, Nürnberg[@shortAnswer]
+[$Von September 2007 bis Dezember 2007 hat er ein Praktikum im Bereich„Holzbau“ bei der„Häusle-AG“ in Nürnberg absolviert oder Von September 2007 bis Dezember 2007 hat er ein Praktikum im Bereich„Holzbau“ bei der„Häusle-AG“ in Nürnberg gemacht. ]
+===
+[%6] 01/2008 bis 2010 – Junior-Projektmanager bei einer Münchner Baugesellschaft[@shortAnswer]
+[$Von Januar 2008 bis 2010 hat er als Junior-Projektmanager bei einer Münchner Baugesellschaft gearbeitet.]
+===
+[%7] Erstellung der Angebotsunterlagen für mehrere Bürohausprojekte in München[@shortAnswer]
+[$Er hat Angebotsunterlagen für mehrere Bürohausprojekte in München erstellt.]
+===
+[%8] Überwachung der Baudurchführung[@shortAnswer]
+[$Er hat die Baudurchführung überwacht.]
+===
+[%9] seit 2010 – Projektmanager bei der Ernst Köppel GmbH in Holzkirchen __(Präsens)__[@shortAnswer]
+[$Seit 2010 arbeitet Otto als Projektmanager bei der Ernst Köppel GmbH in Holzkirchen oder Seit 2010 ist Otto als Projektmanager bei der Ernst Köppel GmbH in Holzkirchen beschäftigt.]
+===
+[%10] Kalkulation von Angeboten für Gebäudesanierungen __(Präsens)__[@shortAnswer]
+[$Er kalkuliert Angebote für Gebäudesanierungen.]
+===
+[%11] Abnahme einzelner Bauabschnitte in mehreren Sanierungsprojekten __(Präsens)__[@shortAnswer]
+[$Er nimmt einzelne Bauabschnitte in mehreren Sanierungsprojekten ab.]
+===
+[%12] Führen von Finanzierungsverhandlungen mit den örtlichen Kreditinstituten __(Präsens)__[@shortAnswer]
+[$Er führt Finanzierungsverhandlungen mit den örtlichen Kreditinstituten.]
+===
+
+
+
+[.interview]
+[%A19]
+[!Klassenspaziergang
+
+Gehen Sie durch die Klasse und befragen Sie drei Teilnehmer zu beruflichen Tätigkeiten, die sie in ihrem Lebenslauf angeben würden. Machen Sie sich Notizen und berichten Sie anschließend im Plenum.]
+===
+Teilnehmer 1[@shortAnswer]
+===
+Teilnehmer 2[@shortAnswer]
+===
+Teilnehmer 3[@shortAnswer]
+===
+
+||tbd: In der Instruktion "mindestens" gelöscht||
+
+[.cloze:bitmark++]
+[%A20a]
+[!Das Bewerbungsanschreiben
+
+Sie erhalten das folgende Bewerbungsanschreiben. Leider sind einzelne Wörter unleserlich. Rekonstruieren Sie den Text, indem Sie jeweils das fehlende Wort ergänzen.]
+||Auf Screens unterschiedlicher Grösse macht die Instruktion “am Rand” keinen Sinn. Die Instruktion wurde daher angepasst||
+**Ihr Stellenangebot als Ingenieur für Elektrotechnik**
+
+Sehr geehrte Frau Fischer,
+
+durch meine langjährige Tätigkeit im Bereich des industriellen Anlagebaus [_kenne][@example] ich die exzellente Reputation Ihres Unternehmens. Gerne würde ich meine Fähigkeiten [_für][%1] Ihr Unternehmen einsetzen, deshalb bewerbe ich mich hiermit um die ausgeschriebene [_Stelle][%2] als Ingenieur für Elektrotechnik. Besonders angesprochen hat mich die Aussicht [_auf][%3] eine verantwortungsvolle Position und die enge Zusammenarbeit mit internationalen [_Kunden][_Geschäftspartnern][_Partnern][%4]. Das Studium der Elektrotechnik an der Universität Nürnberg habe ich 2005 mit [_dem][_einem][%5] Diplom erfolgreich abgeschlossen.
+
+Seitdem konnte ich bei meinem jetzigen Arbeitgeber vielfältige Erfahrungen in der Projektierung von ==MSR-Anlagen== (@note: Mess-, Steuer- und Regelungsanlagen) und in der Automatisierung im industriellen Anlagenbau [_sammeln][_machen][%6]. Ich bin für die Durchführung von Engineering-Projekten im Bereich der Steuer- und Regelungstechnik für Industrieanlagen verantwortlich und stehe den Kunden [_und][%7] Lieferanten in allen projektrelevanten und elektrotechnischen Fragen zur [_Verfügung][%8]. Zur weiteren erfolgreichen Bewältigung meiner jetzigen Arbeitsaufgaben gehören [_neben][%9] Fachkenntnissen auch Teamgeist und ausgezeichnete kommunikative Fertigkeiten. Selbstverständlich verfüge ich über profunde Kenntnisse in ==SPS== (@note: speicherprogrammierbare Steuerung(en)). Ich [_spreche][%10] und schreibe fließend Englisch.
+
+Über die Einladung zu einem persönlichen Gespräch würde ich mich sehr [_freuen][%11].
+
+Mit freundlichen Grüßen Max Muster
+
+
+
+
+
+[.interview:bitmark--]
+[%20b]
+[!Das Bewerbungsanschreiben
+
+Tätigkeitsbeschreibung in Bewerbungsanschreiben
+Formulieren Sie aus den vorgegebenen Wörtern Sätze. Achten Sie auf die angegebene Zeitform, den richtigen Kasus und eventuell fehlende Präpositionen.]
+===
+[%◇] 2012 – ich – Marketing-Communications-Managerin – Network-GmbH – Leipzig – arbeiten __(Präsens)__[@shortAnswer]
+[@example:Seit 2012 arbeite ich als Marketing-Communications-Managerin bei der Firma Network-GmbH in Leipzig.]
+===
+[%1] meine Tätigkeit – die Konzipierung – neue Marketingstrategien – umfassen __(Präsens)__[@shortAnswer]
+[$Meine Tätigkeit umfasst die Konzipierung neuer Marketingstrategien oder Meine Tätigkeit umfasst die Konzipierung von neuen Marketingstrategien.]
+===
+[%2] unsere Abteilung – die Firmenleitung – Entwicklung neuer Produkte – beraten __(Präsens)__[@shortAnswer]
+[$Unsere Abteilung berät die Firmenleitung bei der Entwicklung neuer Produkte.]
+===
+[%3] ausgeschriebene Stelle – ich – vor allem die Spezialisierung – Onlinemarketing – interessant finden __(Präsens)__[@shortAnswer]
+[$An der ausgeschriebenen Stelle finde ich vor allem die Spezialisierung auf das Online-Marketing interessant.]
+===
+[%4] mein Master-Studium – Freie Universität Berlin – ich – Thema Werbung in den neuen Medien – beschäftigen __(Perfekt)__[@shortAnswer]
+[$Während meines Master-Studiums an der Freien Universität Berlin habe ich mich mit dem Thema Werbung in den neuen Medien beschäftigt./ In meinem Master-Studium an der Freien Universität Berlin habe ich mich mit dem Thema Werbung in den neuen Medien beschäftigt./ Innerhalb meines Master-Studiums an der Freien Universität Berlin habe ich mich mit dem Thema Werbung in den neuen Medien beschäftigt.]
+===
+[%5] mein Praktikum – die international angesehene Werbefirma JUST – London – ich – Ausarbeitung von Online- Werbekampagnen – beteiligt sein __(Präteritum)__[@shortAnswer]
+[$Während meines Praktikum bei der international angesehenen Werbefirma JUST in London war ich an der Ausarbeitung von Online-Werbekampagnen beteiligt./ Innerhalb meines Praktikums bei der international angesehenen Werbefirma JUST in London war ich an der Ausarbeitung von Online-Werbekampagnen beteiligt./ In meinem Praktikum bei der international angesehenen Werbefirma JUST in London war ich an der Ausarbeitung von Online-Werbekampagnen beteiligt.]
+===
+[%6] ich – Erfahrungen – Bereich der Erstellung von Werbematerialien – sammeln können __(Präteritum)__[@shortAnswer]
+[$Ich konnte Erfahrungen im Bereich der Erstellung von Werbematerialen sammeln.]
+===
+
+[.chapter]
+[###Zwischenmenschliche Beziehungen]
+[@leave.context:personal]
+[@leave.subject:Zwischenmenschliche Beziehungen]
+||maybe context family||
+
+[.assignment]
+[%A21]
+[!Blitzumfrage. Fragen Sie möglichst viele Kursteilnehmer und präsentieren Sie Ihr Umfrageergebnis:
+
+Wo lernen sich Paare heute kennen? Wo haben sich Paare vor 40 Jahren und vor 100 Jahren kennengelernt?]
+
+
+[.assignment:bitmark--]
+[%A22]
+[!Partnersuche heute. Lesen Sie den folgenden Text.]
+
+**Partnersuche heute**
+
+„Wer sich nicht trifft, wird auch kein Paar“ – so die Essenz der meisten wissenschaftlichen Aufsätze über das Kennenlernen. 1932 stellte ein US-Soziologe fest, dass 30 Prozent der Ehepaare in Philadelphia vor ihrem Kennenlernen bloß einen Block oder weniger voneinander entfernt gewohnt hatten. Nur 18 Prozent heirateten jemanden von außerhalb der Stadt. Die zunehmende Mobilität und Virtualität der vergangenen Jahrzehnte hat das Bild zwar verändert, aber nicht so stark, wie wir vermuten.
+
+Am Deutschen Jugendinstitut München findet gerade die größte Langzeituntersuchung zu Beziehungen und Familien in Deutschland statt. Von 2008 bis heute befragt ein interdisziplinäres Team in regelmäßigen Abständen Menschen, die bei der ersten Befragung entweder 15 bis 17, 25 bis 27 oder 35 bis 37 Jahre alt waren. Die ersten Daten zeigen, wo die 7 225 Befragten, die in einer Beziehung leben, ihren Partner fanden.
+
+Auf Platz eins liegt der Freundes- und Bekanntenkreis, jedes dritte Paar traf sich dort. Mit 22 Prozent liegen Arbeit, Schule und Ausbildung auf Platz zwei; Begegnungen in Kneipen und Diskos machen immerhin fast 16 Prozent aus. Hobby, Verein und Sport kommen mit knapp 9 Prozent auf Platz vier, das Internet liegt nur bei 5,6 Prozent. Dieses Ergebnis überraschte selbst die Forscher, denn sie hatten erwartet, dass das Internet eine größere Rolle spielt.
+
+Sieht man sich die Ergebnisse an, so ergibt sich ein differenziertes Bild: Während bei den 15- bis 17-Jährigen fast jede zehnte Liebe online begann, war es bei den 35- bis 37-Jährigen nicht einmal jede 25. Interessant ist, dass sich die Prozentzahl der Internetbekanntschaften bei den über 40-Jährigen wieder erhöht, darauf deutet jedenfalls eine aktuelle Studie der University of Oxford hin. Zum Kennenlernen eignen sich nach Aussage der Studie nicht nur Partnerschaftsbörsen, sondern auch Chats, Foren, soziale Netzwerke und Onlinespiele.
+
+Viel wichtiger als die virtuelle Welt ist für die Partnersuche das Arbeitsleben geworden. Frauen sind heute berufstätig, Kollegen kommen sich durch flachere Hierarchien und verschwindende Grenzen zwischen Job und Privatleben schneller näher. Neben der räumlichen Nähe bietet das Arbeitsumfeld einen weiteren Indikator für eine erfolgreiche Partnersuche: Gemeinsamkeiten. Insbesondere für langfristige Beziehungen wählen die meisten Menschen jemanden, mit dem sie Interessen teilen können und dessen sozialer Hintergrund sich vom eigenen kaum unterscheidet. Das gilt heute mehr als früher. Während vor drei Jahrzehnten 70 Prozent der Ehen in Deutschland zwischen zwei Menschen aus der gleichen sozialen Schicht geschlossen wurden, sind es heute 90 Prozent. Auch das Internet scheint daran wenig zu ändern. Die Onlineportale suchen in ihren Datenbanken vor allem nach Gemeinsamkeiten.
+
+Trotz sogenanntem „wissenschaftlichen Vorgehen“ bei der Partnersuche raten Flirt- und Kommunikationstrainer von Onlineportalen ab. Die Dating-Dienste suggerieren zu sehr, dass man sich den oder die Richtige mit genügend Nachdruck und Einsatz schon angeln könnte. Der dadurch erzeugte Erfolgsdruck sei aber das sicherste Mittel, das Spiel zu verlieren.
+
+[@reference: Partnersuche: Spiele, und du wirst finden. SPIEGEL ONLINE, 8.5.2012 (Eva-Maria Schnurr) In: https://www.spiegel.de/spiegelwissen/]
+
+
+[.true-false&article:bitmark--]
+[%A23a]
+[!Textverständnis
+
+Sind die folgenden Aussagen richtig oder falsch? Kreuzen Sie an.]
+[@label-true:richtig][@label-false:falsch]
+===
+[%1][- Die Orte des Kennenlernens haben sich in den letzten Jahrzehnten nicht verändert. ]
+===
+[%2][+Die Studie des Jugendinstituts in München läuft über mehrere Jahre.]
+===
+[%3][-Sie gibt Auskunft über Menschen, die im Jahr 2008 in einer Beziehung gelebt haben. ]
+===
+[%4][-Die Ergebnisse der Studie entsprachen den Erwartungen der Forscher. ]
+===
+[%5][+Sie bestätigten die große Rolle des Freundes- und Bekanntenkreises bei der Partnersuche. ]
+===
+[%6][+Das Arbeitsleben gewann in den letzten Jahren für die Partnersuche an Bedeutung.]
+===
+[%7][+Bei der Partnersuche achten mehr Menschen auf Gemeinsamkeiten als früher. ]
+===
+[%8][-Die Partnersuche ist auf jeden Fall erfolgreich, wenn man lange genug sucht.]
+===
+[@reference: Partnersuche: Spiele, und du wirst finden. SPIEGEL ONLINE, 8.5.2012 (Eva-Maria Schnurr) In: https://www.spiegel.de/spiegelwissen/]
+
+
+[.article]
+**Partnersuche heute**
+
+„Wer sich nicht trifft, wird auch kein Paar“ – so die Essenz der meisten wissenschaftlichen Aufsätze über das Kennenlernen. 1932 stellte ein US-Soziologe fest, dass 30 Prozent der Ehepaare in Philadelphia vor ihrem Kennenlernen bloß einen Block oder weniger voneinander entfernt gewohnt hatten. Nur 18 Prozent heirateten jemanden von außerhalb der Stadt. Die zunehmende Mobilität und Virtualität der vergangenen Jahrzehnte hat das Bild zwar verändert, aber nicht so stark, wie wir vermuten.
+
+Am Deutschen Jugendinstitut München findet gerade die größte Langzeituntersuchung zu Beziehungen und Familien in Deutschland statt. Von 2008 bis heute befragt ein interdisziplinäres Team in regelmäßigen Abständen Menschen, die bei der ersten Befragung entweder 15 bis 17, 25 bis 27 oder 35 bis 37 Jahre alt waren. Die ersten Daten zeigen, wo die 7 225 Befragten, die in einer Beziehung leben, ihren Partner fanden.
+
+Auf Platz eins liegt der Freundes- und Bekanntenkreis, jedes dritte Paar traf sich dort. Mit 22 Prozent liegen Arbeit, Schule und Ausbildung auf Platz zwei; Begegnungen in Kneipen und Diskos machen immerhin fast 16 Prozent aus. Hobby, Verein und Sport kommen mit knapp 9 Prozent auf Platz vier, das Internet liegt nur bei 5,6 Prozent. Dieses Ergebnis überraschte selbst die Forscher, denn sie hatten erwartet, dass das Internet eine größere Rolle spielt.
+
+Sieht man sich die Ergebnisse an, so ergibt sich ein differenziertes Bild: Während bei den 15- bis 17-Jährigen fast jede zehnte Liebe online begann, war es bei den 35- bis 37-Jährigen nicht einmal jede 25. Interessant ist, dass sich die Prozentzahl der Internetbekanntschaften bei den über 40-Jährigen wieder erhöht, darauf deutet jedenfalls eine aktuelle Studie der University of Oxford hin. Zum Kennenlernen eignen sich nach Aussage der Studie nicht nur Partnerschaftsbörsen, sondern auch Chats, Foren, soziale Netzwerke und Onlinespiele.
+
+Viel wichtiger als die virtuelle Welt ist für die Partnersuche das Arbeitsleben geworden. Frauen sind heute berufstätig, Kollegen kommen sich durch flachere Hierarchien und verschwindende Grenzen zwischen Job und Privatleben schneller näher. Neben der räumlichen Nähe bietet das Arbeitsumfeld einen weiteren Indikator für eine erfolgreiche Partnersuche: Gemeinsamkeiten. Insbesondere für langfristige Beziehungen wählen die meisten Menschen jemanden, mit dem sie Interessen teilen können und dessen sozialer Hintergrund sich vom eigenen kaum unterscheidet. Das gilt heute mehr als früher. Während vor drei Jahrzehnten 70 Prozent der Ehen in Deutschland zwischen zwei Menschen aus der gleichen sozialen Schicht geschlossen wurden, sind es heute 90 Prozent. Auch das Internet scheint daran wenig zu ändern. Die Onlineportale suchen in ihren Datenbanken vor allem nach Gemeinsamkeiten.
+
+Trotz sogenanntem „wissenschaftlichen Vorgehen“ bei der Partnersuche raten Flirt- und Kommunikationstrainer von Onlineportalen ab. Die Dating-Dienste suggerieren zu sehr, dass man sich den oder die Richtige mit genügend Nachdruck und Einsatz schon angeln könnte. Der dadurch erzeugte Erfolgsdruck sei aber das sicherste Mittel, das Spiel zu verlieren.
+
+
+
+
+
+
+[.essay&article:bitmark--]
+[%A23b]
+[!Textverständnis
+
+Fassen Sie die wichtigsten Aussagen des Textes zusammen. Finden Sie die Ergebnisse überraschend? Warum (nicht)? Begründen Sie Ihre Meinung.]
+
+[@reference: Partnersuche: Spiele, und du wirst finden. SPIEGEL ONLINE, 8.5.2012 (Eva-Maria Schnurr) In: https://www.spiegel.de/spiegelwissen/]
+
+[.article]
+
+**Partnersuche heute**
+
+„Wer sich nicht trifft, wird auch kein Paar“ – so die Essenz der meisten wissenschaftlichen Aufsätze über das Kennenlernen. 1932 stellte ein US-Soziologe fest, dass 30 Prozent der Ehepaare in Philadelphia vor ihrem Kennenlernen bloß einen Block oder weniger voneinander entfernt gewohnt hatten. Nur 18 Prozent heirateten jemanden von außerhalb der Stadt. Die zunehmende Mobilität und Virtualität der vergangenen Jahrzehnte hat das Bild zwar verändert, aber nicht so stark, wie wir vermuten.
+
+Am Deutschen Jugendinstitut München findet gerade die größte Langzeituntersuchung zu Beziehungen und Familien in Deutschland statt. Von 2008 bis heute befragt ein interdisziplinäres Team in regelmäßigen Abständen Menschen, die bei der ersten Befragung entweder 15 bis 17, 25 bis 27 oder 35 bis 37 Jahre alt waren. Die ersten Daten zeigen, wo die 7 225 Befragten, die in einer Beziehung leben, ihren Partner fanden.
+
+Auf Platz eins liegt der Freundes- und Bekanntenkreis, jedes dritte Paar traf sich dort. Mit 22 Prozent liegen Arbeit, Schule und Ausbildung auf Platz zwei; Begegnungen in Kneipen und Diskos machen immerhin fast 16 Prozent aus. Hobby, Verein und Sport kommen mit knapp 9 Prozent auf Platz vier, das Internet liegt nur bei 5,6 Prozent. Dieses Ergebnis überraschte selbst die Forscher, denn sie hatten erwartet, dass das Internet eine größere Rolle spielt.
+
+Sieht man sich die Ergebnisse an, so ergibt sich ein differenziertes Bild: Während bei den 15- bis 17-Jährigen fast jede zehnte Liebe online begann, war es bei den 35- bis 37-Jährigen nicht einmal jede 25. Interessant ist, dass sich die Prozentzahl der Internetbekanntschaften bei den über 40-Jährigen wieder erhöht, darauf deutet jedenfalls eine aktuelle Studie der University of Oxford hin. Zum Kennenlernen eignen sich nach Aussage der Studie nicht nur Partnerschaftsbörsen, sondern auch Chats, Foren, soziale Netzwerke und Onlinespiele.
+
+Viel wichtiger als die virtuelle Welt ist für die Partnersuche das Arbeitsleben geworden. Frauen sind heute berufstätig, Kollegen kommen sich durch flachere Hierarchien und verschwindende Grenzen zwischen Job und Privatleben schneller näher. Neben der räumlichen Nähe bietet das Arbeitsumfeld einen weiteren Indikator für eine erfolgreiche Partnersuche: Gemeinsamkeiten. Insbesondere für langfristige Beziehungen wählen die meisten Menschen jemanden, mit dem sie Interessen teilen können und dessen sozialer Hintergrund sich vom eigenen kaum unterscheidet. Das gilt heute mehr als früher. Während vor drei Jahrzehnten 70 Prozent der Ehen in Deutschland zwischen zwei Menschen aus der gleichen sozialen Schicht geschlossen wurden, sind es heute 90 Prozent. Auch das Internet scheint daran wenig zu ändern. Die Onlineportale suchen in ihren Datenbanken vor allem nach Gemeinsamkeiten.
+
+Trotz sogenanntem „wissenschaftlichen Vorgehen“ bei der Partnersuche raten Flirt- und Kommunikationstrainer von Onlineportalen ab. Die Dating-Dienste suggerieren zu sehr, dass man sich den oder die Richtige mit genügend Nachdruck und Einsatz schon angeln könnte. Der dadurch erzeugte Erfolgsdruck sei aber das sicherste Mittel, das Spiel zu verlieren.
+
+
+
+
+
+[.cloze-instruction-grouped]
+[%A24a]
+[!Vertiefen Sie den Wortschatz des Textes.
+
+Ergänzen Sie die fehlenden Verben im Präteritum.]
+
+1932 [_fand][@example] ein US-Soziologe [_heraus][!herausfinden][@example], dass in Philadelphia nur 18 Prozent der Menschen jemanden [_heirateten][!heiraten][%1], der außerhalb der Stadt [_wohnt][!wohnen][%2]. In den letzten Jahrzehnten [_nahm][!zunehmen][%3] die Mobilität rasant [_zu][%3], die Gewohnheiten bei der Partnersuche[_veränderten][!verändern][%4] sich allerdings nur wenig. Bei einer Studie des Deutschen Jugendinstituts in München[_befragten][!befrage][%5] Forscher Kandidaten unterschiedlicher Altersgruppen, wo sie ihren Partner [_kennenlernten][!kennenlernen][%6]. Auf Platz eins [_lag][%7] mit 33 Prozent unangefochten der Freundes- und Bekanntenkreis, Platz zwei [_belegten][!belegen][%8] mit 22 Pro-zent Arbeit, Schule und Ausbildung. Das Internet [_kam][!kommen][%9] überraschenderweise nur auf 5,6 Prozent.
+Während der Onlinebereich die Erwartungen der Forscher nicht [_erfüllte][!erfüllen][%10], [_gewann][!gewinnen][%11] das Arbeitsleben bei der Partnersuche an Bedeutung.
+
+
+
+
+
+
+[.match-solution-grouped&image]
+[%A24b]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/infografik_2728_daten_und_fakten_zum_thema_hochzeit_in_deutschland_n-gek-sw_sz.jpg]
+[!Vertiefen Sie den Wortschatz des Textes.
+
+Welches Verb passt? Ordnen Sie zu.]
+===
+[%1] eine Studie
+==
+[%b]veröffentlichen[@example]
+===
+[%2] Daten
+==
+[%g]erheben
+===
+[%3] einen Platz
+==
+[%e]belegen
+===
+[%4] in einer Beziehung
+==
+[%a]leben
+===
+[%5] räumliche Nähe
+==
+[%d]bieten
+===
+[%6] eine Ehe
+==
+[%f]schließen
+===
+[%7] von Onlineportalen
+==
+[%c]abraten
+===
+
+
+
+
+
+[.assignment]
+[%A25a]
+[!Mündlicher Ausdruck: Bericht und Vergleich
+
+Sammeln Sie in Kleingruppen Wörter zum Thema Hochzeit und präsentieren Sie Ihre Ergebnisse im Plenum.]
+
+
+
+[.interview]
+[%A25b]
+[!Mündlicher Ausdruck: Bericht und Vergleich
+
+Berichten Sie.]
+===
+Wo lernen sich Paare in Ihrem Heimatland kennen?
+===
+Wie sieht in Ihrem Heimatland eine typische Hochzeit aus?
+===
+Wo findet die Hochzeitszeremonie statt, wo die Feier? Wie lange dauert die Zeremonie, wie lange dauert die Feier? Wie viele Gäste kommen? Was gibt es traditionell zu essen und zu trinken?
+===
+||Aufzählungszeichen gelöscht||
+
+
+[.assignment:bitmark++&image]
+[%A25c]
+[!Mündlicher Ausdruck: Bericht und Vergleich
+
+Sprechen Sie zu zweit über die Infografik „Hochzeit in Deutschland“. Berichten Sie anschließend im Plenum, was Sie überrascht hat und in welchen Bereichen sich die Zahlen in Deutschland von Ihrem Heimatland unterscheiden. Nennen Sie für bestimmte Fakten, Entwicklungen oder Unterschiede auch Gründe. Nutzen Sie die folgenden Redemittel.]
+
+
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/verliebt-pfad.png]
+
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/infografik_2728_daten_und_fakten_zum_thema_hochzeit_in_deutschland_n-gek-sw_sz.jpg]
+<<remark<<
+Eine Infografik beschreiben
+* Die Infografik zeigt, dass ...
+* Aus der Infografik geht hervor, dass ...
+* Aus den Zahlen wird deutlich, dass ...
+* Wenn man ... und ... miteinander vergleicht, dann kann/muss man feststellen, dass ...
+* Im Gegensatz zu Deutschland ... in meinem Heimatland ...
+* Erstaunt/Überrascht hat mich, dass ...
+* Das könnte daran liegen, dass ...
+* Ein Grund für diese Entwicklung/Unterschiede könnte sein, dass ...
+
+
+
+||angepasste Instruktion; Streichung des Verweises auf “(Seite 19) mangels Bedarf ”||
+||würde dem Verlag vorschlagen, dass wir hier auf dieses Bild verzichten und es stattdessen der Übung A25 a) oder b) anhängen||
+
+[.essay:bitmark--]
+[%A26]
+[!Schriftlicher Ausdruck: Bericht
+
+Sie haben eine Radiosendung zum Thema __Heiraten in Deutschland__ gehört. Am Schluss der Sendung wurden Zuhörer aus anderen Ländern aufgefordert, einen kurzen Bericht über das Thema __Heiraten in meinem Heimatland__ zu schreiben und an den Sender zu schicken. In der nächsten Sendung wird über die interessantesten Zuschriften berichtet. Schreiben Sie einen Bericht über das genannte Thema (etwa 200 Wörter).]
+
+
+
+[.cloze]
+[%A27]
+[!Wortschatz: Liebe und Leid
+
+Lösen Sie das Worträtsel. Suchen Sie die passenden Nomen. Das Lösungswort ergibt sich, wenn Sie die markierten Kästchen senkrecht lesen.]
+[%1] Das hat man, wenn der geliebte Partner/die geliebte Partnerin nicht da ist.
+[_S][@example] [_e][@example] [_h][@example][%1] [_n][@example] [_s][@example] [_u] [_c] [_h] [_t]
+
+[%2] Das Brautpaar muss sie während der Feier anschneiden, dann kann man sie essen.
+[_T] [_o][%2] [_r] [_t] [_e]
+
+[%3] Das machen viele Singles, manche online.
+[_P][@example] [_a][@example] [_r] [_t] [_n] [_e] [_r] [_s] [_u] [_c] [_h] [_e][%3]
+
+[%4] Man trägt ihn normalerweise, wenn man verheiratet ist.
+[_E] [_h][%4] [_e] [_r] [_i] [_n] [_g][@example]
+
+[%5] Man empfindet ihn, wenn die Ehe nicht gut geht und man sich trennt.
+[_T] [_r] [_e] [_n] [_n] [_u] [_n] [_g] [_s] [_s][@example] [_c][@example] [_h][@example] [_m] [_e] [_r] [_z][%5]
+
+[%6] Die Braut trägt es während der Hochzeit, es ist oft weiß.
+[_B][@example] [_r][@example] [_a] [_u] [_t] [_k] [_l] [_e][%6] [_i] [_d]
+
+[%7] Das hat man zum Beispiel, wenn man in jemanden verliebt ist und die Liebe nicht erwidert wird.
+[_L][@example] [_i][%7] [_e] [_b] [_e] [_s] [_k] [_u] [_m] [_m] [_e] [_r]
+
+[%8] Der, der die Braut heiratet.
+[_B] [_r] [_ä][@example] [_u][@example] [_t][%8] [_i] [_g] [_a] [_m]
+
+Lösung: [_H][!1][@example] [_o][!2] [_c][!3] [_h][!4] [_z][!5] [_e][!6] [_i][!7] [_t][!8]
+||A27 - kreuzwortratsel
+adapt instructions||
+
+
+
+[.assignment:bitmark++&image]
+[%28a]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/729404_original_r_b_by_m._gapfel_pixelio.de.png]
+[!Das Privatleben von Prominenten
+
+Diskutieren Sie in Kleingruppen und berichten Sie über Ihre Diskussionsergebnisse.]
+* Warum, glauben Sie, finden so viele Leute Klatsch und Tratsch über Prominente so spannend?
+* Interessieren Sie sich für das Privatleben von Prominenten? Wenn ja, wo informieren Sie sich?
+* Welche Prominenten genießen in Ihrem Heimatland die größte mediale Aufmerksamkeit?
+
+
+
+
+[.cloze-solution-grouped:bitmark--&image]
+[%A28b]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/bruno-pfad.png]
+[!Das Privatleben von Prominenten
+
+Ergänzen Sie die fehlenden Nomen in der richtigen Form. Arbeiten Sie zu zweit.]
+**[_Ehe-Aus][@example] für Bruno?**
+
+__Corinna (33), die fünfte [_Ehefrau][%1] des berühmten Sängers Bruno(63), will die [_Scheidung][%2]!
+
+__ In der letzten Zeit vermehrten sich die Gerüchte, Bruno habe ein [_Verhältnis][%3] mit der schönen Backgroundsängerin Sharika. Jetzt reagierte seine Ehefrau. In einem Interview mit der Zeitschrift BLITZ sagte die Blondine: „Jetzt ist [_Schluss][%4]! Ich kann es nicht ertragen, dass Bruno schon wieder eine [_Geliebte][%5] hat!“ Corinna hat bereits den erfolgreichen [_Scheidungsanwalt][%6] Otto August von Unmut engagiert, der sie im [_Scheidungsprozess][%7] vertreten soll. Sie fordert die Hälfte des [_Vermögens][%8] und das alleinige [_Sorgerecht][%9] für den gemeinsamen Sohn Lucas (6 Jahre). Was das Finanzielle betrifft, so räumen Experten der betrogenen Ehefrau wenig Chancen ein. Sie hatte vor der Hochzeit einen [_Ehevertrag][%10] unterschrieben und auf finanzielle [_Ansprüche][%11] im Fall einer Scheidung verzichtet. Für Bruno wäre es die fünfte Scheidung. Er hat bereits sieben Kinder aus früheren Ehen, für die er [_Unterhalt][%12] zahlen muss.
+
+Doch vielleicht gibt es eine unerwartete Wendung. Ein stadtbekannter Juwelier bestätigte gestern gegenüber BLITZ, dass Bruno Schmuck im Wert von 50 000 Euro gekauft habe. Ist der wertvolle Schmuck für Corinna? Will Bruno seinen [_Fehler][%13] wieder gutmachen? Gibt es am Ende sogar eine romantische [_Versöhnung][%14]?
+
+
+
+[.mark:bitmark--]
+[%A28c1]
+[!Das Privatleben von Prominenten
+
+Markieren Sie gemeinsam alle Adjektive in blau.]
+||auf dem Mobile ist es schwierig, nur die Endungen zu markieren. Sinnvoller ist es, ganze Wörter zu markieren ||
+
+**Ehe-Aus für Bruno?**
+
+__Corinna (33), die fünfte Ehefrau des ['berühmten][@mark:blue] Sängers Bruno (63), will die Scheidung!__
+
+In der ['letzten][@mark:blue] Zeit vermehrten sich die Gerüchte, Bruno habe ein Verhältnis mit der ['schönen] Backgroundsängerin Sharika. Jetzt reagierte seine Ehefrau. In einem Interview mit der Zeitschrift BLITZ sagte die Blondine: „Jetzt ist Schluss! Ich kann es nicht ertragen, dass Bruno schon wieder eine Geliebte hat!“ Corinna hat bereits den ['erfolgreichen][@mark:blue] Scheidungsanwalt Otto August von Unmut engagiert, der sie im Scheidungsprozess vertreten soll. Sie fordert die Hälfte des Vermögens und das ['alleinige][@mark:blue] Sorgerecht für den ['gemeinsamen][@mark:blue] Sohn Lucas (6 Jahre). Was das Finanzielle betrifft, so räumen Experten der ['betrogenen][@mark:blue] Ehefrau wenig Chancen ein. Sie hatte vor der Hochzeit einen Ehevertrag unterschrieben und auf ['finanzielle][@mark:blue] Ansprüche im Fall einer Scheidung verzichtet. Für Bruno wäre es die fünfte Scheidung. Er hat bereits sieben Kinder aus früheren Ehen, für die er Unterhalt zahlen muss.
+
+Doch vielleicht gibt es eine ['unerwartete][@mark:blue] Wendung. Ein ['stadtbekannter][@mark:blue] Juwelier bestätigte gestern gegenüber BLITZ, dass Bruno Schmuck im Wert von 50 000 Euro gekauft habe. Ist der ['wertvolle] Schmuck für Corinna? Will Bruno seinen Fehler wieder gutmachen? Gibt es am Ende sogar eine ['romantische][@mark:blue] Versöhnung?
+
+[.multiple-choice-text]
+[%A28c2]
+[!Das Privatleben von Prominenten
+
+In welchem Genus, Kasus und Numerus steht die Nomengruppe? Vergleichen Sie Ihre Ergebnisse mit anderen Lernern.]
+
+des berühmten Sängers
+[+maskulin][-feminin][-neutral] [+singular][-plural] [+Genitiv][-Akkusativ][-Nominativ][-Dativ],
+
+In der letzten Zeit
+[-maskulin][+feminin][-neutral] [+singular][-plural] [-Genitiv][-Akkusativ][-Nominativ][+Dativ]
+
+der schönen Backgroundsängerin
+[-maskulin][+feminin][-neutral] [+singular][-plural] [-Genitiv][-Akkusativ][-Nominativ][+Dativ]
+
+den erfolgreichen Scheidungsanwalt
+[+maskulin][-feminin][-neutral] [+singular][-plural] [-Genitiv][+Akkusativ][-Nominativ][-Dativ]
+
+das alleinige Sorgerecht
+[-maskulin][-feminin][+neutral] [+singular][-plural] [-Genitiv][+Akkusativ][-Nominativ][-Dativ]
+
+den gemeinsamen Sohn
+[+maskulin][-feminin][-neutral] [+singular][-plural] [-Genitiv][+Akkusativ][-Nominativ][-Dativ]
+
+der betrogenen Ehefrau
+[-maskulin][+feminin][-neutral] [+singular][-plural] [-Genitiv][-Akkusativ][-Nominativ][+Dativ]
+
+finanzielle Ansprüche
+[-singular][+plural] [-Genitiv][+Akkusativ][-Nominativ][-Dativ]
+
+eine unerwartete Wendung
+[-maskulin][+feminin][-neutral] [+singular][-plural] [-Genitiv][+Akkusativ][-Nominativ][-Dativ]
+
+Ein stadtbekannter Juwelier
+[+maskulin][-feminin][-neutral] [+singular][-plural] [-Genitiv][-Akkusativ][+Nominativ][-Dativ]
+
+der wertvolle Schmuck
+[+maskulin][-feminin][-neutral] [+singular][-plural] [-Genitiv][-Akkusativ][+Nominativ][-Dativ]
+
+eine romantische Versöhnung
+[-maskulin][+feminin][-neutral] [+singular][-plural] [-Genitiv][+Akkusativ][-Nominativ][-Dativ]
+
+
+
+[.cloze-instruction-grouped:bitmark--]
+[%A29]
+
+[!Tipps fürs erste Date
+
+Ergänzen Sie die Adjektive in der richtigen Form.]
+Stellen Sie sich vor, Sie haben in einem Onlineforum einen besonders [_charmanten][!charmant][@example] Menschen kennengelernt und wollen nun endlich wissen, ob die [_netten][!nett][%1] E-Mails und die [_angenehme][!angenehm][%2] Telefonstimme Ihres [_potenziellen][!potenziell][%3] Traumpartners der Realität entsprechen. Worauf müssen Sie beim ersten [_persönlichen][!persönlich][%4] Treffen achten? Hier einige Tipps:
+
+1. Das erste Date sollte immer an einem [_öffentlichen][!öffentlich][%5] Ort stattfinden, z. B. in einem [_gemütlichen][!gemütlich][%6] Café. Trotz eines [_intensiven][!intensiv][%7] Mailwechsels kann man nie wissen, wer oder was einen erwartet. Wird Ihnen ein Selbstdarsteller? Tritt der zweite Fall ein, sollten Sie sich nicht dazu zwingen, den ganzen Tag mit einem [_attraktiver und witziger][!attraktiv und witzig][%8] Mensch gegenübersitzen oder ein [_unerträglicher][!unerträglich][%9] Selbstdarsteller? Tritt der zweite Fall ein, sollten Sie sich nicht dazu zwingen,den ganzen Tag mit einem [_unsympathischen][!unsympathisch][%10] Fremden zu verbringen. Seien Sie am besten ehrlich und sagen Sie freundlich, dass Sie das Date beenden möchten.
+
+2. Ein weiteres [_wichtiges][!wichtig][%11] Thema: Ihr Outfit. Tragen Sie das, was Sie immer tragen. In Zweifelsfällen raten Experten zur [_normalen][!normal][%12] Alltagskleidung, darin fühlt man sich wohl und kann entspannter kommunizieren.
+
+3. Besondere Vorsicht gilt bei der Themenwahl. Vermeiden Sie beim ersten Date [_private oder berufliche][!privat oder beruflich][%13] Problemschilderungen, beispielsweise Ihre Ex-Beziehungen oder den Streit mit Ihrem Chef. Auch die Themen __Politik und Geld__ haben in einem [_guten][!gut][%14] Smalltalk nichts zu suchen.
+
+4. Zeigen Sie beim ersten Treffen Gelassenheit und bleiben Sie so natürlich wie möglich. Das Einzige, worauf Sie vertrauen sollten, ist Ihre [_innere][!innere][%15] Stimme. Sollte der Funke nicht überspringen, dann seien Sie nicht enttäuscht. Betrachten Sie das Date einfach als [_lehrreiche][!lehrreich][%16] Erfahrung.
+
+[.internal-link]
+[!Zusatzübungen zur Deklination der Adjektive ➔ Teil C][►kapitel1c]
+||long brackets indicate answers||
+
+
+
+
+[.multiple-choice&imageWithAudio]
+[%A30a]
+[!Singles in Deutschland
+
+Sie hören jetzt ein Interview über Singles in Deutschland. Welche Aussage entspricht dem Text?
+Kreuzen Sie die richtige Antwort an.]
+
+[@reference: Allein zu Haus. Single als Lebensmodell? Tagesspiegel online, 11.7.2012 (Hanna Gieffers/Matthias Schlegel). In: https://www.tagesspiegel.de/politik]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/727494_original_r_k_b_by_lupo_pixelio-heller.png]
+
+[&audio::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/audio/03_erkundungen_b2_3a.mp3]
+||reference not attached to a text?||
+===
+[!Die Anzahl der Singlehaushalte in Deutschland]
+[+a) ist so hoch wie nie.][@example]
+[-b) ist stabil.]
+[-c) zeigt einen gesellschaftlichen Umbruch.]
+===
+[!1. Die meisten Singles]
+[-a) wohnen auf dem Land.]
+[-b) sind überzeugte Junggesellen.]
+[+c) kann man in den Großstädten finden.]
+===
+[!2. Singles sind]
+[-a) überdurchschnittlich erfolgreich.]
+[+b) eher armutsgefährdet als andere Personen.]
+[-c) besonders häufig in Führungspositionen zu finden.]
+===
+[!3. Frauen]
+[-a) finden das Singleleben besonders attraktiv.]
+[+b) sind heute durch bessere Bildungschancen unabhängiger. ]
+[-c) nutzen ihr Singleleben häufiger, um Karriere zu machen.]
+===
+[!4. Studien zufolge]
+[+a) träumen die meisten Deutschen noch immer von der großen Liebe. ]
+[-b) steigt die Anzahl der überzeugten Singles.]
+[-c) werden viele Menschen mit nur einem Partner glücklich.]
+===
+[!5. Im europäischen Vergleich der Ein-Personen-Haushalte]
+[+a) liegt Deutschland auf Platz zwei.]
+[-b) gibt es kaum Unterschiede zwischen den Ländern. ]
+[-c) haben Finnland und Dänemark die meisten Singles.]
+===
+
+
+[.essay&audio]
+[%A30b]
+[&audio::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/audio/03_erkundungen_b2_3a.mp3]
+[!Singles in Deutschland
+
+Hören Sie das Interview noch einmal. Fassen Sie die wichtigsten Aussagen mündlich oder schriftlich zusammen.]
+
+[@reference: Allein zu Haus. Single als Lebensmodell? Tagesspiegel online, 11.7.2012 (Hanna Gieffers/Matthias Schlegel). In: https://www.tagesspiegel.de/politik]
+||reference not attached to a text?||
+
+
+[.interview]
+[%A31]
+[!Zahlen über Singles
+
+Bilden Sie aus den vorgegebenen Wörtern Sätze. Achten Sie auf eventuell fehlende Präpositionen und den richtigen Kasus.]
+===
+[%◇]Erkenntnisse des Bundesamts für Statistik – rund 15,9 Millionen Menschen – Bundesrepublik – allein – leben[@shortAnswer]
+[@example:Nach Erkenntnissen des Bundesamts für Statistik leben rund 15,9 Millionen Menschen in der Bundesrepublik allein.]
+===
+[%1]das – ein Anstieg der Singlehaushalte – 40 Prozent – bedeuten[@shortAnswer]
+[$Das bedeutet einen Anstieg der Singlehaushalte um 40 Prozent.]
+===
+[%2] Großstädte – zirka ein Drittel der Haushalte – Ein-Personen-Haushalt – sein[@shortAnswer]
+[$In Großstädten sind zirka ein Drittel der Haushalte Ein-Personen-Haushalte.]
+===
+[%3] 60 Prozent der allein lebenden Männer – zwischen 35 und 64 Jahren – echte Junggesellen – sich selbst – bezeichnen[@shortAnswer]
+[$60 Prozent der allein lebenden Männer zwischen 35 und 64 Jahren bezeichnen sich selbst als echte Junggesellen.]
+===
+[%4] allerdings – 17 Prozent der Singles – mittleres Alter – Sozialleistungen – angewiesen sein[@shortAnswer]
+[$Allerdings sind 17 Prozent der Singles in mittlerem Alter auf Sozialleistungen angewiesen.]
+===
+[%5] männliche Singles – 11 Prozent – weniger – nicht allein lebende Männer – arbeiten[@shortAnswer]
+[$Bei männlichen Singles arbeiten 11 Prozent weniger als bei nicht allein lebenden Männern.]
+===
+[%6] weibliche Singles – erfolgreicher sein: – der Anteil an Führungskräften – 17 Prozent – liegen[@shortAnswer]
+[$Weibliche Singles sind erfolgreicher: Der Anteil an Führungskräften liegt bei 17 Prozent.]
+===
+[%7] im Schnitt – jeder Single – zirka 70 Quadratmeter Wohnfläche – Verfügung – stehen[@shortAnswer]
+[$Im Schnitt stehen jedem Single zirka 70 Quadratmeter Wohnfläche zur Verfügung.]
+===
+[%8] Studien zufolge – 66 Prozent der Deutschen – die Liebe fürs Leben – glauben[@shortAnswer]
+[$Studien zufolge glauben 66 Prozent der Deutschen an die Liebe fürs Leben.]
+===
+
+[.chapter]
+[##Teil B (fakultativ)]
+
+[.chapter]
+[###Außergewöhnliche Menschen]
+[@leave.context:]
+[@leave.subject:Außergewöhnliche Menschen]
+
+[.essay&article:bitmark++]
+[%B1]
+[!Die Helden der Deutschen
+
+Die Zeitschrift DER SPIEGEL beauftragte ein demoskopisches Institut, in einer Umfrage herauszufinden, welcher Deutsche den bedeutendsten Beitrag zur Entwicklung der Menschheit geleistet hat.
+Erstellen Sie zuerst selbst in Gruppen- oder Einzelarbeit eine Rangliste der BESTEN DREI und erklären Sie Ihre Wahl.
+
+Hier sind die Kandidaten:]
+
+[@reference: Die Helden der Deutschen. Der SPIEGEL 52/1999.]
+
+[.article]
+**Albert Einstein**
+Einstein revolutionierte die Physik. Er entwickelte die Relativitätstheorie und die einheitliche Feldtheorie. Den Nobelpreis bekam er 1921 für seine Deutung des Fotoeffekts.
+Der Mediziner entdeckte 1882 den Erreger der Tuberkulose mit einer neuen Färbemethode unter dem Mikroskop. Der Kampf gegen die Seuche konnte beginnen. 1905 erhielt er dafür den Nobelpreis.
+
+**Max Planck**
+Max Planck leistete mit seiner Quantentheorie einen grundlegenden Beitrag zur Entwicklung der Physik. 1918 erhielt er dafür den Nobelpreis.
+
+**Wilhelm Conrad Röntgen**
+Röntgen entdeckte die X-Strahlen (die später nach ihm als Röntgenstrahlen bezeichnet wurden). 1895 wendete er sie erstmals zur Durchleuchtung der Hand seiner Frau an und setzte so mit der Röntgenfotografie einen Meilenstein in der Entwicklung der Medizin. 1901 wurde er dafür mit dem Nobelpreis ausgezeichnet.
+
+**Johannes Gutenberg**
+Gutenberg erfand im Jahre 1440 den Buchdruck mit beweglichen Lettern. Bis dahin brauchte ein Mönch Jahre, um eine einzige Bibel herzustellen. Gutenberg brachte es im gleichen Zeitraum auf 80 Bibeln.
+
+**Martin Luther**
+Martin Luther übersetzte die Bibel ins Deutsche (1522 das Neue Testament, 1534 die gesamte Bibel) und schuf mit dieser Übersetzung die Grundlage des Hochdeutschen als gemeinsamer Sprache der Deutschen. Außerdem reformierte er mit seinen Reformationsschriften die Kirche.
+
+**Johann Wolfgang v. Goethe**
+Goethe gilt bis heute als das Genie der deutschen Literatur. Höhepunkt seines Schaffens ist sein 1808 veröffentlichtes Theaterstück „Faust I“.
+
+**Robert Koch**
+Der Mediziner entdeckte 1882 den Erreger der Tuberkulose mit einer neuen Färbemethode unter dem Mikroskop. Der Kampf gegen die Seuche konnte beginnen. 1905 erhielt er dafür den Nobelpreis.
+
+**Karl Marx**
+Marx schrieb mit seinem „Kapital“ die klassische Theorie des Geldes und mit dem Pamphlet „Das kommunistische Manifest“ legte er den theoretischen Grundstein für den Kommunismus.
+
+**Helmut Kohl**
+Kohl wurde als Kanzler der deutschen Wiedervereinigung (1990) gefeiert. Allerdings schadeten ungeklärte Geldgeschäfte während seiner Regierungszeit seinem Ansehen.
+
+**Albert Schweitzer**
+1952 wurde der Mediziner mit dem Friedensnobelpreis für sein jahrelanges Wirken in der Urwaldkrankenstation Lambaréné geehrt.
+
+**Ludwig van Beethoven**
+Der schwerhörige Musiker komponierte zu Beginn des 19. Jahrhunderts meisterhafte Sinfonien.
+
+**Otto von Bismarck**
+Bismarck gründete 1871 das Deutsche Reich und führte eine Sozialversicherung für Arbeiter ein.
+
+**Nikolaus Kopernikus**
+1543 veröffentlichte Kopernikus seine Erkenntnis, dass nicht die Erde im Mittelpunkt der Welt steht und alles um sie kreist, sondern die Sonne. Damit wurde das geozentrische Weltbild durch das heliozentrische abgelöst.
+*An der müßigen Diskussion, ob Kopernikus
+Pole oder Deutscher war, wollen wir uns nicht beteiligen.
+Zu seiner Zeit existierten Nationalstaaten im heutigen Sinne noch nicht.
+
+
+||images are separate, should be addapted /ich denke wir sollten Schubert vorschlagen, hier zu jedem Kandidaten ein Bild zu ergänzen und dafür bei B2 auf die Bilder von Gutenberg und Bismarck zu verzichten, siehe auch die Anmerkung zu B2||
+
+
+
+[.essay&image]
+||ich denke wir sollten Schubert vorschlagen, hier nur das Bild “Umfrage” aufzuführen, siehe auch die Anmerkung zu B1||
+[%B2]
+[!Vergleichen Sie Ihre persönliche Reihenfolge mit der Wahl der deutschen Umfrageteilnehmer.]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/014-2b.jpg]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/otto_von_bismarck.jpg]
+||no graphic||
+
+
+
+[.multiple-response]
+[%B3]
+[!Für welche Persönlichkeiten interessieren sich diese Schüler?
+
+In einer Abiturklasse sollen die Schüler einen Aufsatz über eine bedeutende Persönlichkeit schreiben. Welche der in B1 vorgestellten Personen wäre wohl für die folgenden Schüler interessant?
+Es gibt manchmal mehrere Lösungen, manchmal keine Lösung. In diesem Fall schreiben Sie „negativ“.]
+
+
+===
+[!Oskar interessiert sich für Physik und will gerne Astrophysiker werden.]
+[+Albert Einstein]
+[-Max Planck]
+[-Wilhelm Conrad Röntgen]
+[-Johannes Gutenberg]
+[-Martin Luther]
+[-Johann Wolfgang v. Goethe]
+[-Robert Koch]
+[-Karl Marx]
+[-Helmut Kohl]
+[-Albert Schweitzer]
+[-Ludwig van Beethoven]
+[-Otto von Bismarck]
+[+Nikolaus Kopernikus]
+[-negativ]
+
+===
+[!Paula möchte später mal Philosophie studieren.]
+[-Albert Einstein]
+[-Max Planck]
+[-Wilhelm Conrad Röntgen]
+[-Johannes Gutenberg]
+[-Martin Luther]
+[-Johann Wolfgang v. Goethe]
+[-Robert Koch]
+[+Karl Marx]
+[-Helmut Kohl]
+[-Albert Schweitzer]
+[-Ludwig van Beethoven]
+[-Otto von Bismarck]
+[-Nikolaus Kopernikus]
+[-negativ]
+
+===
+[!Gudrun will Politikerin werden.]
+[-Albert Einstein]
+[-Max Planck]
+[-Wilhelm Conrad Röntgen]
+[-Johannes Gutenberg]
+[-Martin Luther]
+[-Johann Wolfgang v. Goethe]
+[-Robert Koch]
+[+Karl Marx]
+[+Helmut Kohl]
+[-Albert Schweitzer]
+[-Ludwig van Beethoven]
+[+Otto von Bismarck]
+[-Nikolaus Kopernikus]
+[-negativ]
+
+===
+[!Sebastian hat schon einen Studienplatz für Germanistik in Frankfurt.]
+[-Albert Einstein]
+[-Max Planck]
+[-Wilhelm Conrad Röntgen]
+[-Johannes Gutenberg]
+[-Martin Luther]
+[+Johann Wolfgang v. Goethe]
+[-Robert Koch]
+[-Karl Marx]
+[-Helmut Kohl]
+[-Albert Schweitzer]
+[-Ludwig van Beethoven]
+[-Otto von Bismarck]
+[-Nikolaus Kopernikus]
+[-negativ]
+===
+[!Georg sieht alle Krimiserien im Fernsehen und will Kriminalistik studieren.]
+[-Albert Einstein]
+[-Max Planck]
+[-Wilhelm Conrad Röntgen]
+[-Johannes Gutenberg]
+[-Martin Luther]
+[-Johann Wolfgang v. Goethe]
+[-Robert Koch]
+[-Karl Marx]
+[-Helmut Kohl]
+[-Albert Schweitzer]
+[-Ludwig van Beethoven]
+[-Otto von Bismarck]
+[-Nikolaus Kopernikus]
+[+negativ]
+===
+[!Kirsten bewirbt sich um einen Studienplatz für Medizin.]
+[-Albert Einstein]
+[-Max Planck]
+[+Wilhelm Conrad Röntgen]
+[-Johannes Gutenberg]
+[-Martin Luther]
+[-Johann Wolfgang v. Goethe]
+[+Robert Koch]
+[-Karl Marx]
+[-Helmut Kohl]
+[+Albert Schweitzer]
+[-Ludwig van Beethoven]
+[-Otto von Bismarck]
+[-Nikolaus Kopernikus]
+[-negativ]
+===
+[!Michael will Schauspieler werden.]
+[-Albert Einstein]
+[-Max Planck]
+[-Wilhelm Conrad Röntgen]
+[-Johannes Gutenberg]
+[-Martin Luther]
+[+Johann Wolfgang v. Goethe]
+[-Robert Koch]
+[-Karl Marx]
+[-Helmut Kohl]
+[-Albert Schweitzer]
+[-Ludwig van Beethoven]
+[-Otto von Bismarck]
+[-Nikolaus Kopernikus]
+[-negativ]
+
+===
+[!Caroline singt gern und spielt sehr gut Klavier.]
+[-Albert Einstein]
+[-Max Planck]
+[-Wilhelm Conrad Röntgen]
+[-Johannes Gutenberg]
+[-Martin Luther]
+[-Johann Wolfgang v. Goethe]
+[-Robert Koch]
+[-Karl Marx]
+[-Helmut Kohl]
+[-Albert Schweitzer]
+[+Ludwig van Beethoven]
+[-Otto von Bismarck]
+[-Nikolaus Kopernikus]
+[-negativ]
+
+===
+[!Ottos Vater ist Pfarrer. Otto denkt darüber nach, auch Pfarrer zu werden.]
+[-Albert Einstein]
+[-Max Planck]
+[-Wilhelm Conrad Röntgen]
+[-Johannes Gutenberg]
+[+Martin Luther]
+[-Johann Wolfgang v. Goethe]
+[-Robert Koch]
+[-Karl Marx]
+[-Helmut Kohl]
+[-Albert Schweitzer]
+[-Ludwig van Beethoven]
+[-Otto von Bismarck]
+[-Nikolaus Kopernikus]
+[-negativ]
+
+===
+[!Claudias Interesse gilt der Biologie, besonders dem Leben von Bakterien.]
+[-Albert Einstein]
+[-Max Planck]
+[-Wilhelm Conrad Röntgen]
+[-Johannes Gutenberg]
+[-Martin Luther]
+[-Johann Wolfgang v. Goethe]
+[+Robert Koch]
+[-Karl Marx]
+[-Helmut Kohl]
+[-Albert Schweitzer]
+[-Ludwig van Beethoven]
+[-Otto von Bismarck]
+[-Nikolaus Kopernikus]
+[-negativ]
+===
+||maybe match bit?||
+
+
+[.cloze-instruction-grouped:bitmark--&image]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/cellarius_ptolemaic_system.jpg]
+[!Ergänzen Sie die fehlenden Verben im Präteritum.
+
+Manche Verben können mehrmals verwendet werden.]
+||müsste angepasst werden, siehe oben||
+[%B4]
+
+
+**1. Albert Einstein**
+[_revolutionierte][!revolutionieren] die Physik. Er [_entwickelte][!entwickeln] die Relativitätstheorie und die einheitliche Feldtheorie. Den Nobelpreis [_bekam][!bekommen][_erhielt][!erhalten] er 1921 für seine Deutung des Fotoeffekts.
+
+**2. Max Planck**
+[_leistete][!leisten] mit seiner Quantentheorie einen grundlegenden Beitrag zur Entwicklung der Physik. 1918 [_erhielt][!erhalten][_bekam][!bekommen] er dafür den Nobelpreis.
+
+**3. Wilhelm Conrad Röntgen**
+[_entdeckte][_entdecken] die X-Strahlen. 1895 [_wendete] er sie erstmals zur Durchleuchtung der Hand seiner Frau [_an] und [_setzte] so mit der Röntgenfotografie einen Meilenstein in der Entwicklung der Medizin.
+
+**4. Johannes Gutenberg**
+[_erfand] im Jahre 1440 den Buchdruck mit beweglichen Lettern. Bis dahin [_brauchte] ein Mönch drei Jahre, um eine einzige Bibel herzustellen. Gutenberg brachte es im gleichen Zeitraum auf 80 Bibeln.
+
+**5. Martin Luther**
+[_übersetzte] die Bibel ins Deutsche und [_schuf] mit dieser Übersetzung die Grundlage des Hochdeutschen als gemeinsamer Sprache der Deutschen.
+
+**6. Johann Wolfgang v. Goethe**
+gilt bis heute als das Genie der deutschen Literatur. 1808 [_veröffentlichte][_schrieb] er das Theaterstück Faust I.
+
+**7. Robert Koch**
+[_entdeckte][_entdecken] 1882 den Erreger der Tuberkulose mit einer neuen Färbemethode unter dem Mikroskop. Der Kampf gegen die Seuche [_konnte][!können] beginnen. 1905 [_erhielt][!erhalten][_bekam][!bekommen] er dafür den Nobelpreis.
+
+**8. Karl Marx**
+[_schrieb][!schreiben][_veröffentlichte][!veröffentlichen] mit seinem __Kapital__ die klassische Theorie des Geldes und mit dem Pamphlet __Das Kommunistische Manifest__ [_legte][!legen] er den theoretischen Grundstein für den Kommunismus.
+
+**9. Helmut Kohl**
+wurde als Kanzler der deutschen Wiedervereinigung gefeiert. Allerdings [_schadeten][!schaden] ungeklärte Geldgeschäfte während seiner Regierungszeit seinem Ansehen.
+
+**10. Albert Schweitzer**
+[_arbeitete][!arbeiten] jahrelang in der Urwaldkrankenstation Lambaréné. 1952 zeichnete ihn das Nobelpreiskomitee mit dem Friedensnobelpreis aus.
+
+**11. Ludwig van Beethoven**
+[_komponierte][!komponieren] zu Beginn des 19. Jahrhunderts meisterhafte Sinfonien.
+
+**12. Otto von Bismarck**
+[_gründete][!gründen] 1871 das Deutsche Reich und führte eine Sozialversicherung für Arbeiter ein.
+
+**13. Nikolaus Kopernikus**
+[_veröffentlichte][!veröffentlichen] 1543 seine Erkenntnis, dass nicht die Erde im Mittelpunkt der Welt steht und alles um sie kreist, sondern die Sonne. Damit [_wurde] das geozentrische Weltbild durch das heliozentrische [_abgelöst][!ablösen]
+||it shows how often a solution is used||
+
+
+[.interview]
+[%B5]
+[!Stellen Sie zwei oder drei Menschen Ihres Heimatlandes vor, die Ihrer Meinung nach etwas Besonderes zur Entwicklung der Menschheit beigetragen haben.]
+===
+[!Mensch 1:]
+===
+[!Mensch 2:]
+===
+[!Mensch 3 (freiwillig):]
+===
+
+||tbd: Das ist nach unserem Verständnis eigentlich eine mündliche Übung||
+
+[.assignment:bitmark--&image]
+[%B6]
+[!Lesen Sie den folgenden Text.]
+
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/lippe-detmold.jpg]
+**Eine starke Frau: Pauline von Lippe-Detmold**
+
+Fürstin Pauline zur Lippe, 1769 in Ballenstedt geboren, gilt
+heute als Musterbeispiel für jene Regenten von kleinen Herrschaftsgebieten, in die das alte deutsche Reich zerfallen war. Pauline führte ihr kleines Fürstentum so mustergültig, dass die Bewohner bis zu den Weltkriegen in gutem bürgerlichen Wohlstand leben konnten. Ihr Vater, Fürst von Anhalt-Bernburg, erzog sie auf gleiche Weise wie ihren Bruder. Sie erhielt Unterricht in Staatswissenschaften und verbrachte den ganzen Tag am Schreibtisch.
+
+Später heiratete sie den Fürsten Leopold zur Lippe, der aber schon im Jahre 1802 starb. Von da an musste Pauline die Regentschaft für ihren unmündigen Sohn übernehmen. Schon bald bemerkte sie das Elend und die große Armut, die im Lande herrschten. Sie las Bücher über moderne Sozialfürsorge und erkannte, dass die Armen vor allem Arbeit brauchten. Sie errichtete Berufsschulen für Kinder. Dort erlernten sie ein kleines Handwerk und erhielten dafür ein bisschen Geld. Dieser Lohn half den Kindern später beim Aufbau einer eigenen Existenz.
+
+Pauline ließ Listen von Armen und Kranken anfertigen und wer ganz hilfebedürftig war, wurde kostenlos in Krankenstuben versorgt. Zur Betreuung von Wahnsinnigen und Gemütskranken ließ sie ein Schloss umbauen und Kuhställe einrichten, in denen die Kranken Käse und Butter herstellen konnten. Nach der Gründung des ersten deutschen Kindergartens in Detmold (1802) veranstaltete sie ein Seminar für Frauen, um Erzieherinnen für weitere Kindergärten auszubilden. Pauline legte Vorratslager mit Getreide an, was für Zeiten der Hungersnot dringend notwendig war. Sie sorgte für neue Straßenkarten und verkürzte die Wehrpflicht für junge Männer auf fünf Jahre. In vielen Dingen, z. B. in der Fürsorge für Geisteskranke, war Pauline ihrer Zeit so weit voraus, dass sie auf Unverständnis bei Teilen der Bevölkerung und der eigenen Familie stieß. Sie starb 1820 völlig verarmt in Detmold.
+
+Bei der hastigen Beerdigung folgten nur wenige ihrem Sarg, nicht einmal ihre eigenen Kinder. Paulines wohltätige Einrichtungen aber gibt es bis heute und im Volk ist sie dafür unvergessen.
+
+[@reference: Eine starke Frau. Neue Ruhr Zeitung/Neue Rhein Zeitung (NRZ), 18.2.2001 (Marlis Haase)]
+
+
+
+[.cloze-instruction-grouped]
+[%B7]
+[!Ergänzen Sie die fehlenden Verben im Präteritum.]
+1. Pauline [_führte][!führen] ihr kleines Fürstentum mustergültig.
+2. Ihr Vater [_erzog][!erziehen] sie auf gleiche Weise wie ihren Bruder.
+3. Sie [_erhielt][!erhalten] Unterricht in Staatswissenschaften und [_verbrachte][!verbringen] den ganzen Tag am Schreibtisch.
+4. Später [_heiratete][!heiraten] sie den Fürsten Leopold zur Lippe, der aber schon im Jahre 1802 [_starb][!sterben].
+5. Von da an [_übernahm][!übernehmen] Pauline die Regentschaft für ihren unmündigen Sohn.
+6. Sie [_bemerkte][!bemerken] bald, dass Elend und Armut im Lande [_herrschten][!herrschen].
+7. Sie [_las][!lesen] Bücher über moderne Sozialfürsorge.
+8. Sie [_erkannte][!erkennen], dass die Armen vor allem Arbeit brauchten.
+9. Sie [_errichtete][!errichten] Berufsschulen für Kinder.
+10. Die Kinder [_erlernten][!erlernen] dort ein kleines Handwerk und [_bekamen][!bekommen] dafür ein bisschen Geld.
+11. Sie [_ließ][!lassen] Listen von Armen und Kranken anfertigen.
+12. Pfleger [_betreuten][!betreuen] Wahnsinnige und Gemütskranke in einem Schloss.
+13. In Kuhställen [_konnten][!können] Kranke Käse und Butter herstellen.
+14. Sie [_gründete][!gründen] den ersten deutschen Kindergarten.
+15. Sie [_veranstaltete][!veranstalten] ein Seminar für Frauen.
+16. Sie [_legte an][!anlegen] Vorratslager für Getreide.
+17. Sie [_verkürzte][!verkürzen] die Wehrpflicht auf fünf Jahre.
+18. Bei der Beerdigung [_folgten][!folgen] nur wenige ihrem Sarg.
+
+
+
+
+[.interview&article:bitmark--]
+[%B8]
+[!Beantworten Sie die folgenden Fragen.]
+===
+[%1] Welche soziale Tat von Fürstin Pauline halten Sie für die wichtigste?[@shortAnswer]
+===
+[%2] Wie beurteilen Sie die Reaktion der Familie auf Paulines Wirken?[@shortAnswer]
+===
+[%3] Welche Rolle sollten Ihrer Meinung nach Monarchen oder Landesfürsten in der heutigen Zeit spielen?[@shortAnswer]
+===
+[@reference: Eine starke Frau. Neue Ruhr Zeitung/Neue Rhein Zeitung (NRZ), 18.2.2001 (Marlis Haase)]
+
+[.article]
+**Eine starke Frau: Pauline von Lippe-Detmold**
+
+Fürstin Pauline zur Lippe, 1769 in Ballenstedt geboren, gilt
+heute als Musterbeispiel für jene Regenten von kleinen Herrschaftsgebieten, in die das alte deutsche Reich zerfallen war. Pauline führte ihr kleines Fürstentum so mustergültig, dass die Bewohner bis zu den Weltkriegen in gutem bürgerlichen Wohlstand leben konnten. Ihr Vater, Fürst von Anhalt-Bernburg, erzog sie auf gleiche Weise wie ihren Bruder. Sie erhielt Unterricht in Staatswissenschaften und verbrachte den ganzen Tag am Schreibtisch.
+
+Später heiratete sie den Fürsten Leopold zur Lippe, der aber schon im Jahre 1802 starb. Von da an musste Pauline die Regentschaft für ihren unmündigen Sohn übernehmen. Schon bald bemerkte sie das Elend und die große Armut, die im Lande herrschten. Sie las Bücher über moderne Sozialfürsorge und erkannte, dass die Armen vor allem Arbeit brauchten. Sie errichtete Berufsschulen für Kinder. Dort erlernten sie ein kleines Handwerk und erhielten dafür ein bisschen Geld. Dieser Lohn half den Kindern später beim Aufbau einer eigenen Existenz.
+
+Pauline ließ Listen von Armen und Kranken anfertigen und wer ganz hilfebedürftig war, wurde kostenlos in Krankenstuben versorgt. Zur Betreuung von Wahnsinnigen und Gemütskranken ließ sie ein Schloss umbauen und Kuhställe einrichten, in denen die Kranken Käse und Butter herstellen konnten. Nach der Gründung des ersten deutschen Kindergartens in Detmold (1802) veranstaltete sie ein Seminar für Frauen, um Erzieherinnen für weitere Kindergärten auszubilden. Pauline legte Vorratslager mit Getreide an, was für Zeiten der Hungersnot dringend notwendig war. Sie sorgte für neue Straßenkarten und verkürzte die Wehrpflicht für junge Männer auf fünf Jahre. In vielen Dingen, z. B. in der Fürsorge für Geisteskranke, war Pauline ihrer Zeit so weit voraus, dass sie auf Unverständnis bei Teilen der Bevölkerung und der eigenen Familie stieß. Sie starb 1820 völlig verarmt in Detmold.
+
+Bei der hastigen Beerdigung folgten nur wenige ihrem Sarg, nicht einmal ihre eigenen Kinder. Paulines wohltätige Einrichtungen aber gibt es bis heute und im Volk ist sie dafür unvergessen.
+
+
+
+[.chapter][▼kapitel1c]
+[##Teil C]
+
+[.chapter]
+[###Modalverben]
+[@grammar:Modalverben]
+
+
+[.match-solution-grouped]
+[%C1a1]
+[!Ordnen Sie den Modalverben die passende Umschreibung zu.]
+===
+[%1] mögen
+==
+jemand findet etwas gut[@example]
+===
+[%2] müssen
+==
+etwas ist notwendig; es ist eine Pflicht
+===
+[%3] sollen
+==
+eine andere Person wünscht etwas von jemandem
+===
+[%4] wollen
+==
+jemand hat die Absicht
+===
+[%5] können
+==
+es besteht die Möglichkeit/Gelegenheit, etwas zu tun; jemand ist in der Lage, etwas zu tun
+===
+[%6] dürfen
+==
+etwas ist erlaubt
+===
+
+||tbd: Aufteilung auf zwei Bits||
+
+
+[.interview]
+[%C1a2]
+[!Bilden Sie jeweils einen Beispielsatz mit folgenden Modalverben.]
+===
+[%1] mögen[@shortAnswer]
+[@example:Ich mag Jazz-Musik.]
+===
+[%2] müssen[@shortAnswer]
+===
+[%3] sollen[@shortAnswer]
+===
+[%4] wollen[@shortAnswer]
+===
+[%5] können[@shortAnswer]
+===
+[%6] dürfen[@shortAnswer]
+===
+
+||tbd: Aufteilung auf zwei Bits||
+
+
+[.match-solution-grouped]
+[%C1b1]
+[!Ordnen Sie den Modalverben die passende Umschreibung zu.]
+===
+[%1] nicht können
+==
+jemand ist nicht in der Lage, etwas zu tun; man hat keine Gelegenheit
+===
+[%2] nicht dürfen
+==
+es ist verboten; es ist nicht erwünscht
+===
+[%3] nicht brauchen/müssen
+==
+es ist nicht notwendig
+===
+[%4] nicht wollen
+==
+jemand hat nicht den Wunsch
+===
+[%5] nicht mögen
+==
+jemand kann etwas/jemanden nicht leiden
+===
+[%6] nicht sollen
+==
+eine andere Person hat etwas dagegen; es ist verboten (Du sollst nicht stehlen!)
+===
+
+||tbd: Aufteilung auf zwei Bits||
+
+
+
+[.interview]
+[%C1b2]
+[!Bilden Sie dann jeweils einen Beispielsatz mit dem Modalverb.]
+===
+[%1] nicht können[@shortAnswer]
+===
+[%2] nicht dürfen[@shortAnswer]
+===
+[%3] nicht brauchen/müssen[@shortAnswer]
+===
+[%4] nicht wollen[@shortAnswer]
+===
+[%5] nicht mögen[@shortAnswer]
+===
+[%6] nicht sollen[@shortAnswer]
+===
+
+||tbd: Aufteilung auf zwei Bits||
+
+
+[.cloze:bitmark--]
+[%C2]
+[!Ergänzen Sie die Modalverben in der richtigen Form im Präsens und im Präteritum.]
+
+**1. können**
+ich [_kann][@example] [_konnte][@example]
+er [_kann] [_konnte]
+wir [_können] [_konnten]
+
+**2. müssen**
+du [_musst] [_musstest]
+er [_muss] [_musste]
+ihr [_müsst] [_musstet]
+
+**3. wollen**
+ich [_will] [_wollte]
+du [_willst] [_wolltest]
+Sie [_wollen] [_wollten]
+
+**4. sollen**
+er [_soll] [_sollte]
+wir [_sollen] [_sollten,]
+ihr [_sollt] [_solltet]
+
+**5. mögen**
+ich [_mag] [_mochte]
+es [_mag] [_mochte]
+Sie [_mögen] [_mochten]
+
+**6. dürfen**
+du [_darfst] [_durftest]
+er [_darf] [_durfte]
+wir [_dürfen] [_durften]
+
+
+
+
+[.cloze-instruction-grouped]
+[%C3]
+[!Auf der Party
+
+Was passt wohin? Ergänzen Sie die fehlenden Modalverben in der richtigen Form.]
+
+1. Schön, dass Sie gekommen sind! [_Möchten][!möchte(n)] Sie sich allein mit den anderen bekannt machen oder [_darf][!dürfen] ich Sie vorstellen? – Danke, das ist sehr nett gemeint, aber wir [_wollen][!wollen] uns erst einmal ein bisschen umsehen.
+
+2. Schatz, du [_musst][!müssen] unbedingt Gabi Müller kennenlernen. Sie ist so nett. Ich [_wollte][!wollen] euch
+schon lange miteinander bekannt machen, aber immer [_konntest][!können] du nicht.
+
+3. [_Darf][!dürfen] ich vorstellen – Gabi Müller, meine Frau Kerstin. – Freut mich. Ich habe übrigens schon viel von Ihnen gehört. – Ja? Das [_müssen][!müssen] Sie mir einmal erzählen!
+
+
+
+
+[.cloze]
+[%C4]
+[!Ergänzen Sie die fehlenden Modalverben in der richtigen Form.
+
+Es gibt manchmal mehrere Lösungen.]
+◇[_Darf][@example] ich Sie mal kurz stören?
+1.Der Kopierer geht wieder. Du [_kannst] jetzt kopieren.
+2. [_Möchten] Sie noch eine Tasse Tee?
+3. Herr Müller hat sich krankgemeldet. Du [_musst][_sollst] ihn bei der Besprechung vertreten.
+4. Alles ist gut gelaufen. Du [_brauchst] dir keine Sorgen zu machen.
+5. Bei diesem Problem [_kann] Ihnen nur ein Spezialist helfen.
+6. Ist Ihnen heiß? [_Soll] ich das Fenster öffnen?
+7. Du [_musst][_solltest] dich auf die Prüfung gut vorbereiten, sonst fällst du durch.
+8. [_Darf] ich hier eine Zigarette rauchen? – Lieber nicht. Der Chef [_mag] das nicht.
+9. Wenn Sie zu diesem Thema mehr wissen wollen, [_müssen] Sie sich an Dr. Stuber wenden.
+10. Ich habe im Lotto gewonnen und [_will][_möchte] mein Geld anlegen. Was [_können] Sie mir empfehlen?
+11. Tut mir leid. Ich [_kann] heute Abend nicht mitkommen. Ich [_muss] Überstunden machen.
+12. Warum isst du nichts? [_Magst] du keinen Schokoladenkuchen?
+13. Schönen Gruß von Herrn Schulze. Du [_sollst] ihm heute noch das Angebot faxen.
+14. Ich [_muss] täglich nur noch 61/2 Stunden arbeiten.
+15. [_Soll] ich den Brief gleich schreiben oder [_kann] ich das auch morgen erledigen?
+16. Wir [_wollen][_möchten] auf keinen Fall im selben Hotel wie letztes Jahr übernachten.
+17. Mein Französisch ist zu schlecht. Ich [_kann] diesen Brief nicht übersetzen.
+18. Du [_brauchst] jetzt nicht aufzuräumen. Ich mache das nachher.
+19. Was [_mögen] Sie an Ihrer Arbeit besonders?
+20. Die Zeit ist um. Wir [_müssen] jetzt Schluss machen.
+
+
+[.cloze:bitmark--]
+[%C5]
+[!Ergänzen Sie die Modalverben __können, wollen, sollen, müssen, mögen, dürfen__ im Präteritum.]
+1. Ich [_konnte] gestern leider nicht kommen, ich hatte solche Zahnschmerzen.
+2. Sie [_durfte] als Kind nicht alleine in den Park gehen.
+3. Herr Meier [_musste] in den letzten Wochen jeden Tag bis 21 Uhr arbeiten.
+4. Ich bin froh, dass wir einen neuen Chef haben. Den alten [_mochte] ich nicht.
+5. Der Brief liegt ja immer noch hier! Der [_sollte] doch schon gestern zur Post gebracht werden.
+6. Frau Meier war ja schon wieder bei dir. Was [_wollte] sie denn?
+
+
+
+
+[.chapter]
+[###Vergangenheitsformen der Verben]
+[@grammar:Vergangenheitsformen der Verben]
+
+[.article:bitmark++]
+
+**Gebrauch der Zeitformen:**
+Das Präteritum verwendet man vor allem für schriftliche Äußerungen.
+In der mündlichen Kommunikation gebrauchen wir in der Regel das Perfekt.
+Die Hilfsverben __haben__ und __sein__ und die Modalverben bilden eine Ausnahme und werden meistens im Präteritum verwendet.
+
+**Bildung des Perfekts:**
+Alle Verben, die einen Akkusativ verlangen, und alle reflexiven Verben bilden das Perfekt mit __haben__.
+__Wir haben ein Haus gebaut. Ich habe mich geärgert.__
+Verben der Orts- und Zustandsänderung sowie sein und bleiben bilden das Perfekt mit __sein__.
+__Wir sind nach Italien gefahren. Die Blumen sind verblüht.__
+
+||add tables||
+
+
+|| .match-matrix not supported yet ||
+|| [.match-matrix]
+[%C6]
+[!Setzen Sie die Verben in die angegebenen Zeitformen.]
+===
+[#]
+==
+[#Präsens]
+==
+[#Präteritum]
+==
+[#Perfekt]
+===
+[%1]arbeiten
+==
+[!ich]arbeite[@example]
+==
+[!er]arbeitete
+==
+[!ihr]habt gearbeitet
+===
+[%2]wissen
+==
+[!er]weiß
+==
+[!wir]wussten
+==
+[!Sie]haben gewusst
+===
+[%3]können
+==
+[!du]kannst
+==
+[!er]konnte
+==
+[!wir]haben gekonnt
+===
+[%4]sitzen
+==
+[!ich]sitze
+==
+[!du]saßest
+==
+[!ihr]habt gesessen
+===
+[%5]rennen
+==
+[!du]rennst
+==
+[!wir]rannten
+==
+[!ihr]seid gerannt
+===
+[%6]sagen
+==
+[!ich]sage
+==
+[!du]sagtest
+==
+[!ihr]habt gesagt
+===
+[%7]liegen
+==
+[!ich]liege
+==
+[!er]lag
+==
+[!Sie]haben gelegen
+===
+[%8]legen
+==
+[!ich]lege
+==
+[!du]legtest
+==
+[!wir]haben gelegt
+===
+[%9]mögen
+==
+[!er]mag
+==
+[!wir]mochten
+==
+[!ihr]habt gemocht
+===
+[%10]verlieren
+==
+[!ich]verliere
+==
+[!du]verlorst
+==
+[!Sie]haben verloren
+===
+[%11]gehen
+==
+[!ich]gehe
+==
+[!du]gingst
+==
+[!er]ist gegangen
+===
+[%12]lesen
+==
+[!ich]lese
+==
+[!er]las
+==
+[!wir]haben gelesen
+===
+||
+
+
+[.interview]
+[%C7]
+[!Setzen Sie die folgenden Sätze erst ins Präteritum und dann ins Perfekt.]
+===
+[%1] Er weiß mal wieder nicht Bescheid.
+[!Präteritum][@shortAnswer]
+[$Er wusste mal wieder nicht Bescheid]
+===
+[!Perfekt][@shortAnswer][$Er hat nicht Bescheid gewusst.]
+===
+[%2] Sie nennt einen falschen Namen.
+[!Präteritum][@shortAnswer]
+[$Sie nannte einen falschen Namen.]
+===
+[!Perfekt][@shortAnswer][$Sie hat einen falschen Namen genannt.]
+===
+[%3] Der Student wendet sich mit dem Problem an den Professor.
+[!Präteritum][@shortAnswer]
+[$Der Student wendete sich mit dem Problem an den Professor oder Der Student wandte sich mit dem Problem an den Professor]
+===
+[!Perfekt][@shortAnswer][$Der Student hat sich an den Professor gewendet oder Der Student hat sich an den Professor gewandt.]
+===
+[%4] Anna denkt nicht daran, sich zu entschuldigen.
+[!Präteritum][@shortAnswer]
+[$Anna dachte nicht daran, sich zu entschuldigen]
+===
+[!Perfekt][@shortAnswer][$Anna hat nicht daran gedacht, sich zu entschuldigen.]
+===
+[%5] Wir senden Ihnen die Waren sofort nach Erhalt des Auftrags.
+[!Präteritum][@shortAnswer]
+[$Wir sendeten Ihnen die Waren sofort nach Erhalt des Auftrags oder Wir sandten Ihnen die Waren sofort nach Erhalt des Auftrags]
+===
+[!Perfekt][@shortAnswer][$Wir haben Ihnen die Waren gesendet oder Wir haben Ihnen die Waren gesandt.]
+===
+[%6] Kennst du diese Leute?
+[!Präteritum][@shortAnswer]
+[$Kanntest du diese Leute]
+===
+[!Perfekt][@shortAnswer][$Hast du diese Leute gekannt?]
+===
+[%7] Der Einbrecher rennt die Straße hinunter.
+[!Präteritum][@shortAnswer]
+[$Der Einbrecher rannte die Straße hinunter]
+===
+[!Perfekt][@shortAnswer][$Der Einbrecher ist die Straße hinuntergerannt.]
+===
+[%8] Er bringt ihr regelmäßig Blumen mit.
+[!Präteritum][@shortAnswer]
+[$Er brachte ihr regelmäßig Blumen mit]
+===
+[!Perfekt][@shortAnswer][$Er hat ihr regelmäßig Blumen mitgebracht.]
+===
+
+
+
+[.cloze:bitmark--]
+[%C8]
+[!Bilden Sie das Perfekt der Verben.]
+Den Roman [_habe][@example] ich schon [_gelesen][@example]. __(lesen)__
+1. Ich [_habe] vor zwei Jahren mit dem Rauchen [_aufgehört]. __(aufhören)__
+2. Ich [_habe] meinen Pass zu Hause [_vergessen]. __(vergessen)__
+3. Wo [_seid] ihr euch zum ersten Mal [_begegnet]? __(begegnen)__
+4. Wo [_hast] du deine Uhr [_verloren]? __(verlieren)__
+5. Wir [_sind] früher öfter [_verreist]. __(verreisen)__
+6. Ich [_habe] im Januar [_geheiratet]. __(heiraten)__
+7. Daran [_habe] ich leider nicht [_gedacht]. __(denken)__
+8. Der Dieb [_ist] unerkannt [_verschwunden]. __(verschwinden)__
+9. Das Haus [_ist] bis auf die Grundmauern [_abgebrannt]. __(abbrennen)__
+10. [_Hast] du dich bei ihm [_entschuldigt]? __(entschuldigen)__
+||cloze with [!] doesnt work with trennbare verben||
+
+
+[.cloze-instruction-grouped:bitmark--]
+[%C9]
+[!Ergänzen Sie die fehlenden Verben im Präteritum.]
+**Sophie Scholl**
+
+Die letzten beiden Jahre vor ihrer Reifeprüfung im März 1940 [_verliefen][!verlaufen][%1] für Sophie Scholl–äußerlichbetrachtet–ohne größere Konflikte. Sie widmete dem Unterricht gerade so viel Aufmerksamkeit, wie zur Wahrung ihres Leistungsniveaus notwendig war.
+
+Neben der Schule [_ging][!nachgehen][%2] die Gymnasiastin weiter ihren Hobbys [_nach][%2], vor allem den künstlerischen: Zeichnen und gelegentlich auch Töpfern. Einer Freundin [_teilte][!mitteilen][%3] sie im November 1938 [_mit][%3], dass sie beim Aktmalen immer noch Männer zeichnen müsse. Im Sommer [_war][!sein][%4] das Baden ihre Lieblingsbeschäftigung. Sie [_liebte][!lieben][%5] es aber auch, einfach draußen zu sein. Ihr Verhältnis zur Natur [_änderte][!ändern][%6] sich nicht, es wurde eher noch inniger. In den Sommerferien [_unternahm][!unternehmen][%7] sie zusammen mit ihrem Bruder Werner einen Ausflug an die Nordsee und erlebte dabei eine stürmische Fahrt in einem Fischkutter. Ein Jahr später, 1939, [_hielt][!aufhalten][%8] sie sich für einige Tage im Künstlerdorf Worpswede [_auf][%8], wo sie manchen Künstlern bei ihrer Arbeit zuschauen [_durfte][!dürfen][%9]. Sie [_lernte][!kennenlernen][%10] das Werk der Malerin Paula Modersohn [_kennen][%10], für die sie eine große Verehrung empfand. Bei solchen Reisen [_sehnte][!sehnen][%11] sie sich immer schnell nach ihrem Schwabenland zurück. Sie [_plante][!planen][%12] ihre Ferien rechtzeitig und [_sparte][!sparen][%13] sich eisern das dafür erforderliche Taschengeld zusammen.
+
+[@reference: Sophie Scholl. Aus: Hermann Vinke: Das kurze Leben der Sophie Scholl. © 1980 Ravensburger Buchverlag Otto Maier GmbH]
+
+
+[.match-solution-grouped]
+[%C10.1]
+[!Suchen Sie für die Verben passende Nomen und bilden Sie kurze Sätze im Präteritum.]
+===
+erlernen
+==
+Beruf[@example]
+===
+[%1] abschließen
+==
+Studium
+===
+[%2] absolvieren
+==
+Praktikum
+===
+[%3] bestehen
+==
+Prüfung
+===
+[%4] beherrschen
+==
+Officeprogramme
+===
+[%5] anwenden
+==
+Kenntnisse
+===
+[%6] studieren
+==
+Physik
+===
+[%7] tragen
+==
+Schuluniform
+===
+[%8] unterbrechen
+==
+Ausbildung
+===
+
+
+
+[.interview:bitmark--]
+[%C10.2]
+**Präteritum**
+===
+Beruf erlernen
+[@example:Paul erlernte einen Beruf.][@shortAnswer]
+===
+[%1]Studium abschließen[@shortAnswer]
+===
+[%2]Praktikum absolvieren[@shortAnswer]
+===
+[%3]Prüfung bestehen[@shortAnswer]
+===
+[%4]Officeprogramme beherrschen[@shortAnswer]
+===
+[%5]Kenntnisse anwenden[@shortAnswer]
+===
+[%6]Physik studieren[@shortAnswer]
+===
+[%7]Schuluniform tragen[@shortAnswer]
+===
+[%8]Ausbildung unterbrechen[@shortAnswer]
+===
+
+
+**Perfekt**
+
+Beruf erlernen
+[@example:Paul hat einen Beruf erlernt.][@shortAnswer]
+===
+[%1]Studium abschließen[@shortAnswer]
+===
+[%2]Praktikum absolvieren[@shortAnswer]
+===
+[%3]Prüfung bestehen[@shortAnswer]
+===
+[%4]Officeprogramme beherrschen[@shortAnswer]
+===
+[%5]Kenntnisse anwenden[@shortAnswer]
+===
+[%6]Physik studieren[@shortAnswer]
+===
+[%7]Schuluniform tragen[@shortAnswer]
+===
+[%8]Ausbildung unterbrechen[@shortAnswer]
+===
+
+||ex had to be parted in 2 pieces but doesn't make the same sense||
+
+[.chapter]
+[###Die Deklination der Adjektive]
+[@grammar:Deklination der Adjektive]
+||add tables||
+
+[.interview:bitmark++]
+[%C11]
+[!Bilden Sie mindestens zehn sinnvolle Kombinationen im Nominativ. Benutzen Sie den unbestimmten und den
+bestimmten Artikel.]
+!!
+Schriftsteller * Chef * Freundin * Mathelehrer * Studentin * Unterrichtfach * Handschrift * Diktats Zeugnis * Prüfung * Aufsatz * Unterricht * Schulkleidung * Liebe * Studium * Gedicht * Ehemann * Gesichtsausdruck * Figur * Vorlesung * Zuckertüte
+!!(yellow)!!
+
+!!
+leserlich * bekannt * arrogant * tolerant * fröhlich * zuverlässig * berühmt * verständnisvoll * schlank * freundlich * gut * fehlerfrei * interessant * fleißigs * faul * schön * schwierig * unglücklich * ironisch * hilfsbereit * streng * offen * attraktiv * unordentlich * pünktlichsgewissenhaftsgutmütigsgroßstraurigs großzügig * intelligent * praktisch * geheimnisvoll
+!!(yellow)!!
+
+===
+ein bekannter, berühmter ... Schriftsteller,
+===
+der...
+===
+
+
+[.cloze]
+[%C12a]
+[!Ergänzen Sie die Endungen, falls erforderlich.
+
+Bestimmter/unbestimmter Artikel und Adjektiv/Partizip im Nominativ]
+Das ist ...
+◇ ein[_e][@example] richtig[_e][@example] Entscheidung.
+1.ein[_-] unpassend[_er] Moment.
+2. mein[_-] früher[_er] Mathematiklehrer.
+3. d[_er] nett[_e] Mann von gestern.
+4. ein[_e] traurig[_e] Geschichte.
+5. d[_as] jüngst[_e] Kind meiner Schwester.
+6. unser[_-] neu[_r] Nachbar.
+7. ein[_-] total chaotisch[_er] Mensch.
+8. ein[_-] sehr nett[_er] Kollege.
+9. ein[_-] klein[_es] Zimmer.
+10. d[_as] verschwunden[_e] Bild.
+
+
+[.cloze]
+[%C12b]
+[!Ergänzen Sie die Endungen, falls erforderlich.
+
+Bestimmter/unbestimmter Artikel und Adjektiv im Akkusativ oder Dativ]
+◇ Ich danke dir für d[_ie][@example] schön[_en][@example] Blumen.
+1. Er trug zum Fest sein[_en] best[_en] Anzug.
+2. Mit dies[_em] alt[_en] Auto wollt ihr nach Spanien fahren?
+3. Ich hielt ihn bisher für ein[_en] zuverlässig[_en] Freund.
+4. Was hast du da für ein[_-] schön[_es] Armband!
+5. Borgst du mir dein[_en] warm[_en] Mantel?
+6. Er hat ein[_-] neu[_es] Haus gekauft.
+7. Dies[_en] langweilig[_en] Film habe ich schon gesehen.
+8. Er spricht mit ein[_em] leicht[_en] französisch[_en] Akzent.
+9. Gestern besichtigten wir ein herrlich[_es] alt[_es] Schloss.
+10. Nach ein[_er] kurz[_en] Ansprache erhoben die Gäste die Gläser auf d[_as] jung[_e] Paar.
+|| what to do with -/0 answers?||
+
+
+
+[.interview:bitmark--]
+[%C13]
+[!Formulieren Sie Fragen und antworten Sie.]
+===
+[%◇] Kompliment – gelungen
+[@example:Was ist für Sie ein gelungenes Kompliment?
+Ein gelungenes Kompliment ist für mich, wenn mich jemand fragt, ob ich abgenommen habe.][@shortAnswer]
+===
+[%1] Verhalten – merkwürdig[@shortAnswer]
+===
+[%2] Ort zum Lesen – ideal[@shortAnswer]
+===
+[%3] Sprache – schön[@shortAnswer]
+===
+[%4] Urlaub – erholsam[@shortAnswer]
+===
+[%5] Sportart – schwierig[@shortAnswer]
+===
+[%6] Fest – misslungen[@shortAnswer]
+===
+[%7] Unterricht – gut[@shortAnswer]
+===
+[%8] Wochenende – toll[@shortAnswer]
+===
+[%9] Idee – großartig[@shortAnswer]
+===
+[%10] Ereignis – wichtig[@shortAnswer]
+===
+[%11] Beruf – anstrengend[@shortAnswer]
+===
+[%12] Apparat – zeitsparend[@shortAnswer]
+===
+
+
+[.chapter]
+[##Teil D]
+
+[.chapter]
+[###Rückblick]
+
+
+[.article:bitmark++]
+**Hier finden Sie wichtigen Wortschatz des Kapitels:**
+[%D1]
+**Angaben zur eigenen Person**
+* Ich heiße ...
+* Mein Name ist ...
+* Ich komme aus ...
+* Ich wohne in ...
+* Ich bin von Beruf ...
+* Ich arbeite bei ... als ...
+* Ich bin ledig/Single, verheiratet, geschieden.
+* Ich habe die __(deutsche)__ Staatsbürgerschaft.
+* Ich bin __(Deutsche(r)). __
+* In meiner Freizeit ...
+
+**Schule und Ausbildung**
+__Die Schulzeit:__
+* eine Schule besuchen/zur Schule gehen
+* auf eine Schule/in die Schule gehen
+* am ersten Schultag ein Einschulungsgeschenk/eine Schultüte/eine Zuckertüte bekommen
+* (naturwissenschaftliche) Fächer haben/wählen/mögen
+* ein guter/schlechter Schüler, eine gute/schlechte Schülerin, ein Musterschüler/eine Musterschülerin, Klassenbester sein
+* Nachhilfeunterricht geben/bekommen
+* einen Aufsatz/ein Diktat schreiben
+* ein gutes/mittelmäßiges/schlechtes Zeugnis erhalten/bekommen
+* Mein Lieblingsfach ist ...
+* die Schule schwänzen
+* Schulkleidung/eine Schuluniform tragen
+* für eine Prüfung lernen/büffeln (umg.)
+* eine Prüfung machen/bestehen, durch eine Prüfung fallen
+* in die nächste Klasse (nicht) versetzt werden/sitzen bleiben
+* das Abitur/die mittlere Reife machen/ablegen/bestehen
+* die Schulausbildung abschließen
+
+__Nach der Schule:__
+* einen Beruf wählen/ergreifen/erlernen
+* an einer Fachhochschule/Hochschule/Universität studieren
+* ein Studium beginnen/unterbrechen/weiterführen/abschließen
+* Vorlesungen und Seminare besuchen/Kurse machen/ besuchen/belegen; an einem Kurs teilnehmen
+* eine Semesterarbeit/Diplomarbeit/Masterarbeit/ Doktorarbeit schreiben
+
+**Lebensläufe/Arbeitserfahrungen**
+* sich um/für eine Stelle bewerben
+* ein Studium an einer Universität/eine Lehre erfolgreich abschließen
+* Erfahrungen in verschiedenen Bereichen sammeln
+* über profunde Fachkenntnisse verfügen
+* fließend Englisch sprechen und schreiben
+* als Marketing-Managerin bei einer Firma arbeiten
+* verantwortlich für die Durchführung von Projekten sein
+* Kunden und Lieferanten in allen Fragen zur Verfügung stehen
+* an der Ausarbeitung von Online-Werbekampagnen beteiligt sein
+* sich mit dem Thema Werbung beschäftigen
+* Werbematerialien eigenständig erstellen
+* Daten analysieren
+* Veranstaltungen organisieren
+* Kunden betreuen und beraten
+* Websites aktualisieren und pflegen
+* Konzepte entwickeln
+* Arbeitsprozesse optimieren
+* Präsentationen erarbeiten
+* Produkte vermarkten
+* Kosten kalkulieren
+* Projekte/eine Abteilung leiten
+
+**Zwischenmenschliche Beziehungen**
+* sich in jemanden verlieben
+* jemanden heiraten/eine Ehe schließen
+* an die Liebe fürs Leben glauben
+* jemanden in Partnerbörsen/am Arbeitsplatz kennenlernen
+* einen Partner suchen und finden
+* in einer Beziehung leben
+* (erst später) eine feste Partnerschaft eingehen
+* mit jemandem die gleichen Interessen teilen
+* jemanden mit gleichem sozialen und kulturellen Hintergrund wählen
+* nach Gemeinsamkeiten suchen
+* sich den richtigen Partner angeln
+* von Onlineportalen abraten
+* die Gewohnheiten bei der Partnersuche (nicht) verändern
+* an Bedeutung gewinnen
+* Gerüchte vermehren sich.
+* ein Verhältnis mit jemandem/eine Geliebte/einen Geliebten haben
+* etwas nicht mehr ertragen können
+* einen Scheidungsanwalt engagieren
+* Geld/das Sorgerecht für die Kinder fordern
+* einen Ehevertrag unterschreiben
+* auf finanzielle Ansprüche verzichten
+* einen Fehler wiedergutmachen
+* eine romantische Versöhnung feiern
+* freiwillig/unfreiwillig allein leben
+* einen Singlehaushalt führen
+* ein echter Junggeselle sein
+* einen Trend zum Singledasein verzeichnen
+* Die Anzahl der Trennungen steigt.
+* im europäischen Vergleich zu den Schlusslichtern zählen
+
+**Taten berühmter Persönlichkeiten**
+* einen Beitrag (zur Entwicklung der Wissenschaft) leisten
+* eine neue Theorie entwickeln
+* den Nobelpreis erhalten/jemanden mit dem Nobelpreis ehren
+* die Grundlage für etwas schaffen
+* (die Bibel) ins (Deutsche) übersetzen
+* als ein Genie gelten
+* den theoretischen Grundstein für (den Kommunismus) legen
+* etwas entdecken/erfinden
+* (einen Staat) gründen
+* (eine Versicherung für Arbeiter) einführen
+* (Berufsschulen) errichten
+* jemanden ausbilden
+* für jemanden sorgen
+* auf das Unverständnis der Bevölkerung stoßen
+
+||tbd: Doppelpunkt nach der Einleitung||
+
+[.self-assessment]
+[%D2]
+[!Evaluation
+
+Überprüfen Sie sich selbst.]
+===
+Ich kann Auskunft über mich selbst geben und andere Leute nach persönlichen Angaben befragen.
+[•gut ]
+[•nicht so gut]
+===
+Ich kann kurz über meine Schulzeit, meine Ausbildung und das deutsche Schulsystem berichten.
+[•gut ]
+[•nicht so gut]
+===
+Ich kann einen tabellarischen Lebenslauf schreiben und über Ausbildungsabschlüsse und Arbeitserfahrungen Auskunft geben.
+[•gut ]
+[•nicht so gut]
+===
+Ich kann Texte über Partnersuche und Singlehaushalte verstehen und die wichtigsten Aussagen wiedergeben.
+[•gut ]
+[•nicht so gut]
+===
+Ich kann eine Infografik zum Thema Hochzeit in Deutschland beschreiben und über Hochzeitsrituale mündlich und schriftlich berichten.
+[•gut ]
+[•nicht so gut]
+===
+Ich kann über das Thema Privatleben von Prominenten diskutieren.
+[•gut ]
+[•nicht so gut]
+===
+Ich kann ausführlichere Biografien und Berichte über berühmte Persönlichkeiten verstehen. (fakultativ)
+[•gut ]
+[•nicht so gut]
+===
+

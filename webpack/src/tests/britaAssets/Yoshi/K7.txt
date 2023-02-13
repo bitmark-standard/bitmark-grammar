@@ -1,0 +1,2116 @@
+[.chapter]
+[%7]
+[#Technik und Trends]
+[.article&image]
+[&image:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/pict0226-technik.jpg]
+Haushaltsgeräte
+
+
+[.chapter]
+[##Teil A]
+
+[.chapter]
+[###Geräte und Produkte im Alltag]
+[@leave.subject:Geräte und Produkte im Alltag]
+
+
+
+[.essay]
+[%A1]
+[!Klassenspaziergang: Alltagsgeräte
+
+Wählen Sie drei Fragen aus und befragen Sie möglichst viele Kursteilnehmer. Berichten Sie dann im Plenum über die gesammelten Informationen.]
+1. Welche technischen Geräte benutzen Sie jeden Tag?
+2. Auf welches Gerät/welche Geräte können Sie nicht mehr verzichten?
+3. Für welches Gerät haben Sie das meiste Geld ausgegeben?
+4. Würden Sie sich selbst als geschickt im Umgang mit Technik bezeichnen?
+5. Mit welchem Gerät haben Sie die meisten Probleme?
+6. Beraten Sie manchmal andere beim Kauf von neuen Geräten?
+7. Möchten Sie immer die neuesten Kommunikationsgeräte besitzen?
+8. Wo kaufen Sie neue Geräte? Wo kaufen Sie neue Geräte? Haben Sie wegen eines neuen Geräts schon einmal stundenlang in einer Schlange vor einem Geschäft gestanden?
+9. Sind Sie bei Kommunikationsgeräten einer Marke treu?
+
+
+
+
+[.essay:bitmark--&image]
+[%A2]
+[!Was ist beim Kauf technischer Geräte wichtig?
+
+Beschreiben Sie die folgende Grafik und berichten Sie über Ihre eigenen Prioritäten beim Kauf von technischen Geräten.]
+
+
+**Prioritäten**
+◇ Das wichtigste Kriterium beim Kauf eines Geräts ist für die Schweizer ...
+◇ Den meisten Wert legen die Schweizer auf ...
+◇ Die Schweizer achten besonders auf ...
+◇ ... Prozent der Schweizer interessieren sich besonders für ...
+◇ ... finden ... besonders wichtig. 
+◇ Für ... hat ... oberste Priorität. 
+◇ Ganz oben/In der Mitte/Weiter unten auf der Prioritätenliste steht/stehen ...
+◇ Weniger relevant ist ...
+
+
+
+
+||add image-not found||
+
+
+
+
+
+
+[.assignment:bitmark--&image]
+[%A3a]
+[!Geräte, Geräte
+
+Geräte-Sammeln: Bilden Sie Gruppen und sammeln Sie Bezeichnungen von Geräten. Präsentieren Sie Ihre Ergebnisse im Plenum.]
+**Gruppe A:** Geräte, Maschinen, Apparate, die man in einem Haushalt finden kann
+
+**Gruppe B:** Geräte, Maschinen, Apparate, die man in einem Büro finden kann
+
+**Gruppe C:** Geräte, Maschinen, Apparate, die man in der Freizeit benutzen kann
+[&image:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/drucken.png]
+
+
+
+[.essay:bitmark++]
+[%A3b]
+[!Geräte, Geräte
+
+Geräte-Raten: Nehmen Sie sich zehn Minuten Zeit und beschreiben Sie ein Gerät. Lesen Sie dann Ihre Beschreibung laut vor. Nennen Sie aber nicht den Namen des Gerätes, den müssen die anderen erraten.]
+◇ Das Gerät, das ich beschreiben möchte, steht in jeder Küche. Es ist viereckig und an der rechten Seite befindet sich ein Schalter ...
+
+|remark:Redemittel
+• das Gerät/der Apparat/der Knopf/der Schalter/die Taste/der Hebel ...
+• ... ist/wurde ausgestattet mit/ist ausgerüstet mit/ enthält/arbeitet mit/lässt sich bedienen mit ...
+• ... an der linken/rechten/oberen/unteren Seite befinden sich/wurden ... angebaut/befestigt
+• ... ist vorgesehen für/lässt sich einsetzen als/kann verwendet werden für/als/dient als/zum ...
+
+
+[.essay]
+[%A4a]
+[!Unverzichtbar in der Küche: Die Mikrowelle
+
+Berichten Sie: Haben Sie einen Mikrowellenofen? Wozu und wie oft nutzen Sie ihn?]
+
+[.group*]
+[*Unverzichtbar in der Küche: Die Mikrowelle]
+[#Unverzichtbar in der Küche: Die Mikrowelle]
+[.group*]
+[*Mikrowelle]
+[.assignment&audio]
+[%A4b1]
+[!Unverzichtbar in der Küche: Die Mikrowelle
+
+Hören Sie das folgende Verkaufsgespräch zweimal und lösen Sie dann die Aufgaben A4b2 – A4b4]
+[&audio:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/audio/13_erkundungen_b2_3a.mp3]
+
+
+[.cloze-and-multiple-choice-text:bitmark++&image]
+[%A4b2]
+[!Unverzichtbar in der Küche: Die Mikrowelle
+
+Ergänzen Sie die fehlenden Angaben.]
+
+[&image:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/m8150.png]Typ: M 8150
+
+**Hersteller:** Miele
+**Tür:** Edelstahl
+**Farbe innen:** [_schwarz]
+**Maximale Leistung:** [_800] Watt
+**Veränderung der Leistungsstufen im laufenden Betrieb:** [+ja][-nein]
+**Automatikprogramme:** [_neun]
+**Bedienung:** [+einfach][-schwierig]
+**Preis:** [_675] Euro
+|remark
+Die Mikrowelle __M 8150__ von Miele hat ein ganz modernes Design. Die Tür ist aus Edelstahl, der innere Bereich ist schwarz. Die Tür kann nach links oder nach rechts geöffnet werden. Die Mikrowelle hat eine maximale Leistung von 800 Watt und verfügt insgesamt über sechs Leistungsstufen. Die Leistungsstufen lassen sich im laufenden Betrieb verändern. Außerdem ist das Gerät mit einer Quickstart-Funktion und neun Automatikprogrammen ausgestattet. Die Warmhalteautomatik ist flexibel einstellbar. Das Gerät ist mit einem Zeit- und Leistungswähler zu bedienen. Sie können damit einstellen, ob Sie Ihr Essen auftauen, garen, backen oder grillen wollen. Es gibt auch einen Sicherheitsthermostaten gegen Überhitzung.
+
+
+
+[.cloze-and-multiple-choice-text:bitmark++&image]
+[%A4b3]
+[!Unverzichtbar in der Küche: Die Mikrowelle
+
+Ergänzen Sie die fehlenden Angaben.]
+[&image:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/r-647w-2.png]Typ: R-647W
+**Hersteller:** Sharp
+**Farbe:** [_weiß]
+**Maximale Leistung:** [_800 W]
+**Kombifunktion:** Mikrowelle und [_Grill]
+**Veränderung der Leistungsstufen im laufenden Betrieb:** [+nein][-ja] 
+**Automatikprogramme:** [_12]
+**Preis:** [_189] Euro
+
+
+[.cloze-and-multiple-choice-text:bitmark++&image]
+[%A4b4]
+[!Unverzichtbar in der Küche: Die Mikrowelle
+
+Ergänzen Sie die fehlenden Angaben.]
+
+[&image:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/panasonix-prototyp.png]
+
+Prototyp
+**Verwendbar als:** Mikrowelle und [_Kühlschrank]
+**Entstanden in Zusammenarbeit mit:** [_der NASA]
+Arbeitet über ein besonderes [_Netzwerk]. Ist zu bedienen über das, [_Internet] von einem PC oder einem [_Handy] aus. Kommt [_im nächsten Jahr] auf den Markt.
+
+[.group†]
+[*Unverzichtbar in der Küche: Die Mikrowelle]
+
+[.assignment:bitmark--&audio]
+[%A5]
+[!Lesen Sie die Beschreibung aus dem Hörtext und danach die einzelnen Sätze mit den Erklärungen.]
+[&audio:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/audio/13_erkundungen_b2_3a.mp3]
+**Passiv und Passiversatzformen**
+||add table||
+
+
+
+
+[.match]
+[%A6a]
+[!Zustände und Vorgänge
+
+Beschreiben Sie den jetzigen Zustand mithilfe des Zustandspassivs.]
+===
+[%◇]Anzug–reinigen
+==
+Der Anzug ist gereinigt.[@example]
+===
+[%1] in das Gerät – Thermostat – einbauen
+==
+[$In das Gerät ist ein Thermostat eingebaut.]
+===
+[%2] Batterie – laden
+==
+[$Die Batterie ist geladen.]
+===
+[%3] Auto – mit einem Hybridmotor – ausstatten
+==
+[$Das Auto ist mit einem Hybridmotor ausgestattet.]
+===
+[%4] Sitze – mit feinstem Leder – beziehen
+==
+[$Die Sitze sind mit feinstem Leder bezogen.]
+===
+[%5] Fußboden – reinigen
+==
+[$Der Fußboden ist gereinigt.]
+===
+[%6] Diamant – schleifen
+==
+[$Der Diamant ist geschliffen.]
+===
+
+
+
+[.match:bitmark--]
+[%A6b]
+[!Zustände und Vorgänge
+
+Beschreiben Sie mögliche Vorgänge. Verwenden Sie dafür eine Passiv- und eine Passiversatzkonstruktion.]
+===
+◇ Leistungsstufen – verändern
+a) Passiv:
+==
+[$Die Leistungsstufen können verändert werden.]
+===
+b) Passiversatz __(-bar):__
+==
+[$Die Leistungsstufen sind veränderbar.]
+===
+
+1. Temperatur – beliebig – einstellen 
+a) Passiv:
+==
+[$Die Temperatur kann beliebig eingestellt werden.]
+===
+b) Passiversatz __(-bar):__
+==
+[$Die Temperatur ist beliebig einstellbar.]
+===
+
+2. Gerät – komplett – auseinandernehmen 
+a) Passiv:
+==
+[$Das Gerät kann komplett auseinandergenommen werden.]
+===
+b) Passiversatz __(lassen):__
+==
+[$Das Gerät lässt sich komplett auseinandernehmen.]
+===
+
+3. Mikrowelle – über Handy – bedienen 
+a) Passiv:
+==
+[$Die Mikrowelle kann über das Handy bedient werden.]
+===
+b) Passiversatz __(lassen):__
+==
+[$Die Mikrowelle lässt sich über das Handy bedienen.]
+===
+
+4. Tür – nicht einfach – öffnen 
+a) Passiv:
+==
+[$Die Tür kann nicht einfach geöffnet werden.]
+===
+b) Passiversatz __(sein + zu):__
+==
+[$Die Tür ist nicht einfach zu öffnen.]
+===
+
+5. Sofa – zum Bett – umbauen 
+a) Passiv:
+==
+[$Das Sofa kann zum Bett umgebaut werden.]
+===
+b) Passiversatz __(lassen):__
+==
+[$Das Sofa lässt sich zum Bett umbauen.]
+===
+[.internal-link]
+[!Zusatzübungen zu Passiv und Passiversatzformen ➔ Teil C][►kapitel7c]
+
+
+
+
+
+[.interview]
+[%A7a]
+[!Kaputte Geräte
+
+Führen Sie Blitzinterviews mit zwei Gesprächspartnern. Geben Sie danach die interessantesten Informationen wieder.]
+
+===
+Name:[@shortAnswer]
+===
+Wie viele Geräte sind bei Ihnen in den letzten zwei Jahren kaputtgegangen? Was war der Grund dafür?[@shortAnswer]
+===
+Was machen Sie, wenn ein Gerät kaputt ist?[@shortAnswer]
+===
+Haben Sie schon einmal etwas von geplanter Obsoleszenz gehört?[@shortAnswer]
+===
+
+
+Name:[@shortAnswer]
+===
+Wie viele Geräte sind bei Ihnen in den letzten zwei Jahren kaputtgegangen? Was war der Grund dafür?[@shortAnswer]
+===
+Was machen Sie, wenn ein Gerät kaputt ist?[@shortAnswer]
+===
+Haben Sie schon einmal etwas von geplanter Obsoleszenz gehört?[@shortAnswer]
+===
+
+
+
+
+[.assignment:bitmark++]
+[%A7b]
+[!Kaputte Geräte
+
+Lesen Sie die folgende Zeitungsnachricht.]
+**Studie: Viele Produkte haben eingebaute Fehler**
+
+[&article:
+Gerade noch ging der Drucker einwandfrei und dann – nichts mehr außer einer blinkenden Fehlermeldung auf dem Bildschirm. Warum der Drucker plötzlich streikt, ist unklar. Könnte es zum Beispiel daran liegen, dass der Drucker so programmiert ist, nach einer gewissen Anzahl von Druckaufträgen ==den Geist aufzugeben==(@note:den/seinen Geist aufgeben (umg.) kaputtgehen, nicht mehr funktionieren)? Ja. Das jedenfalls belegt jetzt eine aktuelle Studie, die die Bundestagsfraktion der Grünen in Auftrag gegeben hat. Die Studie listet zahlreiche Beispiele wie verklebte Gehäuse bei Handys auf und legt damit nahe, dass einige Produkte so entwickelt werden, dass sie nur eine bestimmte Zeit funktionieren. „Geplante Obsoleszenz“ nennt sich dieses Konzept, das hauptsächlich dazu dient, die Nachfrage und den Gewinn zu sichern. Die Nachteile für die Verbraucher und die Umwelt nehmen die Produzenten in Kauf. Die Grünen fordern nun schärfere Vorschriften für die Hersteller, um solche „eingebauten Schwachstellen“ in Elektrogeräten zu vermeiden.
+
+Für die Industrie ist dieses Vorgehen übrigens keineswegs neu: Anfang des 20. Jahrhunderts wurden Glühbirnen mit immer längerer Brenndauer entwickelt – bis zu 2 500 Stunden. Bald merkten die Hersteller, dass die Verlängerung der Brennzeit zu einem geringeren Umsatz führte. 1924 trafen sich Glühbirnenfirmen wie Osram, Philips, General Electrics und gründeten das „Phoebus“-Kartell. Ihr Ziel war, die Lebensdauer der Leuchtmittel auf 1 000 Stunden herunterzusetzen und so den Verkauf wieder anzukurbeln.
+
+Erst im Jahr 1942 kam die US-Regierung dem Kartell auf die Schliche und reichte Klage ein. Die Reduzierung der Brenndauer wurde damals offiziell verboten, geändert hat sie sich laut Medienberichten jedoch nicht.]
+
+[@reference: Nach: Main Post Online, 20.3.2013 https://www.mainpost.de/ueberregional/]
+
+
+
+
+[.essay:bitmark++]
+[%A7c]
+[!Kaputte Geräte
+
+Fassen Sie den Inhalt dieser Nachricht zusammen.]
+**Studie: Viele Produkte haben eingebaute Fehler**
+
+[&article:
+Gerade noch ging der Drucker einwandfrei und dann – nichts mehr außer einer blinkenden Fehlermeldung auf dem Bildschirm. Warum der Drucker plötzlich streikt, ist unklar. Könnte es zum Beispiel daran liegen, dass der Drucker so programmiert ist, nach einer gewissen Anzahl von Druckaufträgen ==den Geist aufzugeben==(@note:den/seinen Geist aufgeben (umg.) kaputtgehen, nicht mehr funktionieren)? Ja. Das jedenfalls belegt jetzt eine aktuelle Studie, die die Bundestagsfraktion der Grünen in Auftrag gegeben hat. Die Studie listet zahlreiche Beispiele wie verklebte Gehäuse bei Handys auf und legt damit nahe, dass einige Produkte so entwickelt werden, dass sie nur eine bestimmte Zeit funktionieren. „Geplante Obsoleszenz“ nennt sich dieses Konzept, das hauptsächlich dazu dient, die Nachfrage und den Gewinn zu sichern. Die Nachteile für die Verbraucher und die Umwelt nehmen die Produzenten in Kauf. Die Grünen fordern nun schärfere Vorschriften für die Hersteller, um solche „eingebauten Schwachstellen“ in Elektrogeräten zu vermeiden.
+
+Für die Industrie ist dieses Vorgehen übrigens keineswegs neu: Anfang des 20. Jahrhunderts wurden Glühbirnen mit immer längerer Brenndauer entwickelt – bis zu 2 500 Stunden. Bald merkten die Hersteller, dass die Verlängerung der Brennzeit zu einem geringeren Umsatz führte. 1924 trafen sich Glühbirnenfirmen wie Osram, Philips, General Electrics und gründeten das „Phoebus“-Kartell. Ihr Ziel war, die Lebensdauer der Leuchtmittel auf 1 000 Stunden herunterzusetzen und so den Verkauf wieder anzukurbeln.
+
+Erst im Jahr 1942 kam die US-Regierung dem Kartell auf die Schliche und reichte Klage ein. Die Reduzierung der Brenndauer wurde damals offiziell verboten, geändert hat sie sich laut Medienberichten jedoch nicht.]
+
+[@reference: Nach: Main Post Online, 20.3.2013 https://www.mainpost.de/ueberregional/]
+
+
+
+[.match:bitmark++&article:bitmark--]
+[%A7d]
+[!Kaputte Geräte
+
+Finden Sie im Text Synonyme für die hervorgehobenen Wendungen.]
+===
+1. Ein Drucker __funktioniert nicht mehr__.
+==
+[$ein Drucker gibt den Geist auf]
+===
+2. Nachteile __akzeptieren__
+==
+[$Nachteile in Kauf nehmen]
+===
+3. __jemanden bei etwas Unrechtem ertappen__
+==
+[$jemandem auf die Schliche kommen]
+===
+
+[&article:
+**Studie: Viele Produkte haben eingebaute Fehler**
+
+Gerade noch ging der Drucker einwandfrei und dann – nichts mehr außer einer blinkenden Fehlermeldung auf dem Bildschirm. Warum der Drucker plötzlich streikt, ist unklar. Könnte es zum Beispiel daran liegen, dass der Drucker so programmiert ist, nach einer gewissen Anzahl von Druckaufträgen ==den Geist aufzugeben==(@note:den/seinen Geist aufgeben (umg.) kaputtgehen, nicht mehr funktionieren)? Ja. Das jedenfalls belegt jetzt eine aktuelle Studie, die die Bundestagsfraktion der Grünen in Auftrag gegeben hat. Die Studie listet zahlreiche Beispiele wie verklebte Gehäuse bei Handys auf und legt damit nahe, dass einige Produkte so entwickelt werden, dass sie nur eine bestimmte Zeit funktionieren. „Geplante Obsoleszenz“ nennt sich dieses Konzept, das hauptsächlich dazu dient, die Nachfrage und den Gewinn zu sichern. Die Nachteile für die Verbraucher und die Umwelt nehmen die Produzenten in Kauf. Die Grünen fordern nun schärfere Vorschriften für die Hersteller, um solche „eingebauten Schwachstellen“ in Elektrogeräten zu vermeiden.
+
+Für die Industrie ist dieses Vorgehen übrigens keineswegs neu: Anfang des 20. Jahrhunderts wurden Glühbirnen mit immer längerer Brenndauer entwickelt – bis zu 2 500 Stunden. Bald merkten die Hersteller, dass die Verlängerung der Brennzeit zu einem geringeren Umsatz führte. 1924 trafen sich Glühbirnenfirmen wie Osram, Philips, General Electrics und gründeten das „Phoebus“-Kartell. Ihr Ziel war, die Lebensdauer der Leuchtmittel auf 1 000 Stunden herunterzusetzen und so den Verkauf wieder anzukurbeln.
+
+Erst im Jahr 1942 kam die US-Regierung dem Kartell auf die Schliche und reichte Klage ein. Die Reduzierung der Brenndauer wurde damals offiziell verboten, geändert hat sie sich laut Medienberichten jedoch nicht.]
+
+[@reference: Nach: Main Post Online, 20.3.2013 https://www.mainpost.de/ueberregional/]
+
+
+
+[.match-solution-grouped]
+[%A7e]
+[!Kaputte Geräte
+
+Welches Verb passt? Finden Sie die richtige Ergänzung.]
+===
+◇ eine Fehlermeldung anzeigen
+==
+anzeigen
+===
+1. den Geist
+==
+aufgeben
+===
+2. eine Studie in Auftrag
+==
+geben
+===
+3. Produkte
+==
+entwickeln
+===
+4. Schwachstellen
+==
+einbauen
+===
+5. einem Ziel
+==
+dienen
+===
+6. den Gewinn
+==
+sichern
+===
+7. etwas in Kauf
+==
+nehmen
+===
+8. schärfere Vorschriften
+==
+fordern
+===
+9. den Verkauf
+==
+ankurbeln
+===
+10. jemandem auf die Schliche 
+==
+kommen
+===
+11. Klage
+==
+einreichen
+===
+
+
+
+
+[.essay:bitmark++]
+[%A7f]
+[!Kaputte Geräte
+
+Vorschläge unterbreiten]
+Sie arbeiten für das Verbraucherschutz-Ministerium und sollen im Rahmen einer Expertenkommission Vorschläge zur Bekämpfung von geplanter Obsoleszenz unterbreiten.
+Erarbeiten Sie in Kleingruppen Ideen und präsentieren Sie Ihre Ergebnisse anschließend im Plenum.
+
+|remark:Einen Vorschlag machen
+Einen Vorschlag machen
+• Wir sind zu der Überzeugung gelangt, dass ...
+• Die wichtigsten Schritte, die eingeleitet werden müssen, sind: ...
+• Unserer Meinung nach müssen folgende Maßnahmen ergriffen werden: ...
+• ... sollte unter Strafe gestellt werden.
+• Überführte Firmen sollten hohe Bußgelder zahlen.
+• Es müssen Methoden gefunden werden, Manipulationen nachzuweisen.
+
+
+
+
+[.interview]
+[%A8a]
+[!Produktnamen 
+
+Berichten Sie.]
+===
+Welche Rolle spielt Ihrer Meinung nach der Name eines Produkts?[@shortAnswer]
+===
+Welche Produktnamen finden Sie persönlich gelungen/interessant/schön, welche nicht?[@shortAnswer]
+===
+
+
+
+[.assignment:bitmark--]
+[%A8b]
+[!Produktnamen
+
+Lesen Sie den folgenden Text.]
+**Wie kommen Produkte zu ihren Namen?**
+
+__Tigra, Solano, Picanto, Vivendi, Clio__ – was haben diese Wörter gemeinsam? Es sind alles Kunstwörter, Produktnamen, die eine Namensagentur erfunden hat.
+
+Im ==Getümmel==(@note: wildes Durcheinander) der rund 55 000 Marken, die derzeit in Deutschland beworben werden, setzen viele Unternehmen größte Hoffnungen auf einen einzigartigen Namen. Wenn der Name in den Köpfen der Verbraucher haften bleibt, hat das Produkt 15 bessere Chancen, sich auf dem Markt durchzusetzen. Und mit rund 7000 neuen Marken, die täglich weltweit dazukommen, wächst die Nachfrage nach einem wirklich unverwechselbaren Namen.
+
+Inzwischen hat es sich auch in Deutschland herumgesprochen, dass es klüger ist, Produktnamen nicht allein der Kreativität der eigenen Mitarbeiter zu überlassen, sondern professionelle Namensdesigner mit der Findung von Namen zu be30 auftragen. Kunstwörter stehen bei Produkten im Moment hoch im Kurs, denn nicht auf den Sinn eines Namens kommt es an, sondern auf den Klang. Nur das Produkt füllt den Namen mit Inhalt, gibt ihm eine Bedeutung. Durch ihre Einzigartigkeit sind Kunstnamen rechtlich besser zu schützen und haben den Vorteil, in ganz unterschiedlichen Kulturen und Sprachen verstanden zu werden. Für weltweit operierende Unternehmen sind das die wichtigsten Anforderungen an einen Namen.
+
+
+[.multiple-choice:bitmark++&article:bitmark--]
+[%A8c]
+[!Produktnamen
+
+Textarbeit: Was ist richtig? Kreuzen Sie an.]
+===
+[%1][!__Tigra, Solano, Picanto, Vivendi, Clio__ sind Namen,]
+[-a) die beim Entwurf des Produktes entstanden sind.]
+[+b) die sich eine externe Agentur ausgedacht hat.]
+[-c) die die Mitarbeiter der Firma vorgeschlagen haben.]
+===
+[%2][!Kunstnamen sind Namen,]
+[-a) die den Charakter des Produktes wiedergeben.]
+[-b) die die Qualität des Produktes beschreiben.]
+[+c) die eigentlich keine Bedeutung haben.]
+===
+[%3][!Der Name eines Produkts]
+[-a) spielt nur auf dem internationalen Markt eine große Rolle.]
+[+b) ist für die Vermarktung eines Produktes sehr wichtig.]
+[-c) muss von allen Menschen verstanden werden.]
+===
+
+**Wie kommen Produkte zu ihren Namen?**
+
+[&article:
+__Tigra, Solano, Picanto, Vivendi, Clio__ – was haben diese Wörter gemeinsam? Es sind alles Kunstwörter, Produktnamen, die eine Namensagentur erfunden hat.
+
+Im ==Getümmel==(@note: wildes Durcheinander) der rund 55 000 Marken, die derzeit in Deutschland beworben werden, setzen viele Unternehmen größte Hoffnungen auf einen einzigartigen Namen. Wenn der Name in den Köpfen der Verbraucher haften bleibt, hat das Produkt 15 bessere Chancen, sich auf dem Markt durchzusetzen. Und mit rund 7000 neuen Marken, die täglich weltweit dazukommen, wächst die Nachfrage nach einem wirklich unverwechselbaren Namen.
+
+Inzwischen hat es sich auch in Deutschland herumgesprochen, dass es klüger ist, Produktnamen nicht allein der Kreativität der eigenen Mitarbeiter zu überlassen, sondern professionelle Namensdesigner mit der Findung von Namen zu be30 auftragen. Kunstwörter stehen bei Produkten im Moment hoch im Kurs, denn nicht auf den Sinn eines Namens kommt es an, sondern auf den Klang. Nur das Produkt füllt den Namen mit Inhalt, gibt ihm eine Bedeutung. Durch ihre Einzigartigkeit sind Kunstnamen rechtlich besser zu schützen und haben den Vorteil, in ganz unterschiedlichen Kulturen und Sprachen verstanden zu werden. Für weltweit operierende Unternehmen sind das die wichtigsten Anforderungen an einen Namen.]
+
+[.match]
+[%A8d]
+[!Produktnamen
+
+Bilden Sie aus den vorgegebenen Wörtern Sätze im Präsens. Achten Sie auf eventuell fehlende Präpositionen und den richtigen Kasus.]
+===
+[%◇]viele Unternehmer – ihre Hoffnungen – ein einzigartiger Name – setzen
+==
+Viele Unternehmer setzen ihre Hoffnungen in einen einzigartigen Namen.[@example]
+===
+[%1]ein unverwechselbarer Name – das Produkt – bessere Chancen – der Markt – haben
+==
+Mit einem unverwechselbaren Namen hat das Produkt bessere Chancen auf dem Markt.
+===
+[%2]Produktnamen – nicht – die Kreativität der Mitarbeiter – überlassen werden sollten
+==
+Produktnamen sollten nicht der Kreativität der Mitarbeiter überlassen werden.
+===
+[%3]viele Firmen – professionelle Namensdesigner – die Findung von Produktnamen – beauftragen
+==
+Viele Firmen beauftragen professionelle Namens- designer mit der Findung von Produktnamen.
+===
+[%4]Kunstwörter – die Suche – ein Name – momentan – hoch im Kurs – stehen
+==
+Kunstwörter stehen bei der Suche nach einem Namen momentan hoch im Kurs.
+===
+[%5]sie – unterschiedliche Kulturen und Sprachen – verstanden werden
+==
+Sie werden in unterschiedlichen Kulturen und Sprachen verstanden.
+===
+[%6]außerdem – man – Kunstnamen – rechtlich – besser – schützen können
+==
+Außerdem kann man Kunstnamen rechtlich besser schützen.
+===
+
+
+
+[.assignment:bitmark++&image]
+[%A9]
+[!Gruppenarbeit: Produktpräsentation
+
+Einigen Sie sich in der Gruppe auf ein Produkt. Erfinden Sie einen Namen und präsentieren Sie dieses Produkt vor der Gruppe.]
+[&image:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/wissenschaft_und_technologie_1824.png]
+[&image:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/smartphone.png]
+[&image:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/kaffemaschine-necker.png]
+[&image:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/haus_und_heimat_70.png]
+[&image:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/eierkocher.png]
+[&image:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/bmw120.png]
+[&image:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/biermax.png]
+[&image:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/lcd.png]
+
+|info:Redemittel
+• Sie sehen hier unseren allerneuesten/unsere allerneueste ...
+• ... heißt/... trägt den Namen ...
+• Es/Sie besteht aus .../verfügt über .../hat .../Es gibt auch ...
+• Das Produkt ist in einem besonderen/modernen/klassischen ... Design (gestaltet).
+• Es wurde von ... entwickelt. Unsere Ingenieure/Entwickler haben innovative Lösungen gefunden. Es entspricht dem höchsten technischen Standard. Natürlich wurden auch ökologische Gesichtspunkte bei der Entwicklung berücksichtigt.
+• Es ist einsetzbar/verwendbar bei/als ...
+• Es erfüllt die höchsten Ansprüche.
+• Der Vorteil dieses Produkt besteht darin, dass .../Es zeichnet sich durch ... aus. 
+• Einzigartig ist, dass ...
+
+||doesn't show right||
+
+
+[.cloze&image]
+[%A10]
+[&image:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/w_sche_waschen_-_neu.png]
+[!Unsere Firma ist die beste! 
+
+Ergänzen Sie die Superlative]
+1. Wir arbeiten nur mit dem [_besten][!gut] Material. 
+2. Wir erfüllen die [_höchsten][!hoch] Ansprüche.
+3. Wir haben die [_niedrigsten][!niedrig] Preise. 
+4. Wir stellen die [_leisesten][!leise] Autos her. 
+5. Wir bieten die [_umfassendste][!umfassend] Kundenbetreuung. 
+6. Wir haben den [_schnellsten][!schnell] Lieferservice. 
+7. [_Modernste][!modern] Technik ist unser Markenzeichen. 
+8. Wir entwickeln die [_intelligenteste][!intelligent] Software. 
+9. Unser Produkt bringt die [_strahlendsten][!strahlend] Farben zum Vorschein. 
+10. Sie suchen eine Finanzierung zu den [_günstigsten][!günstig] Bedingungen? Dann kommen Sie zu uns. 
+11. Die [_praktischsten][!praktisch] Geräte für Ihren Haushalt finden Sie in unserem Angebot.
+12. [_Schonendste][!schonend] Verarbeitung und [_edelste][!edel] Stoffe garantieren einen einzigartigen Komfort. 
+13. Probleme in der Firma?  Wir bieten die [_cleversten][!clever] Ideen und die [_außergewöhnlichsten][!außergewöhnlich] Lösungen. 
+14. Die Auszeichnung für das [_beeindruckendste][!beeindruckend] Design des Jahres ging an uns! 
+
+[.internal-link]
+[!Zusatzübungen zur Komparation der Adjektive und zu Partizipien als Adjektive ➔ Teil C][►kapitel7c1]
+
+
+
+[.multiple-choice-text:bitmark--&image]
+[%A11]
+[!Klassische Produkte und neue Trends]
+[&image:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/704448_original_r_k_b_by_tim_reckmann_pixelio.de.png]
+[&image:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gummib_rchen-einzeln-sw.png]
+
+[&image:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/150677_original_r_k_by_lucia_weide_pixelio.de.png]
+
+**In einem internationalen Sommerseminar** ***Wirtschaftsdeutsch*** **sollen sechs Studenten jeweils ein Referat zu deutscher Markenware halten. Das Thema lautet** ***Markenware zum Anbeißen*** **. In einer Broschüre informieren sich die Studenten über kulinarische Markenprodukte mit langer Tradition und über neue Trends. Für welche der sieben Marken (A–G) entscheiden sich die jeweiligen Studenten (1–6)? Es gibt nur eine richtige Lösung. Es ist auch möglich, dass nicht für jede Person etwas Passendes zu finden ist. Schreiben Sie dann „negativ“.**
+
+A. Die Familie Kühne mag es gern sauer und den schmackhaften sauren Sachen in Gläsern und Konserven hat sie auch ihren großen wirtschaftlichen Erfolg zu verdanken. 1722 ist in Berlin unter dem Namen __Kühne__ eine kleine Essigbrauerei gegründet worden. Im Laufe von drei Jahrhunderten hat sich __Kühne__ in Sachen Essig zum europäischen Marktführer entwickelt. Die Produktpalette wurde dann allmählich mit Senf, sauren Gurken, Dressings, eingelegten Zwiebeln und küchenfertigem Rotkohl erweitert. Der einstige preußische Hoflieferant hat heute seinen Hauptsitz in Hamburg und verfügt auch über einige Werke in den Niederlanden, in Dänemark, Frankreich, Polen und in der Türkei.
+
+B. Zwei Jahre nach der Gründung seiner Süßwarenfirma in Bonn hat Hans Riegel 1922 den Goldbären erfunden. Der kleine Goldbär aus Zucker und Gelatine war sofort ein voller Erfolg im In- und Ausland und hat in den vergangenen 80 Jahren viele süße Verwandte bekommen. Die Firma __Haribo__ exportiert ihre Produkte gegenwärtig in 105 Länder und __Haribo__ ist ganz schlicht die Abkürzung für Hans Riegel Bonn. Längst ist die Firma, die bis heute von der Familie Riegel geleitet wird, der weltweit größte Fruchtgummi- und Lakritzhersteller mit fünf Produktionsstandorten in Deutschland und 13 weiteren in Europa. „Haribo macht Kinder froh und Erwachsene ebenso“ gilt als der bekannteste Werbeslogan in Deutschland.
+
+C. Jährlich stellt die __Birkel Teigwaren GmbH__ 110 000 Tonnen Nudeln her. __Birkel__ ist damit der größte produzierende Nudelspezialist in Deutschland. Inzwischen gehören auch die westdeutsche Traditionsmarke __3 Glocken__ und die in Ostdeutschland bekannte Nudelmarke __Möwe__ zur __Birkel GmbH__. __Birkel__ stellt aber nicht nur die in Deutschland besonders beliebten Eiernudeln in Form von Spiralen, Buchstaben, Muscheln oder Bandnudeln her, sondern versucht mit seiner Teigware auch neuen Trends zu entsprechen. Und so fällt dem Nudelmacher aus dem schwäbischen Waiblingen immer etwas Neues ein, zum Beispiel die Bärlauch- oder Lemonnudeln, Nudeln mit Extra-Ballaststoffen aus Hafer oder Genießer-Nudeln für ehrgeizige Hobbyköche.
+
+D. Angefangen hat Dr. August Oet ker 1891 im Hinterzimmer seiner Apotheke, wo er das Backpulver __Backin__ entwickelte. Bis heute sind die Backmischungen neben Dessert und Pizza eins der wichtigsten Geschäftsfelder des weltbekannten Unternehmens, das jetzt von einem Urenkel des Firmengründers geleitet wird. Im deutschen Lebensmittelhandel ist die Firma __Dr. Oetker__ mit 250 Produkten vertreten. Das Stammhaus des Familienunternehmens steht in Bielefeld, aber __Dr. Oetker__ ist auch in vielen anderen Ländern ein Begriff, vor allem in Europa – in Frankreich als „ancel“, in Italien als „cameo“, aber auch in Brasilien und Kanada.
+
+E. Der größte Gewürzanbieter in Europa und der zweitgrößte Gewürzspezialist der Welt kommt aus der Nähe von Osnabrück. __Fuchs-Gewürze__ wurde 1952 von Dieter Fuchs gegründet. Zu dem Unternehmen gehören auch die bekannten Marken __Ubena__ und __Ostmann__. In Deutschland wird an drei Standorten produziert, im Ausland gibt es Produktionsstätten in Frankreich, den USA, China, Rumänien und Brasilien. In dem südamerikanischen Land betreibt Fuchs zudem die größte Paprikaplantage der Erde. Von der Aussaat bis zur Zubereitung stellt der Gewürzspezialist den Anspruch, aktiven Einfluss auf die Qualität seiner Gewürze zu nehmen.
+
+F. Kann Keks Kunst sein? Der schlichte Leibniz-Butterkeks mit genau 52 Zacken, von Hermann Bahlsen 1891 in Hannover erfunden, wird zumindest gern zu den Denkmalen deutschen Designs gezählt. Und er wird von anderen oft nachgemacht – wie das mit jedem guten Design eben ist. Die deutsche Sprache hat Bahlsen zudem die Erfindung des Wortes Keks zu verdanken – abgeleitet vom englischen „cakes“. Heute arbeiten mehr als 3 500 Menschen an sieben Standorten in Europa für __Bahlsen__. Die Produkte werden in 80 Länder exportiert. In Deutschland ist das Unternehmen Marktführer bei süßen Backwaren, in Europa gehört es mit zur Spitze.
+
+G. Die geniale Idee mit der Quadratur der Schokolade hatte Klara Ritter. Die Tafel sollte einfach in eine Jackentasche passen, ohne zu brechen, aber so viel wiegen wie die normale Langform. Gemeinsam mit ihrem Mann Alfred Ritter, einem Konditor, hatte sie kurz nach der Hochzeit 1912 eine eigene Schokoladenfirma in Schwabingen gegründet. Bis heute ist das Unternehmen erfolgreich. In 60 Ländern sind die bunten Quadrate ein Begriff. Seit 2004 produziert __Ritter Sport__ auch im Ausland, nämlich in Moskau.
+
+***Beispiele:*** **Welcher Hersteller wäre von Interesse für:**
+
+**Serge Lorenzi aus Avignon**, der sich unter anderem auch mit Lebensmitteldesign beschäftigt und eine Firma sucht, die auf diesem Gebiet Erfahrung hat.
+__Lösung:__ F
+
+**Ferenc Szarka aus Budapest**, der etwas mehr über einen Hersteller der flüssigen Nahrung der Deutschen – das Bier – erfahren möchte.
+__Lösung:__ negativ
+
+1. **Max Flores aus Santiago de Chile** mag gut gewürzte und scharfe Speisen. Ihn interessiert, ob es in  Deutschland auch einen bekannten Gewürzhersteller gibt. [-a][-b][-c][-d][+e][-f][-g][-negativ]
+
+2. **Katja Bobrowski aus Petersburg** möchte am liebsten über einen deutschen Lebensmittelhersteller berichten, der auch in Russland eine Produktionsstätte hat. [-a][-b][-c][-d][-e][-f][+g][-negativ]
+
+3. **Annemieke Duyvendak aus Groningen** isst leidenschaftlich gern Lakritze. Sie ist für ihr Referat auf der Suche nach einem deutschen Süßwarenproduzenten, der auch Lakritze herstellt. [-a][+b][-c][-d][-e][-f][-g][-negativ]
+
+4. **Peter Morczkowski aus Poznań** ist der Ansicht, dass es auf dem deutschen Markt gute Fleisch- und Wurstwaren gibt. Er würde seinen Vortrag am liebsten über einen renommierten Fleisch- und Wurstfabrikanten halten. [-a][-b][-c][-d][-e][-f][-g][+negativ]
+
+5. **Isabella Mazziano aus Triest** sucht einen bekannten deutschen Teigwarenhersteller, der sich auch mit neuen Trends in der Branche beschäftigt. [-a][-b][+c][-d][-e][-f][-g][-negativ]
+
+6. **Eliza Clark aus Toronto** zieht ab September für zwei Jahre nach Hamburg. Sie möchte detaillierte Informationen über ein Nahrungsmittelunternehmen, dessen Hauptsitz in Hamburg ist. [+a][-b][-c][-d][-e][-f][-g][-negativ]
+
+
+
+
+[.chapter]
+[###Am Computer]
+[@leave.subject:Am Computer]
+
+
+
+
+[.interview]
+[%A12]
+[!Interview: Sicherheit im Netz
+
+Berichten Sie selbst und fragen Sie Ihren Nachbarn/Ihre Nachbarin.]
+===
+[%1] Welche Gefahren lauern im Netz? Hatten Sie schon einmal ein Sicherheitsproblem (privat oder in der Firma)?[@shortAnswer]
+===
+[%2] Welche Sicherheitsmaßnahmen kennen Sie, um einen Rechner vor Angriffen zu schützen?[@shortAnswer]
+===
+[%3] Welche Sicherheitsmaßnahmen haben Sie getroffen, um Ihre privaten Daten zu schützen?[@shortAnswer]
+===
+
+
+
+[.group*]
+[*Aktuelle Gefahren aus dem Internet]
+[#Aktuelle Gefahren aus dem Internet]
+
+Lesen Sie die folgenden Kurztexte und ergänzen Sie die fehlenden Informationen. Arbeiten Sie zu zweit.
+
+
+[.cloze-solution-grouped:bitmark--]
+[%A13-1]
+[!Aktuelle Gefahren aus dem Internet
+
+Lesen Sie die folgenden Kurztexte und ergänzen Sie die fehlenden Informationen. Arbeiten Sie zu zweit.]
+
+**1. Trojaner und Würmer**
+Trojaner führen auf befallenen Geräten unbemerkt gefährliche Aktionen aus. Würmer verbreiten sich selbst über das Internet und beschädigen [_infizierte Rechner][%1]. Die Klassiker unter den [_IT-Schädlingen][%2] nisten sich unbemerkt in Computersysteme ein. Von dort aus übertragen sie
+dann [_sensible Daten wie Passwörter][%3] oder versenden wiederum infizierte E-Mails. Jeden Tag tauchen im Internet rund 350 000 [_neue Formen][%4] der Schädlinge auf. Schützen kann man sich dagegen durch [_aktuelle Versionen][%5] der Anti-Viren-Programme.
+
+[.cloze-solution-grouped:bitmark--]
+[%A13-2]
+[!Aktuelle Gefahren aus dem Internet
+
+Lesen Sie die folgenden Kurztexte und ergänzen Sie die fehlenden Informationen. Arbeiten Sie zu zweit.] 
+**2. Webbasierte Software: „Drive-By-Downloads“**
+Bei webbasierter Schadsoftware lädt sich der Benutzer [_beim Besuch][%6] einer manipulierten Internetseite einen Schädling herunter. Der nutzt [_Sicherheitslücken][%7] in den häufig veralteten Zusatzprogrammen der Browser [%Plug-ins] aus. Allein im vergangenen Jahr wurden mehr als [_als 145 Millionen Internetadressen][%8] identifiziert. Diese heimlichen Downloads gehören aktuell zu [_den größten IT-Bedrohungen][%9], da sich die Viren rasant verbreiten. Um sich vor der Schadsoftware zu schützen, sollten Nutzer stets die [_aktuellste Version][%10] ihrer Plug-ins [%Flash, Java, Acrobat Reader u. a.] verwenden.
+
+[.cloze-solution-grouped:bitmark--]
+[%A13-3]
+[!Aktuelle Gefahren aus dem Internet
+
+Lesen Sie die folgenden Kurztexte und ergänzen Sie die fehlenden Informationen. Arbeiten Sie zu zweit.] 
+**3. Botnetze**
+Botnetze sind Netzwerke, die aus [_mehreren Computern][%11] bestehen und von einem Botmaster kontrolliert werden. Sie können Passwörter oder andere persönliche Daten ausspähen, das Netzwerk für den [_automatischen Versand][%12] gefährlicher Spam- oder Phishing-Mails verwenden oder damit [_einen kollektiven Angriff][%13] auf ein IT-System starten.
+
+[.cloze-solution-grouped:bitmark--]
+[%A13-4]
+[!Aktuelle Gefahren aus dem Internet
+
+Lesen Sie die folgenden Kurztexte und ergänzen Sie die fehlenden Informationen. Arbeiten Sie zu zweit.] 
+**4. Spam- und Phishing-Mails**
+Zwar sind Spam-E-Mails zahlenmäßig rückläufig, trotzdem bleiben sie eine der größten Gefahren im Internet. Oft verbirgt sich hinter [_scheinbar seriösen E-Mails][%14] mit Rechnungen oder Informationen zu Onlinebestellungen [_eine infizierte Datei][%15] oder ein Download-Link für gefährliche Schadsoftware.
+Möglichst viele sensible Daten [_in kurzer Zeit][%16] zu bekommen, das Ziel steckt auch hinter Phishing. Gefälschte Mails enthalten Links zu Onlinehändlern, Bezahldiensten, [_Paketdiensten oder sozialen Netzwerken][%17]. Dort geben [_die Opfer][%18] dann nichtsahnend ihre persönlichen Daten preis. Internetnutzer sollten vorsichtig sein und weder auf [_Anhänge][%19] noch auf [_Links][%20] in E-Mails unbekannter Herkunft klicken.
+[@reference: Die zehn größten Gefahren im Internet. LINUX MAGAZIN, 30.3.2015 In: https://www.linux-magazin.de/NEWS/]
+
+[.group†]
+[*Aktuelle Gefahren aus dem Internet]
+
+
+
+[.essay:bitmark++]
+[%A14]
+[!Sicherheitstipps
+
+Formulieren Sie fünf Tipps zum sicheren Umgang im Netz. Orientieren Sie sich am Text A13 oder nennen Sie eigene Hinweise.]
+• Um sich vor Gefahren im Netz zu schützen, sollte man .../ist es notwendig ... 
+• Eine effektive Gefahrenabwehr bietet auch ...
+• Von Experten wird empfohlen, ...
+
+|remark:Text A13
+Text A13:
+
+**1. Trojaner und Würmer**
+Trojaner führen auf befallenen Geräten unbemerkt gefährliche Aktionen aus. Würmer verbreiten sich selbst über das Internet und beschädigen infizierte Rechner. Die Klassiker unter den IT-Schädlingen nisten sich unbemerkt in Computersysteme ein. Von dort aus übertragen sie dann sensible Daten wie Passwörter oder versenden wiederum infizierte E-Mails. Jeden Tag tauchen im Internet rund 350 000 neue Formen der Schädlinge auf. Schützen kann man sich dagegen durch aktuelle Versionen der Anti-Viren-Programme.
+
+**2. Webbasierte Software: „Drive-By-Downloads“**
+Bei webbasierter Schadsoftware lädt sich der Benutzer beim Besuch einer manipulierten Internetseite einen Schädling herunter. Der nutzt Sicherheitslücken in den häufig veralteten Zusatzprogrammen der Browser (Plug-ins) aus. Allein im vergangenen Jahr wurden mehr als als 145 Millionen Internetadressen identifiziert. Diese heimlichen Downloads gehören aktuell zu den größten IT-Bedrohungen, da sich die Viren rasant verbreiten. Um sich vor der Schadsoftware zu schützen, sollten Nutzer stets die aktuellste Version ihrer Plug-ins (Flash, Java, Acrobat Reader u. a.) verwenden.
+
+**3. Botnetze**
+Botnetze sind Netzwerke, die aus mehreren Computern bestehen und von einem Botmaster kontrolliert werden. Sie können Passwörter oder andere persönliche Daten ausspähen, das Netzwerk für den automatischen Versand gefährlicher Spam- oder Phishing-Mails verwenden oder damit einen kollektiven Angriff auf ein IT-System starten.
+
+**4. Spam- und Phishing-Mails**
+Zwar sind Spam-E-Mails zahlenmäßig rückläufig, trotzdem bleiben sie eine der größten Gefahren im Internet. Oft verbirgt sich hinter scheinbar seriösen E-Mails mit Rechnungen oder Informationen zu Onlinebestellungen eine infizierte Datei oder ein Download-Link für gefährliche Schadsoftware.
+Möglichst viele sensible Daten in kurzer Zeit zu bekommen, das Ziel steckt auch hinter Phishing. Gefälschte Mails enthalten Links zu Onlinehändlern, Bezahldiensten, Paketdiensten oder sozialen Netzwerken. Dort geben die Opfer dann nichtsahnend ihre persönlichen Daten preis. Internetnutzer sollten vorsichtig sein und weder auf Anhänge noch auf Links in E-Mails unbekannter Herkunft klicken.
+[@reference: Die zehn größten Gefahren im Internet. LINUX MAGAZIN, 30.3.2015 In: http://www.linux-magazin.de/NEWS/]
+
+
+
+
+[.match-solution-grouped]
+[%A15]
+[!Vertiefen Sie den Wortschatz des Textes. 
+
+Welches Verb passt? Ordnen Sie zu.]
+===
+[%1]gefährliche Aktionen
+==
+[%b]ausführen
+===
+[%2]Rechner durch Schädlinge
+==
+[%d]infizieren
+===
+[%3]sich unbemerkt in Computersysteme
+==
+[%c]einnisten
+===
+[%4]sich durch Anti-Viren-Programme
+==
+[%h]schützen
+===
+[%5]sich einen Schädling
+==
+[%a]herunterladen
+===
+[%6]zu den größten IT-Bedrohungen
+==
+[%e]gehören
+===
+[%7]einen kollektiven Angriff auf ein IT-System
+==
+[%i]starten
+===
+[%8]sich hinter scheinbar seriösen E-Mails
+==
+[%f]verbergen
+===
+[%9]auf Anhänge oder Links in E-Mails
+==
+[%g]klicken
+===
+
+
+
+
+
+
+[.essay]
+[%A16]
+[!Hacker erbeuten von Banken eine Milliarde Dollar
+
+Schreiben Sie einen Kurzbericht für eine Zeitung. Sie können die folgenden Angaben nutzen oder Angaben erfinden. Arbeiten Sie in Kleingruppen.]
+international agierende Kriminelle * HackerangriffesBeute: eine Milliarde Dollar von Banken * zunächst Angriff mit Phishing und Schadprogrammen auf einzelne Angestelltenrechner * Zugang zu den internen Netzwerken und Überwachungssystemen * Imitation der Arbeit der Angestellten * Veranlassung von Geldüberweisungen oder Barauszahlungen
+
+
+
+
+[.assignment&image]
+[%A17a]
+[!Das perfekte Passwort
+
+Arbeiten Sie in kleinen Gruppen. Stellen Sie sich vor, Sie arbeiten bei der Polizei und wollen den Computer eines Verdächtigen untersuchen. Der Computer ist aber mit einem Passwort geschützt. Was würden Sie tun, um das Passwort zu knacken?
+Präsentieren Sie Ihre Lösungsvorschläge vor der Gruppe.]
+[&image:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/computerarbeit.jpg]
+
+
+
+[.cloze-instruction-grouped:bitmark--]
+[%A17b]
+[!Das perfekte Passwort
+
+Lesen Sie den folgenden Text und ergänzen Sie die Verben in der richtigen Form.]
+**Wie** __lautet__ **das perfekte Passwort?**
+
+Wir kaufen im Internet ein, [_buchen][!buchen][%1] unsere Flüge, [_erledigen][!erledigen][%2] unsere Bankgeschäfte. Für viele dieser Vorgänge und für den Computer selber [_benötigen][!benötigen][%3] wir ein Passwort. Wer das Passwort [_kennt][!kennen][%4], hat Zugang zu unseren Daten. Jetzt sollte man meinen, dass wir deshalb besonders vorsichtig mit unseren Passwörtern [_umgehen][!umgehen][%5] und das Passwort selbst sorgfältig [_auswählen][!auswählen][%6]. Doch das ist ein Irrtum. Viele Hacker, denen es gelingt, unsere Passwörter zu [_knacken][_entschlüsseln][!knacken][%7], sind nicht so genial, sondern wir sind so dumm. Aus Angst, dieses wichtige Wort zu vergessen, [_verwenden][!verwenden][%8] wir unseren eigenen Vornamen, die Vornamen unserer Liebsten, das eigene Geburtsdatum, den Hochzeitstag oder ähnliches – Dinge, die für jeden Internetfreak schnell [_herauszufinden][!herausfinden][%9] sind. Dabei ist ein sicheres Passwort ganz leicht. Hier einige Tipps:
+
+• Wechseln Sie zwischen Groß- und „KleinbUchsTAbEn“.
+• Sie können auch eine geometrische Figur auf Ihrem Computer [_auswählen][!auswählen][%10], etwa ein Z wie „qwesyxc“ (deutsche Tastatur).
+• Suchen Sie ein Zitat aus Ihrem Lieblingsfilm, zum Beispiel: „Ich schau dir in die Augen, Kleines“, abgekürzt „IsdidA, K“. Wenn Sie dann noch hinzufügen, wie oft Sie den Film [_gesehen][!sehen][%11] haben, ist das Passwort „IsdidA, K14“ von niemandem mehr zu [_knacken][_entschlüsseln][!entschlüsseln][%12].
+
+
+
+
+
+[.essay:bitmark++]
+[%A17c]
+[!Das perfekte Passwort
+
+Geben Sie den Text kurz mit eigenen Worten wieder.]
+**Wie** __lautet__ **das perfekte Passwort?**
+
+Wir kaufen im Internet ein, buchen unsere Flüge, erledigen unsere Bankgeschäfte. Für viele dieser Vorgänge und für den Computer selber benötigen wir ein Passwort. Wer das Passwort kennt, hat Zugang zu unseren Daten. Jetzt sollte man meinen, dass wir deshalb besonders vorsichtig mit unseren Passwörtern umgehen und das Passwort selbst sorgfältig auswählen. Doch das ist ein Irrtum. Viele Hacker, denen es gelingt, unsere Passwörter zu knacken, sind nicht so genial, sondern wir sind so dumm. Aus Angst, dieses wichtige Wort zu vergessen, verwenden wir unseren eigenen Vornamen, die Vornamen unserer Liebsten, das eigene Geburtsdatum, den Hochzeitstag oder ähnliches – Dinge, die für jeden Internetfreak schnell herauszufinden sind. Dabei ist ein sicheres Passwort ganz leicht. Hier einige Tipps:
+
+• Wechseln Sie zwischen Groß- und „KleinbUchsTAbEn“.
+• Sie können auch eine geometrische Figur auf Ihrem Computer auswählen, etwa ein Z wie „qwesyxc“ (deutsche Tastatur).
+• Suchen Sie ein Zitat aus Ihrem Lieblingsfilm, zum Beispiel: „Ich schau dir in die Augen, Kleines“, abgekürzt „IsdidA, K“. Wenn Sie dann noch hinzufügen, wie oft Sie den Film gesehen haben, ist das Passwort „IsdidA, K14“ von niemandem mehr zu entschlüsseln.
+
+ 
+|remark:Redemittel
+Redemittel
+• In dem Text geht es um ...
+• Die wichtigsten Aussagen/Hauptaussagen des Textes sind ...
+• Der Text empfiehlt/gibt Tipps für ...
+
+
+
+
+
+[.assignment]
+[%A17d]
+[!Das perfekte Passwort
+
+Helfen Sie Ihrer Nachbarin/Ihrem Nachbarn beim Finden des richtigen Passwortes. Stellen Sie gezielte Fragen und machen Sie dann einen Passwortvorschlag.]
+||add tipps from c?||
+
+
+
+
+[.assignment:bitmark--]
+[%A18a]
+[!Wie? – Modalangaben
+
+Lesen Sie die folgenden Beispielsätze.]
+Wie mache ich ein Passwort sicherer? ➔ Frage nach der Art und Weise eines Vorgangs
+
+Ich mache ein Passwort sicherer, **indem** ich Groß- und Kleinbuchstaben durcheinander verwende.
+Ich kann das Passwort **dadurch** sicherer machen, **dass** ich Groß- und Kleinbuchstaben durcheinander verwende.
+
+
+
+[.match-all:bitmark--]
+[%A18b]
+[!Wie? – Modalangaben
+
+Antworten Sie. Bilden Sie Sätze wie im Beispiel.]
+===
+◇ Wie kann man diese Tür öffnen?__(grünen Knopf drücken)__
+==
+a) Man kann diese Tür öffnen, __indem__ man auf den grünen Knopf drückt.[@example]
+--
+b) Man kann diese Tür __dadurch__ öffnen, __dass__ man auf den grünen Knopf drückt.[@example]
+===
+1. Wie kann man seinen Wortschatz erweitern?__(viel lesen)__
+==
+[$a) Man kann seinen Wortschatz erweitern, indem man viel liest.]
+--
+[$b) Man kann seinen Wortschatz dadurch erweitern, dass man viel liest.]
+===
+2. Wie kann man einen DVD-Spieler problemlos programmieren?__(die Anweisungen genau beachten)__
+==
+[$a) Man kann einen DVD-Spieler problemlos programmieren, indem man die Anweisungen genau beachtet.] 
+--
+[$b) Man kann einen DVD-Spieler dadurch problemlos programmieren, dass man die Anweisungen genau beachtet.]
+===
+3. Wie kann man Opfer eines Internetangriffs werden?__(auf Anhänge oder Links in E-Mails unbekannter Herkunft klicken)__
+==
+[$a) Man kann Opfer eines Internetangriffs werden, indem man auf Anhänge oder Links in E-Mails unbekannter Herkunft klickt.] 
+--
+[$b) Man kann dadurch Opfer eines Internetangriffs werden, dass man auf Anhänge oder Links in E-Mails unbekannter Herkunft klickt.]
+===
+4. Wie können kriminelle Hacker Geld von Banken erbeuten?__(Rechner einzelner Angestellter infizieren und sich so Zugang zu den internen Netzwerken verschaffen)__
+==
+[$a) Kriminelle Hacker können Geld von Banken erbeuten, indem sie Rechner einzelner Angestellter infizieren und sich so Zugang zu den internen Netzwerken verschaffen.] 
+--
+[$b) Kriminelle Hacker können dadurch Geld von Banken erbeuten, dass sie Rechner einzelner Angestellter infizieren und sich so Zugang zu den internen Netzwerken verschaffen.]
+===
+5. Wie kann man sich vor Computerviren schützen?__(ein Antivirenprogramm benutzen)__
+==
+[$a) Man kann sich vor Computerviren schützen, indem man ein Antivirenprogramm benutzt.] 
+--
+[$b) Man kann sich vor Computerviren dadurch schützen/ dadurch vor Computerviren schützen, dass man ein Antivirenprogramm benutzt.]
+===
+6. Wie können wir bessere Produkte anbieten?__(kreativer sein als die Konkurrenz)__
+==
+[$a) Wir können bessere Produkte anbieten, indem wir kreativer sind als die Konkurrenz.] 
+--
+[$b) Wir können bessere Produkte dadurch anbieten/dadurch bessere Produkte anbieten, dass wir kreativer sind als die Konkurrenz.]
+===
+
+
+[.assignment:bitmark--]
+[%A18c]
+[!Wie? – Modalangaben
+
+Lesen Sie die folgenden Beispielsätze.]
+Auch Vergleichssätze sind modale Nebensätze: 
+Das Passwort war **so einfach** zu knacken, **wie** ich es vermutet habe.
+Das Passwort war **einfacher** zu knacken, **als** ich es vermutet habe.
+
+
+[.match]
+[%A18d]
+[!Wie? – Modalangaben
+
+Bilden Sie Vergleichssätze.]
+===
+[%◇] die Aufgabe – leichter – seinsich – annehmen
+==
+Die Aufgabe ist/war leichter, als ich angenommen habe/hatte.[@example][@longAnswer]
+===
+[%1] die Arbeit – schneller – beendet werden könnensich – planen
+==
+[$Die Arbeit konnte schneller beendet werden, als ich (es) geplant habe/hatte.]
+===
+[%2] die Computerviren – so gefährlich – seinsExperten – es – voraussagen
+==
+[$Die Computerviren sind/ waren so gefährlich, wie es Experten voraussagt haben/hatten.]
+===
+[%3] manche Mitarbeiter – so aggressiv – reagierensim Zeitungsartikel – es – beschrieben werden
+==
+[$Manche Mitarbeiter reagieren so aggressiv, wie es im Zeitungsartikel beschrieben wird/wurde.]
+===
+[%4] Computerfrust – zu höheren Schäden – führensVolkswirtschaftler – glauben
+==
+[$Computerfrust führt/führte zu höheren Schäden als Volkswirtschaftler glauben/glaubten.]
+===
+[.internal-link]
+[!Zusatzübungen zu Modalangaben ➔ Teil C][►kapitel7c2]
+
+
+
+
+
+[.essay:bitmark--&image]
+[%A19]
+[!Spaß beim Spiel
+
+Beschreiben Sie die Grafik.]
+||Add image-not found||
+
+|info:Redemittel
+• Das Thema der Grafik ist ... 
+• Aus der Grafik/Übersicht geht hervor, dass ...
+• Man kann deutlich sehen, dass ...
+
+
+
+
+[.match-solution-grouped:bitmark--]
+[%A20a]
+[!Smartphones für Kinder und Jugendliche
+
+Sie lesen in einer Zeitschrift verschiedene Meinungsäußerungen zum Thema __Smartphones für Kinder und Jugendliche__. Welche der folgenden Sätze passen inhaltlich zu den Äußerungen A bis F? Eine Aussage passt nicht.]
+
+A. Kinder sollten ab einem Alter von neun Jahren ein einfaches Prepaid-Handy bekommen. Sie können erst in diesem Alter überhaupt verstehen, dass so ein Gerät Geld kostet, und vernünftig damit umgehen. Komplexe Smartphones sollten Kinder erst ab zwölf Jahren benutzen.
+__Birgit, Leipzig__
+
+B. Laut aktuellen Studien steht bei Kindern und Jugendlichen die Smartphonenutzung an erster Stelle der Freizeitaktivitäten. Sport und Spiel im Freien werden immer weniger wichtig. Neben der körperlichen Fitness verlieren Kinder auch wichtige soziale Kontakte. 
+__Bertram, Grimma__
+
+C. Wenn Eltern ihren Kindern ein Smartphone schenken, sollten sie auch genug Zeit investieren, die Funktionen zu erklären und ihre Kinder zu begleiten. Es ist wichtig, dass Eltern wissen, was die Kinder mit den Medien machen. 
+__Dietmar, Dortmund__
+
+D. Digitale Medien prägen unseren Alltag. Unsere Kinder sehen, dass wir Erwachsenen den ganzen Tag mit unseren Smartphones beschäftigt sind. Ihr Wunsch, auch eins zu haben, ist durchaus verständlich.
+__Tamara, Gmund__
+
+E. Ich persönlich bin beruhigter, wenn ich meine Kinder jederzeit anrufen kann und weiß, wo sie sich aufhalten. Mobile Geräte sind Teil des Lebens und unsere Kinder wachsen damit auf. Altersempfehlungen finde ich unpassend, denn jedes Kind ist anders. 
+__Bettina, Münster__
+
+F. Wenn Kinder im Alter zwischen acht und zwölf Jahren täglich mehr als eine halbe Stunde mit ihrem Mobiltelefon verbringen, steigt das Risiko von Konzentrationsschwäche und Hyperaktivität. Es ist Aufgabe der Eltern, auf die Nutzungszeiten zu achten.
+__Jochen, Köln__
+
+
+===
+1. Eltern sollten sich mit der Mediennutzung ihrer Kinder beschäftigen.
+==
+C
+===
+2. Eltern sollten mit Kindern einen Nutzungsvertrag aushandeln.
+==
+keine passende Aussage
+===
+3. Der vernünftige Umgang mit Mobiltelefonen ist erst ab einem bestimmten Alter möglich.
+==
+A
+===
+4. Kinder orientieren sich oft am Verhalten der Eltern.
+==
+D
+===
+5. Smartphones gehören zum Leben und beruhigen Eltern.
+==
+E
+===
+6. Tägliche Smartphonenutzung kann negative Auswirkungen auf die Gesundheit haben.
+==
+F
+===
+7. Das Smartphone verdrängt andere Hobbys.
+==
+B
+=== 
+
+
+
+
+[.essay:bitmark--]
+[%A20b]
+[!Smartphones für Kinder und Jugendliche
+
+Schreiben Sie einen Forumsbeitrag zum Thema Smartphones für __Kinder und Jugendliche__. Schreiben Sie etwa 150 Wörter und gehen Sie auf die folgenden Fragen ein:]
+◇ Ab welchem Alter sollten Kinder ein Smartphone benutzen?
+◇ Welche Folgen kann die Smartphonenutzung haben?
+◇ Was sollten Eltern und/oder Schulen in diesem Bereich tun?
+
+
+
+[.chapter]
+[###Alte und neue Lerntechniken]
+[@leave.subject:Alte und neue Lerntechniken]
+[@leave.context:academic]
+
+[.assignment:bitmark--]
+[%A21a]
+[!Tipps, die das Lernen leichter machen
+
+Lesen Sie die folgenden allgemein bekannten Aussagen zum Thema __Lernen__.
+Welche halten Sie für richtig, welche nicht?]
+◇ Über das Gelernte sprechen hilft, es sich zu merken. 
+◇ Was man aufschreibt, bleibt länger im Gedächtnis. 
+◇ Tagsüber ist die Leistungsfähigkeit am größten.
+◇ Bewegung hilft beim Lernen.
+◇ In letzter Sekunde lernt man schneller als drei Wochen vor der Prüfung.
+◇ Vor dem Einschlafen ist das Gehirn besonders aufnahmefähig.
+
+
+
+
+[.multiple-choice-text&image]
+[%A21b]
+[&image:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/lernen-pfad.png]
+[!Tipps, die das Lernen leichter machen
+
+Lesen Sie die Kommentare eines Experten und ordnen Sie den Texten den passenden Lernmythos aus a) als Überschrift zu. Arbeiten Sie zu zweit. Einer liest die Texte 1 bis 3, einer 4 bis 6.]
+
+1. [-Über das Gelernte sprechen hilft, es sich zu merken.][-Was man aufschreibt, bleibt länger im Gedächtnis. ][-Tagsüber ist die Leistungsfähigkeit am größten.][-Bewegung hilft beim Lernen.][-In letzter Sekunde lernt man schneller als drei Wochen vor der Prüfung.][+Vor dem Einschlafen ist das Gehirn besonders aufnahmefähig.]
+Der Lernprozess endet nicht, sobald man das Lehrbuch zuklappt, sondern geht in der Nacht weiter. Wenn wir uns eine bestimmte Information langfristig merken wollen, muss sie vom Hippocampus – einer Art Zwischenspeicher – in die Großhirnrinde gelangen. Das passiert erst im Schlaf: In der Tiefschlafphase lädt das Gehirn Informationen aus dem Hippocampus herunter und verarbeitet sie. Allerdings setzt das Gehirn auch Prioritäten: Lernen wir beispielsweise Vokabeln auswendig und haben anschließend ein dramatisches, emotionales Erlebnis, festigt sich in der darauffolgenden Nacht dieses Erlebnis – nicht aber die Vokabeln. Denn im Gedächtnis landen eher die Informationen, die mit stärkeren Emotionen verknüpft sind. Wenn man gleich nach der Lernphase schlafen geht, kann dazwischen nichts mehr passieren, was das Gehirn als „wichtiger“ einstuft.
+
+2. [-Über das Gelernte sprechen hilft, es sich zu merken.][-Was man aufschreibt, bleibt länger im Gedächtnis. ][-Tagsüber ist die Leistungsfähigkeit am größten.][+Bewegung hilft beim Lernen.][-In letzter Sekunde lernt man schneller als drei Wochen vor der Prüfung.][-Vor dem Einschlafen ist das Gehirn besonders aufnahmefähig.]
+Sport hat positive Effekte auf das Gehirn, das ist nachgewiesen. Er sorgt für gute Durchblutung, hebt die Stimmung und kann somit auch die Leistungsfähigkeit steigern. Bewegung kann aber auch den Lerneffekt selbst verbessern: Wer einen abstrakten Zusammenhang mit einer körperlichen Bewegung verknüpft, sorgt dafür, dass sich dieser im Gehirn besser festsetzt.
+
+3. [+Über das Gelernte sprechen hilft, es sich zu merken.][-Was man aufschreibt, bleibt länger im Gedächtnis. ][-Tagsüber ist die Leistungsfähigkeit am größten.][-Bewegung hilft beim Lernen.][-In letzter Sekunde lernt man schneller als drei Wochen vor der Prüfung.][-Vor dem Einschlafen ist das Gehirn besonders aufnahmefähig.]
+Wenn wir miteinander sprechen, senden und empfangen wir permanent Emotionen. Diese wirken wie ein Verstärker: Sie signalisieren dem Gehirn, dass etwas wichtig ist und gespeichert werden sollte. Wichtig für diesen Prozess sind Mimik, Stimmlage und Gestik, weil sie Gefühlen Ausdruck verleihen. Chatten ist weitaus uneffektiver: Studien zeigen, dass Menschen sich im Nachhinein besser an einen Film erinnern, wenn sie über ihn reden, als wenn sie über ihn chatten.
+
+4. [-Über das Gelernte sprechen hilft, es sich zu merken.][-Was man aufschreibt, bleibt länger im Gedächtnis. ][-Tagsüber ist die Leistungsfähigkeit am größten.][-Bewegung hilft beim Lernen.][+In letzter Sekunde lernt man schneller als drei Wochen vor der Prüfung.][-Vor dem Einschlafen ist das Gehirn besonders aufnahmefähig.]
+Es liegt in der Natur des Menschen, das Hier und Jetzt wichtiger zu nehmen als künftige Probleme. Man muss Kindern erst beibringen, dass sie länger für etwas arbeiten müssen, um Erfolg zu haben: Wer Geige spielen können möchte, muss anstrengende Übungsstunden in Kauf nehmen. Grundlage dafür sind Durchhaltevermögen und Selbstdisziplin. Menschen, die dieses Durchhaltevermögen nicht trainiert haben, brauchen immer einen aktuellen Impulsgeber, um etwas zu leisten. Es mag sein, dass sie die Klausur trotz Last-Minute-Lernen bestehen. Allerdings werden sie wahrscheinlich weniger Erfolg im Leben haben: Sie richten sich immer nur nach aktuellen Zwängen und können nicht auf ein Ziel in der Zukunft hinarbeiten.
+
+5. [-Über das Gelernte sprechen hilft, es sich zu merken.][-Was man aufschreibt, bleibt länger im Gedächtnis. ][+Tagsüber ist die Leistungsfähigkeit am größten.][-Bewegung hilft beim Lernen.][-In letzter Sekunde lernt man schneller als drei Wochen vor der Prüfung.][-Vor dem Einschlafen ist das Gehirn besonders aufnahmefähig.]
+Einerseits stimmt das: Eine hohe Lichtintensität steigert die Wachheit und Aufmerksamkeit, weil dann mehr kurzwelliges Licht ins Auge fällt. Es gibt aber Menschen, die überwiegend nachts arbeiten und trotzdem jedes halbe Jahr ein Buch publizieren. Menschen haben also tatsächlich unterschiedliche Tagesrhythmen: Lerchen*-Typen stehen früh auf und sind morgens am leistungsfähigsten. Eulen*-Typen ziehen es vor, nachts zu lernen. Es gibt aber auch diejenigen, die meinen, sie wären Eulen – was aber eher daran liegt, dass sie morgens Probleme haben, aufzustehen.
+• Lerchen: Singvögel, morgens aktiv; Eulen: Raubvögel, nachtaktiv
+
+6. [-Über das Gelernte sprechen hilft, es sich zu merken.][+Was man aufschreibt, bleibt länger im Gedächtnis. ][-Tagsüber ist die Leistungsfähigkeit am größten.][-Bewegung hilft beim Lernen.][-In letzter Sekunde lernt man schneller als drei Wochen vor der Prüfung.][-Vor dem Einschlafen ist das Gehirn besonders aufnahmefähig.]
+Wenn man etwas aufschreibt, beschäftigt sich der Kopf intensiver damit, als wenn man es nur liest. Das gilt allerdings nur für die Handschrift: Wenn man sich etwas merken möchte, bringt Tippen weitaus weniger als Schreiben, das haben Studien gezeigt.
+[@reference: Tipps, die das Lernen leichter machen. DIE ZEIT online, 28.11.2012 (Lydia Klöckner) In: http://www.zeit.de/studium/]
+
+
+
+[.assignment:bitmark++]
+[%A22a]
+[!Textarbeit
+
+Geben Sie Ihrem Lesepartner/Ihrer Lesepartnerin den Inhalt Ihrer Leseabschnitte wieder.]
+|note:
+1. Der Lernprozess endet nicht, sobald man das Lehrbuch zuklappt, sondern geht in der Nacht weiter. Wenn wir uns eine bestimmte Information langfristig merken wollen, muss sie vom Hippocampus – einer Art Zwischenspeicher – in die Großhirnrinde gelangen. Das passiert erst im Schlaf: In der Tiefschlafphase lädt das Gehirn Informationen aus dem Hippocampus herunter und verarbeitet sie. Allerdings setzt das Gehirn auch Prioritäten: Lernen wir beispielsweise Vokabeln auswendig und haben anschließend ein dramatisches, emotionales Erlebnis, festigt sich in der darauffolgenden Nacht dieses Erlebnis – nicht aber die Vokabeln. Denn im Gedächtnis landen eher die Informationen, die mit stärkeren Emotionen verknüpft sind. Wenn man gleich nach der Lernphase schlafen geht, kann dazwischen nichts mehr passieren, was das Gehirn als „wichtiger“ einstuft.
+
+2. Sport hat positive Effekte auf das Gehirn, das ist nachgewiesen. Er sorgt für gute Durchblutung, hebt die Stimmung und kann somit auch die Leistungsfähigkeit steigern. Bewegung kann aber auch den Lerneffekt selbst verbessern: Wer einen abstrakten Zusammenhang mit einer körperlichen Bewegung verknüpft, sorgt dafür, dass sich dieser im Gehirn besser festsetzt.
+
+3. Wenn wir miteinander sprechen, senden und empfangen wir permanent Emotionen. Diese wirken wie ein Verstärker: Sie signalisieren dem Gehirn, dass etwas wichtig ist und gespeichert werden sollte. Wichtig für diesen Prozess sind Mimik, Stimmlage und Gestik, weil sie Gefühlen Ausdruck verleihen. Chatten ist weitaus uneffektiver: Studien zeigen, dass Menschen sich im Nachhinein besser an einen Film erinnern, wenn sie über ihn reden, als wenn sie über ihn chatten.
+
+4. Es liegt in der Natur des Menschen, das Hier und Jetzt wichtiger zu nehmen als künftige Probleme. Man muss Kindern erst beibringen, dass sie länger für etwas arbeiten müssen, um Erfolg zu haben: Wer Geige spielen können möchte, muss anstrengende Übungsstunden in Kauf nehmen. Grundlage dafür sind Durchhaltevermögen und Selbstdisziplin. Menschen, die dieses Durchhaltevermögen nicht trainiert haben, brauchen immer einen aktuellen Impulsgeber, um etwas zu leisten. Es mag sein, dass sie die Klausur trotz Last-Minute-Lernen bestehen. Allerdings werden sie wahrscheinlich weniger Erfolg im Leben haben: Sie richten sich immer nur nach aktuellen Zwängen und können nicht auf ein Ziel in der Zukunft hinarbeiten.
+
+5. Einerseits stimmt das: Eine hohe Lichtintensität steigert die Wachheit und Aufmerksamkeit, weil dann mehr kurzwelliges Licht ins Auge fällt. Es gibt aber Menschen, die überwiegend nachts arbeiten und trotzdem jedes halbe Jahr ein Buch publizieren. Menschen haben also tatsächlich unterschiedliche Tagesrhythmen: Lerchen*-Typen stehen früh auf und sind morgens am leistungsfähigsten. Eulen*-Typen ziehen es vor, nachts zu lernen. Es gibt aber auch diejenigen, die meinen, sie wären Eulen – was aber eher daran liegt, dass sie morgens Probleme haben, aufzustehen.
+• Lerchen: Singvögel, morgens aktiv; Eulen: Raubvögel, nachtaktiv
+
+6. Wenn man etwas aufschreibt, beschäftigt sich der Kopf intensiver damit, als wenn man es nur liest. Das gilt allerdings nur für die Handschrift: Wenn man sich etwas merken möchte, bringt Tippen weitaus weniger als Schreiben, das haben Studien gezeigt.
+[@reference: Tipps, die das Lernen leichter machen. DIE ZEIT online, 28.11.2012 (Lydia Klöckner) In: http://www.zeit.de/studium/]
+
+
+
+
+
+[.essay:bitmark++]
+[%A22b]
+[!Textarbeit
+
+Fassen Sie gemeinsam die Tipps und Kommentare schriftlich zusammen (in ein bis drei Sätzen). Vergleichen Sie Ihre Zusammenfassung mit anderen Teilnehmern.]
+
+|note:
+1. Der Lernprozess endet nicht, sobald man das Lehrbuch zuklappt, sondern geht in der Nacht weiter. Wenn wir uns eine bestimmte Information langfristig merken wollen, muss sie vom Hippocampus – einer Art Zwischenspeicher – in die Großhirnrinde gelangen. Das passiert erst im Schlaf: In der Tiefschlafphase lädt das Gehirn Informationen aus dem Hippocampus herunter und verarbeitet sie. Allerdings setzt das Gehirn auch Prioritäten: Lernen wir beispielsweise Vokabeln auswendig und haben anschließend ein dramatisches, emotionales Erlebnis, festigt sich in der darauffolgenden Nacht dieses Erlebnis – nicht aber die Vokabeln. Denn im Gedächtnis landen eher die Informationen, die mit stärkeren Emotionen verknüpft sind. Wenn man gleich nach der Lernphase schlafen geht, kann dazwischen nichts mehr passieren, was das Gehirn als „wichtiger“ einstuft.
+
+2. Sport hat positive Effekte auf das Gehirn, das ist nachgewiesen. Er sorgt für gute Durchblutung, hebt die Stimmung und kann somit auch die Leistungsfähigkeit steigern. Bewegung kann aber auch den Lerneffekt selbst verbessern: Wer einen abstrakten Zusammenhang mit einer körperlichen Bewegung verknüpft, sorgt dafür, dass sich dieser im Gehirn besser festsetzt.
+
+3. Wenn wir miteinander sprechen, senden und empfangen wir permanent Emotionen. Diese wirken wie ein Verstärker: Sie signalisieren dem Gehirn, dass etwas wichtig ist und gespeichert werden sollte. Wichtig für diesen Prozess sind Mimik, Stimmlage und Gestik, weil sie Gefühlen Ausdruck verleihen. Chatten ist weitaus uneffektiver: Studien zeigen, dass Menschen sich im Nachhinein besser an einen Film erinnern, wenn sie über ihn reden, als wenn sie über ihn chatten.
+
+4. Es liegt in der Natur des Menschen, das Hier und Jetzt wichtiger zu nehmen als künftige Probleme. Man muss Kindern erst beibringen, dass sie länger für etwas arbeiten müssen, um Erfolg zu haben: Wer Geige spielen können möchte, muss anstrengende Übungsstunden in Kauf nehmen. Grundlage dafür sind Durchhaltevermögen und Selbstdisziplin. Menschen, die dieses Durchhaltevermögen nicht trainiert haben, brauchen immer einen aktuellen Impulsgeber, um etwas zu leisten. Es mag sein, dass sie die Klausur trotz Last-Minute-Lernen bestehen. Allerdings werden sie wahrscheinlich weniger Erfolg im Leben haben: Sie richten sich immer nur nach aktuellen Zwängen und können nicht auf ein Ziel in der Zukunft hinarbeiten.
+
+5. Einerseits stimmt das: Eine hohe Lichtintensität steigert die Wachheit und Aufmerksamkeit, weil dann mehr kurzwelliges Licht ins Auge fällt. Es gibt aber Menschen, die überwiegend nachts arbeiten und trotzdem jedes halbe Jahr ein Buch publizieren. Menschen haben also tatsächlich unterschiedliche Tagesrhythmen: Lerchen*-Typen stehen früh auf und sind morgens am leistungsfähigsten. Eulen*-Typen ziehen es vor, nachts zu lernen. Es gibt aber auch diejenigen, die meinen, sie wären Eulen – was aber eher daran liegt, dass sie morgens Probleme haben, aufzustehen.
+• Lerchen: Singvögel, morgens aktiv; Eulen: Raubvögel, nachtaktiv
+
+6. Wenn man etwas aufschreibt, beschäftigt sich der Kopf intensiver damit, als wenn man es nur liest. Das gilt allerdings nur für die Handschrift: Wenn man sich etwas merken möchte, bringt Tippen weitaus weniger als Schreiben, das haben Studien gezeigt.
+[@reference: Tipps, die das Lernen leichter machen. DIE ZEIT online, 28.11.2012 (Lydia Klöckner) In: http://www.zeit.de/studium/]
+
+
+
+
+
+[.match-solution-grouped:bitmark--]
+[%A23]
+[!Was passt zusammen?
+
+Ordnen Sie die passende Ergänzung zu.]
+===
+[%◇] Der Lernprozess endet nicht,
+==
+[%b] sobald man das Lehrbuch zuklappt.[@example]
+===
+[%2] Wenn wir uns eine bestimmte Information langfristig merken wollen,
+==
+[%f] muss sie vom Hippocampus in die Großhirnrinde gelangen.
+===
+[%3] Im Gedächtnis landen eher die Informationen,
+==
+[%h] die mit stärkeren Emotionen verknüpft sind.
+===
+[%4] Ein abstrakter Zusammenhang kann sich im Gehirn besser festsetzen,
+==
+[%a] wenn man ihn mit einer dazu passenden körperlichen Bewegung verknüpft.
+===
+[%5] Wer Geige spielen können möchte,
+==
+[%c] muss anstrengende Übungsstunden in Kauf nehmen.
+===
+[%6] Menschen, die ein bestimmtes Durchhaltevermögen nicht trainiert haben,
+==
+[%d] brauchen immer einen aktuellen Impulsgeber, um etwas zu leisten.
+===
+[%7] Wenn wir miteinander sprechen,
+==
+[%g] senden und empfangen wir permanent Emotionen.
+===
+[%8] Studien zufolge erinnern sich Menschen im Nachhinein besser an einen Film,
+==
+[%e] wenn sie über ihn reden, als wenn sie über ihn chatten.
+===
+
+
+
+[.match:bitmark--]
+[%A24]
+[!Die Betonung des Vorgangs
+
+Formen Sie die folgenden Aktivsätze in Passivsätze um. Beachten Sie bei manchen Sätzen die Vorgaben in Klammern.]
+===
+[%◇] Der Lernprozess **geht** in der Nacht **weiter**.__(fortsetzen)__
+==
+Der Lernprozess wird in der Nacht fortgesetzt.[@example]
+===
+[%1] In der Tiefschlafphase lädt **sich das Gehirn** Informationen aus dem Hippocampus herunter und verarbeitet **sie**.
+==
+[$In der Tiefschlafphase werden (vom Gehirn) Informationen aus dem Hippocampus heruntergeladen und verarbeitet.]
+===
+[%2] Im Gedächtnis **landen** eher die Informationen, die mit stärkeren Emotionen verknüpft sind.__(speichern)__
+==
+[$Im Gedächtnis werden eher die Informationen gespeichert, die mit stärkeren Emotionen verknüpft sind.]
+===
+[%3] Sporttreiben **sorgt** für eine gute **Durchblutung** des Gehirns.__(wenn man – durchbluten)__
+==
+[$Wenn man Sport treibt, wird das Gehirn gut durchblutet.]
+===
+[%4] Sport steigert auch die Leistungsfähigkeit.
+==
+[$Die Leistungsfähigkeit wird (durch Sport) gesteigert.]
+===
+[%5] Bewegung **ist aber auch in der Lage**, den Lerneffekt selbst zu verbessern.__(können)__
+==
+[$Durch Bewegung kann der Lerneffekt selbst verbessert werden.]
+===
+[%6] **Man** muss Kindern erst beibringen __(Passiv)__, dass sie länger für etwas arbeiten müssen, um ein Erfolgserlebnis zu haben.
+==
+[$Kindern muss erst beigebracht werden, dass sie länger für etwas arbeiten müssen, um ein Erfolgserlebnis zu haben.]
+===
+[%7] Beim Sprechen senden und empfangen wir permanent Emotionen.
+==
+[$Beim Sprechen werden permanent Emotionen gesendet und empfangen.]
+===
+[%8] Sie signalisieren dem Gehirn __(Passiv)__, dass etwas wichtig ist und gespeichert werden sollte.
+==
+[$Dem Gehirn wird signalisiert, dass etwas wichtig ist und gespeichert werden sollte.]
+===
+[%9] Mimik, Stimmlage und Gestik verleihen den Gefühlen Ausdruck.
+==
+[$Den Gefühlen wird durch Mimik, Stimmlage und Gestik Ausdruck verliehen.]
+===
+[.internal-link]
+[!Hinweise und Zusatzübungen zum Passiv ➔ Teil C Seite 198 ][►kapitel7c3]
+
+
+
+
+
+[.interview:bitmark--]
+[%A25]
+[!Klassenspaziergang: Lernen
+
+Wählen Sie drei Fragen aus und befragen Sie möglichst viele Kursteilnehmer. Berichten Sie dann im Plenum.]
+===
+1. Wie viele Fremdsprachen haben Sie gelernt? Welche davon sprechen Sie regelmäßig?
+===
+2. Was fällt Ihnen beim 2 Lernen leicht, was schwer?
+===
+3. Welche Tipps können 3 Sie jemandem geben, der Ihre Muttersprache lernen möchte?
+===
+4. Was möchten Sie gerne noch lernen?
+===
+5. Wie lernen Sie Vokabeln?
+===
+ 
+
+[.assignment&image]
+[%A26]
+[&image:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/366044_original_r_b_by_thomas_max_m_iler_pixelio.de.png]
+[!Mündlicher Ausdruck: Eine Auswahl treffen]
+Sie sind zu Besuch bei einer Freundin/einem Freund in Berlin. Sie/Er hat eine neue Stelle und muss dringend Italienisch lernen, weil die Firma geschäftliche Beziehungen zu Italien hat. Das Erlernen der Sprache soll außerhalb der Arbeitszeit erfolgen (abends, am Wochenende, im Urlaub).
+
+Diskutieren Sie mit ihr/ihm über verschiedene Möglichkeiten, Italienisch zu lernen. Wägen Sie Vor- und Nachteile der im Folgenden genannten Optionen ab, begründen Sie Ihre Meinung und einigen Sie sich am Ende auf ein Angebot.
+
+Diese Möglichkeiten stehen zur Auswahl:
+
+◇ ein 4-Wochen-Intensivkurs in einer Gruppe an einem Sprachinstitut in Berlin (Preis: 1 150 Euro, 100 Unterrichtsstunden)
+
+◇ ein 2-Wochen-Intensivkurs in einer Gruppe in Italien (Preis: 800 Euro Kursgebühr + 1 500 Euro Reise, Unterkunft, Verpflegung, 60 Unterrichtsstunden)
+
+◇ ein Abend-Gruppenkurs einmal in der Woche an einem Sprachinstitut (Preis: 450 Euro, 60 Unterrichtsstunden)
+
+◇ ein Individualkurs (Preis: 3 000 Euro, 45 Unterrichtsstunden)
+
+◇ ein Online-Gruppensprachkurs (Preis: 450 Euro, 60 Unterrichtsstunden, Betreuung durch einen Onlinetutor)
+
+◇ Lernen auf einer Internetplattform zu Hause, ohne Betreuung (keine bzw. geringe Kosten)
+
+
+
+
+[.essay:bitmark--]
+[%A27]
+[!Schriftlicher Ausdruck
+
+In einer deutschen Zeitung lesen Sie folgende Meldung:]
+**Wie früh sollten Kinder Fremdsprachen lernen?**
+Ob in der ersten Grundschulklasse oder sogar schon im Kindergarten – für viele Eltern kann der Fremdsprachenunterricht bei ihren Sprösslingen gar nicht schnell genug beginnen. Und tatsächlich deuten inzwischen zahlreiche Studien darauf hin, dass es von Vorteil sein kann, wenn Kinder schon früh mit einer zweiten Sprache in Berührung kommen. Das Motto „Je früher, desto besser“ gilt allerdings nicht immer, mahnen Experten. Die zweite Fremdsprache kann Kinder auch überfordern, denn nicht alle Kinder eignen sich gleichermaßen für die Mehrsprachigkeit.
+
+Verfassen Sie eine Reaktion an die Zeitung. Schreiben Sie,
+◇ wann Sie selbst Ihre erste Fremdsprache gelernt haben
+
+◇ ab welchem Alter Sie das Erlernen einer zweiten Sprache für sinnvoll halten
+
+◇ welche Vor- und Nachteile Sie beim früheren oder späteren Erlernen einer zweiten Sprache sehen
+
+◇ welche Möglichkeiten des Fremdsprachenlernens es in Ihrem Heimatland gibt.
+
+
+
+
+[.chapter]
+[##Teil B]
+
+
+[.chapter]
+[###Erfindungen]
+[@leave.subject:Erfindungen]
+[.article:bitmark--]
+Die Texte und Aufgaben in diesem __fakultativen Teil B__ stellen ein Angebot für Lerner und Lerngruppen dar, die ihre sprachlichen Fähigkeiten zusätzlich erweitern möchten.
+
+
+
+[.essay]
+[%B1]
+[!Was ist für Sie die wichtigste Erfindung überhaupt, was ist für Sie die wichtigste Erfindung der letzten zehn Jahre? Begründen Sie Ihre Auswahl.]
+
+
+
+
+[.assignment:bitmark--&image]
+[%B2]
+[!Kuriose Erfindungen]
+
+Nicht alle Erfindungen sind praktisch oder erfolgreich. Hier können Sie einige Erfindungen kennenlernen, die im Kabinett der Kuriositäten bis heute ihren Ehrenplatz behalten.
+Lesen Sie die Texte und wählen Sie die Ihrer Ansicht nach kurioseste Erfindung.
+
+**◎ Wetterschießen** Das Abfeuern von Mörsern, um aufkommende Unwetter zu vertreiben oder zumindest unschädlich zu machen, wurde gegen Ende des 19. Jahrhunderts in vielen Gegenden Europas praktiziert. „Der Erfolg war im Allgemeinen kein günstiger“, berichtet der Berliner Technikautor Franz Feldhaus 1915. Wissenschaftliche Untersuchungen ergaben, dass die Geschosse nicht hinauf zu den Wolken reichten. Dennoch hielten viele Bauerngemeinden lange an dem Brauch fest und ballerten unbeirrt weiter.
+[&image:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/malbork_-_bombarda.png]
+
+**◎ Tierschutz** Um Schafe gegen Überfälle durch Wölfe und wildernde Hunde zu schützen, entwickelte ein Erfinder anno 1880 Schutzschilde für große und kleine Tiere. Die Schilde waren mit Zähnen und Zacken bewehrt und sollten an jenen Stellen befestigt werden, an denen Raubtiere am liebsten zubeißen: an Hals und Hinterbeinen. Die Ausrottung des Wolfs in Zentraleuropa und der Rückgang wildernder Hunde machten den Stachelpanzer überflüssig.
+
+**◎ Küchentechnik** Als die „überaus praktische Eierzange“ Ende des 19. Jahrhunderts zum Patent angemeldet wurde, prophezeite man ihr einen Welterfolg. Sie galt als sicher im Gebrauch, da die beiden Zangenschalen mit kleinen Dornen versehen waren, um die Kalkhülle eines Hühnereis zu durchbohren und festzuhalten. Die Konstruktion, so schien es, werde den Umgang mit weich gekochten Eiern bis ins nächste Millennium revolutionieren. Tatsächlich aber scheiterte die Eierzange an simpler Konkurrenz, dem Eierbecher.
+
+**◎ Meldewesen** Eine Alarmanlage für Taube oder Menschen mit tiefem Schlaf hat der New Yorker Arnold Zukor 1922 ersonnen. Wenn Einbrecher das Fenster hochschieben, lösen sie – über eine Vielzahl von Stangen und Bolzen – einen Wasserstrahl in das Gesicht des Schläfers aus. Mit 60 Teilen erschien die Anlage allzu komplex.
+
+**◎ Jagdwesen** Im 15. und 16. Jahrhundert trugen die Damen kleine Pelze oder hielten Schoßhunde, um sich die damals zahlreichen Flöhe vom Leibe zu halten. Dass einige der sprunggewaltigen Blutsauger dennoch immer wieder ihren Weg ins Dekolleté fanden, führte schließlich zur Erfindung einer Vorrichtung, welche durch die 1727 erschienene Schrift „Die Neuerfundene Curieuse Floh-Falle zu gänzlicher Ausrottung der Flöhe“ bekannt wurde. Die Falle war eine durchlässige Büchse, die am Körper getragen wurde. Im Inneren befand sich ein mit Honig bestrichener Stempel, an welchem der Floh kleben blieb.
+[@reference: „Erfinder auf Abwegen“. Der SPIEGEL 52/1999.]
+
+
+[.interview:bitmark--&image]
+[%B3a]
+[&image:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/transportmittel_1443.png]
+[!Erfindung oder Entdeckung?
+
+Ordnen Sie zu und begründen Sie Ihre Entscheidung.]
+die Dampfmaschine ◇ Australien ◇ das Penicillin ◇ das Dynamit ◇ die Straßenbahn ◇ der Sauerstoff ◇ der Buchdruck ◇ das Segelschiff
+===
+**Erfindung**[@shortAnswer]
+[$die Dampfmaschine, das Dynamit, die Straßenbahn, der Buchdruck, das Segelschiff]
+===
+**Entdeckung**[@shortAnswer]
+[$Australien, das Penicillin, der Sauerstoff]
+===
+
+
+
+[.interview:bitmark--]
+[%B3b]
+[!Erfindung oder Entdeckung?
+
+Ordnen Sie die Beschreibungen den Begriffen zu.]
+es ist ganz neu ◇ jemand hat es sich ausgedacht ◇ jemand hat es (zufällig) gefunden ◇ es war bereits vorhanden, aber niemand wusste es ◇ es muss gewerblich anwendbar sein ◇ es darf keine naheliegende Lösung bieten
+
+===
+**Erfindung**[@shortAnswer]
+[$es ist ganz neu, jemand hat es sich ausgedacht, es muss gewerblich anwendbar sein, es darf keine naheliegende Lösung bieten]
+===
+und/oder
+
+
+**Entdeckung**[@shortAnswer]
+[$jemand hat es (zufällig) gefunden, es war bereits vorhanden, aber niemand wusste es]
+===
+
+
+
+
+[.multiple-choice&image]
+[%B4]
+[&image:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gummib_rchen-sw.png]
+[!Deutsche Erfindungen
+
+Wann wurde das erfunden? Raten Sie.]
+===
+[%1]der Flachbildschirm
+[+1971]
+[-1990]
+===
+[%2]die Röntgentechnik
+[-1930] 
+[+1894]
+===
+[%3]die Straßenbahn
+[-1905] 
+[+1881]
+===
+[%4]das Brettspiel „Mensch, ärgere dich nicht“
+[+1907]
+[-1951]
+===
+[%5]die Chipkarte
+[+1968]
+[-1985]
+===
+[%6]das Aspirin
+[+1886]
+[-1986]
+===
+[%7]der Kaffeefilter
+[-1960]
+[+1908]
+===
+[%8]die Gummibärchen
+[-1952]
+[+1922]
+===
+
+
+
+[.essay&image]
+[%B5a]
+[!Anmelderekord beim Europäischen Patentamt 
+
+Beschreiben Sie die Grafik.]
+[&image:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/dna_computer-pfad.png]
+||diagramm not found||
+
+
+
+
+[.cloze-solution-grouped]
+[%B5b]
+[!Anmelderekord beim Europäischen Patentamt
+
+Lesen Sie den zur Grafik gehörenden Text und ergänzen Sie die fehlenden Nomen.]
+Konzerne und Erfinder lassen sich ihre Entwicklungen immer häufiger per [_Patent][@example] schützen. Im vergangenen Jahr wurden fast 166000 europäische [_Patentanmeldungen][%1] eingereicht, das entspricht einem Anstieg von fast vier Prozent. Mit 2 398 Anmeldungen ist der chinesische Technologiekonzern Huawei [_Spitzenreiter][%2] unter den Anmeldern. Das ist ein [_Beweis][%3] dafür, dass Huawei viel in Forschung und Entwicklung investiert: Rund 40 Prozent der Mitarbeiter sind in irgendeiner Form im [_Bereich][%4] der Forschung tätig und in den kommenden Jahren sollen nach Aussagen des Konzerns zwischen 10 und 20 Milliarden Dollar in die [_Entwicklung][%5] neuer Geräte fließen. Nach dem zweitplatzierten deutschen Konzern Siemens folgen die südkoreanischen Technologieriesen LG und Samsung. Der in den Niederlanden ansässige Konzern Royal Phillips belegt [_Platz][%6] fünf.
+
+Neben den wachsenden [_Anmeldezahlen][%7] aus Asien und den USA stieg auch die Zahl der europäischen Anmeldungen. Mit einer [_Zuwachsrate][%8] von 2,8 Prozent machen europäische Konzerne jetzt 47 Prozent des Gesamtvolumens aus.
+
+
+
+
+
+[.assignment:bitmark--&image]
+[%B6a]
+[&image:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/kerzenhalter_telefon.png]
+[!Das gewinnbringendste Patent
+
+Lesen Sie den folgenden Text und sagen Sie, um welches Gerät es geht.]
+**Das gewinnbringendste Patent**
+Am 20. Januar 1876 unterschrieb Alexander Graham Bell seinen Patentantrag, beschloss aber, ihn nicht gleich beim amerikanischen Patentamt einzureichen. Sein Schwiegervater wollte jedoch nicht länger warten und schickte den Patentantrag am 14. Februar 1876 an das amerikanische Patentamt. Das war knapp! Denn Bell kam seinem Konkurrenten Elisha Gray nur um wenige Stunden zuvor. Beide legten sehr ähnliche Konstruktionen vor: In beiden Apparaten veränderte die menschliche Stimme einen Widerstand, der dann in Stromveränderungen umgewandelt wurde. Am 7. März 1876 wurde Alexander Graham Bell das vermutlich gewinnbringendste Patent zugesprochen, das je erteilt wurde, Patent Nr. 174465.
+
+
+
+
+[.interview:bitmark--]
+[%B6b]
+[!Das gewinnbringendste Patent
+
+Welche Verben aus dem Text passen zu ...]
+===
+Patentantrag:[@shortAnswer]
+[$unterschreiben, einreichen, schicken]
+===
+Patent:[@shortAnswer]
+[$zusprechen, erteilen, (einreichen)]
+===
+
+**Das gewinnbringendste Patent**
+Am 20. Januar 1876 unterschrieb Alexander Graham Bell seinen Patentantrag, beschloss aber, ihn nicht gleich beim amerikanischen Patentamt einzureichen. Sein Schwiegervater wollte jedoch nicht länger warten und schickte den Patentantrag am 14. Februar 1876 an das amerikanische Patentamt. Das war knapp! Denn Bell kam seinem Konkurrenten Elisha Gray nur um wenige Stunden zuvor. Beide legten sehr ähnliche Konstruktionen vor: In beiden Apparaten veränderte die menschliche Stimme einen Widerstand, der dann in Stromveränderungen umgewandelt wurde. Am 7. März 1876 wurde Alexander Graham Bell das vermutlich gewinnbringendste Patent zugesprochen, das je erteilt wurde, Patent Nr. 174465.
+
+
+
+
+[.interview]
+[%B7]
+[!Beantworten Sie eine der folgenden Fragen.]
+===
+[%1]Auf welchem Gebiet wird es Ihrer Meinung nach in den nächsten Jahrzehnten die größten Entwicklungen
+geben? Begründen Sie Ihre Meinung.[@shortAnswer]
+===
+[%2]In welchem Land werden Ihrer Meinung nach die meisten Erfindungen gemacht? Begründen Sie Ihre Vermutung.[@shortAnswer]
+===
+[%3]Was sollte Ihrer Meinung nach unbedingt noch erfunden werden?[@shortAnswer]
+===
+
+
+
+
+[.cloze-instruction-grouped&image]
+[%B8a]
+[&image:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/siemens2a.png]
+[!Genialer Erfinder, Wissenschaftler und Unternehmer: Werner von Siemens
+
+Lesen Sie die biografischen Informationen über Werner von Siemens und ergänzen Sie die fehlenden Verben in
+der richtigen Form.]
+◼︎ Werner Siemens [_wurde][!geboren werden](1] am 13. Dezember 1816 in Lenthe bei Hannover [_geboren][%1]. Als Sohn eines ==Domänenpächters==(@note:jemand, der ein Landgut gegen Geldzahlung mietet) konnte er aus finanziellen Gründen kein technisches Studium [_absolvieren][_machen][!absolvieren][!machen][%2], deshalb [_trat][%3] er als 18-Jähriger in die preußische Armee [_ein][!eintreten][%3]. Dort [_bot][!bieten][%4] sich ihm die Möglichkeit, eine naturwissenschaftliche Ausbildung zu [_wählen][_absolvieren][_machen][!wählen][!absolvieren][!machen][%5]. Bereits mit 26 Jahren [_erhielt][!erhalten][%6] er sein erstes Patent für die galvanische Vergoldung von Metallgegenständen.
+
+◼︎ Der Durchbruch als Techniker und Erfinder [_gelang][!gelingen][%7] ihm 1846 mit der Verbesserung des Zeigertelegrafen zu einem zuverlässigen und relativ einfach zu bedienenden Gerät. Die Einführung dieser Entwicklung in den preußischen Telegrafendienst [_ermöglichte][!ermöglichen][%8] ihm, sich ganz der wissenschaftlich-technischen Vervollkommnung der elektrischen Telegrafie und ihrer Entwicklung zu einem technisch einfachen und ökonomisch rentablen System der Nachrichtenübermittlung zu [_widmen][!widmen][%9].
+
+◼︎ 1847 [_gründete][!gründen][%10] Werner Siemens eine Firma, die 1848 Telegrafenverbindungen zwischen Berlin und Frankfurt [_installierte][!installieren][%11]; ab 1853 ein Telegrafennetz in Russland [_errichtete][!errichten][%12] und die mehr als 11 000 km lange Telegrafenlinie von London nach Indien[_errichtete][_baute][!errichten][!bauen][%13].
+
+◼︎ Aber Siemens war nicht nur ein selbstbewusster Unternehmer, sondern auch ein bedeutender Wissenschaftler. Für ihn waren nachhaltige industrielle Erfolge nur dann zu [_erzielen][!erzielen][%14], wenn man als erster neue wissenschaftliche Wege [_beschritt][!beschreiten][%15]. Diese Herangehensweise [_führte][!führen][%16] ihn zur Entdeckung des dynamoelektrischen Prinzips.
+
+◼︎ Das Siemenssche Unternehmen [_beschäftigte][!beschäftigen][%17] sich nun auch mit der Konstruktion und dem Bau leistungsfähiger Dynamomaschinen und Motoren. So [_baute][!baue][%18] die Firma für die Berliner Gewerbeausstellung 1879 die erste Elektrolokomotive der Welt, und auch andere elektrische Innovationen wie Straßenbahn, Aufzug und Beleuchtung [_gingen][!zurückgehen][%19] auf Siemenssche Initiative [_zurück][%19].
+
+◼︎ Für seine wissenschaftlichen und technischen Pionierleistungen wurde Werner Siemens 1860 die Ehrendoktorwürde der Berliner Universität [_verliehen][!verliehen][%20], drei Jahre später [_ernannte][_machte][!machen][!machte][%21] ihn die Akademie der Wissenschaften zu ihrem Mitglied und 1888 wurde er in den erblichen Adelsstand [_erhoben][!erhebe][%22].
+
+◼︎ Siemens engagierte sich auch politisch. Ihm ist es zu [_verdanken][!verdanken][%23], dass 1877 vom Reichstag eine einheitliche deutsche Patentgesetzgebung [_verabschiedet][!verabschieden][%24] wurde. Am 6. Dezember 1892 [_starb][!sterben][%25] Werner von Siemens in Berlin.
+
+
+[@reference: Werner von Siemens. Berliner Zeitung, 6.12.1992 (D. Hoffmann)]
+
+
+
+[.mark:bitmark--]
+[%B8b]
+[!Genialer Erfinder, Wissenschaftler und Unternehmer: Werner von Siemens
+
+Suchen Sie aus dem Text alle Nomen auf __-ung__ und nennen Sie die dazu passenden Verben.]
+
+◼︎ Werner Siemens wurde am 13. Dezember 1816 in Lenthe bei Hannover geboren. Als Sohn eines Domänenpächters* konnte er aus finanziellen Gründen kein technisches Studium absolvieren, deshalb trat er als 18-Jähriger in die preußische Armee ein. Dort bot sich ihm die Möglichkeit, eine naturwissenschaftliche Ausbildung zu wählen. Bereits mit 26 Jahren erhielt er sein erstes Patent für die galvanische Vergoldung von Metallgegenständen.
+
+◼︎ Der Durchbruch als Techniker und Erfinder gelang ihm 1846 mit der Verbesserung des Zeigertelegrafen zu einem zuverlässigen und relativ einfach zu bedienenden Gerät. Die Einführung dieser Entwicklung in den preußischen Telegrafendienst ermöglichte ihm, sich ganz der wissenschaftlich-technischen Vervollkommnung der elektrischen Telegrafie und ihrer Entwicklung zu einem technisch einfachen und ökonomisch rentablen System der Nachrichtenübermittlung zu widmen.
+
+◼︎ 1847 gründete Werner Siemens eine Firma, die 1848 Telegrafenverbindungen zwischen Berlin und Frankfurt installierte; ab 1853 ein Telegrafennetz in Russland errichtete und die mehr als 11 000 km lange Telegrafenlinie von London nach Indien errichtete.
+
+◼︎ Aber Siemens war nicht nur ein selbstbewusster Unternehmer, sondern auch ein bedeutender Wissenschaftler. Für ihn waren nachhaltige industrielle Erfolge nur dann zu erzielen, wenn man als erster neue wissenschaftliche Wege beschritt. Diese Herangehensweise führte ihn zur Entdeckung des dynamoelektrischen Prinzips.
+
+◼︎ Das Siemenssche Unternehmen beschäftigte sich nun auch mit der Konstruktion und dem Bau leistungsfähiger Dynamomaschinen und Motoren. So baute die Firma für die Berliner Gewerbeausstellung 1879 die erste Elektrolokomotive der Welt, und auch andere elektrische Innovationen wie Straßenbahn, Aufzug und Beleuchtung gingen auf Siemenssche Initiative zurück.
+
+◼︎ Für seine wissenschaftlichen und technischen Pionierleistungen wurde Werner Siemens 1860 die Ehrendoktorwürde der Berliner Universität verliehen, drei Jahre später ernannte ihn die Akademie der Wissenschaften zu ihrem Mitglied und 1888 wurde er in den erblichen Adelsstand erhoben.
+
+◼︎ Siemens engagierte sich auch politisch. Ihm ist es zu verdanken, dass 1877 vom Reichstag eine einheitliche deutsche Patentgesetzgebung verabschiedet wurde. Am 6. Dezember 1892 starb Werner von Siemens in Berlin.
+
+• Domänenpächter = jemand, der ein Landgut gegen Geldzahlung mietet
+[@reference: Werner von Siemens. Berliner Zeitung, 6.12.1992 (D. Hoffmann)]
+Ausbildung – jemanden ausbilden
+
+die Vergoldung – etwas vergolden, die Verbesserung – etwas/sich verbessern, die Einführung – etwas einführen, die Vervollkommnung – etwas/sich vervollkommnen, die Entwicklung – etwas/sich entwickeln, die Telegrafen- verbindung – etwas/Telegrafen verbinden, die Beleuchtung – etwas beleuchten, die Pionierleistung – etwas (als Pionier) leisten, die Patentgesetzgebung – ein (Patent-)Gesetz ist (vor-)gegeben
+||2 bits?||
+
+
+
+[.essay]
+[%B9]
+[!Gibt es in Ihrem Heimatland einen berühmten Erfinder oder Entdecker? 
+
+Wenn ja, berichten Sie über ihn und seine Leistungen.]
+
+
+
+
+[.chapter]
+[##Teil C]
+
+[.chapter][▼kapitel7c3]
+[###Passiv und Passiversatzformen]
+[@grammar:Passiv und Passiversatzformen]
+
+[.article:bitmark--]
+◼︎ Vorgangspassiv
+Die Tür wird abgeschlossen. ➔ Präsens
+Die Tür wurde abgeschlossen. ➔ Präteritum
+Die Tür ist abgeschlossen worden. ➔ Perfekt
+Die Tür war abgeschlossen worden. ➔ Plusquamperfekt
+
+◼︎ Zustandspassiv
+Die Tür ist abgeschlossen. ➔ Gegenwart
+Die Tür war abgeschlossen. ➔ Vergangenheit
+
+**► Angabe einer Möglichkeit/Nicht-Möglichkeit**
+Die Tür kann abgeschlossen werden. 
+Das Bild kann nicht verkauft werden.
+
+**► Angabe einer Notwendigkeit**
+Die Tür muss jeden Abend abgeschlossen werden.
+
+◼︎ Passiversatzformen
+**► Angabe einer Möglichkeit/Nicht-Möglichkeit**
+**sein + zu** + Infinitiv 
+Die Tür **ist** ab**zu**schließen. (= Die Tür kann abgeschlossen werden.) 
+Das Bild **ist** nicht **zu** verkaufen.
+
+**sich lassen** + Infinitiv 
+Die Tür **lässt sich** abschließen.
+Das Bild **lässt sich** nicht verkaufen.
+Verbstamm + **-bar** Die Tür ist abschließ**bar**. 
+Verbstamm + **-lich** Das Bild ist unverkäufl**ich**.
+
+**► Angabe einer Notwendigkeit**
+**sein + zu** + Infinitiv 
+Die Tür **ist** jeden Abend abzuschließen. (= Die Tür muss jeden Abend abgeschlossen werden.)
+
+
+[.mark:bitmark--&image]
+[%C1]
+[!Heben Sie im Text alle Passiv- und Passiversatzformen hervor.]
+[&image:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/trabant_p50_front.jpg]
+**Der Trabant**
+
+Die Geschichte beginnt durchaus innovativ: 1954 beschloss die DDR-Staatsführung, einen Kleinwagen zu entwickeln. Er sollte ['bezahlbar sein] und gleichzeitig so robust, dass er eine Weile halten würde. Doch bald stellte sich heraus, dass das Projekt ['nicht so einfach umzusetzen war], denn Bleche für die Herstellung einer Auto-Karosserie waren in Ostdeutschland ein seltenes Gut.
+
+Nach einigen Überlegungen ['wurde] ein Prototyp auf die Räder ['gestellt], der zeigte, wie sich das Problem ['umgehen ließ]: mit Duroplast, einer Kombination aus Baumwollfasern und Kunststoff. Zur Herstellung des Gehäuses ['wurden] verschiedene Lagen Baumwollfasern mit Kunststoffteilchen ['übereinandergelegt] und mit Hitze in eine Form ['gepresst]. 1957 ['konnte] der ursprünglich __P50__ benannte Wagen mit einer Leistung von 18 PS in Serie ['hergestellt werden]. Bei einem Preisausschreiben gewann der Name __Trabant__, was so viel bedeutet wie Begleiter. Der sowjetische Sputnik stand Pate für den Namen. 1964 ['wurde] der __Trabant__ nach einer Überarbeitung mit stolzen 23 PS und einer neuen Karosserie ['präsentiert]. Insgesamt ['wurden] 17 Verbesserungen an dem Auto ['vorgenommen]. 1991 endet die Geschichte des treuen __Begleiters__ nach mehr als drei Millionen gebauten Exemplaren. Nach der Wiedervereinigung und der Währungsunion war er nicht mehr gefragt.
+
+
+
+
+
+[.cloze:bitmark--]
+[%C2]
+[!Das ist ganz leicht.
+
+Bilden Sie Sätze im Passiv (a) und mit __sein + zu__ (b) wie im Beispiel.]
+
+◇ Fahrrad – reparieren
+a) [_Das Fahrrad kann ganz leicht repariert werden.][@example]
+b) [_Das Fahrrad ist ganz leicht zu reparieren.][@example]
+
+1. DVD-Rekorder – programmieren 
+a)[_Der DVD-Rekorder kann ganz leicht programmiert werden.]
+b)[_Der DVD-Rekorder ist ganz leicht zu programmieren.]
+
+2. Sprache – erlernen 
+a)[_Die Sprache kann ganz leicht erlernt werden.]
+b)[_Die Sprache ist ganz leicht zu erlernen.]
+
+3. Grammatikregeln – verstehen 
+a)[_Die Grammatikregeln können ganz leicht verstanden werden.]
+b)[_Die Grammatikregeln sind ganz leicht zu verstehen.]
+
+4. Kofferraum – öffnen 
+a)[_Der Kofferraum kann ganz leicht geöffnet werden.]
+b)[_Der Kofferraum ist ganz leicht zu öffnen.]
+
+5. Code – knacken
+a)[_Der Code kann ganz leicht geknackt werden.]
+b)[_Der Code ist ganz leicht zu knacken.]
+||not the best bit||
+
+
+
+
+[.cloze:bitmark--]
+[%C3]
+[!Finden Sie Umschreibungen mit __-bar__ oder __-lich__.]
+◇ Man kann die Druckerpatrone auswechseln.
+Die Druckerpatrone ist [_auswechselbar][@example].
+
+1. Diese Schrift kann jeder lesen.
+Diese Schrift ist gut [_lesbar].
+
+2. Die Gemälde von Picasso sind nicht mehr zu bezahlen.
+Die Gemälde sind nicht mehr [_bezahlbar].
+
+3. Vorsicht! Die Gläser zerbrechen sehr leicht.
+Die Gläser sind sehr leicht [_zerbrechlich].
+
+4. Das Problem lässt sich leicht lösen.
+Das Problem ist leicht [_lösbar].
+
+5. Wir können das in einer Woche machen.
+Das ist in einer Woche [_machbar].
+
+6. Man kann die Anleitung sehr gut verstehen.
+Die Anleitung ist sehr gut [_verständlich].
+
+7. Dieses Einzelstück ist nicht zu verkaufen.
+Dieses Einzelstück ist nicht [_verkäuflich].
+
+8. Ein Patent muss man gewerblich anwenden können.
+Ein Patent muss gewerblich [_anwendbar] sein.
+
+
+
+[.match:bitmark--]
+[%C4]
+[!Hilfe, mein Computer spinnt!
+
+Formulieren Sie Sätze mit sich lassen + Infinitiv.]
+===
+[%◇] Texte – nicht mehr bearbeiten
+==
+[$Die Texte lassen sich nicht mehr bearbeiten.][@example]
+===
+[%1] neues Programm – nicht installieren
+==
+[$Das neue Programm lässt sich nicht installieren.]
+===
+[%2] Maus – nicht mehr bewegen
+==
+[$Die Maus lässt sich nicht mehr bewegen.]
+===
+[%3] Textprogramm – nicht mehr öffnen
+==
+[$Das Textprogramm lässt sich nicht mehr öffnen.]
+===
+[%4] Seitenlayout – nicht mehr verändern
+==
+[$Das Seitenlayout lässt sich nicht mehr verändern.]
+===
+[%5] Tabellen – nicht einfügen
+==
+[$Die Tabellen lassen sich nicht einfügen.]
+===
+
+
+
+
+[.interview]
+[%C5]
+[!Formen Sie die Sätze um. Verwenden Sie dabei eine Passiversatzform.]
+===
+[%1] Die Maschine kann von einer Person bedient werden.[@shortAnswer]
+[$Die Maschine lässt sich von einer Person bedienen (ist zu bedienen).]
+===
+[%2] Das Projekt muss bis Ende des Monats abgeschlossen werden.[@shortAnswer]
+[$Das Projekt ist bis Ende des Monats abzu- schließen.]
+===
+[%3] Die Mikrowelle kann auch als Kühlschrank verwendet werden.[@shortAnswer]
+[$Die Mikrowelle ist auch als Kühlschrank verwendbar (lässt sich verwenden).]
+===
+[%4] Hier müssen noch Verbesserungen vorgenommen werden.[@shortAnswer]
+[$Hier sind noch Verbesserungen vorzunehmen.]
+===
+[%5] Das Material kann ganz einfach verarbeitet werden.[@shortAnswer]
+[$Das Material lässt sich ganz einfach verarbeiten (ist zu verarbeiten).]
+===
+[%6] Mit dem Schiff kann eine Ladung von 3 000 Tonnen befördert werden.[@shortAnswer]
+[$Mit dem Schiff lässt sich eine Ladung von 3 000 Tonnen befördern.]
+===
+[%7] Der Fehler im Softwareprogramm kann nicht gefunden werden.[@shortAnswer]
+[$Der Fehler im Softwareprogramm lässt sich nicht finden (ist nicht zu finden).]
+===
+[%8] Auf den Flughäfen müssen ab jetzt alle Passagiere noch besser kontrolliert werden.[@shortAnswer]
+[$Auf den Flughäfen sind ab jetzt alle Passagiere noch besser zu kontrollieren.]
+===
+
+
+
+[.chapter][▼kapitel7c1]
+[###Komparation der Adjektive __(Wiederholung)__]
+[@grammar:Komparation der Adjektive]
+[.article:bitmark--]
+Grundregel
+||add table||
+
+Vergleichen
+Deine Tasche ist **schöner als** meine Tasche.  Steht das Adjektiv im Komparativ ➔ **als**
+Deine Tasche ist genauso **schön wie** meine Tasche.  Steht das Adjektiv im Positiv ➔ **wie**
+
+Doppelter Komparativ
+**Je** __älter__ der Käse **(ist), desto/umso** __intensiver__ **ist** sein Geschmack.
+
+
+
+
+[.cloze-instruction-grouped]
+[%C6]
+[!Ergänzen Sie die Adjektive im Komparativ.]
+Könntest du das nächste Mal bitte ...
+1. etwas [_deutlicher][!deutlich] schreiben?
+2. [_besser][!gut] zuhören?
+3. etwas [_leiser][!leise] reden?
+4. meine Mutter etwas [_freundlicher][!freundlich] behandeln?
+5. [_pünktlicher][!pünktlich] am Bahnhof sein?
+6. etwas [_schneller][!schnell] die Treppe hochgehen?
+7. etwas [_langsamer][!langsam] fahren?
+8. mit dem Geld etwas [_sparsamer][!sparsam] umgehen?
+
+
+[.cloze]
+[%C7]
+[!Abstufungen mit Partikeln
+
+Beschreiben Sie die Welt vor 40 Jahren. Ergänzen Sie die Substantive und die Adjektive im Komparativ frei.]
+
+Wenn Ihnen nichts Eigenes einfällt, können Sie auch die nachfolgenden Wörter benutzen.
+
+Autos ◇ Essen ◇ Filme ◇ Benzin ◇ Möbel ◇ Städte ◇ Reisen ◇ Fernsehprogramm ◇ Strände ◇ Leben ◇...
+
+gut ◇ billig ◇ teuer ◇ anspruchsvoll ◇ anspruchslos ◇ bequem ◇ unbequem ◇ fettreich ◇ langsam ◇ gefährlich ◇ ungefährlich ◇ schön ◇ ruhig ◇ laut ◇ hässlich ◇ einfach ◇ leer ◇ fröhlich ◇ sauber ◇...
+
+• [_Das Wetter][@example] war früher überhaupt nicht [_besser][@example] als heute.
+[_] war/en früher überhaupt nicht [_]
+[_] war/en früher ein bisschen [_]
+[_] war/en früher etwas [_]
+[_] war/en früher viel [_]
+[_] war/en früher weitaus/weit [_]
+[_] war/en früher bei weitem [_]
+[_] war/en früher erheblich [_]
+[_] war/en früher bebeutend [_]
+[_] war/en früher wesentlich [_]
+
+
+
+
+[.cloze-instruction-grouped]
+[%C8]
+[!Ergänzen Sie die Adjektive im Komparativ.]
+1. Je [_länger][!lang] ich darüber nachdenke, desto [_klarer][!klar] wird mir das Problem.
+2. Je [_höher][!hoch] das Einkommen ist, desto [_mehr][!viel] Steuern muss man bezahlen.
+3. Je [_fleißiger][!fleißig] du trainierst, desto [_besser][!gut] werden deine Wettkampfergebnisse.
+4. Je [_mehr][!viel] er den Arm bewegte, desto [_schlimmer][!schlimm] wurden seine Schmerzen.
+5. Je [_höher][!hoch] deine Erwartungen werden, desto [_weniger][!wenig] Aussicht hast du, dass sie sich erfüllen.
+
+
+
+
+[.cloze-instruction-grouped&image]
+[%C9]
+[&image:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/rotterdam_jpg.jpg]
+||image has to be rotated||
+[!Ergänzen Sie die Adjektive im Superlativ.]
+1.	Der Rotterdamer Hafen ist der [_größte][!groß] Hafen Europas.
+2.	Fahrt über die Landstraße, das ist die [_kürzeste][!kurz] Verbindung!
+3.	Das Livekonzert war mein bisher [_schönstes][!schön] Erlebnis.
+4.	Der 13. Juli war letztes Jahr der [_wärmste][!warm] Tag.
+5.	Der Boxer traf auf den [_schwächsten][!schwach] Gegner seiner Laufbahn.
+6.	Er ist der [_klügste][!klug] Mann, den ich kenne.
+7.	Auf Hawaii regnet es am [_meisten][!viel].
+8.	Das war wirklich die [_dümmste][!dumm] Bemerkung, die ich je gehört habe!
+9.	Mal sehen, wer von uns den [_längsten][!lang] Atem hat.
+10.	Bei einer Versteigerung zählt das [_höchste][!hoch] Gebot.
+
+
+
+
+[.interview]
+[%C10]
+[!Ergänzen Sie die Sätze frei.]
+===
+[%◇] Je mehr Sterne ein Hotel hat, desto teurer ist die Übernachtung.[@shortAnswer]
+===
+[%1] Je weniger Funktionen ein Gerät hat,[@shortAnswer]
+===
+[%2] Je knapper die Erdölvorräte werden,[@shortAnswer]
+===
+[%3] Je größer das Auto ist,[@shortAnswer]
+===
+[%4] Je preiswerter die Ware ist,[@shortAnswer]
+===
+[%5] Je mehr Werbung man macht,[@shortAnswer]
+===
+[%6] Je älter der Käse ist,[@shortAnswer]
+===
+
+[?1. desto besser lässt es sich bedienen. 2. desto teurer wird das Öl. 3. desto mehr Benzin verbraucht man. 4. desto mehr kann man davon verkaufen. 5. desto bekannter wird das Produkt. 7. desto intensiver schmeckt er.]
+
+
+[.chapter]
+[###Partizipien als Adjektive]
+[@grammar:Partizipien als Adjektive]
+[.article:bitmark--]
+||add table||
+➔ Kein Partizip II als Adjektiv haben: sein, haben und Verben wie:
+__arbeiten, antworten, danken, gefallen, nützen, schlafen, sitzen__ und __stehen__.
+
+
+[.match]
+[%C11]
+[!Bilden Sie Adjektive wie im Beispiel. Überlegen Sie, ob Partizip I oder II richtig ist.]
+===
+[%◇]Unser Service ist umfassend. 
+==
+unser umfassender Service[@example]
+===
+[%◇]Der Motor wurde eingebaut.
+==
+der eingebaute Motor[@example]
+===
+[%1]Das Gebäude stürzt ein.
+==
+[!das][$das einstürzende Gebäude]
+===
+[%2]Das Gebäude ist eingestürzt.
+==
+[$das eingestürzte Gebäude]
+===
+[%3]Die Mikrowelle wurde manipuliert.
+==
+[$die manipulierte Mikrowelle]
+===
+[%4]Diese Höchstgeschwindigkeit wurde erlaubt.
+==
+[$die erlaubte Höchstgeschwindigkeit]
+===
+[%5]Die Strahlungswerte wurden untersucht.
+==
+[!die][$die untersuchten Strahlungswerte]
+===
+[%6]Diese Materialien wurden verwendet.
+==
+[!die][$die verwendeten Materialien]
+===
+[%7]Der Verkäufer lächelt.
+==
+[$der lächelnde Verkäufer]
+===
+[%8]Die Fehler wurden gefunden.
+==
+[$die gefundenen Fehler]
+===
+[%9]Das Gerät ist leicht zu bedienen.
+==
+[$das leicht zu bedienende Gerät]
+===
+[%10]Die Tür ist geöffnet.
+==
+[$die geöffnete Tür]
+===
+
+||hints not shown with this bit||
+
+
+
+
+[.chapter][▼kapitel7c2]
+[###Modalangaben]
+[@grammar:Modalangaben]
+
+[.article:bitmark--]
+**Verbalform**
+Bedingungen
+    
+Ich mache ein Passwort sicherer, **indem** ich Groß- und Kleinbuchstaben durcheinander __verwende__.
+Ich kann das Passwort **dadurch** sicherer machen, **dass** ich Groß- und Kleinbuchstaben durcheinander __verwende__.
+➔ Subjunktionen
+
+**Nominalform**
+Bedingungen
+
+**Durch** die abwechselnde Verwendung von Groß- und Kleinbuchstaben kann ich mein Passwort sicherer machen. 
+➔ Präposition mit dem Akkusativ
+
+
+[.interview:bitmark--]
+[%C12]
+[!Wie landet das Wort im Kopf?
+
+Formulieren Sie Sätze mit __indem__ oder __dadurch, dass__ ...]
+===
+[%◇] Man liest oder hört sie mit viel Aufmerksamkeit. Fremde Wörter gelangen ins Kurzzeitgedächtnis.
+[_Fremde Wörter gelangen ins Kurzzeitgedächtnis, __indem__ man sie mit viel Aufmerksamkeit liestoder hört.]
+[_Fremde Wörter gelangen __dadurch__ ins Kurzzeitgedächtnis, __dass__ man sie mit viel Aufmerksamkeit liest oder hört.]
+===
+[%1] Innerhalb von 20 Minuten werden sie wiederholt. Die Wörter werden im Gedächtnis gespeichert.
+[_Die Wörter werden im Gedächtnis gespeichert, indem sie innerhalb von 20 Minuten wiederholt werden.]
+[_Die Wörter werden dadurch im Gedächtnis gespeichert, dass sie innerhalb von 20 Minuten wiederholt werden.]
+===
+[%2] Sie werden in regelmäßigen Abständen angewendet. Die Wörter bleiben im aktiven Langzeitspeicher.
+[_Die Wörter bleiben im aktiven Langzeitspeicher, indem sie in regelmäßigen Abständen angewendet werden.]
+[_Die Wörter bleiben dadurch im aktiven Langzeitspeicher, dass sie in regelmäßigen Abständen angewendet werden.]
+===
+[%3] Man erkennt seinen Lerntyp. So kann man es sich beim Sprachenlernen etwas leichter machen.
+[_Man kann es sich beim Sprachenlernen etwas leichter machen, indem man seinen Lerntyp erkennt.]
+[_Man kann es sich beim Sprachenlernen dadurch etwas leichter machen, dass man seinen Lerntyp erkennt.]
+===
+[%4] Er schreibt sie selbst auf. So prägt sich der visuelle Typ die Wörter am besten ein.
+[_Der visuelle Typ prägt sich die Wörter am besten ein, indem er sie selbst aufschreibt.]
+[_Der visuelle Typ prägt sich die Wörter dadurch am besten ein, dass er sie selbst aufschreibt.]
+===
+[%5] Er analysiert die Sprache und sucht nach Strukturen. So macht der kognitive Typ die besten Lernfortschritte.
+[_Der kognitive Typ macht die besten Lernfortschritte, indem er die Sprache analysiert und nach Strukturen sucht.]
+[_Der kognitive Typ macht dadurch die besten Lernfortschritte, dass er die Sprache analysiert und nach Strukturen sucht.]
+===
+[%6] Er hört die Wörter und spricht sie nach. So lernt der imitative Typ am besten.
+[_Der imitative Typ lernt am besten, indem er die Wörter hört und (sie) nachspricht.]
+[_Der imitative Typ lernt dadurch am besten, dass er die Wörter hört und (sie) nachspricht.]
+===
+[%7] Man lässt sich Anweisungen am Geldautomaten auf Deutsch geben. So erlebt man kleine Sprachabenteuer im Alltag.
+[_Man erlebt kleine Sprachabenteuer im Alltag, indem man sich Anweisungen am Geldautomaten auf Deutsch geben lässt.]
+[_Man erlebt kleine Sprachabenteuer im Alltag dadurch, dass man sich Anweisungen am Geldautomaten auf Deutsch geben lässt.]
+===
+
+
+
+[.chapter]
+[###Rückblick]
+
+[.article:bitmark++]
+[%D1]
+[!Hier finden Sie wichtigen Wortschatz des Kapitels.]
+Geräte und Produkte im Alltag
+
+**Geräte**
+• Wert auf eine einfache Bedienung legen
+• beim Kauf auf Qualität/auf Sonderangebote/auf die Marke achten
+• Das Gerät/Der Apparat ist ausgestattet ausgerüstet mit ...
+• technische Geräte/Apparate benutzen/einschalten/ausschalten/bedienen
+• Der Knopf/Der Schalter/Der Hebel/Die Taste befindet sich an der linken/rechten/oberen/unteren Seite.
+• Das Gerät lässt sich __(auch)__ einsetzen als/kann __(auch)__ verwendet werden als __(Backofen)__/zum __(Aufbacken von Brötchen)__.
+• die Mikrowelle/der Mikrowellenofen
+• der Hersteller
+• Die Mikrowellenleistung lässt sich/Die Leistungsstufen
+lassen sich im laufenden Betrieb verändern.
+• Das Gerät ist mit einer Zeitschaltuhr versehen.. 
+• Die Automatik ist flexibel einstellbar.
+
+**Obsoleszenz**
+• eingebaute Fehler haben
+• Produkte mit Fehlern entwickeln
+• Schwachstellen einbauen
+• nach einer bestimmten Zeit den Geist aufgeben
+• Nachteile in Kauf nehmen
+• den Verkauf ankurbeln
+• den Gewinn sichern
+• jemandem auf die Schliche kommen
+• schärfere Vorschriften fordern/Maßnahmen ergreifen/etwas unter Strafe stellen 
+• Klage einreichen
+
+**Produktnamen und Produkte**
+• Die Nachfrage nach einem unverwechselbaren Namen wächst/steigt/erhöht sich.
+• Es kommt auf den Klang des Namens an.
+• auf den Namen/das Preis-Leistungs-Verhältnis/die technische Ausstattung/die Umweltverträglichkeit/die Benutzerfreundlichkeit achten
+• sich auf dem Markt durchsetzen
+• ein besonderes/modernes/klassisches Design haben 
+• dem höchsten technischen Standard entsprechen/höchste Ansprüche erfüllen
+
+
+Am Computer
+• gefährliche Aktionen ausführen
+• den Rechner durch Schädlinge infizieren
+• sich unbemerkt in Computersysteme einnisten
+• sich einen Schädling herunterladen
+• zu den größten IT-Bedrohungen gehören
+• einen kollektiven Angriff auf ein IT-System starten 
+• sich hinter scheinbar seriösen E-Mails verbergen 
+• auf Anhänge oder Links in E-Mails klicken
+• sich durch Anti-Viren-Programme schützen
+• Daten verschlüsseln
+• stets die aktuelle Version der Plugins verwenden 
+• ein Passwort eingeben/schützen/auswählen/entschlüsseln/knacken
+• mit Passwörtern vorsichtig/mit Smartphones und Tablets verantwortungsvoll umgehen
+• Dritten __(keinen)__ einfachen Zugriff ermöglichen
+
+Alte und neue Lerntechniken
+• Informationen aus dem Hippocampus herunterladen und verarbeiten
+• im Gedächtnis landen
+• mit stärkeren Emotionen verknüpft sein
+• positive Effekte auf das Gehirn haben
+• sich im Gehirn besser festsetzen
+• durch Sport für gute Durchblutung sorgen, die Stimmung heben, die Leistungsfähigkeit steigern
+• für etwas arbeiten müssen, um ein Erfolgserlebnis zu haben
+• anstrengende Übungsstunden in Kauf nehmen
+• beim Sprechen Emotionen versenden und empfangen 
+• Mimik, Stimmlage und Gestik verleihen den Gefühlen Ausdruck.
+• unterschiedliche Tagesrhythmen haben/berücksichtigen
+
+Erfindungen
+• eine Erfindung oder eine Entdeckung machen 
+• sich etwas ausdenken/etwas erfinden/etwas entdecken
+• Etwas ist neu/ist gewerblich anwendbar/bietet keine naheliegende Lösung.
+• Die Zahl der Anmeldungen steigt/sinkt/bleibt gleich.
+• Eine Erfindung kann als Patent eingereicht/angemeldet werden.
+• Die Patentanmeldung wird beim Patentamt eingereicht.
+• Das Patent wird einem Erfinder vom Patentamt zugesprochen.
+
+
+[.survey]
+[%D2]
+[!Evaluation
+
+Überprüfen Sie sich selbst.]
+===
+Ich kann mich über das Thema __Geräte und moderne Technik__ umfassend äußern und eine grafische Darstellung beschreiben.
+[•gut ]
+[•nicht so gut]
+===
+Ich kann Artikel über moderne Technik und Gerätebeschreibungen auch im Detail verstehen.
+[•gut ]
+[•nicht so gut]
+===
+Ich kann ein Gerät beschreiben und ein Produkt präsentieren.
+[•gut ]
+[•nicht so gut]
+===
+Ich kann Texte über Produkte, Obsoleszenz, Produktnamen oder Gefahren am Computer verstehen und den Inhalt wiedergeben.
+[•gut ]
+[•nicht so gut]
+===
+Ich kann meine Meinung zu den Themen __Obsoleszenz__ und __Computergefahren__ formulieren und Tipps geben.
+[•gut ]
+[•nicht so gut]
+===
+Ich kann mich mündlich und schriftlich zum Thema __Umgang mit Smartphones bei Kindern und Jugendlichen__ äußern und Vorschläge unterbreiten.
+[•gut ]
+[•nicht so gut]
+===
+Ich kann einen Text über Lernprozesse verstehen und mich zu eigenen Lernstrategien äußern.
+[•gut ]
+[•nicht so gut]
+===
+Ich kann eine Auswahl treffen und meine Meinung begründen.
+[•gut ]
+[•nicht so gut]
+===
+Ich kann einfache Beschreibungen einer Erfindung und Texte zum Thema __Erfindungen und Erfinder__ verstehen und mich zu diesem Thema äußern. __(fakultativ)__
+[•gut ]
+[•nicht so gut]
+===

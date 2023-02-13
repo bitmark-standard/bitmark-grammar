@@ -1,0 +1,60 @@
+{
+  "name": "bitmark-grammar",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitmark-standard/bitmark-grammar.git"
+  },
+  "keywords": [
+    "bitmark",
+    "grammar",
+    "parser"
+  ],
+  "description": "A bitmark parser",  
+  "scripts": {
+    "build": "export BITMARK_BUNDLE_VERSION=2.6.4 && npm run compile-grammar && npm run build-bundle",
+    "build-nc": "export BITMARK_BUNDLE_VERSION=2.6.4 && npm run build-bundle",
+    "build-light": "export BITMARK_BUNDLE_VERSION=2.6.4 && npm run build-bundle-nc",
+    "set-envvar": "export BITMARK_BUNDLE_VERSION=2.6.4",
+    "compile-grammar": "cd src && make -f makefile-es6.mk es6",
+    "build-bundle": "cd webpack && make -f makefile-es6.mk update",
+    "build-bundle-nc": "cd webpack && make -f makefile-es6.noclosure.mk update"
+  },
+  "dependencies": {
+    "antlr4ts": "^0.5.0-alpha.4",
+    "colors": "^1.4.0",
+    "core-util-is": "^1.0.3",
+    "emoji-regex": "^7.0.3",
+    "fs": "0.0.1-security",
+    "is-object": "^1.0.2",
+    "npm-exists": "^1.0.1",
+    "performance-now": "^2.1.0",
+    "ramda": "^0.28.0",
+    "safe-buffer": "^5.2.1",
+    "utf8-length": "0.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@types/node": "^14.0.13",
+    "antlr4": "^4.8.0",
+    "antlr4-cli": "^4.5.3",
+    "antlr4ts-cli": "^0.5.0-alpha.3",
+    "closure-webpack-plugin": "^2.3.1",
+    "cross-env": "^7.0.2",
+    "es-module-loader": "^2.3.0",
+    "esm": "^3.2.25",
+    "google-closure-compiler": "^20200517.0.0",
+    "mocha": "^7.1.2",
+    "module": "^1.2.5",
+    "node-es-module-loader": "^0.3.8",
+    "typescript": "^3.9.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-closure-compiler": "^2.1.6"
+  },
+  "homepage": "https://github.com/bitmark-standard/bitmark-grammar#readme",
+  "author": "Yoshikazu Noda",
+  "license": "ISC"
+}

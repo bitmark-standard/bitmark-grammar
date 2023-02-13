@@ -1,0 +1,663 @@
+Einstufungsgstest A1 
+ 
+[.article:bitmark++]
+**Deutschtest
+Niveaustufe A1 Gemeinsamer Europäischer Referenzrahmen (GER)
+ 
+Anleitung**
+• Bearbeiten Sie den Test ohne zu unterbrechen.
+• Die Bearbeitungszeit beträgt pro 30 Fragen höchstens 30 Minuten.
+• Lösen Sie die Aufgaben ohne fremde Hilfe.
+• Benützen Sie keine Wörter- oder Grammatikbücher.
+• Wenn Sie einenFrage nicht beantworten können, lassen Sie diese offen. Raten verfälscht
+das Resultat.
+• Sobald die Aufgaben für Sie zu schwierig werden, hören Sie auf und zählen Ihre erreichte
+Punktzahl zusammen. Vergleichen Sie diese dann mit dem Lösungsschlüssel.
+Lösung am Computer
+Wenn Sie den Einstufungstest am Computer lösen, klicken Sie das richtige Feld bei den möglichen Antworten an oder schreiben Sie die richtige Antwort in das Textfeld. Beachten Sie bitte auch die korrekte Gross-/Kleinschreibung. Um den Test problemlos zu lösen, verwenden Sie bitte ausschliesslich den Adobe Acrobat Reader (mindestens Version 6.0). Um die Antwortfelder auszufüllen und die Auswertung zu starten muss das Handwerkzeug
+aktiv sein. Mit dem Zoomwerkzeug   lässt sich der Testinhalt skalieren.
+||TODO: add handwerkzeug and zoomwerkzeug symbol||
+Beispiele
+ 
+[.multiple-choice:bitmark--]
+[!91. Das ist ___ Kind.]
+[+a) ein][@example] [-b) eine] [-c) einen]
+ 
+[.cloze]
+[!92. Hier ][_dürfen][@example]Sie nicht spielen. Es ist verboten.
+ 
+[.article:bitmark--]
+**Auswertung**
+Am Computer gelöste Aufgaben können Sie «per Knopfdruck» (Seite 11) auswerten. Klicken Sie auf den Knopf «Auswertung» und in der Anzeige erscheint die erreichte Punktzahl.
+ 
+**Lösung auf Papier**
+Kreuzen Sie den richtigen Buchstaben auf dem Antwortblatt (Seite 14) an, oder schreiben Sie das passende Wort.
+Beispiele
+ 
+ 
+91. Das ist ____ Kind.
+a) ein b) eine c) einen 
+92. Hier ____ Sie nicht spielen. Es ist verboten.		
+				
+**Antwort**
+91. a b c  ||TODO: x over a) answer||
+92. dürfen 
+						
+**Auswertung**					
+Auf Papier gelöste Aufgaben werten Sie mittels des Lösungsblattes (Seite 12) aus und zählen anschliessend die erreichten Punkte zusammen.
+Anhand der Punkteskala ermitteln Sie selber die für Sie geeignete Stufe. 
+	
+ 
+
+EN Instructions 
+[.article:bitmark--]
+**German test 
+Level GER A1 European Languages Portfolio 
+  
+How to do it** 
+• Complete the test in one sitting (no breaks or interruptions). 
+• Do not take more than 30 minutes for 30 questions. 
+• Do the test without help from others. 
+• Do not use dictionaries, grammar guides, etc. 
+• If you can not answer a question, leave it out. Guessing gives inaccurate results. 
+• As soon as the questions become too difficult, stop doing the test. Then calculate the 
+number of points you have achieved so far, and compare them with the key. 
+  
+**Taking the test on a PC** 
+If you are taking the test on a PC, just click the box you think contains the correct answer, or type your answer into the relevant field. Ensure you use capitals and small case letters appropriately. To ensure smooth completion of the test, you should be using Adobe Acrobat Reader (this should be at least Version 6.0). To complete the boxes and generate your results, the cursor has to change to the “hand” symbol . Using the “zoom” tool enables you to view the level of difficulty of the test questions. 
+Examples 
+||TODO: add hand symbol and zoom symbol|| 
+  
+[.multiple-choice:bitmark--]
+[!91. Das ist ___ Kind.]
+[+a) ein][@example] [-b) eine] [-c) einen]
+  
+[.cloze]
+92. Hier [_dürfen][@example]Sie nicht spielen. Es ist verboten. 
+  
+[.article:bitmark--]
+**Evaluation** 
+To evaluate questions completed on a PC (page 11), click the “evaluate” button and your result in points appears in the display. 
+  
+**Taking the paper test** 
+Put a cross against the correct letter on the answer sheet (page 14), or write in the correct word. 
+ Examples 
+ 
+  
+91. Das ist ____ Kind. 
+a) ein b) eine c) einen  
+  
+92. Hier ____ Sie nicht spielen. Es ist verboten. 
+                         
+Answer 
+91. a b c  ||TODO: x over a) answer|| 
+92. dürfen  
+                         
+**Evaluation** 
+Evaluate your results using the answer sheet (page 12), and then count the number of points you have achieved. 
+Use the scale to see what level best suits you. 
+ 
+ 
+
+FR Instructions 
+[.article:bitmark--]
+**Test d’allemand 
+Niveau A1 du CECR, Cadre européen de référence pour les langues 
+  
+Consignes** 
+• Faites le test d’une seule traite. 
+• La durée du test, prévue pour 30 questions, est de 30 minutes, au maximum. 
+• Résolvez seul/e les exercices proposés. 
+• N’utilisez ni dictionnaire ,ni grammaire. 
+• Si vous ne pouvez pas répondre à l’une des questions, passez à la suivante. 
+• N’essayez pas de deviner la réponse, cela fausserait le résultat. 
+• Dès que les exercices s’avèrent trop difficiles pour vous, arrêtez-vous et comptez les 
+points totalisés, puis comparez score obtenu et solutions. 
+  
+**Test: version électronique** 
+Si vous faites le test en ligne, cliquez, parmi les réponses proposées, sur la case de votre choix ou écrivez votre réponse dans la zone de texte. Tenez soigneusement compte des majuscules et des minuscules. Pour résoudre le test sans problème, utilisez uniquement le système Adobe Acrobat Reader (à partir de la version 6.0). Pour remplir les cases-réponses et commencer l’évaluation, l’outil   devra être actif. Avec le zoom   vous pouvez agrandir le contenu du test. 
+||TODO: add hand symbol and zoom symbol|| 
+  
+Exemples 
+[.multiple-choice:bitmark--]
+[!91. Das ist ___ Kind.]
+[+a) ein][@example] [-b) eine] [-c) einen]
+  
+[.cloze]
+92. Hier [_dürfen][@example]Sie nicht spielen. Es ist verboten. 
+  
+[.article:bitmark--]
+**Évaluation en ligne** 
+En un clic, vous pouvez évaluer vos réponses (cf. p.11). 
+Cliquez sur le bouton «Évaluation » et le nombre de points totalisés vous apparaîtra. 
+  
+  
+**Test: version papier** 
+Cochez la lettre de votre choix sur la feuille-réponse (cf. p.14) ou écrivez le mot, selon vous, adéquat. 
+ 
+ Exemples 
+ 
+91. Das ist ____ Kind. 
+a) ein b) eine c) einen  
+  
+92. Hier ____ Sie nicht spielen. Es ist verboten. 
+                         
+Réponse 
+91. a b c  ||TODO: x over a) answer|| 
+92. dürfen  
+                         
+**Évaluation** 
+Pour les exercices résolus en version papier, évaluez vos réponses à l’aide de la grille des solutions (cf. p.12) et enfin, totalisez les points obtenus. 
+À l’aide du barème proposé, vous pourrez évaluer vous-même votre niveau. 
+ 
+ 
+ 
+ 
+ES Instructions 
+[.article:bitmark--]
+**Test de alemán 
+Nivel de Ger A1 del Marco de Referencia europeo 
+  
+Instrucciones** 
+• Trabaje el test sin interrupción. 
+• El tiempo para responder a 30 preguntas es de 30 minutos. 
+• Responda a las preguntas sin ninguna otra ayuda. 
+• No utilice ni diccionarios ni gramáticas. 
+• Si no puede responder a una de las preguntas, la deje en blanco. Adivinarla 
+alteraría el resultado final. 
+• Cuando las preguntas se le hagan muy difíciles, no continúe y cuente el número 
+de puntos obtenidos hasta ahí. Lo compruebe con la clave de soluciones. 
+  
+**Test con el ordenador** 
+Si usted hace el test de nivel con el ordenador, pulse la casilla correcta en las soluciones o escriba la respuesta correcta en el espacio para responder. Por favor, tenga en cuenta mayúsculas y minúsculas. Para poder hacer el test sin problemas, utilice solamente el programa de Adobe Acrobat Reader ( mínimo versión 6.0) para escribir en las casillas de las respuestas y poder ver el resultado de la evaluación tiene que estar activa la mano . Con el símbolo de la lupa   se puede escalar en el contenido del test. 
+||TODO: add hand symbol and zoom symbol|| 
+  
+Ejemplo 
+[.multiple-choice:bitmark--]
+[!91. Das ist ___ Kind.]
+[+a) ein][@example] [-b) eine] [-c) einen]
+  
+[.cloze]
+92. Hier [_dürfen][@example]Sie nicht spielen. Es ist verboten. 
+  
+[.article:bitmark--]
+**Evaluación** 
+Las soluciones hechas con el ordenador se pueden evaluar haciendo clik (página 11) en la casilla de evaluación “Auswertung”y aparecerá una indicación con el número de puntos alcanzados. 
+  
+  
+**Test por escrito.** 
+Ponga una “x” en la casilla con la respuesta correcta en la hoja de respuestas (página 14) o escriba la palabara correcta en el epacio correspondiente. 
+  
+Ejemplo 
+  
+91. Das ist ____ Kind. 
+a) ein b) eine c) einen  
+  
+92. Hier ____ Sie nicht spielen. Es ist verboten. 
+                         
+Respuesta 
+91. a b c  ||TODO: x over a) answer|| 
+92. dürfen  
+                         
+**Evaluación** 
+En el test por escrito las soluciones se ven en la hoja de soluciones ( página 12) y se cuentan a continuación los puntos conseguidos. 
+Dependiendo de los puntos conseguidos determina usted mismo el nivel más adecuado para usted. 
+				
+				
+			
+		
+				
+				
+			
+		
+ 
+					
+				
+			
+		
+ 
+ 
+ 
+[.multiple-choice:bitmark--]
+[%1]
+[!Mein Name ___ Maria Lopez.]
+[+a) ist]
+[-b) heisst]
+[-c) hat]
+[-d) bin]
+ 
+[.multiple-choice:bitmark--]
+[%2]
+[!Woher ___ du?]
+[-a) arbeitest]
+[-b) wohnst]
+[-c) ist]
+[+d) kommst]
+ 
+[.multiple-choice:bitmark--]
+[%3]
+[!Ich ___ aus Brasilien.]
+[-a) spreche]
+[-b) lebe]
+[+c) komme ]
+[-d) wohne]
+ 
+[.multiple-choice:bitmark--]
+[%4]
+[!Wo ___ Maria?] [+a) arbeitet]
+[-b) arbeiten] [-c) arbeitest] [-d) Arbeit]
+ 
+[.multiple-choice:bitmark--]
+[%5]
+[!Herr Cimildoro ___ in der Schweiz.] [-a) wohnst]
+[-b) Wohnung] [-c) wohnen] [+d) wohnt]
+ 
+[.multiple-choice:bitmark--]
+[%6]
+[!Er ___ nach Italien.] [+a) fährt]
+[-b) fahre] [-c) fahrt] [-d) fahren]
+ 
+[.multiple-choice:bitmark--]
+[%7]
+[!Er ___ Ferien.] [-a) hast]
+[-b) haben] [+c) hat]
+[-d) habt]
+ 
+[.multiple-choice:bitmark--]
+[%8]
+[!Wir ___ in Zürich.] [-a) ist]
+[+b) sind] [-c) sein] [-d) seid]
+ 
+[.multiple-choice:bitmark--&image]
+[%9]
+[!Es ist ___ .] [-a) halb vier]
+[-b) Viertel nach vier] [+c) Viertel vor vier]
+[&image::https://docs.bitbook.education/bit-books/eb-zuerich/einstufungstest-a1/web-resources/images/et-a1-9.png]
+ 
+[.multiple-choice:bitmark--&image]
+[%10]
+[!Es ist ___ .]
+[+a) zehn nach eins]
+[-b) zehn vor eins] [-c) eins und zehn]
+[&image::https://docs.bitbook.education/bit-books/eb-zuerich/einstufungstest-a1/web-resources/images/et-a1-10.png]
+ 
+ 
+ 
+[.multiple-choice:bitmark--]
+[%11]
+[!Fr. 37.–]
+[+a) siebenunddreissig Franken] [-b) dreissigundsieben Franken] [-c) dreiundsiebzig Franken]
+ 
+[.multiple-choice:bitmark--]
+[%12]
+[!Fr. 28.–]
+[-a) zweiundachtzig Franken] [+b) achtundzwanzig Franken] [-c) zwanzigachtzig Franken]
+ 
+[.multiple-choice:bitmark--]
+[%13]
+[!Ich möchte ___ Kaffee.] [-a) einem]
+[-b) eine] [+c) einen]
+ 
+[.multiple-choice:bitmark--]
+[%14]
+[!Der Kaffee ist ___ gut.] [+a) nicht]
+[-b) kein] [-c) nichts]
+ 
+[.multiple-choice:bitmark--]
+[%15]
+[!Was ist richtig?]
+[-a) Ich eine Pizza nehme.] [+b) Ich nehme eine Pizza.] [-c) Ich eine Pizza möchte.]
+ 
+[.multiple-choice:bitmark--]
+[%16]
+[!Was ist richtig?]
+[+a) Ich möchte bezahlen, bitte.] [-b) Ich bezahlen möchte, bitte.] [-c) Ich bitte möchte bezahlen.]
+ 
+[.cloze&image]
+[!Wie heisst das?]
+[&image::https://docs.bitbook.education/bit-books/eb-zuerich/einstufungstest-a1/web-resources/images/et-a1-17.1.png]
+[_die Uhr][@example]
+ 
+[.cloze&image]
+[%17]
+[&image::https://docs.bitbook.education/bit-books/eb-zuerich/einstufungstest-a1/web-resources/images/et-a1-17.png]
+[_das Buch][_die Zeitung]
+ 
+[.cloze&image]
+[%18]
+[&image::https://docs.bitbook.education/bit-books/eb-zuerich/einstufungstest-a1/web-resources/images/et-a1-18.png]
+[_die Brille][_die Sonnenbrille]
+ 
+[.cloze&image]
+[%19]
+[&image::https://docs.bitbook.education/bit-books/eb-zuerich/einstufungstest-a1/web-resources/images/et-a1-19.png]
+[_der Schirm][_der Regenschirm]
+ 
+ 
+[.cloze]
+[%20-22]
+[!ein oder eine, kein oder keine?]
+20.  
+die Handtasche       eine Handtasche 
+das Telefon          [_ein]Telefon 
+21. 
+der Rucksack         kein Rucksack 
+die Banane.          [_]Bananen
+22.
+die Uhr.             keine Uhr
+der Schwan           [_]Schwan
+ 
+
+[.cloze]
+[%23-29]
+[!Ordnen Sie a), b) ... der Zahl 23, 24 ... zu.]
+23. Wie heissen Sie?[_f]
+24. Wo wohnen Sie? [_a]
+25.Woher kommst du?[_e]
+26. Wann bist du geboren?[_d]
+27. Ich bin ledig.[_g]
+28. Was machen Sie?[_b]
+29. Bitte unterschreiben Sie.[_c]
+  
+a) Wohnort 
+b) Beruf 
+c) Unterschrift  
+d) Geburtsdatum  
+e) Herkunftsland  
+f) Name 
+g) Zivilstand 
+ 
+ 
+[.multiple-choice:bitmark--]
+[%30]
+[!Pamela ___ heute viel Arbeit. ]
+[-a) habe]
+[-b) ist ]
+[+c) hat]
+ 
+[.multiple-choice:bitmark--]
+[%31]
+[!Maria ___ gestern Abend zu Hause.] [+a) war]
+[-b) sein]
+[-c) gewesen]
+ 
+[.multiple-choice:bitmark--]
+[%32]
+[!Sie kauft ___] [-a) Pizza aus.]
+[+b) Pizza und Wein ein.] [-c) Pizza essen.]
+ 
+[.multiple-choice:bitmark--]
+[%33]
+[!Sie ___ den Abfall weg.] [-a) trinkt]
+[+b) trägt] [-c) tragen]
+ 
+ 
+[.cloze&image]
+[! Was passt??]
+[%34]
+[_ Abfall wegtragen]
+[&image::https://docs.bitbook.education/bit-books/eb-zuerich/einstufungstest-a1/web-resources/images/et-a1-34.png]
+ 
+[.cloze&image]
+[! Was passt??]
+[%35]
+[_ einkaufen]
+[&image::https://docs.bitbook.education/bit-books/eb-zuerich/einstufungstest-a1/web-resources/images/et-a1-35.png]
+ 
+[.cloze&image]
+[! Was passt??]
+[%36]
+[_ abwaschen]
+[&image::https://docs.bitbook.education/bit-books/eb-zuerich/einstufungstest-a1/web-resources/images/et-a1-36.png]
+ 
+[.multiple-choice:bitmark--]
+[%37]
+[!Sie ___ spät ein.] [+a) schläft]
+[-b) wäscht] [-c) deckt]
+ 
+[.multiple-choice:bitmark--]
+[%38]
+[!Was ist richtig?]
+[+a) Herr Rossi kauft im Coop ein.] [-b) Herr Rossi einkaufe im Coop.] [-c) Herr Rossi im Coop einkauft.]
+ 
+[.cloze-solution-grouped&image]
+[%39-41]
+[!Welches Modalverb passt?]
+39. Hier [_kann] man Bücher lesen. 
+40. Hier [_muss] man leise sprechen. 
+41. Hier [_darf]  man nicht rauchen. 
+[&image::https://docs.bitbook.education/bit-books/eb-zuerich/einstufungstest-a1/web-resources/images/et-a1-39.png]
+ 
+ 
+[.true-false:bitmark--]
+[%42-48]
+[!Lesen Sie den Text 
+Stimmt der Satz?]
+Anna Meier kommt aus Bern. Sie lebt jetzt in Zürich. Ihr Mann arbeitet hier bei einer Bank. Anna ist verheiratet und hat drei kleine Kinder. Anna ist 36 Jahre alt und von Beruf Krankenschwester. Aber sie ist jetzt Hausfrau. Ihr Hobby ist Musik. 
+[-42. Anna Meier wohnt in Bern.]
+[-43. Ihr Vorname ist Meier.]
+[+44. Herr Meier arbeitet in Zürich.]
+[+45. Ihre Kinder sind noch nicht gross.]
+[-46. Anna hat 36 Jahre lang als Krankenschwester gearbeitet.]
+[-47. Ihr Hobby ist Hausfrau.]
+[-48. Sie verdient mit Musik Geld]
+
+ 
+ 
+[.multiple-choice:bitmark--]
+[%49]
+[!Was ist richtig?]
+[-a) Er heute Fisch kaufen möchte.] [+b) Er möchte heute Fisch kaufen.] [-c) Er heute möchte kauft Fisch.]
+ 
+ 
+[.cloze&image]
+[!Was haben diese Leute?]
+[%50]
+[_Bauchschmerzen]
+[&image::https://docs.bitbook.education/bit-books/eb-zuerich/einstufungstest-a1/web-resources/images/et-a1-50.png]
+ 
+[.cloze&image]
+[%51]
+[_Schnupfen]
+[&image::https://docs.bitbook.education/bit-books/eb-zuerich/einstufungstest-a1/web-resources/images/et-a1-51.png]
+ 
+[.cloze&image]
+[%52]
+[_Fieber]
+[&image::https://docs.bitbook.education/bit-books/eb-zuerich/einstufungstest-a1/web-resources/images/et-a1-52.png]
+ 
+ 
+[.cloze&image]
+[%53-55]
+[!Singular/Plural]
+53.eine [_Hand] – zwei Hände 
+54. ein Auge – zwei [_Augen]
+55. ein [_Ohr] – zwei Ohren 
+[&image::https://docs.bitbook.education/bit-books/eb-zuerich/einstufungstest-a1/web-resources/images/et-a1-53.png]
+ 
+[.multiple-choice:bitmark--&image]
+[%56]
+[!Hier ..... man stoppen.] [+a) muss]
+[-b) kann] [-c) darf]
+[&image::https://docs.bitbook.education/bit-books/eb-zuerich/einstufungstest-a1/web-resources/images/et-a1-56.png]
+ 
+[.multiple-choice:bitmark--&image]
+[%57]
+[!Hier ____ man nicht Velo fahren.]
+[-a) muss]
+[-b) will] [+c) darf]
+[&image::https://docs.bitbook.education/bit-books/eb-zuerich/einstufungstest-a1/web-resources/images/et-a1-57.png]
+ 
+[.multiple-choice:bitmark--&image]
+58. Hier ____ man telefonieren. [-a) muss]
+[+b) kann] [-c) darf]
+[&image::https://docs.bitbook.education/bit-books/eb-zuerich/einstufungstest-a1/web-resources/images/et-a1-58.png]
+ 
+ 
+[.cloze]
+[%59-60]
+[!Wie heisst die richtige Form?]
+Beispiel: klein – kleiner – am kleinsten 
+59. [_lang] – länger – am längsten  
+60. gut – [_besser] – am besten 
+ 
+[.multiple-choice:bitmark--]
+[!61. Es ist Sonntag. Frau Aybek möchte Blumen kaufen. Sie geht zum Bahnhof. Frau Aybek findet es gut, ___]
+[+a) dass man hier immer Blumen kaufen kann.]
+[-b) man hier immer Blumen kaufen kann.]
+[-c) dass man kann hier immer Blumen kaufen.]
+ 
+ 
+[.multiple-choice:bitmark--]
+[%62]
+[!Er heisst Antonio._________ Bruder lebt in Paris]
+[-a) Ihre]
+[+b) Sein]
+[-c) Ihr]
+ 
+ 
+[.multiple-choice:bitmark--]
+[%63]
+[!Frau Aybek besucht ___ Schwester.]
+[+a) ihre]
+[-b) seine] [-c) ihr]
+ 
+ 
+[.true-false:bitmark--]
+[%64-69]
+[!Lesen Sie den Text.]
+Carlo Rossi wohnt in Zürich und arbeitet in Regensdorf. Von Zürich nach Regensdorf sind es 15 km. Diesen Arbeitsweg muss Carlo am Morgen und am Abend machen: Er ist ein Pendler. Carlo ist früher mit dem Bus zur Arbeit gefahren. Er hat so 35 Minuten für einen Arbeitsweg gebraucht, täglich also 70 Minuten. «Das war mir zu lange», sagt er. 
+Carlo hat dann ein Auto gemietet. Aber mit dem Auto war Carlo nicht schneller. «Es gibt hier sehr viele Pendler. Am Morgen und am Abend sind zu viele Autos auf der Strasse. Da muss man so viel warten», erzählt er. Das Pendeln mit dem Auto war auch teuer: Carlo hat einen Parkplatz in Zürich gemietet. Die Miete für den Parkplatz hat mehr als ein Bus- Abonnement gekostet! Jetzt hat Carlo ein Motorrad gekauft. Er ist so in nur fünfzehn Minuten am Arbeitsplatz. Mit dem Motorrad ist er also am schnellsten. «Wenn es regnet, nehme ich aber lieber den Bus», sagt Carlo. 
+ Stimmt der Satz? 
+[+64. Ein Pendler ist jemand, der einen langen Arbeitsweg hat.]
+[+65. Carlo fährt jeden Tag nach Regensdorf und zurück.]
+[-66. Er fährt nicht mehr mit dem Bus, weil der Bus zu teuer ist.]
+[+67. Carlo hat sein Auto nicht gekauft, er hat es nur gemietet.]
+[-68. Mit dem Auto ist Carlo am schnellsten am Arbeitsplatz.]
+[+69. Carlo fährt jetzt meistens mit dem Motorrad zur Arbeit.]
+ 
+[.cloze-solution-grouped]
+[%70-77]
+[!Ergänzen Sie die Fragen 70.–77. mit den richtigen Fragepronomen (Wiederholungen möglich). ]
+70. «[_was] hast du da?» «Einen Kugelschreiber» 
+71. [_wo] fährt der Zug ab?» «Auf Gleis zwei.» 
+72. [_wie lange] haben Sie dort Aufenthalt?» «Zwei Stunden.» 
+73. [_wie lange] wollen Sie dort bleiben?» «Nur drei Tage.» 
+74. [_wohin] fahren Sie?» «Nach Bern.» 
+75. [_wann] kommt er in Zürich an?» «Um 12.32 Uhr.» 
+76. [_warum] fahren Sie nach Basel?» «Weil ich dort arbeite.» 
+77. [_wann] kommen Sie zurück?» «In drei Tagen.» 
+
+ 
+[.multiple-choice:bitmark--]
+[%78]
+[!Herr Stone arbeitet ________ Informatiker.] [+a) als]
+[-b) wie]
+[-c) mit]
+[-d) in]
+ 
+ 
+[.multiple-choice:bitmark--]
+[%79]
+[!Er hat ___ schon drei Jahre nicht mehr geschrieben.]
+[-a) unser] [+b) uns] [-c) dich] [-d) deine]
+ 
+[.multiple-choice:bitmark--]
+[%80]
+[!Ist das ___ Kugelschreiber, Nina? Ja, das ist meiner.]
+[+a) dein]
+[-b) mein]
+[-c) du]
+[-d) deiner]
+ 
+[.multiple-choice:bitmark--]
+[%81]
+[!Heute ist dein Geburtstag. Ich gratuliere ___ ganz herzlich!]
+[-a) dich]
+[-b) damit]
+[+c) dir] [-d) das]
+ 
+[.multiple-choice:bitmark--]
+[%82]
+[!Sergio hat Geburtstag, was schenken wir ___?]
+[+a) ihm]
+[-b) ihn]
+[-c) er] [-d) ihr]
+ 
+ 
+[.multiple-choice:bitmark--]
+[%83]
+[!Ich bin hier ____ Schule gegangen.] [-a) in]
+[+b) zur] [-c) nach] [-d) von]
+ 
+ 
+[.multiple-choice:bitmark--]
+[%84]
+[!Kann ich bitte ___ dem Chef sprechen?] [-a) über]
+[-b) für]
+[-c) an]
+[+d) mit]
+ 
+ 
+[.multiple-choice:bitmark--]
+[%85]
+[!Hilf ___ doch mal bitte mit dem Koffer, er ist furchtbar schwer.]
+[-a) du]
+[+b) mir]
+[-c) mich] [-d) dir]
+ 
+[.multiple-choice:bitmark--]
+[%86]
+[!Hast du Frau Meier mal gesehen? Ja, ich habe ___ erst gestern getroffen.]
+[-a) ihn]
+[+b) sie]
+[-c) mich] [-d) Ihnen]
+ 
+ 
+[.multiple-choice:bitmark--]
+[%87]
+[!Sind Sie am Samstag ins Theater gegangen? ___, leider hatte ich keine Zeit.]
+[-a) Ja]
+[-b) Doch]
+[-c) Nicht]
+[+d) Nein]
+ 
+ 
+[.multiple-choice:bitmark--]
+[%88]
+[!Hat Ihnen der Film denn nicht gefallen? ___, er hat mir sehr gefallen.]
+[-a) Ja]
+[+b) Doch]
+[-c) Nein] [-d) Nicht]
+ 
+ 
+[.multiple-choice:bitmark--]
+[%89]
+[!Waren Sie schon einmal in Genf? ___, vor etwa zwei Monaten war ich dort.]
+[-a) Nicht]
+[-b) Doch] [-c) Nein] [+d) Ja]
+ 
+ 
+[.multiple-choice:bitmark--]
+[%90]
+Lesen Sie den Brief. 
+Liebe Nachbarinnen und Nachbarn und 
+Morgen habe ich Geburtstag. Das möchte ich gern mit meinen Freunden feiern. Deshalb wird es vielleicht bei uns ein bisschen lauter zugehen als normalerweise. Bitte entschuldigen Sie auch, wenn das Fest bis nach Mitternacht geht. Es kommt bestimmt nicht oft vor. 
+Viele Grüsse 
+Petra Müller 
+[!Welcher Satz stimmt?]
+[-a) Petra hat nicht oft Geburtstag.]
+[-b) Petra plant eine Party und entschuldigt sich bei ihren Gästen.] [-c) Petra feiert Geburtstag und die Nachbarinnen kommen auch.] [+d) Petra feiert ein bisschen länger als normalerweise.]
+  
+||TODO: structure if instructions|| 
+||TODO: evaluation tables at the end||
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+

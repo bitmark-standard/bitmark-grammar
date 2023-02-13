@@ -1,0 +1,1015 @@
+[.essay&article-attachment]
+[%B1]
+[!Die Helden der Deutschen
+Die Zeitschrift DER SPIEGEL beauftragte ein demoskopisches Institut, in einer Umfrage herauszufinden, welcher Deutsche den bedeutendsten Beitrag zur Entwicklung der Menschheit geleistet hat.
+Erstellen Sie zuerst selbst in Gruppen- oder Einzelarbeit eine Rangliste der BESTEN DREI und erklären Sie Ihre Wahl.]
+Hier sind die Kandidaten:
+
+[.article-attachment:bitmark++]
+**Albert Einstein**
+Einstein revolutionierte die Physik. Er entwickelte die Relativitätstheorie und die einheitliche Feldtheorie. Den Nobelpreis bekam er 1921 für seine Deutung des Fotoeffekts.
+Der Mediziner entdeckte 1882 den Erreger der Tuberkulose mit einer neuen Färbemethode unter dem Mikroskop. Der Kampf gegen die Seuche konnte beginnen. 1905 erhielt er dafür den Nobelpreis.
+
+**Max Planck**
+Max Planck leistete mit seiner Quantentheorie einen grundlegenden Beitrag zur Entwicklung der Physik. 1918 erhielt er dafür den Nobelpreis.
+
+**Wilhelm Conrad Röntgen**
+Röntgen entdeckte die X-Strahlen (die später nach ihm als Röntgenstrahlen bezeichnet wurden). 1895 wendete er sie erstmals zur Durchleuchtung der Hand seiner Frau an und setzte so mit der Röntgenfotografie einen Meilenstein in der Entwicklung der Medizin. 1901 wurde er dafür mit dem Nobelpreis ausgezeichnet.
+
+**Johannes Gutenberg**
+Gutenberg erfand im Jahre 1440 den Buchdruck mit beweglichen Lettern. Bis dahin brauchte ein Mönch Jahre, um eine einzige Bibel herzustellen. Gutenberg brachte es im gleichen Zeitraum auf 80 Bibeln.
+
+**Martin Luther**
+Martin Luther übersetzte die Bibel ins Deutsche (1522 das Neue Testament, 1534 die gesamte Bibel) und schuf mit dieser Übersetzung die Grundlage des Hochdeutschen als gemeinsamer Sprache der Deutschen. Außerdem reformierte er mit seinen Reformationsschriften die Kirche.
+
+**Johann Wolfgang v. Goethe**
+Goethe gilt bis heute als das Genie der deutschen Literatur. Höhepunkt seines Schaffens ist sein 1808 veröffentlichtes Theaterstück „Faust I“.
+
+**Robert Koch**
+Der Mediziner entdeckte 1882 den Erreger der Tuberkulose mit einer neuen Färbemethode unter dem Mikroskop. Der Kampf gegen die Seuche konnte beginnen. 1905 erhielt er dafür den Nobelpreis.
+
+**Karl Marx**
+Marx schrieb mit seinem „Kapital“ die klassische Theorie des Geldes und mit dem Pamphlet „Das kommunistische Manifest“ legte er den theoretischen Grundstein für den Kommunismus.
+
+**Helmut Kohl**
+Kohl wurde als Kanzler der deutschen Wiedervereinigung (1990) gefeiert. Allerdings schadeten ungeklärte Geldgeschäfte während seiner Regierungszeit seinem Ansehen.
+
+**Albert Schweitzer**
+1952 wurde der Mediziner mit dem Friedensnobelpreis für sein jahrelanges Wirken in der Urwaldkrankenstation Lambaréné geehrt.
+
+**Ludwig van Beethoven**
+Der schwerhörige Musiker komponierte zu Beginn des 19. Jahrhunderts meisterhafte Sinfonien.
+
+**Otto von Bismarck**
+Bismarck gründete 1871 das Deutsche Reich und führte eine Sozialversicherung für Arbeiter ein.
+
+**Nikolaus Kopernikus** 
+1543 veröffentlichte Kopernikus seine Erkenntnis, dass nicht die Erde im Mittelpunkt der Welt steht und alles um sie kreist, sondern die Sonne. Damit wurde das geozentrische Weltbild durch das heliozentrische abgelöst.
+*An der müßigen Diskussion, ob Kopernikus
+Pole oder Deutscher war, wollen wir uns nicht beteiligen.
+Zu seiner Zeit existierten Nationalstaaten im heutigen Sinne noch nicht.
+[@reference: Die Helden der Deutschen. Der SPIEGEL 52/1999]
+||
+images are separate, should be addapted||
+
+
+
+
+[.essay&image]
+[%B2]
+[!Vergleichen Sie Ihre persönliche Reihenfolge mit der Wahl der deutschen Umfrageteilnehmer.]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/014-2b.jpg]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/otto_von_bismarck.jpg]
+||no graphic||
+
+
+
+[.multiple-response]
+[%B3]
+[!Für welche Persönlichkeiten interessieren sich diese Schüler?
+In einer Abiturklasse sollen die Schüler einen Aufsatz über eine bedeutende Persönlichkeit schreiben. Welche der in B1 vorgestellten Personen wäre wohl für die folgenden Schüler interessant?
+Es gibt manchmal mehrere Lösungen, manchmal keine Lösung. In diesem Fall schreiben Sie „negativ“.]
+
+
+===
+[!Oskar interessiert sich für Physik und will gerne Astrophysiker werden.]
+[+Albert Einstein]
+[-Max Planck]
+[-Wilhelm Conrad Röntgen]
+[-Johannes Gutenberg]
+[-Martin Luther]
+[-Johann Wolfgang v. Goethe]
+[-Robert Koch]
+[-Karl Marx]
+[-Helmut Kohl]
+[-Albert Schweitzer]
+[-Ludwig van Beethoven]
+[-Otto von Bismarck]
+[+Nikolaus Kopernikus]
+[-negativ]
+
+===
+[!Paula möchte später mal Philosophie studieren.]
+[-Albert Einstein]
+[-Max Planck]
+[-Wilhelm Conrad Röntgen]
+[-Johannes Gutenberg]
+[-Martin Luther]
+[-Johann Wolfgang v. Goethe]
+[-Robert Koch]
+[+Karl Marx]
+[-Helmut Kohl]
+[-Albert Schweitzer]
+[-Ludwig van Beethoven]
+[-Otto von Bismarck]
+[-Nikolaus Kopernikus]
+[-negativ]
+
+===
+[!Gudrun will Politikerin werden.]
+[-Albert Einstein]
+[-Max Planck]
+[-Wilhelm Conrad Röntgen]
+[-Johannes Gutenberg]
+[-Martin Luther]
+[-Johann Wolfgang v. Goethe]
+[-Robert Koch]
+[+Karl Marx]
+[+Helmut Kohl]
+[-Albert Schweitzer]
+[-Ludwig van Beethoven]
+[+Otto von Bismarck]
+[-Nikolaus Kopernikus]
+[-negativ]
+
+===
+[!Sebastian hat schon einen Studienplatz für Germanistik in Frankfurt.]
+[-Albert Einstein]
+[-Max Planck]
+[-Wilhelm Conrad Röntgen]
+[-Johannes Gutenberg]
+[-Martin Luther]
+[+Johann Wolfgang v. Goethe]
+[-Robert Koch]
+[-Karl Marx]
+[-Helmut Kohl]
+[-Albert Schweitzer]
+[-Ludwig van Beethoven]
+[-Otto von Bismarck]
+[-Nikolaus Kopernikus]
+[-negativ]
+===
+[!Georg sieht alle Krimiserien im Fernsehen und will Kriminalistik studieren.]
+[-Albert Einstein]
+[-Max Planck]
+[-Wilhelm Conrad Röntgen]
+[-Johannes Gutenberg]
+[-Martin Luther]
+[-Johann Wolfgang v. Goethe]
+[-Robert Koch]
+[-Karl Marx]
+[-Helmut Kohl]
+[-Albert Schweitzer]
+[-Ludwig van Beethoven]
+[-Otto von Bismarck]
+[-Nikolaus Kopernikus]
+[+negativ]
+===
+[!Kirsten bewirbt sich um einen Studienplatz für Medizin.]
+[-Albert Einstein]
+[-Max Planck]
+[+Wilhelm Conrad Röntgen]
+[-Johannes Gutenberg]
+[-Martin Luther]
+[-Johann Wolfgang v. Goethe]
+[+Robert Koch]
+[-Karl Marx]
+[-Helmut Kohl]
+[+Albert Schweitzer]
+[-Ludwig van Beethoven]
+[-Otto von Bismarck]
+[-Nikolaus Kopernikus]
+[-negativ]
+===
+[!Michael will Schauspieler werden.]
+[-Albert Einstein]
+[-Max Planck]
+[-Wilhelm Conrad Röntgen]
+[-Johannes Gutenberg]
+[-Martin Luther]
+[+Johann Wolfgang v. Goethe]
+[-Robert Koch]
+[-Karl Marx]
+[-Helmut Kohl]
+[-Albert Schweitzer]
+[-Ludwig van Beethoven]
+[-Otto von Bismarck]
+[-Nikolaus Kopernikus]
+[-negativ]
+
+===
+[!Caroline singt gern und spielt sehr gut Klavier.]
+[-Albert Einstein]
+[-Max Planck]
+[-Wilhelm Conrad Röntgen]
+[-Johannes Gutenberg]
+[-Martin Luther]
+[-Johann Wolfgang v. Goethe]
+[-Robert Koch]
+[-Karl Marx]
+[-Helmut Kohl]
+[-Albert Schweitzer]
+[+Ludwig van Beethoven]
+[-Otto von Bismarck]
+[-Nikolaus Kopernikus]
+[-negativ]
+
+===
+[!Ottos Vater ist Pfarrer. Otto denkt darüber nach, auch Pfarrer zu werden.]
+[-Albert Einstein]
+[-Max Planck]
+[-Wilhelm Conrad Röntgen]
+[-Johannes Gutenberg]
+[+Martin Luther]
+[-Johann Wolfgang v. Goethe]
+[-Robert Koch]
+[-Karl Marx]
+[-Helmut Kohl]
+[-Albert Schweitzer]
+[-Ludwig van Beethoven]
+[-Otto von Bismarck]
+[-Nikolaus Kopernikus]
+[-negativ]
+
+===
+[!Claudias Interesse gilt der Biologie, besonders dem Leben von Bakterien.]
+[-Albert Einstein]
+[-Max Planck]
+[-Wilhelm Conrad Röntgen]
+[-Johannes Gutenberg]
+[-Martin Luther]
+[-Johann Wolfgang v. Goethe]
+[+Robert Koch]
+[-Karl Marx]
+[-Helmut Kohl]
+[-Albert Schweitzer]
+[-Ludwig van Beethoven]
+[-Otto von Bismarck]
+[-Nikolaus Kopernikus]
+[-negativ]
+===
+||maybe match bit?||
+
+
+[.cloze-instruction-grouped:bitmark--&image]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/cellarius_ptolemaic_system.jpg]
+[!Ergänzen Sie die fehlenden Verben im Präteritum.
+Manche Verben können mehrmals verwendet werden.]||müsste angepasst werden, siehe oben||
+[%B4]
+
+
+**1.Albert Einstein**
+[_revolutionierte][!revolutionieren] die Physik. Er [_entwickelte][!entwickeln] die Relativitätstheorie und die einheitliche Feldtheorie. Den Nobelpreis [_bekam][!bekommen][_erhielt][!erhalten]	er 1921 für seine Deutung des Fotoeffekts. 	
+
+**2.Max Planck**
+[_leistete][!leisten] mit seiner Quantentheorie einen grundlegenden Beitrag zur Entwicklung der Physik. 1918 [_erhielt][!erhalten][_bekam][!bekommen] er dafür den Nobelpreis.
+
+**3.Wilhelm Conrad Röntgen**
+[_entdeckte][_entdecken] die X-Strahlen. 1895 [_wendete] er sie erstmals zur Durchleuchtung der Hand seiner Frau [_an] und [_setzte] so mit der Röntgenfotografie einen Meilenstein in der Entwicklung der Medizin.
+
+**4.Johannes Gutenberg**
+[_erfand] im Jahre 1440 den Buchdruck mit beweglichen Lettern. Bis dahin [_brauchte] ein Mönch drei Jahre, um eine einzige Bibel herzustellen. Gutenberg brachte es im gleichen Zeitraum auf 80 Bibeln.
+
+**5.Martin Luther**
+[_übersetzte] die Bibel ins Deutsche und [_schuf] mit dieser Übersetzung die Grundlage des Hochdeutschen als gemeinsamer Sprache der Deutschen.
+
+**6.Johann Wolfgang v. Goethe**
+gilt bis heute als das Genie der deutschen Literatur. 1808 [_veröffentlichte][_schrieb] er das Theaterstück Faust I.
+
+**7.Robert Koch**
+[_entdeckte][_entdecken] 1882 den Erreger der Tuberkulose mit einer neuen Färbemethode unter dem Mikroskop. Der Kampf gegen die Seuche [_konnte][!können] beginnen. 1905 [_erhielt][!erhalten][_bekam][!bekommen] er dafür den Nobelpreis.
+
+**8.Karl Marx**
+[_schrieb][!schreiben][_veröffentlichte][!veröffentlichen] mit seinem Kapital die klassische Theorie des Geldes und mit dem Pamphlet Das Kommunistische Manifest [_legte][!legen] er den theoretischen Grundstein für den Kommunismus.
+
+**9.Helmut Kohl**
+wurde als Kanzler der deutschen Wiedervereinigung gefeiert. Allerdings [_schadeten][!schaden] ungeklärte Geldgeschäfte während seiner Regierungszeit seinem Ansehen.
+
+**10.Albert Schweitzer**
+[_arbeitete][!arbeiten] jahrelang in der Urwaldkrankenstation Lambaréné. 1952 zeichnete ihn das Nobelpreiskomitee mit dem Friedensnobelpreis aus.
+
+**11.Ludwig van Beethoven**
+[_komponierte][!komponieren] zu Beginn des 19. Jahrhunderts meisterhafte Sinfonien.
+
+**12.Otto von Bismarck**
+[_gründete][!gründen] 1871 das Deutsche Reich und führte eine Sozialversicherung für Arbeiter ein.
+
+**13.Nikolaus Kopernikus**
+[_veröffentlichte][!veröffentlichen] 1543 seine Erkenntnis, dass nicht die Erde im Mittelpunkt der Welt steht und alles um sie kreist, sondern die Sonne. Damit [_wurde] das geozentrische Weltbild durch das heliozentrische [_abgelöst][!ablösen]
+||it shows how often a solution is used and there are the issues with trennbare verben ex nr 13
+add image||
+
+
+[.interview]
+[%B5]
+[!Stellen Sie zwei oder drei Menschen Ihres Heimatlandes vor, die Ihrer Meinung nach etwas Besonderes zur Entwicklung der Menschheit beigetragen haben.]
+===
+===
+===
+===
+
+
+
+[.assignment&article-attachment]
+[%B6]
+[!Lesen Sie den folgenden Text.]
+[.article-attachment:bitmark++]
+[&image::https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/lippe-detmold.jpg]
+**Eine starke Frau: Pauline von Lippe-Detmold**
+
+Fürstin Pauline	zur Lippe, 1769 in Ballenstedt geboren,	gilt
+heute als Musterbeispiel für jene Regenten von kleinen Herrschaftsgebieten, in die das alte deutsche Reich zerfallen war. Pauline führte ihr kleines Fürstentum so mustergültig, dass die Bewohner bis zu den Weltkriegen in gutem bürgerlichen Wohlstand leben konnten. Ihr Vater, Fürst von Anhalt-Bernburg, erzog sie auf gleiche Weise wie ihren Bruder. Sie erhielt Unterricht in Staatswissenschaften und verbrachte den ganzen Tag am Schreibtisch.
+Später heiratete sie den Fürsten Leopold zur Lippe, der aber schon im Jahre 1802 starb. Von da an musste Pauline die Regentschaft für ihren unmündigen Sohn übernehmen. Schon bald bemerkte sie das Elend und die große Armut, die im Lande herrschten. Sie las Bücher über moderne Sozialfürsorge und erkannte, dass die Armen vor allem Arbeit brauchten. Sie errichtete Berufsschulen für Kinder. Dort erlernten sie ein kleines Handwerk und erhielten dafür ein bisschen Geld. Dieser Lohn half den Kindern später beim Aufbau einer eigenen Existenz.
+Pauline ließ Listen von Armen und Kranken anfertigen und wer ganz hilfebedürftig war, wurde kostenlos in Krankenstuben versorgt. Zur Betreuung von Wahnsinnigen und Gemütskranken ließ sie ein Schloss umbauen und Kuhställe einrichten, in denen die Kranken Käse und Butter herstellen konnten. Nach der Gründung des ersten deutschen Kindergartens in Detmold (1802) veranstaltete sie ein Seminar für Frauen, um Erzieherinnen für weitere Kindergärten auszubilden. Pauline legte Vorratslager mit Getreide an, was für Zeiten der Hungersnot dringend notwendig war. Sie sorgte für neue Straßenkarten und verkürzte die Wehrpflicht für junge Männer auf fünf Jahre. In vielen Dingen, z. B. in der Fürsorge für Geisteskranke, war Pauline ihrer Zeit so weit voraus, dass sie auf Unverständnis bei Teilen der Bevölkerung und der eigenen Familie stieß. Sie starb 1820 völlig verarmt in Detmold.
+Bei der hastigen Beerdigung folgten nur wenige ihrem Sarg, nicht einmal ihre eigenen Kinder. Paulines wohltätige Einrichtungen aber gibt es bis heute und im Volk ist sie dafür unvergessen.
+[@reference: Eine starke Frau. Neue Ruhr Zeitung/Neue Rhein Zeitung (NRZ), 18.2.2001 (Marlis Haase)]
+
+
+
+[.cloze-instruction-grouped]
+[%B7]
+[!Ergänzen Sie die fehlenden Verben im Präteritum.]
+1. Pauline [_führte][!führen] ihr kleines Fürstentum mustergültig.
+2. Ihr Vater [_erzog][!erziehen] sie auf gleiche Weise wie ihren Bruder.
+3. Sie [_erhielt][!erhalten]	Unterricht in Staatswissenschaften und [_verbrachte][!verbringen]	den ganzen Tag am Schreibtisch.
+4. Später [_heiratete][!heiraten] sie den Fürsten Leopold zur Lippe, der aber schon im Jahre 1802 [_starb][!sterben].
+5. Von da an [_übernahm][!übernehmen]	Pauline die Regentschaft für ihren unmündigen Sohn.
+6. Sie [_bemerkte][!bemerken]	bald, dass Elend und Armut im Lande [_herrschten][!herrschen].
+7. Sie [_las][!lesen]	Bücher über moderne Sozialfürsorge.
+8. Sie [_erkannte][!erkennen], dass die Armen vor allem Arbeit brauchten.
+9. Sie [_errichtete][!errichten]	Berufsschulen für Kinder.
+10.	Die Kinder [_erlernten][!erlernen] dort ein kleines Handwerk und [_bekamen][!bekommen] dafür ein bisschen Geld.
+11. Sie [_ließ][!lassen] Listen von Armen und Kranken anfertigen.
+12.	Pfleger [_betreuten][!betreuen]	Wahnsinnige und Gemütskranke in einem Schloss.
+13.	In Kuhställen [_konnten][!können]	Kranke Käse und Butter herstellen.
+14.	Sie [_gründete][!gründen]	den ersten deutschen Kindergarten.
+15.	Sie [_veranstaltete][!veranstalten]	ein Seminar für Frauen.
+16.	Sie [_legte an][!anlegen]	Vorratslager für Getreide.
+17.	Sie [_verkürzte][!verkürzen] die Wehrpflicht auf fünf Jahre.
+18.	Bei der Beerdigung [_folgten][!folgen] nur wenige ihrem Sarg.
+
+
+
+
+[.interview]
+[%B8]
+[!Beantworten Sie die folgenden Fragen.]
+===
+[%1.] Welche soziale Tat von Fürstin Pauline halten Sie für die wichtigste?
+===
+
+[%2.] Wie beurteilen Sie die Reaktion der Familie auf Paulines Wirken?
+===
+
+[%3.] Welche Rolle sollten Ihrer Meinung nach Monarchen oder Landesfürsten in der heutigen Zeit spielen?
+===
+
+
+
+[.chapter][▼kapitel1c]
+[##Teil C]
+
+[.chapter]
+[###Modalverben]
+
+
+[.match-solution-grouped]
+[%C1a1]
+[!Ordnen Sie den Modalverben die passende Umschreibung zu.]
+===
+[%1.] mögen
+==
+jemand findet etwas gut[@example]
+===
+[%2.] müssen
+==
+etwas ist notwendig; es ist eine Pflicht
+===
+[%3.] sollen
+==
+eine andere Person wünscht etwas von jemandem
+===
+[%4.] wollen
+==
+jemand hat die Absicht
+===
+[%5.] können
+==
+es besteht die Möglichkeit/Gelegenheit, etwas zu tun; jemand ist in der Lage, etwas zu tun
+===
+[%6.] dürfen
+==
+etwas ist erlaubt
+===
+
+
+[.interview]
+[%C1a2]
+[!Bilden Sie jeweils einen Beispielsatz mit folgenden Modalverben.] 
+===
+[%1.] mögen[@shortAnswer]
+[@example:Ich mag Jazz-Musik.]
+===
+[%2.] müssen[@shortAnswer]
+===
+[%3.] sollen[@shortAnswer]
+===
+[%4.] wollen[@shortAnswer]
+===
+[%5.] können[@shortAnswer]
+===
+[%6.] dürfen[@shortAnswer]
+===
+
+
+
+
+[.match-solution-grouped]
+[%C1b1]
+[!Ordnen Sie den Modalverben die passende Umschreibung zu.]
+===
+[%1.] nicht können
+==
+jemand ist nicht in der Lage, etwas zu tun; man hat keine Gelegenheit
+===
+[%2.] nicht dürfen
+==
+es ist verboten; es ist nicht erwünscht
+===
+[%3.] nicht brauchen/müssen
+==
+es ist nicht notwendig
+===
+[%4.] nicht wollen
+==
+jemand hat nicht den Wunsch
+===
+[%5.] nicht mögen
+==
+jemand kann etwas/jemanden nicht leiden
+===
+[%6.] nicht sollen
+==
+eine andere Person hat etwas dagegen; es ist verboten (Du sollst nicht stehlen!)
+===
+
+
+
+
+[.interview]
+[%C1b2]
+[!Bilden Sie dann jeweils einen Beispielsatz mit dem Modalverb.]
+===
+[%1.] nicht können[@shortAnswer]
+===
+[%2.] nicht dürfen[@shortAnswer]
+===
+[%3.] nicht brauchen/müssen[@shortAnswer]
+===
+[%4.] nicht wollen[@shortAnswer]
+===
+[%5.] nicht mögen[@shortAnswer]
+===
+[%6.] nicht sollen[@shortAnswer]
+===
+
+
+[.cloze:bitmark--]
+[%C2]
+[!Ergänzen Sie die Modalverben in der richtigen Form im Präsens und im Präteritum.]
+
+**1. können** 
+ich [_kann][@example] [_konnte][@example] 
+er [_kann] [_konnte] 
+wir [_können] [_konnten]
+
+**2. müssen** 
+du [_musst] [_musstest] 
+er [_muss] [_musste] 
+ihr [_müsst] [_musstet]
+
+**3. wollen** 
+ich [_will] [_wollte] 
+du [_willst] [_wolltest]
+Sie [_wollen] [_wollten]
+
+**4. sollen**
+er [_soll] [_sollte]
+wir [_sollen] [_sollten,]
+ihr [_sollt] [_solltet]
+
+**5. mögen** 
+ich [_mag] [_mochte]
+es [_mag] [_mochte]
+Sie [_mögen] [_mochten]
+
+**6. dürfen**
+du [_darfst] [_durftest]
+er [_darf] [_durfte]
+wir [_dürfen] [_durften]
+
+
+<<
+**Die Modalverben mögen und möchte(n)**
+**mögen:** __Mögen__ hat die Bedeutung von __gern haben__ und wird oft ohne zweites Verb gebraucht.
+__Ich mag dich. = Ich habe dich gern. Ich mag Jazz. = Mir gefällt Jazz. Ich habe Jazz gern__.
+
+**möchte(n):** __Möchte(n)__ hat die Bedeutung von __gern wollen__. Es gibt keine Vergangenheitsform.
+__Möchten Sie sich das Bild genauer ansehen? Wolltest du nicht gestern ins Kino gehen?__<<
+
+
+
+
+[.cloze-instruction-grouped]
+[%C3]
+[!Auf der Party
+Was passt wohin? Ergänzen Sie die fehlenden Modalverben in der richtigen Form.]
+
+1.Schön, dass Sie gekommen sind! [_Möchten][!möchte(n)] Sie sich allein mit den anderen bekannt machen oder [_darf][!dürfen] ich Sie vorstellen? – Danke, das ist sehr nett gemeint, aber wir [_wollen][!wollen] uns erst einmal ein bisschen umsehen.
+
+2.Schatz, du [_musst][!müssen] unbedingt Gabi Müller kennenlernen. Sie ist so nett. Ich [_wollte][!wollen] euch
+schon lange miteinander bekannt machen, aber immer [_konntest][!können] du nicht.
+
+3. [_Darf][!dürfen] ich vorstellen – Gabi Müller, meine Frau Kerstin. – Freut mich. Ich habe übrigens schon viel von Ihnen gehört. – Ja? Das [_müssen][!müssen] Sie mir einmal erzählen!
+
+
+
+
+[.cloze]
+[%C4]
+[!Ergänzen Sie die fehlenden Modalverben in der richtigen Form. Es gibt manchmal mehrere Lösungen.]
+[_Darf][@example] ich Sie mal kurz stören?
+1. Der Kopierer geht wieder. Du [_kannst] jetzt kopieren.
+2. [_Möchten] Sie noch eine Tasse Tee?
+3. Herr Müller hat sich krankgemeldet. Du [_musst][_sollst] ihn bei der Besprechung vertreten.
+4. Alles ist gut gelaufen. Du [_brauchst] dir keine Sorgen zu machen.
+5. Bei diesem Problem [_kann] Ihnen nur ein Spezialist helfen.
+6. Ist Ihnen heiß? [_Soll] ich das Fenster öffnen?
+7. Du [_musst][_solltest] dich auf die Prüfung gut vorbereiten, sonst fällst du durch.
+8. [_Darf] ich hier eine Zigarette rauchen? – Lieber nicht. Der Chef [_mag] das nicht.
+9. Wenn Sie zu diesem Thema mehr wissen wollen, [_müssen] Sie sich an Dr. Stuber wenden.
+10. Ich habe im Lotto gewonnen und [_will][_möchte] mein Geld anlegen. Was [_können] Sie mir empfehlen?
+11. Tut mir leid. Ich [_kann] heute Abend nicht mitkommen. Ich [_muss] Überstunden machen.
+12. Warum isst du nichts? [_Magst] du keinen Schokoladenkuchen?
+13. Schönen Gruß von Herrn Schulze. Du [_sollst] ihm heute noch das Angebot faxen.
+14. Ich [_muss] täglich nur noch 61/2 Stunden arbeiten.
+15. [_Soll] ich den Brief gleich schreiben oder [_kann] ich das auch morgen erledigen?
+16. Wir [_wollen][_möchten] auf keinen Fall im selben Hotel wie letztes Jahr übernachten.
+17. Mein Französisch ist zu schlecht. Ich [_kann] diesen Brief nicht übersetzen.
+18. Du [_brauchst] jetzt nicht aufzuräumen. Ich mache das nachher.
+19. Was [_mögen] Sie an Ihrer Arbeit besonders?
+20. Die Zeit ist um. Wir [_müssen] jetzt Schluss machen.
+
+
+[.cloze]
+[%C5]
+[!Ergänzen Sie die Modalverben können, wollen, sollen, müssen, mögen, dürfen im Präteritum.]
+1. Ich [_konnte] gestern leider nicht kommen, ich hatte solche Zahnschmerzen.
+2. Sie [_durfte] als Kind nicht alleine in den Park gehen.
+3. Herr Meier [_musste] in den letzten Wochen jeden Tag bis 21 Uhr arbeiten.
+4. Ich bin froh, dass wir einen neuen Chef haben. Den alten [_mochte] ich nicht.
+5. Der Brief liegt ja immer noch hier! Der [_sollte] doch schon gestern zur Post gebracht werden.
+6. Frau Meier war ja schon wieder bei dir. Was [_wollte] sie denn?
+
+
+
+
+[.chapter]
+[###Vergangenheitsformen der Verben]
+[.article:bitmark++]
+
+**Gebrauch der Zeitformen:**
+Das Präteritum verwendet man vor allem für schriftliche Äußerungen.
+In der mündlichen Kommunikation gebrauchen wir in der Regel das Perfekt.
+Die Hilfsverben __haben__ und __sein__ und die Modalverben bilden eine Ausnahme und werden meistens im Präteritum verwendet.
+**Bildung des Perfekts:**
+Alle Verben, die einen Akkusativ verlangen, und alle reflexiven Verben bilden das Perfekt mit __haben__.
+__Wir haben ein Haus gebaut. Ich habe mich geärgert.__
+Verben der Orts- und Zustandsänderung sowie sein und bleiben bilden das Perfekt mit __sein__.
+__Wir sind nach Italien gefahren. Die Blumen sind verblüht.__
+
+||add tables||
+
+[.cloze:bitmark--]
+[%C6]
+[!Setzen Sie die Verben in die angegebenen Zeitformen.]
+
+**Präsens**
+1. arbeiten - ich [_arbeite][@example]
+2. wissen - er [_weiß]
+3. können - du [_kannst]
+4. sitzen - ich [_sitze]
+5. rennen - du [_rennst]
+6. sagen - ich [_sage]
+7. liegen - ich [_liege]
+8. legen - ich [_lege]
+9. mögen - er [_mag]
+10. verlieren - ich [_verliere]
+11. gehen - ich [_gehe]
+12. lesen - ich [_lese]
+
+**Präteritum**
+1. arbeiten - er [_arbeitete]
+2. wissen - wir [_wussten]
+3. können - er [_konnte]
+4. sitzen - du [_saßest]
+5. rennen - wir [_rannten]
+6. sagen - du [_sagtest]
+7. liegen - er [_lag]
+8. legen - du [_legtest]
+9. mögen - wir [_mochten]
+10. verlieren - du [_verlorst]
+11. gehen - du [_gingst]
+12. lesen - er [_las]
+
+**Perfekt**
+1. arbeiten - ihr [_habt gearbeite]
+2. wissen - Sie [_haben gewusst]
+3. können - wir [_haben gekonnt]
+4. sitzen - ihr [_habt gesessen]
+5. rennen - ihr [_seid gerannt]
+6. sagen - ihr [_habt gesagt]
+7. liegen - Sie [_haben gelegen]
+8. legen - wir [_haben gelegt]
+9. mögen - ihr [_habt gemocht]
+10. verlieren - Sie [_haben verloren]
+11. gehen - er [_ist gegangen]
+12. lesen - wir [_haben gelesen]
+
+
+
+[.interview]
+[%C7]
+[!Setzen Sie die folgenden Sätze erst ins Präteritum und dann ins Perfekt.]
+===
+[%1.] Er weiß mal wieder nicht Bescheid.
+[$Er wusste mal wieder nicht Bescheid]
+[$Er hat nicht Bescheid gewusst.]
+===
+[%2.] Sie nennt einen falschen Namen.
+[$Sie nannte einen falschen Namen.]
+[$Sie hat einen falschen Namen genannt.]
+===
+[%3.] Der Student wendet sich mit dem Problem an den Professor.
+[$Der Student wendete sich mit dem Problem an den Professor]
+[$Der Student wandte sich mit dem Problem an den Professor]
+[$Der Student hat sich an den Professor gewendet][Der Student hat sich an den Professor gewandt.]
+===
+[%4.] Anna denkt nicht daran, sich zu entschuldigen.
+[$Anna dachte nicht daran, sich zu entschuldigen]
+[$Anna hat nicht daran gedacht, sich zu entschuldigen.]
+===
+[%5.] Wir senden Ihnen die Waren sofort nach Erhalt des Auftrags.
+[$Wir sendeten Ihnen die Waren sofort nach Erhalt des Auftrags]
+[$Wir sandten Ihnen die Waren sofort nach Erhalt des Auftrags]
+[$Wir haben Ihnen die Waren gesendet.]
+[$Wir haben Ihnen die Waren gesandt.]
+===
+[%6.] Kennst du diese Leute?
+[$Kanntest du diese Leute]
+[$Hast du diese Leute gekannt?]
+===
+[%7.] Der Einbrecher rennt die Straße hinunter.
+[$Der Einbrecher rannte die Straße hinunter]
+[$Der Einbrecher ist die Straße hinuntergerannt.]
+===
+[%8.] Er bringt ihr regelmäßig Blumen mit.
+[$Er brachte ihr regelmäßig Blumen mit]
+[$Er hat ihr regelmäßig Blumen mitgebracht.]
+===
+
+
+
+
+
+[.cloze:bitmark--]
+[%C8]
+[!Bilden Sie das Perfekt der Verben.]
+Den Roman [_habe][@example] ich schon [_gelesen][@example]. __(lesen)__
+1. Ich [_habe] vor zwei Jahren mit dem Rauchen [_aufgehört]. __(aufhören)__
+2. Ich [_habe] meinen Pass zu Hause [_vergessen]. __(vergessen)__
+3. Wo [_seid] ihr euch zum ersten Mal [_begegnet]? __(begegnen)__
+4. Wo [_hast] du deine Uhr [_verloren]? __(verlieren)__
+5. Wir [_sind] früher öfter [_verreist]. __(verreisen)__
+6. Ich [_habe] im Januar [_geheiratet]. __(heiraten)__
+7. Daran [_habe] ich leider nicht [_gedacht]. __(denken)__
+8. Der Dieb [_ist] unerkannt [_verschwunden]. __(verschwinden)__
+9. Das Haus [_ist] bis auf die Grundmauern [_abgebrannt]. __(abbrennen)__
+10. [_Hast] du dich bei ihm [_entschuldigt]? __(entschuldigen)__
+||cloze with [!] doesnt work with trennbare verben||
+
+
+[.cloze-instruction-grouped:bitmark--]
+[%C9]
+[!Ergänzen Sie die fehlenden Verben im Präteritum.]
+__Sophie Scholl__
+Die letzten beiden Jahre vor ihrer Reifeprüfung im März 1940 [_verliefen][!verlaufen] [%1] für Sophie Scholl–äußerlichbetrachtet–ohne größere Konflikte. Sie widmete dem Unterricht gerade so viel Aufmerksamkeit, wie zur Wahrung ihres Leistungsniveaus notwendig war.
+Neben der Schule [_ging][!nachgehen] [%2] die Gymnasiastin weiter ihren Hobbys [_nach][%2], vor allem den künstlerischen: Zeichnen und gelegentlich auch Töpfern. Einer Freundin [_teilte][!mitteilen][%3] sie im November 1938 [_mit] [%3], dass sie beim Aktmalen immer noch Männer zeichnen müsse. Im Sommer [_war][!sein] [%4] das Baden ihre Lieblingsbeschäftigung. Sie [_liebte][!lieben][%5] es aber auch, einfach draußen zu sein. Ihr Verhältnis zur Natur [_änderte][!ändern] [%6] sich nicht, es wurde eher noch inniger. In den Sommerferien [_unternahm][!unternehmen] [%7] sie zusammen mit ihrem Bruder Werner einen Ausflug an die Nordsee und erlebte dabei eine stürmische Fahrt in einem Fischkutter. Ein Jahr später, 1939, [_hielt][!aufhalten] [%8] sie sich für einige Tage im Künstlerdorf Worpswede [_auf] [%8], wo sie manchen Künstlern bei ihrer Arbeit zuschauen [_durfte][!dürfen][%9]. Sie [_lernte][!kennenlernen] [%10] das Werk der Malerin Paula Modersohn [_kennen][%10], für die sie eine große Verehrung empfand. Bei solchen Reisen [_sehnte][!sehnen][%11] sie sich immer schnell nach ihrem Schwabenland zurück. Sie [_plante][!planen] [%12] ihre Ferien rechtzeitig und [_sparte][!sparen] [%13] sich eisern das dafür erforderliche Taschengeld zusammen.
+[@reference: Sophie Scholl. Aus: Hermann Vinke: Das kurze Leben der Sophie Scholl. © 1980 Ravensburger Buchverlag Otto Maier GmbH]
+
+
+[.interview-instruction-grouped]
+[%C10.1]
+[!Suchen Sie für die Verben passende Nomen und bilden Sie kurze Sätze im Präteritum und im Perfekt. ]
+===
+erlernen[!Beruf][@example]
+===
+[%1.] abschließen[!Studium][!Ausbildung]
+===
+[%2.] absolvieren[!Praktikum]
+===
+[%3.] bestehen[!Prüfung]
+===
+[%4.] beherrschen[!Officeprogramme]
+===
+[%5.] anwenden [!Kenntnisse]
+===
+[%6.] studieren[!Physik]
+===
+[%7.] tragen[!Schuluniform]
+===
+[%8.] unterbrechen[!Studium][!Ausbildung]
+===
+||do double answers work with this bit type?||
+
+
+[.interview]
+[%C10.2]
+Präteritum
+===
+[@example:Paul erlernte einen Beruf.][@shortAnswer]
+===
+[%1.][@shortAnswer]
+===
+[%2.][@shortAnswer]
+===
+[%3.][@shortAnswer]
+===
+[%4.][@shortAnswer]
+===
+[%5.][@shortAnswer]
+===
+[%6.][@shortAnswer]
+===
+[%7.][@shortAnswer]
+===
+[%8.][@shortAnswer]
+===
+
+
+Perfekt
+===
+[@example:Paul hat einen Beruf erlernt.][@shortAnswer]
+===
+[%1.][@shortAnswer]
+===
+[%2.][@shortAnswer]
+===
+[%3.][@shortAnswer]
+===
+[%4.][@shortAnswer]
+===
+[%5.][@shortAnswer]
+===
+[%6.][@shortAnswer]
+===
+[%7.][@shortAnswer]
+===
+[%8.][@shortAnswer]
+===
+
+||ex had to be parted in 2 pieces but doesn't make the same sense||
+
+[.chapter]
+[###Die Deklination der Adjektive]
+||add tables||
+
+[.interview:bitmark++]
+[%C11]
+[!Bilden Sie mindestens zehn sinnvolle Kombinationen im Nominativ. Benutzen Sie den unbestimmten und den
+bestimmten Artikel.]
+!!
+Schriftsteller * Chef * Freundin * Mathelehrer * Studentin * Unterrichtfach * Handschrift * Diktats Zeugnis * Prüfung * Aufsatz * Unterricht * Schulkleidung * Liebe * Studium * Gedicht * Ehemann * Gesichtsausdruck * Figur * Vorlesung * Zuckertüte
+!!(yellow)!!
+
+!!
+leserlich * bekannt * arrogant * tolerant * fröhlich * zuverlässig * berühmt * verständnisvoll * schlank * freundlich * gut * fehlerfrei * interessant * fleißigs * faul * schön * schwierig * unglücklich * ironisch * hilfsbereit * streng * offen * attraktiv * unordentlich * pünktlichsgewissenhaftsgutmütigsgroßstraurigs großzügig * intelligent * praktisch * geheimnisvoll
+!!(yellow)!!
+
+===
+ein bekannter, berühmter ... Schriftsteller, [@longAnswer]
+===
+der... [@longAnswer]
+===
+||match-all or interview||
+
+[.cloze]
+[%C12a]
+[!Ergänzen Sie die Endungen, falls erforderlich.
+Bestimmter/unbestimmter Artikel und Adjektiv/Partizip im Nominativ]
+Das ist ...
+ein[_e][@example] richtig[_e][@example] Entscheidung.
+1. ein[_-] unpassend[_er] Moment.
+2. mein[_-] früher[_er] Mathematiklehrer.
+3. d[_er] nett[_e] Mann von gestern.
+4. ein[_e] traurig[_e] Geschichte.
+5. d[_as] jüngst[_e] Kind meiner Schwester. 
+6. unser[_-] neu[_r] Nachbar.
+7. ein[_-] total chaotisch[_er] Mensch.
+8. ein[_-] sehr nett[_er] Kollege.
+9. ein[_-] klein[_es] Zimmer.
+10. d[_as] verschwunden[_e] Bild.
+
+
+[.cloze]
+[%C12b]
+[!Bestimmter/unbestimmter Artikel und Adjektiv im Akkusativ oder Dativ]
+Ich danke dir für d[_ie][@example] schön[_en][@example] Blumen.
+1. Er trug zum Fest sein[_en] best[_en] Anzug.
+2. Mit dies[_em] alt[_en] Auto wollt ihr nach Spanien fahren?
+3.	Ich hielt ihn bisher für ein[_en] zuverlässig[_en] Freund.
+4.	Was hast du da für ein[_-] schön[_es] Armband!
+5.	Borgst du mir dein[_en] warm[_en] Mantel?
+6.	Er hat ein[_-] neu[_es] Haus gekauft.
+7.	Dies[_en] langweilig[_en] Film habe ich schon gesehen.
+8.	Er spricht mit ein[_em] leicht[_en] französisch[_en] Akzent.
+9.	Gestern besichtigten wir ein herrlich[_es] alt[_es] Schloss.
+10.	Nach ein[_er] kurz[_en] Ansprache erhoben die Gäste die Gläser auf d[_as] jung[_e] Paar.
+|| what to do with -/0 answers?||
+
+
+
+[.interview:bitmark--]
+[%C13]
+[!Formulieren Sie Fragen und antworten Sie.]
+===
+Kompliment – gelungen 
+[@example:Was ist für Sie ein gelungenes Kompliment?
+Ein gelungenes Kompliment ist für mich, wenn mich jemand fragt, ob ich abgenommen habe.]
+===
+[%1.] Verhalten – merkwürdig
+===
+[%2.] Ort zum Lesen – ideal
+===
+[%3.] Sprache – schön
+===
+[%4.] Urlaub – erholsam
+===
+[%5.] Sportart – schwierig
+===
+[%6.] Fest – misslungen
+===
+[%7.] Unterricht – gut
+===
+[%8.] Wochenende – toll
+===
+[%9.] Idee – großartig
+===
+[%10.] Ereignis – wichtig
+===
+[%11.] Beruf – anstrengend
+===
+[%12.] Apparat – zeitsparend
+===
+
+
+[.chapter]
+[##Teil D]
+
+[.chapter]
+[###Rückblick]
+
+
+[.article:bitmark++]
+[!Hier finden Sie wichtigen Wortschatz des Kapitels.]
+[%D1]
+**Angaben zur eigenen Person**
+* Ich heiße ...
+* Mein Name ist ...
+* Ich komme aus ...
+* Ich wohne in ...
+* Ich bin von Beruf ...
+* Ich arbeite bei ... als ...
+* Ich bin ledig/Single, verheiratet, geschieden. 
+* Ich habe die __(deutsche)__ Staatsbürgerschaft.
+* Ich bin __(Deutsche(r)). __
+* In meiner Freizeit ...
+
+**Schule und Ausbildung**
+__Die Schulzeit:__
+* eine Schule besuchen/zur Schule gehen
+* auf eine Schule/in die Schule gehen
+* am ersten Schultag ein Einschulungsgeschenk/eine Schultüte/eine Zuckertüte bekommen
+* (naturwissenschaftliche) Fächer haben/wählen/mögen 
+* ein guter/schlechter Schüler, eine gute/schlechte Schülerin, ein Musterschüler/eine Musterschülerin, Klassenbester sein
+* Nachhilfeunterricht geben/bekommen
+* einen Aufsatz/ein Diktat schreiben
+* ein gutes/mittelmäßiges/schlechtes Zeugnis erhalten/bekommen
+* Mein Lieblingsfach ist ...
+* die Schule schwänzen
+* Schulkleidung/eine Schuluniform tragen
+* für eine Prüfung lernen/büffeln (umg.)
+* eine Prüfung machen/bestehen, durch eine Prüfung fallen
+* in die nächste Klasse (nicht) versetzt werden/sitzen bleiben
+* das Abitur/die mittlere Reife machen/ablegen/bestehen
+* die Schulausbildung abschließen
+__Nach der Schule:__
+* einen Beruf wählen/ergreifen/erlernen
+* an einer Fachhochschule/Hochschule/Universität studieren
+* ein Studium beginnen/unterbrechen/weiterführen/abschließen
+* Vorlesungen und Seminare besuchen/Kurse machen/ besuchen/belegen; an einem Kurs teilnehmen
+* eine Semesterarbeit/Diplomarbeit/Masterarbeit/ Doktorarbeit schreiben
+
+**Lebensläufe/Arbeitserfahrungen**
+* sich um/für eine Stelle bewerben
+* ein Studium an einer Universität/eine Lehre erfolgreich abschließen
+* Erfahrungen in verschiedenen Bereichen sammeln 
+* über profunde Fachkenntnisse verfügen
+* fließend Englisch sprechen und schreiben
+* als Marketing-Managerin bei einer Firma arbeiten 
+* verantwortlich für die Durchführung von Projekten sein
+* Kunden und Lieferanten in allen Fragen zur Verfügung stehen
+* an der Ausarbeitung von Online-Werbekampagnen beteiligt sein
+* sich mit dem Thema Werbung beschäftigen 
+* Werbematerialien eigenständig erstellen
+* Daten analysieren
+* Veranstaltungen organisieren
+* Kunden betreuen und beraten
+* Websites aktualisieren und pflegen 
+* Konzepte entwickeln
+* Arbeitsprozesse optimieren
+* Präsentationen erarbeiten
+* Produkte vermarkten
+* Kosten kalkulieren
+* Projekte/eine Abteilung leiten
+
+**Zwischenmenschliche Beziehungen**
+* sich in jemanden verlieben
+* jemanden heiraten/eine Ehe schließen
+* an die Liebe fürs Leben glauben
+* jemanden in Partnerbörsen/am Arbeitsplatz kennenlernen
+* einen Partner suchen und finden
+* in einer Beziehung leben
+* (erst später) eine feste Partnerschaft eingehen 
+* mit jemandem die gleichen Interessen teilen
+* jemanden mit gleichem sozialen und kulturellen Hintergrund wählen
+* nach Gemeinsamkeiten suchen
+* sich den richtigen Partner angeln
+* von Onlineportalen abraten
+* die Gewohnheiten bei der Partnersuche (nicht) verändern
+* an Bedeutung gewinnen 
+* Gerüchte vermehren sich.
+* ein Verhältnis mit jemandem/eine Geliebte/einen Geliebten haben
+* etwas nicht mehr ertragen können
+* einen Scheidungsanwalt engagieren
+* Geld/das Sorgerecht für die Kinder fordern 
+* einen Ehevertrag unterschreiben
+* auf finanzielle Ansprüche verzichten
+* einen Fehler wiedergutmachen
+* eine romantische Versöhnung feiern 
+* freiwillig/unfreiwillig allein leben
+* einen Singlehaushalt führen
+* ein echter Junggeselle sein
+* einen Trend zum Singledasein verzeichnen
+* Die Anzahl der Trennungen steigt.
+* im europäischen Vergleich zu den Schlusslichtern zählen
+
+**Taten berühmter Persönlichkeiten**
+* einen Beitrag (zur Entwicklung der Wissenschaft) leisten 
+* eine neue Theorie entwickeln
+* den Nobelpreis erhalten/jemanden mit dem Nobelpreis ehren
+* die Grundlage für etwas schaffen
+* (die Bibel) ins (Deutsche) übersetzen
+* als ein Genie gelten
+* den theoretischen Grundstein für (den Kommunismus) legen
+* etwas entdecken/erfinden
+* (einen Staat) gründen
+* (eine Versicherung für Arbeiter) einführen
+* (Berufsschulen) errichten
+* jemanden ausbilden
+* für jemanden sorgen
+* auf das Unverständnis der Bevölkerung stoßen
+
+
+
+[.self-assessment]
+[%D2]
+===
+Ich kann Auskunft über mich selbst geben und andere Leute nach persönlichen Angaben befragen.
+[•gut ]
+[•nicht so gut]
+===
+Ich kann kurz über meine Schulzeit, meine Ausbildung und das deutsche Schulsystem berichten.
+[•gut ]
+[•nicht so gut]
+===
+Ich kann einen tabellarischen Lebenslauf schreiben und über Ausbildungsabschlüsse und Arbeitserfahrungen Auskunft geben.
+[•gut ]
+[•nicht so gut]
+===
+Ich kann Texte über Partnersuche und Singlehaushalte verstehen und die wichtigsten Aussagen wiedergeben.
+[•gut ]
+[•nicht so gut]
+===
+Ich kann eine Infografik zum Thema Hochzeit in Deutschland beschreiben und über Hochzeitsrituale mündlich und schriftlich berichten.
+[•gut ]
+[•nicht so gut]
+===
+Ich kann über das Thema Privatleben von Prominenten diskutieren.
+[•gut ]
+[•nicht so gut]
+===
+Ich kann ausführlichere Biografien und Berichte über berühmte Persönlichkeiten verstehen. (fakultativ)
+[•gut ]
+[•nicht so gut]
+===

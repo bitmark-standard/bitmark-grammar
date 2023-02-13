@@ -1,0 +1,2396 @@
+
+
+Erkundungen
+Deutsch als Fremdsprache
+Integriertes Kurs- und Arbeitsbuch
+Sprachniveau C1
+[=Kapitel 1: Reden wir mal übers Wetter]
+...
+[=Kapitel 2: Glück und andere Gefühle]
+...
+[=Kapitel 3: Erfolge und Niederlagen]
+
+
+[==Teil A]
+[===Erfolg im Sport]
+[====A1 Sportarten]
+
+
+[.article:bitmark--&image]
+[&image: :https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_c1/web-resources/images/fussball-pfad.png]
+[=====a)]
+
+
+
+[.essay&image]
+[%A1a] 
+[&image: :https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_c1/web-resources/images/a1a.png]
+[!Beschreiben Sie die Grafik. Was haben Sie erwartet, was hat Sie überrascht?]
+[=====b)]
+
+
+[.essay&image]
+[%A1b]
+[&image: :https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_c1/web-resources/images/a1a.png]
+[!Vergleichen Sie die Angaben mit Ihrem Heimatland und berichten Sie, welche Sportarten dort am beliebtesten sind.]
+[=====c)]
+
+
+[.essay]
+[%A1c]
+[!Welche Sportarten mögen Sie besonders, welche nicht?]
+[=====d)]
+
+
+[.essay]
+[%A1d]
+[!Sind Sie ein Fußballfan? Wenn ja, beschreiben Sie Ihre Aktivitäten. Wenn nein, warum nicht?]
+[=====e)]
+
+
+[.cloze-instruction-grouped:bitmark--]
+[%A1e]
+[!Ergänzen Sie in dem folgenden Text die Verben in der richtigen Form. Arbeiten Sie zu zweit.]
+**König Fußball**
+
+Der Fußball [_erfreut][@example][!erfreuen] sich nicht nur in Deutschland besonderer Beliebtheit, er [_steht][!stehen] auch in vielen anderen Ländern in der Rangliste der beliebtesten Sportarten ganz oben. Doch was [_macht][!machen] den Fußball eigentlich so beliebt? Erklärungen dafür [_gibt][!geben] es viele. Fußball ist ein Spiel für alle, das überall [_gespielt][!spielen]werden kann, in jedem Land. Man [_braucht][!brauchen] zum Spielen keine übermäßige Intelligenz und auch kein Geld. Es [_reichen][!reichen] eine freie Fläche und ein Ball, ersatzweise eine Dose. Ein weiterer Grund für die herausragende Stellung des Fußballs ist das Gemeinschaftsgefühl. Fußball kann man nicht alleine spielen und nicht alleine sehen. Viele Fans[_identifizieren][!identifizieren] sich mit einem Fußballverein und ihrer Nationalmannschaft. Emotionen wie Freude, Ärger und Trauer werden [_geteilt][!teilen]. Bei großen Turnieren ist der Fußball in der Lage, sowohl die nationale als auch die internationale Solidarität zu [_fördern][!fördern], denn kaum ist die eigene Mannschaft aus dem Rennen, [_drückt][!drücken] man einer anderen Mannschaft, vielleicht aus einem benachbarten Land, die Daumen. Der Wettkampf auf dem Rasen [_bringt][!hervorbringen] außerdem Idole [_hervor][!hervorbringen], denen junge Fußballspieler und Fußballspielerinnen [_nacheifern][!nacheifern] wollen. Berühmte Fußballer [_gelten][!gelten] heute als Vorbilder und Nationalhelden.
+[====A2 Sportliche und andere Eigenschaften]
+
+
+[.article:bitmark++&image]
+[&image: :https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_c1/web-resources/images/briefmarke.jpg]
+
+[=====a)]
+
+
+[.match:bitmark--]
+[%A2a]
+[!Wie heißen die passenden Nomen?]
+===
+[#Adjektiv]
+==
+[#Nomen]
+===
+talentiert
+==
+das Talent[@example]
+===
+ausdauernd 
+==
+die Ausdauer
+===
+fleißig
+==
+der Fleiß
+===
+kämpferisch
+==
+der Kampf
+===
+diszipliniert
+==
+die Disziplin
+===
+ehrgeizig
+==
+der Ehrgeiz
+===
+feige
+==
+die Feigheit
+===
+nachgiebig
+==
+die Nachgiebigkeit
+===
+großzügig
+==
+die Großzügigkeit
+===
+fair
+==
+die Fairness
+===
+selbstsüchtig
+==
+die Selbstsucht
+===
+freundlich
+==
+die Freundlichkeit
+===
+wortgewandt
+==
+die Wortgewandtheit
+===
+intelligent
+==
+die Intelligenz
+===
+wagemutig
+==
+der Wagemut
+===
+leichtsinnig
+==
+der Leichtsinn
+===
+zielstrebig
+==
+die Zielstrebigkeit
+===
+eitel
+==
+die Eitelkeit
+===
+ehrlich
+==
+die Ehrlichkeit
+===
+hinterhältig
+==
+die Hinterhältigkeit
+====
+[=====b)]
+
+
+[.essay]
+[%A2b-1]
+||TBD: Übung auf zwei Bits aufgeteilt / Nummerierung "-1"||
+[!Welche Eigenschaften sollte Ihrer Meinung nach ein Sportler unbedingt besitzen?]
+
+
+[.essay]
+[%A2b-2]
+[!Welche Eigenschaften sind für Sie selbst wichtig?]
+[====A3 Interview: Sport und Sportler]
+
+
+[.interview]
+[%A3]
+[!Fragen Sie zwei Gesprächspartnerinnen / Gesprächspartner und berichten Sie.]
+===
+Treiben Sie selbst Sport?
+===
+Welche sportlichen Wettkämpfe/Sportereignisse sehen Sie sich live an, welche im Fernsehen?
+===
+Wer sind die bekanntesten Sportler in Ihrem Heimatland?
+===
+Welche Sportlerin/Welcher Sportler gilt in Ihrem Land als Vorbild?
+===
+Wie und von wem werden Sportler in Ihrem Heimatland gefördert?
+===
+In welcher Sportart verdienen Sportler in Ihrem Heimatland das meiste Geld?
+===
+||TBD: Aufteilung auf zwei Bits (+Anpassung Instruktion)?||
+[====A4 Arme Spitzensportler]
+
+
+[.interview:bitmark--&audio]
+[%A4]
+[!Sie hören jetzt einen Text zum Thema __Einkommen von Spitzensportlern__. Hören Sie den Text zweimal und ergänzen Sie die Informationen zu den angegebenen Punkten.]
+[&audio: :https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_c1/web-resources/audio/05_erkundungen_c1.mp3]
+===
+1. zwei Leben der Sportler
+===
+2. durchschnittliches monatliches Bruttoeinkommen von Spitzensportlern
+===
+3. Zeit für Berufstätigkeit
+===
+4. zweitwichtigste Einnahmequelle
+===
+5. dritte Einnahmequelle
+===
+6. Höhe des Einkommens ist abhängig von
+===
+7. 1,44 Millionen US-Dollar Preisgeld
+===
+8. Olympiasieger verdienen
+===
+[====A5 Festigen Sie den Wortschatz des Hörtextes.]
+[=====a)]
+
+
+[.match-solution-grouped]
+[%A5a]
+[!Was passt? Ordnen Sie das richtige Verb zu.]
+===
+1. jemanden um ein Autogramm
+==
+c) anflehen
+===
+2. ein Leben im Rampenlicht
+==
+e) führen
+===
+3. den Lebensunterhalt
+==
+b) verdienen
+===
+4. sich 32 Stunden in der Woche dem Sport
+==
+a) widmen
+===
+5. mit Preisgeldern einen Teil des Einkommens
+==
+f) bestreiten
+===
+6. ein Olympiasieg kann sich
+==
+d) auszahlen
+===
+||TBD: Löschen der Nummerierung (a), (b), (c) etc.? Die Nummerierung macht wohl keinen Sinn, denn die Antworten im Pulldown werden gemischt||
+[=====b)]
+
+
+[.cloze-instruction-grouped]
+[%A5b]
+[!Ergänzen Sie in dem Text die fehlenden Nomen in der richtigen Form. Arbeiten Sie zu zweit.]
+Viele Spitzensportler müssen für ihren [_Lebensunterhalt][!Lebensunterhalt][@example] hart arbeiten. In den Monaten zwischen den [_Wettkämpfen][!Wettkämpfe] sieht ihr Leben oft wenig glamourös aus. Im Schnitt kommen Spitzensportler auf ein [_Bruttoeinkommen][!Bruttoeinkommen] von 1 919 Euro im Monat. Nach [_Abzug][!Abzug] von Steuern und Ausgaben für ihren Sport bleiben ihnen durchschnittlich 626 Euro zum [_Leben][!Leben].
+40 Prozent ihrer [_Einnahmen][!Einnahmen] verdienen die Athleten mit einer beruflichen Tätigkeit oder einem [_Nebenjob][!Nebenjob]. [_Unterstützung][!Unterstützung] von Eltern, Verwandten oder Bekannten gaben die Sportler als zweitwichtigste Quelle an. Sponsoren- und [_Werbeverträge][!Werbeverträge] folgen auf Platz drei. Mit Preis- und [_Startgeldern][!Startgelder] können die Sportler nur knapp zehn Prozent ihres Einkommens bestreiten.
+Wie viel am Monatsende auf dem [_Konto][!Konto] landet, hängt stark von der Sportart ab. Segler kommen auf ein monatliches Bruttoeinkommen von 4 561 Euro, Bogenschützen nur auf 447 Euro. Auch die Höhe der Preisgelder schwankt erheblich. Ein [_Sieg][!Sieg] beim US Masters im Golf bringt 1,44 Millionen US-Dollar, dem
+[_Gewinner][!Gewinner] der Vierschanzentournee im Skispringen bleiben rund 18 300 Euro. [_Erfolge][!Erfolg] bei Wettbewerben zahlt sich aber unabhängig von der Sportart aus: [_Olympiasieger][!Olympiasieger]verdienen durchschnittlich im Monat 5 000 Euro brutto mehr als [_Athleten][!Athleten], die bislang „nur“ den Titel Deutscher Meister tragen.
+||TBD: "Arbeiten Sie zu zweit."||
+[====A6 Berichten Sie über Ihr Heimatland.]
+
+
+[.essay]
+[%A6.1]
+[!Beschreiben Sie über Ihr Heimatland: Was erwartet die Öffentlichkeit von Sportlern, die zu den Olympischen Spielen fahren?]
+||TBD: In der Instruktion wurde "Berichten Sie über Ihr Heimatland:" ergänzt||
+
+
+[.essay]
+[%A6.2]
+[!Berichten Sie über Ihr Heimatland: Wurde schon einmal ein Dopingfall bekannt? Wenn ja, wie haben Sie davon erfahren und welche Konsequenzen hatte der Fall/hatten die Fälle?]
+||TBD: In der Instruktion wurde "Berichten Sie über Ihr Heimatland:" ergänzt||
+[====A7 Lesen Sie den folgenden Text.]
+
+
+[.assignment&article:bitmark++]
+[%A7]
+[!Lesen Sie den folgenden Text.]
+&&&
+**Erfolg um jeden Preis**
+
+Immer, wenn ein Dopingfall durch die Medien geht, melden sich auch die Moralisten zu Wort. Sie beschwören dann wieder einmal den reinen olympischen Gedanken der Antike, bei dem es nur um die Teilnahme an sportlichen Wettkämpfen gegangen sei, nicht ums Gewinnen. Dabeisein ist alles. Jetzt haben neuere Untersuchungen herausgefunden, dass schon im antiken Griechenland zum Zweck der persönlichen Bereicherung und Anerkennung gelogen und betrogen wurde. So ist überliefert, dass der Boxer Eupolos im Jahr 388 v. Chr. seine Gegner mit hohen Geldsummen bestach.
+Der römische Kaiser Nero sicherte sich die Gunst der griechischen Schiedsrichter mit Millionen ['Sesterzen][?Sesterzen = Zahlungsmittel im alten Rom]. Er stürzte zwar beim Wagenrennen, trotzdem erklärte man ihn zum Olympiasieger. Der Ringkämpfer Milon von Kroton war im 6. Jahrhundert v. Chr. sechsmal in Folge Olympiasieger. Um ihn und seine maßlosen Kräfte ranken sich viele Legenden. Milon soll täglich über acht Kilo Fleisch gegessen und zehn Liter Wein getrunken haben. Man sagt, er hab einen vierjährigen Stier auf den Schultern durchs Stadion getragen und anschließend verspeist.
+[&image: :https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_c1/web-resources/images/medikamente.jpg]
+Was sind dagegen ein paar ['anabole Steroide][?anabole Steroide = synthetisch hergestellte Mittel zur Leistungssteigerung]? In anderen Gegenden griff man bei sportlichen Wettkämpfen ebenfalls zu allerlei Mitteln. Germanische Kämpfer z. B. gewannen aus dem Fliegenpilz eine Droge, die ihre Kampfkraft stärkte. Auch sibirische Völker schätzten getrocknete Fliegenpilze als Rauschmittel. Die Inkas schütteten literweise Mate-Tee in sich hinein und kauten Coca-Blätter, um die Grenzen der menschlichen Natur zu überwinden.
+Verallgemeinernd kann man sagen: Je höher der finanzielle Anreiz ist, desto niedriger wird die Hemmschwelle, zu Hilfsmitteln zu greifen. Die Vorreiter des modernen Dopings sind zwei Sportarten, bei denen es schon im 19. Jahrhundert hohe Belohnungen gab: der Pferde- und der Radsport. Beim Pferderennen wurden zunächst – mangels geeigneter Aufputschmittel – leistungshemmende Substanzen verwendet. Vergiftete Pferde rennen nun mal nicht so schnell. Auf diese Weise konnte mit Außenseitern beim Wetten viel Geld verdient werden. Im Radsport sind, im Vergleich zu früher, die heutigen Streckenlängen eine Kleinigkeit.
+Beim Rennen Paris–Brest–Paris Ende des 19. Jahrhunderts saßen die Fahrer sechs Tage lang im Sattel. Ob Kaffee, Tee, Kokain, Morphium, Opium oder das Gift Arsen, alles wurde ausprobiert, um die Leistungsfähigkeit zu steigern und die Schmerz-grenze zu senken. Die Nebenwirkungen waren lebensgefährlich. Das erste Doping-Todesopfer im Radsport war Arthur Linton im Jahr 1896, gefolgt von vielen weiteren Dopingopfern. Und noch immer gibt es Sportler, die trotz nachweislicher gesundheitlicher Schäden ihren Körper mit gefährlichen Medikamenten aufputschen. Grundsätzlich hat sich also in den letzten 3 000 Jahren nichts geändert.
+[====A8 Textarbeit]
+[=====a)]
+
+
+[.essay&article:bitmark++]
+[%A8a]
+[!Fassen Sie den Text kurz mit eigenen Worten zusammen.]
+&&&
+...
+||TODO: A7-Text bzw. A7-article integrieren, auch damit nicht der ganze Artikel copy&paste eingesetzt werden muss (immer die gleine Quelle)
+ask about this||
+[=====b)]
+
+
+[.match:bitmark--&article:bitmark++]
+[%A8b]
+[!Suchen Sie aus dem Text die Wörter, zu denen die Erklärung passt.]
+===
+ein Verb: nicht die Wahrheit sagen
+==
+lügen[!l . . . .]
+===
+__ein Verb__: etwas mit Appetit und Vergnügen essen
+==
+verspeisen[!. . . sp . . . . ]
+===
+__ein Verb__: ein Hindernis meistern oder bewältigen
+==
+überwinden[!ü . . . . . . . . . ]
+===
+__ein Nomen__: eine Person, die darauf achtet, dass sich die Spieler an die Spielregeln halten
+==
+Schiedsrichter[!Sch . . . . . . . . . . . ]
+===
+__ein Verb__: bestimmte Substanzen zu sich nehmen, um seine Müdigkeit zu überwinden oder sich in Erregung zu versetzen
+==
+aufputschen[!au . . . . . . . . . . .]
+===
+__ein Nomen__: eine Person, die sich nicht an die Normen der Gruppe oder der Gesellschaft anpasst
+==
+Außenseiter[!. . . . . . ei . . .]
+===
+__ein Verb__: jemandem Geld oder ein Geschenk geben, um dadurch (gegen die offiziellen Bestimmungen) einen Vorteil zu erhalten
+==
+bestechen[!B . . . . . . . .]
+===
+__ein Verb__: jemanden bewusst täuschen
+==
+betrügen[!. . . . ü . . . ]
+===
+&&&
+...
+||TODO: obiger .article integrieren, auch damit nicht der ganze Artikel copy&paste eingesetzt werden muss; nur eine Quelle||
+||TODO: mit Schubert besprechen: BitBook unterstützt keine Kreuzworträtsel, daher Anpassung der Übung und der Anleitung. Originalwortlaut der Anleitung: Suchen Sie aus dem Text die Wörter, zu denen die Erklärung passt, und lösen Sie das Rätsel. Die Buchstaben in den farbigen Kästchen senkrecht ergeben ein Nomen.||
+[=====c)]
+
+
+[.cloze]
+[%A8c]
+[!Ergänzen Sie in der Zusammenfassung die fehlenden Informationen.]
+Regelmäßig werden bei Wettkämpfen Sportler auf [_Doping][@example] getestet und des Dopings überführt. Bei solchen Gelegenheiten melden sich die Moralisten zu Wort, die an den olympischen Gedanken erinnern, bei dem nicht [_der Gewinn][_die Leistung], sondern die Teilnahme im Vordergrund steht. Neuesten Untersuchungen [_zufolge] konnte schon im alten Griechenland [_Betrug][_Bestechung][_Doping] bei sportlichen Ereignissen festgestellt werden. Einige Beispiele dafür sind der Boxer Eupolos und Kaiser Nero, denen man [_Betrug][_Bestechung][_Doping] vorwirft. Außerdem versuchten die Sportler schon früher, durch die  [_Einnahme][_Anwendung][_Nutzung] verschiedener Mittel ihre Kampfkraft zu [_stärken][_erhöhen][_steigern]. Das moderne Doping wurde im 19. Jahrhundert im Pferde- und Radsport eingeführt. In diesen beiden Sportarten konnte man schon damals viel Geld [_verdienen][_gewinnen]. Die übliche Methode beim Pferderennen war allerdings nicht, die Pferde [_aufzuputschen][_zu dopen], sondern sie zu vergiften. Im Radsport dagegen wurde alles genommen, was die Leistung steigerte. Das war [_gefährlich] für Leib und Leben der Fahrer. 1896 [_starb] Arthur Linton an den Folgen des Dopings. Und er war nicht das letzte Opfer.
+[====A9 Grammatikwiederholung]
+[=====a)]
+
+
+[.cloze:bitmark+]
+[%A9a]
+[!Subjunktionen: Ergänzen Sie Satzverbindungen, die Nebensätze einleiten.]
+__Der Sportler ist sehr beliebt, [_weil][@example] er dreimal hintereinander Olympiasieger wurde.__
+1. Bei internationalen Wettkämpfen ist der Druck auf Sportler groß, [_weil] von ihnen Erfolge erwartet werden.
+2. Manche Sportler nehmen unerlaubte Mittel, [_um] ihre Leistungen [_zu] verbessern.
+3. Internationale Sportverbände sollten Maßnahmen ergreifen, [_damit] die Verwendung von Doping besser kontrolliert werden kann.
+4. Ein Sportverband könnte die Einnahme von Doping erschweren, [_indem] er regelmäßige Kontrollen durchführt.
+5. Das gelingt aber nur, [_wenn] für diese Maßnahmen auch finanzielle Mittel zur Verfügung stehen.
+6. Bei manchen Wettkämpfen wurden Sportler wegen Dopingmissbrauchs disqualifiziert, [_obwohl] vorher regelmäßige Kontrollen stattgefunden haben.
+7. Der Erfolg solcher Kontrollen kann also nur [_dadurch] garantiert werden, [_dass] diese Kontrollen unangemeldet stattfinden.
+
+[=====b)]
+
+
+[.cloze-solution-grouped:bitmark--]
+[%A9b]
+[!Präpositionen mit dem Genitiv: Ergänzen Sie die fehlenden Präpositionen.]
+1. [_Anlässlich] der Olympischen Spiele wurden besondere Maßnahmen zur Dopingkontrolle getroffen.
+2. [_Aufgrund] des Erfolgsdrucks greifen einige Sportler immer noch zu unerlaubten Mitteln, [_trotz] der Gefährdung der eigenen Gesundheit.
+3. Die meisten Sportler werden schon [_während] der Vorbereitungszeit auf Doping getestet.
+4. [_Wegen][_Angesichts] der Risiken, die die Sportler eingehen, sollte man meinen, die Dopingfälle würden sich reduzieren.
+5. [_Angesichts][_Mithilfe] der vielen Kontrollen kommt so mancher Betrugsversuch ans Tageslicht.
+6. Das Blutdoping bei der Tour de France erfolgte [_mithilfe] eines Arztes.
+7. Beim Pferdesport wurden früher [_mangels] geeigneter Aufputschmittel leistungshemmende Substanzen verwendet, heute sind es leistungsfördernde Mittel.
+
+[.article:bitmark--]
+__Zusatzübungen zu Präpositionen mit dem Genitiv__ [►Teil C Seite 92 ||TODO: Anchor setzen||]
+
+||TBD: Darstellung von Verweisen?||
+[====A10 Mündlicher und schriftlicher Ausdruck: Geld und Doping im Sport]
+[=====a)]
+
+
+[.assignment:bitmark++&article:bitmark++]
+[%A10a]
+[!Wählen Sie ein Thema aus. Halten Sie dazu einen Kurzvortrag von ca. drei Minuten Länge. Nutzen Sie auch die vorgegebenen Redemittel.]
+__Thema A__
+
+Einige erfolgreiche Sportler verdienen sehr viel Geld, z. B. Tennisspieler und Fußballspieler. Andere, nicht weniger erfolgreiche Sportler, z. B. Ruderer, verdienen fast gar nichts. Was sind die Gründe dafür? Wie stehen Sie persönlich dazu?
+
+__Thema B__
+
+Welche Gründe könnte es Ihrer Meinung nach geben, dass manche Sportler zu unerlaubten Mitteln (Doping) greifen? Können nationale und internationale Sportverbände etwas dagegen tun oder sollte man Doping legalisieren?
+
+&&&
+**Hinweise zum Kurzvortrag:**
+
+1. Klären Sie das Thema, grenzen Sie es ein.
+1. Sammeln Sie Stichpunkte und ordnen Sie sie. Erstellen Sie eine klare Gedankenfolge.
+1. Lassen Sie Ihre Gliederung „hörbar“ werden: Einleitung – Hauptteil – Schluss. Bei einem Kurzvortrag sollten Einleitung und Schluss kurz und knapp sein.
+1. Gestalten Sie Ihren Hauptteil mit kurzen, anschaulichen Beispielen. Sammeln Sie Pro- und Kontra-Argumente. Vergleichen Sie z. B. früher – heute in Deutschland – in Ihrem Heimatland – in der Welt.
+1. Bilden Sie kurze Sätze. Verwenden Sie so wenig Pronomen wie möglich, wiederholen Sie lieber die Nomen.
+1. Vermeiden Sie Umgangssprache.
+
+**Redemittel**
+
+[&image: :https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_c1/web-resources/images/tennis-neu-pfad.png]
+* Zunächst werde ich .../Zu Beginn möchte ich .../Anschließend ..., dann ... und zum Schluss ...
+* Als Beispiel möchte ich ... anführen./Um meine Meinung zu verdeutlichen, möchte ich folgendes Beispiel anführen .../Wie das Beispiel zeigt .../An diesem Beispiel kann man erkennen ...
+* Auf der einen Seite ... auf der anderen Seite/... hat Vorteile ... hat Nachteile .../... spricht dafür ... spricht dagegen
+* Im Vergleich/Unterschied zu .../ Wenn man einen Vergleich zieht zwischen ...
+||weird bitmark and image doesn't show||
+[=====b)]
+
+
+[.essay:bitmark--&article]
+[%A10b]
+[!Schreiben Sie eine Stellungnahme zum nachstehenden Text. Achten Sie auf adäquaten Wortschatz und gelungene Satzverknüpfungen. Schreiben Sie ca. 250 Wörter.]
+
+&&&
+Welche Gründe könnte es Ihrer Meinung nach geben, dass manche Sportler zu unerlaubten Mitteln (Doping) greifen? Können nationale und internationale Sportverbände etwas dagegen tun oder sollte man Doping legalisieren?
+||TBD: Instruktion wurde angepasst. Originalwortlaut: Schreiben Sie über das zweite Thema eine Stellungnahme. Achten Sie auf adäquaten Wortschatz und gelungene Satzverknüpfungen. Schreiben Sie ca. 250 Wörter.||
+||TODO: @longAnswer||
+[====A11 Die Weitergabe von Informationen und Gerüchten]
+[=====a)]
+
+
+[.assignment:bitmark++]
+[%A11a]
+[!Lesen Sie die folgenden Sätze.]
+* __Man sagt, er habe__ einen vierjährigen Stier auf den Schultern durchs Stadion getragen und anschließend verspeist.
+* Der Athlet Milon __soll__ täglich über acht Kilo Fleisch gegessen und zehn Liter Wein getrunken haben.
+* Der Radfahrer __will__ von dem spanischen Arzt noch nie etwas gehört haben.
+
+Zur Weitergabe von Informationen und Gerüchten gibt es folgende sprachliche Möglichkeiten:
+
+1. __Wendungen wie:__ 
+ich habe gehört/gelesen – man sagt – (der Wissenschaftler/Journalist) behauptet – wie (der Fußballverband) heute bekannt gab – nach Aussagen (des Trainers) → oft gefolgt vom __Konjunktiv I__
+
+2. __Modalverben__ 
+Der Athlet Milon __soll__ täglich über acht Kilo Fleisch gegessen und zehn Liter Wein getrunken haben.
+
+→ Mit __sollen__ wird ein Sachverhalt wiedergegeben, den man irgendwo gehört oder gelesen hat.
+Der Radfahrer __will__ von dem spanischen Arzt noch nie etwas gehört haben.
+
+→ Mit __wollen__ wird eine Behauptung einer Person über sich selbst wiedergegeben. Man macht aber einige Zweifel an der Aussage deutlich.
+
+======
+[#Synonyme]
+------
+[##Modalverb]
+------
+Klaus Kupfer __soll__ der beste Trainer **sein**.
+------
+[##synonyme Wendungen]
+------
+ich habe gehört/jemand hat erzählt/es heißt/angeblich/in den Nachrichten haben sie gesagt/in der Zeitung stand
+------
+[##Modalverb]
+------
+Klaus Kupfer __will__ der beste Trainer **sein**.
+------
+[##synonyme Wendungen]
+------
+er sagt über sich selbst/er behauptet von sich selbst
+======
+[#Zeitformen]
+------
+[##Gegenwart]
+------
+Klaus Kupfer __soll/will__ der beste Trainer **sein**.
+------
+[##Vergangenheit]
+------
+Klaus Kupfer __soll/will__ in den 1990er-Jahren der beste Trainer **gewesen sein**.
+||TBD: Allenfalls anstatt zwei Untertitel [##Modalverb] und [##synonyme Wendungen] ein einziger, kombinierter Untertitel [##Modalverb/synonyme Wendungen]||
+||TBD: Verzicht auf Aufzählungszeichen unter "synonyme Wendungen", weil diese keinen erkennbaren Zweck haben||
+[=====b)]
+
+
+[.match:bitmark--]
+[%A11b]
+[!Folgende Informationen haben Sie gehört oder gelesen. Geben Sie die Informationen weiter. Bilden Sie Sätze mit __sollen__.]
+===
+Der Boxer hat Probleme mit seiner rechten Hand. __(Gegenwart)__
+==
+Der Boxer soll Probleme mit seiner rechten Hand haben.[@example:Der Boxer **soll** Probleme mit seiner rechten Hand **haben**.][@longAnswer]
+===
+Der Boxer hatte Probleme mit seiner rechten Hand. __(Vergangenheit)__
+==
+Der Boxer soll Probleme mit seiner rechten Hand gehabt haben.[@example:Der Boxer **soll** Probleme mit seiner rechten Hand **gehabt haben**.][@longAnswer]
+===
+1. Die Sportler haben sich im Höhentrainingslager in der Schweiz auf den Wettkampf vorbereitet.
+==
+Die Sportler sollen sich im Höhentrainingslager in der Schweiz auf den Wettkampf vorbereitet haben.[@longAnswer]
+===
+2. Im Trainingslager hat sich der Trainer mit dem Torwart gestritten.
+==
+Im Trainingslager soll sich der Trainer mit dem Torwart gestritten haben.[@longAnswer]
+===
+3. Wegen des Streits ist der Cheftrainer zurückgetreten.
+==
+Wegen des Streits soll der Cheftrainer zurückgetreten sein.[@longAnswer]
+===
+4. Die Trainingsbedingungen waren schwierig.
+==
+Die Trainingsbedingungen sollen schwierig gewesen sein.[@longAnswer]
+===
+5. Das Eröffnungsspiel findet in der neuen Arena statt.
+==
+Das Eröffnungsspiel soll in der neuen Arena stattfinden.[@longAnswer]
+===
+6. Der Präsident des Olympischen Komitees hält die Eröffnungsansprache.
+==
+Der Präsident des Olympischen Komitees soll die Eröffnungsansprache halten.[@longAnswer]
+===
+7. Das Stadion wird erst eine Woche vor dem Spiel fertig.
+==
+Das Stadion soll erst eine Woche vor dem Spiel fertig sein.[@longAnswer]
+===
+8. Der Ausbau der Arena hat bis jetzt schon 25 Millionen Euro gekostet.[@longAnswer]
+==
+Der Ausbau der Arena soll bis jetzt schon 25 Millionen Euro gekostet haben.
+===
+[=====c)]
+
+
+[.match:bitmark--&article]
+[%A11c]
+[!Geben Sie die Informationen weiter, die der Sportler über sich selbst gegeben hat. Bilden Sie Sätze mit __wollen__.]
+===
+1. „Ich habe den ganzen Winter in Italien hart trainiert.“
+==
+Er will den ganzen Winter in Italien hart trainiert haben.
+===
+2. „Bei den Dopingkontrollen war ich zufällig krank.“
+==
+Bei den Dopingkontrollen will er zufällig krank gewesen sein.
+===
+3. „Ich habe keine verbotenen Mittel zur Leistungssteigerung eingenommen.“
+==
+Er will keine verbotenen Mittel zur Leistungssteigerung eingenommen haben.
+===
+&&&
+['Zusatzübungen zu Präpositionen mit dem Genitiv][►Teil C Seite 92]
+||TODO: Verweise sauber machen / Anchor setzen / Verweis allen Bits (also a, b und c)?||
+||TBD: Darstellung von Verweisen?||
+[====A12 Erfolge nach dem Sport]
+[=====a)]
+
+
+[.interview&article:bitmark++]
+[%A12a-1]
+[!Lesen Sie den Text, in dem eine ehemalige Sportlerin vorgestellt wird.]
+Zu welchen Themenschwerpunkten 1–6 gibt es Aussagen im Text? Schreiben Sie "nichts", wo es keine Aussagen gibt.
+===
+1. sportliche Erfolge[@shortAnswer]
+===
+2. sportliche Niederlagen[@shortAnswer]
+===
+3. Studium[@shortAnswer]
+===
+4. berufliche Tätigkeiten[@shortAnswer]
+===
+5. berufliche Niederlangen/unerfüllte Träume[@shortAnswer]
+===
+6. Publikationen[@shortAnswer]
+===
+
+||TBD - diese Übung ist auf vier Bits aufgeteilt und die Instruktion muss daher angepasst werden, siehe die jeweiligen Vorschläge||
+
+&&&
+**A. Katarina Witt**
+
+Auf dem Eis tanzte sie sich bis an die Weltspitze und ist eine der erfolgreichsten Eiskunstläuferinnen aller Zeiten.„Gold-Kati“ holte zwei Olympiasiege und vier Weltmeistertitel für die DDR. Sie wurde außerdem sechsmal Europameisterin (1983–1988). Als sie fünfeinhalb Jahre alt war, betrat sie zum ersten Mal in ihrer Heimatstadt Karl-Marx-Stadt (heute Chemnitz) das Eis. Mit der Zeit und mithilfe ihrer Trainerin Jutta Müller entwickelte sie die Erfolgsformel für ihre Eiskunstlaufkarriere: leidenschaftliche Hingabe, die Perfektionierung ihrer sportlichen Talente und die Bezauberung des Publikums mit ihrem Äußeren und dem natürlichen Charme. „Sie kann bei höchster Geschwindigkeit um die eigene Achse rotieren und dabei sinnlich lächeln.
+[&image: :https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_c1/web-resources/images/katiwitt.jpg]
+Alles ist in diesem Moment aufeinander abgestimmt: Make-up, Mimik, Frisur und ein tiefrotes Kostüm“, so hieß es bei Olympia 1988. Dort glänzte sie mit der Carmen-Kür und gewann zum zweiten Mal olympisches Gold. 1988 wechselte Katarina Witt vom Amateurlager ins Profilager. Ihre erneute Teilnahme an den Olympischen Winterspielen 1994 war eine Sensation. 1995 erschien ihre Autobiografie „Zwischen Pflicht und Kür“. Über den Medienliebling von damals wird und wurde viel geschrieben. Erst im März 2008 hängte sie die Schlittschuhe endgültig an den Nagel. Seit 2009 arbeitet Katarina Witt als Moderatorin und Schauspielerin. Große Erfolge, wie sie sie beim Sport verzeichnen konnte, blieben aber bisher aus.
+[&image: :https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_c1/web-resources/images/schlittschuhe.jpg]
+||TBD: Geänderte Instruktion für die Bits a-1 bis a-4. Originalwortlaut: __Lesen Sie die vier Texte, in denen ehemalige Sportlerinnen und Sportler vorgestellt werden. In welchen Texten (A–D) gibt es Aussagen zu den Themenschwerpunkten 1–6?__
+2 images, - cannot be made and don't work anyway||
+
+
+[.interview&article:bitmark++]
+[%A12a-2]
+[!Lesen Sie den Text, in dem ein ehemaliger Sportler vorgestellt wird.]
+Zu welchen Themenschwerpunkten 1–6 gibt es Aussagen im Text? Schreiben Sie "nichts", wo es keine Aussagen gibt.
+===
+1. sportliche Erfolge[@shortAnswer]
+===
+2. sportliche Niederlagen[@shortAnswer]
+===
+3. Studium[@shortAnswer]
+===
+4. berufliche Tätigkeiten[@shortAnswer]
+===
+5. berufliche Niederlangen/unerfüllte Träume[@shortAnswer]
+===
+6. Publikationen[@shortAnswer]
+===
+&&&
+**B. Michael Groß**
+
+Acht Zentimeter. Nur diese winzige Distanz von der Größe eines kleinen Fingers hat Michael Groß von seinem Glück getrennt. Der dreifache Schwimm-Olympiasieger von 1984 und 1988 und fünffache Weltmeister misst 2,01 Meter. Piloten dürfen aber nur 1,93 Meter groß sein. Acht Zentimeter lassen sich in der Flugzeugkabine nicht kaschieren, nicht wegbücken. Michael Groß konnte also nicht Pilot werden.
+Er entschied sich für das Studium der Germanistik, politischen Wissenschaften und Medienwissenschaften und promovierte 1994 in Philologie an der Universität Frankfurt. Heute arbeitet er erfolgreich als selbstständiger Kommunikationsmanager, verantwortlich für eine eigene Agentur mit zwölf festen und etlichen freien Mitarbeitern. Doch wenn er aus seinem Bürofenster im Frankfurter Gärtnerweg den Weg eines Flugzeugs in den Lüften verfolgt, dann bricht die alte Sehnsucht wieder auf: „Wenn mich jetzt jemand anriefe und sagen würde: ,Du kannst Pilot werden’, ich würde alles stehen- und liegenlassen.“
+Michael Groß kann viel über solche Niederlagen im Leben erzählen. Ausgerechnet er, der Sieger. Man stellt nicht zwölf Weltrekorde auf, wenn man schnell die Flinte ins Korn wirft. Man schleppt sich nicht Jahre zum Training, wenn man sich keine großen Ziele setzt.
+Im November 2011 hat Michael Groß ein Buch mit dem Titel „Siegen kann jeder“ veröffentlicht. Die zentralen Botschaften lauten: Persönliche Siege erringen kann wirklich jeder, dazu braucht man keine olympiareifen Leistungen. Siege hängen nicht (immer) vom Besiegen anderer ab. Eine Krankenschwester kann von ihrem Erfolg emotional genauso bewegt sein wie ein Goldmedaillengewinner. Und die Menschen sollten nicht traurig sein, wenn sie die meisten Ziele in ihrem Leben nicht erreichen. Wer seine ursprünglich verfolgten Lebensabsichten nicht umsetzen kann, der sollte nach der Ansicht von Michael Groß neben sich treten, sich neu besinnen, sich neu erfinden.
+
+
+[.interview&article:bitmark++]
+[%A12a-3]
+[!Lesen Sie den Text, in dem ein ehemaliger Sportler vorgestellt wird.]
+Zu welchen Themenschwerpunkten 1–6 gibt es Aussagen im Text? Schreiben Sie "nichts", wo es keine Aussagen gibt.
+===
+1. sportliche Erfolge[@shortAnswer]
+===
+2. sportliche Niederlagen[@shortAnswer]
+===
+3. Studium[@shortAnswer]
+===
+4. berufliche Tätigkeiten[@shortAnswer]
+===
+5. berufliche Niederlangen/unerfüllte Träume[@shortAnswer]
+===
+6. Publikationen[@shortAnswer]
+===
+
+&&&
+**C. Rudi Cerne**
+
+Er ist heute einer der beliebtesten Sportreporter und moderiert im Zweiten Deutschen Fernsehen die populäre Sendung Aktenzeichen XY ungelöst. Viele jüngere Zuschauer wissen nicht, dass er Ende der 1970er- und Anfang der 1980er-Jahre ein bekannter Eiskunstläufer war. 1984 gewann er die Silbermedaille bei den Europameisterschaften. Cerne sagt über diese Zeit: „Ich hatte ziemlich früh das Ziel, Olympiasieger und Weltmeister zu werden.“
+Als er fünf Jahre alt war, brachte ihn der Vater zum Eiskunstlauftraining und Cerne trainierte anfangs dreimal in der Woche. Ziemlich bald fuhren Vater und Sohn dann täglich 75 km von Wanne-Eickel nach Krefeld zum Training. „Aber um das Goldtreppchen zu erreichen, hätte ich auch zwischen dem 14. und 17. Lebensjahr intensiver trainieren müssen und vielleicht auch mal den Trainer wechseln sollen.“ Nach seiner aktiven Laufbahn wird Cerne Profi und ist vier Jahr lang mit der Revue „Holiday on Ice“ auf Tournee, bevor er sich dem Sportjournalismus zuwendet. Mit 35 ist er noch den Doppel-Flip und den Doppel-Lutz gesprungen, doch inzwischen hat er die Schlittschuhe endgültig an den Nagel gehängt. Cerne ist sportlich immer noch sehr aktiv. Beim Tennis habe er das Gefühl, dass er viel besser spiele als früher.
+
+
+[.interview&article:bitmark++]
+[%A12a-4]
+[!Lesen Sie den Text, in dem eine ehemalige Sportlerin vorgestellt wird.]
+Zu welchen Themenschwerpunkten 1–6 gibt es Aussagen im Text? Schreiben Sie "nichts", wo es keine Aussagen gibt.
+===
+1. sportliche Erfolge[@shortAnswer]
+===
+2. sportliche Niederlagen[@shortAnswer]
+===
+3. Studium[@shortAnswer]
+===
+4. berufliche Tätigkeiten[@shortAnswer]
+===
+5. berufliche Niederlangen/unerfüllte Träume[@shortAnswer]
+===
+6. Publikationen[@shortAnswer]
+===
+&&&
+**D. Heide Ecker-Rosendahl**
+
+Wohl kaum eine Sportlerin hat Olympia 1972 den Stempel derart aufgedrückt wie Heide Rosendahl. Fünf Tage lang hatte Gastgeber Deutschland vergeblich auf das erste Gold gewartet, dann sorgte Heide Rosendahl mit im ersten Versuch erzielten 6,78 m im Weitsprung für die Erlösung. Zum Star der Spiele wurde die Leverkusenerin dann in der Weltrekordzeit von 42,81 Sekunden durch das zweite Gold im deutsch-deutschen 4x100-m-Duell gegen Olympiasiegerin Renate Stecher (Jena). Einen dritten Olympiasieg verpasste sie im Fünfkampf gegen die Britin Mary Peters nur um zehn Punkte. Dann kam der Schock für ihre Fans: Im folgenden Jahr beendete die Leichtathletin ihre sportliche Laufbahn. Nach den Olympiasiegen im eigenen Land fehlte ihr die Motivation.
+Ihre Familie gründete Heide Rosendahl im Jahr nach dem Rücktritt. Mit Ehemann John Ecker, einem ehemaligen Basketballer, bekam sie zwei Söhne. Die ausgebildete Diplom-Sportlehrerin lebt heute in Leverkusen. Bis 2011 war sie Geschäftsführerin einer Ernährungsakademie und betrieb mehrere Sportstudios.
+[====A13 Vertiefen Sie Ihren Wortschatz.]
+[=====a)]
+
+
+[.match-solution-grouped]
+
+[%A13a] 
+[!Welche Verben passen? Ordnen Sie zu.] 
+===
+Olympisches Gold
+==
+gewinnen[@example]
+===
+die Schlittschuhe an den Nagel
+==
+hängen 
+===
+vom Amateur- ins Profilager
+==
+wechseln
+===
+große Erfolge
+==
+verzeichnen
+===
+die Flinte ins Korn
+==
+werfen
+===
+sich zum Training
+==
+schleppen
+===
+sich große Ziele
+==
+setzen
+===
+Siege beim Sport
+==
+erringen
+===
+eine Familie
+==
+gründen
+===
+eine Fernsehsendung
+==
+moderieren
+===
+die Sportkarriere
+==
+beenden
+===
+
+[=====b)]
+
+
+
+[.cloze-and-multiple-choice-text]
+[%A13b-1]
+[!Was kann man verlieren, was kann man gewinnen? Ordnen Sie die passenden Nomen mit dem richtigen Artikel im Akkusativ zu und erklären Sie die Wendungen.] 
+Man kann...
+[_die][@example] Geduld [+verlieren][-gewinnen][-verlieren oder gewinnen][@example].
+[_den] Eindruck [-verlieren][+gewinnen][-verlieren oder gewinnen].
+[_das] Gesicht [+verlieren][-gewinnen][-verlieren oder gewinnen].
+[_den] Mut [+verlieren][-gewinnen][-verlieren oder gewinnen].
+[_den] Überblick [-verlieren][-gewinnen][+verlieren oder gewinnen].
+[_die] Oberhand [-verlieren][+gewinnen][-verlieren oder gewinnen].
+[_die] Beherrschung [+verlieren][-gewinnen][-verlieren oder gewinnen].
+[_den] Verstand [+verlieren][-gewinnen][-verlieren oder gewinnen].
+[_den] Faden [+verlieren][-gewinnen][-verlieren oder gewinnen].
+||TBD Übung wurde auf zwei Bits aufgeteilt und die Instruktion entsprechend angepasst. Originalwortlaut: __Was kann man verlieren, was kann man gewinnen? Ordnen Sie die passenden Nomen mit dem richtigen Artikel im Akkusativ zu und erklären Sie die Wendungen. Bilden Sie zu drei Wendungen Beispielsätze.__]||
+||TBD Auswahl __"verlieren oder gewinnen"__]||
+||TBD: (1) Diese Übung wurde auf zwei Bits aufgeteilt. (2) Die Instruktion muss angepasst werden. Vorschlag für die neue Instruktion: "Was kann man verlieren, was kann man gewinnen? Ergänzen Sie zum Nomen den richtigen Artikel im Akkusativ und wählen Sie die richtige Antwort."||
+
+[.essay:]
+[%A13b-2]
+[!Bilden Sie zu drei Wendungen aus der Übung A13b-1 Beispielsätze.]
+||TBD: Verweis auf andere Übung ist nicht ideal. Alternative: Alle Wendungen wiederholen?||
+[===Erfolg im Beruf]
+[====A14]
+
+
+[.interview]
+[%A14.1]
+[!Welche Voraussetzungen sollte Ihrer Meinung nach ein Mensch haben, der Karriere machen (z. B. ins Topmanagement einer großen Firma aufsteigen) will? (Ausbildung / Erfahrungen / Fähigkeiten / Charaktereigenschaften)
+Erstellen Sie eine Reihenfolge.]
+===
+1.
+===
+2.
+===
+3.
+===
+4.
+===
+5.
+===
+6.
+===
+7.
+===
+8.
+===
+
+
+[.interview:bitmark--]
+[%A14.2]
+[!Was wirkt sich Ihrer Meinung nach eher günstig bzw. ungünstig auf eine Karriere aus? Begründen Sie Ihre Meinung.]
+__Integrität, Kommunikationsstärke, Durchsetzungsvermögen, Respekt, Entscheidungsfreude, Anstand, Karriereorientierung, Teamfähigkeit, Risikobereitschaft, Lernbereitschaft, Ergebnisorientierung, unternehmerisches Denken, strategisches, vernetztes Denken__
+===
+günstig für die Karriere[@longAnswer][@sampleSolution:Nach Aussagen des Textes sind für die Karriere wichtig: Integrität, Respekt, Anstand, Teamfähigkeit, Lernbereitschaft, Kommunikationsstärke, Ergebnisorientierung, unternehmerisches Denken, strategisches, vernetztes Denken]
+===
+ungünstig für die Karriere[@longAnswer][@sampleSolution:Nach Aussagen des Textes sind für die Karriere wichtig: Weniger wichtig für die Karriere sind: Durchsetzungsvermögen, Entscheidungsfreude, Karriereorientierung, Risikobereitschaft]
+=== 
+||TODO: Tag @sampleSolution: für "Proposed Solution" oder kurz "prop"||
+[====A15]
+
+
+[.assignment:bitmark--&image]
+[%A15]
+[!Lesen Sie den folgenden Text.]
+**Unter Druck nach oben**
+
+Der Mann, der Karriere machen will, sollte größer als 1,80 Meter sein, schlank und dunkelhaarig, verheiratet, aber kinderlos, und sich in der Freizeit am liebsten mit sich selbst beschäftigen.
+Wenn dieser Aufsteiger endlich an der Spitze der Firma angekommen ist, dann plagen ihn meist Angst und Ressentiments, geringes Selbstwertgefühl und ein unbändiges Bedürfnis nach Anerkennung. Das ist wissenschaftlich erwiesen. Na ja, zumindest sind das Ergebnisse von zwei Studien aus einer Unmenge von Untersuchungen zu der alles bewegenden Frage der Wettbewerbsgesellschaft: Wer kommt nach oben?
+Bei der Analyse des Aufstiegs einiger deutscher Topmanager wird deutlich, dass der Weg nach oben sehr unterschiedlich aussehen kann. Fest steht nur eins. Sie taten die richtigen Dinge. Für das Richtige aber gibt es keine allgemeingültige Regel. Dennoch müssen die Unternehmen aus einer Vielzahl des sich anbietenden Führungskräfte-Nachwuchses die Richtigen herausfinden. Aber wie?
+[&image: :https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_c1/web-resources/images/profilansicht.jpg]
+Wenn der Marketing-Manager der Beiersdorf AG Holger Welters mit einem Bewerber für seine Firma spricht, dann schreckt ihn zum Beispiel ausgesprochenes Karrierebewusstsein ab. „In zehn Jahren will ich Ihren Posten“, der Kandidat mit diesem Spruch hatte verspielt. Welters schaut lieber darauf, ob der Nachwuchsmanager etwas Besonderes außerhalb des gewöhnlichen Studienganges geleistet hat. Ob er vielleicht ein Juniorenmeister im Tennis ist oder sich intensiv mit einem Hobby beschäftigt. Und ob der Student die Großleinwand für die WM-Party organisiert oder bloß zuguckt.
+Die üblichen Voraussetzungen er­füllen die Bewerber beim Nivea-Konzern ohnehin meistens – Universität oder Business-School, Auslandspraktika, flüssiges Englisch und zusätzliche Zertifikate.
+Die Personalchefs großer deutscher Unternehmen, so ergaben Befragungen des SPIEGEL, halten Examensnoten, Titel und schlichtes Fachwissen für wenig aussagekräftig. Nach dem Niedergang der ruppigen New Economy und dem Vertrauensschwund durch Betrugsmanöver geldgieriger Firmenbosse stieg wieder der Wert traditioneller Tugenden. „Menschliche Qualitäten werden bei Führungskräften immer stärker zum Erfolgsfaktor. Integrität, Respekt und Anstand sind grundlegend für die Zusammenarbeit“, meint Adolf M. Picard vom Otto-Versand. In den neuesten Umfragen gaben die Unternehmen der Sozialkompetenz den ersten Rang, statt Platz vier vor zwei Jahren.
+Auch bei den wichtigsten persönlichen Eigenschaften der Anwärter auf Spitzenpositionen fordern die Firmen vorrangig weiche Werte, sogenannte Soft Skills: Eigenmotivation, Teamfähigkeit, Lernbereitschaft und Kommunikationsstärke liegen weit vorn. Scheinbar typische Manager-Qualitäten wie Entscheidungsfreude, Durchsetzungs­ver­mögen, Karriereorientierung und Risikobereitschaft rangieren am Schluss.
+Allerdings reichen ausschließlich kommunikative und soziale Kompetenzen nicht, um sich zu profilieren. Sie werden zunehmend als Grundvoraussetzungen betrachtet. Wer Führungskraft werden will, muss auch „Macher-Eigenschaften“ wie Ergebnisorientierung und unternehmerisches Denken vorweisen. An der Spitze der „Erfolgsfaktoren“ steht jedoch das strategische, vernetzte Denken. Eine Studie der Boston Consulting Group kristallisierte vier Idealtypen heraus: den Analytiker, den Macher, den Integrator und den Erfinder, die meistens in Kombination gesucht sind.
+Besonders gefragt ist der „kluge Macher“, der strategisches Denken mit Unternehmergeist verbindet, der Nobelpreisträger mit dem Charakter von Mutter Teresa.
+
+[====A16 Textarbeit]
+[=====a)]
+
+
+[.match-solution-grouped:bitmark--&article:bitmark--]
+
+[%A16a]
+[!Wählen Sie die richtige Antwort. Entscheiden Sie bei jeder Aussage: Steht das im Text? Ja oder nein? Wenn der Text dazu nichts sagt, markieren Sie X.]
+===
+1. Examensnoten und Fachwissen sind bei der Bewerbung nicht wichtig.
+==
+nein
+===
+2. Es gibt keine erkennbaren Gründe dafür, dass die Bedeutung der Sozialkompetenz
+in den letzten Jahren zunahm.
+==
+nein
+===
+3. Erziehung und Herkunft spielen für die Karriere eine entscheidende Rolle.
+==
+X
+===
+4. Zur Schau getragenes Karrierebewusstsein kann sich beim Bewerbungsgespräch als
+nicht förderlich erweisen.
+==
+ja
+===
+5. Sogenannte Macher-Eigenschaften sind ebenso wichtig wie soziale Kompetenzen.
+==
+ja
+===
+6. Das Wichtigste ist, dass ein angehender Manager das Richtige tut. Was das Richtige ist, weiß keiner.
+==
+nein
+===
+&&&
+**Unter Druck nach oben**
+
+Der Mann, der Karriere machen will, sollte größer als 1,80 Meter sein, schlank und dunkelhaarig, verheiratet, aber kinderlos, und sich in der Freizeit am liebsten mit sich selbst beschäftigen.
+
+Wenn dieser Aufsteiger endlich an der Spitze der Firma angekommen ist, dann plagen ihn meist Angst und Ressentiments, geringes Selbstwertgefühl und ein unbändiges Bedürfnis nach Anerkennung. Das ist wissenschaftlich erwiesen. Na ja, zumindest sind das Ergebnisse von zwei Studien aus einer Unmenge von Untersuchungen zu der alles bewegenden Frage der Wettbewerbsgesellschaft: Wer kommt nach oben?
+
+Bei der Analyse des Aufstiegs einiger deutscher Topmanager wird deutlich, dass der Weg nach oben sehr unterschiedlich aussehen kann. Fest steht nur eins. Sie taten die richtigen Dinge. Für das Richtige aber gibt es keine allgemeingültige Regel. Dennoch müssen die Unternehmen aus einer Vielzahl des sich anbietenden Führungskräfte-Nachwuchses die Richtigen herausfinden. Aber wie?
+
+[&image: :https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_c1/web-resources/images/mann_an_pc.jpg]
+||todo:bit does not fit with image||
+
+Wenn der Marketing-Manager der Beiersdorf AG Holger Welters mit einem Bewerber für seine Firma spricht, dann schreckt ihn zum Beispiel ausgesprochenes Karrierebewusstsein ab. „In zehn Jahren will ich Ihren Posten“, der Kandidat mit diesem Spruch hatte verspielt. Welters schaut lieber darauf, ob der Nachwuchsmanager etwas Besonderes außerhalb des gewöhnlichen Studienganges geleistet hat. Ob er vielleicht ein Juniorenmeister im Tennis ist oder sich intensiv mit einem Hobby beschäftigt. Und ob der Student die Großleinwand für die WM-Party organisiert oder bloß zuguckt.
+
+Die üblichen Voraussetzungen er­füllen die Bewerber beim Nivea-Konzern ohnehin meistens – Universität oder Business-School, Auslandspraktika, flüssiges Englisch und zusätzliche Zertifikate.
+
+Die Personalchefs großer deutscher Unternehmen, so ergaben Befragungen des SPIEGEL, halten Examensnoten, Titel und schlichtes Fachwissen für wenig aussagekräftig. Nach dem Niedergang der ruppigen New Economy und dem Vertrauensschwund durch Betrugsmanöver geldgieriger Firmenbosse stieg wieder der Wert traditioneller Tugenden. „Menschliche Qualitäten werden bei Führungskräften immer stärker zum Erfolgsfaktor. Integrität, Respekt und Anstand sind grundlegend für die Zusammenarbeit“, meint Adolf M. Picard vom Otto-Versand. In den neuesten Umfragen gaben die Unternehmen der Sozialkompetenz den ersten Rang, statt Platz vier vor zwei Jahren.
+
+Auch bei den wichtigsten persönlichen Eigenschaften der Anwärter auf Spitzenpositionen fordern die Firmen vorrangig weiche Werte, sogenannte Soft Skills: Eigenmotivation, Teamfähigkeit, Lernbereitschaft und Kommunikationsstärke liegen weit vorn. Scheinbar typische Manager-Qualitäten wie Entscheidungsfreude, Durchsetzungs­ver­mögen, Karriereorientierung und Risikobereitschaft rangieren am Schluss.
+
+Allerdings reichen ausschließlich kommunikative und soziale Kompetenzen nicht, um sich zu profilieren. Sie werden zunehmend als Grundvoraussetzungen betrachtet. Wer Führungskraft werden will, muss auch „Macher-Eigenschaften“ wie Ergebnisorientierung und unternehmerisches Denken vorweisen. An der Spitze der „Erfolgsfaktoren“ steht jedoch das strategische, vernetzte Denken. Eine Studie der Boston Consulting Group kristallisierte vier Idealtypen heraus: den Analytiker, den Macher, den Integrator und den Erfinder, die meistens in Kombination gesucht sind.
+
+Besonders gefragt ist der „kluge Macher“, der strategisches Denken mit Unternehmergeist verbindet, der Nobelpreisträger mit dem Charakter von Mutter Teresa.
+||Anweisung angepasst ("Wählen Sie" anstatt "Markieren Sie"). Originalwortlaut: __Markieren Sie die richtige Antwort. Entscheiden Sie bei jeder Aussage: Steht das im Text? Ja oder nein? Wenn der Text dazu nichts sagt, markieren Sie X__||
+[=====b)]
+
+
+[.cloze-instruction-grouped]
+[%A16b]
+[!Ergänzen Sie die fehlenden Verben in der richtigen Form.]
+Die Unternehmen müssen aus vielen Nachwuchsführungskräften die Geeigneten [_herausfinden][!herausfinden][@example]. Der Marketing-Manager der Beiersdorf AG [_achtet][!achten] z. B. bei Bewerbungsgesprächen darauf, ob ein Kandidat neben dem Studium etwas Besonderes [_vorweisen][!vorweisen] kann. Natürlich müssen die Bewerber die üblichen Voraussetzungen wie Studium, fließendes Englisch und Auslandspraktika [_erfüllen][!erfüllen]. Umfragen [_zeigen][!zeigen], dass der Wert traditioneller Tugenden wie Integrität und Anstand in den letzten Jahren [_gestiegen][!steigen] ist. Teamfähigkeit und Lernbereitschaft [_liegen][!liegen] noch vor Karriereorientierung und Entscheidungsfreude. Doch kommunikative und soziale Kompetenzen allein [_reichen][!reichen] nicht, um [_aufzusteigen][!aufsteigen]. Zukünftige Führungskräfte sollten auch „Macher-Eigenschaften“ [_besitzen][!besitzen]. In der Beliebtheitsskala [_steht][!stehen] der „kluge Macher“, der strategisches, vernetztes Denken mit Unternehmergeist [_verbindet][!verbinden], ganz oben.
+[=====c)]
+
+
+[.cloze]
+[%A16c]
+[!Finden Sie den richtigen Artikel und das passende Adjektiv.]
+[_die][@example] Angst [_ängstlich][@example]
+
+1. [_der] Unterschied [_unterschiedlich]
+2. [_die] Richtigkeit [_richtig]
+3. [_das] Karrierebewusstsein [_karrierebewusst]
+4. [_die] Geldgier [_geldgierig]
+5. [_die] Menschlichkeit [_menschlich]
+6. [_die] Integrität [_integer]
+7. [_der] Anstand [_anständig]
+8. [_die] Sozialkompetenz [_sozialkompetent]
+9. [_die] Teamfähigkeit [_teamfähig]
+10. [_die] Lernbereitschaft [_lernbereit]
+11. [_die] Entscheidungsfreude [_entscheidungsfreudig]
+12. [_die] Ergebnisorientierung [_ergebnisorientiert]
+13. [_die] Klugheit [_klug]
+||TODO: Tbd: Übung als bitmark+, zwecks automatischer Nummerierung? Aufgrund der ein- und zweistelligen Nummerierung ergibt das sonst einen "Flattersatz".||
+[====A17]
+
+
+[.interview:bitmark--]
+[%A17]
+[!Befragen Sie eine Kursteilnehmerinnen / einen Kursteilnehmer und notieren Sie die Antworten. Fassen Sie im Anschluss die interessantesten Ergebnisse zusammen.]
+===
+**Name**[@shortAnswer]
+===
+In welchen Berufszweigen gibt es in Ihrem Heimatland die besten Verdienstmöglichkeiten und Karrierechancen?[@longAnswer] 
+===
+In welchen Berufen ist es schwierig, eine Stelle zu bekommen?[@longAnswer] 
+===
+Was spielt für Sie im Berufsleben/ bei der Berufswahl eine wichtige Rolle? (Gehalt, Karrieremöglichkeiten, Vereinbarkeit von Familie und Beruf, eine interessante Tätigkeit, Teamarbeit usw.)[@longAnswer] 
+===
+Können Sie Menschen verstehen, die um jeden Preis Karriere machen wollen?
+===
+||TODO: tbd: Instruktion angepasst. Bei Bedarf kann das Bit zweimal gepostet werden. Originalwortlaut: Befragen Sie zwei Kursteilnehmerinnen/Kursteilnehmer und notieren Sie die Antworten. Fassen Sie im Anschluss die interessantesten Ergebnisse zusammen||
+[====A18 Generation Y]
+
+
+[.interview:bitmark--&article:bitmark--]
+[%A18]
+||TBD: Instruktion anpassen ("Arbeiten Sie in Gruppen" etc.)?||
+||TBD: Optische Zweiteilung (Instruktion "Geben Sie..." + Text "Achten Sie...")?||
+[!Geben Sie die Ergebnisse einer repräsentativen Umfrage der Beratungsgesellschaft Ernst & Young wieder, indem Sie aus den vorgegebenen Wörtern Sätze formulieren.]
+Achten Sie auf eventuell fehlende Präpositionen, den richtigen Kasus und die in Klammern angegebene Zeitform/Form.
+Arbeiten Sie in Gruppen und teilen Sie die Sätze untereinander auf. Vergleichen Sie Ihre Ergebnisse danach mit anderen Kursteilnehmerinnen/Kursteilnehmern.
+===
+300 deutsche Studenten – ihre beruflichen Pläne und Hoffnungen – befragt werden __(Präteritum)__[@sampleSolution:300 deutsche Studenten wurden nach ihren beruflichen Plänen und Hoffnungen befragt.][@example:300 deutsche Studenten wurden nach ihren beruflichen Plänen und Hoffnungen befragt.][@shortAnswer]
+===
+1. die wichtigste Erkenntnis – die Studie – sein, – dass – die Vereinbarkeit – Familie und Beruf – die Studenten – oberste Priorität – haben[@sampleSolution:Die wichtigste Erkenntnis der Studie ist, dass die Vereinbarkeit von Familie und Beruf für die Studenten oberste Priorität hat.][@shortAnswer]
+===
+2. 73 Prozent – die Befragten – die Familie – wichtigster Wert – angeben[@sampleSolution:73 Prozent der Befragten geben die Familie als wichtigsten Wert an.][@shortAnswer]
+===
+3. das soziale Umfeld wie Freunde – 61 Prozent – eine besondere Stellung – ihr Leben – einräumen[@sampleSolution:Dem sozialen Umfeld wie Freunden räumen 61 Prozent eine besondere Stellung in ihrem Leben ein.][@shortAnswer]
+===
+4. 22 Prozent – heutige Studenten – der Lebensstandard – eine entscheidende Rolle – spielen[@sampleSolution:Für nur 22 Prozent der heutigen Studenten spielt der Lebensstandard eine entscheidende Rolle.][@shortAnswer]
+===
+5. beruflicher Aufstieg – nur 15 Prozent – die Umfrageteilnehmer – besonders wichtig sein[@sampleSolution:Beruflicher Aufstieg ist nur (für) 15 Prozent der Umfrageteilnehmer besonders wichtig.][@shortAnswer]
+===
+6. viele Firmen – inzwischen – der Wunsch – familienfreundliche Arbeitsbedingungen – sich einstellen __(Perfekt)__[@sampleSolution:Viele Firmen haben sich inzwischen auf den Wunsch nach familienfreundlichen Arbeitsbedingungen eingestellt.][@shortAnswer]
+===
+7. welche Branche und welche Hierarchieebene – die Familienfreundlichkeit – zutreffen, – die Untersuchung – nicht hervorgehen[@sampleSolution:Für welche Branche und welche Hierarchieebene Familienfreundlichkeit zutrifft, geht aus der Untersuchung nicht hervor.][@shortAnswer]
+===
+8. 83 Prozent – die Befragten – davon – überzeugt sein, – nach, ihr Studienabschluss – ein guter Job – finden[@sampleSolution:83 Prozent der Befragten sind davon überzeugt, nach ihrem Studienabschluss einen guten Job zu finden.][@shortAnswer]
+===
+9. diese Hoffnung – sich zu erfüllen scheinen, – denn – Studie des Hochschul-Informations-Systems (HIS) – 88 Prozent – die Hochschulabsolventen – wenige Jahre – nach, das Studienende – ein angemessener Beruf – finden
+[@sampleSolution:Diese Hoffnung scheint sich zu erfüllen, denn laut einer Studie des Hochschul-Informations-Systems (HIS) finden 88 Prozent der Hochschulabsolventen wenige Jahre nach (dem) Studienende einen angemessenen Beruf.][@shortAnswer]
+===
+10. die Wahl – ihr Studienfach – 92 Prozent – persönliches Interesse – sich leiten lassen[@sampleSolution:Bei der Wahl ihres Studienfachs lassen sich 92 Prozent von persönlichem Interesse leiten.][@shortAnswer]
+===
+11. nur – Wirtschaftswissenschaftler – das spätere Einkommen – Freude und Interesse am Studienfach – wichtiger sein[@sampleSolution:Nur für Wirtschaftswissenschaftler war das spätere Einkommen wichtiger als Freude und Interesse am Studienfach.][@shortAnswer]
+===
+12. Experten – meinen, – man – auf keinen Fall – ein Studienfach – erhoffte Karrierechancen – wählen sollen __(Konjunktiv II)__[@sampleSolution:Experten meinen, man sollte auf keinen Fall ein Studienfach nach erhofften Karrierechancen wählen.][@shortAnswer]
+===
+13. die jetzige Studentengeneration – auch – politisches Interesse – zeigen[@sampleSolution:Die jetzige Studentengeneration zeigt auch politisches Interesse.][@shortAnswer]
+===
+14. die überwiegende Mehrheit – der Schutz – die Menschenrechte – der Klima- und Umweltschutz – und – die soziale Gerechtigkeit – wichtige Ziele – sein[@sampleSolution:Für die überwiegende Mehrheit sind der Schutz der Menschenrechte, der Klima- und Umweltschutz und (die) soziale Gerechtigkeit wichtige Ziele.][@shortAnswer]
+===
+
+&&&
+**Generation Y**
+Die Existenz der Generation Y (ausgesprochen „why“) scheint bewiesen – zumindest angesichts aktueller Studien-Ergebnisse. Die Frage nach dem „why“ – warum – gilt als Grundhaltung dieser Generation: Warum Karriere? Warum Überstunden? Warum ein hohes Gehalt nur im Austausch gegen geringe Freizeit? Y stellt vieles in Frage. Klar erfassen lässt sich die Zugehörigkeit zur Generation Y nicht, allgemein zählen Soziologen die nach 1980 Geborenen dazu – also auch die heutigen Studenten.
+[====A19 Anforderungen an Beschäftigte]
+[=====a) Arbeiten bei Siemens]
+
+
+[.cloze-solution-grouped:bitmark++&image]
+[%A19a]
+[!Lesen Sie den folgenden Text aus einer Siemens-Werbebroschüre und ergänzen Sie die fehlenden Informationen in der richtigen Form.]
+**1**
+**Unsere Welt von morgen braucht Antworten schon heute.**
+Um Antworten auf die [_drängenden Fragen unserer Zeit][@example] zu finden, brauchen wir Menschen, die sich trauen, diese zu stellen. Offene, neugierige Menschen, die ein [_umfassendes Verständnis von der Welt] haben, in der wir leben. Engagierte Menschen, die entschlossen sind, Antworten zu finden. Genau wie die 343 000 Mitarbeiter von Siemens weltweit. Wenn auch Sie den Mut zu großen Fragen haben, dann ist Siemens [_der perfekte Arbeitgeber] für Sie – egal, ob Sie mitten im [_Berufsleben] stehen oder erst starten wollen.
+
+**2**
+**Lebenslanges Lernen und Weiterentwicklung fördern ist die Voraussetzung für Erfolg und Fortschritt.**
+Wir bauen auf eine aktive motivierende Führung und fördern [_fachliche sowie persönliche Kompetenzen] über die gesamte Laufbahn. Anspruchsvolle Aus- und Weiterbildungsprogramme helfen uns dabei. Und das fängt schon ganz am Anfang an.
+
+**3**
+**Als Unternehmen sind wir ständig bemüht, unsere Leistungen zu verbessern. Erfolge honorieren wir nicht nur mit Worten.**
+Die Vergütung bei Siemens ist auf die Geschäftsstrategie abgestimmt. Leistung von Mitarbeitern honorieren wir konsequent. So stellen wir sicher, dass unsere [_strategischen Ziele] erreicht werden.
+
+**4**
+**Diversity bedeutet Geschäftserfolg.**
+Als Global Player brauchen wir hervorragende Mitarbeiter-Teams mit [_breit gefächerten Stärken] und Kompetenzen.
+
+**5**
+**Verantwortungsvoll, exzellent und innovativ zu sein: Diese Ansprüche stellen wir an uns und unsere Arbeit.**
+Hierbei lassen wir uns vom Prinzip der Nachhaltigkeit leiten – in ökologischer, wirtschaftlicher und [_gesellschaftlich-sozialer Hinsicht].
+[&image: :https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_c1/web-resources/images/herrsiemens.jpg]
+**6**
+**Flexibler Arbeitgeber – flexible Mitarbeiter**
+Als attraktiver Arbeitgeber berücksichtigen wir flexibel die [_verschiedenen Lebensphasen] und die vielseitigen Anforderungen der Mitarbeiter. Wir unterstützen unsere Mitarbeiter bei der [_Vereinbarkeit von Familie und Beruf], und sorgen für ein exzellentes Arbeitsumfeld mit flexiblen Arbeitsbedingungen.
+
+**7**
+**Wer hilft mir, das Beste aus meinem Talent zu machen? Finden Sie’s heraus.**
+Technologien bringen uns auf der Suche nach Antworten weiter. Für [_motivierte und engagierte Talente ] vorzugsweise aus den Bereichen Elektrotechnik, Informatik, Maschinenbau, Physik, Wirtschaftswissenschaften, Wirtschaftsingenieurwesen und Wirtschaftsinformatik eröffnen sich dabei spannende Perspektiven. Je nachdem, wie Ihr Studienabschluss und Ihre [_weiteren Ziele] aussehen, aus welchem Fach Sie kommen und wohin Sie möchten, bieten wir Ihnen [_vielfältige Möglichkeiten], Ihre Wünsche in die Tat umzusetzen. Ihnen stehen verschiedene Wege für [_einen erfolgreichen Einstieg] bei Siemens offen: Wählen Sie den Direkteinstieg, entscheiden Sie sich für eines unserer Traineeprogramme oder promovieren Sie mit uns – wir freuen uns auf Sie!
+||TBD: Instruktion wurde angepasst. Originalwortlaut "Lesen Sie den folgenden Text aus einer Siemens-Werbebroschüre und ergänzen Sie die fehlenden Informationen in der richtigen Form. Arbeiten Sie zu zweit."||
+||Layout Nummerierung?||
+[=====b)]
+
+
+[.match]
+[%A19b]
+[! Hier ist einiges durcheinander geraten. Ordnen Sie die richtigen Adjektive zu. Orientieren Sie sich inhaltlich am Text.]
+===
+umfassende Fragen
+==
+drängende[@example][!Fragen]
+===
+1. fachliche Menschen
+==
+neugierige Menschen[!Menschen]
+===
+2. anspruchsvolles Verständnis von der Welt
+==
+umfassendes Verständnis[!Verständnis]
+===
+3. spannende Kompetenzen
+==
+fachliche Kompetenzen[!Kompetenzen]
+===
+4. neugierige Weiterbildungsprogramme
+==
+anspruchsvolle Weiterbildungsprogramme[!Weiterbildungsprogramme]
+===
+5. drängende Ziele
+==
+strategische Ziele[!Ziele]
+===
+||TODO: Verbindung zu a) noch herstellen und Instruktion entsprechend anpassen
+[.cloze] would be maybe better?||
+[=====c)]
+
+
+[.interview]
+[%A19c]
+[!Bilden Sie Sätze für Arbeitsanforderungen. Orientieren Sie sich am Beispiel.]
+===
+ein abgeschlossenes Studium – vorweisen können[@exampleSolution:Sie können ein abgeschlossenes Studium vorweisen.][@example:Sie können ein abgeschlossenes Studium vorweisen.][@shortAnswer]
+===
+1. bereits drei Jahre – einschlägige Berufserfahrungen – sammeln[@exampleSolution:Sie haben bereits drei Jahre einschlägige Berufserfahrungen gesammelt.][@shortAnswer]
+===
+2. fundiertes Wissen – Bereich Prozesssteuerung – verfügen[@exampleSolution:Sie verfügen über fundiertes Wissen im Bereich (der) Prozesssteuerung.][@shortAnswer]
+===
+3. Betreuung von Firmenkunden und Präsentationstechniken – versiert sein[@exampleSolution:Sie sind in der Betreuung von Firmenkunden und Präsentationstechniken versiert.][@shortAnswer]
+===
+4. Erfahrungen – Projektmanagement – besitzen[@exampleSolution:Sie besitzen Erfahrungen im Projektmanagement.][@shortAnswer]
+===
+5. ausgeprägtes organisatorisches Talent und sehr gute kommunikative Fähigkeiten – haben[@exampleSolution:Sie haben ein ausgeprägtes organisatorisches Talent und sehr gute kommunikative Fähigkeiten.][@shortAnswer]
+===
+6. verhandlungssicheres Deutsch und Englisch – sprechen[@exampleSolution:Sie sprechen verhandlungssicheres Deutsch und Englisch.][@shortAnswer]
+===
+
+[=====d) Berichten Sie.]
+
+
+[.essay]
+[%A19d-1]
+[!Welche Kriterien waren ausschlaggebend für Ihre Berufs- bzw. Studienfachwahl?]
+
+
+[.essay]
+[%A19d-2]
+[!Welche Anforderungen muss jemand erfüllen, der sich um Ihre Stelle bzw. Ihre Traumstelle bewerben will?]
+[====A20 Vorsicht im neuen Job!]
+[=====a)
+
+
+[.essay]
+[%A20a]
+[!Welche Fehler kann man machen, wenn man eine neue Stelle antritt? Erarbeiten Sie in Gruppen eine Fehlerliste.]
+[=====b)]
+
+
+[.assignment:bitmark--]
+[%A20b]
+[!Lesen Sie den folgenden Text]
+**Vorsicht im neuen Job!**
+
+Wer eine neue Stelle antritt, muss einiges beachten, sonst gefährdet er schnell seine Karrierechancen. Zur Vorbereitung gehört es, sich umfassend über das Unternehmen und die Branche zu informieren. Am Anfang sollte der neue Mitarbeiter seine Umgebung erst einmal beobachten. In jedem Unternehmen gibt es Schlüsselfiguren, deren informelle Macht erst nach einiger Zeit zu erkennen ist. Es gilt also, das versteckte Machtge­füge zu durchschauen. In der Kleidungsfrage ist es ratsam, auf die Kleiderordnung im Unter­nehmen zu achten.
+
+Freundlich und abwartend sollte der Neuling sein, aber nicht zu freundlich, das wirkt anbiedernd. Wer sofort sein Privatleben ausbreitet, muss mit unangenehmen Folgen rechnen. Lästereien über den alten Arbeitgeber sind ebenfalls tabu. Über Hobbys und andere unverfängliche Dinge darf natürlich gesprochen werden.
+Von großer Bedeutung sind Gespräche über Konzepte, Strategien und Zielvereinbarungen mit dem Vorgesetzten. Der neue Mitarbeiter muss wissen, was von ihm erwartet wird. Finden solche Gespräche nicht statt, müssen sie eingefordert werden, denn wer „ins Blaue hinein“ agiert, macht automatisch Fehler. Entwickelt der neue Mitarbeiter eigene Ideen, sollte er sie gewiss nicht verschweigen, jedoch mit Vorsicht anbringen. Auch moderate Neueinsteiger verspüren oft Gegenwind – Widerstand gegen Neues ist menschlich. Doch der Neuling darf sich auch nicht zum Jasager umerziehen lassen, schließlich stellen Arbeitgeber junge Mitarbeiter auch ein, um frischen Wind in die Firma zu bringen.
+
+Nach drei Monaten hat sich der neue Mitarbeiter meist einen Überblick verschafft, doch bis er in das Unternehmen integriert ist, können sechs Monate vergehen.
+[====A21 Textarbeit]
+[=====a)]
+
+
+[.true-false&article:bitmark--]
+[%A21a]
+[!Sind die folgenden Aussagen richtig oder falsch? Kreuzen Sie an.] 
+Der neue Mitarbeiter sollte ...
+[-1. sich immer gut anziehen.] 
+[-2. sich sofort im Unternehmen Freunde suchen.]
+[+3. sich mit Kritik zurückhalten.]
+[-4. möglichst schlecht über seinen früheren Arbeitgeber reden.]
+[+5. das Gespräch mit seinem Vorgesetzten über Arbeitsinhalte und Ziele suchen.]
+[-6. sein Selbstbewusstsein demonstrieren.]
+[+7. Ideen vorsichtig einbringen.]
+[+8. nicht überfreundlich sein.]
+&&&
+**Vorsicht im neuen Job!**
+
+Wer eine neue Stelle antritt, muss einiges beachten, sonst gefährdet er schnell seine Karrierechancen. Zur Vorbereitung gehört es, sich umfassend über das Unternehmen und die Branche zu informieren. Am Anfang sollte der neue Mitarbeiter seine Umgebung erst einmal beobachten. In jedem Unternehmen gibt es Schlüsselfiguren, deren informelle Macht erst nach einiger Zeit zu erkennen ist. Es gilt also, das versteckte Machtge­füge zu durchschauen. In der Kleidungsfrage ist es ratsam, auf die Kleiderordnung im Unter­nehmen zu achten.
+
+Freundlich und abwartend sollte der Neuling sein, aber nicht zu freundlich, das wirkt anbiedernd. Wer sofort sein Privatleben ausbreitet, muss mit unangenehmen Folgen rechnen. Lästereien über den alten Arbeitgeber sind ebenfalls tabu. Über Hobbys und andere unverfängliche Dinge darf natürlich gesprochen werden.
+Von großer Bedeutung sind Gespräche über Konzepte, Strategien und Zielvereinbarungen mit dem Vorgesetzten. Der neue Mitarbeiter muss wissen, was von ihm erwartet wird. Finden solche Gespräche nicht statt, müssen sie eingefordert werden, denn wer „ins Blaue hinein“ agiert, macht automatisch Fehler. Entwickelt der neue Mitarbeiter eigene Ideen, sollte er sie gewiss nicht verschweigen, jedoch mit Vorsicht anbringen. Auch moderate Neueinsteiger verspüren oft Gegenwind – Widerstand gegen Neues ist menschlich. Doch der Neuling darf sich auch nicht zum Jasager umerziehen lassen, schließlich stellen Arbeitgeber junge Mitarbeiter auch ein, um frischen Wind in die Firma zu bringen.
+
+Nach drei Monaten hat sich der neue Mitarbeiter meist einen Überblick verschafft, doch bis er in das Unternehmen integriert ist, können sechs Monate vergehen.
+[=====b)]
+
+
+[.match-solution-grouped]
+[%A21b]
+[!Ordnen Sie zu.]
+===
+1. Lästereien
+==
+negative Äußerungen
+===
+2. über unverfängliche Dinge sprechen
+==
+harmlose
+===
+3. ins Blaue hinein agieren
+==
+planlos
+===
+4. moderate Neueinsteiger
+==
+vorsichtig
+===
+5. Jasager
+==
+jemand, der nicht widerspricht
+===
+6. frischen Wind in die Firma bringen
+==
+neue Ideen
+===
+||todo: would cloze be better?||
+[=====c)]
+
+
+[.essay]
+[%A21c]
+[!Formulieren Sie anhand der Aussagen des Textes mindestens fünf Empfehlungen für neue Mitarbeiter.]
+[=====d)]
+
+
+[.essay:bitmark--]
+[%A21d]
+[!Berichten Sie. Was sollte man in Ihrer Firma/in Ihrem Heimatland unbedingt in den ersten Arbeitswochen beachten?]
+[====A22]
+
+
+[.interview:bitmark--&article]
+[%A22]
+[!Max Müller hat vor einem halben Jahr seinen ersten Job bekommen. Er hat die Probezeit von sechs Monaten nicht überstanden.
+Sagen Sie, was er alles (nicht) hätte tun sollen. Formulieren Sie Sätze wie im Beispiel.]
+**Empfehlung:** Er sollte ...
+**Nachträgliche Empfehlung/Kritik:** Er hätte ... sollen
+===
+Max hat nicht auf sein Äußeres geachtet.[@example:Er hätte auf sein Äußeres achten sollen.][@shortAnswer][@sampleSolution:Er hätte auf sein Äußeres achten sollen.]
+===
+1. Max hat gleich am Anfang alle Kollegen kritisiert.[@shortAnswer][@sampleSolution:Er hätte sich mit seiner Kritik zurückhalten sollen.
+Er hätte seine Kritik vorsichtiger anbringen sollen.
+Er hätte seine Kritik vorsichtiger äußern sollen.]
+===
+2. Max hat ausführlich über seine privaten Probleme gesprochen.[@shortAnswer][@sampleSolution:Er hätte nicht über seine privaten Probleme sprechen sollen.]
+===
+3. Max hat mit dem Chef kein Gespräch über Arbeitsinhalte geführt. [@shortAnswer][@sampleSolution:Er hätte mit dem Chef ein Gespräch über Arbeitsinhalte führen sollen.]
+===
+4. Max hat gleich jedem erzählt, dass er Karriere machen will.[@shortAnswer][@sampleSolution:Max hätte nicht jedem erzählen sollen, dass er Karriere machen will. / Er hätte darüber schweigen sollen.]
+===
+5. Max hat die Machtstrukturen in der Firma ignoriert.[@shortAnswer][@sampleSolution:Er hätte die Machtstrukturen in der Firma erkennen sollen. / Er hätte die Machtstrukturen in der Firma nicht ignorieren sollen]
+===
+
+&&&
+['Zusatzübungen zur nachträglichen Kritik und zum Konjunktiv II][►TeilC_p89]
+||TODO: Anchor erstellen||
+[====A23 Rollenspiele: Arbeit und Beruf]
+
+
+[.assignment:bitmark--&article:bitmark++]
+[%A23.1]
+[!Üben Sie zu zweit. Bereiten Sie sich auf Ihre Rolle vor und spielen Sie dann das Gespräch mit Ihrer Partnerin/Ihrem Partner.]
+
+**Sekretärin/Officemanager – Abteilungsleiter(in)**
+
+Sie sind Sekretärin/Officemanager und haben in den letzten Monaten so viele Arbeitsaufträge bekommen, dass Sie die Arbeit nicht mehr bewältigen. Führen Sie ein Gespräch mit der Abteilungsleiterin/dem Abteilungsleiter und beschreiben Sie die Situation. Unterbreiten Sie auch Lösungsvorschläge.
+&&&
+==Die eigene Meinung ausdrücken==
+* Meiner Meinung nach/Meines Erachtens …
+* Ich bin der Auffassung/Meinung/Überzeugung, dass …
+* Ich bin davon überzeugt/Ich bin mir sicher, dass …
+
+==Jemandem zustimmen==
+* Damit bin ich einverstanden.
+* Das ist ein guter/akzeptabler Vorschlag.
+* Das entspricht auch meiner Erfahrung.
+
+==Vorschläge unterbreiten/Lösungen anbieten==
+* Ich schlage vor, dass …/Wir sollten …
+* Was halten Sie davon, wenn …
+* Vielleicht wäre es eine Lösung, wenn …
+* Ich sehe für das Problem nur eine Lösung: …
+* Vielleicht können wir uns darauf einigen, dass …
+
+==Jemandem widersprechen/Zweifel anmelden==
+* Ich glaube eher, dass …
+* Ich kann mir nicht vorstellen, dass …
+* Ich befürchte/bezweifle, dass …
+* Wäre es nicht besser, wenn …?
+
+
+[.assignment:bitmark--&article:bitmark+]
+[%A23.2]
+[!Üben Sie zu zweit. Bereiten Sie sich auf Ihre Rolle vor und spielen Sie dann das Gespräch mit Ihrer Partnerin/Ihrem Partner.]
+
+**Personalvertreter(in) – Direktor(in)**
+
+Die Direktion der Firma hat aufgrund der Wirtschaftslage einige Veränderungen beschlossen, um eine Reihe von Ausgaben einzusparen. Die Arbeitszeiten der Mitarbeiter werden um 30 Minuten pro Woche verlängert, ohne Lohnausgleich. Private Telefonate und die private Nutzung des Internets werden verboten. Der jährliche Betriebsausflug wird gestrichen. Das Weihnachtsgeld wird halbiert. Sie sind Personalvertreter(in) und mit den Maßnahmen nicht einverstanden. Führen Sie ein Gespräch mit der Direktorin/dem Direktor und versuchen Sie, einige Beschlüsse wieder rückgängig zu machen.
+&&&
+==Die eigene Meinung ausdrücken==
+* Meiner Meinung nach/Meines Erachtens …
+* Ich bin der Auffassung/Meinung/Überzeugung, dass …
+* Ich bin davon überzeugt/Ich bin mir sicher, dass …
+
+==Jemandem zustimmen==
+* Damit bin ich einverstanden.
+* Das ist ein guter/akzeptabler Vorschlag.
+* Das entspricht auch meiner Erfahrung.
+
+==Vorschläge unterbreiten/Lösungen anbieten==
+* Ich schlage vor, dass …/Wir sollten …
+* Was halten Sie davon, wenn …
+* Vielleicht wäre es eine Lösung, wenn …
+* Ich sehe für das Problem nur eine Lösung: …
+* Vielleicht können wir uns darauf einigen, dass …
+
+==Jemandem widersprechen/Zweifel anmelden==
+* Ich glaube eher, dass …
+* Ich kann mir nicht vorstellen, dass …
+* Ich befürchte/bezweifle, dass …
+* Wäre es nicht besser, wenn …?
+
+
+[.assignment:bitmark--&article:bitmark+]
+[%A23.3]
+[!Üben Sie zu zweit. Bereiten Sie sich auf Ihre Rolle vor und spielen Sie dann das Gespräch mit Ihrer Partnerin/Ihrem Partner.]
+
+**neuer Mitarbeiter/neue Mitarbeiterin – Abteilungsleiter(in)**
+
+Sie arbeiten seit zwei Monaten in der Firma und hatten in der ersten Woche nur ein kurzes Gespräch mit dem Abteilungsleiter/der Abteilungsleiterin. Seitdem arbeiten Sie sozusagen ins Blaue hinein, denn Sie wissen noch nicht einmal, was Ihre genauen Aufgaben sind. Bis jetzt beantworten Sie nur Telefonate und E-Mails, an wichtigen Sitzungen nehmen Sie (noch) nicht teil. Suchen Sie das Gespräch mit Ihrem/Ihrer Vorgesetzten. Schildern Sie die Situation und erkundigen Sie sich nach Strategien und Zielvereinbarungen sowie Ihrer Rolle im Team.
+&&&
+==Die eigene Meinung ausdrücken==
+* Meiner Meinung nach/Meines Erachtens …
+* Ich bin der Auffassung/Meinung/Überzeugung, dass …
+* Ich bin davon überzeugt/Ich bin mir sicher, dass …
+
+==Jemandem zustimmen==
+* Damit bin ich einverstanden.
+* Das ist ein guter/akzeptabler Vorschlag.
+* Das entspricht auch meiner Erfahrung.
+
+==Vorschläge unterbreiten/Lösungen anbieten==
+* Ich schlage vor, dass …/Wir sollten …
+* Was halten Sie davon, wenn …
+* Vielleicht wäre es eine Lösung, wenn …
+* Ich sehe für das Problem nur eine Lösung: …
+* Vielleicht können wir uns darauf einigen, dass …
+
+==Jemandem widersprechen/Zweifel anmelden==
+* Ich glaube eher, dass …
+* Ich kann mir nicht vorstellen, dass …
+* Ich befürchte/bezweifle, dass …
+* Wäre es nicht besser, wenn …?
+[====A24 Schriftlicher Ausdruck: Zufriedenheit im Job]
+
+
+[.essay&article:bitmark++&image]
+[%A24] 
+[!Schreiben Sie einen Text zum Thema Zufrieden im Job.
+Schreiben Sie ungefähr 200 Wörter, nehmen Sie sich dafür 60 Minuten Zeit.]
+Äußern Sie sich zu folgenden Punkten:
+* Welche Informationen entnehmen Sie der Grafik?
+* Wie würde die Umfrage in Ihrem Heimatland aussehen?
+* Was sind für Sie selbst die wichtigsten Kriterien?
+* Was würde Sie im Arbeitsumfeld am meisten stören?
+||TODO:@longAnswer||
+&&&
+[&image: :https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_c1/web-resources/images/a24.png]
+[&image: :https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_c1/web-resources/images/frau_m_ller.png]
+[===Die Kunst des Scheiterns]
+
+[====A25]
+[=====a)]
+
+
+[.essay&image]
+[&image: :https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_c1/web-resources/images/daumenrunter.jpg]
+[%A25]
+[!Was fällt Ihnen ein, wenn Sie das Wort Misserfolg hören?]
+[====A26]
+
+
+[.cloze-instruction-grouped:bitmark--&article:bitmark--]
+[%A26a]
+[!Hier haben einige Leute etwas nicht richtig gemacht. Ergänzen Sie die passenden Verben mit dem Präfix __ver__.]
+Hier steht „mogen“ statt morgen. Du hast dich da [_verschrieben][!verschreiben][@example].
+1. Cornelius hätte Direktor werden können, aber mit dem gescheiterten Projekt hat er seine Chancen [_verspielt][!verspielen].
+2. Der Nachrichtensprecher hat sich gestern mehrmals [_versprochen][!versprechen].
+3. Die Kunden müssten schon lange hier sein, wo bleiben die nur? – Vielleicht haben sie sich [_verfahren][!verfahren]
+4. Anna ist todunglücklich. Sie war so aufgeregt, dass sie das Vorsprechen für die Filmrolle [_vergeigt][!vergeigen __(umg.)__] / [_vermasselt][!vermasseln __(umg.)__] hat.
+5. Hat Paul wirklich gesagt, er kommt um drei? Hast du dich vielleicht [_verhört][!verhören]?
+6. Die Zahlen stimmen schon wieder nicht. Du hast dich zweimal [_verrechnet][!verrechnen].
+&&&
+Verben mit den nicht trennbaren Präfixen __ver-, zer-__ und _miss-__ bezeichnen oft Ereignisse oder Vorgänge, bei denen ein Fehler passiert, etwas schiefläuft oder kaputtgeht.
+[=====b)]
+
+
+[.multiple-choice-text:bitmark--&article:bitmark--]
+[%A26b]
+[!Verben mit __zer-__. Was kann man miteinander kombinieren? Ordnen Sie zu.]
+eine Schere [+zerschneidet][-zermürbt][-zerfällt][-zerreißt][-zerplatzt][-zerbricht][-zerstört][@example] [+Papier][-leicht][-die Rechnung][-wie eine Seifenblase][-ganze Städte][-die Teilnehmer][-langsam][@example]
+ein Traum [-zerschneidet][-zermürbt][-zerfällt][-zerreißt][+zerplatzt][-zerbricht][-zerstört] [-Papier][-leicht][-die Rechnung][+wie eine Seifenblase][-ganze Städte][-die Teilnehmer][-langsam]
+eine lange Sitzung [-zerschneidet][+zermürbt][-zerfällt][-zerreißt][-zerplatzt][-zerbricht][-zerstört] [-Papier][-leicht][-die Rechnung][-wie eine Seifenblase][-ganze Städte][+die Teilnehmer][-langsam]
+dieses Glas [-zerschneidet][-zermürbt][-zerfällt][-zerreißt][-zerplatzt][+zerbricht][-zerstört] [-Papier][+leicht][-die Rechnung][-wie eine Seifenblase][-ganze Städte][-die Teilnehmer][-langsam]
+ein altes Haus [-zerschneidet][-zermürbt][+zerfällt][-zerreißt][-zerplatzt][-zerbricht][-zerstört] [-Papier][-leicht][-die Rechnung][-wie eine Seifenblase][-ganze Städte][-die Teilnehmer][+langsam]
+ein Tornado [-zerschneidet][-zermürbt][-zerfällt][-zerreißt][-zerplatzt][-zerbricht][+zerstört] [-Papier][-leicht][-die Rechnung][-wie eine Seifenblase][+ganze Städte][-die Teilnehmer][-langsam]
+der wütende Kunde [-zerschneidet][-zermürbt][-zerfällt][+zerreißt][-zerplatzt][-zerbricht][-zerstört] [-Papier][-leicht][+die Rechnung][-wie eine Seifenblase][-ganze Städte][-die Teilnehmer][-langsam]
+&&&
+Verben mit den nicht trennbaren Präfixen __ver-, zer-__ und __miss-__ bezeichnen oft Ereignisse oder Vorgänge, bei denen ein Fehler passiert, etwas schiefläuft oder kaputtgeht.
+[=====c)]
+
+
+[.cloze-instruction-grouped:bitmark--&article:bitmark--]
+[%A26c]
+[!Welches Verb passt? Ergänzen Sie Verben mit __miss-.__]
+1. Die Kollegen [_missbilligen][!missbilligen] die Vorschläge zur Verlängerung der Arbeitszeit.
+2. Wir halten nicht viel vom Geschäftsgebaren der Konkurrenz. Es [_missfällt][!missfallen] uns.
+3. Die Vorschriften werden von einigen Mitarbeitern [_missachtet][!missachten].
+4. Die Mitarbeiter haben kein Vertrauen in die neue Geschäftsleitung. Sie [_misstrauen][!misstrauen] ihr.
+5. Der Versuch war nicht erfolgreich. Er ist [_misstrauen][!misstrauen] / [_missglückt][!missglücken].
+6. Ich dachte, wir hätten etwas anderes vereinbart. - Dann haben wir uns wohl [_missverstanden][!missverstehen]
+&&&
+Verben mit den nicht trennbaren Präfixen __ver-, zer-__ und __miss-__ bezeichnen oft Ereignisse oder Vorgänge, bei denen ein Fehler passiert, etwas schiefläuft oder kaputtgeht.
+[====A27]
+[=====a)]
+
+
+[.interview&audio]
+[%A27a]
+[&audio::https://docs.bitbook.education/bit-books/schubert_erkundungen_c1/web-resources/audio/06_erkundungen_c1.mp3]
+[!Hören Sie Teil 1 und beantworten Sie die folgenden Fragen in Stichworten. Lesen Sie zuerst die Fragen.]
+
+===
+1a) Welche Rolle spielt das Scheitern in der Kunst?[@example:Es ist eines der wichtigsten Themen. Verlierer sind oft die Hauptpersonen. Die Kunst kann ohne das Scheitern gar nicht leben.][@shortAnswer]
+===
+1b) Welche Rolle spielt das Scheitern in der Gesellschaft?[@sampleSolution:Es ist ein Tabu./Es wird aus unserem Leben ausgeblendet./Misserfolge werden nicht erwähnt.][@shortAnswer]
+===
+2. Welche Beispiele werden für das Scheitern angeführt? Nennen Sie zwei davon.[@sampleSolution:schlechte Zensuren zu bekommen/an einer Universität nicht angenommen zu werden/nicht den richtigen Partner zu finden/ein Projekt in den Sand zu setzen/arbeitslos zu werden][@shortAnswer]
+===
+3. Worauf legt unsere heutige Gesellschaft Wert?[@sampleSolution:auf Erfolge][@shortAnswer]
+===
+4. Wie steht die Gesellschaft zum Misserfolg?[@sampleSolution:Die Gesellschaft kann damit nicht umgehen./Es gibt keine Verliererkultur./Verlieren macht einsam.][@shortAnswer]
+===
+[=====b)]
+
+
+[.multiple-choice-text&audio]
+[%A27b]
+[&audio: :https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_c1/web-resources/audio/06_erkundungen_c1.mp3]
+[!Hören Sie jetzt Teil 2. Wählen Sie während des Hörens oder danach die richtige Lösung. Hören Sie im Anschluss daran den Dialog zum zweiten Mal und überprüfen Sie Ihre Antworten. Lesen Sie zuerst die Aussagen.]
+[&audio...]
+1. Untersuchungen belegen,[+dass 90 Prozent der Projektteams scheitern, die sich auf veränderte Situationen einstellen müssen.][-dass 26 Prozent der Projektteams scheitern, die etwas Neues schaffen sollen.][-dass 90 Prozent aller Projektteams scheitern, die versuchen, Prozesse zu optimieren.]
+2. Für die Arbeit in Projektteams[-sind risikofreudige Mitarbeiter am geeignetsten.][+ist das richtige Verhältnis von erfahrenen und risikofreudigen Mitarbeitern von Bedeutung.][-ist der Konkurrenzkampf zwischen erfahrenen und risikofreudigen Mitarbeitern sehr förderlich.]
+3. Aus Misserfolgen[-kann man in jedem Fall etwas lernen.][-muss man in jedem Fall etwas lernen.][+kann man nur etwas lernen, wenn man etwas lernen will.]
+4. Emotionale Betroffenheit[-führt im Falle von Misserfolg zu Depressionen.][+ist eine wichtige Voraussetzung, um aus Fehlern zu lernen.][-sollte bei Projekten absolut keine Rolle spielen.]
+5. Um einen positiven Umgang der Mitarbeiter mit dem Scheitern zu fördern, sollten die Betriebe[-die Mitarbeiter zur Verantwortung ziehen.][+die Mitarbeiter im Umgang mit Misserfolgen trainieren.][-Misserfolge nicht so ernst nehmen.]
+6. Ansätze, das Scheitern aus der Tabuzone zu holen,[-gibt es noch nicht.][-gibt es im Bereich der Kunst.][+gibt es auf künstlerischem und wissenschaftlichem Gebiet.]
+7. Neueste wissenschaftliche Arbeiten sehen[+a) den richtigen Umgang mit Niederlagen als menschliche Stärke.][-b) Niederlagen als Fitnessprogramm für den Körper.][-c) die Krise als wachsenden Druck auf den Menschen.]
+8.	Die Einstellung, Misserfolge müssten unbedingt vermieden werden,[-lässt die Krise gar nicht erst entstehen.][+verhindert einen positiven Umgang mit dem Scheitern und somit den Lernerfolg.][-verhindert Depressionen und Passivität.]
+||Instruktion wurde angepasst. Originalwortlaut: Hören Sie jetzt Teil 2. Markieren Sie... (anstatt "Wählen Sie...")
+maybe multiple bits of multiple-choice?
+also there cannot be multipe audio files in one bit||
+[====A28]
+[=====a)]
+
+
+[.essay]
+[%A28a]
+[!Berichten Sie. Wie geht man mit Misserfolgen in Ihrem Heimatland um (z. B. in der Politik/in Betrieben/im Privatleben)? Nennen Sie einige Beispiele.]
+[====A28]
+[=====b)]
+
+
+[.cloze-solution-grouped]
+[%A28b]
+[!Ergänzen Sie die fehlenden Nomen in der richtigen Form.]
+In Romanen und Filmen ist das Scheitern eines der wichtigsten Themen. [_Kunst][!Kunst][@example] kann ohne das Scheitern ihrer Protagonisten eigentlich gar nicht leben. Anders verhält es sich im [_ Alltagsleben]. Das Versagen ist in unserer Gesellschaft kein Thema, es ist tatsächlich ein [_Tabu]. Es wird aus unserem Leben ausgeblendet. Ein Misserfolg oder [_Karriereknick] wird nicht erwähnt. Mit [_Verlierern] zeigt man sich nicht gern, so als ob das Verlieren ansteckend wäre.
+Dabei ist Scheitern im Grunde genommen eine [_Zensuren], die jeder Mensch macht – auf unterschiedliche Weise. Scheitern kann heißen, als Schüler schlechte [_Zensuren] zu bekommen oder ein Projekt in den Sand zu setzen. Für jeden zerplatzt mal ein [_Traum] oder ein [_Plan] muss verworfen werden, weil er unrealisierbar ist. Doch in unserer Gesellschaft zählen nur die [_Erfolge]. Unmengen von Sachbüchern geben [_Ratschläge], wie man erfolgreich dies und das macht. Über das Scheitern und den richtigen [_Umgang] damit erfährt man in Ratgebern nichts. Es gibt in unserer Gesellschaft keine Verliererkultur.
+Aus Untersuchungen geht hervor, dass die [_Misserfolgsquote] vor allem bei Projektarbeit sehr hoch ist. Betriebe können einen positiven Umgang ihrer Mitarbeiter mit dem Scheitern fördern, indem sie ihren Mitarbeitern beibringen, nach Misserfolgen [_Verantwortung] zu übernehmen und [_Fehleranalyse] zu betreiben, um aus den Fehlern zu lernen.
+[====A29 Schriftliche Stellungnahme]
+
+
+[.interview]
+[%A29]
+[!Nehmen Sie zu einem der beiden Themen Stellung.]
+Schreiben Sie einen Text von ca. 200 Wörtern.
+===
+1. „Einmal versuchen, scheitern. Wieder versuchen, wieder scheitern. Besser scheitern.“ (Samuel Beckett)[@longAnswer]
+===
+2. „Sorge dich nicht – lebe!“ ist ein Buchtitel von Dale Carnegie. Können Ihrer Meinung nach Bücher oder Zeitschriften mit guten Ratschlägen Lesern helfen, erfolgreichere Menschen zu werden?[@longAnswer]
+===
+||todo: maybe only one text bracket would be enough||
+[====A30 Der Pressluftbohrer und das Ei]
+[=====a)]
+[=====b)]
+
+
+[.interview&article:bitmark--]
+[%A30]
+[!Lesen Sie die folgende Kurzgeschichte des Schweizer Autors Franz Hohler und beantworten Sie die Fragen.]
+===
+Worum geht es in der Geschichte?
+===
+Hätten Sie ein anderes Ende erwartet?
+===
+&&&
+**Der Pressluftbohrer und das Ei**
+
+Ein Pressluftbohrer und ein Ei stritten sich einmal, wer von ihnen der stärkere sei.
+„Natürlich ich!“, ['renommierte][?renommieren = prahlen] der Pressluftbohrer. „Ha!“, krächzte das Ei, ich bin viel stärker.“
+Der Pressluftbohrer zuckte ['überlegen][?überlegen = jemand ist in bestimmter Hinsicht besser als ein anderer] die Achseln: „Wie du meinst. Ich bohre dich in tausend Stücke.“ „Und ich schlage dir den Schädel ein!“, quietschte das Ei.
+„Ei, du dummes Ding“, sagte der Pressluftbohrer und schüttelte den Kopf, „wie soll das zugehen?“ „Wirst schon sehen“, prahlte das Ei und ['warf sich in die Brust][?sich in die Brust werfen = Redensart: stolz tun 4Dotter = Eigelb].
+„Ich brauche nur den kleinen Finger zu rühren“, lachte der Pressluftbohrer. „Ich mache dich mit meinem Dotter4 zu Brei!“, krähte das Ei und trat kampflustig von einem Bein aufs andere.
+Da ward es dem Pressluftbohrer zu dumm, und er bohrte, wie er schon zu Beginn betont hatte, das Ei in tausend Stücke.
+__Franz Hohler__
+||TODO: a) + b) zusammengenommen + Instruktion angepasst. Originalwortlaut: a) Lesen Sie die folgende Kurzgeschichte des Schweizer Autors Franz Hohler. // b) Antworten Sie.||
+[==Teil B]
+[====B1]
+
+
+[.assignment:bitmark--]
+[!Lesen Sie den folgenden Text von Heinrich Böll.]
+**Anekdote zur Senkung der Arbeitsmoral**
+
+In einem Hafen an der westlichen Küste Europas liegt ein ärmlich gekleideter Mann in seinem Fischerboot und döst. Ein schick angezogener Tou­rist legt eben einen neuen Farbfilm in seinen Fotoapparat, um das idyllische Bild zu fotografieren: blauer Himmel, grüne See mit friedlichen, schneeweißen Wellenkämmen, schwarzes Boot, rote Fischermütze. Klick. Noch einmal: klick, und da aller guten Dinge drei sind und sicher sicher ist, ein drittes Mal: klick.
+
+Das spröde, fast feindselige Geräusch weckt den dösenden Fischer, der sich schläfrig aufrichtet, schläfrig nach seiner Zigarettenschachtel angelt; aber bevor er das Gesuchte gefunden, hat ihm der eifrige Tourist schon eine Schachtel vor die Nase gehalten, ihm die Zigarette nicht gerade in den Mund gesteckt, aber in die Hand gelegt, und ein viertes Klick, das des Feuerzeuges, schließt die eilfertige Höflichkeit ab. Durch jenes kaum messbare, nie nachweisbare Zuviel an flinker Höflichkeit ist eine gereizte Verlegenheit entstanden, die der Tourist – der Landessprache mächtig – durch ein Gespräch zu überbrücken versucht.
+
+„Sie werden heute einen guten Fang machen.“ Kopfschütteln des Fischers. „Aber man hat mir gesagt, dass das Wetter günstig ist.“ Kopfnicken des Fischers. „Sie werden also nicht ausfahren?“ Kopfschütteln des Fischers, steigende Nervosität des Touristen. Gewiss liegt ihm das Wohl des ärmlich gekleideten Menschen am Herzen, nagt an ihm die Trauer über die verpasste Gelegenheit.
+„Oh, Sie fühlen sich nicht wohl?“ Endlich geht der Fischer von der Zeichensprache zum wahrhaft gesprochenen Wort über. „Ich fühle mich großartig“, sagt er. „Ich habe mich nie besser gefühlt.“ Er steht auf, reckt sich, als wollte er demonstrieren, wie athletisch er gebaut ist. „Ich fühle mich fantastisch.“
+
+Der Gesichtsausdruck des Touristen wird immer unglücklicher, er kann die Frage nicht mehr unterdrücken, die ihm sozusagen das Herz zu sprengen droht: „Aber warum fah­ren Sie dann nicht aus?“
+Die Antwort kommt prompt und knapp. „Weil ich heute Morgen schon ausgefahren bin.“ „War der Fang gut?“ „Er war so gut, dass ich nicht noch einmal auszufahren brauche, ich habe vier Hummer in meinen Körben gehabt, fast zwei Dutzend Makrelen gefangen …“
+Der Fischer, endlich erwacht, taut jetzt auf und klopft dem Touristen beruhigend auf die Schultern. Dessen besorgter Gesichtsausdruck erscheint ihm als ein Ausdruck zwar unangebrachter, doch rührender Kümmernis. „Ich habe sogar für morgen und übermorgen genug“, sagte er, um des Fremden Seele zu erleichtern. „Rauchen Sie eine von meinen?“ „Ja, danke.“
+Zigaretten werden in Münder gesteckt, ein fünftes Klick, der Fremde setzt sich kopfschüttelnd auf den Bootsrand, legt die Kamera aus der Hand, denn er braucht jetzt beide Hände, um seiner Rede Nachdruck zu verleihen.
+
+„Ich will mich ja nicht in Ihre persönlichen Angelegenheiten mischen“, sagt er, „aber stellen Sie sich mal vor, Sie führen heute ein zweites, ein drittes, vielleicht ein viertes Mal aus und Sie würden drei, vier, fünf, vielleicht gar zehn Dutzend Makrelen fangen … stellen Sie sich das mal vor.“ Der Fischer nickt.
+
+„Sie würden“, fährt der Tourist fort, „nicht nur heute, sondern morgen, übermorgen, ja, an jedem güns­tigen Tag zwei-, dreimal, vielleicht viermal ausfahren – wissen Sie, was geschehen würde?“
+Der Fischer schüttelt den Kopf. „Sie würden sich in spätes­tens einem Jahr einen Motor kaufen können, in zwei Jahren ein zweites Boot, in drei oder vier Jahren könnten Sie vielleicht einen kleinen Kutter haben, mit zwei Booten oder dem Kutter würden Sie natürlich viel mehr fangen – eines Tages würden Sie zwei Kutter haben, Sie würden …“, die Begeisterung verschlägt ihm für ein paar Augenblicke die Stimme, „Sie würden ein kleines Kühlhaus bauen, vielleicht eine Räucherei, später eine Marinadenfabrik, mit einem eigenen Hubschrauber rundfliegen, die Fischschwärme ausmachen und Ihren Kuttern per Funk Anweisung geben. Sie könnten die Lachsrechte erwerben, ein Fischrestaurant eröffnen, den Hummer ohne Zwischenhändler direkt nach Paris exportieren – und dann …“, wieder verschlägt die Begeisterung dem Fremden die Sprache. Kopfschüttelnd, im tiefsten Herzen betrübt, seiner Urlaubsfreude schon fast verlustig, blickt er auf die friedlich hereinrollende Flut, in der die ungefangenen Fische munter springen. „Und dann“, sagt er, aber wieder verschlägt ihm die Erregung die Sprache.
+Der Fischer klopft ihm auf den Rücken, wie einem Kind, das sich verschluckt hat. „Was dann?“, fragt er leise. „Dann“, sagte der Fremde mit stiller Begeisterung, „dann könnten Sie beruhigt hier im Hafen sitzen, in der Sonne dösen und auf das herrliche Meer blicken.“
+
+„Aber das tu ich ja schon jetzt“, sagt der Fischer, „ich sitze beruhigt am Hafen und döse, nur Ihr Klicken hat mich dabei gestört.“
+
+Tatsächlich zog der solcherlei belehrte Tourist nachdenklich von dannen, denn früher hatte er auch einmal geglaubt, er arbeite, um eines Tages einmal nicht mehr arbeiten zu müssen, und es blieb keine Spur von Mitleid mit dem ärmlich gekleideten Fischer in ihm zurück, nur ein wenig Neid.
+[====B2]
+[=====a)]
+
+
+[.essay&article:bitmark--]
+[%B2a]
+[!Vermuten Sie. Aus welchem Jahr/Jahrzehnt könnte der Text stammen? Auf welche Textstellen begründen Sie Ihre Vermutung?]
+&&&
+Artikel oben...
+||TODO: .article ergänzen||
+[=====b)]
+
+
+[.essay:bitmark--&article:bitmark+]
+[%B2b]
+[!Berichten Sie. Wie wirkt der Text auf Sie?]
+__altmodisch, langweilig, sachlich polemisch, modern moralisierend kämpferisch unterhaltsam ironisch poetisch ...__
+&&&
+Artikel oben...
+||TODO: .article ergänzen||
+[=====c)]
+
+
+[.essay&article:bitmark+]
+[%B2c]
+[!Worum geht es in dem Text? Fassen Sie ihn mit eigenen Worten zusammen.]
+&&&
+Artikel oben...
+||TODO: .article ergänzen||
+[=====d)]
+
+
+[.essay&article:bitmark+]
+[%B2d]
+[!Wovor will der Autor des Textes Ihrer Meinung nach warnen? Besitzt der Text noch Aktualität?]
+&&&
+Artikel oben...
+||TODO: .article ergänzen||
+[=====e)]
+
+
+[.essay&article:bitmark+]
+[%B2e]
+[!Wie werden die beiden Protagonisten im Text beschrieben?]
+&&&
+Artikel oben...
+||TODO: .article ergänzen||
+[====B3 Heinrich Böll]
+
+
+[.essay&article:bitmark+]
+[%B3]
+[!Schreiben Sie anhand der Stichpunkte eine Kurzbiografie von Heinrich Böll.]
+&&&
+[&image: :https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_c1/web-resources/images/böll-portrait.jpg]
+* 21. Dezember 1917 in Köln – 16. Juli 1985 in Kreuzau-Langenbroich
+* kleinbürgerliche Familie – römisch-katholische Religion – Ablehnung des Nationalsozialismus
+* 1924 bis 1928 katholische Volksschule – humanistisches Gymnasium – 1937 Abitur
+* Buchhändlerlehre in Bonn – erste schriftstellerische Versuche
+* Sommer 1939: Universität Köln, Beginn Studium der Germanistik und der klassischen Philologie
+* Herbst 1939–1945: Soldat, Zweiter Weltkrieg – 1945 amerikanische Kriegsgefangenschaft
+* Fronturlaub 1942: Heirat mit Annemarie Čech, insgesamt vier Kinder
+* nach 1945: Gelegenheitsjobs – schreiben – erste Kurzgeschichten: Veröffentlichung 1947 – zentrale Themen: Erfahrungen des Krieges + Fehlentwicklungen der Nachkriegszeit in Deutschland
+* nach 1950: schöpferischste Phase: ausgewählte Werke: __Wo warst du, Adam?__ (1951), __Und sagte kein einziges Wort__ (1953), __Haus ohne Hüter__ (1954), __Irisches Tagebuch__ (1957), __Billard um halbzehn__ (1959), __Ansichten eines Clowns__ (1963), __Ende einer Dienstfahrt__ (1966)
+[&image: :https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_c1/web-resources/images/böll3.jpg]
+* politisches Engagement auch außerhalb der Bücher: 1970–1972 Präsident des PEN-Clubs Deutschland, 1971–1974 Präsident des Internationalen PEN-Clubs
+* 1971: Roman: __Gruppenbild mit Dame__
+[&image: :https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_c1/web-resources/images/böll1.jpg]
+* 1972: Nobelpreis für Literatur
+* 1974: bekanntestes Werk: __Die verlorene Ehre der Katharina Blum__: kritische Auseinandersetzung mit Boulevard-Presse, in über 30 Sprachen übersetzt, verfilmt
+[&image: :https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_c1/web-resources/images/böll2.jpg]
+* folgende Jahre: Beschäftigung mit den politischen Problemen in Deutschland und anderen Ländern wie Polen oder der Sowjetunion – sowjetische Dissidenten Alexander Solschenizyn und Lew Kopelew waren seine Gäste
+* aktive Teilnahme an Friedensbewegung
+* 1985: letztes Werk: __Frauen vor Flusslandschaft__
+[==Teil C]
+[=== Modalverben]
+
+
+
+[.article:bitmark++]
+[#Weitergabe von Informationen und Gerüchten mit wollen und sollen]
+
+==Gebrauch==
+Klaus Kupfer __soll__ der beste Trainer **sein**.
+→ Weitergabe eines Gerüchtes, einer Information: __Man sagt, dass Klaus Kupfer der beste Trainer ist.__
+Klaus Kupfer __will__ der beste Trainer **sein**.
+→ Weitergabe einer Information, die jemand über sich selbst gibt:
+__Klaus Kupfer sagt über sich selbst, dass er der beste Trainer ist.__
+
+==Gebrauch==
+__Gegenwart__:
+Klaus Kupfer __soll/will__ der beste Trainer *sein*.
+__Vergangenheit__: Klaus Kupfer __soll/will__ in den 1990er-Jahren der beste Trainer **gewesen sein**.
+[====C1]
+
+
+[.match:bitmark--]
+[%C1]
+[!Sie waren am Freitag auf der Betriebsweihnachtsfeier und haben die folgenden Gerüchte gehört. Geben Sie die Gerüchte weiter.] Bilden Sie Sätze mit sollen. Achten Sie auf die Zeitformen.
+===
+Das Internetprojekt wird gestoppt.
+==
+Das Internetprojekt soll gestoppt werden.[@example:Das Internetprojekt **soll gestoppt werden**.][@longAnswer]
+===
+1. Die zwei Verkaufsabteilungen werden zusammengelegt.
+==
+Die zwei Verkaufsabteilungen sollen zusammengelegt werden.[@longAnswer]
+===
+2. Martina ist in ihren Chef Dr. Huber verliebt.
+==
+Martina soll in ihren Chef Dr. Huber verliebt sein.[@longAnswer]
+===
+3. Edwin hat sich bei der Konkurrenz beworben.
+==
+Edwin soll sich bei der Konkurrenz beworben haben.[@longAnswer]
+===
+4. Frau Krug geht jeden Tag 30 Minuten früher nach Hause.
+==
+Frau Krug soll jeden Tag 30 Minuten früher nach Hause gehen.[@longAnswer]
+===
+5. Der Betriebsratsvorsitzende hat Geld angenommen.
+==
+Der Betriebsratsvorsitzende soll Geld angenommen haben.[@longAnswer]
+===
+6. Einige Mitarbeiter haben sich schriftlich über das Essen in der Kantine beschwert.
+==
+Einige Mitarbeiter sollen sich schriftlich über das Essen in der Kantine beschwert haben. [@longAnswer]
+===
+7. Es gab Unregelmäßigkeiten bei der Abrechnung der Dienstreisen.
+==
+Es soll Unregelmäßigkeiten bei der Abrechnung der Dienstreisen gegeben haben.[@longAnswer]
+===
+8. Ab nächstem Jahr wird das Weihnachtsgeld gestrichen.
+==
+Ab nächstes Jahr soll das Weihnachtsgeld gestrichen werden.[@longAnswer]
+===
+[====C2 Gerüchte und Dementis]
+
+
+[.match:bitmark--]
+[%C2]
+[!Formen Sie die folgenden Sätze um. Bilden Sie Sätze mit den Modalverben sollen oder wollen. Achten Sie auf die Zeitformen.]
+===
+Der Fernsehsender meldete, der Sportler Fred Schnell habe falsche Angaben über seinen Aufenthalt im Sommer gemacht.
+==
+Der Sportler Fred Schnell soll falsche Angaben über seinen Aufenthalt im Sommer gemacht haben.[@example:Der Sportler Fred Schnell __soll__ falsche Angaben über seinen Aufenthalt im Sommer __gemacht haben__.][@longAnswer]
+===
+Fred Schnell sagte, er habe immer die Wahrheit gesagt.
+==
+Fred Schnell will immer die Wahrheit gesagt haben.[@example:Fred Schnell __will__ immer die Wahrheit __gesagt haben__.][@longAnswer]
+===
+1. Die Zeitung meldete, der Minister hat von dem Vorfall gewusst.
+==
+Der Minister habe vom Vorfall gewusst [!Der Minister...][@longAnswer]
+===
+Der Minister sagte dazu:„Ich habe davon noch nie etwas gehört.“
+==
+Der Minister habe vom Vorfall noch nie etwas gehört [!Der Minister...][@longAnswer]
+===
+2. Es gibt das Gerücht, dass der Betriebsratsvorsitzende Geld angenommen hat, um Entscheidungen des Managements bei den Mitarbeitern zu rechtfertigen.
+==
+Der Betriebsratsvorsitzende soll Geld angenommen haben, um Entscheidungen des Managements bei den Mitarbeitern zu rechtfertigen.[@longAnswer]
+====
+Der Betriebsratsvorsitzende meint aber, er habe niemals Gelder angenommen.
+==
+Der Betriebsratsvorsitzende will niemals Gelder angenommen haben.[@longAnswer]
+===
+3. In Journalistenkreisen wurde bekannt, dass der Bundestagsabgeordnete früher Informant des Staatssicherheitsdienstes der DDR war.
+==
+Der Bundestagsabgeordnete soll früher Informant des Staatssicherheitsdienstes der DDR gewesen sein.[@longAnswer]
+===
+Der Bundestagsabgeordnete behauptet, er habe keine Kontakte zur Staatssicherheit gehabt.
+==
+Der Bundestagsabgeordnete will keine Kontakte zur Staatssicherheit gehabt haben.[@longAnswer]
+===
+4. Es heißt, der Schiedsrichter hat das Spiel manipuliert.
+==
+Der Schiedsrichter soll das Spiel manipuliert haben.[@longAnswer]
+===
+Der Schiedsrichter sagte, er habe noch nie ein Spiel manipuliert.
+==
+Der Schiedsrichter will noch nie ein Spiel manipuliert haben.[@longAnswer]
+===
+[====C3 Wiederholung: Bedeutung der Modalverben]
+
+
+[.multiple-response:bitmark--]
+[%C3.1]
+||TBD: Aufteilung auf acht Bits, entsprechende Anpassung der Instruktion. Originalwortlaut: Ordnen Sie den Modalverben passende Bedeutungen zu.||
+[!Ordnen Sie dem Modalverb **mögen/nicht mögen** die passende Bedeutungen zu.]
+[-es besteht die Möglichkeit/Gelegenheit] 
+[-eine andere Person wünscht etwas von jemandem]
+[-jemand ist in der Lage, etwas zu tun]
+[-etwas ist notwendig]
+[-etwas ist erlaubt]
+[-jemand hat den Auftrag]
+[+jemand findet etwas gut]
+[+jemand kann etwas/jemanden nicht leiden]
+[-jemand hat gehört oder gelesen]
+[-jemand hat die Absicht]
+[-es ist eine Pflicht]
+[-jemand ist nicht in der Lage, etwas zu tun]
+[-es gibt keine Gelegenheit ]
+[-es ist ratsam]
+[-es ist verboten]
+[-es wird empfohlen]
+[-es ist nicht erwünscht]
+[-es ist nicht notwendig]
+[-in der Zeitung wurde berichtet]
+[-jemand ist nicht bereit]
+[-jemand hat etwas vor]
+[-jemand hat den Wunsch]
+
+
+[.multiple-response:bitmark--]
+[%C3.2]
+[!Ordnen Sie dem Modalverb **müssen** die passende Bedeutungen zu.]
+[-es besteht die Möglichkeit/Gelegenheit] 
+[-eine andere Person wünscht etwas von jemandem]
+[-jemand ist in der Lage, etwas zu tun]
+[+etwas ist notwendig]
+[-etwas ist erlaubt]
+[-jemand hat den Auftrag]
+[-jemand findet etwas gut]
+[-jemand kann etwas/jemanden nicht leiden]
+[-jemand hat gehört oder gelesen]
+[-jemand hat die Absicht]
+[+es ist eine Pflicht]
+[-jemand ist nicht in der Lage, etwas zu tun]
+[-es gibt keine Gelegenheit ]
+[-es ist ratsam]
+[-es ist verboten]
+[-es wird empfohlen]
+[-es ist nicht erwünscht]
+[-es ist nicht notwendig]
+[-in der Zeitung wurde berichtet]
+[-jemand ist nicht bereit]
+[-jemand hat etwas vor]
+[-jemand hat den Wunsch]
+
+
+[.multiple-response:bitmark--]
+[%C3.3]
+[!Ordnen Sie dem Modalverb **nicht brauchen/nicht müssen** die passende Bedeutungen zu.]
+[-es besteht die Möglichkeit/Gelegenheit] 
+[-eine andere Person wünscht etwas von jemandem]
+[-jemand ist in der Lage, etwas zu tun]
+[-etwas ist notwendig]
+[-etwas ist erlaubt]
+[-jemand hat den Auftrag]
+[-jemand findet etwas gut]
+[-jemand kann etwas/jemanden nicht leiden]
+[-jemand hat gehört oder gelesen]
+[-jemand hat die Absicht]
+[-es ist eine Pflicht]
+[-jemand ist nicht in der Lage, etwas zu tun]
+[-es gibt keine Gelegenheit ]
+[-es ist ratsam]
+[-es ist verboten]
+[-es wird empfohlen]
+[-es ist nicht erwünscht]
+[+es ist nicht notwendig]
+[-in der Zeitung wurde berichtet]
+[-jemand ist nicht bereit]
+[-jemand hat etwas vor]
+[-jemand hat den Wunsch]
+
+
+[.multiple-response:bitmark--]
+[%C3.4]
+[!Ordnen Sie dem Modalverb **sollen/nicht sollen/sollten** die passende Bedeutungen zu.]
+[-es besteht die Möglichkeit/Gelegenheit] 
+[+eine andere Person wünscht etwas von jemandem]
+[-jemand ist in der Lage, etwas zu tun]
+[-etwas ist notwendig]
+[-etwas ist erlaubt]
+[+jemand hat den Auftrag]
+[-jemand findet etwas gut]
+[-jemand kann etwas/jemanden nicht leiden]
+[+jemand hat gehört oder gelesen]
+[-jemand hat die Absicht]
+[-es ist eine Pflicht]
+[-jemand ist nicht in der Lage, etwas zu tun]
+[-es gibt keine Gelegenheit ]
+[+es ist ratsam]
+[-es ist verboten]
+[+es wird empfohlen]
+[+es ist nicht erwünscht]
+[-es ist nicht notwendig]
+[+in der Zeitung wurde berichtet]
+[-jemand ist nicht bereit]
+[-jemand hat etwas vor]
+[-jemand hat den Wunsch]
+
+
+[.multiple-response:bitmark--]
+[%C3.5]
+[!Ordnen Sie dem Modalverb **wollen/nicht wollen** die passende Bedeutungen zu.]
+[-es besteht die Möglichkeit/Gelegenheit] 
+[-eine andere Person wünscht etwas von jemandem]
+[-jemand ist in der Lage, etwas zu tun]
+[-etwas ist notwendig]
+[-etwas ist erlaubt]
+[-jemand hat den Auftrag]
+[-jemand findet etwas gut]
+[-jemand kann etwas/jemanden nicht leiden]
+[-jemand hat gehört oder gelesen]
+[+jemand hat die Absicht]
+[-es ist eine Pflicht]
+[-jemand ist nicht in der Lage, etwas zu tun]
+[-es gibt keine Gelegenheit ]
+[-es ist ratsam]
+[-es ist verboten]
+[-es wird empfohlen]
+[-es ist nicht erwünscht]
+[-es ist nicht notwendig]
+[-in der Zeitung wurde berichtet]
+[+jemand ist nicht bereit]
+[+jemand hat etwas vor]
+[-jemand hat den Wunsch]
+
+
+[.multiple-response:bitmark--]
+[%C3.6]
+[!Ordnen Sie dem Modalverb **möchte(n)/nicht möchte(n)** die passende Bedeutungen zu.]
+[-es besteht die Möglichkeit/Gelegenheit] 
+[-eine andere Person wünscht etwas von jemandem]
+[-jemand ist in der Lage, etwas zu tun]
+[-etwas ist notwendig]
+[-etwas ist erlaubt]
+[-jemand hat den Auftrag]
+[-jemand findet etwas gut]
+[-jemand kann etwas/jemanden nicht leiden]
+[-jemand hat gehört oder gelesen]
+[+jemand hat die Absicht]
+[-es ist eine Pflicht]
+[-jemand ist nicht in der Lage, etwas zu tun]
+[-es gibt keine Gelegenheit ]
+[-es ist ratsam]
+[-es ist verboten]
+[-es wird empfohlen]
+[-es ist nicht erwünscht]
+[-es ist nicht notwendig]
+[-in der Zeitung wurde berichtet]
+[-jemand ist nicht bereit]
+[+jemand hat etwas vor]
+[+jemand hat den Wunsch]
+
+
+[.multiple-response:bitmark--]
+[%C3.7]
+[!Ordnen Sie dem Modalverb **können/nicht können** die passende Bedeutungen zu.]
+[+es besteht die Möglichkeit/Gelegenheit] 
+[-eine andere Person wünscht etwas von jemandem]
+[+jemand ist in der Lage, etwas zu tun]
+[-etwas ist notwendig]
+[-etwas ist erlaubt]
+[-jemand hat den Auftrag]
+[-jemand findet etwas gut]
+[-jemand kann etwas/jemanden nicht leiden]
+[-jemand hat gehört oder gelesen]
+[-jemand hat die Absicht]
+[-es ist eine Pflicht]
+[+jemand ist nicht in der Lage, etwas zu tun]
+[+es gibt keine Gelegenheit ]
+[-es ist ratsam]
+[-es ist verboten]
+[-es wird empfohlen]
+[-es ist nicht erwünscht]
+[-es ist nicht notwendig]
+[-in der Zeitung wurde berichtet]
+[-jemand ist nicht bereit]
+[-jemand hat etwas vor]
+[-jemand hat den Wunsch]
+
+
+[.multiple-response:bitmark--]
+[%C3.8]
+[!Ordnen Sie dem Modalverb **dürfen/nicht dürfen** die passende Bedeutungen zu.]
+[-es besteht die Möglichkeit/Gelegenheit] 
+[-eine andere Person wünscht etwas von jemandem]
+[-jemand ist in der Lage, etwas zu tun]
+[-etwas ist notwendig]
+[+etwas ist erlaubt]
+[-jemand hat den Auftrag]
+[-jemand findet etwas gut]
+[-jemand kann etwas/jemanden nicht leiden]
+[-jemand hat gehört oder gelesen]
+[-jemand hat die Absicht]
+[-es ist eine Pflicht]
+[-jemand ist nicht in der Lage, etwas zu tun]
+[-es gibt keine Gelegenheit ]
+[-es ist ratsam]
+[+es ist verboten]
+[-es wird empfohlen]
+[-es ist nicht erwünscht]
+[-es ist nicht notwendig]
+[-in der Zeitung wurde berichtet]
+[-jemand ist nicht bereit]
+[-jemand hat etwas vor]
+[-jemand hat den Wunsch]
+[====C4]
+
+
+[.interview:bitmark--]
+[%C4]
+[!Ersetzen Sie die kursiven Ausdrücke durch ein Modalverb und nehmen Sie die entsprechenden Umformungen vor.]
+===
+Ich __habe die Absicht__, mir eine neue Arbeitsstelle zu suchen.[@sampleSolution:Ich will/möchte mir eine neue Arbeitsstelle suchen.][@example: Ich will/möchte mir eine neue Arbeitsstelle suchen.][@shortAnswer]
+===
+1. Meinen Sie, ich __bin nicht in der Lage__, diesen Brief zu übersetzen?[@sampleSolution:Meinen Sie, ich kann diesen Brief nicht übersetzen?][@shortAnswer]
+===
+2. __Ist es erlaubt__, über das Management Witze zu machen?[@sampleSolution:Darf man über das Management Witze machen?][@shortAnswer]
+===
+3. Wenn man eine neue Stelle hat, __wird empfohlen__, am Anfang etwas zurückhaltend zu sein.[@sampleSolution:Wenn man eine neue Stelle hat, sollte man am Anfang etwas zurückhaltend sein.][@shortAnswer]
+===
+4. Die neue Arbeit __gefällt__ mir sehr gut.[@sampleSolution:Die neue Arbeit mag ich./Ich mag die neue Arbeit.][@shortAnswer]
+===
+5. __Ich habe gehört, dass__ es Optimisten leichter im Job haben.[@sampleSolution:Optimisten sollen es leichter im Job haben.][@shortAnswer]
+===
+6. __Es ist nicht ratsam__, bei einem Bewerbungsgespräch zu lügen.[@sampleSolution:Sie sollten/Man sollte bei einem Bewerbungsgespräch nicht lügen][@shortAnswer]
+===
+7. Wenn man __vorhat__, Karriere zu machen, __ist es unbedingt notwendig__, ergebnisorientiert zu arbeiten.[@sampleSolution:Wenn man Karriere machen will/möchte, muss man ergebnisorientiert arbeiten.][@shortAnswer]
+===
+8. __Ich wünsche mir__, mal eine Abteilung zu leiten.[@sampleSolution:Ich möchte mal eine Abteilung leiten.][@shortAnswer]
+===
+9. Es ist wirklich __nicht nötig__, dass du jeden Tag zwölf Stunden arbeitest.[@sampleSolution:Du brauchst nicht jeden Tag zwölf Stunden zu arbeiten./Du musst nicht jeden Tag zwölf Stunden arbeiten.][@shortAnswer]
+===
+10. Frau Krüger __ist nicht bereit__, schon wieder das Protokoll zu schreiben.[@sampleSolution:Frau Krüger will nicht schon wieder das Protokoll schreiben.][@shortAnswer]
+===
+11. Alle arbeitenden Bürger __haben die Pflicht__, Steuern zu zahlen.[@sampleSolution:Alle arbeitenden Bürger müssen Steuern zahlen.][@shortAnswer]
+===
+12. Ich kann den neuen Chef __nicht leiden__.[@sampleSolution:Ich mag den neuen Chef nicht.][@shortAnswer]
+===
+||Instruktion angepasst. Originalwortlaut: __Ersetzen Sie die unterstrichenen Ausdrücke durch ein Modalverb und nehmen Sie die entsprechenden Umformungen vor.__||
+[===Konjunktiv II]
+
+
+[.article:bitmark++]
+[#Weitergabe von Informationen und Gerüchten mit wollen und sollen]
+
+==Gebrauch: Vorschläge, Meinungsäußerung und Kritik==
+__Vorschläge__
+Wir sollten mit der Entscheidung noch warten.
+__Meinungsäußerung__
+Ich würde mir das (an deiner Stelle) noch einmal überlegen.
+__nachträgliche Kritik__
+Es wäre besser gewesen, wenn du vorher gefragt hättest.
+Du hättest vorher fragen sollen/müssen.
+Das hätte nicht passieren dürfen.
+
+==Weiterer Gebrauch==
+__höfliche Frage__
+Könnte ich bitte Herrn Müller sprechen?
+__höfliche Aufforderung__
+Würdest du bitte das Fenster öffnen?
+__Wünsche (irreal)__
+Müsste ich doch nicht immer neue Wörter lernen!
+__Bedingung (irreal)__
+Wenn ich Zeit hätte, würde ich sofort zu ihm fahren.
+__verpasste Gelegenheit__
+Fast/Beinahe hätte ich fünf Millionen Euro gewonnen.
+__Vergleich (irreal)__
+Er tut so, als ob er mich nicht sehen würde.
+[====C5]
+
+
+[.interview]
+[%C5]
+[!Formulieren Sie Sätze, in denen Ihre Kritik oder ein Vorwurf zum Ausdruck kommt.]
+===
+Frau Müller hat vergessen, den Brief zu schreiben.[@example:Es wäre besser gewesen, wenn Frau Müller den Brief geschrieben hätte.
+Frau Müller hätte den Brief schreiben sollen.][@shortAnswer]
+===
+1. Claudia hat vergessen, den Chef zu benachrichtigen.[@exampleSolution:Es wäre besser gewesen, wenn Peter die geheimen Daten wieder gelöscht hätte. 
+Peter hätte die geheimen Daten wieder löschen sollen. ][@shortAnswer]
+===
+2. Peter hat vergessen, die geheimen Daten wieder zu löschen.[@exampleSolution:Es wäre besser gewesen, wenn Peter die geheimen Daten wieder gelöscht hätte.
+Peter hätte die geheimen Daten wieder löschen sollen.][@shortAnswer]
+===
+3. Marie hat vergessen, ihre Bewerbungsunterlagen rechtzeitig abzuschicken.[@exampleSolution:Es wäre besser gewesen, wenn Marie ihre Bewerbungsunterlagen rechtzeitig abgeschickt hätte.
+Marie hätte ihre Bewerbungsunterlagen rechtzeitig abschicken sollen.][@shortAnswer]
+===
+4. Andreas hat vergessen, seine Mutter vom Zug abzuholen.[@exampleSolution:Es wäre besser gewesen, wenn Andreas seine Mutter vom Zug abgeholt hätte.
+Andreas hätte seine Mutter vom Zug abholen sollen.][@shortAnswer]
+===
+5. Der Chef hat vergessen, uns über die Terminänderung zu informieren.[@exampleSolution:Es wäre besser gewesen, wenn der Chef uns über die Terminänderung informiert hätte.
+Der Chef hätte uns über die Terminänderung informieren sollen.][@shortAnswer]
+===
+6. Paul hat mal wieder vergessen, seine Hausaufgaben zu machen.[@exampleSolution:Es wäre besser gewesen, wenn Paul seine Hausaufgaben gemacht hätte.
+Paul hätte seine Hausaufgaben machen sollen.][@shortAnswer]
+===
+[====C6]
+
+
+[.interview]
+[%C6]
+[!Formulieren Sie Empfehlungen und üben Sie nachträgliche Kritik.]
+===
+a) Die Gehälter sind zu niedrig.[@exampleSolution:Man/Der Arbeitgeber sollte die Gehälter erhöhen.][@example:Man/Der Arbeitgeber sollte die Gehälter erhöhen.][@shortAnswer]
+===
+b) Die Gehälter sind zu niedrig.[@exampleSolution:Man/Der Arbeitgeber hätte die Gehälter erhöhen sollen.][@example:Man/Der Arbeitgeber hätte die Gehälter erhöhen sollen.][@shortAnswer]
+===
+1a) Die Arbeitszeiten sind zu lang.[@exampleSolution:Man sollte die Arbeitszeiten verkürzen.][@shortAnswer]
+===
+1b) Die Arbeitszeiten sind zu lang.[@exampleSolution:Man hätte die Arbeitszeiten verkürzen sollen.][@shortAnswer]
+===
+2a) Die Kantine ist zu klein.[@exampleSolution:Man sollte die Kantine vergrößern/erweitern.][@shortAnswer]
+===
+2b) Die Kantine ist zu klein.[@exampleSolution:Man hätte die Kantine vergrößern/erweitern sollen.][@shortAnswer]
+===
+3a) Die Regeln sind zu kompliziert.[@exampleSolution:Man sollte die Regeln vereinfachen.][@shortAnswer]
+===
+3b) Die Regeln sind zu kompliziert.[@exampleSolution:Man hätte die Regeln vereinfachen sollen.][@shortAnswer]
+===
+4a) Der Gedankenaustausch zwischen den Abteilungen ist zu oberflächlich.[@exampleSolution:Man sollte den Gedankenaustausch zwischen den Abteilungen vertiefen.][@shortAnswer]
+===
+4b) Der Gedankenaustausch zwischen den Abteilungen ist zu oberflächlich.[@exampleSolution:Man hätte den Gedankenaustausch zwischen den Abteilungen vertiefen sollen.][@shortAnswer]
+===
+5a) Die Vorschläge der Vertrauenspersonen wurden abgelehnt.[@exampleSolution:Man sollte die Vorschläge der Vertrauenspersonen annehmen/akzeptieren.][@shortAnswer]
+===
+5b) Die Vorschläge der Vertrauenspersonen wurden abgelehnt.[@exampleSolution:Man hätte die Vorschläge der Vertrauenspersonen annehmen/akzeptieren sollen.][@shortAnswer]
+===
+6a) Die Verhandlungen zwischen den Arbeitgebern und der Gewerkschaft wurden abgebrochen.[@exampleSolution:Arbeitgeber und Gewerkschaft sollten die Verhandlungen fortführen/weiterführen/wieder aufnehmen.][@shortAnswer]
+===
+6b) Die Verhandlungen zwischen den Arbeitgebern und der Gewerkschaft wurden abgebrochen.[@exampleSolution:Arbeitgeber und Gewerkschaft hätten die Verhandlungen fortführen/weiterführen/wieder aufnehmen sollen.][@shortAnswer]
+===
+[====C7]
+
+
+[.interview:bitmark--]
+[%C7]
+[!Das hätte nicht passieren dürfen! Formulieren Sie Sätze wie im Beispiel.]
+===
+Die Daten wurden unbearbeitet weitergeleitet.[@exampleSolution:Die Daten __hätten nicht__ unbearbeitet __weitergeleitet werden dürfen__.][@example:Die Daten hätten nicht unbearbeitet __weitergeleitet werden dürfen__.][@shortAnswer]
+===
+1. Der Vertrag wurde ohne Rücksprache unterschrieben.[@exampleSolution:Der Vertrag hätte nicht ohne Rücksprache unterschrieben werden dürfen.][@shortAnswer]
+===
+2. Der Preis wurde falsch berechnet.[@exampleSolution:Der Preis hätte nicht falsch berechnet werden dürfen.][@shortAnswer]
+===
+3. Die Stelle des Hausmeisters wurde gestrichen.[@exampleSolution:Die Stelle des Hausmeisters hätte nicht gestrichen werden dürfen.][@shortAnswer]
+===
+4. Die Sitzung wurde ohne erkennbaren Grund verschoben.[@exampleSolution:Die Sitzung hätte nicht ohne erkennbaren Grund verschoben werden dürfen.][@shortAnswer]
+===
+5. Die E-Mail wurde gelöscht.[@exampleSolution:Die E-Mail hätte nicht gelöscht werden dürfen.][@shortAnswer]
+===
+6. Die Sicherheitsvorschriften wurden missachtet.[@exampleSolution:Die Sicherheitsvorschriften hätten nicht missachtet werden dürfen.][@shortAnswer]
+===
+[====C8]
+
+
+[.interview]
+[%C8]
+[!Sagen Sie es höflicher. Verwenden Sie den Konjunktiv II.]
+===
+1. Wo ist das Telefon? Ich muss mal telefonieren.[@exampleSolution:Könnten Sie mir sagen, wo das Telefon ist? Ich müsste mal telefonieren.][@shortAnswer]
+===
+2. Gib mir mal deinen Stift![@exampleSolution:Könntest/Würdest du mir mal deinen Stift leihen/geben?][@shortAnswer]
+===
+3. Kopieren Sie das mal für mich![@exampleSolution:Könnten/Würden Sie das bitte mal für mich kopieren?][@shortAnswer]
+===
+4. Druck das Dokument aus![@exampleSolution:Könntest/Würdest du das Dokument für mich ausdrucken?][@shortAnswer]
+===
+5. Rufen Sie mich morgen zurück![@exampleSolution:Könnten/Würden Sie mich morgen zurückrufen?][@shortAnswer]
+===
+6. Zu dem Thema will ich auch mal was sagen.[@exampleSolution:Ich würde gern zu dem Thema auch mal was sagen.][@shortAnswer]
+===
+[====C9]
+
+
+[.interview:bitmark--]
+[%C9]
+[!Verpasste Gelegenheiten. Bilden Sie Sätze im Konjunktiv II mit __beinahe__ oder __fast__.]
+===
+Das T-Shirt war so schön. __(kaufen)__[@exampleSolution:Beinahe/Fast hätte ich es gekauft.][@example:Beinahe/Fast hätte ich es gekauft.][@shortAnswer]
+===
+1. Mein Wecker hat mal wieder nicht geklingelt. [!(verschlafen)][@exampleSolution:Beinahe/Fast hätte ich es verschlafen.][@shortAnswer]
+===
+2. Das Flugzeug hat furchtbar gewackelt. [!(abstürzen)][@exampleSolution:Beinahe/Fast wäre das Flugzeug abgestürzt.][@shortAnswer]
+===
+3. Ich hatte keine Zeit, für die Prüfung zu lernen. [!(durchfallen)][@exampleSolution:Beinahe/Fast wäre ich durch die Prüfung gefallen.][@shortAnswer]
+===
+4. Martin hat mich an den Termin erinnert. [!(vergessen)[@exampleSolution:Beinahe/Fast hätte ich den Termin vergessen.][@shortAnswer]
+===
+5. Mein Portemonnaie lag auf dem Tisch. [!(liegen lassen)][@exampleSolution:Beinahe/Fast hätte ich es auf dem Tisch liegen lassen.][@shortAnswer]
+===
+6. Das Taxi stand im Stau. [!(Zug – verpassen)][@exampleSolution:Beinahe/Fast hätte ich den Zug verpasst.][@shortAnswer]
+===
+7. Ich fand ihn so sympathisch. [!(sich verlieben)_][@exampleSolution:Beinahe/Fast hätte ich mich verliebt.][@shortAnswer]
+===
+8. Das Schiff stieß mit einem Eisberg zusammen. [!(sinken)][@exampleSolution:Beinahe/Fast wäre es mit einem Eisberg zusammengestoßen.][@shortAnswer]
+===
+9. Glücklicherweise habe ich im letzten Moment das Kleingedruckte gelesen. [!(Vertrag – unterschreiben)][@exampleSolution:Beinahe/Fast hätte ich den Vertrag unterschrieben.][@shortAnswer]
+===
+[====C10]
+
+
+[.interview:bitmark--]
+[%C10]
+[!Formen Sie die kursiven Präpositionalgruppen nach folgendem Beispiel in irreale Konditionalsätze um.]
+===
+__Ohne die Aussage des Zeugen__ hätte der Täter nicht überführt werden können.
+[@exampleSolution:___Wenn der Zeuge nicht ausgesagt hätte__, hätte der Täter nicht überführt werden können.][@example:Wenn der Zeuge nicht ausgesagt hätte, hätte der Täter nicht überführt werden können.][@shortAnswer]
+===
+1. __Ohne seine Hilfe__ wäre ich durch die Prüfung gefallen.[@exampleSolution:Wenn er mir nicht geholfen hätte, wäre ich durch die Prüfung gefallen.][@shortAnswer]
+===
+2. __Bei besserem Training__ hätte er den Lauf gewinnen können.[@exampleSolution:Wenn er besser trainiert hätte, hätte er den Lauf gewinnen können.][@shortAnswer]
+===
+3. __Ohne den unermüdlichen Einsatz der Hilfskräfte__ wäre die Zahl der Opfer weit höher gewesen.[@exampleSolution:Wenn es nicht den unermüdlichen Einsatz der Hilfskräfte gegeben hätte/sich die Hilfskräften nicht so unermüdlich eingesetzt hätten, wäre die Zahl der Opfer weit höher gewesen.][@shortAnswer]
+===
+4. __Bei höheren Einschaltquoten__ wäre die Literatursendung nicht aus dem Programm genommen worden.[@exampleSolution:Wenn die Einschaltquoten höher/besser gewesen wären/Wenn mehr Zuschauer eingeschaltet hätten, wäre die Literatursendung nicht aus dem Programm genommen worden.][@shortAnswer]
+===
+5. __Bei schlechtem Wetter__ hätte das Fest im Zelt stattgefunden.[@exampleSolution:Wenn das Wetter schlecht gewesen wäre, hätte das Fest im Zelt stattgefunden.][@shortAnswer]
+===
+6. __Bei besserer Kommunikation zwischen den Abteilungen__ wäre der Fehler nicht passiert.[@exampleSolution:Wenn es eine bessere Kommunikation zwischen den Abteilungen gegeben hätte/Wenn die Kommunikation zwischen den Abteilungen besser gewesen wäre, wäre der Fehler nicht passiert.][@shortAnswer]
+===
+7. __Bei weniger Schnee__ wäre das Weihnachtsfest nicht so schön geworden.[@exampleSolution:Wenn es weniger geschneit hätte, wäre das Weihnachtsfest nicht so schön geworden.][@shortAnswer]
+===
+8. __Ohne gutes Abschlusszeugnis__ hätte er die Stelle nicht bekommen.[@exampleSolution:Wenn er nicht so ein gutes/kein gutes Abschlusszeugnis hätte, hätte er die Stelle nicht bekommen.][@shortAnswer]
+===
+||Instruktion angepasst ("kursiv" anstatt "unterstrichenen")||
+[==Teil C]
+[=== Präpositionen mit dem Genitiv]
+
+
+[.article:bitmark++]
+======
+[#Präposition / Beispielsätze]
+------
+[##abseits/diesseits/jenseits]
+------
+Ruhe findet man nur **abseits** der großen Städte.
+__(lokal)__
+------
+Das Dorf der Drachenritter lag **jenseits** der Berge.
+__(lokal)__
+------
+[##angesichts]
+------
+**Angesichts** wachsender Vorurteile gestaltet sich das Zusammenleben schwieriger.
+__(kausal)__
+------
+[##anhand]
+------
+**Anhand** dieses Beispiels lässt sich der Prozess gut verdeutlichen.
+__(instrumental)__
+------
+[##anlässlich]
+------
+**Anlässlich** des Todes von Max Müller wiederholt das Fernsehen seine schönsten Filme.
+__(temporal)__
+------
+[##anstelle]
+------
+**Anstelle** des Direktors nimmt Frau Kugel an der Verhandlung teil.
+__(alternativ)__
+------
+[##außerhalb]
+------
+**Außerhalb** der Geschäftszeiten ist niemand im Büro.
+__(temporal)__
+Außerhalb der Stadt gibt es viel Wald.
+__(lokal)__
+------
+[##infolge]
+------
+**Infolge** starker Schneefälle wurde die Alpenstraße gesperrt.
+__(konsekutiv)__
+------
+[##innerhalb]
+------
+Bitte bezahlen Sie die Rechnung **innerhalb** einer Woche.
+__(temporal)__
+Das Tier kann sich **innerhalb** der Wohnung befinden.
+__(lokal)__
+------
+[##laut]
+------
+**Laut** einer Studie sind nur 50 Prozent der Deutschen glücklich.
+__(modal)__
+------
+[##mangels]
+------
+**Mangels** geeigneter Aufputschmittel wurden leistungshemmende Mittel verwendet.
+__(instrumental)__
+------
+[##mithilfe]
+------
+**Mithilfe** eines Freundes gelang ihm die Flucht.
+__(instrumental)__
+------
+[##statt/anstatt]
+------
+**Statt** eines Blumenstraußes verschenkte er ein altes Buch.
+__(alternativ)__
+------
+[##trotz]
+------
+**Trotz** einer schlechten Leistung bestand er die Prüfung.
+__(konzessiv)__
+------
+[##während]
+------
+**Während** seines Studiums lernte er Spanisch.
+__(temporal)__
+------
+[##wegen/ aufgrund]
+------
+**Wegen/Aufgrund** eines Unglücks hatte der Zug Verspätung.
+__(kausal)__
+**Wegen** ["dir][!Sonderform: **deinetwegen** ([►Anhang 3, Seite 261 ||TODO: Anchor setzen||])] habe ich den Zug verpasst. (umg. bei Personalpronomen mit dem Dativ)
+__(kausal)__
+------
+[##zwecks]
+------
+**Zwecks** einfacherer Kommunikation werden Kurzwahlnummern verwendet.
+__(final)__
+------
+[====C11]
+
+
+[.cloze]
+[%C11]
+[!Ergänzen Sie die richtigen Präpositionen.]
+1. [_Anstatt][_Statt] der vielen Urlaubstage hätte ich lieber mehr Geld.
+2. Man kann [_mithilfe] eines dreistelligen Codes die Sicherheitstür öffnen.
+3. Hast du Probleme? Bist du [_wegen] deines Freundes so traurig?
+4. [_Trotz] der guten Auftragslage kam die Firma in Schwierigkeiten.
+5. [_Wegen] der hohen Kosten muss das Projekt erfolgreich abgeschlossen werden.
+6. [_Wegen][_Aufgrund][_Angesichts] Ihrer Erfahrungen möchten wir Ihnen die Stelle des Abteilungsleiters anbieten.
+7. Ich möchte Sie [_anlässlich] unseres 20-jährigen Firmenjubiläums gerne zu einem Empfang einladen.
+8. Man kann [_anhand] dieses Falles sehr gut sehen, wie die Täter vorgehen.
+9. Bitte senden Sie uns ein Angebot [_innerhalb] der nächsten fünf Arbeitstage.
+10. [_Infolge][_Wegen][_Aufgrund] des Unwetters kam es heute auf den Autobahnen zu zahlreichen Unfällen.
+11. [_Laut] der Zeitungsmeldung hat der Sportler den Dopingmissbrauch zugegeben.
+
+[====C12]
+
+
+[.interview]
+[%C12]
+[!Bilden Sie Genitivkonstruktionen und vervollständigen Sie dann die Sätze.]
+===
+wegen – eine ernste Krankheit[@exampleSolution:Wegen einer ernsten Krankheit musste sie ihre Erfolg versprechende Karriere frühzeitig beenden.][@example:Wegen einer ernsten Krankheit musste sie ihre Erfolg versprechende Karriere frühzeitig beenden.][@shortAnswer]
+===
+1. abseits – der Medienrummel[@exampleSolution:Abseits des Medienrummels fanden die Sportler Zeit zum Erholen.][@shortAnswer]
+===
+2. mithilfe – die Trainerin[@exampleSolution:Mithilfe ihrer Trainerin gelang der Eiskunstläuferin ein Comeback.][@shortAnswer]
+===
+3. anstelle – eine steile Karriere[@exampleSolution:Anstelle einer steilen Karriere entschied sie sich für ihre Familie.][@shortAnswer]
+===
+4. aufgrund – hartnäckige Gerüchte[@exampleSolution:Aufgrund hartnäckiger Gerüchte über Einnahme von Doping trat der Radfahrer vom Profisport zurück.][@shortAnswer]
+===
+5. während – die Siegerehrung[@exampleSolution:Während der Siegerehrung weinten die Medaillengewinner.][@shortAnswer]
+===
+6. laut – das IOC-Reglement[@exampleSolution:Laut (des) IOC-Reglement(s) ist die Einnahme unerlaubter Mittel verboten.][@shortAnswer]
+===
+7. trotz – verlockende Angebote[@exampleSolution:Trotz verlockender Angebote wechselte der Eiskunstläufer nicht ins Profilager.][@shortAnswer]
+===
+8. angesichts – der Reinfall[@exampleSolution:Angesichts des Reinfalls bei der letzten Konferenz bereiten wir uns dieses Mal besser vor.][@shortAnswer]
+===
+9. außerhalb – die Trainingszeiten[@exampleSolution:Außerhalb der Trainingszeiten lernt die Schwimmerin für ihre Abschlussprüfung.][@shortAnswer]
+===
+10. anhand – das medizinische Gutachten[@exampleSolution:Anhand des medizinischen Gutachtens konnten nachhaltige Schäden durch den Sport nachgewiesen werden.][@shortAnswer]
+===
+ 
+[==Teil D]
+[=== Rückblick]
+[====D1 Wichtiger Wortschatz des Kapitels.]
+
+
+[.assignment:bitmark+]
+[%D1-1]
+[!Hier finden Sie wichtigen Wortschatz des Kapitels.]
+
+**Sportarten und Sportler**
+
+* zu den beliebtesten Sportarten gehören
+* sich besonderer Beliebtheit erfreuen
+* sich mit einer Mannschaft/einem Verein identifizieren
+* Emotionen teilen
+* jemandem die Daumen drücken
+* bekannt/erfolgreich/berühmt sein
+* ein Leben im Rampenlicht führen
+* einem Idol nacheifern
+* als Vorbild gelten
+* für den Lebensunterhalt hart arbeiten
+* viel Zeit dem Sport widmen
+* im Monat auf 1919 Euro kommen
+* mit Preisgeldern einen Teil des Einkommens bestreiten
+* Sponsorenverträge haben/erhalten
+* Erfolg zahlt sich aus.
+* Olympiasieger/Weltmeister werden
+* an einem Wettkampf teilnehmen/einen Wettkampf gewinnen
+* den (ersten) Platz belegen
+* hart trainieren/von jemandem trainiert werden
+* einen Titel holen/erringen
+* Amateur/Profi sein/ins Profilager wechseln
+* sich mit Silber zufriedengeben
+* den Sport an den Nagel hängen
+* sich vom Sport verabschieden
+* die Karriere beenden
+||why only one +?||
+
+[.assignment:bitmark+]
+[%D1-2]
+[!Hier finden Sie wichtigen Wortschatz des Kapitels.]
+
+**Erfolg im Sport**
+
+unter Erfolgsdruck stehen
+den olympischen Gedanken beschwören
+Es geht (nicht) ums Gewinnen.
+Dabeisein ist alles.
+jemanden mit Geld bestechen
+zum Zweck der persönlichen Bereicherung/Anerkennung lügen und betrügen
+die Leistungsfähigkeit steigern
+zu allerlei/unerlaubten (Hilfs-)Mitteln greifen
+Aufputschmittel/leistungsfördernde Substanzen einnehmen
+den Körper mit Medikamenten aufputschen
+Die Nebenwirkungen sind lebensgefährlich.
+Dopingkontrollen durchführen
+wegen Dopingmissbrauchs disqualifiziert werden
+
+
+[.assignment:bitmark+]
+[%D1-3]
+[!Hier finden Sie wichtigen Wortschatz des Kapitels.]
+
+**Erfolg im Beruf**
+
+Karriere machen
+von Erfolg zu Erfolg eilen
+das Richtige zur richtigen Zeit tun
+etwas Besonderes leisten
+Abschlussnoten sind wenig aussagekräftig.
+Sozialkompetenz/Teamfähigkeit/Kommunikationsstärke besitzen
+Ergebnisorientierung und unternehmerisches Denken vorweisen
+Scheinbar typische Managerqualitäten sind weniger gefragt.
+versteckte Machtgefüge durchschauen
+auf die Kleiderordnung im Unternehmen achten
+sich vor Stellenantritt über das Unternehmen informieren
+Gespräche über Konzepte und Zielvereinbarungen führen
+eigene Ideen entwickeln/mit Vorsicht anbringen
+sich mit Kritik zurückhalten
+sich nicht als Besserwisser präsentieren
+nicht mit ausgefahrenen Ellenbogen auftreten
+nicht über den alten Arbeitgeber lästern
+das Privatleben nicht ausbreiten
+sich nicht zum Jasager umerziehen lassen
+Chancen suchen und ergreifen
+sich von Hindernissen nicht aufhalten/abschrecken lassen/Hindernisse überwinden
+ein/kein Risiko eingehen
+nichts von Strukturen und Bürokratie halten
+sich nach/an dem Bedarf des Marktes orientieren
+
+
+[.assignment:bitmark+]
+[%D1-4]
+[!Hier finden Sie wichtigen Wortschatz des Kapitels.]
+
+**Anforderungen und Leistungen**
+
+sich bei der Wahl des Studienfachs von persönlichem Interesse leiten lassen
+Wert auf die Vereinbarkeit von Familie und Beruf legen
+einen guten und der Qualifikation gemäßen/angemessenen Job bekommen/finden
+einschlägige Berufserfahrungen sammeln
+über fundiertes Wissen im Bereich Prozesssteuerung verfügen
+in der Betreuung von Firmenkunden versiert sein
+Erfahrungen im Projektmanagement haben
+ein ausgeprägtes organisatorisches Talent besitzen
+verhandlungssicheres Deutsch sprechen
+politisches Interesse zeigen
+ein umfassendes Verständnis von der Welt/Mut zu den großen Fragen haben
+auf eine motivierende Führung bauen
+fachliche sowie persönliche Kompetenzen fördern
+Leistungen konsequent honorieren
+Mitarbeiter unterstützen
+Wünsche in die Tat umsetzen
+einen erfolgreichen Einstieg bieten
+
+
+[.assignment:bitmark+]
+[%D1-5]
+[!Hier finden Sie wichtigen Wortschatz des Kapitels.]
+
+**Die Kunst des Scheiterns**
+
+Misserfolge erleiden
+scheitern
+versagen/der Versager
+ein Projekt in den Sand setzen
+etwas misslingt/missglückt einem
+ein Traum zerplatzt
+Fehler machen/begehen
+das Scheitern aus dem Leben ausblenden
+nur Erfolge zählen
+die Verantwortung anderen Menschen in die Schuhe schieben
+das Scheitern aus der Tabuzone holen
+aus Misserfolgen/Fehlern lernen
+andere Wege zum Ziel gehen
+mit Niederlagen richtig umgehen
+den positiven Umgang mit dem Scheitern fördern
+[====D2 Evaluation]
+
+
+[.self-assessment:bitmark--]
+[%D2]
+[!Überprüfen Sie sich selbst.]
+===
+Ich kann über Sportarten, Sportler und Doping berichten und diskutieren.
+[* gut]
+[* nicht so gut]
+===
+Ich kann Hör- und Lesetexte zum Thema __Sportler__ und __Doping__ verstehen und zusammenfassen.
+[* gut]
+[* nicht so gut]
+===
+Ich kann einen Kurzvortrag über Sport, Sportler oder Doping halten und verfüge über wichtige strukturelle Redemittel für einen Vortrag.
+[* gut]
+[* nicht so gut]
+===
+Ich kann Pressemeldungen und Gerüchte mit verschiedenen sprachlichen Mitteln wiedergeben.
+[* gut]
+[* nicht so gut]
+===
+Ich kann populärwissenschaftliche Texte über Erfolge und Fehler im Berufsleben und Texte aus einer Werbebroschüre im Detail verstehen und zusammenfassen.
+[* gut]
+[* nicht so gut]
+===
+Ich kann meine Meinung äußern, Kritik bzw. nachträgliche Kritik üben und dabei unterschiedliche sprachliche Mittel verwenden.
+[* gut]
+[* nicht so gut]
+===
+Ich kann eine ausführliche Stellungnahme zum Thema __Zufriedenheit im Job__ schreiben.
+[* gut]
+[* nicht so gut]
+===
+Ich kann ein Radiointerview mit einem Experten über die Rolle des Scheiterns in der Gesellschaft fast vollständig verstehen.
+[* gut]
+[* nicht so gut]
+===
+Ich kann einen literarischen Text ohne Mühe verstehen. __(fakultativ)__
+[* gut]
+[* nicht so gut]
+===
+Schubert_Erkundungen_C1_Kapitel3_bitmark_Stand_1_2_19.txt
+Displaying Schubert_Erkundungen_C1_Kapitel3_bitmark_Stand_1_2_19.txt.

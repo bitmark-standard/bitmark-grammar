@@ -1,0 +1,21 @@
+[.multiple-response]
+[!What colors can animals have in Switzerland?]
+===
+[%1][!What colours can cows have in Switzerland?]
+[+brown][%a10]
+[+purple, but only in chocolate ads][%a20]
+[-blue][%a30]
+[-green][%a40]
+===
+[%2][!What colours can cats have in Switzerland?]
+[+brown][%50]
+[+black][%60]
+[+blue][%70]
+[-green][%80]
+===
+◇ [!Die Freizeitaktivitäten der Deutschen sind sehr unterschiedlich.]
+[+purple][%90][!inst ####]
+[+pink][%100][!inst #####]
+[+yellow][%110][!inst ######]
+[-beige][%120][!inst #######]
+===

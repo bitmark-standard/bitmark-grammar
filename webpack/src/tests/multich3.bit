@@ -1,0 +1,8 @@
+[.multiple-choice:bitmark--]
+[%Aufgabe 10]
+ (1 Antwort)	2 Pkt.
+[!Welcher Dienst ermöglich die automatische Vergabe von IP-Adressen?]
+[-A.	DNS]
+[-B.	NAT]
+[-C.	RAID]
+[+D.	DHCP]

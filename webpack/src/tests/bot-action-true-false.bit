@@ -1,0 +1,78 @@
+[.bot-action-true-false]
+[!Was denkst du? Darf man sich nach dem Konsum von Cannabis hinters Steuer setzen?]
+===
+[%A]
+[-Ja]
+
+Leider falsch.
+Die richtige Antwort ist Nein.
+[@reaction:celebrate]
+===
+[%B]
+[+Nein]
+
+Richtig!
+===
+[%C]
+[-Vielleicht]
+
+Nope!
+===
+Cannabis im Strassenverkehr: Hier gilt **Nulltoleranz.**
+
+
+[.bot-action-true-false]
+[!
+Wusstest du, dass du einen **Teil der Kosten selbst bezahlen** musst, wenn du bekifft einen Unfall verursachst?
+]
+
+Der Entscheid darüber liegt nicht bei der Versicherung, sondern ist **gesetzlich vorgeschrieben.**
+
+===
+[%A]
+[!👍 Cool! Ja, das weiss ich]
+[+You are right]
+[@reaction:celebrate]
+👍 Cool!
+===
+[%B]
+[!👍 Cool n groovy!]
+[-You are wrong]
+[@reaction:like]
+👍 Cool n groovy!
+===
+[%C]
+[!Das war mir nicht bewusst]
+[-You are bad]
+[@reaction:like]
+👍 Cool n groovy n farout!
+===
+[%D]
+[+You are good]
+
+👍 Cool n groovy n good!
+[@reaction:like]
+===
+
+
+[.bot-action-true-false:bitmark++]
+[!Was denkst du? Darf man sich nach dem Konsum von Cannabis hinters Steuer setzen?]
+===
+[%A]
+[-Jajajaja]
+
+Leider falsch.
+Die richtige Antwort ist Nein.
+[@reaction:celebrate]
+===
+[%B]
+[+Nein]
+
+Richtig!
+===
+[%C]
+[-Vielleicht]
+
+Nope!
+===
+Cannabis im Strassenverkehr: Hier gilt **Nulltoleranz.**

@@ -1,0 +1,57 @@
+[.interview]
+[%A9c]
+[!Textarbeit
+
+Komposita: Was passt zusammen?
+Ordnen Sie zu. Nennen Sie auch den Artikel.]
+
+-träger -streitigkeiten -redaktion -sendung -macher -mann -versuch -auswahl -wert -thema
+
+===
+Wiedererkennungs-[@shortAnswer]
+[$der Wiedererkennungswert]
+===
+Nachrichten-[@shortAnswer]
+[$die Nachrichtenredaktion, die Nachrichtensendung, die Nachrichtenmacher, die Nachrichtenauswahl]
+===
+Erklärungs-[@shortAnswer]
+[$der Erklärungsversuch]
+===
+Nobelpreis-[@shortAnswer]
+[$der Nobelpreisträger]
+===
+Kamera-[@shortAnswer]
+[$der Kameramann]
+===
+Grenz-[@shortAnswer]
+[$die Grenzstreitigkeiten (Pl.)]
+===
+Themen-[@shortAnswer]
+[$die Themenauswahl]
+===
+Gesprächs-[@shortAnswer]
+[$das Gesprächsthema]
+===
+
+
+
+[.interview:bitmark--]
+[%A10]
+[!Erklären Sie die unterstrichenen Ausdrücke mit eigenen Worten.]
+===
+[%1] Die Antwort __scheint auf der Hand zu liegen.__[@shortAnswer]
+[$ist naheliegend]
+===
+[%2] Kuriosität: Das Ereignis sollte __von der Norm abweichen__.[@shortAnswer]
+[$etwas Besonderes sein/nicht normal/alltäglich/gewöhnlich sein]
+===
+[%3] Die Nachrichtenmacher __kümmern sich kaum um__ diese wissenschaftlichen Erklärungsversuche.[@shortAnswer]
+[$interessieren sich nicht für]
+===
+[%4] __die Vorgehensweise__ bei der Themenauswahl[@shortAnswer]
+[$der Ablauf/die Prozedur]
+===
+[%5] Neuigkeiten __brauchen einen Wiedererkennungswert__.[@shortAnswer]
+[$müssen etwas beinhalten, was der Zuschauer schon kennt/was schon bekannt ist]
+===
+

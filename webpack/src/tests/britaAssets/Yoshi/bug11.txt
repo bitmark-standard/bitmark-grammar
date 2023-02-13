@@ -1,0 +1,11 @@
+[.book]
+
+[@authors.name:Anne Buschas]
+[@authors.name:Susanne Raven]
+[@authors.name:Szilvia Szita]
+
+[#Erkundungen B2]
+[##2 Deutsch als Fremdsprache]
+[###3 Deutsch als Fremdsprache]
+[####4 Deutsch als Fremdsprache]
+[@subject: Integriertes Kurs- und Arbeitsbuch]

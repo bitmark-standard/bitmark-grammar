@@ -1,0 +1,405 @@
+[.assignment:bitmark--&video]
+[&video::https://docs.bitbook.education/bit-books/dw/a2/familie/familiengeschichten/web-resources/video/a2_e2_l1_f9_sd_avc.mp4]
+[!Selma und Nico sind auf dem Weg zum Deutschkurs, als Selmas Handy klingelt: Ihre Mutter macht sich Sorgen um Selma. Nico erzählt Selma von seiner eigenen anstrengenden Familie, aber für Selma ist das nicht dasselbe. 
+  
+**Über Familienmitglieder sprechen** 
+Hier lernst du: 
+-über verschiedene Generationen zu sprechen 
+-über Konflikte in der Familie zu sprechen 
+-Familienmitglieder  zu beschreiben]
+ 
+ 
+[.assignment:bitmark--&video]
+[&video::https://docs.bitbook.education/bit-books/dw/a2/familie/familiengeschichten/web-resources/video/a2_e2_l1_f9_sd_avc.mp4]
+[!Nico und Selma 
+Was passiert? Sieh dir die Folge an und wähl die richtige Antwort.]
+  
+**Neue Wörter**: Wenn man mit einem Fahrrad unterwegs ist, aber nicht damit fährt, „schiebt“ man es. 
+  
+  
+[.multiple-choice]
+[%1/12]
+[!Wen siehst du?]
+[-Selma, Nico und Inge.]
+[-Selma und ihre Familie.]
+[+Nico und Selma.]
+  
+[.multiple-choice]
+[%1/12]
+[!Wo sind sie?]
+[+Sie sind draußen.]
+[-Sie sind im Kino.]
+[-Sie sind beim Deutschkurs.]
+  
+[.multiple-choice]
+[%1/12]
+[!Was macht Nico?]
+[+Er schiebt sein Fahrrad.]
+[-Er fährt Auto.]
+[-Er spielt Computer.]
+ 
+ 
+[.cloze-instruction-grouped:bitmark--&video]
+[%2/12]
+[&video::https://docs.bitbook.education/bit-books/dw/a2/familie/familiengeschichten/web-resources/video/a2_e2_l1_s2_video1_sd_avc.mp4]
+**Das Telefonat** 
+Selma berichtet kurz von dem Telefonat. Sieh dir das Video an. Wähl dann die fehlenden Wörter in der richtigen Reihenfolge aus und vervollständige so den Text. 
+  
+Nico: Hast du [_mit deinem Vater][!mit deinem Vater]  telefoniert? 
+Selma: Nein, das war meine Mutter. Sie macht sich Sorgen, weil ich nicht angerufen habe. Ich habe ihr aber gesagt, dass ich [_beim Sprachkurs][!beim Sprachkurs] bin. 
+  
+  
+Tipp: Sieh dir zur Kontrolle noch einmal den Videoausschnitt an. 
+  
+  
+ 
+[.assignment]
+[!Bilder von Selma 
+Sag, in welcher Situation du Selma siehst. Vervollständige die Sätze.]
+[%3/12]
+  
+  
+[.multiple-choice&image]
+[%3/12]
+[&image::https://docs.bitbook.education/bit-books/dw/a2/familie/familiengeschichten/web-resources/images/a2-k2-1-3.1.png]
+[!Das ist Selma …]
+[+mit ihrem Handy.]
+[-mit ihrer Tasche.]
+  
+[.multiple-choice&image]
+[%3/12]
+[&image::https://docs.bitbook.education/bit-books/dw/a2/familie/familiengeschichten/web-resources/images/a2-k2-1-3.2.png]
+[!Das ist Selma …]
+[+mit ihrer Mutter.]
+[-mit ihrem Vater.]
+  
+  
+[.multiple-choice&image]
+[%3/12]
+[&image::https://docs.bitbook.education/bit-books/dw/a2/familie/familiengeschichten/web-resources/images/a2-k2-1-3.3.png]
+[!Selma ist …]
+[+bei ihren Eltern.]
+[-bei ihren Freunden.]
+ 
+ 
+[.cloze-instruction-grouped:bitmark--]
+[%4/12]
+[!Was passt zusammen? 
+Erinnerst du dich an die Possessivartikel? Bilde korrekte Paare, indem du erst ein Personalpronomen und dann den passenden Possessivartikel auswählst.]
+  
+ich[_mein][!mein]
+du [_dein][!dein]
+er [_sein][!sein]
+sie [_ihr][!ihr]
+es [_sein][!sein]
+wir [_unser][!unser]
+ihr [_euer][!euer]
+sie [_ihr][!ihr]
+  
+Die Possessivartikel im Nominativ und Akkusativ hast du bereits in A1/Einheit 15 gelernt. Je nachdem, ob das Substantiv maskulin, neutral oder feminin ist, ob es im Singular oder Plural steht, ob es im Nominativ, im Akkusativ oder im Dativ verwendet wird, können die Endungen variieren. 
+  
+**Beispiele:** 
+Das ist mein Hund. (Nominativ) 
+Ich finde meinen Hund schön. (Akkusativ) 
+Ich gehe mit meinem Hund spazieren. (Dativ) 
+  
+Die Endungen im Dativ lernst du auf der nächsten Übungsseite. Hier noch mal eine kurze Übersicht zur Erinnerung:  
+  
+**Nominativ:** 
+maskulin: mein 
+feminin: mein-e 
+neutral: mein 
+plural: mein-e 
+  
+**Akkusativ:** 
+maskulin: mein-en 
+feminin: mein-e 
+neutral: mein 
+plural: mein-e 
+ 
+ 
+[.multiple-choice-text:bitmark--]
+[%5/12]
+[!Possessivartikel im Dativ 
+Wähl für jede Lücke die richtige Endung aus.]
+  
+Nach bestimmten Präpositionen (z. B. __„mit“__ und __„bei“__)  steht der Possessivartikel im Dativ. Schau dir die Beispiele an. 
+  
+Ich habe nicht mit meinem Vater telefoniert. 
+Ich bin mit meinem Fahrrad gefahren.             
+Ich habe mit meiner Mutter telefoniert.           
+Ich bin bei meinen Freunden. 
+  
+Im Dativ Plural bekommt das Substantiv meistens die Endung „-n“. 
+  
+__Info:__ Es gibt auch noch andere Präpositionen (und auch Verben), nach denen immer der Dativ steht. Diese wirst du nach und nach lernen. 
+  
+Wie lauten die Endungen der Possessivartikel im Dativ? 
+Dativ maskulin: mit mein[-en][+em][-e] Vater 
+Dativ feminin: mit mein[-en][-em][+er] Mutter 
+Dativ neutral: mit mein[-e][-er][+em] Fahrrad 
+Dativ Plural: bei mein[-em][-er][+en] Freunden 
+ 
+ 
+[.cloze-instruction-grouped:bitmark--]
+[!Wer macht was? (1) 
+Wähl die richtigen Possessivartikel im Dativ aus. Achte darauf, ob das Substantiv maskulin, feminin oder neutral ist und im Singular oder Plural steht.]
+[%6/12.1]
+Gehe nach folgendem Muster vor: 
+ich – mein- / du – dein- / … 
+  
+Wähl die fehlenden Possessivartikel in der richtigen Reihenfolge aus. 
+  
+Ich spiele mit [_meinem][!meinem] Sohn. 
+Du spielst mit [_deinem][!deinem] Sohn. 
+Er spielt mit [_seinem][!seinem] Sohn. 
+Sie spielt mit [_ihrem][!ihrem] Sohn. 
+  
+Ich spiele mit [_meinen][!meinen] Söhnen. 
+Du spielst mit [_deinen][!deinen] Söhnen. 
+Er spielt mit [_seinen][!seinen] Söhnen. 
+Sie spielt mit [_ihren][!ihren] Söhnen. 
+  
+__Achtung!__ Der Plural von „der Sohn“ heißt „die Söhne“. 
+  
+[.cloze-instruction-grouped:bitmark--]
+[%6/12.2]
+Wähl die fehlenden Possessivartikel in der richtigen Reihenfolge aus. 
+  
+Wir spielen mit [_unserer][!unserer] Tochter. 
+Ihr spielt mit [_eurer][!eurer] Tochter. 
+Sie spielen mit [_ihrer][_ihrer] Tochter. 
+  
+Wir spielen mit [_unseren][!unseren] Töchtern. 
+Ihr spielt mit [_euren][!euren] Töchtern. 
+Sie spielen mit [_ihren][!ihren] Töchtern. 
+  
+__Achtung!__ Der Plural von „die Tochter“ heißt „die Töchter“. 
+ 
+ 
+[.cloze-instruction-grouped:bitmark--]
+[!Wer macht was? (2) 
+Schreib die richtigen Possessivartikel im Dativ in die Lücken.]
+  
+Gehe nach folgendem Muster vor: 
+ich – mein- / du – dein- / ... 
+[%7/12]
+Finde den richtigen Possessivartikel. 
+  
+(die Frau – die Frauen) 
+Ich fahre mit [_meiner] Frau zur Arbeit. 
+  
+(der Bruder – die Brüder) 
+Du spielst mit [_deinem] Bruder Tennis. 
+  
+(der Freund – die Freunde) 
+Er ist bei [_seinen] Freunden. 
+  
+(die Großmutter – die Großmütter)  
+Sie ist bei [_ihrer] Großmutter. 
+  
+Finde den richtigen Possessivartikel. 
+  
+(der Bruder – die Brüder) 
+Wir sehen mit [_unserem] Bruder fern. 
+Wir sehen mit [_unseren] Brüdern fern. 
+  
+(die Freundin – die Freundinnen) 
+Ihr seid bei [_eurer] Freundin. 
+Ihr seid bei [_euren] Freundinnen. 
+  
+(die Tochter – die Töchter) 
+Sie haben Probleme mit [_ihrer]  Tochter. 
+Sie haben Probleme mit [_ihren] Töchtern. 
+ 
+ 
+[.assignment]
+[%8/12]
+[!Und jetzt bist du dran. 
+Hör die Frage und erzähl ein bisschen von dir. Achte bei der Antwort auf die richtigen Possessivartikel im Dativ. Antworte positiv oder negativ in vollen Sätzen.]
+  
+[.assignment&audio]
+[!Telefonierst du oft mit deinen Freunden?]
+Ja, .../ Nein, ... 
+[&audio::https://docs.bitbook.education/bit-books/dw/a2/familie/familiengeschichten/web-resources/audio/a2_e2_l1_s8_a1_audio1_dwdownload.mp3]
+  
+[.assignment&audio]
+[!Wie war deine Aussprache?]
+Gut 
+Nicht so gut 
+[&audio::https://docs.bitbook.education/bit-books/dw/a2/familie/familiengeschichten/web-resources/audio/a2_e2_l1_s8_a1_loesungsaudio_dwdownload.mp3]
+  
+[.assignment&audio]
+[!Wohnst du bei deinen Eltern?]
+Ja, ... / Nein, … 
+[&audio::https://docs.bitbook.education/bit-books/dw/a2/familie/familiengeschichten/web-resources/audio/a2_e2_l1_s8_a2_audio1_dwdownload.mp3]
+  
+[.assignment&audio]
+[!Wie war deine Aussprache?]
+Gut 
+Nicht so gut 
+[&audio::https://docs.bitbook.education/bit-books/dw/a2/familie/familiengeschichten/web-resources/audio/a2_e2_l1_s8_a2_loesungsaudio_dwdownload.mp3]
+  
+[.assignment&audio]
+[!Hörst du oft mit deinem Handy Musik?]
+Ja, ... / Nein, ... 
+[&audio::https://docs.bitbook.education/bit-books/dw/a2/familie/familiengeschichten/web-resources/audio/a2_e2_l1_s8_a3_audio1_dwdownload.mp3]
+  
+[.assignment&audio]
+[!Wie war deine Aussprache?]
+Gut 
+Nicht so gut 
+[&audio::https://docs.bitbook.education/bit-books/dw/a2/familie/familiengeschichten/web-resources/audio/a2_e2_l1_s8_a3_loesungsaudio_dwdownload.mp3]
+  
+[.assignment&audio]
+[!Fährst du manchmal mit deinem Fahrrad zur Arbeit?]
+Ja, ... / Nein, ... 
+[&audio::https://docs.bitbook.education/bit-books/dw/a2/familie/familiengeschichten/web-resources/audio/a2_e2_l1_s8_a4_audio1_dwdownload.mp3]
+  
+[.assignment&audio]
+[!Wie war deine Aussprache?]
+Gut 
+Nicht so gut 
+[&audio::https://docs.bitbook.education/bit-books/dw/a2/familie/familiengeschichten/web-resources/audio/a2_e2_l1_s8_a4_loesungsaudio_dwdownload.mp3]
+ 
+ 
+[.true-false&video]
+[%9/12]
+[!Worüber sprechen Selma und Nico? 
+Sieh dir das Video noch einmal an und lies die Frage. Mehrere Antworten sind richtig.]
+[&video::https://docs.bitbook.education/bit-books/dw/a2/familie/familiengeschichten/web-resources/video/a2_e2_l1_f9_sd_avc.mp4]
+Was ist richtig? 
+  
+[-Nico und Selma sprechen über Freunde.]
+[+Nico und Selma sprechen über die Familie.]
+[+Nico hat Probleme mit seinen Eltern.]
+[+Selma möchte bei ihrer Familie sein.]
+ 
+[.assignment]
+[%10/12]
+[!Die Familie von Max 
+Hör dir den Text an und schreib die fehlenden Familienwörter auf.]
+  
+[.cloze&audio]
+[!Schreib das passende Wort in die Lücke. In jede Lücke passt ein Wort.]
+[&audio::https://docs.bitbook.education/bit-books/dw/a2/familie/familiengeschichten/web-resources/audio/a2_e2_l1_s11_a1_audio1_dwdownload.mp3]
+Meine [_Eltern] heißen Franz und Hilde. Ich habe Geschwister: einen [_Bruder] und eine [_Schwester]. 
+  
+[.cloze&audio]
+[!Schreib das passende Wort in die Lücke. In jede Lücke passt ein Wort.]
+Fabian ist jünger als ich und Single , also ledig. Jeanette ist meine  
+[_Schwester]. Sie war mit Philipp verheiratet. Jetzt sind sie geschieden. Sie haben zwei Kinder. 
+[&audio::https://docs.bitbook.education/bit-books/dw/a2/familie/familiengeschichten/web-resources/audio/a2_e2_l1_s11_a2_audio1_dwdownload.mp3]
+  
+[.cloze&audio]
+[! Schreib das passende Wort in die Lücke. In jede Lücke passt ein Wort.]
+Laura ist meine [_Nichte], Janis ist mein [_Neffe]. 
+[&audio::https://docs.bitbook.education/bit-books/dw/a2/familie/familiengeschichten/web-resources/audio/a2_e2_l1_s11_a3_audio1_dwdownload.mp3]
+  
+[.cloze&audio]
+[! Schreib das passende Wort in die Lücke. In jede Lücke passt ein Wort.]
+[&audio::https://docs.bitbook.education/bit-books/dw/a2/familie/familiengeschichten/web-resources/audio/a2_e2_l1_s11_a4_audio1_dwdownload.mp3]
+Meine Eltern haben also schon Enkel. Meine Mutter ist die  
+[_Großmutter] von Laura und Janis. Mein Vater ist ihr [_Großvater]. 
+ 
+[.assignment]
+[%11/12]
+[!Familiäre Beziehungen beschreiben 
+Wie nennt man den Bruder deines Vaters und wie heißt der Vater deines Vaters? Hör die Frage. Vervollständige die Antwort und sprich sie laut. Hör dir dann das Lösungsaudio an und kontrolliere so deine Aussprache.]
+  
+[.assignment&audio]
+[!Wer ist die Mutter von deinem Vater?]
+Die Mutter von ... 
+[&audio::https://docs.bitbook.education/bit-books/dw/a2/familie/familiengeschichten/web-resources/audio/a2_e2_l1_s13_a1_audio1_dwdownload.mp3]
+ 
+[.assignment&audio]
+[&audio::https://docs.bitbook.education/bit-books/dw/a2/familie/familiengeschichten/web-resources/audio/a2_e2_l1_s13_a1_loesungsaudio_dwdownload.mp3]
+[!Wie war deine Aussprache?]
+Gut 
+Nicht so gut 
+ 
+[.assignment&audio]
+[&audio::https://docs.bitbook.education/bit-books/dw/a2/familie/familiengeschichten/web-resources/audio/a2_e2_l1_s13_a2_audio1_dwdownload.mp3]
+[!Wer ist die Schwester von deiner Mutter?]
+Die Schwester von … 
+ 
+[.assignment&audio]
+[&audio::https://docs.bitbook.education/bit-books/dw/a2/familie/familiengeschichten/web-resources/audio/a2_e2_l1_s13_a2_loesungsaudio_dwdownload.mp3]
+[!Wie war deine Aussprache?]
+Gut 
+Nicht so gut 
+ 
+[.assignment&audio]
+[&audio::https://docs.bitbook.education/bit-books/dw/a2/familie/familiengeschichten/web-resources/audio/a2_e2_l1_s13_a3_audio1_dwdownload.mp3]
+[!Wer ist der Sohn von deinem Bruder?]
+Der Sohn von … 
+ 
+ 
+[.assignment&audio]
+[&audio::https://docs.bitbook.education/bit-books/dw/a2/familie/familiengeschichten/web-resources/audio/a2_e2_l1_s13_a3_loesungsaudio_dwdownload.mp3]
+[!Wie war deine Aussprache?]
+Gut 
+Nicht so gut 
+ 
+[.assignment&audio]
+[&audio::https://docs.bitbook.education/bit-books/dw/a2/familie/familiengeschichten/web-resources/audio/a2_e2_l1_s13_a4_audio1_dwdownload.mp3]
+[!Wer ist der Vater von deinem Vater?]
+Der Vater von … 
+[.assignment&audio]
+[&audio::https://docs.bitbook.education/bit-books/dw/a2/familie/familiengeschichten/web-resources/audio/a2_e2_l1_s13_a4_loesungsaudio_dwdownload.mp3]
+[!Wie war deine Aussprache?]
+Gut 
+Nicht so gut 
+ 
+ 
+[.assignment]
+[%12/12]
+[!Deine Familie und du 
+Hör dir die Fragen an und antworte frei. Im Lösungsaudio hörst du Beispiele für mögliche Antworten.]
+  
+  
+[.assignment&audio]
+Hast du eine große oder eine kleine Familie? 
+[&audio::https://docs.bitbook.education/bit-books/dw/a2/familie/familiengeschichten/web-resources/audio/a2_e2_l1_s14_a1_audio1_dwdownload.mp3]
+ 
+[.assignment&audio]
+Wie war deine Aussprache? 
+Gut 
+Nicht so gut 
+[&audio::https://docs.bitbook.education/bit-books/dw/a2/familie/familiengeschichten/web-resources/audio/a2_e2_l1_s14_a1_loesungsaudio_dwdownload.mp3]
+ 
+ 
+[.assignment&audio]
+Hast du Geschwister? Wie heißen sie? 
+[&audio::https://docs.bitbook.education/bit-books/dw/a2/familie/familiengeschichten/web-resources/audio/a2_e2_l1_s14_a2_audio1_dwdownload.mp3]
+ 
+[.assignment&audio]
+Wie war deine Aussprache? 
+Gut 
+Nicht so gut 
+[&audio::https://docs.bitbook.education/bit-books/dw/a2/familie/familiengeschichten/web-resources/audio/a2_e2_l1_s14_a2_loesungsaudio_dwdownload.mp3]
+ 
+[.assignment:bitmark--&audio]
+War dein Vater früher streng? 
+[&audio::https://docs.bitbook.education/bit-books/dw/a2/familie/familiengeschichten/web-resources/audio/a2_e2_l1_s14_a3_audio1_dwdownload.mp3]
+ 
+__Neue Wörter__: Eltern, die „streng“ sind, finden Regeln und Disziplin bei der Erziehung besonders wichtig. 
+  
+[.assignment&audio]
+Wie war deine Aussprache? 
+Gut 
+Nicht so gut 
+[&audio::https://docs.bitbook.education/bit-books/dw/a2/familie/familiengeschichten/web-resources/audio/a2_e2_l1_s14_a3_loesungsaudio_dwdownload.mp3]
+ 
+[.assignment&audio]
+Haben deine Eltern oder deine Geschwister früher mit dir gespielt? 
+[&audio::https://docs.bitbook.education/bit-books/dw/a2/familie/familiengeschichten/web-resources/audio/a2_e2_l1_s14_a4_audio1_dwdownload.mp3]
+ 
+[.assignment&audio]
+Wie war deine Aussprache? 
+Gut 
+Nicht so gut 
+[&audio::https://docs.bitbook.education/bit-books/dw/a2/familie/familiengeschichten/web-resources/audio/a2_e2_l1_s14_a4_loesungsaudio_dwdownload.mp3]
+ 
+ 
+

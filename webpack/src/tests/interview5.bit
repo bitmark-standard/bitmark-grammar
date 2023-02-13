@@ -1,0 +1,49 @@
+[.interview]
+[!This is a job interview with an example, model answers and line "numbers".]
+
+===
+[%a)]What was your last job?[!Please anwser in one short sentence]
+[$I worked as a project manager.][@example:I worked as a project manager.][@shortAnswer]
+===
+[%b)]Why did you quit your last job?[!Please anwser in several short sentences]
+[$I was mobbed by my coworkers.]
+===
+[%c)]How much did you earn in your last job?[!Please use Euro as a currency][@shortAnswer]
+[$EUR 3'000 per month.]
+===
+||
+Question:
+Item? s_and_w Instruction? Example?(answer)
+[$ words]? ==> sampleSolution 
+
+   {
+                "item": "a)",
+                "question": "What was your last job?",
+                "instruction": "Please anwser in one short sentence",
+                "hint": "",
+                "isExample": true,
+                "example": "I worked as a project manager.",
+                "sampleSolution": "I worked as a project manager.",
+                "isShortAnswer": true
+            },
+            {
+                "item": "b)",
+                "question": "Why did you quit your last job?",
+                "instruction": "Please anwser in several short sentences",
+                "hint": "",
+                "isExample": false,
+                "example": "",
+                "sampleSolution": "I was mobbed by my coworkers.",
+                "isShortAnswer": false
+            },
+            {
+                "item": "a)",
+                "question": "What was your last job?",
+                "instruction": "Please use Euro as a currency",
+                "hint": "",
+                "isExample": false,
+                "example": "",
+                "sampleSolution": "EUR 3'000 per month.",
+                "isShortAnswer": true
+            }
+||
