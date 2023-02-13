@@ -12269,7 +12269,7 @@
         "bit": {
             "type": "bot-action-response",
             "format": "bitmark--",
-            "body": "Der Entscheid darüber liegt nicht bei der Versicherung, sondern ist **gesetzlich vorgeschrieben.**\n\n===\n\n\n\n\n===\n\n\n\n\n===",
+            "body": "Der Entscheid darüber liegt nicht bei der Versicherung, sondern ist **gesetzlich vorgeschrieben.**",
             "item": "",
             "hint": "",
             "isExample": false,
@@ -12296,7 +12296,7 @@
         "bit": {
             "type": "bot-action-response",
             "format": "bitmark++",
-            "body": "Wie sich legale CBD-Hanf-Zigaretten auf dein Fahrverhalten auswirken, erfährst du in unserem ==Blog.==|link:http://https://www.axa.ch/de/privatkunden/blog/unterwegs/sicherheit-auf-der-strasse/cbd-hanfzigaretten-und-fahrtuechtigkeit.html|\n\n\n===\n\n\n\n===\nBei regelmässigem Cannabiskonsum muss ganz auf das Autofahren verzichtet werden, weil der THC-Gehalt im Blut nicht mehr auf Null fällt.",
+            "body": "Wie sich legale CBD-Hanf-Zigaretten auf dein Fahrverhalten auswirken, erfährst du in unserem ==Blog.==|link:http://https://www.axa.ch/de/privatkunden/blog/unterwegs/sicherheit-auf-der-strasse/cbd-hanfzigaretten-und-fahrtuechtigkeit.html|",
             "item": "",
             "hint": "",
             "isExample": false,
@@ -12309,7 +12309,8 @@
                     "item": "",
                     "feedback": "|image:http://memes.com/funny.gif|"
                 }
-            ]
+            ],
+            "footer": "Bei regelmässigem Cannabiskonsum muss ganz auf das Autofahren verzichtet werden, weil der THC-Gehalt im Blut nicht mehr auf Null fällt."
         }
     },
     {
@@ -12317,7 +12318,7 @@
         "bit": {
             "type": "bot-action-response",
             "format": "bitmark--",
-            "body": "Der Entscheid darüber liegt nicht bei der Versicherung, sondern ist **gesetzlich vorgeschrieben.**\n\n===\n\n\n\n\n===\n\n\n\n\n===\n\n\n\n\n===\n\n\n\n\n\n===",
+            "body": "Der Entscheid darüber liegt nicht bei der Versicherung, sondern ist **gesetzlich vorgeschrieben.**",
             "item": "",
             "hint": "",
             "isExample": false,
@@ -12359,7 +12360,7 @@
         "bit": {
             "type": "bot-action-true-false",
             "format": "bitmark--",
-            "body": "===\n\n\n\n\n===\n\n\n\n===\n\n\n\n===\nCannabis im Strassenverkehr: Hier gilt **Nulltoleranz.**",
+            "body": "",
             "item": "",
             "hint": "",
             "isExample": false,
@@ -12387,7 +12388,8 @@
                     "feedback": "Nope!\n",
                     "isCorrect": false
                 }
-            ]
+            ],
+            "footer": "Cannabis im Strassenverkehr: Hier gilt **Nulltoleranz.**"
         }
     },
     {
@@ -12395,7 +12397,7 @@
         "bit": {
             "type": "bot-action-true-false",
             "format": "bitmark--",
-            "body": "Der Entscheid darüber liegt nicht bei der Versicherung, sondern ist **gesetzlich vorgeschrieben.**\n\n===\n\n\n\n\n\n===\n\n\n\n\n\n===\n\n\n\n\n\n===\n\n\n\n\n\n===",
+            "body": "Der Entscheid darüber liegt nicht bei der Versicherung, sondern ist **gesetzlich vorgeschrieben.**",
             "item": "",
             "hint": "",
             "isExample": false,
@@ -12432,8 +12434,101 @@
                 }
             ]
         }
+    },
+    {
+        "bitmark": "[.bot-action-true-false:bitmark++]\n[!Was denkst du? Darf man sich nach dem Konsum von Cannabis hinters Steuer setzen?]\n===\n[%A]\n[-Jajajaja]\n\nLeider falsch.\nDie richtige Antwort ist Nein.\n[@reaction:celebrate]\n===\n[%B]\n[+Nein]\n\nRichtig!\n===\n[%C]\n[-Vielleicht]\n\nNope!\n===\nCannabis im Strassenverkehr: Hier gilt **Nulltoleranz.**",
+        "bit": {
+            "type": "bot-action-true-false",
+            "format": "bitmark++",
+            "body": "",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "instruction": "Was denkst du? Darf man sich nach dem Konsum von Cannabis hinters Steuer setzen?",
+            "responses": [
+                {
+                    "response": "Jajajaja",
+                    "reaction": "celebrate",
+                    "item": "A",
+                    "feedback": "Die richtige Antwort ist Nein.\n",
+                    "isCorrect": false
+                },
+                {
+                    "response": "Nein",
+                    "reaction": "",
+                    "item": "B",
+                    "feedback": "Richtig!\n",
+                    "isCorrect": true
+                },
+                {
+                    "response": "Vielleicht",
+                    "reaction": "",
+                    "item": "C",
+                    "feedback": "Nope!\n",
+                    "isCorrect": false
+                }
+            ],
+            "footer": "Cannabis im Strassenverkehr: Hier gilt **Nulltoleranz.**"
+        }
     }
 ]
->>>>
-  
-
+<<<<./tests/bot-action-rating-number.bit
+[
+    {
+        "bitmark": "[.bot-action-rating-number]\n[!Do you like Get More Brain?]\nOn a scale from 1 (sucks) to 6 (great)\n===\n[!1]\n[?(sucks)]\n[%A]\n===\n[!2]\n===\n[!3]\n===\n[!4]\n===\n[!5]\n===\n[!6]\n[?(great)]\n[%Z]\n[@reaction:celebrate]\nThanks for the excellent rating!\n===",
+        "bit": {
+            "type": "bot-action-rating-number",
+            "format": "bitmark--",
+            "body": "On a scale from 1 (sucks) to 6 (great)",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "instruction": "Do you like Get More Brain?",
+            "responses": [
+                {
+                    "response": 1,
+                    "reaction": "",
+                    "item": "A",
+                    "feedback": "",
+                    "hint": "(sucks)"
+                },
+                {
+                    "response": 2,
+                    "reaction": "",
+                    "item": "",
+                    "feedback": ""
+                },
+                {
+                    "response": 3,
+                    "reaction": "",
+                    "item": "",
+                    "feedback": ""
+                },
+                {
+                    "response": 4,
+                    "reaction": "",
+                    "item": "",
+                    "feedback": ""
+                },
+                {
+                    "response": 5,
+                    "reaction": "",
+                    "item": "",
+                    "feedback": ""
+                },
+                {
+                    "response": 6,
+                    "reaction": "celebrate",
+                    "item": "Z",
+                    "feedback": "Thanks for the excellent rating!\n",
+                    "hint": "(great)"
+                }
+            ],
+            "ratingStart": 1,
+            "ratingEnd": 6
+        }
+    }
+]
+<<<<

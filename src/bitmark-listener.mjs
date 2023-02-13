@@ -42,7 +42,8 @@ let BitmarkListener = function(error_listener, source, parser) {
 		      'scormSource', 'posterImage', 'computerLanguage'
 		     ];
   this.atdef_num = ['focusX', 'focusY'];
-  
+  this.bot_action_rating = [];  // for storing bot-action-rating at exitHint()
+
   this.body_key = 'body';
   this.num_angleref = 0;
   return this;
@@ -313,8 +314,12 @@ BitmarkListener.prototype.exitInstruction = function(ctx) {
       (this.curr_bit_stk.second()).instruction = val;  // was second
     }
     else if (what==='bot_action') {
+      // For bot_action_rating_number
+      if (val.match(/^[0-9]+$/))
+	val = parseInt(val);
       let l = this.stk.top().bit.responses.length;
       this.stk.top().bit.responses[l-1].response = val;
+      this.bot_action_rating.push(val);
     }
     else if (what != null) {
       let key_obj='';
@@ -354,6 +359,10 @@ BitmarkListener.prototype.exitHint = function(ctx) {
     let key_obj = what;
     if (what==='cplus' || what==='cminus' || what=='pair') {    
       (this.curr_bit_stk.second()).hint = val;
+    }
+    else if (what==='bot_action') {
+      let l = this.stk.top().bit.responses.length;
+      this.stk.top().bit.responses[l-1].hint = val;
     }
     else {
       if (typeof what==='string' && what.startsWith('{'))
@@ -2474,7 +2483,14 @@ BitmarkListener.prototype.exitBot_action_response = function(ctx) { this.rmhspl(
 BitmarkListener.prototype.enterBot_action_true_false = function(ctx) { this.push_tmpl(ctx, 'bot-action-true-false'); };
 BitmarkListener.prototype.exitBot_action_true_false = function(ctx) { this.rmhspl(ctx); }
 BitmarkListener.prototype.enterBot_action_rating_number = function(ctx) { this.push_tmpl(ctx, 'bot-action-rating-number'); };
-BitmarkListener.prototype.exitBot_action_rating_number = function(ctx) { this.rmhspl(ctx); }
+BitmarkListener.prototype.exitBot_action_rating_number = function(ctx) {
+  this.rmhspl(ctx);
+  this.bot_action_rating.sort();
+  this.stk.top().bit['ratingStart'] = this.bot_action_rating[0];
+  let l = this.bot_action_rating.length;
+  this.stk.top().bit['ratingEnd'] = this.bot_action_rating[l-1];
+  
+};
 BitmarkListener.prototype.enterBot_action_rating_stars = function(ctx) { this.push_tmpl(ctx, 'bot-action-stars'); };
 BitmarkListener.prototype.exitBot_action_rating_stars = function(ctx) { this.rmhspl(ctx); }
 

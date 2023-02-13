@@ -1,0 +1,22 @@
+[.bot-action-rating-number]
+[!Do you like Get More Brain?]
+On a scale from 1 (sucks) to 6 (great)
+===
+[!1]
+[?(sucks)]
+[%A]
+===
+[!2]
+===
+[!3]
+===
+[!4]
+===
+[!5]
+===
+[!6]
+[?(great)]
+[%Z]
+[@reaction:celebrate]
+Thanks for the excellent rating!
+===
