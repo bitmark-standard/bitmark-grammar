@@ -2519,6 +2519,7 @@ BitmarkListener.prototype.exitFooter = function(ctx) {
   (this.stk.top()).bit.body = (this.stk.top()).bit.body.split(code).join('');
 };
 
+
 // new 02/07/22
 BitmarkListener.prototype.enterNote = function(ctx) { this.push_tmpl(ctx, 'note'); };
 BitmarkListener.prototype.enterRemark = function(ctx) { this.push_tmpl(ctx, 'remark'); };

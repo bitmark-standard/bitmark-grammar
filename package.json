@@ -28,6 +28,7 @@
     "fs": "0.0.1-security",
     "is-object": "^1.0.2",
     "npm-exists": "^1.0.1",
+    "performance-now": "^2.1.0",
     "ramda": "^0.28.0",
     "safe-buffer": "^5.2.1",
     "utf8-length": "0.0.1"
