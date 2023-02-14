@@ -1,0 +1,271 @@
+[.book]
+[#Unit: Fairy Tales Retold]
+[##2nd grade reading & vocabulary (beta)]
+
+[.chapter]
+[#Building knowledge]
+
+[.article:bitmark--&image]
+[%Welcome to the Fairy Tales Retold unit!]
+[&image:https://docs.bitbook.education/bit-books/khan_academy/khan_fairy_tales_retold/web_resources/images/rotk.png]
+How would you tell your own version of your favorite fairytale? There’s a lot we can learn about classic stories by writing different versions of them. What did the other characters think, and why was the villain bad? What if the story took place in a big city or in outer space? What happens after the characters live happily ever after? These are the kinds of questions we’ll be exploring in this unit.
+
+|note:Stop and think
+Have you ever heard two people each tell the same story?
+• How was it similar?
+• How was it different?
+
+
+In this unit, you will:
+• See how we can make our own versions of classic stories
+• Read new versions of fairytales
+
+By:
+• Watching videos to help you understand what good readers and writers do
+• Reading and answering questions about literary and informational texts
+• Learning new academic words
+
+**In order to answer the essential question:** How can we learn from a new point of view?
+
+|note:Attribution
+Image source: ==“Little Red Riding Hood Meeting the Wolf”==(:https://commons.m.wikimedia.org/wiki/File:Little_Red_Riding_Hood_Meeting_the_Wolf.jpg)== by an anonymous illustrator is licensed under ==CC0==(:https://creativecommons.org/share-your-work/public-domain/cc0/)==.
+
+
+[.article:bitmark--]
+[%Fairy Tales Retold: unit vocabulary]
+This is a list of a few useful or interesting words you'll find in this unit. You probably know some of them already, while others might be new to you. Take some time to get to know them all before you get started!
+
+**Word:** adventure __(noun)__
+• **Definition:** an exciting experience
+• **Sample Sentence:** The magic carpet took Jamal on an __adventure__ to faraway lands.
+
+**Word:** certainly __(adverb)__
+• **Definition:** for sure; without a doubt.
+• **Sample Sentence:** The giant __certainly__ did not want Jack to take the magic goose.
+
+**Word:** curious __(adjective)__
+• **Definition:** odd, strange
+• **Sample Sentence:** “What a __curious__ thing!” Jack said when the vine grew all the way to the clouds.
+
+**Word:** disguise __(noun)__
+• **Definition:** clothes or other things that you wear so that people will not know who you really are.
+• **Sample Sentence:** The prince put on a jester __disguise__ so that he could leave the castle without anyone knowing who he was.
+
+**Word:** distance __(noun)__
+• **Definition:** the space between two places.
+• **Sample Sentence:** The dwarf had to travel a long __distance__ to get to the mine.
+
+**Word:** escape __(verb)__
+• **Definition:** to get away from a bad place
+• **Sample Sentence:** Rapunzel was able to __escape__ from the tower by lowering her long hair out the window.
+
+**Word:** expect __(verb)__
+• **Definition:** to think that something will happen
+• **Sample Sentence:** Do you __expect__ the wolf to return before dark?
+
+**Word:** faithful __(adjective)__
+• **Definition:** loyal, being true
+• **Sample Sentence:** The __faithful__ elf returned to his home village every year to check on his grandmother.
+
+**Word:** gentle __(adjective)__
+• **Definition:** kind, tender, soft
+• **Sample Sentence:** The __gentle__ breeze softly dried Snow White’s tears.
+
+**Word:** grateful __(adjective)__
+• **Definition:** thankful
+• **Sample Sentence:** The fox was __grateful__ to find the magic door so that he could get out of the storm.
+
+**Word:** neither __(conjunction)__
+• **Definition:** often used with the word nor, __neither__ shows that two things are both impossible
+• **Sample Sentence:** Neither the queen nor the king could attend the royal ball because they both had the flu.
+
+**Word:** polite __(adjective)__
+• **Definition:** good manners
+• **Sample Sentence:** The __polite__ dwarf covered his nose when he sneezed.
+
+**Word:** recognize __(verb)__
+• **Definition:** to know and remember something or someone
+• **Sample Sentence:** I could __recognize__ the wolf even when he was wearing Granny’s clothes.
+
+**Word:** several __(adjective)__
+• **Definition:** more than one, but not very many
+• **Sample Sentence:** The giant tried on __several__ shoes before he found some that fit his big feet.
+
+**Word:** sly __(adjective)__
+• **Definition:** smart, but in a dishonest way
+• **Sample Sentence:** The __sly__ alligator ate the Gingerbread man after she tricked him into riding on her back.
+
+**Word:** wicked __(adjective)__
+• **Definition:** mean, evil
+• **Sample Sentence:** The __wicked__ stepmother turned her stepson into a snake.
+
+[.chapter]
+[#Close reading: fiction; Little Red Riding Hood]
+
+[.article:bitmark--&video-online]
+[&video-online:https://youtu.be/iP7HnX5mr5c]
+[%Looking back at the text for evidence | Reading]
+
+[.article:bitmark--&video-online]
+[%Messages and morals | Reading]
+[&video-online:https://youtu.be/Tevlz2S2Mzk]
+
+[.article:bitmark--&video-online]
+[%Character actions in stories | Reading]
+[&video-online:https://youtu.be/tW9TG22U3Go]
+
+[.article:bitmark--&video-online]
+[%What do pictures bring to a story? | Reading]
+[&video-online:https://youtu.be/0zoZmYbJ3tE]
+
+[.article:bitmark--]
+[%Practice: Fairy Tales Retold: reading creative fiction; Little Red Riding Hood 2]
+**Little Red Riding Hood**
+•. Once there was a little girl with a cloak that had a red velvet hood. She was known as Little Red Riding Hood. One day her mother said, “Your granny is sick. Please take her some cakes; they will do her good. Remember to stay on the path, and do not stop along the way.”
+•. “Yes, mother,” said Little Red Riding Hood. Her granny lived in a house in the woods. When she entered the woods, she saw a wolf. The Wolf wished to eat Little Red Riding Hood for lunch. But she did not know that, so she was not afraid of him.
+•. “And where are you going?” he asked.
+•. “To my granny’s house,” said Little Red Riding Hood.
+•. “And where does your granny live?” asked the Wolf.
+•. “In the woods, a short distance from here, in a cottage under three big oak trees,” said Little Red Riding Hood.
+•. What a tasty snack this girl would be, the Wolf thought, but she’s not big enough for a meal. I must find a way to eat her and her granny too.
+•. The Wolf said, “Why, look at all the pretty flowers. Why don’t you stop to rest and pick some of them?”
+•. Little Red Riding Hood saw the lovely flowers, and said, “Granny would love some fresh flowers.” Forgetting what she promised her mother, she left the path and went into the woods to pick flowers.
+•. Each time she picked one, she saw others even prettier, and so she strayed deeper and deeper into the woods.
+•. The Wolf hurried to Granny’s cottage and knocked on the door.
+•. “Who’s there?” said a little voice.
+•. “It is I, Little Red Riding Hood,” said the Wolf.
+•. “Oh, let yourself in, dear,” said Granny.
+•. The Wolf opened the door. Before Granny could realize what was happening, the Wolf gobbled her up!
+•. Then the sly Wolf dressed in her nightgown. With a wicked grin, he got into the bed, and pulled up the covers. It was quite the disguise.
+•. Meanwhile, Little Red Riding Hood entered Granny’s house. She took a deep breath and called out, “Good morning, Granny.” But there was no answer. She went up to the bed.
+•. There she saw her granny, or so she thought. Little Red Riding Hood thought her granny looked very strange indeed.
+•. “Oh, Granny,” she said, “what big ears you have!”
+•. “The better to hear you with,” said the Wolf.
+•. "Hmmm,” said Little Red Riding Hood. “Granny must be very sick, for her voice is much deeper than it used to be.”
+•. “And Granny, what big eyes you have!” said Little Red Riding Hood.
+•. “The better to see you with, my dear,” answered the Wolf.
+•. “And Granny, what big teeth you have!” said Little Red Riding Hood.
+•. “The better to eat you with!” cried the Wolf as he sprang up and swallowed Little Red Riding Hood in one big gulp.
+•. After his meal, the Wolf went to sleep, and began to snore. A hunter who was passing by the cottage heard the snoring.
+•. “My,” he said, “the old woman sounds terrible! I’d better check on her.”
+•. The hunter saw the Wolf. He realized that the Wolf had eaten the old woman. He knew he had to set her free.
+•. The hunter set them free, and out jumped Little Red Riding Hood and Granny.
+•. “Oh, I’m so grateful you saved us!” said Little Red Riding Hood.
+•. When the Wolf woke up, he ran away, never to be seen again.
+•. And Little Red Riding Hood said to herself, “After this I shall always do as my mother tells me.”
+||add pictures||
+
+[.multiple-choice-1]
+[%Practice Question]
+[!What is the central message of this story?
+Choose 1 answer:]
+[-A Sometimes animals act like people]
+[+B Be careful who you trust.]
+[-C Picking flowers can get you in trouble.]
+[-D Wolves are good at disguises.]
+
+[.multiple-choice:bitmark--]
+[%Practice questions]
+===
+[!**Part A**
+What problem does the Wolf have in the story?
+Choose 1 answer:]
+[-A He wants to be friends with Little Red Riding Hood.]
+[+B He is very hungry.]
+[-C He wants Little Red Riding Hood to give him the picnic basket.]
+[-D He doesn’t know who Granny is.]
+===
+[!**Part B**
+How does the Wolf solve his problem?
+Choose 1 answer:]
+[-A He decides to find the hunter to see if he has any food.]
+[+B He tricks Little Red Riding Hood so that he can eat her and Granny.]
+[-C He tricks Little Red Riding Hood so that he can steal her picnic basket.]
+[-D He decides to eat dinner at Granny’s house instead of stealing the basket.]
+===
+Psst! Don't forget to choose an answer for both questions :)
+
+[.match-solution-grouped]
+[!Practice Question
+Drag and drop each description so that it matches the correct character from the story.]
+Character - Description
+===
+the Wolf
+==
+is hungry and sneaky
+===
+Little Red Riding Hood
+==
+brings food to her grandma
+===
+Granny
+==
+is sick in bed
+===
+the hunter
+==
+helps free Little Red Riding Hood
+===
+
+[.multiple-choice]
+[!Practice Question
+Choose whether each of the following is a character or a setting from the story.]
+===
+[!Little Red Riding Hood]
+[+Character]
+[-Setting]
+===
+[!the Wolf]
+[+Character]
+[-Setting]
+===
+[!the Woods]
+[-Character]
+[+Setting]
+===
+[!Granny’s house]
+[-Character]
+[+Setting]
+===
+
+[.chapter]
+[#Close reading: fiction; Granny the Hero]
+
+[.article:bitmark--&video-online]
+[&video-online:https://youtu.be/SmnR4AZ-XM8]
+[%Summarizing stories | Reading]
+
+[.article:bitmark--&video-online]
+[&video-online:https://youtu.be/v7QuOr1PP7o]
+[%Characters' thoughts and feelings | Reading]
+
+[.article:bitmark--&video-online]
+[&video-online:https://youtu.be/GGS3NcmAZnw]
+[%A story's point of view | Reading]
+
+[.article:bitmark--&video-online]
+[&video-online:https://youtu.be/1clS_RN6NuI]
+[%Reading (and comparing) multiple books | Reading]
+
+[.article:bitmark--&image]
+[%Practice:Fairy Tales Retold: reading creative fiction; Granny the Hero 2]
+**Granny, the Hero**
+•. I’ll bet you’ve heard my story before. I’m the sweet old granny from Red Riding Hood. You know, the one who was gobbled up by a wicked wolf and rescued by a woodsman? I bet you think you know everything there is to know about this old tale. But you are so wrong!
+•. Let’s start with that sly old Wolf. He thought he could fool a little old lady like me. I’m sure he thought he’d have an easy meal. I’m just a gentle old woman. I’m polite to everyone I meet. That’s why I invited him in. He thought he’d fooled me with his silly voice, but he hadn’t. That Wolf could never sound like my sweet Little Red. I would recognize her soft, gentle voice anywhere. I didn’t know what the Wolf was planning when I invited him in. But then, I’m sure he didn’t expect this old granny to be just as sly as he was.
+•. The moment he swallowed me whole, I was already planning my escape. When you get to be as old as I am, you look forward to adventure. I knew if I put my mind to it, I’d be back out in no time.
+•. The next thing I knew, there was my granddaughter, Little Red. The Wolf had swallowed her up too.
+•. “Let’s play a game!” I said to Little Red. “Let’s see who can jump the highest.”
+•. Little Red and I started jumping. Oh, did we jump! We jumped and jumped and jumped. What a curious sight it must have been to see that old Wolf’s belly bouncing up and down! He howled and howled. The louder he howled, the harder we jumped. He finally opened his mouth, and out we popped! Then the Wolf ran away as quickly as he could—before we started jumping on top of him as well as inside him.
+•. I was a bit startled as I looked around and saw a man I didn’t recognize. Little Red said he was a woodsman. He took one look at us and fell down to the floor with a thump! I guess seeing an old granny and a young girl pop out of a wolf’s mouth could be shocking. But then, the woodsman jumped up and declared himself a hero. He said he had rescued us. What nerve! He’d already run straight into town and told several people before I could stop him. I tried telling everyone the truth, but you know how it is. People just weren’t sure they could believe an old granny could beat a wicked wolf. But you know who does believe it? That old nasty wolf! We never saw him again.
+
+[.multiple-choice-1:bitmark--]
+[!**Practice Question**
+Read the sentence.
+“Let’s see who can jump the highest.”
+**Who says this?**
+Choose 1 answer:]
+[-A Granny]
+[-B Little Red Riding Hood]
+[-C the woodsman]
+[+D the Wolf]
+

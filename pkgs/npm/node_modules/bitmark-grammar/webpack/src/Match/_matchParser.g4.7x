@@ -1,0 +1,307 @@
+/*
+  match grammar
+     Dec.4, 2020  by Yoshi Noda
+
+*/
+
+parser grammar matchParser;
+
+options { tokenVocab = matchLexer; }
+
+
+bitmark: ( bitmark_ ( S* NL)* )+ EOF ;
+
+bitmark_:
+	matches
+;
+
+matches:
+	  match_
+	| match_matrix	   // added Sep 2,2020
+	| match_all	   // added July 31
+	| match_all_reverse // added July 31
+	| match_reverse    // added June 7
+	| match_picture	   // added June 7
+	| match_audio	   // added June 7
+	| match_solution_grouped
+;
+
+// match eq='\n==\n'
+match_:
+     BitMatch format CL NL ( bitElem NL* )*
+        ( (HSPL NL) pair_heading )? pairs 
+        NL* ( resource (NL* resource)* )?
+;
+// New 9/2/2020
+match_matrix:
+     BitMatchmatrix format CL NL ( bitElem NL* )*
+        ( (HSPL NL) pair_heading_multi )? pair_multivals 
+	NL* ( resource (NL* resource)* )?
+;
+//
+match_solution_grouped:
+     BitMatchsolgrp format CL NL ( bitElem NL* )*
+        ( (HSPL NL) pair_heading )? pairs
+        NL* ( resource (NL* resource)* )?
+;
+// added June 7
+match_reverse:
+     BitMatchrev format CL NL ( bitElem NL* )*
+        ( (HSPL NL) pair_heading )? pairs 
+        NL* ( resource (NL* resource)* )?
+;
+// An alias of match-reverse 7/31
+match_all_reverse:
+     BitMatchallrev format CL NL ( bitElem NL* )*
+        ( (HSPL NL) pair_heading )? pairs 
+        NL* ( resource (NL* resource)* )?
+;
+// added June 7
+match_picture:
+     BitMatchpic format CL NL ( bitElem NL* )*
+        ( (HSPL NL) pair_heading )? pair_images 
+        NL* ( resource (NL* resource)* )?
+;
+// added June 7
+match_audio:
+     BitMatchaudio format CL NL ( bitElem NL* )*
+        ( (HSPL NL) pair_heading )? pair_audios
+        NL* ( resource (NL* resource)* )?
+;
+// An alias  of match? 7/31
+match_all:
+     BitMatchall format CL NL ( bitElem NL* )*
+        ( (HSPL NL) pair_heading )? pairs
+        NL* ( resource (NL* resource)* )?
+;
+
+//
+bitElem:
+     emphasis_ | NOTE | REM | HELP | HIGH | INS | DEL
+   | annotate_ | annotate_image_ | LIST_LINE
+   | dclines
+   | colcoltext
+   | gap
+   | atdef
+   | dollarans
+   | reference 
+   | item
+   | instruction 
+   | hint
+   | s_and_w 
+   | example
+   | bool_label
+   | imagebit 
+   | audiobit 
+   | videobit 
+   | articlebit | documentbit | appbit | websitebit
+   | alias     // [►]
+   | bracketed_text   // added 1/21/2020
+   | sp		// cuts the chained bits
+;
+reference:
+    AtReference ( s_and_w |url | COLON | NL )+  CL
+;
+// [_string ( ' ' string )*]
+// Chained bits following don't have the space between them.
+gap:
+    single_gap ( single_gap|instruction|hint|item|example )*
+;
+single_gap:
+    OPU ( NUMERIC | STRING | /*nil*/ ) s_and_w* clnsp
+;
+
+// Instruction
+instruction:
+    OPB s_and_w? ( s_and_w ( NL S* )* NL* )* CL
+;
+// Hint
+hint:
+    OPQ ~( CL )+ CL
+;
+// Jan 21, 2020
+bracketed_text: BracEnclose s_and_w? ( s_and_w ( NL S* )* NL* )* CL ;
+
+// multiline example
+ml_example:
+    AtExamplecol (NL? lines NL?)? CL ;  // Now working!!!!!
+
+// Cloze does not allow line breaks in example solutions
+// example:      opa 'example' cl ;
+//
+example:
+      AtExamplecl          // above will not work
+    | AtExampleWithStr
+;
+longans:   AtLonganswer ;
+shortans:  AtShortanswer ;
+dollarans: OPDOLL ( s_and_w | COLON )+ CL ;
+
+resource:
+     bitElem
+;
+
+pair_heading: key_title (NL* EQ NL*) value_title NL;
+
+pair_heading_multi:
+       key_title ( (NL* EQ NL*) value_title_multi )+ NL
+;
+
+key_title:   OPHASH s_and_w* CL  ;
+value_title: OPHASH s_and_w* CL  ;
+value_title_multi: OPHASH s_and_w* CL  ;
+
+// PAIRS
+pairs:     HSPL NL pqpair+ ;
+
+pqpair:    pquery (NL EQ NL) panswer (or_ panswer )* (NL* HSPL NL*)
+	 | pquery (NL EQ NL*) (HSPL NL*)                   // No answer
+	 | (NL* EQ NL*) (NL EQ NL) panswer (NL* HSPL NL*)  // no query
+;
+
+pquery:	 pquery__ ( NL pquery__ )* ;
+//
+pquery__:
+	  NL* item? S* emphasis_? (s_and_w|COLON)+ ( S* (example) )?
+	     (longans|shortans|tense)?
+	| NL* emphasis_
+	| /* nil */
+	| instruction
+;
+tense: TENSE ;
+
+//panswer: panswer__ (longans|shortans)? ( (NL* or NL) panswer__ (longans|shortans)? )* ;
+panswer: panswer__ (longans|shortans|example)? ;
+//
+panswer__:
+          example? item? (s_and_w|NL|S|OP|CL|DBLCOLON)+ ( S* example )?
+	| /* nil */
+        | emphasis_   // must have!
+        | example s_and_w?
+	| s_and_w NL? (example | hint | instruction)*
+	| s_and_w NL instruction
+        | instruction? opdoll ( s_and_w|NL|DOT|COLON )+ CL ( example )?
+	| instruction s_and_w ( example )?
+;
+
+pair_images: HSPL NL pair_image+  ;
+pair_image:  pimagebit (NL EQ NL) panswer (NL* HSPL NL*) ;
+
+pair_audios: HSPL NL pair_audio+ ;
+pair_audio:  paudiobit (NL EQ NL) panswer (NL* HSPL NL*) ;
+
+// New 9/2/202
+pair_multivals: HSPL NL pair_multival+ ;
+pair_multival:  mpquery ((NL EQ NL) mpanswer )+ (NL* HSPL NL*) ;
+
+pairmultival_image: ( HSPL imagebit EQ mpanswer ( EQ mpanswer )* ) ;
+pairmultival_audio:  ( HSPL audiobit EQ mpanswer ( EQ mpanswer )* )+ ;
+
+
+mpquery:  mpquery__ ( NL mpquery__ )* ;
+mpquery__:
+	  NL* item? (s_and_w|COLON)+ ( example )?
+	| NL* emphasis_ 
+	| NL* LIST_LINE
+;
+
+mpanswer: mpanswer__ (longans|shortans)? ( (OR | NL) mpanswer__ (longans|shortans)? )* ;
+mpanswer__:
+          example? item? (s_and_w|NL|S|OP|CL|DBLCOLON)+ ( S* example )?
+        | instruction? opdoll ( s_and_w|NL|DOT|COLON )+ CL ( example )?
+	| instruction s_and_w ( example )?
+	| /* nil */
+        | emphasis_
+        | example s_and_w?
+	| s_and_w NL? (example | hint | instruction)*
+	| s_and_w NL instruction
+;
+
+// These has its own listener functions
+pimagebit: pimage_one ( image_chained4match )* ( OPATALT words CL )? ( OpAtCaption .*? CL )?
+;
+pimage_one: image_one ;
+
+paudiobit:  op_audio_format COLON url CL ( OPATALT words CL )? ;
+
+bool_label:
+      AtLabeltrue  s_and_w CL
+    | AtLabelfalse s_and_w CL
+;
+
+// [@language:en]
+atdef:  atdef_ ( NL* atdef_ )*
+;
+// Chained atdef like [@age:1][@age:100],
+// [@language:en][@language:jp][@language:cn]
+// atdef_: OPA s_and_w (COLON|DBLCOLON) .*? CL ;
+// same reason as Cloze. s_and_w has OP and CL so can't have s_and_w after colon.
+atdef_: OPA s_and_w (COLON|DBLCOLON) s_and_w (COLON|s_and_w)* CL ;
+
+bullet_item:
+    OPBUL s_and_w CL ( atpoint )?
+;
+
+<<<<<<common<<<<<<
+
+dcolon: DBLCOLON ;
+colcoltext: dcolon STRING dcolon ~('::')+ dcolon ;
+
+
+//
+lines: 
+  ( s_and_w NL? )+
+;
+
+s_and_w:  
+	   STRING ( S+ NUMERIC )?  // string=STRING
+	 | words ( S+ NUMERIC )?   // words=SENTENCE
+	 | OPS s_and_w CL
+	 | NUMERIC
+	 | S* COLON S*
+	 | AMP S*
+	 | CL | DBLCOLON | LIST_LINE  // Added Aug 28, 2020
+	 | colcoltext
+;
+
+
+// Not sure what this is.
+alias:
+      OPRANGLES  s_and_w? CL
+    | OPRANGLEL  s_and_w? CL
+;
+item:  
+    OPC s_and_w (COLON|words)* CL 
+;
+dclines: DCANY ;
+
+opdoll:		OPDOLL ;
+oprangle:       (OPRANGLES|OPRANGLEL) ;  // right arrow
+opdangle:       OPDANGLE ;  // down arrow
+opu:		OPU ;
+opb:		OPB ;
+opq:		OPQ ;
+opa:		OPA ;
+opp:		OPP ;
+opm:		OPM ;
+ops:		OPS ;
+opr:		OPR ;  // [*
+opc:		OPC ;
+
+clnsp:		CL ;  // without spaces
+//hspl:		HSPL ;
+//sspl:		SSPL ;
+or_:		OR ;
+
+//comment:	COMMENT ;
+emphasis_:	(EMP1|EMP2|EMP3) ;
+annotate_:	ANNO ;
+annotate_image_:ANNO_IM ;
+
+words:          ( SENTENCE | STAR | AMP | Greater ~(Greater) | Less ~(Less) 
+		| RightArrow | RightAngle )+ ;
+
+sp: 		S ;
+
+
+// ---------END of grammar-------------------------------------------------------------

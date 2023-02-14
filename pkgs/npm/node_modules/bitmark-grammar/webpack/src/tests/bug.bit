@@ -1,0 +1,21 @@
+[.bot-action-response]
+[!Was denkst du? Darf man sich nach dem Konsum von Cannabis hinters Steuer setzen?]
+===
+[%A]
+[-Jajajaja]
+
+Leider falsch.
+Die richtige Antwort ist Nein.
+[@reaction:celebrate]
+===
+[%B]
+[+Nein]
+
+Richtig!
+===
+[%C]
+[-Vielleicht]
+
+Nope!
+===
+Cannabis im Strassenverkehr: Hier gilt **Nulltoleranz.**

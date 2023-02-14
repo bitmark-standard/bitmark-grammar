@@ -1,0 +1,50 @@
+K1 corrections
+
+[.book]
+
+[.essay:bitmark--]
+[%A14]
+[!Lebenslauf: Alles oder nichts auf knapp zwei Seiten
+Lesen Sie die folgenden Hinweise zum Verfassen eines Lebenslaufs und markieren Sie die Punkte, die sich von einem Lebenslauf in Ihrem Heimatland unterscheiden. Berichten Sie anschließend darüber.]
+Die meisten Personalchefs lesen zuerst den Lebenslauf. Er ist die wichtigste Visitenkarte eines Bewerbers. Der Lebenslauf muss auf Anhieb überzeugen, denn viele Personaler in deutschen Unternehmen fällen ihr Urteil in weniger als einer Minute. Erfüllt der Lebenslauf eines Kandidaten die Anforderungen nicht, werden die Bewerbungsunterlagen ohne weitere Beachtung aussortiert. Der Lebenslauf muss demzufolge aussagekräftig und leserfreundlich gestaltet sein.
+Das Grundprinzip eines erfolgreichen Lebenslaufs ist die Klarheit. Er sollte in übersichtliche Blöcke eingeteilt werden und darf eine Länge von zwei Seiten nicht überschreiten.
+
+
+<<**1. Persönliche Angaben**
+* Vor- und Nachname, evtl. Geburtsname
+* Anschrift mit Telefonnummer und E-Mail-Adresse
+* Geburtsdatum, Geburtsort 
+* Familienstand
+* Staatsangehörigkeit<<
+
+
+<<**2. Berufserfahrung, bei Einsteigern Praxiserfahrung aus Praktika oder Hochschule**
+* Arbeitgeber und Ort
+* Abteilung und Position
+* Kurzbeschreibung von zwei bis fünf Tätigkeitsbeispielen<<
+
+
+<<**3. Schule und Ausbildung/Studium**
+* Datum des Abschlusszeugnisses, Note
+* freiwilliges soziales Jahr/freiwilliges ökologisches Jahr/Bundesfreiwilligendienst (BFD)
+* Ausbildungsbezeichnung, Ausbildungsort, kennengelernte Bereiche, Abschluss
+* Hochschulstudium (Studiengang, Universität, Abschluss und Abschlussnote, Schwerpunkte und Thema der Abschlussarbeit)<<
+
+<<**4. Zusatzqualifikationen**
+* Sprachen (mit Angabe des Sprachniveaus) 
+* PC-Kenntnisse
+* andere Zusatzqualifikationen<<
+
+<<**5. Auslandsaufenthalte**
+* Auslandssemester und Auslandspraktika 
+* Auslandseinsätze im Beruf<<
+
+<<**6. Fort- und Weiterbildung (nicht für Berufseinsteiger)**
+* Seminare, die über den Beruf hinausgehen<<
+
+<<**7. Hobbys** (nur, wenn sie dem Beruf dienlich sind oder eine ehrenamtliche Tätigkeit beinhalten)<<[@reference::Lebenslauf: Alles oder nichts auf knapp zwei Seiten. FOCUS online In: http://www.focus.de/finanzen/]
+ 
+
+Am Ende des Lebenslaufs stehen Datum und Unterschrift.
+In Deutschland wird der Lebenslauf normalerweise mit einem Bewerbungsfoto versehen. Diese Tradition hat sich in den letzten Jahren etwas gelockert. Experten empfehlen aber, auf das Bewerbungsfoto nicht zu verzichten, da es einen ersten persönlichen Eindruck vermittelt. Das Bild sollte nicht älter als ein Jahr sein und von einem Profi im Fotostudio angefertigt werden. Es kommt rechts oben auf den Lebenslauf.
+

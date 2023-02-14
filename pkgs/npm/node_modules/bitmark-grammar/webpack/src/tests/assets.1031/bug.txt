@@ -1,0 +1,32 @@
+[.interview:bitmark++]
+[%A17ab]
+[!Bereiten Sie in Gruppen die Gliederung für einen 
+Vortrag zu folgendem Thema vor. 
+
+**Welche Umweltprobleme halten Sie für die bedrohlichsten? 
+Unterbreiten Sie Vorschläge, wie man sie verringern oder abschaffen könnte. Begründen Sie Ihre Meinung. 
+Stellen Sie Ihre Gliederung vor und vergleichenSie die Gliederungen miteinander.** 
+  
+Arbeiten Sie Ihren Vortrag als Hausaufgabe schriftlich aus.]
+**Gliederung eines Aufsatzes/Vortrages** 
+
+**Einleitung: ** 
+*Thema klären/abgrenzen 
+*Begriffe definieren 
+*Gliederung erläutern/begründen 
+**Hauptteil: ** 
+*Situation beschreiben/vergleichen 
+*Entwicklung: früher – heute betrachten 
+*Ursachen/Gründe nennen/gewichten 
+*die eigene Meinung einbeziehen 
+*Folgen aufzeigen 
+*Beispiele anführen 
+*Lösungsvorschläge unterbreiten 
+*pro und kontra argumentieren 
+**Schluss: ** 
+*Hauptinformationen zusammenfassen 
+*Schlussfolgerungen ziehen 
+*Ausblicke geben  
+===
+===
+||todo: check ex and make it sepparate for a and b if it is better so||

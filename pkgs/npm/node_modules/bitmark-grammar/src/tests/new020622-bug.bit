@@ -1,0 +1,9 @@
+[.example:bitmark++]
+[@ageRange:18][@ageRange:120]
+[@language:en]
+[@language:jp]
+[@language:cn]
+
+**Some bold text,**
+followed by some plain text. cloze open close cloze1 book.
+[&image:https://cdn.bitbook.education/cat.jpg]

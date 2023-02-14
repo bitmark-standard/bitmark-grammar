@@ -1,0 +1,43 @@
+[.match]
+[%A20]
+[!Bilden Sie aus den vorgegebenen Wörtern Sätze. 
+
+Achten Sie auf fehlende Präpositionen.]
+===
+◇ deutsch, Fernsehen – Verbrechen – sich lohnen
+==
+Im deutschen Fernsehen lohnen sich Verbrechen.
+Verbrechen lohnen sich im deutschen Fernsehen.[@example][@longAnswer]
+===
+[%1] Krimis – beliebtest-, Fernsehsendungen – Deutschland – zählen
+==
+[$Krimis zählen zu den beliebtesten Fernsehsendungen in Deutschland.]
+===
+[%2] täglich – Mord und Totschlag – Fernsehen – 19 Stunden lang – Spannung – sorgen
+==
+[$Täglich sorgen Mord und Totschlag im Fernsehen 19 Stunden lang für Spannung.]
+===
+[%3] Fernsehkrimis – 33-mal so viele Morde – richtig, Leben – geschehen
+==
+[$In Fernsehkrimis geschehen 33-mal so viele Morde wie im richtigen Leben.]
+===
+[%4] Grund – Beliebtheit, Krimis – sein – dass – das Gute – das Böse – besiegen
+==
+[$Der Grund für die Beliebtheit der Krimis ist, dass das Gute das Böse besiegt.]
+===
+[%5] Polizei – Film – Verbrechen – restlos – aufklären können
+==
+[$Die Polizei kann im Film das Verbrechen restlos aufklären.]
+===
+[%6] doch – Wirklichkeit – Fernsehkrimis – erheblich – sich unterscheiden
+==
+[$Doch die Wirklichkeit unterscheidet sich von den Fernsehkrimis erheblich.]
+===
+[%7] richtig, Kommissare – die meiste Zeit – Schreibtisch – sitzen
+==
+[$Richtige Kommissare sitzen die meiste Zeit am Schreibtisch.]
+===
+[%8] sie – illegal, Weg – Beweise – sich beschaffen – nicht dürfen
+==
+[$Sie dürfen sich nicht auf illegalem Weg Beweise beschaffen.]
+===

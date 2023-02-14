@@ -1,0 +1,22 @@
+|| ok ||
+[.sequence:bitmark--]
+
+===
+***zu oberst***
+Dach
+--
+*oben*
+3. Stock
+--
+***in der Mitte***
+2. Stock
+--
+**in der Mitte**
+1. Stock
+--
+*unten*
+Erdgeschoss
+--
+***zu unterst***
+Keller
+===

@@ -1,0 +1,10 @@
+|| ok ||
+[.true-false]
+[@labelTrue:rather yes][@labelFalse:rather no]
+===
+[+A house is bigger than a car.]
+===
+[+A tiger is bigger than a cat.]
+===
+[-A cow is bigger than a dog.]
+===

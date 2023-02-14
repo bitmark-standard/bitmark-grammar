@@ -1,0 +1,30 @@
+[.interview:bitmark--]
+[%B4]
+[!Überlegen Sie sich einen Vorfall und erstatten Sie selbst Strafanzeige gegen unbekannt.]
+(Vorname, Nachname) 
+(Straße, Hausnummer) 
+(Postleitzahl, Ort) 
+(Telefonnummer)
+
+An die Staatsanwaltschaft 
+(Straße, Hausnummer) 
+(Postleitzahl, Ort)
+
+__Strafanzeige gegen unbekannt__
+
+(Ort, Datum)
+===
+Sehr geehrte Damen und Herren,
+folgenden Vorfall möchte ich zur Anzeige bringen:
+===
+===
+
+[&article:
+Bitte nehmen Sie die Ermittlungen auf und teilen Sie mir das Aktenzeichen mit, unter dem der Vorgang bearbeitet wird.
+
+Mit freundlichen Grüßen 
+(Vorname, Nachname)
+]
+
+||it doesn\t show up right, interview slot between text lines||
+

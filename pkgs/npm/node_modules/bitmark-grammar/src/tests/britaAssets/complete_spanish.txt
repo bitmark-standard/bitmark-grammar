@@ -1,0 +1,1830 @@
+[.book]
+[#Complete Spanish All-in-One]
+[@authors.name:Gilda Nissenberg, PhD, Editor]
+[@publisher.name:McGraw-Hill Education]
+[@ISBN:978-1-26-012106-3]
+[@publications:Premium Second Edition]
+
+[.article:bitmark--]
+Copyright © 2018 by McGraw-Hill Education. All rights reserved. Except as permitted under the United States Copyright Act of 1976, no part of this publication may be reproduced or distributed in any form or by any means, or stored in a database or retrieval system, without the prior written permission of the publisher.
+
+ISBN: 978-1-26-012106-3 
+MHID: 1-26-012106-2
+
+The material in this eBook also appears in the print version of this title: ISBN: 978-1-26-012105-6, MHID: 1-26-012105-4.
+
+eBook conversion by codeMantra 
+Version 1.0
+
+All trademarks are trademarks of their respective owners. Rather than put a trademark symbol after every occurrence of a trademarked name, we use names in an editorial fashion only, and to the benefit of the trademark owner, with no intention of infringement of the trademark. Where such designations appear in this book, they have been printed with initial caps.
+
+McGraw-Hill Education eBooks are available at special quantity discounts to use as premiums and sales promotions or for use in corporate training programs. To contact a representative, please visit the Contact Us page at www.mhprofessional. com.
+
+__Portions of this book were previously published under the titles of Practice Makes Perfect: Complete French Grammar, Practice Makes Perfect: French Nouns and Their Genders Up Close, Practice Makes Perfect: French Problem Solver, Practice Makes Perfect: French Pronouns and Prepositions, Practice Makes Perfect: French Verb Tenses, Practice Makes Perfect: French Vocabulary, and Practice Makes Perfect: French Sentence Builder.__
+
+McGraw-Hill Education, the McGraw-Hill Education logo, Practice Makes Perfect, and related trade dress are trademarks or registered trademarks of McGraw-Hill Education and/or its affiliates in the United States and other countries and may not be used without written permission. All other trademarks are the property of their respective owners. McGraw-Hill Educa- tion is not associated with any product or vendor mentioned in this book.
+
+**McGraw-Hill Education Language Lab App**
+Extensive streaming audio recordings and vocabulary flashcards are available to support your study of this book. Go to mhlanguagelab.com to access the online version of this application or to locate links to the mobile app for iOS and Android devices. (Note: Internet access is required to access audio via the app.)
+
+TERMS OF USE
+
+This is a copyrighted work and McGraw-Hill Education and its licensors reserve all rights in and to the work. Use of this work is subject to these terms. Except as permitted under the Copyright Act of 1976 and the right to store and retrieve one copy of the work, you may not decompile, disassemble, reverse engineer, reproduce, modify, create derivative works based upon, transmit, distribute, disseminate, sell, publish or sublicense the work or any part of it without McGraw-Hill Educa- tion’s prior consent. You may use the work for your own noncommercial and personal use; any other use of the work is strictly prohibited. Your right to use the work may be terminated if you fail to comply with these terms.
+
+THE WORK IS PROVIDED “AS IS.” McGRAW-HILL EDUCATION AND ITS LICENSORS MAKE NO GUARAN- TEES OR WARRANTIES AS TO THE ACCURACY, ADEQUACY OR COMPLETENESS OF OR RESULTS TO BE OBTAINED FROM USING THE WORK, INCLUDING ANY INFORMATION THAT CAN BE ACCESSED THROUGH THE WORK VIA HYPERLINK OR OTHERWISE, AND EXPRESSLY DISCLAIM ANY WARRANTY, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. McGraw-Hill Education and its licensors do not warrant or guarantee that the functions contained in the work will meet your requirements or that its operation will be uninterrupted or error free. Neither McGraw- Hill Education nor its licensors shall be liable to you or anyone else for any inaccuracy, error or omission, regardless of cause, in the work or for any damages resulting therefrom. McGraw-Hill Education has no responsibility for the content of any information accessed through the work. Under no circumstances shall McGraw-Hill Education and/or its licensors be liable for any indirect, incidental, special, punitive, consequential or similar damages that result from the use of or inability to use the work, even if any of them has been advised of the possibility of such damages. This limitation of liability shall apply to any claim or cause whatsoever whether such claim or cause arises in contract, tort or otherwise.
+
+[.chapter]
+[#Subject pronouns and the present tense]
+[%2]
+
+[.article:bitmark--]
+In English and Spanish there are three grammatical persons—first, second, and third—in both singular and plural. Pronouns are used to replace the name of a person or object.
+
+[.article:bitmark++]
+[%Subject pronouns]
+|image:https://docs.bitmark.cloud/bit-books/pmp/complete_spanish/web-resources/images/subject_pronouns.png|
+The chart shows that, except the first person singular and the formal __you__, subject pronouns have both feminine and masculine forms. When a plural includes both masculine and feminine, the masculine form is used.
+
+**Marcos y Sandra** son primos. 
+__Marcos and Sandra are cousins.__
+
+**Ellos** son primos. 
+__They are cousins.__
+
+The familiar plurals **vosotros** and **vosotras** are used in most regions of Spain; **ustedes** is the familiar plural used in most of the rest of the Spanish-speaking world. **Ud.** and **Uds.** are abbreviations of the formal subject pronouns. The con- text will clarify whether to use the familiar or the formal pronoun.
+
+Señor López, **¿usted** trabaja aquí? 
+__Mr. López, do you work here?__
+
+Chicos, **¿ustedes** salen ahora? 
+__Boys, are you leaving now?__
+
+By addressing a man as **Señor**, you are showing this is a formal context. The word **chicos**, on the other hand, implies familiarity.
+Subject pronouns are usually omitted in Spanish because the verb endings clarify both person and number. However, the subject pronoun is used if the subject is not clear, or if there is a need for emphasis.
+
+¿Quién entra? ¿Ella o él?
+__Who is coming in? She or he?__ 
+
+No, **yo** entro ahora.
+__No, I am coming in now.__
+
+Subject pronouns are used as substitutes for nouns or noun phrases that have already been named or understood in context in order to avoid unnecessary repetition.
+
+Carlos y Martín viajan a Perú. **Ellos** son mis hermanos.
+__Carlos and Martín travel to Peru. They are
+my brothers.__
+
+Mi madre trabaja aquí. **Ella** recibe un
+descuento.
+__My mother works here. She gets a discount.__
+
+|remark
+When used as the subject in an indefinite sentence, __it__ has no equivalent subject pronoun
+in Spanish.
+**Es** hora de comer. 
+__It is time to eat.__
+
+Now, practice what you have studied and learned about subject pronouns in Spanish.
+
+
+[.cloze:bitmark--]
+[%2-1]
+[!Repaso. __Complete the sentence with the appropriate subject pronoun to replace the cursive words.__]
+1. __Mi hermana__ no vive aquí. [_Ella] vive en California.
+2. __Las chicas__ no son mexicanas, [_ellas] son panameñas.
+3. Aquí está ya el __Sr. López.__ [_Él] llega temprano, como siempre.
+4. ¿Quién, __Carlos o Marta__? [_Ellos] bajan la escalera.
+5. __Marisa y yo__ leemos siempre en la sala. [_Nosotros][_Nosotras] nos llevamos bien.
+6. __¡Ana, Pedro!__ ¡Hola! ¡[_Ustedes] pueden subir ya!
+7. __María y Luis__ son mis amigos. Por eso [_ellos] me ayudan tanto.
+8. __Usted y el Sr. López__ pasan ahora al frente de la oficina. [_Ustedes] deben esperar allí.
+
+||changed instrucction: Repaso. Complete the sentence with the appropriate subject pronoun to replace the underlined words.||
+
+[.article:bitmark++]
+[%The present tense]
+There are three conjugations of verbs in Spanish with infinitives that end in **-ar**, **-er**, or **-ir**. To form the present tense, replace the infinitive ending with the appropriate personal ending:
+**-ar** verbs: **-o, -as, -a, -amos, -áis, -an**
+**-er** verbs: **-o, -es, -e, -emos, -éis, -en**
+**-ir** verbs: **-o, -es, -e, -imos, -ís, -en**
+
+The following are examples of regular verbs of each conjugation in the present tense. Irregular verbs, and verbs with changes in spelling and in the stem, are reviewed later.
+
+|image:https://docs.bitmark.cloud/bit-books/pmp/complete_spanish/web-resources/images/gastar.png|
+|remark
+In the first person singular (the **yo** form), the ending is the same in all three conjugations. In **-er** and **-ir** verbs the endings are the same in the third person forms.
+
+Luisa **come** frutas tropicales. 
+__Luisa eats tropical fruits.__ 
+
+Pero ella **vive** en Quito. 
+__But she lives in Quito.__
+
+
+[.cloze:bitmark--]
+[%2-2]
+[!En casa. __Complete the sentence with the appropriate form of the present tense of the verb.__]
+1. Yo [_canto][!cantar].
+2. Él [_escucha][!escuchar].
+3. Ustedes [_bailan][!bailar].
+4. Ellas [_descansan][!descansar]
+5. Nosotras [_preparamos][!preparar] la cena.
+6. Tú [_lavas][!lavar] los platos.
+7. Tú no [_compartes][!compartir] tus secretos.
+8. Yo [_confío][!confiar] en ti.
+9. Ellas [_deciden][!decidir].
+10. Ustedes [_responden][!responder].
+11. Mi esposo [_entra][!entrar].
+12. Nuestra hija [_recibe][!recibir] un regalo.
+||changed instr:En casa. Complete the sentence with the appropriate form of the present tense of the verb in parentheses.||
+
+[.match:bitmark--]
+[%2-3]
+[!Traducción. __Use the present tense to translate each sentence. Include the subject pronoun if needed.__]
+===
+1. You __(sing., fam.)__ need to rest.
+==
+[$Necesitas descansar.]
+===
+2. He talks, I listen.
+==
+[$Él habla, yo escucho.]
+===
+3. She studies Chinese and Spanish, too.
+==
+[$Estudia chino y español también.]
+===
+4. We __(masc.)__ spend too much money.
+==
+[$Nosotros gastamos mucho dinero.]
+===
+5. You __(pl., form.)__ buy expensive shirts.
+==
+[$Ustedes compran camisas caras.]
+===
+6. I work five days a week.
+==
+[$Trabajo cinco días a la semana.]
+===
+7. They __(fem.)__ dance every Saturday.
+==
+[$Ellas bailan todos los sábados.]
+===
+8. My sister plays the piano, but I play the guitar.
+==
+[$Mi hermana toca el piano, pero yo toco la guitarra.]
+===
+
+[.article:bitmark--]
+[%Conjugating verbs]
+To conjugate a verb in the present tense or in any other tense, you will need the root of a verb and the particular ending that expresses information about the action you wish to communicate. You will find the root (or radical) of the verb in its infinitive form. It is easy to spot an infinitive in English because it is preceded by the word to: to shop, to learn, to receive, etc. Infinitives in Span- ish are not preceded by a particular word but can be recognized by one of three endings: -ar, -er, or -ir. The infinitive endings are attached to the root of the verb: **habl** + **ar**, **beb** + **er**, **decid** + **ir**.
+The three groups of infinitives are called the first, second, and third conjugation, respectively. To conjugate a verb in Spanish, drop the **-ar, -er,** or **-ir** and replace it with the correspond- ing ending that agrees with the subject doing the action.
+
+**Vendo** pólizas de seguro. 
+**I sell** __life insurance.__
+
+Because conjugation endings tell who the subject is, subject pronouns in Spanish are usually omitted. The -o of the form **vendo** reveals the subject is **yo** __(I)__. But conjugated verb endings tell more than just who does the action. Usually, these endings tell the tense (or time) actions take place: the present, past, or future.
+
+**Sales** muy temprano. 
+**You leave** __very early.__
+
+**Sales** __(you leave)__ is like **vendo** __(I sell)__; each indicates an action in the present. The **-es** ending can only refer to the person **tú** in the present tense of the indicative mood. However, endings convey additional information. With **vendo** and **sales**, the speaker indicates that these actions are perceived as a fact or reality: __I sell; you leave__. This is called the indicative mood (**modo indicativo**) of the verb. The mood expresses the attitude of the speaker. The examples **vendo** and **sales** are in the indicative mood because these verbs communicate actions perceived as factual or real. Later on, you will study other moods, such as subjunctive, conditional, and imperative.
+Thus, the endings attached to the stem of a verb hold a lot of information: who does the action, when it takes place, and the attitude or perception of the speaker.
+
+[.article:bitmark++]
+[%Regular verbs in the present tense]
+To form the present tense, drop the **-ar, -er,** or **-ir** from the root (or radical) of the infinitive, and add the ending that corresponds to the subject. The following verbs can be used as models for all regular verbs in the present tense.
+|image:https://docs.bitmark.cloud/bit-books/pmp/complete_spanish/web-resources/images/pres_tens_reg_verbs.png|
+In the following conjugations, note the subject pronouns, as well as the English equivalents:
+
+**yo** compr**o** __I buy, am buying, do buy__
+**tú** compr**as** __you (familiar singular) buy, are buying, do buy__
+**él** compr**a** __he buys, is buying, does buy__
+**ella** compr**a** __she buys, is buying, does buy__
+**usted (Ud.)** compr**a** __you (formal singular) buy, are buying, do buy__
+
+**nosotros** compr**amos** __we (masculine) buy, are buying, do buy__
+**nosotras** compr**amos** __we (feminine) buy, are buying, do buy__
+**vosotros** compr**áis** __you (masculine plural) buy, are buying, do buy__
+**vosotras** compr**áis** __you (feminine plural) buy, are buying, do buy__
+**ellos** compr**an** __they (masculine) buy, are buying, do buy__
+**ellas** compr**an** __they (feminine) buy, are buying, do buy__
+**ustedes (Uds.)** compr**an** __you (formal plural) buy, are buying, do buy__
+
+Study the conjugations above and remember that:
+◆ the first-person singular **yo** has the same ending in all three conjugations.
+◆ in the **-er** and **-ir** verb categories all three third-person singular forms have the same
+endings.
+◆ the subject pronouns are usually omitted in Spanish. Verb endings give information
+about the subject.
+
+Some commonly used regular verbs appear in the following lists.
+|image:https://docs.bitmark.cloud/bit-books/pmp/complete_spanish/web-resources/images/regular_verbs.png|
+
+[.cloze:bitmark--]
+[%2-4]
+[!La familia Gómez. __Complete each sentence with the appropriate present tense form of the verb__]
+1. Pedro Gómez [_vive][!vivir] con su familia en mi edificio de apartamentos.
+2. Lucía, la esposa de Pedro, no [_trabaja][!trabajar] todos los días.
+3. La hija, Mercedes, [_estudia][!estudiar] en la universidad.
+4. Lucía y su esposo [_planean][!planear] una visita a Mercedes esta semana.
+5. Pedrito, el hijo, ahora [_sube][!subir] a su apartamento.
+6. Pedrito [_saca][!sacar] a su perro a caminar todos los días.
+7. Y tú, ¿ [_conversas][!conversar] con los Gómez?
+8. Pedro [_necesita][!necesitar] una persona para cuidar su apartamento esta semana.
+||changed instr:La familia Gómez. Complete each sentence with the appropriate present tense form of the verb in parentheses.||
+
+[.match:bitmark--]
+[%2-5]
+[!Práctica. __Translate the sentences into Spanish.__]
+===
+1. I prepare dinner.
+==
+[$Yo preparo la cena.]
+===
+2. The children climb the stairs.
+==
+[$Los niños suben la escalera.]
+===
+3. My cats drink milk.
+==
+[$Mis gatos beben leche.]
+===
+4. The customer adds up the bill (**la cuenta**).
+==
+[$El cliente suma la cuenta.]
+===
+5. Carli’s mother talks to the reporter (**el/la reportero[a]**).
+==
+[$La mamá de Carli habla al reportero a la reportera.]
+===
+6. The actress fears the critics.
+==
+[$La actriz teme a los críticos.]
+===
+7. Your friends eat fajitas.
+==
+[$Tus amigos comen fajitas.]
+===
+
+[.article:bitmark--]
+[%When is the present tense used in Spanish?]
+The present tense is used in Spanish:
+
+◆ to describe an action happening now. Often, it is translated with the __-ing__ form in English.
+
+Ahora, **veo** a Anna. 
+__Now__ **I see** __Anna.__
+
+Louis **llega** a la puerta. 
+__Louis__ **is arriving** __at the gate.__
+
+◆ to express actions that take place regularly, in a habitual way, although the actions may not be occurring in the present. Expressions of time and other adverbs are often used to indicate that these actions take place routinely in the present.
+
+**Normalmente, compro** las frutas en el supermercado.
+**Usually I buy** __fruit at the supermarket.__
+
+
+◆ to describe events that will take place in the near future. A reference to the future may
+appear in the context or sentence.
+
+**Mañana discuto** el plan con ustedes en la reunión.
+**Tomorrow I will discuss** __the plan at the meeting.__
+
+**Este verano, viajo** a Alemania. 
+**I will travel** __to Germany__ **this summer**.
+
+◆ to ask questions, especially questions requesting permission or someone’s opinion or
+preference.
+
+¿**Bebes** café o té? 
+**Do you drink** __coffee or tea?__
+
+¿**Abro** la puerta? 
+**Shall I open** __the door?__
+
+¿**Compramos** la casa? 
+**Do we buy** __the house?__-
+
+Keep in mind the auxiliary verb do in English is not translated. In Spanish, an auxiliary verb is not needed to ask a question.
+
+Often the context or words surrounding a verb help pin down information about the time the action takes place. The following are some expressions of time used frequently to refer to actions that take place customarily in the present:
+
+
+[.vocabulary]
+[! VOCABULARIO]
+===
+al mediodía
+[@language:es]
+==
+at noon
+[@language:en]
+===
+de vez en cuando
+[@language:es]
+==
+from time to time
+[@language:en]
+===
+el lunes, el martes, etc.
+[@language:es]
+==
+on Monday, on Tuesday, etc.
+[@language:en]
+===
+esta semana
+[@language:es]
+==
+this week
+[@language:en]
+===
+este mes
+[@language:es]
+==
+this month
+[@language:en]
+===
+hoy
+[@language:es]
+==
+today
+[@language:en]
+===
+los lunes, los martes, etc.
+[@language:es]
+==
+on Mondays, on Tuesdays, etc.
+[@language:en]
+===
+nunca
+[@language:es]
+==
+never
+[@language:en]
+===
+por la mañana
+[@language:es]
+==
+in the morning or this morning
+[@language:en]
+===
+por la noche
+[@language:es]
+==
+in the evening or at night
+[@language:en]
+===
+por la tarde
+[@language:es]
+==
+in the afternoon
+[@language:en]
+===
+siempre
+[@language:es]
+==
+always
+[@language:en]
+===
+todos los días
+[@language:es]
+==
+every day
+[@language:en]
+===
+
+ 
+
+[.true-false]
+[%2-6]
+[!Y en tu caso... __¿Es verdadero (V) o falso (F)?__]
+1. Desayuno a las ocho todos los días.
+2. Miro los programas de noticias por el cable por la tarde.
+3. Trabajo ocho horas.
+4. Escribo mensajes electrónicos todos los días.
+5. Preparo la cena de lunes a viernes.
+6. Como muchas frutas y vegetales frescos.
+||bit type change||
+
+[.interview:bitmark--]
+[%2-7]
+[!En español. __Give the present tense for each answer.__]
+===
+1. Today Martha and Linus are celebrating their anniversary.[@shortAnswer]
+[$Hoy Martha y Linus celebran su aniversario.]
+===
+2. Their relatives (**los parientes**) arrive on time.[@shortAnswer]
+[$Sus parientes llegan a tiempo.]
+===
+3. Some friends are talking in the living room.[@shortAnswer]
+[$Varios amigos conversan en la sala.]
+===
+4. In the backyard, the children listen to Latin music.[@shortAnswer]
+[$En el patio, los chicos escuchan música latina.]
+===
+5. The smell (**el olor**) of enchiladas circulates through the house.[@shortAnswer]
+[$El olor a enchiladas circula por toda la casa.]
+===
+6. The children drink lemonade.[@shortAnswer]
+[$Los niños beben limonada.]
+===
+
+[.interview:bitmark--]
+[%2-8]
+[!Preguntas personales. __Give the present tense form for each answer.__]
+===
+1. ¿Vives en el campo o en una ciudad?[@shortAnswer]
+===
+2. ¿Lees novelas de misterio o de ciencia-ficción?[@shortAnswer]
+===
+3. ¿Hablas de política o de deportes con tus amigos?[@shortAnswer]
+===
+4. ¿Bebes té o café?[@shortAnswer]
+===
+5. ¿Trabajas de día o de noche?[@shortAnswer]
+===
+6. ¿Compartes tu tiempo libre con tu perro o con tu gato?[@shortAnswer]
+===
+
+[.article:bitmark--]
+[%Other uses of the present tense]
+The present is also used:
+
+◆ to tell facts considered unquestionable or universal truths.
+
+Cinco más quince **son** veinte. 
+__Five plus fifteen__ **is** __twenty.__
+
+◆ to describe a past event, making it more vivid. This is called the historical present.
+
+En 1969 el primer hombre **llega** a la luna.
+__The first man__ **gets** __to the moon in 1969.__
+
+◆ to express hypothetical actions introduced by **si**.
+
+**Si llega** el tren, salimos. 
+__If the train__ **arrives**, __we leave.__
+
+◆ to refer to possible consequences from an action that took place in the past with **casi...**
+__(almost)__ and **por poco...** __(nearly)__.
+
+Sacó la pistola y casi me **mata**. 
+__He drew the gun and nearly__ **killed (kills)** __me.__
+
+[.article:bitmark++]
+[%One more use of the present tense]
+The present tense is used:
+
+◆ to express actions that began in the past and continue in the present with the construction
+**hace** + expression of time + **que** + verb in the present tense.
+
+**Hace tres años que esperamos** una respuesta.
+**We have been waiting** __for an answer__ **for three years.**
+
+This construction has two other variations that carry the same meaning:
+
+◆ verb in the present tense + **hace** + expression of time
+
+**Esperamos** una respuesta **hace tres años**.
+**We have been waiting** __for an answer__ **for three years**.
+
+◆ verb in the present tense + **desde hace** + expression of time
+
+**Esperamos** una respuesta **desde hace tres años**.
+**We have been waiting** __for an answer__ **for three years**.
+
+Note the following questions using each of these constructions. They all have the same
+meaning:
+|image:https://docs.bitmark.cloud/bit-books/pmp/complete_spanish/web-resources/images/cuanto.png|
+
+[.interview:bitmark--]
+[%2-9]
+[!Preguntas personales. __Give the appropriate present tense form for each answer.__]
+===
+1. ¿Cuánto tiempo hace que estudias español?[@shortAnswer]
+[$Hace... que estudio español.]
+===
+2. ¿Desde hace cuánto tiempo usas la computadora?[@shortAnswer]
+[$Uso la computadora desde hace...]
+===
+3. ¿Cuántos años hace que los Estados Unidos son una nación independiente?[@shortAnswer]
+[$Hace... años que los Estados Unidos son una nación independiente.]
+===
+4. ¿Cuánto tiempo hace que usamos la Internet?[@shortAnswer]
+[$Usamos la Internet desde hace... años.]
+===
+5. ¿Desde cuándo escuchas música clásica?[@shortAnswer]
+[$Escucho música clásica desde hace... / No escucho música clásica.]
+===
+
+[.cloze:bitmark--]
+[%2-10]
+[!Tu experiencia. __Complete each sentence with the present tense form__ **yo**.]
+•. Hace una semana que [_].
+•. Desde hace un año [_].
+•. Hace diez días [_].
+•. Desde hace un año, no [_].
+•. Hace tres meses [_].
+||no answers||
+
+[.true-false:bitmark--]
+[%2-11]
+[!The new technology. __¿Verdadero (V) o falso (F)?__]
+===
+[+1. Usamos la Internet desde el siglo (century) pasado.]
+===
+[-2. Enviamos mensajes de texto (text messages) desde hace cincuenta años.]
+===
+[-3. Desde hace dos décadas usamos el teléfono.]
+===
+[-4. Hace más de dos siglos que existe el telescopio Hubble.]
+===
+[+5. Viajamos en avión de los Estados Unidos a otros continentes desde hace casi un siglo.]
+===
+
+[.article:bitmark++]
+[%Irregular verbs in the present tense]
+
+Many Spanish verbs do not follow the patterns of the regular verbs you have just studied. Instead, they change the root (or radical) of the verb, the conjugation endings, or both. Because they follow different patterns, they are considered irregular verbs. Since irregular verbs are so commonly used, a good strategy to identify and learn them is to focus on similarities, grouping them into patterns. Study the following groups of irregular verbs in the present:
+
+◆ Verbs with irregular first-person singular only; all other forms in the present are regular.
+|image:https://docs.bitmark.cloud/bit-books/pmp/complete_spanish/web-resources/images/irregular_first_person.png|
+
+[.cloze:bitmark--]
+[%2-12]
+[!Práctica. __En español.__]
+•. I give [_doy].
+•. They put [_ponen].
+•. You (**Uds.**) see [_ven]. 
+•. We fit in [_cabemos].
+•. I bring [_triago].
+•. I fall [_caigo].
+•. You (**tú**) do [_haces].
+•. I go out [_salgo].
+
+[.article:bitmark++]
+Compound verbs are easy to spot because they show a prefix (**des-, dis-, com-, con**-, etc.) preceding the radical. Here is a list of frequently used compounds of **hacer, poner**, and **traer**:
+|image:https://docs.bitmark.cloud/bit-books/pmp/complete_spanish/web-resources/images/compounds.png|
+
+[.match:bitmark--]
+[%2-13]
+[!En español.]
+===
+[%1.] I write (**componer**) songs for my friends.
+==
+[$Compongo canciones para mis amigos.]
+===
+[%2.] I propose a toast (**el brindis**).
+==
+[$Propongo un brindis.]
+===
+[%3.] They replace the money in my account.
+==
+[$Reponen el dinero en mi cuenta.]
+===
+[%4.] You (**Ud.**) distract the audience.
+==
+[$Ud. distrae al público.]
+===
+[%5.] The girls undo the puzzle (**el rompecabezas**).
+==
+[$Las niñas deshacen el rompecabezas.]
+===
+
+[.match-solution-grouped:bitmark--]
+[%2-14]
+[!Pareados. __Choose the letter that best completes each sentence.__]
+===
+[%1.] Sé
+==
+[%b.] que trabajas mucho.
+===
+[%2.] Distraigo
+==
+[%a.] a mis compañeros de trabajo.
+===
+[%3.] No quepo
+==
+[%h.] en estos pantalones.
+===
+[%4.] Compongo
+==
+[%c.] música para mis canciones.
+===
+[%5.] Propongo
+==
+[%f.] una solución para tu problema.
+===
+[%6.] Pongo
+==
+[%g.] el agua en un vaso.
+===
+[%7.] Salgo
+==
+[%e.] de la conferencia ahora.
+===
+[%8.] Caigo
+==
+[%d.] en esa trampa (__trap__) a menudo.
+||italic inside answer||
+===
+
+[.article:bitmark++]
+[%Other verbs with irregular forms in the first person]
+◆ Verbs that end in a vowel followed by -**cer** and -**cir** change c to zc in the first-person singular
+only. They are conjugated like **conocer**.
+**Conozco** muy bien a Margo. 
+**I know** __Margo very well__.
+|image:https://docs.bitmark.cloud/bit-books/pmp/complete_spanish/web-resources/images/irregular_first_person1.png|
+
+[.cloze:bitmark--]
+[%2-15]
+[!Práctica. __Complete each sentence with the appropriate present tense verb in parentheses.__]
+•. Yo [_conduzco][!conducir] el coche.
+•. Marta y tú [_salen][!salir] de casa juntos (__together__).
+•. Yo no [_conozco][!conocer] a esa familia.
+•. ¿Quién [_ofrece][!ofrecer] más por este cuadro?
+•. ¡Yo no [_merezco][!merecer] este regalo!
+•. Las asistentes del director [_obedecen][!obedecer] sus órdenes.
+
+[.match:bitmark--]
+[%2-16]
+[!Traducción. **¿Y yo?** __Translate the sentences from English to Spanish with the present tense.__]
+===
+[%1.] I deserve a raise.
+==
+[$Merezco un aumento de sueldo.]
+===
+[%2.] Do I go out now?
+==
+[$¿Salgo ahora?]
+===
+[%3.] I am grateful for your friendship.
+==
+[$Agradezco tu amistad.]
+===
+[%4.] I do not belong to this group.
+==
+[$No pertenezco a este grupo.]
+===
+[%5.] I translate the instructions.
+==
+[$Traduzco las instrucciones.]
+===
+[%6.] I seldom impose my ideas!
+==
+[$¡Rara vez impongo mis ideas!]
+===
+[%7.] I remain quiet (**callado**__a__).
+==
+[$Permanezco callado.]
+--
+[$Permanezco callada.]
+===
+
+[.article:bitmark++]
+[%Other frequently used verbs with irregular forms in the present tense]
+Study the conjugations of the verbs that follow. They have irregular forms in the present tense:
+|image:https://docs.bitmark.cloud/bit-books/pmp/complete_spanish/web-resources/images/irregular_present_tense.png|
+|image:https://docs.bitmark.cloud/bit-books/pmp/complete_spanish/web-resources/images/to_hear_present.png|
+Compounds of tener have the same irregular forms.
+|image:https://docs.bitmark.cloud/bit-books/pmp/complete_spanish/web-resources/images/ener_verbs.png|
+
+[.cloze:bitmark--]
+[%2-17]
+[!¡Mira quién baila! __Complete each sentence with the appropriate present tense form of the verbs in parentheses.__]
+•. Mi amiga Alicia [_está][!estar] en el estudio para ver el programa ¡Mira quién baila!
+•. Aquí, en el estudio, [_hay][!haber] muchos aficionados [_][!fans] al baile.
+•. Todos los aficionados [_llegan][!llegar] al estudio para ver esta competencia de baile.
+•. Marcos [_es][!ser] uno de los participantes y yo [_digo][!decir] que Marcos va a ganar hoy.
+•. Muchas personas [_vienen][!venir] para escuchar la música.
+•. Marcos [_tiene][!tener] a su hermana aquí y baila con ella.
+•. Si vienes al programa, tú [_oyes][!oír] los comentarios de los jueces.
+•. ¡Todos ustedes [_van][!ir] a querer bailar aquí, en el estudio!
+||adapt instr?||
+
+[.article:bitmark++]
+[%Verbs with spelling changes in the present tense]
+In the present tense, certain verbs have spelling changes. These are determined by Spanish rules
+of pronunciation to preserve the sound appearing in the infinitive. The following groups of verbs
+have spelling changes before the verb ending -**o**, in the **yo** form only.
+◆ Verbs ending in -**ger** or -**gir** change **g** to **j** before the -**o** ending.
+|image:https://docs.bitmark.cloud/bit-books/pmp/complete_spanish/web-resources/images/ger_ending_verbs.png|
+Other -**gir** verbs have stem changes as well. Check the sections on stem-changing verbs in
+Unit 2.
+◆ Verbs ending in -**guir** change **gu** to **g** before the -**o** ending.
+|image:https://docs.bitmark.cloud/bit-books/pmp/complete_spanish/web-resources/images/guir_ending_verbs.png|
+◆ Verbs ending in -**cer** and -**cir** change **c** to **z** before the -**o** ending.
+|image:https://docs.bitmark.cloud/bit-books/pmp/complete_spanish/web-resources/images/cer_ending_verbs.png|
+Some -**cer** and -**cir** verbs may have stem changes as well: **e** changes to **i** and o to **ue**.
+|image:https://docs.bitmark.cloud/bit-books/pmp/complete_spanish/web-resources/images/elegir.png|
+
+[.cloze:bitmark--]
+[%2-18]
+[!“Yo también...” __Write the present tense of the **yo** form of the verb in italics.__]
+•. [_Exijo][!Exige] una explicación.
+•. [_Escojo][!Escoge] los colores.
+•. [_Extingo][!Extingue] el fuego.
+•. [_Recojo][!Recoge] los periódicos.
+•. [_Venzo][!Vence] los obstáculos.
+•. [_Protejo][!Protege] sus derechos (__rights__).
+•. [_Convenzo][!Convence] a sus amigos.
+•. No [_finjo][!finge].
+||adapt instr||
+
+[.article:bitmark--]
+[%Dar, haber, hacer, and tener in expressions with a special meaning]
+In this unit, you studied **dar**, **haber**, **hacer**, and **tener**, verbs with irregular forms in the present.
+These verbs appear frequently in idiomatic expressions. Many are formed with a conjugated verb + an infinitive, called **formas perifrásticas** or **perífrasis verbales** in Spanish.
+
+Other idiomatic verbal expressions will appear in other units. Learn them as lexical (vocabulary)
+items.
+Note the use of the present tense in the examples with **dar, haber, hacer**, and **tener** that follow.
+Keep in mind that, in different contexts or surrounded by expressions of time referring to the past or the future, these idioms may also be used in other tenses.
+
+◆ **Dar
+dar un abrazo** __to hug, to embrace__
+Le da un abrazo a su amigo. __He hugs his friend.__
+
+**dar gritos** __to shout__
+La multitud da gritos. __The crowd screams.__
+
+**dar la hora** __to strike the hour__
+El reloj da la una. __The clock strikes one.__
+
+◆ **Haber
+hay que** + __infinitive to be necessary__ (to express obligation)
+Hay que estudiar para aprender. __It is necessary to study in order to learn.__
+
+**haber sol** __to be sunny__
+Hay sol por la mañana. __It is sunny in the morning.__
+
+**haber neblina** __to be foggy__
+Hay neblina esta mañana. __It is foggy this morning.__
+
+Note that **haber** is also irregular. One meaning of **haber** is __to have__. However, in the present as well as in other tenses, **haber** is more frequently used as an impersonal verb in the third-person singular form. The present tense form is **hay**. It means __there__ is and __there are__.
+
+**Hay** tres sillas en la sala. 
+**There are** __three chairs in the living room.__
+
+**Hay** una posibilidad solamente. 
+**There is** __only one possibility.__
+
+[.match:bitmark--]
+[%2-19]
+[!Traduccion. __Translate with the appropriate present tense form of the verbs__ **dar, haber, hacer**, __and__ **tener**.]
+===
+[%1.] It is not foggy this morning.
+==
+[$No hay neblina esta mañana.]
+===
+[%2.] The clock strikes ten thirty.
+==
+[$El reloj da las diez y media.]
+===
+[%3.] It is sunny now.
+==
+[$Hace sol ahora.]
+--
+[$Hay sol ahora.]
+===
+[%4.] The audience screams at the stadium.
+==
+[$El público da gritos en el estadio.]
+===
+[%5.] The captain gives a hug to the goalkeeper (**portero**).
+==
+[$El capitán le da un abrazo al portero.]
+===
+
+[.interview:bitmark--]
+[%2-20]
+[!Amigos. __Create five sentences using__ **hay que** __to make friends__.]
+===
+1.[@shortAnswer]
+===
+2.[@shortAnswer]
+===
+3.[@shortAnswer]
+===
+4.[@shortAnswer]
+===
+5.[@shortAnswer]
+===
+
+[.article:bitmark--]
+◆ **Hacer** in expressions that refer to weather conditions
+
+**hacer calor, hacer fresco** __to be hot, to be cool__
+Hace fresco, no hace calor. __It is cool; it is not hot.__
+
+**hacer viento** __to be windy__
+Hace viento. __It is windy.__
+
+**hacer un viaje** __to take a trip__
+Lina hace un viaje a las Bahamas. __Lina takes a trip to the Bahamas.__
+
+◆ **Hacer** in other expressions
+
+**hacer una visita** __to pay a visit__
+Marcus hace una visita a su tío. __Marcus visits his uncle.__
+
+**hacer daño** __to harm, damage__
+Beber mucha agua no te hace daño. __Drinking a lot of water does not harm you.__
+
+**hacer caso a** __to notice, pay attention (to)__
+Los niños no hacen caso al maestro. __The children do not pay attention to the teacher.__
+
+**hacer el papel de** __to play the role of__
+El actor hace el papel de Hamlet. __The actor plays the role of Hamlet.__
+
+◆ **Tener**
+To express obligation with a conjugated verb use the formula **tener** + **que** + infinitive.
+
+Tenemos que salir. We must leave.
+**tener frío** __to be cold__
+Tengo frío. __I am cold.__
+**tener hambre** __to be hungry__
+¿Tienes hambre? __Are you hungry?__
+**tener miedo** __to be afraid__
+No tienen miedo a las serpientes. __They are not afraid of snakes.__
+**tener razón** __to be right__
+Yo tengo razón. __I am right.__
+**tener sed** __to be thirsty__
+¿Tienes sed? __Are you thirsty?__
+**tener prisa** __to be in a hurry__
+Mi esposo tiene prisa. __My husband is in a hurry.__
+**tener la culpa (de)** __to be to blame__
+El sospechoso tiene la culpa de este accidente. __The suspect is to blame for this accident.__
+**tener lugar** __to take place__
+La reunión tiene lugar los domingos. __The meeting takes place on Sundays.__
+
+[.true-false:bitmark--]
+[%2-21]
+[!Y en tu caso... __¿Es verdadero (V) o falso (F)?__]
+[1. Tengo miedo a los fantasmas (ghosts).]
+[2. Nunca tengo prisa.]
+[3. Tengo que hacer la cama todos los días.]
+[4. Hago caso a las buenas sugerencias de mis amigos.]
+[5. No tengo mucho sueño ahora.]
+[6. Siempre hago una visita a mi familia en diciembre.]
+||no bit type?||
+
+[.match:bitmark--]
+[%2-22]
+[!En español.]
+===
+[%1.] Are you (**tú**) hungry?
+==
+¿Tienes hambre?
+===
+[%2.] We are thirsty.
+==
+Tenemos sed.
+===
+[%3.] Lori pays a visit to her cousin.
+==
+Lori hace una visita a su primo.
+===
+[%4.] Mario hugs his friend.
+==
+Mario le da un abrazo a su amigo.
+===
+[%5.] They are in a hurry.
+==
+Tienen prisa.
+===
+[%6.] You (**tú**) are right this time.
+==
+Tienes razón esta vez.
+===
+[%7.] I am not afraid.
+==
+No tengo miedo.
+===
+[%8.] Are you (**Ud.**) cold?
+==
+¿Tiene Ud. frío?
+===
+
+[.match-solution-grouped:bitmark--]
+[%2-23]
+[!Conecta la letra. __Use the appropriate letter to complete each sentence.__]
+===
+[%1.] ¡Quiero dos hamburguesas!
+==
+[%e.] Tengo hambre.
+===
+[%2.] Obedezco a mi médico.
+==
+[%b.] Hago caso.
+===
+[%3.] Bebo dos vasos de agua.
+==
+[%h.] Tengo sed.
+===
+[%4.] Estoy en lo cierto.
+==
+[%a.] Tengo razón.
+===
+[%5.] Tengo diez minutos nada más.
+==
+[%d.] Tengo prisa.
+===
+[%6.] Quiero dormir.
+==
+[%f.] Tengo sueño.
+===
+[%7.] Voy a ver a mi amigo.
+==
+[%c.] Hago una visita.
+===
+[%8.] Soy innocente.
+==
+[%g.] No tengo la culpa.
+===
+
+[.chapter]
+[#Present tense irregular verbs]
+[%3]
+
+[.article:bitmark--]
+Chapter 2 shows that many frequently used verbs in Spanish are considered irregular. In this chapter, the verbs in the present tense are considered irregular verbs that undergo a change in the last vowel of the stem.
+
+[.article:bitmark--]
+[%Verbs with stem changes in the present tense]
+The vowel change in the stem of the present tense does not affect the personal endings, which remain the same. The stem change holds for all forms except the **nosotros/nosotras** and **vosotros/vosotras** forms.
+
+Siempre **pienso** en mis amigos. 
+__I always think about my friends.__
+
+Nosotros **preferimos** las sillas azules. 
+__We prefer the blue chairs.__
+
+[.article:bitmark++]
+[%Stem change e → ie]
+The conjugations of -**ar**, -**er**, and -**ir** verbs that change the stem vowel **e** to **ie** are as follows:
+|image:https://docs.bitmark.cloud/bit-books/pmp/complete_spanish/web-resources/images/pensar.png|
+
+**VOCABULARIO**
+
+Here are some verbs with the **e** → **ie** stem change that you may use for the exercises that follow.
+|image:https://docs.bitmark.cloud/bit-books/pmp/complete_spanish/web-resources/images/atraversar.png|
+|image:https://docs.bitmark.cloud/bit-books/pmp/complete_spanish/web-resources/images/confesar.png|
+
+[.cloze:bitmark--]
+[%3-1]
+[!La rutina de Julia en la casa. __Complete each sentence with the appropriate present tense ella form of the verb in parentheses.__]
+•. Todos los días, Julia [_desciende][!descender] las escaleras.
+•. Después, [_despierta][!despertar] a su esposo.
+•. Luego [_enciende][!encender] la luz de la cocina.
+•. [_Empieza][!empezar] a preparar el café.
+•. También, [_hierve][!hervir] el agua para el té de su esposo.
+•. [_Friega][!fregar] los platos y las tazas.
+•. Entonces [_atraviesa][!atravesar] el pasillo para ir a su oficina.
+•. [_Comienza][!comenzar] su trabajo en la oficina en su casa.
+•. Después [_sienta][!sentar] a su gato en una silla cerca de la computadora.
+•. Quiere silencio y [_cierra][!cerrar] la puerta de la oficina.
+||adapt instr||
+
+[.cloze-and-multiple-choice-text:bitmark--]
+[%3-2]
+[!Un programa de radio. __First underline the verb in parentheses that best fits the meaning of each sentence. Then fill in the appropriate present tense form of the verb.__]
+
+Modelo:
+Nosotros [_negamos][!sentar / negar][@example] la noticia.
+
+•. Ahora [_comienza][!comenzar/convertir] el programa de noticias.
+•. La presentadora [_divierte] a los oyentes (listeners). [-confesar][+divertir]
+•. Los oyentes [_sienten] una voz agradable. [-referir][+sentir]
+•. Los oyentes comentan y [_defienden] sus ideas. [+defender][-encender]
+•. Los anuncios [_recomiendan] muchos productos naturales. [-fregar][-recomendar]
+•. A veces, [_empieza] una canción antes de otras noticias. [+empezar][-perder]
+•. ¡Noticia de última hora! La emisora [_advierte] una tormenta de nieve. [+advertir][-querer]
+•. Las autoridades [_cierran] las autopistas (expressways) mañana. [-encerrar][+cerrar]
+||adapt instr||
+
+[.article:bitmark++]
+[%Stem change **o** → **ue**]
+The conjugations of -**ar**, -**er**, and -**ir** verbs that change the stem vowel **o** to **ue** are as follows:
+||bold in ex description?||
+|image:https://docs.bitmark.cloud/bit-books/pmp/complete_spanish/web-resources/images/contar.png|
+**VOCABULARIO**
+
+Below you find verbs with the **o** → **ue** stem change, mostly -**ar** and -**er** verbs. Use them for the exercises that follow.
+|image:https://docs.bitmark.cloud/bit-books/pmp/complete_spanish/web-resources/images/ar_er_ir_verbs.png|
+|image:https://docs.bitmark.cloud/bit-books/pmp/complete_spanish/web-resources/images/ar_er_verbs.png|
+The verb **oler** also adds an **h** to all forms __except__ **nosotros** and **vosotros: huelo, hueles**, etc.
+
+No **huelo** las flores. 
+__I do not smell the flowers.__
+
+Vosotros **oléis** los pasteles. 
+__You smell the pastries.__
+
+Note also that in the verb **jugar**, the **u** in the stem changes to ue in all forms __except__
+**nosotros** and **vosotros**.
+
+Yo **juego** tenis los sábados. 
+__I play tennis every Saturday.__
+
+**Jugamos** al ajedrez.
+__We play chess.__
+
+[.match:bitmark--]
+[%3-3]
+[!Mis amigos Bernardo y José. Traducción.]
+===
+[%1.] Bernardo and José tend to help their friends.
+==
+[$Bernardo y José suelen ayudar a sus amigos.]
+===
+[%2.] When it rains, José picks me up at my office.
+==
+[$Cuando llueve, José me recoge en mi oficina.]
+===
+[%3.] Bernardo remembers my birthday every year.
+==
+[$Bernardo recuerda mi cumpleaños todos los años. ]
+===
+[%4.] I eat lunch with José frequently.
+==
+[$Almuerzo con José frecuentemente.]
+===
+[%5.] They play golf on Sundays.
+==
+[$Juegan al golf los domingos.]
+===
+[%6.] When I play with them, I count the points for the score (**el resultado**).
+==
+[$Cuando juego con ellos, yo cuento los puntos para el resultado.]
+===
+[%7.] José flies to Costa Rica every summer.
+==
+[$José vuela a Costa Rica todos los veranos / cada verano.]
+===
+[%8.] He usually returns to Albuquerque after one week.
+==
+[$Usualmente vuelve a Albuquerque después de una semana.]
+===
+
+[.match-solution-grouped:bitmark--]
+[%3-4]
+[!Usa la lógica. __Write in the letter of the phrase that best completes each sentence.__]
+===
+[%1.] Duerme
+==
+[%h.] en el sofá de la sala.
+===
+[%2.] Devuelve casi siempre
+==
+[%i.] los regalos de sus amigos.
+===
+[%3.] Cuelga la ropa
+==
+[%c.] en el ropero de su habitación.
+===
+[%4.] Demuestra su mejor característica:
+==
+[%d.] la generosidad a su comunidad.
+===
+[%5.] Huele el perfume
+==
+[%f.] de una rosa en la terraza.
+===
+[%6.] Resuelve sus problemas porque
+==
+[%e.] piensa mucho y toma decisiones.
+===
+[%7.] Muerde
+==
+[%b.] una manzana; tiene hambre.
+===
+[%8.] Recuerda mucho,
+==
+[%g.] tiene buena memoria.
+===
+[%9.] Cuenta
+==
+[%j.] el dinero en el banco.
+===
+[%10.] Juega todos los domingos y
+==
+[%a.] gana siempre contra sus amigos
+===
+
+[.article:bitmark++]
+[%Stem change e → i]
+The conjugation of -**ir** verbs with the **e** → **i** stem vowel change is as follows:
+
+|image:https://docs.bitmark.cloud/bit-books/pmp/complete_spanish/web-resources/images/pedir.png|
+
+[.vocabulaty]
+[%VOCABULARIO]
+
+[!Now, review the list of commonly used verbs with the **e** → **i** stem change that may be useful for the exercises that follow:]
+===
+competir
+[@language:es]
+==
+to compete
+[@language:en]
+===
+medir
+[@language:es]
+==
+to measure
+[@language:en]
+===
+conseguir
+[@language:es]
+==
+to get, obtain
+[@language:en]
+===
+perseguir
+[@language:es]
+==
+to pursue, follow
+[@language:en]
+===
+decir
+[@language:es]
+==
+to say, tell
+[@language:en]
+===
+reír
+[@language:es]
+==
+to laugh
+[@language:en]
+===
+despedir
+[@language:es]
+==
+to fire
+[@language:en]
+===
+repetir
+[@language:es]
+==
+to repeat
+[@language:en]
+===
+elegir
+[@language:es]
+==
+to choose, elect
+[@language:en]
+===
+seguir
+[@language:es]
+==
+to follow, continue
+[@language:en]
+===
+freír
+[@language:es]
+==
+to fry
+[@language:en]
+===
+servir
+[@language:es]
+==
+to serve
+[@language:en]
+===
+gemir
+[@language:es]
+==
+to moan
+[@language:en]
+===
+sonreír
+[@language:es]
+==
+to smile
+[@language:en]
+===
+impedir
+[@language:es]
+==
+to avoid, prevent
+[@language:en]
+===
+vestir
+[@language:es]
+==
+to dress
+[@language:en]
+===
+
+|remark
+Some verbs in this list have additional spelling changes and a written accent.
+
+◆ **Seguir, conseguir: u** follows **g** where needed to maintain the hard **g** sound: **sigues,
+sigue, siguen**; consigues, consigue, consiguen.
+
+Siempre tú **sigues** las reglas de la clase. 
+__You always follow the class rules.__
+
+Juan **consigue** un trabajo excelente. 
+__Juan gets an excellent job.__
+
+◆ All forms of **reír** and **sonreír** have a written accent on the stem vowel **í**.
+
+Mis amigos **ríen** cuando terminan su trabajo.
+__My friends laugh when they finish their work.__
+
+¿Por qué no **sonríen** los chicos? 
+__Why don’t the children smile?__
+
+◆ In addition to the stem vowel change, the **yo** form of **elegir** is **elijo**, and the **yo** form
+of **decir** is **digo**.
+
+**Elijo** estos libros. 
+__I choose these books.__
+
+No siempre **digo** la verdad.
+__I do not always tell the truth.__
+
+
+[.article:bitmark++]
+[%Vowel changes in verbs ending in -uir]
+For verbs ending in -**uir** not preceded by **g, y** is inserted after the **u**, except in the **nosotros** and **vosotros** forms.
+|image:https://docs.bitmark.cloud/bit-books/pmp/complete_spanish/web-resources/images/concluir.png|
+
+[.vocabulary]
+[%VOCABULARIO]
+
+[!This is a short list of commonly used verbs ending in -uirnot preceded by a g.]
+===
+construir
+[@language:es]
+==
+to build, construct
+[@language:en]
+===
+huir
+[@language:es]
+==
+to flee, run away
+[@language:en]
+===
+contribuir
+[@language:es]
+==
+to contribute
+[@language:en]
+===
+incluir
+[@language:es]
+==
+to include
+[@language:en]
+===
+destruir
+[@language:es]
+==
+to destroy
+[@language:en]
+===
+influir
+[@language:es]
+==
+to influence
+[@language:en]
+===
+distribuir
+[@language:es]
+==
+to distribute
+[@language:en]
+===
+sustituir
+[@language:es]
+==
+to substitute
+[@language:en]
+===
+
+[.cloze:bitmark--]
+[%3-5]
+[!En el banco. __Complete each sentence with the appropriate present tense form of the verb.__]
+1. En el banco, un cliente [_consigue][!conseguir] una hipoteca (mortgage).
+2. La cajera (teller)[_pide][!pedir] un documento de identidad (ID card) a los clientes.
+3. Los empleados saludan a los clientes y [_sonríen][!sonreír].
+4. Todos los empleados [_siguen][!seguir] las reglas de la oficina.
+5. Un joven [_sirve][!servir] café a los clientes.
+6. Este banco [_compite][!competir] con otros bancos en mi barrio.
+7. Al final del día, el guardia [_impide][!impedir] un robo.
+8. El ladrón [_huye][!huir] en su auto.
+9. ¡Qué pena! El gerente [_despide][!despedir] a dos empleados hoy.
+10. El día de trabajo [_concluye][!concluir] a las seis de la tarde.
+||instr change: En el banco. Complete each sentence with the appropriate present tense form of the verb in parentheses.||
+
+[.]
+[%3-6]
+[!Y en tu caso, ¿verdadero (V) o falso (F)?]
+1. Gimo cuando siento dolor en una muela.
+2. Mido mis palabras cuando hablo con mi jefe.
+3. Río cuando escucho chistes.
+4. Visto a mi perro con un suéter cuando salimos al parque.
+5. Repito palabras en español en voz alta.
+6. Sirvo té a mis colegas en la oficina.
+7. Elijo a buenos candidatos en las elecciones de mi país.
+8. Pido sal cuando como en un restaurante.
+||new bit?||
+
+[.article:bitmark--]
+[%Irregular verbs]
+As you have learned, many frequently used irregular verbs change their forms in different ways.
+With some (e.g., **ir**) all forms are irregular, in others (e.g., **tener**) only some forms change, and in many verbs only the **yo** form is irregular.
+
+[.article:bitmark++]
+[%Frequently used irregular verbs]
+Irregular forms in the following frequently used verbs are printed in bold.
+|image:https://docs.bitmark.cloud/bit-books/pmp/complete_spanish/web-resources/images/irregular_verbs.png|
+
+[.article:bitmark++]
+[%Verbs that are irregular in the **yo** form only]
+Many verbs that end in -**cer** or -**cir** preceded by **e, o**, or **u** add **z** in the **yo** form only.
+|image:https://docs.bitmark.cloud/bit-books/pmp/complete_spanish/web-resources/images/cer_cir_endings.png|
+Some -**er** verbs add **g** before the present tense endings.
+|image:https://docs.bitmark.cloud/bit-books/pmp/complete_spanish/web-resources/images/er_endings.png|
+Other commonly used verbs also are irregular in the **yo** form only.
+|image:https://docs.bitmark.cloud/bit-books/pmp/complete_spanish/web-resources/images/commonly_used_verbs.png|
+
+**VOCABULARIO**
+
+The addition of prefixes **com-, des-, dis-, pro-, -re, -su**, and so on does not change the
+irregular forms of the verbs **hacer, poner, tener**, and **traer**.
+|image:https://docs.bitmark.cloud/bit-books/pmp/complete_spanish/web-resources/images/prefix_verbs.png|
+
+[.cloze:bitmark--]
+[%3-7]
+[!En la oficina. __Complete each sentence with the appropriate present tense form of the verb.__]
+1. Yo nunca miento, siempre [_digo][!decir] la verdad.
+2. Marta no [_tiene][!tener] veinte años, ¡treinta!
+3. En la oficina, yo [_pongo][!poner] mi cartera en la gaveta.
+4. Yo [_sé][!saber] los nombres de todos los países europeos.
+5. Carlos [_viene][!venir] mañana de Argentina.
+6. Yo [_doy][!dar] las gracias a mis amigos.
+7. Luisa [_es][!ser] puertorriqueña.
+8. Ahora yo [_estoy][!estar] aquí, delante de la computadora.
+9. Yo no [_traigo][!traer] mucho dinero a la oficina.
+10. Brenda y yo [_oímos][!oír] música cuando trabajamos.
+11. Pedro siempre [_hace][!hacer] su trabajo.
+12. Pedro propone un restaurante para almorzar pero yo [_propongo][!proponer] otro.
+||instr changed: En la oficina. Complete each sentence with the appropriate present tense form of the verb in parentheses.||
+
+[.interview:bitmark--]
+[%3-8]
+[!Preguntas personales.]
+===
+1. ¿A qué hora sales de casa por la mañana?[@shortAnswer]
+===
+2. ¿Conduces un auto nuevo o viejo?[@shortAnswer]
+===
+3. ¿Perteneces a un partido político en tu país?[@shortAnswer]
+===
+4. ¿Qué traes a casa cuando vas al mercado?[@shortAnswer]
+===
+5. ¿Haces tareas en español o alemán?[@shortAnswer]
+===
+6. ¿Mereces un descanso después de este ejercicio? ¿Sí o no?[@shortAnswer]
+===
+
+[.article:bitmark--]
+[%Uses of the irregular verbs saber and conocer]
+Remember both **saber** and **conocer** are irregular in the present and both mean __to know__. However, in Spanish they are used in different contexts.
+
+◆ **saber**: __to know information and facts, to know how__
+
+**Ellos saben los detalles del accidente.** 
+__They know the details about the accident.__
+
+**Lola sabe que vivo en la Florida.** 
+__Lola knows that I live in Florida.__
+
+**Sé tocar la guitarra.** 
+__I know how to play the guitar.__
+
+◆ **conocer**: __to be familiar with a person, a place, or a location; to meet a person__
+
+**Conozco a Juan.**
+__I know Juan.__
+
+**No conocemos ese museo.**
+__We are not familiar with that museum.__
+
+**Es un gusto conocer a su hijo.**
+__It is a pleasure to meet your son.__
+
+[.cloze:bitmark--]
+[%3-9]
+[!Una conversación. ¿Conocer o saber? __Complete the following sentences using the__ **yo** __form of the present tense of__ **saber** __or__ **conocer** __as appropriate.__]
+1. [_Conozco] a Sebastián, el hijo de Martina.
+2. [_Sé] dónde vive Sebastián.
+3. No [_conozco] este lugar muy bien.
+4. [_Conozco] algunas tiendas excelentes aquí.
+5. No [_sé] los nombres de las estaciones de trenes tampoco.
+6. [_Sé] que Buenos Aires es una ciudad muy cosmopolita.
+7. [_Conozco] a muchas personas en México.
+8. Y [_conozco] buenas playas en ese país.
+
+[.chapter]
+[#The near future, nouns, and articles]
+[%4]
+
+[.article:bitmark--]
+As previously observed, the present tense is used to indicate actions or situations that are going on at this moment, activities and routines that take place regularly, and actions that will take place in the near future.
+
+
+[.article:bitmark++]
+[%The present and the near future]
+Spanish tends to use the present tense rather than the future tense for actions that will occur within a short time. There are two ways to do this.
+
+◆ The present tense plus adverbs or adverbial phrases that indicate when the action will take place
+
+El próximo lunes regresamos. 
+__Next Monday we will go back.__
+
+◆ The verb **ir** __(to go)__ + **a** + the infinitive, as in English you could say __I am going to__. All present tense forms of **ir** are irregular.
+|image:
+
+**Voy a ayudar** a mi tía en su oficina. 
+__I am going to help my aunt in her office.__
+
+**Mis amigos van a viajar** mañana. 
+__My friends are going to travel tomorrow.__
+
+
+[.vocabulary:bitmark--]
+[%VOCABULARIO]
+[!These are some of the adverbial expressions that pinpoint the time when an action will take place in the near future.]
+===
+el año que viene
+[@language:es]
+==
+next year
+[@language:en]
+===
+mañana
+[@language:es]
+==
+tomorrow
+[@language:en]
+===
+el mes que viene
+[@language:es]
+==
+next month
+[@language:en]
+===
+mañana por la mañana
+[@language:es]
+==
+tomorrow morning
+[@language:en]
+===
+esta noche
+[@language:es]
+==
+tonight
+[@language:en]
+===
+mañana por la noche
+[@language:es]
+==
+tomorrow night
+[@language:en]
+===
+esta tarde
+[@language:es]
+==
+this afternoon
+[@language:en]
+===
+mañana por la tarde
+[@language:es]
+==
+tomorrow afternoon
+[@language:en]
+===
+la semana que viene
+[@language:es]
+==
+next week
+[@language:en]
+===
+más tarde
+[@language:es]
+==
+later on
+[@language:en]
+===
+la semana siguiente
+[@language:es]
+==
+the following week
+[@language:en]
+===
+pasado mañana
+[@language:es]
+==
+the day after tomorrow
+[@language:en]
+===
+
+[.interview:bitmark--]
+[%4-1]
+[!Traducción.]
+===
+1. Tomorrow morning we are going to visit a museum in Madrid.[@shortAnswer]
+[$Mañana por la mañana vamos a visitar un museo en Madrid.]
+===
+2. Later I am going to walk around the city.[@shortAnswer]
+[$Más tarde voy a caminar por la ciudad.]
+===
+3. Tomorrow afternoon Laurita is going to see her friends from Barcelona.[@shortAnswer]
+[$Mañana por la tarde Laurita va a ver a sus amigos de Barcelona.]
+===
+4. Next week Laurita and I will travel to Seville.[@shortAnswer]
+[$La semana que viene Laurita y yo vamos a viajar a Sevilla.]
+===
+5. The following week you and Laura (pl., fam.) will return to California.[@shortAnswer]
+[$La semana siguiente tú y Laura vais/van a regresar a California.]
+===
+6. My parents are going to move from Los Angeles to Miami next year.[@shortAnswer]
+[$Mis padres van a mudarse de Los Ángeles a Miami el año que viene.]
+===
+
+[.self-assessment]
+[%4-2]
+[!Y en tu caso, ¿verdadero (V) o falso (F)?]
+===
+1. El año que viene voy a estudiar alemán.
+[• V]
+[• F]
+===
+2. Voy a celebrar mi cumpleaños con mis padres.
+[• V]
+[• F]
+===
+3. Este fin de semana voy a ir de vacaciones. 
+[• V]
+[• F]
+===
+4. El próximo verano voy a graduarme de una universidad.
+[• V]
+[• F]
+===
+5. Mañana vamos al cine mi novio/novia y yo.
+[• V]
+[• F]
+===
+6. Voy a ir a un restaurante mexicano esta noche.
+[• V]
+[• F]
+===
+7. Pasado mañana voy a jugar basquetbol.
+[• V]
+[• F]
+===
+8. Mañana por la noche voy a bailar en una discoteca.
+[• V]
+[• F]
+===
+9. Voy a tomar un autobús para regresar a mi casa esta semana.
+[• V]
+[• F]
+===
+10. Voy a terminar estos ejercicios más tarde.
+[• V]
+[• F]
+===
+
+
+[.article:bitmark--]
+[%Gender of nouns in Spanish: Endings of nouns]
+Nouns designate people, places, actions, things, events, concrete or abstract ideas, and so on. In
+Spanish, nouns are either **feminine** or **masculine**, grammatically speaking. Sometimes this classification will not make sense to the English-speaking learner of Spanish. **La mesa** __(table)__ is not viewed as an object with a “feminine” nature, but as an inanimate object that is feminine because the ending in **-a** is an indication of grammatical gender: most nouns that end in **-a** are feminine in Spanish.
+
+In Spanish, there are some general rules, which are not absolute, about the gender of nouns. In the examples that follow, the masculine article **el** and the feminine article **la** are placed before the nouns to indicate the gender. **El** and **la** are equivalent to the English definite article the.
+
+[.article:bitmark--]
+[%Masculine nouns and their endings in Spanish]
+The general rule states that all nouns in Spanish are masculine or feminine. The gender is associated
+with specific word endings. The following endings generally indicate the masculine gender:
+
+◆ Nouns that designate male beings generally (but not always) end in **-o**.
+
+**el cartero** __mailman, mail carrier (m.)__
+**el general** __general (military) (m.)__
+**el hombre** __man__
+**el profesor** __(male) professor or teacher__
+
+◆ Most nouns ending in **-o** referring to animals, things, or ideas are masculine.
+
+**el año** __year__
+**el queso** __cheese__
+**el caballo** __horse__
+**el zapato** __shoe__
+**el catálogo** __catalogue__
+
+◆ However, some nouns that end in -a are masculine. Note that the following groups with the endings **-al, -el, -ía, -ma, -ama, -ema,** and **-oma** include many nouns that are cognates, that is, words that have similar spelling and meaning in English and Spanish.
+
+**el aroma** __aroma, fragrance__
+**el mantel** __tablecloth__
+**el clima** __weather, climate__ 
+**el pastel** __cake__
+**el crucigrama** __crossword puzzle__
+**el poema** __poem__
+**el delantal** __apron__ 
+**el problema** __problem__
+**el día** __day__
+**el programa** __program__
+**el dilema** __dilemma__
+**el sistema** __system__
+**el diploma** __diploma__
+**el tema** __theme__
+**el fantasma** __ghost, phantom__
+**el tranvía** __trolley (car)__
+**el idioma** __language__
+
+Other groups of masculine nouns are:
+
+◆ nouns with the endings **-ambre** and -**aje**.
+
+**el calambre** __cramp__
+**el paisaje** __landscape__
+**el equipaje** __luggage __
+**el pasaje** __passage, (train, bus) fare__
+**el mensaje** __message__
+**el personaje** __character__
+**el salvaje** __savage__
+
+◆ nouns that end in -or and -án.
+
+**el amor** __love__
+**el rencor** __hate__
+**el calor** __heat__
+**el sudor** __sweat__
+**el imán** __magnet__
+**el volcán** __volcano__
+**el refrán** __saying, proverb__
+
+Spanish has two contractions: **al** and **del**. They are both combinations of the prepositions **a** or **de** + the article **el**. **El** is the only form of the article that contracts with **a** or **de**. The contractions are not used if the article **el** is part of a proper noun.
+
+No vamos **al cine** los lunes por la noche. 
+__We do not go__ **to the movies** __on Monday nights__
+
+Éste es el juguete **del niño**. 
+__This is the__ **child’s** __toy__.
+
+Notice the absence of the contraction in the next example; the article is part of the noun.
+
+Le escribieron **de El Pardo**, una población cerca de Madrid.
+__They wrote to him/to her__ **from El Pardo**__, a community near Madrid.__
+
+[.cloze:bitmark--]
+[%4-3]
+[!Práctica. __Use an__ **M** __to indicate masculine endings: an__ **X** __if the ending is not masculine.__]
+1. [_M] dolor (pain) 
+2. [_M] avión (plane) 
+3. [_M] maquillaje (makeup) 
+4. [_M] suspiro (sigh) 
+5. [_X] cabeza (head) 
+6. [_M] viaje (trip) 
+7. [_M] rumor (rumor) 
+8. [_X] visión (vision) 
+9. [_M] mensaje (message)
+10. [_X] virtud (virtue)
+11. [_M] síntoma (symptom)
+12. [_X] belleza (beauty)
+
+[.cloze:bitmark--]
+[%4-4]
+[!Sustantivos. __Are the following nouns masculine (Y) or not (N)?__]
+1. [_N] casa 
+2. [_Y] mensaje 
+3. [_N] cama 
+4. [_N] profesora
+5. [_Y] televisor
+6. [_Y] mantel
+7. [_N] tristeza
+8. [_N] taza 
+9. [_Y] niño 
+10. [_N] dirección
+11. [_Y] diagrama
+12. [_N] canción
+13. [_Y] clima
+14. [_Y] delantal
+15. [_Y] dilema
+16. [_Y] tema
+17. [_N] exposición
+18. [_Y] calor
+19. [_N] libertad
+20. [_N] sección
+
+
+
+[.article:bitmark--]
+[%Feminine nouns and their endings in Spanish]
+The following endings generally identify feminine nouns:
+
+◆ Nouns that identify female beings generally end in **-a**.
+
+**la enfermera** __(female) nurse__
+**la profesora** __(female) professor__
+**la hija** __daughter__
+**la yegua** __mare (horse)__
+
+◆ Nearly all other nouns ending in **-a** are also feminine.
+
+**la cocina** __kitchen__
+**la pelota** __ball__
+**la guitarra** __guitar__
+**la piscina** __pool__
+**la maleta** __suitcase__
+
+◆ A few nouns ending in **-o **are feminine. With the exception of **la mano**, the other examples in this list are abbreviations of compound feminine nouns.
+
+**la foto (la fotografía)** __photo, photograph__
+**la mano** __hand__
+**la moto (la motocicleta)** __motorcycle__
+
+◆ Nouns that end in **-ción** and **-sión** are feminine. These are often near cognates with English; note the similarities in spelling and meaning with the English equivalents.
+
+**la canción** __song__
+**la exposición** __exposition, exhibit__
+**la dirección** __address; direction__
+**la inyección** __injection__
+**la división** __division__
+**la misión** __mission__
+**la estación** __station; season__
+**la pasión** __passion__
+
+◆ Nouns that have endings **-dad** and **-tad** are usually feminine. Many English equivalents
+are nouns ending in __-ty__.
+
+**la amistad** __friendship__
+**la dignidad** __dignity__
+**la ciudad** __city__
+**la libertad** __liberty, freedom__
+**la dificultad** __difficulty__
+**la voluntad** __will__
+
+◆ Endings **-ie, -eza, -sis,** and **-itis** are generally feminine.
+
+**la crisis** __crisis__
+**la riqueza** __richness, riches__
+**la dermatitis** __dermatitis__
+**la serie** __series__
+**la dosis** __dosage, dose__
+**la sinusitis** __sinusitis__
+**la especie** __species__
+**la tristeza** __sadness__
+
+◆ Nouns that end in **-tud** and **-umbre** are feminine. Many of these nouns designate abstract
+ideas. Most abstract nouns are feminine in Spanish.
+
+**la certidumbre** __certainty__
+**la esclavitud** __slavery__
+**la costumbre** __custom, tradition__
+**la exactitud** __exactness, precision__
+**la cumbre** __summit, mountaintop__
+**la virtud** __virtue__
+
+[.cloze:bitmark--]
+[%4-5]
+[!El artículo y el género apropiado. __Use the ariticle__ **el** __or__ **la** __to indicate the gender of the noun.__]
+1. [_la] enfermedad (illness)
+2. [_la] pureza (purity)
+3. [_la] distracción
+4. [_la] pereza (laziness)
+5. [_la] sociedad
+6. [_la] explosión
+7. [_el] temor (fear)
+8. [_el] tranvía
+9. [_la] eternidad
+10. [_la] decencia
+
+[.cloze-instruction-grouped:bitmark--]
+[%4-6]
+[!Vocabulario. __Complete each sentence with the appropriate noun.__]
+1. [_La dermatitis][ es una inflamación de la piel.
+2. Debo tomar [_la dosis] apropiada de este medicamento.
+3. [_El tenor][!el tenor] espera una ovación después del concierto.
+4. Debes colocar [_] en el baúl (trunk) del auto.
+5. El tren llega a [_] a las siete en punto.
+6. [_] es lo opuesto de la belleza.
+
+
+[.article:bitmark--]
+
+[.article:bitmark--]
+

@@ -1,0 +1,40 @@
+[.article:bitmark--]
+
+* Allways read the documentation first. 
+
+* The documentation, rules, ways we write bits might change, check the documentaion from time to time to be informed about the newest changes 
+
+* When books are digitised every word/picture has to appear in the digitised version even if it will be cropped out of the actual app showing. Parts that do not make sense for the app version should be added under the .article bit and using ||excluded:….|| 
+
+* Text editing can be made in the instruction when the bit has at least bitmark—-/++ attached
+Details: https://docs.bitbook.education/bitmark_bit/#instruction
+
+* Between the paragraphs of a text please introduce a clear line
+
+* In texts where we have added numbering make sure there is no space between the answer and his number
+::code:bitmark::
+Die ganze Reise [_ging][!losgehen][%2] schon mal mit einer vierstündigen Verspätung des Fluges [_los][%2]. Am Urlaubsort musste ich noch ungefähr eine Stunde auf ein Taxi [_warten][!warten][%3]
+::
+
+* automatic numbering system doesn’t need a point after the number
+::code:bitmark::
+===
+[%1]die Verhinderung des Anschlags
+==
+[$Der Anschlag wurde verhindert.]
+===
+[%2]die Vertretung des Direktors
+==
+[$Der Direktor wurde vertreten.]
+===
+::
+
+For manual numbering this is necessary, but the easier way is to just add an * followed by a point.
+::code:bitmark::
+
+[^.cloze]
+*. einen Kontinent [_bereisen]
+*. in fremde Länder [_reisen]
+3. in der Urlaubszeit [_verreisen]
+4. in einem fremden Land [_herumreisen]
+::

@@ -1,0 +1,1 @@
+node --experimental-modules --loader ../../../node_modules/@modkit/modkit-module-manager/node-loader.mjs $@

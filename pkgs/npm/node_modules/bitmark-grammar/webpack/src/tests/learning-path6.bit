@@ -1,0 +1,42 @@
+[.learning-path-classroom-training]
+[!Skript «Grundausbildung Altersvorsorge»]
+[@action:Selbststudium]
+[@duration:3600s]
+[@book:e-876z78z87og87g8zg][►Ref4.2.34][►Ref4.3.1]
+
+First one is the normal reference.
+Second is the optional property called “referenceEnd”
+All these bits support all resources (like &websiteLink, …
+All of these bits (starting with .learning-path support the following optional properties:
+[@date:2015-03-25T12:00:00Z]
+[@location:Zug]
+[@list:One]
+[@list:Two]
+[@list:Three]
+[@list:Four]
+[@id:119760]
+||[&websiteLink:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4]||
+
+
+[.learning-path-external-link]
+[!Grundlagen 1 – Externe Konserve]
+[@action:Selbststudium]
+[@duration: 3600s]
+[@externalLinkText:www.apple.com]
+[@externalLink:https://www.apple.com]
+[@progressPoints:12345]
+[@textReference: foo
+bar baz yoshi@foo.com]
+
+
+[.learning-path-classroom-event]
+[!Grundlagen 1]
+[@action:Päsenz-Seminar]
+[@date:2022-10-01T08:00:00CET]
+[@duration:28800s]
+[@location:Zug]
+[@isTracked:true]
+[@isInfoOnly:false]
+[@textReference: foo
+bar
+baz]

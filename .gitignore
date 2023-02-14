@@ -5,7 +5,8 @@
 junks
 ooo*
 foo*
-node_modules
+./node_modules
+./webpack/node_modules
 lib
 *.ul
 *.g4.x[0-9]
@@ -23,6 +24,5 @@ build/*
 src/tmp/*
 *.tgz
 *.orig
-dist/0.bitmark.bundle.es6.js
-dist/1.bitmark.bundle.es6.js
+dist/*
 src/typescript-es6/bitmarkLexer.js-e
