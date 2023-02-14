@@ -1,7 +1,0 @@
-[.cloze-and-multiple-choice-text:bitmark--]
-[%A32a]
-[!Reisebedingungen
-Sie haben bei einem Reiseveranstalter eine Pauschalreise gebucht.
-Lesen Sie die Allgemeinen Reisebedingungen und wählen Sie zu den Punkten 1 bis 6 die passenden Überschriften.]
-**◼︎ Auszug aus den Allgemeinen Reisebedingungen**
-[-Mitwirkungspflicht des Reisenden][-Umbuchungen][-Rücktrittsmöglichkeiten des Reiseveranstalters][-Rücktritt und Stornokosten][-Beschränkung der Haftung][-Preiserhöhung][+Bezahlung][-Leistungsveränderungen ][-Datenschutz][-Abschluss des Vertrages][@example]

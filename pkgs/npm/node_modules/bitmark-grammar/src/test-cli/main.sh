@@ -1,1 +1,0 @@
-./node-es6.sh main.mjs $@

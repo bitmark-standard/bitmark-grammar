@@ -1,3 +1,0 @@
-[.cloze&image][%cl11] This sentence is a [_cloze][_gap text][!noun] with [_4][?1 or 2] gaps including an instruction for the first and a hint for the second ] gap [? [& means the start of bit [.match][@example]::remark::
-[&image:https://cdn.bitbook.education/cat.jpg][@src2x:https://cdn.bitbook.education/cat2.jpg][@src3x:https://cdn.bitbook.education/cat3.jpg][@src4x:https://cdn.bitbook.education/cat4.jpg]
-END
