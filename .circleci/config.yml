@@ -5,7 +5,7 @@ orbs:
 jobs:
   build:
     docker:
-      - image: circleci/node:18.12
+      - image: cimg/node:18.12
     steps:
       - checkout
       - run: npm ci
@@ -13,7 +13,7 @@ jobs:
       - run: 
           name: Run tests
           command:  cd src && node test-all.js
-          
+
 workflows:
   version: 2
   pipeline:
