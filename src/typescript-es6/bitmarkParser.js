@@ -1,22 +1,19 @@
-"use strict";
 // Generated from ./typescript//bitmarkParser.g4 by ANTLR 4.7.3-SNAPSHOT
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.SentenceContext = exports.SpContext = exports.WordsContext = exports.SsplContext = exports.ClnspContext = exports.Bracket_escapedContext = exports.DclinesContext = exports.S_and_wContext = exports.LinesContext = exports.AnchorContext = exports.DollaransContext = exports.Atdef_Context = exports.AtdefContext = exports.IsinfoonlyContext = exports.IstrackedContext = exports.Progress_pointsContext = exports.Bool_labelContext = exports.TitleContext = exports.HintContext = exports.InstructionContext = exports.Dateprop_chainedContext = exports.DatepropContext = exports.ProgressContext = exports.ReferenceContext = exports.Bracketed_textContext = exports.ExampleContext = exports.AnglerefContext = exports.LeadContext = exports.ItemContext = exports.UrlContext = exports.TelephoneContext = exports.Resource_chainedContext = exports.Op_audio_formatContext = exports.Audio_formatContext = exports.Audio_oneContext = exports.AudiobitContext = exports.Image_chained4matchContext = exports.Image_chainedContext = exports.Op_image_formatContext = exports.Image_oneContext = exports.ImagebitContext = exports.Video_oneContext = exports.VideobitContext = exports.Stillimg_oneContext = exports.StillimagefilmbitContext = exports.AppbitContext = exports.WebsitebitContext = exports.DocumentbitContext = exports.ArticlebitContext = exports.Op_stillimagefilm_formatContext = exports.Op_video_formatContext = exports.Op_website_formatContext = exports.Op_app_formatContext = exports.Op_document_formatContext = exports.Op_article_formatContext = exports.Stillimagefilm_formatContext = exports.Website_formatContext = exports.App_formatContext = exports.Document_formatContext = exports.Article_formatContext = exports.Video_formatContext = exports.Image_formatContext = exports.Format2Context = exports.Resource_format_extraContext = exports.Resource_formatContext = exports.FormatContext = exports.AtpointContext = exports.Self_assess_s_and_wContext = exports.Self_assessmentContext = exports.Survey_anonymous_1Context = exports.Survey_anonymousContext = exports.Survey_1Context = exports.SurveyContext = exports.Bullet_itemContext = exports.RatingContext = exports.Bot_choiceContext = exports.Bot_interviewContext = exports.MessageContext = exports.Browser_imageContext = exports.PhotoContext = exports.Focus_imageContext = exports.ScreenshotContext = exports.Question1Context = exports.Card1Context = exports.CodeContext = exports.Book_epigraphContext = exports.Book_summaryContext = exports.Book_read_moreContext = exports.Book_coming_soonContext = exports.Book_request_for_a_book_reviewContext = exports.Book_auther_bioContext = exports.Book_teaserContext = exports.Book_copyright_permissionsContext = exports.Book_notesContext = exports.Book_endnotesContext = exports.Book_reference_listContext = exports.Book_bibliographyContext = exports.Book_list_of_contributorsContext = exports.Book_acknowledgmentsContext = exports.Book_addendumContext = exports.Book_appendixContext = exports.Book_postscriptContext = exports.Book_afterwordContext = exports.Book_conclusionContext = exports.Book_inciting_incidentContext = exports.Book_introductionContext = exports.Book_epilogueContext = exports.Book_prologueContext = exports.Book_prefaceContext = exports.Book_forwordContext = exports.Book_dedicationContext = exports.Book_copyrightContext = exports.Book_titleContext = exports.Book_frontispieceContext = exports.Bit_editorialContext = exports.Bit_appLinkContext = exports.Bit_documentDownloadContext = exports.Bit_documentEmbedContext = exports.Bit_documentLinkContext = exports.Bit_documentContext = exports.Bit_websiteLinkContext = exports.Bit_stillImageFilmEmbedContext = exports.Bit_stillImageFilmLinkContext = exports.Bit_stillImageFilmContext = exports.Bit_videoLandscapeContext = exports.Bit_videoPortraitContext = exports.Bit_videoEmbedContext = exports.Bit_videoLinkContext = exports.Bit_videoContext = exports.Bit_audioEmbedContext = exports.Bit_audioLinkContext = exports.Bit_audioContext = exports.Bit_imageSuperWideContext = exports.Bit_imageZoomContext = exports.Bit_imageLinkContext = exports.Bit_imageContext = exports.ScormContext = exports.Vendor_padlet_embedContext = exports.ExamplebitContext = exports.HintbitContext = exports.FootnoteContext = exports.QuoteContext = exports.StickynoteContext = exports.SidenoteContext = exports.BugContext = exports.DangerContext = exports.HelpContext = exports.RemarkContext = exports.WarningContext = exports.InfoContext = exports.NoteContext = exports.PageContext = exports.LearningpathdetailsContext = exports.WbtcontinueContext = exports.ButtoncopytextContext = exports.Sample_solutionContext = exports.DetailsContext = exports.StatementContext = exports.ArticleContext = exports.AssignmentContext = exports.Preparation_noteContext = exports.Record_audioContext = exports.Take_pictureContext = exports.Take_audioContext = exports.Document_uploadContext = exports.Mark_colorContext = exports.Mark_textContext = exports.Mark_Context = exports.CorrsContext = exports.CorrectionContext = exports.ResourceContext = exports.PartansContext = exports.Ml_exampleContext = exports.EssayContext = exports.Choice_starContext = exports.Choice_minusContext = exports.Choice_plusContext = exports.Single_gapContext = exports.GapContext = exports.BitElemContext = exports.FooterContext = exports.FeedbackContext = exports.BoactsContext = exports.Bo_actionsContext = exports.Bot_actionContext = exports.Bot_action_rating_starsContext = exports.Bot_action_rating_numberContext = exports.Bot_action_true_falseContext = exports.Bot_action_responseContext = exports.Bot_action_remindContext = exports.Bot_action_saveContext = exports.Bot_action_announceContext = exports.Bot_action_sendContext = exports.Learning_path_classroom_eventContext = exports.Learning_path_classroom_trainingContext = exports.Learning_path_external_linkContext = exports.Learning_path_bot_trainingContext = exports.Learning_path_feedbackContext = exports.Learning_path_closingContext = exports.Learning_path_learning_goalContext = exports.Learning_path_video_callContext = exports.Learning_path_signContext = exports.Learning_path_bookContext = exports.Learning_path_stepContext = exports.Learning_path_ltiContext = exports.Group_diedContext = exports.Group_bornContext = exports.Title_etcContext = exports.Bit_aliasContext = exports.Internal_linkContext = exports.SummaryContext = exports.TocContext = exports.ChapterContext = exports.BookContext = exports.BitContext = exports.Bitmark_Context = exports.BitmarkContext = exports.bitmarkParser = void 0;
-const ATN_1 = require("antlr4ts/atn/ATN");
-const ATNDeserializer_1 = require("antlr4ts/atn/ATNDeserializer");
-const NoViableAltException_1 = require("antlr4ts/NoViableAltException");
-const Parser_1 = require("antlr4ts/Parser");
-const ParserRuleContext_1 = require("antlr4ts/ParserRuleContext");
-const ParserATNSimulator_1 = require("antlr4ts/atn/ParserATNSimulator");
-const RecognitionException_1 = require("antlr4ts/RecognitionException");
-const Token_1 = require("antlr4ts/Token");
-const VocabularyImpl_1 = require("antlr4ts/VocabularyImpl");
-const Utils = require("antlr4ts/misc/Utils");
+import { ATN } from "antlr4ts/atn/ATN";
+import { ATNDeserializer } from "antlr4ts/atn/ATNDeserializer";
+import { NoViableAltException } from "antlr4ts/NoViableAltException";
+import { Parser } from "antlr4ts/Parser";
+import { ParserRuleContext } from "antlr4ts/ParserRuleContext";
+import { ParserATNSimulator } from "antlr4ts/atn/ParserATNSimulator";
+import { RecognitionException } from "antlr4ts/RecognitionException";
+import { Token } from "antlr4ts/Token";
+import { VocabularyImpl } from "antlr4ts/VocabularyImpl";
+import * as Utils from "antlr4ts/misc/Utils";
 let bitmarkParser = /** @class */ (() => {
-    class bitmarkParser extends Parser_1.Parser {
+    class bitmarkParser extends Parser {
         constructor(input) {
             super(input);
-            this._interp = new ParserATNSimulator_1.ParserATNSimulator(bitmarkParser._ATN, this);
+            this._interp = new ParserATNSimulator(bitmarkParser._ATN, this);
         }
         // @Override
         // @NotNull
@@ -50,7 +47,7 @@ let bitmarkParser = /** @class */ (() => {
                                 this.state = 444;
                                 this._errHandler.sync(this);
                                 _alt = this.interpreter.adaptivePredict(this._input, 1, this._ctx);
-                                while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                     if (_alt === 1) {
                                         {
                                             {
@@ -102,7 +99,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -299,11 +296,11 @@ let bitmarkParser = /** @class */ (() => {
                         }
                         break;
                     default:
-                        throw new NoViableAltException_1.NoViableAltException(this);
+                        throw new NoViableAltException(this);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -1223,11 +1220,11 @@ let bitmarkParser = /** @class */ (() => {
                         }
                         break;
                     default:
-                        throw new NoViableAltException_1.NoViableAltException(this);
+                        throw new NoViableAltException(this);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -1292,16 +1289,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 607;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 8, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -1369,7 +1366,7 @@ let bitmarkParser = /** @class */ (() => {
                     this.state = 635;
                     this._errHandler.sync(this);
                     _alt = this.interpreter.adaptivePredict(this._input, 13, this._ctx);
-                    while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                    while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                         if (_alt === 1) {
                             {
                                 {
@@ -1399,7 +1396,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -1450,7 +1447,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -1479,7 +1476,7 @@ let bitmarkParser = /** @class */ (() => {
                     this.state = 654;
                     this._errHandler.sync(this);
                     _alt = this.interpreter.adaptivePredict(this._input, 16, this._ctx);
-                    while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                    while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                         if (_alt === 1) {
                             {
                                 {
@@ -1497,7 +1494,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -1526,7 +1523,7 @@ let bitmarkParser = /** @class */ (() => {
                         this._errHandler.recoverInline(this);
                     }
                     else {
-                        if (this._input.LA(1) === Token_1.Token.EOF) {
+                        if (this._input.LA(1) === Token.EOF) {
                             this.matchedEOF = true;
                         }
                         this._errHandler.reportMatch(this);
@@ -1543,7 +1540,7 @@ let bitmarkParser = /** @class */ (() => {
                                 this._errHandler.recoverInline(this);
                             }
                             else {
-                                if (this._input.LA(1) === Token_1.Token.EOF) {
+                                if (this._input.LA(1) === Token.EOF) {
                                     this.matchedEOF = true;
                                 }
                                 this._errHandler.reportMatch(this);
@@ -1556,7 +1553,7 @@ let bitmarkParser = /** @class */ (() => {
                     this.state = 673;
                     this._errHandler.sync(this);
                     _alt = this.interpreter.adaptivePredict(this._input, 19, this._ctx);
-                    while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                    while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                         if (_alt === 1) {
                             {
                                 {
@@ -1586,7 +1583,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -1616,7 +1613,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -1642,7 +1639,7 @@ let bitmarkParser = /** @class */ (() => {
                     this.state = 694;
                     this._errHandler.sync(this);
                     _alt = this.interpreter.adaptivePredict(this._input, 22, this._ctx);
-                    while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                    while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                         if (_alt === 1) {
                             {
                                 {
@@ -1703,7 +1700,7 @@ let bitmarkParser = /** @class */ (() => {
                                             }
                                             break;
                                         default:
-                                            throw new NoViableAltException_1.NoViableAltException(this);
+                                            throw new NoViableAltException(this);
                                     }
                                 }
                             }
@@ -1715,7 +1712,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -1758,7 +1755,7 @@ let bitmarkParser = /** @class */ (() => {
                                             this._errHandler.recoverInline(this);
                                         }
                                         else {
-                                            if (this._input.LA(1) === Token_1.Token.EOF) {
+                                            if (this._input.LA(1) === Token.EOF) {
                                                 this.matchedEOF = true;
                                             }
                                             this._errHandler.reportMatch(this);
@@ -1796,18 +1793,18 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 710;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 25, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                     this.state = 712;
                     this.match(bitmarkParser.NL);
                     this.state = 716;
                     this._errHandler.sync(this);
                     _alt = this.interpreter.adaptivePredict(this._input, 26, this._ctx);
-                    while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                    while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                         if (_alt === 1) {
                             {
                                 {
@@ -1823,7 +1820,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -1866,7 +1863,7 @@ let bitmarkParser = /** @class */ (() => {
                                             this._errHandler.recoverInline(this);
                                         }
                                         else {
-                                            if (this._input.LA(1) === Token_1.Token.EOF) {
+                                            if (this._input.LA(1) === Token.EOF) {
                                                 this.matchedEOF = true;
                                             }
                                             this._errHandler.reportMatch(this);
@@ -1904,18 +1901,18 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 732;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 29, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                     this.state = 734;
                     this.match(bitmarkParser.NL);
                     this.state = 738;
                     this._errHandler.sync(this);
                     _alt = this.interpreter.adaptivePredict(this._input, 30, this._ctx);
-                    while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                    while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                         if (_alt === 1) {
                             {
                                 {
@@ -1931,7 +1928,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -1987,7 +1984,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 754;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 32, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -2004,16 +2001,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 759;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 33, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -2069,7 +2066,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 774;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 35, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -2086,16 +2083,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 779;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 36, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -2151,7 +2148,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 794;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 38, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -2168,16 +2165,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 799;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 39, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -2233,7 +2230,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 814;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 41, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -2250,16 +2247,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 819;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 42, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -2315,7 +2312,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 834;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 44, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -2332,16 +2329,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 839;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 45, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -2397,7 +2394,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 854;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 47, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -2414,16 +2411,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 859;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 48, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -2479,7 +2476,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 874;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 50, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -2496,16 +2493,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 879;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 51, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -2561,7 +2558,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 894;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 53, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -2578,16 +2575,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 899;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 54, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -2643,7 +2640,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 914;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 56, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -2660,16 +2657,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 919;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 57, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -2725,7 +2722,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 934;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 59, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -2742,16 +2739,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 939;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 60, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -2807,7 +2804,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 954;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 62, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -2824,16 +2821,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 959;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 63, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -2889,7 +2886,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 974;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 65, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -2906,16 +2903,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 979;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 66, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -2971,7 +2968,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 994;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 68, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -2988,16 +2985,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 999;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 69, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -3053,7 +3050,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 1014;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 71, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -3070,16 +3067,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 1019;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 72, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -3135,7 +3132,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 1034;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 74, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -3152,16 +3149,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 1039;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 75, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -3217,7 +3214,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 1054;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 77, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -3234,16 +3231,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 1059;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 78, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -3328,12 +3325,12 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 1084;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 82, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                     this.state = 1086;
                     this.match(bitmarkParser.HSPL);
                     this.state = 1088;
@@ -3349,7 +3346,7 @@ let bitmarkParser = /** @class */ (() => {
                     this.state = 1093;
                     this._errHandler.sync(this);
                     _alt = this.interpreter.adaptivePredict(this._input, 84, this._ctx);
-                    while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                    while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                         if (_alt === 1) {
                             {
                                 {
@@ -3365,7 +3362,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -3450,12 +3447,12 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 1119;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 88, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                     this.state = 1121;
                     this.match(bitmarkParser.HSPL);
                     this.state = 1123;
@@ -3471,7 +3468,7 @@ let bitmarkParser = /** @class */ (() => {
                     this.state = 1128;
                     this._errHandler.sync(this);
                     _alt = this.interpreter.adaptivePredict(this._input, 90, this._ctx);
-                    while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                    while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                         if (_alt === 1) {
                             {
                                 {
@@ -3487,7 +3484,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -3572,12 +3569,12 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 1154;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 94, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                     this.state = 1156;
                     this.match(bitmarkParser.HSPL);
                     this.state = 1158;
@@ -3593,7 +3590,7 @@ let bitmarkParser = /** @class */ (() => {
                     this.state = 1163;
                     this._errHandler.sync(this);
                     _alt = this.interpreter.adaptivePredict(this._input, 96, this._ctx);
-                    while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                    while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                         if (_alt === 1) {
                             {
                                 {
@@ -3609,7 +3606,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -3665,7 +3662,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 1179;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 98, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -3682,16 +3679,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 1184;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 99, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -3719,7 +3716,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -3767,7 +3764,7 @@ let bitmarkParser = /** @class */ (() => {
                                 this.state = 1199;
                                 this._errHandler.sync(this);
                                 _alt = this.interpreter.adaptivePredict(this._input, 101, this._ctx);
-                                while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                     if (_alt === 1) {
                                         {
                                             {
@@ -3789,7 +3786,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -3863,7 +3860,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -3932,11 +3929,11 @@ let bitmarkParser = /** @class */ (() => {
                         }
                         break;
                     default:
-                        throw new NoViableAltException_1.NoViableAltException(this);
+                        throw new NoViableAltException(this);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -3987,16 +3984,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 1228;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 106, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -4238,7 +4235,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -4265,7 +4262,7 @@ let bitmarkParser = /** @class */ (() => {
                     this.state = 1271;
                     this._errHandler.sync(this);
                     _alt = this.interpreter.adaptivePredict(this._input, 109, this._ctx);
-                    while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                    while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                         if (_alt === 1) {
                             {
                                 this.state = 1269;
@@ -4304,7 +4301,7 @@ let bitmarkParser = /** @class */ (() => {
                                         }
                                         break;
                                     default:
-                                        throw new NoViableAltException_1.NoViableAltException(this);
+                                        throw new NoViableAltException(this);
                                 }
                             }
                         }
@@ -4315,7 +4312,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -4379,7 +4376,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -4431,7 +4428,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -4483,7 +4480,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -4535,7 +4532,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -4569,7 +4566,7 @@ let bitmarkParser = /** @class */ (() => {
                     this.state = 1334;
                     this._errHandler.sync(this);
                     _alt = this.interpreter.adaptivePredict(this._input, 119, this._ctx);
-                    while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                    while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                         if (_alt === 1) {
                             {
                                 {
@@ -4580,7 +4577,7 @@ let bitmarkParser = /** @class */ (() => {
                                     this.state = 1329;
                                     this._errHandler.sync(this);
                                     _alt = this.interpreter.adaptivePredict(this._input, 118, this._ctx);
-                                    while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                    while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                         if (_alt === 1) {
                                             {
                                                 {
@@ -4603,7 +4600,7 @@ let bitmarkParser = /** @class */ (() => {
                     this.state = 1346;
                     this._errHandler.sync(this);
                     _alt = this.interpreter.adaptivePredict(this._input, 121, this._ctx);
-                    while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                    while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                         if (_alt === 1) {
                             {
                                 {
@@ -4635,7 +4632,7 @@ let bitmarkParser = /** @class */ (() => {
                     this.state = 1352;
                     this._errHandler.sync(this);
                     _alt = this.interpreter.adaptivePredict(this._input, 122, this._ctx);
-                    while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                    while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                         if (_alt === 1) {
                             {
                                 {
@@ -4658,7 +4655,7 @@ let bitmarkParser = /** @class */ (() => {
                                 this.state = 1365;
                                 this._errHandler.sync(this);
                                 _alt = this.interpreter.adaptivePredict(this._input, 124, this._ctx);
-                                while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                     if (_alt === 1) {
                                         {
                                             {
@@ -4691,7 +4688,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -4747,7 +4744,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -4775,7 +4772,7 @@ let bitmarkParser = /** @class */ (() => {
                         this._errHandler.recoverInline(this);
                     }
                     else {
-                        if (this._input.LA(1) === Token_1.Token.EOF) {
+                        if (this._input.LA(1) === Token.EOF) {
                             this.matchedEOF = true;
                         }
                         this._errHandler.reportMatch(this);
@@ -4784,7 +4781,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -4810,7 +4807,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -4844,7 +4841,7 @@ let bitmarkParser = /** @class */ (() => {
                     this.state = 1399;
                     this._errHandler.sync(this);
                     _alt = this.interpreter.adaptivePredict(this._input, 130, this._ctx);
-                    while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                    while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                         if (_alt === 1) {
                             {
                                 {
@@ -4853,7 +4850,7 @@ let bitmarkParser = /** @class */ (() => {
                                     this.state = 1394;
                                     this._errHandler.sync(this);
                                     _alt = this.interpreter.adaptivePredict(this._input, 129, this._ctx);
-                                    while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                    while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                         if (_alt === 1) {
                                             {
                                                 {
@@ -4890,7 +4887,7 @@ let bitmarkParser = /** @class */ (() => {
                     this.state = 1411;
                     this._errHandler.sync(this);
                     _alt = this.interpreter.adaptivePredict(this._input, 132, this._ctx);
-                    while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                    while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                         if (_alt === 1) {
                             {
                                 {
@@ -4913,7 +4910,7 @@ let bitmarkParser = /** @class */ (() => {
                                 this.state = 1424;
                                 this._errHandler.sync(this);
                                 _alt = this.interpreter.adaptivePredict(this._input, 134, this._ctx);
-                                while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                     if (_alt === 1) {
                                         {
                                             {
@@ -4946,7 +4943,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -4977,7 +4974,7 @@ let bitmarkParser = /** @class */ (() => {
                             this.state = 1433;
                             this._errHandler.sync(this);
                             _alt = this.interpreter.adaptivePredict(this._input, 136, this._ctx);
-                            while (_alt !== 1 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                            while (_alt !== 1 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                 if (_alt === 1 + 1) {
                                     {
                                         {
@@ -5004,7 +5001,7 @@ let bitmarkParser = /** @class */ (() => {
                             this.state = 1442;
                             this._errHandler.sync(this);
                             _alt = this.interpreter.adaptivePredict(this._input, 137, this._ctx);
-                            while (_alt !== 1 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                            while (_alt !== 1 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                 if (_alt === 1 + 1) {
                                     {
                                         {
@@ -5024,11 +5021,11 @@ let bitmarkParser = /** @class */ (() => {
                         }
                         break;
                     default:
-                        throw new NoViableAltException_1.NoViableAltException(this);
+                        throw new NoViableAltException(this);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -5062,7 +5059,7 @@ let bitmarkParser = /** @class */ (() => {
                     this.state = 1465;
                     this._errHandler.sync(this);
                     _alt = this.interpreter.adaptivePredict(this._input, 141, this._ctx);
-                    while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                    while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                         if (_alt === 1) {
                             {
                                 {
@@ -5085,7 +5082,7 @@ let bitmarkParser = /** @class */ (() => {
                                     this.state = 1460;
                                     this._errHandler.sync(this);
                                     _alt = this.interpreter.adaptivePredict(this._input, 140, this._ctx);
-                                    while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                    while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                         if (_alt === 1) {
                                             {
                                                 {
@@ -5108,7 +5105,7 @@ let bitmarkParser = /** @class */ (() => {
                     this.state = 1471;
                     this._errHandler.sync(this);
                     _alt = this.interpreter.adaptivePredict(this._input, 142, this._ctx);
-                    while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                    while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                         if (_alt === 1) {
                             {
                                 {
@@ -5131,7 +5128,7 @@ let bitmarkParser = /** @class */ (() => {
                                 this.state = 1484;
                                 this._errHandler.sync(this);
                                 _alt = this.interpreter.adaptivePredict(this._input, 144, this._ctx);
-                                while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                     if (_alt === 1) {
                                         {
                                             {
@@ -5164,7 +5161,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -5205,7 +5202,7 @@ let bitmarkParser = /** @class */ (() => {
                     this.state = 1500;
                     this._errHandler.sync(this);
                     _alt = this.interpreter.adaptivePredict(this._input, 148, this._ctx);
-                    while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                    while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                         if (_alt === 1) {
                             {
                                 this.state = 1498;
@@ -5230,7 +5227,7 @@ let bitmarkParser = /** @class */ (() => {
                                         }
                                         break;
                                     default:
-                                        throw new NoViableAltException_1.NoViableAltException(this);
+                                        throw new NoViableAltException(this);
                                 }
                             }
                         }
@@ -5241,7 +5238,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -5300,7 +5297,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -5336,7 +5333,7 @@ let bitmarkParser = /** @class */ (() => {
                                 this._errHandler.recoverInline(this);
                             }
                             else {
-                                if (this._input.LA(1) === Token_1.Token.EOF) {
+                                if (this._input.LA(1) === Token.EOF) {
                                     this.matchedEOF = true;
                                 }
                                 this._errHandler.reportMatch(this);
@@ -5351,7 +5348,7 @@ let bitmarkParser = /** @class */ (() => {
                     this.state = 1534;
                     this._errHandler.sync(this);
                     _alt = this.interpreter.adaptivePredict(this._input, 153, this._ctx);
-                    while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                    while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                         if (_alt === 1) {
                             {
                                 {
@@ -5360,7 +5357,7 @@ let bitmarkParser = /** @class */ (() => {
                                     this.state = 1529;
                                     this._errHandler.sync(this);
                                     _alt = this.interpreter.adaptivePredict(this._input, 152, this._ctx);
-                                    while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                    while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                         if (_alt === 1) {
                                             {
                                                 {
@@ -5383,7 +5380,7 @@ let bitmarkParser = /** @class */ (() => {
                     this.state = 1540;
                     this._errHandler.sync(this);
                     _alt = this.interpreter.adaptivePredict(this._input, 154, this._ctx);
-                    while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                    while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                         if (_alt === 1) {
                             {
                                 {
@@ -5406,7 +5403,7 @@ let bitmarkParser = /** @class */ (() => {
                                 this.state = 1553;
                                 this._errHandler.sync(this);
                                 _alt = this.interpreter.adaptivePredict(this._input, 156, this._ctx);
-                                while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                     if (_alt === 1) {
                                         {
                                             {
@@ -5439,7 +5436,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -5473,7 +5470,7 @@ let bitmarkParser = /** @class */ (() => {
                     this.state = 1571;
                     this._errHandler.sync(this);
                     _alt = this.interpreter.adaptivePredict(this._input, 159, this._ctx);
-                    while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                    while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                         if (_alt === 1) {
                             {
                                 {
@@ -5482,7 +5479,7 @@ let bitmarkParser = /** @class */ (() => {
                                     this.state = 1566;
                                     this._errHandler.sync(this);
                                     _alt = this.interpreter.adaptivePredict(this._input, 158, this._ctx);
-                                    while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                    while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                         if (_alt === 1) {
                                             {
                                                 {
@@ -5505,7 +5502,7 @@ let bitmarkParser = /** @class */ (() => {
                     this.state = 1577;
                     this._errHandler.sync(this);
                     _alt = this.interpreter.adaptivePredict(this._input, 160, this._ctx);
-                    while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                    while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                         if (_alt === 1) {
                             {
                                 {
@@ -5528,7 +5525,7 @@ let bitmarkParser = /** @class */ (() => {
                                 this.state = 1590;
                                 this._errHandler.sync(this);
                                 _alt = this.interpreter.adaptivePredict(this._input, 162, this._ctx);
-                                while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                     if (_alt === 1) {
                                         {
                                             {
@@ -5561,7 +5558,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -5595,7 +5592,7 @@ let bitmarkParser = /** @class */ (() => {
                     this.state = 1608;
                     this._errHandler.sync(this);
                     _alt = this.interpreter.adaptivePredict(this._input, 165, this._ctx);
-                    while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                    while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                         if (_alt === 1) {
                             {
                                 {
@@ -5604,7 +5601,7 @@ let bitmarkParser = /** @class */ (() => {
                                     this.state = 1603;
                                     this._errHandler.sync(this);
                                     _alt = this.interpreter.adaptivePredict(this._input, 164, this._ctx);
-                                    while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                    while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                         if (_alt === 1) {
                                             {
                                                 {
@@ -5627,7 +5624,7 @@ let bitmarkParser = /** @class */ (() => {
                     this.state = 1614;
                     this._errHandler.sync(this);
                     _alt = this.interpreter.adaptivePredict(this._input, 166, this._ctx);
-                    while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                    while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                         if (_alt === 1) {
                             {
                                 {
@@ -5650,7 +5647,7 @@ let bitmarkParser = /** @class */ (() => {
                                 this.state = 1627;
                                 this._errHandler.sync(this);
                                 _alt = this.interpreter.adaptivePredict(this._input, 168, this._ctx);
-                                while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                     if (_alt === 1) {
                                         {
                                             {
@@ -5683,7 +5680,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -5717,7 +5714,7 @@ let bitmarkParser = /** @class */ (() => {
                     this.state = 1645;
                     this._errHandler.sync(this);
                     _alt = this.interpreter.adaptivePredict(this._input, 171, this._ctx);
-                    while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                    while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                         if (_alt === 1) {
                             {
                                 {
@@ -5726,7 +5723,7 @@ let bitmarkParser = /** @class */ (() => {
                                     this.state = 1640;
                                     this._errHandler.sync(this);
                                     _alt = this.interpreter.adaptivePredict(this._input, 170, this._ctx);
-                                    while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                    while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                         if (_alt === 1) {
                                             {
                                                 {
@@ -5749,7 +5746,7 @@ let bitmarkParser = /** @class */ (() => {
                     this.state = 1651;
                     this._errHandler.sync(this);
                     _alt = this.interpreter.adaptivePredict(this._input, 172, this._ctx);
-                    while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                    while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                         if (_alt === 1) {
                             {
                                 {
@@ -5772,7 +5769,7 @@ let bitmarkParser = /** @class */ (() => {
                                 this.state = 1664;
                                 this._errHandler.sync(this);
                                 _alt = this.interpreter.adaptivePredict(this._input, 174, this._ctx);
-                                while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                     if (_alt === 1) {
                                         {
                                             {
@@ -5805,7 +5802,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -5837,7 +5834,7 @@ let bitmarkParser = /** @class */ (() => {
                     this.state = 1675;
                     this._errHandler.sync(this);
                     _alt = this.interpreter.adaptivePredict(this._input, 176, this._ctx);
-                    while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                    while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                         if (_alt === 1) {
                             {
                                 {
@@ -5853,7 +5850,7 @@ let bitmarkParser = /** @class */ (() => {
                     this.state = 1687;
                     this._errHandler.sync(this);
                     _alt = this.interpreter.adaptivePredict(this._input, 178, this._ctx);
-                    while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                    while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                         if (_alt === 1) {
                             {
                                 {
@@ -5862,7 +5859,7 @@ let bitmarkParser = /** @class */ (() => {
                                     this.state = 1682;
                                     this._errHandler.sync(this);
                                     _alt = this.interpreter.adaptivePredict(this._input, 177, this._ctx);
-                                    while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                    while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                         if (_alt === 1) {
                                             {
                                                 {
@@ -5895,7 +5892,7 @@ let bitmarkParser = /** @class */ (() => {
                     this.state = 1696;
                     this._errHandler.sync(this);
                     _alt = this.interpreter.adaptivePredict(this._input, 180, this._ctx);
-                    while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                    while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                         if (_alt === 1) {
                             {
                                 {
@@ -5918,7 +5915,7 @@ let bitmarkParser = /** @class */ (() => {
                                 this.state = 1709;
                                 this._errHandler.sync(this);
                                 _alt = this.interpreter.adaptivePredict(this._input, 182, this._ctx);
-                                while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                     if (_alt === 1) {
                                         {
                                             {
@@ -5951,7 +5948,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -5994,16 +5991,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 1720;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 184, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                     this.state = 1731;
                     this._errHandler.sync(this);
                     _alt = this.interpreter.adaptivePredict(this._input, 186, this._ctx);
-                    while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                    while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                         if (_alt === 1) {
                             {
                                 {
@@ -6012,7 +6009,7 @@ let bitmarkParser = /** @class */ (() => {
                                     this.state = 1726;
                                     this._errHandler.sync(this);
                                     _alt = this.interpreter.adaptivePredict(this._input, 185, this._ctx);
-                                    while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                    while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                         if (_alt === 1) {
                                             {
                                                 {
@@ -6045,7 +6042,7 @@ let bitmarkParser = /** @class */ (() => {
                     this.state = 1740;
                     this._errHandler.sync(this);
                     _alt = this.interpreter.adaptivePredict(this._input, 188, this._ctx);
-                    while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                    while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                         if (_alt === 1) {
                             {
                                 {
@@ -6068,7 +6065,7 @@ let bitmarkParser = /** @class */ (() => {
                                 this.state = 1753;
                                 this._errHandler.sync(this);
                                 _alt = this.interpreter.adaptivePredict(this._input, 190, this._ctx);
-                                while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                     if (_alt === 1) {
                                         {
                                             {
@@ -6101,7 +6098,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -6157,7 +6154,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 1771;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 193, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -6174,16 +6171,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 1776;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 194, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -6239,7 +6236,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 1791;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 196, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -6256,16 +6253,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 1796;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 197, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -6321,7 +6318,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 1811;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 199, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -6338,16 +6335,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 1816;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 200, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -6403,7 +6400,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 1831;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 202, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -6420,16 +6417,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 1836;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 203, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -6485,7 +6482,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 1851;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 205, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -6502,16 +6499,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 1856;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 206, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -6567,7 +6564,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 1871;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 208, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -6584,16 +6581,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 1876;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 209, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -6649,7 +6646,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 1891;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 211, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -6666,16 +6663,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 1896;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 212, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -6731,7 +6728,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 1911;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 214, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -6748,16 +6745,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 1916;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 215, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -6813,7 +6810,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 1931;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 217, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -6830,16 +6827,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 1936;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 218, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -6895,7 +6892,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 1951;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 220, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -6912,16 +6909,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 1956;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 221, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -6977,7 +6974,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 1971;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 223, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -6994,16 +6991,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 1976;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 224, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -7059,7 +7056,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 1991;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 226, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -7076,16 +7073,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 1996;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 227, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -7141,7 +7138,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 2011;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 229, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -7158,16 +7155,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 2016;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 230, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -7223,7 +7220,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 2031;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 232, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -7240,16 +7237,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 2036;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 233, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -7305,7 +7302,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 2051;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 235, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -7322,16 +7319,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 2056;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 236, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -7387,7 +7384,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 2071;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 238, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -7404,16 +7401,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 2076;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 239, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -7469,7 +7466,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 2091;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 241, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -7486,16 +7483,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 2096;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 242, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -7551,7 +7548,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 2111;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 244, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -7568,16 +7565,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 2116;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 245, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -7633,7 +7630,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 2131;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 247, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -7650,16 +7647,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 2136;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 248, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -7715,7 +7712,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 2151;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 250, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -7732,16 +7729,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 2156;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 251, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -7797,7 +7794,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 2171;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 253, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -7814,16 +7811,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 2176;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 254, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -7879,7 +7876,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 2191;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 256, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -7896,16 +7893,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 2196;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 257, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -7961,7 +7958,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 2211;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 259, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -7978,16 +7975,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 2216;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 260, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -8043,7 +8040,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 2231;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 262, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -8060,16 +8057,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 2236;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 263, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -8125,7 +8122,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 2251;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 265, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -8142,16 +8139,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 2256;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 266, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -8207,7 +8204,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 2271;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 268, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -8224,16 +8221,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 2276;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 269, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -8289,7 +8286,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 2291;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 271, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -8306,16 +8303,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 2296;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 272, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -8371,7 +8368,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 2311;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 274, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -8388,16 +8385,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 2316;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 275, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -8453,7 +8450,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 2331;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 277, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -8470,16 +8467,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 2336;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 278, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -8535,7 +8532,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 2351;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 280, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -8552,16 +8549,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 2356;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 281, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -8617,7 +8614,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 2371;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 283, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -8634,16 +8631,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 2376;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 284, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -8699,7 +8696,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 2391;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 286, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -8716,16 +8713,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 2396;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 287, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -8781,7 +8778,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 2411;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 289, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -8798,16 +8795,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 2416;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 290, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -8863,7 +8860,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 2431;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 292, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -8880,16 +8877,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 2436;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 293, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -8945,7 +8942,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 2451;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 295, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -8962,16 +8959,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 2456;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 296, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -9027,7 +9024,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 2471;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 298, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -9044,16 +9041,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 2476;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 299, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -9109,7 +9106,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 2491;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 301, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -9126,16 +9123,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 2496;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 302, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -9191,7 +9188,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 2511;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 304, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -9208,16 +9205,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 2516;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 305, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -9273,7 +9270,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 2531;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 307, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -9290,16 +9287,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 2536;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 308, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -9355,7 +9352,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 2551;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 310, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -9372,16 +9369,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 2556;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 311, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -9437,7 +9434,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 2571;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 313, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -9454,16 +9451,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 2576;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 314, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -9519,7 +9516,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 2591;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 316, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -9536,16 +9533,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 2596;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 317, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -9601,7 +9598,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 2611;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 319, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -9618,16 +9615,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 2616;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 320, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -9683,7 +9680,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 2631;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 322, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -9700,16 +9697,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 2636;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 323, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -9765,7 +9762,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 2651;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 325, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -9782,16 +9779,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 2656;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 326, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -9847,7 +9844,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 2671;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 328, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -9864,16 +9861,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 2676;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 329, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -9929,7 +9926,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 2691;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 331, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -9946,16 +9943,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 2696;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 332, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -10011,7 +10008,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 2711;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 334, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -10028,16 +10025,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 2716;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 335, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -10093,7 +10090,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 2731;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 337, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -10110,16 +10107,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 2736;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 338, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -10175,7 +10172,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 2751;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 340, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -10192,16 +10189,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 2756;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 341, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -10257,7 +10254,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 2771;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 343, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -10274,16 +10271,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 2776;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 344, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -10339,7 +10336,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 2791;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 346, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -10356,16 +10353,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 2796;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 347, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -10421,7 +10418,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 2811;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 349, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -10438,16 +10435,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 2816;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 350, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -10503,7 +10500,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 2831;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 352, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -10520,16 +10517,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 2836;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 353, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -10585,7 +10582,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 2851;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 355, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -10602,16 +10599,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 2856;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 356, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -10667,7 +10664,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 2871;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 358, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -10684,16 +10681,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 2876;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 359, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -10749,7 +10746,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 2891;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 361, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -10766,16 +10763,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 2896;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 362, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -10831,7 +10828,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 2911;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 364, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -10848,16 +10845,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 2916;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 365, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -10913,7 +10910,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 2931;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 367, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -10930,16 +10927,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 2936;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 368, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -10995,7 +10992,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 2951;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 370, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -11012,16 +11009,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 2956;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 371, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -11077,7 +11074,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 2971;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 373, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -11094,16 +11091,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 2976;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 374, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -11159,7 +11156,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 2991;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 376, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -11176,16 +11173,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 2996;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 377, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -11241,7 +11238,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 3011;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 379, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -11258,16 +11255,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 3016;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 380, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -11323,7 +11320,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 3031;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 382, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -11340,16 +11337,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 3036;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 383, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -11405,7 +11402,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 3051;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 385, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -11422,16 +11419,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 3056;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 386, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -11487,7 +11484,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 3071;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 388, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -11504,16 +11501,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 3076;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 389, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -11569,7 +11566,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 3091;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 391, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -11586,16 +11583,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 3096;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 392, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -11651,7 +11648,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 3111;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 394, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -11668,16 +11665,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 3116;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 395, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -11733,7 +11730,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 3131;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 397, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -11750,16 +11747,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 3136;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 398, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -11815,7 +11812,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 3151;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 400, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -11832,16 +11829,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 3156;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 401, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -11897,7 +11894,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 3171;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 403, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -11914,16 +11911,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 3176;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 404, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -11979,7 +11976,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 3191;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 406, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -11996,16 +11993,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 3196;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 407, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -12061,7 +12058,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 3211;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 409, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -12078,16 +12075,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 3216;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 410, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -12143,7 +12140,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 3231;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 412, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -12160,16 +12157,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 3236;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 413, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -12225,7 +12222,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 3251;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 415, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -12242,16 +12239,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 3256;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 416, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -12307,7 +12304,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 3271;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 418, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -12324,16 +12321,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 3276;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 419, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -12389,7 +12386,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 3291;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 421, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -12406,16 +12403,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 3296;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 422, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -12471,7 +12468,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 3311;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 424, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -12488,16 +12485,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 3316;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 425, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -12553,7 +12550,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 3331;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 427, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -12570,16 +12567,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 3336;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 428, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -12635,7 +12632,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 3351;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 430, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -12652,16 +12649,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 3356;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 431, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -12717,7 +12714,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 3371;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 433, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -12734,16 +12731,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 3376;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 434, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -12799,7 +12796,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 3391;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 436, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -12816,16 +12813,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 3396;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 437, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -12868,7 +12865,7 @@ let bitmarkParser = /** @class */ (() => {
                                             this._errHandler.recoverInline(this);
                                         }
                                         else {
-                                            if (this._input.LA(1) === Token_1.Token.EOF) {
+                                            if (this._input.LA(1) === Token.EOF) {
                                                 this.matchedEOF = true;
                                             }
                                             this._errHandler.reportMatch(this);
@@ -12896,19 +12893,19 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 3413;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 439, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                     this.state = 3415;
                     _la = this._input.LA(1);
                     if (!(_la === bitmarkParser.HSPL || _la === bitmarkParser.HSPL2)) {
                         this._errHandler.recoverInline(this);
                     }
                     else {
-                        if (this._input.LA(1) === Token_1.Token.EOF) {
+                        if (this._input.LA(1) === Token.EOF) {
                             this.matchedEOF = true;
                         }
                         this._errHandler.reportMatch(this);
@@ -12917,7 +12914,7 @@ let bitmarkParser = /** @class */ (() => {
                     this.state = 3419;
                     this._errHandler.sync(this);
                     _alt = this.interpreter.adaptivePredict(this._input, 440, this._ctx);
-                    while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                    while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                         if (_alt === 1) {
                             {
                                 {
@@ -12940,7 +12937,7 @@ let bitmarkParser = /** @class */ (() => {
                                 this.state = 3432;
                                 this._errHandler.sync(this);
                                 _alt = this.interpreter.adaptivePredict(this._input, 442, this._ctx);
-                                while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                     if (_alt === 1) {
                                         {
                                             {
@@ -12973,7 +12970,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -13054,7 +13051,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -13139,7 +13136,7 @@ let bitmarkParser = /** @class */ (() => {
                                             this._errHandler.recoverInline(this);
                                         }
                                         else {
-                                            if (this._input.LA(1) === Token_1.Token.EOF) {
+                                            if (this._input.LA(1) === Token.EOF) {
                                                 this.matchedEOF = true;
                                             }
                                             this._errHandler.reportMatch(this);
@@ -13167,19 +13164,19 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 3479;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 450, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                     this.state = 3481;
                     _la = this._input.LA(1);
                     if (!(_la === bitmarkParser.HSPL || _la === bitmarkParser.HSPL2)) {
                         this._errHandler.recoverInline(this);
                     }
                     else {
-                        if (this._input.LA(1) === Token_1.Token.EOF) {
+                        if (this._input.LA(1) === Token.EOF) {
                             this.matchedEOF = true;
                         }
                         this._errHandler.reportMatch(this);
@@ -13188,7 +13185,7 @@ let bitmarkParser = /** @class */ (() => {
                     this.state = 3485;
                     this._errHandler.sync(this);
                     _alt = this.interpreter.adaptivePredict(this._input, 451, this._ctx);
-                    while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                    while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                         if (_alt === 1) {
                             {
                                 {
@@ -13211,7 +13208,7 @@ let bitmarkParser = /** @class */ (() => {
                                 this.state = 3498;
                                 this._errHandler.sync(this);
                                 _alt = this.interpreter.adaptivePredict(this._input, 453, this._ctx);
-                                while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                     if (_alt === 1) {
                                         {
                                             {
@@ -13244,7 +13241,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -13284,7 +13281,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -13369,7 +13366,7 @@ let bitmarkParser = /** @class */ (() => {
                                             this._errHandler.recoverInline(this);
                                         }
                                         else {
-                                            if (this._input.LA(1) === Token_1.Token.EOF) {
+                                            if (this._input.LA(1) === Token.EOF) {
                                                 this.matchedEOF = true;
                                             }
                                             this._errHandler.reportMatch(this);
@@ -13416,19 +13413,19 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 3547;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 462, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                     this.state = 3549;
                     _la = this._input.LA(1);
                     if (!(_la === bitmarkParser.HSPL || _la === bitmarkParser.HSPL2)) {
                         this._errHandler.recoverInline(this);
                     }
                     else {
-                        if (this._input.LA(1) === Token_1.Token.EOF) {
+                        if (this._input.LA(1) === Token.EOF) {
                             this.matchedEOF = true;
                         }
                         this._errHandler.reportMatch(this);
@@ -13437,7 +13434,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -13522,7 +13519,7 @@ let bitmarkParser = /** @class */ (() => {
                                             this._errHandler.recoverInline(this);
                                         }
                                         else {
-                                            if (this._input.LA(1) === Token_1.Token.EOF) {
+                                            if (this._input.LA(1) === Token.EOF) {
                                                 this.matchedEOF = true;
                                             }
                                             this._errHandler.reportMatch(this);
@@ -13550,19 +13547,19 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 3582;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 467, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                     this.state = 3584;
                     _la = this._input.LA(1);
                     if (!(_la === bitmarkParser.HSPL || _la === bitmarkParser.HSPL2)) {
                         this._errHandler.recoverInline(this);
                     }
                     else {
-                        if (this._input.LA(1) === Token_1.Token.EOF) {
+                        if (this._input.LA(1) === Token.EOF) {
                             this.matchedEOF = true;
                         }
                         this._errHandler.reportMatch(this);
@@ -13571,7 +13568,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -13656,7 +13653,7 @@ let bitmarkParser = /** @class */ (() => {
                                             this._errHandler.recoverInline(this);
                                         }
                                         else {
-                                            if (this._input.LA(1) === Token_1.Token.EOF) {
+                                            if (this._input.LA(1) === Token.EOF) {
                                                 this.matchedEOF = true;
                                             }
                                             this._errHandler.reportMatch(this);
@@ -13684,19 +13681,19 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 3617;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 472, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                     this.state = 3619;
                     _la = this._input.LA(1);
                     if (!(_la === bitmarkParser.HSPL || _la === bitmarkParser.HSPL2)) {
                         this._errHandler.recoverInline(this);
                     }
                     else {
-                        if (this._input.LA(1) === Token_1.Token.EOF) {
+                        if (this._input.LA(1) === Token.EOF) {
                             this.matchedEOF = true;
                         }
                         this._errHandler.reportMatch(this);
@@ -13705,7 +13702,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -13790,7 +13787,7 @@ let bitmarkParser = /** @class */ (() => {
                                             this._errHandler.recoverInline(this);
                                         }
                                         else {
-                                            if (this._input.LA(1) === Token_1.Token.EOF) {
+                                            if (this._input.LA(1) === Token.EOF) {
                                                 this.matchedEOF = true;
                                             }
                                             this._errHandler.reportMatch(this);
@@ -13818,19 +13815,19 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 3652;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 477, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                     this.state = 3654;
                     _la = this._input.LA(1);
                     if (!(_la === bitmarkParser.HSPL || _la === bitmarkParser.HSPL2)) {
                         this._errHandler.recoverInline(this);
                     }
                     else {
-                        if (this._input.LA(1) === Token_1.Token.EOF) {
+                        if (this._input.LA(1) === Token.EOF) {
                             this.matchedEOF = true;
                         }
                         this._errHandler.reportMatch(this);
@@ -13839,7 +13836,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -13924,7 +13921,7 @@ let bitmarkParser = /** @class */ (() => {
                                             this._errHandler.recoverInline(this);
                                         }
                                         else {
-                                            if (this._input.LA(1) === Token_1.Token.EOF) {
+                                            if (this._input.LA(1) === Token.EOF) {
                                                 this.matchedEOF = true;
                                             }
                                             this._errHandler.reportMatch(this);
@@ -13964,19 +13961,19 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 3692;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 483, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                     this.state = 3694;
                     _la = this._input.LA(1);
                     if (!(_la === bitmarkParser.HSPL || _la === bitmarkParser.HSPL2)) {
                         this._errHandler.recoverInline(this);
                     }
                     else {
-                        if (this._input.LA(1) === Token_1.Token.EOF) {
+                        if (this._input.LA(1) === Token.EOF) {
                             this.matchedEOF = true;
                         }
                         this._errHandler.reportMatch(this);
@@ -13985,7 +13982,7 @@ let bitmarkParser = /** @class */ (() => {
                     this.state = 3698;
                     this._errHandler.sync(this);
                     _alt = this.interpreter.adaptivePredict(this._input, 484, this._ctx);
-                    while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                    while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                         if (_alt === 1) {
                             {
                                 {
@@ -14008,7 +14005,7 @@ let bitmarkParser = /** @class */ (() => {
                                 this.state = 3711;
                                 this._errHandler.sync(this);
                                 _alt = this.interpreter.adaptivePredict(this._input, 486, this._ctx);
-                                while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                     if (_alt === 1) {
                                         {
                                             {
@@ -14041,7 +14038,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -14078,7 +14075,7 @@ let bitmarkParser = /** @class */ (() => {
                                             this._errHandler.recoverInline(this);
                                         }
                                         else {
-                                            if (this._input.LA(1) === Token_1.Token.EOF) {
+                                            if (this._input.LA(1) === Token.EOF) {
                                                 this.matchedEOF = true;
                                             }
                                             this._errHandler.reportMatch(this);
@@ -14088,16 +14085,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 3719;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 488, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -14127,7 +14124,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -14153,7 +14150,7 @@ let bitmarkParser = /** @class */ (() => {
                     this.state = 3728;
                     this._errHandler.sync(this);
                     _alt = this.interpreter.adaptivePredict(this._input, 489, this._ctx);
-                    while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                    while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                         if (_alt === 1) {
                             {
                                 {
@@ -14205,7 +14202,7 @@ let bitmarkParser = /** @class */ (() => {
                                     }
                                     break;
                                 default:
-                                    throw new NoViableAltException_1.NoViableAltException(this);
+                                    throw new NoViableAltException(this);
                             }
                         }
                         this.state = 3737;
@@ -14215,7 +14212,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -14243,7 +14240,7 @@ let bitmarkParser = /** @class */ (() => {
                         this._errHandler.recoverInline(this);
                     }
                     else {
-                        if (this._input.LA(1) === Token_1.Token.EOF) {
+                        if (this._input.LA(1) === Token.EOF) {
                             this.matchedEOF = true;
                         }
                         this._errHandler.reportMatch(this);
@@ -14252,7 +14249,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -14348,11 +14345,11 @@ let bitmarkParser = /** @class */ (() => {
                         }
                         break;
                     default:
-                        throw new NoViableAltException_1.NoViableAltException(this);
+                        throw new NoViableAltException(this);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -14402,11 +14399,11 @@ let bitmarkParser = /** @class */ (() => {
                         }
                         break;
                     default:
-                        throw new NoViableAltException_1.NoViableAltException(this);
+                        throw new NoViableAltException(this);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -14520,11 +14517,11 @@ let bitmarkParser = /** @class */ (() => {
                         }
                         break;
                     default:
-                        throw new NoViableAltException_1.NoViableAltException(this);
+                        throw new NoViableAltException(this);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -14552,7 +14549,7 @@ let bitmarkParser = /** @class */ (() => {
                         this._errHandler.recoverInline(this);
                     }
                     else {
-                        if (this._input.LA(1) === Token_1.Token.EOF) {
+                        if (this._input.LA(1) === Token.EOF) {
                             this.matchedEOF = true;
                         }
                         this._errHandler.reportMatch(this);
@@ -14572,7 +14569,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -14600,7 +14597,7 @@ let bitmarkParser = /** @class */ (() => {
                         this._errHandler.recoverInline(this);
                     }
                     else {
-                        if (this._input.LA(1) === Token_1.Token.EOF) {
+                        if (this._input.LA(1) === Token.EOF) {
                             this.matchedEOF = true;
                         }
                         this._errHandler.reportMatch(this);
@@ -14609,7 +14606,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -14637,7 +14634,7 @@ let bitmarkParser = /** @class */ (() => {
                         this._errHandler.recoverInline(this);
                     }
                     else {
-                        if (this._input.LA(1) === Token_1.Token.EOF) {
+                        if (this._input.LA(1) === Token.EOF) {
                             this.matchedEOF = true;
                         }
                         this._errHandler.reportMatch(this);
@@ -14646,7 +14643,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -14674,7 +14671,7 @@ let bitmarkParser = /** @class */ (() => {
                         this._errHandler.recoverInline(this);
                     }
                     else {
-                        if (this._input.LA(1) === Token_1.Token.EOF) {
+                        if (this._input.LA(1) === Token.EOF) {
                             this.matchedEOF = true;
                         }
                         this._errHandler.reportMatch(this);
@@ -14683,7 +14680,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -14711,7 +14708,7 @@ let bitmarkParser = /** @class */ (() => {
                         this._errHandler.recoverInline(this);
                     }
                     else {
-                        if (this._input.LA(1) === Token_1.Token.EOF) {
+                        if (this._input.LA(1) === Token.EOF) {
                             this.matchedEOF = true;
                         }
                         this._errHandler.reportMatch(this);
@@ -14720,7 +14717,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -14748,7 +14745,7 @@ let bitmarkParser = /** @class */ (() => {
                         this._errHandler.recoverInline(this);
                     }
                     else {
-                        if (this._input.LA(1) === Token_1.Token.EOF) {
+                        if (this._input.LA(1) === Token.EOF) {
                             this.matchedEOF = true;
                         }
                         this._errHandler.reportMatch(this);
@@ -14757,7 +14754,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -14785,7 +14782,7 @@ let bitmarkParser = /** @class */ (() => {
                         this._errHandler.recoverInline(this);
                     }
                     else {
-                        if (this._input.LA(1) === Token_1.Token.EOF) {
+                        if (this._input.LA(1) === Token.EOF) {
                             this.matchedEOF = true;
                         }
                         this._errHandler.reportMatch(this);
@@ -14794,7 +14791,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -14822,7 +14819,7 @@ let bitmarkParser = /** @class */ (() => {
                         this._errHandler.recoverInline(this);
                     }
                     else {
-                        if (this._input.LA(1) === Token_1.Token.EOF) {
+                        if (this._input.LA(1) === Token.EOF) {
                             this.matchedEOF = true;
                         }
                         this._errHandler.reportMatch(this);
@@ -14831,7 +14828,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -14859,7 +14856,7 @@ let bitmarkParser = /** @class */ (() => {
                         this._errHandler.recoverInline(this);
                     }
                     else {
-                        if (this._input.LA(1) === Token_1.Token.EOF) {
+                        if (this._input.LA(1) === Token.EOF) {
                             this.matchedEOF = true;
                         }
                         this._errHandler.reportMatch(this);
@@ -14868,7 +14865,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -14896,7 +14893,7 @@ let bitmarkParser = /** @class */ (() => {
                         this._errHandler.recoverInline(this);
                     }
                     else {
-                        if (this._input.LA(1) === Token_1.Token.EOF) {
+                        if (this._input.LA(1) === Token.EOF) {
                             this.matchedEOF = true;
                         }
                         this._errHandler.reportMatch(this);
@@ -14905,7 +14902,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -14966,11 +14963,11 @@ let bitmarkParser = /** @class */ (() => {
                         }
                         break;
                     default:
-                        throw new NoViableAltException_1.NoViableAltException(this);
+                        throw new NoViableAltException(this);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -14998,7 +14995,7 @@ let bitmarkParser = /** @class */ (() => {
                         this._errHandler.recoverInline(this);
                     }
                     else {
-                        if (this._input.LA(1) === Token_1.Token.EOF) {
+                        if (this._input.LA(1) === Token.EOF) {
                             this.matchedEOF = true;
                         }
                         this._errHandler.reportMatch(this);
@@ -15007,7 +15004,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -15051,11 +15048,11 @@ let bitmarkParser = /** @class */ (() => {
                         }
                         break;
                     default:
-                        throw new NoViableAltException_1.NoViableAltException(this);
+                        throw new NoViableAltException(this);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -15101,7 +15098,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -15147,7 +15144,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -15189,7 +15186,7 @@ let bitmarkParser = /** @class */ (() => {
                             }
                             break;
                         default:
-                            throw new NoViableAltException_1.NoViableAltException(this);
+                            throw new NoViableAltException(this);
                     }
                     this.state = 3844;
                     this.match(bitmarkParser.CL);
@@ -15209,7 +15206,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -15236,7 +15233,7 @@ let bitmarkParser = /** @class */ (() => {
                     this.state = 3855;
                     this._errHandler.sync(this);
                     _alt = this.interpreter.adaptivePredict(this._input, 507, this._ctx);
-                    while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                    while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                         if (_alt === 1) {
                             {
                                 {
@@ -15252,7 +15249,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -15299,7 +15296,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -15326,7 +15323,7 @@ let bitmarkParser = /** @class */ (() => {
                     this.state = 3873;
                     this._errHandler.sync(this);
                     _alt = this.interpreter.adaptivePredict(this._input, 509, this._ctx);
-                    while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                    while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                         if (_alt === 1) {
                             {
                                 {
@@ -15342,7 +15339,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -15388,7 +15385,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -15415,7 +15412,7 @@ let bitmarkParser = /** @class */ (() => {
                     this.state = 3890;
                     this._errHandler.sync(this);
                     _alt = this.interpreter.adaptivePredict(this._input, 511, this._ctx);
-                    while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                    while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                         if (_alt === 1) {
                             {
                                 {
@@ -15443,7 +15440,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -15490,7 +15487,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -15584,11 +15581,11 @@ let bitmarkParser = /** @class */ (() => {
                         }
                         break;
                     default:
-                        throw new NoViableAltException_1.NoViableAltException(this);
+                        throw new NoViableAltException(this);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -15635,7 +15632,7 @@ let bitmarkParser = /** @class */ (() => {
                                 this._errHandler.recoverInline(this);
                             }
                             else {
-                                if (this._input.LA(1) === Token_1.Token.EOF) {
+                                if (this._input.LA(1) === Token.EOF) {
                                     this.matchedEOF = true;
                                 }
                                 this._errHandler.reportMatch(this);
@@ -15662,7 +15659,7 @@ let bitmarkParser = /** @class */ (() => {
                                 this._errHandler.recoverInline(this);
                             }
                             else {
-                                if (this._input.LA(1) === Token_1.Token.EOF) {
+                                if (this._input.LA(1) === Token.EOF) {
                                     this.matchedEOF = true;
                                 }
                                 this._errHandler.reportMatch(this);
@@ -15671,7 +15668,7 @@ let bitmarkParser = /** @class */ (() => {
                             this.state = 3937;
                             this._errHandler.sync(this);
                             _alt = this.interpreter.adaptivePredict(this._input, 518, this._ctx);
-                            while (_alt !== 1 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                            while (_alt !== 1 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                 if (_alt === 1 + 1) {
                                     {
                                         {
@@ -15689,11 +15686,11 @@ let bitmarkParser = /** @class */ (() => {
                         }
                         break;
                     default:
-                        throw new NoViableAltException_1.NoViableAltException(this);
+                        throw new NoViableAltException(this);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -15740,7 +15737,7 @@ let bitmarkParser = /** @class */ (() => {
                                 this._errHandler.recoverInline(this);
                             }
                             else {
-                                if (this._input.LA(1) === Token_1.Token.EOF) {
+                                if (this._input.LA(1) === Token.EOF) {
                                     this.matchedEOF = true;
                                 }
                                 this._errHandler.reportMatch(this);
@@ -15767,7 +15764,7 @@ let bitmarkParser = /** @class */ (() => {
                                 this._errHandler.recoverInline(this);
                             }
                             else {
-                                if (this._input.LA(1) === Token_1.Token.EOF) {
+                                if (this._input.LA(1) === Token.EOF) {
                                     this.matchedEOF = true;
                                 }
                                 this._errHandler.reportMatch(this);
@@ -15776,7 +15773,7 @@ let bitmarkParser = /** @class */ (() => {
                             this.state = 3956;
                             this._errHandler.sync(this);
                             _alt = this.interpreter.adaptivePredict(this._input, 520, this._ctx);
-                            while (_alt !== 1 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                            while (_alt !== 1 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                 if (_alt === 1 + 1) {
                                     {
                                         {
@@ -15794,11 +15791,11 @@ let bitmarkParser = /** @class */ (() => {
                         }
                         break;
                     default:
-                        throw new NoViableAltException_1.NoViableAltException(this);
+                        throw new NoViableAltException(this);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -15825,7 +15822,7 @@ let bitmarkParser = /** @class */ (() => {
                     this.state = 3966;
                     this._errHandler.sync(this);
                     _alt = this.interpreter.adaptivePredict(this._input, 522, this._ctx);
-                    while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                    while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                         if (_alt === 1) {
                             {
                                 {
@@ -15841,7 +15838,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -15887,7 +15884,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -15947,11 +15944,11 @@ let bitmarkParser = /** @class */ (() => {
                         }
                         break;
                     default:
-                        throw new NoViableAltException_1.NoViableAltException(this);
+                        throw new NoViableAltException(this);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -16012,11 +16009,11 @@ let bitmarkParser = /** @class */ (() => {
                         }
                         break;
                     default:
-                        throw new NoViableAltException_1.NoViableAltException(this);
+                        throw new NoViableAltException(this);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -16062,14 +16059,14 @@ let bitmarkParser = /** @class */ (() => {
                                     }
                                     break;
                                 default:
-                                    throw new NoViableAltException_1.NoViableAltException(this);
+                                    throw new NoViableAltException(this);
                             }
                             this.state = 4008;
                             this.match(bitmarkParser.COLON);
                             this.state = 4012;
                             this._errHandler.sync(this);
                             _alt = this.interpreter.adaptivePredict(this._input, 531, this._ctx);
-                            while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                            while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                 if (_alt === 1) {
                                     {
                                         {
@@ -16135,7 +16132,7 @@ let bitmarkParser = /** @class */ (() => {
                                             }
                                             break;
                                         default:
-                                            throw new NoViableAltException_1.NoViableAltException(this);
+                                            throw new NoViableAltException(this);
                                     }
                                 }
                                 this.state = 4019;
@@ -16156,7 +16153,7 @@ let bitmarkParser = /** @class */ (() => {
                                 this._errHandler.recoverInline(this);
                             }
                             else {
-                                if (this._input.LA(1) === Token_1.Token.EOF) {
+                                if (this._input.LA(1) === Token.EOF) {
                                     this.matchedEOF = true;
                                 }
                                 this._errHandler.reportMatch(this);
@@ -16183,7 +16180,7 @@ let bitmarkParser = /** @class */ (() => {
                                 this._errHandler.recoverInline(this);
                             }
                             else {
-                                if (this._input.LA(1) === Token_1.Token.EOF) {
+                                if (this._input.LA(1) === Token.EOF) {
                                     this.matchedEOF = true;
                                 }
                                 this._errHandler.reportMatch(this);
@@ -16192,7 +16189,7 @@ let bitmarkParser = /** @class */ (() => {
                             this.state = 4030;
                             this._errHandler.sync(this);
                             _alt = this.interpreter.adaptivePredict(this._input, 534, this._ctx);
-                            while (_alt !== 1 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                            while (_alt !== 1 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                 if (_alt === 1 + 1) {
                                     {
                                         {
@@ -16210,11 +16207,11 @@ let bitmarkParser = /** @class */ (() => {
                         }
                         break;
                     default:
-                        throw new NoViableAltException_1.NoViableAltException(this);
+                        throw new NoViableAltException(this);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -16244,7 +16241,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -16270,7 +16267,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -16378,7 +16375,7 @@ let bitmarkParser = /** @class */ (() => {
                                             }
                                             break;
                                         default:
-                                            throw new NoViableAltException_1.NoViableAltException(this);
+                                            throw new NoViableAltException(this);
                                     }
                                 }
                                 this.state = 4061;
@@ -16416,7 +16413,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -16487,7 +16484,7 @@ let bitmarkParser = /** @class */ (() => {
                                     }
                                     break;
                                 default:
-                                    throw new NoViableAltException_1.NoViableAltException(this);
+                                    throw new NoViableAltException(this);
                             }
                         }
                         this.state = 4082;
@@ -16499,7 +16496,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -16559,11 +16556,11 @@ let bitmarkParser = /** @class */ (() => {
                         }
                         break;
                     default:
-                        throw new NoViableAltException_1.NoViableAltException(this);
+                        throw new NoViableAltException(this);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -16619,11 +16616,11 @@ let bitmarkParser = /** @class */ (() => {
                         }
                         break;
                     default:
-                        throw new NoViableAltException_1.NoViableAltException(this);
+                        throw new NoViableAltException(this);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -16673,7 +16670,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 4120;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 552, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -16682,7 +16679,7 @@ let bitmarkParser = /** @class */ (() => {
                                                         this.state = 4115;
                                                         this._errHandler.sync(this);
                                                         _alt = this.interpreter.adaptivePredict(this._input, 551, this._ctx);
-                                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                                             if (_alt === 1) {
                                                                 {
                                                                     {
@@ -16770,7 +16767,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -16896,7 +16893,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -16926,7 +16923,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -16997,7 +16994,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -17058,7 +17055,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -17122,7 +17119,7 @@ let bitmarkParser = /** @class */ (() => {
                                         this.state = 4217;
                                         this._errHandler.sync(this);
                                         _alt = this.interpreter.adaptivePredict(this._input, 571, this._ctx);
-                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                             if (_alt === 1) {
                                                 {
                                                     {
@@ -17131,7 +17128,7 @@ let bitmarkParser = /** @class */ (() => {
                                                         this.state = 4212;
                                                         this._errHandler.sync(this);
                                                         _alt = this.interpreter.adaptivePredict(this._input, 570, this._ctx);
-                                                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                                                        while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                                             if (_alt === 1) {
                                                                 {
                                                                     {
@@ -17210,7 +17207,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -17246,7 +17243,7 @@ let bitmarkParser = /** @class */ (() => {
                                     this._errHandler.recoverInline(this);
                                 }
                                 else {
-                                    if (this._input.LA(1) === Token_1.Token.EOF) {
+                                    if (this._input.LA(1) === Token.EOF) {
                                         this.matchedEOF = true;
                                     }
                                     this._errHandler.reportMatch(this);
@@ -17263,7 +17260,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -17344,7 +17341,7 @@ let bitmarkParser = /** @class */ (() => {
                                             }
                                             break;
                                         default:
-                                            throw new NoViableAltException_1.NoViableAltException(this);
+                                            throw new NoViableAltException(this);
                                     }
                                 }
                                 this.state = 4258;
@@ -17369,7 +17366,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -17414,11 +17411,11 @@ let bitmarkParser = /** @class */ (() => {
                         }
                         break;
                     default:
-                        throw new NoViableAltException_1.NoViableAltException(this);
+                        throw new NoViableAltException(this);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -17469,7 +17466,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -17499,7 +17496,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -17529,7 +17526,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -17557,7 +17554,7 @@ let bitmarkParser = /** @class */ (() => {
                     this.state = 4306;
                     this._errHandler.sync(this);
                     _alt = this.interpreter.adaptivePredict(this._input, 584, this._ctx);
-                    while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                    while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                         if (_alt === 1) {
                             {
                                 {
@@ -17587,7 +17584,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -17624,7 +17621,7 @@ let bitmarkParser = /** @class */ (() => {
                                 this._errHandler.recoverInline(this);
                             }
                             else {
-                                if (this._input.LA(1) === Token_1.Token.EOF) {
+                                if (this._input.LA(1) === Token.EOF) {
                                     this.matchedEOF = true;
                                 }
                                 this._errHandler.reportMatch(this);
@@ -17676,7 +17673,7 @@ let bitmarkParser = /** @class */ (() => {
                             this.state = 4327;
                             this._errHandler.sync(this);
                             _alt = this.interpreter.adaptivePredict(this._input, 587, this._ctx);
-                            while (_alt !== 1 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                            while (_alt !== 1 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                 if (_alt === 1 + 1) {
                                     {
                                         {
@@ -17694,11 +17691,11 @@ let bitmarkParser = /** @class */ (() => {
                         }
                         break;
                     default:
-                        throw new NoViableAltException_1.NoViableAltException(this);
+                        throw new NoViableAltException(this);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -17806,7 +17803,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -17844,7 +17841,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -17890,16 +17887,16 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 4366;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 596, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -18025,7 +18022,7 @@ let bitmarkParser = /** @class */ (() => {
                             this.state = 4401;
                             this._errHandler.sync(this);
                             _alt = this.interpreter.adaptivePredict(this._input, 602, this._ctx);
-                            while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                            while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                 if (_alt === 1) {
                                     {
                                         {
@@ -18048,7 +18045,7 @@ let bitmarkParser = /** @class */ (() => {
                             this.state = 4408;
                             this._errHandler.sync(this);
                             _alt = this.interpreter.adaptivePredict(this._input, 603, this._ctx);
-                            while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                            while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
                                 if (_alt === 1) {
                                     {
                                         {
@@ -18087,7 +18084,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -18113,7 +18110,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -18151,12 +18148,12 @@ let bitmarkParser = /** @class */ (() => {
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 4422;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 605, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                     this.state = 4425;
                     this._errHandler.sync(this);
                     switch (this.interpreter.adaptivePredict(this._input, 606, this._ctx)) {
@@ -18170,7 +18167,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -18196,7 +18193,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -18224,7 +18221,7 @@ let bitmarkParser = /** @class */ (() => {
                         this._errHandler.recoverInline(this);
                     }
                     else {
-                        if (this._input.LA(1) === Token_1.Token.EOF) {
+                        if (this._input.LA(1) === Token.EOF) {
                             this.matchedEOF = true;
                         }
                         this._errHandler.reportMatch(this);
@@ -18233,7 +18230,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -18288,7 +18285,7 @@ let bitmarkParser = /** @class */ (() => {
                                                     this._errHandler.recoverInline(this);
                                                 }
                                                 else {
-                                                    if (this._input.LA(1) === Token_1.Token.EOF) {
+                                                    if (this._input.LA(1) === Token.EOF) {
                                                         this.matchedEOF = true;
                                                     }
                                                     this._errHandler.reportMatch(this);
@@ -18306,7 +18303,7 @@ let bitmarkParser = /** @class */ (() => {
                                                     this._errHandler.recoverInline(this);
                                                 }
                                                 else {
-                                                    if (this._input.LA(1) === Token_1.Token.EOF) {
+                                                    if (this._input.LA(1) === Token.EOF) {
                                                         this.matchedEOF = true;
                                                     }
                                                     this._errHandler.reportMatch(this);
@@ -18441,21 +18438,21 @@ let bitmarkParser = /** @class */ (() => {
                                             }
                                             break;
                                         default:
-                                            throw new NoViableAltException_1.NoViableAltException(this);
+                                            throw new NoViableAltException(this);
                                     }
                                 }
                                 break;
                             default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                                throw new NoViableAltException(this);
                         }
                         this.state = 4460;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 608, this._ctx);
-                    } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
+                    } while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -18481,7 +18478,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -18507,7 +18504,7 @@ let bitmarkParser = /** @class */ (() => {
                 }
             }
             catch (re) {
-                if (re instanceof RecognitionException_1.RecognitionException) {
+                if (re instanceof RecognitionException) {
                     _localctx.exception = re;
                     this._errHandler.reportError(this, re);
                     this._errHandler.recover(this, re);
@@ -18523,7 +18520,7 @@ let bitmarkParser = /** @class */ (() => {
         }
         static get _ATN() {
             if (!bitmarkParser.__ATN) {
-                bitmarkParser.__ATN = new ATNDeserializer_1.ATNDeserializer().deserialize(Utils.toCharArray(bitmarkParser._serializedATN));
+                bitmarkParser.__ATN = new ATNDeserializer().deserialize(Utils.toCharArray(bitmarkParser._serializedATN));
             }
             return bitmarkParser.__ATN;
         }
@@ -19157,7 +19154,7 @@ let bitmarkParser = /** @class */ (() => {
         "SVG", "MP2", "MP3", "MP4", "FLV", "WMV", "MPEG", "MPG", "TEL", "DotArticleAtt",
         "STAR", "URL", "LIST_LINE", "ENCLBARS",
     ];
-    bitmarkParser.VOCABULARY = new VocabularyImpl_1.VocabularyImpl(bitmarkParser._LITERAL_NAMES, bitmarkParser._SYMBOLIC_NAMES, []);
+    bitmarkParser.VOCABULARY = new VocabularyImpl(bitmarkParser._LITERAL_NAMES, bitmarkParser._SYMBOLIC_NAMES, []);
     bitmarkParser._serializedATNSegments = 9;
     bitmarkParser._serializedATNSegment0 = "\x03\uC91D\uCABA\u058D\uAFBA\u4F53\u0607\uEA8B\uC241\x03\u010E\u1175\x04" +
         "\x02\t\x02\x04\x03\t\x03\x04\x04\t\x04\x04\x05\t\x05\x04\x06\t\x06\x04" +
@@ -21704,8 +21701,8 @@ let bitmarkParser = /** @class */ (() => {
     ], "");
     return bitmarkParser;
 })();
-exports.bitmarkParser = bitmarkParser;
-class BitmarkContext extends ParserRuleContext_1.ParserRuleContext {
+export { bitmarkParser };
+export class BitmarkContext extends ParserRuleContext {
     EOF() { return this.getToken(bitmarkParser.EOF, 0); }
     bitmark_(i) {
         if (i === undefined) {
@@ -21749,8 +21746,7 @@ class BitmarkContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.BitmarkContext = BitmarkContext;
-class Bitmark_Context extends ParserRuleContext_1.ParserRuleContext {
+export class Bitmark_Context extends ParserRuleContext {
     bit() {
         return this.tryGetRuleContext(0, BitContext);
     }
@@ -21775,8 +21771,7 @@ class Bitmark_Context extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Bitmark_Context = Bitmark_Context;
-class BitContext extends ParserRuleContext_1.ParserRuleContext {
+export class BitContext extends ParserRuleContext {
     book() {
         return this.tryGetRuleContext(0, BookContext);
     }
@@ -22179,8 +22174,7 @@ class BitContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.BitContext = BitContext;
-class BookContext extends ParserRuleContext_1.ParserRuleContext {
+export class BookContext extends ParserRuleContext {
     BitBook() { return this.getToken(bitmarkParser.BitBook, 0); }
     CL() { return this.getToken(bitmarkParser.CL, 0); }
     format() {
@@ -22220,8 +22214,7 @@ class BookContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.BookContext = BookContext;
-class ChapterContext extends ParserRuleContext_1.ParserRuleContext {
+export class ChapterContext extends ParserRuleContext {
     BitChapter() { return this.getToken(bitmarkParser.BitChapter, 0); }
     CL() { return this.getToken(bitmarkParser.CL, 0); }
     resource(i) {
@@ -22264,8 +22257,7 @@ class ChapterContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.ChapterContext = ChapterContext;
-class TocContext extends ParserRuleContext_1.ParserRuleContext {
+export class TocContext extends ParserRuleContext {
     BitToc() { return this.getToken(bitmarkParser.BitToc, 0); }
     CL() { return this.getToken(bitmarkParser.CL, 0); }
     NL(i) {
@@ -22300,8 +22292,7 @@ class TocContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.TocContext = TocContext;
-class SummaryContext extends ParserRuleContext_1.ParserRuleContext {
+export class SummaryContext extends ParserRuleContext {
     BitSummary() { return this.getToken(bitmarkParser.BitSummary, 0); }
     CL() { return this.getToken(bitmarkParser.CL, 0); }
     title_etc() {
@@ -22333,8 +22324,7 @@ class SummaryContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.SummaryContext = SummaryContext;
-class Internal_linkContext extends ParserRuleContext_1.ParserRuleContext {
+export class Internal_linkContext extends ParserRuleContext {
     CL() { return this.getToken(bitmarkParser.CL, 0); }
     BitIntlink() { return this.tryGetToken(bitmarkParser.BitIntlink, 0); }
     BitIntRef() { return this.tryGetToken(bitmarkParser.BitIntRef, 0); }
@@ -22374,8 +22364,7 @@ class Internal_linkContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Internal_linkContext = Internal_linkContext;
-class Bit_aliasContext extends ParserRuleContext_1.ParserRuleContext {
+export class Bit_aliasContext extends ParserRuleContext {
     BitAlias() { return this.getToken(bitmarkParser.BitAlias, 0); }
     CL() { return this.getToken(bitmarkParser.CL, 0); }
     angleref() {
@@ -22399,8 +22388,7 @@ class Bit_aliasContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Bit_aliasContext = Bit_aliasContext;
-class Title_etcContext extends ParserRuleContext_1.ParserRuleContext {
+export class Title_etcContext extends ParserRuleContext {
     title(i) {
         if (i === undefined) {
             return this.getRuleContexts(TitleContext);
@@ -22483,8 +22471,7 @@ class Title_etcContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Title_etcContext = Title_etcContext;
-class Group_bornContext extends ParserRuleContext_1.ParserRuleContext {
+export class Group_bornContext extends ParserRuleContext {
     BitGroups() { return this.getToken(bitmarkParser.BitGroups, 0); }
     CL(i) {
         if (i === undefined) {
@@ -22560,8 +22547,7 @@ class Group_bornContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Group_bornContext = Group_bornContext;
-class Group_diedContext extends ParserRuleContext_1.ParserRuleContext {
+export class Group_diedContext extends ParserRuleContext {
     BitGroupt() { return this.getToken(bitmarkParser.BitGroupt, 0); }
     CL(i) {
         if (i === undefined) {
@@ -22637,8 +22623,7 @@ class Group_diedContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Group_diedContext = Group_diedContext;
-class Learning_path_ltiContext extends ParserRuleContext_1.ParserRuleContext {
+export class Learning_path_ltiContext extends ParserRuleContext {
     BitLearningPathLti() { return this.getToken(bitmarkParser.BitLearningPathLti, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -22678,8 +22663,7 @@ class Learning_path_ltiContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Learning_path_ltiContext = Learning_path_ltiContext;
-class Learning_path_stepContext extends ParserRuleContext_1.ParserRuleContext {
+export class Learning_path_stepContext extends ParserRuleContext {
     BitLearningPathStep() { return this.getToken(bitmarkParser.BitLearningPathStep, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -22719,8 +22703,7 @@ class Learning_path_stepContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Learning_path_stepContext = Learning_path_stepContext;
-class Learning_path_bookContext extends ParserRuleContext_1.ParserRuleContext {
+export class Learning_path_bookContext extends ParserRuleContext {
     BitLearningPathBook() { return this.getToken(bitmarkParser.BitLearningPathBook, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -22760,8 +22743,7 @@ class Learning_path_bookContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Learning_path_bookContext = Learning_path_bookContext;
-class Learning_path_signContext extends ParserRuleContext_1.ParserRuleContext {
+export class Learning_path_signContext extends ParserRuleContext {
     BitLearningPathSign() { return this.getToken(bitmarkParser.BitLearningPathSign, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -22801,8 +22783,7 @@ class Learning_path_signContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Learning_path_signContext = Learning_path_signContext;
-class Learning_path_video_callContext extends ParserRuleContext_1.ParserRuleContext {
+export class Learning_path_video_callContext extends ParserRuleContext {
     BitLearningPathVideoCall() { return this.getToken(bitmarkParser.BitLearningPathVideoCall, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -22842,8 +22823,7 @@ class Learning_path_video_callContext extends ParserRuleContext_1.ParserRuleCont
         }
     }
 }
-exports.Learning_path_video_callContext = Learning_path_video_callContext;
-class Learning_path_learning_goalContext extends ParserRuleContext_1.ParserRuleContext {
+export class Learning_path_learning_goalContext extends ParserRuleContext {
     BitLearningPathLearningGoal() { return this.getToken(bitmarkParser.BitLearningPathLearningGoal, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -22883,8 +22863,7 @@ class Learning_path_learning_goalContext extends ParserRuleContext_1.ParserRuleC
         }
     }
 }
-exports.Learning_path_learning_goalContext = Learning_path_learning_goalContext;
-class Learning_path_closingContext extends ParserRuleContext_1.ParserRuleContext {
+export class Learning_path_closingContext extends ParserRuleContext {
     BitLearningPathClosing() { return this.getToken(bitmarkParser.BitLearningPathClosing, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -22924,8 +22903,7 @@ class Learning_path_closingContext extends ParserRuleContext_1.ParserRuleContext
         }
     }
 }
-exports.Learning_path_closingContext = Learning_path_closingContext;
-class Learning_path_feedbackContext extends ParserRuleContext_1.ParserRuleContext {
+export class Learning_path_feedbackContext extends ParserRuleContext {
     BitLearningPathFeedback() { return this.getToken(bitmarkParser.BitLearningPathFeedback, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -22965,8 +22943,7 @@ class Learning_path_feedbackContext extends ParserRuleContext_1.ParserRuleContex
         }
     }
 }
-exports.Learning_path_feedbackContext = Learning_path_feedbackContext;
-class Learning_path_bot_trainingContext extends ParserRuleContext_1.ParserRuleContext {
+export class Learning_path_bot_trainingContext extends ParserRuleContext {
     BitLearningPathBotTraining() { return this.getToken(bitmarkParser.BitLearningPathBotTraining, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -23006,8 +22983,7 @@ class Learning_path_bot_trainingContext extends ParserRuleContext_1.ParserRuleCo
         }
     }
 }
-exports.Learning_path_bot_trainingContext = Learning_path_bot_trainingContext;
-class Learning_path_external_linkContext extends ParserRuleContext_1.ParserRuleContext {
+export class Learning_path_external_linkContext extends ParserRuleContext {
     BitLearningPathExternalLink() { return this.getToken(bitmarkParser.BitLearningPathExternalLink, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -23047,8 +23023,7 @@ class Learning_path_external_linkContext extends ParserRuleContext_1.ParserRuleC
         }
     }
 }
-exports.Learning_path_external_linkContext = Learning_path_external_linkContext;
-class Learning_path_classroom_trainingContext extends ParserRuleContext_1.ParserRuleContext {
+export class Learning_path_classroom_trainingContext extends ParserRuleContext {
     BitLearningPathClassroomTraining() { return this.getToken(bitmarkParser.BitLearningPathClassroomTraining, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -23088,8 +23063,7 @@ class Learning_path_classroom_trainingContext extends ParserRuleContext_1.Parser
         }
     }
 }
-exports.Learning_path_classroom_trainingContext = Learning_path_classroom_trainingContext;
-class Learning_path_classroom_eventContext extends ParserRuleContext_1.ParserRuleContext {
+export class Learning_path_classroom_eventContext extends ParserRuleContext {
     BitLearningPathClassroomEvent() { return this.getToken(bitmarkParser.BitLearningPathClassroomEvent, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -23129,8 +23103,7 @@ class Learning_path_classroom_eventContext extends ParserRuleContext_1.ParserRul
         }
     }
 }
-exports.Learning_path_classroom_eventContext = Learning_path_classroom_eventContext;
-class Bot_action_sendContext extends ParserRuleContext_1.ParserRuleContext {
+export class Bot_action_sendContext extends ParserRuleContext {
     BitBotActionSend() { return this.getToken(bitmarkParser.BitBotActionSend, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -23170,8 +23143,7 @@ class Bot_action_sendContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Bot_action_sendContext = Bot_action_sendContext;
-class Bot_action_announceContext extends ParserRuleContext_1.ParserRuleContext {
+export class Bot_action_announceContext extends ParserRuleContext {
     BitBotActionAnnounce() { return this.getToken(bitmarkParser.BitBotActionAnnounce, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -23211,8 +23183,7 @@ class Bot_action_announceContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Bot_action_announceContext = Bot_action_announceContext;
-class Bot_action_saveContext extends ParserRuleContext_1.ParserRuleContext {
+export class Bot_action_saveContext extends ParserRuleContext {
     BitBotActionSave() { return this.getToken(bitmarkParser.BitBotActionSave, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -23252,8 +23223,7 @@ class Bot_action_saveContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Bot_action_saveContext = Bot_action_saveContext;
-class Bot_action_remindContext extends ParserRuleContext_1.ParserRuleContext {
+export class Bot_action_remindContext extends ParserRuleContext {
     BitBotActionRemind() { return this.getToken(bitmarkParser.BitBotActionRemind, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -23293,8 +23263,7 @@ class Bot_action_remindContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Bot_action_remindContext = Bot_action_remindContext;
-class Bot_action_responseContext extends ParserRuleContext_1.ParserRuleContext {
+export class Bot_action_responseContext extends ParserRuleContext {
     BitBotActionResponse() { return this.getToken(bitmarkParser.BitBotActionResponse, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -23346,8 +23315,7 @@ class Bot_action_responseContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Bot_action_responseContext = Bot_action_responseContext;
-class Bot_action_true_falseContext extends ParserRuleContext_1.ParserRuleContext {
+export class Bot_action_true_falseContext extends ParserRuleContext {
     BitBotActionTrueFalse() { return this.getToken(bitmarkParser.BitBotActionTrueFalse, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -23399,8 +23367,7 @@ class Bot_action_true_falseContext extends ParserRuleContext_1.ParserRuleContext
         }
     }
 }
-exports.Bot_action_true_falseContext = Bot_action_true_falseContext;
-class Bot_action_rating_numberContext extends ParserRuleContext_1.ParserRuleContext {
+export class Bot_action_rating_numberContext extends ParserRuleContext {
     BitBotActionRatingNumber() { return this.getToken(bitmarkParser.BitBotActionRatingNumber, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -23452,8 +23419,7 @@ class Bot_action_rating_numberContext extends ParserRuleContext_1.ParserRuleCont
         }
     }
 }
-exports.Bot_action_rating_numberContext = Bot_action_rating_numberContext;
-class Bot_action_rating_starsContext extends ParserRuleContext_1.ParserRuleContext {
+export class Bot_action_rating_starsContext extends ParserRuleContext {
     BitBotActionRatingStars() { return this.getToken(bitmarkParser.BitBotActionRatingStars, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -23493,8 +23459,7 @@ class Bot_action_rating_starsContext extends ParserRuleContext_1.ParserRuleConte
         }
     }
 }
-exports.Bot_action_rating_starsContext = Bot_action_rating_starsContext;
-class Bot_actionContext extends ParserRuleContext_1.ParserRuleContext {
+export class Bot_actionContext extends ParserRuleContext {
     HSPL() { return this.getToken(bitmarkParser.HSPL, 0); }
     bo_actions() {
         return this.getRuleContext(0, Bo_actionsContext);
@@ -23517,8 +23482,7 @@ class Bot_actionContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Bot_actionContext = Bot_actionContext;
-class Bo_actionsContext extends ParserRuleContext_1.ParserRuleContext {
+export class Bo_actionsContext extends ParserRuleContext {
     boacts(i) {
         if (i === undefined) {
             return this.getRuleContexts(BoactsContext);
@@ -23553,8 +23517,7 @@ class Bo_actionsContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Bo_actionsContext = Bo_actionsContext;
-class BoactsContext extends ParserRuleContext_1.ParserRuleContext {
+export class BoactsContext extends ParserRuleContext {
     instruction() {
         return this.tryGetRuleContext(0, InstructionContext);
     }
@@ -23594,8 +23557,7 @@ class BoactsContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.BoactsContext = BoactsContext;
-class FeedbackContext extends ParserRuleContext_1.ParserRuleContext {
+export class FeedbackContext extends ParserRuleContext {
     ENCLBARS() { return this.tryGetToken(bitmarkParser.ENCLBARS, 0); }
     s_and_w() {
         return this.tryGetRuleContext(0, S_and_wContext);
@@ -23618,8 +23580,7 @@ class FeedbackContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.FeedbackContext = FeedbackContext;
-class FooterContext extends ParserRuleContext_1.ParserRuleContext {
+export class FooterContext extends ParserRuleContext {
     s_and_w(i) {
         if (i === undefined) {
             return this.getRuleContexts(S_and_wContext);
@@ -23654,8 +23615,7 @@ class FooterContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.FooterContext = FooterContext;
-class BitElemContext extends ParserRuleContext_1.ParserRuleContext {
+export class BitElemContext extends ParserRuleContext {
     LIST_LINE() { return this.tryGetToken(bitmarkParser.LIST_LINE, 0); }
     dclines() {
         return this.tryGetRuleContext(0, DclinesContext);
@@ -23765,8 +23725,7 @@ class BitElemContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.BitElemContext = BitElemContext;
-class GapContext extends ParserRuleContext_1.ParserRuleContext {
+export class GapContext extends ParserRuleContext {
     single_gap(i) {
         if (i === undefined) {
             return this.getRuleContexts(Single_gapContext);
@@ -23825,8 +23784,7 @@ class GapContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.GapContext = GapContext;
-class Single_gapContext extends ParserRuleContext_1.ParserRuleContext {
+export class Single_gapContext extends ParserRuleContext {
     OPU() { return this.getToken(bitmarkParser.OPU, 0); }
     clnsp() {
         return this.getRuleContext(0, ClnspContext);
@@ -23859,8 +23817,7 @@ class Single_gapContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Single_gapContext = Single_gapContext;
-class Choice_plusContext extends ParserRuleContext_1.ParserRuleContext {
+export class Choice_plusContext extends ParserRuleContext {
     OPP() { return this.getToken(bitmarkParser.OPP, 0); }
     CL() { return this.getToken(bitmarkParser.CL, 0); }
     item() {
@@ -23892,8 +23849,7 @@ class Choice_plusContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Choice_plusContext = Choice_plusContext;
-class Choice_minusContext extends ParserRuleContext_1.ParserRuleContext {
+export class Choice_minusContext extends ParserRuleContext {
     OPM() { return this.getToken(bitmarkParser.OPM, 0); }
     CL() { return this.getToken(bitmarkParser.CL, 0); }
     item() {
@@ -23925,8 +23881,7 @@ class Choice_minusContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Choice_minusContext = Choice_minusContext;
-class Choice_starContext extends ParserRuleContext_1.ParserRuleContext {
+export class Choice_starContext extends ParserRuleContext {
     OPR() { return this.getToken(bitmarkParser.OPR, 0); }
     CL() { return this.getToken(bitmarkParser.CL, 0); }
     item() {
@@ -23958,8 +23913,7 @@ class Choice_starContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Choice_starContext = Choice_starContext;
-class EssayContext extends ParserRuleContext_1.ParserRuleContext {
+export class EssayContext extends ParserRuleContext {
     BitEssay() { return this.getToken(bitmarkParser.BitEssay, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -24015,8 +23969,7 @@ class EssayContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.EssayContext = EssayContext;
-class Ml_exampleContext extends ParserRuleContext_1.ParserRuleContext {
+export class Ml_exampleContext extends ParserRuleContext {
     AtExamplecol() { return this.getToken(bitmarkParser.AtExamplecol, 0); }
     CL() { return this.getToken(bitmarkParser.CL, 0); }
     lines() {
@@ -24048,8 +24001,7 @@ class Ml_exampleContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Ml_exampleContext = Ml_exampleContext;
-class PartansContext extends ParserRuleContext_1.ParserRuleContext {
+export class PartansContext extends ParserRuleContext {
     AtPartialAnswerS() { return this.tryGetToken(bitmarkParser.AtPartialAnswerS, 0); }
     AtPartialAnswer() { return this.tryGetToken(bitmarkParser.AtPartialAnswer, 0); }
     constructor(parent, invokingState) {
@@ -24070,8 +24022,7 @@ class PartansContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.PartansContext = PartansContext;
-class ResourceContext extends ParserRuleContext_1.ParserRuleContext {
+export class ResourceContext extends ParserRuleContext {
     bitElem() {
         return this.getRuleContext(0, BitElemContext);
     }
@@ -24093,8 +24044,7 @@ class ResourceContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.ResourceContext = ResourceContext;
-class CorrectionContext extends ParserRuleContext_1.ParserRuleContext {
+export class CorrectionContext extends ParserRuleContext {
     BitCorrection() { return this.getToken(bitmarkParser.BitCorrection, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -24150,8 +24100,7 @@ class CorrectionContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.CorrectionContext = CorrectionContext;
-class CorrsContext extends ParserRuleContext_1.ParserRuleContext {
+export class CorrsContext extends ParserRuleContext {
     OPM() { return this.tryGetToken(bitmarkParser.OPM, 0); }
     CL() { return this.getToken(bitmarkParser.CL, 0); }
     NL() { return this.getToken(bitmarkParser.NL, 0); }
@@ -24174,8 +24123,7 @@ class CorrsContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.CorrsContext = CorrsContext;
-class Mark_Context extends ParserRuleContext_1.ParserRuleContext {
+export class Mark_Context extends ParserRuleContext {
     BitMark() { return this.getToken(bitmarkParser.BitMark, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -24231,8 +24179,7 @@ class Mark_Context extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Mark_Context = Mark_Context;
-class Mark_textContext extends ParserRuleContext_1.ParserRuleContext {
+export class Mark_textContext extends ParserRuleContext {
     OPS() { return this.getToken(bitmarkParser.OPS, 0); }
     s_and_w() {
         return this.getRuleContext(0, S_and_wContext);
@@ -24283,8 +24230,7 @@ class Mark_textContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Mark_textContext = Mark_textContext;
-class Mark_colorContext extends ParserRuleContext_1.ParserRuleContext {
+export class Mark_colorContext extends ParserRuleContext {
     OPAMARK() { return this.getToken(bitmarkParser.OPAMARK, 0); }
     STRING() { return this.getToken(bitmarkParser.STRING, 0); }
     CL() { return this.getToken(bitmarkParser.CL, 0); }
@@ -24314,8 +24260,7 @@ class Mark_colorContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Mark_colorContext = Mark_colorContext;
-class Document_uploadContext extends ParserRuleContext_1.ParserRuleContext {
+export class Document_uploadContext extends ParserRuleContext {
     BitDocup() { return this.getToken(bitmarkParser.BitDocup, 0); }
     CL() { return this.getToken(bitmarkParser.CL, 0); }
     NL(i) {
@@ -24363,8 +24308,7 @@ class Document_uploadContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Document_uploadContext = Document_uploadContext;
-class Take_audioContext extends ParserRuleContext_1.ParserRuleContext {
+export class Take_audioContext extends ParserRuleContext {
     BitTakeAudio() { return this.getToken(bitmarkParser.BitTakeAudio, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -24412,8 +24356,7 @@ class Take_audioContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Take_audioContext = Take_audioContext;
-class Take_pictureContext extends ParserRuleContext_1.ParserRuleContext {
+export class Take_pictureContext extends ParserRuleContext {
     BitTakepic() { return this.getToken(bitmarkParser.BitTakepic, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -24461,8 +24404,7 @@ class Take_pictureContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Take_pictureContext = Take_pictureContext;
-class Record_audioContext extends ParserRuleContext_1.ParserRuleContext {
+export class Record_audioContext extends ParserRuleContext {
     BitRecaud() { return this.getToken(bitmarkParser.BitRecaud, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -24510,8 +24452,7 @@ class Record_audioContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Record_audioContext = Record_audioContext;
-class Preparation_noteContext extends ParserRuleContext_1.ParserRuleContext {
+export class Preparation_noteContext extends ParserRuleContext {
     BitPrepnote() { return this.getToken(bitmarkParser.BitPrepnote, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -24562,8 +24503,7 @@ class Preparation_noteContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Preparation_noteContext = Preparation_noteContext;
-class AssignmentContext extends ParserRuleContext_1.ParserRuleContext {
+export class AssignmentContext extends ParserRuleContext {
     BitAssign() { return this.getToken(bitmarkParser.BitAssign, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -24614,8 +24554,7 @@ class AssignmentContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.AssignmentContext = AssignmentContext;
-class ArticleContext extends ParserRuleContext_1.ParserRuleContext {
+export class ArticleContext extends ParserRuleContext {
     BitArticle() { return this.getToken(bitmarkParser.BitArticle, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -24655,8 +24594,7 @@ class ArticleContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.ArticleContext = ArticleContext;
-class StatementContext extends ParserRuleContext_1.ParserRuleContext {
+export class StatementContext extends ParserRuleContext {
     BitStatement() { return this.getToken(bitmarkParser.BitStatement, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -24696,8 +24634,7 @@ class StatementContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.StatementContext = StatementContext;
-class DetailsContext extends ParserRuleContext_1.ParserRuleContext {
+export class DetailsContext extends ParserRuleContext {
     BitDetails() { return this.getToken(bitmarkParser.BitDetails, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -24737,8 +24674,7 @@ class DetailsContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.DetailsContext = DetailsContext;
-class Sample_solutionContext extends ParserRuleContext_1.ParserRuleContext {
+export class Sample_solutionContext extends ParserRuleContext {
     BitSampleSolution() { return this.getToken(bitmarkParser.BitSampleSolution, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -24778,8 +24714,7 @@ class Sample_solutionContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Sample_solutionContext = Sample_solutionContext;
-class ButtoncopytextContext extends ParserRuleContext_1.ParserRuleContext {
+export class ButtoncopytextContext extends ParserRuleContext {
     BitButtonCopytext() { return this.getToken(bitmarkParser.BitButtonCopytext, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -24819,8 +24754,7 @@ class ButtoncopytextContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.ButtoncopytextContext = ButtoncopytextContext;
-class WbtcontinueContext extends ParserRuleContext_1.ParserRuleContext {
+export class WbtcontinueContext extends ParserRuleContext {
     BitWbtContinue() { return this.getToken(bitmarkParser.BitWbtContinue, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -24860,8 +24794,7 @@ class WbtcontinueContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.WbtcontinueContext = WbtcontinueContext;
-class LearningpathdetailsContext extends ParserRuleContext_1.ParserRuleContext {
+export class LearningpathdetailsContext extends ParserRuleContext {
     BitLearningPathDetails() { return this.getToken(bitmarkParser.BitLearningPathDetails, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -24901,8 +24834,7 @@ class LearningpathdetailsContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.LearningpathdetailsContext = LearningpathdetailsContext;
-class PageContext extends ParserRuleContext_1.ParserRuleContext {
+export class PageContext extends ParserRuleContext {
     BitPage() { return this.getToken(bitmarkParser.BitPage, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -24942,8 +24874,7 @@ class PageContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.PageContext = PageContext;
-class NoteContext extends ParserRuleContext_1.ParserRuleContext {
+export class NoteContext extends ParserRuleContext {
     BitNote() { return this.getToken(bitmarkParser.BitNote, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -24983,8 +24914,7 @@ class NoteContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.NoteContext = NoteContext;
-class InfoContext extends ParserRuleContext_1.ParserRuleContext {
+export class InfoContext extends ParserRuleContext {
     BitInfo() { return this.getToken(bitmarkParser.BitInfo, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -25024,8 +24954,7 @@ class InfoContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.InfoContext = InfoContext;
-class WarningContext extends ParserRuleContext_1.ParserRuleContext {
+export class WarningContext extends ParserRuleContext {
     BitWarning() { return this.getToken(bitmarkParser.BitWarning, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -25065,8 +24994,7 @@ class WarningContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.WarningContext = WarningContext;
-class RemarkContext extends ParserRuleContext_1.ParserRuleContext {
+export class RemarkContext extends ParserRuleContext {
     BitRemark() { return this.getToken(bitmarkParser.BitRemark, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -25106,8 +25034,7 @@ class RemarkContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.RemarkContext = RemarkContext;
-class HelpContext extends ParserRuleContext_1.ParserRuleContext {
+export class HelpContext extends ParserRuleContext {
     BitHelp() { return this.getToken(bitmarkParser.BitHelp, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -25147,8 +25074,7 @@ class HelpContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.HelpContext = HelpContext;
-class DangerContext extends ParserRuleContext_1.ParserRuleContext {
+export class DangerContext extends ParserRuleContext {
     BitDanger() { return this.getToken(bitmarkParser.BitDanger, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -25188,8 +25114,7 @@ class DangerContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.DangerContext = DangerContext;
-class BugContext extends ParserRuleContext_1.ParserRuleContext {
+export class BugContext extends ParserRuleContext {
     BitBug() { return this.getToken(bitmarkParser.BitBug, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -25229,8 +25154,7 @@ class BugContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.BugContext = BugContext;
-class SidenoteContext extends ParserRuleContext_1.ParserRuleContext {
+export class SidenoteContext extends ParserRuleContext {
     BitSidenote() { return this.getToken(bitmarkParser.BitSidenote, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -25270,8 +25194,7 @@ class SidenoteContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.SidenoteContext = SidenoteContext;
-class StickynoteContext extends ParserRuleContext_1.ParserRuleContext {
+export class StickynoteContext extends ParserRuleContext {
     BitStickynote() { return this.getToken(bitmarkParser.BitStickynote, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -25311,8 +25234,7 @@ class StickynoteContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.StickynoteContext = StickynoteContext;
-class QuoteContext extends ParserRuleContext_1.ParserRuleContext {
+export class QuoteContext extends ParserRuleContext {
     BitQuote() { return this.getToken(bitmarkParser.BitQuote, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -25352,8 +25274,7 @@ class QuoteContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.QuoteContext = QuoteContext;
-class FootnoteContext extends ParserRuleContext_1.ParserRuleContext {
+export class FootnoteContext extends ParserRuleContext {
     BitFootnote() { return this.getToken(bitmarkParser.BitFootnote, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -25393,8 +25314,7 @@ class FootnoteContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.FootnoteContext = FootnoteContext;
-class HintbitContext extends ParserRuleContext_1.ParserRuleContext {
+export class HintbitContext extends ParserRuleContext {
     BitHint() { return this.getToken(bitmarkParser.BitHint, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -25434,8 +25354,7 @@ class HintbitContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.HintbitContext = HintbitContext;
-class ExamplebitContext extends ParserRuleContext_1.ParserRuleContext {
+export class ExamplebitContext extends ParserRuleContext {
     BitExample() { return this.getToken(bitmarkParser.BitExample, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -25475,8 +25394,7 @@ class ExamplebitContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.ExamplebitContext = ExamplebitContext;
-class Vendor_padlet_embedContext extends ParserRuleContext_1.ParserRuleContext {
+export class Vendor_padlet_embedContext extends ParserRuleContext {
     BitVendorPadletEmbed() { return this.getToken(bitmarkParser.BitVendorPadletEmbed, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -25516,8 +25434,7 @@ class Vendor_padlet_embedContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Vendor_padlet_embedContext = Vendor_padlet_embedContext;
-class ScormContext extends ParserRuleContext_1.ParserRuleContext {
+export class ScormContext extends ParserRuleContext {
     BitScorm() { return this.getToken(bitmarkParser.BitScorm, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -25557,8 +25474,7 @@ class ScormContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.ScormContext = ScormContext;
-class Bit_imageContext extends ParserRuleContext_1.ParserRuleContext {
+export class Bit_imageContext extends ParserRuleContext {
     BitImage() { return this.getToken(bitmarkParser.BitImage, 0); }
     format2() {
         return this.getRuleContext(0, Format2Context);
@@ -25598,8 +25514,7 @@ class Bit_imageContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Bit_imageContext = Bit_imageContext;
-class Bit_imageLinkContext extends ParserRuleContext_1.ParserRuleContext {
+export class Bit_imageLinkContext extends ParserRuleContext {
     BitImageLink() { return this.getToken(bitmarkParser.BitImageLink, 0); }
     format2() {
         return this.getRuleContext(0, Format2Context);
@@ -25639,8 +25554,7 @@ class Bit_imageLinkContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Bit_imageLinkContext = Bit_imageLinkContext;
-class Bit_imageZoomContext extends ParserRuleContext_1.ParserRuleContext {
+export class Bit_imageZoomContext extends ParserRuleContext {
     BitImageZoom() { return this.getToken(bitmarkParser.BitImageZoom, 0); }
     format2() {
         return this.getRuleContext(0, Format2Context);
@@ -25680,8 +25594,7 @@ class Bit_imageZoomContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Bit_imageZoomContext = Bit_imageZoomContext;
-class Bit_imageSuperWideContext extends ParserRuleContext_1.ParserRuleContext {
+export class Bit_imageSuperWideContext extends ParserRuleContext {
     BitImageSuperWide() { return this.getToken(bitmarkParser.BitImageSuperWide, 0); }
     format2() {
         return this.getRuleContext(0, Format2Context);
@@ -25721,8 +25634,7 @@ class Bit_imageSuperWideContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Bit_imageSuperWideContext = Bit_imageSuperWideContext;
-class Bit_audioContext extends ParserRuleContext_1.ParserRuleContext {
+export class Bit_audioContext extends ParserRuleContext {
     BitAudio() { return this.getToken(bitmarkParser.BitAudio, 0); }
     format2() {
         return this.getRuleContext(0, Format2Context);
@@ -25762,8 +25674,7 @@ class Bit_audioContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Bit_audioContext = Bit_audioContext;
-class Bit_audioLinkContext extends ParserRuleContext_1.ParserRuleContext {
+export class Bit_audioLinkContext extends ParserRuleContext {
     BitAudioLink() { return this.getToken(bitmarkParser.BitAudioLink, 0); }
     format2() {
         return this.getRuleContext(0, Format2Context);
@@ -25803,8 +25714,7 @@ class Bit_audioLinkContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Bit_audioLinkContext = Bit_audioLinkContext;
-class Bit_audioEmbedContext extends ParserRuleContext_1.ParserRuleContext {
+export class Bit_audioEmbedContext extends ParserRuleContext {
     BitAudioEmbed() { return this.getToken(bitmarkParser.BitAudioEmbed, 0); }
     format2() {
         return this.getRuleContext(0, Format2Context);
@@ -25844,8 +25754,7 @@ class Bit_audioEmbedContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Bit_audioEmbedContext = Bit_audioEmbedContext;
-class Bit_videoContext extends ParserRuleContext_1.ParserRuleContext {
+export class Bit_videoContext extends ParserRuleContext {
     BitVideo() { return this.getToken(bitmarkParser.BitVideo, 0); }
     format2() {
         return this.getRuleContext(0, Format2Context);
@@ -25885,8 +25794,7 @@ class Bit_videoContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Bit_videoContext = Bit_videoContext;
-class Bit_videoLinkContext extends ParserRuleContext_1.ParserRuleContext {
+export class Bit_videoLinkContext extends ParserRuleContext {
     BitVideoLink() { return this.getToken(bitmarkParser.BitVideoLink, 0); }
     format2() {
         return this.getRuleContext(0, Format2Context);
@@ -25926,8 +25834,7 @@ class Bit_videoLinkContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Bit_videoLinkContext = Bit_videoLinkContext;
-class Bit_videoEmbedContext extends ParserRuleContext_1.ParserRuleContext {
+export class Bit_videoEmbedContext extends ParserRuleContext {
     BitVideoEmbed() { return this.getToken(bitmarkParser.BitVideoEmbed, 0); }
     format2() {
         return this.getRuleContext(0, Format2Context);
@@ -25967,8 +25874,7 @@ class Bit_videoEmbedContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Bit_videoEmbedContext = Bit_videoEmbedContext;
-class Bit_videoPortraitContext extends ParserRuleContext_1.ParserRuleContext {
+export class Bit_videoPortraitContext extends ParserRuleContext {
     BitVideoPortrait() { return this.getToken(bitmarkParser.BitVideoPortrait, 0); }
     format2() {
         return this.getRuleContext(0, Format2Context);
@@ -26008,8 +25914,7 @@ class Bit_videoPortraitContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Bit_videoPortraitContext = Bit_videoPortraitContext;
-class Bit_videoLandscapeContext extends ParserRuleContext_1.ParserRuleContext {
+export class Bit_videoLandscapeContext extends ParserRuleContext {
     BitVideoLandscape() { return this.getToken(bitmarkParser.BitVideoLandscape, 0); }
     format2() {
         return this.getRuleContext(0, Format2Context);
@@ -26049,8 +25954,7 @@ class Bit_videoLandscapeContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Bit_videoLandscapeContext = Bit_videoLandscapeContext;
-class Bit_stillImageFilmContext extends ParserRuleContext_1.ParserRuleContext {
+export class Bit_stillImageFilmContext extends ParserRuleContext {
     BitStillImageFilm() { return this.getToken(bitmarkParser.BitStillImageFilm, 0); }
     format2() {
         return this.getRuleContext(0, Format2Context);
@@ -26090,8 +25994,7 @@ class Bit_stillImageFilmContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Bit_stillImageFilmContext = Bit_stillImageFilmContext;
-class Bit_stillImageFilmLinkContext extends ParserRuleContext_1.ParserRuleContext {
+export class Bit_stillImageFilmLinkContext extends ParserRuleContext {
     BitStillImageFilmLink() { return this.getToken(bitmarkParser.BitStillImageFilmLink, 0); }
     format2() {
         return this.getRuleContext(0, Format2Context);
@@ -26131,8 +26034,7 @@ class Bit_stillImageFilmLinkContext extends ParserRuleContext_1.ParserRuleContex
         }
     }
 }
-exports.Bit_stillImageFilmLinkContext = Bit_stillImageFilmLinkContext;
-class Bit_stillImageFilmEmbedContext extends ParserRuleContext_1.ParserRuleContext {
+export class Bit_stillImageFilmEmbedContext extends ParserRuleContext {
     BitStillImageFilmEmbed() { return this.getToken(bitmarkParser.BitStillImageFilmEmbed, 0); }
     format2() {
         return this.getRuleContext(0, Format2Context);
@@ -26172,8 +26074,7 @@ class Bit_stillImageFilmEmbedContext extends ParserRuleContext_1.ParserRuleConte
         }
     }
 }
-exports.Bit_stillImageFilmEmbedContext = Bit_stillImageFilmEmbedContext;
-class Bit_websiteLinkContext extends ParserRuleContext_1.ParserRuleContext {
+export class Bit_websiteLinkContext extends ParserRuleContext {
     BitWebsiteLink() { return this.getToken(bitmarkParser.BitWebsiteLink, 0); }
     format2() {
         return this.getRuleContext(0, Format2Context);
@@ -26213,8 +26114,7 @@ class Bit_websiteLinkContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Bit_websiteLinkContext = Bit_websiteLinkContext;
-class Bit_documentContext extends ParserRuleContext_1.ParserRuleContext {
+export class Bit_documentContext extends ParserRuleContext {
     BitDocument() { return this.getToken(bitmarkParser.BitDocument, 0); }
     format2() {
         return this.getRuleContext(0, Format2Context);
@@ -26254,8 +26154,7 @@ class Bit_documentContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Bit_documentContext = Bit_documentContext;
-class Bit_documentLinkContext extends ParserRuleContext_1.ParserRuleContext {
+export class Bit_documentLinkContext extends ParserRuleContext {
     BitDocumentLink() { return this.getToken(bitmarkParser.BitDocumentLink, 0); }
     format2() {
         return this.getRuleContext(0, Format2Context);
@@ -26295,8 +26194,7 @@ class Bit_documentLinkContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Bit_documentLinkContext = Bit_documentLinkContext;
-class Bit_documentEmbedContext extends ParserRuleContext_1.ParserRuleContext {
+export class Bit_documentEmbedContext extends ParserRuleContext {
     BitDocumentEmbed() { return this.getToken(bitmarkParser.BitDocumentEmbed, 0); }
     format2() {
         return this.getRuleContext(0, Format2Context);
@@ -26336,8 +26234,7 @@ class Bit_documentEmbedContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Bit_documentEmbedContext = Bit_documentEmbedContext;
-class Bit_documentDownloadContext extends ParserRuleContext_1.ParserRuleContext {
+export class Bit_documentDownloadContext extends ParserRuleContext {
     BitDocumentDownload() { return this.getToken(bitmarkParser.BitDocumentDownload, 0); }
     format2() {
         return this.getRuleContext(0, Format2Context);
@@ -26377,8 +26274,7 @@ class Bit_documentDownloadContext extends ParserRuleContext_1.ParserRuleContext 
         }
     }
 }
-exports.Bit_documentDownloadContext = Bit_documentDownloadContext;
-class Bit_appLinkContext extends ParserRuleContext_1.ParserRuleContext {
+export class Bit_appLinkContext extends ParserRuleContext {
     BitAppLink() { return this.getToken(bitmarkParser.BitAppLink, 0); }
     format2() {
         return this.getRuleContext(0, Format2Context);
@@ -26418,8 +26314,7 @@ class Bit_appLinkContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Bit_appLinkContext = Bit_appLinkContext;
-class Bit_editorialContext extends ParserRuleContext_1.ParserRuleContext {
+export class Bit_editorialContext extends ParserRuleContext {
     BitEditorial() { return this.getToken(bitmarkParser.BitEditorial, 0); }
     format2() {
         return this.getRuleContext(0, Format2Context);
@@ -26459,8 +26354,7 @@ class Bit_editorialContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Bit_editorialContext = Bit_editorialContext;
-class Book_frontispieceContext extends ParserRuleContext_1.ParserRuleContext {
+export class Book_frontispieceContext extends ParserRuleContext {
     BitBookFrontispiece() { return this.getToken(bitmarkParser.BitBookFrontispiece, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -26500,8 +26394,7 @@ class Book_frontispieceContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Book_frontispieceContext = Book_frontispieceContext;
-class Book_titleContext extends ParserRuleContext_1.ParserRuleContext {
+export class Book_titleContext extends ParserRuleContext {
     BitBookTitle() { return this.getToken(bitmarkParser.BitBookTitle, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -26541,8 +26434,7 @@ class Book_titleContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Book_titleContext = Book_titleContext;
-class Book_copyrightContext extends ParserRuleContext_1.ParserRuleContext {
+export class Book_copyrightContext extends ParserRuleContext {
     BitBookCopyright() { return this.getToken(bitmarkParser.BitBookCopyright, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -26582,8 +26474,7 @@ class Book_copyrightContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Book_copyrightContext = Book_copyrightContext;
-class Book_dedicationContext extends ParserRuleContext_1.ParserRuleContext {
+export class Book_dedicationContext extends ParserRuleContext {
     BitBookDedication() { return this.getToken(bitmarkParser.BitBookDedication, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -26623,8 +26514,7 @@ class Book_dedicationContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Book_dedicationContext = Book_dedicationContext;
-class Book_forwordContext extends ParserRuleContext_1.ParserRuleContext {
+export class Book_forwordContext extends ParserRuleContext {
     BitBookForword() { return this.getToken(bitmarkParser.BitBookForword, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -26664,8 +26554,7 @@ class Book_forwordContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Book_forwordContext = Book_forwordContext;
-class Book_prefaceContext extends ParserRuleContext_1.ParserRuleContext {
+export class Book_prefaceContext extends ParserRuleContext {
     BitBookPreface() { return this.getToken(bitmarkParser.BitBookPreface, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -26705,8 +26594,7 @@ class Book_prefaceContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Book_prefaceContext = Book_prefaceContext;
-class Book_prologueContext extends ParserRuleContext_1.ParserRuleContext {
+export class Book_prologueContext extends ParserRuleContext {
     BitBookPrologue() { return this.getToken(bitmarkParser.BitBookPrologue, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -26746,8 +26634,7 @@ class Book_prologueContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Book_prologueContext = Book_prologueContext;
-class Book_epilogueContext extends ParserRuleContext_1.ParserRuleContext {
+export class Book_epilogueContext extends ParserRuleContext {
     BitBookEpilogue() { return this.getToken(bitmarkParser.BitBookEpilogue, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -26787,8 +26674,7 @@ class Book_epilogueContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Book_epilogueContext = Book_epilogueContext;
-class Book_introductionContext extends ParserRuleContext_1.ParserRuleContext {
+export class Book_introductionContext extends ParserRuleContext {
     BitBookIntroduction() { return this.getToken(bitmarkParser.BitBookIntroduction, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -26828,8 +26714,7 @@ class Book_introductionContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Book_introductionContext = Book_introductionContext;
-class Book_inciting_incidentContext extends ParserRuleContext_1.ParserRuleContext {
+export class Book_inciting_incidentContext extends ParserRuleContext {
     BitBookIncitingIncident() { return this.getToken(bitmarkParser.BitBookIncitingIncident, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -26869,8 +26754,7 @@ class Book_inciting_incidentContext extends ParserRuleContext_1.ParserRuleContex
         }
     }
 }
-exports.Book_inciting_incidentContext = Book_inciting_incidentContext;
-class Book_conclusionContext extends ParserRuleContext_1.ParserRuleContext {
+export class Book_conclusionContext extends ParserRuleContext {
     BitBookConclusion() { return this.getToken(bitmarkParser.BitBookConclusion, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -26910,8 +26794,7 @@ class Book_conclusionContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Book_conclusionContext = Book_conclusionContext;
-class Book_afterwordContext extends ParserRuleContext_1.ParserRuleContext {
+export class Book_afterwordContext extends ParserRuleContext {
     BitBookAfterword() { return this.getToken(bitmarkParser.BitBookAfterword, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -26951,8 +26834,7 @@ class Book_afterwordContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Book_afterwordContext = Book_afterwordContext;
-class Book_postscriptContext extends ParserRuleContext_1.ParserRuleContext {
+export class Book_postscriptContext extends ParserRuleContext {
     BitBookPostscript() { return this.getToken(bitmarkParser.BitBookPostscript, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -26992,8 +26874,7 @@ class Book_postscriptContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Book_postscriptContext = Book_postscriptContext;
-class Book_appendixContext extends ParserRuleContext_1.ParserRuleContext {
+export class Book_appendixContext extends ParserRuleContext {
     BitBookappendix() { return this.getToken(bitmarkParser.BitBookappendix, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -27033,8 +26914,7 @@ class Book_appendixContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Book_appendixContext = Book_appendixContext;
-class Book_addendumContext extends ParserRuleContext_1.ParserRuleContext {
+export class Book_addendumContext extends ParserRuleContext {
     BitBookAddendum() { return this.getToken(bitmarkParser.BitBookAddendum, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -27074,8 +26954,7 @@ class Book_addendumContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Book_addendumContext = Book_addendumContext;
-class Book_acknowledgmentsContext extends ParserRuleContext_1.ParserRuleContext {
+export class Book_acknowledgmentsContext extends ParserRuleContext {
     BitBookAcknowledgments() { return this.getToken(bitmarkParser.BitBookAcknowledgments, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -27115,8 +26994,7 @@ class Book_acknowledgmentsContext extends ParserRuleContext_1.ParserRuleContext 
         }
     }
 }
-exports.Book_acknowledgmentsContext = Book_acknowledgmentsContext;
-class Book_list_of_contributorsContext extends ParserRuleContext_1.ParserRuleContext {
+export class Book_list_of_contributorsContext extends ParserRuleContext {
     BitBookListOfContributors() { return this.getToken(bitmarkParser.BitBookListOfContributors, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -27156,8 +27034,7 @@ class Book_list_of_contributorsContext extends ParserRuleContext_1.ParserRuleCon
         }
     }
 }
-exports.Book_list_of_contributorsContext = Book_list_of_contributorsContext;
-class Book_bibliographyContext extends ParserRuleContext_1.ParserRuleContext {
+export class Book_bibliographyContext extends ParserRuleContext {
     BitBookBibliography() { return this.getToken(bitmarkParser.BitBookBibliography, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -27197,8 +27074,7 @@ class Book_bibliographyContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Book_bibliographyContext = Book_bibliographyContext;
-class Book_reference_listContext extends ParserRuleContext_1.ParserRuleContext {
+export class Book_reference_listContext extends ParserRuleContext {
     BitBookReferenceList() { return this.getToken(bitmarkParser.BitBookReferenceList, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -27238,8 +27114,7 @@ class Book_reference_listContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Book_reference_listContext = Book_reference_listContext;
-class Book_endnotesContext extends ParserRuleContext_1.ParserRuleContext {
+export class Book_endnotesContext extends ParserRuleContext {
     BitBookEndnotes() { return this.getToken(bitmarkParser.BitBookEndnotes, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -27279,8 +27154,7 @@ class Book_endnotesContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Book_endnotesContext = Book_endnotesContext;
-class Book_notesContext extends ParserRuleContext_1.ParserRuleContext {
+export class Book_notesContext extends ParserRuleContext {
     BitBookNotes() { return this.getToken(bitmarkParser.BitBookNotes, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -27320,8 +27194,7 @@ class Book_notesContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Book_notesContext = Book_notesContext;
-class Book_copyright_permissionsContext extends ParserRuleContext_1.ParserRuleContext {
+export class Book_copyright_permissionsContext extends ParserRuleContext {
     BitBookCopyrightPermissions() { return this.getToken(bitmarkParser.BitBookCopyrightPermissions, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -27361,8 +27234,7 @@ class Book_copyright_permissionsContext extends ParserRuleContext_1.ParserRuleCo
         }
     }
 }
-exports.Book_copyright_permissionsContext = Book_copyright_permissionsContext;
-class Book_teaserContext extends ParserRuleContext_1.ParserRuleContext {
+export class Book_teaserContext extends ParserRuleContext {
     BitBookTeaser() { return this.getToken(bitmarkParser.BitBookTeaser, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -27402,8 +27274,7 @@ class Book_teaserContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Book_teaserContext = Book_teaserContext;
-class Book_auther_bioContext extends ParserRuleContext_1.ParserRuleContext {
+export class Book_auther_bioContext extends ParserRuleContext {
     BitBookAutherBio() { return this.getToken(bitmarkParser.BitBookAutherBio, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -27443,8 +27314,7 @@ class Book_auther_bioContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Book_auther_bioContext = Book_auther_bioContext;
-class Book_request_for_a_book_reviewContext extends ParserRuleContext_1.ParserRuleContext {
+export class Book_request_for_a_book_reviewContext extends ParserRuleContext {
     BitBookRequestForABookReview() { return this.getToken(bitmarkParser.BitBookRequestForABookReview, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -27484,8 +27354,7 @@ class Book_request_for_a_book_reviewContext extends ParserRuleContext_1.ParserRu
         }
     }
 }
-exports.Book_request_for_a_book_reviewContext = Book_request_for_a_book_reviewContext;
-class Book_coming_soonContext extends ParserRuleContext_1.ParserRuleContext {
+export class Book_coming_soonContext extends ParserRuleContext {
     BitBookComingSoon() { return this.getToken(bitmarkParser.BitBookComingSoon, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -27525,8 +27394,7 @@ class Book_coming_soonContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Book_coming_soonContext = Book_coming_soonContext;
-class Book_read_moreContext extends ParserRuleContext_1.ParserRuleContext {
+export class Book_read_moreContext extends ParserRuleContext {
     BitBookReadMore() { return this.getToken(bitmarkParser.BitBookReadMore, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -27566,8 +27434,7 @@ class Book_read_moreContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Book_read_moreContext = Book_read_moreContext;
-class Book_summaryContext extends ParserRuleContext_1.ParserRuleContext {
+export class Book_summaryContext extends ParserRuleContext {
     BitBookSummary() { return this.getToken(bitmarkParser.BitBookSummary, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -27607,8 +27474,7 @@ class Book_summaryContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Book_summaryContext = Book_summaryContext;
-class Book_epigraphContext extends ParserRuleContext_1.ParserRuleContext {
+export class Book_epigraphContext extends ParserRuleContext {
     BitBookEpigraph() { return this.getToken(bitmarkParser.BitBookEpigraph, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -27648,8 +27514,7 @@ class Book_epigraphContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Book_epigraphContext = Book_epigraphContext;
-class CodeContext extends ParserRuleContext_1.ParserRuleContext {
+export class CodeContext extends ParserRuleContext {
     BitCode() { return this.getToken(bitmarkParser.BitCode, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -27689,8 +27554,7 @@ class CodeContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.CodeContext = CodeContext;
-class Card1Context extends ParserRuleContext_1.ParserRuleContext {
+export class Card1Context extends ParserRuleContext {
     BitCard1() { return this.getToken(bitmarkParser.BitCard1, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -27730,8 +27594,7 @@ class Card1Context extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Card1Context = Card1Context;
-class Question1Context extends ParserRuleContext_1.ParserRuleContext {
+export class Question1Context extends ParserRuleContext {
     BitQuestion1() { return this.getToken(bitmarkParser.BitQuestion1, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -27771,8 +27634,7 @@ class Question1Context extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Question1Context = Question1Context;
-class ScreenshotContext extends ParserRuleContext_1.ParserRuleContext {
+export class ScreenshotContext extends ParserRuleContext {
     BitScreenshot() { return this.getToken(bitmarkParser.BitScreenshot, 0); }
     format2() {
         return this.getRuleContext(0, Format2Context);
@@ -27812,8 +27674,7 @@ class ScreenshotContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.ScreenshotContext = ScreenshotContext;
-class Focus_imageContext extends ParserRuleContext_1.ParserRuleContext {
+export class Focus_imageContext extends ParserRuleContext {
     BitFocusImage() { return this.getToken(bitmarkParser.BitFocusImage, 0); }
     format2() {
         return this.getRuleContext(0, Format2Context);
@@ -27853,8 +27714,7 @@ class Focus_imageContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Focus_imageContext = Focus_imageContext;
-class PhotoContext extends ParserRuleContext_1.ParserRuleContext {
+export class PhotoContext extends ParserRuleContext {
     BitPhoto() { return this.getToken(bitmarkParser.BitPhoto, 0); }
     format2() {
         return this.getRuleContext(0, Format2Context);
@@ -27894,8 +27754,7 @@ class PhotoContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.PhotoContext = PhotoContext;
-class Browser_imageContext extends ParserRuleContext_1.ParserRuleContext {
+export class Browser_imageContext extends ParserRuleContext {
     BitBrowserImage() { return this.getToken(bitmarkParser.BitBrowserImage, 0); }
     format2() {
         return this.getRuleContext(0, Format2Context);
@@ -27935,8 +27794,7 @@ class Browser_imageContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Browser_imageContext = Browser_imageContext;
-class MessageContext extends ParserRuleContext_1.ParserRuleContext {
+export class MessageContext extends ParserRuleContext {
     BitMessage() { return this.getToken(bitmarkParser.BitMessage, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -27976,8 +27834,7 @@ class MessageContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.MessageContext = MessageContext;
-class Bot_interviewContext extends ParserRuleContext_1.ParserRuleContext {
+export class Bot_interviewContext extends ParserRuleContext {
     BitBotint() { return this.getToken(bitmarkParser.BitBotint, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -28049,8 +27906,7 @@ class Bot_interviewContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Bot_interviewContext = Bot_interviewContext;
-class Bot_choiceContext extends ParserRuleContext_1.ParserRuleContext {
+export class Bot_choiceContext extends ParserRuleContext {
     words(i) {
         if (i === undefined) {
             return this.getRuleContexts(WordsContext);
@@ -28125,8 +27981,7 @@ class Bot_choiceContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Bot_choiceContext = Bot_choiceContext;
-class RatingContext extends ParserRuleContext_1.ParserRuleContext {
+export class RatingContext extends ParserRuleContext {
     BitRating() { return this.getToken(bitmarkParser.BitRating, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -28206,8 +28061,7 @@ class RatingContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.RatingContext = RatingContext;
-class Bullet_itemContext extends ParserRuleContext_1.ParserRuleContext {
+export class Bullet_itemContext extends ParserRuleContext {
     OPBUL() { return this.getToken(bitmarkParser.OPBUL, 0); }
     s_and_w() {
         return this.getRuleContext(0, S_and_wContext);
@@ -28234,8 +28088,7 @@ class Bullet_itemContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Bullet_itemContext = Bullet_itemContext;
-class SurveyContext extends ParserRuleContext_1.ParserRuleContext {
+export class SurveyContext extends ParserRuleContext {
     BitSurvey() { return this.getToken(bitmarkParser.BitSurvey, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -28307,8 +28160,7 @@ class SurveyContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.SurveyContext = SurveyContext;
-class Survey_1Context extends ParserRuleContext_1.ParserRuleContext {
+export class Survey_1Context extends ParserRuleContext {
     BitSurvey1() { return this.getToken(bitmarkParser.BitSurvey1, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -28380,8 +28232,7 @@ class Survey_1Context extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Survey_1Context = Survey_1Context;
-class Survey_anonymousContext extends ParserRuleContext_1.ParserRuleContext {
+export class Survey_anonymousContext extends ParserRuleContext {
     BitSurveyanon() { return this.getToken(bitmarkParser.BitSurveyanon, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -28453,8 +28304,7 @@ class Survey_anonymousContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Survey_anonymousContext = Survey_anonymousContext;
-class Survey_anonymous_1Context extends ParserRuleContext_1.ParserRuleContext {
+export class Survey_anonymous_1Context extends ParserRuleContext {
     BitSurveyanon1() { return this.getToken(bitmarkParser.BitSurveyanon1, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -28526,8 +28376,7 @@ class Survey_anonymous_1Context extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Survey_anonymous_1Context = Survey_anonymous_1Context;
-class Self_assessmentContext extends ParserRuleContext_1.ParserRuleContext {
+export class Self_assessmentContext extends ParserRuleContext {
     BitSelfassess() { return this.getToken(bitmarkParser.BitSelfassess, 0); }
     format() {
         return this.getRuleContext(0, FormatContext);
@@ -28607,8 +28456,7 @@ class Self_assessmentContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Self_assessmentContext = Self_assessmentContext;
-class Self_assess_s_and_wContext extends ParserRuleContext_1.ParserRuleContext {
+export class Self_assess_s_and_wContext extends ParserRuleContext {
     OPBUL(i) {
         if (i === undefined) {
             return this.getTokens(bitmarkParser.OPBUL);
@@ -28635,8 +28483,7 @@ class Self_assess_s_and_wContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Self_assess_s_and_wContext = Self_assess_s_and_wContext;
-class AtpointContext extends ParserRuleContext_1.ParserRuleContext {
+export class AtpointContext extends ParserRuleContext {
     AtPoints() { return this.getToken(bitmarkParser.AtPoints, 0); }
     NUMERIC() { return this.getToken(bitmarkParser.NUMERIC, 0); }
     CL() { return this.getToken(bitmarkParser.CL, 0); }
@@ -28658,8 +28505,7 @@ class AtpointContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.AtpointContext = AtpointContext;
-class FormatContext extends ParserRuleContext_1.ParserRuleContext {
+export class FormatContext extends ParserRuleContext {
     resource_format(i) {
         if (i === undefined) {
             return this.getRuleContexts(Resource_formatContext);
@@ -28702,8 +28548,7 @@ class FormatContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.FormatContext = FormatContext;
-class Resource_formatContext extends ParserRuleContext_1.ParserRuleContext {
+export class Resource_formatContext extends ParserRuleContext {
     BitmarkMinus() { return this.tryGetToken(bitmarkParser.BitmarkMinus, 0); }
     BitmarkPlus() { return this.tryGetToken(bitmarkParser.BitmarkPlus, 0); }
     Prosemirror() { return this.tryGetToken(bitmarkParser.Prosemirror, 0); }
@@ -28738,8 +28583,7 @@ class Resource_formatContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Resource_formatContext = Resource_formatContext;
-class Resource_format_extraContext extends ParserRuleContext_1.ParserRuleContext {
+export class Resource_format_extraContext extends ParserRuleContext {
     image_format() {
         return this.tryGetRuleContext(0, Image_formatContext);
     }
@@ -28783,8 +28627,7 @@ class Resource_format_extraContext extends ParserRuleContext_1.ParserRuleContext
         }
     }
 }
-exports.Resource_format_extraContext = Resource_format_extraContext;
-class Format2Context extends ParserRuleContext_1.ParserRuleContext {
+export class Format2Context extends ParserRuleContext {
     BitmarkMinus() { return this.tryGetToken(bitmarkParser.BitmarkMinus, 0); }
     BitmarkPlus() { return this.tryGetToken(bitmarkParser.BitmarkPlus, 0); }
     ColonText() { return this.tryGetToken(bitmarkParser.ColonText, 0); }
@@ -28806,8 +28649,7 @@ class Format2Context extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Format2Context = Format2Context;
-class Image_formatContext extends ParserRuleContext_1.ParserRuleContext {
+export class Image_formatContext extends ParserRuleContext {
     AmpImage() { return this.tryGetToken(bitmarkParser.AmpImage, 0); }
     Image_type() { return this.tryGetToken(bitmarkParser.Image_type, 0); }
     DotArticleAtt() { return this.tryGetToken(bitmarkParser.DotArticleAtt, 0); }
@@ -28832,8 +28674,7 @@ class Image_formatContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Image_formatContext = Image_formatContext;
-class Video_formatContext extends ParserRuleContext_1.ParserRuleContext {
+export class Video_formatContext extends ParserRuleContext {
     AmpVideo() { return this.tryGetToken(bitmarkParser.AmpVideo, 0); }
     AmpVideoLink() { return this.tryGetToken(bitmarkParser.AmpVideoLink, 0); }
     COLON() { return this.tryGetToken(bitmarkParser.COLON, 0); }
@@ -28856,8 +28697,7 @@ class Video_formatContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Video_formatContext = Video_formatContext;
-class Article_formatContext extends ParserRuleContext_1.ParserRuleContext {
+export class Article_formatContext extends ParserRuleContext {
     AmpArticle() { return this.tryGetToken(bitmarkParser.AmpArticle, 0); }
     AmpArticleLink() { return this.tryGetToken(bitmarkParser.AmpArticleLink, 0); }
     constructor(parent, invokingState) {
@@ -28878,8 +28718,7 @@ class Article_formatContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Article_formatContext = Article_formatContext;
-class Document_formatContext extends ParserRuleContext_1.ParserRuleContext {
+export class Document_formatContext extends ParserRuleContext {
     AmpDocument() { return this.tryGetToken(bitmarkParser.AmpDocument, 0); }
     AmpDocumentLink() { return this.tryGetToken(bitmarkParser.AmpDocumentLink, 0); }
     constructor(parent, invokingState) {
@@ -28900,8 +28739,7 @@ class Document_formatContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Document_formatContext = Document_formatContext;
-class App_formatContext extends ParserRuleContext_1.ParserRuleContext {
+export class App_formatContext extends ParserRuleContext {
     AmpApp() { return this.tryGetToken(bitmarkParser.AmpApp, 0); }
     AmpAppLink() { return this.tryGetToken(bitmarkParser.AmpAppLink, 0); }
     constructor(parent, invokingState) {
@@ -28922,8 +28760,7 @@ class App_formatContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.App_formatContext = App_formatContext;
-class Website_formatContext extends ParserRuleContext_1.ParserRuleContext {
+export class Website_formatContext extends ParserRuleContext {
     AmpWebsite() { return this.tryGetToken(bitmarkParser.AmpWebsite, 0); }
     AmpWebsiteLink() { return this.tryGetToken(bitmarkParser.AmpWebsiteLink, 0); }
     constructor(parent, invokingState) {
@@ -28944,8 +28781,7 @@ class Website_formatContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Website_formatContext = Website_formatContext;
-class Stillimagefilm_formatContext extends ParserRuleContext_1.ParserRuleContext {
+export class Stillimagefilm_formatContext extends ParserRuleContext {
     AmpStillImageFilm() { return this.tryGetToken(bitmarkParser.AmpStillImageFilm, 0); }
     AmpStillImageFilmLink() { return this.tryGetToken(bitmarkParser.AmpStillImageFilmLink, 0); }
     constructor(parent, invokingState) {
@@ -28966,8 +28802,7 @@ class Stillimagefilm_formatContext extends ParserRuleContext_1.ParserRuleContext
         }
     }
 }
-exports.Stillimagefilm_formatContext = Stillimagefilm_formatContext;
-class Op_article_formatContext extends ParserRuleContext_1.ParserRuleContext {
+export class Op_article_formatContext extends ParserRuleContext {
     OpAmpArticleLink() { return this.tryGetToken(bitmarkParser.OpAmpArticleLink, 0); }
     OpAmpArticle() { return this.tryGetToken(bitmarkParser.OpAmpArticle, 0); }
     constructor(parent, invokingState) {
@@ -28988,8 +28823,7 @@ class Op_article_formatContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Op_article_formatContext = Op_article_formatContext;
-class Op_document_formatContext extends ParserRuleContext_1.ParserRuleContext {
+export class Op_document_formatContext extends ParserRuleContext {
     OpAmpDocumentLink() { return this.tryGetToken(bitmarkParser.OpAmpDocumentLink, 0); }
     OpAmpDocument() { return this.tryGetToken(bitmarkParser.OpAmpDocument, 0); }
     constructor(parent, invokingState) {
@@ -29010,8 +28844,7 @@ class Op_document_formatContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Op_document_formatContext = Op_document_formatContext;
-class Op_app_formatContext extends ParserRuleContext_1.ParserRuleContext {
+export class Op_app_formatContext extends ParserRuleContext {
     OpAmpApp() { return this.tryGetToken(bitmarkParser.OpAmpApp, 0); }
     OpAmpAppLink() { return this.tryGetToken(bitmarkParser.OpAmpAppLink, 0); }
     constructor(parent, invokingState) {
@@ -29032,8 +28865,7 @@ class Op_app_formatContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Op_app_formatContext = Op_app_formatContext;
-class Op_website_formatContext extends ParserRuleContext_1.ParserRuleContext {
+export class Op_website_formatContext extends ParserRuleContext {
     OpAmpWebsite() { return this.tryGetToken(bitmarkParser.OpAmpWebsite, 0); }
     OpAmpWebsiteLink() { return this.tryGetToken(bitmarkParser.OpAmpWebsiteLink, 0); }
     constructor(parent, invokingState) {
@@ -29054,8 +28886,7 @@ class Op_website_formatContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Op_website_formatContext = Op_website_formatContext;
-class Op_video_formatContext extends ParserRuleContext_1.ParserRuleContext {
+export class Op_video_formatContext extends ParserRuleContext {
     OpAmpVideo() { return this.tryGetToken(bitmarkParser.OpAmpVideo, 0); }
     COLON() { return this.tryGetToken(bitmarkParser.COLON, 0); }
     Video_type() { return this.tryGetToken(bitmarkParser.Video_type, 0); }
@@ -29078,8 +28909,7 @@ class Op_video_formatContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Op_video_formatContext = Op_video_formatContext;
-class Op_stillimagefilm_formatContext extends ParserRuleContext_1.ParserRuleContext {
+export class Op_stillimagefilm_formatContext extends ParserRuleContext {
     OpAmpStillImageFilm() { return this.tryGetToken(bitmarkParser.OpAmpStillImageFilm, 0); }
     OpAmpStillImageFilmLink() { return this.tryGetToken(bitmarkParser.OpAmpStillImageFilmLink, 0); }
     constructor(parent, invokingState) {
@@ -29100,8 +28930,7 @@ class Op_stillimagefilm_formatContext extends ParserRuleContext_1.ParserRuleCont
         }
     }
 }
-exports.Op_stillimagefilm_formatContext = Op_stillimagefilm_formatContext;
-class ArticlebitContext extends ParserRuleContext_1.ParserRuleContext {
+export class ArticlebitContext extends ParserRuleContext {
     op_article_format() {
         return this.tryGetRuleContext(0, Op_article_formatContext);
     }
@@ -29129,8 +28958,7 @@ class ArticlebitContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.ArticlebitContext = ArticlebitContext;
-class DocumentbitContext extends ParserRuleContext_1.ParserRuleContext {
+export class DocumentbitContext extends ParserRuleContext {
     op_document_format() {
         return this.getRuleContext(0, Op_document_formatContext);
     }
@@ -29168,8 +28996,7 @@ class DocumentbitContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.DocumentbitContext = DocumentbitContext;
-class WebsitebitContext extends ParserRuleContext_1.ParserRuleContext {
+export class WebsitebitContext extends ParserRuleContext {
     op_website_format() {
         return this.getRuleContext(0, Op_website_formatContext);
     }
@@ -29207,8 +29034,7 @@ class WebsitebitContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.WebsitebitContext = WebsitebitContext;
-class AppbitContext extends ParserRuleContext_1.ParserRuleContext {
+export class AppbitContext extends ParserRuleContext {
     op_app_format() {
         return this.getRuleContext(0, Op_app_formatContext);
     }
@@ -29249,8 +29075,7 @@ class AppbitContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.AppbitContext = AppbitContext;
-class StillimagefilmbitContext extends ParserRuleContext_1.ParserRuleContext {
+export class StillimagefilmbitContext extends ParserRuleContext {
     stillimg_one() {
         return this.getRuleContext(0, Stillimg_oneContext);
     }
@@ -29280,8 +29105,7 @@ class StillimagefilmbitContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.StillimagefilmbitContext = StillimagefilmbitContext;
-class Stillimg_oneContext extends ParserRuleContext_1.ParserRuleContext {
+export class Stillimg_oneContext extends ParserRuleContext {
     op_stillimagefilm_format() {
         return this.getRuleContext(0, Op_stillimagefilm_formatContext);
     }
@@ -29316,8 +29140,7 @@ class Stillimg_oneContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Stillimg_oneContext = Stillimg_oneContext;
-class VideobitContext extends ParserRuleContext_1.ParserRuleContext {
+export class VideobitContext extends ParserRuleContext {
     video_one() {
         return this.getRuleContext(0, Video_oneContext);
     }
@@ -29347,8 +29170,7 @@ class VideobitContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.VideobitContext = VideobitContext;
-class Video_oneContext extends ParserRuleContext_1.ParserRuleContext {
+export class Video_oneContext extends ParserRuleContext {
     op_video_format() {
         return this.getRuleContext(0, Op_video_formatContext);
     }
@@ -29386,8 +29208,7 @@ class Video_oneContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Video_oneContext = Video_oneContext;
-class ImagebitContext extends ParserRuleContext_1.ParserRuleContext {
+export class ImagebitContext extends ParserRuleContext {
     image_one() {
         return this.getRuleContext(0, Image_oneContext);
     }
@@ -29419,8 +29240,7 @@ class ImagebitContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.ImagebitContext = ImagebitContext;
-class Image_oneContext extends ParserRuleContext_1.ParserRuleContext {
+export class Image_oneContext extends ParserRuleContext {
     op_image_format() {
         return this.getRuleContext(0, Op_image_formatContext);
     }
@@ -29455,8 +29275,7 @@ class Image_oneContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Image_oneContext = Image_oneContext;
-class Op_image_formatContext extends ParserRuleContext_1.ParserRuleContext {
+export class Op_image_formatContext extends ParserRuleContext {
     OpAmpImage() { return this.tryGetToken(bitmarkParser.OpAmpImage, 0); }
     Image_type() { return this.tryGetToken(bitmarkParser.Image_type, 0); }
     DotArticleAtt() { return this.tryGetToken(bitmarkParser.DotArticleAtt, 0); }
@@ -29481,8 +29300,7 @@ class Op_image_formatContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Op_image_formatContext = Op_image_formatContext;
-class Image_chainedContext extends ParserRuleContext_1.ParserRuleContext {
+export class Image_chainedContext extends ParserRuleContext {
     AtSrc() { return this.tryGetToken(bitmarkParser.AtSrc, 0); }
     COLON() { return this.tryGetToken(bitmarkParser.COLON, 0); }
     url() {
@@ -29515,8 +29333,7 @@ class Image_chainedContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Image_chainedContext = Image_chainedContext;
-class Image_chained4matchContext extends ParserRuleContext_1.ParserRuleContext {
+export class Image_chained4matchContext extends ParserRuleContext {
     AtSrc() { return this.tryGetToken(bitmarkParser.AtSrc, 0); }
     COLON() { return this.tryGetToken(bitmarkParser.COLON, 0); }
     url() {
@@ -29549,8 +29366,7 @@ class Image_chained4matchContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Image_chained4matchContext = Image_chained4matchContext;
-class AudiobitContext extends ParserRuleContext_1.ParserRuleContext {
+export class AudiobitContext extends ParserRuleContext {
     audio_one() {
         return this.getRuleContext(0, Audio_oneContext);
     }
@@ -29580,8 +29396,7 @@ class AudiobitContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.AudiobitContext = AudiobitContext;
-class Audio_oneContext extends ParserRuleContext_1.ParserRuleContext {
+export class Audio_oneContext extends ParserRuleContext {
     op_audio_format() {
         return this.getRuleContext(0, Op_audio_formatContext);
     }
@@ -29619,8 +29434,7 @@ class Audio_oneContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Audio_oneContext = Audio_oneContext;
-class Audio_formatContext extends ParserRuleContext_1.ParserRuleContext {
+export class Audio_formatContext extends ParserRuleContext {
     AmpAudio() { return this.tryGetToken(bitmarkParser.AmpAudio, 0); }
     COLON() { return this.tryGetToken(bitmarkParser.COLON, 0); }
     Audio_type() { return this.tryGetToken(bitmarkParser.Audio_type, 0); }
@@ -29643,8 +29457,7 @@ class Audio_formatContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Audio_formatContext = Audio_formatContext;
-class Op_audio_formatContext extends ParserRuleContext_1.ParserRuleContext {
+export class Op_audio_formatContext extends ParserRuleContext {
     OpAmpAudio() { return this.tryGetToken(bitmarkParser.OpAmpAudio, 0); }
     COLON() { return this.tryGetToken(bitmarkParser.COLON, 0); }
     Audio_type() { return this.tryGetToken(bitmarkParser.Audio_type, 0); }
@@ -29667,8 +29480,7 @@ class Op_audio_formatContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Op_audio_formatContext = Op_audio_formatContext;
-class Resource_chainedContext extends ParserRuleContext_1.ParserRuleContext {
+export class Resource_chainedContext extends ParserRuleContext {
     COLON() { return this.tryGetToken(bitmarkParser.COLON, 0); }
     CL() { return this.getToken(bitmarkParser.CL, 0); }
     OPA() { return this.tryGetToken(bitmarkParser.OPA, 0); }
@@ -29723,8 +29535,7 @@ class Resource_chainedContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Resource_chainedContext = Resource_chainedContext;
-class TelephoneContext extends ParserRuleContext_1.ParserRuleContext {
+export class TelephoneContext extends ParserRuleContext {
     TEL() { return this.getToken(bitmarkParser.TEL, 0); }
     PLUS() { return this.getToken(bitmarkParser.PLUS, 0); }
     NUMERIC() { return this.getToken(bitmarkParser.NUMERIC, 0); }
@@ -29746,8 +29557,7 @@ class TelephoneContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.TelephoneContext = TelephoneContext;
-class UrlContext extends ParserRuleContext_1.ParserRuleContext {
+export class UrlContext extends ParserRuleContext {
     URL() { return this.getToken(bitmarkParser.URL, 0); }
     constructor(parent, invokingState) {
         super(parent, invokingState);
@@ -29767,8 +29577,7 @@ class UrlContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.UrlContext = UrlContext;
-class ItemContext extends ParserRuleContext_1.ParserRuleContext {
+export class ItemContext extends ParserRuleContext {
     OPC() { return this.getToken(bitmarkParser.OPC, 0); }
     CL() { return this.getToken(bitmarkParser.CL, 0); }
     lead() {
@@ -29819,8 +29628,7 @@ class ItemContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.ItemContext = ItemContext;
-class LeadContext extends ParserRuleContext_1.ParserRuleContext {
+export class LeadContext extends ParserRuleContext {
     OPC() { return this.getToken(bitmarkParser.OPC, 0); }
     s_and_w() {
         return this.getRuleContext(0, S_and_wContext);
@@ -29860,8 +29668,7 @@ class LeadContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.LeadContext = LeadContext;
-class AnglerefContext extends ParserRuleContext_1.ParserRuleContext {
+export class AnglerefContext extends ParserRuleContext {
     OPRANGLES() { return this.tryGetToken(bitmarkParser.OPRANGLES, 0); }
     CL() { return this.getToken(bitmarkParser.CL, 0); }
     s_and_w() {
@@ -29886,8 +29693,7 @@ class AnglerefContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.AnglerefContext = AnglerefContext;
-class ExampleContext extends ParserRuleContext_1.ParserRuleContext {
+export class ExampleContext extends ParserRuleContext {
     AtExamplecl() { return this.tryGetToken(bitmarkParser.AtExamplecl, 0); }
     AtExampleWithStr() { return this.tryGetToken(bitmarkParser.AtExampleWithStr, 0); }
     AtExamplecol() { return this.tryGetToken(bitmarkParser.AtExamplecol, 0); }
@@ -29911,8 +29717,7 @@ class ExampleContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.ExampleContext = ExampleContext;
-class Bracketed_textContext extends ParserRuleContext_1.ParserRuleContext {
+export class Bracketed_textContext extends ParserRuleContext {
     BracEnclose() { return this.getToken(bitmarkParser.BracEnclose, 0); }
     CL() { return this.tryGetToken(bitmarkParser.CL, 0); }
     s_and_w(i) {
@@ -29958,8 +29763,7 @@ class Bracketed_textContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Bracketed_textContext = Bracketed_textContext;
-class ReferenceContext extends ParserRuleContext_1.ParserRuleContext {
+export class ReferenceContext extends ParserRuleContext {
     AtReference() { return this.getToken(bitmarkParser.AtReference, 0); }
     CL() { return this.tryGetToken(bitmarkParser.CL, 0); }
     s_and_w(i) {
@@ -30021,8 +29825,7 @@ class ReferenceContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.ReferenceContext = ReferenceContext;
-class ProgressContext extends ParserRuleContext_1.ParserRuleContext {
+export class ProgressContext extends ParserRuleContext {
     AtProgress() { return this.getToken(bitmarkParser.AtProgress, 0); }
     s_and_w() {
         return this.getRuleContext(0, S_and_wContext);
@@ -30046,8 +29849,7 @@ class ProgressContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.ProgressContext = ProgressContext;
-class DatepropContext extends ParserRuleContext_1.ParserRuleContext {
+export class DatepropContext extends ParserRuleContext {
     AtDate() { return this.getToken(bitmarkParser.AtDate, 0); }
     CL() { return this.getToken(bitmarkParser.CL, 0); }
     s_and_w(i) {
@@ -30095,8 +29897,7 @@ class DatepropContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.DatepropContext = DatepropContext;
-class Dateprop_chainedContext extends ParserRuleContext_1.ParserRuleContext {
+export class Dateprop_chainedContext extends ParserRuleContext {
     AtDate() { return this.getToken(bitmarkParser.AtDate, 0); }
     CL() { return this.getToken(bitmarkParser.CL, 0); }
     s_and_w(i) {
@@ -30141,8 +29942,7 @@ class Dateprop_chainedContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Dateprop_chainedContext = Dateprop_chainedContext;
-class InstructionContext extends ParserRuleContext_1.ParserRuleContext {
+export class InstructionContext extends ParserRuleContext {
     OPB() { return this.getToken(bitmarkParser.OPB, 0); }
     CL() { return this.tryGetToken(bitmarkParser.CL, 0); }
     NL(i) {
@@ -30188,8 +29988,7 @@ class InstructionContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.InstructionContext = InstructionContext;
-class HintContext extends ParserRuleContext_1.ParserRuleContext {
+export class HintContext extends ParserRuleContext {
     OPQ() { return this.getToken(bitmarkParser.OPQ, 0); }
     CL(i) {
         if (i === undefined) {
@@ -30217,8 +30016,7 @@ class HintContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.HintContext = HintContext;
-class TitleContext extends ParserRuleContext_1.ParserRuleContext {
+export class TitleContext extends ParserRuleContext {
     OPHASH() { return this.getToken(bitmarkParser.OPHASH, 0); }
     CL() { return this.tryGetToken(bitmarkParser.CL, 0); }
     s_and_w(i) {
@@ -30256,8 +30054,7 @@ class TitleContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.TitleContext = TitleContext;
-class Bool_labelContext extends ParserRuleContext_1.ParserRuleContext {
+export class Bool_labelContext extends ParserRuleContext {
     AtLabeltrue() { return this.tryGetToken(bitmarkParser.AtLabeltrue, 0); }
     s_and_w() {
         return this.getRuleContext(0, S_and_wContext);
@@ -30282,8 +30079,7 @@ class Bool_labelContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Bool_labelContext = Bool_labelContext;
-class Progress_pointsContext extends ParserRuleContext_1.ParserRuleContext {
+export class Progress_pointsContext extends ParserRuleContext {
     AtProgressPoints() { return this.getToken(bitmarkParser.AtProgressPoints, 0); }
     COLON() { return this.getToken(bitmarkParser.COLON, 0); }
     NUMERIC() { return this.tryGetToken(bitmarkParser.NUMERIC, 0); }
@@ -30309,8 +30105,7 @@ class Progress_pointsContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Progress_pointsContext = Progress_pointsContext;
-class IstrackedContext extends ParserRuleContext_1.ParserRuleContext {
+export class IstrackedContext extends ParserRuleContext {
     OpAtIsTracked() { return this.getToken(bitmarkParser.OpAtIsTracked, 0); }
     s_and_w() {
         return this.getRuleContext(0, S_and_wContext);
@@ -30334,8 +30129,7 @@ class IstrackedContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.IstrackedContext = IstrackedContext;
-class IsinfoonlyContext extends ParserRuleContext_1.ParserRuleContext {
+export class IsinfoonlyContext extends ParserRuleContext {
     OpAtIsInfoOnly() { return this.getToken(bitmarkParser.OpAtIsInfoOnly, 0); }
     s_and_w() {
         return this.getRuleContext(0, S_and_wContext);
@@ -30359,8 +30153,7 @@ class IsinfoonlyContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.IsinfoonlyContext = IsinfoonlyContext;
-class AtdefContext extends ParserRuleContext_1.ParserRuleContext {
+export class AtdefContext extends ParserRuleContext {
     atdef_(i) {
         if (i === undefined) {
             return this.getRuleContexts(Atdef_Context);
@@ -30395,8 +30188,7 @@ class AtdefContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.AtdefContext = AtdefContext;
-class Atdef_Context extends ParserRuleContext_1.ParserRuleContext {
+export class Atdef_Context extends ParserRuleContext {
     OPA() { return this.tryGetToken(bitmarkParser.OPA, 0); }
     s_and_w(i) {
         if (i === undefined) {
@@ -30443,8 +30235,7 @@ class Atdef_Context extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Atdef_Context = Atdef_Context;
-class DollaransContext extends ParserRuleContext_1.ParserRuleContext {
+export class DollaransContext extends ParserRuleContext {
     OPDOLL() { return this.getToken(bitmarkParser.OPDOLL, 0); }
     CL() { return this.tryGetToken(bitmarkParser.CL, 0); }
     s_and_w(i) {
@@ -30490,8 +30281,7 @@ class DollaransContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.DollaransContext = DollaransContext;
-class AnchorContext extends ParserRuleContext_1.ParserRuleContext {
+export class AnchorContext extends ParserRuleContext {
     OPDANGLE() { return this.getToken(bitmarkParser.OPDANGLE, 0); }
     CL() { return this.getToken(bitmarkParser.CL, 0); }
     s_and_w() {
@@ -30515,8 +30305,7 @@ class AnchorContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.AnchorContext = AnchorContext;
-class LinesContext extends ParserRuleContext_1.ParserRuleContext {
+export class LinesContext extends ParserRuleContext {
     s_and_w(i) {
         if (i === undefined) {
             return this.getRuleContexts(S_and_wContext);
@@ -30551,8 +30340,7 @@ class LinesContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.LinesContext = LinesContext;
-class S_and_wContext extends ParserRuleContext_1.ParserRuleContext {
+export class S_and_wContext extends ParserRuleContext {
     STRING() { return this.tryGetToken(bitmarkParser.STRING, 0); }
     NUMERIC() { return this.tryGetToken(bitmarkParser.NUMERIC, 0); }
     S(i) {
@@ -30596,8 +30384,7 @@ class S_and_wContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.S_and_wContext = S_and_wContext;
-class DclinesContext extends ParserRuleContext_1.ParserRuleContext {
+export class DclinesContext extends ParserRuleContext {
     DCANY() { return this.getToken(bitmarkParser.DCANY, 0); }
     constructor(parent, invokingState) {
         super(parent, invokingState);
@@ -30617,8 +30404,7 @@ class DclinesContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.DclinesContext = DclinesContext;
-class Bracket_escapedContext extends ParserRuleContext_1.ParserRuleContext {
+export class Bracket_escapedContext extends ParserRuleContext {
     OPESC() { return this.getToken(bitmarkParser.OPESC, 0); }
     s_and_w(i) {
         if (i === undefined) {
@@ -30647,8 +30433,7 @@ class Bracket_escapedContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.Bracket_escapedContext = Bracket_escapedContext;
-class ClnspContext extends ParserRuleContext_1.ParserRuleContext {
+export class ClnspContext extends ParserRuleContext {
     CL() { return this.getToken(bitmarkParser.CL, 0); }
     constructor(parent, invokingState) {
         super(parent, invokingState);
@@ -30668,8 +30453,7 @@ class ClnspContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.ClnspContext = ClnspContext;
-class SsplContext extends ParserRuleContext_1.ParserRuleContext {
+export class SsplContext extends ParserRuleContext {
     SSPL() { return this.tryGetToken(bitmarkParser.SSPL, 0); }
     SSPL2() { return this.tryGetToken(bitmarkParser.SSPL2, 0); }
     constructor(parent, invokingState) {
@@ -30690,8 +30474,7 @@ class SsplContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.SsplContext = SsplContext;
-class WordsContext extends ParserRuleContext_1.ParserRuleContext {
+export class WordsContext extends ParserRuleContext {
     sentence(i) {
         if (i === undefined) {
             return this.getRuleContexts(SentenceContext);
@@ -30910,8 +30693,7 @@ class WordsContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.WordsContext = WordsContext;
-class SpContext extends ParserRuleContext_1.ParserRuleContext {
+export class SpContext extends ParserRuleContext {
     S() { return this.getToken(bitmarkParser.S, 0); }
     constructor(parent, invokingState) {
         super(parent, invokingState);
@@ -30931,8 +30713,7 @@ class SpContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.SpContext = SpContext;
-class SentenceContext extends ParserRuleContext_1.ParserRuleContext {
+export class SentenceContext extends ParserRuleContext {
     SENTENCE() { return this.getToken(bitmarkParser.SENTENCE, 0); }
     constructor(parent, invokingState) {
         super(parent, invokingState);
@@ -30952,4 +30733,3 @@ class SentenceContext extends ParserRuleContext_1.ParserRuleContext {
         }
     }
 }
-exports.SentenceContext = SentenceContext;

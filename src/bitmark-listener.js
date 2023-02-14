@@ -41,7 +41,7 @@ let BitmarkListener = function(error_listener, source, parser) {
 		      'quotedPerson', 'kind', 'collection', 'book', 'padletId',
 		      'scormSource', 'posterImage', 'computerLanguage'
 		     ];
-  this.atdef_num = ['focusX', 'focusY'];
+  this.atdef_num = ['focusX', 'focusY', 'numberOfStars'];
   this.bot_action_rating = [];  // for storing bot-action-rating at exitHint()
   
   this.body_key = 'body';
@@ -2486,13 +2486,11 @@ BitmarkListener.prototype.enterBot_action_rating_number = function(ctx) { this.p
 BitmarkListener.prototype.exitBot_action_rating_number = function(ctx) {
   this.rmhspl(ctx);
   this.bot_action_rating.sort();
-  this.rmhspl(ctx);
-  this.bot_action_rating.sort();
   this.stk.top().bit['ratingStart'] = this.bot_action_rating[0];
   let l = this.bot_action_rating.length;
   this.stk.top().bit['ratingEnd'] = this.bot_action_rating[l-1];
 };
-BitmarkListener.prototype.enterBot_action_rating_stars = function(ctx) { this.push_tmpl(ctx, 'bot-action-stars'); };
+BitmarkListener.prototype.enterBot_action_rating_stars = function(ctx) { this.push_tmpl(ctx, 'bot-action-rating-stars'); };
 BitmarkListener.prototype.exitBot_action_rating_stars = function(ctx) { this.rmhspl(ctx); }
 
 BitmarkListener.prototype.enterBot_action = function(ctx) {
@@ -2540,6 +2538,7 @@ BitmarkListener.prototype.enterScorm = function(ctx){this.push_tmpl(ctx, 'scorm'
 BitmarkListener.prototype.enterBit_image = function(ctx) { this.push_tmpl(ctx, 'image'); }
 BitmarkListener.prototype.enterBit_imageLink = function(ctx) { this.push_tmpl(ctx, 'imageLink'); }
 BitmarkListener.prototype.enterBit_imageZoom = function(ctx) { this.push_tmpl(ctx, 'imageZoom'); }
+BitmarkListener.prototype.enterBit_imageSuperWide = function(ctx) { this.push_tmpl(ctx, 'image-super-wide'); }
 BitmarkListener.prototype.enterBit_audio = function(ctx) { this.push_tmpl(ctx, 'audio'); }
 BitmarkListener.prototype.enterBit_audioLink = function(ctx) { this.push_tmpl(ctx, 'audioLink'); }
 BitmarkListener.prototype.enterBit_audioEmbed = function(ctx) { this.push_tmpl(ctx, 'audioEmbed'); }

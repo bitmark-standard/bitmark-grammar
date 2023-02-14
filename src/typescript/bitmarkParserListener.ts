@@ -87,6 +87,7 @@ import { ScormContext } from "./bitmarkParser";
 import { Bit_imageContext } from "./bitmarkParser";
 import { Bit_imageLinkContext } from "./bitmarkParser";
 import { Bit_imageZoomContext } from "./bitmarkParser";
+import { Bit_imageSuperWideContext } from "./bitmarkParser";
 import { Bit_audioContext } from "./bitmarkParser";
 import { Bit_audioLinkContext } from "./bitmarkParser";
 import { Bit_audioEmbedContext } from "./bitmarkParser";
@@ -1149,6 +1150,17 @@ export interface bitmarkParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitBit_imageZoom?: (ctx: Bit_imageZoomContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.bit_imageSuperWide`.
+	 * @param ctx the parse tree
+	 */
+	enterBit_imageSuperWide?: (ctx: Bit_imageSuperWideContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.bit_imageSuperWide`.
+	 * @param ctx the parse tree
+	 */
+	exitBit_imageSuperWide?: (ctx: Bit_imageSuperWideContext) => void;
 
 	/**
 	 * Enter a parse tree produced by `bitmarkParser.bit_audio`.

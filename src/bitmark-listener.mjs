@@ -41,7 +41,7 @@ let BitmarkListener = function(error_listener, source, parser) {
 		      'quotedPerson', 'kind', 'collection', 'book', 'padletId',
 		      'scormSource', 'posterImage', 'computerLanguage'
 		     ];
-  this.atdef_num = ['focusX', 'focusY'];
+  this.atdef_num = ['focusX', 'focusY', 'numberOfStars'];
   this.bot_action_rating = [];  // for storing bot-action-rating at exitHint()
 
   this.body_key = 'body';
@@ -2491,7 +2491,7 @@ BitmarkListener.prototype.exitBot_action_rating_number = function(ctx) {
   this.stk.top().bit['ratingEnd'] = this.bot_action_rating[l-1];
   
 };
-BitmarkListener.prototype.enterBot_action_rating_stars = function(ctx) { this.push_tmpl(ctx, 'bot-action-stars'); };
+BitmarkListener.prototype.enterBot_action_rating_stars = function(ctx) { this.push_tmpl(ctx, 'bot-action-rating-stars'); };
 BitmarkListener.prototype.exitBot_action_rating_stars = function(ctx) { this.rmhspl(ctx); }
 
 BitmarkListener.prototype.enterBot_action = function(ctx) {

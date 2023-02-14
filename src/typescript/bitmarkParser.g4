@@ -65,7 +65,7 @@ bit:
 	| bot_action_response | bot_action_true_false
 	| bot_action_rating_number | bot_action_rating_stars
 
-	| bit_image | bit_imageLink | bit_imageZoom
+	| bit_image | bit_imageLink | bit_imageZoom | bit_imageSuperWide
 	| bit_audio | bit_audioLink | bit_audioEmbed
 	| bit_video | bit_videoLink | bit_videoEmbed
 	| bit_videoPortrait | bit_videoLandscape
@@ -155,7 +155,7 @@ bot_action_remind:         BitBotActionRemind format CL NL* ( bitElem NL* )+ ;
 bot_action_response:	   BitBotActionResponse format CL NL* ( bitElem NL* )+     bot_action+ HSPL footer? NL* ;
 bot_action_true_false:	   BitBotActionTrueFalse format CL NL* ( bitElem NL* )+    bot_action+ HSPL footer? NL* ;
 bot_action_rating_number:  BitBotActionRatingNumber format CL NL* ( bitElem NL* )+ bot_action+ HSPL footer? NL* ;
-bot_action_rating_stars:   BitBotActionRatingStars format CL NL* ( bitElem NL* )+  bot_action+ HSPL footer? NL* ;
+bot_action_rating_stars:   BitBotActionRatingStars format CL NL* ( bitElem NL* )+  ;
 //
 bot_action:		   HSPL bo_actions   ;
 bo_actions:		   (NL* boacts NL*)+ ;
@@ -309,6 +309,7 @@ scorm:  	BitScorm format CL NL* ( bitElem NL* )+ ;
 bit_image:			BitImage format2 CL NL* ( bitElem NL*)+ ;
 bit_imageLink:	      		BitImageLink format2 CL NL* ( bitElem NL*)+ ;
 bit_imageZoom:	      		BitImageZoom format2 CL NL* ( bitElem NL*)+ ;
+bit_imageSuperWide:		BitImageSuperWide format2 CL NL* ( bitElem NL*)+ ;
 bit_audio:	      		BitAudio format2 CL NL* ( bitElem NL*)+ ;
 bit_audioLink:	      		BitAudioLink format2 CL NL* ( bitElem NL*)+ ;
 bit_audioEmbed:	      		BitAudioEmbed format2 CL NL* ( bitElem NL*)+ ;

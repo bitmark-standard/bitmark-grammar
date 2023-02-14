@@ -91,6 +91,7 @@ BitScorm:		       NL OPDOT S* 'scorm' ;
 BitImage:			NL OPDOT S* 'image'   ;
 BitImageLink:			NL OPDOT S* 'imageLink'   ;
 BitImageZoom:			NL OPDOT S* 'imageZoom'   ;
+BitImageSuperWide:		NL OPDOT S* 'image-super-wide' ;
 BitAudio:			NL OPDOT S* 'audio'   ;
 BitAudioLink:			NL OPDOT S* 'audioLink'   ;
 BitAudioEmbed:			NL OPDOT S* 'audioEmbed'   ;
@@ -151,7 +152,7 @@ BitBrowserImage:		NL OPDOT S* 'browser-image'   ;
 BitBotActionResponse:		NL OPDOT S* 'bot-action-response'   ;
 BitBotActionTrueFalse:		NL OPDOT S* 'bot-action-true-false'   ;
 BitBotActionRatingNumber:	NL OPDOT S* 'bot-action-rating-number'   ;
-BitBotActionRatingStars:	NL OPDOT S* 'bot-action-rating-star'   ;
+BitBotActionRatingStars:	NL OPDOT S* 'bot-action-rating-stars'   ;
 
 
 
