@@ -1,6 +1,7 @@
 version: 2.1
 orbs:
   slack: circleci/slack@4.4.2
+  circleci: leoilab/circleci@1.2.0
 
 jobs:
   build:
@@ -8,6 +9,7 @@ jobs:
       - image: cimg/node:18.12
     steps:
       - checkout
+      - circleci/use-openjdk11
       - run: npm ci --force
       - run: npm run build
       - run: 
