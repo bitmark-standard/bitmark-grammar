@@ -1,6 +1,6 @@
 {
   "name": "bitmark-grammar",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bitmark-standard/bitmark-grammar.git"
@@ -12,13 +12,14 @@
   ],
   "description": "A bitmark parser",
   "scripts": {
-    "build": "export BITMARK_BUNDLE_VERSION=1.0.3 && npm run compile-grammar && npm run build-bundle",
-    "build-nc": "export BITMARK_BUNDLE_VERSION=1.0.3 && npm run build-bundle",
-    "build-light": "export BITMARK_BUNDLE_VERSION=1.0.3 && npm run build-bundle-nc",
-    "set-envvar": "export BITMARK_BUNDLE_VERSION=1.0.3",
-    "compile-grammar": "cd src && make -f makefile-es6.mk es6",
+    "build": "export BITMARK_BUNDLE_VERSION=1.0.4 && npm run compile-grammar && npm run build-bundle && npm run rm-webpack-node-modules",
+    "build-nc": "export BITMARK_BUNDLE_VERSION=1.0.4 && npm run build-bundle",
+    "build-light": "export BITMARK_BUNDLE_VERSION=1.0.4 && npm run build-bundle-nc",
+    "set-envvar": "export BITMARK_BUNDLE_VERSION=1.0.4",
+    "compile-grammar": "cd src && make -f makefiles/makefile-es6.mk es6",
     "build-bundle": "cd webpack && make -f makefile-es6.mk update",
-    "build-bundle-nc": "cd webpack && make -f makefile-es6.noclosure.mk update"
+    "build-bundle-nc": "cd webpack && make -f makefile-es6.noclosure.mk update",
+    "rm-webpack-node-modules": "cd webpack && rm -fr node_modules"
   },
   "dependencies": {
     "antlr4ts": "^0.5.0-alpha.4",
