@@ -2538,6 +2538,7 @@ BitmarkListener.prototype.enterScorm = function(ctx){this.push_tmpl(ctx, 'scorm'
 BitmarkListener.prototype.enterBit_image = function(ctx) { this.push_tmpl(ctx, 'image'); }
 BitmarkListener.prototype.enterBit_imageLink = function(ctx) { this.push_tmpl(ctx, 'imageLink'); }
 BitmarkListener.prototype.enterBit_imageZoom = function(ctx) { this.push_tmpl(ctx, 'imageZoom'); }
+BitmarkListener.prototype.enterBit_imageSuperWide = function(ctx) { this.push_tmpl(ctx, 'image-super-wide'); }
 BitmarkListener.prototype.enterBit_audio = function(ctx) { this.push_tmpl(ctx, 'audio'); }
 BitmarkListener.prototype.enterBit_audioLink = function(ctx) { this.push_tmpl(ctx, 'audioLink'); }
 BitmarkListener.prototype.enterBit_audioEmbed = function(ctx) { this.push_tmpl(ctx, 'audioEmbed'); }
