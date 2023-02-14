@@ -8,11 +8,11 @@ jobs:
       - image: cimg/node:18.12
     steps:
       - checkout
-      - run: npm ci
+      - run: npm ci --force
       - run: npm run build
       - run: 
           name: Run tests
-          command:  cd src && node test-all.js
+          command: cd src && node test-all.js
 
 workflows:
   version: 2
