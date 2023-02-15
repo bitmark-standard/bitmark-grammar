@@ -1,22 +1,25 @@
 # bitmark-grammar
 
-* Last update Oct 2, 2020, bundle version 1.2.0
+* Last update Feb 15, 2023, bundle version 1.0.5
 
 ##### Update
 
-This version 1.2.0 or newer no longer abort parsing on an error (first error) but continues parsing till the end of the input bitmark text.
-
-The parser throws an exception and returns a list of all errors found in the parsing process. 
-
+This is now a public package. 
 
 
 
 ##### Preparing the environment
-You need the latest Node.js. Antlr latest jar file is inside the source tree under the "tools" directory.
+You need the latest Node.js, ANTLR parser generator jar file is in the "tools" directory. It is antlr-4.8-complete.jar at this point, and is a bit older than the latest (version 4.11). For building the parser you need the v4.8 as it is written in the makefiles. You also need a python3 installed.
 
 Make sure to install all necessary node modules.
+If you don't have ".npmrc" in the root directory, please run this command to create it. The file should contain "legacy-peer-deps=true" line.
 ```
-$ cd bitmark-grammar
+$ npm onfig set legacy-peer-deps true
+```
+
+Then please run these
+```
+$ cd bitmark-grammar 
 $ npm install
 ```
 
@@ -72,61 +75,4 @@ The created bundle will be in /dist directory. For the example usage, please ref
 It uses Google Closure to minify the Javascript code.
 
 
-
-##### Separate the parser for each different bit
-
-Cloze done
-[.cloze]
-[.cloze-solution-grouped]
-[.cloze-instruction-grouped]
-[.cloze-and-multiple-choice-text]
-
-Match done
-[.match]
-[.match-all]
-[.match-matrix]
-[.match-solution-grouped]
-
-Choice done
-[.multiple-choice]
-[.multiple-response]
-[.multiple-choice-text]
-Interview done
-[.interview]
-[.interview-instruction-grouped]
-
-TrueFalse parser
-[.true-false]
-
-Flashcard parser
-[.flashcard-*]
-
-Chat parser
-[.chat]
-[.conversation]
-
-These are in bitmarkParser.g4
-[.essay]
-[.correction]
-[.mark]
-[.assignment]
-[.article]
-[.bot-interview]
-[.self-assessment]
-[.preparation-note]
-[.sequence]
-[.document_upload]
-[.take_picture]
-[.record_audio]
-
-
-##### TODO
-
-1) bit head ([.what:theheck++]) in the text.
-
-Steps to avoid
-1. find the occurence of all bit heads
-2. Save all in the order it appears
-3. Replace them with <h>N</h> where N is the sequence number starting with 0 <h>0</h>
-4. Parse the bithead replaced text
-5. Unreplace the replaced.
+END
