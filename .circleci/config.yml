@@ -27,8 +27,11 @@ jobs:
           name: GitHub npm auth
           command: npm config set //npm.pkg.github.com/:_authToken $GITHUB_TOKEN
       - run:
-          name: Push package
-          command: git reset --hard && npm version patch && npm publish
+          name: Update version
+          command: git reset --hard && npm version patch
+      - run:
+          name: Publish npm package
+          command: npm publish
       - run:
           name: Push to GitHub
           command: |
