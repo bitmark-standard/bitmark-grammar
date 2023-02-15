@@ -20,12 +20,12 @@ jobs:
             git config --global user.email "build@circleci.com" && \
             git config --global user.name "CircleCI"
       - run:
-          name: Increment version number
-          command: git reset --hard && npm version patch
-      - run:
-          name: Push to GitHub
-          command: |
-            git push origin master
+          name: Push package
+          command: git reset --hard && npm version patch && npm publish
+      # - run:
+      #     name: Push to GitHub
+      #     command: |
+      #       git push origin master
 
 workflows:
   version: 2
