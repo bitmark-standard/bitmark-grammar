@@ -5,6 +5,9 @@ jobs:
       - image: cimg/node:18.12-browsers
     steps:
       - checkout
+      - add_ssh_keys:
+          fingerprints:
+            - "ab:bf:60:45:58:a5:e8:8f:16:80:6e:6c:0f:d7:8e:ed"
       - run:
           name: Install dependencies
           command: npm ci
@@ -26,10 +29,10 @@ jobs:
       - run:
           name: Push package
           command: git reset --hard && npm version patch && npm publish
-      # - run:
-      #     name: Push to GitHub
-      #     command: |
-      #       git push origin master
+      - run:
+          name: Push to GitHub
+          command: |
+            git push origin master
 
 workflows:
   version: 2
