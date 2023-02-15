@@ -11,6 +11,8 @@ VERSION=1.1.7
 SRCDIR=$(SRC)/
 PARSERDIR=$(SRC)/typescript-es6/
 
+UNAME_S := $(shell uname -s)
+
 TMP=$(SRC)/tmp
 DIST=./dist
 BROWSERIFY_DEBUG_OPTION=--debug
@@ -38,8 +40,6 @@ endef
 
 
 update:
-	UNAME_S := $(shell uname -s)
-
 	ifeq ($(UNAME_S),Linux)
 		sed -i '/debugger/d' ../src/bitmark-listener.mjs
 	endif
