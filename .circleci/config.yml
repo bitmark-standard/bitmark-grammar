@@ -21,11 +21,10 @@ jobs:
             git config --global user.name "CircleCI"
       - run:
           name: Increment version number
-          command: git status && npm version patch && git add package.json && git clean -f
+          command: git reset --hard && npm version patch
       - run:
           name: Push to GitHub
           command: |
-            git commit -m "[skip ci]Increment version" && \
             git push origin master
 
 workflows:
