@@ -1,9 +1,12 @@
 {
-  "name": "bitmark-grammar",
+  "name": "@bitmark-standard/bitmark-grammar",
   "version": "1.0.5",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bitmark-standard/bitmark-grammar.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "keywords": [
     "bitmark",
