@@ -5,7 +5,6 @@
 junks
 ooo*
 foo*
-./node_modules
 ./webpack/node_modules
 lib
 *.ul
@@ -26,3 +25,4 @@ src/tmp/*
 *.orig
 dist/*
 src/typescript-es6/bitmarkLexer.js-e
+node_modules
