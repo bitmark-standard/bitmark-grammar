@@ -7,7 +7,7 @@ jobs:
       - checkout
       - run:
           name: Install dependencies
-          command: npm install
+          command: npm ci
       - run: 
           name: Build
           command: npm run build
@@ -21,7 +21,7 @@ jobs:
             git config --global user.name "CircleCI"
       - run:
           name: Increment version number
-          command: git status && npm version patch && git add package.json
+          command: git status && npm version patch && git add package.json && git clean -f
       - run:
           name: Push to GitHub
           command: |

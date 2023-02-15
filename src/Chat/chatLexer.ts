@@ -10,7 +10,7 @@ import { NotNull } from "antlr4ts/Decorators";
 import { Override } from "antlr4ts/Decorators";
 import { RuleContext } from "antlr4ts/RuleContext";
 import { Vocabulary } from "antlr4ts/Vocabulary";
-import { VocabularyImpl } from "antlr4ts/VocabularyImpl";
+import { VocabularyImpl } from "antlr4ts/VocabularyImpl"; 
 
 import * as Utils from "antlr4ts/misc/Utils";
 
