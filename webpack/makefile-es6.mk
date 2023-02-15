@@ -40,12 +40,12 @@ endef
 
 
 update:
-	ifeq ($(UNAME_S),Linux)
-		sed -i '/debugger/d' ../src/bitmark-listener.mjs
-	endif
-	ifeq ($(UNAME_S),Darwin)
-		sed -i '.bak' '/debugger/d' ../src/bitmark-listener.mjs
-	endif
+	if [ "$(UNAME_S)" = "Linux" ]; then \
+		sed -i '/debugger/d' ../src/bitmark-listener.mjs; \
+	fi
+	if [ "$(UNAME_S)" = "Darwin" ]; then \
+		sed -i '.bak' '/debugger/d' ../src/bitmark-listener.mjs; \
+	fi
 	$(NPM_BIN)/webpack -d --config ./webpack.config.es6.js
 	#cp dist/bitmark.bundle.$(VERSION).es6.js /Library/WebServer/Documents/bitmark/js
 
