@@ -21,7 +21,7 @@ jobs:
             git config --global user.name "CircleCI"
       - run:
           name: Increment version number
-          command: npm version patch && git add package.json
+          command: git status && npm version patch && git add package.json
       - run:
           name: Push to GitHub
           command: |
