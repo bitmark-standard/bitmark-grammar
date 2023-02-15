@@ -19,6 +19,10 @@ jobs:
           command: |
             git config --global user.email "build@circleci.com" && \
             git config --global user.name "CircleCI"
+
+      - run: 
+          name: GitHub npm auth
+          command: npm config set //npm.pkg.github.com/:_authToken $GITHUB_TOKEN
       - run:
           name: Push package
           command: git reset --hard && npm version patch && npm publish
