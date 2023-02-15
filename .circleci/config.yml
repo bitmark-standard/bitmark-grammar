@@ -5,11 +5,28 @@ jobs:
       - image: cimg/node:18.12-browsers
     steps:
       - checkout
-      - run: npm install --force
-      - run: npm run build
+      - run:
+          name: Install dependencies
+          command: npm install
+      - run: 
+          name: Build
+          command: npm run build
       - run: 
           name: Run tests
           command: cd src && node test-all.js
+      - run:
+          name: Git config
+          command: |
+            git config --global user.email "build@circleci.com" && \
+            git config --global user.name "CircleCI"
+      - run:
+          name: Increment version number
+          command: npm version patch && git add package.json
+      - run:
+          name: Push to GitHub
+          command: |
+            git commit -m "[skip ci]Increment version" && \
+            git push origin master
 
 workflows:
   version: 2
