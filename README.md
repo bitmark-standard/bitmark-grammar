@@ -1,6 +1,6 @@
 # bitmark-grammar
 
-* Last update Feb 15, 2023, bundle version 1.0.5
+* Last update Feb 15, 2023, bundle version 1.0.12
 
 ##### Update
 
