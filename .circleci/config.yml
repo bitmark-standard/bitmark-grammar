@@ -7,7 +7,7 @@ jobs:
       - checkout
       - add_ssh_keys:
           fingerprints:
-            - "ab:bf:60:45:58:a5:e8:8f:16:80:6e:6c:0f:d7:8e:ed"
+            - "73:ac:6b:a7:bb:43:c9:0e:68:05:57:2c:a9:d9:27:a2"
       - run:
           name: Install dependencies
           command: npm ci
@@ -22,7 +22,6 @@ jobs:
           command: |
             git config --global user.email "build@circleci.com" && \
             git config --global user.name "CircleCI"
-
       - run: 
           name: GitHub npm auth
           command: npm config set //npm.pkg.github.com/:_authToken $GITHUB_TOKEN
