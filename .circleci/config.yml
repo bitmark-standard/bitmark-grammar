@@ -8,6 +8,7 @@ jobs:
       - add_ssh_keys:
           fingerprints:
             - "78:2a:69:f6:95:80:e3:1e:ad:42:a2:84:00:d9:c7:80"
+            - "ab:bf:60:45:58:a5:e8:8f:16:80:6e:6c:0f:d7:8e:ed"
       - run:
           name: Install dependencies
           command: npm ci
