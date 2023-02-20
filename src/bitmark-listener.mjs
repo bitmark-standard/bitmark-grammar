@@ -2596,6 +2596,7 @@ BitmarkListener.prototype.enterScreenshot = function(ctx) { this.push_tmpl(ctx, 
 BitmarkListener.prototype.enterFocus_image = function(ctx) { this.push_tmpl(ctx, 'focus-image'); }
 BitmarkListener.prototype.enterPhoto = function(ctx) { this.push_tmpl(ctx, 'photo'); }
 BitmarkListener.prototype.enterBrowser_image = function(ctx) { this.push_tmpl(ctx, 'browser-image'); }
+BitmarkListener.prototype.enterChapter_subject_matter = function(ctx) { this.push_tmpl(ctx, 'chapter-subject-matter'); }
 
 
 BitmarkListener.prototype.exitAnchor = function(ctx) {

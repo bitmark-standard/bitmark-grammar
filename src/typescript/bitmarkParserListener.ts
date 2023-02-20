@@ -142,6 +142,7 @@ import { ScreenshotContext } from "./bitmarkParser";
 import { Focus_imageContext } from "./bitmarkParser";
 import { PhotoContext } from "./bitmarkParser";
 import { Browser_imageContext } from "./bitmarkParser";
+import { Chapter_subject_matterContext } from "./bitmarkParser";
 import { MessageContext } from "./bitmarkParser";
 import { Bot_interviewContext } from "./bitmarkParser";
 import { Bot_choiceContext } from "./bitmarkParser";
@@ -1755,6 +1756,17 @@ export interface bitmarkParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitBrowser_image?: (ctx: Browser_imageContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.chapter_subject_matter`.
+	 * @param ctx the parse tree
+	 */
+	enterChapter_subject_matter?: (ctx: Chapter_subject_matterContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.chapter_subject_matter`.
+	 * @param ctx the parse tree
+	 */
+	exitChapter_subject_matter?: (ctx: Chapter_subject_matterContext) => void;
 
 	/**
 	 * Enter a parse tree produced by `bitmarkParser.message`.

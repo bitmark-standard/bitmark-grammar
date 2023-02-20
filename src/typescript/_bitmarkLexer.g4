@@ -154,6 +154,7 @@ BitBotActionTrueFalse:		NL OPDOT S* 'bot-action-true-false'   ;
 BitBotActionRatingNumber:	NL OPDOT S* 'bot-action-rating-number'   ;
 BitBotActionRatingStars:	NL OPDOT S* 'bot-action-rating-stars'   ;
 
+BitChapterSubjectMatter:	NL OPDOT S* 'chapter-subject-matter' ;
 
 
 

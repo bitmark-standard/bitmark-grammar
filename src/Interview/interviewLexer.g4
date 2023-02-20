@@ -104,14 +104,14 @@ SENTENCE:   // Has a space
   ([0-9A-Za-z_̈%?@!=*+-/ \t$#;"'–•●—➔^ |()\p{Block=Latin_1_Supplement}\p{Emoji}]|IPA|EM0|EM2|VS0|SS0|LEA|LEB|GAL|GALC|EURO|TRANSL|GERMAN|POLISH|ROMANIA|JAPANESE|'\\'|'{'|'}')+
 ;
 
-
+BARSTRING: '|' .*? '|' ;
 
 fragment UTF8:    [̈\u0000-\u00FF\u200c\u200d\u27CC] ;
-OPAT:	 	 '[@' ;
-AtProgress:      OPAT S* 'progress:'  ;  //-> AtDef
-AtReference:     OPAT S* 'reference:'  ; //-> AtDef
-AtWidth:	 OPAT S* 'width' ;
-AtHeight:	 OPAT S* 'height' ;
+OPAT:	 	  '[@' ;
+AtProgress:       OPAT S* 'progress:'  ;  //-> AtDef
+AtReference:      OPAT S* 'reference:'  ; //-> AtDef
+AtWidth:	  OPAT S* 'width' ;
+AtHeight:	  OPAT S* 'height' ;
 AtProgressPoints: OPAT S* 'progressPoints' ;
 AtShortanswer:	  OPAT S* 'shortAnswer]'  ;
 AtLonganswer:	  OPAT S* 'longAnswer]' ;
@@ -215,7 +215,10 @@ TEL:	'tel:' ;
 DotArticleAtt:  '.article-attachment' ;
 
 STAR:  '*' ;
-URL: ('https'|'http'|'ftp'|'file') '://' [-a-zA-Z0-9+&@#/%?=~_|!:,.;()]*[-a-zA-Z0-9+&@#/%=~_|]+ ;
+URL: ('https'|'http'|'ftp'|'file') '://' [-a-zA-Z0-9+&@#/%?=~_|!:,.;()]*[-a-zA-Z0-9+&@#/%=~_|]+
+;
+
+
 
 LIST_LINE:
     S* '('? [0-9]+    (')') S+ SENTENCE NL

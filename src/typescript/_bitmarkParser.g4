@@ -83,8 +83,7 @@ bit:
 	| book_read_more | book_summary | book_epigraph
 
 	| code | card1 | question1
-
-	| screenshot | focus_image | photo | browser_image
+	| screenshot | focus_image | photo | browser_image | chapter_subject_matter
 
 ;
 //
@@ -368,6 +367,8 @@ focus_image:		       BitFocusImage format2 CL NL* ( bitElem NL*)+ ;
 photo:			       BitPhoto format2 CL NL* ( bitElem NL*)+ ;
 browser_image:		       BitBrowserImage format2 CL NL* ( bitElem NL*)+ ;
 
+chapter_subject_matter:	       BitChapterSubjectMatter format CL NL* ( bitElem NL* )+ ;
+
 
 message:
     BitMessage format CL NL* ( bitElem NL* )+
@@ -443,7 +444,8 @@ clnsp:		CL ;  // without spaces
 sspl:		SSPL|SSPL2 ;
 
 
-words:          ( sentence 
+words:          ( sentence
+		| BARSTRING
 		| AMP | Greater ~(Greater) | Less ~(Less) 
 		| RightArrow | RightAngle
 		| AmpArticle | AmpArticleLink
