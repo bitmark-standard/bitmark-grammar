@@ -36,6 +36,7 @@ jobs:
           command: |
             git push origin master
 
+            
 workflows:
   version: 2
   pipeline:
