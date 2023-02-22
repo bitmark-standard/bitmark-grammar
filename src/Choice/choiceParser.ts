@@ -583,7 +583,7 @@ export class choiceParser extends Parser {
 			this.state = 252;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
-			while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.OPRANGLES) | (1 << choiceParser.OPRANGLEL) | (1 << choiceParser.OPDANGLE) | (1 << choiceParser.OPU) | (1 << choiceParser.OPB) | (1 << choiceParser.OPQ) | (1 << choiceParser.OPA) | (1 << choiceParser.OPC) | (1 << choiceParser.OPHASH) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP))) !== 0) || ((((_la - 35)) & ~0x1F) === 0 && ((1 << (_la - 35)) & ((1 << (choiceParser.Greater - 35)) | (1 << (choiceParser.Less - 35)) | (1 << (choiceParser.RightAngle - 35)) | (1 << (choiceParser.RightArrow - 35)) | (1 << (choiceParser.DBLEQ - 35)) | (1 << (choiceParser.DCANY - 35)) | (1 << (choiceParser.ArticleText - 35)) | (1 << (choiceParser.NUMERIC - 35)) | (1 << (choiceParser.STRING - 35)) | (1 << (choiceParser.SENTENCE - 35)) | (1 << (choiceParser.AtReference - 35)) | (1 << (choiceParser.AtExampleWithStr - 35)) | (1 << (choiceParser.AtExamplecol - 35)) | (1 << (choiceParser.AtExamplecl - 35)))) !== 0) || ((((_la - 68)) & ~0x1F) === 0 && ((1 << (_la - 68)) & ((1 << (choiceParser.AtLabeltrue - 68)) | (1 << (choiceParser.AtLabelfalse - 68)) | (1 << (choiceParser.OpAtCopyright - 68)) | (1 << (choiceParser.OpAmpAudio - 68)) | (1 << (choiceParser.OpAmpImage - 68)) | (1 << (choiceParser.OpAmpImageZoom - 68)) | (1 << (choiceParser.OpAmpImageWAudio - 68)) | (1 << (choiceParser.OpAmpVideo - 68)))) !== 0) || ((((_la - 100)) & ~0x1F) === 0 && ((1 << (_la - 100)) & ((1 << (choiceParser.OpAmpArticle - 100)) | (1 << (choiceParser.OpAmpDocument - 100)) | (1 << (choiceParser.OpAmpApp - 100)) | (1 << (choiceParser.OpAmpWebsite - 100)) | (1 << (choiceParser.OpAmpStillImageFilm - 100)) | (1 << (choiceParser.OpAmpAudioLink - 100)) | (1 << (choiceParser.OpAmpImageLink - 100)) | (1 << (choiceParser.OpAmpVideoLink - 100)) | (1 << (choiceParser.OpAmpArticleLink - 100)) | (1 << (choiceParser.OpAmpDocumentLink - 100)) | (1 << (choiceParser.OpAmpAppLink - 100)) | (1 << (choiceParser.OpAmpWebsiteLink - 100)) | (1 << (choiceParser.OpAmpStillImageFilmLink - 100)))) !== 0) || _la === choiceParser.URL || _la === choiceParser.LIST_LINE) {
+			while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.OPRANGLES) | (1 << choiceParser.OPRANGLEL) | (1 << choiceParser.OPDANGLE) | (1 << choiceParser.OPU) | (1 << choiceParser.OPB) | (1 << choiceParser.OPQ) | (1 << choiceParser.OPA) | (1 << choiceParser.OPC) | (1 << choiceParser.OPHASH) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP))) !== 0) || ((((_la - 35)) & ~0x1F) === 0 && ((1 << (_la - 35)) & ((1 << (choiceParser.Greater - 35)) | (1 << (choiceParser.Less - 35)) | (1 << (choiceParser.RightAngle - 35)) | (1 << (choiceParser.RightArrow - 35)) | (1 << (choiceParser.DBLEQ - 35)) | (1 << (choiceParser.DCANY - 35)) | (1 << (choiceParser.ArticleText - 35)) | (1 << (choiceParser.NUMERIC - 35)) | (1 << (choiceParser.STRING - 35)) | (1 << (choiceParser.SENTENCE - 35)) | (1 << (choiceParser.BARSTRING - 35)) | (1 << (choiceParser.AtReference - 35)) | (1 << (choiceParser.AtExampleWithStr - 35)) | (1 << (choiceParser.AtExamplecol - 35)) | (1 << (choiceParser.AtExamplecl - 35)))) !== 0) || ((((_la - 68)) & ~0x1F) === 0 && ((1 << (_la - 68)) & ((1 << (choiceParser.AtLabeltrue - 68)) | (1 << (choiceParser.AtLabelfalse - 68)) | (1 << (choiceParser.OpAtCopyright - 68)) | (1 << (choiceParser.OpAmpAudio - 68)) | (1 << (choiceParser.OpAmpImage - 68)) | (1 << (choiceParser.OpAmpImageZoom - 68)) | (1 << (choiceParser.OpAmpImageWAudio - 68)) | (1 << (choiceParser.OpAmpVideo - 68)))) !== 0) || ((((_la - 100)) & ~0x1F) === 0 && ((1 << (_la - 100)) & ((1 << (choiceParser.OpAmpArticle - 100)) | (1 << (choiceParser.OpAmpDocument - 100)) | (1 << (choiceParser.OpAmpApp - 100)) | (1 << (choiceParser.OpAmpWebsite - 100)) | (1 << (choiceParser.OpAmpStillImageFilm - 100)) | (1 << (choiceParser.OpAmpAudioLink - 100)) | (1 << (choiceParser.OpAmpImageLink - 100)) | (1 << (choiceParser.OpAmpVideoLink - 100)) | (1 << (choiceParser.OpAmpArticleLink - 100)) | (1 << (choiceParser.OpAmpDocumentLink - 100)) | (1 << (choiceParser.OpAmpAppLink - 100)) | (1 << (choiceParser.OpAmpWebsiteLink - 100)) | (1 << (choiceParser.OpAmpStillImageFilmLink - 100)))) !== 0) || _la === choiceParser.URL || _la === choiceParser.LIST_LINE) {
 				{
 				{
 				this.state = 243;
@@ -665,7 +665,7 @@ export class choiceParser extends Parser {
 					this.state = 272;
 					this._errHandler.sync(this);
 					_la = this._input.LA(1);
-					if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP))) !== 0) || ((((_la - 35)) & ~0x1F) === 0 && ((1 << (_la - 35)) & ((1 << (choiceParser.Greater - 35)) | (1 << (choiceParser.Less - 35)) | (1 << (choiceParser.RightAngle - 35)) | (1 << (choiceParser.RightArrow - 35)) | (1 << (choiceParser.DBLEQ - 35)) | (1 << (choiceParser.NUMERIC - 35)) | (1 << (choiceParser.STRING - 35)) | (1 << (choiceParser.SENTENCE - 35)))) !== 0) || _la === choiceParser.URL) {
+					if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP))) !== 0) || ((((_la - 35)) & ~0x1F) === 0 && ((1 << (_la - 35)) & ((1 << (choiceParser.Greater - 35)) | (1 << (choiceParser.Less - 35)) | (1 << (choiceParser.RightAngle - 35)) | (1 << (choiceParser.RightArrow - 35)) | (1 << (choiceParser.DBLEQ - 35)) | (1 << (choiceParser.NUMERIC - 35)) | (1 << (choiceParser.STRING - 35)) | (1 << (choiceParser.SENTENCE - 35)) | (1 << (choiceParser.BARSTRING - 35)))) !== 0) || _la === choiceParser.URL) {
 						{
 						this.state = 271;
 						this.s_and_w();
@@ -861,7 +861,7 @@ export class choiceParser extends Parser {
 			this.state = 317;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
-			while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.OPRANGLES) | (1 << choiceParser.OPRANGLEL) | (1 << choiceParser.OPDANGLE) | (1 << choiceParser.OPU) | (1 << choiceParser.OPB) | (1 << choiceParser.OPQ) | (1 << choiceParser.OPA) | (1 << choiceParser.OPC) | (1 << choiceParser.OPHASH) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP))) !== 0) || ((((_la - 35)) & ~0x1F) === 0 && ((1 << (_la - 35)) & ((1 << (choiceParser.Greater - 35)) | (1 << (choiceParser.Less - 35)) | (1 << (choiceParser.RightAngle - 35)) | (1 << (choiceParser.RightArrow - 35)) | (1 << (choiceParser.DBLEQ - 35)) | (1 << (choiceParser.DCANY - 35)) | (1 << (choiceParser.ArticleText - 35)) | (1 << (choiceParser.NUMERIC - 35)) | (1 << (choiceParser.STRING - 35)) | (1 << (choiceParser.SENTENCE - 35)) | (1 << (choiceParser.AtReference - 35)) | (1 << (choiceParser.AtExampleWithStr - 35)) | (1 << (choiceParser.AtExamplecol - 35)) | (1 << (choiceParser.AtExamplecl - 35)))) !== 0) || ((((_la - 68)) & ~0x1F) === 0 && ((1 << (_la - 68)) & ((1 << (choiceParser.AtLabeltrue - 68)) | (1 << (choiceParser.AtLabelfalse - 68)) | (1 << (choiceParser.OpAtCopyright - 68)) | (1 << (choiceParser.OpAmpAudio - 68)) | (1 << (choiceParser.OpAmpImage - 68)) | (1 << (choiceParser.OpAmpImageZoom - 68)) | (1 << (choiceParser.OpAmpImageWAudio - 68)) | (1 << (choiceParser.OpAmpVideo - 68)))) !== 0) || ((((_la - 100)) & ~0x1F) === 0 && ((1 << (_la - 100)) & ((1 << (choiceParser.OpAmpArticle - 100)) | (1 << (choiceParser.OpAmpDocument - 100)) | (1 << (choiceParser.OpAmpApp - 100)) | (1 << (choiceParser.OpAmpWebsite - 100)) | (1 << (choiceParser.OpAmpStillImageFilm - 100)) | (1 << (choiceParser.OpAmpAudioLink - 100)) | (1 << (choiceParser.OpAmpImageLink - 100)) | (1 << (choiceParser.OpAmpVideoLink - 100)) | (1 << (choiceParser.OpAmpArticleLink - 100)) | (1 << (choiceParser.OpAmpDocumentLink - 100)) | (1 << (choiceParser.OpAmpAppLink - 100)) | (1 << (choiceParser.OpAmpWebsiteLink - 100)) | (1 << (choiceParser.OpAmpStillImageFilmLink - 100)))) !== 0) || _la === choiceParser.URL || _la === choiceParser.LIST_LINE) {
+			while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.OPRANGLES) | (1 << choiceParser.OPRANGLEL) | (1 << choiceParser.OPDANGLE) | (1 << choiceParser.OPU) | (1 << choiceParser.OPB) | (1 << choiceParser.OPQ) | (1 << choiceParser.OPA) | (1 << choiceParser.OPC) | (1 << choiceParser.OPHASH) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP))) !== 0) || ((((_la - 35)) & ~0x1F) === 0 && ((1 << (_la - 35)) & ((1 << (choiceParser.Greater - 35)) | (1 << (choiceParser.Less - 35)) | (1 << (choiceParser.RightAngle - 35)) | (1 << (choiceParser.RightArrow - 35)) | (1 << (choiceParser.DBLEQ - 35)) | (1 << (choiceParser.DCANY - 35)) | (1 << (choiceParser.ArticleText - 35)) | (1 << (choiceParser.NUMERIC - 35)) | (1 << (choiceParser.STRING - 35)) | (1 << (choiceParser.SENTENCE - 35)) | (1 << (choiceParser.BARSTRING - 35)) | (1 << (choiceParser.AtReference - 35)) | (1 << (choiceParser.AtExampleWithStr - 35)) | (1 << (choiceParser.AtExamplecol - 35)) | (1 << (choiceParser.AtExamplecl - 35)))) !== 0) || ((((_la - 68)) & ~0x1F) === 0 && ((1 << (_la - 68)) & ((1 << (choiceParser.AtLabeltrue - 68)) | (1 << (choiceParser.AtLabelfalse - 68)) | (1 << (choiceParser.OpAtCopyright - 68)) | (1 << (choiceParser.OpAmpAudio - 68)) | (1 << (choiceParser.OpAmpImage - 68)) | (1 << (choiceParser.OpAmpImageZoom - 68)) | (1 << (choiceParser.OpAmpImageWAudio - 68)) | (1 << (choiceParser.OpAmpVideo - 68)))) !== 0) || ((((_la - 100)) & ~0x1F) === 0 && ((1 << (_la - 100)) & ((1 << (choiceParser.OpAmpArticle - 100)) | (1 << (choiceParser.OpAmpDocument - 100)) | (1 << (choiceParser.OpAmpApp - 100)) | (1 << (choiceParser.OpAmpWebsite - 100)) | (1 << (choiceParser.OpAmpStillImageFilm - 100)) | (1 << (choiceParser.OpAmpAudioLink - 100)) | (1 << (choiceParser.OpAmpImageLink - 100)) | (1 << (choiceParser.OpAmpVideoLink - 100)) | (1 << (choiceParser.OpAmpArticleLink - 100)) | (1 << (choiceParser.OpAmpDocumentLink - 100)) | (1 << (choiceParser.OpAmpAppLink - 100)) | (1 << (choiceParser.OpAmpWebsiteLink - 100)) | (1 << (choiceParser.OpAmpStillImageFilmLink - 100)))) !== 0) || _la === choiceParser.URL || _la === choiceParser.LIST_LINE) {
 				{
 				{
 				this.state = 314;
@@ -1005,7 +1005,7 @@ export class choiceParser extends Parser {
 			this.state = 361;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
-			while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.OPRANGLES) | (1 << choiceParser.OPRANGLEL) | (1 << choiceParser.OPDANGLE) | (1 << choiceParser.OPU) | (1 << choiceParser.OPB) | (1 << choiceParser.OPQ) | (1 << choiceParser.OPA) | (1 << choiceParser.OPC) | (1 << choiceParser.OPHASH) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP))) !== 0) || ((((_la - 35)) & ~0x1F) === 0 && ((1 << (_la - 35)) & ((1 << (choiceParser.Greater - 35)) | (1 << (choiceParser.Less - 35)) | (1 << (choiceParser.RightAngle - 35)) | (1 << (choiceParser.RightArrow - 35)) | (1 << (choiceParser.DBLEQ - 35)) | (1 << (choiceParser.DCANY - 35)) | (1 << (choiceParser.ArticleText - 35)) | (1 << (choiceParser.NUMERIC - 35)) | (1 << (choiceParser.STRING - 35)) | (1 << (choiceParser.SENTENCE - 35)) | (1 << (choiceParser.AtReference - 35)) | (1 << (choiceParser.AtExampleWithStr - 35)) | (1 << (choiceParser.AtExamplecol - 35)) | (1 << (choiceParser.AtExamplecl - 35)))) !== 0) || ((((_la - 68)) & ~0x1F) === 0 && ((1 << (_la - 68)) & ((1 << (choiceParser.AtLabeltrue - 68)) | (1 << (choiceParser.AtLabelfalse - 68)) | (1 << (choiceParser.OpAtCopyright - 68)) | (1 << (choiceParser.OpAmpAudio - 68)) | (1 << (choiceParser.OpAmpImage - 68)) | (1 << (choiceParser.OpAmpImageZoom - 68)) | (1 << (choiceParser.OpAmpImageWAudio - 68)) | (1 << (choiceParser.OpAmpVideo - 68)))) !== 0) || ((((_la - 100)) & ~0x1F) === 0 && ((1 << (_la - 100)) & ((1 << (choiceParser.OpAmpArticle - 100)) | (1 << (choiceParser.OpAmpDocument - 100)) | (1 << (choiceParser.OpAmpApp - 100)) | (1 << (choiceParser.OpAmpWebsite - 100)) | (1 << (choiceParser.OpAmpStillImageFilm - 100)) | (1 << (choiceParser.OpAmpAudioLink - 100)) | (1 << (choiceParser.OpAmpImageLink - 100)) | (1 << (choiceParser.OpAmpVideoLink - 100)) | (1 << (choiceParser.OpAmpArticleLink - 100)) | (1 << (choiceParser.OpAmpDocumentLink - 100)) | (1 << (choiceParser.OpAmpAppLink - 100)) | (1 << (choiceParser.OpAmpWebsiteLink - 100)) | (1 << (choiceParser.OpAmpStillImageFilmLink - 100)))) !== 0) || _la === choiceParser.URL || _la === choiceParser.LIST_LINE) {
+			while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.OPRANGLES) | (1 << choiceParser.OPRANGLEL) | (1 << choiceParser.OPDANGLE) | (1 << choiceParser.OPU) | (1 << choiceParser.OPB) | (1 << choiceParser.OPQ) | (1 << choiceParser.OPA) | (1 << choiceParser.OPC) | (1 << choiceParser.OPHASH) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP))) !== 0) || ((((_la - 35)) & ~0x1F) === 0 && ((1 << (_la - 35)) & ((1 << (choiceParser.Greater - 35)) | (1 << (choiceParser.Less - 35)) | (1 << (choiceParser.RightAngle - 35)) | (1 << (choiceParser.RightArrow - 35)) | (1 << (choiceParser.DBLEQ - 35)) | (1 << (choiceParser.DCANY - 35)) | (1 << (choiceParser.ArticleText - 35)) | (1 << (choiceParser.NUMERIC - 35)) | (1 << (choiceParser.STRING - 35)) | (1 << (choiceParser.SENTENCE - 35)) | (1 << (choiceParser.BARSTRING - 35)) | (1 << (choiceParser.AtReference - 35)) | (1 << (choiceParser.AtExampleWithStr - 35)) | (1 << (choiceParser.AtExamplecol - 35)) | (1 << (choiceParser.AtExamplecl - 35)))) !== 0) || ((((_la - 68)) & ~0x1F) === 0 && ((1 << (_la - 68)) & ((1 << (choiceParser.AtLabeltrue - 68)) | (1 << (choiceParser.AtLabelfalse - 68)) | (1 << (choiceParser.OpAtCopyright - 68)) | (1 << (choiceParser.OpAmpAudio - 68)) | (1 << (choiceParser.OpAmpImage - 68)) | (1 << (choiceParser.OpAmpImageZoom - 68)) | (1 << (choiceParser.OpAmpImageWAudio - 68)) | (1 << (choiceParser.OpAmpVideo - 68)))) !== 0) || ((((_la - 100)) & ~0x1F) === 0 && ((1 << (_la - 100)) & ((1 << (choiceParser.OpAmpArticle - 100)) | (1 << (choiceParser.OpAmpDocument - 100)) | (1 << (choiceParser.OpAmpApp - 100)) | (1 << (choiceParser.OpAmpWebsite - 100)) | (1 << (choiceParser.OpAmpStillImageFilm - 100)) | (1 << (choiceParser.OpAmpAudioLink - 100)) | (1 << (choiceParser.OpAmpImageLink - 100)) | (1 << (choiceParser.OpAmpVideoLink - 100)) | (1 << (choiceParser.OpAmpArticleLink - 100)) | (1 << (choiceParser.OpAmpDocumentLink - 100)) | (1 << (choiceParser.OpAmpAppLink - 100)) | (1 << (choiceParser.OpAmpWebsiteLink - 100)) | (1 << (choiceParser.OpAmpStillImageFilmLink - 100)))) !== 0) || _la === choiceParser.URL || _la === choiceParser.LIST_LINE) {
 				{
 				{
 				this.state = 352;
@@ -2203,7 +2203,7 @@ export class choiceParser extends Parser {
 			this.state = 636;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
-			while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP))) !== 0) || ((((_la - 35)) & ~0x1F) === 0 && ((1 << (_la - 35)) & ((1 << (choiceParser.Greater - 35)) | (1 << (choiceParser.Less - 35)) | (1 << (choiceParser.RightAngle - 35)) | (1 << (choiceParser.RightArrow - 35)) | (1 << (choiceParser.DBLEQ - 35)) | (1 << (choiceParser.NUMERIC - 35)) | (1 << (choiceParser.STRING - 35)) | (1 << (choiceParser.SENTENCE - 35)))) !== 0) || _la === choiceParser.URL) {
+			while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP))) !== 0) || ((((_la - 35)) & ~0x1F) === 0 && ((1 << (_la - 35)) & ((1 << (choiceParser.Greater - 35)) | (1 << (choiceParser.Less - 35)) | (1 << (choiceParser.RightAngle - 35)) | (1 << (choiceParser.RightArrow - 35)) | (1 << (choiceParser.DBLEQ - 35)) | (1 << (choiceParser.NUMERIC - 35)) | (1 << (choiceParser.STRING - 35)) | (1 << (choiceParser.SENTENCE - 35)) | (1 << (choiceParser.BARSTRING - 35)))) !== 0) || _la === choiceParser.URL) {
 				{
 				{
 				this.state = 633;
@@ -2518,6 +2518,7 @@ export class choiceParser extends Parser {
 				case choiceParser.NUMERIC:
 				case choiceParser.STRING:
 				case choiceParser.SENTENCE:
+				case choiceParser.BARSTRING:
 				case choiceParser.URL:
 					{
 					this.state = 690;
@@ -2537,7 +2538,7 @@ export class choiceParser extends Parser {
 				this.state = 694;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-			} while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP))) !== 0) || ((((_la - 35)) & ~0x1F) === 0 && ((1 << (_la - 35)) & ((1 << (choiceParser.Greater - 35)) | (1 << (choiceParser.Less - 35)) | (1 << (choiceParser.RightAngle - 35)) | (1 << (choiceParser.RightArrow - 35)) | (1 << (choiceParser.DBLEQ - 35)) | (1 << (choiceParser.NUMERIC - 35)) | (1 << (choiceParser.STRING - 35)) | (1 << (choiceParser.NL - 35)) | (1 << (choiceParser.SENTENCE - 35)))) !== 0) || _la === choiceParser.URL);
+			} while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP))) !== 0) || ((((_la - 35)) & ~0x1F) === 0 && ((1 << (_la - 35)) & ((1 << (choiceParser.Greater - 35)) | (1 << (choiceParser.Less - 35)) | (1 << (choiceParser.RightAngle - 35)) | (1 << (choiceParser.RightArrow - 35)) | (1 << (choiceParser.DBLEQ - 35)) | (1 << (choiceParser.NUMERIC - 35)) | (1 << (choiceParser.STRING - 35)) | (1 << (choiceParser.NL - 35)) | (1 << (choiceParser.SENTENCE - 35)) | (1 << (choiceParser.BARSTRING - 35)))) !== 0) || _la === choiceParser.URL);
 			this.state = 696;
 			this.match(choiceParser.CL);
 			}
@@ -2605,6 +2606,7 @@ export class choiceParser extends Parser {
 				case choiceParser.NUMERIC:
 				case choiceParser.STRING:
 				case choiceParser.SENTENCE:
+				case choiceParser.BARSTRING:
 				case choiceParser.URL:
 					{
 					this.state = 705;
@@ -2624,7 +2626,7 @@ export class choiceParser extends Parser {
 				this.state = 709;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-			} while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP))) !== 0) || ((((_la - 35)) & ~0x1F) === 0 && ((1 << (_la - 35)) & ((1 << (choiceParser.Greater - 35)) | (1 << (choiceParser.Less - 35)) | (1 << (choiceParser.RightAngle - 35)) | (1 << (choiceParser.RightArrow - 35)) | (1 << (choiceParser.DBLEQ - 35)) | (1 << (choiceParser.NUMERIC - 35)) | (1 << (choiceParser.STRING - 35)) | (1 << (choiceParser.NL - 35)) | (1 << (choiceParser.SENTENCE - 35)))) !== 0) || _la === choiceParser.URL);
+			} while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP))) !== 0) || ((((_la - 35)) & ~0x1F) === 0 && ((1 << (_la - 35)) & ((1 << (choiceParser.Greater - 35)) | (1 << (choiceParser.Less - 35)) | (1 << (choiceParser.RightAngle - 35)) | (1 << (choiceParser.RightArrow - 35)) | (1 << (choiceParser.DBLEQ - 35)) | (1 << (choiceParser.NUMERIC - 35)) | (1 << (choiceParser.STRING - 35)) | (1 << (choiceParser.NL - 35)) | (1 << (choiceParser.SENTENCE - 35)) | (1 << (choiceParser.BARSTRING - 35)))) !== 0) || _la === choiceParser.URL);
 			this.state = 711;
 			this.match(choiceParser.CL);
 			}
@@ -2997,7 +2999,7 @@ export class choiceParser extends Parser {
 			this.state = 781;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
-			if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP))) !== 0) || ((((_la - 35)) & ~0x1F) === 0 && ((1 << (_la - 35)) & ((1 << (choiceParser.Greater - 35)) | (1 << (choiceParser.Less - 35)) | (1 << (choiceParser.RightAngle - 35)) | (1 << (choiceParser.RightArrow - 35)) | (1 << (choiceParser.DBLEQ - 35)) | (1 << (choiceParser.NUMERIC - 35)) | (1 << (choiceParser.STRING - 35)) | (1 << (choiceParser.NL - 35)) | (1 << (choiceParser.SENTENCE - 35)))) !== 0) || _la === choiceParser.URL) {
+			if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP))) !== 0) || ((((_la - 35)) & ~0x1F) === 0 && ((1 << (_la - 35)) & ((1 << (choiceParser.Greater - 35)) | (1 << (choiceParser.Less - 35)) | (1 << (choiceParser.RightAngle - 35)) | (1 << (choiceParser.RightArrow - 35)) | (1 << (choiceParser.DBLEQ - 35)) | (1 << (choiceParser.NUMERIC - 35)) | (1 << (choiceParser.STRING - 35)) | (1 << (choiceParser.NL - 35)) | (1 << (choiceParser.SENTENCE - 35)) | (1 << (choiceParser.BARSTRING - 35)))) !== 0) || _la === choiceParser.URL) {
 				{
 				this.state = 775;
 				this._errHandler.sync(this);
@@ -5191,6 +5193,7 @@ export class choiceParser extends Parser {
 					case choiceParser.NUMERIC:
 					case choiceParser.STRING:
 					case choiceParser.SENTENCE:
+					case choiceParser.BARSTRING:
 					case choiceParser.URL:
 						{
 						this.state = 1101;
@@ -5210,7 +5213,7 @@ export class choiceParser extends Parser {
 					this.state = 1105;
 					this._errHandler.sync(this);
 					_la = this._input.LA(1);
-				} while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP))) !== 0) || ((((_la - 35)) & ~0x1F) === 0 && ((1 << (_la - 35)) & ((1 << (choiceParser.Greater - 35)) | (1 << (choiceParser.Less - 35)) | (1 << (choiceParser.RightAngle - 35)) | (1 << (choiceParser.RightArrow - 35)) | (1 << (choiceParser.DBLEQ - 35)) | (1 << (choiceParser.NUMERIC - 35)) | (1 << (choiceParser.STRING - 35)) | (1 << (choiceParser.NL - 35)) | (1 << (choiceParser.SENTENCE - 35)))) !== 0) || _la === choiceParser.URL);
+				} while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP))) !== 0) || ((((_la - 35)) & ~0x1F) === 0 && ((1 << (_la - 35)) & ((1 << (choiceParser.Greater - 35)) | (1 << (choiceParser.Less - 35)) | (1 << (choiceParser.RightAngle - 35)) | (1 << (choiceParser.RightArrow - 35)) | (1 << (choiceParser.DBLEQ - 35)) | (1 << (choiceParser.NUMERIC - 35)) | (1 << (choiceParser.STRING - 35)) | (1 << (choiceParser.NL - 35)) | (1 << (choiceParser.SENTENCE - 35)) | (1 << (choiceParser.BARSTRING - 35)))) !== 0) || _la === choiceParser.URL);
 				this.state = 1107;
 				this.match(choiceParser.CL);
 				}
@@ -5403,7 +5406,7 @@ export class choiceParser extends Parser {
 				this.state = 1145;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-				while (((((_la - 30)) & ~0x1F) === 0 && ((1 << (_la - 30)) & ((1 << (choiceParser.COLON - 30)) | (1 << (choiceParser.AMP - 30)) | (1 << (choiceParser.Greater - 30)) | (1 << (choiceParser.Less - 30)) | (1 << (choiceParser.RightAngle - 30)) | (1 << (choiceParser.RightArrow - 30)) | (1 << (choiceParser.SENTENCE - 30)))) !== 0)) {
+				while (((((_la - 30)) & ~0x1F) === 0 && ((1 << (_la - 30)) & ((1 << (choiceParser.COLON - 30)) | (1 << (choiceParser.AMP - 30)) | (1 << (choiceParser.Greater - 30)) | (1 << (choiceParser.Less - 30)) | (1 << (choiceParser.RightAngle - 30)) | (1 << (choiceParser.RightArrow - 30)) | (1 << (choiceParser.SENTENCE - 30)) | (1 << (choiceParser.BARSTRING - 30)))) !== 0)) {
 					{
 					this.state = 1143;
 					this._errHandler.sync(this);
@@ -5420,6 +5423,7 @@ export class choiceParser extends Parser {
 					case choiceParser.RightAngle:
 					case choiceParser.RightArrow:
 					case choiceParser.SENTENCE:
+					case choiceParser.BARSTRING:
 						{
 						this.state = 1142;
 						this.words();
@@ -5492,7 +5496,7 @@ export class choiceParser extends Parser {
 			this.state = 1166;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
-			while (((((_la - 30)) & ~0x1F) === 0 && ((1 << (_la - 30)) & ((1 << (choiceParser.COLON - 30)) | (1 << (choiceParser.AMP - 30)) | (1 << (choiceParser.Greater - 30)) | (1 << (choiceParser.Less - 30)) | (1 << (choiceParser.RightAngle - 30)) | (1 << (choiceParser.RightArrow - 30)) | (1 << (choiceParser.SENTENCE - 30)))) !== 0)) {
+			while (((((_la - 30)) & ~0x1F) === 0 && ((1 << (_la - 30)) & ((1 << (choiceParser.COLON - 30)) | (1 << (choiceParser.AMP - 30)) | (1 << (choiceParser.Greater - 30)) | (1 << (choiceParser.Less - 30)) | (1 << (choiceParser.RightAngle - 30)) | (1 << (choiceParser.RightArrow - 30)) | (1 << (choiceParser.SENTENCE - 30)) | (1 << (choiceParser.BARSTRING - 30)))) !== 0)) {
 				{
 				this.state = 1164;
 				this._errHandler.sync(this);
@@ -5509,6 +5513,7 @@ export class choiceParser extends Parser {
 				case choiceParser.RightAngle:
 				case choiceParser.RightArrow:
 				case choiceParser.SENTENCE:
+				case choiceParser.BARSTRING:
 					{
 					this.state = 1163;
 					this.words();
@@ -5557,7 +5562,7 @@ export class choiceParser extends Parser {
 				this.state = 1173;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-				if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP))) !== 0) || ((((_la - 35)) & ~0x1F) === 0 && ((1 << (_la - 35)) & ((1 << (choiceParser.Greater - 35)) | (1 << (choiceParser.Less - 35)) | (1 << (choiceParser.RightAngle - 35)) | (1 << (choiceParser.RightArrow - 35)) | (1 << (choiceParser.DBLEQ - 35)) | (1 << (choiceParser.NUMERIC - 35)) | (1 << (choiceParser.STRING - 35)) | (1 << (choiceParser.SENTENCE - 35)))) !== 0) || _la === choiceParser.URL) {
+				if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP))) !== 0) || ((((_la - 35)) & ~0x1F) === 0 && ((1 << (_la - 35)) & ((1 << (choiceParser.Greater - 35)) | (1 << (choiceParser.Less - 35)) | (1 << (choiceParser.RightAngle - 35)) | (1 << (choiceParser.RightArrow - 35)) | (1 << (choiceParser.DBLEQ - 35)) | (1 << (choiceParser.NUMERIC - 35)) | (1 << (choiceParser.STRING - 35)) | (1 << (choiceParser.SENTENCE - 35)) | (1 << (choiceParser.BARSTRING - 35)))) !== 0) || _la === choiceParser.URL) {
 					{
 					this.state = 1172;
 					this.s_and_w();
@@ -5576,7 +5581,7 @@ export class choiceParser extends Parser {
 				this.state = 1178;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-				if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP))) !== 0) || ((((_la - 35)) & ~0x1F) === 0 && ((1 << (_la - 35)) & ((1 << (choiceParser.Greater - 35)) | (1 << (choiceParser.Less - 35)) | (1 << (choiceParser.RightAngle - 35)) | (1 << (choiceParser.RightArrow - 35)) | (1 << (choiceParser.DBLEQ - 35)) | (1 << (choiceParser.NUMERIC - 35)) | (1 << (choiceParser.STRING - 35)) | (1 << (choiceParser.SENTENCE - 35)))) !== 0) || _la === choiceParser.URL) {
+				if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP))) !== 0) || ((((_la - 35)) & ~0x1F) === 0 && ((1 << (_la - 35)) & ((1 << (choiceParser.Greater - 35)) | (1 << (choiceParser.Less - 35)) | (1 << (choiceParser.RightAngle - 35)) | (1 << (choiceParser.RightArrow - 35)) | (1 << (choiceParser.DBLEQ - 35)) | (1 << (choiceParser.NUMERIC - 35)) | (1 << (choiceParser.STRING - 35)) | (1 << (choiceParser.SENTENCE - 35)) | (1 << (choiceParser.BARSTRING - 35)))) !== 0) || _la === choiceParser.URL) {
 					{
 					this.state = 1177;
 					this.s_and_w();
@@ -5693,7 +5698,7 @@ export class choiceParser extends Parser {
 				this.state = 1217;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-				while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP))) !== 0) || ((((_la - 35)) & ~0x1F) === 0 && ((1 << (_la - 35)) & ((1 << (choiceParser.Greater - 35)) | (1 << (choiceParser.Less - 35)) | (1 << (choiceParser.RightAngle - 35)) | (1 << (choiceParser.RightArrow - 35)) | (1 << (choiceParser.DBLEQ - 35)) | (1 << (choiceParser.NUMERIC - 35)) | (1 << (choiceParser.STRING - 35)) | (1 << (choiceParser.SENTENCE - 35)))) !== 0) || _la === choiceParser.URL) {
+				while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP))) !== 0) || ((((_la - 35)) & ~0x1F) === 0 && ((1 << (_la - 35)) & ((1 << (choiceParser.Greater - 35)) | (1 << (choiceParser.Less - 35)) | (1 << (choiceParser.RightAngle - 35)) | (1 << (choiceParser.RightArrow - 35)) | (1 << (choiceParser.DBLEQ - 35)) | (1 << (choiceParser.NUMERIC - 35)) | (1 << (choiceParser.STRING - 35)) | (1 << (choiceParser.SENTENCE - 35)) | (1 << (choiceParser.BARSTRING - 35)))) !== 0) || _la === choiceParser.URL) {
 					{
 					{
 					this.state = 1196;
@@ -5763,7 +5768,7 @@ export class choiceParser extends Parser {
 				this.state = 1227;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-				while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP))) !== 0) || ((((_la - 35)) & ~0x1F) === 0 && ((1 << (_la - 35)) & ((1 << (choiceParser.Greater - 35)) | (1 << (choiceParser.Less - 35)) | (1 << (choiceParser.RightAngle - 35)) | (1 << (choiceParser.RightArrow - 35)) | (1 << (choiceParser.DBLEQ - 35)) | (1 << (choiceParser.NUMERIC - 35)) | (1 << (choiceParser.STRING - 35)) | (1 << (choiceParser.NL - 35)) | (1 << (choiceParser.SENTENCE - 35)))) !== 0) || _la === choiceParser.URL) {
+				while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP))) !== 0) || ((((_la - 35)) & ~0x1F) === 0 && ((1 << (_la - 35)) & ((1 << (choiceParser.Greater - 35)) | (1 << (choiceParser.Less - 35)) | (1 << (choiceParser.RightAngle - 35)) | (1 << (choiceParser.RightArrow - 35)) | (1 << (choiceParser.DBLEQ - 35)) | (1 << (choiceParser.NUMERIC - 35)) | (1 << (choiceParser.STRING - 35)) | (1 << (choiceParser.NL - 35)) | (1 << (choiceParser.SENTENCE - 35)) | (1 << (choiceParser.BARSTRING - 35)))) !== 0) || _la === choiceParser.URL) {
 					{
 					this.state = 1225;
 					this._errHandler.sync(this);
@@ -5868,7 +5873,7 @@ export class choiceParser extends Parser {
 					this.state = 1240;
 					this._errHandler.sync(this);
 					_la = this._input.LA(1);
-				} while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP))) !== 0) || ((((_la - 35)) & ~0x1F) === 0 && ((1 << (_la - 35)) & ((1 << (choiceParser.Greater - 35)) | (1 << (choiceParser.Less - 35)) | (1 << (choiceParser.RightAngle - 35)) | (1 << (choiceParser.RightArrow - 35)) | (1 << (choiceParser.DBLEQ - 35)) | (1 << (choiceParser.NUMERIC - 35)) | (1 << (choiceParser.STRING - 35)) | (1 << (choiceParser.NL - 35)) | (1 << (choiceParser.SENTENCE - 35)))) !== 0) || _la === choiceParser.URL);
+				} while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP))) !== 0) || ((((_la - 35)) & ~0x1F) === 0 && ((1 << (_la - 35)) & ((1 << (choiceParser.Greater - 35)) | (1 << (choiceParser.Less - 35)) | (1 << (choiceParser.RightAngle - 35)) | (1 << (choiceParser.RightArrow - 35)) | (1 << (choiceParser.DBLEQ - 35)) | (1 << (choiceParser.NUMERIC - 35)) | (1 << (choiceParser.STRING - 35)) | (1 << (choiceParser.NL - 35)) | (1 << (choiceParser.SENTENCE - 35)) | (1 << (choiceParser.BARSTRING - 35)))) !== 0) || _la === choiceParser.URL);
 				this.state = 1242;
 				this.match(choiceParser.CL);
 				}
@@ -5882,7 +5887,7 @@ export class choiceParser extends Parser {
 				this.state = 1251;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-				while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP))) !== 0) || ((((_la - 35)) & ~0x1F) === 0 && ((1 << (_la - 35)) & ((1 << (choiceParser.Greater - 35)) | (1 << (choiceParser.Less - 35)) | (1 << (choiceParser.RightAngle - 35)) | (1 << (choiceParser.RightArrow - 35)) | (1 << (choiceParser.DBLEQ - 35)) | (1 << (choiceParser.NUMERIC - 35)) | (1 << (choiceParser.STRING - 35)) | (1 << (choiceParser.NL - 35)) | (1 << (choiceParser.SENTENCE - 35)))) !== 0) || _la === choiceParser.URL) {
+				while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP))) !== 0) || ((((_la - 35)) & ~0x1F) === 0 && ((1 << (_la - 35)) & ((1 << (choiceParser.Greater - 35)) | (1 << (choiceParser.Less - 35)) | (1 << (choiceParser.RightAngle - 35)) | (1 << (choiceParser.RightArrow - 35)) | (1 << (choiceParser.DBLEQ - 35)) | (1 << (choiceParser.NUMERIC - 35)) | (1 << (choiceParser.STRING - 35)) | (1 << (choiceParser.NL - 35)) | (1 << (choiceParser.SENTENCE - 35)) | (1 << (choiceParser.BARSTRING - 35)))) !== 0) || _la === choiceParser.URL) {
 					{
 					this.state = 1249;
 					this._errHandler.sync(this);
@@ -6019,7 +6024,7 @@ export class choiceParser extends Parser {
 				this.state = 1267;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-			} while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP))) !== 0) || ((((_la - 35)) & ~0x1F) === 0 && ((1 << (_la - 35)) & ((1 << (choiceParser.Greater - 35)) | (1 << (choiceParser.Less - 35)) | (1 << (choiceParser.RightAngle - 35)) | (1 << (choiceParser.RightArrow - 35)) | (1 << (choiceParser.DBLEQ - 35)) | (1 << (choiceParser.NUMERIC - 35)) | (1 << (choiceParser.STRING - 35)) | (1 << (choiceParser.NL - 35)) | (1 << (choiceParser.SENTENCE - 35)))) !== 0) || _la === choiceParser.URL);
+			} while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP))) !== 0) || ((((_la - 35)) & ~0x1F) === 0 && ((1 << (_la - 35)) & ((1 << (choiceParser.Greater - 35)) | (1 << (choiceParser.Less - 35)) | (1 << (choiceParser.RightAngle - 35)) | (1 << (choiceParser.RightArrow - 35)) | (1 << (choiceParser.DBLEQ - 35)) | (1 << (choiceParser.NUMERIC - 35)) | (1 << (choiceParser.STRING - 35)) | (1 << (choiceParser.NL - 35)) | (1 << (choiceParser.SENTENCE - 35)) | (1 << (choiceParser.BARSTRING - 35)))) !== 0) || _la === choiceParser.URL);
 			this.state = 1269;
 			this.match(choiceParser.CL);
 			this.state = 1271;
@@ -6091,7 +6096,7 @@ export class choiceParser extends Parser {
 				this.state = 1279;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-			} while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP))) !== 0) || ((((_la - 35)) & ~0x1F) === 0 && ((1 << (_la - 35)) & ((1 << (choiceParser.Greater - 35)) | (1 << (choiceParser.Less - 35)) | (1 << (choiceParser.RightAngle - 35)) | (1 << (choiceParser.RightArrow - 35)) | (1 << (choiceParser.DBLEQ - 35)) | (1 << (choiceParser.NUMERIC - 35)) | (1 << (choiceParser.STRING - 35)) | (1 << (choiceParser.NL - 35)) | (1 << (choiceParser.SENTENCE - 35)))) !== 0) || _la === choiceParser.URL);
+			} while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP))) !== 0) || ((((_la - 35)) & ~0x1F) === 0 && ((1 << (_la - 35)) & ((1 << (choiceParser.Greater - 35)) | (1 << (choiceParser.Less - 35)) | (1 << (choiceParser.RightAngle - 35)) | (1 << (choiceParser.RightArrow - 35)) | (1 << (choiceParser.DBLEQ - 35)) | (1 << (choiceParser.NUMERIC - 35)) | (1 << (choiceParser.STRING - 35)) | (1 << (choiceParser.NL - 35)) | (1 << (choiceParser.SENTENCE - 35)) | (1 << (choiceParser.BARSTRING - 35)))) !== 0) || _la === choiceParser.URL);
 			this.state = 1281;
 			this.match(choiceParser.CL);
 			}
@@ -6152,7 +6157,7 @@ export class choiceParser extends Parser {
 				this.state = 1314;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-				while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP))) !== 0) || ((((_la - 35)) & ~0x1F) === 0 && ((1 << (_la - 35)) & ((1 << (choiceParser.Greater - 35)) | (1 << (choiceParser.Less - 35)) | (1 << (choiceParser.RightAngle - 35)) | (1 << (choiceParser.RightArrow - 35)) | (1 << (choiceParser.DBLEQ - 35)) | (1 << (choiceParser.NUMERIC - 35)) | (1 << (choiceParser.STRING - 35)) | (1 << (choiceParser.SENTENCE - 35)))) !== 0) || _la === choiceParser.URL) {
+				while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP))) !== 0) || ((((_la - 35)) & ~0x1F) === 0 && ((1 << (_la - 35)) & ((1 << (choiceParser.Greater - 35)) | (1 << (choiceParser.Less - 35)) | (1 << (choiceParser.RightAngle - 35)) | (1 << (choiceParser.RightArrow - 35)) | (1 << (choiceParser.DBLEQ - 35)) | (1 << (choiceParser.NUMERIC - 35)) | (1 << (choiceParser.STRING - 35)) | (1 << (choiceParser.SENTENCE - 35)) | (1 << (choiceParser.BARSTRING - 35)))) !== 0) || _la === choiceParser.URL) {
 					{
 					{
 					this.state = 1293;
@@ -6236,7 +6241,7 @@ export class choiceParser extends Parser {
 				this.state = 1326;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-				if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP))) !== 0) || ((((_la - 35)) & ~0x1F) === 0 && ((1 << (_la - 35)) & ((1 << (choiceParser.Greater - 35)) | (1 << (choiceParser.Less - 35)) | (1 << (choiceParser.RightAngle - 35)) | (1 << (choiceParser.RightArrow - 35)) | (1 << (choiceParser.DBLEQ - 35)) | (1 << (choiceParser.NUMERIC - 35)) | (1 << (choiceParser.STRING - 35)) | (1 << (choiceParser.SENTENCE - 35)))) !== 0) || _la === choiceParser.URL) {
+				if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP))) !== 0) || ((((_la - 35)) & ~0x1F) === 0 && ((1 << (_la - 35)) & ((1 << (choiceParser.Greater - 35)) | (1 << (choiceParser.Less - 35)) | (1 << (choiceParser.RightAngle - 35)) | (1 << (choiceParser.RightArrow - 35)) | (1 << (choiceParser.DBLEQ - 35)) | (1 << (choiceParser.NUMERIC - 35)) | (1 << (choiceParser.STRING - 35)) | (1 << (choiceParser.SENTENCE - 35)) | (1 << (choiceParser.BARSTRING - 35)))) !== 0) || _la === choiceParser.URL) {
 					{
 					this.state = 1325;
 					this.s_and_w();
@@ -6348,6 +6353,7 @@ export class choiceParser extends Parser {
 					case choiceParser.NUMERIC:
 					case choiceParser.STRING:
 					case choiceParser.SENTENCE:
+					case choiceParser.BARSTRING:
 					case choiceParser.URL:
 						{
 						this.state = 1340;
@@ -6367,7 +6373,7 @@ export class choiceParser extends Parser {
 					this.state = 1344;
 					this._errHandler.sync(this);
 					_la = this._input.LA(1);
-				} while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP))) !== 0) || ((((_la - 35)) & ~0x1F) === 0 && ((1 << (_la - 35)) & ((1 << (choiceParser.Greater - 35)) | (1 << (choiceParser.Less - 35)) | (1 << (choiceParser.RightAngle - 35)) | (1 << (choiceParser.RightArrow - 35)) | (1 << (choiceParser.DBLEQ - 35)) | (1 << (choiceParser.NUMERIC - 35)) | (1 << (choiceParser.STRING - 35)) | (1 << (choiceParser.NL - 35)) | (1 << (choiceParser.SENTENCE - 35)))) !== 0) || _la === choiceParser.URL);
+				} while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP))) !== 0) || ((((_la - 35)) & ~0x1F) === 0 && ((1 << (_la - 35)) & ((1 << (choiceParser.Greater - 35)) | (1 << (choiceParser.Less - 35)) | (1 << (choiceParser.RightAngle - 35)) | (1 << (choiceParser.RightArrow - 35)) | (1 << (choiceParser.DBLEQ - 35)) | (1 << (choiceParser.NUMERIC - 35)) | (1 << (choiceParser.STRING - 35)) | (1 << (choiceParser.NL - 35)) | (1 << (choiceParser.SENTENCE - 35)) | (1 << (choiceParser.BARSTRING - 35)))) !== 0) || _la === choiceParser.URL);
 				this.state = 1346;
 				this.match(choiceParser.CL);
 				}
@@ -6648,7 +6654,7 @@ export class choiceParser extends Parser {
 				this.state = 1404;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-				while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP))) !== 0) || ((((_la - 35)) & ~0x1F) === 0 && ((1 << (_la - 35)) & ((1 << (choiceParser.Greater - 35)) | (1 << (choiceParser.Less - 35)) | (1 << (choiceParser.RightAngle - 35)) | (1 << (choiceParser.RightArrow - 35)) | (1 << (choiceParser.DBLEQ - 35)) | (1 << (choiceParser.NUMERIC - 35)) | (1 << (choiceParser.STRING - 35)) | (1 << (choiceParser.NL - 35)) | (1 << (choiceParser.SENTENCE - 35)))) !== 0) || _la === choiceParser.URL) {
+				while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP))) !== 0) || ((((_la - 35)) & ~0x1F) === 0 && ((1 << (_la - 35)) & ((1 << (choiceParser.Greater - 35)) | (1 << (choiceParser.Less - 35)) | (1 << (choiceParser.RightAngle - 35)) | (1 << (choiceParser.RightArrow - 35)) | (1 << (choiceParser.DBLEQ - 35)) | (1 << (choiceParser.NUMERIC - 35)) | (1 << (choiceParser.STRING - 35)) | (1 << (choiceParser.NL - 35)) | (1 << (choiceParser.SENTENCE - 35)) | (1 << (choiceParser.BARSTRING - 35)))) !== 0) || _la === choiceParser.URL) {
 					{
 					this.state = 1402;
 					this._errHandler.sync(this);
@@ -6773,7 +6779,7 @@ export class choiceParser extends Parser {
 					this.state = 1425;
 					this._errHandler.sync(this);
 					_la = this._input.LA(1);
-				} while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP))) !== 0) || ((((_la - 35)) & ~0x1F) === 0 && ((1 << (_la - 35)) & ((1 << (choiceParser.Greater - 35)) | (1 << (choiceParser.Less - 35)) | (1 << (choiceParser.RightAngle - 35)) | (1 << (choiceParser.RightArrow - 35)) | (1 << (choiceParser.DBLEQ - 35)) | (1 << (choiceParser.NUMERIC - 35)) | (1 << (choiceParser.STRING - 35)) | (1 << (choiceParser.NL - 35)) | (1 << (choiceParser.SENTENCE - 35)))) !== 0) || _la === choiceParser.URL);
+				} while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP))) !== 0) || ((((_la - 35)) & ~0x1F) === 0 && ((1 << (_la - 35)) & ((1 << (choiceParser.Greater - 35)) | (1 << (choiceParser.Less - 35)) | (1 << (choiceParser.RightAngle - 35)) | (1 << (choiceParser.RightArrow - 35)) | (1 << (choiceParser.DBLEQ - 35)) | (1 << (choiceParser.NUMERIC - 35)) | (1 << (choiceParser.STRING - 35)) | (1 << (choiceParser.NL - 35)) | (1 << (choiceParser.SENTENCE - 35)) | (1 << (choiceParser.BARSTRING - 35)))) !== 0) || _la === choiceParser.URL);
 				this.state = 1427;
 				this.match(choiceParser.CL);
 				}
@@ -6787,7 +6793,7 @@ export class choiceParser extends Parser {
 				this.state = 1434;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-				while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP))) !== 0) || ((((_la - 35)) & ~0x1F) === 0 && ((1 << (_la - 35)) & ((1 << (choiceParser.Greater - 35)) | (1 << (choiceParser.Less - 35)) | (1 << (choiceParser.RightAngle - 35)) | (1 << (choiceParser.RightArrow - 35)) | (1 << (choiceParser.DBLEQ - 35)) | (1 << (choiceParser.NUMERIC - 35)) | (1 << (choiceParser.STRING - 35)) | (1 << (choiceParser.NL - 35)) | (1 << (choiceParser.SENTENCE - 35)))) !== 0) || _la === choiceParser.URL) {
+				while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP))) !== 0) || ((((_la - 35)) & ~0x1F) === 0 && ((1 << (_la - 35)) & ((1 << (choiceParser.Greater - 35)) | (1 << (choiceParser.Less - 35)) | (1 << (choiceParser.RightAngle - 35)) | (1 << (choiceParser.RightArrow - 35)) | (1 << (choiceParser.DBLEQ - 35)) | (1 << (choiceParser.NUMERIC - 35)) | (1 << (choiceParser.STRING - 35)) | (1 << (choiceParser.NL - 35)) | (1 << (choiceParser.SENTENCE - 35)) | (1 << (choiceParser.BARSTRING - 35)))) !== 0) || _la === choiceParser.URL) {
 					{
 					this.state = 1432;
 					this._errHandler.sync(this);
@@ -6851,7 +6857,7 @@ export class choiceParser extends Parser {
 			this.state = 1442;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
-			if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP))) !== 0) || ((((_la - 35)) & ~0x1F) === 0 && ((1 << (_la - 35)) & ((1 << (choiceParser.Greater - 35)) | (1 << (choiceParser.Less - 35)) | (1 << (choiceParser.RightAngle - 35)) | (1 << (choiceParser.RightArrow - 35)) | (1 << (choiceParser.DBLEQ - 35)) | (1 << (choiceParser.NUMERIC - 35)) | (1 << (choiceParser.STRING - 35)) | (1 << (choiceParser.SENTENCE - 35)))) !== 0) || _la === choiceParser.URL) {
+			if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP))) !== 0) || ((((_la - 35)) & ~0x1F) === 0 && ((1 << (_la - 35)) & ((1 << (choiceParser.Greater - 35)) | (1 << (choiceParser.Less - 35)) | (1 << (choiceParser.RightAngle - 35)) | (1 << (choiceParser.RightArrow - 35)) | (1 << (choiceParser.DBLEQ - 35)) | (1 << (choiceParser.NUMERIC - 35)) | (1 << (choiceParser.STRING - 35)) | (1 << (choiceParser.SENTENCE - 35)) | (1 << (choiceParser.BARSTRING - 35)))) !== 0) || _la === choiceParser.URL) {
 				{
 				this.state = 1441;
 				this.s_and_w();
@@ -6932,7 +6938,7 @@ export class choiceParser extends Parser {
 				this.state = 1454;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-			} while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP))) !== 0) || ((((_la - 35)) & ~0x1F) === 0 && ((1 << (_la - 35)) & ((1 << (choiceParser.Greater - 35)) | (1 << (choiceParser.Less - 35)) | (1 << (choiceParser.RightAngle - 35)) | (1 << (choiceParser.RightArrow - 35)) | (1 << (choiceParser.DBLEQ - 35)) | (1 << (choiceParser.NUMERIC - 35)) | (1 << (choiceParser.STRING - 35)) | (1 << (choiceParser.SENTENCE - 35)))) !== 0) || _la === choiceParser.URL);
+			} while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP))) !== 0) || ((((_la - 35)) & ~0x1F) === 0 && ((1 << (_la - 35)) & ((1 << (choiceParser.Greater - 35)) | (1 << (choiceParser.Less - 35)) | (1 << (choiceParser.RightAngle - 35)) | (1 << (choiceParser.RightArrow - 35)) | (1 << (choiceParser.DBLEQ - 35)) | (1 << (choiceParser.NUMERIC - 35)) | (1 << (choiceParser.STRING - 35)) | (1 << (choiceParser.SENTENCE - 35)) | (1 << (choiceParser.BARSTRING - 35)))) !== 0) || _la === choiceParser.URL);
 			}
 		}
 		catch (re) {
@@ -7223,14 +7229,14 @@ export class choiceParser extends Parser {
 			let _alt: number;
 			this.enterOuterAlt(_localctx, 1);
 			{
-			this.state = 1515;
+			this.state = 1516;
 			this._errHandler.sync(this);
 			_alt = 1;
 			do {
 				switch (_alt) {
 				case 1:
 					{
-					this.state = 1515;
+					this.state = 1516;
 					this._errHandler.sync(this);
 					switch (this._input.LA(1)) {
 					case choiceParser.SENTENCE:
@@ -7239,17 +7245,23 @@ export class choiceParser extends Parser {
 						this.match(choiceParser.SENTENCE);
 						}
 						break;
-					case choiceParser.AMP:
+					case choiceParser.BARSTRING:
 						{
 						this.state = 1508;
+						this.match(choiceParser.BARSTRING);
+						}
+						break;
+					case choiceParser.AMP:
+						{
+						this.state = 1509;
 						this.match(choiceParser.AMP);
 						}
 						break;
 					case choiceParser.Greater:
 						{
-						this.state = 1509;
-						this.match(choiceParser.Greater);
 						this.state = 1510;
+						this.match(choiceParser.Greater);
+						this.state = 1511;
 						_la = this._input.LA(1);
 						if (_la <= 0 || (_la === choiceParser.Greater)) {
 						this._errHandler.recoverInline(this);
@@ -7265,9 +7277,9 @@ export class choiceParser extends Parser {
 						break;
 					case choiceParser.Less:
 						{
-						this.state = 1511;
-						this.match(choiceParser.Less);
 						this.state = 1512;
+						this.match(choiceParser.Less);
+						this.state = 1513;
 						_la = this._input.LA(1);
 						if (_la <= 0 || (_la === choiceParser.Less)) {
 						this._errHandler.recoverInline(this);
@@ -7283,13 +7295,13 @@ export class choiceParser extends Parser {
 						break;
 					case choiceParser.RightArrow:
 						{
-						this.state = 1513;
+						this.state = 1514;
 						this.match(choiceParser.RightArrow);
 						}
 						break;
 					case choiceParser.RightAngle:
 						{
-						this.state = 1514;
+						this.state = 1515;
 						this.match(choiceParser.RightAngle);
 						}
 						break;
@@ -7301,7 +7313,7 @@ export class choiceParser extends Parser {
 				default:
 					throw new NoViableAltException(this);
 				}
-				this.state = 1517;
+				this.state = 1518;
 				this._errHandler.sync(this);
 				_alt = this.interpreter.adaptivePredict(this._input, 226, this._ctx);
 			} while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
@@ -7328,7 +7340,7 @@ export class choiceParser extends Parser {
 		try {
 			this.enterOuterAlt(_localctx, 1);
 			{
-			this.state = 1519;
+			this.state = 1520;
 			this.match(choiceParser.S);
 			}
 		}
@@ -7349,7 +7361,7 @@ export class choiceParser extends Parser {
 
 	private static readonly _serializedATNSegments: number = 3;
 	private static readonly _serializedATNSegment0: string =
-		"\x03\uC91D\uCABA\u058D\uAFBA\u4F53\u0607\uEA8B\uC241\x03\x93\u05F4\x04" +
+		"\x03\uC91D\uCABA\u058D\uAFBA\u4F53\u0607\uEA8B\uC241\x03\x93\u05F5\x04" +
 		"\x02\t\x02\x04\x03\t\x03\x04\x04\t\x04\x04\x05\t\x05\x04\x06\t\x06\x04" +
 		"\x07\t\x07\x04\b\t\b\x04\t\t\t\x04\n\t\n\x04\v\t\v\x04\f\t\f\x04\r\t\r" +
 		"\x04\x0E\t\x0E\x04\x0F\t\x0F\x04\x10\t\x10\x04\x11\t\x11\x04\x12\t\x12" +
@@ -7490,104 +7502,104 @@ export class choiceParser extends Parser {
 		"\x05`\u05C3\n`\x03`\x03`\x07`\u05C7\n`\f`\x0E`\u05CA\v`\x03`\x03`\x07" +
 		"`\u05CE\n`\f`\x0E`\u05D1\v`\x03`\x03`\x07`\u05D5\n`\f`\x0E`\u05D8\v`\x03" +
 		"`\x03`\x05`\u05DC\n`\x03a\x03a\x03a\x03a\x03b\x03b\x03c\x03c\x03d\x03" +
-		"d\x03d\x03d\x03d\x03d\x03d\x03d\x06d\u05EE\nd\rd\x0Ed\u05EF\x03e\x03e" +
-		"\x03e\x06\u0401\u0414\u045E\u0587\x02\x02f\x02\x02\x04\x02\x06\x02\b\x02" +
-		"\n\x02\f\x02\x0E\x02\x10\x02\x12\x02\x14\x02\x16\x02\x18\x02\x1A\x02\x1C" +
-		"\x02\x1E\x02 \x02\"\x02$\x02&\x02(\x02*\x02,\x02.\x020\x022\x024\x026" +
-		"\x028\x02:\x02<\x02>\x02@\x02B\x02D\x02F\x02H\x02J\x02L\x02N\x02P\x02" +
-		"R\x02T\x02V\x02X\x02Z\x02\\\x02^\x02`\x02b\x02d\x02f\x02h\x02j\x02l\x02" +
-		"n\x02p\x02r\x02t\x02v\x02x\x02z\x02|\x02~\x02\x80\x02\x82\x02\x84\x02" +
-		"\x86\x02\x88\x02\x8A\x02\x8C\x02\x8E\x02\x90\x02\x92\x02\x94\x02\x96\x02" +
-		"\x98\x02\x9A\x02\x9C\x02\x9E\x02\xA0\x02\xA2\x02\xA4\x02\xA6\x02\xA8\x02" +
-		"\xAA\x02\xAC\x02\xAE\x02\xB0\x02\xB2\x02\xB4\x02\xB6\x02\xB8\x02\xBA\x02" +
-		"\xBC\x02\xBE\x02\xC0\x02\xC2\x02\xC4\x02\xC6\x02\xC8\x02\x02\x16\x03\x02" +
-		",-\x03\x02\x1F\x1F\x07\x02[\\^_mt}~\x80\x81\x04\x02ZZoo\x04\x02[[pp\x04" +
-		"\x02\\\\qq\x04\x02]]rr\x04\x02^^ss\x04\x02__tt\x04\x02ffxx\x04\x02hhy" +
-		"y\x04\x02iizz\x04\x02jj{{\x04\x02kk||\x03\x02<=\x04\x02JJMP\x04\x02  " +
-		"\"\"\x03\x02./\x03\x02%%\x03\x02&&\x02\u06BF\x02\xD7\x03\x02\x02\x02\x04" +
-		"\xE3\x03\x02\x02\x02\x06\xEB\x03\x02\x02\x02\b\xED\x03\x02\x02\x02\n\u013A" +
-		"\x03\x02\x02\x02\f\u013F\x03\x02\x02\x02\x0E\u0144\x03\x02\x02\x02\x10" +
-		"\u015A\x03\x02\x02\x02\x12\u01A6\x03\x02\x02\x02\x14\u01CF\x03\x02\x02" +
-		"\x02\x16\u020C\x03\x02\x02\x02\x18\u0210\x03\x02\x02\x02\x1A\u024D\x03" +
-		"\x02\x02\x02\x1C\u0268\x03\x02\x02\x02\x1E\u026A\x03\x02\x02\x02 \u0275" +
-		"\x03\x02\x02\x02\"\u0285\x03\x02\x02\x02$\u0299\x03\x02\x02\x02&\u02A3" +
-		"\x03\x02\x02\x02(\u02AE\x03\x02\x02\x02*\u02BD\x03\x02\x02\x02,\u02CC" +
-		"\x03\x02\x02\x02.\u02D6\x03\x02\x02\x020\u02E0\x03\x02\x02\x022\u02EA" +
-		"\x03\x02\x02\x024\u02F4\x03\x02\x02\x026\u02F8\x03\x02\x02\x028\u02FE" +
-		"\x03\x02\x02\x02:\u0307\x03\x02\x02\x02<\u031B\x03\x02\x02\x02>\u031D" +
-		"\x03\x02\x02\x02@\u031F\x03\x02\x02\x02B\u0321\x03\x02\x02\x02D\u0323" +
-		"\x03\x02\x02\x02F\u0329\x03\x02\x02\x02H\u0330\x03\x02\x02\x02J\u033A" +
-		"\x03\x02\x02\x02L\u0345\x03\x02\x02\x02N\u034B\x03\x02\x02\x02P\u035B" +
-		"\x03\x02\x02\x02R\u035D\x03\x02\x02\x02T\u0362\x03\x02\x02\x02V\u0364" +
-		"\x03\x02\x02\x02X\u0366\x03\x02\x02\x02Z\u0368\x03\x02\x02\x02\\\u036A" +
-		"\x03\x02\x02\x02^\u036C\x03\x02\x02\x02`\u036E\x03\x02\x02\x02b\u0370" +
-		"\x03\x02\x02\x02d\u0372\x03\x02\x02\x02f\u037E\x03\x02\x02\x02h\u0380" +
-		"\x03\x02\x02\x02j\u0388\x03\x02\x02\x02l\u038A\x03\x02\x02\x02n\u0394" +
-		"\x03\x02\x02\x02p\u039E\x03\x02\x02\x02r\u03AB\x03\x02\x02\x02t\u03B2" +
-		"\x03\x02\x02\x02v\u03BD\x03\x02\x02\x02x\u03C4\x03\x02\x02\x02z\u03CE" +
-		"\x03\x02\x02\x02|\u03D9\x03\x02\x02\x02~\u03F2\x03\x02\x02\x02\x80\u0405" +
-		"\x03\x02\x02\x02\x82\u0418\x03\x02\x02\x02\x84\u041A\x03\x02\x02\x02\x86" +
-		"\u0421\x03\x02\x02\x02\x88\u0435\x03\x02\x02\x02\x8A\u0441\x03\x02\x02" +
-		"\x02\x8C\u0462\x03\x02\x02\x02\x8E\u0464\x03\x02\x02\x02\x90\u0468\x03" +
-		"\x02\x02\x02\x92\u0488\x03\x02\x02\x02\x94\u048A\x03\x02\x02\x02\x96\u049F" +
-		"\x03\x02\x02\x02\x98\u04A8\x03\x02\x02\x02\x9A\u04D1\x03\x02\x02\x02\x9C" +
-		"\u04E9\x03\x02\x02\x02\x9E\u04EB\x03\x02\x02\x02\xA0\u04EF\x03\x02\x02" +
-		"\x02\xA2\u04FB\x03\x02\x02\x02\xA4\u0533\x03\x02\x02\x02\xA6\u0535\x03" +
-		"\x02\x02\x02\xA8\u0549\x03\x02\x02\x02\xAA\u0553\x03\x02\x02\x02\xAC\u055E" +
-		"\x03\x02\x02\x02\xAE\u0560\x03\x02\x02\x02\xB0\u0564\x03\x02\x02\x02\xB2" +
-		"\u0568\x03\x02\x02\x02\xB4\u058B\x03\x02\x02\x02\xB6\u05A0\x03\x02\x02" +
-		"\x02\xB8\u05A2\x03\x02\x02\x02\xBA\u05A8\x03\x02\x02\x02\xBC\u05AE\x03" +
-		"\x02\x02\x02\xBE\u05DB\x03\x02\x02\x02\xC0\u05DD\x03\x02\x02\x02\xC2\u05E1" +
-		"\x03\x02\x02\x02\xC4\u05E3\x03\x02\x02\x02\xC6\u05ED\x03\x02\x02\x02\xC8" +
-		"\u05F1\x03\x02\x02\x02\xCA\xD4\x05\x04\x03\x02\xCB\xCD\x07\x04\x02\x02" +
-		"\xCC\xCB\x03\x02\x02\x02\xCD\xD0\x03\x02\x02\x02\xCE\xCC\x03\x02\x02\x02" +
-		"\xCE\xCF\x03\x02\x02\x02\xCF\xD1\x03\x02\x02\x02\xD0\xCE\x03\x02\x02\x02" +
-		"\xD1\xD3\x076\x02\x02\xD2\xCE\x03\x02\x02\x02\xD3\xD6\x03\x02\x02\x02" +
-		"\xD4\xD2\x03\x02\x02\x02\xD4\xD5\x03\x02\x02\x02\xD5\xD8\x03\x02\x02\x02" +
-		"\xD6\xD4\x03\x02\x02\x02\xD7\xCA\x03\x02\x02\x02\xD8\xD9\x03\x02\x02\x02" +
-		"\xD9\xD7\x03\x02\x02\x02\xD9\xDA\x03\x02\x02\x02\xDA\xDE\x03\x02\x02\x02" +
-		"\xDB\xDD\x076\x02\x02\xDC\xDB\x03\x02\x02\x02\xDD\xE0\x03\x02\x02\x02" +
-		"\xDE\xDC\x03\x02\x02\x02\xDE\xDF\x03\x02\x02\x02\xDF\xE1\x03\x02\x02\x02" +
-		"\xE0\xDE\x03\x02\x02\x02\xE1\xE2\x07\x02\x02\x03\xE2\x03\x03\x02\x02\x02" +
-		"\xE3\xE4\x05\x06\x04\x02\xE4\x05\x03\x02\x02\x02\xE5\xEC\x05\b\x05\x02" +
-		"\xE6\xEC\x05\x0E\b\x02\xE7\xEC\x05\x10\t\x02\xE8\xEC\x05\x12\n\x02\xE9" +
-		"\xEC\x05\x14\v\x02\xEA\xEC\x05\x18\r\x02\xEB\xE5\x03\x02\x02\x02\xEB\xE6" +
-		"\x03\x02\x02\x02\xEB\xE7\x03\x02\x02\x02\xEB\xE8\x03\x02\x02\x02\xEB\xE9" +
-		"\x03\x02\x02\x02\xEB\xEA\x03\x02\x02\x02\xEC\x07\x03\x02\x02\x02\xED\xEE" +
-		"\x07\x06\x02\x02\xEE\xEF\x05H%\x02\xEF\xF1\x07\x1F\x02\x02\xF0\xF2\x07" +
-		"6\x02\x02\xF1\xF0\x03\x02\x02\x02\xF2\xF3\x03\x02\x02\x02\xF3\xF1\x03" +
-		"\x02\x02\x02\xF3\xF4\x03\x02\x02\x02\xF4\xFE\x03\x02\x02\x02\xF5\xF9\x05" +
-		"\x1C\x0F\x02\xF6\xF8\x076\x02\x02\xF7\xF6\x03\x02\x02\x02\xF8\xFB\x03" +
-		"\x02\x02\x02\xF9\xF7\x03\x02\x02\x02\xF9\xFA\x03\x02\x02\x02\xFA\xFD\x03" +
-		"\x02\x02\x02\xFB\xF9\x03\x02\x02\x02\xFC\xF5\x03\x02\x02\x02\xFD\u0100" +
-		"\x03\x02\x02\x02\xFE\xFC\x03\x02\x02\x02\xFE\xFF\x03\x02\x02\x02\xFF\u0116" +
-		"\x03\x02\x02\x02\u0100\xFE\x03\x02\x02\x02\u0101\u0103\x076\x02\x02\u0102" +
-		"\u0101\x03\x02\x02\x02\u0103\u0106\x03\x02\x02\x02\u0104\u0102\x03\x02" +
-		"\x02\x02\u0104\u0105\x03\x02\x02\x02\u0105\u0107\x03\x02\x02\x02\u0106" +
-		"\u0104\x03\x02\x02\x02\u0107\u010F\x05\n\x06\x02\u0108\u010A\x076\x02" +
-		"\x02\u0109\u0108\x03\x02\x02\x02\u010A\u010D\x03\x02\x02\x02\u010B\u0109" +
-		"\x03\x02\x02\x02\u010B\u010C\x03\x02\x02\x02\u010C\u010E\x03\x02\x02\x02" +
-		"\u010D\u010B\x03\x02\x02\x02\u010E\u0110\x05\f\x07\x02\u010F\u010B\x03" +
-		"\x02\x02\x02\u010F\u0110\x03\x02\x02\x02\u0110\u0112\x03\x02\x02\x02\u0111" +
-		"\u0113\x05\xBE`\x02\u0112\u0111\x03\x02\x02\x02\u0112\u0113\x03\x02\x02" +
-		"\x02\u0113\u0114\x03\x02\x02\x02\u0114\u0115\x05\"\x12\x02\u0115\u0117" +
-		"\x03\x02\x02\x02\u0116\u0104\x03\x02\x02\x02\u0117\u0118\x03\x02\x02\x02" +
-		"\u0118\u0116\x03\x02\x02\x02\u0118\u0119\x03\x02\x02\x02\u0119\u011C\x03" +
-		"\x02\x02\x02\u011A\u011D\t\x02\x02\x02\u011B\u011D\x076\x02\x02\u011C" +
-		"\u011A\x03\x02\x02\x02\u011C\u011B\x03\x02\x02\x02\u011D\u0121\x03\x02" +
-		"\x02\x02\u011E\u011F\x05\x1C\x0F\x02\u011F\u0120\x076\x02\x02\u0120\u0122" +
-		"\x03\x02\x02\x02\u0121\u011E\x03\x02\x02\x02\u0121\u0122\x03\x02\x02\x02" +
-		"\u0122\u0126\x03\x02\x02\x02\u0123\u0125\x076\x02\x02\u0124\u0123\x03" +
-		"\x02\x02\x02\u0125\u0128\x03\x02\x02\x02\u0126\u0124\x03\x02\x02\x02\u0126" +
-		"\u0127\x03\x02\x02\x02\u0127\u0136\x03\x02\x02\x02\u0128\u0126\x03\x02" +
-		"\x02\x02\u0129\u0133\x05B\"\x02\u012A\u012C\x076\x02";
+		"d\x03d\x03d\x03d\x03d\x03d\x03d\x03d\x06d\u05EF\nd\rd\x0Ed\u05F0\x03e" +
+		"\x03e\x03e\x06\u0401\u0414\u045E\u0587\x02\x02f\x02\x02\x04\x02\x06\x02" +
+		"\b\x02\n\x02\f\x02\x0E\x02\x10\x02\x12\x02\x14\x02\x16\x02\x18\x02\x1A" +
+		"\x02\x1C\x02\x1E\x02 \x02\"\x02$\x02&\x02(\x02*\x02,\x02.\x020\x022\x02" +
+		"4\x026\x028\x02:\x02<\x02>\x02@\x02B\x02D\x02F\x02H\x02J\x02L\x02N\x02" +
+		"P\x02R\x02T\x02V\x02X\x02Z\x02\\\x02^\x02`\x02b\x02d\x02f\x02h\x02j\x02" +
+		"l\x02n\x02p\x02r\x02t\x02v\x02x\x02z\x02|\x02~\x02\x80\x02\x82\x02\x84" +
+		"\x02\x86\x02\x88\x02\x8A\x02\x8C\x02\x8E\x02\x90\x02\x92\x02\x94\x02\x96" +
+		"\x02\x98\x02\x9A\x02\x9C\x02\x9E\x02\xA0\x02\xA2\x02\xA4\x02\xA6\x02\xA8" +
+		"\x02\xAA\x02\xAC\x02\xAE\x02\xB0\x02\xB2\x02\xB4\x02\xB6\x02\xB8\x02\xBA" +
+		"\x02\xBC\x02\xBE\x02\xC0\x02\xC2\x02\xC4\x02\xC6\x02\xC8\x02\x02\x16\x03" +
+		"\x02,-\x03\x02\x1F\x1F\x07\x02[\\^_mt}~\x80\x81\x04\x02ZZoo\x04\x02[[" +
+		"pp\x04\x02\\\\qq\x04\x02]]rr\x04\x02^^ss\x04\x02__tt\x04\x02ffxx\x04\x02" +
+		"hhyy\x04\x02iizz\x04\x02jj{{\x04\x02kk||\x03\x02<=\x04\x02JJMP\x04\x02" +
+		"  \"\"\x03\x02./\x03\x02%%\x03\x02&&\x02\u06C1\x02\xD7\x03\x02\x02\x02" +
+		"\x04\xE3\x03\x02\x02\x02\x06\xEB\x03\x02\x02\x02\b\xED\x03\x02\x02\x02" +
+		"\n\u013A\x03\x02\x02\x02\f\u013F\x03\x02\x02\x02\x0E\u0144\x03\x02\x02" +
+		"\x02\x10\u015A\x03\x02\x02\x02\x12\u01A6\x03\x02\x02\x02\x14\u01CF\x03" +
+		"\x02\x02\x02\x16\u020C\x03\x02\x02\x02\x18\u0210\x03\x02\x02\x02\x1A\u024D" +
+		"\x03\x02\x02\x02\x1C\u0268\x03\x02\x02\x02\x1E\u026A\x03\x02\x02\x02 " +
+		"\u0275\x03\x02\x02\x02\"\u0285\x03\x02\x02\x02$\u0299\x03\x02\x02\x02" +
+		"&\u02A3\x03\x02\x02\x02(\u02AE\x03\x02\x02\x02*\u02BD\x03\x02\x02\x02" +
+		",\u02CC\x03\x02\x02\x02.\u02D6\x03\x02\x02\x020\u02E0\x03\x02\x02\x02" +
+		"2\u02EA\x03\x02\x02\x024\u02F4\x03\x02\x02\x026\u02F8\x03\x02\x02\x02" +
+		"8\u02FE\x03\x02\x02\x02:\u0307\x03\x02\x02\x02<\u031B\x03\x02\x02\x02" +
+		">\u031D\x03\x02\x02\x02@\u031F\x03\x02\x02\x02B\u0321\x03\x02\x02\x02" +
+		"D\u0323\x03\x02\x02\x02F\u0329\x03\x02\x02\x02H\u0330\x03\x02\x02\x02" +
+		"J\u033A\x03\x02\x02\x02L\u0345\x03\x02\x02\x02N\u034B\x03\x02\x02\x02" +
+		"P\u035B\x03\x02\x02\x02R\u035D\x03\x02\x02\x02T\u0362\x03\x02\x02\x02" +
+		"V\u0364\x03\x02\x02\x02X\u0366\x03\x02\x02\x02Z\u0368\x03\x02\x02\x02" +
+		"\\\u036A\x03\x02\x02\x02^\u036C\x03\x02\x02\x02`\u036E\x03\x02\x02\x02" +
+		"b\u0370\x03\x02\x02\x02d\u0372\x03\x02\x02\x02f\u037E\x03\x02\x02\x02" +
+		"h\u0380\x03\x02\x02\x02j\u0388\x03\x02\x02\x02l\u038A\x03\x02\x02\x02" +
+		"n\u0394\x03\x02\x02\x02p\u039E\x03\x02\x02\x02r\u03AB\x03\x02\x02\x02" +
+		"t\u03B2\x03\x02\x02\x02v\u03BD\x03\x02\x02\x02x\u03C4\x03\x02\x02\x02" +
+		"z\u03CE\x03\x02\x02\x02|\u03D9\x03\x02\x02\x02~\u03F2\x03\x02\x02\x02" +
+		"\x80\u0405\x03\x02\x02\x02\x82\u0418\x03\x02\x02\x02\x84\u041A\x03\x02" +
+		"\x02\x02\x86\u0421\x03\x02\x02\x02\x88\u0435\x03\x02\x02\x02\x8A\u0441" +
+		"\x03\x02\x02\x02\x8C\u0462\x03\x02\x02\x02\x8E\u0464\x03\x02\x02\x02\x90" +
+		"\u0468\x03\x02\x02\x02\x92\u0488\x03\x02\x02\x02\x94\u048A\x03\x02\x02" +
+		"\x02\x96\u049F\x03\x02\x02\x02\x98\u04A8\x03\x02\x02\x02\x9A\u04D1\x03" +
+		"\x02\x02\x02\x9C\u04E9\x03\x02\x02\x02\x9E\u04EB\x03\x02\x02\x02\xA0\u04EF" +
+		"\x03\x02\x02\x02\xA2\u04FB\x03\x02\x02\x02\xA4\u0533\x03\x02\x02\x02\xA6" +
+		"\u0535\x03\x02\x02\x02\xA8\u0549\x03\x02\x02\x02\xAA\u0553\x03\x02\x02" +
+		"\x02\xAC\u055E\x03\x02\x02\x02\xAE\u0560\x03\x02\x02\x02\xB0\u0564\x03" +
+		"\x02\x02\x02\xB2\u0568\x03\x02\x02\x02\xB4\u058B\x03\x02\x02\x02\xB6\u05A0" +
+		"\x03\x02\x02\x02\xB8\u05A2\x03\x02\x02\x02\xBA\u05A8\x03\x02\x02\x02\xBC" +
+		"\u05AE\x03\x02\x02\x02\xBE\u05DB\x03\x02\x02\x02\xC0\u05DD\x03\x02\x02" +
+		"\x02\xC2\u05E1\x03\x02\x02\x02\xC4\u05E3\x03\x02\x02\x02\xC6\u05EE\x03" +
+		"\x02\x02\x02\xC8\u05F2\x03\x02\x02\x02\xCA\xD4\x05\x04\x03\x02\xCB\xCD" +
+		"\x07\x04\x02\x02\xCC\xCB\x03\x02\x02\x02\xCD\xD0\x03\x02\x02\x02\xCE\xCC" +
+		"\x03\x02\x02\x02\xCE\xCF\x03\x02\x02\x02\xCF\xD1\x03\x02\x02\x02\xD0\xCE" +
+		"\x03\x02\x02\x02\xD1\xD3\x076\x02\x02\xD2\xCE\x03\x02\x02\x02\xD3\xD6" +
+		"\x03\x02\x02\x02\xD4\xD2\x03\x02\x02\x02\xD4\xD5\x03\x02\x02\x02\xD5\xD8" +
+		"\x03\x02\x02\x02\xD6\xD4\x03\x02\x02\x02\xD7\xCA\x03\x02\x02\x02\xD8\xD9" +
+		"\x03\x02\x02\x02\xD9\xD7\x03\x02\x02\x02\xD9\xDA\x03\x02\x02\x02\xDA\xDE" +
+		"\x03\x02\x02\x02\xDB\xDD\x076\x02\x02\xDC\xDB\x03\x02\x02\x02\xDD\xE0" +
+		"\x03\x02\x02\x02\xDE\xDC\x03\x02\x02\x02\xDE\xDF\x03\x02\x02\x02\xDF\xE1" +
+		"\x03\x02\x02\x02\xE0\xDE\x03\x02\x02\x02\xE1\xE2\x07\x02\x02\x03\xE2\x03" +
+		"\x03\x02\x02\x02\xE3\xE4\x05\x06\x04\x02\xE4\x05\x03\x02\x02\x02\xE5\xEC" +
+		"\x05\b\x05\x02\xE6\xEC\x05\x0E\b\x02\xE7\xEC\x05\x10\t\x02\xE8\xEC\x05" +
+		"\x12\n\x02\xE9\xEC\x05\x14\v\x02\xEA\xEC\x05\x18\r\x02\xEB\xE5\x03\x02" +
+		"\x02\x02\xEB\xE6\x03\x02\x02\x02\xEB\xE7\x03\x02\x02\x02\xEB\xE8\x03\x02" +
+		"\x02\x02\xEB\xE9\x03\x02\x02\x02\xEB\xEA\x03\x02\x02\x02\xEC\x07\x03\x02" +
+		"\x02\x02\xED\xEE\x07\x06\x02\x02\xEE\xEF\x05H%\x02\xEF\xF1\x07\x1F\x02" +
+		"\x02\xF0\xF2\x076\x02\x02\xF1\xF0\x03\x02\x02\x02\xF2\xF3\x03\x02\x02" +
+		"\x02\xF3\xF1\x03\x02\x02\x02\xF3\xF4\x03\x02\x02\x02\xF4\xFE\x03\x02\x02" +
+		"\x02\xF5\xF9\x05\x1C\x0F\x02\xF6\xF8\x076\x02\x02\xF7\xF6\x03\x02\x02" +
+		"\x02\xF8\xFB\x03\x02\x02\x02\xF9\xF7\x03\x02\x02\x02\xF9\xFA\x03\x02\x02" +
+		"\x02\xFA\xFD\x03\x02\x02\x02\xFB\xF9\x03\x02\x02\x02\xFC\xF5\x03\x02\x02" +
+		"\x02\xFD\u0100\x03\x02\x02\x02\xFE\xFC\x03\x02\x02\x02\xFE\xFF\x03\x02" +
+		"\x02\x02\xFF\u0116\x03\x02\x02\x02\u0100\xFE\x03\x02\x02\x02\u0101\u0103" +
+		"\x076\x02\x02\u0102\u0101\x03\x02\x02\x02\u0103\u0106\x03\x02\x02\x02" +
+		"\u0104\u0102\x03\x02\x02\x02\u0104\u0105\x03\x02\x02\x02\u0105\u0107\x03" +
+		"\x02\x02\x02\u0106\u0104\x03\x02\x02\x02\u0107\u010F\x05\n\x06\x02\u0108" +
+		"\u010A\x076\x02\x02\u0109\u0108\x03\x02\x02\x02\u010A\u010D\x03\x02\x02" +
+		"\x02\u010B\u0109\x03\x02\x02\x02\u010B\u010C\x03\x02\x02\x02\u010C\u010E" +
+		"\x03\x02\x02\x02\u010D\u010B\x03\x02\x02\x02\u010E\u0110\x05\f\x07\x02" +
+		"\u010F\u010B\x03\x02\x02\x02\u010F\u0110\x03\x02\x02\x02\u0110\u0112\x03" +
+		"\x02\x02\x02\u0111\u0113\x05\xBE`\x02\u0112\u0111\x03\x02\x02\x02\u0112" +
+		"\u0113\x03\x02\x02\x02\u0113\u0114\x03\x02\x02\x02\u0114\u0115\x05\"\x12" +
+		"\x02\u0115\u0117\x03\x02\x02\x02\u0116\u0104\x03\x02\x02\x02\u0117\u0118" +
+		"\x03\x02\x02\x02\u0118\u0116\x03\x02\x02\x02\u0118\u0119\x03\x02\x02\x02" +
+		"\u0119\u011C\x03\x02\x02\x02\u011A\u011D\t\x02\x02\x02\u011B\u011D\x07" +
+		"6\x02\x02\u011C\u011A\x03\x02\x02\x02\u011C\u011B\x03\x02\x02\x02\u011D" +
+		"\u0121\x03\x02\x02\x02\u011E\u011F\x05\x1C\x0F\x02\u011F\u0120\x076\x02" +
+		"\x02\u0120\u0122\x03\x02\x02\x02\u0121\u011E\x03\x02\x02\x02\u0121\u0122" +
+		"\x03\x02\x02\x02\u0122\u0126\x03\x02\x02\x02\u0123\u0125\x076\x02\x02" +
+		"\u0124\u0123\x03\x02\x02\x02\u0125\u0128\x03\x02\x02\x02\u0126\u0124\x03" +
+		"\x02\x02\x02\u0126\u0127\x03\x02\x02\x02\u0127\u0136\x03\x02\x02\x02\u0128" +
+		"\u0126\x03\x02\x02\x02\u0129\u0133\x05B\"\x02\u012A\u012C\x07";
 	private static readonly _serializedATNSegment1: string =
-		"\x02\u012B\u012A\x03\x02\x02\x02\u012C\u012F\x03\x02\x02\x02\u012D\u012B" +
-		"\x03\x02\x02\x02\u012D\u012E\x03\x02\x02\x02\u012E\u0130\x03\x02\x02\x02" +
-		"\u012F\u012D\x03\x02\x02\x02\u0130\u0132\x05B\"\x02\u0131\u012D\x03\x02" +
-		"\x02\x02\u0132\u0135\x03\x02\x02\x02\u0133\u0131\x03\x02\x02\x02\u0133" +
-		"\u0134\x03\x02\x02\x02\u0134\u0137\x03\x02\x02\x02\u0135\u0133\x03\x02" +
-		"\x02\x02\u0136\u0129\x03\x02\x02\x02\u0136\u0137\x03\x02\x02\x02\u0137" +
+		"6\x02\x02\u012B\u012A\x03\x02\x02\x02\u012C\u012F\x03\x02\x02\x02\u012D" +
+		"\u012B\x03\x02\x02\x02\u012D\u012E\x03\x02\x02\x02\u012E\u0130\x03\x02" +
+		"\x02\x02\u012F\u012D\x03\x02\x02\x02\u0130\u0132\x05B\"\x02\u0131\u012D" +
+		"\x03\x02\x02\x02\u0132\u0135\x03\x02\x02\x02\u0133\u0131\x03\x02\x02\x02" +
+		"\u0133\u0134\x03\x02\x02\x02\u0134\u0137\x03\x02\x02\x02\u0135\u0133\x03" +
+		"\x02\x02\x02\u0136\u0129\x03\x02\x02\x02\u0136\u0137\x03\x02\x02\x02\u0137" +
 		"\t\x03\x02\x02\x02\u0138\u013B\t\x02\x02\x02\u0139\u013B\x076\x02\x02" +
 		"\u013A\u0138\x03\x02\x02\x02\u013A\u0139\x03\x02\x02\x02\u013B\v\x03\x02" +
 		"\x02\x02\u013C\u013E\x05\x1C\x0F\x02\u013D\u013C\x03\x02\x02\x02\u013E" +
@@ -7896,13 +7908,13 @@ export class choiceParser extends Parser {
 		"\u03C2w\x03\x02\x02\x02\u03C3\u03C1\x03\x02\x02\x02\u03C4\u03C5\x05f4" +
 		"\x02\u03C5\u03C6\x07 \x02\x02\u03C6\u03C7\x05\x90I\x02\u03C7\u03CC\x07" +
 		"\x1F\x02\x02\u03C8\u03C9\x07J\x02\x02\u03C9\u03CA\x05\xC6d\x02\u03CA\u03CB" +
-		"\x07\x1F\x02\x02\u03CB\u03CD\x03\x02\x02\x02\u03CC";
+		"\x07\x1F\x02\x02\u03CB\u03CD\x03\x02\x02";
 	private static readonly _serializedATNSegment2: string =
-		"\u03C8\x03\x02\x02\x02\u03CC\u03CD\x03\x02\x02\x02\u03CDy\x03\x02\x02" +
-		"\x02\u03CE\u03D2\x05|?\x02\u03CF\u03D1\x05\x80A\x02\u03D0\u03CF\x03\x02" +
-		"\x02\x02\u03D1\u03D4\x03\x02\x02\x02\u03D2\u03D0\x03\x02\x02\x02\u03D2" +
-		"\u03D3\x03\x02\x02\x02\u03D3\u03D7\x03\x02\x02\x02\u03D4\u03D2\x03\x02" +
-		"\x02\x02\u03D5\u03D6\x076\x02\x02\u03D6\u03D8\x07L\x02\x02\u03D7\u03D5" +
+		"\x02\u03CC\u03C8\x03\x02\x02\x02\u03CC\u03CD\x03\x02\x02\x02\u03CDy\x03" +
+		"\x02\x02\x02\u03CE\u03D2\x05|?\x02\u03CF\u03D1\x05\x80A\x02\u03D0\u03CF" +
+		"\x03\x02\x02\x02\u03D1\u03D4\x03\x02\x02\x02\u03D2\u03D0\x03\x02\x02\x02" +
+		"\u03D2\u03D3\x03\x02\x02\x02\u03D3\u03D7\x03\x02\x02\x02\u03D4\u03D2\x03" +
+		"\x02\x02\x02\u03D5\u03D6\x076\x02\x02\u03D6\u03D8\x07L\x02\x02\u03D7\u03D5" +
 		"\x03\x02\x02\x02\u03D7\u03D8\x03\x02\x02\x02\u03D8{\x03\x02\x02\x02\u03D9" +
 		"\u03DA\x05~@\x02\u03DA\u03DE\x07 \x02\x02\u03DB\u03DD\x07\x04\x02\x02" +
 		"\u03DC\u03DB\x03\x02\x02\x02\u03DD\u03E0\x03\x02\x02\x02\u03DE\u03DC\x03" +
@@ -8147,33 +8159,34 @@ export class choiceParser extends Parser {
 		"\u05DB\u05DA\x03\x02\x02\x02\u05DC\xBF\x03\x02\x02\x02\u05DD\u05DE\x07" +
 		"\x11\x02\x02\u05DE\u05DF\x05\xBE`\x02\u05DF\u05E0\x07\x1F\x02\x02\u05E0" +
 		"\xC1\x03\x02\x02\x02\u05E1\u05E2\x07\x1F\x02\x02\u05E2\xC3\x03\x02\x02" +
-		"\x02\u05E3\u05E4\t\x13\x02\x02\u05E4\xC5\x03\x02\x02\x02\u05E5\u05EE\x07" +
-		"7\x02\x02\u05E6\u05EE\x07!\x02\x02\u05E7\u05E8\x07%\x02\x02\u05E8\u05EE" +
-		"\n\x14\x02\x02\u05E9\u05EA\x07&\x02\x02\u05EA\u05EE\n\x15\x02\x02\u05EB" +
-		"\u05EE\x07*\x02\x02\u05EC\u05EE\x07)\x02\x02\u05ED\u05E5\x03\x02\x02\x02" +
-		"\u05ED\u05E6\x03\x02\x02\x02\u05ED\u05E7\x03\x02\x02\x02\u05ED\u05E9\x03" +
-		"\x02\x02\x02\u05ED\u05EB\x03\x02\x02\x02\u05ED\u05EC\x03\x02\x02\x02\u05EE" +
-		"\u05EF\x03\x02\x02\x02\u05EF\u05ED\x03\x02\x02\x02\u05EF\u05F0\x03\x02" +
-		"\x02\x02\u05F0\xC7\x03\x02\x02\x02\u05F1\u05F2\x07\x04\x02\x02\u05F2\xC9" +
-		"\x03\x02\x02\x02\xE5\xCE\xD4\xD9\xDE\xEB\xF3\xF9\xFE\u0104\u010B\u010F" +
-		"\u0112\u0118\u011C\u0121\u0126\u012D\u0133\u0136\u013A\u013F\u014A\u0150" +
-		"\u0155\u0160\u0166\u016B\u0171\u0178\u017C\u0182\u0186\u018C\u018F\u0194" +
-		"\u019B\u01A1\u01A4\u01AC\u01B2\u01B7\u01BD\u01C4\u01CA\u01CD\u01D5\u01DB" +
-		"\u01E0\u01E6\u01EC\u01F3\u01F9\u01FC\u0202\u020A\u020C\u020E\u0216\u021C" +
-		"\u0221\u0227\u022D\u0234\u023A\u023D\u0243\u024B\u024D\u024F\u0268\u0270" +
-		"\u0272\u0279\u027E\u0285\u0288\u028D\u0292\u0296\u029E\u02A0\u02A8\u02AA" +
-		"\u02AE\u02B2\u02B6\u02B8\u02BD\u02C1\u02C5\u02C7\u02CC\u02D0\u02D6\u02DA" +
-		"\u02E0\u02E6\u02EA\u02F0\u02F4\u02FE\u0302\u0304\u0309\u030D\u030F\u0318" +
-		"\u031B\u0327\u0330\u0335\u0337\u0345\u034B\u0350\u0354\u0358\u035B\u0360" +
-		"\u0377\u037C\u037E\u0388\u0392\u039C\u03A2\u03A9\u03AF\u03B7\u03C1\u03CC" +
-		"\u03D2\u03D7\u03DE\u03E7\u03EB\u03EF\u03F2\u0401\u0405\u0414\u0418\u041E" +
-		"\u0429\u042E\u0433\u0435\u043A\u043F\u0441\u0446\u044C\u0451\u0453\u045E" +
-		"\u0462\u046F\u0473\u0479\u047B\u0482\u0486\u0488\u048E\u0490\u0497\u049C" +
-		"\u049F\u04A5\u04A8\u04AC\u04B3\u04B8\u04BE\u04C3\u04CB\u04CD\u04D1\u04D8" +
-		"\u04DA\u04E3\u04E5\u04E9\u04F3\u04F5\u04F9\u04FF\u0501\u0509\u050D\u0514" +
-		"\u0519\u051F\u0524\u052C\u0530\u0533\u0539\u0540\u0542\u0549\u0553\u055E" +
-		"\u056C\u0572\u057C\u057E\u0587\u058B\u0591\u0593\u059A\u059C\u05A0\u05A4" +
-		"\u05AC\u05B0\u05B6\u05B9\u05BF\u05C2\u05C8\u05CF\u05D6\u05DB\u05ED\u05EF";
+		"\x02\u05E3\u05E4\t\x13\x02\x02\u05E4\xC5\x03\x02\x02\x02\u05E5\u05EF\x07" +
+		"7\x02\x02\u05E6\u05EF\x078\x02\x02\u05E7\u05EF\x07!\x02\x02\u05E8\u05E9" +
+		"\x07%\x02\x02\u05E9\u05EF\n\x14\x02\x02\u05EA\u05EB\x07&\x02\x02\u05EB" +
+		"\u05EF\n\x15\x02\x02\u05EC\u05EF\x07*\x02\x02\u05ED\u05EF\x07)\x02\x02" +
+		"\u05EE\u05E5\x03\x02\x02\x02\u05EE\u05E6\x03\x02\x02\x02\u05EE\u05E7\x03" +
+		"\x02\x02\x02\u05EE\u05E8\x03\x02\x02\x02\u05EE\u05EA\x03\x02\x02\x02\u05EE" +
+		"\u05EC\x03\x02\x02\x02\u05EE\u05ED\x03\x02\x02\x02\u05EF\u05F0\x03\x02" +
+		"\x02\x02\u05F0\u05EE\x03\x02\x02\x02\u05F0\u05F1\x03\x02\x02\x02\u05F1" +
+		"\xC7\x03\x02\x02\x02\u05F2\u05F3\x07\x04\x02\x02\u05F3\xC9\x03\x02\x02" +
+		"\x02\xE5\xCE\xD4\xD9\xDE\xEB\xF3\xF9\xFE\u0104\u010B\u010F\u0112\u0118" +
+		"\u011C\u0121\u0126\u012D\u0133\u0136\u013A\u013F\u014A\u0150\u0155\u0160" +
+		"\u0166\u016B\u0171\u0178\u017C\u0182\u0186\u018C\u018F\u0194\u019B\u01A1" +
+		"\u01A4\u01AC\u01B2\u01B7\u01BD\u01C4\u01CA\u01CD\u01D5\u01DB\u01E0\u01E6" +
+		"\u01EC\u01F3\u01F9\u01FC\u0202\u020A\u020C\u020E\u0216\u021C\u0221\u0227" +
+		"\u022D\u0234\u023A\u023D\u0243\u024B\u024D\u024F\u0268\u0270\u0272\u0279" +
+		"\u027E\u0285\u0288\u028D\u0292\u0296\u029E\u02A0\u02A8\u02AA\u02AE\u02B2" +
+		"\u02B6\u02B8\u02BD\u02C1\u02C5\u02C7\u02CC\u02D0\u02D6\u02DA\u02E0\u02E6" +
+		"\u02EA\u02F0\u02F4\u02FE\u0302\u0304\u0309\u030D\u030F\u0318\u031B\u0327" +
+		"\u0330\u0335\u0337\u0345\u034B\u0350\u0354\u0358\u035B\u0360\u0377\u037C" +
+		"\u037E\u0388\u0392\u039C\u03A2\u03A9\u03AF\u03B7\u03C1\u03CC\u03D2\u03D7" +
+		"\u03DE\u03E7\u03EB\u03EF\u03F2\u0401\u0405\u0414\u0418\u041E\u0429\u042E" +
+		"\u0433\u0435\u043A\u043F\u0441\u0446\u044C\u0451\u0453\u045E\u0462\u046F" +
+		"\u0473\u0479\u047B\u0482\u0486\u0488\u048E\u0490\u0497\u049C\u049F\u04A5" +
+		"\u04A8\u04AC\u04B3\u04B8\u04BE\u04C3\u04CB\u04CD\u04D1\u04D8\u04DA\u04E3" +
+		"\u04E5\u04E9\u04F3\u04F5\u04F9\u04FF\u0501\u0509\u050D\u0514\u0519\u051F" +
+		"\u0524\u052C\u0530\u0533\u0539\u0540\u0542\u0549\u0553\u055E\u056C\u0572" +
+		"\u057C\u057E\u0587\u058B\u0591\u0593\u059A\u059C\u05A0\u05A4\u05AC\u05B0" +
+		"\u05B6\u05B9\u05BF\u05C2\u05C8\u05CF\u05D6\u05DB\u05EE\u05F0";
 	public static readonly _serializedATN: string = Utils.join(
 		[
 			choiceParser._serializedATNSegment0,
@@ -11888,6 +11901,15 @@ export class WordsContext extends ParserRuleContext {
 			return this.getTokens(choiceParser.SENTENCE);
 		} else {
 			return this.getToken(choiceParser.SENTENCE, i);
+		}
+	}
+	public BARSTRING(): TerminalNode[];
+	public BARSTRING(i: number): TerminalNode;
+	public BARSTRING(i?: number): TerminalNode | TerminalNode[] {
+		if (i === undefined) {
+			return this.getTokens(choiceParser.BARSTRING);
+		} else {
+			return this.getToken(choiceParser.BARSTRING, i);
 		}
 	}
 	public AMP(): TerminalNode[];

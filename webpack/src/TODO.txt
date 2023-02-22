@@ -1,9 +1,0 @@
-5/5/2021
-
-test/match-matrix1.bit
-= Not removing text when it contain Umulout letters.
-
-/tests/botinterview1.bit
-= Error
-
-Run　diff and make js and mjs same.

@@ -3911,6 +3911,7 @@ export class clozeParser extends Parser {
 						case clozeParser.NUMERIC:
 						case clozeParser.STRING:
 						case clozeParser.SENTENCE:
+						case clozeParser.BARSTRING:
 						case clozeParser.URL:
 							{
 							this.state = 845;
@@ -4127,7 +4128,7 @@ export class clozeParser extends Parser {
 				this.state = 889;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-				while (((((_la - 29)) & ~0x1F) === 0 && ((1 << (_la - 29)) & ((1 << (clozeParser.COLON - 29)) | (1 << (clozeParser.AMP - 29)) | (1 << (clozeParser.Greater - 29)) | (1 << (clozeParser.Less - 29)) | (1 << (clozeParser.RightAngle - 29)) | (1 << (clozeParser.RightArrow - 29)) | (1 << (clozeParser.SENTENCE - 29)))) !== 0)) {
+				while (((((_la - 29)) & ~0x1F) === 0 && ((1 << (_la - 29)) & ((1 << (clozeParser.COLON - 29)) | (1 << (clozeParser.AMP - 29)) | (1 << (clozeParser.Greater - 29)) | (1 << (clozeParser.Less - 29)) | (1 << (clozeParser.RightAngle - 29)) | (1 << (clozeParser.RightArrow - 29)) | (1 << (clozeParser.SENTENCE - 29)) | (1 << (clozeParser.BARSTRING - 29)))) !== 0)) {
 					{
 					this.state = 887;
 					this._errHandler.sync(this);
@@ -4144,6 +4145,7 @@ export class clozeParser extends Parser {
 					case clozeParser.RightAngle:
 					case clozeParser.RightArrow:
 					case clozeParser.SENTENCE:
+					case clozeParser.BARSTRING:
 						{
 						this.state = 886;
 						this.words();
@@ -4216,7 +4218,7 @@ export class clozeParser extends Parser {
 			this.state = 910;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
-			while (((((_la - 29)) & ~0x1F) === 0 && ((1 << (_la - 29)) & ((1 << (clozeParser.COLON - 29)) | (1 << (clozeParser.AMP - 29)) | (1 << (clozeParser.Greater - 29)) | (1 << (clozeParser.Less - 29)) | (1 << (clozeParser.RightAngle - 29)) | (1 << (clozeParser.RightArrow - 29)) | (1 << (clozeParser.SENTENCE - 29)))) !== 0)) {
+			while (((((_la - 29)) & ~0x1F) === 0 && ((1 << (_la - 29)) & ((1 << (clozeParser.COLON - 29)) | (1 << (clozeParser.AMP - 29)) | (1 << (clozeParser.Greater - 29)) | (1 << (clozeParser.Less - 29)) | (1 << (clozeParser.RightAngle - 29)) | (1 << (clozeParser.RightArrow - 29)) | (1 << (clozeParser.SENTENCE - 29)) | (1 << (clozeParser.BARSTRING - 29)))) !== 0)) {
 				{
 				this.state = 908;
 				this._errHandler.sync(this);
@@ -4233,6 +4235,7 @@ export class clozeParser extends Parser {
 				case clozeParser.RightAngle:
 				case clozeParser.RightArrow:
 				case clozeParser.SENTENCE:
+				case clozeParser.BARSTRING:
 					{
 					this.state = 907;
 					this.words();
@@ -4488,7 +4491,7 @@ export class clozeParser extends Parser {
 				this.state = 971;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-				while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << clozeParser.S) | (1 << clozeParser.OPS) | (1 << clozeParser.CL) | (1 << clozeParser.COLON) | (1 << clozeParser.AMP))) !== 0) || ((((_la - 34)) & ~0x1F) === 0 && ((1 << (_la - 34)) & ((1 << (clozeParser.Greater - 34)) | (1 << (clozeParser.Less - 34)) | (1 << (clozeParser.DBLEQ - 34)) | (1 << (clozeParser.RightAngle - 34)) | (1 << (clozeParser.RightArrow - 34)) | (1 << (clozeParser.OP_N_ETC - 34)) | (1 << (clozeParser.NUMERIC - 34)) | (1 << (clozeParser.STRING - 34)) | (1 << (clozeParser.NL - 34)) | (1 << (clozeParser.SENTENCE - 34)))) !== 0) || _la === clozeParser.URL) {
+				while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << clozeParser.S) | (1 << clozeParser.OPS) | (1 << clozeParser.CL) | (1 << clozeParser.COLON) | (1 << clozeParser.AMP))) !== 0) || ((((_la - 34)) & ~0x1F) === 0 && ((1 << (_la - 34)) & ((1 << (clozeParser.Greater - 34)) | (1 << (clozeParser.Less - 34)) | (1 << (clozeParser.DBLEQ - 34)) | (1 << (clozeParser.RightAngle - 34)) | (1 << (clozeParser.RightArrow - 34)) | (1 << (clozeParser.OP_N_ETC - 34)) | (1 << (clozeParser.NUMERIC - 34)) | (1 << (clozeParser.STRING - 34)) | (1 << (clozeParser.NL - 34)) | (1 << (clozeParser.SENTENCE - 34)) | (1 << (clozeParser.BARSTRING - 34)))) !== 0) || _la === clozeParser.URL) {
 					{
 					this.state = 969;
 					this._errHandler.sync(this);
@@ -4614,7 +4617,7 @@ export class clozeParser extends Parser {
 				this.state = 995;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-				while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << clozeParser.S) | (1 << clozeParser.OPS) | (1 << clozeParser.CL) | (1 << clozeParser.COLON) | (1 << clozeParser.AMP))) !== 0) || ((((_la - 34)) & ~0x1F) === 0 && ((1 << (_la - 34)) & ((1 << (clozeParser.Greater - 34)) | (1 << (clozeParser.Less - 34)) | (1 << (clozeParser.DBLEQ - 34)) | (1 << (clozeParser.RightAngle - 34)) | (1 << (clozeParser.RightArrow - 34)) | (1 << (clozeParser.OP_N_ETC - 34)) | (1 << (clozeParser.NUMERIC - 34)) | (1 << (clozeParser.STRING - 34)) | (1 << (clozeParser.NL - 34)) | (1 << (clozeParser.SENTENCE - 34)))) !== 0) || _la === clozeParser.URL) {
+				while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << clozeParser.S) | (1 << clozeParser.OPS) | (1 << clozeParser.CL) | (1 << clozeParser.COLON) | (1 << clozeParser.AMP))) !== 0) || ((((_la - 34)) & ~0x1F) === 0 && ((1 << (_la - 34)) & ((1 << (clozeParser.Greater - 34)) | (1 << (clozeParser.Less - 34)) | (1 << (clozeParser.DBLEQ - 34)) | (1 << (clozeParser.RightAngle - 34)) | (1 << (clozeParser.RightArrow - 34)) | (1 << (clozeParser.OP_N_ETC - 34)) | (1 << (clozeParser.NUMERIC - 34)) | (1 << (clozeParser.STRING - 34)) | (1 << (clozeParser.NL - 34)) | (1 << (clozeParser.SENTENCE - 34)) | (1 << (clozeParser.BARSTRING - 34)))) !== 0) || _la === clozeParser.URL) {
 					{
 					this.state = 993;
 					this._errHandler.sync(this);
@@ -4983,7 +4986,7 @@ export class clozeParser extends Parser {
 				this.state = 1070;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-				if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << clozeParser.S) | (1 << clozeParser.OPS) | (1 << clozeParser.CL) | (1 << clozeParser.COLON) | (1 << clozeParser.AMP))) !== 0) || ((((_la - 34)) & ~0x1F) === 0 && ((1 << (_la - 34)) & ((1 << (clozeParser.Greater - 34)) | (1 << (clozeParser.Less - 34)) | (1 << (clozeParser.DBLEQ - 34)) | (1 << (clozeParser.RightAngle - 34)) | (1 << (clozeParser.RightArrow - 34)) | (1 << (clozeParser.OP_N_ETC - 34)) | (1 << (clozeParser.NUMERIC - 34)) | (1 << (clozeParser.STRING - 34)) | (1 << (clozeParser.SENTENCE - 34)))) !== 0) || _la === clozeParser.URL) {
+				if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << clozeParser.S) | (1 << clozeParser.OPS) | (1 << clozeParser.CL) | (1 << clozeParser.COLON) | (1 << clozeParser.AMP))) !== 0) || ((((_la - 34)) & ~0x1F) === 0 && ((1 << (_la - 34)) & ((1 << (clozeParser.Greater - 34)) | (1 << (clozeParser.Less - 34)) | (1 << (clozeParser.DBLEQ - 34)) | (1 << (clozeParser.RightAngle - 34)) | (1 << (clozeParser.RightArrow - 34)) | (1 << (clozeParser.OP_N_ETC - 34)) | (1 << (clozeParser.NUMERIC - 34)) | (1 << (clozeParser.STRING - 34)) | (1 << (clozeParser.SENTENCE - 34)) | (1 << (clozeParser.BARSTRING - 34)))) !== 0) || _la === clozeParser.URL) {
 					{
 					this.state = 1069;
 					this.s_and_w();
@@ -5100,6 +5103,7 @@ export class clozeParser extends Parser {
 						case clozeParser.NUMERIC:
 						case clozeParser.STRING:
 						case clozeParser.SENTENCE:
+						case clozeParser.BARSTRING:
 						case clozeParser.URL:
 							{
 							this.state = 1084;
@@ -5552,7 +5556,7 @@ export class clozeParser extends Parser {
 				this.state = 1178;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-				while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << clozeParser.S) | (1 << clozeParser.OPS) | (1 << clozeParser.CL) | (1 << clozeParser.COLON) | (1 << clozeParser.AMP))) !== 0) || ((((_la - 34)) & ~0x1F) === 0 && ((1 << (_la - 34)) & ((1 << (clozeParser.Greater - 34)) | (1 << (clozeParser.Less - 34)) | (1 << (clozeParser.DBLEQ - 34)) | (1 << (clozeParser.RightAngle - 34)) | (1 << (clozeParser.RightArrow - 34)) | (1 << (clozeParser.OP_N_ETC - 34)) | (1 << (clozeParser.NUMERIC - 34)) | (1 << (clozeParser.STRING - 34)) | (1 << (clozeParser.NL - 34)) | (1 << (clozeParser.SENTENCE - 34)))) !== 0) || _la === clozeParser.URL) {
+				while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << clozeParser.S) | (1 << clozeParser.OPS) | (1 << clozeParser.CL) | (1 << clozeParser.COLON) | (1 << clozeParser.AMP))) !== 0) || ((((_la - 34)) & ~0x1F) === 0 && ((1 << (_la - 34)) & ((1 << (clozeParser.Greater - 34)) | (1 << (clozeParser.Less - 34)) | (1 << (clozeParser.DBLEQ - 34)) | (1 << (clozeParser.RightAngle - 34)) | (1 << (clozeParser.RightArrow - 34)) | (1 << (clozeParser.OP_N_ETC - 34)) | (1 << (clozeParser.NUMERIC - 34)) | (1 << (clozeParser.STRING - 34)) | (1 << (clozeParser.NL - 34)) | (1 << (clozeParser.SENTENCE - 34)) | (1 << (clozeParser.BARSTRING - 34)))) !== 0) || _la === clozeParser.URL) {
 					{
 					this.state = 1176;
 					this._errHandler.sync(this);
@@ -5671,7 +5675,7 @@ export class clozeParser extends Parser {
 				this.state = 1196;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-			} while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << clozeParser.S) | (1 << clozeParser.OPS) | (1 << clozeParser.CL) | (1 << clozeParser.COLON) | (1 << clozeParser.AMP))) !== 0) || ((((_la - 34)) & ~0x1F) === 0 && ((1 << (_la - 34)) & ((1 << (clozeParser.Greater - 34)) | (1 << (clozeParser.Less - 34)) | (1 << (clozeParser.DBLEQ - 34)) | (1 << (clozeParser.RightAngle - 34)) | (1 << (clozeParser.RightArrow - 34)) | (1 << (clozeParser.OP_N_ETC - 34)) | (1 << (clozeParser.NUMERIC - 34)) | (1 << (clozeParser.STRING - 34)) | (1 << (clozeParser.SENTENCE - 34)))) !== 0) || _la === clozeParser.URL);
+			} while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << clozeParser.S) | (1 << clozeParser.OPS) | (1 << clozeParser.CL) | (1 << clozeParser.COLON) | (1 << clozeParser.AMP))) !== 0) || ((((_la - 34)) & ~0x1F) === 0 && ((1 << (_la - 34)) & ((1 << (clozeParser.Greater - 34)) | (1 << (clozeParser.Less - 34)) | (1 << (clozeParser.DBLEQ - 34)) | (1 << (clozeParser.RightAngle - 34)) | (1 << (clozeParser.RightArrow - 34)) | (1 << (clozeParser.OP_N_ETC - 34)) | (1 << (clozeParser.NUMERIC - 34)) | (1 << (clozeParser.STRING - 34)) | (1 << (clozeParser.SENTENCE - 34)) | (1 << (clozeParser.BARSTRING - 34)))) !== 0) || _la === clozeParser.URL);
 			}
 		}
 		catch (re) {
@@ -6300,14 +6304,14 @@ export class clozeParser extends Parser {
 			let _alt: number;
 			this.enterOuterAlt(_localctx, 1);
 			{
-			this.state = 1287;
+			this.state = 1288;
 			this._errHandler.sync(this);
 			_alt = 1;
 			do {
 				switch (_alt) {
 				case 1:
 					{
-					this.state = 1287;
+					this.state = 1288;
 					this._errHandler.sync(this);
 					switch (this._input.LA(1)) {
 					case clozeParser.SENTENCE:
@@ -6316,17 +6320,23 @@ export class clozeParser extends Parser {
 						this.match(clozeParser.SENTENCE);
 						}
 						break;
-					case clozeParser.AMP:
+					case clozeParser.BARSTRING:
 						{
 						this.state = 1280;
+						this.match(clozeParser.BARSTRING);
+						}
+						break;
+					case clozeParser.AMP:
+						{
+						this.state = 1281;
 						this.match(clozeParser.AMP);
 						}
 						break;
 					case clozeParser.Greater:
 						{
-						this.state = 1281;
-						this.match(clozeParser.Greater);
 						this.state = 1282;
+						this.match(clozeParser.Greater);
+						this.state = 1283;
 						_la = this._input.LA(1);
 						if (_la <= 0 || (_la === clozeParser.Greater)) {
 						this._errHandler.recoverInline(this);
@@ -6342,9 +6352,9 @@ export class clozeParser extends Parser {
 						break;
 					case clozeParser.Less:
 						{
-						this.state = 1283;
-						this.match(clozeParser.Less);
 						this.state = 1284;
+						this.match(clozeParser.Less);
+						this.state = 1285;
 						_la = this._input.LA(1);
 						if (_la <= 0 || (_la === clozeParser.Less)) {
 						this._errHandler.recoverInline(this);
@@ -6360,13 +6370,13 @@ export class clozeParser extends Parser {
 						break;
 					case clozeParser.RightArrow:
 						{
-						this.state = 1285;
+						this.state = 1286;
 						this.match(clozeParser.RightArrow);
 						}
 						break;
 					case clozeParser.RightAngle:
 						{
-						this.state = 1286;
+						this.state = 1287;
 						this.match(clozeParser.RightAngle);
 						}
 						break;
@@ -6378,7 +6388,7 @@ export class clozeParser extends Parser {
 				default:
 					throw new NoViableAltException(this);
 				}
-				this.state = 1289;
+				this.state = 1290;
 				this._errHandler.sync(this);
 				_alt = this.interpreter.adaptivePredict(this._input, 177, this._ctx);
 			} while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
@@ -6405,7 +6415,7 @@ export class clozeParser extends Parser {
 		try {
 			this.enterOuterAlt(_localctx, 1);
 			{
-			this.state = 1291;
+			this.state = 1292;
 			this.match(clozeParser.S);
 			}
 		}
@@ -6426,7 +6436,7 @@ export class clozeParser extends Parser {
 
 	private static readonly _serializedATNSegments: number = 3;
 	private static readonly _serializedATNSegment0: string =
-		"\x03\uC91D\uCABA\u058D\uAFBA\u4F53\u0607\uEA8B\uC241\x03\x8D\u0510\x04" +
+		"\x03\uC91D\uCABA\u058D\uAFBA\u4F53\u0607\uEA8B\uC241\x03\x8D\u0511\x04" +
 		"\x02\t\x02\x04\x03\t\x03\x04\x04\t\x04\x04\x05\t\x05\x04\x06\t\x06\x04" +
 		"\x07\t\x07\x04\b\t\b\x04\t\t\t\x04\n\t\n\x04\v\t\v\x04\f\t\f\x04\r\t\r" +
 		"\x04\x0E\t\x0E\x04\x0F\t\x0F\x04\x10\t\x10\x04\x11\t\x11\x04\x12\t\x12" +
@@ -6542,7 +6552,7 @@ export class clozeParser extends Parser {
 		"\x03O\x03O\x05O\u04E0\nO\x03P\x03P\x03Q\x03Q\x03R\x03R\x03S\x03S\x03T" +
 		"\x03T\x03U\x03U\x03V\x03V\x03W\x03W\x03X\x03X\x03Y\x03Y\x03Z\x03Z\x03" +
 		"[\x03[\x03\\\x03\\\x03]\x03]\x03^\x03^\x03_\x03_\x03`\x03`\x03`\x03`\x03" +
-		"`\x03`\x03`\x03`\x06`\u050A\n`\r`\x0E`\u050B\x03a\x03a\x03a\x06\u0301" +
+		"`\x03`\x03`\x03`\x03`\x06`\u050B\n`\r`\x0E`\u050C\x03a\x03a\x03a\x06\u0301" +
 		"\u0314\u035E\u0487\x02\x02b\x02\x02\x04\x02\x06\x02\b\x02\n\x02\f\x02" +
 		"\x0E\x02\x10\x02\x12\x02\x14\x02\x16\x02\x18\x02\x1A\x02\x1C\x02\x1E\x02" +
 		" \x02\"\x02$\x02&\x02(\x02*\x02,\x02.\x020\x022\x024\x026\x028\x02:\x02" +
@@ -6555,7 +6565,7 @@ export class clozeParser extends Parser {
 		"\xC0\x02\x02\x14\x07\x02UVXYgnwxz{\x04\x02TTii\x04\x02UUjj\x04\x02VVk" +
 		"k\x04\x02WWll\x04\x02XXmm\x04\x02YYnn\x04\x02``rr\x04\x02bbss\x04\x02" +
 		"cctt\x04\x02dduu\x04\x02eevv\x03\x0267\x04\x02DDGJ\x03\x02\x1E\x1E\x04" +
-		"\x02\x1F\x1F!!\x03\x02$$\x03\x02%%\x02\u05A7\x02\xCF\x03\x02\x02\x02\x04" +
+		"\x02\x1F\x1F!!\x03\x02$$\x03\x02%%\x02\u05A9\x02\xCF\x03\x02\x02\x02\x04" +
 		"\xD5\x03\x02\x02\x02\x06\xDB\x03\x02\x02\x02\b\u0105\x03\x02\x02\x02\n" +
 		"\u0107\x03\x02\x02\x02\f\u0109\x03\x02\x02\x02\x0E\u0132\x03\x02\x02\x02" +
 		"\x10\u0167\x03\x02\x02\x02\x12\u019C\x03\x02\x02\x02\x14\u01A7\x03\x02" +
@@ -6588,7 +6598,7 @@ export class clozeParser extends Parser {
 		"\x02\xAC\u04EF\x03\x02\x02\x02\xAE\u04F1\x03\x02\x02\x02\xB0\u04F3\x03" +
 		"\x02\x02\x02\xB2\u04F5\x03\x02\x02\x02\xB4\u04F7\x03\x02\x02\x02\xB6\u04F9" +
 		"\x03\x02\x02\x02\xB8\u04FB\x03\x02\x02\x02\xBA\u04FD\x03\x02\x02\x02\xBC" +
-		"\u04FF\x03\x02\x02\x02\xBE\u0509\x03\x02\x02\x02\xC0\u050D\x03\x02\x02" +
+		"\u04FF\x03\x02\x02\x02\xBE\u050A\x03\x02\x02\x02\xC0\u050E\x03\x02\x02" +
 		"\x02\xC2\xCC\x05\x04\x03\x02\xC3\xC5\x07\x03\x02\x02\xC4\xC3\x03\x02\x02" +
 		"\x02\xC5\xC8\x03\x02\x02\x02\xC6\xC4\x03\x02\x02\x02\xC6\xC7\x03\x02\x02" +
 		"\x02\xC7\xC9\x03\x02\x02\x02\xC8\xC6\x03\x02\x02\x02\xC9\xCB\x05\xB6\\" +
@@ -6665,23 +6675,23 @@ export class clozeParser extends Parser {
 		"\x02\x02\u015F\u0161\x05\n\x06\x02\u0160\u015C\x03\x02\x02\x02\u0161\u0164" +
 		"\x03\x02\x02\x02\u0162\u0160\x03\x02\x02\x02\u0162\u0163\x03\x02\x02\x02" +
 		"\u0163\u0166\x03\x02\x02\x02\u0164\u0162\x03\x02\x02\x02\u0165\u0158\x03" +
-		"\x02\x02\x02\u0165\u0166\x03\x02\x02\x02\u0166\x0F";
+		"\x02\x02\x02\u0165\u0166\x03\x02\x02\x02";
 	private static readonly _serializedATNSegment1: string =
-		"\x03\x02\x02\x02\u0167\u0168\x07\x07\x02\x02\u0168\u0169\x05(\x15\x02" +
-		"\u0169\u016B\x07\x1E\x02\x02\u016A\u016C\x05\xB6\\\x02\u016B\u016A\x03" +
-		"\x02\x02\x02\u016B\u016C\x03\x02\x02\x02\u016C\u0170\x03\x02\x02\x02\u016D" +
-		"\u016E\x05r:\x02\u016E\u016F\x05\xB6\\\x02\u016F\u0171\x03\x02\x02\x02" +
-		"\u0170\u016D\x03\x02\x02\x02\u0170\u0171\x03\x02\x02\x02\u0171\u0173\x03" +
-		"\x02\x02\x02\u0172\u0174\x05\x84C\x02\u0173\u0172\x03\x02\x02\x02\u0173" +
-		"\u0174\x03\x02\x02\x02\u0174\u0178\x03\x02\x02\x02\u0175\u0177\x05\xB6" +
-		"\\\x02\u0176\u0175\x03\x02\x02\x02\u0177\u017A\x03\x02\x02\x02\u0178\u0176" +
-		"\x03\x02\x02\x02\u0178\u0179\x03\x02\x02\x02\u0179\u0184\x03\x02\x02\x02" +
-		"\u017A\u0178\x03\x02\x02\x02\u017B\u017F\x05\b\x05\x02\u017C\u017E\x05" +
-		"\xB6\\\x02\u017D\u017C\x03\x02\x02\x02\u017E\u0181\x03\x02\x02\x02\u017F" +
-		"\u017D\x03\x02\x02\x02\u017F\u0180\x03\x02\x02\x02\u0180\u0183\x03\x02" +
-		"\x02\x02\u0181\u017F\x03\x02\x02\x02\u0182\u017B\x03\x02\x02\x02\u0183" +
-		"\u0186\x03\x02\x02\x02\u0184\u0182\x03\x02\x02\x02\u0184\u0185\x03\x02" +
-		"\x02\x02\u0185\u018A\x03\x02\x02\x02\u0186\u0184\x03\x02\x02\x02\u0187" +
+		"\u0166\x0F\x03\x02\x02\x02\u0167\u0168\x07\x07\x02\x02\u0168\u0169\x05" +
+		"(\x15\x02\u0169\u016B\x07\x1E\x02\x02\u016A\u016C\x05\xB6\\\x02\u016B" +
+		"\u016A\x03\x02\x02\x02\u016B\u016C\x03\x02\x02\x02\u016C\u0170\x03\x02" +
+		"\x02\x02\u016D\u016E\x05r:\x02\u016E\u016F\x05\xB6\\\x02\u016F\u0171\x03" +
+		"\x02\x02\x02\u0170\u016D\x03\x02\x02\x02\u0170\u0171\x03\x02\x02\x02\u0171" +
+		"\u0173\x03\x02\x02\x02\u0172\u0174\x05\x84C\x02\u0173\u0172\x03\x02\x02" +
+		"\x02\u0173\u0174\x03\x02\x02\x02\u0174\u0178\x03\x02\x02\x02\u0175\u0177" +
+		"\x05\xB6\\\x02\u0176\u0175\x03\x02\x02\x02\u0177\u017A\x03\x02\x02\x02" +
+		"\u0178\u0176\x03\x02\x02\x02\u0178\u0179\x03\x02\x02\x02\u0179\u0184\x03" +
+		"\x02\x02\x02\u017A\u0178\x03\x02\x02\x02\u017B\u017F\x05\b\x05\x02\u017C" +
+		"\u017E\x05\xB6\\\x02\u017D\u017C\x03\x02\x02\x02\u017E\u0181\x03\x02\x02" +
+		"\x02\u017F\u017D\x03\x02\x02\x02\u017F\u0180\x03\x02\x02\x02\u0180\u0183" +
+		"\x03\x02\x02\x02\u0181\u017F\x03\x02\x02\x02\u0182\u017B\x03\x02\x02\x02" +
+		"\u0183\u0186\x03\x02\x02\x02\u0184\u0182\x03\x02\x02\x02\u0184\u0185\x03" +
+		"\x02\x02\x02\u0185\u018A\x03\x02\x02\x02\u0186\u0184\x03\x02\x02\x02\u0187" +
 		"\u0189\x070\x02\x02\u0188\u0187\x03\x02\x02\x02\u0189\u018C\x03\x02\x02" +
 		"\x02\u018A\u0188\x03\x02\x02\x02\u018A\u018B\x03\x02\x02\x02\u018B\u019A" +
 		"\x03\x02\x02\x02\u018C\u018A\x03\x02\x02\x02\u018D\u0197\x05\n\x06\x02" +
@@ -6981,11 +6991,11 @@ export class clozeParser extends Parser {
 		"\u040B\u0409\x03\x02\x02\x02\u040C\u040E\x05\x9CO\x02\u040D\u040C\x03" +
 		"\x02\x02\x02\u040D\u040E\x03\x02\x02\x02\u040E\u0424\x03\x02\x02\x02\u040F" +
 		"\u0419\x05\x9CO\x02\u0410\u0414\x070\x02\x02\u0411\u0413\x07\x03\x02\x02" +
-		"\u0412\u0411\x03\x02";
+		"\u0412\u0411";
 	private static readonly _serializedATNSegment2: string =
-		"\x02\x02\u0413\u0416\x03\x02\x02\x02\u0414\u0412\x03\x02\x02\x02\u0414" +
-		"\u0415\x03\x02\x02\x02\u0415\u0418\x03\x02\x02\x02\u0416\u0414\x03\x02" +
-		"\x02\x02\u0417\u0410\x03\x02\x02\x02\u0418\u041B\x03\x02\x02\x02\u0419" +
+		"\x03\x02\x02\x02\u0413\u0416\x03\x02\x02\x02\u0414\u0412\x03\x02\x02\x02" +
+		"\u0414\u0415\x03\x02\x02\x02\u0415\u0418\x03\x02\x02\x02\u0416\u0414\x03" +
+		"\x02\x02\x02\u0417\u0410\x03\x02\x02\x02\u0418\u041B\x03\x02\x02\x02\u0419" +
 		"\u0417\x03\x02\x02\x02\u0419\u041A\x03\x02\x02\x02\u041A\u041F\x03\x02" +
 		"\x02\x02\u041B\u0419\x03\x02\x02\x02\u041C\u041E\x070\x02\x02\u041D\u041C" +
 		"\x03\x02\x02\x02\u041E\u0421\x03\x02\x02\x02\u041F\u041D\x03\x02\x02\x02" +
@@ -7091,29 +7101,30 @@ export class clozeParser extends Parser {
 		"\x02\x02\u04F7\u04F8\x07\x1E\x02\x02\u04F8\xB5\x03\x02\x02\x02\u04F9\u04FA" +
 		"\x070\x02\x02\u04FA\xB7\x03\x02\x02\x02\u04FB\u04FC\x07\x8C\x02\x02\u04FC" +
 		"\xB9\x03\x02\x02\x02\u04FD\u04FE\x07.\x02\x02\u04FE\xBB\x03\x02\x02\x02" +
-		"\u04FF\u0500\x07/\x02\x02\u0500\xBD\x03\x02\x02\x02\u0501\u050A\x071\x02" +
-		"\x02\u0502\u050A\x07 \x02\x02\u0503\u0504\x07$\x02\x02\u0504\u050A\n\x12" +
-		"\x02\x02\u0505\u0506\x07%\x02\x02\u0506\u050A\n\x13\x02\x02\u0507\u050A" +
-		"\x07(\x02\x02\u0508\u050A\x07\'\x02\x02\u0509\u0501\x03\x02\x02\x02\u0509" +
-		"\u0502\x03\x02\x02\x02\u0509\u0503\x03\x02\x02\x02\u0509\u0505\x03\x02" +
-		"\x02\x02\u0509\u0507\x03\x02\x02\x02\u0509\u0508\x03\x02\x02\x02\u050A" +
-		"\u050B\x03\x02\x02\x02\u050B\u0509\x03\x02\x02\x02\u050B\u050C\x03\x02" +
-		"\x02\x02\u050C\xBF\x03\x02\x02\x02\u050D\u050E\x07\x03\x02\x02\u050E\xC1" +
-		"\x03\x02\x02\x02\xB4\xC6\xCC\xD1\xDB\xEC\xF3\xFA\u0105\u010F\u0116\u011B" +
-		"\u0120\u0127\u012D\u0130\u0136\u013B\u013E\u0143\u014A\u014F\u0155\u015C" +
-		"\u0162\u0165\u016B\u0170\u0173\u0178\u017F\u0184\u018A\u0191\u0197\u019A" +
-		"\u01A2\u01A4\u01AB\u01B0\u01BB\u01C2\u01C9\u01CC\u01CE\u01D3\u01DA\u01E0" +
-		"\u01E3\u01E6\u01F1\u01F6\u01F8\u01FC\u0202\u0207\u020D\u0212\u0218\u0220" +
-		"\u0227\u0230\u0235\u0237\u0245\u024B\u0250\u0254\u0258\u025B\u0260\u0277" +
-		"\u027C\u027E\u0288\u0292\u029C\u02A2\u02A9\u02AF\u02B7\u02C1\u02CC\u02D2" +
-		"\u02D7\u02DE\u02E7\u02EB\u02EF\u02F2\u0301\u0305\u0314\u0318\u031E\u0329" +
-		"\u032E\u0333\u0335\u033A\u033F\u0341\u0346\u034C\u0351\u0353\u035E\u0362" +
-		"\u036F\u0373\u0379\u037B\u0382\u0386\u0388\u038E\u0390\u0397\u039C\u039F" +
-		"\u03A5\u03A8\u03AC\u03B3\u03B8\u03BE\u03C3\u03CB\u03CD\u03D1\u03D8\u03DA" +
-		"\u03E3\u03E5\u03E9\u03F3\u03F5\u03F9\u03FF\u0401\u0409\u040D\u0414\u0419" +
-		"\u041F\u0424\u042C\u0430\u0433\u0439\u0440\u0442\u0449\u0453\u045E\u046C" +
-		"\u0472\u047C\u047E\u0487\u048B\u0491\u0493\u049A\u049C\u04A0\u04A4\u04AA" +
-		"\u04AE\u04B4\u04B7\u04BD\u04C0\u04CA\u04D1\u04D8\u04DF\u0509\u050B";
+		"\u04FF\u0500\x07/\x02\x02\u0500\xBD\x03\x02\x02\x02\u0501\u050B\x071\x02" +
+		"\x02\u0502\u050B\x072\x02\x02\u0503\u050B\x07 \x02\x02\u0504\u0505\x07" +
+		"$\x02\x02\u0505\u050B\n\x12\x02\x02\u0506\u0507\x07%\x02\x02\u0507\u050B" +
+		"\n\x13\x02\x02\u0508\u050B\x07(\x02\x02\u0509\u050B\x07\'\x02\x02\u050A" +
+		"\u0501\x03\x02\x02\x02\u050A\u0502\x03\x02\x02\x02\u050A\u0503\x03\x02" +
+		"\x02\x02\u050A\u0504\x03\x02\x02\x02\u050A\u0506\x03\x02\x02\x02\u050A" +
+		"\u0508\x03\x02\x02\x02\u050A\u0509\x03\x02\x02\x02\u050B\u050C\x03\x02" +
+		"\x02\x02\u050C\u050A\x03\x02\x02\x02\u050C\u050D\x03\x02\x02\x02\u050D" +
+		"\xBF\x03\x02\x02\x02\u050E\u050F\x07\x03\x02\x02\u050F\xC1\x03\x02\x02" +
+		"\x02\xB4\xC6\xCC\xD1\xDB\xEC\xF3\xFA\u0105\u010F\u0116\u011B\u0120\u0127" +
+		"\u012D\u0130\u0136\u013B\u013E\u0143\u014A\u014F\u0155\u015C\u0162\u0165" +
+		"\u016B\u0170\u0173\u0178\u017F\u0184\u018A\u0191\u0197\u019A\u01A2\u01A4" +
+		"\u01AB\u01B0\u01BB\u01C2\u01C9\u01CC\u01CE\u01D3\u01DA\u01E0\u01E3\u01E6" +
+		"\u01F1\u01F6\u01F8\u01FC\u0202\u0207\u020D\u0212\u0218\u0220\u0227\u0230" +
+		"\u0235\u0237\u0245\u024B\u0250\u0254\u0258\u025B\u0260\u0277\u027C\u027E" +
+		"\u0288\u0292\u029C\u02A2\u02A9\u02AF\u02B7\u02C1\u02CC\u02D2\u02D7\u02DE" +
+		"\u02E7\u02EB\u02EF\u02F2\u0301\u0305\u0314\u0318\u031E\u0329\u032E\u0333" +
+		"\u0335\u033A\u033F\u0341\u0346\u034C\u0351\u0353\u035E\u0362\u036F\u0373" +
+		"\u0379\u037B\u0382\u0386\u0388\u038E\u0390\u0397\u039C\u039F\u03A5\u03A8" +
+		"\u03AC\u03B3\u03B8\u03BE\u03C3\u03CB\u03CD\u03D1\u03D8\u03DA\u03E3\u03E5" +
+		"\u03E9\u03F3\u03F5\u03F9\u03FF\u0401\u0409\u040D\u0414\u0419\u041F\u0424" +
+		"\u042C\u0430\u0433\u0439\u0440\u0442\u0449\u0453\u045E\u046C\u0472\u047C" +
+		"\u047E\u0487\u048B\u0491\u0493\u049A\u049C\u04A0\u04A4\u04AA\u04AE\u04B4" +
+		"\u04B7\u04BD\u04C0\u04CA\u04D1\u04D8\u04DF\u050A\u050C";
 	public static readonly _serializedATN: string = Utils.join(
 		[
 			clozeParser._serializedATNSegment0,
@@ -10411,6 +10422,15 @@ export class WordsContext extends ParserRuleContext {
 			return this.getTokens(clozeParser.SENTENCE);
 		} else {
 			return this.getToken(clozeParser.SENTENCE, i);
+		}
+	}
+	public BARSTRING(): TerminalNode[];
+	public BARSTRING(i: number): TerminalNode;
+	public BARSTRING(i?: number): TerminalNode | TerminalNode[] {
+		if (i === undefined) {
+			return this.getTokens(clozeParser.BARSTRING);
+		} else {
+			return this.getToken(clozeParser.BARSTRING, i);
 		}
 	}
 	public AMP(): TerminalNode[];

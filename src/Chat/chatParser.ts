@@ -492,7 +492,7 @@ export class chatParser extends Parser {
 			this.state = 207;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
-			while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << chatParser.S) | (1 << chatParser.OPRANGLES) | (1 << chatParser.OPRANGLEL) | (1 << chatParser.OPDANGLE) | (1 << chatParser.OPU) | (1 << chatParser.OPB) | (1 << chatParser.OPQ) | (1 << chatParser.OPA) | (1 << chatParser.OPS) | (1 << chatParser.OPC) | (1 << chatParser.OPHASH) | (1 << chatParser.COLON) | (1 << chatParser.AMP) | (1 << chatParser.DBLCOLON) | (1 << chatParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (chatParser.Less - 32)) | (1 << (chatParser.RightAngle - 32)) | (1 << (chatParser.RightArrow - 32)) | (1 << (chatParser.DBLEQ - 32)) | (1 << (chatParser.ArticleText - 32)) | (1 << (chatParser.NUMERIC - 32)) | (1 << (chatParser.STRING - 32)) | (1 << (chatParser.SENTENCE - 32)) | (1 << (chatParser.AtReference - 32)) | (1 << (chatParser.AtExampleWithStr - 32)) | (1 << (chatParser.AtExamplecol - 32)) | (1 << (chatParser.AtExamplecl - 32)) | (1 << (chatParser.AtLabeltrue - 32)) | (1 << (chatParser.AtLabelfalse - 32)))) !== 0) || ((((_la - 70)) & ~0x1F) === 0 && ((1 << (_la - 70)) & ((1 << (chatParser.OpAtCopyright - 70)) | (1 << (chatParser.OpAmpAudio - 70)) | (1 << (chatParser.OpAmpImage - 70)) | (1 << (chatParser.OpAmpImageZoom - 70)) | (1 << (chatParser.OpAmpImageWAudio - 70)) | (1 << (chatParser.OpAmpVideo - 70)) | (1 << (chatParser.OpAmpArticle - 70)) | (1 << (chatParser.OpAmpDocument - 70)) | (1 << (chatParser.OpAmpApp - 70)) | (1 << (chatParser.OpAmpWebsite - 70)) | (1 << (chatParser.OpAmpStillImageFilm - 70)))) !== 0) || ((((_la - 108)) & ~0x1F) === 0 && ((1 << (_la - 108)) & ((1 << (chatParser.OpAmpAudioLink - 108)) | (1 << (chatParser.OpAmpImageLink - 108)) | (1 << (chatParser.OpAmpVideoLink - 108)) | (1 << (chatParser.OpAmpArticleLink - 108)) | (1 << (chatParser.OpAmpDocumentLink - 108)) | (1 << (chatParser.OpAmpAppLink - 108)) | (1 << (chatParser.OpAmpWebsiteLink - 108)) | (1 << (chatParser.OpAmpStillImageFilmLink - 108)) | (1 << (chatParser.URL - 108)) | (1 << (chatParser.LIST_LINE - 108)))) !== 0)) {
+			while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << chatParser.S) | (1 << chatParser.OPRANGLES) | (1 << chatParser.OPRANGLEL) | (1 << chatParser.OPDANGLE) | (1 << chatParser.OPU) | (1 << chatParser.OPB) | (1 << chatParser.OPQ) | (1 << chatParser.OPA) | (1 << chatParser.OPS) | (1 << chatParser.OPC) | (1 << chatParser.OPHASH) | (1 << chatParser.COLON) | (1 << chatParser.AMP) | (1 << chatParser.DBLCOLON) | (1 << chatParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (chatParser.Less - 32)) | (1 << (chatParser.RightAngle - 32)) | (1 << (chatParser.RightArrow - 32)) | (1 << (chatParser.DBLEQ - 32)) | (1 << (chatParser.ArticleText - 32)) | (1 << (chatParser.NUMERIC - 32)) | (1 << (chatParser.STRING - 32)) | (1 << (chatParser.SENTENCE - 32)) | (1 << (chatParser.BARSTRING - 32)) | (1 << (chatParser.AtReference - 32)) | (1 << (chatParser.AtExampleWithStr - 32)) | (1 << (chatParser.AtExamplecol - 32)) | (1 << (chatParser.AtExamplecl - 32)) | (1 << (chatParser.AtLabeltrue - 32)) | (1 << (chatParser.AtLabelfalse - 32)))) !== 0) || ((((_la - 70)) & ~0x1F) === 0 && ((1 << (_la - 70)) & ((1 << (chatParser.OpAtCopyright - 70)) | (1 << (chatParser.OpAmpAudio - 70)) | (1 << (chatParser.OpAmpImage - 70)) | (1 << (chatParser.OpAmpImageZoom - 70)) | (1 << (chatParser.OpAmpImageWAudio - 70)) | (1 << (chatParser.OpAmpVideo - 70)) | (1 << (chatParser.OpAmpArticle - 70)) | (1 << (chatParser.OpAmpDocument - 70)) | (1 << (chatParser.OpAmpApp - 70)) | (1 << (chatParser.OpAmpWebsite - 70)) | (1 << (chatParser.OpAmpStillImageFilm - 70)))) !== 0) || ((((_la - 108)) & ~0x1F) === 0 && ((1 << (_la - 108)) & ((1 << (chatParser.OpAmpAudioLink - 108)) | (1 << (chatParser.OpAmpImageLink - 108)) | (1 << (chatParser.OpAmpVideoLink - 108)) | (1 << (chatParser.OpAmpArticleLink - 108)) | (1 << (chatParser.OpAmpDocumentLink - 108)) | (1 << (chatParser.OpAmpAppLink - 108)) | (1 << (chatParser.OpAmpWebsiteLink - 108)) | (1 << (chatParser.OpAmpStillImageFilmLink - 108)) | (1 << (chatParser.URL - 108)) | (1 << (chatParser.LIST_LINE - 108)))) !== 0)) {
 				{
 				{
 				this.state = 198;
@@ -707,7 +707,7 @@ export class chatParser extends Parser {
 			this.state = 266;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
-			while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << chatParser.S) | (1 << chatParser.OPRANGLES) | (1 << chatParser.OPRANGLEL) | (1 << chatParser.OPDANGLE) | (1 << chatParser.OPU) | (1 << chatParser.OPB) | (1 << chatParser.OPQ) | (1 << chatParser.OPA) | (1 << chatParser.OPS) | (1 << chatParser.OPC) | (1 << chatParser.OPHASH) | (1 << chatParser.COLON) | (1 << chatParser.AMP) | (1 << chatParser.DBLCOLON) | (1 << chatParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (chatParser.Less - 32)) | (1 << (chatParser.RightAngle - 32)) | (1 << (chatParser.RightArrow - 32)) | (1 << (chatParser.DBLEQ - 32)) | (1 << (chatParser.ArticleText - 32)) | (1 << (chatParser.NUMERIC - 32)) | (1 << (chatParser.STRING - 32)) | (1 << (chatParser.SENTENCE - 32)) | (1 << (chatParser.AtReference - 32)) | (1 << (chatParser.AtExampleWithStr - 32)) | (1 << (chatParser.AtExamplecol - 32)) | (1 << (chatParser.AtExamplecl - 32)) | (1 << (chatParser.AtLabeltrue - 32)) | (1 << (chatParser.AtLabelfalse - 32)))) !== 0) || ((((_la - 70)) & ~0x1F) === 0 && ((1 << (_la - 70)) & ((1 << (chatParser.OpAtCopyright - 70)) | (1 << (chatParser.OpAmpAudio - 70)) | (1 << (chatParser.OpAmpImage - 70)) | (1 << (chatParser.OpAmpImageZoom - 70)) | (1 << (chatParser.OpAmpImageWAudio - 70)) | (1 << (chatParser.OpAmpVideo - 70)) | (1 << (chatParser.OpAmpArticle - 70)) | (1 << (chatParser.OpAmpDocument - 70)) | (1 << (chatParser.OpAmpApp - 70)) | (1 << (chatParser.OpAmpWebsite - 70)) | (1 << (chatParser.OpAmpStillImageFilm - 70)))) !== 0) || ((((_la - 108)) & ~0x1F) === 0 && ((1 << (_la - 108)) & ((1 << (chatParser.OpAmpAudioLink - 108)) | (1 << (chatParser.OpAmpImageLink - 108)) | (1 << (chatParser.OpAmpVideoLink - 108)) | (1 << (chatParser.OpAmpArticleLink - 108)) | (1 << (chatParser.OpAmpDocumentLink - 108)) | (1 << (chatParser.OpAmpAppLink - 108)) | (1 << (chatParser.OpAmpWebsiteLink - 108)) | (1 << (chatParser.OpAmpStillImageFilmLink - 108)) | (1 << (chatParser.URL - 108)) | (1 << (chatParser.LIST_LINE - 108)))) !== 0)) {
+			while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << chatParser.S) | (1 << chatParser.OPRANGLES) | (1 << chatParser.OPRANGLEL) | (1 << chatParser.OPDANGLE) | (1 << chatParser.OPU) | (1 << chatParser.OPB) | (1 << chatParser.OPQ) | (1 << chatParser.OPA) | (1 << chatParser.OPS) | (1 << chatParser.OPC) | (1 << chatParser.OPHASH) | (1 << chatParser.COLON) | (1 << chatParser.AMP) | (1 << chatParser.DBLCOLON) | (1 << chatParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (chatParser.Less - 32)) | (1 << (chatParser.RightAngle - 32)) | (1 << (chatParser.RightArrow - 32)) | (1 << (chatParser.DBLEQ - 32)) | (1 << (chatParser.ArticleText - 32)) | (1 << (chatParser.NUMERIC - 32)) | (1 << (chatParser.STRING - 32)) | (1 << (chatParser.SENTENCE - 32)) | (1 << (chatParser.BARSTRING - 32)) | (1 << (chatParser.AtReference - 32)) | (1 << (chatParser.AtExampleWithStr - 32)) | (1 << (chatParser.AtExamplecol - 32)) | (1 << (chatParser.AtExamplecl - 32)) | (1 << (chatParser.AtLabeltrue - 32)) | (1 << (chatParser.AtLabelfalse - 32)))) !== 0) || ((((_la - 70)) & ~0x1F) === 0 && ((1 << (_la - 70)) & ((1 << (chatParser.OpAtCopyright - 70)) | (1 << (chatParser.OpAmpAudio - 70)) | (1 << (chatParser.OpAmpImage - 70)) | (1 << (chatParser.OpAmpImageZoom - 70)) | (1 << (chatParser.OpAmpImageWAudio - 70)) | (1 << (chatParser.OpAmpVideo - 70)) | (1 << (chatParser.OpAmpArticle - 70)) | (1 << (chatParser.OpAmpDocument - 70)) | (1 << (chatParser.OpAmpApp - 70)) | (1 << (chatParser.OpAmpWebsite - 70)) | (1 << (chatParser.OpAmpStillImageFilm - 70)))) !== 0) || ((((_la - 108)) & ~0x1F) === 0 && ((1 << (_la - 108)) & ((1 << (chatParser.OpAmpAudioLink - 108)) | (1 << (chatParser.OpAmpImageLink - 108)) | (1 << (chatParser.OpAmpVideoLink - 108)) | (1 << (chatParser.OpAmpArticleLink - 108)) | (1 << (chatParser.OpAmpDocumentLink - 108)) | (1 << (chatParser.OpAmpAppLink - 108)) | (1 << (chatParser.OpAmpWebsiteLink - 108)) | (1 << (chatParser.OpAmpStillImageFilmLink - 108)) | (1 << (chatParser.URL - 108)) | (1 << (chatParser.LIST_LINE - 108)))) !== 0)) {
 				{
 				{
 				this.state = 257;
@@ -1408,7 +1408,7 @@ export class chatParser extends Parser {
 			this.state = 374;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
-			while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << chatParser.S) | (1 << chatParser.OPS) | (1 << chatParser.COLON) | (1 << chatParser.AMP) | (1 << chatParser.DBLCOLON) | (1 << chatParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (chatParser.Less - 32)) | (1 << (chatParser.RightAngle - 32)) | (1 << (chatParser.RightArrow - 32)) | (1 << (chatParser.DBLEQ - 32)) | (1 << (chatParser.NUMERIC - 32)) | (1 << (chatParser.STRING - 32)) | (1 << (chatParser.SENTENCE - 32)))) !== 0) || _la === chatParser.URL) {
+			while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << chatParser.S) | (1 << chatParser.OPS) | (1 << chatParser.COLON) | (1 << chatParser.AMP) | (1 << chatParser.DBLCOLON) | (1 << chatParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (chatParser.Less - 32)) | (1 << (chatParser.RightAngle - 32)) | (1 << (chatParser.RightArrow - 32)) | (1 << (chatParser.DBLEQ - 32)) | (1 << (chatParser.NUMERIC - 32)) | (1 << (chatParser.STRING - 32)) | (1 << (chatParser.SENTENCE - 32)) | (1 << (chatParser.BARSTRING - 32)))) !== 0) || _la === chatParser.URL) {
 				{
 				{
 				this.state = 371;
@@ -3429,6 +3429,7 @@ export class chatParser extends Parser {
 					case chatParser.NUMERIC:
 					case chatParser.STRING:
 					case chatParser.SENTENCE:
+					case chatParser.BARSTRING:
 					case chatParser.URL:
 						{
 						this.state = 675;
@@ -3448,7 +3449,7 @@ export class chatParser extends Parser {
 					this.state = 679;
 					this._errHandler.sync(this);
 					_la = this._input.LA(1);
-				} while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << chatParser.S) | (1 << chatParser.OPS) | (1 << chatParser.COLON) | (1 << chatParser.AMP) | (1 << chatParser.DBLCOLON) | (1 << chatParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (chatParser.Less - 32)) | (1 << (chatParser.RightAngle - 32)) | (1 << (chatParser.RightArrow - 32)) | (1 << (chatParser.DBLEQ - 32)) | (1 << (chatParser.NUMERIC - 32)) | (1 << (chatParser.STRING - 32)) | (1 << (chatParser.NL - 32)) | (1 << (chatParser.SENTENCE - 32)))) !== 0) || _la === chatParser.URL);
+				} while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << chatParser.S) | (1 << chatParser.OPS) | (1 << chatParser.COLON) | (1 << chatParser.AMP) | (1 << chatParser.DBLCOLON) | (1 << chatParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (chatParser.Less - 32)) | (1 << (chatParser.RightAngle - 32)) | (1 << (chatParser.RightArrow - 32)) | (1 << (chatParser.DBLEQ - 32)) | (1 << (chatParser.NUMERIC - 32)) | (1 << (chatParser.STRING - 32)) | (1 << (chatParser.NL - 32)) | (1 << (chatParser.SENTENCE - 32)) | (1 << (chatParser.BARSTRING - 32)))) !== 0) || _la === chatParser.URL);
 				this.state = 681;
 				this.match(chatParser.CL);
 				}
@@ -3641,7 +3642,7 @@ export class chatParser extends Parser {
 				this.state = 719;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-				while (((((_la - 26)) & ~0x1F) === 0 && ((1 << (_la - 26)) & ((1 << (chatParser.COLON - 26)) | (1 << (chatParser.AMP - 26)) | (1 << (chatParser.Greater - 26)) | (1 << (chatParser.Less - 26)) | (1 << (chatParser.RightAngle - 26)) | (1 << (chatParser.RightArrow - 26)) | (1 << (chatParser.DBLEQ - 26)) | (1 << (chatParser.SENTENCE - 26)))) !== 0)) {
+				while (((((_la - 26)) & ~0x1F) === 0 && ((1 << (_la - 26)) & ((1 << (chatParser.COLON - 26)) | (1 << (chatParser.AMP - 26)) | (1 << (chatParser.Greater - 26)) | (1 << (chatParser.Less - 26)) | (1 << (chatParser.RightAngle - 26)) | (1 << (chatParser.RightArrow - 26)) | (1 << (chatParser.DBLEQ - 26)) | (1 << (chatParser.SENTENCE - 26)) | (1 << (chatParser.BARSTRING - 26)))) !== 0)) {
 					{
 					this.state = 717;
 					this._errHandler.sync(this);
@@ -3659,6 +3660,7 @@ export class chatParser extends Parser {
 					case chatParser.RightArrow:
 					case chatParser.DBLEQ:
 					case chatParser.SENTENCE:
+					case chatParser.BARSTRING:
 						{
 						this.state = 716;
 						this.words();
@@ -3731,7 +3733,7 @@ export class chatParser extends Parser {
 			this.state = 740;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
-			while (((((_la - 26)) & ~0x1F) === 0 && ((1 << (_la - 26)) & ((1 << (chatParser.COLON - 26)) | (1 << (chatParser.AMP - 26)) | (1 << (chatParser.Greater - 26)) | (1 << (chatParser.Less - 26)) | (1 << (chatParser.RightAngle - 26)) | (1 << (chatParser.RightArrow - 26)) | (1 << (chatParser.DBLEQ - 26)) | (1 << (chatParser.SENTENCE - 26)))) !== 0)) {
+			while (((((_la - 26)) & ~0x1F) === 0 && ((1 << (_la - 26)) & ((1 << (chatParser.COLON - 26)) | (1 << (chatParser.AMP - 26)) | (1 << (chatParser.Greater - 26)) | (1 << (chatParser.Less - 26)) | (1 << (chatParser.RightAngle - 26)) | (1 << (chatParser.RightArrow - 26)) | (1 << (chatParser.DBLEQ - 26)) | (1 << (chatParser.SENTENCE - 26)) | (1 << (chatParser.BARSTRING - 26)))) !== 0)) {
 				{
 				this.state = 738;
 				this._errHandler.sync(this);
@@ -3749,6 +3751,7 @@ export class chatParser extends Parser {
 				case chatParser.RightArrow:
 				case chatParser.DBLEQ:
 				case chatParser.SENTENCE:
+				case chatParser.BARSTRING:
 					{
 					this.state = 737;
 					this.words();
@@ -3797,7 +3800,7 @@ export class chatParser extends Parser {
 				this.state = 747;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-				if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << chatParser.S) | (1 << chatParser.OPS) | (1 << chatParser.COLON) | (1 << chatParser.AMP) | (1 << chatParser.DBLCOLON) | (1 << chatParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (chatParser.Less - 32)) | (1 << (chatParser.RightAngle - 32)) | (1 << (chatParser.RightArrow - 32)) | (1 << (chatParser.DBLEQ - 32)) | (1 << (chatParser.NUMERIC - 32)) | (1 << (chatParser.STRING - 32)) | (1 << (chatParser.SENTENCE - 32)))) !== 0) || _la === chatParser.URL) {
+				if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << chatParser.S) | (1 << chatParser.OPS) | (1 << chatParser.COLON) | (1 << chatParser.AMP) | (1 << chatParser.DBLCOLON) | (1 << chatParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (chatParser.Less - 32)) | (1 << (chatParser.RightAngle - 32)) | (1 << (chatParser.RightArrow - 32)) | (1 << (chatParser.DBLEQ - 32)) | (1 << (chatParser.NUMERIC - 32)) | (1 << (chatParser.STRING - 32)) | (1 << (chatParser.SENTENCE - 32)) | (1 << (chatParser.BARSTRING - 32)))) !== 0) || _la === chatParser.URL) {
 					{
 					this.state = 746;
 					this.s_and_w();
@@ -3816,7 +3819,7 @@ export class chatParser extends Parser {
 				this.state = 752;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-				if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << chatParser.S) | (1 << chatParser.OPS) | (1 << chatParser.COLON) | (1 << chatParser.AMP) | (1 << chatParser.DBLCOLON) | (1 << chatParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (chatParser.Less - 32)) | (1 << (chatParser.RightAngle - 32)) | (1 << (chatParser.RightArrow - 32)) | (1 << (chatParser.DBLEQ - 32)) | (1 << (chatParser.NUMERIC - 32)) | (1 << (chatParser.STRING - 32)) | (1 << (chatParser.SENTENCE - 32)))) !== 0) || _la === chatParser.URL) {
+				if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << chatParser.S) | (1 << chatParser.OPS) | (1 << chatParser.COLON) | (1 << chatParser.AMP) | (1 << chatParser.DBLCOLON) | (1 << chatParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (chatParser.Less - 32)) | (1 << (chatParser.RightAngle - 32)) | (1 << (chatParser.RightArrow - 32)) | (1 << (chatParser.DBLEQ - 32)) | (1 << (chatParser.NUMERIC - 32)) | (1 << (chatParser.STRING - 32)) | (1 << (chatParser.SENTENCE - 32)) | (1 << (chatParser.BARSTRING - 32)))) !== 0) || _la === chatParser.URL) {
 					{
 					this.state = 751;
 					this.s_and_w();
@@ -3933,7 +3936,7 @@ export class chatParser extends Parser {
 				this.state = 791;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-				while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << chatParser.S) | (1 << chatParser.OPS) | (1 << chatParser.COLON) | (1 << chatParser.AMP) | (1 << chatParser.DBLCOLON) | (1 << chatParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (chatParser.Less - 32)) | (1 << (chatParser.RightAngle - 32)) | (1 << (chatParser.RightArrow - 32)) | (1 << (chatParser.DBLEQ - 32)) | (1 << (chatParser.NUMERIC - 32)) | (1 << (chatParser.STRING - 32)) | (1 << (chatParser.SENTENCE - 32)))) !== 0) || _la === chatParser.URL) {
+				while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << chatParser.S) | (1 << chatParser.OPS) | (1 << chatParser.COLON) | (1 << chatParser.AMP) | (1 << chatParser.DBLCOLON) | (1 << chatParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (chatParser.Less - 32)) | (1 << (chatParser.RightAngle - 32)) | (1 << (chatParser.RightArrow - 32)) | (1 << (chatParser.DBLEQ - 32)) | (1 << (chatParser.NUMERIC - 32)) | (1 << (chatParser.STRING - 32)) | (1 << (chatParser.SENTENCE - 32)) | (1 << (chatParser.BARSTRING - 32)))) !== 0) || _la === chatParser.URL) {
 					{
 					{
 					this.state = 770;
@@ -4003,7 +4006,7 @@ export class chatParser extends Parser {
 				this.state = 801;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-				while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << chatParser.S) | (1 << chatParser.OPS) | (1 << chatParser.COLON) | (1 << chatParser.AMP) | (1 << chatParser.DBLCOLON) | (1 << chatParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (chatParser.Less - 32)) | (1 << (chatParser.RightAngle - 32)) | (1 << (chatParser.RightArrow - 32)) | (1 << (chatParser.DBLEQ - 32)) | (1 << (chatParser.NUMERIC - 32)) | (1 << (chatParser.STRING - 32)) | (1 << (chatParser.NL - 32)) | (1 << (chatParser.SENTENCE - 32)))) !== 0) || _la === chatParser.URL) {
+				while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << chatParser.S) | (1 << chatParser.OPS) | (1 << chatParser.COLON) | (1 << chatParser.AMP) | (1 << chatParser.DBLCOLON) | (1 << chatParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (chatParser.Less - 32)) | (1 << (chatParser.RightAngle - 32)) | (1 << (chatParser.RightArrow - 32)) | (1 << (chatParser.DBLEQ - 32)) | (1 << (chatParser.NUMERIC - 32)) | (1 << (chatParser.STRING - 32)) | (1 << (chatParser.NL - 32)) | (1 << (chatParser.SENTENCE - 32)) | (1 << (chatParser.BARSTRING - 32)))) !== 0) || _la === chatParser.URL) {
 					{
 					this.state = 799;
 					this._errHandler.sync(this);
@@ -4108,7 +4111,7 @@ export class chatParser extends Parser {
 					this.state = 814;
 					this._errHandler.sync(this);
 					_la = this._input.LA(1);
-				} while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << chatParser.S) | (1 << chatParser.OPS) | (1 << chatParser.COLON) | (1 << chatParser.AMP) | (1 << chatParser.DBLCOLON) | (1 << chatParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (chatParser.Less - 32)) | (1 << (chatParser.RightAngle - 32)) | (1 << (chatParser.RightArrow - 32)) | (1 << (chatParser.DBLEQ - 32)) | (1 << (chatParser.NUMERIC - 32)) | (1 << (chatParser.STRING - 32)) | (1 << (chatParser.NL - 32)) | (1 << (chatParser.SENTENCE - 32)))) !== 0) || _la === chatParser.URL);
+				} while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << chatParser.S) | (1 << chatParser.OPS) | (1 << chatParser.COLON) | (1 << chatParser.AMP) | (1 << chatParser.DBLCOLON) | (1 << chatParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (chatParser.Less - 32)) | (1 << (chatParser.RightAngle - 32)) | (1 << (chatParser.RightArrow - 32)) | (1 << (chatParser.DBLEQ - 32)) | (1 << (chatParser.NUMERIC - 32)) | (1 << (chatParser.STRING - 32)) | (1 << (chatParser.NL - 32)) | (1 << (chatParser.SENTENCE - 32)) | (1 << (chatParser.BARSTRING - 32)))) !== 0) || _la === chatParser.URL);
 				this.state = 816;
 				this.match(chatParser.CL);
 				}
@@ -4122,7 +4125,7 @@ export class chatParser extends Parser {
 				this.state = 825;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-				while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << chatParser.S) | (1 << chatParser.OPS) | (1 << chatParser.COLON) | (1 << chatParser.AMP) | (1 << chatParser.DBLCOLON) | (1 << chatParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (chatParser.Less - 32)) | (1 << (chatParser.RightAngle - 32)) | (1 << (chatParser.RightArrow - 32)) | (1 << (chatParser.DBLEQ - 32)) | (1 << (chatParser.NUMERIC - 32)) | (1 << (chatParser.STRING - 32)) | (1 << (chatParser.NL - 32)) | (1 << (chatParser.SENTENCE - 32)))) !== 0) || _la === chatParser.URL) {
+				while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << chatParser.S) | (1 << chatParser.OPS) | (1 << chatParser.COLON) | (1 << chatParser.AMP) | (1 << chatParser.DBLCOLON) | (1 << chatParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (chatParser.Less - 32)) | (1 << (chatParser.RightAngle - 32)) | (1 << (chatParser.RightArrow - 32)) | (1 << (chatParser.DBLEQ - 32)) | (1 << (chatParser.NUMERIC - 32)) | (1 << (chatParser.STRING - 32)) | (1 << (chatParser.NL - 32)) | (1 << (chatParser.SENTENCE - 32)) | (1 << (chatParser.BARSTRING - 32)))) !== 0) || _la === chatParser.URL) {
 					{
 					this.state = 823;
 					this._errHandler.sync(this);
@@ -4259,7 +4262,7 @@ export class chatParser extends Parser {
 				this.state = 841;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-			} while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << chatParser.S) | (1 << chatParser.OPS) | (1 << chatParser.COLON) | (1 << chatParser.AMP) | (1 << chatParser.DBLCOLON) | (1 << chatParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (chatParser.Less - 32)) | (1 << (chatParser.RightAngle - 32)) | (1 << (chatParser.RightArrow - 32)) | (1 << (chatParser.DBLEQ - 32)) | (1 << (chatParser.NUMERIC - 32)) | (1 << (chatParser.STRING - 32)) | (1 << (chatParser.NL - 32)) | (1 << (chatParser.SENTENCE - 32)))) !== 0) || _la === chatParser.URL);
+			} while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << chatParser.S) | (1 << chatParser.OPS) | (1 << chatParser.COLON) | (1 << chatParser.AMP) | (1 << chatParser.DBLCOLON) | (1 << chatParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (chatParser.Less - 32)) | (1 << (chatParser.RightAngle - 32)) | (1 << (chatParser.RightArrow - 32)) | (1 << (chatParser.DBLEQ - 32)) | (1 << (chatParser.NUMERIC - 32)) | (1 << (chatParser.STRING - 32)) | (1 << (chatParser.NL - 32)) | (1 << (chatParser.SENTENCE - 32)) | (1 << (chatParser.BARSTRING - 32)))) !== 0) || _la === chatParser.URL);
 			this.state = 843;
 			this.match(chatParser.CL);
 			this.state = 845;
@@ -4331,7 +4334,7 @@ export class chatParser extends Parser {
 				this.state = 853;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-			} while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << chatParser.S) | (1 << chatParser.OPS) | (1 << chatParser.COLON) | (1 << chatParser.AMP) | (1 << chatParser.DBLCOLON) | (1 << chatParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (chatParser.Less - 32)) | (1 << (chatParser.RightAngle - 32)) | (1 << (chatParser.RightArrow - 32)) | (1 << (chatParser.DBLEQ - 32)) | (1 << (chatParser.NUMERIC - 32)) | (1 << (chatParser.STRING - 32)) | (1 << (chatParser.NL - 32)) | (1 << (chatParser.SENTENCE - 32)))) !== 0) || _la === chatParser.URL);
+			} while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << chatParser.S) | (1 << chatParser.OPS) | (1 << chatParser.COLON) | (1 << chatParser.AMP) | (1 << chatParser.DBLCOLON) | (1 << chatParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (chatParser.Less - 32)) | (1 << (chatParser.RightAngle - 32)) | (1 << (chatParser.RightArrow - 32)) | (1 << (chatParser.DBLEQ - 32)) | (1 << (chatParser.NUMERIC - 32)) | (1 << (chatParser.STRING - 32)) | (1 << (chatParser.NL - 32)) | (1 << (chatParser.SENTENCE - 32)) | (1 << (chatParser.BARSTRING - 32)))) !== 0) || _la === chatParser.URL);
 			this.state = 855;
 			this.match(chatParser.CL);
 			}
@@ -4392,7 +4395,7 @@ export class chatParser extends Parser {
 				this.state = 888;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-				while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << chatParser.S) | (1 << chatParser.OPS) | (1 << chatParser.COLON) | (1 << chatParser.AMP) | (1 << chatParser.DBLCOLON) | (1 << chatParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (chatParser.Less - 32)) | (1 << (chatParser.RightAngle - 32)) | (1 << (chatParser.RightArrow - 32)) | (1 << (chatParser.DBLEQ - 32)) | (1 << (chatParser.NUMERIC - 32)) | (1 << (chatParser.STRING - 32)) | (1 << (chatParser.SENTENCE - 32)))) !== 0) || _la === chatParser.URL) {
+				while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << chatParser.S) | (1 << chatParser.OPS) | (1 << chatParser.COLON) | (1 << chatParser.AMP) | (1 << chatParser.DBLCOLON) | (1 << chatParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (chatParser.Less - 32)) | (1 << (chatParser.RightAngle - 32)) | (1 << (chatParser.RightArrow - 32)) | (1 << (chatParser.DBLEQ - 32)) | (1 << (chatParser.NUMERIC - 32)) | (1 << (chatParser.STRING - 32)) | (1 << (chatParser.SENTENCE - 32)) | (1 << (chatParser.BARSTRING - 32)))) !== 0) || _la === chatParser.URL) {
 					{
 					{
 					this.state = 867;
@@ -4476,7 +4479,7 @@ export class chatParser extends Parser {
 				this.state = 900;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-				if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << chatParser.S) | (1 << chatParser.OPS) | (1 << chatParser.COLON) | (1 << chatParser.AMP) | (1 << chatParser.DBLCOLON) | (1 << chatParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (chatParser.Less - 32)) | (1 << (chatParser.RightAngle - 32)) | (1 << (chatParser.RightArrow - 32)) | (1 << (chatParser.DBLEQ - 32)) | (1 << (chatParser.NUMERIC - 32)) | (1 << (chatParser.STRING - 32)) | (1 << (chatParser.SENTENCE - 32)))) !== 0) || _la === chatParser.URL) {
+				if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << chatParser.S) | (1 << chatParser.OPS) | (1 << chatParser.COLON) | (1 << chatParser.AMP) | (1 << chatParser.DBLCOLON) | (1 << chatParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (chatParser.Less - 32)) | (1 << (chatParser.RightAngle - 32)) | (1 << (chatParser.RightArrow - 32)) | (1 << (chatParser.DBLEQ - 32)) | (1 << (chatParser.NUMERIC - 32)) | (1 << (chatParser.STRING - 32)) | (1 << (chatParser.SENTENCE - 32)) | (1 << (chatParser.BARSTRING - 32)))) !== 0) || _la === chatParser.URL) {
 					{
 					this.state = 899;
 					this.s_and_w();
@@ -4590,6 +4593,7 @@ export class chatParser extends Parser {
 					case chatParser.NUMERIC:
 					case chatParser.STRING:
 					case chatParser.SENTENCE:
+					case chatParser.BARSTRING:
 					case chatParser.URL:
 						{
 						this.state = 914;
@@ -4609,7 +4613,7 @@ export class chatParser extends Parser {
 					this.state = 918;
 					this._errHandler.sync(this);
 					_la = this._input.LA(1);
-				} while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << chatParser.S) | (1 << chatParser.OPS) | (1 << chatParser.COLON) | (1 << chatParser.AMP) | (1 << chatParser.DBLCOLON) | (1 << chatParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (chatParser.Less - 32)) | (1 << (chatParser.RightAngle - 32)) | (1 << (chatParser.RightArrow - 32)) | (1 << (chatParser.DBLEQ - 32)) | (1 << (chatParser.NUMERIC - 32)) | (1 << (chatParser.STRING - 32)) | (1 << (chatParser.NL - 32)) | (1 << (chatParser.SENTENCE - 32)))) !== 0) || _la === chatParser.URL);
+				} while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << chatParser.S) | (1 << chatParser.OPS) | (1 << chatParser.COLON) | (1 << chatParser.AMP) | (1 << chatParser.DBLCOLON) | (1 << chatParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (chatParser.Less - 32)) | (1 << (chatParser.RightAngle - 32)) | (1 << (chatParser.RightArrow - 32)) | (1 << (chatParser.DBLEQ - 32)) | (1 << (chatParser.NUMERIC - 32)) | (1 << (chatParser.STRING - 32)) | (1 << (chatParser.NL - 32)) | (1 << (chatParser.SENTENCE - 32)) | (1 << (chatParser.BARSTRING - 32)))) !== 0) || _la === chatParser.URL);
 				this.state = 920;
 				this.match(chatParser.CL);
 				}
@@ -4890,7 +4894,7 @@ export class chatParser extends Parser {
 				this.state = 978;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-				while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << chatParser.S) | (1 << chatParser.OPS) | (1 << chatParser.COLON) | (1 << chatParser.AMP) | (1 << chatParser.DBLCOLON) | (1 << chatParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (chatParser.Less - 32)) | (1 << (chatParser.RightAngle - 32)) | (1 << (chatParser.RightArrow - 32)) | (1 << (chatParser.DBLEQ - 32)) | (1 << (chatParser.NUMERIC - 32)) | (1 << (chatParser.STRING - 32)) | (1 << (chatParser.NL - 32)) | (1 << (chatParser.SENTENCE - 32)))) !== 0) || _la === chatParser.URL) {
+				while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << chatParser.S) | (1 << chatParser.OPS) | (1 << chatParser.COLON) | (1 << chatParser.AMP) | (1 << chatParser.DBLCOLON) | (1 << chatParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (chatParser.Less - 32)) | (1 << (chatParser.RightAngle - 32)) | (1 << (chatParser.RightArrow - 32)) | (1 << (chatParser.DBLEQ - 32)) | (1 << (chatParser.NUMERIC - 32)) | (1 << (chatParser.STRING - 32)) | (1 << (chatParser.NL - 32)) | (1 << (chatParser.SENTENCE - 32)) | (1 << (chatParser.BARSTRING - 32)))) !== 0) || _la === chatParser.URL) {
 					{
 					this.state = 976;
 					this._errHandler.sync(this);
@@ -5015,7 +5019,7 @@ export class chatParser extends Parser {
 					this.state = 999;
 					this._errHandler.sync(this);
 					_la = this._input.LA(1);
-				} while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << chatParser.S) | (1 << chatParser.OPS) | (1 << chatParser.COLON) | (1 << chatParser.AMP) | (1 << chatParser.DBLCOLON) | (1 << chatParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (chatParser.Less - 32)) | (1 << (chatParser.RightAngle - 32)) | (1 << (chatParser.RightArrow - 32)) | (1 << (chatParser.DBLEQ - 32)) | (1 << (chatParser.NUMERIC - 32)) | (1 << (chatParser.STRING - 32)) | (1 << (chatParser.NL - 32)) | (1 << (chatParser.SENTENCE - 32)))) !== 0) || _la === chatParser.URL);
+				} while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << chatParser.S) | (1 << chatParser.OPS) | (1 << chatParser.COLON) | (1 << chatParser.AMP) | (1 << chatParser.DBLCOLON) | (1 << chatParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (chatParser.Less - 32)) | (1 << (chatParser.RightAngle - 32)) | (1 << (chatParser.RightArrow - 32)) | (1 << (chatParser.DBLEQ - 32)) | (1 << (chatParser.NUMERIC - 32)) | (1 << (chatParser.STRING - 32)) | (1 << (chatParser.NL - 32)) | (1 << (chatParser.SENTENCE - 32)) | (1 << (chatParser.BARSTRING - 32)))) !== 0) || _la === chatParser.URL);
 				this.state = 1001;
 				this.match(chatParser.CL);
 				}
@@ -5029,7 +5033,7 @@ export class chatParser extends Parser {
 				this.state = 1008;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-				while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << chatParser.S) | (1 << chatParser.OPS) | (1 << chatParser.COLON) | (1 << chatParser.AMP) | (1 << chatParser.DBLCOLON) | (1 << chatParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (chatParser.Less - 32)) | (1 << (chatParser.RightAngle - 32)) | (1 << (chatParser.RightArrow - 32)) | (1 << (chatParser.DBLEQ - 32)) | (1 << (chatParser.NUMERIC - 32)) | (1 << (chatParser.STRING - 32)) | (1 << (chatParser.NL - 32)) | (1 << (chatParser.SENTENCE - 32)))) !== 0) || _la === chatParser.URL) {
+				while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << chatParser.S) | (1 << chatParser.OPS) | (1 << chatParser.COLON) | (1 << chatParser.AMP) | (1 << chatParser.DBLCOLON) | (1 << chatParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (chatParser.Less - 32)) | (1 << (chatParser.RightAngle - 32)) | (1 << (chatParser.RightArrow - 32)) | (1 << (chatParser.DBLEQ - 32)) | (1 << (chatParser.NUMERIC - 32)) | (1 << (chatParser.STRING - 32)) | (1 << (chatParser.NL - 32)) | (1 << (chatParser.SENTENCE - 32)) | (1 << (chatParser.BARSTRING - 32)))) !== 0) || _la === chatParser.URL) {
 					{
 					this.state = 1006;
 					this._errHandler.sync(this);
@@ -5093,7 +5097,7 @@ export class chatParser extends Parser {
 			this.state = 1016;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
-			if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << chatParser.S) | (1 << chatParser.OPS) | (1 << chatParser.COLON) | (1 << chatParser.AMP) | (1 << chatParser.DBLCOLON) | (1 << chatParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (chatParser.Less - 32)) | (1 << (chatParser.RightAngle - 32)) | (1 << (chatParser.RightArrow - 32)) | (1 << (chatParser.DBLEQ - 32)) | (1 << (chatParser.NUMERIC - 32)) | (1 << (chatParser.STRING - 32)) | (1 << (chatParser.SENTENCE - 32)))) !== 0) || _la === chatParser.URL) {
+			if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << chatParser.S) | (1 << chatParser.OPS) | (1 << chatParser.COLON) | (1 << chatParser.AMP) | (1 << chatParser.DBLCOLON) | (1 << chatParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (chatParser.Less - 32)) | (1 << (chatParser.RightAngle - 32)) | (1 << (chatParser.RightArrow - 32)) | (1 << (chatParser.DBLEQ - 32)) | (1 << (chatParser.NUMERIC - 32)) | (1 << (chatParser.STRING - 32)) | (1 << (chatParser.SENTENCE - 32)) | (1 << (chatParser.BARSTRING - 32)))) !== 0) || _la === chatParser.URL) {
 				{
 				this.state = 1015;
 				this.s_and_w();
@@ -5149,7 +5153,7 @@ export class chatParser extends Parser {
 				this.state = 1026;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-			} while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << chatParser.S) | (1 << chatParser.OPS) | (1 << chatParser.COLON) | (1 << chatParser.AMP) | (1 << chatParser.DBLCOLON) | (1 << chatParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (chatParser.Less - 32)) | (1 << (chatParser.RightAngle - 32)) | (1 << (chatParser.RightArrow - 32)) | (1 << (chatParser.DBLEQ - 32)) | (1 << (chatParser.NUMERIC - 32)) | (1 << (chatParser.STRING - 32)) | (1 << (chatParser.SENTENCE - 32)))) !== 0) || _la === chatParser.URL);
+			} while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << chatParser.S) | (1 << chatParser.OPS) | (1 << chatParser.COLON) | (1 << chatParser.AMP) | (1 << chatParser.DBLCOLON) | (1 << chatParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (chatParser.Less - 32)) | (1 << (chatParser.RightAngle - 32)) | (1 << (chatParser.RightArrow - 32)) | (1 << (chatParser.DBLEQ - 32)) | (1 << (chatParser.NUMERIC - 32)) | (1 << (chatParser.STRING - 32)) | (1 << (chatParser.SENTENCE - 32)) | (1 << (chatParser.BARSTRING - 32)))) !== 0) || _la === chatParser.URL);
 			}
 		}
 		catch (re) {
@@ -5460,14 +5464,14 @@ export class chatParser extends Parser {
 			let _alt: number;
 			this.enterOuterAlt(_localctx, 1);
 			{
-			this.state = 1093;
+			this.state = 1094;
 			this._errHandler.sync(this);
 			_alt = 1;
 			do {
 				switch (_alt) {
 				case 1:
 					{
-					this.state = 1093;
+					this.state = 1094;
 					this._errHandler.sync(this);
 					switch (this._input.LA(1)) {
 					case chatParser.SENTENCE:
@@ -5476,17 +5480,23 @@ export class chatParser extends Parser {
 						this.match(chatParser.SENTENCE);
 						}
 						break;
-					case chatParser.AMP:
+					case chatParser.BARSTRING:
 						{
 						this.state = 1085;
+						this.match(chatParser.BARSTRING);
+						}
+						break;
+					case chatParser.AMP:
+						{
+						this.state = 1086;
 						this.match(chatParser.AMP);
 						}
 						break;
 					case chatParser.Greater:
 						{
-						this.state = 1086;
-						this.match(chatParser.Greater);
 						this.state = 1087;
+						this.match(chatParser.Greater);
+						this.state = 1088;
 						_la = this._input.LA(1);
 						if (_la <= 0 || (_la === chatParser.Greater)) {
 						this._errHandler.recoverInline(this);
@@ -5502,9 +5512,9 @@ export class chatParser extends Parser {
 						break;
 					case chatParser.Less:
 						{
-						this.state = 1088;
-						this.match(chatParser.Less);
 						this.state = 1089;
+						this.match(chatParser.Less);
+						this.state = 1090;
 						_la = this._input.LA(1);
 						if (_la <= 0 || (_la === chatParser.Less)) {
 						this._errHandler.recoverInline(this);
@@ -5520,19 +5530,19 @@ export class chatParser extends Parser {
 						break;
 					case chatParser.DBLEQ:
 						{
-						this.state = 1090;
+						this.state = 1091;
 						this.match(chatParser.DBLEQ);
 						}
 						break;
 					case chatParser.RightArrow:
 						{
-						this.state = 1091;
+						this.state = 1092;
 						this.match(chatParser.RightArrow);
 						}
 						break;
 					case chatParser.RightAngle:
 						{
-						this.state = 1092;
+						this.state = 1093;
 						this.match(chatParser.RightAngle);
 						}
 						break;
@@ -5544,7 +5554,7 @@ export class chatParser extends Parser {
 				default:
 					throw new NoViableAltException(this);
 				}
-				this.state = 1095;
+				this.state = 1096;
 				this._errHandler.sync(this);
 				_alt = this.interpreter.adaptivePredict(this._input, 147, this._ctx);
 			} while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
@@ -5571,7 +5581,7 @@ export class chatParser extends Parser {
 		try {
 			this.enterOuterAlt(_localctx, 1);
 			{
-			this.state = 1097;
+			this.state = 1098;
 			this.match(chatParser.S);
 			}
 		}
@@ -5592,7 +5602,7 @@ export class chatParser extends Parser {
 
 	private static readonly _serializedATNSegments: number = 3;
 	private static readonly _serializedATNSegment0: string =
-		"\x03\uC91D\uCABA\u058D\uAFBA\u4F53\u0607\uEA8B\uC241\x03\x8C\u044E\x04" +
+		"\x03\uC91D\uCABA\u058D\uAFBA\u4F53\u0607\uEA8B\uC241\x03\x8C\u044F\x04" +
 		"\x02\t\x02\x04\x03\t\x03\x04\x04\t\x04\x04\x05\t\x05\x04\x06\t\x06\x04" +
 		"\x07\t\x07\x04\b\t\b\x04\t\t\t\x04\n\t\n\x04\v\t\v\x04\f\t\f\x04\r\t\r" +
 		"\x04\x0E\t\x0E\x04\x0F\t\x0F\x04\x10\t\x10\x04\x11\t\x11\x04\x12\t\x12" +
@@ -5690,87 +5700,87 @@ export class chatParser extends Parser {
 		"L\u0417\nL\x03L\x03L\x03L\x03L\x03L\x03L\x07L\u041F\nL\fL\x0EL\u0422\v" +
 		"L\x03L\x03L\x07L\u0426\nL\fL\x0EL\u0429\vL\x03L\x03L\x07L\u042D\nL\fL" +
 		"\x0EL\u0430\vL\x03L\x03L\x03L\x05L\u0435\nL\x03M\x03M\x03M\x03M\x03N\x03" +
-		"N\x03O\x03O\x03P\x03P\x03P\x03P\x03P\x03P\x03P\x03P\x03P\x06P\u0448\n" +
-		"P\rP\x0EP\u0449\x03Q\x03Q\x03Q\x06\u0257\u026A\u02B4\u03DD\x02\x02R\x02" +
-		"\x02\x04\x02\x06\x02\b\x02\n\x02\f\x02\x0E\x02\x10\x02\x12\x02\x14\x02" +
-		"\x16\x02\x18\x02\x1A\x02\x1C\x02\x1E\x02 \x02\"\x02$\x02&\x02(\x02*\x02" +
-		",\x02.\x020\x022\x024\x026\x028\x02:\x02<\x02>\x02@\x02B\x02D\x02F\x02" +
-		"H\x02J\x02L\x02N\x02P\x02R\x02T\x02V\x02X\x02Z\x02\\\x02^\x02`\x02b\x02" +
-		"d\x02f\x02h\x02j\x02l\x02n\x02p\x02r\x02t\x02v\x02x\x02z\x02|\x02~\x02" +
-		"\x80\x02\x82\x02\x84\x02\x86\x02\x88\x02\x8A\x02\x8C\x02\x8E\x02\x90\x02" +
-		"\x92\x02\x94\x02\x96\x02\x98\x02\x9A\x02\x9C\x02\x9E\x02\xA0\x02\x02\x16" +
-		"\x03\x02&\'\x07\x02TUWXfmvwyz\x04\x02SShh\x04\x02TTii\x04\x02UUjj\x04" +
-		"\x02VVkk\x04\x02WWll\x04\x02XXmm\x04\x02__qq\x04\x02aarr\x04\x02bbss\x04" +
-		"\x02cctt\x04\x02dduu\x03\x0256\x04\x02CCFI\x03\x02\x1B\x1B\x04\x02\x1C" +
-		"\x1C\x1E\x1E\x03\x02()\x03\x02!!\x03\x02\"\"\x02\u04D3\x02\xAF\x03\x02" +
-		"\x02\x02\x04\xBD\x03\x02\x02\x02\x06\xBF\x03\x02\x02\x02\b\xFA\x03\x02" +
-		"\x02\x02\n\u0135\x03\x02\x02\x02\f\u013A\x03\x02\x02\x02\x0E\u013F\x03" +
-		"\x02\x02\x02\x10\u0143\x03\x02\x02\x02\x12\u0145\x03\x02\x02\x02\x14\u0147" +
-		"\x03\x02\x02\x02\x16\u0160\x03\x02\x02\x02\x18\u0162\x03\x02\x02\x02\x1A" +
-		"\u0164\x03\x02\x02\x02\x1C\u016F\x03\x02\x02\x02\x1E\u017D\x03\x02\x02" +
-		"\x02 \u017F\x03\x02\x02\x02\"\u0186\x03\x02\x02\x02$\u0190\x03\x02\x02" +
-		"\x02&\u019B\x03\x02\x02\x02(\u01A1\x03\x02\x02\x02*\u01B1\x03\x02\x02" +
-		"\x02,\u01B3\x03\x02\x02\x02.\u01B8\x03\x02\x02\x020\u01BA\x03\x02\x02" +
-		"\x022\u01BC\x03\x02\x02\x024\u01BE\x03\x02\x02\x026\u01C0\x03\x02\x02" +
-		"\x028\u01C2\x03\x02\x02\x02:\u01C4\x03\x02\x02\x02<\u01C6\x03\x02\x02" +
-		"\x02>\u01C8\x03\x02\x02\x02@\u01D4\x03\x02\x02\x02B\u01D6\x03\x02\x02" +
-		"\x02D\u01DE\x03\x02\x02\x02F\u01E0\x03\x02\x02\x02H\u01EA\x03\x02\x02" +
-		"\x02J\u01F4\x03\x02\x02\x02L\u0201\x03\x02\x02\x02N\u0208\x03\x02\x02" +
-		"\x02P\u0213\x03\x02\x02\x02R\u021A\x03\x02\x02\x02T\u0224\x03\x02\x02" +
-		"\x02V\u022F\x03\x02\x02\x02X\u0248\x03\x02\x02\x02Z\u025B\x03\x02\x02" +
-		"\x02\\\u026E\x03\x02\x02\x02^\u0270\x03\x02\x02\x02`\u0277\x03\x02\x02" +
-		"\x02b\u028B\x03\x02\x02\x02d\u0297\x03\x02\x02\x02f\u02B8\x03\x02\x02" +
-		"\x02h\u02BA\x03\x02\x02\x02j\u02BE\x03\x02\x02\x02l\u02DE\x03\x02\x02" +
-		"\x02n\u02E0\x03\x02\x02\x02p\u02F5\x03\x02\x02\x02r\u02FE\x03\x02\x02" +
-		"\x02t\u0327\x03\x02\x02\x02v\u033F\x03\x02\x02\x02x\u0341\x03\x02\x02" +
-		"\x02z\u0345\x03\x02\x02\x02|\u0351\x03\x02\x02\x02~\u0389\x03\x02\x02" +
-		"\x02\x80\u038B\x03\x02\x02\x02\x82\u039F\x03\x02\x02\x02\x84\u03A9\x03" +
-		"\x02\x02\x02\x86\u03B4\x03\x02\x02\x02\x88\u03B6\x03\x02\x02\x02\x8A\u03BA" +
-		"\x03\x02\x02\x02\x8C\u03BE\x03\x02\x02\x02\x8E\u03E1\x03\x02\x02\x02\x90" +
-		"\u03F6\x03\x02\x02\x02\x92\u03F8\x03\x02\x02\x02\x94\u0402\x03\x02\x02" +
-		"\x02\x96\u0434\x03\x02\x02\x02\x98\u0436\x03\x02\x02\x02\x9A\u043A\x03" +
-		"\x02\x02\x02\x9C\u043C\x03\x02\x02\x02\x9E\u0447\x03\x02\x02\x02\xA0\u044B" +
-		"\x03\x02\x02\x02\xA2\xAC\x05\x04\x03\x02\xA3\xA5\x07\x04\x02\x02\xA4\xA3" +
-		"\x03\x02\x02\x02\xA5\xA8\x03\x02\x02\x02\xA6\xA4\x03\x02\x02\x02\xA6\xA7" +
-		"\x03\x02\x02\x02\xA7\xA9\x03\x02\x02\x02\xA8\xA6\x03\x02\x02\x02\xA9\xAB" +
-		"\x07/\x02\x02\xAA\xA6\x03\x02\x02\x02\xAB\xAE\x03\x02\x02\x02\xAC\xAA" +
-		"\x03\x02\x02\x02\xAC\xAD\x03\x02\x02\x02\xAD\xB0\x03\x02\x02\x02\xAE\xAC" +
-		"\x03\x02\x02\x02\xAF\xA2\x03\x02\x02\x02\xB0\xB1\x03\x02\x02\x02\xB1\xAF" +
-		"\x03\x02\x02\x02\xB1\xB2\x03\x02\x02\x02\xB2\xB6\x03\x02\x02\x02\xB3\xB5" +
-		"\x07/\x02\x02\xB4\xB3\x03\x02\x02\x02\xB5\xB8\x03\x02\x02\x02\xB6\xB4" +
-		"\x03\x02\x02\x02\xB6\xB7\x03\x02\x02\x02\xB7\xB9\x03\x02\x02\x02\xB8\xB6" +
-		"\x03\x02\x02\x02\xB9\xBA\x07\x02\x02\x03\xBA\x03\x03\x02\x02\x02\xBB\xBE" +
-		"\x05\x06\x04\x02\xBC\xBE\x05\b\x05\x02\xBD\xBB\x03\x02\x02\x02\xBD\xBC" +
-		"\x03\x02\x02\x02\xBE\x05\x03\x02\x02\x02\xBF\xC0\x07\x05\x02\x02\xC0\xC1" +
-		"\x05\"\x12\x02\xC1\xC5\x07\x1B\x02\x02\xC2\xC4\x07/\x02\x02\xC3\xC2\x03" +
-		"\x02\x02\x02\xC4\xC7\x03\x02\x02\x02\xC5\xC3\x03\x02\x02\x02\xC5\xC6\x03" +
-		"\x02\x02\x02\xC6\xD1\x03\x02\x02\x02\xC7\xC5\x03\x02\x02\x02\xC8\xCC\x05" +
-		"\x16\f\x02\xC9\xCB\x07/\x02\x02\xCA\xC9\x03\x02\x02\x02\xCB\xCE\x03\x02" +
-		"\x02\x02\xCC\xCA\x03\x02\x02\x02\xCC\xCD\x03\x02\x02\x02\xCD\xD0\x03\x02" +
-		"\x02\x02\xCE\xCC\x03\x02\x02\x02\xCF\xC8\x03\x02\x02\x02\xD0\xD3\x03\x02" +
-		"\x02\x02\xD1\xCF\x03\x02\x02\x02\xD1\xD2\x03\x02\x02\x02\xD2\xD4\x03\x02" +
-		"\x02\x02\xD3\xD1\x03\x02\x02\x02\xD4\xD5\t\x02\x02\x02\xD5\xD6\x05\n\x06" +
-		"\x02\xD6\xD7\t\x02\x02\x02\xD7\xE0\x05\f\x07\x02\xD8\xD9\t\x02\x02\x02" +
-		"\xD9\xDD\x05\x10\t\x02\xDA\xDC\x05\x14\v\x02\xDB\xDA\x03\x02\x02\x02\xDC" +
-		"\xDF\x03\x02\x02\x02\xDD\xDB\x03\x02\x02\x02\xDD\xDE\x03\x02\x02\x02\xDE" +
-		"\xE1\x03\x02\x02\x02\xDF\xDD\x03\x02\x02\x02\xE0\xD8\x03\x02\x02\x02\xE1" +
-		"\xE2\x03\x02\x02\x02\xE2\xE0\x03\x02\x02\x02\xE2\xE3\x03\x02\x02\x02\xE3" +
-		"\xE4\x03\x02\x02\x02\xE4\xE8\t\x02\x02\x02\xE5\xE7\x07/\x02\x02\xE6\xE5" +
-		"\x03\x02\x02\x02\xE7\xEA\x03\x02\x02\x02\xE8\xE6\x03\x02\x02\x02\xE8\xE9" +
-		"\x03\x02\x02\x02\xE9\xF8\x03\x02\x02\x02\xEA\xE8\x03\x02\x02\x02\xEB\xF5" +
-		"\x05\x18\r\x02\xEC\xEE\x07/\x02\x02\xED\xEC\x03\x02\x02\x02\xEE\xF1\x03" +
-		"\x02\x02\x02\xEF\xED\x03\x02\x02\x02\xEF\xF0\x03\x02\x02\x02\xF0\xF2\x03" +
-		"\x02\x02\x02\xF1\xEF\x03\x02\x02\x02\xF2\xF4\x05\x18\r\x02\xF3\xEF\x03" +
-		"\x02\x02\x02\xF4\xF7\x03\x02\x02\x02\xF5\xF3\x03\x02\x02\x02\xF5\xF6\x03" +
-		"\x02\x02\x02\xF6\xF9\x03\x02\x02\x02\xF7\xF5\x03\x02\x02\x02\xF8\xEB\x03" +
-		"\x02\x02\x02\xF8\xF9\x03\x02\x02\x02\xF9\x07\x03\x02\x02\x02\xFA\xFB\x07" +
-		"\x06\x02\x02\xFB\xFC\x05\"\x12\x02\xFC\u0100\x07\x1B\x02\x02\xFD\xFF\x07" +
-		"/\x02\x02\xFE\xFD\x03\x02\x02\x02\xFF\u0102\x03\x02\x02\x02\u0100\xFE" +
-		"\x03\x02\x02\x02\u0100\u0101\x03\x02\x02\x02\u0101\u010C\x03\x02\x02\x02" +
-		"\u0102\u0100\x03\x02\x02\x02\u0103\u0107\x05\x16\f\x02\u0104\u0106\x07" +
-		"/\x02\x02\u0105\u0104\x03\x02\x02\x02\u0106\u0109\x03\x02\x02\x02\u0107" +
-		"\u0105\x03\x02\x02\x02\u0107\u0108\x03\x02\x02\x02\u0108\u010B\x03\x02" +
-		"\x02\x02\u0109\u0107\x03\x02\x02\x02\u010A\u0103\x03\x02\x02\x02\u010B" +
+		"N\x03O\x03O\x03P\x03P\x03P\x03P\x03P\x03P\x03P\x03P\x03P\x03P\x06P\u0449" +
+		"\nP\rP\x0EP\u044A\x03Q\x03Q\x03Q\x06\u0257\u026A\u02B4\u03DD\x02\x02R" +
+		"\x02\x02\x04\x02\x06\x02\b\x02\n\x02\f\x02\x0E\x02\x10\x02\x12\x02\x14" +
+		"\x02\x16\x02\x18\x02\x1A\x02\x1C\x02\x1E\x02 \x02\"\x02$\x02&\x02(\x02" +
+		"*\x02,\x02.\x020\x022\x024\x026\x028\x02:\x02<\x02>\x02@\x02B\x02D\x02" +
+		"F\x02H\x02J\x02L\x02N\x02P\x02R\x02T\x02V\x02X\x02Z\x02\\\x02^\x02`\x02" +
+		"b\x02d\x02f\x02h\x02j\x02l\x02n\x02p\x02r\x02t\x02v\x02x\x02z\x02|\x02" +
+		"~\x02\x80\x02\x82\x02\x84\x02\x86\x02\x88\x02\x8A\x02\x8C\x02\x8E\x02" +
+		"\x90\x02\x92\x02\x94\x02\x96\x02\x98\x02\x9A\x02\x9C\x02\x9E\x02\xA0\x02" +
+		"\x02\x16\x03\x02&\'\x07\x02TUWXfmvwyz\x04\x02SShh\x04\x02TTii\x04\x02" +
+		"UUjj\x04\x02VVkk\x04\x02WWll\x04\x02XXmm\x04\x02__qq\x04\x02aarr\x04\x02" +
+		"bbss\x04\x02cctt\x04\x02dduu\x03\x0256\x04\x02CCFI\x03\x02\x1B\x1B\x04" +
+		"\x02\x1C\x1C\x1E\x1E\x03\x02()\x03\x02!!\x03\x02\"\"\x02\u04D5\x02\xAF" +
+		"\x03\x02\x02\x02\x04\xBD\x03\x02\x02\x02\x06\xBF\x03\x02\x02\x02\b\xFA" +
+		"\x03\x02\x02\x02\n\u0135\x03\x02\x02\x02\f\u013A\x03\x02\x02\x02\x0E\u013F" +
+		"\x03\x02\x02\x02\x10\u0143\x03\x02\x02\x02\x12\u0145\x03\x02\x02\x02\x14" +
+		"\u0147\x03\x02\x02\x02\x16\u0160\x03\x02\x02\x02\x18\u0162\x03\x02\x02" +
+		"\x02\x1A\u0164\x03\x02\x02\x02\x1C\u016F\x03\x02\x02\x02\x1E\u017D\x03" +
+		"\x02\x02\x02 \u017F\x03\x02\x02\x02\"\u0186\x03\x02\x02\x02$\u0190\x03" +
+		"\x02\x02\x02&\u019B\x03\x02\x02\x02(\u01A1\x03\x02\x02\x02*\u01B1\x03" +
+		"\x02\x02\x02,\u01B3\x03\x02\x02\x02.\u01B8\x03\x02\x02\x020\u01BA\x03" +
+		"\x02\x02\x022\u01BC\x03\x02\x02\x024\u01BE\x03\x02\x02\x026\u01C0\x03" +
+		"\x02\x02\x028\u01C2\x03\x02\x02\x02:\u01C4\x03\x02\x02\x02<\u01C6\x03" +
+		"\x02\x02\x02>\u01C8\x03\x02\x02\x02@\u01D4\x03\x02\x02\x02B\u01D6\x03" +
+		"\x02\x02\x02D\u01DE\x03\x02\x02\x02F\u01E0\x03\x02\x02\x02H\u01EA\x03" +
+		"\x02\x02\x02J\u01F4\x03\x02\x02\x02L\u0201\x03\x02\x02\x02N\u0208\x03" +
+		"\x02\x02\x02P\u0213\x03\x02\x02\x02R\u021A\x03\x02\x02\x02T\u0224\x03" +
+		"\x02\x02\x02V\u022F\x03\x02\x02\x02X\u0248\x03\x02\x02\x02Z\u025B\x03" +
+		"\x02\x02\x02\\\u026E\x03\x02\x02\x02^\u0270\x03\x02\x02\x02`\u0277\x03" +
+		"\x02\x02\x02b\u028B\x03\x02\x02\x02d\u0297\x03\x02\x02\x02f\u02B8\x03" +
+		"\x02\x02\x02h\u02BA\x03\x02\x02\x02j\u02BE\x03\x02\x02\x02l\u02DE\x03" +
+		"\x02\x02\x02n\u02E0\x03\x02\x02\x02p\u02F5\x03\x02\x02\x02r\u02FE\x03" +
+		"\x02\x02\x02t\u0327\x03\x02\x02\x02v\u033F\x03\x02\x02\x02x\u0341\x03" +
+		"\x02\x02\x02z\u0345\x03\x02\x02\x02|\u0351\x03\x02\x02\x02~\u0389\x03" +
+		"\x02\x02\x02\x80\u038B\x03\x02\x02\x02\x82\u039F\x03\x02\x02\x02\x84\u03A9" +
+		"\x03\x02\x02\x02\x86\u03B4\x03\x02\x02\x02\x88\u03B6\x03\x02\x02\x02\x8A" +
+		"\u03BA\x03\x02\x02\x02\x8C\u03BE\x03\x02\x02\x02\x8E\u03E1\x03\x02\x02" +
+		"\x02\x90\u03F6\x03\x02\x02\x02\x92\u03F8\x03\x02\x02\x02\x94\u0402\x03" +
+		"\x02\x02\x02\x96\u0434\x03\x02\x02\x02\x98\u0436\x03\x02\x02\x02\x9A\u043A" +
+		"\x03\x02\x02\x02\x9C\u043C\x03\x02\x02\x02\x9E\u0448\x03\x02\x02\x02\xA0" +
+		"\u044C\x03\x02\x02\x02\xA2\xAC\x05\x04\x03\x02\xA3\xA5\x07\x04\x02\x02" +
+		"\xA4\xA3\x03\x02\x02\x02\xA5\xA8\x03\x02\x02\x02\xA6\xA4\x03\x02\x02\x02" +
+		"\xA6\xA7\x03\x02\x02\x02\xA7\xA9\x03\x02\x02\x02\xA8\xA6\x03\x02\x02\x02" +
+		"\xA9\xAB\x07/\x02\x02\xAA\xA6\x03\x02\x02\x02\xAB\xAE\x03\x02\x02\x02" +
+		"\xAC\xAA\x03\x02\x02\x02\xAC\xAD\x03\x02\x02\x02\xAD\xB0\x03\x02\x02\x02" +
+		"\xAE\xAC\x03\x02\x02\x02\xAF\xA2\x03\x02\x02\x02\xB0\xB1\x03\x02\x02\x02" +
+		"\xB1\xAF\x03\x02\x02\x02\xB1\xB2\x03\x02\x02\x02\xB2\xB6\x03\x02\x02\x02" +
+		"\xB3\xB5\x07/\x02\x02\xB4\xB3\x03\x02\x02\x02\xB5\xB8\x03\x02\x02\x02" +
+		"\xB6\xB4\x03\x02\x02\x02\xB6\xB7\x03\x02\x02\x02\xB7\xB9\x03\x02\x02\x02" +
+		"\xB8\xB6\x03\x02\x02\x02\xB9\xBA\x07\x02\x02\x03\xBA\x03\x03\x02\x02\x02" +
+		"\xBB\xBE\x05\x06\x04\x02\xBC\xBE\x05\b\x05\x02\xBD\xBB\x03\x02\x02\x02" +
+		"\xBD\xBC\x03\x02\x02\x02\xBE\x05\x03\x02\x02\x02\xBF\xC0\x07\x05\x02\x02" +
+		"\xC0\xC1\x05\"\x12\x02\xC1\xC5\x07\x1B\x02\x02\xC2\xC4\x07/\x02\x02\xC3" +
+		"\xC2\x03\x02\x02\x02\xC4\xC7\x03\x02\x02\x02\xC5\xC3\x03\x02\x02\x02\xC5" +
+		"\xC6\x03\x02\x02\x02\xC6\xD1\x03\x02\x02\x02\xC7\xC5\x03\x02\x02\x02\xC8" +
+		"\xCC\x05\x16\f\x02\xC9\xCB\x07/\x02\x02\xCA\xC9\x03\x02\x02\x02\xCB\xCE" +
+		"\x03\x02\x02\x02\xCC\xCA\x03\x02\x02\x02\xCC\xCD\x03\x02\x02\x02\xCD\xD0" +
+		"\x03\x02\x02\x02\xCE\xCC\x03\x02\x02\x02\xCF\xC8\x03\x02\x02\x02\xD0\xD3" +
+		"\x03\x02\x02\x02\xD1\xCF\x03\x02\x02\x02\xD1\xD2\x03\x02\x02\x02\xD2\xD4" +
+		"\x03\x02\x02\x02\xD3\xD1\x03\x02\x02\x02\xD4\xD5\t\x02\x02\x02\xD5\xD6" +
+		"\x05\n\x06\x02\xD6\xD7\t\x02\x02\x02\xD7\xE0\x05\f\x07\x02\xD8\xD9\t\x02" +
+		"\x02\x02\xD9\xDD\x05\x10\t\x02\xDA\xDC\x05\x14\v\x02\xDB\xDA\x03\x02\x02" +
+		"\x02\xDC\xDF\x03\x02\x02\x02\xDD\xDB\x03\x02\x02\x02\xDD\xDE\x03\x02\x02" +
+		"\x02\xDE\xE1\x03\x02\x02\x02\xDF\xDD\x03\x02\x02\x02\xE0\xD8\x03\x02\x02" +
+		"\x02\xE1\xE2\x03\x02\x02\x02\xE2\xE0\x03\x02\x02\x02\xE2\xE3\x03\x02\x02" +
+		"\x02\xE3\xE4\x03\x02\x02\x02\xE4\xE8\t\x02\x02\x02\xE5\xE7\x07/\x02\x02" +
+		"\xE6\xE5\x03\x02\x02\x02\xE7\xEA\x03\x02\x02\x02\xE8\xE6\x03\x02\x02\x02" +
+		"\xE8\xE9\x03\x02\x02\x02\xE9\xF8\x03\x02\x02\x02\xEA\xE8\x03\x02\x02\x02" +
+		"\xEB\xF5\x05\x18\r\x02\xEC\xEE\x07/\x02\x02\xED\xEC\x03\x02\x02\x02\xEE" +
+		"\xF1\x03\x02\x02\x02\xEF\xED\x03\x02\x02\x02\xEF\xF0\x03\x02\x02\x02\xF0" +
+		"\xF2\x03\x02\x02\x02\xF1\xEF\x03\x02\x02\x02\xF2\xF4\x05\x18\r\x02\xF3" +
+		"\xEF\x03\x02\x02\x02\xF4\xF7\x03\x02\x02\x02\xF5\xF3\x03\x02\x02\x02\xF5" +
+		"\xF6\x03\x02\x02\x02\xF6\xF9\x03\x02\x02\x02\xF7\xF5\x03\x02\x02\x02\xF8" +
+		"\xEB\x03\x02\x02\x02\xF8\xF9\x03\x02\x02\x02\xF9\x07\x03\x02\x02\x02\xFA" +
+		"\xFB\x07\x06\x02\x02\xFB\xFC\x05\"\x12\x02\xFC\u0100\x07\x1B\x02\x02\xFD" +
+		"\xFF\x07/\x02\x02\xFE\xFD\x03\x02\x02\x02\xFF\u0102\x03\x02\x02\x02\u0100" +
+		"\xFE\x03\x02\x02\x02\u0100\u0101\x03\x02\x02\x02\u0101\u010C\x03\x02\x02" +
+		"\x02\u0102\u0100\x03\x02\x02\x02\u0103\u0107\x05\x16\f\x02\u0104\u0106" +
+		"\x07/\x02\x02\u0105\u0104\x03\x02\x02\x02\u0106\u0109\x03\x02\x02\x02" +
+		"\u0107\u0105\x03\x02\x02\x02\u0107\u0108\x03\x02\x02\x02\u0108\u010B\x03" +
+		"\x02\x02\x02\u0109\u0107\x03\x02\x02\x02\u010A\u0103\x03\x02\x02\x02\u010B" +
 		"\u010E\x03\x02\x02\x02\u010C\u010A\x03\x02\x02\x02\u010C\u010D\x03\x02" +
 		"\x02\x02\u010D\u010F\x03\x02\x02\x02\u010E\u010C\x03\x02\x02\x02\u010F" +
 		"\u0110\t\x02\x02\x02\u0110\u0111\x05\n\x06\x02\u0111\u0112\t\x02\x02\x02" +
@@ -5838,16 +5848,16 @@ export class chatParser extends Parser {
 		"\u018E\x03\x02\x02\x02\u018E#\x03\x02\x02\x02\u018F\u018D\x03\x02\x02" +
 		"\x02\u0190\u0191\t\x03\x02\x02\u0191%\x03\x02\x02\x02\u0192\u019C\x05" +
 		"*\x16\x02\u0193\u019C\x05b2\x02\u0194\u019C\x05,\x17\x02\u0195\u019C\x05" +
-		".\x18\x02\u0196\u019C\x050\x19\x02\u0197\u019C\x052\x1A\x02\u0198\u019C";
+		".\x18\x02\u0196\u019C\x050\x19\x02\u0197\u019C\x052\x1A\x02";
 	private static readonly _serializedATNSegment1: string =
-		"\x054\x1B\x02\u0199\u019C\x056\x1C\x02\u019A\u019C\x07Y\x02\x02\u019B" +
-		"\u0192\x03\x02\x02\x02\u019B\u0193\x03\x02\x02\x02\u019B\u0194\x03\x02" +
-		"\x02\x02\u019B\u0195\x03\x02\x02\x02\u019B\u0196\x03\x02\x02\x02\u019B" +
-		"\u0197\x03\x02\x02\x02\u019B\u0198\x03\x02\x02\x02\u019B\u0199\x03\x02" +
-		"\x02\x02\u019B\u019A\x03\x02\x02\x02\u019C\'\x03\x02\x02\x02\u019D\u01A2" +
-		"\x07v\x02\x02\u019E\u01A2\x07w\x02\x02\u019F\u01A2\x07x\x02\x02\u01A0" +
-		"\u01A2\x03\x02\x02\x02\u01A1\u019D\x03\x02\x02\x02\u01A1\u019E\x03\x02" +
-		"\x02\x02\u01A1\u019F\x03\x02\x02\x02\u01A1\u01A0\x03\x02\x02\x02\u01A2" +
+		"\u0198\u019C\x054\x1B\x02\u0199\u019C\x056\x1C\x02\u019A\u019C\x07Y\x02" +
+		"\x02\u019B\u0192\x03\x02\x02\x02\u019B\u0193\x03\x02\x02\x02\u019B\u0194" +
+		"\x03\x02\x02\x02\u019B\u0195\x03\x02\x02\x02\u019B\u0196\x03\x02\x02\x02" +
+		"\u019B\u0197\x03\x02\x02\x02\u019B\u0198\x03\x02\x02\x02\u019B\u0199\x03" +
+		"\x02\x02\x02\u019B\u019A\x03\x02\x02\x02\u019C\'\x03\x02\x02\x02\u019D" +
+		"\u01A2\x07v\x02\x02\u019E\u01A2\x07w\x02\x02\u019F\u01A2\x07x\x02\x02" +
+		"\u01A0\u01A2\x03\x02\x02\x02\u01A1\u019D\x03\x02\x02\x02\u01A1\u019E\x03" +
+		"\x02\x02\x02\u01A1\u019F\x03\x02\x02\x02\u01A1\u01A0\x03\x02\x02\x02\u01A2" +
 		")\x03\x02\x02\x02\u01A3\u01A6\x07P\x02\x02\u01A4\u01A7\x07\b\x02\x02\u01A5" +
 		"\u01A7\x07\x88\x02\x02\u01A6\u01A4\x03\x02\x02\x02\u01A6\u01A5\x03\x02" +
 		"\x02\x02\u01A6\u01A7\x03\x02\x02\x02\u01A7\u01B2\x03\x02\x02\x02\u01A8" +
@@ -6153,29 +6163,29 @@ export class chatParser extends Parser {
 		"\x02\u0436\u0437\x07\r\x02\x02\u0437\u0438\x05\x96L\x02\u0438\u0439\x07" +
 		"\x1B\x02\x02\u0439\x99\x03\x02\x02\x02\u043A\u043B\x07\x1B\x02\x02\u043B" +
 		"\x9B\x03\x02\x02\x02\u043C\u043D\t\x13\x02\x02\u043D\x9D\x03\x02\x02\x02" +
-		"\u043E\u0448\x070\x02\x02\u043F\u0448\x07\x1D\x02\x02\u0440\u0441\x07" +
-		"!\x02\x02\u0441\u0448\n\x14\x02\x02\u0442\u0443\x07\"\x02\x02\u0443\u0448" +
-		"\n\x15";
+		"\u043E\u0449\x070\x02\x02\u043F\u0449\x071\x02\x02\u0440\u0449\x07\x1D" +
+		"\x02\x02\u0441\u0442\x07!\x02\x02\u0442\u0449\n\x14\x02\x02\u0443\u0444";
 	private static readonly _serializedATNSegment2: string =
-		"\x02\x02\u0444\u0448\x07%\x02\x02\u0445\u0448\x07$\x02\x02\u0446\u0448" +
-		"\x07#\x02\x02\u0447\u043E\x03\x02\x02\x02\u0447\u043F\x03\x02\x02\x02" +
-		"\u0447\u0440\x03\x02\x02\x02\u0447\u0442\x03\x02\x02\x02\u0447\u0444\x03" +
-		"\x02\x02\x02\u0447\u0445\x03\x02\x02\x02\u0447\u0446\x03\x02\x02\x02\u0448" +
-		"\u0449\x03\x02\x02\x02\u0449\u0447\x03\x02\x02\x02\u0449\u044A\x03\x02" +
-		"\x02\x02\u044A\x9F\x03\x02\x02\x02\u044B\u044C\x07\x04\x02\x02\u044C\xA1" +
-		"\x03\x02\x02\x02\x96\xA6\xAC\xB1\xB6\xBD\xC5\xCC\xD1\xDD\xE2\xE8\xEF\xF5" +
-		"\xF8\u0100\u0107\u010C\u0118\u011D\u0123\u012A\u0130\u0133\u0138\u013D" +
-		"\u0160\u016A\u016C\u0173\u0178\u0186\u018B\u018D\u019B\u01A1\u01A6\u01AA" +
-		"\u01AE\u01B1\u01B6\u01CD\u01D2\u01D4\u01DE\u01E8\u01F2\u01F8\u01FF\u0205" +
-		"\u020D\u0217\u0222\u0228\u022D\u0234\u023D\u0241\u0245\u0248\u0257\u025B" +
-		"\u026A\u026E\u0274\u027F\u0284\u0289\u028B\u0290\u0295\u0297\u029C\u02A2" +
-		"\u02A7\u02A9\u02B4\u02B8\u02C5\u02C9\u02CF\u02D1\u02D8\u02DC\u02DE\u02E4" +
-		"\u02E6\u02ED\u02F2\u02F5\u02FB\u02FE\u0302\u0309\u030E\u0314\u0319\u0321" +
-		"\u0323\u0327\u032E\u0330\u0339\u033B\u033F\u0349\u034B\u034F\u0355\u0357" +
-		"\u035F\u0363\u036A\u036F\u0375\u037A\u0382\u0386\u0389\u038F\u0396\u0398" +
-		"\u039F\u03A9\u03B4\u03C2\u03C8\u03D2\u03D4\u03DD\u03E1\u03E7\u03E9\u03F0" +
-		"\u03F2\u03F6\u03FA\u0400\u0404\u040A\u040D\u0413\u0416\u0420\u0427\u042E" +
-		"\u0434\u0447\u0449";
+		"\x07\"\x02\x02\u0444\u0449\n\x15\x02\x02\u0445\u0449\x07%\x02\x02\u0446" +
+		"\u0449\x07$\x02\x02\u0447\u0449\x07#\x02\x02\u0448\u043E\x03\x02\x02\x02" +
+		"\u0448\u043F\x03\x02\x02\x02\u0448\u0440\x03\x02\x02\x02\u0448\u0441\x03" +
+		"\x02\x02\x02\u0448\u0443\x03\x02\x02\x02\u0448\u0445\x03\x02\x02\x02\u0448" +
+		"\u0446\x03\x02\x02\x02\u0448\u0447\x03\x02\x02\x02\u0449\u044A\x03\x02" +
+		"\x02\x02\u044A\u0448\x03\x02\x02\x02\u044A\u044B\x03\x02\x02\x02\u044B" +
+		"\x9F\x03\x02\x02\x02\u044C\u044D\x07\x04\x02\x02\u044D\xA1\x03\x02\x02" +
+		"\x02\x96\xA6\xAC\xB1\xB6\xBD\xC5\xCC\xD1\xDD\xE2\xE8\xEF\xF5\xF8\u0100" +
+		"\u0107\u010C\u0118\u011D\u0123\u012A\u0130\u0133\u0138\u013D\u0160\u016A" +
+		"\u016C\u0173\u0178\u0186\u018B\u018D\u019B\u01A1\u01A6\u01AA\u01AE\u01B1" +
+		"\u01B6\u01CD\u01D2\u01D4\u01DE\u01E8\u01F2\u01F8\u01FF\u0205\u020D\u0217" +
+		"\u0222\u0228\u022D\u0234\u023D\u0241\u0245\u0248\u0257\u025B\u026A\u026E" +
+		"\u0274\u027F\u0284\u0289\u028B\u0290\u0295\u0297\u029C\u02A2\u02A7\u02A9" +
+		"\u02B4\u02B8\u02C5\u02C9\u02CF\u02D1\u02D8\u02DC\u02DE\u02E4\u02E6\u02ED" +
+		"\u02F2\u02F5\u02FB\u02FE\u0302\u0309\u030E\u0314\u0319\u0321\u0323\u0327" +
+		"\u032E\u0330\u0339\u033B\u033F\u0349\u034B\u034F\u0355\u0357\u035F\u0363" +
+		"\u036A\u036F\u0375\u037A\u0382\u0386\u0389\u038F\u0396\u0398\u039F\u03A9" +
+		"\u03B4\u03C2\u03C8\u03D2\u03D4\u03DD\u03E1\u03E7\u03E9\u03F0\u03F2\u03F6" +
+		"\u03FA\u0400\u0404\u040A\u040D\u0413\u0416\u0420\u0427\u042E\u0434\u0448" +
+		"\u044A";
 	public static readonly _serializedATN: string = Utils.join(
 		[
 			chatParser._serializedATNSegment0,
@@ -9002,6 +9012,15 @@ export class WordsContext extends ParserRuleContext {
 			return this.getTokens(chatParser.SENTENCE);
 		} else {
 			return this.getToken(chatParser.SENTENCE, i);
+		}
+	}
+	public BARSTRING(): TerminalNode[];
+	public BARSTRING(i: number): TerminalNode;
+	public BARSTRING(i?: number): TerminalNode | TerminalNode[] {
+		if (i === undefined) {
+			return this.getTokens(chatParser.BARSTRING);
+		} else {
+			return this.getToken(chatParser.BARSTRING, i);
 		}
 	}
 	public AMP(): TerminalNode[];

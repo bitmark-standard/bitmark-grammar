@@ -147,7 +147,7 @@ listline_:	LIST_LINE ;
 
 numeric:	NUMERIC ;
 string:		STRING ;
-words:          ( SENTENCE | AMP | Greater ~(Greater) | Less ~(Less) 
+words:          ( SENTENCE | BARSTRING | AMP | Greater ~(Greater) | Less ~(Less) 
 		| RightArrow | RightAngle
 		)+ ;
 sp: 		S ;

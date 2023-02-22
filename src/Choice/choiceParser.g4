@@ -380,7 +380,7 @@ bracket_escaped:
 clnsp:		CL ;  // without spaces
 sspl:		SSPL|SSPL2 ;
 
-words:          ( SENTENCE | AMP | Greater ~(Greater) | Less ~(Less) 
+words:          ( SENTENCE | BARSTRING | AMP | Greater ~(Greater) | Less ~(Less) 
 		| RightArrow | RightAngle
 		)+ ;
 sp: 		S ;
