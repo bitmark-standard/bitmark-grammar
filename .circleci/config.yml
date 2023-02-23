@@ -41,7 +41,11 @@ jobs:
             curl -X POST \
               -H "Content-Type: application/json" \
               -H "Circle-Token: $CIRCLE_TOKEN" \
-              https://circleci.com/api/v2/project/github/getMoreBrain/bitbook-api/pipeline
+              -d '{
+                  "parameters": {
+                    "parser-install": "npm update"
+                  }
+                }' https://circleci.com/api/v2/project/github/getMoreBrain/bitbook-api/pipeline
 
 workflows:
   version: 2
