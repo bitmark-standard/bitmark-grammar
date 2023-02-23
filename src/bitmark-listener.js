@@ -30,7 +30,7 @@ let BitmarkListener = function(error_listener, source, parser) {
   this.but = new but.BitUtil(source.trim());
   this.format = "";  // &image, &audio, &video etc
   this.resformat = "";
-  this.resselfdesc = ['image', 'audio', 'video', 'stillImageFilm'];  // type starts with one of these
+  this.resselfdesc = {'image':'image', 'audio':'audio', 'video':'video', 'still-image-film': 'stillImageFilm'};  // type starts with one of these
   this.resimagegrp = ['screenshot', 'focus-image', 'photo', 'browser-image'];  // implicit image group
   this.reslist     = ['&image', '&audio', '&video', '&document', '&app', '&website', '&stillImageFilm', '&pdf'];
   this.fmtlist     = ['prosemirror', 'placeholder', 'text'];
@@ -39,7 +39,7 @@ let BitmarkListener = function(error_listener, source, parser) {
 		      'botAnnounceAt', 'botSaveAt', 'botSendAt', 'botRemindAt',
 		      'externalLink', 'videoCallLink', 'externalLinkText', 'textReference',
 		      'quotedPerson', 'kind', 'collection', 'book', 'padletId',
-		      'scormSource', 'posterImage', 'computerLanguage', 'icon', 'iconChar'
+		      'scormSource', 'posterImage', 'computerLanguage','icon', 'iconChar'
 		     ];
   this.atdef_num = ['focusX', 'focusY', 'numberOfStars'];
   this.bot_action_rating = [];  // for storing bot-action-rating at exitHint()
@@ -88,10 +88,10 @@ BitmarkListener.prototype.push_tmpl = function(ctx, type, template=R.clone(JSON_
 
   // If arg type is one of [image, audio, video], then set the resformat as the bit name
   let found = false;
-  for (let t of this.resselfdesc) {
+  for (let t of Object.keys(this.resselfdesc)) {
     // ['image', 'audio', 'video', 'stillImageFilm']
     if (type.startsWith(t)) {
-      this.resformat = '&'+t;  // image audio video
+      this.resformat = '&'+this.resselfdesc[t];  // image audio video
       found = true;
       break;
     }
@@ -2536,26 +2536,26 @@ BitmarkListener.prototype.enterVendor_padlet_embed = function(ctx) { this.push_t
 BitmarkListener.prototype.enterScorm = function(ctx){this.push_tmpl(ctx, 'scorm');};
 
 BitmarkListener.prototype.enterBit_image = function(ctx) { this.push_tmpl(ctx, 'image'); }
-BitmarkListener.prototype.enterBit_imageLink = function(ctx) { this.push_tmpl(ctx, 'imageLink'); }
-BitmarkListener.prototype.enterBit_imageZoom = function(ctx) { this.push_tmpl(ctx, 'imageZoom'); }
+BitmarkListener.prototype.enterBit_imageLink = function(ctx) { this.push_tmpl(ctx, 'image-link'); }
+BitmarkListener.prototype.enterBit_imageZoom = function(ctx) { this.push_tmpl(ctx, 'image-zoom'); }
 BitmarkListener.prototype.enterBit_imageSuperWide = function(ctx) { this.push_tmpl(ctx, 'image-super-wide'); }
 BitmarkListener.prototype.enterBit_audio = function(ctx) { this.push_tmpl(ctx, 'audio'); }
-BitmarkListener.prototype.enterBit_audioLink = function(ctx) { this.push_tmpl(ctx, 'audioLink'); }
-BitmarkListener.prototype.enterBit_audioEmbed = function(ctx) { this.push_tmpl(ctx, 'audioEmbed'); }
+BitmarkListener.prototype.enterBit_audioLink = function(ctx) { this.push_tmpl(ctx, 'audio-link'); }
+BitmarkListener.prototype.enterBit_audioEmbed = function(ctx) { this.push_tmpl(ctx, 'audio-embed'); }
 BitmarkListener.prototype.enterBit_video = function(ctx) { this.push_tmpl(ctx, 'video'); }
-BitmarkListener.prototype.enterBit_videoLink = function(ctx) { this.push_tmpl(ctx, 'videoLink'); }
-BitmarkListener.prototype.enterBit_videoEmbed = function(ctx) { this.push_tmpl(ctx, 'videoEmbed'); }
+BitmarkListener.prototype.enterBit_videoLink = function(ctx) { this.push_tmpl(ctx, 'video-link'); }
+BitmarkListener.prototype.enterBit_videoEmbed = function(ctx) { this.push_tmpl(ctx, 'video-embed'); }
 BitmarkListener.prototype.enterBit_videoPortrait = function(ctx) { this.push_tmpl(ctx, 'video-portrait'); }
 BitmarkListener.prototype.enterBit_videoLandscape = function(ctx) { this.push_tmpl(ctx, 'video-landscape'); }
-BitmarkListener.prototype.enterBit_stillImageFilm = function(ctx) { this.push_tmpl(ctx, 'stillImageFilm'); }
-BitmarkListener.prototype.enterBit_stillImageFilmLink = function(ctx) { this.push_tmpl(ctx, 'stillImageFilmLink'); }
-BitmarkListener.prototype.enterBit_stillImageFilmEmbed = function(ctx) { this.push_tmpl(ctx, 'stillImageFilmEmbed'); }
-BitmarkListener.prototype.enterBit_websiteLink = function(ctx) { this.push_tmpl(ctx, 'websiteLink'); }
+BitmarkListener.prototype.enterBit_stillImageFilm = function(ctx) { this.push_tmpl(ctx, 'still-image-film'); }
+BitmarkListener.prototype.enterBit_stillImageFilmLink = function(ctx) { this.push_tmpl(ctx, 'still-image-film-link'); }
+BitmarkListener.prototype.enterBit_stillImageFilmEmbed = function(ctx) { this.push_tmpl(ctx, 'still-image-film-embed'); }
+BitmarkListener.prototype.enterBit_websiteLink = function(ctx) { this.push_tmpl(ctx, 'website-link'); }
 BitmarkListener.prototype.enterBit_document = function(ctx) { this.push_tmpl(ctx, 'document'); }
-BitmarkListener.prototype.enterBit_documentLink = function(ctx) { this.push_tmpl(ctx, 'documentLink'); }
-BitmarkListener.prototype.enterBit_documentEmbed = function(ctx) { this.push_tmpl(ctx, 'documentEmbed'); }
-BitmarkListener.prototype.enterBit_documentDownload = function(ctx) { this.push_tmpl(ctx, 'documentDownload'); }
-BitmarkListener.prototype.enterBit_appLink = function(ctx) { this.push_tmpl(ctx, 'appLink'); }
+BitmarkListener.prototype.enterBit_documentLink = function(ctx) { this.push_tmpl(ctx, 'document-link'); }
+BitmarkListener.prototype.enterBit_documentEmbed = function(ctx) { this.push_tmpl(ctx, 'document-embed'); }
+BitmarkListener.prototype.enterBit_documentDownload = function(ctx) { this.push_tmpl(ctx, 'document-download'); }
+BitmarkListener.prototype.enterBit_appLink = function(ctx) { this.push_tmpl(ctx, 'app-link'); }
 BitmarkListener.prototype.enterBit_editorial = function(ctx) { this.push_tmpl(ctx, 'editorial'); }
 
 BitmarkListener.prototype.enterBook_frontispiece= function(ctx) { this.push_tmpl(ctx, 'book-frontispiece'); }
