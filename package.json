@@ -1,6 +1,6 @@
 {
   "name": "@bitmark-standard/bitmark-grammar",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bitmark-standard/bitmark-grammar.git"
