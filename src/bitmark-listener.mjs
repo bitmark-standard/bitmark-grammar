@@ -39,7 +39,7 @@ let BitmarkListener = function(error_listener, source, parser) {
 		      'botAnnounceAt', 'botSaveAt', 'botSendAt', 'botRemindAt',
 		      'externalLink', 'videoCallLink', 'externalLinkText', 'textReference',
 		      'quotedPerson', 'kind', 'collection', 'book', 'padletId',
-		      'scormSource', 'posterImage', 'computerLanguage'
+		      'scormSource', 'posterImage', 'computerLanguage','icon', 'iconChar'
 		     ];
   this.atdef_num = ['focusX', 'focusY', 'numberOfStars'];
   this.bot_action_rating = [];  // for storing bot-action-rating at exitHint()
