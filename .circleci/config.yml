@@ -43,7 +43,7 @@ jobs:
               -H "Circle-Token: $CIRCLE_TOKEN" \
               -d '{
                   "parameters": {
-                    "parser-install": "npm update"
+                    "parser-install": "npm i @bitmark-standard/bitmark-grammar"
                   }
                 }' https://circleci.com/api/v2/project/github/getMoreBrain/bitbook-api/pipeline
 
