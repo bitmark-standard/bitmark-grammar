@@ -1,5 +1,16 @@
 version: 2.1
 jobs:
+  test_trigger:
+    docker:
+      - image: cimg/node:18.12
+    steps:
+      - run:
+          name: Trigger Bitmark API build & deploy
+          command: |
+            curl -X POST \
+              -H "Content-Type: application/json" \
+              -H "Circle-Token: $CIRCLE_TOKEN" \
+              https://circleci.com/api/v2/project/github/getMoreBrain/bitbook-api/pipeline
   build:
     docker:
       - image: cimg/node:18.12-browsers
@@ -35,9 +46,23 @@ jobs:
           name: Push to GitHub
           command: |
             git push origin master
+      # - run:
+      #     name: Trigger Bitmark API build & deploy
+      #     command: |
+      #       curl -X POST \
+      #         -H "Content-Type: application/json" \
+      #         -H "Circle-Token: $CIRCLE_TOKEN" \
+      #         https://circleci.com/api/v2/project/github/getMoreBrain/bitbook-api/pipeline
 
 workflows:
   version: 2
   pipeline:
     jobs:
-      - build
+      - build:
+          filters:
+            branches:
+              only: master
+      - test_trigger:
+          filters:
+            branches:
+              only: test
