@@ -803,7 +803,7 @@ let interviewParser = /** @class */ (() => {
                                         this.state = 364;
                                         this._errHandler.sync(this);
                                         _la = this._input.LA(1);
-                                        if (((((_la - 27)) & ~0x1F) === 0 && ((1 << (_la - 27)) & ((1 << (interviewParser.AMP - 27)) | (1 << (interviewParser.Greater - 27)) | (1 << (interviewParser.Less - 27)) | (1 << (interviewParser.RightAngle - 27)) | (1 << (interviewParser.RightArrow - 27)) | (1 << (interviewParser.STRING - 27)) | (1 << (interviewParser.SENTENCE - 27)))) !== 0)) {
+                                        if (((((_la - 27)) & ~0x1F) === 0 && ((1 << (_la - 27)) & ((1 << (interviewParser.AMP - 27)) | (1 << (interviewParser.Greater - 27)) | (1 << (interviewParser.Less - 27)) | (1 << (interviewParser.RightAngle - 27)) | (1 << (interviewParser.RightArrow - 27)) | (1 << (interviewParser.STRING - 27)) | (1 << (interviewParser.SENTENCE - 27)) | (1 << (interviewParser.BARSTRING - 27)))) !== 0)) {
                                             {
                                                 this.state = 363;
                                                 this.interview_answer();
@@ -970,7 +970,7 @@ let interviewParser = /** @class */ (() => {
                                         this.state = 400;
                                         this._errHandler.sync(this);
                                         _la = this._input.LA(1);
-                                        if (((((_la - 27)) & ~0x1F) === 0 && ((1 << (_la - 27)) & ((1 << (interviewParser.AMP - 27)) | (1 << (interviewParser.Greater - 27)) | (1 << (interviewParser.Less - 27)) | (1 << (interviewParser.RightAngle - 27)) | (1 << (interviewParser.RightArrow - 27)) | (1 << (interviewParser.STRING - 27)) | (1 << (interviewParser.SENTENCE - 27)))) !== 0)) {
+                                        if (((((_la - 27)) & ~0x1F) === 0 && ((1 << (_la - 27)) & ((1 << (interviewParser.AMP - 27)) | (1 << (interviewParser.Greater - 27)) | (1 << (interviewParser.Less - 27)) | (1 << (interviewParser.RightAngle - 27)) | (1 << (interviewParser.RightArrow - 27)) | (1 << (interviewParser.STRING - 27)) | (1 << (interviewParser.SENTENCE - 27)) | (1 << (interviewParser.BARSTRING - 27)))) !== 0)) {
                                             {
                                                 this.state = 399;
                                                 this.interview_answer();
@@ -1122,6 +1122,7 @@ let interviewParser = /** @class */ (() => {
                     case interviewParser.RightArrow:
                     case interviewParser.STRING:
                     case interviewParser.SENTENCE:
+                    case interviewParser.BARSTRING:
                         this.enterOuterAlt(_localctx, 1);
                         {
                             this.state = 429;
@@ -1240,7 +1241,7 @@ let interviewParser = /** @class */ (() => {
                         this.state = 454;
                         this._errHandler.sync(this);
                         _la = this._input.LA(1);
-                    } while (((((_la - 27)) & ~0x1F) === 0 && ((1 << (_la - 27)) & ((1 << (interviewParser.AMP - 27)) | (1 << (interviewParser.Greater - 27)) | (1 << (interviewParser.Less - 27)) | (1 << (interviewParser.RightAngle - 27)) | (1 << (interviewParser.RightArrow - 27)) | (1 << (interviewParser.STRING - 27)) | (1 << (interviewParser.SENTENCE - 27)))) !== 0));
+                    } while (((((_la - 27)) & ~0x1F) === 0 && ((1 << (_la - 27)) & ((1 << (interviewParser.AMP - 27)) | (1 << (interviewParser.Greater - 27)) | (1 << (interviewParser.Less - 27)) | (1 << (interviewParser.RightAngle - 27)) | (1 << (interviewParser.RightArrow - 27)) | (1 << (interviewParser.STRING - 27)) | (1 << (interviewParser.SENTENCE - 27)) | (1 << (interviewParser.BARSTRING - 27)))) !== 0));
                 }
             }
             catch (re) {
@@ -1413,7 +1414,7 @@ let interviewParser = /** @class */ (() => {
                         this.state = 474;
                         this._errHandler.sync(this);
                         _la = this._input.LA(1);
-                    } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << interviewParser.S) | (1 << interviewParser.OPS) | (1 << interviewParser.COLON) | (1 << interviewParser.AMP) | (1 << interviewParser.DBLCOLON) | (1 << interviewParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (interviewParser.Less - 32)) | (1 << (interviewParser.RightAngle - 32)) | (1 << (interviewParser.RightArrow - 32)) | (1 << (interviewParser.DBLEQ - 32)) | (1 << (interviewParser.NUMERIC - 32)) | (1 << (interviewParser.STRING - 32)) | (1 << (interviewParser.NL - 32)) | (1 << (interviewParser.SENTENCE - 32)))) !== 0) || _la === interviewParser.URL);
+                    } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << interviewParser.S) | (1 << interviewParser.OPS) | (1 << interviewParser.COLON) | (1 << interviewParser.AMP) | (1 << interviewParser.DBLCOLON) | (1 << interviewParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (interviewParser.Less - 32)) | (1 << (interviewParser.RightAngle - 32)) | (1 << (interviewParser.RightArrow - 32)) | (1 << (interviewParser.DBLEQ - 32)) | (1 << (interviewParser.NUMERIC - 32)) | (1 << (interviewParser.STRING - 32)) | (1 << (interviewParser.NL - 32)) | (1 << (interviewParser.SENTENCE - 32)) | (1 << (interviewParser.BARSTRING - 32)))) !== 0) || _la === interviewParser.URL);
                     this.state = 477;
                     this._errHandler.sync(this);
                     _la = this._input.LA(1);
@@ -1604,7 +1605,7 @@ let interviewParser = /** @class */ (() => {
                         this.state = 513;
                         this._errHandler.sync(this);
                         _la = this._input.LA(1);
-                    } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << interviewParser.S) | (1 << interviewParser.OPS) | (1 << interviewParser.COLON) | (1 << interviewParser.AMP) | (1 << interviewParser.DBLCOLON) | (1 << interviewParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (interviewParser.Less - 32)) | (1 << (interviewParser.RightAngle - 32)) | (1 << (interviewParser.RightArrow - 32)) | (1 << (interviewParser.DBLEQ - 32)) | (1 << (interviewParser.NUMERIC - 32)) | (1 << (interviewParser.STRING - 32)) | (1 << (interviewParser.NL - 32)) | (1 << (interviewParser.SENTENCE - 32)))) !== 0) || _la === interviewParser.URL);
+                    } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << interviewParser.S) | (1 << interviewParser.OPS) | (1 << interviewParser.COLON) | (1 << interviewParser.AMP) | (1 << interviewParser.DBLCOLON) | (1 << interviewParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (interviewParser.Less - 32)) | (1 << (interviewParser.RightAngle - 32)) | (1 << (interviewParser.RightArrow - 32)) | (1 << (interviewParser.DBLEQ - 32)) | (1 << (interviewParser.NUMERIC - 32)) | (1 << (interviewParser.STRING - 32)) | (1 << (interviewParser.NL - 32)) | (1 << (interviewParser.SENTENCE - 32)) | (1 << (interviewParser.BARSTRING - 32)))) !== 0) || _la === interviewParser.URL);
                     this.state = 515;
                     this.match(interviewParser.CL);
                 }
@@ -1647,7 +1648,7 @@ let interviewParser = /** @class */ (() => {
                         this.state = 521;
                         this._errHandler.sync(this);
                         _la = this._input.LA(1);
-                    } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << interviewParser.S) | (1 << interviewParser.OPS) | (1 << interviewParser.COLON) | (1 << interviewParser.AMP) | (1 << interviewParser.DBLCOLON) | (1 << interviewParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (interviewParser.Less - 32)) | (1 << (interviewParser.RightAngle - 32)) | (1 << (interviewParser.RightArrow - 32)) | (1 << (interviewParser.DBLEQ - 32)) | (1 << (interviewParser.NUMERIC - 32)) | (1 << (interviewParser.STRING - 32)) | (1 << (interviewParser.NL - 32)) | (1 << (interviewParser.SENTENCE - 32)))) !== 0) || _la === interviewParser.URL);
+                    } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << interviewParser.S) | (1 << interviewParser.OPS) | (1 << interviewParser.COLON) | (1 << interviewParser.AMP) | (1 << interviewParser.DBLCOLON) | (1 << interviewParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (interviewParser.Less - 32)) | (1 << (interviewParser.RightAngle - 32)) | (1 << (interviewParser.RightArrow - 32)) | (1 << (interviewParser.DBLEQ - 32)) | (1 << (interviewParser.NUMERIC - 32)) | (1 << (interviewParser.STRING - 32)) | (1 << (interviewParser.NL - 32)) | (1 << (interviewParser.SENTENCE - 32)) | (1 << (interviewParser.BARSTRING - 32)))) !== 0) || _la === interviewParser.URL);
                     this.state = 523;
                     this.match(interviewParser.CL);
                 }
@@ -1680,7 +1681,7 @@ let interviewParser = /** @class */ (() => {
                     this.state = 533;
                     this._errHandler.sync(this);
                     _la = this._input.LA(1);
-                    if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << interviewParser.S) | (1 << interviewParser.OPS) | (1 << interviewParser.COLON) | (1 << interviewParser.AMP) | (1 << interviewParser.DBLCOLON) | (1 << interviewParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (interviewParser.Less - 32)) | (1 << (interviewParser.RightAngle - 32)) | (1 << (interviewParser.RightArrow - 32)) | (1 << (interviewParser.DBLEQ - 32)) | (1 << (interviewParser.NUMERIC - 32)) | (1 << (interviewParser.STRING - 32)) | (1 << (interviewParser.NL - 32)) | (1 << (interviewParser.SENTENCE - 32)))) !== 0) || _la === interviewParser.URL) {
+                    if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << interviewParser.S) | (1 << interviewParser.OPS) | (1 << interviewParser.COLON) | (1 << interviewParser.AMP) | (1 << interviewParser.DBLCOLON) | (1 << interviewParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (interviewParser.Less - 32)) | (1 << (interviewParser.RightAngle - 32)) | (1 << (interviewParser.RightArrow - 32)) | (1 << (interviewParser.DBLEQ - 32)) | (1 << (interviewParser.NUMERIC - 32)) | (1 << (interviewParser.STRING - 32)) | (1 << (interviewParser.NL - 32)) | (1 << (interviewParser.SENTENCE - 32)) | (1 << (interviewParser.BARSTRING - 32)))) !== 0) || _la === interviewParser.URL) {
                         {
                             this.state = 527;
                             this._errHandler.sync(this);
@@ -1996,6 +1997,7 @@ let interviewParser = /** @class */ (() => {
                         case interviewParser.STRING:
                         case interviewParser.NL:
                         case interviewParser.SENTENCE:
+                        case interviewParser.BARSTRING:
                         case interviewParser.URL:
                         case interviewParser.LIST_LINE:
                             {
@@ -2141,6 +2143,7 @@ let interviewParser = /** @class */ (() => {
                                         case interviewParser.STRING:
                                         case interviewParser.NL:
                                         case interviewParser.SENTENCE:
+                                        case interviewParser.BARSTRING:
                                         case interviewParser.URL:
                                             {
                                                 this.state = 598;
@@ -2287,7 +2290,7 @@ let interviewParser = /** @class */ (() => {
                     this.state = 623;
                     this._errHandler.sync(this);
                     _la = this._input.LA(1);
-                    while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << interviewParser.S) | (1 << interviewParser.OPS) | (1 << interviewParser.COLON) | (1 << interviewParser.AMP) | (1 << interviewParser.DBLCOLON) | (1 << interviewParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (interviewParser.Less - 32)) | (1 << (interviewParser.RightAngle - 32)) | (1 << (interviewParser.RightArrow - 32)) | (1 << (interviewParser.DBLEQ - 32)) | (1 << (interviewParser.NUMERIC - 32)) | (1 << (interviewParser.STRING - 32)) | (1 << (interviewParser.NL - 32)) | (1 << (interviewParser.SENTENCE - 32)))) !== 0) || _la === interviewParser.URL) {
+                    while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << interviewParser.S) | (1 << interviewParser.OPS) | (1 << interviewParser.COLON) | (1 << interviewParser.AMP) | (1 << interviewParser.DBLCOLON) | (1 << interviewParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (interviewParser.Less - 32)) | (1 << (interviewParser.RightAngle - 32)) | (1 << (interviewParser.RightArrow - 32)) | (1 << (interviewParser.DBLEQ - 32)) | (1 << (interviewParser.NUMERIC - 32)) | (1 << (interviewParser.STRING - 32)) | (1 << (interviewParser.NL - 32)) | (1 << (interviewParser.SENTENCE - 32)) | (1 << (interviewParser.BARSTRING - 32)))) !== 0) || _la === interviewParser.URL) {
                         {
                             {
                                 this.state = 620;
@@ -4313,7 +4316,7 @@ let interviewParser = /** @class */ (() => {
                                 this.state = 926;
                                 this._errHandler.sync(this);
                                 _la = this._input.LA(1);
-                            } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << interviewParser.S) | (1 << interviewParser.OPS) | (1 << interviewParser.COLON) | (1 << interviewParser.AMP) | (1 << interviewParser.DBLCOLON) | (1 << interviewParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (interviewParser.Less - 32)) | (1 << (interviewParser.RightAngle - 32)) | (1 << (interviewParser.RightArrow - 32)) | (1 << (interviewParser.DBLEQ - 32)) | (1 << (interviewParser.NUMERIC - 32)) | (1 << (interviewParser.STRING - 32)) | (1 << (interviewParser.NL - 32)) | (1 << (interviewParser.SENTENCE - 32)))) !== 0) || _la === interviewParser.URL);
+                            } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << interviewParser.S) | (1 << interviewParser.OPS) | (1 << interviewParser.COLON) | (1 << interviewParser.AMP) | (1 << interviewParser.DBLCOLON) | (1 << interviewParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (interviewParser.Less - 32)) | (1 << (interviewParser.RightAngle - 32)) | (1 << (interviewParser.RightArrow - 32)) | (1 << (interviewParser.DBLEQ - 32)) | (1 << (interviewParser.NUMERIC - 32)) | (1 << (interviewParser.STRING - 32)) | (1 << (interviewParser.NL - 32)) | (1 << (interviewParser.SENTENCE - 32)) | (1 << (interviewParser.BARSTRING - 32)))) !== 0) || _la === interviewParser.URL);
                             this.state = 928;
                             this.match(interviewParser.CL);
                         }
@@ -4508,7 +4511,7 @@ let interviewParser = /** @class */ (() => {
                             this.state = 966;
                             this._errHandler.sync(this);
                             _la = this._input.LA(1);
-                            while (((((_la - 26)) & ~0x1F) === 0 && ((1 << (_la - 26)) & ((1 << (interviewParser.COLON - 26)) | (1 << (interviewParser.AMP - 26)) | (1 << (interviewParser.Greater - 26)) | (1 << (interviewParser.Less - 26)) | (1 << (interviewParser.RightAngle - 26)) | (1 << (interviewParser.RightArrow - 26)) | (1 << (interviewParser.STRING - 26)) | (1 << (interviewParser.SENTENCE - 26)))) !== 0)) {
+                            while (((((_la - 26)) & ~0x1F) === 0 && ((1 << (_la - 26)) & ((1 << (interviewParser.COLON - 26)) | (1 << (interviewParser.AMP - 26)) | (1 << (interviewParser.Greater - 26)) | (1 << (interviewParser.Less - 26)) | (1 << (interviewParser.RightAngle - 26)) | (1 << (interviewParser.RightArrow - 26)) | (1 << (interviewParser.STRING - 26)) | (1 << (interviewParser.SENTENCE - 26)) | (1 << (interviewParser.BARSTRING - 26)))) !== 0)) {
                                 {
                                     this.state = 964;
                                     this._errHandler.sync(this);
@@ -4526,6 +4529,7 @@ let interviewParser = /** @class */ (() => {
                                         case interviewParser.RightArrow:
                                         case interviewParser.STRING:
                                         case interviewParser.SENTENCE:
+                                        case interviewParser.BARSTRING:
                                             {
                                                 this.state = 963;
                                                 this.words();
@@ -4599,7 +4603,7 @@ let interviewParser = /** @class */ (() => {
                     this.state = 987;
                     this._errHandler.sync(this);
                     _la = this._input.LA(1);
-                    while (((((_la - 26)) & ~0x1F) === 0 && ((1 << (_la - 26)) & ((1 << (interviewParser.COLON - 26)) | (1 << (interviewParser.AMP - 26)) | (1 << (interviewParser.Greater - 26)) | (1 << (interviewParser.Less - 26)) | (1 << (interviewParser.RightAngle - 26)) | (1 << (interviewParser.RightArrow - 26)) | (1 << (interviewParser.STRING - 26)) | (1 << (interviewParser.SENTENCE - 26)))) !== 0)) {
+                    while (((((_la - 26)) & ~0x1F) === 0 && ((1 << (_la - 26)) & ((1 << (interviewParser.COLON - 26)) | (1 << (interviewParser.AMP - 26)) | (1 << (interviewParser.Greater - 26)) | (1 << (interviewParser.Less - 26)) | (1 << (interviewParser.RightAngle - 26)) | (1 << (interviewParser.RightArrow - 26)) | (1 << (interviewParser.STRING - 26)) | (1 << (interviewParser.SENTENCE - 26)) | (1 << (interviewParser.BARSTRING - 26)))) !== 0)) {
                         {
                             this.state = 985;
                             this._errHandler.sync(this);
@@ -4617,6 +4621,7 @@ let interviewParser = /** @class */ (() => {
                                 case interviewParser.RightArrow:
                                 case interviewParser.STRING:
                                 case interviewParser.SENTENCE:
+                                case interviewParser.BARSTRING:
                                     {
                                         this.state = 984;
                                         this.words();
@@ -4666,7 +4671,7 @@ let interviewParser = /** @class */ (() => {
                             this.state = 994;
                             this._errHandler.sync(this);
                             _la = this._input.LA(1);
-                            if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << interviewParser.S) | (1 << interviewParser.OPS) | (1 << interviewParser.COLON) | (1 << interviewParser.AMP) | (1 << interviewParser.DBLCOLON) | (1 << interviewParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (interviewParser.Less - 32)) | (1 << (interviewParser.RightAngle - 32)) | (1 << (interviewParser.RightArrow - 32)) | (1 << (interviewParser.DBLEQ - 32)) | (1 << (interviewParser.NUMERIC - 32)) | (1 << (interviewParser.STRING - 32)) | (1 << (interviewParser.NL - 32)) | (1 << (interviewParser.SENTENCE - 32)))) !== 0) || _la === interviewParser.URL) {
+                            if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << interviewParser.S) | (1 << interviewParser.OPS) | (1 << interviewParser.COLON) | (1 << interviewParser.AMP) | (1 << interviewParser.DBLCOLON) | (1 << interviewParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (interviewParser.Less - 32)) | (1 << (interviewParser.RightAngle - 32)) | (1 << (interviewParser.RightArrow - 32)) | (1 << (interviewParser.DBLEQ - 32)) | (1 << (interviewParser.NUMERIC - 32)) | (1 << (interviewParser.STRING - 32)) | (1 << (interviewParser.NL - 32)) | (1 << (interviewParser.SENTENCE - 32)) | (1 << (interviewParser.BARSTRING - 32)))) !== 0) || _la === interviewParser.URL) {
                                 {
                                     this.state = 993;
                                     this.s_and_w();
@@ -4684,7 +4689,7 @@ let interviewParser = /** @class */ (() => {
                             this.state = 999;
                             this._errHandler.sync(this);
                             _la = this._input.LA(1);
-                            if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << interviewParser.S) | (1 << interviewParser.OPS) | (1 << interviewParser.COLON) | (1 << interviewParser.AMP) | (1 << interviewParser.DBLCOLON) | (1 << interviewParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (interviewParser.Less - 32)) | (1 << (interviewParser.RightAngle - 32)) | (1 << (interviewParser.RightArrow - 32)) | (1 << (interviewParser.DBLEQ - 32)) | (1 << (interviewParser.NUMERIC - 32)) | (1 << (interviewParser.STRING - 32)) | (1 << (interviewParser.NL - 32)) | (1 << (interviewParser.SENTENCE - 32)))) !== 0) || _la === interviewParser.URL) {
+                            if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << interviewParser.S) | (1 << interviewParser.OPS) | (1 << interviewParser.COLON) | (1 << interviewParser.AMP) | (1 << interviewParser.DBLCOLON) | (1 << interviewParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (interviewParser.Less - 32)) | (1 << (interviewParser.RightAngle - 32)) | (1 << (interviewParser.RightArrow - 32)) | (1 << (interviewParser.DBLEQ - 32)) | (1 << (interviewParser.NUMERIC - 32)) | (1 << (interviewParser.STRING - 32)) | (1 << (interviewParser.NL - 32)) | (1 << (interviewParser.SENTENCE - 32)) | (1 << (interviewParser.BARSTRING - 32)))) !== 0) || _la === interviewParser.URL) {
                                 {
                                     this.state = 998;
                                     this.s_and_w();
@@ -4801,7 +4806,7 @@ let interviewParser = /** @class */ (() => {
                             this.state = 1038;
                             this._errHandler.sync(this);
                             _la = this._input.LA(1);
-                            while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << interviewParser.S) | (1 << interviewParser.OPS) | (1 << interviewParser.COLON) | (1 << interviewParser.AMP) | (1 << interviewParser.DBLCOLON) | (1 << interviewParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (interviewParser.Less - 32)) | (1 << (interviewParser.RightAngle - 32)) | (1 << (interviewParser.RightArrow - 32)) | (1 << (interviewParser.DBLEQ - 32)) | (1 << (interviewParser.NUMERIC - 32)) | (1 << (interviewParser.STRING - 32)) | (1 << (interviewParser.NL - 32)) | (1 << (interviewParser.SENTENCE - 32)))) !== 0) || _la === interviewParser.URL) {
+                            while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << interviewParser.S) | (1 << interviewParser.OPS) | (1 << interviewParser.COLON) | (1 << interviewParser.AMP) | (1 << interviewParser.DBLCOLON) | (1 << interviewParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (interviewParser.Less - 32)) | (1 << (interviewParser.RightAngle - 32)) | (1 << (interviewParser.RightArrow - 32)) | (1 << (interviewParser.DBLEQ - 32)) | (1 << (interviewParser.NUMERIC - 32)) | (1 << (interviewParser.STRING - 32)) | (1 << (interviewParser.NL - 32)) | (1 << (interviewParser.SENTENCE - 32)) | (1 << (interviewParser.BARSTRING - 32)))) !== 0) || _la === interviewParser.URL) {
                                 {
                                     {
                                         this.state = 1017;
@@ -4872,7 +4877,7 @@ let interviewParser = /** @class */ (() => {
                             this.state = 1048;
                             this._errHandler.sync(this);
                             _la = this._input.LA(1);
-                            while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << interviewParser.S) | (1 << interviewParser.OPS) | (1 << interviewParser.COLON) | (1 << interviewParser.AMP) | (1 << interviewParser.DBLCOLON) | (1 << interviewParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (interviewParser.Less - 32)) | (1 << (interviewParser.RightAngle - 32)) | (1 << (interviewParser.RightArrow - 32)) | (1 << (interviewParser.DBLEQ - 32)) | (1 << (interviewParser.NUMERIC - 32)) | (1 << (interviewParser.STRING - 32)) | (1 << (interviewParser.NL - 32)) | (1 << (interviewParser.SENTENCE - 32)))) !== 0) || _la === interviewParser.URL) {
+                            while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << interviewParser.S) | (1 << interviewParser.OPS) | (1 << interviewParser.COLON) | (1 << interviewParser.AMP) | (1 << interviewParser.DBLCOLON) | (1 << interviewParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (interviewParser.Less - 32)) | (1 << (interviewParser.RightAngle - 32)) | (1 << (interviewParser.RightArrow - 32)) | (1 << (interviewParser.DBLEQ - 32)) | (1 << (interviewParser.NUMERIC - 32)) | (1 << (interviewParser.STRING - 32)) | (1 << (interviewParser.NL - 32)) | (1 << (interviewParser.SENTENCE - 32)) | (1 << (interviewParser.BARSTRING - 32)))) !== 0) || _la === interviewParser.URL) {
                                 {
                                     this.state = 1046;
                                     this._errHandler.sync(this);
@@ -4973,7 +4978,7 @@ let interviewParser = /** @class */ (() => {
                                 this.state = 1061;
                                 this._errHandler.sync(this);
                                 _la = this._input.LA(1);
-                            } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << interviewParser.S) | (1 << interviewParser.OPS) | (1 << interviewParser.COLON) | (1 << interviewParser.AMP) | (1 << interviewParser.DBLCOLON) | (1 << interviewParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (interviewParser.Less - 32)) | (1 << (interviewParser.RightAngle - 32)) | (1 << (interviewParser.RightArrow - 32)) | (1 << (interviewParser.DBLEQ - 32)) | (1 << (interviewParser.NUMERIC - 32)) | (1 << (interviewParser.STRING - 32)) | (1 << (interviewParser.NL - 32)) | (1 << (interviewParser.SENTENCE - 32)))) !== 0) || _la === interviewParser.URL);
+                            } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << interviewParser.S) | (1 << interviewParser.OPS) | (1 << interviewParser.COLON) | (1 << interviewParser.AMP) | (1 << interviewParser.DBLCOLON) | (1 << interviewParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (interviewParser.Less - 32)) | (1 << (interviewParser.RightAngle - 32)) | (1 << (interviewParser.RightArrow - 32)) | (1 << (interviewParser.DBLEQ - 32)) | (1 << (interviewParser.NUMERIC - 32)) | (1 << (interviewParser.STRING - 32)) | (1 << (interviewParser.NL - 32)) | (1 << (interviewParser.SENTENCE - 32)) | (1 << (interviewParser.BARSTRING - 32)))) !== 0) || _la === interviewParser.URL);
                             this.state = 1063;
                             this.match(interviewParser.CL);
                         }
@@ -4986,7 +4991,7 @@ let interviewParser = /** @class */ (() => {
                             this.state = 1072;
                             this._errHandler.sync(this);
                             _la = this._input.LA(1);
-                            while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << interviewParser.S) | (1 << interviewParser.OPS) | (1 << interviewParser.COLON) | (1 << interviewParser.AMP) | (1 << interviewParser.DBLCOLON) | (1 << interviewParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (interviewParser.Less - 32)) | (1 << (interviewParser.RightAngle - 32)) | (1 << (interviewParser.RightArrow - 32)) | (1 << (interviewParser.DBLEQ - 32)) | (1 << (interviewParser.NUMERIC - 32)) | (1 << (interviewParser.STRING - 32)) | (1 << (interviewParser.NL - 32)) | (1 << (interviewParser.SENTENCE - 32)))) !== 0) || _la === interviewParser.URL) {
+                            while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << interviewParser.S) | (1 << interviewParser.OPS) | (1 << interviewParser.COLON) | (1 << interviewParser.AMP) | (1 << interviewParser.DBLCOLON) | (1 << interviewParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (interviewParser.Less - 32)) | (1 << (interviewParser.RightAngle - 32)) | (1 << (interviewParser.RightArrow - 32)) | (1 << (interviewParser.DBLEQ - 32)) | (1 << (interviewParser.NUMERIC - 32)) | (1 << (interviewParser.STRING - 32)) | (1 << (interviewParser.NL - 32)) | (1 << (interviewParser.SENTENCE - 32)) | (1 << (interviewParser.BARSTRING - 32)))) !== 0) || _la === interviewParser.URL) {
                                 {
                                     this.state = 1070;
                                     this._errHandler.sync(this);
@@ -5119,7 +5124,7 @@ let interviewParser = /** @class */ (() => {
                         this.state = 1088;
                         this._errHandler.sync(this);
                         _la = this._input.LA(1);
-                    } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << interviewParser.S) | (1 << interviewParser.OPS) | (1 << interviewParser.COLON) | (1 << interviewParser.AMP) | (1 << interviewParser.DBLCOLON) | (1 << interviewParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (interviewParser.Less - 32)) | (1 << (interviewParser.RightAngle - 32)) | (1 << (interviewParser.RightArrow - 32)) | (1 << (interviewParser.DBLEQ - 32)) | (1 << (interviewParser.NUMERIC - 32)) | (1 << (interviewParser.STRING - 32)) | (1 << (interviewParser.NL - 32)) | (1 << (interviewParser.SENTENCE - 32)))) !== 0) || _la === interviewParser.URL);
+                    } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << interviewParser.S) | (1 << interviewParser.OPS) | (1 << interviewParser.COLON) | (1 << interviewParser.AMP) | (1 << interviewParser.DBLCOLON) | (1 << interviewParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (interviewParser.Less - 32)) | (1 << (interviewParser.RightAngle - 32)) | (1 << (interviewParser.RightArrow - 32)) | (1 << (interviewParser.DBLEQ - 32)) | (1 << (interviewParser.NUMERIC - 32)) | (1 << (interviewParser.STRING - 32)) | (1 << (interviewParser.NL - 32)) | (1 << (interviewParser.SENTENCE - 32)) | (1 << (interviewParser.BARSTRING - 32)))) !== 0) || _la === interviewParser.URL);
                     this.state = 1090;
                     this.match(interviewParser.CL);
                     this.state = 1092;
@@ -5189,7 +5194,7 @@ let interviewParser = /** @class */ (() => {
                         this.state = 1100;
                         this._errHandler.sync(this);
                         _la = this._input.LA(1);
-                    } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << interviewParser.S) | (1 << interviewParser.OPS) | (1 << interviewParser.COLON) | (1 << interviewParser.AMP) | (1 << interviewParser.DBLCOLON) | (1 << interviewParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (interviewParser.Less - 32)) | (1 << (interviewParser.RightAngle - 32)) | (1 << (interviewParser.RightArrow - 32)) | (1 << (interviewParser.DBLEQ - 32)) | (1 << (interviewParser.NUMERIC - 32)) | (1 << (interviewParser.STRING - 32)) | (1 << (interviewParser.NL - 32)) | (1 << (interviewParser.SENTENCE - 32)))) !== 0) || _la === interviewParser.URL);
+                    } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << interviewParser.S) | (1 << interviewParser.OPS) | (1 << interviewParser.COLON) | (1 << interviewParser.AMP) | (1 << interviewParser.DBLCOLON) | (1 << interviewParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (interviewParser.Less - 32)) | (1 << (interviewParser.RightAngle - 32)) | (1 << (interviewParser.RightArrow - 32)) | (1 << (interviewParser.DBLEQ - 32)) | (1 << (interviewParser.NUMERIC - 32)) | (1 << (interviewParser.STRING - 32)) | (1 << (interviewParser.NL - 32)) | (1 << (interviewParser.SENTENCE - 32)) | (1 << (interviewParser.BARSTRING - 32)))) !== 0) || _la === interviewParser.URL);
                     this.state = 1102;
                     this.match(interviewParser.CL);
                 }
@@ -5253,7 +5258,7 @@ let interviewParser = /** @class */ (() => {
                             this.state = 1135;
                             this._errHandler.sync(this);
                             _la = this._input.LA(1);
-                            while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << interviewParser.S) | (1 << interviewParser.OPS) | (1 << interviewParser.COLON) | (1 << interviewParser.AMP) | (1 << interviewParser.DBLCOLON) | (1 << interviewParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (interviewParser.Less - 32)) | (1 << (interviewParser.RightAngle - 32)) | (1 << (interviewParser.RightArrow - 32)) | (1 << (interviewParser.DBLEQ - 32)) | (1 << (interviewParser.NUMERIC - 32)) | (1 << (interviewParser.STRING - 32)) | (1 << (interviewParser.NL - 32)) | (1 << (interviewParser.SENTENCE - 32)))) !== 0) || _la === interviewParser.URL) {
+                            while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << interviewParser.S) | (1 << interviewParser.OPS) | (1 << interviewParser.COLON) | (1 << interviewParser.AMP) | (1 << interviewParser.DBLCOLON) | (1 << interviewParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (interviewParser.Less - 32)) | (1 << (interviewParser.RightAngle - 32)) | (1 << (interviewParser.RightArrow - 32)) | (1 << (interviewParser.DBLEQ - 32)) | (1 << (interviewParser.NUMERIC - 32)) | (1 << (interviewParser.STRING - 32)) | (1 << (interviewParser.NL - 32)) | (1 << (interviewParser.SENTENCE - 32)) | (1 << (interviewParser.BARSTRING - 32)))) !== 0) || _la === interviewParser.URL) {
                                 {
                                     {
                                         this.state = 1114;
@@ -5340,7 +5345,7 @@ let interviewParser = /** @class */ (() => {
                             this.state = 1147;
                             this._errHandler.sync(this);
                             _la = this._input.LA(1);
-                            if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << interviewParser.S) | (1 << interviewParser.OPS) | (1 << interviewParser.COLON) | (1 << interviewParser.AMP) | (1 << interviewParser.DBLCOLON) | (1 << interviewParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (interviewParser.Less - 32)) | (1 << (interviewParser.RightAngle - 32)) | (1 << (interviewParser.RightArrow - 32)) | (1 << (interviewParser.DBLEQ - 32)) | (1 << (interviewParser.NUMERIC - 32)) | (1 << (interviewParser.STRING - 32)) | (1 << (interviewParser.NL - 32)) | (1 << (interviewParser.SENTENCE - 32)))) !== 0) || _la === interviewParser.URL) {
+                            if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << interviewParser.S) | (1 << interviewParser.OPS) | (1 << interviewParser.COLON) | (1 << interviewParser.AMP) | (1 << interviewParser.DBLCOLON) | (1 << interviewParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (interviewParser.Less - 32)) | (1 << (interviewParser.RightAngle - 32)) | (1 << (interviewParser.RightArrow - 32)) | (1 << (interviewParser.DBLEQ - 32)) | (1 << (interviewParser.NUMERIC - 32)) | (1 << (interviewParser.STRING - 32)) | (1 << (interviewParser.NL - 32)) | (1 << (interviewParser.SENTENCE - 32)) | (1 << (interviewParser.BARSTRING - 32)))) !== 0) || _la === interviewParser.URL) {
                                 {
                                     this.state = 1146;
                                     this.s_and_w();
@@ -5459,7 +5464,7 @@ let interviewParser = /** @class */ (() => {
                                 this.state = 1165;
                                 this._errHandler.sync(this);
                                 _la = this._input.LA(1);
-                            } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << interviewParser.S) | (1 << interviewParser.OPS) | (1 << interviewParser.COLON) | (1 << interviewParser.AMP) | (1 << interviewParser.DBLCOLON) | (1 << interviewParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (interviewParser.Less - 32)) | (1 << (interviewParser.RightAngle - 32)) | (1 << (interviewParser.RightArrow - 32)) | (1 << (interviewParser.DBLEQ - 32)) | (1 << (interviewParser.NUMERIC - 32)) | (1 << (interviewParser.STRING - 32)) | (1 << (interviewParser.NL - 32)) | (1 << (interviewParser.SENTENCE - 32)))) !== 0) || _la === interviewParser.URL);
+                            } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << interviewParser.S) | (1 << interviewParser.OPS) | (1 << interviewParser.COLON) | (1 << interviewParser.AMP) | (1 << interviewParser.DBLCOLON) | (1 << interviewParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (interviewParser.Less - 32)) | (1 << (interviewParser.RightAngle - 32)) | (1 << (interviewParser.RightArrow - 32)) | (1 << (interviewParser.DBLEQ - 32)) | (1 << (interviewParser.NUMERIC - 32)) | (1 << (interviewParser.STRING - 32)) | (1 << (interviewParser.NL - 32)) | (1 << (interviewParser.SENTENCE - 32)) | (1 << (interviewParser.BARSTRING - 32)))) !== 0) || _la === interviewParser.URL);
                             this.state = 1167;
                             this.match(interviewParser.CL);
                         }
@@ -5744,7 +5749,7 @@ let interviewParser = /** @class */ (() => {
                             this.state = 1225;
                             this._errHandler.sync(this);
                             _la = this._input.LA(1);
-                            while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << interviewParser.S) | (1 << interviewParser.OPS) | (1 << interviewParser.COLON) | (1 << interviewParser.AMP) | (1 << interviewParser.DBLCOLON) | (1 << interviewParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (interviewParser.Less - 32)) | (1 << (interviewParser.RightAngle - 32)) | (1 << (interviewParser.RightArrow - 32)) | (1 << (interviewParser.DBLEQ - 32)) | (1 << (interviewParser.NUMERIC - 32)) | (1 << (interviewParser.STRING - 32)) | (1 << (interviewParser.NL - 32)) | (1 << (interviewParser.SENTENCE - 32)))) !== 0) || _la === interviewParser.URL) {
+                            while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << interviewParser.S) | (1 << interviewParser.OPS) | (1 << interviewParser.COLON) | (1 << interviewParser.AMP) | (1 << interviewParser.DBLCOLON) | (1 << interviewParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (interviewParser.Less - 32)) | (1 << (interviewParser.RightAngle - 32)) | (1 << (interviewParser.RightArrow - 32)) | (1 << (interviewParser.DBLEQ - 32)) | (1 << (interviewParser.NUMERIC - 32)) | (1 << (interviewParser.STRING - 32)) | (1 << (interviewParser.NL - 32)) | (1 << (interviewParser.SENTENCE - 32)) | (1 << (interviewParser.BARSTRING - 32)))) !== 0) || _la === interviewParser.URL) {
                                 {
                                     this.state = 1223;
                                     this._errHandler.sync(this);
@@ -5866,7 +5871,7 @@ let interviewParser = /** @class */ (() => {
                                 this.state = 1246;
                                 this._errHandler.sync(this);
                                 _la = this._input.LA(1);
-                            } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << interviewParser.S) | (1 << interviewParser.OPS) | (1 << interviewParser.COLON) | (1 << interviewParser.AMP) | (1 << interviewParser.DBLCOLON) | (1 << interviewParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (interviewParser.Less - 32)) | (1 << (interviewParser.RightAngle - 32)) | (1 << (interviewParser.RightArrow - 32)) | (1 << (interviewParser.DBLEQ - 32)) | (1 << (interviewParser.NUMERIC - 32)) | (1 << (interviewParser.STRING - 32)) | (1 << (interviewParser.NL - 32)) | (1 << (interviewParser.SENTENCE - 32)))) !== 0) || _la === interviewParser.URL);
+                            } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << interviewParser.S) | (1 << interviewParser.OPS) | (1 << interviewParser.COLON) | (1 << interviewParser.AMP) | (1 << interviewParser.DBLCOLON) | (1 << interviewParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (interviewParser.Less - 32)) | (1 << (interviewParser.RightAngle - 32)) | (1 << (interviewParser.RightArrow - 32)) | (1 << (interviewParser.DBLEQ - 32)) | (1 << (interviewParser.NUMERIC - 32)) | (1 << (interviewParser.STRING - 32)) | (1 << (interviewParser.NL - 32)) | (1 << (interviewParser.SENTENCE - 32)) | (1 << (interviewParser.BARSTRING - 32)))) !== 0) || _la === interviewParser.URL);
                             this.state = 1248;
                             this.match(interviewParser.CL);
                         }
@@ -5879,7 +5884,7 @@ let interviewParser = /** @class */ (() => {
                             this.state = 1255;
                             this._errHandler.sync(this);
                             _la = this._input.LA(1);
-                            while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << interviewParser.S) | (1 << interviewParser.OPS) | (1 << interviewParser.COLON) | (1 << interviewParser.AMP) | (1 << interviewParser.DBLCOLON) | (1 << interviewParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (interviewParser.Less - 32)) | (1 << (interviewParser.RightAngle - 32)) | (1 << (interviewParser.RightArrow - 32)) | (1 << (interviewParser.DBLEQ - 32)) | (1 << (interviewParser.NUMERIC - 32)) | (1 << (interviewParser.STRING - 32)) | (1 << (interviewParser.NL - 32)) | (1 << (interviewParser.SENTENCE - 32)))) !== 0) || _la === interviewParser.URL) {
+                            while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << interviewParser.S) | (1 << interviewParser.OPS) | (1 << interviewParser.COLON) | (1 << interviewParser.AMP) | (1 << interviewParser.DBLCOLON) | (1 << interviewParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (interviewParser.Less - 32)) | (1 << (interviewParser.RightAngle - 32)) | (1 << (interviewParser.RightArrow - 32)) | (1 << (interviewParser.DBLEQ - 32)) | (1 << (interviewParser.NUMERIC - 32)) | (1 << (interviewParser.STRING - 32)) | (1 << (interviewParser.NL - 32)) | (1 << (interviewParser.SENTENCE - 32)) | (1 << (interviewParser.BARSTRING - 32)))) !== 0) || _la === interviewParser.URL) {
                                 {
                                     this.state = 1253;
                                     this._errHandler.sync(this);
@@ -5942,7 +5947,7 @@ let interviewParser = /** @class */ (() => {
                     this.state = 1263;
                     this._errHandler.sync(this);
                     _la = this._input.LA(1);
-                    if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << interviewParser.S) | (1 << interviewParser.OPS) | (1 << interviewParser.COLON) | (1 << interviewParser.AMP) | (1 << interviewParser.DBLCOLON) | (1 << interviewParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (interviewParser.Less - 32)) | (1 << (interviewParser.RightAngle - 32)) | (1 << (interviewParser.RightArrow - 32)) | (1 << (interviewParser.DBLEQ - 32)) | (1 << (interviewParser.NUMERIC - 32)) | (1 << (interviewParser.STRING - 32)) | (1 << (interviewParser.NL - 32)) | (1 << (interviewParser.SENTENCE - 32)))) !== 0) || _la === interviewParser.URL) {
+                    if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << interviewParser.S) | (1 << interviewParser.OPS) | (1 << interviewParser.COLON) | (1 << interviewParser.AMP) | (1 << interviewParser.DBLCOLON) | (1 << interviewParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (interviewParser.Less - 32)) | (1 << (interviewParser.RightAngle - 32)) | (1 << (interviewParser.RightArrow - 32)) | (1 << (interviewParser.DBLEQ - 32)) | (1 << (interviewParser.NUMERIC - 32)) | (1 << (interviewParser.STRING - 32)) | (1 << (interviewParser.NL - 32)) | (1 << (interviewParser.SENTENCE - 32)) | (1 << (interviewParser.BARSTRING - 32)))) !== 0) || _la === interviewParser.URL) {
                         {
                             this.state = 1262;
                             this.s_and_w();
@@ -6345,14 +6350,14 @@ let interviewParser = /** @class */ (() => {
                 let _alt;
                 this.enterOuterAlt(_localctx, 1);
                 {
-                    this.state = 1343;
+                    this.state = 1344;
                     this._errHandler.sync(this);
                     _alt = 1;
                     do {
                         switch (_alt) {
                             case 1:
                                 {
-                                    this.state = 1343;
+                                    this.state = 1344;
                                     this._errHandler.sync(this);
                                     switch (this._input.LA(1)) {
                                         case interviewParser.STRING:
@@ -6367,17 +6372,23 @@ let interviewParser = /** @class */ (() => {
                                                 this.match(interviewParser.SENTENCE);
                                             }
                                             break;
-                                        case interviewParser.AMP:
+                                        case interviewParser.BARSTRING:
                                             {
                                                 this.state = 1336;
+                                                this.match(interviewParser.BARSTRING);
+                                            }
+                                            break;
+                                        case interviewParser.AMP:
+                                            {
+                                                this.state = 1337;
                                                 this.match(interviewParser.AMP);
                                             }
                                             break;
                                         case interviewParser.Greater:
                                             {
-                                                this.state = 1337;
-                                                this.match(interviewParser.Greater);
                                                 this.state = 1338;
+                                                this.match(interviewParser.Greater);
+                                                this.state = 1339;
                                                 _la = this._input.LA(1);
                                                 if (_la <= 0 || (_la === interviewParser.Greater)) {
                                                     this._errHandler.recoverInline(this);
@@ -6393,9 +6404,9 @@ let interviewParser = /** @class */ (() => {
                                             break;
                                         case interviewParser.Less:
                                             {
-                                                this.state = 1339;
-                                                this.match(interviewParser.Less);
                                                 this.state = 1340;
+                                                this.match(interviewParser.Less);
+                                                this.state = 1341;
                                                 _la = this._input.LA(1);
                                                 if (_la <= 0 || (_la === interviewParser.Less)) {
                                                     this._errHandler.recoverInline(this);
@@ -6411,13 +6422,13 @@ let interviewParser = /** @class */ (() => {
                                             break;
                                         case interviewParser.RightArrow:
                                             {
-                                                this.state = 1341;
+                                                this.state = 1342;
                                                 this.match(interviewParser.RightArrow);
                                             }
                                             break;
                                         case interviewParser.RightAngle:
                                             {
-                                                this.state = 1342;
+                                                this.state = 1343;
                                                 this.match(interviewParser.RightAngle);
                                             }
                                             break;
@@ -6429,7 +6440,7 @@ let interviewParser = /** @class */ (() => {
                             default:
                                 throw new NoViableAltException_1.NoViableAltException(this);
                         }
-                        this.state = 1345;
+                        this.state = 1346;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 192, this._ctx);
                     } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
@@ -6457,7 +6468,7 @@ let interviewParser = /** @class */ (() => {
             try {
                 this.enterOuterAlt(_localctx, 1);
                 {
-                    this.state = 1347;
+                    this.state = 1348;
                     this.match(interviewParser.S);
                 }
             }
@@ -6751,16 +6762,16 @@ let interviewParser = /** @class */ (() => {
         undefined, undefined, undefined, undefined, undefined, undefined, undefined,
         undefined, undefined, undefined, undefined, undefined, undefined, undefined,
         undefined, undefined, undefined, undefined, undefined, "'http://'", "'https://'",
-        "'&audio'", "'&image'", "'&image-zoom'", "'&imageWithAudio'", "'&video'",
-        "'&article'", "'&document'", "'&app'", "'&website'", "'&stillImageFilm'",
+        "'&audio'", "'&image'", "'&image-zoom'", "'&image-with-audio'", "'&video'",
+        "'&article'", "'&document'", "'&app'", "'&website'", "'&still-image-film'",
         "'&pdf'", undefined, undefined, undefined, undefined, undefined, undefined,
-        undefined, undefined, undefined, undefined, undefined, undefined, "'&audioLink'",
-        "'&imageLink'", "'&videoLink'", "'&articleLink'", "'&documentLink'", "'&appLink'",
-        "'&websiteLink'", "'&stillImageFilmLink'", undefined, undefined, undefined,
-        undefined, undefined, undefined, undefined, undefined, "':bitmark--'",
-        "':bitmark++'", "':text'", "':prosemirror'", "':placeholder'", "':basic'",
-        "':jpg'", "':png'", "':gif'", "':svg'", "':mp2'", "':mp3'", "':mp4'",
-        "':flv'", "':wmv'", "':mpeg'", "':mpg'", "'tel:'", "'.article-attachment'",
+        undefined, undefined, undefined, undefined, undefined, undefined, "'&audio-link'",
+        "'&image-link'", "'&video-link'", "'&article-link'", "'&document-link'",
+        "'&app-link'", "'&website-link'", "'&still-image-film-link'", undefined,
+        undefined, undefined, undefined, undefined, undefined, undefined, undefined,
+        "':bitmark--'", "':bitmark++'", "':text'", "':prosemirror'", "':placeholder'",
+        "':basic'", "':jpg'", "':png'", "':gif'", "':svg'", "':mp2'", "':mp3'",
+        "':mp4'", "':flv'", "':wmv'", "':mpeg'", "':mpg'", "'tel:'", "'.article-attachment'",
         "'*'",
     ];
     interviewParser._SYMBOLIC_NAMES = [
@@ -6791,7 +6802,7 @@ let interviewParser = /** @class */ (() => {
     ];
     interviewParser.VOCABULARY = new VocabularyImpl_1.VocabularyImpl(interviewParser._LITERAL_NAMES, interviewParser._SYMBOLIC_NAMES, []);
     interviewParser._serializedATNSegments = 3;
-    interviewParser._serializedATNSegment0 = "\x03\uC91D\uCABA\u058D\uAFBA\u4F53\u0607\uEA8B\uC241\x03\x8E\u0548\x04" +
+    interviewParser._serializedATNSegment0 = "\x03\uC91D\uCABA\u058D\uAFBA\u4F53\u0607\uEA8B\uC241\x03\x8E\u0549\x04" +
         "\x02\t\x02\x04\x03\t\x03\x04\x04\t\x04\x04\x05\t\x05\x04\x06\t\x06\x04" +
         "\x07\t\x07\x04\b\t\b\x04\t\t\t\x04\n\t\n\x04\v\t\v\x04\f\t\f\x04\r\t\r" +
         "\x04\x0E\t\x0E\x04\x0F\t\x0F\x04\x10\t\x10\x04\x11\t\x11\x04\x12\t\x12" +
@@ -6914,7 +6925,7 @@ let interviewParser = /** @class */ (() => {
         "[\u0519\n[\f[\x0E[\u051C\v[\x03[\x03[\x07[\u0520\n[\f[\x0E[\u0523\v[\x03" +
         "[\x03[\x07[\u0527\n[\f[\x0E[\u052A\v[\x03[\x03[\x03[\x05[\u052F\n[\x03" +
         "\\\x03\\\x03\\\x03\\\x03]\x03]\x03^\x03^\x03_\x03_\x03_\x03_\x03_\x03" +
-        "_\x03_\x03_\x03_\x06_\u0542\n_\r_\x0E_\u0543\x03`\x03`\x03`\x07\u01D4" +
+        "_\x03_\x03_\x03_\x03_\x06_\u0543\n_\r_\x0E_\u0544\x03`\x03`\x03`\x07\u01D4" +
         "\u034E\u0361\u03AB\u04D4\x02\x02a\x02\x02\x04\x02\x06\x02\b\x02\n\x02" +
         "\f\x02\x0E\x02\x10\x02\x12\x02\x14\x02\x16\x02\x18\x02\x1A\x02\x1C\x02" +
         "\x1E\x02 \x02\"\x02$\x02&\x02(\x02*\x02,\x02.\x020\x022\x024\x026\x02" +
@@ -6928,7 +6939,7 @@ let interviewParser = /** @class */ (() => {
         "\x02VVkk\x04\x02WWll\x04\x02XXmm\x04\x02YYnn\x04\x02ZZoo\x04\x02aass\x04" +
         "\x02cctt\x04\x02dduu\x04\x02eevv\x04\x02ffww\x03\x0278\x04\x02EEHK\x03" +
         "\x02\x1B\x1B\x04\x02\x1C\x1C\x1E\x1E\x03\x02)*\x03\x02!!\x03\x02\"\"\x02" +
-        "\u0609\x02\xCD\x03\x02\x02\x02\x04\xD9\x03\x02\x02\x02\x06\xDD\x03\x02" +
+        "\u060B\x02\xCD\x03\x02\x02\x02\x04\xD9\x03\x02\x02\x02\x06\xDD\x03\x02" +
         "\x02\x02\b\xDF\x03\x02\x02\x02\n\u0112\x03\x02\x02\x02\f\u0140\x03\x02" +
         "\x02\x02\x0E\u0142\x03\x02\x02\x02\x10\u0144\x03\x02\x02\x02\x12\u0147" +
         "\x03\x02\x02\x02\x14\u01A6\x03\x02\x02\x02\x16\u01A9\x03\x02\x02\x02\x18" +
@@ -6960,7 +6971,7 @@ let interviewParser = /** @class */ (() => {
         "\x02\xAA\u04D8\x03\x02\x02\x02\xAC\u04ED\x03\x02\x02\x02\xAE\u04EF\x03" +
         "\x02\x02\x02\xB0\u04F5\x03\x02\x02\x02\xB2\u04FB\x03\x02\x02\x02\xB4\u052E" +
         "\x03\x02\x02\x02\xB6\u0530\x03\x02\x02\x02\xB8\u0534\x03\x02\x02\x02\xBA" +
-        "\u0536\x03\x02\x02\x02\xBC\u0541\x03\x02\x02\x02\xBE\u0545\x03\x02\x02" +
+        "\u0536\x03\x02\x02\x02\xBC\u0542\x03\x02\x02\x02\xBE\u0546\x03\x02\x02" +
         "\x02\xC0\xCA\x05\x04\x03\x02\xC1\xC3\x07\x04\x02\x02\xC2\xC1\x03\x02\x02" +
         "\x02\xC3\xC6\x03\x02\x02\x02\xC4\xC2\x03\x02\x02\x02\xC4\xC5\x03\x02\x02" +
         "\x02\xC5\xC7\x03\x02\x02\x02\xC6\xC4\x03\x02\x02\x02\xC7\xC9\x071\x02" +
@@ -7029,13 +7040,13 @@ let interviewParser = /** @class */ (() => {
         "\x02\x02\u015A\u015B\x03\x02\x02\x02\u015B\u0169\x03\x02\x02\x02\u015C" +
         "\u015A\x03\x02\x02\x02\u015D\u0168\x05\x9AN\x02\u015E\u0168\x05\x8EH\x02" +
         "\u015F\u0168\x05\x1E\x10\x02\u0160\u0168\x05\x1C\x0F\x02\u0161\u0168\x05" +
-        "\xACW\x02\u0162\u0168\x05 ";
-    interviewParser._serializedATNSegment1 = "\x11\x02\u0163\u0168\x05:\x1E\x02\u0164\u0168\x05\"\x12\x02\u0165\u0168" +
-        "\x05\x9CO\x02\u0166\u0168\x05\x16\f\x02\u0167\u015D\x03\x02\x02\x02\u0167" +
-        "\u015E\x03\x02\x02\x02\u0167\u015F\x03\x02\x02\x02\u0167\u0160\x03\x02" +
-        "\x02\x02\u0167\u0161\x03\x02\x02\x02\u0167\u0162\x03\x02\x02\x02\u0167" +
-        "\u0163\x03\x02\x02\x02\u0167\u0164\x03\x02\x02\x02\u0167\u0165\x03\x02" +
-        "\x02\x02\u0167\u0166\x03\x02\x02\x02\u0168\u016B\x03\x02\x02\x02\u0169" +
+        "\xACW\x02\u0162\u0168";
+    interviewParser._serializedATNSegment1 = "\x05 \x11\x02\u0163\u0168\x05:\x1E\x02\u0164\u0168\x05\"\x12\x02\u0165" +
+        "\u0168\x05\x9CO\x02\u0166\u0168\x05\x16\f\x02\u0167\u015D\x03\x02\x02" +
+        "\x02\u0167\u015E\x03\x02\x02\x02\u0167\u015F\x03\x02\x02\x02\u0167\u0160" +
+        "\x03\x02\x02\x02\u0167\u0161\x03\x02\x02\x02\u0167\u0162\x03\x02\x02\x02" +
+        "\u0167\u0163\x03\x02\x02\x02\u0167\u0164\x03\x02\x02\x02\u0167\u0165\x03" +
+        "\x02\x02\x02\u0167\u0166\x03\x02\x02\x02\u0168\u016B\x03\x02\x02\x02\u0169" +
         "\u0167\x03\x02\x02\x02\u0169\u016A\x03\x02\x02\x02\u016A\u0180\x03\x02" +
         "\x02\x02\u016B\u0169\x03\x02\x02\x02\u016C\u016E\x071\x02\x02\u016D\u016F" +
         "\x05\x1A\x0E\x02\u016E\u016D\x03\x02\x02\x02\u016E\u016F\x03\x02\x02\x02" +
@@ -7344,16 +7355,16 @@ let interviewParser = /** @class */ (() => {
         "\x02\x02\x02\u03EA\u03EB\x03\x02\x02\x02\u03EB\u03ED\x07\x1B\x02\x02\u03EC" +
         "\u03E2\x03\x02\x02\x02\u03EC\u03E7\x03\x02\x02\x02\u03ED\x8D\x03\x02\x02" +
         "\x02\u03EE\u03F6\x07>\x02\x02\u03EF\u03F6\x07<\x02\x02\u03F0\u03F2\x07" +
-        "=\x02\x02";
-    interviewParser._serializedATNSegment2 = "\u03F1\u03F3\x072\x02\x02\u03F2\u03F1\x03\x02\x02\x02\u03F2\u03F3\x03" +
-        "\x02\x02\x02\u03F3\u03F4\x03\x02\x02\x02\u03F4\u03F6\x07\x02\x02\x03\u03F5" +
-        "\u03EE\x03\x02\x02\x02\u03F5\u03EF\x03\x02\x02\x02\u03F5\u03F0\x03\x02" +
-        "\x02\x02\u03F6\x8F\x03\x02\x02\x02\u03F7\u03F9\x07g\x02\x02\u03F8\u03FA" +
-        "\x05\xB4[\x02\u03F9\u03F8\x03\x02\x02\x02\u03F9\u03FA\x03\x02\x02\x02" +
-        "\u03FA\u0410\x03\x02\x02\x02\u03FB\u0405\x05\xB4[\x02\u03FC\u0400\x07" +
-        "1\x02\x02\u03FD\u03FF\x07\x04\x02\x02\u03FE\u03FD\x03\x02\x02\x02\u03FF" +
-        "\u0402\x03\x02\x02\x02\u0400\u03FE\x03\x02\x02\x02\u0400\u0401\x03\x02" +
-        "\x02\x02\u0401\u0404\x03\x02\x02\x02\u0402\u0400\x03\x02\x02\x02\u0403" +
+        "=";
+    interviewParser._serializedATNSegment2 = "\x02\x02\u03F1\u03F3\x072\x02\x02\u03F2\u03F1\x03\x02\x02\x02\u03F2\u03F3" +
+        "\x03\x02\x02\x02\u03F3\u03F4\x03\x02\x02\x02\u03F4\u03F6\x07\x02\x02\x03" +
+        "\u03F5\u03EE\x03\x02\x02\x02\u03F5\u03EF\x03\x02\x02\x02\u03F5\u03F0\x03" +
+        "\x02\x02\x02\u03F6\x8F\x03\x02\x02\x02\u03F7\u03F9\x07g\x02\x02\u03F8" +
+        "\u03FA\x05\xB4[\x02\u03F9\u03F8\x03\x02\x02\x02\u03F9\u03FA\x03\x02\x02" +
+        "\x02\u03FA\u0410\x03\x02\x02\x02\u03FB\u0405\x05\xB4[\x02\u03FC\u0400" +
+        "\x071\x02\x02\u03FD\u03FF\x07\x04\x02\x02\u03FE\u03FD\x03\x02\x02\x02" +
+        "\u03FF\u0402\x03\x02\x02\x02\u0400\u03FE\x03\x02\x02\x02\u0400\u0401\x03" +
+        "\x02\x02\x02\u0401\u0404\x03\x02\x02\x02\u0402\u0400\x03\x02\x02\x02\u0403" +
         "\u03FC\x03\x02\x02\x02\u0404\u0407\x03\x02\x02\x02\u0405\u0403\x03\x02" +
         "\x02\x02\u0405\u0406\x03\x02\x02\x02\u0406\u040B\x03\x02\x02\x02\u0407" +
         "\u0405\x03\x02\x02\x02\u0408\u040A\x071\x02\x02\u0409\u0408\x03\x02\x02" +
@@ -7500,31 +7511,31 @@ let interviewParser = /** @class */ (() => {
         "\u0531\x07\r\x02\x02\u0531\u0532\x05\xB4[\x02\u0532\u0533\x07\x1B\x02" +
         "\x02\u0533\xB7\x03\x02\x02\x02\u0534\u0535\x07\x1B\x02\x02\u0535\xB9\x03" +
         "\x02\x02\x02\u0536\u0537\t\x14\x02\x02\u0537\xBB\x03\x02\x02\x02\u0538" +
-        "\u0542\x070\x02\x02\u0539\u0542\x072\x02\x02\u053A\u0542\x07\x1D\x02\x02" +
-        "\u053B\u053C\x07!\x02\x02\u053C\u0542\n\x15\x02\x02\u053D\u053E\x07\"" +
-        "\x02\x02\u053E\u0542\n\x16\x02\x02\u053F\u0542\x07$\x02\x02\u0540\u0542" +
-        "\x07#\x02\x02\u0541\u0538\x03\x02\x02\x02\u0541\u0539\x03\x02\x02\x02" +
-        "\u0541\u053A\x03\x02\x02\x02\u0541\u053B\x03\x02\x02\x02\u0541\u053D\x03" +
-        "\x02\x02\x02\u0541\u053F\x03\x02\x02\x02\u0541\u0540\x03\x02\x02\x02\u0542" +
-        "\u0543\x03\x02\x02\x02\u0543\u0541\x03\x02\x02\x02\u0543\u0544\x03\x02" +
-        "\x02\x02\u0544\xBD\x03\x02\x02\x02\u0545\u0546\x07\x04\x02\x02\u0546\xBF" +
-        "\x03\x02\x02\x02\xC3\xC4\xCA\xCF\xD4\xDD\xE5\xEC\xF1\xF8\xFF\u0102\u0106" +
-        "\u010C\u0110\u0118\u011F\u0124\u012C\u0131\u0138\u013C\u0140\u014B\u0150" +
-        "\u0154\u015A\u0167\u0169\u016E\u0173\u017B\u017D\u0180\u018C\u018E\u0192" +
-        "\u0197\u019F\u01A1\u01A4\u01A6\u01AB\u01AF\u01B3\u01B8\u01BD\u01C0\u01C4" +
-        "\u01C8\u01D4\u01DC\u01DF\u01E4\u01EA\u01EC\u01F1\u01F5\u01FB\u0203\u020B" +
-        "\u0211\u0215\u0217\u0230\u0235\u023C\u0242\u024F\u0254\u0259\u025B\u0263" +
-        "\u0265\u026C\u0271\u027D\u0282\u0284\u0292\u0298\u029D\u02A1\u02A5\u02A8" +
-        "\u02AD\u02C4\u02C9\u02CB\u02D5\u02DF\u02E9\u02EF\u02F6\u02FC\u0304\u030E" +
-        "\u0319\u031F\u0324\u032B\u0334\u0338\u033C\u033F\u034E\u0352\u0361\u0365" +
-        "\u036B\u0376\u037B\u0380\u0382\u0387\u038C\u038E\u0393\u0399\u039E\u03A0" +
-        "\u03AB\u03AF\u03BC\u03C0\u03C6\u03C8\u03CF\u03D3\u03D5\u03DB\u03DD\u03E4" +
-        "\u03E9\u03EC\u03F2\u03F5\u03F9\u0400\u0405\u040B\u0410\u0418\u041A\u041E" +
-        "\u0425\u0427\u0430\u0432\u0436\u0440\u0442\u0446\u044C\u044E\u0456\u045A" +
-        "\u0461\u0466\u046C\u0471\u0479\u047D\u0480\u0486\u048D\u048F\u0496\u04A0" +
-        "\u04AB\u04B9\u04BF\u04C9\u04CB\u04D4\u04D8\u04DE\u04E0\u04E7\u04E9\u04ED" +
-        "\u04F1\u04F9\u04FD\u0503\u0506\u050C\u050F\u051A\u0521\u0528\u052E\u0541" +
-        "\u0543";
+        "\u0543\x070\x02\x02\u0539\u0543\x072\x02\x02\u053A\u0543\x073\x02\x02" +
+        "\u053B\u0543\x07\x1D\x02\x02\u053C\u053D\x07!\x02\x02\u053D\u0543\n\x15" +
+        "\x02\x02\u053E\u053F\x07\"\x02\x02\u053F\u0543\n\x16\x02\x02\u0540\u0543" +
+        "\x07$\x02\x02\u0541\u0543\x07#\x02\x02\u0542\u0538\x03\x02\x02\x02\u0542" +
+        "\u0539\x03\x02\x02\x02\u0542\u053A\x03\x02\x02\x02\u0542\u053B\x03\x02" +
+        "\x02\x02\u0542\u053C\x03\x02\x02\x02\u0542\u053E\x03\x02\x02\x02\u0542" +
+        "\u0540\x03\x02\x02\x02\u0542\u0541\x03\x02\x02\x02\u0543\u0544\x03\x02" +
+        "\x02\x02\u0544\u0542\x03\x02\x02\x02\u0544\u0545\x03\x02\x02\x02\u0545" +
+        "\xBD\x03\x02\x02\x02\u0546\u0547\x07\x04\x02\x02\u0547\xBF\x03\x02\x02" +
+        "\x02\xC3\xC4\xCA\xCF\xD4\xDD\xE5\xEC\xF1\xF8\xFF\u0102\u0106\u010C\u0110" +
+        "\u0118\u011F\u0124\u012C\u0131\u0138\u013C\u0140\u014B\u0150\u0154\u015A" +
+        "\u0167\u0169\u016E\u0173\u017B\u017D\u0180\u018C\u018E\u0192\u0197\u019F" +
+        "\u01A1\u01A4\u01A6\u01AB\u01AF\u01B3\u01B8\u01BD\u01C0\u01C4\u01C8\u01D4" +
+        "\u01DC\u01DF\u01E4\u01EA\u01EC\u01F1\u01F5\u01FB\u0203\u020B\u0211\u0215" +
+        "\u0217\u0230\u0235\u023C\u0242\u024F\u0254\u0259\u025B\u0263\u0265\u026C" +
+        "\u0271\u027D\u0282\u0284\u0292\u0298\u029D\u02A1\u02A5\u02A8\u02AD\u02C4" +
+        "\u02C9\u02CB\u02D5\u02DF\u02E9\u02EF\u02F6\u02FC\u0304\u030E\u0319\u031F" +
+        "\u0324\u032B\u0334\u0338\u033C\u033F\u034E\u0352\u0361\u0365\u036B\u0376" +
+        "\u037B\u0380\u0382\u0387\u038C\u038E\u0393\u0399\u039E\u03A0\u03AB\u03AF" +
+        "\u03BC\u03C0\u03C6\u03C8\u03CF\u03D3\u03D5\u03DB\u03DD\u03E4\u03E9\u03EC" +
+        "\u03F2\u03F5\u03F9\u0400\u0405\u040B\u0410\u0418\u041A\u041E\u0425\u0427" +
+        "\u0430\u0432\u0436\u0440\u0442\u0446\u044C\u044E\u0456\u045A\u0461\u0466" +
+        "\u046C\u0471\u0479\u047D\u0480\u0486\u048D\u048F\u0496\u04A0\u04AB\u04B9" +
+        "\u04BF\u04C9\u04CB\u04D4\u04D8\u04DE\u04E0\u04E7\u04E9\u04ED\u04F1\u04F9" +
+        "\u04FD\u0503\u0506\u050C\u050F\u051A\u0521\u0528\u052E\u0542\u0544";
     interviewParser._serializedATN = Utils.join([
         interviewParser._serializedATNSegment0,
         interviewParser._serializedATNSegment1,
@@ -10740,6 +10751,14 @@ class WordsContext extends ParserRuleContext_1.ParserRuleContext {
         }
         else {
             return this.getToken(interviewParser.SENTENCE, i);
+        }
+    }
+    BARSTRING(i) {
+        if (i === undefined) {
+            return this.getTokens(interviewParser.BARSTRING);
+        }
+        else {
+            return this.getToken(interviewParser.BARSTRING, i);
         }
     }
     AMP(i) {

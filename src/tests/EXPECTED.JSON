@@ -155,11 +155,11 @@
 <<<<./tests/learning-path3.bit
 [
     {
-        "bitmark": "[.learning-path-book&websiteLink]\n[!Skript «Grundausbildung Altersvorsorge»]\n[@action:Selbststudium]\n[@duration:3600s]\n[@book:e-876z78z87og87g8zg][►Ref4.2.34][►Ref4.3.1]\n\nFirst one is the normal reference.\nSecond is the optional property called “referenceEnd”\nAll these bits support all resources (like &websiteLink, …\nAll of these bits (starting with .learning-path support the following optional properties:\n[@date:2015-03-25T12:00:00Z]\n[@location:Zug]",
+        "bitmark": "[.learning-path-book&website-link]\n[!Skript «Grundausbildung Altersvorsorge»]\n[@action:Selbststudium]\n[@duration:3600s]\n[@book:e-876z78z87og87g8zg][►Ref4.2.34][►Ref4.3.1]\n\nFirst one is the normal reference.\nSecond is the optional property called “referenceEnd”\nAll these bits support all resources (like &website-link, …\nAll of these bits (starting with .learning-path support the following optional properties:\n[@date:2015-03-25T12:00:00Z]\n[@location:Zug]",
         "bit": {
             "type": "learning-path-book",
             "format": "bitmark--",
-            "body": "First one is the normal reference.\nSecond is the optional property called “referenceEnd”\nAll these bits support all resources (like &websiteLink, …\nAll of these bits (starting with .learning-path support the following optional properties:",
+            "body": "First one is the normal reference.\nSecond is the optional property called “referenceEnd”\nAll these bits support all resources (like &website-link, …\nAll of these bits (starting with .learning-path support the following optional properties:",
             "item": "",
             "hint": "",
             "isExample": false,
@@ -181,7 +181,7 @@
 <<<<./tests/resource-all.bit
 [
     {
-        "bitmark": "[.article:bitmark--&imageLink]\n[@id:119760]\n[&imageLink:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4][@src2x:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/poster.png]",
+        "bitmark": "[.article:bitmark--&image-link]\n[@id:119760]\n[&image-link:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4][@src2x:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/poster.png]",
         "bit": {
             "type": "article",
             "format": "bitmark--",
@@ -190,8 +190,8 @@
                 "119760"
             ],
             "resource": {
-                "type": "imageLink",
-                "imageLink": {
+                "type": "image-link",
+                "image-link": {
                     "provider": "docs.bitmark.cloud",
                     "url": "https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4",
                     "src2x": "https://docs.bitmark.cloud/bit-books/rav/web-resources/video/poster.png"
@@ -200,7 +200,7 @@
         }
     },
     {
-        "bitmark": "[.article:bitmark--&websiteLink]\n[@id:119760]\n[&websiteLink:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4]",
+        "bitmark": "[.article:bitmark--&website-link]\n[@id:119760]\n[&website-link:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4]",
         "bit": {
             "type": "article",
             "format": "bitmark--",
@@ -209,8 +209,8 @@
                 "119760"
             ],
             "resource": {
-                "type": "websiteLink",
-                "websiteLink": {
+                "type": "website-link",
+                "website-link": {
                     "siteName": "",
                     "url": "https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4"
                 }
@@ -218,7 +218,7 @@
         }
     },
     {
-        "bitmark": "[.article:bitmark--&articleLink]\n[@id:119760]\n[&articleLink:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4]",
+        "bitmark": "[.article:bitmark--&article-link]\n[@id:119760]\n[&article-link:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4]",
         "bit": {
             "type": "article",
             "format": "bitmark--",
@@ -227,8 +227,8 @@
                 "119760"
             ],
             "resource": {
-                "type": "articleLink",
-                "articleLink": {
+                "type": "article-link",
+                "article-link": {
                     "url": "https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4"
                 }
             }
@@ -295,7 +295,7 @@
         }
     },
     {
-        "bitmark": "[.article:bitmark--&websiteLink]\n[@id:119760]\n[&websiteLink:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4]",
+        "bitmark": "[.article:bitmark--&website-link]\n[@id:119760]\n[&website-link:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4]",
         "bit": {
             "type": "article",
             "format": "bitmark--",
@@ -304,8 +304,8 @@
                 "119760"
             ],
             "resource": {
-                "type": "websiteLink",
-                "websiteLink": {
+                "type": "website-link",
+                "website-link": {
                     "siteName": "",
                     "url": "https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4"
                 }
@@ -313,7 +313,7 @@
         }
     },
     {
-        "bitmark": "[.article:bitmark--&articleLink]\n[@id:119760]\n[&articleLink:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4]",
+        "bitmark": "[.article:bitmark--&article-link]\n[@id:119760]\n[&article-link:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4]",
         "bit": {
             "type": "article",
             "format": "bitmark--",
@@ -322,15 +322,15 @@
                 "119760"
             ],
             "resource": {
-                "type": "articleLink",
-                "articleLink": {
+                "type": "article-link",
+                "article-link": {
                     "url": "https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4"
                 }
             }
         }
     },
     {
-        "bitmark": "[.article:bitmark--&appLink]\n[@id:119760]\n[&appLink:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4]",
+        "bitmark": "[.article:bitmark--&app-link]\n[@id:119760]\n[&app-link:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4]",
         "bit": {
             "type": "article",
             "format": "bitmark--",
@@ -339,8 +339,8 @@
                 "119760"
             ],
             "resource": {
-                "type": "appLink",
-                "appLink": {
+                "type": "app-link",
+                "app-link": {
                     "url": "https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4"
                 }
             }
@@ -381,7 +381,7 @@
         }
     },
     {
-        "bitmark": "[.article:bitmark--&videoLink]\n[@id:119760]\n[&videoLink:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4][@src1x:https://www.youtube.com/tumb_201809210816.png][@src2x:https://www.youtube.com/tumb_201809210816.png][@width:740][@height:540][@duration:PT12M31S]",
+        "bitmark": "[.article:bitmark--&video-link]\n[@id:119760]\n[&video-link:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4][@src1x:https://www.youtube.com/tumb_201809210816.png][@src2x:https://www.youtube.com/tumb_201809210816.png][@width:740][@height:540][@duration:PT12M31S]",
         "bit": {
             "type": "article",
             "format": "bitmark--",
@@ -390,8 +390,8 @@
                 "119760"
             ],
             "resource": {
-                "type": "videoLink",
-                "videoLink": {
+                "type": "video-link",
+                "video-link": {
                     "provider": "docs.bitmark.cloud",
                     "url": "https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4",
                     "width": "740",
@@ -416,7 +416,7 @@
         }
     },
     {
-        "bitmark": "[.article:bitmark--&stillImageFilm]\n[@id:119760]\n[&stillImageFilm:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4][@duration:PT12M31S]",
+        "bitmark": "[.article:bitmark--&still-image-film]\n[@id:119760]\n[&still-image-film:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4][@duration:PT12M31S]",
         "bit": {
             "type": "article",
             "format": "bitmark--",
@@ -425,8 +425,8 @@
                 "119760"
             ],
             "resource": {
-                "type": "stillImageFilm",
-                "stillImageFilm": {
+                "type": "still-image-film",
+                "still-image-film": {
                     "provider": "",
                     "url": "",
                     "src": "https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4",
@@ -437,7 +437,7 @@
         }
     },
     {
-        "bitmark": "[.article:bitmark--&stillImageFilmLink]\n[@id:119760]\n[&stillImageFilmLink:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4][@duration:PT12M31S]",
+        "bitmark": "[.article:bitmark--&still-image-film-link]\n[@id:119760]\n[&still-image-film-link:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4][@duration:PT12M31S]",
         "bit": {
             "type": "article",
             "format": "bitmark--",
@@ -446,8 +446,8 @@
                 "119760"
             ],
             "resource": {
-                "type": "stillImageFilmLink",
-                "stillImageFilm": {
+                "type": "still-image-film-link",
+                "still-image-film": {
                     "provider": "docs.bitmark.cloud",
                     "url": "https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4",
                     "duration": "PT12M31S"
@@ -489,11 +489,11 @@
 <<<<./tests/learning-path4.bit
 [
     {
-        "bitmark": "[.learning-path-book&websiteLink]\n[!Skript «Grundausbildung Altersvorsorge»]\n[@action:Selbststudium]\n[@duration:3600s]\n[@book:e-876z78z87og87g8zg][►Ref4.2.34][►Ref4.3.1]\n\nFirst one is the normal reference.\nSecond is the optional property called “referenceEnd”\nAll these bits support all resources (like &websiteLink, …\nAll of these bits (starting with .learning-path support the following optional properties:\n[@date:2015-03-25T12:00:00Z]\n[@location:Zug]\n[@list:One]\n[@list:Two]\n[@list:Three]\n[@list:Four]\n[@id:119760]\n||[&websiteLink:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4]||",
+        "bitmark": "[.learning-path-book&website-link]\n[!Skript «Grundausbildung Altersvorsorge»]\n[@action:Selbststudium]\n[@duration:3600s]\n[@book:e-876z78z87og87g8zg][►Ref4.2.34][►Ref4.3.1]\n\nFirst one is the normal reference.\nSecond is the optional property called “referenceEnd”\nAll these bits support all resources (like &website-link, …\nAll of these bits (starting with .learning-path support the following optional properties:\n[@date:2015-03-25T12:00:00Z]\n[@location:Zug]\n[@list:One]\n[@list:Two]\n[@list:Three]\n[@list:Four]\n[@id:119760]\n||[&website-link:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4]||",
         "bit": {
             "type": "learning-path-book",
             "format": "bitmark--",
-            "body": "First one is the normal reference.\nSecond is the optional property called “referenceEnd”\nAll these bits support all resources (like &websiteLink, …\nAll of these bits (starting with .learning-path support the following optional properties:",
+            "body": "First one is the normal reference.\nSecond is the optional property called “referenceEnd”\nAll these bits support all resources (like &website-link, …\nAll of these bits (starting with .learning-path support the following optional properties:",
             "item": "",
             "hint": "",
             "isExample": false,
@@ -523,11 +523,11 @@
 <<<<./tests/learning-path5.bit
 [
     {
-        "bitmark": "[.learning-path-external-link]\n[!Skript «Grundausbildung Altersvorsorge»]\n[@action:Selbststudium]\n[@duration:3600s]\n[@book:e-876z78z87og87g8zg][►Ref4.2.34][►Ref4.3.1]\n\nFirst one is the normal reference.\nSecond is the optional property called “referenceEnd”\nAll these bits support all resources (like &websiteLink, …\nAll of these bits (starting with .learning-path support the following optional properties:\n[@date:2015-03-25T12:00:00Z][@date:2022-04-19T00:00:00]\n[@location:Zug]\n[@list:One]\n[@list:Two]\n[@list:Three]\n[@list:Four]\n[@id:119760]\n[@botAnnounceAt: Allein zu Haus]\n[@botSaveAt:Tagesspiegel]\n[@botSendAt:Tagesspiegel]\n[@botRemindAt: Welche Aussage entspricht]\n[@externalLink: optional property ]\n[@videoCallLink:https://zoom.us/j/96545131108?pwd=RXdvTTVhW1aG1GcWFJeEEvQT09]",
+        "bitmark": "[.learning-path-external-link]\n[!Skript «Grundausbildung Altersvorsorge»]\n[@action:Selbststudium]\n[@duration:3600s]\n[@book:e-876z78z87og87g8zg][►Ref4.2.34][►Ref4.3.1]\n\nFirst one is the normal reference.\nSecond is the optional property called “referenceEnd”\nAll these bits support all resources (like &website-link, …\nAll of these bits (starting with .learning-path support the following optional properties:\n[@date:2015-03-25T12:00:00Z][@date:2022-04-19T00:00:00]\n[@location:Zug]\n[@list:One]\n[@list:Two]\n[@list:Three]\n[@list:Four]\n[@id:119760]\n[@botAnnounceAt: Allein zu Haus]\n[@botSaveAt:Tagesspiegel]\n[@botSendAt:Tagesspiegel]\n[@botRemindAt: Welche Aussage entspricht]\n[@externalLink: optional property ]\n[@videoCallLink:https://zoom.us/j/96545131108?pwd=RXdvTTVhW1aG1GcWFJeEEvQT09]",
         "bit": {
             "type": "learning-path-external-link",
             "format": "bitmark--",
-            "body": "First one is the normal reference.\nSecond is the optional property called “referenceEnd”\nAll these bits support all resources (like &websiteLink, …\nAll of these bits (starting with .learning-path support the following optional properties:\n[@date:2015-03-25T12:00:00Z]",
+            "body": "First one is the normal reference.\nSecond is the optional property called “referenceEnd”\nAll these bits support all resources (like &website-link, …\nAll of these bits (starting with .learning-path support the following optional properties:\n[@date:2015-03-25T12:00:00Z]",
             "item": "",
             "hint": "",
             "isExample": false,
@@ -564,11 +564,11 @@
 <<<<./tests/learning-path6.bit
 [
     {
-        "bitmark": "[.learning-path-classroom-training]\n[!Skript «Grundausbildung Altersvorsorge»]\n[@action:Selbststudium]\n[@duration:3600s]\n[@book:e-876z78z87og87g8zg][►Ref4.2.34][►Ref4.3.1]\n\nFirst one is the normal reference.\nSecond is the optional property called “referenceEnd”\nAll these bits support all resources (like &websiteLink, …\nAll of these bits (starting with .learning-path support the following optional properties:\n[@date:2015-03-25T12:00:00Z]\n[@location:Zug]\n[@list:One]\n[@list:Two]\n[@list:Three]\n[@list:Four]\n[@id:119760]\n||[&websiteLink:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4]||",
+        "bitmark": "[.learning-path-classroom-training]\n[!Skript «Grundausbildung Altersvorsorge»]\n[@action:Selbststudium]\n[@duration:3600s]\n[@book:e-876z78z87og87g8zg][►Ref4.2.34][►Ref4.3.1]\n\nFirst one is the normal reference.\nSecond is the optional property called “referenceEnd”\nAll these bits support all resources (like &website-link, …\nAll of these bits (starting with .learning-path support the following optional properties:\n[@date:2015-03-25T12:00:00Z]\n[@location:Zug]\n[@list:One]\n[@list:Two]\n[@list:Three]\n[@list:Four]\n[@id:119760]\n||[&website-link:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4]||",
         "bit": {
             "type": "learning-path-classroom-training",
             "format": "bitmark--",
-            "body": "First one is the normal reference.\nSecond is the optional property called “referenceEnd”\nAll these bits support all resources (like &websiteLink, …\nAll of these bits (starting with .learning-path support the following optional properties:",
+            "body": "First one is the normal reference.\nSecond is the optional property called “referenceEnd”\nAll these bits support all resources (like &website-link, …\nAll of these bits (starting with .learning-path support the following optional properties:",
             "item": "",
             "hint": "",
             "isExample": false,
@@ -2031,7 +2031,7 @@
 <<<<./tests/essay5.bit
 [
     {
-        "bitmark": "[.essay&image]\n[%05_Ablauf und Termine_022 (Freitext) ]\n[!Berechnen Sie aufgrund des & folgenden Projektablaufplans die Projektdauer in Monaten. \nHinweis: In den Spalten «Vorgänger» und «Nachfolger» ist jeweils nur eine Nummer aufgeführt.][?Korrekte Lösung \n18 Monate. (Hinweis: Für die Berechnung kann das Zeichnen eines Gantt-Diagramms hilfreich sein.)]\n[&audioLink:https://docs.bitbook.education/bit-books/compendio/schubert_erkundungen_c1/web-resources/cover/compendio_uebungen/web_resources/images/05_ablauf_und_termine_022.mp3]\n[&videoLink:https://docs.bitbook.education/bit-books/compendio/schubert_erkundungen_c1/web-resources/cover/compendio_uebungen/web_resources/images/05_ablauf_und_termine_022.wmv]",
+        "bitmark": "[.essay&image]\n[%05_Ablauf und Termine_022 (Freitext) ]\n[!Berechnen Sie aufgrund des & folgenden Projektablaufplans die Projektdauer in Monaten. \nHinweis: In den Spalten «Vorgänger» und «Nachfolger» ist jeweils nur eine Nummer aufgeführt.][?Korrekte Lösung \n18 Monate. (Hinweis: Für die Berechnung kann das Zeichnen eines Gantt-Diagramms hilfreich sein.)]\n[&audio-link:https://docs.bitbook.education/bit-books/compendio/schubert_erkundungen_c1/web-resources/cover/compendio_uebungen/web_resources/images/05_ablauf_und_termine_022.mp3]\n[&video-link:https://docs.bitbook.education/bit-books/compendio/schubert_erkundungen_c1/web-resources/cover/compendio_uebungen/web_resources/images/05_ablauf_und_termine_022.wmv]",
         "bit": {
             "type": "essay",
             "format": "bitmark--",
@@ -2050,12 +2050,12 @@
         "parser": {
             "excessResources": [
                 {
-                    "type": "audioLink",
+                    "type": "audio-link",
                     "format": "mp3",
                     "src": "https://docs.bitbook.education/bit-books/compendio/schubert_erkundungen_c1/web-resources/cover/compendio_uebungen/web_resources/images/05_ablauf_und_termine_022.mp3"
                 },
                 {
-                    "type": "videoLink",
+                    "type": "video-link",
                     "format": "wmv",
                     "src": "https://docs.bitbook.education/bit-books/compendio/schubert_erkundungen_c1/web-resources/cover/compendio_uebungen/web_resources/images/05_ablauf_und_termine_022.wmv"
                 }
@@ -2066,7 +2066,7 @@
 <<<<./tests/essay6.bit
 [
     {
-        "bitmark": "[.essay&imageLink]\n[%05_Ablauf und Termine_022 (Freitext)]\n[!Berechnen Sie aufgrund des & folgenden Projektablaufplans die Projektdauer in Monaten. \nHinweis: In den Spalten «Vorgänger» und «Nachfolger» ist jeweils nur eine Nummer aufgeführt.][?Korrekte Lösung \n18 Monate. (Hinweis: Für die Berechnung kann das Zeichnen eines Gantt-Diagramms hilfreich sein.)]\n[&imageLink:https://docs.bitbook.education/bit-books/compendio/schubert_erkundungen_c1/web-resources/cover/compendio_uebungen/web_resources/images/05_ablauf_und_termine_022.png]",
+        "bitmark": "[.essay&image-link]\n[%05_Ablauf und Termine_022 (Freitext)]\n[!Berechnen Sie aufgrund des & folgenden Projektablaufplans die Projektdauer in Monaten. \nHinweis: In den Spalten «Vorgänger» und «Nachfolger» ist jeweils nur eine Nummer aufgeführt.][?Korrekte Lösung \n18 Monate. (Hinweis: Für die Berechnung kann das Zeichnen eines Gantt-Diagramms hilfreich sein.)]\n[&image-link:https://docs.bitbook.education/bit-books/compendio/schubert_erkundungen_c1/web-resources/cover/compendio_uebungen/web_resources/images/05_ablauf_und_termine_022.png]",
         "bit": {
             "type": "essay",
             "format": "bitmark--",
@@ -2078,8 +2078,8 @@
             "isExample": false,
             "example": "",
             "resource": {
-                "type": "imageLink",
-                "imageLink": {
+                "type": "image-link",
+                "image-link": {
                     "provider": "docs.bitbook.education",
                     "url": "https://docs.bitbook.education/bit-books/compendio/schubert_erkundungen_c1/web-resources/cover/compendio_uebungen/web_resources/images/05_ablauf_und_termine_022.png"
                 }
@@ -2896,7 +2896,7 @@
             "item": "A7",
             "instruction": "Berichten Sie.",
             "body": "",
-            "footer": "[&image:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/zdf-logo.png]\n\n[&image:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/news_header.jpg]\n",
+            "footer": "[&image:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/zdf-logo.png][&image:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/news_header.jpg]",
             "hint": "",
             "questions": [
                 {
@@ -3461,7 +3461,7 @@
             "item": "B4",
             "instruction": "Überlegen Sie sich einen Vorfall und erstatten Sie selbst Strafanzeige gegen unbekannt.",
             "body": "(Vorname, Nachname) \n(Straße, Hausnummer) \n(Postleitzahl, Ort) \n(Telefonnummer)\n\nAn die Staatsanwaltschaft \n(Straße, Hausnummer) \n(Postleitzahl, Ort)\n\n__Strafanzeige gegen unbekannt__\n\n(Ort, Datum)",
-            "footer": "[&article:\nBitte nehmen Sie die Ermittlungen auf und teilen Sie mir das Aktenzeichen mit, unter dem der Vorgang bearbeitet wird.\n\nMit freundlichen Grüßen \n(Vorname, Nachname)\n][&article:\nBitte nehmen Sie die Ermittlungen auf und teilen Sie mir das Aktenzeichen mit, unter dem der Vorgang bearbeitet wird.\n\nMit freundlichen Grüßen \n(Vorname, Nachname)\n]\n\n\n\n",
+            "footer": "[&article:\nBitte nehmen Sie die Ermittlungen auf und teilen Sie mir das Aktenzeichen mit, unter dem der Vorgang bearbeitet wird.\n\nMit freundlichen Grüßen \n(Vorname, Nachname)\n][&article:\nBitte nehmen Sie die Ermittlungen auf und teilen Sie mir das Aktenzeichen mit, unter dem der Vorgang bearbeitet wird.\n\nMit freundlichen Grüßen \n(Vorname, Nachname)\n]",
             "hint": "",
             "questions": [
                 {
@@ -12220,7 +12220,7 @@
         }
     },
     {
-        "bitmark": "[.still-image-film]\nDie Texte und Aufgaben in diesem __fakultativen Teil B__ stellen ein Angebot für Lerner und Lerngruppen dar, die ihre sprachlichen Fähigkeiten zusätzlich erweitern möchten.\n[&stillImageFilm:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gesch_ft_kommerz_und_handel_958.wmv]",
+        "bitmark": "[.still-image-film]\nDie Texte und Aufgaben in diesem __fakultativen Teil B__ stellen ein Angebot für Lerner und Lerngruppen dar, die ihre sprachlichen Fähigkeiten zusätzlich erweitern möchten.\n[&still-image-film:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gesch_ft_kommerz_und_handel_958.wmv]",
         "bit": {
             "type": "still-image-film",
             "format": "bitmark--",
@@ -12230,8 +12230,8 @@
             "isExample": false,
             "example": "",
             "resource": {
-                "type": "stillImageFilm",
-                "stillImageFilm": {
+                "type": "still-image-film",
+                "still-image-film": {
                     "provider": "",
                     "url": "",
                     "src": "https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gesch_ft_kommerz_und_handel_958.wmv",
@@ -12241,7 +12241,7 @@
         }
     },
     {
-        "bitmark": "[.still-image-film-embed]\nDie Texte und Aufgaben in diesem __fakultativen Teil B__ stellen ein Angebot für Lerner und Lerngruppen dar, die ihre sprachlichen Fähigkeiten zusätzlich erweitern möchten.\n[&stillImageFilm:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gesch_ft_kommerz_und_handel_958.wmv]",
+        "bitmark": "[.still-image-film-embed]\nDie Texte und Aufgaben in diesem __fakultativen Teil B__ stellen ein Angebot für Lerner und Lerngruppen dar, die ihre sprachlichen Fähigkeiten zusätzlich erweitern möchten.\n[&still-image-film:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gesch_ft_kommerz_und_handel_958.wmv]",
         "bit": {
             "type": "still-image-film-embed",
             "format": "bitmark--",
@@ -12251,8 +12251,8 @@
             "isExample": false,
             "example": "",
             "resource": {
-                "type": "stillImageFilm",
-                "stillImageFilm": {
+                "type": "still-image-film",
+                "still-image-film": {
                     "provider": "",
                     "url": "",
                     "src": "https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gesch_ft_kommerz_und_handel_958.wmv",

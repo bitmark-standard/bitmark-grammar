@@ -108,7 +108,7 @@ BitDocument:			NL OPDOT S* 'document'   ;
 BitDocumentLink:		NL OPDOT S* 'document-link'   ;
 BitDocumentEmbed:		NL OPDOT S* 'document-embed'   ;
 BitDocumentDownload:		NL OPDOT S* 'document-download'   ;
-BitAppLink:			NL OPDOT S* 'app-Link'   ;
+BitAppLink:			NL OPDOT S* 'app-link'   ;
 BitEditorial:			NL OPDOT S* 'editorial'   ;
 // New Jan 30, 2023
 BitBookFrontispiece:		NL OPDOT S* 'book-frontispiece'   ;
@@ -155,7 +155,8 @@ BitBotActionRatingNumber:	NL OPDOT S* 'bot-action-rating-number'   ;
 BitBotActionRatingStars:	NL OPDOT S* 'bot-action-rating-stars'   ;
 
 BitChapterSubjectMatter:	NL OPDOT S* 'chapter-subject-matter' ;
-
+BitReleaseNote:			NL OPDOT S* 'release-note' ;
+BitConclusion:			NL OPDOT S* 'conclusion' ;
 
 
 

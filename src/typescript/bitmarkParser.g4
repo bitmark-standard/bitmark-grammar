@@ -84,7 +84,7 @@ bit:
 
 	| code | card1 | question1
 	| screenshot | focus_image | photo | browser_image | chapter_subject_matter
-
+	| release_note | conclusion
 ;
 //
 book:
@@ -368,6 +368,8 @@ photo:			       BitPhoto format2 CL NL* ( bitElem NL*)+ ;
 browser_image:		       BitBrowserImage format2 CL NL* ( bitElem NL*)+ ;
 
 chapter_subject_matter:	       BitChapterSubjectMatter format CL NL* ( bitElem NL* )+ ;
+release_note:		       BitReleaseNote format CL NL* ( bitElem NL* )+ ;
+conclusion:		       BitConclusion format CL NL* ( bitElem NL* )+ ;
 
 
 message:

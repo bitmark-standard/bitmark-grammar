@@ -246,7 +246,7 @@ clnsp:		CL ;  // without spaces
 or_:		OR ;
 
 // Removed STAR 12/3/2021 SENTENCE has a STAR in it
-words:          ( SENTENCE | AMP | Greater ~(Greater) | Less ~(Less) 
+words:          ( SENTENCE | BARSTRING | AMP | Greater ~(Greater) | Less ~(Less) 
 		| RightArrow | RightAngle
 		)+ ;
 

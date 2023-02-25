@@ -143,6 +143,8 @@ import { Focus_imageContext } from "./bitmarkParser";
 import { PhotoContext } from "./bitmarkParser";
 import { Browser_imageContext } from "./bitmarkParser";
 import { Chapter_subject_matterContext } from "./bitmarkParser";
+import { Release_noteContext } from "./bitmarkParser";
+import { ConclusionContext } from "./bitmarkParser";
 import { MessageContext } from "./bitmarkParser";
 import { Bot_interviewContext } from "./bitmarkParser";
 import { Bot_choiceContext } from "./bitmarkParser";
@@ -1767,6 +1769,28 @@ export interface bitmarkParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitChapter_subject_matter?: (ctx: Chapter_subject_matterContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.release_note`.
+	 * @param ctx the parse tree
+	 */
+	enterRelease_note?: (ctx: Release_noteContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.release_note`.
+	 * @param ctx the parse tree
+	 */
+	exitRelease_note?: (ctx: Release_noteContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.conclusion`.
+	 * @param ctx the parse tree
+	 */
+	enterConclusion?: (ctx: ConclusionContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.conclusion`.
+	 * @param ctx the parse tree
+	 */
+	exitConclusion?: (ctx: ConclusionContext) => void;
 
 	/**
 	 * Enter a parse tree produced by `bitmarkParser.message`.

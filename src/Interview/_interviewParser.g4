@@ -172,7 +172,7 @@ bracket_escaped:
 clnsp:		CL ;  // without spaces
 sspl:		SSPL|SSPL2 ;
 
-words: ( STRING | SENTENCE | AMP | Greater ~(Greater) | Less ~(Less)
+words: ( STRING | SENTENCE | BARSTRING | AMP | Greater ~(Greater) | Less ~(Less)
        | RightArrow | RightAngle
        )+ ;
 

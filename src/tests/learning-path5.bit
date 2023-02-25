@@ -6,7 +6,7 @@
 
 First one is the normal reference.
 Second is the optional property called “referenceEnd”
-All these bits support all resources (like &websiteLink, …
+All these bits support all resources (like &website-link, …
 All of these bits (starting with .learning-path support the following optional properties:
 [@date:2015-03-25T12:00:00Z][@date:2022-04-19T00:00:00]
 [@location:Zug]

@@ -820,6 +820,7 @@ let truefalseParser = /** @class */ (() => {
                                 case truefalseParser.NUMERIC:
                                 case truefalseParser.STRING:
                                 case truefalseParser.SENTENCE:
+                                case truefalseParser.BARSTRING:
                                 case truefalseParser.URL:
                                     {
                                         this.state = 345;
@@ -839,7 +840,7 @@ let truefalseParser = /** @class */ (() => {
                         this.state = 349;
                         this._errHandler.sync(this);
                         _la = this._input.LA(1);
-                    } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << truefalseParser.S) | (1 << truefalseParser.OPS) | (1 << truefalseParser.COLON) | (1 << truefalseParser.AMP) | (1 << truefalseParser.DBLCOLON) | (1 << truefalseParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (truefalseParser.Less - 32)) | (1 << (truefalseParser.DBLEQ - 32)) | (1 << (truefalseParser.RightAngle - 32)) | (1 << (truefalseParser.RightArrow - 32)) | (1 << (truefalseParser.NUMERIC - 32)) | (1 << (truefalseParser.STRING - 32)) | (1 << (truefalseParser.NL - 32)) | (1 << (truefalseParser.SENTENCE - 32)))) !== 0) || _la === truefalseParser.URL);
+                    } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << truefalseParser.S) | (1 << truefalseParser.OPS) | (1 << truefalseParser.COLON) | (1 << truefalseParser.AMP) | (1 << truefalseParser.DBLCOLON) | (1 << truefalseParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (truefalseParser.Less - 32)) | (1 << (truefalseParser.DBLEQ - 32)) | (1 << (truefalseParser.RightAngle - 32)) | (1 << (truefalseParser.RightArrow - 32)) | (1 << (truefalseParser.NUMERIC - 32)) | (1 << (truefalseParser.STRING - 32)) | (1 << (truefalseParser.NL - 32)) | (1 << (truefalseParser.SENTENCE - 32)) | (1 << (truefalseParser.BARSTRING - 32)))) !== 0) || _la === truefalseParser.URL);
                     this.state = 351;
                     this.match(truefalseParser.CL);
                 }
@@ -899,6 +900,7 @@ let truefalseParser = /** @class */ (() => {
                                 case truefalseParser.NUMERIC:
                                 case truefalseParser.STRING:
                                 case truefalseParser.SENTENCE:
+                                case truefalseParser.BARSTRING:
                                 case truefalseParser.URL:
                                     {
                                         this.state = 357;
@@ -918,7 +920,7 @@ let truefalseParser = /** @class */ (() => {
                         this.state = 361;
                         this._errHandler.sync(this);
                         _la = this._input.LA(1);
-                    } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << truefalseParser.S) | (1 << truefalseParser.OPS) | (1 << truefalseParser.COLON) | (1 << truefalseParser.AMP) | (1 << truefalseParser.DBLCOLON) | (1 << truefalseParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (truefalseParser.Less - 32)) | (1 << (truefalseParser.DBLEQ - 32)) | (1 << (truefalseParser.RightAngle - 32)) | (1 << (truefalseParser.RightArrow - 32)) | (1 << (truefalseParser.NUMERIC - 32)) | (1 << (truefalseParser.STRING - 32)) | (1 << (truefalseParser.NL - 32)) | (1 << (truefalseParser.SENTENCE - 32)))) !== 0) || _la === truefalseParser.URL);
+                    } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << truefalseParser.S) | (1 << truefalseParser.OPS) | (1 << truefalseParser.COLON) | (1 << truefalseParser.AMP) | (1 << truefalseParser.DBLCOLON) | (1 << truefalseParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (truefalseParser.Less - 32)) | (1 << (truefalseParser.DBLEQ - 32)) | (1 << (truefalseParser.RightAngle - 32)) | (1 << (truefalseParser.RightArrow - 32)) | (1 << (truefalseParser.NUMERIC - 32)) | (1 << (truefalseParser.STRING - 32)) | (1 << (truefalseParser.NL - 32)) | (1 << (truefalseParser.SENTENCE - 32)) | (1 << (truefalseParser.BARSTRING - 32)))) !== 0) || _la === truefalseParser.URL);
                     this.state = 363;
                     this.match(truefalseParser.CL);
                 }
@@ -978,6 +980,7 @@ let truefalseParser = /** @class */ (() => {
                                 case truefalseParser.NUMERIC:
                                 case truefalseParser.STRING:
                                 case truefalseParser.SENTENCE:
+                                case truefalseParser.BARSTRING:
                                 case truefalseParser.URL:
                                     {
                                         this.state = 369;
@@ -997,7 +1000,7 @@ let truefalseParser = /** @class */ (() => {
                         this.state = 373;
                         this._errHandler.sync(this);
                         _la = this._input.LA(1);
-                    } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << truefalseParser.S) | (1 << truefalseParser.OPS) | (1 << truefalseParser.COLON) | (1 << truefalseParser.AMP) | (1 << truefalseParser.DBLCOLON) | (1 << truefalseParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (truefalseParser.Less - 32)) | (1 << (truefalseParser.DBLEQ - 32)) | (1 << (truefalseParser.RightAngle - 32)) | (1 << (truefalseParser.RightArrow - 32)) | (1 << (truefalseParser.NUMERIC - 32)) | (1 << (truefalseParser.STRING - 32)) | (1 << (truefalseParser.NL - 32)) | (1 << (truefalseParser.SENTENCE - 32)))) !== 0) || _la === truefalseParser.URL);
+                    } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << truefalseParser.S) | (1 << truefalseParser.OPS) | (1 << truefalseParser.COLON) | (1 << truefalseParser.AMP) | (1 << truefalseParser.DBLCOLON) | (1 << truefalseParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (truefalseParser.Less - 32)) | (1 << (truefalseParser.DBLEQ - 32)) | (1 << (truefalseParser.RightAngle - 32)) | (1 << (truefalseParser.RightArrow - 32)) | (1 << (truefalseParser.NUMERIC - 32)) | (1 << (truefalseParser.STRING - 32)) | (1 << (truefalseParser.NL - 32)) | (1 << (truefalseParser.SENTENCE - 32)) | (1 << (truefalseParser.BARSTRING - 32)))) !== 0) || _la === truefalseParser.URL);
                     this.state = 375;
                     this.match(truefalseParser.CL);
                 }
@@ -1340,7 +1343,7 @@ let truefalseParser = /** @class */ (() => {
                     this.state = 424;
                     this._errHandler.sync(this);
                     _la = this._input.LA(1);
-                    while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << truefalseParser.S) | (1 << truefalseParser.OPS) | (1 << truefalseParser.COLON) | (1 << truefalseParser.AMP) | (1 << truefalseParser.DBLCOLON) | (1 << truefalseParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (truefalseParser.Less - 32)) | (1 << (truefalseParser.DBLEQ - 32)) | (1 << (truefalseParser.RightAngle - 32)) | (1 << (truefalseParser.RightArrow - 32)) | (1 << (truefalseParser.NUMERIC - 32)) | (1 << (truefalseParser.STRING - 32)) | (1 << (truefalseParser.SENTENCE - 32)))) !== 0) || _la === truefalseParser.URL) {
+                    while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << truefalseParser.S) | (1 << truefalseParser.OPS) | (1 << truefalseParser.COLON) | (1 << truefalseParser.AMP) | (1 << truefalseParser.DBLCOLON) | (1 << truefalseParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (truefalseParser.Less - 32)) | (1 << (truefalseParser.DBLEQ - 32)) | (1 << (truefalseParser.RightAngle - 32)) | (1 << (truefalseParser.RightArrow - 32)) | (1 << (truefalseParser.NUMERIC - 32)) | (1 << (truefalseParser.STRING - 32)) | (1 << (truefalseParser.SENTENCE - 32)) | (1 << (truefalseParser.BARSTRING - 32)))) !== 0) || _la === truefalseParser.URL) {
                         {
                             {
                                 this.state = 421;
@@ -3402,6 +3405,7 @@ let truefalseParser = /** @class */ (() => {
                                         case truefalseParser.NUMERIC:
                                         case truefalseParser.STRING:
                                         case truefalseParser.SENTENCE:
+                                        case truefalseParser.BARSTRING:
                                         case truefalseParser.URL:
                                             {
                                                 this.state = 729;
@@ -3421,7 +3425,7 @@ let truefalseParser = /** @class */ (() => {
                                 this.state = 733;
                                 this._errHandler.sync(this);
                                 _la = this._input.LA(1);
-                            } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << truefalseParser.S) | (1 << truefalseParser.OPS) | (1 << truefalseParser.COLON) | (1 << truefalseParser.AMP) | (1 << truefalseParser.DBLCOLON) | (1 << truefalseParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (truefalseParser.Less - 32)) | (1 << (truefalseParser.DBLEQ - 32)) | (1 << (truefalseParser.RightAngle - 32)) | (1 << (truefalseParser.RightArrow - 32)) | (1 << (truefalseParser.NUMERIC - 32)) | (1 << (truefalseParser.STRING - 32)) | (1 << (truefalseParser.NL - 32)) | (1 << (truefalseParser.SENTENCE - 32)))) !== 0) || _la === truefalseParser.URL);
+                            } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << truefalseParser.S) | (1 << truefalseParser.OPS) | (1 << truefalseParser.COLON) | (1 << truefalseParser.AMP) | (1 << truefalseParser.DBLCOLON) | (1 << truefalseParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (truefalseParser.Less - 32)) | (1 << (truefalseParser.DBLEQ - 32)) | (1 << (truefalseParser.RightAngle - 32)) | (1 << (truefalseParser.RightArrow - 32)) | (1 << (truefalseParser.NUMERIC - 32)) | (1 << (truefalseParser.STRING - 32)) | (1 << (truefalseParser.NL - 32)) | (1 << (truefalseParser.SENTENCE - 32)) | (1 << (truefalseParser.BARSTRING - 32)))) !== 0) || _la === truefalseParser.URL);
                             this.state = 735;
                             this.match(truefalseParser.CL);
                         }
@@ -3616,7 +3620,7 @@ let truefalseParser = /** @class */ (() => {
                             this.state = 773;
                             this._errHandler.sync(this);
                             _la = this._input.LA(1);
-                            while (((((_la - 26)) & ~0x1F) === 0 && ((1 << (_la - 26)) & ((1 << (truefalseParser.COLON - 26)) | (1 << (truefalseParser.AMP - 26)) | (1 << (truefalseParser.Greater - 26)) | (1 << (truefalseParser.Less - 26)) | (1 << (truefalseParser.RightAngle - 26)) | (1 << (truefalseParser.RightArrow - 26)) | (1 << (truefalseParser.SENTENCE - 26)))) !== 0)) {
+                            while (((((_la - 26)) & ~0x1F) === 0 && ((1 << (_la - 26)) & ((1 << (truefalseParser.COLON - 26)) | (1 << (truefalseParser.AMP - 26)) | (1 << (truefalseParser.Greater - 26)) | (1 << (truefalseParser.Less - 26)) | (1 << (truefalseParser.RightAngle - 26)) | (1 << (truefalseParser.RightArrow - 26)) | (1 << (truefalseParser.SENTENCE - 26)) | (1 << (truefalseParser.BARSTRING - 26)))) !== 0)) {
                                 {
                                     this.state = 771;
                                     this._errHandler.sync(this);
@@ -3633,6 +3637,7 @@ let truefalseParser = /** @class */ (() => {
                                         case truefalseParser.RightAngle:
                                         case truefalseParser.RightArrow:
                                         case truefalseParser.SENTENCE:
+                                        case truefalseParser.BARSTRING:
                                             {
                                                 this.state = 770;
                                                 this.words();
@@ -3706,7 +3711,7 @@ let truefalseParser = /** @class */ (() => {
                     this.state = 794;
                     this._errHandler.sync(this);
                     _la = this._input.LA(1);
-                    while (((((_la - 26)) & ~0x1F) === 0 && ((1 << (_la - 26)) & ((1 << (truefalseParser.COLON - 26)) | (1 << (truefalseParser.AMP - 26)) | (1 << (truefalseParser.Greater - 26)) | (1 << (truefalseParser.Less - 26)) | (1 << (truefalseParser.RightAngle - 26)) | (1 << (truefalseParser.RightArrow - 26)) | (1 << (truefalseParser.SENTENCE - 26)))) !== 0)) {
+                    while (((((_la - 26)) & ~0x1F) === 0 && ((1 << (_la - 26)) & ((1 << (truefalseParser.COLON - 26)) | (1 << (truefalseParser.AMP - 26)) | (1 << (truefalseParser.Greater - 26)) | (1 << (truefalseParser.Less - 26)) | (1 << (truefalseParser.RightAngle - 26)) | (1 << (truefalseParser.RightArrow - 26)) | (1 << (truefalseParser.SENTENCE - 26)) | (1 << (truefalseParser.BARSTRING - 26)))) !== 0)) {
                         {
                             this.state = 792;
                             this._errHandler.sync(this);
@@ -3723,6 +3728,7 @@ let truefalseParser = /** @class */ (() => {
                                 case truefalseParser.RightAngle:
                                 case truefalseParser.RightArrow:
                                 case truefalseParser.SENTENCE:
+                                case truefalseParser.BARSTRING:
                                     {
                                         this.state = 791;
                                         this.words();
@@ -3772,7 +3778,7 @@ let truefalseParser = /** @class */ (() => {
                             this.state = 801;
                             this._errHandler.sync(this);
                             _la = this._input.LA(1);
-                            if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << truefalseParser.S) | (1 << truefalseParser.OPS) | (1 << truefalseParser.COLON) | (1 << truefalseParser.AMP) | (1 << truefalseParser.DBLCOLON) | (1 << truefalseParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (truefalseParser.Less - 32)) | (1 << (truefalseParser.DBLEQ - 32)) | (1 << (truefalseParser.RightAngle - 32)) | (1 << (truefalseParser.RightArrow - 32)) | (1 << (truefalseParser.NUMERIC - 32)) | (1 << (truefalseParser.STRING - 32)) | (1 << (truefalseParser.SENTENCE - 32)))) !== 0) || _la === truefalseParser.URL) {
+                            if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << truefalseParser.S) | (1 << truefalseParser.OPS) | (1 << truefalseParser.COLON) | (1 << truefalseParser.AMP) | (1 << truefalseParser.DBLCOLON) | (1 << truefalseParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (truefalseParser.Less - 32)) | (1 << (truefalseParser.DBLEQ - 32)) | (1 << (truefalseParser.RightAngle - 32)) | (1 << (truefalseParser.RightArrow - 32)) | (1 << (truefalseParser.NUMERIC - 32)) | (1 << (truefalseParser.STRING - 32)) | (1 << (truefalseParser.SENTENCE - 32)) | (1 << (truefalseParser.BARSTRING - 32)))) !== 0) || _la === truefalseParser.URL) {
                                 {
                                     this.state = 800;
                                     this.s_and_w();
@@ -3790,7 +3796,7 @@ let truefalseParser = /** @class */ (() => {
                             this.state = 806;
                             this._errHandler.sync(this);
                             _la = this._input.LA(1);
-                            if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << truefalseParser.S) | (1 << truefalseParser.OPS) | (1 << truefalseParser.COLON) | (1 << truefalseParser.AMP) | (1 << truefalseParser.DBLCOLON) | (1 << truefalseParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (truefalseParser.Less - 32)) | (1 << (truefalseParser.DBLEQ - 32)) | (1 << (truefalseParser.RightAngle - 32)) | (1 << (truefalseParser.RightArrow - 32)) | (1 << (truefalseParser.NUMERIC - 32)) | (1 << (truefalseParser.STRING - 32)) | (1 << (truefalseParser.SENTENCE - 32)))) !== 0) || _la === truefalseParser.URL) {
+                            if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << truefalseParser.S) | (1 << truefalseParser.OPS) | (1 << truefalseParser.COLON) | (1 << truefalseParser.AMP) | (1 << truefalseParser.DBLCOLON) | (1 << truefalseParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (truefalseParser.Less - 32)) | (1 << (truefalseParser.DBLEQ - 32)) | (1 << (truefalseParser.RightAngle - 32)) | (1 << (truefalseParser.RightArrow - 32)) | (1 << (truefalseParser.NUMERIC - 32)) | (1 << (truefalseParser.STRING - 32)) | (1 << (truefalseParser.SENTENCE - 32)) | (1 << (truefalseParser.BARSTRING - 32)))) !== 0) || _la === truefalseParser.URL) {
                                 {
                                     this.state = 805;
                                     this.s_and_w();
@@ -3907,7 +3913,7 @@ let truefalseParser = /** @class */ (() => {
                             this.state = 845;
                             this._errHandler.sync(this);
                             _la = this._input.LA(1);
-                            while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << truefalseParser.S) | (1 << truefalseParser.OPS) | (1 << truefalseParser.COLON) | (1 << truefalseParser.AMP) | (1 << truefalseParser.DBLCOLON) | (1 << truefalseParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (truefalseParser.Less - 32)) | (1 << (truefalseParser.DBLEQ - 32)) | (1 << (truefalseParser.RightAngle - 32)) | (1 << (truefalseParser.RightArrow - 32)) | (1 << (truefalseParser.NUMERIC - 32)) | (1 << (truefalseParser.STRING - 32)) | (1 << (truefalseParser.SENTENCE - 32)))) !== 0) || _la === truefalseParser.URL) {
+                            while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << truefalseParser.S) | (1 << truefalseParser.OPS) | (1 << truefalseParser.COLON) | (1 << truefalseParser.AMP) | (1 << truefalseParser.DBLCOLON) | (1 << truefalseParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (truefalseParser.Less - 32)) | (1 << (truefalseParser.DBLEQ - 32)) | (1 << (truefalseParser.RightAngle - 32)) | (1 << (truefalseParser.RightArrow - 32)) | (1 << (truefalseParser.NUMERIC - 32)) | (1 << (truefalseParser.STRING - 32)) | (1 << (truefalseParser.SENTENCE - 32)) | (1 << (truefalseParser.BARSTRING - 32)))) !== 0) || _la === truefalseParser.URL) {
                                 {
                                     {
                                         this.state = 824;
@@ -3976,7 +3982,7 @@ let truefalseParser = /** @class */ (() => {
                             this.state = 855;
                             this._errHandler.sync(this);
                             _la = this._input.LA(1);
-                            while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << truefalseParser.S) | (1 << truefalseParser.OPS) | (1 << truefalseParser.COLON) | (1 << truefalseParser.AMP) | (1 << truefalseParser.DBLCOLON) | (1 << truefalseParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (truefalseParser.Less - 32)) | (1 << (truefalseParser.DBLEQ - 32)) | (1 << (truefalseParser.RightAngle - 32)) | (1 << (truefalseParser.RightArrow - 32)) | (1 << (truefalseParser.NUMERIC - 32)) | (1 << (truefalseParser.STRING - 32)) | (1 << (truefalseParser.NL - 32)) | (1 << (truefalseParser.SENTENCE - 32)))) !== 0) || _la === truefalseParser.URL) {
+                            while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << truefalseParser.S) | (1 << truefalseParser.OPS) | (1 << truefalseParser.COLON) | (1 << truefalseParser.AMP) | (1 << truefalseParser.DBLCOLON) | (1 << truefalseParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (truefalseParser.Less - 32)) | (1 << (truefalseParser.DBLEQ - 32)) | (1 << (truefalseParser.RightAngle - 32)) | (1 << (truefalseParser.RightArrow - 32)) | (1 << (truefalseParser.NUMERIC - 32)) | (1 << (truefalseParser.STRING - 32)) | (1 << (truefalseParser.NL - 32)) | (1 << (truefalseParser.SENTENCE - 32)) | (1 << (truefalseParser.BARSTRING - 32)))) !== 0) || _la === truefalseParser.URL) {
                                 {
                                     this.state = 853;
                                     this._errHandler.sync(this);
@@ -4077,7 +4083,7 @@ let truefalseParser = /** @class */ (() => {
                                 this.state = 868;
                                 this._errHandler.sync(this);
                                 _la = this._input.LA(1);
-                            } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << truefalseParser.S) | (1 << truefalseParser.OPS) | (1 << truefalseParser.COLON) | (1 << truefalseParser.AMP) | (1 << truefalseParser.DBLCOLON) | (1 << truefalseParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (truefalseParser.Less - 32)) | (1 << (truefalseParser.DBLEQ - 32)) | (1 << (truefalseParser.RightAngle - 32)) | (1 << (truefalseParser.RightArrow - 32)) | (1 << (truefalseParser.NUMERIC - 32)) | (1 << (truefalseParser.STRING - 32)) | (1 << (truefalseParser.NL - 32)) | (1 << (truefalseParser.SENTENCE - 32)))) !== 0) || _la === truefalseParser.URL);
+                            } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << truefalseParser.S) | (1 << truefalseParser.OPS) | (1 << truefalseParser.COLON) | (1 << truefalseParser.AMP) | (1 << truefalseParser.DBLCOLON) | (1 << truefalseParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (truefalseParser.Less - 32)) | (1 << (truefalseParser.DBLEQ - 32)) | (1 << (truefalseParser.RightAngle - 32)) | (1 << (truefalseParser.RightArrow - 32)) | (1 << (truefalseParser.NUMERIC - 32)) | (1 << (truefalseParser.STRING - 32)) | (1 << (truefalseParser.NL - 32)) | (1 << (truefalseParser.SENTENCE - 32)) | (1 << (truefalseParser.BARSTRING - 32)))) !== 0) || _la === truefalseParser.URL);
                             this.state = 870;
                             this.match(truefalseParser.CL);
                         }
@@ -4090,7 +4096,7 @@ let truefalseParser = /** @class */ (() => {
                             this.state = 879;
                             this._errHandler.sync(this);
                             _la = this._input.LA(1);
-                            while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << truefalseParser.S) | (1 << truefalseParser.OPS) | (1 << truefalseParser.COLON) | (1 << truefalseParser.AMP) | (1 << truefalseParser.DBLCOLON) | (1 << truefalseParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (truefalseParser.Less - 32)) | (1 << (truefalseParser.DBLEQ - 32)) | (1 << (truefalseParser.RightAngle - 32)) | (1 << (truefalseParser.RightArrow - 32)) | (1 << (truefalseParser.NUMERIC - 32)) | (1 << (truefalseParser.STRING - 32)) | (1 << (truefalseParser.NL - 32)) | (1 << (truefalseParser.SENTENCE - 32)))) !== 0) || _la === truefalseParser.URL) {
+                            while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << truefalseParser.S) | (1 << truefalseParser.OPS) | (1 << truefalseParser.COLON) | (1 << truefalseParser.AMP) | (1 << truefalseParser.DBLCOLON) | (1 << truefalseParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (truefalseParser.Less - 32)) | (1 << (truefalseParser.DBLEQ - 32)) | (1 << (truefalseParser.RightAngle - 32)) | (1 << (truefalseParser.RightArrow - 32)) | (1 << (truefalseParser.NUMERIC - 32)) | (1 << (truefalseParser.STRING - 32)) | (1 << (truefalseParser.NL - 32)) | (1 << (truefalseParser.SENTENCE - 32)) | (1 << (truefalseParser.BARSTRING - 32)))) !== 0) || _la === truefalseParser.URL) {
                                 {
                                     this.state = 877;
                                     this._errHandler.sync(this);
@@ -4223,7 +4229,7 @@ let truefalseParser = /** @class */ (() => {
                         this.state = 895;
                         this._errHandler.sync(this);
                         _la = this._input.LA(1);
-                    } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << truefalseParser.S) | (1 << truefalseParser.OPS) | (1 << truefalseParser.COLON) | (1 << truefalseParser.AMP) | (1 << truefalseParser.DBLCOLON) | (1 << truefalseParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (truefalseParser.Less - 32)) | (1 << (truefalseParser.DBLEQ - 32)) | (1 << (truefalseParser.RightAngle - 32)) | (1 << (truefalseParser.RightArrow - 32)) | (1 << (truefalseParser.NUMERIC - 32)) | (1 << (truefalseParser.STRING - 32)) | (1 << (truefalseParser.NL - 32)) | (1 << (truefalseParser.SENTENCE - 32)))) !== 0) || _la === truefalseParser.URL);
+                    } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << truefalseParser.S) | (1 << truefalseParser.OPS) | (1 << truefalseParser.COLON) | (1 << truefalseParser.AMP) | (1 << truefalseParser.DBLCOLON) | (1 << truefalseParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (truefalseParser.Less - 32)) | (1 << (truefalseParser.DBLEQ - 32)) | (1 << (truefalseParser.RightAngle - 32)) | (1 << (truefalseParser.RightArrow - 32)) | (1 << (truefalseParser.NUMERIC - 32)) | (1 << (truefalseParser.STRING - 32)) | (1 << (truefalseParser.NL - 32)) | (1 << (truefalseParser.SENTENCE - 32)) | (1 << (truefalseParser.BARSTRING - 32)))) !== 0) || _la === truefalseParser.URL);
                     this.state = 897;
                     this.match(truefalseParser.CL);
                     this.state = 899;
@@ -4293,7 +4299,7 @@ let truefalseParser = /** @class */ (() => {
                         this.state = 907;
                         this._errHandler.sync(this);
                         _la = this._input.LA(1);
-                    } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << truefalseParser.S) | (1 << truefalseParser.OPS) | (1 << truefalseParser.COLON) | (1 << truefalseParser.AMP) | (1 << truefalseParser.DBLCOLON) | (1 << truefalseParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (truefalseParser.Less - 32)) | (1 << (truefalseParser.DBLEQ - 32)) | (1 << (truefalseParser.RightAngle - 32)) | (1 << (truefalseParser.RightArrow - 32)) | (1 << (truefalseParser.NUMERIC - 32)) | (1 << (truefalseParser.STRING - 32)) | (1 << (truefalseParser.NL - 32)) | (1 << (truefalseParser.SENTENCE - 32)))) !== 0) || _la === truefalseParser.URL);
+                    } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << truefalseParser.S) | (1 << truefalseParser.OPS) | (1 << truefalseParser.COLON) | (1 << truefalseParser.AMP) | (1 << truefalseParser.DBLCOLON) | (1 << truefalseParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (truefalseParser.Less - 32)) | (1 << (truefalseParser.DBLEQ - 32)) | (1 << (truefalseParser.RightAngle - 32)) | (1 << (truefalseParser.RightArrow - 32)) | (1 << (truefalseParser.NUMERIC - 32)) | (1 << (truefalseParser.STRING - 32)) | (1 << (truefalseParser.NL - 32)) | (1 << (truefalseParser.SENTENCE - 32)) | (1 << (truefalseParser.BARSTRING - 32)))) !== 0) || _la === truefalseParser.URL);
                     this.state = 909;
                     this.match(truefalseParser.CL);
                 }
@@ -4355,7 +4361,7 @@ let truefalseParser = /** @class */ (() => {
                             this.state = 942;
                             this._errHandler.sync(this);
                             _la = this._input.LA(1);
-                            while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << truefalseParser.S) | (1 << truefalseParser.OPS) | (1 << truefalseParser.COLON) | (1 << truefalseParser.AMP) | (1 << truefalseParser.DBLCOLON) | (1 << truefalseParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (truefalseParser.Less - 32)) | (1 << (truefalseParser.DBLEQ - 32)) | (1 << (truefalseParser.RightAngle - 32)) | (1 << (truefalseParser.RightArrow - 32)) | (1 << (truefalseParser.NUMERIC - 32)) | (1 << (truefalseParser.STRING - 32)) | (1 << (truefalseParser.SENTENCE - 32)))) !== 0) || _la === truefalseParser.URL) {
+                            while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << truefalseParser.S) | (1 << truefalseParser.OPS) | (1 << truefalseParser.COLON) | (1 << truefalseParser.AMP) | (1 << truefalseParser.DBLCOLON) | (1 << truefalseParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (truefalseParser.Less - 32)) | (1 << (truefalseParser.DBLEQ - 32)) | (1 << (truefalseParser.RightAngle - 32)) | (1 << (truefalseParser.RightArrow - 32)) | (1 << (truefalseParser.NUMERIC - 32)) | (1 << (truefalseParser.STRING - 32)) | (1 << (truefalseParser.SENTENCE - 32)) | (1 << (truefalseParser.BARSTRING - 32)))) !== 0) || _la === truefalseParser.URL) {
                                 {
                                     {
                                         this.state = 921;
@@ -4438,7 +4444,7 @@ let truefalseParser = /** @class */ (() => {
                             this.state = 954;
                             this._errHandler.sync(this);
                             _la = this._input.LA(1);
-                            if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << truefalseParser.S) | (1 << truefalseParser.OPS) | (1 << truefalseParser.COLON) | (1 << truefalseParser.AMP) | (1 << truefalseParser.DBLCOLON) | (1 << truefalseParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (truefalseParser.Less - 32)) | (1 << (truefalseParser.DBLEQ - 32)) | (1 << (truefalseParser.RightAngle - 32)) | (1 << (truefalseParser.RightArrow - 32)) | (1 << (truefalseParser.NUMERIC - 32)) | (1 << (truefalseParser.STRING - 32)) | (1 << (truefalseParser.SENTENCE - 32)))) !== 0) || _la === truefalseParser.URL) {
+                            if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << truefalseParser.S) | (1 << truefalseParser.OPS) | (1 << truefalseParser.COLON) | (1 << truefalseParser.AMP) | (1 << truefalseParser.DBLCOLON) | (1 << truefalseParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (truefalseParser.Less - 32)) | (1 << (truefalseParser.DBLEQ - 32)) | (1 << (truefalseParser.RightAngle - 32)) | (1 << (truefalseParser.RightArrow - 32)) | (1 << (truefalseParser.NUMERIC - 32)) | (1 << (truefalseParser.STRING - 32)) | (1 << (truefalseParser.SENTENCE - 32)) | (1 << (truefalseParser.BARSTRING - 32)))) !== 0) || _la === truefalseParser.URL) {
                                 {
                                     this.state = 953;
                                     this.s_and_w();
@@ -4553,6 +4559,7 @@ let truefalseParser = /** @class */ (() => {
                                         case truefalseParser.NUMERIC:
                                         case truefalseParser.STRING:
                                         case truefalseParser.SENTENCE:
+                                        case truefalseParser.BARSTRING:
                                         case truefalseParser.URL:
                                             {
                                                 this.state = 968;
@@ -4572,7 +4579,7 @@ let truefalseParser = /** @class */ (() => {
                                 this.state = 972;
                                 this._errHandler.sync(this);
                                 _la = this._input.LA(1);
-                            } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << truefalseParser.S) | (1 << truefalseParser.OPS) | (1 << truefalseParser.COLON) | (1 << truefalseParser.AMP) | (1 << truefalseParser.DBLCOLON) | (1 << truefalseParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (truefalseParser.Less - 32)) | (1 << (truefalseParser.DBLEQ - 32)) | (1 << (truefalseParser.RightAngle - 32)) | (1 << (truefalseParser.RightArrow - 32)) | (1 << (truefalseParser.NUMERIC - 32)) | (1 << (truefalseParser.STRING - 32)) | (1 << (truefalseParser.NL - 32)) | (1 << (truefalseParser.SENTENCE - 32)))) !== 0) || _la === truefalseParser.URL);
+                            } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << truefalseParser.S) | (1 << truefalseParser.OPS) | (1 << truefalseParser.COLON) | (1 << truefalseParser.AMP) | (1 << truefalseParser.DBLCOLON) | (1 << truefalseParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (truefalseParser.Less - 32)) | (1 << (truefalseParser.DBLEQ - 32)) | (1 << (truefalseParser.RightAngle - 32)) | (1 << (truefalseParser.RightArrow - 32)) | (1 << (truefalseParser.NUMERIC - 32)) | (1 << (truefalseParser.STRING - 32)) | (1 << (truefalseParser.NL - 32)) | (1 << (truefalseParser.SENTENCE - 32)) | (1 << (truefalseParser.BARSTRING - 32)))) !== 0) || _la === truefalseParser.URL);
                             this.state = 974;
                             this.match(truefalseParser.CL);
                         }
@@ -4857,7 +4864,7 @@ let truefalseParser = /** @class */ (() => {
                             this.state = 1032;
                             this._errHandler.sync(this);
                             _la = this._input.LA(1);
-                            while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << truefalseParser.S) | (1 << truefalseParser.OPS) | (1 << truefalseParser.COLON) | (1 << truefalseParser.AMP) | (1 << truefalseParser.DBLCOLON) | (1 << truefalseParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (truefalseParser.Less - 32)) | (1 << (truefalseParser.DBLEQ - 32)) | (1 << (truefalseParser.RightAngle - 32)) | (1 << (truefalseParser.RightArrow - 32)) | (1 << (truefalseParser.NUMERIC - 32)) | (1 << (truefalseParser.STRING - 32)) | (1 << (truefalseParser.NL - 32)) | (1 << (truefalseParser.SENTENCE - 32)))) !== 0) || _la === truefalseParser.URL) {
+                            while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << truefalseParser.S) | (1 << truefalseParser.OPS) | (1 << truefalseParser.COLON) | (1 << truefalseParser.AMP) | (1 << truefalseParser.DBLCOLON) | (1 << truefalseParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (truefalseParser.Less - 32)) | (1 << (truefalseParser.DBLEQ - 32)) | (1 << (truefalseParser.RightAngle - 32)) | (1 << (truefalseParser.RightArrow - 32)) | (1 << (truefalseParser.NUMERIC - 32)) | (1 << (truefalseParser.STRING - 32)) | (1 << (truefalseParser.NL - 32)) | (1 << (truefalseParser.SENTENCE - 32)) | (1 << (truefalseParser.BARSTRING - 32)))) !== 0) || _la === truefalseParser.URL) {
                                 {
                                     this.state = 1030;
                                     this._errHandler.sync(this);
@@ -4979,7 +4986,7 @@ let truefalseParser = /** @class */ (() => {
                                 this.state = 1053;
                                 this._errHandler.sync(this);
                                 _la = this._input.LA(1);
-                            } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << truefalseParser.S) | (1 << truefalseParser.OPS) | (1 << truefalseParser.COLON) | (1 << truefalseParser.AMP) | (1 << truefalseParser.DBLCOLON) | (1 << truefalseParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (truefalseParser.Less - 32)) | (1 << (truefalseParser.DBLEQ - 32)) | (1 << (truefalseParser.RightAngle - 32)) | (1 << (truefalseParser.RightArrow - 32)) | (1 << (truefalseParser.NUMERIC - 32)) | (1 << (truefalseParser.STRING - 32)) | (1 << (truefalseParser.NL - 32)) | (1 << (truefalseParser.SENTENCE - 32)))) !== 0) || _la === truefalseParser.URL);
+                            } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << truefalseParser.S) | (1 << truefalseParser.OPS) | (1 << truefalseParser.COLON) | (1 << truefalseParser.AMP) | (1 << truefalseParser.DBLCOLON) | (1 << truefalseParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (truefalseParser.Less - 32)) | (1 << (truefalseParser.DBLEQ - 32)) | (1 << (truefalseParser.RightAngle - 32)) | (1 << (truefalseParser.RightArrow - 32)) | (1 << (truefalseParser.NUMERIC - 32)) | (1 << (truefalseParser.STRING - 32)) | (1 << (truefalseParser.NL - 32)) | (1 << (truefalseParser.SENTENCE - 32)) | (1 << (truefalseParser.BARSTRING - 32)))) !== 0) || _la === truefalseParser.URL);
                             this.state = 1055;
                             this.match(truefalseParser.CL);
                         }
@@ -4992,7 +4999,7 @@ let truefalseParser = /** @class */ (() => {
                             this.state = 1062;
                             this._errHandler.sync(this);
                             _la = this._input.LA(1);
-                            while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << truefalseParser.S) | (1 << truefalseParser.OPS) | (1 << truefalseParser.COLON) | (1 << truefalseParser.AMP) | (1 << truefalseParser.DBLCOLON) | (1 << truefalseParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (truefalseParser.Less - 32)) | (1 << (truefalseParser.DBLEQ - 32)) | (1 << (truefalseParser.RightAngle - 32)) | (1 << (truefalseParser.RightArrow - 32)) | (1 << (truefalseParser.NUMERIC - 32)) | (1 << (truefalseParser.STRING - 32)) | (1 << (truefalseParser.NL - 32)) | (1 << (truefalseParser.SENTENCE - 32)))) !== 0) || _la === truefalseParser.URL) {
+                            while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << truefalseParser.S) | (1 << truefalseParser.OPS) | (1 << truefalseParser.COLON) | (1 << truefalseParser.AMP) | (1 << truefalseParser.DBLCOLON) | (1 << truefalseParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (truefalseParser.Less - 32)) | (1 << (truefalseParser.DBLEQ - 32)) | (1 << (truefalseParser.RightAngle - 32)) | (1 << (truefalseParser.RightArrow - 32)) | (1 << (truefalseParser.NUMERIC - 32)) | (1 << (truefalseParser.STRING - 32)) | (1 << (truefalseParser.NL - 32)) | (1 << (truefalseParser.SENTENCE - 32)) | (1 << (truefalseParser.BARSTRING - 32)))) !== 0) || _la === truefalseParser.URL) {
                                 {
                                     this.state = 1060;
                                     this._errHandler.sync(this);
@@ -5055,7 +5062,7 @@ let truefalseParser = /** @class */ (() => {
                     this.state = 1070;
                     this._errHandler.sync(this);
                     _la = this._input.LA(1);
-                    if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << truefalseParser.S) | (1 << truefalseParser.OPS) | (1 << truefalseParser.COLON) | (1 << truefalseParser.AMP) | (1 << truefalseParser.DBLCOLON) | (1 << truefalseParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (truefalseParser.Less - 32)) | (1 << (truefalseParser.DBLEQ - 32)) | (1 << (truefalseParser.RightAngle - 32)) | (1 << (truefalseParser.RightArrow - 32)) | (1 << (truefalseParser.NUMERIC - 32)) | (1 << (truefalseParser.STRING - 32)) | (1 << (truefalseParser.SENTENCE - 32)))) !== 0) || _la === truefalseParser.URL) {
+                    if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << truefalseParser.S) | (1 << truefalseParser.OPS) | (1 << truefalseParser.COLON) | (1 << truefalseParser.AMP) | (1 << truefalseParser.DBLCOLON) | (1 << truefalseParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (truefalseParser.Less - 32)) | (1 << (truefalseParser.DBLEQ - 32)) | (1 << (truefalseParser.RightAngle - 32)) | (1 << (truefalseParser.RightArrow - 32)) | (1 << (truefalseParser.NUMERIC - 32)) | (1 << (truefalseParser.STRING - 32)) | (1 << (truefalseParser.SENTENCE - 32)) | (1 << (truefalseParser.BARSTRING - 32)))) !== 0) || _la === truefalseParser.URL) {
                         {
                             this.state = 1069;
                             this.s_and_w();
@@ -5110,7 +5117,7 @@ let truefalseParser = /** @class */ (() => {
                         this.state = 1080;
                         this._errHandler.sync(this);
                         _la = this._input.LA(1);
-                    } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << truefalseParser.S) | (1 << truefalseParser.OPS) | (1 << truefalseParser.COLON) | (1 << truefalseParser.AMP) | (1 << truefalseParser.DBLCOLON) | (1 << truefalseParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (truefalseParser.Less - 32)) | (1 << (truefalseParser.DBLEQ - 32)) | (1 << (truefalseParser.RightAngle - 32)) | (1 << (truefalseParser.RightArrow - 32)) | (1 << (truefalseParser.NUMERIC - 32)) | (1 << (truefalseParser.STRING - 32)) | (1 << (truefalseParser.SENTENCE - 32)))) !== 0) || _la === truefalseParser.URL);
+                    } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << truefalseParser.S) | (1 << truefalseParser.OPS) | (1 << truefalseParser.COLON) | (1 << truefalseParser.AMP) | (1 << truefalseParser.DBLCOLON) | (1 << truefalseParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (truefalseParser.Less - 32)) | (1 << (truefalseParser.DBLEQ - 32)) | (1 << (truefalseParser.RightAngle - 32)) | (1 << (truefalseParser.RightArrow - 32)) | (1 << (truefalseParser.NUMERIC - 32)) | (1 << (truefalseParser.STRING - 32)) | (1 << (truefalseParser.SENTENCE - 32)) | (1 << (truefalseParser.BARSTRING - 32)))) !== 0) || _la === truefalseParser.URL);
                 }
             }
             catch (re) {
@@ -5444,14 +5451,14 @@ let truefalseParser = /** @class */ (() => {
                 let _alt;
                 this.enterOuterAlt(_localctx, 1);
                 {
-                    this.state = 1148;
+                    this.state = 1149;
                     this._errHandler.sync(this);
                     _alt = 1;
                     do {
                         switch (_alt) {
                             case 1:
                                 {
-                                    this.state = 1148;
+                                    this.state = 1149;
                                     this._errHandler.sync(this);
                                     switch (this._input.LA(1)) {
                                         case truefalseParser.SENTENCE:
@@ -5460,17 +5467,23 @@ let truefalseParser = /** @class */ (() => {
                                                 this.match(truefalseParser.SENTENCE);
                                             }
                                             break;
-                                        case truefalseParser.AMP:
+                                        case truefalseParser.BARSTRING:
                                             {
                                                 this.state = 1141;
+                                                this.match(truefalseParser.BARSTRING);
+                                            }
+                                            break;
+                                        case truefalseParser.AMP:
+                                            {
+                                                this.state = 1142;
                                                 this.match(truefalseParser.AMP);
                                             }
                                             break;
                                         case truefalseParser.Greater:
                                             {
-                                                this.state = 1142;
-                                                this.match(truefalseParser.Greater);
                                                 this.state = 1143;
+                                                this.match(truefalseParser.Greater);
+                                                this.state = 1144;
                                                 _la = this._input.LA(1);
                                                 if (_la <= 0 || (_la === truefalseParser.Greater)) {
                                                     this._errHandler.recoverInline(this);
@@ -5486,9 +5499,9 @@ let truefalseParser = /** @class */ (() => {
                                             break;
                                         case truefalseParser.Less:
                                             {
-                                                this.state = 1144;
-                                                this.match(truefalseParser.Less);
                                                 this.state = 1145;
+                                                this.match(truefalseParser.Less);
+                                                this.state = 1146;
                                                 _la = this._input.LA(1);
                                                 if (_la <= 0 || (_la === truefalseParser.Less)) {
                                                     this._errHandler.recoverInline(this);
@@ -5504,13 +5517,13 @@ let truefalseParser = /** @class */ (() => {
                                             break;
                                         case truefalseParser.RightArrow:
                                             {
-                                                this.state = 1146;
+                                                this.state = 1147;
                                                 this.match(truefalseParser.RightArrow);
                                             }
                                             break;
                                         case truefalseParser.RightAngle:
                                             {
-                                                this.state = 1147;
+                                                this.state = 1148;
                                                 this.match(truefalseParser.RightAngle);
                                             }
                                             break;
@@ -5522,7 +5535,7 @@ let truefalseParser = /** @class */ (() => {
                             default:
                                 throw new NoViableAltException_1.NoViableAltException(this);
                         }
-                        this.state = 1150;
+                        this.state = 1151;
                         this._errHandler.sync(this);
                         _alt = this.interpreter.adaptivePredict(this._input, 162, this._ctx);
                     } while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER);
@@ -5550,7 +5563,7 @@ let truefalseParser = /** @class */ (() => {
             try {
                 this.enterOuterAlt(_localctx, 1);
                 {
-                    this.state = 1152;
+                    this.state = 1153;
                     this.match(truefalseParser.S);
                 }
             }
@@ -5829,16 +5842,16 @@ let truefalseParser = /** @class */ (() => {
         undefined, undefined, undefined, undefined, undefined, undefined, undefined,
         undefined, undefined, undefined, undefined, undefined, undefined, undefined,
         undefined, undefined, undefined, "'http://'", "'https://'", "'&audio'",
-        "'&image'", "'&image-zoom'", "'&imageWithAudio'", "'&video'", "'&article'",
-        "'&document'", "'&app'", "'&website'", "'&stillImageFilm'", "'&pdf'",
+        "'&image'", "'&image-zoom'", "'&image-with-audio'", "'&video'", "'&article'",
+        "'&document'", "'&app'", "'&website'", "'&still-image-film'", "'&pdf'",
         undefined, undefined, undefined, undefined, undefined, undefined, undefined,
-        undefined, undefined, undefined, undefined, undefined, "'&audioLink'",
-        "'&imageLink'", "'&videoLink'", "'&articleLink'", "'&documentLink'", "'&appLink'",
-        "'&websiteLink'", "'&stillImageFilmLink'", undefined, undefined, undefined,
-        undefined, undefined, undefined, undefined, undefined, "':bitmark--'",
-        "':bitmark++'", "':text'", "':prosemirror'", "':placeholder'", "':basic'",
-        "':jpg'", "':png'", "':gif'", "':svg'", "':mp2'", "':mp3'", "':mp4'",
-        "':flv'", "':wmv'", "':mpeg'", "':mpg'", "'tel:'", "'.article-attachment'",
+        undefined, undefined, undefined, undefined, undefined, "'&audio-link'",
+        "'&image-link'", "'&video-link'", "'&article-link'", "'&document-link'",
+        "'&app-link'", "'&website-link'", "'&still-image-film-link'", undefined,
+        undefined, undefined, undefined, undefined, undefined, undefined, undefined,
+        "':bitmark--'", "':bitmark++'", "':text'", "':prosemirror'", "':placeholder'",
+        "':basic'", "':jpg'", "':png'", "':gif'", "':svg'", "':mp2'", "':mp3'",
+        "':mp4'", "':flv'", "':wmv'", "':mpeg'", "':mpg'", "'tel:'", "'.article-attachment'",
         "'*'",
     ];
     truefalseParser._SYMBOLIC_NAMES = [
@@ -5869,7 +5882,7 @@ let truefalseParser = /** @class */ (() => {
     ];
     truefalseParser.VOCABULARY = new VocabularyImpl_1.VocabularyImpl(truefalseParser._LITERAL_NAMES, truefalseParser._SYMBOLIC_NAMES, []);
     truefalseParser._serializedATNSegments = 3;
-    truefalseParser._serializedATNSegment0 = "\x03\uC91D\uCABA\u058D\uAFBA\u4F53\u0607\uEA8B\uC241\x03\x8C\u0485\x04" +
+    truefalseParser._serializedATNSegment0 = "\x03\uC91D\uCABA\u058D\uAFBA\u4F53\u0607\uEA8B\uC241\x03\x8C\u0486\x04" +
         "\x02\t\x02\x04\x03\t\x03\x04\x04\t\x04\x04\x05\t\x05\x04\x06\t\x06\x04" +
         "\x07\t\x07\x04\b\t\b\x04\t\t\t\x04\n\t\n\x04\v\t\v\x04\f\t\f\x04\r\t\r" +
         "\x04\x0E\t\x0E\x04\x0F\t\x0F\x04\x10\t\x10\x04\x11\t\x11\x04\x12\t\x12" +
@@ -5973,107 +5986,107 @@ let truefalseParser = /** @class */ (() => {
         "P\x03P\x03P\x03P\x07P\u0455\nP\fP\x0EP\u0458\vP\x03P\x03P\x07P\u045C\n" +
         "P\fP\x0EP\u045F\vP\x03P\x03P\x07P\u0463\nP\fP\x0EP\u0466\vP\x03P\x03P" +
         "\x03P\x05P\u046B\nP\x03Q\x03Q\x03R\x03R\x03R\x03R\x03S\x03S\x03T\x03T" +
-        "\x03U\x03U\x03U\x03U\x03U\x03U\x03U\x03U\x06U\u047F\nU\rU\x0EU\u0480\x03" +
-        "V\x03V\x03V\x06\u028D\u02A0\u02EA\u0413\x02\x02W\x02\x02\x04\x02\x06\x02" +
-        "\b\x02\n\x02\f\x02\x0E\x02\x10\x02\x12\x02\x14\x02\x16\x02\x18\x02\x1A" +
-        "\x02\x1C\x02\x1E\x02 \x02\"\x02$\x02&\x02(\x02*\x02,\x02.\x020\x022\x02" +
-        "4\x026\x028\x02:\x02<\x02>\x02@\x02B\x02D\x02F\x02H\x02J\x02L\x02N\x02" +
-        "P\x02R\x02T\x02V\x02X\x02Z\x02\\\x02^\x02`\x02b\x02d\x02f\x02h\x02j\x02" +
-        "l\x02n\x02p\x02r\x02t\x02v\x02x\x02z\x02|\x02~\x02\x80\x02\x82\x02\x84" +
-        "\x02\x86\x02\x88\x02\x8A\x02\x8C\x02\x8E\x02\x90\x02\x92\x02\x94\x02\x96" +
-        "\x02\x98\x02\x9A\x02\x9C\x02\x9E\x02\xA0\x02\xA2\x02\xA4\x02\xA6\x02\xA8" +
-        "\x02\xAA\x02\x02\x16\x03\x02&\'\x07\x02TUWXfmvwyz\x04\x02SShh\x04\x02" +
-        "TTii\x04\x02UUjj\x04\x02VVkk\x04\x02WWll\x04\x02XXmm\x04\x02__qq\x04\x02" +
-        "aarr\x04\x02bbss\x04\x02cctt\x04\x02dduu\x03\x0256\x04\x02CCFI\x03\x02" +
-        "\x1B\x1B\x04\x02\x1C\x1C\x1E\x1E\x03\x02()\x03\x02!!\x03\x02\"\"\x02\u0514" +
-        "\x02\xB9\x03\x02\x02\x02\x04\xC5\x03\x02\x02\x02\x06\xC9\x03\x02\x02\x02" +
-        "\b\xCB\x03\x02\x02\x02\n\xF5\x03\x02\x02\x02\f\u012E\x03\x02\x02\x02\x0E" +
-        "\u0130\x03\x02\x02\x02\x10\u0132\x03\x02\x02\x02\x12\u013B\x03\x02\x02" +
-        "\x02\x14\u014F\x03\x02\x02\x02\x16\u0153\x03\x02\x02\x02\x18\u0158\x03" +
-        "\x02\x02\x02\x1A\u0164\x03\x02\x02\x02\x1C\u0170\x03\x02\x02\x02\x1E\u0192" +
-        "\x03\x02\x02\x02 \u0194\x03\x02\x02\x02\"\u0196\x03\x02\x02\x02$\u01A1" +
-        "\x03\x02\x02\x02&\u01AF\x03\x02\x02\x02(\u01B5\x03\x02\x02\x02*\u01BC" +
-        "\x03\x02\x02\x02,\u01C6\x03\x02\x02\x02.\u01D1\x03\x02\x02\x020\u01D7" +
-        "\x03\x02\x02\x022\u01E7\x03\x02\x02\x024\u01E9\x03\x02\x02\x026\u01EE" +
-        "\x03\x02\x02\x028\u01F0\x03\x02\x02\x02:\u01F2\x03\x02\x02\x02<\u01F4" +
-        "\x03\x02\x02\x02>\u01F6\x03\x02\x02\x02@\u01F8\x03\x02\x02\x02B\u01FA" +
-        "\x03\x02\x02\x02D\u01FC\x03\x02\x02\x02F\u01FE\x03\x02\x02\x02H\u020A" +
-        "\x03\x02\x02\x02J\u020C\x03\x02\x02\x02L\u0214\x03\x02\x02\x02N\u0216" +
-        "\x03\x02\x02\x02P\u0220\x03\x02\x02\x02R\u022A\x03\x02\x02\x02T\u0237" +
-        "\x03\x02\x02\x02V\u023E\x03\x02\x02\x02X\u0249\x03\x02\x02\x02Z\u0250" +
-        "\x03\x02\x02\x02\\\u025A\x03\x02\x02\x02^\u0265\x03\x02\x02\x02`\u027E" +
-        "\x03\x02\x02\x02b\u0291\x03\x02\x02\x02d\u02A4\x03\x02\x02\x02f\u02A6" +
-        "\x03\x02\x02\x02h\u02AD\x03\x02\x02\x02j\u02C1\x03\x02\x02\x02l\u02CD" +
-        "\x03\x02\x02\x02n\u02EE\x03\x02\x02\x02p\u02F0\x03\x02\x02\x02r\u02F4" +
-        "\x03\x02\x02\x02t\u0314\x03\x02\x02\x02v\u0316\x03\x02\x02\x02x\u032B" +
-        "\x03\x02\x02\x02z\u0334\x03\x02\x02\x02|\u035D\x03\x02\x02\x02~\u0375" +
-        "\x03\x02\x02\x02\x80\u0377\x03\x02\x02\x02\x82\u037B\x03\x02\x02\x02\x84" +
-        "\u0387\x03\x02\x02\x02\x86\u03BF\x03\x02\x02\x02\x88\u03C1\x03\x02\x02" +
-        "\x02\x8A\u03D5\x03\x02\x02\x02\x8C\u03DF\x03\x02\x02\x02\x8E\u03EA\x03" +
-        "\x02\x02\x02\x90\u03EC\x03\x02\x02\x02\x92\u03F0\x03\x02\x02\x02\x94\u03F4" +
-        "\x03\x02\x02\x02\x96\u0417\x03\x02\x02\x02\x98\u042C\x03\x02\x02\x02\x9A" +
-        "\u042E\x03\x02\x02\x02\x9C\u0438\x03\x02\x02\x02\x9E\u046A\x03\x02\x02" +
-        "\x02\xA0\u046C\x03\x02\x02\x02\xA2\u046E\x03\x02\x02\x02\xA4\u0472\x03" +
-        "\x02\x02\x02\xA6\u0474\x03\x02\x02\x02\xA8\u047E\x03\x02\x02\x02\xAA\u0482" +
-        "\x03\x02\x02\x02\xAC\xB6\x05\x04\x03\x02\xAD\xAF\x07\x04\x02\x02\xAE\xAD" +
-        "\x03\x02\x02\x02\xAF\xB2\x03\x02\x02\x02\xB0\xAE\x03\x02\x02\x02\xB0\xB1" +
-        "\x03\x02\x02\x02\xB1\xB3\x03\x02\x02\x02\xB2\xB0\x03\x02\x02\x02\xB3\xB5" +
-        "\x07/\x02\x02\xB4\xB0\x03\x02\x02\x02\xB5\xB8\x03\x02\x02\x02\xB6\xB4" +
-        "\x03\x02\x02\x02\xB6\xB7\x03\x02\x02\x02\xB7\xBA\x03\x02\x02\x02\xB8\xB6" +
-        "\x03\x02\x02\x02\xB9\xAC\x03\x02\x02\x02\xBA\xBB\x03\x02\x02\x02\xBB\xB9" +
-        "\x03\x02\x02\x02\xBB\xBC\x03\x02\x02\x02\xBC\xC0\x03\x02\x02\x02\xBD\xBF" +
-        "\x07/\x02\x02\xBE\xBD\x03\x02\x02\x02\xBF\xC2\x03\x02\x02\x02\xC0\xBE" +
-        "\x03\x02\x02\x02\xC0\xC1\x03\x02\x02\x02\xC1\xC3\x03\x02\x02\x02\xC2\xC0" +
-        "\x03\x02\x02\x02\xC3\xC4\x07\x02\x02\x03\xC4\x03\x03\x02\x02\x02\xC5\xC6" +
-        "\x05\x06\x04\x02\xC6\x05\x03\x02\x02\x02\xC7\xCA\x05\b\x05\x02\xC8\xCA" +
-        "\x05\n\x06\x02\xC9\xC7\x03\x02\x02\x02\xC9\xC8\x03\x02\x02\x02\xCA\x07" +
-        "\x03\x02\x02\x02\xCB\xCC\x07\x05\x02\x02\xCC\xCD\x05*\x16\x02\xCD\xCF" +
-        "\x07\x1B\x02\x02\xCE\xD0\x07/\x02\x02\xCF\xCE\x03\x02\x02\x02\xD0\xD1" +
-        "\x03\x02\x02\x02\xD1\xCF\x03\x02\x02\x02\xD1\xD2\x03\x02\x02\x02\xD2\xDC" +
-        "\x03\x02\x02\x02\xD3\xD7\x05\x1E\x10\x02\xD4\xD6\x07/\x02\x02\xD5\xD4" +
-        "\x03\x02\x02\x02\xD6\xD9\x03\x02\x02\x02\xD7\xD5\x03\x02\x02\x02\xD7\xD8" +
-        "\x03\x02\x02\x02\xD8\xDB\x03\x02\x02\x02\xD9\xD7\x03\x02\x02\x02\xDA\xD3" +
-        "\x03\x02\x02\x02\xDB\xDE\x03\x02\x02\x02\xDC\xDA\x03\x02\x02\x02\xDC\xDD" +
-        "\x03\x02\x02\x02\xDD\xDF\x03\x02\x02\x02\xDE\xDC\x03\x02\x02\x02\xDF\xE3" +
-        "\x05\x12\n\x02\xE0\xE2\x07/\x02\x02\xE1\xE0\x03\x02\x02\x02\xE2\xE5\x03" +
-        "\x02\x02\x02\xE3\xE1\x03\x02\x02\x02\xE3\xE4\x03\x02\x02\x02\xE4\xF3\x03" +
-        "\x02\x02\x02\xE5\xE3\x03\x02\x02\x02\xE6\xF0\x05 \x11\x02\xE7\xE9\x07" +
-        "/\x02\x02\xE8\xE7\x03\x02\x02\x02\xE9\xEC\x03\x02\x02\x02\xEA\xE8\x03" +
-        "\x02\x02\x02\xEA\xEB\x03\x02\x02\x02\xEB\xED\x03\x02\x02\x02\xEC\xEA\x03" +
-        "\x02\x02\x02\xED\xEF\x05 \x11\x02\xEE\xEA\x03\x02\x02\x02\xEF\xF2\x03" +
-        "\x02\x02\x02\xF0\xEE\x03\x02\x02\x02\xF0\xF1\x03\x02\x02\x02\xF1\xF4\x03" +
-        "\x02\x02\x02\xF2\xF0\x03\x02\x02\x02\xF3\xE6\x03\x02\x02\x02\xF3\xF4\x03" +
-        "\x02\x02\x02\xF4\t\x03\x02\x02\x02\xF5\xF6\x07\x06\x02\x02\xF6\xF7\x05" +
-        "*\x16\x02\xF7\xFB\x07\x1B\x02\x02\xF8\xFA\x07/\x02\x02\xF9\xF8\x03\x02" +
-        "\x02\x02\xFA\xFD\x03\x02\x02\x02\xFB\xF9\x03\x02\x02\x02\xFB\xFC\x03\x02" +
-        "\x02\x02\xFC\u0107\x03\x02\x02\x02\xFD\xFB\x03\x02\x02\x02\xFE\u0102\x05" +
-        "\x1E\x10\x02\xFF\u0101\x07/\x02\x02\u0100\xFF\x03\x02\x02\x02\u0101\u0104" +
-        "\x03\x02\x02\x02\u0102\u0100\x03\x02\x02\x02\u0102\u0103\x03\x02\x02\x02" +
-        "\u0103\u0106\x03\x02\x02\x02\u0104\u0102\x03\x02\x02\x02\u0105\xFE\x03" +
-        "\x02\x02\x02\u0106\u0109\x03\x02\x02\x02\u0107\u0105\x03\x02\x02\x02\u0107" +
-        "\u0108\x03\x02\x02\x02\u0108\u0114\x03\x02\x02\x02\u0109\u0107\x03\x02" +
-        "\x02\x02\u010A\u010C\x05\f\x07\x02\u010B\u010A\x03\x02\x02\x02\u010B\u010C" +
-        "\x03\x02\x02\x02\u010C\u0110\x03\x02\x02\x02\u010D\u010F\x05\x10\t\x02" +
-        "\u010E\u010D\x03\x02\x02\x02\u010F\u0112\x03\x02\x02\x02\u0110\u010E\x03" +
-        "\x02\x02\x02\u0110\u0111\x03\x02\x02\x02\u0111\u0113\x03\x02\x02\x02\u0112" +
-        "\u0110\x03\x02\x02\x02\u0113\u0115\x05\x12\n\x02\u0114\u010B\x03\x02\x02" +
-        "\x02\u0115\u0116\x03\x02\x02\x02\u0116\u0114\x03\x02\x02\x02\u0116\u0117" +
-        "\x03\x02\x02\x02\u0117\u0118\x03\x02\x02\x02\u0118\u011C\x05\x0E\b\x02" +
-        "\u0119\u011B\x07/\x02\x02\u011A\u0119\x03\x02\x02\x02\u011B\u011E\x03" +
-        "\x02\x02\x02\u011C\u011A\x03\x02\x02\x02\u011C\u011D\x03\x02\x02\x02\u011D" +
-        "\u012C\x03\x02\x02\x02\u011E\u011C\x03\x02\x02\x02\u011F\u0129\x05 \x11" +
-        "\x02\u0120\u0122\x07/\x02\x02\u0121\u0120\x03\x02\x02\x02\u0122\u0125" +
-        "\x03\x02\x02\x02\u0123\u0121\x03\x02\x02\x02\u0123\u0124\x03\x02\x02\x02" +
-        "\u0124\u0126\x03\x02\x02\x02\u0125\u0123\x03\x02\x02\x02\u0126\u0128\x05" +
-        " \x11\x02\u0127\u0123\x03\x02\x02\x02\u0128\u012B\x03\x02\x02\x02\u0129" +
-        "\u0127\x03\x02\x02\x02\u0129\u012A\x03\x02\x02\x02\u012A\u012D\x03\x02" +
-        "\x02\x02\u012B\u0129\x03\x02\x02\x02\u012C\u011F\x03\x02\x02\x02\u012C" +
-        "\u012D\x03\x02\x02\x02\u012D\v\x03\x02\x02\x02\u012E\u012F\t\x02\x02\x02" +
-        "\u012F\r\x03\x02\x02\x02\u0130\u0131\t\x02\x02\x02\u0131\x0F\x03\x02\x02" +
-        "\x02\u0132\u0136\x05\x1E\x10\x02\u0133\u0135\x07/\x02\x02\u0134\u0133" +
-        "\x03\x02\x02\x02\u0135\u0138\x03\x02\x02\x02\u0136\u0134\x03\x02\x02\x02" +
-        "\u0136\u0137\x03\x02\x02\x02\u0137\x11\x03\x02\x02\x02\u0138\u0136\x03" +
-        "\x02\x02\x02\u0139\u013C\x05\x14\v\x02\u013A\u013C\x05\x16\f\x02\u013B" +
+        "\x03U\x03U\x03U\x03U\x03U\x03U\x03U\x03U\x03U\x06U\u0480\nU\rU\x0EU\u0481" +
+        "\x03V\x03V\x03V\x06\u028D\u02A0\u02EA\u0413\x02\x02W\x02\x02\x04\x02\x06" +
+        "\x02\b\x02\n\x02\f\x02\x0E\x02\x10\x02\x12\x02\x14\x02\x16\x02\x18\x02" +
+        "\x1A\x02\x1C\x02\x1E\x02 \x02\"\x02$\x02&\x02(\x02*\x02,\x02.\x020\x02" +
+        "2\x024\x026\x028\x02:\x02<\x02>\x02@\x02B\x02D\x02F\x02H\x02J\x02L\x02" +
+        "N\x02P\x02R\x02T\x02V\x02X\x02Z\x02\\\x02^\x02`\x02b\x02d\x02f\x02h\x02" +
+        "j\x02l\x02n\x02p\x02r\x02t\x02v\x02x\x02z\x02|\x02~\x02\x80\x02\x82\x02" +
+        "\x84\x02\x86\x02\x88\x02\x8A\x02\x8C\x02\x8E\x02\x90\x02\x92\x02\x94\x02" +
+        "\x96\x02\x98\x02\x9A\x02\x9C\x02\x9E\x02\xA0\x02\xA2\x02\xA4\x02\xA6\x02" +
+        "\xA8\x02\xAA\x02\x02\x16\x03\x02&\'\x07\x02TUWXfmvwyz\x04\x02SShh\x04" +
+        "\x02TTii\x04\x02UUjj\x04\x02VVkk\x04\x02WWll\x04\x02XXmm\x04\x02__qq\x04" +
+        "\x02aarr\x04\x02bbss\x04\x02cctt\x04\x02dduu\x03\x0256\x04\x02CCFI\x03" +
+        "\x02\x1B\x1B\x04\x02\x1C\x1C\x1E\x1E\x03\x02()\x03\x02!!\x03\x02\"\"\x02" +
+        "\u0516\x02\xB9\x03\x02\x02\x02\x04\xC5\x03\x02\x02\x02\x06\xC9\x03\x02" +
+        "\x02\x02\b\xCB\x03\x02\x02\x02\n\xF5\x03\x02\x02\x02\f\u012E\x03\x02\x02" +
+        "\x02\x0E\u0130\x03\x02\x02\x02\x10\u0132\x03\x02\x02\x02\x12\u013B\x03" +
+        "\x02\x02\x02\x14\u014F\x03\x02\x02\x02\x16\u0153\x03\x02\x02\x02\x18\u0158" +
+        "\x03\x02\x02\x02\x1A\u0164\x03\x02\x02\x02\x1C\u0170\x03\x02\x02\x02\x1E" +
+        "\u0192\x03\x02\x02\x02 \u0194\x03\x02\x02\x02\"\u0196\x03\x02\x02\x02" +
+        "$\u01A1\x03\x02\x02\x02&\u01AF\x03\x02\x02\x02(\u01B5\x03\x02\x02\x02" +
+        "*\u01BC\x03\x02\x02\x02,\u01C6\x03\x02\x02\x02.\u01D1\x03\x02\x02\x02" +
+        "0\u01D7\x03\x02\x02\x022\u01E7\x03\x02\x02\x024\u01E9\x03\x02\x02\x02" +
+        "6\u01EE\x03\x02\x02\x028\u01F0\x03\x02\x02\x02:\u01F2\x03\x02\x02\x02" +
+        "<\u01F4\x03\x02\x02\x02>\u01F6\x03\x02\x02\x02@\u01F8\x03\x02\x02\x02" +
+        "B\u01FA\x03\x02\x02\x02D\u01FC\x03\x02\x02\x02F\u01FE\x03\x02\x02\x02" +
+        "H\u020A\x03\x02\x02\x02J\u020C\x03\x02\x02\x02L\u0214\x03\x02\x02\x02" +
+        "N\u0216\x03\x02\x02\x02P\u0220\x03\x02\x02\x02R\u022A\x03\x02\x02\x02" +
+        "T\u0237\x03\x02\x02\x02V\u023E\x03\x02\x02\x02X\u0249\x03\x02\x02\x02" +
+        "Z\u0250\x03\x02\x02\x02\\\u025A\x03\x02\x02\x02^\u0265\x03\x02\x02\x02" +
+        "`\u027E\x03\x02\x02\x02b\u0291\x03\x02\x02\x02d\u02A4\x03\x02\x02\x02" +
+        "f\u02A6\x03\x02\x02\x02h\u02AD\x03\x02\x02\x02j\u02C1\x03\x02\x02\x02" +
+        "l\u02CD\x03\x02\x02\x02n\u02EE\x03\x02\x02\x02p\u02F0\x03\x02\x02\x02" +
+        "r\u02F4\x03\x02\x02\x02t\u0314\x03\x02\x02\x02v\u0316\x03\x02\x02\x02" +
+        "x\u032B\x03\x02\x02\x02z\u0334\x03\x02\x02\x02|\u035D\x03\x02\x02\x02" +
+        "~\u0375\x03\x02\x02\x02\x80\u0377\x03\x02\x02\x02\x82\u037B\x03\x02\x02" +
+        "\x02\x84\u0387\x03\x02\x02\x02\x86\u03BF\x03\x02\x02\x02\x88\u03C1\x03" +
+        "\x02\x02\x02\x8A\u03D5\x03\x02\x02\x02\x8C\u03DF\x03\x02\x02\x02\x8E\u03EA" +
+        "\x03\x02\x02\x02\x90\u03EC\x03\x02\x02\x02\x92\u03F0\x03\x02\x02\x02\x94" +
+        "\u03F4\x03\x02\x02\x02\x96\u0417\x03\x02\x02\x02\x98\u042C\x03\x02\x02" +
+        "\x02\x9A\u042E\x03\x02\x02\x02\x9C\u0438\x03\x02\x02\x02\x9E\u046A\x03" +
+        "\x02\x02\x02\xA0\u046C\x03\x02\x02\x02\xA2\u046E\x03\x02\x02\x02\xA4\u0472" +
+        "\x03\x02\x02\x02\xA6\u0474\x03\x02\x02\x02\xA8\u047F\x03\x02\x02\x02\xAA" +
+        "\u0483\x03\x02\x02\x02\xAC\xB6\x05\x04\x03\x02\xAD\xAF\x07\x04\x02\x02" +
+        "\xAE\xAD\x03\x02\x02\x02\xAF\xB2\x03\x02\x02\x02\xB0\xAE\x03\x02\x02\x02" +
+        "\xB0\xB1\x03\x02\x02\x02\xB1\xB3\x03\x02\x02\x02\xB2\xB0\x03\x02\x02\x02" +
+        "\xB3\xB5\x07/\x02\x02\xB4\xB0\x03\x02\x02\x02\xB5\xB8\x03\x02\x02\x02" +
+        "\xB6\xB4\x03\x02\x02\x02\xB6\xB7\x03\x02\x02\x02\xB7\xBA\x03\x02\x02\x02" +
+        "\xB8\xB6\x03\x02\x02\x02\xB9\xAC\x03\x02\x02\x02\xBA\xBB\x03\x02\x02\x02" +
+        "\xBB\xB9\x03\x02\x02\x02\xBB\xBC\x03\x02\x02\x02\xBC\xC0\x03\x02\x02\x02" +
+        "\xBD\xBF\x07/\x02\x02\xBE\xBD\x03\x02\x02\x02\xBF\xC2\x03\x02\x02\x02" +
+        "\xC0\xBE\x03\x02\x02\x02\xC0\xC1\x03\x02\x02\x02\xC1\xC3\x03\x02\x02\x02" +
+        "\xC2\xC0\x03\x02\x02\x02\xC3\xC4\x07\x02\x02\x03\xC4\x03\x03\x02\x02\x02" +
+        "\xC5\xC6\x05\x06\x04\x02\xC6\x05\x03\x02\x02\x02\xC7\xCA\x05\b\x05\x02" +
+        "\xC8\xCA\x05\n\x06\x02\xC9\xC7\x03\x02\x02\x02\xC9\xC8\x03\x02\x02\x02" +
+        "\xCA\x07\x03\x02\x02\x02\xCB\xCC\x07\x05\x02\x02\xCC\xCD\x05*\x16\x02" +
+        "\xCD\xCF\x07\x1B\x02\x02\xCE\xD0\x07/\x02\x02\xCF\xCE\x03\x02\x02\x02" +
+        "\xD0\xD1\x03\x02\x02\x02\xD1\xCF\x03\x02\x02\x02\xD1\xD2\x03\x02\x02\x02" +
+        "\xD2\xDC\x03\x02\x02\x02\xD3\xD7\x05\x1E\x10\x02\xD4\xD6\x07/\x02\x02" +
+        "\xD5\xD4\x03\x02\x02\x02\xD6\xD9\x03\x02\x02\x02\xD7\xD5\x03\x02\x02\x02" +
+        "\xD7\xD8\x03\x02\x02\x02\xD8\xDB\x03\x02\x02\x02\xD9\xD7\x03\x02\x02\x02" +
+        "\xDA\xD3\x03\x02\x02\x02\xDB\xDE\x03\x02\x02\x02\xDC\xDA\x03\x02\x02\x02" +
+        "\xDC\xDD\x03\x02\x02\x02\xDD\xDF\x03\x02\x02\x02\xDE\xDC\x03\x02\x02\x02" +
+        "\xDF\xE3\x05\x12\n\x02\xE0\xE2\x07/\x02\x02\xE1\xE0\x03\x02\x02\x02\xE2" +
+        "\xE5\x03\x02\x02\x02\xE3\xE1\x03\x02\x02\x02\xE3\xE4\x03\x02\x02\x02\xE4" +
+        "\xF3\x03\x02\x02\x02\xE5\xE3\x03\x02\x02\x02\xE6\xF0\x05 \x11\x02\xE7" +
+        "\xE9\x07/\x02\x02\xE8\xE7\x03\x02\x02\x02\xE9\xEC\x03\x02\x02\x02\xEA" +
+        "\xE8\x03\x02\x02\x02\xEA\xEB\x03\x02\x02\x02\xEB\xED\x03\x02\x02\x02\xEC" +
+        "\xEA\x03\x02\x02\x02\xED\xEF\x05 \x11\x02\xEE\xEA\x03\x02\x02\x02\xEF" +
+        "\xF2\x03\x02\x02\x02\xF0\xEE\x03\x02\x02\x02\xF0\xF1\x03\x02\x02\x02\xF1" +
+        "\xF4\x03\x02\x02\x02\xF2\xF0\x03\x02\x02\x02\xF3\xE6\x03\x02\x02\x02\xF3" +
+        "\xF4\x03\x02\x02\x02\xF4\t\x03\x02\x02\x02\xF5\xF6\x07\x06\x02\x02\xF6" +
+        "\xF7\x05*\x16\x02\xF7\xFB\x07\x1B\x02\x02\xF8\xFA\x07/\x02\x02\xF9\xF8" +
+        "\x03\x02\x02\x02\xFA\xFD\x03\x02\x02\x02\xFB\xF9\x03\x02\x02\x02\xFB\xFC" +
+        "\x03\x02\x02\x02\xFC\u0107\x03\x02\x02\x02\xFD\xFB\x03\x02\x02\x02\xFE" +
+        "\u0102\x05\x1E\x10\x02\xFF\u0101\x07/\x02\x02\u0100\xFF\x03\x02\x02\x02" +
+        "\u0101\u0104\x03\x02\x02\x02\u0102\u0100\x03\x02\x02\x02\u0102\u0103\x03" +
+        "\x02\x02\x02\u0103\u0106\x03\x02\x02\x02\u0104\u0102\x03\x02\x02\x02\u0105" +
+        "\xFE\x03\x02\x02\x02\u0106\u0109\x03\x02\x02\x02\u0107\u0105\x03\x02\x02" +
+        "\x02\u0107\u0108\x03\x02\x02\x02\u0108\u0114\x03\x02\x02\x02\u0109\u0107" +
+        "\x03\x02\x02\x02\u010A\u010C\x05\f\x07\x02\u010B\u010A\x03\x02\x02\x02" +
+        "\u010B\u010C\x03\x02\x02\x02\u010C\u0110\x03\x02\x02\x02\u010D\u010F\x05" +
+        "\x10\t\x02\u010E\u010D\x03\x02\x02\x02\u010F\u0112\x03\x02\x02\x02\u0110" +
+        "\u010E\x03\x02\x02\x02\u0110\u0111\x03\x02\x02\x02\u0111\u0113\x03\x02" +
+        "\x02\x02\u0112\u0110\x03\x02\x02\x02\u0113\u0115\x05\x12\n\x02\u0114\u010B" +
+        "\x03\x02\x02\x02\u0115\u0116\x03\x02\x02\x02\u0116\u0114\x03\x02\x02\x02" +
+        "\u0116\u0117\x03\x02\x02\x02\u0117\u0118\x03\x02\x02\x02\u0118\u011C\x05" +
+        "\x0E\b\x02\u0119\u011B\x07/\x02\x02\u011A\u0119\x03\x02\x02\x02\u011B" +
+        "\u011E\x03\x02\x02\x02\u011C\u011A\x03\x02\x02\x02\u011C\u011D\x03\x02" +
+        "\x02\x02\u011D\u012C\x03\x02\x02\x02\u011E\u011C\x03\x02\x02\x02\u011F" +
+        "\u0129\x05 \x11\x02\u0120\u0122\x07/\x02\x02\u0121\u0120\x03\x02\x02\x02" +
+        "\u0122\u0125\x03\x02\x02\x02\u0123\u0121\x03\x02\x02\x02\u0123\u0124\x03" +
+        "\x02\x02\x02\u0124\u0126\x03\x02\x02\x02\u0125\u0123\x03\x02\x02\x02\u0126" +
+        "\u0128\x05 \x11\x02\u0127\u0123\x03\x02\x02\x02\u0128\u012B\x03\x02\x02" +
+        "\x02\u0129\u0127\x03\x02\x02\x02\u0129\u012A\x03\x02\x02\x02\u012A\u012D" +
+        "\x03\x02\x02\x02\u012B\u0129\x03\x02\x02\x02\u012C\u011F\x03\x02\x02\x02" +
+        "\u012C\u012D\x03\x02\x02\x02\u012D\v\x03\x02\x02\x02\u012E\u012F\t\x02" +
+        "\x02\x02\u012F\r\x03\x02\x02\x02\u0130\u0131\t\x02\x02\x02\u0131\x0F\x03" +
+        "\x02\x02\x02\u0132\u0136\x05\x1E\x10\x02\u0133\u0135\x07/\x02\x02\u0134" +
+        "\u0133\x03\x02\x02\x02\u0135\u0138\x03\x02\x02\x02\u0136\u0134\x03\x02" +
+        "\x02\x02\u0136\u0137\x03\x02\x02\x02\u0137\x11\x03\x02\x02\x02\u0138\u0136" +
+        "\x03\x02\x02\x02\u0139\u013C\x05\x14\v\x02\u013A\u013C\x05\x16\f\x02\u013B" +
         "\u0139\x03\x02\x02\x02\u013B\u013A\x03\x02\x02\x02\u013C\u014C\x03\x02" +
         "\x02\x02\u013D\u013F\x07/\x02\x02\u013E\u013D\x03\x02\x02\x02\u013E\u013F" +
         "\x03\x02\x02\x02\u013F\u0143\x03\x02\x02\x02\u0140\u0142\x07\x04\x02\x02" +
@@ -6114,10 +6127,10 @@ let truefalseParser = /** @class */ (() => {
         "\u018F\u0193\x05x=\x02\u0190\u0193\x05\x9AN\x02\u0191\u0193\x05\xAAV\x02" +
         "\u0192\u017B\x03\x02\x02\x02\u0192\u017C\x03\x02\x02\x02\u0192\u017D\x03" +
         "\x02\x02\x02\u0192\u017E\x03\x02\x02\x02\u0192\u017F\x03\x02\x02\x02\u0192" +
-        "\u0180\x03\x02\x02\x02\u0192\u0181\x03\x02";
-    truefalseParser._serializedATNSegment1 = "\x02\x02\u0192\u0182\x03\x02\x02\x02\u0192\u0183\x03\x02\x02\x02\u0192" +
-        "\u0184\x03\x02\x02\x02\u0192\u0185\x03\x02\x02\x02\u0192\u0186\x03\x02" +
-        "\x02\x02\u0192\u0187\x03\x02\x02\x02\u0192\u0188\x03\x02\x02\x02\u0192" +
+        "\u0180\x03\x02\x02\x02\u0192\u0181";
+    truefalseParser._serializedATNSegment1 = "\x03\x02\x02\x02\u0192\u0182\x03\x02\x02\x02\u0192\u0183\x03\x02\x02\x02" +
+        "\u0192\u0184\x03\x02\x02\x02\u0192\u0185\x03\x02\x02\x02\u0192\u0186\x03" +
+        "\x02\x02\x02\u0192\u0187\x03\x02\x02\x02\u0192\u0188\x03\x02\x02\x02\u0192" +
         "\u0189\x03\x02\x02\x02\u0192\u018A\x03\x02\x02\x02\u0192\u018B\x03\x02" +
         "\x02\x02\u0192\u018C\x03\x02\x02\x02\u0192\u018D\x03\x02\x02\x02\u0192" +
         "\u018E\x03\x02\x02\x02\u0192\u018F\x03\x02\x02\x02\u0192\u0190\x03\x02" +
@@ -6428,61 +6441,62 @@ let truefalseParser = /** @class */ (() => {
         "\x02\x03\u042C\u0419\x03\x02\x02\x02\u042C\u0422\x03\x02\x02\x02\u042D" +
         "\x99\x03\x02\x02\x02\u042E\u0430\x07\x10\x02\x02\u042F\u0431\x05\x9EP" +
         "\x02\u0430\u042F\x03\x02\x02\x02\u0430\u0431\x03\x02\x02\x02\u0431\u0432" +
-        "\x03\x02\x02\x02\u0432\u0433\x07\x1B\x02\x02";
-    truefalseParser._serializedATNSegment2 = "\u0433\x9B\x03\x02\x02\x02\u0434\u0436\x05\x9EP\x02\u0435\u0437\x07/\x02" +
-        "\x02\u0436\u0435\x03\x02\x02\x02\u0436\u0437\x03\x02\x02\x02\u0437\u0439" +
-        "\x03\x02\x02\x02\u0438\u0434\x03\x02\x02\x02\u0439\u043A\x03\x02\x02\x02" +
-        "\u043A\u0438\x03\x02\x02\x02\u043A\u043B\x03\x02\x02\x02\u043B\x9D\x03" +
-        "\x02\x02\x02\u043C\u0443\x07.\x02\x02\u043D\u043F\x07\x04\x02\x02\u043E" +
-        "\u043D\x03\x02\x02\x02\u043F\u0440\x03\x02\x02\x02\u0440\u043E\x03\x02" +
-        "\x02\x02\u0440\u0441\x03\x02\x02\x02\u0441\u0442\x03\x02\x02\x02\u0442" +
-        "\u0444\x07-\x02\x02\u0443\u043E\x03\x02\x02\x02\u0443\u0444\x03\x02\x02" +
-        "\x02\u0444\u046B\x03\x02\x02\x02\u0445\u044C\x05\xA8U\x02\u0446\u0448" +
-        "\x07\x04\x02\x02\u0447\u0446\x03\x02\x02\x02\u0448\u0449\x03\x02\x02\x02" +
-        "\u0449\u0447\x03\x02\x02\x02\u0449\u044A\x03\x02\x02\x02\u044A\u044B\x03" +
-        "\x02\x02\x02\u044B\u044D\x07-\x02\x02\u044C\u0447\x03\x02\x02\x02\u044C" +
-        "\u044D\x03\x02\x02\x02\u044D\u046B\x03\x02\x02\x02\u044E\u044F\x07\x17" +
-        "\x02\x02\u044F\u0450\x05\x9EP\x02\u0450\u0451\x07\x1B\x02\x02\u0451\u046B" +
-        "\x03\x02\x02\x02\u0452\u046B\x07-\x02\x02\u0453\u0455\x07\x04\x02\x02" +
-        "\u0454\u0453\x03\x02\x02\x02\u0455\u0458\x03\x02\x02\x02\u0456\u0454\x03" +
-        "\x02\x02\x02\u0456\u0457\x03\x02\x02\x02\u0457\u0459\x03\x02\x02\x02\u0458" +
-        "\u0456\x03\x02\x02\x02\u0459\u045D\x07\x1C\x02\x02\u045A\u045C\x07\x04" +
-        "\x02\x02\u045B\u045A\x03\x02\x02\x02\u045C\u045F\x03\x02\x02\x02\u045D" +
-        "\u045B\x03\x02\x02\x02\u045D\u045E\x03\x02\x02\x02\u045E\u046B\x03\x02" +
-        "\x02\x02\u045F\u045D\x03\x02\x02\x02\u0460\u0464\x07\x1D\x02\x02\u0461" +
-        "\u0463\x07\x04\x02\x02\u0462\u0461\x03\x02\x02\x02\u0463\u0466\x03\x02" +
-        "\x02\x02\u0464\u0462\x03\x02\x02\x02\u0464\u0465\x03\x02\x02\x02\u0465" +
-        "\u046B\x03\x02\x02\x02\u0466\u0464\x03\x02\x02\x02\u0467\u046B\x07\x1E" +
-        "\x02\x02\u0468\u046B\x07#\x02\x02\u0469\u046B\x07\x8A\x02\x02\u046A\u043C" +
-        "\x03\x02\x02\x02\u046A\u0445\x03\x02\x02\x02\u046A\u044E\x03\x02\x02\x02" +
-        "\u046A\u0452\x03\x02\x02\x02\u046A\u0456\x03\x02\x02\x02\u046A\u0460\x03" +
-        "\x02\x02\x02\u046A\u0467\x03\x02\x02\x02\u046A\u0468\x03\x02\x02\x02\u046A" +
-        "\u0469\x03\x02\x02\x02\u046B\x9F\x03\x02\x02\x02\u046C\u046D\x07*\x02" +
-        "\x02\u046D\xA1\x03\x02\x02\x02\u046E\u046F\x07\r\x02\x02\u046F\u0470\x05" +
-        "\x9EP\x02\u0470\u0471\x07\x1B\x02\x02\u0471\xA3\x03\x02\x02\x02\u0472" +
-        "\u0473\x07\x1B\x02\x02\u0473\xA5\x03\x02\x02\x02\u0474\u0475\t\x13\x02" +
-        "\x02\u0475\xA7\x03\x02\x02\x02\u0476\u047F\x070\x02\x02\u0477\u047F\x07" +
-        "\x1D\x02\x02\u0478\u0479\x07!\x02\x02\u0479\u047F\n\x14\x02\x02\u047A" +
-        "\u047B\x07\"\x02\x02\u047B\u047F\n\x15\x02\x02\u047C\u047F\x07%\x02\x02" +
-        "\u047D\u047F\x07$\x02\x02\u047E\u0476\x03\x02\x02\x02\u047E\u0477\x03" +
-        "\x02\x02\x02\u047E\u0478\x03\x02\x02\x02\u047E\u047A\x03\x02\x02\x02\u047E" +
-        "\u047C\x03\x02\x02\x02\u047E\u047D\x03\x02\x02\x02\u047F\u0480\x03\x02" +
-        "\x02\x02\u0480\u047E\x03\x02\x02\x02\u0480\u0481\x03\x02\x02\x02\u0481" +
-        "\xA9\x03\x02\x02\x02\u0482\u0483\x07\x04\x02\x02\u0483\xAB\x03\x02\x02" +
-        "\x02\xA5\xB0\xB6\xBB\xC0\xC9\xD1\xD7\xDC\xE3\xEA\xF0\xF3\xFB\u0102\u0107" +
-        "\u010B\u0110\u0116\u011C\u0123\u0129\u012C\u0136\u013B\u013E\u0143\u0148" +
-        "\u014C\u0151\u0155\u0158\u015D\u015F\u0164\u0169\u016B\u0170\u0175\u0177" +
-        "\u0192\u019C\u019E\u01A5\u01AA\u01B3\u01BC\u01C1\u01C3\u01D1\u01D7\u01DC" +
-        "\u01E0\u01E4\u01E7\u01EC\u0203\u0208\u020A\u0214\u021E\u0228\u022E\u0235" +
-        "\u023B\u0243\u024D\u0258\u025E\u0263\u026A\u0273\u0277\u027B\u027E\u028D" +
-        "\u0291\u02A0\u02A4\u02AA\u02B5\u02BA\u02BF\u02C1\u02C6\u02CB\u02CD\u02D2" +
-        "\u02D8\u02DD\u02DF\u02EA\u02EE\u02FB\u02FF\u0305\u0307\u030E\u0312\u0314" +
-        "\u031A\u031C\u0323\u0328\u032B\u0331\u0334\u0338\u033F\u0344\u034A\u034F" +
-        "\u0357\u0359\u035D\u0364\u0366\u036F\u0371\u0375\u037F\u0381\u0385\u038B" +
-        "\u038D\u0395\u0399\u03A0\u03A5\u03AB\u03B0\u03B8\u03BC\u03BF\u03C5\u03CC" +
-        "\u03CE\u03D5\u03DF\u03EA\u03F8\u03FE\u0408\u040A\u0413\u0417\u041D\u041F" +
-        "\u0426\u0428\u042C\u0430\u0436\u043A\u0440\u0443\u0449\u044C\u0456\u045D" +
-        "\u0464\u046A\u047E\u0480";
+        "\x03\x02\x02\x02\u0432\u0433\x07\x1B";
+    truefalseParser._serializedATNSegment2 = "\x02\x02\u0433\x9B\x03\x02\x02\x02\u0434\u0436\x05\x9EP\x02\u0435\u0437" +
+        "\x07/\x02\x02\u0436\u0435\x03\x02\x02\x02\u0436\u0437\x03\x02\x02\x02" +
+        "\u0437\u0439\x03\x02\x02\x02\u0438\u0434\x03\x02\x02\x02\u0439\u043A\x03" +
+        "\x02\x02\x02\u043A\u0438\x03\x02\x02\x02\u043A\u043B\x03\x02\x02\x02\u043B" +
+        "\x9D\x03\x02\x02\x02\u043C\u0443\x07.\x02\x02\u043D\u043F\x07\x04\x02" +
+        "\x02\u043E\u043D\x03\x02\x02\x02\u043F\u0440\x03\x02\x02\x02\u0440\u043E" +
+        "\x03\x02\x02\x02\u0440\u0441\x03\x02\x02\x02\u0441\u0442\x03\x02\x02\x02" +
+        "\u0442\u0444\x07-\x02\x02\u0443\u043E\x03\x02\x02\x02\u0443\u0444\x03" +
+        "\x02\x02\x02\u0444\u046B\x03\x02\x02\x02\u0445\u044C\x05\xA8U\x02\u0446" +
+        "\u0448\x07\x04\x02\x02\u0447\u0446\x03\x02\x02\x02\u0448\u0449\x03\x02" +
+        "\x02\x02\u0449\u0447\x03\x02\x02\x02\u0449\u044A\x03\x02\x02\x02\u044A" +
+        "\u044B\x03\x02\x02\x02\u044B\u044D\x07-\x02\x02\u044C\u0447\x03\x02\x02" +
+        "\x02\u044C\u044D\x03\x02\x02\x02\u044D\u046B\x03\x02\x02\x02\u044E\u044F" +
+        "\x07\x17\x02\x02\u044F\u0450\x05\x9EP\x02\u0450\u0451\x07\x1B\x02\x02" +
+        "\u0451\u046B\x03\x02\x02\x02\u0452\u046B\x07-\x02\x02\u0453\u0455\x07" +
+        "\x04\x02\x02\u0454\u0453\x03\x02\x02\x02\u0455\u0458\x03\x02\x02\x02\u0456" +
+        "\u0454\x03\x02\x02\x02\u0456\u0457\x03\x02\x02\x02\u0457\u0459\x03\x02" +
+        "\x02\x02\u0458\u0456\x03\x02\x02\x02\u0459\u045D\x07\x1C\x02\x02\u045A" +
+        "\u045C\x07\x04\x02\x02\u045B\u045A\x03\x02\x02\x02\u045C\u045F\x03\x02" +
+        "\x02\x02\u045D\u045B\x03\x02\x02\x02\u045D\u045E\x03\x02\x02\x02\u045E" +
+        "\u046B\x03\x02\x02\x02\u045F\u045D\x03\x02\x02\x02\u0460\u0464\x07\x1D" +
+        "\x02\x02\u0461\u0463\x07\x04\x02\x02\u0462\u0461\x03\x02\x02\x02\u0463" +
+        "\u0466\x03\x02\x02\x02\u0464\u0462\x03\x02\x02\x02\u0464\u0465\x03\x02" +
+        "\x02\x02\u0465\u046B\x03\x02\x02\x02\u0466\u0464\x03\x02\x02\x02\u0467" +
+        "\u046B\x07\x1E\x02\x02\u0468\u046B\x07#\x02\x02\u0469\u046B\x07\x8A\x02" +
+        "\x02\u046A\u043C\x03\x02\x02\x02\u046A\u0445\x03\x02\x02\x02\u046A\u044E" +
+        "\x03\x02\x02\x02\u046A\u0452\x03\x02\x02\x02\u046A\u0456\x03\x02\x02\x02" +
+        "\u046A\u0460\x03\x02\x02\x02\u046A\u0467\x03\x02\x02\x02\u046A\u0468\x03" +
+        "\x02\x02\x02\u046A\u0469\x03\x02\x02\x02\u046B\x9F\x03\x02\x02\x02\u046C" +
+        "\u046D\x07*\x02\x02\u046D\xA1\x03\x02\x02\x02\u046E\u046F\x07\r\x02\x02" +
+        "\u046F\u0470\x05\x9EP\x02\u0470\u0471\x07\x1B\x02\x02\u0471\xA3\x03\x02" +
+        "\x02\x02\u0472\u0473\x07\x1B\x02\x02\u0473\xA5\x03\x02\x02\x02\u0474\u0475" +
+        "\t\x13\x02\x02\u0475\xA7\x03\x02\x02\x02\u0476\u0480\x070\x02\x02\u0477" +
+        "\u0480\x071\x02\x02\u0478\u0480\x07\x1D\x02\x02\u0479\u047A\x07!\x02\x02" +
+        "\u047A\u0480\n\x14\x02\x02\u047B\u047C\x07\"\x02\x02\u047C\u0480\n\x15" +
+        "\x02\x02\u047D\u0480\x07%\x02\x02\u047E\u0480\x07$\x02\x02\u047F\u0476" +
+        "\x03\x02\x02\x02\u047F\u0477\x03\x02\x02\x02\u047F\u0478\x03\x02\x02\x02" +
+        "\u047F\u0479\x03\x02\x02\x02\u047F\u047B\x03\x02\x02\x02\u047F\u047D\x03" +
+        "\x02\x02\x02\u047F\u047E\x03\x02\x02\x02\u0480\u0481\x03\x02\x02\x02\u0481" +
+        "\u047F\x03\x02\x02\x02\u0481\u0482\x03\x02\x02\x02\u0482\xA9\x03\x02\x02" +
+        "\x02\u0483\u0484\x07\x04\x02\x02\u0484\xAB\x03\x02\x02\x02\xA5\xB0\xB6" +
+        "\xBB\xC0\xC9\xD1\xD7\xDC\xE3\xEA\xF0\xF3\xFB\u0102\u0107\u010B\u0110\u0116" +
+        "\u011C\u0123\u0129\u012C\u0136\u013B\u013E\u0143\u0148\u014C\u0151\u0155" +
+        "\u0158\u015D\u015F\u0164\u0169\u016B\u0170\u0175\u0177\u0192\u019C\u019E" +
+        "\u01A5\u01AA\u01B3\u01BC\u01C1\u01C3\u01D1\u01D7\u01DC\u01E0\u01E4\u01E7" +
+        "\u01EC\u0203\u0208\u020A\u0214\u021E\u0228\u022E\u0235\u023B\u0243\u024D" +
+        "\u0258\u025E\u0263\u026A\u0273\u0277\u027B\u027E\u028D\u0291\u02A0\u02A4" +
+        "\u02AA\u02B5\u02BA\u02BF\u02C1\u02C6\u02CB\u02CD\u02D2\u02D8\u02DD\u02DF" +
+        "\u02EA\u02EE\u02FB\u02FF\u0305\u0307\u030E\u0312\u0314\u031A\u031C\u0323" +
+        "\u0328\u032B\u0331\u0334\u0338\u033F\u0344\u034A\u034F\u0357\u0359\u035D" +
+        "\u0364\u0366\u036F\u0371\u0375\u037F\u0381\u0385\u038B\u038D\u0395\u0399" +
+        "\u03A0\u03A5\u03AB\u03B0\u03B8\u03BC\u03BF\u03C5\u03CC\u03CE\u03D5\u03DF" +
+        "\u03EA\u03F8\u03FE\u0408\u040A\u0413\u0417\u041D\u041F\u0426\u0428\u042C" +
+        "\u0430\u0436\u043A\u0440\u0443\u0449\u044C\u0456\u045D\u0464\u046A\u047F" +
+        "\u0481";
     truefalseParser._serializedATN = Utils.join([
         truefalseParser._serializedATNSegment0,
         truefalseParser._serializedATNSegment1,
@@ -9302,6 +9316,14 @@ class WordsContext extends ParserRuleContext_1.ParserRuleContext {
         }
         else {
             return this.getToken(truefalseParser.SENTENCE, i);
+        }
+    }
+    BARSTRING(i) {
+        if (i === undefined) {
+            return this.getTokens(truefalseParser.BARSTRING);
+        }
+        else {
+            return this.getToken(truefalseParser.BARSTRING, i);
         }
     }
     AMP(i) {

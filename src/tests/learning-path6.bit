@@ -6,7 +6,7 @@
 
 First one is the normal reference.
 Second is the optional property called “referenceEnd”
-All these bits support all resources (like &websiteLink, …
+All these bits support all resources (like &website-link, …
 All of these bits (starting with .learning-path support the following optional properties:
 [@date:2015-03-25T12:00:00Z]
 [@location:Zug]
@@ -15,7 +15,7 @@ All of these bits (starting with .learning-path support the following optional p
 [@list:Three]
 [@list:Four]
 [@id:119760]
-||[&websiteLink:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4]||
+||[&website-link:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4]||
 
 
 [.learning-path-external-link]

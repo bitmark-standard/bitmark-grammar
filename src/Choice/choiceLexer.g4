@@ -160,48 +160,48 @@ Https:   	 'https://'  ;
 AmpAudio:	 '&audio' ;
 AmpImage:	 '&image' ;
 AmpImageZoom:    '&image-zoom' ;
-AmpImageWAudio:	 '&imageWithAudio' ;
+AmpImageWAudio:	 '&image-with-audio' ;  // *
 AmpVideo:	 '&video' ;
 AmpArticle:      '&article' ;
 AmpDocument:     '&document' ;
 AmpApp:        	 '&app' ;
 AmpWebsite:      '&website' ;  // NEW added 12/2/2020 usage [.message&website]..
-AmpStillImageFilm:'&stillImageFilm' ;
+AmpStillImageFilm:'&still-image-film' ;  // *
 AmpPdf:	         '&pdf' ;
 
 OpAmpAudio:	 '[&' S* 'audio' ;
 OpAmpImage:	 '[&' S* 'image' ;
 OpAmpImageZoom:  '[&' S* 'image-zoom' ;
-OpAmpImageWAudio:'[&' S* 'ImageWithAudio' ;
+OpAmpImageWAudio:'[&' S* 'Image-with-audio' ;  // *
 OpAmpVideo:	 '[&' S* 'video' ;
 OpAmpArticle:    '[&' S* 'article' ;
 OpAmpArticleAtt: '[&' S* 'article-attachment' ;
 OpAmpDocument:   '[&' S* 'document' ;
 OpAmpApp:        '[&' S* 'app' ;
 OpAmpWebsite:    '[&' S* 'website' ;  // NEW added 12/2/2020 usage [.message&website]..
-OpAmpStillImageFilm: '[&' S* 'stillImageFilm' ;
+OpAmpStillImageFilm: '[&' S* 'still-image-film' ;  // *
 
 BracEnclose:     '[' ([A-Za-z]|ROMANIA)+ ;
 
 // Added links Aug 18 2021
-AmpAudioLink:	 '&audioLink' ;
-AmpImageLink:	 '&imageLink' ;
-AmpVideoLink:	 '&videoLink' ;
-AmpArticleLink:  '&articleLink' ;
-AmpDocumentLink: '&documentLink' ;
-AmpAppLink:	 '&appLink' ;
-AmpWebsiteLink:  '&websiteLink' ;
-AmpStillImageFilmLink:'&stillImageFilmLink' ;
+AmpAudioLink:	 '&audio-link' ; //*
+AmpImageLink:	 '&image-link' ; //*
+AmpVideoLink:	 '&video-link' ; //*
+AmpArticleLink:  '&article-link' ; //*
+AmpDocumentLink: '&document-link' ; //*
+AmpAppLink:	 '&app-link' ;  //*
+AmpWebsiteLink:  '&website-link' ; //*
+AmpStillImageFilmLink:'&still-image-film-link' ;
 
 
-OpAmpAudioLink:	 '[&' S* 'audioLink' ;
-OpAmpImageLink:	 '[&' S* 'imageLink' ;
-OpAmpVideoLink:	 '[&' S* 'videoLink' ;
-OpAmpArticleLink:'[&' S* 'articleLink' ;
-OpAmpDocumentLink:'[&' S* 'documentLink' ;
-OpAmpAppLink:	 '[&' S* 'appLink' ;
-OpAmpWebsiteLink:'[&' S* 'websiteLink' ;
-OpAmpStillImageFilmLink:'[&' S* 'stillImageFilmLink' ;
+OpAmpAudioLink:	 '[&' S* 'audio-link' ; //*
+OpAmpImageLink:	 '[&' S* 'image-link' ; //*
+OpAmpVideoLink:	 '[&' S* 'video-link' ; //*
+OpAmpArticleLink:'[&' S* 'article-link' ; //*
+OpAmpDocumentLink:'[&' S* 'document-link' ; //*
+OpAmpAppLink:	 '[&' S* 'app-link' ; //*
+OpAmpWebsiteLink:'[&' S* 'website-link' ;  //*
+OpAmpStillImageFilmLink:'[&' S* 'still-image-film-link' ;  //*
 
 BitmarkMinus: 	 ':bitmark--' ;
 BitmarkPlus:  	 ':bitmark++' ;

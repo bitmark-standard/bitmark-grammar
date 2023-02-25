@@ -333,16 +333,16 @@ export class matchParser extends Parser {
 		undefined, undefined, undefined, undefined, undefined, undefined, undefined, 
 		undefined, undefined, undefined, undefined, undefined, undefined, undefined, 
 		undefined, "'http://'", "'https://'", "'&audio'", "'&image'", "'&image-zoom'", 
-		"'&imageWithAudio'", "'&video'", "'&article'", "'&document'", "'&app'", 
-		"'&website'", "'&stillImageFilm'", "'&pdf'", undefined, undefined, undefined, 
+		"'&image-with-audio'", "'&video'", "'&article'", "'&document'", "'&app'", 
+		"'&website'", "'&still-image-film'", "'&pdf'", undefined, undefined, undefined, 
 		undefined, undefined, undefined, undefined, undefined, undefined, undefined, 
-		undefined, undefined, "'&audioLink'", "'&imageLink'", "'&videoLink'", 
-		"'&articleLink'", "'&documentLink'", "'&appLink'", "'&websiteLink'", "'&stillImageFilmLink'", 
-		undefined, undefined, undefined, undefined, undefined, undefined, undefined, 
-		undefined, "':bitmark--'", "':bitmark++'", "':text'", "':prosemirror'", 
-		"':placeholder'", "':basic'", "':jpg'", "':png'", "':gif'", "':svg'", 
-		"':mp2'", "':mp3'", "':mp4'", "':flv'", "':wmv'", "':mpeg'", "':mpg'", 
-		"'tel:'", "'.article-attachment'", "'*'",
+		undefined, undefined, "'&audio-link'", "'&image-link'", "'&video-link'", 
+		"'&article-link'", "'&document-link'", "'&app-link'", "'&website-link'", 
+		"'&still-image-film-link'", undefined, undefined, undefined, undefined, 
+		undefined, undefined, undefined, undefined, "':bitmark--'", "':bitmark++'", 
+		"':text'", "':prosemirror'", "':placeholder'", "':basic'", "':jpg'", "':png'", 
+		"':gif'", "':svg'", "':mp2'", "':mp3'", "':mp4'", "':flv'", "':wmv'", 
+		"':mpeg'", "':mpg'", "'tel:'", "'.article-attachment'", "'*'",
 	];
 	private static readonly _SYMBOLIC_NAMES: Array<string | undefined> = [
 		undefined, "OPDOT", "S", "OP", "BitMatch", "BitMatchmatrix", "BitMatchall", 
@@ -600,7 +600,7 @@ export class matchParser extends Parser {
 			this.state = 296;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
-			while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << matchParser.S) | (1 << matchParser.OPDOLL) | (1 << matchParser.OPRANGLES) | (1 << matchParser.OPRANGLEL) | (1 << matchParser.OPDANGLE) | (1 << matchParser.OPU) | (1 << matchParser.OPB) | (1 << matchParser.OPQ) | (1 << matchParser.OPA) | (1 << matchParser.OPS) | (1 << matchParser.OPC) | (1 << matchParser.CL))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (matchParser.COLON - 32)) | (1 << (matchParser.AMP - 32)) | (1 << (matchParser.DBLCOLON - 32)) | (1 << (matchParser.Greater - 32)) | (1 << (matchParser.Less - 32)) | (1 << (matchParser.RightAngle - 32)) | (1 << (matchParser.RightArrow - 32)) | (1 << (matchParser.DCANY - 32)) | (1 << (matchParser.ArticleText - 32)) | (1 << (matchParser.NUMERIC - 32)) | (1 << (matchParser.STRING - 32)) | (1 << (matchParser.SENTENCE - 32)) | (1 << (matchParser.AtReference - 32)) | (1 << (matchParser.AtExampleWithStr - 32)) | (1 << (matchParser.AtExamplecol - 32)))) !== 0) || ((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (matchParser.AtExamplecl - 64)) | (1 << (matchParser.AtLabeltrue - 64)) | (1 << (matchParser.AtLabelfalse - 64)) | (1 << (matchParser.OpAtCopyright - 64)) | (1 << (matchParser.OpAmpAudio - 64)) | (1 << (matchParser.OpAmpImage - 64)))) !== 0) || ((((_la - 96)) & ~0x1F) === 0 && ((1 << (_la - 96)) & ((1 << (matchParser.OpAmpImageZoom - 96)) | (1 << (matchParser.OpAmpImageWAudio - 96)) | (1 << (matchParser.OpAmpVideo - 96)) | (1 << (matchParser.OpAmpArticle - 96)) | (1 << (matchParser.OpAmpDocument - 96)) | (1 << (matchParser.OpAmpApp - 96)) | (1 << (matchParser.OpAmpWebsite - 96)) | (1 << (matchParser.OpAmpStillImageFilm - 96)) | (1 << (matchParser.BracEnclose - 96)) | (1 << (matchParser.OpAmpAudioLink - 96)) | (1 << (matchParser.OpAmpImageLink - 96)) | (1 << (matchParser.OpAmpVideoLink - 96)) | (1 << (matchParser.OpAmpArticleLink - 96)) | (1 << (matchParser.OpAmpDocumentLink - 96)) | (1 << (matchParser.OpAmpAppLink - 96)) | (1 << (matchParser.OpAmpWebsiteLink - 96)) | (1 << (matchParser.OpAmpStillImageFilmLink - 96)))) !== 0) || _la === matchParser.LIST_LINE) {
+			while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << matchParser.S) | (1 << matchParser.OPDOLL) | (1 << matchParser.OPRANGLES) | (1 << matchParser.OPRANGLEL) | (1 << matchParser.OPDANGLE) | (1 << matchParser.OPU) | (1 << matchParser.OPB) | (1 << matchParser.OPQ) | (1 << matchParser.OPA) | (1 << matchParser.OPS) | (1 << matchParser.OPC) | (1 << matchParser.CL))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (matchParser.COLON - 32)) | (1 << (matchParser.AMP - 32)) | (1 << (matchParser.DBLCOLON - 32)) | (1 << (matchParser.Greater - 32)) | (1 << (matchParser.Less - 32)) | (1 << (matchParser.RightAngle - 32)) | (1 << (matchParser.RightArrow - 32)) | (1 << (matchParser.DCANY - 32)) | (1 << (matchParser.ArticleText - 32)) | (1 << (matchParser.NUMERIC - 32)) | (1 << (matchParser.STRING - 32)) | (1 << (matchParser.SENTENCE - 32)) | (1 << (matchParser.BARSTRING - 32)) | (1 << (matchParser.AtReference - 32)) | (1 << (matchParser.AtExampleWithStr - 32)) | (1 << (matchParser.AtExamplecol - 32)))) !== 0) || ((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (matchParser.AtExamplecl - 64)) | (1 << (matchParser.AtLabeltrue - 64)) | (1 << (matchParser.AtLabelfalse - 64)) | (1 << (matchParser.OpAtCopyright - 64)) | (1 << (matchParser.OpAmpAudio - 64)) | (1 << (matchParser.OpAmpImage - 64)))) !== 0) || ((((_la - 96)) & ~0x1F) === 0 && ((1 << (_la - 96)) & ((1 << (matchParser.OpAmpImageZoom - 96)) | (1 << (matchParser.OpAmpImageWAudio - 96)) | (1 << (matchParser.OpAmpVideo - 96)) | (1 << (matchParser.OpAmpArticle - 96)) | (1 << (matchParser.OpAmpDocument - 96)) | (1 << (matchParser.OpAmpApp - 96)) | (1 << (matchParser.OpAmpWebsite - 96)) | (1 << (matchParser.OpAmpStillImageFilm - 96)) | (1 << (matchParser.BracEnclose - 96)) | (1 << (matchParser.OpAmpAudioLink - 96)) | (1 << (matchParser.OpAmpImageLink - 96)) | (1 << (matchParser.OpAmpVideoLink - 96)) | (1 << (matchParser.OpAmpArticleLink - 96)) | (1 << (matchParser.OpAmpDocumentLink - 96)) | (1 << (matchParser.OpAmpAppLink - 96)) | (1 << (matchParser.OpAmpWebsiteLink - 96)) | (1 << (matchParser.OpAmpStillImageFilmLink - 96)))) !== 0) || _la === matchParser.LIST_LINE) {
 				{
 				{
 				this.state = 287;
@@ -747,7 +747,7 @@ export class matchParser extends Parser {
 			this.state = 344;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
-			while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << matchParser.S) | (1 << matchParser.OPDOLL) | (1 << matchParser.OPRANGLES) | (1 << matchParser.OPRANGLEL) | (1 << matchParser.OPDANGLE) | (1 << matchParser.OPU) | (1 << matchParser.OPB) | (1 << matchParser.OPQ) | (1 << matchParser.OPA) | (1 << matchParser.OPS) | (1 << matchParser.OPC) | (1 << matchParser.CL))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (matchParser.COLON - 32)) | (1 << (matchParser.AMP - 32)) | (1 << (matchParser.DBLCOLON - 32)) | (1 << (matchParser.Greater - 32)) | (1 << (matchParser.Less - 32)) | (1 << (matchParser.RightAngle - 32)) | (1 << (matchParser.RightArrow - 32)) | (1 << (matchParser.DCANY - 32)) | (1 << (matchParser.ArticleText - 32)) | (1 << (matchParser.NUMERIC - 32)) | (1 << (matchParser.STRING - 32)) | (1 << (matchParser.SENTENCE - 32)) | (1 << (matchParser.AtReference - 32)) | (1 << (matchParser.AtExampleWithStr - 32)) | (1 << (matchParser.AtExamplecol - 32)))) !== 0) || ((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (matchParser.AtExamplecl - 64)) | (1 << (matchParser.AtLabeltrue - 64)) | (1 << (matchParser.AtLabelfalse - 64)) | (1 << (matchParser.OpAtCopyright - 64)) | (1 << (matchParser.OpAmpAudio - 64)) | (1 << (matchParser.OpAmpImage - 64)))) !== 0) || ((((_la - 96)) & ~0x1F) === 0 && ((1 << (_la - 96)) & ((1 << (matchParser.OpAmpImageZoom - 96)) | (1 << (matchParser.OpAmpImageWAudio - 96)) | (1 << (matchParser.OpAmpVideo - 96)) | (1 << (matchParser.OpAmpArticle - 96)) | (1 << (matchParser.OpAmpDocument - 96)) | (1 << (matchParser.OpAmpApp - 96)) | (1 << (matchParser.OpAmpWebsite - 96)) | (1 << (matchParser.OpAmpStillImageFilm - 96)) | (1 << (matchParser.BracEnclose - 96)) | (1 << (matchParser.OpAmpAudioLink - 96)) | (1 << (matchParser.OpAmpImageLink - 96)) | (1 << (matchParser.OpAmpVideoLink - 96)) | (1 << (matchParser.OpAmpArticleLink - 96)) | (1 << (matchParser.OpAmpDocumentLink - 96)) | (1 << (matchParser.OpAmpAppLink - 96)) | (1 << (matchParser.OpAmpWebsiteLink - 96)) | (1 << (matchParser.OpAmpStillImageFilmLink - 96)))) !== 0) || _la === matchParser.LIST_LINE) {
+			while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << matchParser.S) | (1 << matchParser.OPDOLL) | (1 << matchParser.OPRANGLES) | (1 << matchParser.OPRANGLEL) | (1 << matchParser.OPDANGLE) | (1 << matchParser.OPU) | (1 << matchParser.OPB) | (1 << matchParser.OPQ) | (1 << matchParser.OPA) | (1 << matchParser.OPS) | (1 << matchParser.OPC) | (1 << matchParser.CL))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (matchParser.COLON - 32)) | (1 << (matchParser.AMP - 32)) | (1 << (matchParser.DBLCOLON - 32)) | (1 << (matchParser.Greater - 32)) | (1 << (matchParser.Less - 32)) | (1 << (matchParser.RightAngle - 32)) | (1 << (matchParser.RightArrow - 32)) | (1 << (matchParser.DCANY - 32)) | (1 << (matchParser.ArticleText - 32)) | (1 << (matchParser.NUMERIC - 32)) | (1 << (matchParser.STRING - 32)) | (1 << (matchParser.SENTENCE - 32)) | (1 << (matchParser.BARSTRING - 32)) | (1 << (matchParser.AtReference - 32)) | (1 << (matchParser.AtExampleWithStr - 32)) | (1 << (matchParser.AtExamplecol - 32)))) !== 0) || ((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (matchParser.AtExamplecl - 64)) | (1 << (matchParser.AtLabeltrue - 64)) | (1 << (matchParser.AtLabelfalse - 64)) | (1 << (matchParser.OpAtCopyright - 64)) | (1 << (matchParser.OpAmpAudio - 64)) | (1 << (matchParser.OpAmpImage - 64)))) !== 0) || ((((_la - 96)) & ~0x1F) === 0 && ((1 << (_la - 96)) & ((1 << (matchParser.OpAmpImageZoom - 96)) | (1 << (matchParser.OpAmpImageWAudio - 96)) | (1 << (matchParser.OpAmpVideo - 96)) | (1 << (matchParser.OpAmpArticle - 96)) | (1 << (matchParser.OpAmpDocument - 96)) | (1 << (matchParser.OpAmpApp - 96)) | (1 << (matchParser.OpAmpWebsite - 96)) | (1 << (matchParser.OpAmpStillImageFilm - 96)) | (1 << (matchParser.BracEnclose - 96)) | (1 << (matchParser.OpAmpAudioLink - 96)) | (1 << (matchParser.OpAmpImageLink - 96)) | (1 << (matchParser.OpAmpVideoLink - 96)) | (1 << (matchParser.OpAmpArticleLink - 96)) | (1 << (matchParser.OpAmpDocumentLink - 96)) | (1 << (matchParser.OpAmpAppLink - 96)) | (1 << (matchParser.OpAmpWebsiteLink - 96)) | (1 << (matchParser.OpAmpStillImageFilmLink - 96)))) !== 0) || _la === matchParser.LIST_LINE) {
 				{
 				{
 				this.state = 335;
@@ -894,7 +894,7 @@ export class matchParser extends Parser {
 			this.state = 392;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
-			while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << matchParser.S) | (1 << matchParser.OPDOLL) | (1 << matchParser.OPRANGLES) | (1 << matchParser.OPRANGLEL) | (1 << matchParser.OPDANGLE) | (1 << matchParser.OPU) | (1 << matchParser.OPB) | (1 << matchParser.OPQ) | (1 << matchParser.OPA) | (1 << matchParser.OPS) | (1 << matchParser.OPC) | (1 << matchParser.CL))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (matchParser.COLON - 32)) | (1 << (matchParser.AMP - 32)) | (1 << (matchParser.DBLCOLON - 32)) | (1 << (matchParser.Greater - 32)) | (1 << (matchParser.Less - 32)) | (1 << (matchParser.RightAngle - 32)) | (1 << (matchParser.RightArrow - 32)) | (1 << (matchParser.DCANY - 32)) | (1 << (matchParser.ArticleText - 32)) | (1 << (matchParser.NUMERIC - 32)) | (1 << (matchParser.STRING - 32)) | (1 << (matchParser.SENTENCE - 32)) | (1 << (matchParser.AtReference - 32)) | (1 << (matchParser.AtExampleWithStr - 32)) | (1 << (matchParser.AtExamplecol - 32)))) !== 0) || ((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (matchParser.AtExamplecl - 64)) | (1 << (matchParser.AtLabeltrue - 64)) | (1 << (matchParser.AtLabelfalse - 64)) | (1 << (matchParser.OpAtCopyright - 64)) | (1 << (matchParser.OpAmpAudio - 64)) | (1 << (matchParser.OpAmpImage - 64)))) !== 0) || ((((_la - 96)) & ~0x1F) === 0 && ((1 << (_la - 96)) & ((1 << (matchParser.OpAmpImageZoom - 96)) | (1 << (matchParser.OpAmpImageWAudio - 96)) | (1 << (matchParser.OpAmpVideo - 96)) | (1 << (matchParser.OpAmpArticle - 96)) | (1 << (matchParser.OpAmpDocument - 96)) | (1 << (matchParser.OpAmpApp - 96)) | (1 << (matchParser.OpAmpWebsite - 96)) | (1 << (matchParser.OpAmpStillImageFilm - 96)) | (1 << (matchParser.BracEnclose - 96)) | (1 << (matchParser.OpAmpAudioLink - 96)) | (1 << (matchParser.OpAmpImageLink - 96)) | (1 << (matchParser.OpAmpVideoLink - 96)) | (1 << (matchParser.OpAmpArticleLink - 96)) | (1 << (matchParser.OpAmpDocumentLink - 96)) | (1 << (matchParser.OpAmpAppLink - 96)) | (1 << (matchParser.OpAmpWebsiteLink - 96)) | (1 << (matchParser.OpAmpStillImageFilmLink - 96)))) !== 0) || _la === matchParser.LIST_LINE) {
+			while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << matchParser.S) | (1 << matchParser.OPDOLL) | (1 << matchParser.OPRANGLES) | (1 << matchParser.OPRANGLEL) | (1 << matchParser.OPDANGLE) | (1 << matchParser.OPU) | (1 << matchParser.OPB) | (1 << matchParser.OPQ) | (1 << matchParser.OPA) | (1 << matchParser.OPS) | (1 << matchParser.OPC) | (1 << matchParser.CL))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (matchParser.COLON - 32)) | (1 << (matchParser.AMP - 32)) | (1 << (matchParser.DBLCOLON - 32)) | (1 << (matchParser.Greater - 32)) | (1 << (matchParser.Less - 32)) | (1 << (matchParser.RightAngle - 32)) | (1 << (matchParser.RightArrow - 32)) | (1 << (matchParser.DCANY - 32)) | (1 << (matchParser.ArticleText - 32)) | (1 << (matchParser.NUMERIC - 32)) | (1 << (matchParser.STRING - 32)) | (1 << (matchParser.SENTENCE - 32)) | (1 << (matchParser.BARSTRING - 32)) | (1 << (matchParser.AtReference - 32)) | (1 << (matchParser.AtExampleWithStr - 32)) | (1 << (matchParser.AtExamplecol - 32)))) !== 0) || ((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (matchParser.AtExamplecl - 64)) | (1 << (matchParser.AtLabeltrue - 64)) | (1 << (matchParser.AtLabelfalse - 64)) | (1 << (matchParser.OpAtCopyright - 64)) | (1 << (matchParser.OpAmpAudio - 64)) | (1 << (matchParser.OpAmpImage - 64)))) !== 0) || ((((_la - 96)) & ~0x1F) === 0 && ((1 << (_la - 96)) & ((1 << (matchParser.OpAmpImageZoom - 96)) | (1 << (matchParser.OpAmpImageWAudio - 96)) | (1 << (matchParser.OpAmpVideo - 96)) | (1 << (matchParser.OpAmpArticle - 96)) | (1 << (matchParser.OpAmpDocument - 96)) | (1 << (matchParser.OpAmpApp - 96)) | (1 << (matchParser.OpAmpWebsite - 96)) | (1 << (matchParser.OpAmpStillImageFilm - 96)) | (1 << (matchParser.BracEnclose - 96)) | (1 << (matchParser.OpAmpAudioLink - 96)) | (1 << (matchParser.OpAmpImageLink - 96)) | (1 << (matchParser.OpAmpVideoLink - 96)) | (1 << (matchParser.OpAmpArticleLink - 96)) | (1 << (matchParser.OpAmpDocumentLink - 96)) | (1 << (matchParser.OpAmpAppLink - 96)) | (1 << (matchParser.OpAmpWebsiteLink - 96)) | (1 << (matchParser.OpAmpStillImageFilmLink - 96)))) !== 0) || _la === matchParser.LIST_LINE) {
 				{
 				{
 				this.state = 383;
@@ -1041,7 +1041,7 @@ export class matchParser extends Parser {
 			this.state = 440;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
-			while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << matchParser.S) | (1 << matchParser.OPDOLL) | (1 << matchParser.OPRANGLES) | (1 << matchParser.OPRANGLEL) | (1 << matchParser.OPDANGLE) | (1 << matchParser.OPU) | (1 << matchParser.OPB) | (1 << matchParser.OPQ) | (1 << matchParser.OPA) | (1 << matchParser.OPS) | (1 << matchParser.OPC) | (1 << matchParser.CL))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (matchParser.COLON - 32)) | (1 << (matchParser.AMP - 32)) | (1 << (matchParser.DBLCOLON - 32)) | (1 << (matchParser.Greater - 32)) | (1 << (matchParser.Less - 32)) | (1 << (matchParser.RightAngle - 32)) | (1 << (matchParser.RightArrow - 32)) | (1 << (matchParser.DCANY - 32)) | (1 << (matchParser.ArticleText - 32)) | (1 << (matchParser.NUMERIC - 32)) | (1 << (matchParser.STRING - 32)) | (1 << (matchParser.SENTENCE - 32)) | (1 << (matchParser.AtReference - 32)) | (1 << (matchParser.AtExampleWithStr - 32)) | (1 << (matchParser.AtExamplecol - 32)))) !== 0) || ((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (matchParser.AtExamplecl - 64)) | (1 << (matchParser.AtLabeltrue - 64)) | (1 << (matchParser.AtLabelfalse - 64)) | (1 << (matchParser.OpAtCopyright - 64)) | (1 << (matchParser.OpAmpAudio - 64)) | (1 << (matchParser.OpAmpImage - 64)))) !== 0) || ((((_la - 96)) & ~0x1F) === 0 && ((1 << (_la - 96)) & ((1 << (matchParser.OpAmpImageZoom - 96)) | (1 << (matchParser.OpAmpImageWAudio - 96)) | (1 << (matchParser.OpAmpVideo - 96)) | (1 << (matchParser.OpAmpArticle - 96)) | (1 << (matchParser.OpAmpDocument - 96)) | (1 << (matchParser.OpAmpApp - 96)) | (1 << (matchParser.OpAmpWebsite - 96)) | (1 << (matchParser.OpAmpStillImageFilm - 96)) | (1 << (matchParser.BracEnclose - 96)) | (1 << (matchParser.OpAmpAudioLink - 96)) | (1 << (matchParser.OpAmpImageLink - 96)) | (1 << (matchParser.OpAmpVideoLink - 96)) | (1 << (matchParser.OpAmpArticleLink - 96)) | (1 << (matchParser.OpAmpDocumentLink - 96)) | (1 << (matchParser.OpAmpAppLink - 96)) | (1 << (matchParser.OpAmpWebsiteLink - 96)) | (1 << (matchParser.OpAmpStillImageFilmLink - 96)))) !== 0) || _la === matchParser.LIST_LINE) {
+			while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << matchParser.S) | (1 << matchParser.OPDOLL) | (1 << matchParser.OPRANGLES) | (1 << matchParser.OPRANGLEL) | (1 << matchParser.OPDANGLE) | (1 << matchParser.OPU) | (1 << matchParser.OPB) | (1 << matchParser.OPQ) | (1 << matchParser.OPA) | (1 << matchParser.OPS) | (1 << matchParser.OPC) | (1 << matchParser.CL))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (matchParser.COLON - 32)) | (1 << (matchParser.AMP - 32)) | (1 << (matchParser.DBLCOLON - 32)) | (1 << (matchParser.Greater - 32)) | (1 << (matchParser.Less - 32)) | (1 << (matchParser.RightAngle - 32)) | (1 << (matchParser.RightArrow - 32)) | (1 << (matchParser.DCANY - 32)) | (1 << (matchParser.ArticleText - 32)) | (1 << (matchParser.NUMERIC - 32)) | (1 << (matchParser.STRING - 32)) | (1 << (matchParser.SENTENCE - 32)) | (1 << (matchParser.BARSTRING - 32)) | (1 << (matchParser.AtReference - 32)) | (1 << (matchParser.AtExampleWithStr - 32)) | (1 << (matchParser.AtExamplecol - 32)))) !== 0) || ((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (matchParser.AtExamplecl - 64)) | (1 << (matchParser.AtLabeltrue - 64)) | (1 << (matchParser.AtLabelfalse - 64)) | (1 << (matchParser.OpAtCopyright - 64)) | (1 << (matchParser.OpAmpAudio - 64)) | (1 << (matchParser.OpAmpImage - 64)))) !== 0) || ((((_la - 96)) & ~0x1F) === 0 && ((1 << (_la - 96)) & ((1 << (matchParser.OpAmpImageZoom - 96)) | (1 << (matchParser.OpAmpImageWAudio - 96)) | (1 << (matchParser.OpAmpVideo - 96)) | (1 << (matchParser.OpAmpArticle - 96)) | (1 << (matchParser.OpAmpDocument - 96)) | (1 << (matchParser.OpAmpApp - 96)) | (1 << (matchParser.OpAmpWebsite - 96)) | (1 << (matchParser.OpAmpStillImageFilm - 96)) | (1 << (matchParser.BracEnclose - 96)) | (1 << (matchParser.OpAmpAudioLink - 96)) | (1 << (matchParser.OpAmpImageLink - 96)) | (1 << (matchParser.OpAmpVideoLink - 96)) | (1 << (matchParser.OpAmpArticleLink - 96)) | (1 << (matchParser.OpAmpDocumentLink - 96)) | (1 << (matchParser.OpAmpAppLink - 96)) | (1 << (matchParser.OpAmpWebsiteLink - 96)) | (1 << (matchParser.OpAmpStillImageFilmLink - 96)))) !== 0) || _la === matchParser.LIST_LINE) {
 				{
 				{
 				this.state = 431;
@@ -1188,7 +1188,7 @@ export class matchParser extends Parser {
 			this.state = 488;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
-			while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << matchParser.S) | (1 << matchParser.OPDOLL) | (1 << matchParser.OPRANGLES) | (1 << matchParser.OPRANGLEL) | (1 << matchParser.OPDANGLE) | (1 << matchParser.OPU) | (1 << matchParser.OPB) | (1 << matchParser.OPQ) | (1 << matchParser.OPA) | (1 << matchParser.OPS) | (1 << matchParser.OPC) | (1 << matchParser.CL))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (matchParser.COLON - 32)) | (1 << (matchParser.AMP - 32)) | (1 << (matchParser.DBLCOLON - 32)) | (1 << (matchParser.Greater - 32)) | (1 << (matchParser.Less - 32)) | (1 << (matchParser.RightAngle - 32)) | (1 << (matchParser.RightArrow - 32)) | (1 << (matchParser.DCANY - 32)) | (1 << (matchParser.ArticleText - 32)) | (1 << (matchParser.NUMERIC - 32)) | (1 << (matchParser.STRING - 32)) | (1 << (matchParser.SENTENCE - 32)) | (1 << (matchParser.AtReference - 32)) | (1 << (matchParser.AtExampleWithStr - 32)) | (1 << (matchParser.AtExamplecol - 32)))) !== 0) || ((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (matchParser.AtExamplecl - 64)) | (1 << (matchParser.AtLabeltrue - 64)) | (1 << (matchParser.AtLabelfalse - 64)) | (1 << (matchParser.OpAtCopyright - 64)) | (1 << (matchParser.OpAmpAudio - 64)) | (1 << (matchParser.OpAmpImage - 64)))) !== 0) || ((((_la - 96)) & ~0x1F) === 0 && ((1 << (_la - 96)) & ((1 << (matchParser.OpAmpImageZoom - 96)) | (1 << (matchParser.OpAmpImageWAudio - 96)) | (1 << (matchParser.OpAmpVideo - 96)) | (1 << (matchParser.OpAmpArticle - 96)) | (1 << (matchParser.OpAmpDocument - 96)) | (1 << (matchParser.OpAmpApp - 96)) | (1 << (matchParser.OpAmpWebsite - 96)) | (1 << (matchParser.OpAmpStillImageFilm - 96)) | (1 << (matchParser.BracEnclose - 96)) | (1 << (matchParser.OpAmpAudioLink - 96)) | (1 << (matchParser.OpAmpImageLink - 96)) | (1 << (matchParser.OpAmpVideoLink - 96)) | (1 << (matchParser.OpAmpArticleLink - 96)) | (1 << (matchParser.OpAmpDocumentLink - 96)) | (1 << (matchParser.OpAmpAppLink - 96)) | (1 << (matchParser.OpAmpWebsiteLink - 96)) | (1 << (matchParser.OpAmpStillImageFilmLink - 96)))) !== 0) || _la === matchParser.LIST_LINE) {
+			while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << matchParser.S) | (1 << matchParser.OPDOLL) | (1 << matchParser.OPRANGLES) | (1 << matchParser.OPRANGLEL) | (1 << matchParser.OPDANGLE) | (1 << matchParser.OPU) | (1 << matchParser.OPB) | (1 << matchParser.OPQ) | (1 << matchParser.OPA) | (1 << matchParser.OPS) | (1 << matchParser.OPC) | (1 << matchParser.CL))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (matchParser.COLON - 32)) | (1 << (matchParser.AMP - 32)) | (1 << (matchParser.DBLCOLON - 32)) | (1 << (matchParser.Greater - 32)) | (1 << (matchParser.Less - 32)) | (1 << (matchParser.RightAngle - 32)) | (1 << (matchParser.RightArrow - 32)) | (1 << (matchParser.DCANY - 32)) | (1 << (matchParser.ArticleText - 32)) | (1 << (matchParser.NUMERIC - 32)) | (1 << (matchParser.STRING - 32)) | (1 << (matchParser.SENTENCE - 32)) | (1 << (matchParser.BARSTRING - 32)) | (1 << (matchParser.AtReference - 32)) | (1 << (matchParser.AtExampleWithStr - 32)) | (1 << (matchParser.AtExamplecol - 32)))) !== 0) || ((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (matchParser.AtExamplecl - 64)) | (1 << (matchParser.AtLabeltrue - 64)) | (1 << (matchParser.AtLabelfalse - 64)) | (1 << (matchParser.OpAtCopyright - 64)) | (1 << (matchParser.OpAmpAudio - 64)) | (1 << (matchParser.OpAmpImage - 64)))) !== 0) || ((((_la - 96)) & ~0x1F) === 0 && ((1 << (_la - 96)) & ((1 << (matchParser.OpAmpImageZoom - 96)) | (1 << (matchParser.OpAmpImageWAudio - 96)) | (1 << (matchParser.OpAmpVideo - 96)) | (1 << (matchParser.OpAmpArticle - 96)) | (1 << (matchParser.OpAmpDocument - 96)) | (1 << (matchParser.OpAmpApp - 96)) | (1 << (matchParser.OpAmpWebsite - 96)) | (1 << (matchParser.OpAmpStillImageFilm - 96)) | (1 << (matchParser.BracEnclose - 96)) | (1 << (matchParser.OpAmpAudioLink - 96)) | (1 << (matchParser.OpAmpImageLink - 96)) | (1 << (matchParser.OpAmpVideoLink - 96)) | (1 << (matchParser.OpAmpArticleLink - 96)) | (1 << (matchParser.OpAmpDocumentLink - 96)) | (1 << (matchParser.OpAmpAppLink - 96)) | (1 << (matchParser.OpAmpWebsiteLink - 96)) | (1 << (matchParser.OpAmpStillImageFilmLink - 96)))) !== 0) || _la === matchParser.LIST_LINE) {
 				{
 				{
 				this.state = 479;
@@ -1335,7 +1335,7 @@ export class matchParser extends Parser {
 			this.state = 536;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
-			while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << matchParser.S) | (1 << matchParser.OPDOLL) | (1 << matchParser.OPRANGLES) | (1 << matchParser.OPRANGLEL) | (1 << matchParser.OPDANGLE) | (1 << matchParser.OPU) | (1 << matchParser.OPB) | (1 << matchParser.OPQ) | (1 << matchParser.OPA) | (1 << matchParser.OPS) | (1 << matchParser.OPC) | (1 << matchParser.CL))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (matchParser.COLON - 32)) | (1 << (matchParser.AMP - 32)) | (1 << (matchParser.DBLCOLON - 32)) | (1 << (matchParser.Greater - 32)) | (1 << (matchParser.Less - 32)) | (1 << (matchParser.RightAngle - 32)) | (1 << (matchParser.RightArrow - 32)) | (1 << (matchParser.DCANY - 32)) | (1 << (matchParser.ArticleText - 32)) | (1 << (matchParser.NUMERIC - 32)) | (1 << (matchParser.STRING - 32)) | (1 << (matchParser.SENTENCE - 32)) | (1 << (matchParser.AtReference - 32)) | (1 << (matchParser.AtExampleWithStr - 32)) | (1 << (matchParser.AtExamplecol - 32)))) !== 0) || ((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (matchParser.AtExamplecl - 64)) | (1 << (matchParser.AtLabeltrue - 64)) | (1 << (matchParser.AtLabelfalse - 64)) | (1 << (matchParser.OpAtCopyright - 64)) | (1 << (matchParser.OpAmpAudio - 64)) | (1 << (matchParser.OpAmpImage - 64)))) !== 0) || ((((_la - 96)) & ~0x1F) === 0 && ((1 << (_la - 96)) & ((1 << (matchParser.OpAmpImageZoom - 96)) | (1 << (matchParser.OpAmpImageWAudio - 96)) | (1 << (matchParser.OpAmpVideo - 96)) | (1 << (matchParser.OpAmpArticle - 96)) | (1 << (matchParser.OpAmpDocument - 96)) | (1 << (matchParser.OpAmpApp - 96)) | (1 << (matchParser.OpAmpWebsite - 96)) | (1 << (matchParser.OpAmpStillImageFilm - 96)) | (1 << (matchParser.BracEnclose - 96)) | (1 << (matchParser.OpAmpAudioLink - 96)) | (1 << (matchParser.OpAmpImageLink - 96)) | (1 << (matchParser.OpAmpVideoLink - 96)) | (1 << (matchParser.OpAmpArticleLink - 96)) | (1 << (matchParser.OpAmpDocumentLink - 96)) | (1 << (matchParser.OpAmpAppLink - 96)) | (1 << (matchParser.OpAmpWebsiteLink - 96)) | (1 << (matchParser.OpAmpStillImageFilmLink - 96)))) !== 0) || _la === matchParser.LIST_LINE) {
+			while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << matchParser.S) | (1 << matchParser.OPDOLL) | (1 << matchParser.OPRANGLES) | (1 << matchParser.OPRANGLEL) | (1 << matchParser.OPDANGLE) | (1 << matchParser.OPU) | (1 << matchParser.OPB) | (1 << matchParser.OPQ) | (1 << matchParser.OPA) | (1 << matchParser.OPS) | (1 << matchParser.OPC) | (1 << matchParser.CL))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (matchParser.COLON - 32)) | (1 << (matchParser.AMP - 32)) | (1 << (matchParser.DBLCOLON - 32)) | (1 << (matchParser.Greater - 32)) | (1 << (matchParser.Less - 32)) | (1 << (matchParser.RightAngle - 32)) | (1 << (matchParser.RightArrow - 32)) | (1 << (matchParser.DCANY - 32)) | (1 << (matchParser.ArticleText - 32)) | (1 << (matchParser.NUMERIC - 32)) | (1 << (matchParser.STRING - 32)) | (1 << (matchParser.SENTENCE - 32)) | (1 << (matchParser.BARSTRING - 32)) | (1 << (matchParser.AtReference - 32)) | (1 << (matchParser.AtExampleWithStr - 32)) | (1 << (matchParser.AtExamplecol - 32)))) !== 0) || ((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (matchParser.AtExamplecl - 64)) | (1 << (matchParser.AtLabeltrue - 64)) | (1 << (matchParser.AtLabelfalse - 64)) | (1 << (matchParser.OpAtCopyright - 64)) | (1 << (matchParser.OpAmpAudio - 64)) | (1 << (matchParser.OpAmpImage - 64)))) !== 0) || ((((_la - 96)) & ~0x1F) === 0 && ((1 << (_la - 96)) & ((1 << (matchParser.OpAmpImageZoom - 96)) | (1 << (matchParser.OpAmpImageWAudio - 96)) | (1 << (matchParser.OpAmpVideo - 96)) | (1 << (matchParser.OpAmpArticle - 96)) | (1 << (matchParser.OpAmpDocument - 96)) | (1 << (matchParser.OpAmpApp - 96)) | (1 << (matchParser.OpAmpWebsite - 96)) | (1 << (matchParser.OpAmpStillImageFilm - 96)) | (1 << (matchParser.BracEnclose - 96)) | (1 << (matchParser.OpAmpAudioLink - 96)) | (1 << (matchParser.OpAmpImageLink - 96)) | (1 << (matchParser.OpAmpVideoLink - 96)) | (1 << (matchParser.OpAmpArticleLink - 96)) | (1 << (matchParser.OpAmpDocumentLink - 96)) | (1 << (matchParser.OpAmpAppLink - 96)) | (1 << (matchParser.OpAmpWebsiteLink - 96)) | (1 << (matchParser.OpAmpStillImageFilmLink - 96)))) !== 0) || _la === matchParser.LIST_LINE) {
 				{
 				{
 				this.state = 527;
@@ -1482,7 +1482,7 @@ export class matchParser extends Parser {
 			this.state = 584;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
-			while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << matchParser.S) | (1 << matchParser.OPDOLL) | (1 << matchParser.OPRANGLES) | (1 << matchParser.OPRANGLEL) | (1 << matchParser.OPDANGLE) | (1 << matchParser.OPU) | (1 << matchParser.OPB) | (1 << matchParser.OPQ) | (1 << matchParser.OPA) | (1 << matchParser.OPS) | (1 << matchParser.OPC) | (1 << matchParser.CL))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (matchParser.COLON - 32)) | (1 << (matchParser.AMP - 32)) | (1 << (matchParser.DBLCOLON - 32)) | (1 << (matchParser.Greater - 32)) | (1 << (matchParser.Less - 32)) | (1 << (matchParser.RightAngle - 32)) | (1 << (matchParser.RightArrow - 32)) | (1 << (matchParser.DCANY - 32)) | (1 << (matchParser.ArticleText - 32)) | (1 << (matchParser.NUMERIC - 32)) | (1 << (matchParser.STRING - 32)) | (1 << (matchParser.SENTENCE - 32)) | (1 << (matchParser.AtReference - 32)) | (1 << (matchParser.AtExampleWithStr - 32)) | (1 << (matchParser.AtExamplecol - 32)))) !== 0) || ((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (matchParser.AtExamplecl - 64)) | (1 << (matchParser.AtLabeltrue - 64)) | (1 << (matchParser.AtLabelfalse - 64)) | (1 << (matchParser.OpAtCopyright - 64)) | (1 << (matchParser.OpAmpAudio - 64)) | (1 << (matchParser.OpAmpImage - 64)))) !== 0) || ((((_la - 96)) & ~0x1F) === 0 && ((1 << (_la - 96)) & ((1 << (matchParser.OpAmpImageZoom - 96)) | (1 << (matchParser.OpAmpImageWAudio - 96)) | (1 << (matchParser.OpAmpVideo - 96)) | (1 << (matchParser.OpAmpArticle - 96)) | (1 << (matchParser.OpAmpDocument - 96)) | (1 << (matchParser.OpAmpApp - 96)) | (1 << (matchParser.OpAmpWebsite - 96)) | (1 << (matchParser.OpAmpStillImageFilm - 96)) | (1 << (matchParser.BracEnclose - 96)) | (1 << (matchParser.OpAmpAudioLink - 96)) | (1 << (matchParser.OpAmpImageLink - 96)) | (1 << (matchParser.OpAmpVideoLink - 96)) | (1 << (matchParser.OpAmpArticleLink - 96)) | (1 << (matchParser.OpAmpDocumentLink - 96)) | (1 << (matchParser.OpAmpAppLink - 96)) | (1 << (matchParser.OpAmpWebsiteLink - 96)) | (1 << (matchParser.OpAmpStillImageFilmLink - 96)))) !== 0) || _la === matchParser.LIST_LINE) {
+			while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << matchParser.S) | (1 << matchParser.OPDOLL) | (1 << matchParser.OPRANGLES) | (1 << matchParser.OPRANGLEL) | (1 << matchParser.OPDANGLE) | (1 << matchParser.OPU) | (1 << matchParser.OPB) | (1 << matchParser.OPQ) | (1 << matchParser.OPA) | (1 << matchParser.OPS) | (1 << matchParser.OPC) | (1 << matchParser.CL))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (matchParser.COLON - 32)) | (1 << (matchParser.AMP - 32)) | (1 << (matchParser.DBLCOLON - 32)) | (1 << (matchParser.Greater - 32)) | (1 << (matchParser.Less - 32)) | (1 << (matchParser.RightAngle - 32)) | (1 << (matchParser.RightArrow - 32)) | (1 << (matchParser.DCANY - 32)) | (1 << (matchParser.ArticleText - 32)) | (1 << (matchParser.NUMERIC - 32)) | (1 << (matchParser.STRING - 32)) | (1 << (matchParser.SENTENCE - 32)) | (1 << (matchParser.BARSTRING - 32)) | (1 << (matchParser.AtReference - 32)) | (1 << (matchParser.AtExampleWithStr - 32)) | (1 << (matchParser.AtExamplecol - 32)))) !== 0) || ((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (matchParser.AtExamplecl - 64)) | (1 << (matchParser.AtLabeltrue - 64)) | (1 << (matchParser.AtLabelfalse - 64)) | (1 << (matchParser.OpAtCopyright - 64)) | (1 << (matchParser.OpAmpAudio - 64)) | (1 << (matchParser.OpAmpImage - 64)))) !== 0) || ((((_la - 96)) & ~0x1F) === 0 && ((1 << (_la - 96)) & ((1 << (matchParser.OpAmpImageZoom - 96)) | (1 << (matchParser.OpAmpImageWAudio - 96)) | (1 << (matchParser.OpAmpVideo - 96)) | (1 << (matchParser.OpAmpArticle - 96)) | (1 << (matchParser.OpAmpDocument - 96)) | (1 << (matchParser.OpAmpApp - 96)) | (1 << (matchParser.OpAmpWebsite - 96)) | (1 << (matchParser.OpAmpStillImageFilm - 96)) | (1 << (matchParser.BracEnclose - 96)) | (1 << (matchParser.OpAmpAudioLink - 96)) | (1 << (matchParser.OpAmpImageLink - 96)) | (1 << (matchParser.OpAmpVideoLink - 96)) | (1 << (matchParser.OpAmpArticleLink - 96)) | (1 << (matchParser.OpAmpDocumentLink - 96)) | (1 << (matchParser.OpAmpAppLink - 96)) | (1 << (matchParser.OpAmpWebsiteLink - 96)) | (1 << (matchParser.OpAmpStillImageFilmLink - 96)))) !== 0) || _la === matchParser.LIST_LINE) {
 				{
 				{
 				this.state = 575;
@@ -1629,7 +1629,7 @@ export class matchParser extends Parser {
 			this.state = 632;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
-			while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << matchParser.S) | (1 << matchParser.OPDOLL) | (1 << matchParser.OPRANGLES) | (1 << matchParser.OPRANGLEL) | (1 << matchParser.OPDANGLE) | (1 << matchParser.OPU) | (1 << matchParser.OPB) | (1 << matchParser.OPQ) | (1 << matchParser.OPA) | (1 << matchParser.OPS) | (1 << matchParser.OPC) | (1 << matchParser.CL))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (matchParser.COLON - 32)) | (1 << (matchParser.AMP - 32)) | (1 << (matchParser.DBLCOLON - 32)) | (1 << (matchParser.Greater - 32)) | (1 << (matchParser.Less - 32)) | (1 << (matchParser.RightAngle - 32)) | (1 << (matchParser.RightArrow - 32)) | (1 << (matchParser.DCANY - 32)) | (1 << (matchParser.ArticleText - 32)) | (1 << (matchParser.NUMERIC - 32)) | (1 << (matchParser.STRING - 32)) | (1 << (matchParser.SENTENCE - 32)) | (1 << (matchParser.AtReference - 32)) | (1 << (matchParser.AtExampleWithStr - 32)) | (1 << (matchParser.AtExamplecol - 32)))) !== 0) || ((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (matchParser.AtExamplecl - 64)) | (1 << (matchParser.AtLabeltrue - 64)) | (1 << (matchParser.AtLabelfalse - 64)) | (1 << (matchParser.OpAtCopyright - 64)) | (1 << (matchParser.OpAmpAudio - 64)) | (1 << (matchParser.OpAmpImage - 64)))) !== 0) || ((((_la - 96)) & ~0x1F) === 0 && ((1 << (_la - 96)) & ((1 << (matchParser.OpAmpImageZoom - 96)) | (1 << (matchParser.OpAmpImageWAudio - 96)) | (1 << (matchParser.OpAmpVideo - 96)) | (1 << (matchParser.OpAmpArticle - 96)) | (1 << (matchParser.OpAmpDocument - 96)) | (1 << (matchParser.OpAmpApp - 96)) | (1 << (matchParser.OpAmpWebsite - 96)) | (1 << (matchParser.OpAmpStillImageFilm - 96)) | (1 << (matchParser.BracEnclose - 96)) | (1 << (matchParser.OpAmpAudioLink - 96)) | (1 << (matchParser.OpAmpImageLink - 96)) | (1 << (matchParser.OpAmpVideoLink - 96)) | (1 << (matchParser.OpAmpArticleLink - 96)) | (1 << (matchParser.OpAmpDocumentLink - 96)) | (1 << (matchParser.OpAmpAppLink - 96)) | (1 << (matchParser.OpAmpWebsiteLink - 96)) | (1 << (matchParser.OpAmpStillImageFilmLink - 96)))) !== 0) || _la === matchParser.LIST_LINE) {
+			while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << matchParser.S) | (1 << matchParser.OPDOLL) | (1 << matchParser.OPRANGLES) | (1 << matchParser.OPRANGLEL) | (1 << matchParser.OPDANGLE) | (1 << matchParser.OPU) | (1 << matchParser.OPB) | (1 << matchParser.OPQ) | (1 << matchParser.OPA) | (1 << matchParser.OPS) | (1 << matchParser.OPC) | (1 << matchParser.CL))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (matchParser.COLON - 32)) | (1 << (matchParser.AMP - 32)) | (1 << (matchParser.DBLCOLON - 32)) | (1 << (matchParser.Greater - 32)) | (1 << (matchParser.Less - 32)) | (1 << (matchParser.RightAngle - 32)) | (1 << (matchParser.RightArrow - 32)) | (1 << (matchParser.DCANY - 32)) | (1 << (matchParser.ArticleText - 32)) | (1 << (matchParser.NUMERIC - 32)) | (1 << (matchParser.STRING - 32)) | (1 << (matchParser.SENTENCE - 32)) | (1 << (matchParser.BARSTRING - 32)) | (1 << (matchParser.AtReference - 32)) | (1 << (matchParser.AtExampleWithStr - 32)) | (1 << (matchParser.AtExamplecol - 32)))) !== 0) || ((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (matchParser.AtExamplecl - 64)) | (1 << (matchParser.AtLabeltrue - 64)) | (1 << (matchParser.AtLabelfalse - 64)) | (1 << (matchParser.OpAtCopyright - 64)) | (1 << (matchParser.OpAmpAudio - 64)) | (1 << (matchParser.OpAmpImage - 64)))) !== 0) || ((((_la - 96)) & ~0x1F) === 0 && ((1 << (_la - 96)) & ((1 << (matchParser.OpAmpImageZoom - 96)) | (1 << (matchParser.OpAmpImageWAudio - 96)) | (1 << (matchParser.OpAmpVideo - 96)) | (1 << (matchParser.OpAmpArticle - 96)) | (1 << (matchParser.OpAmpDocument - 96)) | (1 << (matchParser.OpAmpApp - 96)) | (1 << (matchParser.OpAmpWebsite - 96)) | (1 << (matchParser.OpAmpStillImageFilm - 96)) | (1 << (matchParser.BracEnclose - 96)) | (1 << (matchParser.OpAmpAudioLink - 96)) | (1 << (matchParser.OpAmpImageLink - 96)) | (1 << (matchParser.OpAmpVideoLink - 96)) | (1 << (matchParser.OpAmpArticleLink - 96)) | (1 << (matchParser.OpAmpDocumentLink - 96)) | (1 << (matchParser.OpAmpAppLink - 96)) | (1 << (matchParser.OpAmpWebsiteLink - 96)) | (1 << (matchParser.OpAmpStillImageFilmLink - 96)))) !== 0) || _la === matchParser.LIST_LINE) {
 				{
 				{
 				this.state = 623;
@@ -2992,6 +2992,7 @@ export class matchParser extends Parser {
 				case matchParser.STRING:
 				case matchParser.NL:
 				case matchParser.SENTENCE:
+				case matchParser.BARSTRING:
 				case matchParser.LIST_LINE:
 					break;
 				default:
@@ -3253,7 +3254,7 @@ export class matchParser extends Parser {
 				this.state = 969;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-				if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << matchParser.S) | (1 << matchParser.OPS) | (1 << matchParser.CL))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (matchParser.COLON - 32)) | (1 << (matchParser.AMP - 32)) | (1 << (matchParser.DBLCOLON - 32)) | (1 << (matchParser.Greater - 32)) | (1 << (matchParser.Less - 32)) | (1 << (matchParser.RightAngle - 32)) | (1 << (matchParser.RightArrow - 32)) | (1 << (matchParser.NUMERIC - 32)) | (1 << (matchParser.STRING - 32)) | (1 << (matchParser.SENTENCE - 32)))) !== 0) || _la === matchParser.LIST_LINE) {
+				if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << matchParser.S) | (1 << matchParser.OPS) | (1 << matchParser.CL))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (matchParser.COLON - 32)) | (1 << (matchParser.AMP - 32)) | (1 << (matchParser.DBLCOLON - 32)) | (1 << (matchParser.Greater - 32)) | (1 << (matchParser.Less - 32)) | (1 << (matchParser.RightAngle - 32)) | (1 << (matchParser.RightArrow - 32)) | (1 << (matchParser.NUMERIC - 32)) | (1 << (matchParser.STRING - 32)) | (1 << (matchParser.SENTENCE - 32)) | (1 << (matchParser.BARSTRING - 32)))) !== 0) || _la === matchParser.LIST_LINE) {
 					{
 					this.state = 968;
 					this.s_and_w();
@@ -4031,7 +4032,7 @@ export class matchParser extends Parser {
 					this.state = 1137;
 					this._errHandler.sync(this);
 					_la = this._input.LA(1);
-				} while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << matchParser.S) | (1 << matchParser.OPS) | (1 << matchParser.OPC) | (1 << matchParser.CL))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (matchParser.COLON - 32)) | (1 << (matchParser.AMP - 32)) | (1 << (matchParser.DBLCOLON - 32)) | (1 << (matchParser.Greater - 32)) | (1 << (matchParser.Less - 32)) | (1 << (matchParser.RightAngle - 32)) | (1 << (matchParser.RightArrow - 32)) | (1 << (matchParser.NUMERIC - 32)) | (1 << (matchParser.STRING - 32)) | (1 << (matchParser.SENTENCE - 32)))) !== 0) || _la === matchParser.LIST_LINE);
+				} while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << matchParser.S) | (1 << matchParser.OPS) | (1 << matchParser.OPC) | (1 << matchParser.CL))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (matchParser.COLON - 32)) | (1 << (matchParser.AMP - 32)) | (1 << (matchParser.DBLCOLON - 32)) | (1 << (matchParser.Greater - 32)) | (1 << (matchParser.Less - 32)) | (1 << (matchParser.RightAngle - 32)) | (1 << (matchParser.RightArrow - 32)) | (1 << (matchParser.NUMERIC - 32)) | (1 << (matchParser.STRING - 32)) | (1 << (matchParser.SENTENCE - 32)) | (1 << (matchParser.BARSTRING - 32)))) !== 0) || _la === matchParser.LIST_LINE);
 				this.state = 1140;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
@@ -4418,7 +4419,7 @@ export class matchParser extends Parser {
 				this.state = 1216;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-				if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << matchParser.S) | (1 << matchParser.OPS) | (1 << matchParser.CL))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (matchParser.COLON - 32)) | (1 << (matchParser.AMP - 32)) | (1 << (matchParser.DBLCOLON - 32)) | (1 << (matchParser.Greater - 32)) | (1 << (matchParser.Less - 32)) | (1 << (matchParser.RightAngle - 32)) | (1 << (matchParser.RightArrow - 32)) | (1 << (matchParser.NUMERIC - 32)) | (1 << (matchParser.STRING - 32)) | (1 << (matchParser.SENTENCE - 32)))) !== 0) || _la === matchParser.LIST_LINE) {
+				if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << matchParser.S) | (1 << matchParser.OPS) | (1 << matchParser.CL))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (matchParser.COLON - 32)) | (1 << (matchParser.AMP - 32)) | (1 << (matchParser.DBLCOLON - 32)) | (1 << (matchParser.Greater - 32)) | (1 << (matchParser.Less - 32)) | (1 << (matchParser.RightAngle - 32)) | (1 << (matchParser.RightArrow - 32)) | (1 << (matchParser.NUMERIC - 32)) | (1 << (matchParser.STRING - 32)) | (1 << (matchParser.SENTENCE - 32)) | (1 << (matchParser.BARSTRING - 32)))) !== 0) || _la === matchParser.LIST_LINE) {
 					{
 					this.state = 1215;
 					this.s_and_w();
@@ -6674,6 +6675,7 @@ export class matchParser extends Parser {
 						case matchParser.NUMERIC:
 						case matchParser.STRING:
 						case matchParser.SENTENCE:
+						case matchParser.BARSTRING:
 						case matchParser.LIST_LINE:
 							{
 							this.state = 1571;
@@ -6890,7 +6892,7 @@ export class matchParser extends Parser {
 				this.state = 1615;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-				while (((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (matchParser.COLON - 32)) | (1 << (matchParser.AMP - 32)) | (1 << (matchParser.Greater - 32)) | (1 << (matchParser.Less - 32)) | (1 << (matchParser.RightAngle - 32)) | (1 << (matchParser.RightArrow - 32)) | (1 << (matchParser.SENTENCE - 32)))) !== 0)) {
+				while (((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (matchParser.COLON - 32)) | (1 << (matchParser.AMP - 32)) | (1 << (matchParser.Greater - 32)) | (1 << (matchParser.Less - 32)) | (1 << (matchParser.RightAngle - 32)) | (1 << (matchParser.RightArrow - 32)) | (1 << (matchParser.SENTENCE - 32)) | (1 << (matchParser.BARSTRING - 32)))) !== 0)) {
 					{
 					this.state = 1613;
 					this._errHandler.sync(this);
@@ -6907,6 +6909,7 @@ export class matchParser extends Parser {
 					case matchParser.RightAngle:
 					case matchParser.RightArrow:
 					case matchParser.SENTENCE:
+					case matchParser.BARSTRING:
 						{
 						this.state = 1612;
 						this.words();
@@ -6979,7 +6982,7 @@ export class matchParser extends Parser {
 			this.state = 1636;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
-			while (((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (matchParser.COLON - 32)) | (1 << (matchParser.AMP - 32)) | (1 << (matchParser.Greater - 32)) | (1 << (matchParser.Less - 32)) | (1 << (matchParser.RightAngle - 32)) | (1 << (matchParser.RightArrow - 32)) | (1 << (matchParser.SENTENCE - 32)))) !== 0)) {
+			while (((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (matchParser.COLON - 32)) | (1 << (matchParser.AMP - 32)) | (1 << (matchParser.Greater - 32)) | (1 << (matchParser.Less - 32)) | (1 << (matchParser.RightAngle - 32)) | (1 << (matchParser.RightArrow - 32)) | (1 << (matchParser.SENTENCE - 32)) | (1 << (matchParser.BARSTRING - 32)))) !== 0)) {
 				{
 				this.state = 1634;
 				this._errHandler.sync(this);
@@ -6996,6 +6999,7 @@ export class matchParser extends Parser {
 				case matchParser.RightAngle:
 				case matchParser.RightArrow:
 				case matchParser.SENTENCE:
+				case matchParser.BARSTRING:
 					{
 					this.state = 1633;
 					this.words();
@@ -7251,7 +7255,7 @@ export class matchParser extends Parser {
 				this.state = 1697;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-				while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << matchParser.S) | (1 << matchParser.OPS) | (1 << matchParser.CL))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (matchParser.COLON - 32)) | (1 << (matchParser.AMP - 32)) | (1 << (matchParser.DBLCOLON - 32)) | (1 << (matchParser.Greater - 32)) | (1 << (matchParser.Less - 32)) | (1 << (matchParser.RightAngle - 32)) | (1 << (matchParser.RightArrow - 32)) | (1 << (matchParser.NUMERIC - 32)) | (1 << (matchParser.STRING - 32)) | (1 << (matchParser.NL - 32)) | (1 << (matchParser.SENTENCE - 32)))) !== 0) || _la === matchParser.LIST_LINE) {
+				while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << matchParser.S) | (1 << matchParser.OPS) | (1 << matchParser.CL))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (matchParser.COLON - 32)) | (1 << (matchParser.AMP - 32)) | (1 << (matchParser.DBLCOLON - 32)) | (1 << (matchParser.Greater - 32)) | (1 << (matchParser.Less - 32)) | (1 << (matchParser.RightAngle - 32)) | (1 << (matchParser.RightArrow - 32)) | (1 << (matchParser.NUMERIC - 32)) | (1 << (matchParser.STRING - 32)) | (1 << (matchParser.NL - 32)) | (1 << (matchParser.SENTENCE - 32)) | (1 << (matchParser.BARSTRING - 32)))) !== 0) || _la === matchParser.LIST_LINE) {
 					{
 					this.state = 1695;
 					this._errHandler.sync(this);
@@ -7377,7 +7381,7 @@ export class matchParser extends Parser {
 				this.state = 1721;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-				while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << matchParser.S) | (1 << matchParser.OPS) | (1 << matchParser.CL))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (matchParser.COLON - 32)) | (1 << (matchParser.AMP - 32)) | (1 << (matchParser.DBLCOLON - 32)) | (1 << (matchParser.Greater - 32)) | (1 << (matchParser.Less - 32)) | (1 << (matchParser.RightAngle - 32)) | (1 << (matchParser.RightArrow - 32)) | (1 << (matchParser.NUMERIC - 32)) | (1 << (matchParser.STRING - 32)) | (1 << (matchParser.NL - 32)) | (1 << (matchParser.SENTENCE - 32)))) !== 0) || _la === matchParser.URL || _la === matchParser.LIST_LINE) {
+				while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << matchParser.S) | (1 << matchParser.OPS) | (1 << matchParser.CL))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (matchParser.COLON - 32)) | (1 << (matchParser.AMP - 32)) | (1 << (matchParser.DBLCOLON - 32)) | (1 << (matchParser.Greater - 32)) | (1 << (matchParser.Less - 32)) | (1 << (matchParser.RightAngle - 32)) | (1 << (matchParser.RightArrow - 32)) | (1 << (matchParser.NUMERIC - 32)) | (1 << (matchParser.STRING - 32)) | (1 << (matchParser.NL - 32)) | (1 << (matchParser.SENTENCE - 32)) | (1 << (matchParser.BARSTRING - 32)))) !== 0) || _la === matchParser.URL || _la === matchParser.LIST_LINE) {
 					{
 					this.state = 1719;
 					this._errHandler.sync(this);
@@ -7746,7 +7750,7 @@ export class matchParser extends Parser {
 				this.state = 1796;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-				if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << matchParser.S) | (1 << matchParser.OPS) | (1 << matchParser.CL))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (matchParser.COLON - 32)) | (1 << (matchParser.AMP - 32)) | (1 << (matchParser.DBLCOLON - 32)) | (1 << (matchParser.Greater - 32)) | (1 << (matchParser.Less - 32)) | (1 << (matchParser.RightAngle - 32)) | (1 << (matchParser.RightArrow - 32)) | (1 << (matchParser.NUMERIC - 32)) | (1 << (matchParser.STRING - 32)) | (1 << (matchParser.SENTENCE - 32)))) !== 0) || _la === matchParser.LIST_LINE) {
+				if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << matchParser.S) | (1 << matchParser.OPS) | (1 << matchParser.CL))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (matchParser.COLON - 32)) | (1 << (matchParser.AMP - 32)) | (1 << (matchParser.DBLCOLON - 32)) | (1 << (matchParser.Greater - 32)) | (1 << (matchParser.Less - 32)) | (1 << (matchParser.RightAngle - 32)) | (1 << (matchParser.RightArrow - 32)) | (1 << (matchParser.NUMERIC - 32)) | (1 << (matchParser.STRING - 32)) | (1 << (matchParser.SENTENCE - 32)) | (1 << (matchParser.BARSTRING - 32)))) !== 0) || _la === matchParser.LIST_LINE) {
 					{
 					this.state = 1795;
 					this.s_and_w();
@@ -7862,6 +7866,7 @@ export class matchParser extends Parser {
 						case matchParser.NUMERIC:
 						case matchParser.STRING:
 						case matchParser.SENTENCE:
+						case matchParser.BARSTRING:
 						case matchParser.LIST_LINE:
 							{
 							this.state = 1810;
@@ -8314,7 +8319,7 @@ export class matchParser extends Parser {
 				this.state = 1904;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-				while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << matchParser.S) | (1 << matchParser.OPS) | (1 << matchParser.CL))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (matchParser.COLON - 32)) | (1 << (matchParser.AMP - 32)) | (1 << (matchParser.DBLCOLON - 32)) | (1 << (matchParser.Greater - 32)) | (1 << (matchParser.Less - 32)) | (1 << (matchParser.RightAngle - 32)) | (1 << (matchParser.RightArrow - 32)) | (1 << (matchParser.NUMERIC - 32)) | (1 << (matchParser.STRING - 32)) | (1 << (matchParser.NL - 32)) | (1 << (matchParser.SENTENCE - 32)))) !== 0) || _la === matchParser.LIST_LINE) {
+				while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << matchParser.S) | (1 << matchParser.OPS) | (1 << matchParser.CL))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (matchParser.COLON - 32)) | (1 << (matchParser.AMP - 32)) | (1 << (matchParser.DBLCOLON - 32)) | (1 << (matchParser.Greater - 32)) | (1 << (matchParser.Less - 32)) | (1 << (matchParser.RightAngle - 32)) | (1 << (matchParser.RightArrow - 32)) | (1 << (matchParser.NUMERIC - 32)) | (1 << (matchParser.STRING - 32)) | (1 << (matchParser.NL - 32)) | (1 << (matchParser.SENTENCE - 32)) | (1 << (matchParser.BARSTRING - 32)))) !== 0) || _la === matchParser.LIST_LINE) {
 					{
 					this.state = 1902;
 					this._errHandler.sync(this);
@@ -9099,14 +9104,14 @@ export class matchParser extends Parser {
 			let _alt: number;
 			this.enterOuterAlt(_localctx, 1);
 			{
-			this.state = 2021;
+			this.state = 2022;
 			this._errHandler.sync(this);
 			_alt = 1;
 			do {
 				switch (_alt) {
 				case 1:
 					{
-					this.state = 2021;
+					this.state = 2022;
 					this._errHandler.sync(this);
 					switch (this._input.LA(1)) {
 					case matchParser.SENTENCE:
@@ -9115,17 +9120,23 @@ export class matchParser extends Parser {
 						this.match(matchParser.SENTENCE);
 						}
 						break;
-					case matchParser.AMP:
+					case matchParser.BARSTRING:
 						{
 						this.state = 2014;
+						this.match(matchParser.BARSTRING);
+						}
+						break;
+					case matchParser.AMP:
+						{
+						this.state = 2015;
 						this.match(matchParser.AMP);
 						}
 						break;
 					case matchParser.Greater:
 						{
-						this.state = 2015;
-						this.match(matchParser.Greater);
 						this.state = 2016;
+						this.match(matchParser.Greater);
+						this.state = 2017;
 						_la = this._input.LA(1);
 						if (_la <= 0 || (_la === matchParser.Greater)) {
 						this._errHandler.recoverInline(this);
@@ -9141,9 +9152,9 @@ export class matchParser extends Parser {
 						break;
 					case matchParser.Less:
 						{
-						this.state = 2017;
-						this.match(matchParser.Less);
 						this.state = 2018;
+						this.match(matchParser.Less);
+						this.state = 2019;
 						_la = this._input.LA(1);
 						if (_la <= 0 || (_la === matchParser.Less)) {
 						this._errHandler.recoverInline(this);
@@ -9159,13 +9170,13 @@ export class matchParser extends Parser {
 						break;
 					case matchParser.RightArrow:
 						{
-						this.state = 2019;
+						this.state = 2020;
 						this.match(matchParser.RightArrow);
 						}
 						break;
 					case matchParser.RightAngle:
 						{
-						this.state = 2020;
+						this.state = 2021;
 						this.match(matchParser.RightAngle);
 						}
 						break;
@@ -9177,7 +9188,7 @@ export class matchParser extends Parser {
 				default:
 					throw new NoViableAltException(this);
 				}
-				this.state = 2023;
+				this.state = 2024;
 				this._errHandler.sync(this);
 				_alt = this.interpreter.adaptivePredict(this._input, 286, this._ctx);
 			} while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER);
@@ -9204,7 +9215,7 @@ export class matchParser extends Parser {
 		try {
 			this.enterOuterAlt(_localctx, 1);
 			{
-			this.state = 2025;
+			this.state = 2026;
 			this.match(matchParser.S);
 			}
 		}
@@ -9225,7 +9236,7 @@ export class matchParser extends Parser {
 
 	private static readonly _serializedATNSegments: number = 4;
 	private static readonly _serializedATNSegment0: string =
-		"\x03\uC91D\uCABA\u058D\uAFBA\u4F53\u0607\uEA8B\uC241\x03\x92\u07EE\x04" +
+		"\x03\uC91D\uCABA\u058D\uAFBA\u4F53\u0607\uEA8B\uC241\x03\x92\u07EF\x04" +
 		"\x02\t\x02\x04\x03\t\x03\x04\x04\t\x04\x04\x05\t\x05\x04\x06\t\x06\x04" +
 		"\x07\t\x07\x04\b\t\b\x04\t\t\t\x04\n\t\n\x04\v\t\v\x04\f\t\f\x04\r\t\r" +
 		"\x04\x0E\t\x0E\x04\x0F\t\x0F\x04\x10\t\x10\x04\x11\t\x11\x04\x12\t\x12" +
@@ -9412,24 +9423,24 @@ export class matchParser extends Parser {
 		"\nn\fn\x0En\u07B7\vn\x03n\x03n\x07n\u07BB\nn\fn\x0En\u07BE\vn\x03n\x03" +
 		"n\x03n\x03n\x05n\u07C4\nn\x03o\x03o\x03p\x03p\x03q\x03q\x03r\x03r\x03" +
 		"s\x03s\x03t\x03t\x03u\x03u\x03v\x03v\x03w\x03w\x03x\x03x\x03y\x03y\x03" +
-		"z\x03z\x03{\x03{\x03|\x03|\x03|\x03|\x03|\x03|\x03|\x03|\x06|\u07E8\n" +
-		"|\r|\x0E|\u07E9\x03}\x03}\x03}\x07\u04E7\u05D7\u05EA\u0634\u075D\x02\x02" +
-		"~\x02\x02\x04\x02\x06\x02\b\x02\n\x02\f\x02\x0E\x02\x10\x02\x12\x02\x14" +
-		"\x02\x16\x02\x18\x02\x1A\x02\x1C\x02\x1E\x02 \x02\"\x02$\x02&\x02(\x02" +
-		"*\x02,\x02.\x020\x022\x024\x026\x028\x02:\x02<\x02>\x02@\x02B\x02D\x02" +
-		"F\x02H\x02J\x02L\x02N\x02P\x02R\x02T\x02V\x02X\x02Z\x02\\\x02^\x02`\x02" +
-		"b\x02d\x02f\x02h\x02j\x02l\x02n\x02p\x02r\x02t\x02v\x02x\x02z\x02|\x02" +
-		"~\x02\x80\x02\x82\x02\x84\x02\x86\x02\x88\x02\x8A\x02\x8C\x02\x8E\x02" +
-		"\x90\x02\x92\x02\x94\x02\x96\x02\x98\x02\x9A\x02\x9C\x02\x9E\x02\xA0\x02" +
-		"\xA2\x02\xA4\x02\xA6\x02\xA8\x02\xAA\x02\xAC\x02\xAE\x02\xB0\x02\xB2\x02" +
-		"\xB4\x02\xB6\x02\xB8\x02\xBA\x02\xBC\x02\xBE\x02\xC0\x02\xC2\x02\xC4\x02" +
-		"\xC6\x02\xC8\x02\xCA\x02\xCC\x02\xCE\x02\xD0\x02\xD2\x02\xD4\x02\xD6\x02" +
-		"\xD8\x02\xDA\x02\xDC\x02\xDE\x02\xE0\x02\xE2\x02\xE4\x02\xE6\x02\xE8\x02" +
-		"\xEA\x02\xEC\x02\xEE\x02\xF0\x02\xF2\x02\xF4\x02\xF6\x02\xF8\x02\x02\x16" +
-		"\x04\x02..55\x07\x02Z[]^ls|}\x7F\x80\x04\x02YYnn\x04\x02ZZoo\x04\x02[" +
-		"[pp\x04\x02\\\\qq\x04\x02]]rr\x04\x02^^ss\x04\x02eeww\x04\x02ggxx\x04" +
+		"z\x03z\x03{\x03{\x03|\x03|\x03|\x03|\x03|\x03|\x03|\x03|\x03|\x06|\u07E9" +
+		"\n|\r|\x0E|\u07EA\x03}\x03}\x03}\x07\u04E7\u05D7\u05EA\u0634\u075D\x02" +
+		"\x02~\x02\x02\x04\x02\x06\x02\b\x02\n\x02\f\x02\x0E\x02\x10\x02\x12\x02" +
+		"\x14\x02\x16\x02\x18\x02\x1A\x02\x1C\x02\x1E\x02 \x02\"\x02$\x02&\x02" +
+		"(\x02*\x02,\x02.\x020\x022\x024\x026\x028\x02:\x02<\x02>\x02@\x02B\x02" +
+		"D\x02F\x02H\x02J\x02L\x02N\x02P\x02R\x02T\x02V\x02X\x02Z\x02\\\x02^\x02" +
+		"`\x02b\x02d\x02f\x02h\x02j\x02l\x02n\x02p\x02r\x02t\x02v\x02x\x02z\x02" +
+		"|\x02~\x02\x80\x02\x82\x02\x84\x02\x86\x02\x88\x02\x8A\x02\x8C\x02\x8E" +
+		"\x02\x90\x02\x92\x02\x94\x02\x96\x02\x98\x02\x9A\x02\x9C\x02\x9E\x02\xA0" +
+		"\x02\xA2\x02\xA4\x02\xA6\x02\xA8\x02\xAA\x02\xAC\x02\xAE\x02\xB0\x02\xB2" +
+		"\x02\xB4\x02\xB6\x02\xB8\x02\xBA\x02\xBC\x02\xBE\x02\xC0\x02\xC2\x02\xC4" +
+		"\x02\xC6\x02\xC8\x02\xCA\x02\xCC\x02\xCE\x02\xD0\x02\xD2\x02\xD4\x02\xD6" +
+		"\x02\xD8\x02\xDA\x02\xDC\x02\xDE\x02\xE0\x02\xE2\x02\xE4\x02\xE6\x02\xE8" +
+		"\x02\xEA\x02\xEC\x02\xEE\x02\xF0\x02\xF2\x02\xF4\x02\xF6\x02\xF8\x02\x02" +
+		"\x16\x04\x02..55\x07\x02Z[]^ls|}\x7F\x80\x04\x02YYnn\x04\x02ZZoo\x04\x02" +
+		"[[pp\x04\x02\\\\qq\x04\x02]]rr\x04\x02^^ss\x04\x02eeww\x04\x02ggxx\x04" +
 		"\x02hhyy\x04\x02iizz\x04\x02jj{{\x03\x02;<\x04\x02IILO\x03\x02!!\x04\x02" +
-		"\"\"$$\x03\x02$$\x03\x02\'\'\x03\x02((\x02\u08FC\x02\u0107\x03\x02\x02" +
+		"\"\"$$\x03\x02$$\x03\x02\'\'\x03\x02((\x02\u08FE\x02\u0107\x03\x02\x02" +
 		"\x02\x04\u010D\x03\x02\x02\x02\x06\u0117\x03\x02\x02\x02\b\u0119\x03\x02" +
 		"\x02\x02\n\u0149\x03\x02\x02\x02\f\u0179\x03\x02\x02\x02\x0E\u01A9\x03" +
 		"\x02\x02\x02\x10\u01D9\x03\x02\x02\x02\x12\u0209\x03\x02\x02\x02\x14\u0239" +
@@ -9437,48 +9448,48 @@ export class matchParser extends Parser {
 		"\u02B4\x03\x02\x02\x02\x1C\u02BF\x03\x02\x02\x02\x1E\u02CD\x03\x02\x02" +
 		"\x02 \u02D9\x03\x02\x02\x02\"\u02DB\x03\x02\x02\x02$\u02DD\x03\x02\x02" +
 		"\x02&\u02DF\x03\x02\x02\x02(\u02F0\x03\x02\x02\x02*\u0305\x03\x02\x02" +
-		"\x02,\u030E\x03\x02\x02\x02.\u0317\x03\x02\x02\x02";
+		"\x02,\u030E\x03\x02\x02\x02.\u0317\x03\x02";
 	private static readonly _serializedATNSegment1: string =
-		"0\u0320\x03\x02\x02\x022\u0371\x03\x02\x02\x024\u037B\x03\x02\x02\x02" +
-		"6\u03A5\x03\x02\x02\x028\u03A7\x03\x02\x02\x02:\u03A9\x03\x02\x02\x02" +
-		"<\u03F2\x03\x02\x02\x02>\u03F4\x03\x02\x02\x02@\u03FB\x03\x02\x02\x02" +
-		"B\u040E\x03\x02\x02\x02D\u0415\x03\x02\x02\x02F\u0428\x03\x02\x02\x02" +
-		"H\u042F\x03\x02\x02\x02J\u0446\x03\x02\x02\x02L\u045C\x03\x02\x02\x02" +
-		"N\u0460\x03\x02\x02\x02P\u047F\x03\x02\x02\x02R\u0481\x03\x02\x02\x02" +
-		"T\u04D4\x03\x02\x02\x02V\u04D6\x03\x02\x02\x02X\u04ED\x03\x02\x02\x02" +
-		"Z\u04EF\x03\x02\x02\x02\\\u04F9\x03\x02\x02\x02^\u04FF\x03\x02\x02\x02" +
-		"`\u0506\x03\x02\x02\x02b\u0510\x03\x02\x02\x02d\u051B\x03\x02\x02\x02" +
-		"f\u0521\x03\x02\x02\x02h\u0531\x03\x02\x02\x02j\u0533\x03\x02\x02\x02" +
-		"l\u0538\x03\x02\x02\x02n\u053A\x03\x02\x02\x02p\u053C\x03\x02\x02\x02" +
-		"r\u053E\x03\x02\x02\x02t\u0540\x03\x02\x02\x02v\u0542\x03\x02\x02\x02" +
-		"x\u0544\x03\x02\x02\x02z\u0546\x03\x02\x02\x02|\u0548\x03\x02\x02\x02" +
-		"~\u0554\x03\x02\x02\x02\x80\u0556\x03\x02\x02\x02\x82\u055E\x03\x02\x02" +
-		"\x02\x84\u0560\x03\x02\x02\x02\x86\u056A\x03\x02\x02\x02\x88\u0574\x03" +
-		"\x02\x02\x02\x8A\u0581\x03\x02\x02\x02\x8C\u0588\x03\x02\x02\x02\x8E\u0593" +
-		"\x03\x02\x02\x02\x90\u059A\x03\x02\x02\x02\x92\u05A4\x03\x02\x02\x02\x94" +
-		"\u05AF\x03\x02\x02\x02\x96\u05C8\x03\x02\x02\x02\x98\u05DB\x03\x02\x02" +
-		"\x02\x9A\u05EE\x03\x02\x02\x02\x9C\u05F0\x03\x02\x02\x02\x9E\u05F7\x03" +
-		"\x02\x02\x02\xA0\u060B\x03\x02\x02\x02\xA2\u0617\x03\x02\x02\x02\xA4\u0638" +
-		"\x03\x02\x02\x02\xA6\u063A\x03\x02\x02\x02\xA8\u063E\x03\x02\x02\x02\xAA" +
-		"\u065E\x03\x02\x02\x02\xAC\u0660\x03\x02\x02\x02\xAE\u0675\x03\x02\x02" +
-		"\x02\xB0\u067E\x03\x02\x02\x02\xB2\u06A7\x03\x02\x02\x02\xB4\u06BF\x03" +
-		"\x02\x02\x02\xB6\u06C1\x03\x02\x02\x02\xB8\u06C5\x03\x02\x02\x02\xBA\u06D1" +
-		"\x03\x02\x02\x02\xBC\u0709\x03\x02\x02\x02\xBE\u070B\x03\x02\x02\x02\xC0" +
-		"\u071F\x03\x02\x02\x02\xC2\u0729\x03\x02\x02\x02\xC4\u0734\x03\x02\x02" +
-		"\x02\xC6\u0736\x03\x02\x02\x02\xC8\u073A\x03\x02\x02\x02\xCA\u073E\x03" +
-		"\x02\x02\x02\xCC\u0761\x03\x02\x02\x02\xCE\u0776\x03\x02\x02\x02\xD0\u0778" +
-		"\x03\x02\x02\x02\xD2\u077E\x03\x02\x02\x02\xD4\u0780\x03\x02\x02\x02\xD6" +
-		"\u078E\x03\x02\x02\x02\xD8\u0792\x03\x02\x02\x02\xDA\u07C3\x03\x02\x02" +
-		"\x02\xDC\u07C5\x03\x02\x02\x02\xDE\u07C7\x03\x02\x02\x02\xE0\u07C9\x03" +
-		"\x02\x02\x02\xE2\u07CB\x03\x02\x02\x02\xE4\u07CD\x03\x02\x02\x02\xE6\u07CF" +
-		"\x03\x02\x02\x02\xE8\u07D1\x03\x02\x02\x02\xEA\u07D3\x03\x02\x02\x02\xEC" +
-		"\u07D5\x03\x02\x02\x02\xEE\u07D7\x03\x02\x02\x02\xF0\u07D9\x03\x02\x02" +
-		"\x02\xF2\u07DB\x03\x02\x02\x02\xF4\u07DD\x03\x02\x02\x02\xF6\u07E7\x03" +
-		"\x02\x02\x02\xF8\u07EB\x03\x02\x02\x02\xFA\u0104\x05\x04\x03\x02\xFB\xFD" +
-		"\x07\x04\x02\x02\xFC\xFB\x03\x02\x02\x02\xFD\u0100\x03\x02\x02\x02\xFE" +
-		"\xFC\x03\x02\x02\x02\xFE\xFF\x03\x02\x02\x02\xFF\u0101\x03\x02\x02\x02" +
-		"\u0100\xFE\x03\x02\x02\x02\u0101\u0103\x075\x02\x02\u0102\xFE\x03\x02" +
-		"\x02\x02\u0103\u0106\x03\x02\x02\x02\u0104\u0102\x03\x02\x02\x02\u0104" +
+		"\x02\x020\u0320\x03\x02\x02\x022\u0371\x03\x02\x02\x024\u037B\x03\x02" +
+		"\x02\x026\u03A5\x03\x02\x02\x028\u03A7\x03\x02\x02\x02:\u03A9\x03\x02" +
+		"\x02\x02<\u03F2\x03\x02\x02\x02>\u03F4\x03\x02\x02\x02@\u03FB\x03\x02" +
+		"\x02\x02B\u040E\x03\x02\x02\x02D\u0415\x03\x02\x02\x02F\u0428\x03\x02" +
+		"\x02\x02H\u042F\x03\x02\x02\x02J\u0446\x03\x02\x02\x02L\u045C\x03\x02" +
+		"\x02\x02N\u0460\x03\x02\x02\x02P\u047F\x03\x02\x02\x02R\u0481\x03\x02" +
+		"\x02\x02T\u04D4\x03\x02\x02\x02V\u04D6\x03\x02\x02\x02X\u04ED\x03\x02" +
+		"\x02\x02Z\u04EF\x03\x02\x02\x02\\\u04F9\x03\x02\x02\x02^\u04FF\x03\x02" +
+		"\x02\x02`\u0506\x03\x02\x02\x02b\u0510\x03\x02\x02\x02d\u051B\x03\x02" +
+		"\x02\x02f\u0521\x03\x02\x02\x02h\u0531\x03\x02\x02\x02j\u0533\x03\x02" +
+		"\x02\x02l\u0538\x03\x02\x02\x02n\u053A\x03\x02\x02\x02p\u053C\x03\x02" +
+		"\x02\x02r\u053E\x03\x02\x02\x02t\u0540\x03\x02\x02\x02v\u0542\x03\x02" +
+		"\x02\x02x\u0544\x03\x02\x02\x02z\u0546\x03\x02\x02\x02|\u0548\x03\x02" +
+		"\x02\x02~\u0554\x03\x02\x02\x02\x80\u0556\x03\x02\x02\x02\x82\u055E\x03" +
+		"\x02\x02\x02\x84\u0560\x03\x02\x02\x02\x86\u056A\x03\x02\x02\x02\x88\u0574" +
+		"\x03\x02\x02\x02\x8A\u0581\x03\x02\x02\x02\x8C\u0588\x03\x02\x02\x02\x8E" +
+		"\u0593\x03\x02\x02\x02\x90\u059A\x03\x02\x02\x02\x92\u05A4\x03\x02\x02" +
+		"\x02\x94\u05AF\x03\x02\x02\x02\x96\u05C8\x03\x02\x02\x02\x98\u05DB\x03" +
+		"\x02\x02\x02\x9A\u05EE\x03\x02\x02\x02\x9C\u05F0\x03\x02\x02\x02\x9E\u05F7" +
+		"\x03\x02\x02\x02\xA0\u060B\x03\x02\x02\x02\xA2\u0617\x03\x02\x02\x02\xA4" +
+		"\u0638\x03\x02\x02\x02\xA6\u063A\x03\x02\x02\x02\xA8\u063E\x03\x02\x02" +
+		"\x02\xAA\u065E\x03\x02\x02\x02\xAC\u0660\x03\x02\x02\x02\xAE\u0675\x03" +
+		"\x02\x02\x02\xB0\u067E\x03\x02\x02\x02\xB2\u06A7\x03\x02\x02\x02\xB4\u06BF" +
+		"\x03\x02\x02\x02\xB6\u06C1\x03\x02\x02\x02\xB8\u06C5\x03\x02\x02\x02\xBA" +
+		"\u06D1\x03\x02\x02\x02\xBC\u0709\x03\x02\x02\x02\xBE\u070B\x03\x02\x02" +
+		"\x02\xC0\u071F\x03\x02\x02\x02\xC2\u0729\x03\x02\x02\x02\xC4\u0734\x03" +
+		"\x02\x02\x02\xC6\u0736\x03\x02\x02\x02\xC8\u073A\x03\x02\x02\x02\xCA\u073E" +
+		"\x03\x02\x02\x02\xCC\u0761\x03\x02\x02\x02\xCE\u0776\x03\x02\x02\x02\xD0" +
+		"\u0778\x03\x02\x02\x02\xD2\u077E\x03\x02\x02\x02\xD4\u0780\x03\x02\x02" +
+		"\x02\xD6\u078E\x03\x02\x02\x02\xD8\u0792\x03\x02\x02\x02\xDA\u07C3\x03" +
+		"\x02\x02\x02\xDC\u07C5\x03\x02\x02\x02\xDE\u07C7\x03\x02\x02\x02\xE0\u07C9" +
+		"\x03\x02\x02\x02\xE2\u07CB\x03\x02\x02\x02\xE4\u07CD\x03\x02\x02\x02\xE6" +
+		"\u07CF\x03\x02\x02\x02\xE8\u07D1\x03\x02\x02\x02\xEA\u07D3\x03\x02\x02" +
+		"\x02\xEC\u07D5\x03\x02\x02\x02\xEE\u07D7\x03\x02\x02\x02\xF0\u07D9\x03" +
+		"\x02\x02\x02\xF2\u07DB\x03\x02\x02\x02\xF4\u07DD\x03\x02\x02\x02\xF6\u07E8" +
+		"\x03\x02\x02\x02\xF8\u07EC\x03\x02\x02\x02\xFA\u0104\x05\x04\x03\x02\xFB" +
+		"\xFD\x07\x04\x02\x02\xFC\xFB\x03\x02\x02\x02\xFD\u0100\x03\x02\x02\x02" +
+		"\xFE\xFC\x03\x02\x02\x02\xFE\xFF\x03\x02\x02\x02\xFF\u0101\x03\x02\x02" +
+		"\x02\u0100\xFE\x03\x02\x02\x02\u0101\u0103\x075\x02\x02\u0102\xFE\x03" +
+		"\x02\x02\x02\u0103\u0106\x03\x02\x02\x02\u0104\u0102\x03\x02\x02\x02\u0104" +
 		"\u0105\x03\x02\x02\x02\u0105\u0108\x03\x02\x02\x02\u0106\u0104\x03\x02" +
 		"\x02\x02\u0107\xFA\x03\x02\x02\x02\u0108\u0109\x03\x02\x02\x02\u0109\u0107" +
 		"\x03\x02\x02\x02\u0109\u010A\x03\x02\x02\x02\u010A\u010B\x03\x02\x02\x02" +
@@ -9752,19 +9763,19 @@ export class matchParser extends Parser {
 		"\x02\x02\x02\u0352\u0354\x075\x02\x02\u0353\u0352\x03\x02\x02\x02\u0354" +
 		"\u0357\x03\x02\x02\x02\u0355\u0353\x03\x02\x02\x02\u0355\u0356\x03\x02" +
 		"\x02\x02\u0356\u0358\x03\x02\x02\x02\u0357\u0355\x03\x02\x02\x02\u0358" +
-		"\u035C\x07,\x02\x02\u0359\u035B\x075\x02\x02\u035A\u0359";
+		"\u035C\x07,\x02\x02\u0359\u035B\x075\x02\x02";
 	private static readonly _serializedATNSegment2: string =
-		"\x03\x02\x02\x02\u035B\u035E\x03\x02\x02\x02\u035C\u035A\x03\x02\x02\x02" +
-		"\u035C\u035D\x03\x02\x02\x02\u035D\u035F\x03\x02\x02\x02\u035E\u035C\x03" +
-		"\x02\x02\x02\u035F\u0360\x075\x02\x02\u0360\u0361\x07,\x02\x02\u0361\u0362" +
-		"\x075\x02\x02\u0362\u0363\x03\x02\x02\x02\u0363\u0367\x05:\x1E\x02\u0364" +
-		"\u0366\x075\x02\x02\u0365\u0364\x03\x02\x02\x02\u0366\u0369\x03\x02\x02" +
-		"\x02\u0367\u0365\x03\x02\x02\x02\u0367\u0368\x03\x02\x02\x02\u0368\u036A" +
-		"\x03\x02\x02\x02\u0369\u0367\x03\x02\x02\x02\u036A\u036E\x07-\x02\x02" +
-		"\u036B\u036D\x075\x02\x02\u036C\u036B\x03\x02\x02\x02\u036D\u0370\x03" +
-		"\x02\x02\x02\u036E\u036C\x03\x02\x02\x02\u036E\u036F\x03\x02\x02\x02\u036F" +
-		"\u0372\x03\x02\x02\x02\u0370\u036E\x03\x02\x02\x02\u0371\u0327\x03\x02" +
-		"\x02\x02\u0371\u0342\x03\x02\x02\x02\u0371\u0355\x03\x02\x02\x02\u0372" +
+		"\u035A\u0359\x03\x02\x02\x02\u035B\u035E\x03\x02\x02\x02\u035C\u035A\x03" +
+		"\x02\x02\x02\u035C\u035D\x03\x02\x02\x02\u035D\u035F\x03\x02\x02\x02\u035E" +
+		"\u035C\x03\x02\x02\x02\u035F\u0360\x075\x02\x02\u0360\u0361\x07,\x02\x02" +
+		"\u0361\u0362\x075\x02\x02\u0362\u0363\x03\x02\x02\x02\u0363\u0367\x05" +
+		":\x1E\x02\u0364\u0366\x075\x02\x02\u0365\u0364\x03\x02\x02\x02\u0366\u0369" +
+		"\x03\x02\x02\x02\u0367\u0365\x03\x02\x02\x02\u0367\u0368\x03\x02\x02\x02" +
+		"\u0368\u036A\x03\x02\x02\x02\u0369\u0367\x03\x02\x02\x02\u036A\u036E\x07" +
+		"-\x02\x02\u036B\u036D\x075\x02\x02\u036C\u036B\x03\x02\x02\x02\u036D\u0370" +
+		"\x03\x02\x02\x02\u036E\u036C\x03\x02\x02\x02\u036E\u036F\x03\x02\x02\x02" +
+		"\u036F\u0372\x03\x02\x02\x02\u0370\u036E\x03\x02\x02\x02\u0371\u0327\x03" +
+		"\x02\x02\x02\u0371\u0342\x03\x02\x02\x02\u0371\u0355\x03\x02\x02\x02\u0372" +
 		"3\x03\x02\x02\x02\u0373\u0377\x056\x1C\x02\u0374\u0376\x056\x1C\x02\u0375" +
 		"\u0374\x03\x02\x02\x02\u0376\u0379\x03\x02\x02\x02\u0377\u0375\x03\x02" +
 		"\x02\x02\u0377\u0378\x03\x02\x02\x02\u0378\u037C\x03\x02\x02\x02\u0379" +
@@ -10067,12 +10078,12 @@ export class matchParser extends Parser {
 		"\x02\x02\u05F3\u05F6\x03\x02\x02\x02\u05F4\u05F2\x03\x02\x02\x02\u05F4" +
 		"\u05F5\x03\x02\x02\x02\u05F5\x9D\x03\x02\x02\x02\u05F6\u05F4\x03\x02\x02" +
 		"\x02\u05F7\u05F8\x05\xA2R\x02\u05F8\u05F9\x07\"\x02\x02\u05F9\u05FA\x05" +
-		"\xA8U\x02\u05FA\u05FF\x07!";
+		"\xA8U\x02\u05FA\u05FF";
 	private static readonly _serializedATNSegment3: string =
-		"\x02\x02\u05FB\u05FC\x07I\x02\x02\u05FC\u05FD\x05\xF6|\x02\u05FD\u05FE" +
-		"\x07!\x02\x02\u05FE\u0600\x03\x02\x02\x02\u05FF\u05FB\x03\x02\x02\x02" +
-		"\u05FF\u0600\x03\x02\x02\x02\u0600\x9F\x03\x02\x02\x02\u0601\u0604\x07" +
-		"U\x02\x02\u0602\u0603\x07\"\x02\x02\u0603\u0605\x07\x10\x02\x02\u0604" +
+		"\x07!\x02\x02\u05FB\u05FC\x07I\x02\x02\u05FC\u05FD\x05\xF6|\x02\u05FD" +
+		"\u05FE\x07!\x02\x02\u05FE\u0600\x03\x02\x02\x02\u05FF\u05FB\x03\x02\x02" +
+		"\x02\u05FF\u0600\x03\x02\x02\x02\u0600\x9F\x03\x02\x02\x02\u0601\u0604" +
+		"\x07U\x02\x02\u0602\u0603\x07\"\x02\x02\u0603\u0605\x07\x10\x02\x02\u0604" +
 		"\u0602\x03\x02\x02\x02\u0604\u0605\x03\x02\x02\x02\u0605\u060C\x03\x02" +
 		"\x02\x02\u0606\u0609\x07l\x02\x02\u0607\u0608\x07\"\x02\x02\u0608\u060A" +
 		"\x07\x10\x02\x02\u0609\u0607\x03\x02\x02\x02\u0609\u060A\x03\x02\x02\x02" +
@@ -10293,38 +10304,39 @@ export class matchParser extends Parser {
 		"\x02\x02\u07D7\u07D8\x07\x1E\x02\x02\u07D8\xEF\x03\x02\x02\x02\u07D9\u07DA" +
 		"\x07\x1F\x02\x02\u07DA\xF1\x03\x02\x02\x02\u07DB\u07DC\x07!\x02\x02\u07DC" +
 		"\xF3\x03\x02\x02\x02\u07DD\u07DE\x07.\x02\x02\u07DE\xF5\x03\x02\x02\x02" +
-		"\u07DF\u07E8\x076\x02\x02\u07E0\u07E8\x07#\x02\x02\u07E1\u07E2\x07\'\x02" +
-		"\x02\u07E2\u07E8\n\x14\x02\x02\u07E3\u07E4\x07(\x02\x02\u07E4\u07E8\n" +
-		"\x15\x02\x02\u07E5\u07E8\x07+\x02\x02\u07E6\u07E8\x07*\x02\x02\u07E7\u07DF" +
-		"\x03\x02\x02\x02\u07E7\u07E0\x03\x02\x02\x02\u07E7\u07E1\x03\x02\x02\x02" +
-		"\u07E7\u07E3\x03\x02\x02\x02\u07E7\u07E5\x03\x02\x02\x02\u07E7\u07E6\x03" +
-		"\x02\x02\x02\u07E8\u07E9\x03\x02\x02\x02\u07E9\u07E7\x03\x02\x02\x02\u07E9" +
-		"\u07EA\x03\x02\x02\x02\u07EA\xF7\x03\x02\x02\x02\u07EB\u07EC\x07\x04\x02" +
-		"\x02\u07EC\xF9\x03\x02\x02\x02\u0121\xFE\u0104\u0109\u0117\u011F\u0125" +
-		"\u012A\u0131\u0137\u013E\u0144\u0147\u014F\u0155\u015A\u0161\u0167\u016E" +
-		"\u0174\u0177\u017F\u0185\u018A\u0191\u0197\u019E\u01A4\u01A7\u01AF\u01B5" +
-		"\u01BA\u01C1\u01C7\u01CE\u01D4\u01D7\u01DF\u01E5\u01EA\u01F1\u01F7\u01FE" +
-		"\u0204\u0207\u020F\u0215\u021A\u0221\u0227\u022E\u0234\u0237\u023F\u0245" +
-		"\u024A\u0251\u0257\u025E\u0264\u0267\u026F\u0275\u027A\u0281\u0287\u028E" +
-		"\u0294\u0297\u02B2\u02BA\u02BC\u02C3\u02C8\u02CF\u02D3\u02D5\u02E3\u02EA" +
-		"\u02F4\u02FB\u0301\u0309\u0312\u031B\u0325\u0332\u0338\u033F\u0348\u034F" +
-		"\u0355\u035C\u0367\u036E\u0371\u0377\u037B\u0380\u0386\u038C\u038E\u0393" +
-		"\u0397\u039C\u03A1\u03A5\u03AD\u03B0\u03B3\u03BB\u03BD\u03C2\u03C6\u03CB" +
-		"\u03CF\u03D4\u03D6\u03DE\u03E5\u03E7\u03EB\u03F0\u03F2\u03F9\u0404\u040B" +
-		"\u0413\u041E\u0425\u042D\u0437\u043C\u0443\u044E\u0459\u045E\u0465\u046B" +
-		"\u0471\u0473\u0476\u047B\u047F\u0484\u048A\u048E\u0492\u0495\u049D\u049F" +
-		"\u04A4\u04A8\u04AB\u04B2\u04B4\u04B8\u04BD\u04C2\u04C6\u04CB\u04CD\u04D4" +
-		"\u04DA\u04E1\u04E7\u04EB\u04F7\u04FD\u0506\u050B\u050D\u051B\u0521\u0526" +
-		"\u052A\u052E\u0531\u0536\u054D\u0552\u0554\u055E\u0568\u0572\u0578\u057F" +
-		"\u0585\u058D\u0597\u05A2\u05A8\u05AD\u05B4\u05BD\u05C1\u05C5\u05C8\u05D7" +
-		"\u05DB\u05EA\u05EE\u05F4\u05FF\u0604\u0609\u060B\u0610\u0615\u0617\u061C" +
-		"\u0622\u0627\u0629\u0634\u0638\u0645\u0649\u064F\u0651\u0658\u065C\u065E" +
-		"\u0664\u0666\u066D\u0672\u0675\u067B\u067E\u0682\u0689\u068E\u0694\u0699" +
-		"\u06A1\u06A3\u06A7\u06AE\u06B0\u06B9\u06BB\u06BF\u06C9\u06CB\u06CF\u06D5" +
-		"\u06D7\u06DF\u06E3\u06EA\u06EF\u06F5\u06FA\u0702\u0706\u0709\u070F\u0716" +
-		"\u0718\u071F\u0729\u0734\u0742\u0748\u0752\u0754\u075D\u0761\u0767\u0769" +
-		"\u0770\u0772\u0776\u077A\u0786\u078C\u0790\u0798\u079B\u07A1\u07A4\u07AE" +
-		"\u07B5\u07BC\u07C3\u07E7\u07E9";
+		"\u07DF\u07E9\x076\x02\x02\u07E0\u07E9\x077\x02\x02\u07E1\u07E9\x07#\x02" +
+		"\x02\u07E2\u07E3\x07\'\x02\x02\u07E3\u07E9\n\x14\x02\x02\u07E4\u07E5\x07" +
+		"(\x02\x02\u07E5\u07E9\n\x15\x02\x02\u07E6\u07E9\x07+\x02\x02\u07E7\u07E9" +
+		"\x07*\x02\x02\u07E8\u07DF\x03\x02\x02\x02\u07E8\u07E0\x03\x02\x02\x02" +
+		"\u07E8\u07E1\x03\x02\x02\x02\u07E8\u07E2\x03\x02\x02\x02\u07E8\u07E4\x03" +
+		"\x02\x02\x02\u07E8\u07E6\x03\x02\x02\x02\u07E8\u07E7\x03\x02\x02\x02\u07E9" +
+		"\u07EA\x03\x02\x02\x02\u07EA\u07E8\x03\x02\x02\x02\u07EA\u07EB\x03\x02" +
+		"\x02\x02\u07EB\xF7\x03\x02\x02\x02\u07EC\u07ED\x07\x04\x02\x02\u07ED\xF9" +
+		"\x03\x02\x02\x02\u0121\xFE\u0104\u0109\u0117\u011F\u0125\u012A\u0131\u0137" +
+		"\u013E\u0144\u0147\u014F\u0155\u015A\u0161\u0167\u016E\u0174\u0177\u017F" +
+		"\u0185\u018A\u0191\u0197\u019E\u01A4\u01A7\u01AF\u01B5\u01BA\u01C1\u01C7" +
+		"\u01CE\u01D4\u01D7\u01DF\u01E5\u01EA\u01F1\u01F7\u01FE\u0204\u0207\u020F" +
+		"\u0215\u021A\u0221\u0227\u022E\u0234\u0237\u023F\u0245\u024A\u0251\u0257" +
+		"\u025E\u0264\u0267\u026F\u0275\u027A\u0281\u0287\u028E\u0294\u0297\u02B2" +
+		"\u02BA\u02BC\u02C3\u02C8\u02CF\u02D3\u02D5\u02E3\u02EA\u02F4\u02FB\u0301" +
+		"\u0309\u0312\u031B\u0325\u0332\u0338\u033F\u0348\u034F\u0355\u035C\u0367" +
+		"\u036E\u0371\u0377\u037B\u0380\u0386\u038C\u038E\u0393\u0397\u039C\u03A1" +
+		"\u03A5\u03AD\u03B0\u03B3\u03BB\u03BD\u03C2\u03C6\u03CB\u03CF\u03D4\u03D6" +
+		"\u03DE\u03E5\u03E7\u03EB\u03F0\u03F2\u03F9\u0404\u040B\u0413\u041E\u0425" +
+		"\u042D\u0437\u043C\u0443\u044E\u0459\u045E\u0465\u046B\u0471\u0473\u0476" +
+		"\u047B\u047F\u0484\u048A\u048E\u0492\u0495\u049D\u049F\u04A4\u04A8\u04AB" +
+		"\u04B2\u04B4\u04B8\u04BD\u04C2\u04C6\u04CB\u04CD\u04D4\u04DA\u04E1\u04E7" +
+		"\u04EB\u04F7\u04FD\u0506\u050B\u050D\u051B\u0521\u0526\u052A\u052E\u0531" +
+		"\u0536\u054D\u0552\u0554\u055E\u0568\u0572\u0578\u057F\u0585\u058D\u0597" +
+		"\u05A2\u05A8\u05AD\u05B4\u05BD\u05C1\u05C5\u05C8\u05D7\u05DB\u05EA\u05EE" +
+		"\u05F4\u05FF\u0604\u0609\u060B\u0610\u0615\u0617\u061C\u0622\u0627\u0629" +
+		"\u0634\u0638\u0645\u0649\u064F\u0651\u0658\u065C\u065E\u0664\u0666\u066D" +
+		"\u0672\u0675\u067B\u067E\u0682\u0689\u068E\u0694\u0699\u06A1\u06A3\u06A7" +
+		"\u06AE\u06B0\u06B9\u06BB\u06BF\u06C9\u06CB\u06CF\u06D5\u06D7\u06DF\u06E3" +
+		"\u06EA\u06EF\u06F5\u06FA\u0702\u0706\u0709\u070F\u0716\u0718\u071F\u0729" +
+		"\u0734\u0742\u0748\u0752\u0754\u075D\u0761\u0767\u0769\u0770\u0772\u0776" +
+		"\u077A\u0786\u078C\u0790\u0798\u079B\u07A1\u07A4\u07AE\u07B5\u07BC\u07C3" +
+		"\u07E8\u07EA";
 	public static readonly _serializedATN: string = Utils.join(
 		[
 			matchParser._serializedATNSegment0,
@@ -15022,6 +15034,15 @@ export class WordsContext extends ParserRuleContext {
 			return this.getTokens(matchParser.SENTENCE);
 		} else {
 			return this.getToken(matchParser.SENTENCE, i);
+		}
+	}
+	public BARSTRING(): TerminalNode[];
+	public BARSTRING(i: number): TerminalNode;
+	public BARSTRING(i?: number): TerminalNode | TerminalNode[] {
+		if (i === undefined) {
+			return this.getTokens(matchParser.BARSTRING);
+		} else {
+			return this.getToken(matchParser.BARSTRING, i);
 		}
 	}
 	public AMP(): TerminalNode[];

@@ -127,7 +127,7 @@ bracket_escaped:
 clnsp:		CL ;  // without spaces
 sspl:		SSPL|SSPL2 ;
 
-words:          ( SENTENCE | LIST_LINE
+words:          ( SENTENCE | BARSTRING| LIST_LINE
 		| AMP | Greater ~(Greater) | Less ~(Less) 
 		| RightArrow | RightAngle 
 		| AmpArticle | AmpDocument | AmpDocumentLink | AmpWebsite
