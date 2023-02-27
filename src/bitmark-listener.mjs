@@ -2601,6 +2601,24 @@ BitmarkListener.prototype.enterChapter_subject_matter = function(ctx) { this.pus
 BitmarkListener.prototype.enterRelease_note = function(ctx) { this.push_tmpl(ctx, 'release-note'); }
 BitmarkListener.prototype.enterConclusion = function(ctx) { this.push_tmpl(ctx, 'conclusion'); }
 
+BitmarkListener.prototype.enterVendor_amcharts_5_chart = function(ctx) {
+  this.push_tmpl(ctx, 'vendor-amcharts-5-chart');
+  this.stk.top().bit.format = 'json';
+  let json = this.but.extract_json(this.stk.top().bit.body);
+  
+  try {
+    // Unescaepe []. See escape_json_for_json_bits(text) in index.js.
+    let json_repl = json.replace(/&#91;/g, '[');
+    json_repl = json_repl.replace(/&#93;/g, ']');
+    // Parse to validate.
+    JSON.parse(json_repl);
+  }
+  catch (err) {
+    // invalid json. Add error.
+    this.error_listener.manualError(ctx, ctx._start.line-1, 0, 'JSON error: invalid JSON text');
+  }
+};
+
 BitmarkListener.prototype.exitAnchor = function(ctx) {
   let code = this.but.getcode(ctx);
   let re=/\[▼(([^\]]|[\s])*)\]/s;  // accepts newline

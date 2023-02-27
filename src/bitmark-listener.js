@@ -2596,12 +2596,29 @@ BitmarkListener.prototype.enterQuestion1= function(ctx) { this.push_tmpl(ctx, 'q
 BitmarkListener.prototype.enterScreenshot = function(ctx) { this.push_tmpl(ctx, 'screenshot'); }
 BitmarkListener.prototype.enterFocus_image = function(ctx) { this.push_tmpl(ctx, 'focus-image'); }
 BitmarkListener.prototype.enterPhoto = function(ctx) { this.push_tmpl(ctx, 'photo'); }
-BitmarkListener.prototype.enterBrowser_image = function(ctx) { this.push_tmpl(ctx, 'browser-image'); }
+BitmarkListener.prototype.enterBrowser_image = function(ctx) { this.push_tmpl(ctx, 'browser-image'); };
 
-BitmarkListener.prototype.enterChapter_subject_matter = function(ctx) { this.push_tmpl(ctx, 'chapter-subject-matter'); }
-BitmarkListener.prototype.enterRelease_note = function(ctx) { this.push_tmpl(ctx, 'release-note'); }
-BitmarkListener.prototype.enterConclusion = function(ctx) { this.push_tmpl(ctx, 'conclusion'); }
+BitmarkListener.prototype.enterChapter_subject_matter = function(ctx) { this.push_tmpl(ctx, 'chapter-subject-matter'); };
+BitmarkListener.prototype.enterRelease_note = function(ctx) { this.push_tmpl(ctx, 'release-note'); };
+BitmarkListener.prototype.enterConclusion = function(ctx) { this.push_tmpl(ctx, 'conclusion'); };
 
+BitmarkListener.prototype.enterVendor_amcharts_5_chart = function(ctx) {
+  this.push_tmpl(ctx, 'vendor-amcharts-5-chart');
+  this.stk.top().bit.format = 'json';
+  let json = this.but.extract_json(this.stk.top().bit.body);
+  
+  try {
+    // Unescaepe []. See escape_json_for_json_bits(text) in index.js.
+    let json_repl = json.replace(/&#91;/g, '[');
+    json_repl = json_repl.replace(/&#93;/g, ']');
+    // Parse to validate.
+    JSON.parse(json_repl);
+  }
+  catch (err) {
+    // invalid json. Add error.
+    this.error_listener.manualError(ctx, ctx._start.line-1, 0, 'JSON error: invalid JSON text');
+  }
+};
 
 BitmarkListener.prototype.exitAnchor = function(ctx) {
   let code = this.but.getcode(ctx);

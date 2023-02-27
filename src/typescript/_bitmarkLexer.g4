@@ -158,6 +158,7 @@ BitChapterSubjectMatter:	NL OPDOT S* 'chapter-subject-matter' ;
 BitReleaseNote:			NL OPDOT S* 'release-note' ;
 BitConclusion:			NL OPDOT S* 'conclusion' ;
 
+BitVendorAmcharts5Chart:	NL OPDOT S* 'vendor-amcharts-5-chart' ;
 
 
 //

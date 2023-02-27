@@ -1,59 +1,17 @@
-[.still-image-film]
-Die Texte und Aufgaben in diesem __fakultativen Teil B__ stellen ein Angebot für Lerner und Lerngruppen dar, die ihre sprachlichen Fähigkeiten zusätzlich erweitern möchten.
-[&still-image-film:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gesch_ft_kommerz_und_handel_958.wmv]
-
-[.image-link]
-Die Texte und Aufgaben in diesem __fakultativen Teil B__ stellen ein Angebot für Lerner und Lerngruppen dar, die ihre sprachlichen Fähigkeiten zusätzlich erweitern möchten.
-[&image:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gesch_ft_kommerz_und_handel_958.png]
-
-[.image-zoom]
-Die Texte und Aufgaben in diesem __fakultativen Teil B__ stellen ein Angebot für Lerner und Lerngruppen dar, die ihre sprachlichen Fähigkeiten zusätzlich erweitern möchten.
-[&image:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gesch_ft_kommerz_und_handel_958.png]
+[.vendor-amcharts-5-chart]
+[!this is a json bit]
 
 
-[.release-note]
-[%A7b][%Lernen in Deutschland]
-[!Lesen Sie den Text und beantworten Sie dazu die Fragen.]
-**Schulpflicht in Deutschland**
-Ab drei Jahren haben Kinder das Recht auf einen Kindergartenplatz. Der Kindergarten ist freiwillig. Mit sechs/sieben Jahren gilt die allgemeine Schulpflicht und das Kind besucht die erste Klasse.
-
-[@kind:update]
-[@releaseDate:Jan.1,2023]
-
-
-
-[.interview:bitmark++]
-[%A7b][%Lernen in Deutschland]
-[!Lesen Sie den Text und beantworten Sie dazu die Fragen.]
-**Schulpflicht in Deutschland**
-Ab drei Jahren haben Kinder das Recht auf einen Kindergartenplatz. Der Kindergarten ist freiwillig. Mit sechs/sieben Jahren gilt die allgemeine Schulpflicht und das Kind besucht die erste Klasse.
-Die Schulpflicht beträgt im Allgemeinen neun Jahre, in vier Bundesländern zehn Jahre. Ab der fünften Klasse (etwa ab dem zehnten Lebensjahr) besucht das Kind/der Jugendliche eine weiterführende Schule. Das kann zum Beispiel eine Hauptschule (Schulabschluss nach neun Jahren), eine Realschule (Schulabschluss nach zehn Jahren) oder ein Gymnasium (Schulabschluss nach 12 oder 13 Jahren) sein. Eine gymnasiale Ausbildung wird außer am Gymnasium auch an der Gesamtschule angeboten.
-• Kinder, die __(zwei Jahre)__ alt sind, gehen in __(die Kinderkrippe).__
-• Wenn Kinder __(drei Jahre)__ alt sind, besuchen sie __(den Kindergarten).__
-• Mit __(sechs/sieben Jahren)__ beginnt die Schulzeit/die Schule.
-• Ab dem __(zehnten)__ Lebensjahr geht man auf __(das Gymnasium/die Realschule/die Hauptschule).__
-• __(Das Gymnasium/Die Realschule/Die Hauptschule)__ schließt man mit ... ab.
-• Nach __(dem Gymnasium/der Realschule/der Hauptschule)__ kann man __(an einer Universität)__ studieren/einen Beruf erlernen
-|image:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/k1/schubert_b2_images-011-033.png|
-
-===
-Welche staatlichen und privaten Einrichtungen gibt es in Ihrem Heimatland für Kinder bis zum sechsten Lebensjahr?[@shortAnswer]
-===
-Welche Schulabschlüsse gibt es in Ihrem Heimatland und wie lange dauert die allgemeine Schulpflicht?[@shortAnswer]
-===
-Gibt es in Ihrem Heimatland staatliche Schulen und/oder Privatschulen?[@shortAnswer]
-===
-Tragen die Schüler eine Schuluniform?[@shortAnswer]
-===
-
-
-[.conclusion]
-[%A7b][%Lernen in Deutschland]
-[!Lesen Sie den Text und beantworten Sie dazu die Fragen.]
-**Schulpflicht in Deutschland**
-Ab drei Jahren haben Kinder das Recht auf einen Kindergartenplatz. Der Kindergarten ist freiwillig. Mit sechs/sieben Jahren gilt die allgemeine Schulpflicht und das Kind besucht die erste Klasse.
-
-[@kind:delete]
-[@releaseDate:Jan.1,2023]
-
-
+{
+  "name": "@bitmark-standard/bitmark-grammar",
+  "version": "1.0.23",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitmark-standard/bitmark-grammar.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "keywords": [ "bitmark", "grammar", "parser" ],
+  "keywords": [ {"bitmark":0},{"grammar":1},{"parser":2}]  
+}

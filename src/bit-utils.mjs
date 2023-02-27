@@ -4,6 +4,12 @@
 import R_slice from 'ramda/es/slice.js';
 
 
+String.prototype.lastIndexOfEnd = function(string) {
+  let io = this.lastIndexOf(string);
+  return io == -1 ? -1 : io + string.length;
+};
+
+
 class BitUtil {
   
   
@@ -67,7 +73,6 @@ class BitUtil {
     let m = string.match(regex);
     return m;
   }
-
   //
   getcode(ctx, could_end_with_any=false) {
     if (!ctx.children) {
@@ -134,7 +139,8 @@ class BitUtil {
     }
     else
       return this.getcode2(ctx);
-  }      
+  }
+
   // Gets text from tokens
   // Using ctx.children.join('') will break the output
   getcode2(ctx) {
@@ -147,10 +153,8 @@ class BitUtil {
     }
     return '';
   }
-  
-  /*
-   *  Retrieve the string between ]nl and nl
-   */
+
+  // Retrieve the string between ]nl and nl
   getstring_insidenl(ctx) {
     let tmps = 'no children';
     if (!ctx.children) {
@@ -188,7 +192,7 @@ class BitUtil {
     }
     return '';
   }
-  
+
   /*
    * Splits the source bitbook into each and every bit.
    * Returns an array of bit={offset:x, bit:text}
@@ -391,7 +395,6 @@ class BitUtil {
       return [vals[0], vals[1]+':'+vals[2]]; // [image, url]
     }
   }
-  // NEW 12/2/2020
   // Returns an array
   get_url_in_text(text) {
     const re = /https?:\/\/([^\/\[\&\s]+)\/?/;
@@ -410,6 +413,7 @@ class BitUtil {
       return m[1];
     return null;
   }
+  //
   get_wh_from_url(url) {
     const re = /([0-9]+)x([0-9]+)/;
     let filename = url.split('/').pop();;      // e.g. cat3_1024x1024.jpg
@@ -418,7 +422,7 @@ class BitUtil {
       return [m[1], m[2]];  // width, height
     return null;
   }
-  // NEW 12/2/2020
+  // 
   get_caption_string(text) {
     const re = /\[@caption:([^\]]+)\]/;
     const m = text.match(re);
@@ -426,7 +430,7 @@ class BitUtil {
       return m[1];
     return null;
   }
-  // New 12/3/2021
+  // 
   is_brackets_inside_stars(text) {
     const re = /\*+[^\[]*\[[^\]]+\].*\*+/;
     const m = text.match(re);
@@ -434,6 +438,15 @@ class BitUtil {
       return true;
     return false;
   }
+  // Extracts JSON from arg text
+  extract_json(text) {
+    const start = text.indexOf('\n{');
+    const end = text.lastIndexOfEnd('}');
+    let result = text.substring(start, end);
+    return result.trim();
+  }
+  
 }
 
 export {BitUtil};
+

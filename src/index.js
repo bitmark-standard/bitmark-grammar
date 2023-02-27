@@ -2,10 +2,11 @@
  * index.js
  * 
  */
-let fs        = require('fs');
-let process   = require('process');
-let now       = require('performance-now');
+const fs      = require('fs');
+const process = require('process');
+const now     = require('performance-now');
 const R       = require('ramda');
+
 
 //let ANTLRInputStream = require('antlr4ts/ANTLRInputStream.js'); // @@@@
 let CharStreams = require('antlr4ts/CharStreams.js');
@@ -47,6 +48,7 @@ let listener  = require('./bitmark-listener.js');
 let bit_tmpl = require('./bit-template.js');
 let but = require('./bit-utils.js');
 
+const JSON_BITS = [".vendor-amcharts-5-chart"];
 
 /*
  */
@@ -81,6 +83,43 @@ class Preprocessor {
     return text.substr(0, index) + replacement + text.substr(index + orgtext.length);
   }
 
+  // Checks if the bit expects JSON data
+  is_a_json_bit(text) {
+    if (text!==undefined) {
+      let x = text.match(/\S*\[(\.[^\]\[]+)\]/);
+      return 0<=JSON_BITS.indexOf(x[1]) ? true : false;
+    }
+    return false;
+  }
+
+  /* 
+     Escare [] in json data. It confuses with Bitmark bits
+     Uses HTML escape strings
+    [ = &#91;
+    ] = &#93;
+  */
+  escape_json_for_json_bits(text) {
+    String.prototype.lastIndexOfEnd = function(string) {
+      let io = this.lastIndexOf(string);
+      return io == -1 ? -1 : io + string.length;
+    };
+    const exjson = (t) => {
+      // JSON extractor.
+      const start = t.indexOf('{');
+      const end = t.lastIndexOfEnd('}');
+      let result = t.substring(start, end);
+      return result;
+    }
+    // Remove non-json bits etc
+    let json_orig = exjson(text);
+    let json_repl = json_orig.replace(/\[/g, '&#91;');
+    json_repl = json_repl.replace(/\]/g, '&#93;');
+    text = text.replace(json_orig, json_repl);
+    // offset <0 to dont care just replace them
+    return [text, [{before: '[', after: '&#91;', offset: -1},
+		   {before: ']', after: '&#93;', offset: -1}]];
+  }
+
   // Expecting single bit arg
   replace_stray_bitheads(text) {
     let seq = 0;
@@ -88,7 +127,7 @@ class Preprocessor {
     const regex = /(\[\.[^\]\[]+\])/;  // for the first bit if any
     const MAXSEQ = 20;  // cant have too many
     let x_array = [];
-    
+
     while (seq < MAXSEQ) {
       // Dont add if not the head doesnt start from 0th column
       let where = text.slice(ignore).search(regex);
@@ -119,16 +158,19 @@ class Preprocessor {
     for (let i in x_array) {
       //
       let x = x_array[i];
-      text = this.replace_text_at(text, x.offset+offex, x.before, x.after);
+      if (-1 < x.offset)
+	text = this.replace_text_at(text, x.offset+offex, x.before, x.after);
+      else {
+	// Used by JSON replace []
+	let re = new RegExp(`${x.after}`, 'gi');
+	text = text.replace(re, x.before);
+      }
       offex += x.before.length - x.after.length;
     }
     return text;
   }
   // simple version. no offset
   unreplace_stray_bitheads(text, x_array) {
-    /*console.log(text);
-    console.log(x_array);
-    */
     for (let i in x_array) {
       //
       let x = x_array[i];
@@ -328,13 +370,17 @@ class BitmarkParser {
 
     // Tweak the stray bitheads
     let prep = new Preprocessor(this.source);
-    let [replaced, x_array] = prep.replace_stray_bitheads(splitted_text);
+    let replaced, x_array;
+    
+    if (prep.is_a_json_bit(splitted_text))
+      [replaced, x_array] = prep.escape_json_for_json_bits(splitted_text);
+    else
+      [replaced, x_array] = prep.replace_stray_bitheads(splitted_text);
+    
     this.x_array = x_array;
-    //let orig = prep.unreplace_stray_bitheads(replaced, x_array);
     this.original_text = splitted_text;
     this.input_text = replaced; 
     splitted_text = replaced;
-    // Up here new 12/17
     
     this.parser_vars.bit = bit;
     bit = !bit ? 'default' : bit;
@@ -433,7 +479,7 @@ class BitmarkParser {
 
 	// obj[0].bit.content at this point is bithead replaced text.
 	if (!unknown)
-	  obj[0].bit.body = pp.unreplace_stray_bitheads(obj[0].bit.body, this.x_array);	
+	  obj[0].bit.body =pp.unreplace_stray_bitheads2(obj[0].bit.body, this.x_array);	
 
 	if (0 < this.parser_vars.errorlisten.errors.length) {
 	  if (!obj || !obj.length) 

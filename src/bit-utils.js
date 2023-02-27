@@ -1,7 +1,13 @@
 //
 //  bit-utils.js
 //
-const R = require('ramda');
+const R = require('ramda');  // uses R.slice
+
+String.prototype.lastIndexOfEnd = function(string) {
+  let io = this.lastIndexOf(string);
+  return io == -1 ? -1 : io + string.length;
+};
+
 
 class BitUtil {
   
@@ -388,7 +394,6 @@ class BitUtil {
       return [vals[0], vals[1]+':'+vals[2]]; // [image, url]
     }
   }
-  // NEW 12/2/2020
   // Returns an array
   get_url_in_text(text) {
     const re = /https?:\/\/([^\/\[\&\s]+)\/?/;
@@ -407,6 +412,7 @@ class BitUtil {
       return m[1];
     return null;
   }
+  //
   get_wh_from_url(url) {
     const re = /([0-9]+)x([0-9]+)/;
     let filename = url.split('/').pop();;      // e.g. cat3_1024x1024.jpg
@@ -415,7 +421,7 @@ class BitUtil {
       return [m[1], m[2]];  // width, height
     return null;
   }
-  // NEW 12/2/2020
+  // 
   get_caption_string(text) {
     const re = /\[@caption:([^\]]+)\]/;
     const m = text.match(re);
@@ -423,13 +429,20 @@ class BitUtil {
       return m[1];
     return null;
   }
-  // New 12/3/2021
+  // 
   is_brackets_inside_stars(text) {
     const re = /\*+[^\[]*\[[^\]]+\].*\*+/;
     const m = text.match(re);
     if (m)
       return true;
     return false;
+  }
+  // Extracts JSON from arg text
+  extract_json(text) {
+    const start = text.indexOf('\n{');
+    const end = text.lastIndexOfEnd('}');
+    let result = text.substring(start, end);
+    return result.trim();
   }
   
 }
