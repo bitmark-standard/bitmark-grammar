@@ -35,6 +35,17 @@ jobs:
           name: Push to GitHub
           command: |
             git push origin master
+      - run:
+          name: Trigger Bitmark API build & deploy
+          command: |
+            curl -X POST \
+              -H "Content-Type: application/json" \
+              -H "Circle-Token: $CIRCLE_TOKEN" \
+              -d '{
+                  "parameters": {
+                    "parser-install": "npm i @bitmark-standard/bitmark-grammar"
+                  }
+                }' https://circleci.com/api/v2/project/github/getMoreBrain/bitbook-api/pipeline
 
 workflows:
   version: 2
