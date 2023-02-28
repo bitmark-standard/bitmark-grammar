@@ -371,7 +371,7 @@ chapter_subject_matter:	       BitChapterSubjectMatter format CL NL* ( bitElem N
 release_note:		       BitReleaseNote format CL NL* ( bitElem NL* )+ ;
 conclusion:		       BitConclusion format CL NL* ( bitElem NL* )+ ;
 
-vendor_amcharts_5_chart:       BitVendorAmcharts5Chart format CL NL* ( bitElem NL* )+ ;
+vendor_amcharts_5_chart:       BitVendorAmcharts5Chart format2 CL NL* ( bitElem NL* )+ ;
 
 
 message:
@@ -426,10 +426,10 @@ atpoint:
 ;
 // videoLink, audioLink are draft state as of Aug 20,2021
 format:
- ( resource_format )* ( ColonText | resource_format_extra )*
+ ( resource_format )* ( ColonText | ColonJson | resource_format_extra )*
 ;
 resource_format:
-   BitmarkMinus | BitmarkPlus | Prosemirror | Placeholder
+   BitmarkMinus | BitmarkPlus | Prosemirror | Placeholder | ColonJson 
  | AmpArticle | AmpDocument 
  | AmpWebsite | AmpStillImageFilm
  | AmpAudioLink | AmpImageLink | AmpVideoLink | AmpArticleLink
@@ -443,7 +443,7 @@ resource_format_extra:
 ;
 
 format2:
-   BitmarkMinus | BitmarkPlus | ColonText | /*nil*/
+   BitmarkMinus | BitmarkPlus | ColonText | ColonJson | /*nil*/
 ;
 
 //

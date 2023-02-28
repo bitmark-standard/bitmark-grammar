@@ -203,6 +203,7 @@ OpAmpStillImageFilmLink:'[&' S* 'still-image-film-link' ;  //*
 BitmarkMinus: 	 ':bitmark--' ;
 BitmarkPlus:  	 ':bitmark++' ;
 ColonText:   	 ':text' ;
+ColonJson:	 ':json' ;
 Prosemirror:	 ':prosemirror' ;
 Placeholder:	 ':placeholder' ;
 

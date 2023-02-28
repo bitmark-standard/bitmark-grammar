@@ -87,7 +87,8 @@ class Preprocessor {
   is_a_json_bit(text) {
     if (text!==undefined) {
       let x = text.match(/\S*\[(\.[^\]\[]+)\]/);
-      return 0<=JSON_BITS.indexOf(x[1]) ? true : false;
+      let s = x[1].replace(/\:.*$/, '');  // remove format spec.
+      return 0<=JSON_BITS.indexOf(s) ? true : false;
     }
     return false;
   }

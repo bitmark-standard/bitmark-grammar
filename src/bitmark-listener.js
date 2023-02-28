@@ -100,10 +100,11 @@ BitmarkListener.prototype.push_tmpl = function(ctx, type, template=R.clone(JSON_
   if (!found && -1 < this.resimagegrp.indexOf(type)) 
     this.resformat = '&image';  // image audio video
   
-  if (-1 < ['bitmark++', 'bitmark--', 'text'].indexOf(bitfmt))
+  if (-1 < ['bitmark++', 'bitmark--', 'text', 'json'].indexOf(bitfmt))
     b.bit.format = bitfmt;
 
   this.stk.push(b);
+  return res;
 };
 //
 //
@@ -2603,20 +2604,26 @@ BitmarkListener.prototype.enterRelease_note = function(ctx) { this.push_tmpl(ctx
 BitmarkListener.prototype.enterConclusion = function(ctx) { this.push_tmpl(ctx, 'conclusion'); };
 
 BitmarkListener.prototype.enterVendor_amcharts_5_chart = function(ctx) {
-  this.push_tmpl(ctx, 'vendor-amcharts-5-chart');
-  this.stk.top().bit.format = 'json';
-  let json = this.but.extract_json(this.stk.top().bit.body);
-  
-  try {
-    // Unescaepe []. See escape_json_for_json_bits(text) in index.js.
-    let json_repl = json.replace(/&#91;/g, '[');
-    json_repl = json_repl.replace(/&#93;/g, ']');
-    // Parse to validate.
-    JSON.parse(json_repl);
+  // restype is an array.
+  let restype = this.push_tmpl(ctx, 'vendor-amcharts-5-chart');
+
+  if (restype.length===0) {   // bitmark-- will never appear as format.
+    // the default is not bitmark--
+    this.stk.top().bit.format = 'json';
   }
-  catch (err) {
-    // invalid json. Add error.
-    this.error_listener.manualError(ctx, ctx._start.line-1, 0, 'JSON error: invalid JSON text');
+  if (this.stk.top().bit.format === 'json') {
+    try {
+      let json = this.but.extract_json(this.stk.top().bit.body);
+      // Unescaepe []. See escape_json_for_json_bits(text) in index.js.
+      let json_repl = json.replace(/&#91;/g, '[');
+      json_repl = json_repl.replace(/&#93;/g, ']');
+      // Parse to validate.
+      JSON.parse(json_repl);
+    }
+    catch (err) {
+      // invalid json. Add error.
+      this.error_listener.manualError(ctx, ctx._start.line-1, 0, 'JSON error: invalid JSON text');
+    }
   }
 };
 

@@ -156,6 +156,7 @@ const testfiles = [
 
   './tests/resource-all.bit',
   './tests/utfgpun.bit',
+  './tests/vendor-amchart.bit',  
 
   // GMB
   './tests/GMB/cloze.bit',
@@ -164,6 +165,10 @@ const testfiles = [
   './tests/GMB/cloze_emoticons.bit',
   './tests/GMB/essay.bit', 
   './tests/GMB/bitmark_example.bit',
+];
+
+const testfilesX = [
+  './tests/vendor-amchart.bit',
 ];
 
 const problematic = [
@@ -176,9 +181,6 @@ const problematic = [
     './tests/match-matrix3.bit',
 ];
 
-let bad = [
-  './tests/GMB/cloze_emoticons.bit',
-];
 
 const EXPECTED_JSON_FILEPATH = './tests/EXPECTED.JSON';
 let   expected_content = '';
@@ -190,7 +192,7 @@ let load_expected = function() {
 
 let get_expected = function(filepath) {
   const re = new RegExp('<<<<'+filepath+'(\\n[^<<<<]*\\n)<<<<', 'm');  
-
+  
   let m = expected_content.match(re);
   if (m) {
     return m[1];
@@ -219,6 +221,7 @@ let __run__ = function(filepath, trace, debug, bit) {
   let bitmark = new parser.BitmarkParser(text, options, bit);
   try {
     let json = bitmark.parse();
+    
     if (!json)
       console.log('No json for '+filepath);
 

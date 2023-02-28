@@ -12531,4 +12531,52 @@
         }
     }
 ]
+<<<<./tests/vendor-amchart.bit
+[
+    {
+        "bitmark": "[.vendor-amcharts-5-chart:json]\n[@id:298225]\n[%item 1]\n[!This is my first chart bit with a JSON body]\n{\"Test\": 100, \"Test2\": \"Json\"}",
+        "bit": {
+            "type": "vendor-amcharts-5-chart",
+            "format": "json",
+            "body": "{\"Test\": 100, \"Test2\": \"Json\"}",
+            "item": "item 1",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "298225"
+            ],
+            "instruction": "This is my first chart bit with a JSON body"
+        }
+    },
+    {
+        "bitmark": "[.vendor-amcharts-5-chart]\n[@id:298225]\n[%item 1]\n[!This is my first chart bit with a JSON body]\n{\"Testing\": 200, \"Checking\": [1,2,3,4,5,6]}",
+        "bit": {
+            "type": "vendor-amcharts-5-chart",
+            "format": "json",
+            "body": "{\"Testing\": 200, \"Checking\": [1,2,3,4,5,6]}",
+            "item": "item 1",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "298225"
+            ],
+            "instruction": "This is my first chart bit with a JSON body"
+        }
+    },
+    {
+        "bitmark": "[.vendor-amcharts-5-chart:json]\n[!this is a json bit]\n[%item 2]\n{\n  \"name\": \"@bitmark-standard/bitmark-grammar\",\n  \"version\": \"1.0.23\",\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"git+https://github.com/bitmark-standard/bitmark-grammar.git\"\n  },\n  \"publishConfig\": {\n    \"registry\": \"https://npm.pkg.github.com\"\n  },\n  \"keywords\": [ \"bitmark\", \"grammar\", \"parser\" ],\n  \"keywords\": [ {\"bitmark\":0},{\"grammar\":1},{\"parser\":2}]\n}",
+        "bit": {
+            "type": "vendor-amcharts-5-chart",
+            "format": "json",
+            "body": "{\n  \"name\": \"@bitmark-standard/bitmark-grammar\",\n  \"version\": \"1.0.23\",\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"git+https://github.com/bitmark-standard/bitmark-grammar.git\"\n  },\n  \"publishConfig\": {\n    \"registry\": \"https://npm.pkg.github.com\"\n  },\n  \"keywords\": [ \"bitmark\", \"grammar\", \"parser\" ],\n  \"keywords\": [ {\"bitmark\":0},{\"grammar\":1},{\"parser\":2}]\n}",
+            "item": "item 2",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "instruction": "this is a json bit"
+        }
+    }
+]
 <<<<

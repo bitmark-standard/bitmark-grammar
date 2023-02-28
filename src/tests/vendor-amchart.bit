@@ -1,24 +1,3 @@
-[.vendor-amcharts-5-chart:bitmark++]
-[@id:298225]
-[%item 1]
-[!This is my first chart bit with a JSON body]
-{"Test": 100, "Test2": "Json"}
-
-
-[.vendor-amcharts-5-chart:json]
-[@id:298225]
-[%item 1]
-[!This is my first chart bit with a JSON body]
-{"Test": 100, "Test2": "Json"}
-
-
-[.vendor-amcharts-5-chart:bitmark--]
-[@id:298225]
-[%item 1]
-[!This is my first chart bit with a JSON body]
-{"Test": 100, "Test2": "Json"}
-
-
 [.vendor-amcharts-5-chart:json]
 [@id:298225]
 [%item 1]

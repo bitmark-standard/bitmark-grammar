@@ -371,7 +371,7 @@ chapter_subject_matter:	       BitChapterSubjectMatter format CL NL* ( bitElem N
 release_note:		       BitReleaseNote format CL NL* ( bitElem NL* )+ ;
 conclusion:		       BitConclusion format CL NL* ( bitElem NL* )+ ;
 
-vendor_amcharts_5_chart:       BitVendorAmcharts5Chart format CL NL* ( bitElem NL* )+ ;
+vendor_amcharts_5_chart:       BitVendorAmcharts5Chart format2 CL NL* ( bitElem NL* )+ ;
 
 
 message:
