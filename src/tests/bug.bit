@@ -1,51 +1,44 @@
-[.vendor-amcharts-5-chart:bitmark++]
-[@id:298225]
-[%item 1]
-[!This is my first chart bit with a JSON body]
-{"Test": 100, "Test2": "Json"}
+[.article:bitmark--&audio-link]
+[@id:119760]
+[&audio-link:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4][@src1x:https://www.youtube.com/tumb_201809210816.png][@src2x:https://www.youtube.com/tumb_201809210816.png][@width:740][@height:540][@duration:PT12M31S]
 
+[.article:bitmark--&website-link]
+[@id:119760]
+[&website-link:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4]
 
-[.vendor-amcharts-5-chart:json]
-[@id:298225]
-[%item 1]
-[!This is my first chart bit with a JSON body]
-{"Test": 100, "Test2": "Json"}
+[.article:bitmark--&article-link]
+[@id:119760]
+[&article-link:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4]
 
+[.article:bitmark--&app-link]
+[@id:119760]
+[&app-link:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4]
 
-[.vendor-amcharts-5-chart:bitmark--]
-[@id:298225]
-[%item 1]
-[!This is my first chart bit with a JSON body]
-{"Test": 100, "Test2": "Json"}
+[.article:bitmark--&video-link]
+[@id:119760]
+[&video-link:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4][@src1x:https://www.youtube.com/tumb_201809210816.png][@src2x:https://www.youtube.com/tumb_201809210816.png][@width:740][@height:540][@duration:PT12M31S]
 
+[.article:bitmark--&still-image-film]
+[@id:119760]
+[&still-image-film:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4][@duration:PT12M31S]
 
-[.vendor-amcharts-5-chart:json]
-[@id:298225]
-[%item 1]
-[!This is my first chart bit with a JSON body]
-{"Test": 100, "Test2": "Json"}
+[.image-zoom]
+Die Texte und Aufgaben in diesem __fakultativen Teil B__ stellen ein Angebot für Lerner und Lerngruppen dar, die ihre sprachlichen Fähigkeiten zusätzlich erweitern möchten.
+[&image-zoom:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gesch_ft_kommerz_und_handel_958.png]
 
+[.document-link]
+Die Texte und Aufgaben in diesem __fakultativen Teil B__ stellen ein Angebot für Lerner und Lerngruppen dar, die ihre sprachlichen Fähigkeiten zusätzlich erweitern möchten.
+[&document-link:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gesch_ft_kommerz_und_handel_958.png]
 
-[.vendor-amcharts-5-chart]
-[@id:298225]
-[%item 1]
-[!This is my first chart bit with a JSON body]
-{"Testing": 200, "Checking": [1,2,3,4,5,6]}
+[.still-image-film-link]
+[@id:119760]
+[&still-image-film-link:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4]
 
+[.still-image-film]
+[@id:119760]
+[&still-image-film:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4][@duration:PT12M31S]
 
-[.vendor-amcharts-5-chart:json]
-[!this is a json bit]
-[%item 2]
-{
-  "name": "@bitmark-standard/bitmark-grammar",
-  "version": "1.0.23",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bitmark-standard/bitmark-grammar.git"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
-  "keywords": [ "bitmark", "grammar", "parser" ],
-  "keywords": [ {"bitmark":0},{"grammar":1},{"parser":2}]  
-}
+[.image-link]
+Die Texte und Aufgaben in diesem __fakultativen Teil B__ stellen ein Angebot für Lerner und Lerngruppen dar, die ihre sprachlichen Fähigkeiten zusätzlich erweitern möchten.
+[&image-link:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gesch_ft_kommerz_und_handel_958.png]
+

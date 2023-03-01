@@ -20,6 +20,10 @@ log.debug = logfun;
 log.error = logfun;
 
 
+// kebabcase to camelcase
+const camelize = s => s.replace(/-./g, x=>x[1].toUpperCase())
+
+
 // This class defines a complete listener for a parse tree produced by bitmarkParser.
 let BitmarkListener = function(error_listener, source, parser) {
   this.error_listener = error_listener;
@@ -30,7 +34,26 @@ let BitmarkListener = function(error_listener, source, parser) {
   this.but = new but.BitUtil(source.trim());
   this.format = "";  // &image, &audio, &video etc
   this.resformat = "";
-  this.resselfdesc = {'image':'image', 'audio':'audio', 'video':'video', 'still-image-film': 'still-image-film'};  // type starts with one of these
+  // type starts with one of these}; 
+  this.resselfdesc = {'image-link': 'image-link',
+		      'audio-link': 'audio-link',
+		      'video-link': 'video-link',
+		      'image':'image', 'audio':'audio', 'video':'video',
+		      'still-image-film-link': 'still-image-film-link',
+		      'still-image-film': 'still-image-film'  // !!must come after -link
+		     }
+  // this.resformat is the key
+  this.RESOURCE_MAP = {'&image': 'image',
+		       '&still-image-film': 'image',
+		       '&still-image-film-link': 'videoLink',		       
+		       '&image-link': 'imageLink',
+		       '&audio-link': 'audioLink',
+		       '&video-link': 'videoLink',
+		       '&article-link': 'articleLink',
+		       '&app-link': 'appLink',
+		       '&website-link': 'websiteLink',
+		       '&document-link': 'documentLink',
+		      };
   this.resimagegrp = ['screenshot', 'focus-image', 'photo', 'browser-image'];  // implicit image group
   this.reslist     = ['&image', '&audio', '&video', '&document', '&app', '&website', '&still-image-film', '&pdf'];
   this.fmtlist     = ['prosemirror', 'placeholder', 'text'];
@@ -1184,6 +1207,7 @@ BitmarkListener.prototype.exitPimagebit = function(ctx) {
 };
 
 BitmarkListener.prototype.exitResource_chained = function(ctx) {
+
   let code = this.but.getcode(ctx);
   // e.g. code=[@src2x::https://cdn.bitbook.education/avatars/cat_70x70@2.jpg][
   let [key, url] = this.but.get_url(code);
@@ -1199,6 +1223,7 @@ BitmarkListener.prototype.exitResource_chained = function(ctx) {
     type = key;
   }
   else {
+    child = this.RESOURCE_MAP['&'+child];
     if (!this.stk.top().bit[parent])
       this.stk.top().bit[parent] = {};    
     if (!this.stk.top().bit[parent][child])
@@ -1207,13 +1232,13 @@ BitmarkListener.prototype.exitResource_chained = function(ctx) {
   let re = /\[@([^:]*)\s*:\s*([^\]]*)\s*\]/g;
   let vals = this.but.get_bit_value_colonsep(re, code);
   // @defs == width, height, duration, etc
-  
+
   if (vals) {
     if (key==='posterImage' && key in this.stk.top().bit[parent][child]) {
       this.stk.top().bit[parent][child][key].src = vals[1];
       this.stk.top().bit[parent][child][key].format = vals[1].split('.').pop();
     }
-    else if (child==='video-link' && key.startsWith('src')) {
+    else if (child==='videoLink' && key.startsWith('src')) {
       key = 'thumbnails';
       // objects in array 
       if (!(key in this.stk.top().bit[parent][child]))
@@ -1261,7 +1286,7 @@ BitmarkListener.prototype.exitImage_chained = function(ctx) {
   let child = this.curr_bit_stk.top().trim();
   key = key.substring(1).trim();
   url = url.trim();
-
+  
   if (1 < this.curr_bit_stk.size) {
     let second = this.curr_bit_stk.second();
     if (second==='initiator'||second==='partner')
@@ -1271,6 +1296,7 @@ BitmarkListener.prototype.exitImage_chained = function(ctx) {
   else {
     if (!this.stk.top().bit[parent])
       this.stk.top().bit[parent] = R.clone(JSON_BIT_TEMPLATES.Imageresource_element);
+    child = camelize(child); // image-link => imageLink
     this.stk.top().bit[parent][child][key] = url;
   }
   (this.stk.top()).bit.body = (this.stk.top()).bit.body.replace(code,'');
@@ -1980,6 +2006,7 @@ BitmarkListener.prototype.exitImagebit = function(ctx) {
 };
 // [&image::https://cdn
 BitmarkListener.prototype.exitImage_one = function(ctx) {
+  debugger //@@@@
   let code = this.but.getcode(ctx);
   let [what, url] = this.but.get_url(code);
   let key = this.curr_bit_stk.top().trim();
@@ -2004,25 +2031,27 @@ BitmarkListener.prototype.exitImage_one = function(ctx) {
     (this.stk.top()).bit[key].avatarImage['src'] = url;
     (this.stk.top()).bit[key].avatarImage['format'] = url.split('.').pop();
   }
-  else if (format==='image' || this.resformat in {'&image':0, '&still-image-film':1, '&image-with-audio':2}) {
+  else if (format==='image' || this.resformat in this.RESOURCE_MAP) {
     const res = this.but.remove_close_bracket_and_follow(code);
     (this.stk.top()).bit[this.body_key] = (this.stk.top()).bit[this.body_key].replace(code, '');
     const slot = 'resource';
     if (this.stk.top().bit[slot]==undefined)
       (this.stk.top()).bit[slot] = {};
+    key = this.RESOURCE_MAP[this.resformat];
     (this.stk.top()).bit[slot]['type'] = what.substr(1).trim();
     (this.stk.top()).bit[slot][key] = tmpl;
-    (this.stk.top()).bit[slot][key]['src'] = url;
+    (this.stk.top()).bit[slot][key][this.resformat==='&image'?'src':'url'] = url;
     (this.stk.top()).bit[slot][key]['format'] = url.split('.').pop();
     let caption = this.but.get_caption_string(code);
     if (caption) {
       (this.stk.top()).bit[slot][key]['caption'] = caption;
     }
   }
-  else if (this.resformat in {'&image-link':0, '&still-image-film-link':1}) {
+  else if (this.resformat in this.RESOURCE_MAP) {
     const res = this.but.remove_close_bracket_and_follow(code);
     (this.stk.top()).bit[this.body_key] = (this.stk.top()).bit[this.body_key].replace(code, '');
     const slot = 'resource';
+    key = this.RESOURCE_MAP[this.resformat];
     if (this.stk.top().bit[slot]==undefined)
       (this.stk.top()).bit[slot] = {};
     (this.stk.top()).bit[slot]['type'] = what.substr(1).trim();
@@ -2049,7 +2078,7 @@ BitmarkListener.prototype.exitImage_one = function(ctx) {
 };
 
 BitmarkListener.prototype.enterStillimagefilmbit = function(ctx) {
-  let key = this.get_resource_type(ctx) 
+  let key = this.get_resource_type(ctx);
   this.curr_bit_stk.push('still-image-film');  // this is intentional!
 };  
 BitmarkListener.prototype.exitStillimg_one = function(ctx) {
@@ -2092,10 +2121,11 @@ BitmarkListener.prototype.exitAudio_one = function(ctx) {
     (this.stk.top()).bit.body = (this.stk.top()).bit.body.replace(code,'');
   }
   else if (what==='&audio-link' && this.resformat.startsWith('&audio')) {
-    const key = what.substr(1);  // remove &
+    let key = what.substr(1);  // remove &
     if (this.stk.top().bit[slot]==undefined)
       (this.stk.top()).bit[slot] = {};
     (this.stk.top()).bit[slot]['type'] = key;
+    key = camelize(key);
     (this.stk.top()).bit[slot][key] = {};
     (this.stk.top()).bit[slot][key]['provider'] = url.split('.').pop();
     (this.stk.top()).bit[slot][key]['url'] = url;
@@ -2154,7 +2184,7 @@ BitmarkListener.prototype.exitVideo_one = function(ctx) {
   else if (this.resformat.startsWith('&video')) {
     const res = this.but.remove_close_bracket_and_follow(code);
     (this.stk.top()).bit[this.body_key] = (this.stk.top()).bit[this.body_key].replace(code, '');
-    const key = what.substr(1);  // remove &
+    const key = camelize(what.substr(1));  // remove &
     (this.stk.top()).bit[slot] = {};
     (this.stk.top()).bit[slot]['type'] = key;
     (this.stk.top()).bit[slot][key] = key==='video' ? R.clone(JSON_BIT_TEMPLATES.Video) : R.clone(JSON_BIT_TEMPLATES.VideoLink);
@@ -2227,6 +2257,7 @@ BitmarkListener.prototype.exitArticlebit = function(ctx) {
   else if (what==='&article-link') {
     (this.stk.top()).bit[slot] = {};
     (this.stk.top()).bit[slot]['type'] = key;
+    key = camelize(key);
     (this.stk.top()).bit[slot][key] = {};
     (this.stk.top()).bit[slot][key]['url'] = url;    
   }
@@ -2279,9 +2310,10 @@ BitmarkListener.prototype.exitDocumentbit = function(ctx) {
       (this.stk.top()).bit[slot]['private'] = {};
     }
     if (what==='&document-link') {
-      const key = what.substr(1);  // remove &
+      let key = what.substr(1);  // remove &
       (this.stk.top()).bit[slot] = {}; // slot=resource
       (this.stk.top()).bit[slot]['type'] = key;  // document
+      key = camelize(key);
       (this.stk.top()).bit[slot][key] = {};
       (this.stk.top()).bit[slot][key]['url'] = url;
       (this.stk.top()).bit[slot][key]['provider'] = this.but.get_domain_from_url(url);
@@ -2311,13 +2343,14 @@ BitmarkListener.prototype.enterAppbit = function(ctx) {
 BitmarkListener.prototype.exitAppbit = function(ctx) {
   let code = this.but.getcode(ctx);
   let [what, url] = this.but.get_url(code);
-  const key = this.curr_bit_stk.top();
+  let key = this.curr_bit_stk.top();
   const has_resource = (this.stk.top()).bit.resource!==undefined;
   let slot='resource';
   
   if (what==='&app-link') {
     (this.stk.top()).bit[slot] = {};
     (this.stk.top()).bit[slot]['type'] = key;
+    key = camelize(key);
     (this.stk.top()).bit[slot][key] = {};
     (this.stk.top()).bit[slot][key]['url'] = url;    
   }
@@ -2359,13 +2392,14 @@ BitmarkListener.prototype.enterWebsitebit = function(ctx) {
 BitmarkListener.prototype.exitWebsitebit = function(ctx) {
   let code = this.but.getcode(ctx);
   let [what, url] = this.but.get_url(code);
-  const key = this.curr_bit_stk.top();
+  let key = this.curr_bit_stk.top();
   const has_resource = (this.stk.top()).bit.resource!==undefined;
   const slot='resource';
   
   if (what==='&website-link') {
     (this.stk.top()).bit[slot] = {};
     (this.stk.top()).bit[slot]['type'] = key;
+    key = camelize(key);
     (this.stk.top()).bit[slot][key] = {};
     (this.stk.top()).bit[slot][key]['siteName'] = ''; 
     (this.stk.top()).bit[slot][key]['url'] = url; 

@@ -191,9 +191,10 @@
             ],
             "resource": {
                 "type": "image-link",
-                "image-link": {
-                    "provider": "docs.bitmark.cloud",
+                "imageLink": {
+                    "provider": "",
                     "url": "https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4",
+                    "format": "mp4",
                     "src2x": "https://docs.bitmark.cloud/bit-books/rav/web-resources/video/poster.png"
                 }
             }
@@ -210,7 +211,7 @@
             ],
             "resource": {
                 "type": "website-link",
-                "website-link": {
+                "websiteLink": {
                     "siteName": "",
                     "url": "https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4"
                 }
@@ -228,7 +229,7 @@
             ],
             "resource": {
                 "type": "article-link",
-                "article-link": {
+                "articleLink": {
                     "url": "https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4"
                 }
             }
@@ -248,8 +249,8 @@
                 "video": {
                     "format": "mp4",
                     "src": "https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4",
-                    "width": "740",
-                    "height": "540",
+                    "width": null,
+                    "height": null,
                     "duration": "",
                     "mute": false,
                     "autoplay": false,
@@ -259,12 +260,13 @@
                     "license": "",
                     "copyright": "",
                     "posterImage": {
-                        "src": "https://docs.bitmark.cloud/bit-books/rav/web-resources/video/poster.png",
-                        "format": "png",
+                        "src": "",
+                        "format": "",
                         "width": null,
                         "height": null
                     }
-                }
+                },
+                "undefined": []
             }
         }
     },
@@ -305,7 +307,7 @@
             ],
             "resource": {
                 "type": "website-link",
-                "website-link": {
+                "websiteLink": {
                     "siteName": "",
                     "url": "https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4"
                 }
@@ -323,7 +325,7 @@
             ],
             "resource": {
                 "type": "article-link",
-                "article-link": {
+                "articleLink": {
                     "url": "https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4"
                 }
             }
@@ -340,7 +342,7 @@
             ],
             "resource": {
                 "type": "app-link",
-                "app-link": {
+                "appLink": {
                     "url": "https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4"
                 }
             }
@@ -360,9 +362,9 @@
                 "video": {
                     "format": "mp4",
                     "src": "https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4",
-                    "width": "740",
-                    "height": "540",
-                    "duration": "PT12M31S",
+                    "width": null,
+                    "height": null,
+                    "duration": "",
                     "mute": false,
                     "autoplay": false,
                     "allowSubtitles": false,
@@ -371,12 +373,13 @@
                     "license": "",
                     "copyright": "",
                     "posterImage": {
-                        "src": "https://docs.bitmark.cloud/bit-books/rav/web-resources/video/poster.png",
-                        "format": "png",
+                        "src": "",
+                        "format": "",
                         "width": null,
                         "height": null
                     }
-                }
+                },
+                "undefined": []
             }
         }
     },
@@ -390,8 +393,8 @@
                 "119760"
             ],
             "resource": {
-                "type": "video-link",
-                "video-link": {
+                "type": "videoLink",
+                "videoLink": {
                     "provider": "docs.bitmark.cloud",
                     "url": "https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4",
                     "width": "740",
@@ -426,10 +429,9 @@
             ],
             "resource": {
                 "type": "still-image-film",
-                "still-image-film": {
+                "image": {
                     "provider": "",
-                    "url": "",
-                    "src": "https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4",
+                    "url": "https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4",
                     "format": "mp4",
                     "duration": "PT12M31S"
                 }
@@ -447,15 +449,17 @@
             ],
             "resource": {
                 "type": "still-image-film-link",
-                "still-image-film": {
-                    "provider": "docs.bitmark.cloud",
+                "videoLink": {
+                    "provider": "",
                     "url": "https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4",
-                    "duration": "PT12M31S"
-                }
+                    "format": "mp4"
+                },
+                "image": []
             }
         }
     }
 ]
+
 <<<<./tests/utfgpun.bit
 [
     {
@@ -2079,9 +2083,10 @@
             "example": "",
             "resource": {
                 "type": "image-link",
-                "image-link": {
-                    "provider": "docs.bitbook.education",
-                    "url": "https://docs.bitbook.education/bit-books/compendio/schubert_erkundungen_c1/web-resources/cover/compendio_uebungen/web_resources/images/05_ablauf_und_termine_022.png"
+                "imageLink": {
+                    "provider": "",
+                    "url": "https://docs.bitbook.education/bit-books/compendio/schubert_erkundungen_c1/web-resources/cover/compendio_uebungen/web_resources/images/05_ablauf_und_termine_022.png",
+                    "format": "png"
                 }
             }
         }
@@ -2170,7 +2175,6 @@
         }
     }
 ]
-
 <<<<./tests/essay9.bit
 [
     {
@@ -11947,8 +11951,8 @@
             "example": "",
             "resource": {
                 "type": "image",
-                "image": {
-                    "src": "https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gesch_ft_kommerz_und_handel_958.png",
+                "imageLink": {
+                    "src": "",
                     "showInIndex": false,
                     "format": "png",
                     "width": null,
@@ -11956,7 +11960,8 @@
                     "alt": "",
                     "caption": "",
                     "license": "",
-                    "copyright": ""
+                    "copyright": "",
+                    "url": "https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gesch_ft_kommerz_und_handel_958.png"
                 }
             }
         }
@@ -12015,14 +12020,16 @@
             "item": "",
             "hint": "",
             "isExample": false,
-            "example": "",
-            "resource": {
-                "type": "audio",
-                "audio": {
+            "example": ""
+        },
+        "parser": {
+            "excessResources": [
+                {
+                    "type": "audio",
                     "format": "mp3",
                     "src": "https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gesch_ft_kommerz_und_handel_958.mp3"
                 }
-            }
+            ]
         }
     },
     {
@@ -12231,10 +12238,9 @@
             "example": "",
             "resource": {
                 "type": "still-image-film",
-                "still-image-film": {
+                "image": {
                     "provider": "",
-                    "url": "",
-                    "src": "https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gesch_ft_kommerz_und_handel_958.wmv",
+                    "url": "https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gesch_ft_kommerz_und_handel_958.wmv",
                     "format": "wmv"
                 }
             }
@@ -12252,16 +12258,16 @@
             "example": "",
             "resource": {
                 "type": "still-image-film",
-                "still-image-film": {
+                "image": {
                     "provider": "",
-                    "url": "",
-                    "src": "https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gesch_ft_kommerz_und_handel_958.wmv",
+                    "url": "https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gesch_ft_kommerz_und_handel_958.wmv",
                     "format": "wmv"
                 }
             }
         }
     }
 ]
+
 <<<<./tests/bot-action-response.bit
 [
     {
