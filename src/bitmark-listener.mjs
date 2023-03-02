@@ -61,7 +61,7 @@ let BitmarkListener = function(error_listener, source, parser) {
 		      'externalLink', 'videoCallLink', 'externalLinkText','textReference',
 		      'quotedPerson', 'kind', 'collection', 'book', 'padletId',
 		      'scormSource', 'posterImage', 'computerLanguage','icon', 'iconChar',
-		      'releaseDate'
+		      'releaseDate', 'releaseVersion'
 		     ];
   this.atdef_num = ['focusX', 'focusY', 'numberOfStars'];
   this.bot_action_rating = [];  // for storing bot-action-rating at exitHint()
@@ -2570,6 +2570,7 @@ BitmarkListener.prototype.enterScorm = function(ctx){this.push_tmpl(ctx, 'scorm'
 BitmarkListener.prototype.enterBit_image = function(ctx) { this.push_tmpl(ctx, 'image'); }
 BitmarkListener.prototype.enterBit_imageLink = function(ctx) { this.push_tmpl(ctx, 'image-link'); }
 BitmarkListener.prototype.enterBit_imageZoom = function(ctx) { this.push_tmpl(ctx, 'image-zoom'); }
+BitmarkListener.prototype.enterBit_imagePrototype = function(ctx) { this.push_tmpl(ctx, 'image-prototype'); }
 BitmarkListener.prototype.enterBit_imageSuperWide = function(ctx) { this.push_tmpl(ctx, 'image-super-wide'); }
 BitmarkListener.prototype.enterBit_audio = function(ctx) { this.push_tmpl(ctx, 'audio'); }
 BitmarkListener.prototype.enterBit_audioLink = function(ctx) { this.push_tmpl(ctx, 'audio-link'); }

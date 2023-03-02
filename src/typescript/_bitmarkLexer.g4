@@ -91,6 +91,7 @@ BitScorm:		       NL OPDOT S* 'scorm' ;
 BitImage:			NL OPDOT S* 'image'   ;
 BitImageLink:			NL OPDOT S* 'image-link'   ;
 BitImageZoom:			NL OPDOT S* 'image-zoom'   ;
+BitImagePrototype:		NL OPDOT S* 'image-prototype'   ;
 BitImageSuperWide:		NL OPDOT S* 'image-super-wide' ;
 BitAudio:			NL OPDOT S* 'audio'   ;
 BitAudioLink:			NL OPDOT S* 'audio-link'   ;

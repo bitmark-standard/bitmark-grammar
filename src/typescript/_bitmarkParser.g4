@@ -65,7 +65,7 @@ bit:
 	| bot_action_response | bot_action_true_false
 	| bot_action_rating_number | bot_action_rating_stars
 
-	| bit_image | bit_imageLink | bit_imageZoom | bit_imageSuperWide
+	| bit_image | bit_imageLink | bit_imageZoom | bit_imagePrototype | bit_imageSuperWide
 	| bit_audio | bit_audioLink | bit_audioEmbed
 	| bit_video | bit_videoLink | bit_videoEmbed
 	| bit_videoPortrait | bit_videoLandscape
@@ -308,6 +308,7 @@ scorm:  	BitScorm format CL NL* ( bitElem NL* )+ ;
 bit_image:			BitImage format2 CL NL* ( bitElem NL*)+ ;
 bit_imageLink:	      		BitImageLink format2 CL NL* ( bitElem NL*)+ ;
 bit_imageZoom:	      		BitImageZoom format2 CL NL* ( bitElem NL*)+ ;
+bit_imagePrototype:    		BitImagePrototype format2 CL NL* ( bitElem NL*)+ ;
 bit_imageSuperWide:		BitImageSuperWide format2 CL NL* ( bitElem NL*)+ ;
 bit_audio:	      		BitAudio format2 CL NL* ( bitElem NL*)+ ;
 bit_audioLink:	      		BitAudioLink format2 CL NL* ( bitElem NL*)+ ;
