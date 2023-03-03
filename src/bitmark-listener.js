@@ -1222,12 +1222,20 @@ BitmarkListener.prototype.exitResource_chained = function(ctx) {
     child = 'excessResources';
     type = key;
   }
-  else {
+  else if (code[1]==='&') {
     child = this.RESOURCE_MAP['&'+child];
     if (!this.stk.top().bit[parent])
       this.stk.top().bit[parent] = {};    
     if (!this.stk.top().bit[parent][child])
       this.stk.top().bit[parent][child] = [];
+  }
+  else {
+    // Probably @def
+    child = this.curr_bit_stk.top();
+    if (this.RESOURCE_MAP['&'+child] !== undefined)
+      child = this.RESOURCE_MAP['&'+child];
+    else
+      child = camelize(child);
   }
   let re = /\[@([^:]*)\s*:\s*([^\]]*)\s*\]/g;
   let vals = this.but.get_bit_value_colonsep(re, code);
@@ -2006,7 +2014,7 @@ BitmarkListener.prototype.exitImagebit = function(ctx) {
 };
 // [&image::https://cdn
 BitmarkListener.prototype.exitImage_one = function(ctx) {
-  debugger //@@@@
+
   let code = this.but.getcode(ctx);
   let [what, url] = this.but.get_url(code);
   let key = this.curr_bit_stk.top().trim();
@@ -2079,7 +2087,7 @@ BitmarkListener.prototype.exitImage_one = function(ctx) {
 
 BitmarkListener.prototype.enterStillimagefilmbit = function(ctx) {
   let key = this.get_resource_type(ctx);
-  this.curr_bit_stk.push('still-image-film');  // this is intentional!
+  this.curr_bit_stk.push(key);  // this is intentional!
 };  
 BitmarkListener.prototype.exitStillimg_one = function(ctx) {
   this.exitImage_one(ctx);
@@ -2186,7 +2194,7 @@ BitmarkListener.prototype.exitVideo_one = function(ctx) {
     (this.stk.top()).bit[this.body_key] = (this.stk.top()).bit[this.body_key].replace(code, '');
     const key = camelize(what.substr(1));  // remove &
     (this.stk.top()).bit[slot] = {};
-    (this.stk.top()).bit[slot]['type'] = key;
+    (this.stk.top()).bit[slot]['type'] = what.substr(1);
     (this.stk.top()).bit[slot][key] = key==='video' ? R.clone(JSON_BIT_TEMPLATES.Video) : R.clone(JSON_BIT_TEMPLATES.VideoLink);
     let parent = (this.stk.top()).bit[slot][key];
     
@@ -2200,7 +2208,6 @@ BitmarkListener.prototype.exitVideo_one = function(ctx) {
       parent['provider'] = this.but.get_domain_from_url(url);
       parent['url'] = url;
     }
-      
     (this.stk.top()).bit.body = (this.stk.top()).bit.body.replace(code,'');
   }
   else if (1 < this.curr_bit_stk.size
@@ -2584,8 +2591,10 @@ BitmarkListener.prototype.enterBit_videoLink = function(ctx) { this.push_tmpl(ct
 BitmarkListener.prototype.enterBit_videoEmbed = function(ctx) { this.push_tmpl(ctx, 'video-embed'); }
 BitmarkListener.prototype.enterBit_videoPortrait = function(ctx) { this.push_tmpl(ctx, 'video-portrait'); }
 BitmarkListener.prototype.enterBit_videoLandscape = function(ctx) { this.push_tmpl(ctx, 'video-landscape'); }
-BitmarkListener.prototype.enterBit_stillImageFilm = function(ctx) { this.push_tmpl(ctx, 'still-image-film'); }
-BitmarkListener.prototype.enterBit_stillImageFilmLink = function(ctx) { this.push_tmpl(ctx, 'still-image-film-link'); }
+BitmarkListener.prototype.enterBit_stillImageFilm = function(ctx) {
+  this.push_tmpl(ctx, 'still-image-film'); }
+BitmarkListener.prototype.enterBit_stillImageFilmLink = function(ctx) {
+  this.push_tmpl(ctx, 'still-image-film-link'); }
 BitmarkListener.prototype.enterBit_stillImageFilmEmbed = function(ctx) { this.push_tmpl(ctx, 'still-image-film-embed'); }
 BitmarkListener.prototype.enterBit_websiteLink = function(ctx) { this.push_tmpl(ctx, 'website-link'); }
 BitmarkListener.prototype.enterBit_document = function(ctx) { this.push_tmpl(ctx, 'document'); }

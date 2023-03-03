@@ -249,8 +249,8 @@
                 "video": {
                     "format": "mp4",
                     "src": "https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4",
-                    "width": null,
-                    "height": null,
+                    "width": "740",
+                    "height": "540",
                     "duration": "",
                     "mute": false,
                     "autoplay": false,
@@ -260,13 +260,12 @@
                     "license": "",
                     "copyright": "",
                     "posterImage": {
-                        "src": "",
-                        "format": "",
+                        "src": "https://docs.bitmark.cloud/bit-books/rav/web-resources/video/poster.png",
+                        "format": "png",
                         "width": null,
                         "height": null
                     }
-                },
-                "undefined": []
+                }
             }
         }
     },
@@ -362,9 +361,9 @@
                 "video": {
                     "format": "mp4",
                     "src": "https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4",
-                    "width": null,
-                    "height": null,
-                    "duration": "",
+                    "width": "740",
+                    "height": "540",
+                    "duration": "PT12M31S",
                     "mute": false,
                     "autoplay": false,
                     "allowSubtitles": false,
@@ -373,13 +372,12 @@
                     "license": "",
                     "copyright": "",
                     "posterImage": {
-                        "src": "",
-                        "format": "",
+                        "src": "https://docs.bitmark.cloud/bit-books/rav/web-resources/video/poster.png",
+                        "format": "png",
                         "width": null,
                         "height": null
                     }
-                },
-                "undefined": []
+                }
             }
         }
     },
@@ -393,7 +391,7 @@
                 "119760"
             ],
             "resource": {
-                "type": "videoLink",
+                "type": "video-link",
                 "videoLink": {
                     "provider": "docs.bitmark.cloud",
                     "url": "https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4",
@@ -452,9 +450,9 @@
                 "videoLink": {
                     "provider": "",
                     "url": "https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4",
-                    "format": "mp4"
-                },
-                "image": []
+                    "format": "mp4",
+                    "duration": "PT12M31S"
+                }
             }
         }
     }

@@ -187,6 +187,7 @@ articlebit:   op_article_format COLON url CL
 documentbit: op_document_format  COLON url CL ( OPATALT words CL )? ;
 websitebit:  op_website_format   COLON url CL ( OPATALT words CL )? ;
 appbit:      op_app_format COLON ( url | telephone ) CL ( OPATALT words CL )? ;
+
 stillimagefilmbit: stillimg_one ( resource_chained )* ;
 stillimg_one: op_stillimagefilm_format COLON S* url CL ;
 
