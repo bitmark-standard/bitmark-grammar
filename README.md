@@ -14,7 +14,7 @@ You need the latest Node.js, ANTLR parser generator jar file is in the "tools" d
 Make sure to install all necessary node modules.
 If you don't have ".npmrc" in the root directory, please run this command to create it. The file should contain "legacy-peer-deps=true" line.
 ```
-$ npm onfig set legacy-peer-deps true
+$ npm config set legacy-peer-deps true
 ```
 
 Then please run these
