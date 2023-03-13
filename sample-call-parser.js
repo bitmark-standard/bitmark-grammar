@@ -1,9 +1,11 @@
-
+const fs = require('fs');
 const bg = require('./bitmark-grammar');
 
-
 try {
-  let json = bg.parse('/tmp/bug.bit');
+  let path = '/tmp/bug.bit';
+  
+  let bittext = fs.readFileSync(path, 'utf8');
+  let json = bg.parse(bittext);
   console.log(json);
 }
 catch(e) {
