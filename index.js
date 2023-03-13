@@ -28,14 +28,6 @@ exports.parse = function(filepath_or_text){
     need_error_report: false,
   };
   let bitmark = new parser.BitmarkParser(bittext, options);
-
-  try {
-    let json = bitmark.parse();
-    if (json)
-      console.log(json);
-  }
-  catch(e) {
-    console.error(e);
-  }
-
+  // Returns JSON
+  return bitmark.parse();
 };
