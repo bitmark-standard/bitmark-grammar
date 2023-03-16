@@ -93,6 +93,25 @@ class Preprocessor {
     return false;
   }
 
+  has_a_url(text) {
+    let re = /\[(&audio|&image|&video|&article|&document|&app|&website|&still-image|@src[0-9]x)[A-Za-z\-]*:(http|https|file):\/\/.*?\](?=\n|\[@)/g;  // look for one
+    let m = text.match(re);
+    return m && 0 < m.length? true : false;
+  }
+
+  escape_bracket_in_url_if_any(text) {
+    let re = /\[((&audio|&image|&video|&article|&document|&app|&website|&still-image|@src[0-9]x)[A-Za-z\-]*:(http|https|file):\/\/.*?)\](?=\n|\[@)/g;  // look for all
+    let text_repl = text;
+    let m;
+
+    while ((m = re.exec(text_repl)) !== null) {
+      let mr = m[1].replace(/\[/g, '&#91;');
+          mr = mr.replace(/\]/g, '&#93;');
+      text_repl = text_repl.replace(m[1], mr);
+    }
+    return text_repl;
+  }
+
   /* 
      Escare [] in json data. It confuses with Bitmark bits
      Uses HTML escape strings
@@ -371,12 +390,18 @@ class BitmarkParser {
 
     // Tweak the stray bitheads
     let prep = new Preprocessor(this.source);
-    let replaced, x_array;
+    let replaced = splitted_text, x_array=[], y_array=[];
+
+    if (prep.has_a_url(splitted_text)) {
+      // Brackets contained in a URL is problem. Need to escape. No need x_array
+      replaced = prep.escape_bracket_in_url_if_any(replaced);
+    }
+    if (prep.is_a_json_bit(splitted_text)) {
+      [replaced, x_array] = prep.escape_json_for_json_bits(replaced);
+    }
     
-    if (prep.is_a_json_bit(splitted_text))
-      [replaced, x_array] = prep.escape_json_for_json_bits(splitted_text);
-    else
-      [replaced, x_array] = prep.replace_stray_bitheads(splitted_text);
+    [replaced, y_array] = prep.replace_stray_bitheads(replaced);
+    x_array = y_array.concat(x_array);
     
     this.x_array = x_array;
     this.original_text = splitted_text;

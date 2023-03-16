@@ -7,6 +7,9 @@ String.prototype.lastIndexOfEnd = function(string) {
   let io = this.lastIndexOf(string);
   return io == -1 ? -1 : io + string.length;
 };
+// Unescape [ and ]
+const unescape_url = url => (url.replace(/&#91;/g, '[')).replace(/&#93;/g, ']');
+
 
 
 class BitUtil {
@@ -387,11 +390,11 @@ class BitUtil {
       let colon = cont.indexOf(':');
       let s1 = cont.substring(0, colon);
       let s2 = cont.substring(colon+1);
-      return [s1, s2];
+      return [s1, unescape_url(s2)];
     }
     else {
       let vals = cont.split(':');
-      return [vals[0], vals[1]+':'+vals[2]]; // [image, url]
+      return [vals[0], unescape_url(vals[1]+':'+vals[2])]; // [image, url]
     }
   }
   // Returns an array
@@ -399,7 +402,7 @@ class BitUtil {
     const re = /https?:\/\/([^\/\[\&\s]+)\/?/;
     let m = text.match(re);
     if (m)
-      return [m[0], m[1]];  // 0=http.. 1=www.apple.com
+      return [m[0], unescape_url(m[1])];  // 0=http.. 1=www.apple.com
     return null; // not found
   }  
   

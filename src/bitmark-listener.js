@@ -24,6 +24,7 @@ log.error = logfun;
 const camelize = s => s.replace(/-./g, x=>x[1].toUpperCase())
 
 
+
 // This class defines a complete listener for a parse tree produced by bitmarkParser.
 let BitmarkListener = function(error_listener, source, parser) {
   this.error_listener = error_listener;

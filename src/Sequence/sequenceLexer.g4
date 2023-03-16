@@ -217,8 +217,8 @@ TEL:	'tel:' ;
 DotArticleAtt:  '.article-attachment' ;
 
 STAR:  '*' ;
-URL: ('https'|'http'|'ftp'|'file') '://' [-a-zA-Z0-9+&@#/%?=~_|!:,.;()]*[-a-zA-Z0-9+&@#/%=~_|]+
-;
+// URL: ('https'|'http'|'ftp'|'file') '://' [-a-zA-Z0-9+&@#/%?=~_|!:,.;()]*[-a-zA-Z0-9+&@#/%=~_|!:,.;()]+ ; orig
+URL: ('https'|'http'|'ftp'|'file') '://' [-a-zA-Z0-9+&@#/%?=~_|!:,.;'()*$]*([-a-zA-Z0-9+&@#/%=~_|!:,.;'()*$]|'[')+ ;
 
 
 
