@@ -66,8 +66,8 @@ bit:
 	| bot_action_rating_number | bot_action_rating_stars
 
 	| bit_image | bit_imageLink | bit_imageZoom | bit_imagePrototype | bit_imageSuperWide
-	| bit_audio | bit_audioLink | bit_audioEmbed
-	| bit_video | bit_videoLink | bit_videoEmbed
+	| bit_audio | bit_audioLink | bit_audioEmbed 
+	| bit_video | bit_videoLink | bit_videoEmbed 
 	| bit_videoPortrait | bit_videoLandscape
 	| bit_stillImageFilm | bit_stillImageFilmLink | bit_stillImageFilmEmbed
 	| bit_document | bit_documentLink | bit_documentEmbed | bit_documentDownload

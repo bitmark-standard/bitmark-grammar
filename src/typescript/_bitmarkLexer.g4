@@ -45,9 +45,9 @@ BitSurvey: 	 NL OPDOT S* 'survey'    ;
 BitSurvey1: 	 NL OPDOT S* 'survey-1'    ;
 BitSurveyanon: 	 NL OPDOT S* 'survey-anonymous'    ;
 BitSurveyanon1:  NL OPDOT S* 'survey-anonymous-1'    ;
-BitVocabulary:   NL OPDOT S* 'vocabulary'  ;
-BitVocabulary1:  NL OPDOT S* 'vocabulary-1'  ;
-// Added below on 02/06/2022
+//BitVocabulary:   NL OPDOT S* 'vocabulary'  ;
+//BitVocabulary1:  NL OPDOT S* 'vocabulary-1'  ;
+
 BitNote:	 NL OPDOT S* 'note' ;
 BitInfo:  	 NL OPDOT S* 'info' ;
 BitWarning:	 NL OPDOT S* 'warning' ;
@@ -65,7 +65,6 @@ BitButtonCopytext: NL OPDOT S* 'button-copy-text' ;
 BitWbtContinue:	 NL OPDOT S* 'wbt-continue' ;
 BitLearningPathDetails: NL OPDOT S* 'learning-path-details' ;
 
-// New April 2022
 BitLearningPathLti:          NL OPDOT S* 'learning-path-lti' ;
 BitLearningPathStep:         NL OPDOT S* 'learning-path-step' ;
 BitLearningPathBook:         NL OPDOT S* 'learning-path-book' ;
@@ -111,6 +110,7 @@ BitDocumentEmbed:		NL OPDOT S* 'document-embed'   ;
 BitDocumentDownload:		NL OPDOT S* 'document-download'   ;
 BitAppLink:			NL OPDOT S* 'app-link'   ;
 BitEditorial:			NL OPDOT S* 'editorial'   ;
+
 // New Jan 30, 2023
 BitBookFrontispiece:		NL OPDOT S* 'book-frontispiece'   ;
 BitBookTitle:	       		NL OPDOT S* 'book-title'   ;

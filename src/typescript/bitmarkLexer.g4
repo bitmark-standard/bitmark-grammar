@@ -45,9 +45,9 @@ BitSurvey: 	 NL OPDOT S* 'survey'    ;
 BitSurvey1: 	 NL OPDOT S* 'survey-1'    ;
 BitSurveyanon: 	 NL OPDOT S* 'survey-anonymous'    ;
 BitSurveyanon1:  NL OPDOT S* 'survey-anonymous-1'    ;
-BitVocabulary:   NL OPDOT S* 'vocabulary'  ;
-BitVocabulary1:  NL OPDOT S* 'vocabulary-1'  ;
-// Added below on 02/06/2022
+//BitVocabulary:   NL OPDOT S* 'vocabulary'  ;
+//BitVocabulary1:  NL OPDOT S* 'vocabulary-1'  ;
+
 BitNote:	 NL OPDOT S* 'note' ;
 BitInfo:  	 NL OPDOT S* 'info' ;
 BitWarning:	 NL OPDOT S* 'warning' ;
@@ -65,7 +65,6 @@ BitButtonCopytext: NL OPDOT S* 'button-copy-text' ;
 BitWbtContinue:	 NL OPDOT S* 'wbt-continue' ;
 BitLearningPathDetails: NL OPDOT S* 'learning-path-details' ;
 
-// New April 2022
 BitLearningPathLti:          NL OPDOT S* 'learning-path-lti' ;
 BitLearningPathStep:         NL OPDOT S* 'learning-path-step' ;
 BitLearningPathBook:         NL OPDOT S* 'learning-path-book' ;
@@ -111,6 +110,7 @@ BitDocumentEmbed:		NL OPDOT S* 'document-embed'   ;
 BitDocumentDownload:		NL OPDOT S* 'document-download'   ;
 BitAppLink:			NL OPDOT S* 'app-link'   ;
 BitEditorial:			NL OPDOT S* 'editorial'   ;
+
 // New Jan 30, 2023
 BitBookFrontispiece:		NL OPDOT S* 'book-frontispiece'   ;
 BitBookTitle:	       		NL OPDOT S* 'book-title'   ;
@@ -317,36 +317,49 @@ AmpPdf:	         '&pdf' ;
 OpAmpAudio:	 '[&' S* 'audio' ;
 OpAmpImage:	 '[&' S* 'image' ;
 OpAmpImageZoom:  '[&' S* 'image-zoom' ;
-OpAmpImageWAudio:'[&' S* 'Image-with-audio' ;  // *
+OpAmpImageWAudio:'[&' S* 'Image-with-audio' ; 
 OpAmpVideo:	 '[&' S* 'video' ;
 OpAmpArticle:    '[&' S* 'article' ;
 OpAmpArticleAtt: '[&' S* 'article-attachment' ;
 OpAmpDocument:   '[&' S* 'document' ;
 OpAmpApp:        '[&' S* 'app' ;
 OpAmpWebsite:    '[&' S* 'website' ;  // NEW added 12/2/2020 usage [.message&website]..
-OpAmpStillImageFilm: '[&' S* 'still-image-film' ;  // *
+OpAmpStillImageFilm: '[&' S* 'still-image-film' ; 
 
 BracEnclose:     '[' ([A-Za-z]|ROMANIA)+ ;
 
 // Added links Aug 18 2021
-AmpAudioLink:	 '&audio-link' ; //*
-AmpImageLink:	 '&image-link' ; //*
-AmpVideoLink:	 '&video-link' ; //*
-AmpArticleLink:  '&article-link' ; //*
-AmpDocumentLink: '&document-link' ; //*
-AmpAppLink:	 '&app-link' ;  //*
-AmpWebsiteLink:  '&website-link' ; //*
+AmpAudioLink:	 '&audio-link' ; 
+AmpImageLink:	 '&image-link' ; 
+AmpVideoLink:	 '&video-link' ; 
+AmpArticleLink:  '&article-link' ; 
+AmpDocumentLink: '&document-link' ; 
+AmpAppLink:	 '&app-link' ;  
+AmpWebsiteLink:  '&website-link' ; 
 AmpStillImageFilmLink:'&still-image-film-link' ;
 
 
-OpAmpAudioLink:	 '[&' S* 'audio-link' ; //*
-OpAmpImageLink:	 '[&' S* 'image-link' ; //*
-OpAmpVideoLink:	 '[&' S* 'video-link' ; //*
-OpAmpArticleLink:'[&' S* 'article-link' ; //*
-OpAmpDocumentLink:'[&' S* 'document-link' ; //*
-OpAmpAppLink:	 '[&' S* 'app-link' ; //*
-OpAmpWebsiteLink:'[&' S* 'website-link' ;  //*
-OpAmpStillImageFilmLink:'[&' S* 'still-image-film-link' ;  //*
+OpAmpAudioLink:	 '[&' S* 'audio-link' ; 
+OpAmpImageLink:	 '[&' S* 'image-link' ; 
+OpAmpVideoLink:	 '[&' S* 'video-link' ; 
+OpAmpArticleLink:'[&' S* 'article-link' ; 
+OpAmpDocumentLink:'[&' S* 'document-link' ; 
+OpAmpAppLink:	 '[&' S* 'app-link' ; 
+OpAmpWebsiteLink:'[&' S* 'website-link' ;  
+OpAmpStillImageFilmLink:'[&' S* 'still-image-film-link' ;  
+
+AmpImageEmbed:	  '&image-embed' ; 
+AmpVideoEmbed:	  '&video-embed' ; 
+AmpAudioEmbed: 	  '&daudio-embed' ; 
+AmpDocumentEmbed: '&document-embed' ;
+AmpStillImageFilmEmbed:  '&still-image-film-embed' ;
+
+OpAmpImageEmbed:    '[&' S* 'image-embed' ; 
+OpAmpVideoEmbed:    '[&' S* 'video-embed' ; 
+OpAmpAudioEmbed:    '[&' S* 'audio-embed' ; 
+OpAmpDocumentEmbed: '[&' S* 'document-embed' ; 
+OpAmpStillImageFilmEmbed:  '[&' S* 'still-image-film-embed' ;
+
 
 BitmarkMinus: 	 ':bitmark--' ;
 BitmarkPlus:  	 ':bitmark++' ;

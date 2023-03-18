@@ -99,14 +99,12 @@ const JSON_BIT_TEMPLATES = {
     }
   },
   // New 12/2/2020
-  Res_website: {
-    type: 'website',
-    website: {
+  Res_website_link: {
+    type: 'website-link',
+    websiteLink: {
       siteName: '',  // 'apple( for www.apple.com
-      url: '',
-      title: '',  // e.g. 'Apple',
-      description: '', // e.g. 'Discover the innovative world of Apple and shop everything iPhone, iPad, Apple Watch, Mac, and Apple TV, plus explore accessories, entertainment, and expert device support.',
-    }
+      url: ''
+    },
   },
   Gap_bit: {
     type: 'gap',

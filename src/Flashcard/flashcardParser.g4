@@ -55,14 +55,6 @@ flashcard_language_1:    // added 9/2/2020
            (EQ|EQ2) sidex ( NL sidex_NL ) ( OR sidex_NL )+  NL* ( resource (NL* resource)* )?
 ;
 
-// 5/11/2021
-/*vocab:
-    BitVocabulary format CL NL* ( bitElem NL* )*
-      ( HSPL|HSPL2 ) vside (EQ|EQ2) vside 
-      ( (HSPL|HSPL2) vside (EQ|EQ2) vside )* (HSPL|HSPL2) NL*
-      ( resource (NL* resource)* )?
-;*/
-
 vocab:
     BitVocabulary format CL NL* ( bitElem NL* )*
       ( ( HSPL|HSPL2 ) vside+ ( (EQ|EQ2) vside+ )* )+
@@ -70,11 +62,9 @@ vocab:
       ( resource (NL* resource)* )?
 ;
 
-
-
 vocab_1:
-    BitVocabulary_1 format CL NL* ( bitElem NL* )* (EQ|EQ2) vside 
-    ( OR vside )* ( resource (NL* resource)* )?
+    BitVocabulary_1 format CL NL* ( bitElem NL* )*
+      (EQ|EQ2) vside+ ( OR vside+ )* ( OR resource (NL* resource)* )?
 ;
 
 sx:   atdef | s_and_w | instruction | imagebit | audiobit ;
@@ -84,6 +74,7 @@ sidex:   sx ( NL? sx )* ;
 sidex_NL:   bitElem NL* ;
 
 side:     sidex ( OR sidex )* ;
+
 side_NL:  sidex_NL ( OR sidex_NL )* ;
 
 vside:    sidex_NL ;
@@ -144,6 +135,8 @@ resource_format:
  | AmpWebsite | AmpStillImageFilm
  | AmpAudioLink | AmpImageLink | AmpVideoLink | AmpArticleLink
  | AmpDocumentLink | AmpAppLink | AmpWebsiteLink | AmpStillImageFilmLink
+ | AmpVideoEmbed | AmpAudioEmbed | AmpDocumentEmbed
+ | AmpDocumentEmbed | AmpStillImageFilmEmbed
  ;
  
 resource_format_extra:
@@ -164,21 +157,23 @@ image_format:  // No [ included
   | AmpImageZoom ( Image_type )?
   | AmpImageWAudio
   ;
-video_format:    (AmpVideo | AmpVideoLink) ( COLON Video_type )? ;
+video_format:    (AmpVideo | AmpVideoLink | AmpVideoEmbed) ( COLON Video_type )? ;
 article_format:  AmpArticle | AmpArticleLink ;
-document_format: AmpDocument | AmpDocumentLink  ;
-app_format:      AmpApp | AmpAppLink ;
+document_format: AmpDocument | AmpDocumentLink | AmpDocumentEmbed ;
+app_format:      AmpApp | AmpAppLink  ;
 website_format:  AmpWebsite | AmpWebsiteLink  ;
-stillimagefilm_format: AmpStillImageFilm | AmpStillImageFilmLink ;
+stillimagefilm_format: AmpStillImageFilm | AmpStillImageFilmLink | AmpStillImageFilmEmbed;
 
 op_article_format:  OpAmpArticleLink | OpAmpArticle ;
-op_document_format: OpAmpDocumentLink | OpAmpDocument ;
-op_app_format:      OpAmpApp | OpAmpAppLink ;
+op_document_format: OpAmpDocumentLink | OpAmpDocument | OpAmpDocumentEmbed ;
+op_app_format:      OpAmpApp | OpAmpAppLink  ;
 op_website_format:  OpAmpWebsite | OpAmpWebsiteLink ;
 op_video_format:    OpAmpVideo ( COLON Video_type )? 
 		  | OpAmpVideoLink ( COLON Video_type )?
+		  | OpAmpVideoEmbed ( COLON Video_type )?
 ;
-op_stillimagefilm_format: OpAmpStillImageFilm | OpAmpStillImageFilmLink ;
+op_stillimagefilm_format: OpAmpStillImageFilm
+		  | OpAmpStillImageFilmLink | OpAmpStillImageFilmEmbed ;
 
 articlebit:   op_article_format COLON url CL 
 	    | ArticleText
@@ -221,7 +216,8 @@ audio_format:
 ;
 op_audio_format:
     OpAmpAudio ( COLON Audio_type )? 
-  | OpAmpAudioLink ( COLON Audio_type )? 
+  | OpAmpAudioLink ( COLON Audio_type )?
+  | OpAmpAudioEmbed ( COLON Audio_type )?
 ;
 
 // Aug 8,2021 added

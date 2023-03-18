@@ -152,12 +152,14 @@ const testfiles = [
   './tests/book-bits.bit',
   './tests/code.bit',
   './tests/image-audio-video.bit',
+  './tests/links.bit',
   './tests/bot-action-response.bit',
 
   './tests/resource-all.bit',
   './tests/utfgpun.bit',
   './tests/vendor-amchart.bit',  
-
+  './tests/url-regex.bit',
+  
   // GMB
   './tests/GMB/cloze.bit',
   './tests/GMB/cloze_attachment.bit',
@@ -191,8 +193,8 @@ let load_expected = function() {
 };
 
 let get_expected = function(filepath) {
-  const re = new RegExp('<<<<'+filepath+'(\\n[^<<<<]*\\n)<<<<', 'm');  
-  
+  const re = new RegExp('<<<<'+filepath+'(\\s+[^<<<<]*\\s+)<<<<', 'm');  
+
   let m = expected_content.match(re);
   if (m) {
     return m[1];

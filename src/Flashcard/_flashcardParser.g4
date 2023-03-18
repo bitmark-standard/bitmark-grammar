@@ -55,14 +55,6 @@ flashcard_language_1:    // added 9/2/2020
            (EQ|EQ2) sidex ( NL sidex_NL ) ( OR sidex_NL )+  NL* ( resource (NL* resource)* )?
 ;
 
-// 5/11/2021
-/*vocab:
-    BitVocabulary format CL NL* ( bitElem NL* )*
-      ( HSPL|HSPL2 ) vside (EQ|EQ2) vside 
-      ( (HSPL|HSPL2) vside (EQ|EQ2) vside )* (HSPL|HSPL2) NL*
-      ( resource (NL* resource)* )?
-;*/
-
 vocab:
     BitVocabulary format CL NL* ( bitElem NL* )*
       ( ( HSPL|HSPL2 ) vside+ ( (EQ|EQ2) vside+ )* )+
@@ -70,11 +62,9 @@ vocab:
       ( resource (NL* resource)* )?
 ;
 
-
-
 vocab_1:
-    BitVocabulary_1 format CL NL* ( bitElem NL* )* (EQ|EQ2) vside 
-    ( OR vside )* ( resource (NL* resource)* )?
+    BitVocabulary_1 format CL NL* ( bitElem NL* )*
+      (EQ|EQ2) vside+ ( OR vside+ )* ( OR resource (NL* resource)* )?
 ;
 
 sx:   atdef | s_and_w | instruction | imagebit | audiobit ;
@@ -84,6 +74,7 @@ sidex:   sx ( NL? sx )* ;
 sidex_NL:   bitElem NL* ;
 
 side:     sidex ( OR sidex )* ;
+
 side_NL:  sidex_NL ( OR sidex_NL )* ;
 
 vside:    sidex_NL ;

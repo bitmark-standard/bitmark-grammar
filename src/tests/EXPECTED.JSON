@@ -817,9 +817,6 @@
                 "cn"
             ]
         },
-        "emphasized": [
-            "**Some bold text,**\n"
-        ],
         "parser": {
             "excessResources": [
                 {
@@ -840,9 +837,6 @@
             "format": "bitmark++",
             "body": "**Erfolg um jeden Preis**\n\nImmer, wenn ein Dopingfall durch die Medien geht, melden sich auch die Moralisten zu Wort.\n\n\n\nWas sind dagegen ein paar anabole Steroide ==anabole Steroide==(*synthetisch hergestellte Mittel zur Leistungssteigerung)=="
         },
-        "emphasized": [
-            "**Erfolg um jeden Preis**\n"
-        ],
         "parser": {
             "excessResources": [
                 {
@@ -11128,7 +11122,7 @@
 <<<<./tests/vocab2.bit 
 [
     {
-        "bitmark": "[.vocabulary-1]\nSeitenlinie\n[@language:de]\n==\nside line\n[@language:en-gb]\n[@ipa:ˈsʌɪdlʌɪn]\n[@pronunciation::media/audio/sideline_brit.mp3]\n--\nside line\n[@language:en-us]\n[@ipa:ˈssaɪdlaɪn]\n[@pronunciation::media/audio/sideline_us.mp3]\n--\ntouch line\n[@language:en]",
+        "bitmark": "[.vocabulary-1]\nSeitenlinie\n[@language:de]\n==\nside line\n[@language:en-gb]\n[@ipa:ˈsʌɪdlʌɪn]\n[@pronunciation:https://media/audio/sideline_brit.mp3]\n--\nside line\n[@language:en-us]\n[@ipa:ˈssaɪdlaɪn]\n[@pronunciation:https://media/audio/sideline_us.mp3]\n--\ntouch line\n[@language:en]",
         "bit": {
             "type": "vocabulary-1",
             "format": "bitmark--",
@@ -11148,8 +11142,8 @@
                 "ˈssaɪdlaɪn"
             ],
             "pronunciation": [
-                ":media/audio/sideline_brit.mp3",
-                ":media/audio/sideline_us.mp3"
+                "https://media/audio/sideline_brit.mp3",
+                "https://media/audio/sideline_us.mp3"
             ]
         }
     }
@@ -12583,4 +12577,952 @@
         }
     }
 ]
+<<<<./tests/links.bit
+[
+    {
+        "bitmark": "[.article:bitmark--&audio-link]\n[@id:119760]\n[&audio-link:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4][@src1x:https://www.youtube.com/tumb_201809210816.png][@src2x:https://www.youtube.com/tumb_201809210816.png][@width:740][@height:540][@duration:PT12M31S]",
+        "bit": {
+            "type": "article",
+            "format": "bitmark--",
+            "body": "",
+            "id": [
+                "119760"
+            ],
+            "resource": {
+                "type": "audio-link",
+                "audioLink": {
+                    "provider": "mp4",
+                    "url": "https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4",
+                    "duration": "PT12M31S",
+                    "autoplay": true,
+                    "src1x": "https://www.youtube.com/tumb_201809210816.png",
+                    "src2x": "https://www.youtube.com/tumb_201809210816.png",
+                    "width": "740",
+                    "height": "540"
+                }
+            }
+        }
+    },
+    {
+        "bitmark": "[.article:bitmark--&article-link]\n[@id:119760]\n[&article-link:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4]",
+        "bit": {
+            "type": "article",
+            "format": "bitmark--",
+            "body": "",
+            "id": [
+                "119760"
+            ],
+            "resource": {
+                "type": "article-link",
+                "articleLink": {
+                    "url": "https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4"
+                }
+            }
+        }
+    },
+    {
+        "bitmark": "[.article:bitmark--&app-link]\n[@id:119760]\n[&app-link:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4]",
+        "bit": {
+            "type": "article",
+            "format": "bitmark--",
+            "body": "",
+            "id": [
+                "119760"
+            ],
+            "resource": {
+                "type": "app-link",
+                "appLink": {
+                    "url": "https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4"
+                }
+            }
+        }
+    },
+    {
+        "bitmark": "[.app-link]\n[@id:119760]\n[&app-link:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4]",
+        "bit": {
+            "type": "app-link",
+            "format": "bitmark--",
+            "body": "",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "119760"
+            ],
+            "resource": {
+                "type": "app-link",
+                "appLink": {
+                    "url": "https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4"
+                }
+            }
+        }
+    },
+    {
+        "bitmark": "[.article:bitmark--&video-link]\n[@id:119760]\n[&video-link:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4][@src1x:https://www.youtube.com/tumb_201809210816.png][@src2x:https://www.youtube.com/tumb_201809210816.png][@width:740][@height:540][@duration:PT12M31S]",
+        "bit": {
+            "type": "article",
+            "format": "bitmark--",
+            "body": "",
+            "id": [
+                "119760"
+            ],
+            "resource": {
+                "type": "video-link",
+                "videoLink": {
+                    "provider": "docs.bitmark.cloud",
+                    "url": "https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4",
+                    "width": "740",
+                    "height": "540",
+                    "duration": "PT12M31S",
+                    "thumbnails": [
+                        {
+                            "format": "png",
+                            "width": null,
+                            "height": null,
+                            "src1x": "https://www.youtube.com/tumb_201809210816.png"
+                        },
+                        {
+                            "format": "png",
+                            "width": null,
+                            "height": null,
+                            "src2x": "https://www.youtube.com/tumb_201809210816.png"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "bitmark": "[.video-link]\n[@id:119760]\n[&video-link:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4][@src1x:https://www.youtube.com/tumb_201809210816.png][@src2x:https://www.youtube.com/tumb_201809210816.png][@width:740][@height:540][@duration:PT12M31S]",
+        "bit": {
+            "type": "video-link",
+            "format": "bitmark--",
+            "body": "",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "119760"
+            ],
+            "resource": {
+                "type": "video-link",
+                "videoLink": {
+                    "provider": "docs.bitmark.cloud",
+                    "url": "https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4",
+                    "width": "740",
+                    "height": "540",
+                    "duration": "PT12M31S",
+                    "thumbnails": [
+                        {
+                            "format": "png",
+                            "width": null,
+                            "height": null,
+                            "src1x": "https://www.youtube.com/tumb_201809210816.png"
+                        },
+                        {
+                            "format": "png",
+                            "width": null,
+                            "height": null,
+                            "src2x": "https://www.youtube.com/tumb_201809210816.png"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "bitmark": "[.article:bitmark--&still-image-film]\n[@id:119760]\n[&still-image-film:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4][@duration:PT12M31S]",
+        "bit": {
+            "type": "article",
+            "format": "bitmark--",
+            "body": "",
+            "id": [
+                "119760"
+            ],
+            "resource": {
+                "type": "still-image-film",
+                "image": {
+                    "provider": "",
+                    "url": "https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4",
+                    "format": "mp4",
+                    "duration": "PT12M31S"
+                }
+            }
+        }
+    },
+    {
+        "bitmark": "[.image-zoom]\nDie Texte und Aufgaben in diesem __fakultativen Teil B__ stellen ein Angebot für Lerner und Lerngruppen dar, die ihre sprachlichen Fähigkeiten zusätzlich erweitern möchten.\n[&image-zoom:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gesch_ft_kommerz_und_handel_958.png]",
+        "bit": {
+            "type": "image-zoom",
+            "format": "bitmark--",
+            "body": "Die Texte und Aufgaben in diesem __fakultativen Teil B__ stellen ein Angebot für Lerner und Lerngruppen dar, die ihre sprachlichen Fähigkeiten zusätzlich erweitern möchten.",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "resource": {
+                "type": "image-zoom",
+                "image": {
+                    "provider": "",
+                    "url": "",
+                    "src": "https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gesch_ft_kommerz_und_handel_958.png",
+                    "format": "png"
+                }
+            }
+        }
+    },
+    {
+        "bitmark": "[.document-link]\nDie Texte und Aufgaben in diesem __fakultativen Teil B__ stellen ein Angebot für Lerner und Lerngruppen dar, die ihre sprachlichen Fähigkeiten zusätzlich erweitern möchten.\n[&document-link:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gesch_ft_kommerz_und_handel_958.png]",
+        "bit": {
+            "type": "document-link",
+            "format": "bitmark--",
+            "body": "Die Texte und Aufgaben in diesem __fakultativen Teil B__ stellen ein Angebot für Lerner und Lerngruppen dar, die ihre sprachlichen Fähigkeiten zusätzlich erweitern möchten.",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "resource": {
+                "type": "document-link",
+                "documentLink": {
+                    "url": "https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gesch_ft_kommerz_und_handel_958.png",
+                    "provider": "docs.bitbook.education"
+                }
+            }
+        }
+    },
+    {
+        "bitmark": "[.still-image-film-link]\n[@id:119760]\n[&still-image-film-link:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4]",
+        "bit": {
+            "type": "still-image-film-link",
+            "format": "bitmark--",
+            "body": "",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "119760"
+            ],
+            "resource": {
+                "type": "still-image-film-link",
+                "videoLink": {
+                    "provider": "",
+                    "url": "https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4",
+                    "format": "mp4"
+                }
+            }
+        }
+    },
+    {
+        "bitmark": "[.still-image-film]\n[@id:119760]\n[&still-image-film:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4][@duration:PT12M31S]",
+        "bit": {
+            "type": "still-image-film",
+            "format": "bitmark--",
+            "body": "",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "119760"
+            ],
+            "resource": {
+                "type": "still-image-film",
+                "image": {
+                    "provider": "",
+                    "url": "https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4",
+                    "format": "mp4",
+                    "duration": "PT12M31S"
+                }
+            }
+        }
+    },
+    {
+        "bitmark": "[.image-link]\nDie Texte und Aufgaben in diesem __fakultativen Teil B__ stellen ein Angebot für Lerner und Lerngruppen dar, die ihre sprachlichen Fähigkeiten zusätzlich erweitern möchten.\n[&image-link:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gesch_ft_kommerz_und_handel_958.png]",
+        "bit": {
+            "type": "image-link",
+            "format": "bitmark--",
+            "body": "Die Texte und Aufgaben in diesem __fakultativen Teil B__ stellen ein Angebot für Lerner und Lerngruppen dar, die ihre sprachlichen Fähigkeiten zusätzlich erweitern möchten.",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "resource": {
+                "type": "image-link",
+                "imageLink": {
+                    "provider": "",
+                    "url": "https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gesch_ft_kommerz_und_handel_958.png",
+                    "format": "png"
+                }
+            }
+        }
+    },
+    {
+        "bitmark": "[.release-note]\n[@releaseVersion:1.0.2]\nDie Texte und Aufgaben in diesem __fakultativen Teil B__ stellen ein Angebot für Lerner und Lerngruppen dar, die ihre sprachlichen Fähigkeiten zusätzlich erweitern möchten.\n[&image:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gesch_ft_kommerz_und_handel_958.png]",
+        "bit": {
+            "type": "release-note",
+            "format": "bitmark--",
+            "body": "Die Texte und Aufgaben in diesem __fakultativen Teil B__ stellen ein Angebot für Lerner und Lerngruppen dar, die ihre sprachlichen Fähigkeiten zusätzlich erweitern möchten.",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "releaseVersion": "1.0.2"
+        },
+        "parser": {
+            "excessResources": [
+                {
+                    "type": "image",
+                    "format": "png",
+                    "src": "https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gesch_ft_kommerz_und_handel_958.png"
+                }
+            ]
+        }
+    },
+    {
+        "bitmark": "[.image-prototype]\nDie Texte und Aufgaben in diesem __fakultativen Teil B__ stellen ein Angebot für Lerner und Lerngruppen dar, die ihre sprachlichen Fähigkeiten zusätzlich erweitern möchten.\n[&image:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gesch_ft_kommerz_und_handel_958.png]",
+        "bit": {
+            "type": "image-prototype",
+            "format": "bitmark--",
+            "body": "Die Texte und Aufgaben in diesem __fakultativen Teil B__ stellen ein Angebot für Lerner und Lerngruppen dar, die ihre sprachlichen Fähigkeiten zusätzlich erweitern möchten.",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "resource": {
+                "type": "image",
+                "image": {
+                    "src": "https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gesch_ft_kommerz_und_handel_958.png",
+                    "showInIndex": false,
+                    "format": "png",
+                    "width": null,
+                    "height": null,
+                    "alt": "",
+                    "caption": "",
+                    "license": "",
+                    "copyright": ""
+                }
+            }
+        }
+    },
+    {
+        "bitmark": "[.video]\n[&video:https://docs.bitbook.education/bit-books/david_geisser/kochbuch/web-resources/videos/IMG_0288.mp4][@posterImage:https://docs.bitbook.education/bit-books/david_geisser/kochbuch/web-resources/images/dg_still_ruesten.png]",
+        "bit": {
+            "type": "video",
+            "format": "bitmark--",
+            "body": "",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "resource": {
+                "type": "video",
+                "video": {
+                    "format": "mp4",
+                    "src": "https://docs.bitbook.education/bit-books/david_geisser/kochbuch/web-resources/videos/IMG_0288.mp4",
+                    "width": null,
+                    "height": null,
+                    "duration": "",
+                    "mute": false,
+                    "autoplay": false,
+                    "allowSubtitles": false,
+                    "showSubtitles": false,
+                    "alt": "",
+                    "license": "",
+                    "copyright": "",
+                    "posterImage": {
+                        "src": "https://docs.bitbook.education/bit-books/david_geisser/kochbuch/web-resources/images/dg_still_ruesten.png",
+                        "format": "png",
+                        "width": null,
+                        "height": null
+                    }
+                }
+            }
+        }
+    },
+    {
+        "bitmark": "[.website-link]\n[@id:119761]\n[&website-link:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4]",
+        "bit": {
+            "type": "website-link",
+            "format": "bitmark--",
+            "body": "",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "119761"
+            ],
+            "resource": {
+                "type": "website-link",
+                "websiteLink": {
+                    "siteName": "",
+                    "url": "https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4"
+                }
+            }
+        }
+    },
+    {
+        "bitmark": "[.article:bitmark--&website-link]\n[@id:119760]\n[&website-link:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4]",
+        "bit": {
+            "type": "article",
+            "format": "bitmark--",
+            "body": "",
+            "id": [
+                "119760"
+            ],
+            "resource": {
+                "type": "website-link",
+                "websiteLink": {
+                    "siteName": "",
+                    "url": "https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4"
+                }
+            }
+        }
+    },
+    {
+        "bitmark": "[.audio-embed]\nDie Texte und Aufgaben in diesem __fakultativen Teil B__ stellen ein Angebot für Lerner und Lerngruppen dar, die ihre sprachlichen Fähigkeiten zusätzlich erweitern möchten.\n[&audio:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gesch_ft_kommerz_und_handel_958.mp3]",
+        "bit": {
+            "type": "audio-embed",
+            "format": "bitmark--",
+            "body": "Die Texte und Aufgaben in diesem __fakultativen Teil B__ stellen ein Angebot für Lerner und Lerngruppen dar, die ihre sprachlichen Fähigkeiten zusätzlich erweitern möchten.",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "resource": {
+                "type": "audio",
+                "audio": {
+                    "format": "mp3",
+                    "src": "https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gesch_ft_kommerz_und_handel_958.mp3"
+                }
+            }
+        }
+    },
+    {
+        "bitmark": "[.video]\nDie Texte und Aufgaben in diesem __fakultativen Teil B__ stellen ein Angebot für Lerner und Lerngruppen dar, die ihre sprachlichen Fähigkeiten zusätzlich erweitern möchten.\n[&video:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gesch_ft_kommerz_und_handel_958.wmv]",
+        "bit": {
+            "type": "video",
+            "format": "bitmark--",
+            "body": "Die Texte und Aufgaben in diesem __fakultativen Teil B__ stellen ein Angebot für Lerner und Lerngruppen dar, die ihre sprachlichen Fähigkeiten zusätzlich erweitern möchten.",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "resource": {
+                "type": "video",
+                "video": {
+                    "format": "wmv",
+                    "src": "https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gesch_ft_kommerz_und_handel_958.wmv",
+                    "width": null,
+                    "height": null,
+                    "duration": "",
+                    "mute": false,
+                    "autoplay": false,
+                    "allowSubtitles": false,
+                    "showSubtitles": false,
+                    "alt": "",
+                    "license": "",
+                    "copyright": "",
+                    "posterImage": {
+                        "src": "",
+                        "format": "",
+                        "width": null,
+                        "height": null
+                    }
+                }
+            }
+        }
+    },
+    {
+        "bitmark": "[.video-link]\nDie Texte und Aufgaben in diesem __fakultativen Teil B__ stellen ein Angebot für Lerner und Lerngruppen dar, die ihre sprachlichen Fähigkeiten zusätzlich erweitern möchten.\n[&video-link:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gesch_ft_kommerz_und_handel_958.wmv]",
+        "bit": {
+            "type": "video-link",
+            "format": "bitmark--",
+            "body": "Die Texte und Aufgaben in diesem __fakultativen Teil B__ stellen ein Angebot für Lerner und Lerngruppen dar, die ihre sprachlichen Fähigkeiten zusätzlich erweitern möchten.",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "resource": {
+                "type": "video-link",
+                "videoLink": {
+                    "provider": "docs.bitbook.education",
+                    "url": "https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gesch_ft_kommerz_und_handel_958.wmv",
+                    "width": null,
+                    "height": null,
+                    "duration": ""
+                }
+            }
+        }
+    },
+    {
+        "bitmark": "[.video-embed]\nDie Texte und Aufgaben in diesem __fakultativen Teil B__ stellen ein Angebot für Lerner und Lerngruppen dar, die ihre sprachlichen Fähigkeiten zusätzlich erweitern möchten.\n[&video-embed:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gesch_ft_kommerz_und_handel_958.wmv]",
+        "bit": {
+            "type": "video-embed",
+            "format": "bitmark--",
+            "body": "Die Texte und Aufgaben in diesem __fakultativen Teil B__ stellen ein Angebot für Lerner und Lerngruppen dar, die ihre sprachlichen Fähigkeiten zusätzlich erweitern möchten.",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "resource": {
+                "type": "video-embed",
+                "videoEmbed": {
+                    "provider": "docs.bitbook.education",
+                    "url": "https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gesch_ft_kommerz_und_handel_958.wmv",
+                    "width": null,
+                    "height": null,
+                    "duration": ""
+                }
+            }
+        }
+    },
+    {
+        "bitmark": "[.audio-embed]\nDie Texte und Aufgaben in diesem __fakultativen Teil B__ stellen ein Angebot für Lerner und Lerngruppen dar, die ihre sprachlichen Fähigkeiten zusätzlich erweitern möchten.\n[&audio-embed:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gesch_ft_kommerz_und_handel_958.mp3]",
+        "bit": {
+            "type": "audio-embed",
+            "format": "bitmark--",
+            "body": "Die Texte und Aufgaben in diesem __fakultativen Teil B__ stellen ein Angebot für Lerner und Lerngruppen dar, die ihre sprachlichen Fähigkeiten zusätzlich erweitern möchten.",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "resource": {
+                "type": "audio-embed",
+                "audioEmbed": {
+                    "format": "mp3",
+                    "src": "https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gesch_ft_kommerz_und_handel_958.mp3"
+                }
+            }
+        }
+    },
+    {
+        "bitmark": "[.document-embed]\nDie Texte und Aufgaben in diesem __fakultativen Teil B__ stellen ein Angebot für Lerner und Lerngruppen dar, die ihre sprachlichen Fähigkeiten zusätzlich erweitern möchten.\n[&document-embed:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gesch_ft_kommerz_und_handel_958.mp3]",
+        "bit": {
+            "type": "document-embed",
+            "format": "bitmark--",
+            "body": "Die Texte und Aufgaben in diesem __fakultativen Teil B__ stellen ein Angebot für Lerner und Lerngruppen dar, die ihre sprachlichen Fähigkeiten zusätzlich erweitern möchten.",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": ""
+        }
+    },
+    {
+        "bitmark": "[.still-image-film-embed]\nDie Texte und Aufgaben in diesem __fakultativen Teil B__ stellen ein Angebot für Lerner und Lerngruppen dar, die ihre sprachlichen Fähigkeiten zusätzlich erweitern möchten.\n[&still-image-film-embed:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gesch_ft_kommerz_und_handel_958.wmv]",
+        "bit": {
+            "type": "still-image-film-embed",
+            "format": "bitmark--",
+            "body": "Die Texte und Aufgaben in diesem __fakultativen Teil B__ stellen ein Angebot für Lerner und Lerngruppen dar, die ihre sprachlichen Fähigkeiten zusätzlich erweitern möchten.",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "resource": {
+                "type": "still-image-film-embed",
+                "image": {
+                    "provider": "",
+                    "url": "https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gesch_ft_kommerz_und_handel_958.wmv",
+                    "format": "wmv"
+                }
+            }
+        }
+    }
+]
+
+<<<<./tests/url-regex.bit
+[
+    {
+        "bitmark": "[.image]\n[@id:304379]\n[@stat:ok]\n[&image:https://miro.medium.com/v2/resizefit1400/1nT_Rrk9LCI5XWiLGzzOzBQ*.gif]",
+        "bit": {
+            "type": "image",
+            "format": "bitmark--",
+            "body": "",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "304379"
+            ],
+            "stat": [
+                "ok"
+            ],
+            "resource": {
+                "type": "image",
+                "image": {
+                    "src": "https://miro.medium.com/v2/resizefit1400/1nT_Rrk9LCI5XWiLGzzOzBQ*.gif",
+                    "showInIndex": false,
+                    "format": "gif",
+                    "width": null,
+                    "height": null,
+                    "alt": "",
+                    "caption": "",
+                    "license": "",
+                    "copyright": ""
+                }
+            }
+        }
+    },
+    {
+        "bitmark": "[.image]\n[@id:304379]\n[@stat:ok]\n[&image:https://miro.medium.com/v2/resizefit1400/1nT_Rrk9LCI5XWiLGzzOzBQ$.gif]",
+        "bit": {
+            "type": "image",
+            "format": "bitmark--",
+            "body": "",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "304379"
+            ],
+            "stat": [
+                "ok"
+            ],
+            "resource": {
+                "type": "image",
+                "image": {
+                    "src": "https://miro.medium.com/v2/resizefit1400/1nT_Rrk9LCI5XWiLGzzOzBQ$.gif",
+                    "showInIndex": false,
+                    "format": "gif",
+                    "width": null,
+                    "height": null,
+                    "alt": "",
+                    "caption": "",
+                    "license": "",
+                    "copyright": ""
+                }
+            }
+        }
+    },
+    {
+        "bitmark": "[.image]\n[@id:304379]\n[@stat:ok]\n[&image:https://miro.med'ium.com/v2/resizefit1400/1nT_Rrk9LCI5XWiLGzzOzBQ'.gif]",
+        "bit": {
+            "type": "image",
+            "format": "bitmark--",
+            "body": "",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "304379"
+            ],
+            "stat": [
+                "ok"
+            ],
+            "resource": {
+                "type": "image",
+                "image": {
+                    "src": "https://miro.med'ium.com/v2/resizefit1400/1nT_Rrk9LCI5XWiLGzzOzBQ'.gif",
+                    "showInIndex": false,
+                    "format": "gif",
+                    "width": null,
+                    "height": null,
+                    "alt": "",
+                    "caption": "",
+                    "license": "",
+                    "copyright": ""
+                }
+            }
+        }
+    },
+    {
+        "bitmark": "[.image]\n[@id:304379]\n[@stat:ok]\n[&image:https://miro.medium.com/v2/resizefit1400/1nT_Rrk9LCI5XWiLGzzOzBQ%.gif]",
+        "bit": {
+            "type": "image",
+            "format": "bitmark--",
+            "body": "",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "304379"
+            ],
+            "stat": [
+                "ok"
+            ],
+            "resource": {
+                "type": "image",
+                "image": {
+                    "src": "https://miro.medium.com/v2/resizefit1400/1nT_Rrk9LCI5XWiLGzzOzBQ%.gif",
+                    "showInIndex": false,
+                    "format": "gif",
+                    "width": null,
+                    "height": null,
+                    "alt": "",
+                    "caption": "",
+                    "license": "",
+                    "copyright": ""
+                }
+            }
+        }
+    },
+    {
+        "bitmark": "[.image]\n[@id:304379]\n[@stat:ok]\n[&image:https://miro.medium.com/v2/resizefit1400/1nT_Rrk9LCI5XWiLGzzOzBQ&.gif]",
+        "bit": {
+            "type": "image",
+            "format": "bitmark--",
+            "body": "",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "304379"
+            ],
+            "stat": [
+                "ok"
+            ],
+            "resource": {
+                "type": "image",
+                "image": {
+                    "src": "https://miro.medium.com/v2/resizefit1400/1nT_Rrk9LCI5XWiLGzzOzBQ&.gif",
+                    "showInIndex": false,
+                    "format": "gif",
+                    "width": null,
+                    "height": null,
+                    "alt": "",
+                    "caption": "",
+                    "license": "",
+                    "copyright": ""
+                }
+            }
+        }
+    },
+    {
+        "bitmark": "[.image]\n[@id:304379]\n[@stat:ok]\n[&image:https://miro.medium.com/v2/resizefit1400/1nT_Rrk9LCI5XWiLGzzOzBQ+.gif]",
+        "bit": {
+            "type": "image",
+            "format": "bitmark--",
+            "body": "",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "304379"
+            ],
+            "stat": [
+                "ok"
+            ],
+            "resource": {
+                "type": "image",
+                "image": {
+                    "src": "https://miro.medium.com/v2/resizefit1400/1nT_Rrk9LCI5XWiLGzzOzBQ+.gif",
+                    "showInIndex": false,
+                    "format": "gif",
+                    "width": null,
+                    "height": null,
+                    "alt": "",
+                    "caption": "",
+                    "license": "",
+                    "copyright": ""
+                }
+            }
+        }
+    },
+    {
+        "bitmark": "[.image]\n[@id:304379]\n[@stat:ok]\n[&image:https://miro.medium.com/v2/resizefit1400/1nT_Rrk9LCI5XWiLG,zzOzBQ.gif]",
+        "bit": {
+            "type": "image",
+            "format": "bitmark--",
+            "body": "",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "304379"
+            ],
+            "stat": [
+                "ok"
+            ],
+            "resource": {
+                "type": "image",
+                "image": {
+                    "src": "https://miro.medium.com/v2/resizefit1400/1nT_Rrk9LCI5XWiLG,zzOzBQ.gif",
+                    "showInIndex": false,
+                    "format": "gif",
+                    "width": null,
+                    "height": null,
+                    "alt": "",
+                    "caption": "",
+                    "license": "",
+                    "copyright": ""
+                }
+            }
+        }
+    },
+    {
+        "bitmark": "[.image]\n[@id:304379]\n[@stat:ok]\n[&image:https://miro.medium.com/v2/resizefit1400/1nT_Rrk9LCI5XWiLGzzOzBQ;.gif]",
+        "bit": {
+            "type": "image",
+            "format": "bitmark--",
+            "body": "",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "304379"
+            ],
+            "stat": [
+                "ok"
+            ],
+            "resource": {
+                "type": "image",
+                "image": {
+                    "src": "https://miro.medium.com/v2/resizefit1400/1nT_Rrk9LCI5XWiLGzzOzBQ;.gif",
+                    "showInIndex": false,
+                    "format": "gif",
+                    "width": null,
+                    "height": null,
+                    "alt": "",
+                    "caption": "",
+                    "license": "",
+                    "copyright": ""
+                }
+            }
+        }
+    },
+    {
+        "bitmark": "[.image]\n[@stat:ok]\n[@id:304379]\n[&image:https://miro.medium.com/v2/resizefit1400/1nT_Rrk9LCI5XWiLGzzOzBQ=.gif]",
+        "bit": {
+            "type": "image",
+            "format": "bitmark--",
+            "body": "",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "stat": [
+                "ok"
+            ],
+            "id": [
+                "304379"
+            ],
+            "resource": {
+                "type": "image",
+                "image": {
+                    "src": "https://miro.medium.com/v2/resizefit1400/1nT_Rrk9LCI5XWiLGzzOzBQ=.gif",
+                    "showInIndex": false,
+                    "format": "gif",
+                    "width": null,
+                    "height": null,
+                    "alt": "",
+                    "caption": "",
+                    "license": "",
+                    "copyright": ""
+                }
+            }
+        }
+    },
+    {
+        "bitmark": "[.image]\n[@id:304379]\n[@stat:ok]\n[&image:https://miro.medium.com/v2/resizefit1400/1nT_Rrk9LCI5XWiLGz(zOzBQ)'.gif]",
+        "bit": {
+            "type": "image",
+            "format": "bitmark--",
+            "body": "",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "304379"
+            ],
+            "stat": [
+                "ok"
+            ],
+            "resource": {
+                "type": "image",
+                "image": {
+                    "src": "https://miro.medium.com/v2/resizefit1400/1nT_Rrk9LCI5XWiLGz(zOzBQ)'.gif",
+                    "showInIndex": false,
+                    "format": "gif",
+                    "width": null,
+                    "height": null,
+                    "alt": "",
+                    "caption": "",
+                    "license": "",
+                    "copyright": ""
+                }
+            }
+        }
+    },
+    {
+        "bitmark": "[.image]\n[@id:304379]\n[@stat:ngk]\n[&image:https://miro.medium.com/v2/resizefit1400/1nT_Rrk9LCI5XWiLGzzOzBQ[1].gif]",
+        "bit": {
+            "type": "image",
+            "format": "bitmark--",
+            "body": "",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "304379"
+            ],
+            "stat": [
+                "ngk"
+            ],
+            "resource": {
+                "type": "image",
+                "image": {
+                    "src": "https://miro.medium.com/v2/resizefit1400/1nT_Rrk9LCI5XWiLGzzOzBQ[1].gif",
+                    "showInIndex": false,
+                    "format": "gif",
+                    "width": null,
+                    "height": null,
+                    "alt": "",
+                    "caption": "",
+                    "license": "",
+                    "copyright": ""
+                }
+            }
+        }
+    },
+    {
+        "bitmark": "[.image]\n[@id:304379]\n[@stat:ngk]\n[&video-link:https://miro.medium.com/v2/resizefit1400/1nT_Rrk9LCI5XWiLGzzOzBQ[].gif]\n[&image-link:https://miro.medium.com/v2/resizefit1400/1nT_Rrk9LCI5XWiLGzzOzBQ[].gif]",
+        "bit": {
+            "type": "image",
+            "format": "bitmark--",
+            "body": "",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "304379"
+            ],
+            "stat": [
+                "ngk"
+            ],
+            "resource": {
+                "type": "image-link",
+                "image": {
+                    "provider": "",
+                    "url": "",
+                    "src": "https://miro.medium.com/v2/resizefit1400/1nT_Rrk9LCI5XWiLGzzOzBQ[].gif",
+                    "format": "gif"
+                }
+            }
+        },
+        "parser": {
+            "excessResources": [
+                {
+                    "type": "video-link",
+                    "format": "gif",
+                    "src": "https://miro.medium.com/v2/resizefit1400/1nT_Rrk9LCI5XWiLGzzOzBQ[].gif"
+                }
+            ]
+        }
+    }
+]
 <<<<
+  
