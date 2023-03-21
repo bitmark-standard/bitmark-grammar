@@ -169,7 +169,7 @@ AmpPdf:	         '&pdf' ;
 OpAmpAudio:	 '[&' S* 'audio' ;
 OpAmpImage:	 '[&' S* 'image' ;
 OpAmpImageZoom:  '[&' S* 'image-zoom' ;
-OpAmpImageWAudio:'[&' S* 'Image-with-audio' ; 
+OpAmpImageWAudio:'[&' S* 'image-with-audio' ; 
 OpAmpVideo:	 '[&' S* 'video' ;
 OpAmpArticle:    '[&' S* 'article' ;
 OpAmpArticleAtt: '[&' S* 'article-attachment' ;

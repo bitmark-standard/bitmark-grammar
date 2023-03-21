@@ -92,7 +92,7 @@ Https:   	 'https://'  ;
 AmpAudio:	 '&audio' ;
 AmpImage:	 '&image' ;
 AmpImageZoom:    '&image-zoom' ;
-AmpImageWAudio:	 '&image-with-audio' ;  // *
+AmpImageWAudio:	 '&image-with-audio' ;
 AmpVideo:	 '&video' ;
 AmpArticle:      '&article' ;
 AmpDocument:     '&document' ;
@@ -104,7 +104,7 @@ AmpPdf:	         '&pdf' ;
 OpAmpAudio:	 '[&' S* 'audio' ;
 OpAmpImage:	 '[&' S* 'image' ;
 OpAmpImageZoom:  '[&' S* 'image-zoom' ;
-OpAmpImageWAudio:'[&' S* 'Image-with-audio' ; 
+OpAmpImageWAudio:'[&' S* 'image-with-audio' ; 
 OpAmpVideo:	 '[&' S* 'video' ;
 OpAmpArticle:    '[&' S* 'article' ;
 OpAmpArticleAtt: '[&' S* 'article-attachment' ;
@@ -172,7 +172,6 @@ TEL:	'tel:' ;
 DotArticleAtt:  '.article-attachment' ;
 
 STAR:  '*' ;
-// URL: ('https'|'http'|'ftp'|'file') '://' [-a-zA-Z0-9+&@#/%?=~_|!:,.;()]*[-a-zA-Z0-9+&@#/%=~_|!:,.;()]+ ; orig
 URL: ('https'|'http'|'ftp'|'file') '://' [-a-zA-Z0-9+&@#/%?=~_|!:,.;'()*$]*([-a-zA-Z0-9+&@#/%=~_|!:,.;'()*$]|'[')+ ;
 
 

@@ -1196,7 +1196,7 @@ let sequenceLexer = /** @class */ (() => {
         "\x02\x02\x02\u059C\u059E\x05\x05\x03\x02\u059D\u059C\x03\x02\x02\x02\u059E" +
         "\u05A1\x03\x02\x02\x02\u059F\u059D\x03\x02\x02\x02\u059F\u05A0\x03\x02" +
         "\x02\x02\u05A0\u05A2\x03\x02\x02\x02\u05A1\u059F\x03\x02\x02\x02\u05A2" +
-        "\u05A3\x07K\x02\x02\u05A3\u05A4\x07o\x02\x02\u05A4\u05A5\x07c\x02\x02" +
+        "\u05A3\x07k\x02\x02\u05A3\u05A4\x07o\x02\x02\u05A4\u05A5\x07c\x02\x02" +
         "\u05A5\u05A6\x07i\x02\x02\u05A6\u05A7\x07g\x02\x02\u05A7\u05A8\x07/\x02" +
         "\x02\u05A8\u05A9\x07y\x02\x02\u05A9\u05AA\x07k\x02\x02\u05AA\u05AB\x07" +
         "v\x02\x02\u05AB\u05AC\x07j\x02\x02\u05AC\u05AD\x07/\x02\x02\u05AD\u05AE" +

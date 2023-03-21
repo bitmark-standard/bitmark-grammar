@@ -1202,7 +1202,7 @@ let chatLexer = /** @class */ (() => {
         "\x02\u05AA\u05AE\x03\x02\x02\x02\u05AB\u05AD\x05\x05\x03\x02\u05AC\u05AB" +
         "\x03\x02\x02\x02\u05AD\u05B0\x03\x02\x02\x02\u05AE\u05AC\x03\x02\x02\x02" +
         "\u05AE\u05AF\x03\x02\x02\x02\u05AF\u05B1\x03\x02\x02\x02\u05B0\u05AE\x03" +
-        "\x02\x02\x02\u05B1\u05B2\x07K\x02\x02\u05B2\u05B3\x07o\x02\x02\u05B3\u05B4" +
+        "\x02\x02\x02\u05B1\u05B2\x07k\x02\x02\u05B2\u05B3\x07o\x02\x02\u05B3\u05B4" +
         "\x07c\x02\x02\u05B4\u05B5\x07i\x02\x02\u05B5\u05B6\x07g\x02\x02\u05B6" +
         "\u05B7\x07/\x02\x02\u05B7\u05B8\x07y\x02\x02\u05B8\u05B9\x07k\x02\x02" +
         "\u05B9\u05BA\x07v\x02\x02\u05BA\u05BB\x07j\x02\x02\u05BB\u05BC\x07/\x02" +

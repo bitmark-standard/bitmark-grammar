@@ -1234,7 +1234,7 @@ let clozeLexer = /** @class */ (() => {
         "\u05E2\u05E3\x07(\x02\x02\u05E3\u05E7\x03\x02\x02\x02\u05E4\u05E6\x05" +
         "\x03\x02\x02\u05E5\u05E4\x03\x02\x02\x02\u05E6\u05E9\x03\x02\x02\x02\u05E7" +
         "\u05E5\x03\x02\x02\x02\u05E7\u05E8\x03\x02\x02\x02\u05E8\u05EA\x03\x02" +
-        "\x02\x02\u05E9\u05E7\x03\x02\x02\x02\u05EA\u05EB\x07K\x02\x02\u05EB\u05EC" +
+        "\x02\x02\u05E9\u05E7\x03\x02\x02\x02\u05EA\u05EB\x07k\x02\x02\u05EB\u05EC" +
         "\x07o\x02\x02\u05EC\u05ED\x07c\x02\x02\u05ED\u05EE\x07i\x02\x02\u05EE" +
         "\u05EF\x07g\x02\x02\u05EF\u05F0\x07/\x02\x02\u05F0\u05F1\x07y\x02\x02" +
         "\u05F1\u05F2\x07k\x02\x02\u05F2\u05F3\x07v\x02\x02\u05F3\u05F4\x07j\x02" +
