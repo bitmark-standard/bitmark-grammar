@@ -241,7 +241,7 @@ fragment POLISH:   [ĄąĆćĘęŁłŃńÓóŚśŹźŻż] ;
 fragment TRANSL:   [ČčĎďĚěǦǧȞȟǏǐJ̌ǰǨǩĽľŇňǑǒŘřŠšŤťǓǔǙǚŽžǮǯ] ;
 fragment EURO:     [☞→↓←↑€“”’…„́«»◇◼︎◎ʌɪˈ_̈₂‰≤≥‘≠Ω] ;
 fragment IPA:	   [ɛɜːɡʊuɔɪəɒæʌʉo] ;
-fragment JAPANESE : [\p{Script=Hiragana}\p{Script=Katakana}\p{Script=Han}\u{FF01}-\u{FF20}\u{FF61}-\u{FF64}\u{2460}-\u{24FF}\u{3001}-\u{3002}\u{3220}-\u{325F}] ;
+fragment JAPANESE : [ー「」『』＾〜\p{Script=Hiragana}\p{Script=Katakana}\p{Script=Han}\u{FF01}-\u{FF20}\u{FF61}-\u{FF64}\u{2460}-\u{24FF}\u{3001}-\u{3002}\u{3220}-\u{325F}] ;
 
 
 fragment
@@ -305,7 +305,7 @@ Https:   	 'https://'  ;
 AmpAudio:	 '&audio' ;
 AmpImage:	 '&image' ;
 AmpImageZoom:    '&image-zoom' ;
-AmpImageWAudio:	 '&image-with-audio' ;  // *
+AmpImageWAudio:	 '&image-with-audio' ;
 AmpVideo:	 '&video' ;
 AmpArticle:      '&article' ;
 AmpDocument:     '&document' ;
@@ -385,7 +385,6 @@ TEL:	'tel:' ;
 DotArticleAtt:  '.article-attachment' ;
 
 STAR:  '*' ;
-// URL: ('https'|'http'|'ftp'|'file') '://' [-a-zA-Z0-9+&@#/%?=~_|!:,.;()]*[-a-zA-Z0-9+&@#/%=~_|!:,.;()]+ ; orig
 URL: ('https'|'http'|'ftp'|'file') '://' [-a-zA-Z0-9+&@#/%?=~_|!:,.;'()*$]*([-a-zA-Z0-9+&@#/%=~_|!:,.;'()*$]|'[')+ ;
 
 

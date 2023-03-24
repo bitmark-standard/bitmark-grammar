@@ -1,4 +1,4 @@
-// Generated from ./Sequence/sequenceParser.g4 by ANTLR 4.7.3-SNAPSHOT
+// Generated from ./Sequence/sequenceParser.g4 by ANTLR 4.9.0-SNAPSHOT
 
 
 import { ATN } from "antlr4ts/atn/ATN";
@@ -345,6 +345,10 @@ export class sequenceParser extends Parser {
 
 	// @Override
 	public get serializedATN(): string { return sequenceParser._serializedATN; }
+
+	protected createFailedPredicateException(predicate?: string, message?: string): FailedPredicateException {
+		return new FailedPredicateException(this, predicate, message);
+	}
 
 	constructor(input: TokenStream) {
 		super(input);
