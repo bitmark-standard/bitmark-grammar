@@ -371,9 +371,16 @@ class BitUtil {
   }
   // [#string]
   get_title(code) {
-    const re = /\[#+([^\]]*)\]/;
-    let val = this.get_bit_value(re, code);
-    return val;
+    if (!code.startsWith('[') && 1 < code.match(/\]/g).length) {
+      // Remove the first [ and last ]
+      let s = code.replace(/.$/, '').replace(/^\[#+/,'');
+      return s.trim();
+    }
+    else {
+      const re = /\[#+([^\]]*)\]/;
+      let val = this.get_bit_value(re, code);
+      return val;
+    }
   }
   get_numhash(code) {
     const re = /(#+)/;

@@ -103,7 +103,8 @@ ml_example:
 
 //
 bitElem:
-     item
+     NOTBITMARK
+   | item
    | atdef
    | reference 
    | title
@@ -358,15 +359,13 @@ s_and_w:
 ;
 
 // Not sure what this is.
-
-bracket_escaped:
-    OPESC  s_and_w CL
-;
-
 clnsp:		CL ;  // without spaces
 sspl:		SSPL|SSPL2 ;
 
-words: ( STRING | SENTENCE | BARSTRING | AMP | Greater ~(Greater) | Less ~(Less)
+words: ( STRING
+       | SENTENCE
+       | NOTBITMARK
+       | BARSTRING | AMP | Greater ~(Greater) | Less ~(Less)
        | RightArrow | RightAngle
        )+ ;
 

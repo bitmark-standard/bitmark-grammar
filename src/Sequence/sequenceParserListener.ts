@@ -78,7 +78,6 @@ import { AnchorContext } from "./sequenceParser";
 import { DcolonContext } from "./sequenceParser";
 import { S_and_wContext } from "./sequenceParser";
 import { DclinesContext } from "./sequenceParser";
-import { Bracket_escapedContext } from "./sequenceParser";
 import { ClnspContext } from "./sequenceParser";
 import { SsplContext } from "./sequenceParser";
 import { WordsContext } from "./sequenceParser";
@@ -914,17 +913,6 @@ export interface sequenceParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitDclines?: (ctx: DclinesContext) => void;
-
-	/**
-	 * Enter a parse tree produced by `sequenceParser.bracket_escaped`.
-	 * @param ctx the parse tree
-	 */
-	enterBracket_escaped?: (ctx: Bracket_escapedContext) => void;
-	/**
-	 * Exit a parse tree produced by `sequenceParser.bracket_escaped`.
-	 * @param ctx the parse tree
-	 */
-	exitBracket_escaped?: (ctx: Bracket_escapedContext) => void;
 
 	/**
 	 * Enter a parse tree produced by `sequenceParser.clnsp`.

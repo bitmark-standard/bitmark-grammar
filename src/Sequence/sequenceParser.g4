@@ -42,6 +42,7 @@ mmm:    DBLMI  ;
 //
 bitElem:
      LIST_LINE
+   | NOTBITMARK
    | dclines  // Added 12/18/2020
    | gap
    | atdef
@@ -302,26 +303,17 @@ s_and_w:
 	 | S* COLON S*
 	 | '&' S* 
 	 | DBLEQ | URL
-	 | bracket_escaped    // Added 12/18/2020
 ;
 
-
-//item:  
-//    OPC s_and_w (COLON|words)* (COLON S*)? CL 
-//;
-
-// DCANY:  '::' NL* .*? NL* '::' NL+ ;
 dclines: DCANY ;
-
-
-bracket_escaped:
-    OPESC  s_and_w+ CL?
-;
 
 clnsp:		CL ;  // without spaces
 sspl:		SSPL|SSPL2 ;
 
-words:          ( SENTENCE | BARSTRING| LIST_LINE
+words:          ( SENTENCE
+		| NOTBITMARK	
+		| BARSTRING
+		| LIST_LINE
 		| AMP | Greater ~(Greater) | Less ~(Less) 
 		| RightArrow | RightAngle 
 		| AmpArticle | AmpDocument | AmpDocumentLink | AmpWebsite

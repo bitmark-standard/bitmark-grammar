@@ -77,7 +77,8 @@ match_all:
 
 // remove emphasis_ 12/3/2021
 bitElem:
-     list_line
+     NOTBITMARK
+   | list_line
    | dclines
    | colcoltext
    | gap
@@ -246,7 +247,10 @@ clnsp:		CL ;  // without spaces
 or_:		OR ;
 
 // Removed STAR 12/3/2021 SENTENCE has a STAR in it
-words:          ( SENTENCE | BARSTRING | AMP | Greater ~(Greater) | Less ~(Less) 
+words:          ( SENTENCE
+		| NOTBITMARK
+		| BARSTRING
+		| AMP | Greater ~(Greater) | Less ~(Less) 
 		| RightArrow | RightAngle
 		)+ ;
 

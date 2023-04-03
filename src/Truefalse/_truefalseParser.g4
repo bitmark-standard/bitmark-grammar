@@ -64,6 +64,7 @@ choice_star:  item? OPR (s_and_w|NL)+ CL ;  // [*
 //
 bitElem:
      LIST_LINE
+   | NOTBITMARK
    | dclines
    | gap
    | atdef
@@ -120,16 +121,14 @@ s_and_w:
 	 | URL
 ;
 
-dclines: DCANY ;
-
-bracket_escaped:
-    OPESC  s_and_w CL
-;
-
+dclines:        DCANY ;
 clnsp:		CL ;  // without spaces
 sspl:		SSPL|SSPL2 ;
 
-words:          ( SENTENCE | BARSTRING | AMP | Greater ~(Greater) | Less ~(Less) 
+words:          ( SENTENCE
+		| NOTBITMARK
+		| BARSTRING
+		| AMP | Greater ~(Greater) | Less ~(Less) 
 		| RightArrow | RightAngle
 		)+ ;
 sp: 		S ;

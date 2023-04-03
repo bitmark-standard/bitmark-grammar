@@ -98,7 +98,6 @@ import { AnchorContext } from "./choiceParser";
 import { DclinesContext } from "./choiceParser";
 import { LinesContext } from "./choiceParser";
 import { S_and_wContext } from "./choiceParser";
-import { Bracket_escapedContext } from "./choiceParser";
 import { ClnspContext } from "./choiceParser";
 import { SsplContext } from "./choiceParser";
 import { WordsContext } from "./choiceParser";
@@ -1154,17 +1153,6 @@ export interface choiceParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitS_and_w?: (ctx: S_and_wContext) => void;
-
-	/**
-	 * Enter a parse tree produced by `choiceParser.bracket_escaped`.
-	 * @param ctx the parse tree
-	 */
-	enterBracket_escaped?: (ctx: Bracket_escapedContext) => void;
-	/**
-	 * Exit a parse tree produced by `choiceParser.bracket_escaped`.
-	 * @param ctx the parse tree
-	 */
-	exitBracket_escaped?: (ctx: Bracket_escapedContext) => void;
 
 	/**
 	 * Enter a parse tree produced by `choiceParser.clnsp`.

@@ -165,6 +165,7 @@ footer:			   (NL* s_and_w)+ ;
 //
 bitElem:
      LIST_LINE
+   | NOTBITMARK
    | dclines
    | gap
    | reference
@@ -630,20 +631,21 @@ s_and_w:
      | '&' S*
      | DBLEQ
      | URL
-     | bracket_escaped    // Added 12/18/2020
+//     | bracket_escaped    // Added 12/18/2020
 ;
 
 dclines: DCANY ;
 
-bracket_escaped:
-    OPESC  s_and_w+ CL?
-;
+//bracket_escaped:
+//    OPESC  s_and_w+ CL?
+//;
 
 clnsp:		CL ;  // without spaces
 sspl:		SSPL|SSPL2 ;
 
 
 words:          ( sentence
+		| NOTBITMARK
 		| BARSTRING
 		| AMP | Greater ~(Greater) | Less ~(Less) 
 		| RightArrow | RightAngle

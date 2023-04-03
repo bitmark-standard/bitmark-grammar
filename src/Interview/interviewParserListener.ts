@@ -93,7 +93,6 @@ import { AnchorContext } from "./interviewParser";
 import { DcolonContext } from "./interviewParser";
 import { LinesContext } from "./interviewParser";
 import { S_and_wContext } from "./interviewParser";
-import { Bracket_escapedContext } from "./interviewParser";
 import { ClnspContext } from "./interviewParser";
 import { SsplContext } from "./interviewParser";
 import { WordsContext } from "./interviewParser";
@@ -1094,17 +1093,6 @@ export interface interviewParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitS_and_w?: (ctx: S_and_wContext) => void;
-
-	/**
-	 * Enter a parse tree produced by `interviewParser.bracket_escaped`.
-	 * @param ctx the parse tree
-	 */
-	enterBracket_escaped?: (ctx: Bracket_escapedContext) => void;
-	/**
-	 * Exit a parse tree produced by `interviewParser.bracket_escaped`.
-	 * @param ctx the parse tree
-	 */
-	exitBracket_escaped?: (ctx: Bracket_escapedContext) => void;
 
 	/**
 	 * Enter a parse tree produced by `interviewParser.clnsp`.

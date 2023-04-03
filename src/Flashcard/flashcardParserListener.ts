@@ -85,7 +85,6 @@ import { AnchorContext } from "./flashcardParser";
 import { DcolonContext } from "./flashcardParser";
 import { LinesContext } from "./flashcardParser";
 import { S_and_wContext } from "./flashcardParser";
-import { Bracket_escapedContext } from "./flashcardParser";
 import { ClnspContext } from "./flashcardParser";
 import { SsplContext } from "./flashcardParser";
 import { WordsContext } from "./flashcardParser";
@@ -998,17 +997,6 @@ export interface flashcardParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitS_and_w?: (ctx: S_and_wContext) => void;
-
-	/**
-	 * Enter a parse tree produced by `flashcardParser.bracket_escaped`.
-	 * @param ctx the parse tree
-	 */
-	enterBracket_escaped?: (ctx: Bracket_escapedContext) => void;
-	/**
-	 * Exit a parse tree produced by `flashcardParser.bracket_escaped`.
-	 * @param ctx the parse tree
-	 */
-	exitBracket_escaped?: (ctx: Bracket_escapedContext) => void;
 
 	/**
 	 * Enter a parse tree produced by `flashcardParser.clnsp`.

@@ -24,6 +24,7 @@ clozes:
 
 bitElem:
      LIST_LINE
+   | NOTBITMARK
    | dclines  // Added 12/18/2020
    | gap
    | atdef
@@ -341,7 +342,10 @@ listline_:	LIST_LINE ;
 
 numeric:	NUMERIC ;
 string:		STRING ;
-words:          ( SENTENCE | BARSTRING | AMP | Greater ~(Greater) | Less ~(Less) 
+words:          ( SENTENCE
+		| NOTBITMARK
+		| BARSTRING
+		| AMP | Greater ~(Greater) | Less ~(Less) 
 		| RightArrow | RightAngle
 		)+ ;
 sp: 		S ;

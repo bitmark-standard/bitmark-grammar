@@ -78,6 +78,7 @@ highlight_il_choice:
 //
 bitElem:
      LIST_LINE
+   | NOTBITMARK
    | dclines
    | gap
    | atdef
@@ -378,15 +379,13 @@ s_and_w:
 	 | URL
 ;
 
-bracket_escaped:
-    OPESC  s_and_w CL
-;
-
-
 clnsp:		CL ;  // without spaces
 sspl:		SSPL|SSPL2 ;
 
-words:          ( SENTENCE | BARSTRING | AMP | Greater ~(Greater) | Less ~(Less) 
+words:          ( SENTENCE
+		| BARSTRING
+		| NOTBITMARK
+		| AMP | Greater ~(Greater) | Less ~(Less) 
 		| RightArrow | RightAngle
 		)+ ;
 sp: 		S ;

@@ -82,6 +82,7 @@ vside:    sidex_NL ;
 //
 bitElem:
      LIST_LINE
+   | NOTBITMARK
    | gap
    | atdef
    | reference 
@@ -139,14 +140,13 @@ s_and_w:
 ;
 
 
-bracket_escaped:
-    OPESC  s_and_w CL
-;
-
 clnsp:		CL ;  // without spaces
 sspl:		SSPL|SSPL2 ;
 
-words:          ( SENTENCE | BARSTRING | AMP | Greater ~(Greater) | Less ~(Less) 
+words:          ( SENTENCE
+		| NOTBITMARK
+		| BARSTRING
+		| AMP | Greater ~(Greater) | Less ~(Less) 
 		| RightArrow | RightAngle
 		)+ ;
 sp: 		S ;

@@ -83,7 +83,6 @@ import { AnchorContext } from "./truefalseParser";
 import { LinesContext } from "./truefalseParser";
 import { S_and_wContext } from "./truefalseParser";
 import { DclinesContext } from "./truefalseParser";
-import { Bracket_escapedContext } from "./truefalseParser";
 import { ClnspContext } from "./truefalseParser";
 import { SsplContext } from "./truefalseParser";
 import { WordsContext } from "./truefalseParser";
@@ -974,17 +973,6 @@ export interface truefalseParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitDclines?: (ctx: DclinesContext) => void;
-
-	/**
-	 * Enter a parse tree produced by `truefalseParser.bracket_escaped`.
-	 * @param ctx the parse tree
-	 */
-	enterBracket_escaped?: (ctx: Bracket_escapedContext) => void;
-	/**
-	 * Exit a parse tree produced by `truefalseParser.bracket_escaped`.
-	 * @param ctx the parse tree
-	 */
-	exitBracket_escaped?: (ctx: Bracket_escapedContext) => void;
 
 	/**
 	 * Enter a parse tree produced by `truefalseParser.clnsp`.

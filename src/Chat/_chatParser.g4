@@ -49,6 +49,7 @@ sspl_chat_partner: sspl chat_partner ;
 //
 bitElem:
      LIST_LINE
+   | NOTBITMARK
    | gap
    | atdef
    | reference 
@@ -105,14 +106,13 @@ s_and_w:
 	 | URL
 ;
 
-bracket_escaped:
-    OPESC  s_and_w CL
-;
-
 clnsp:		CL ;  // without spaces
 sspl:		SSPL|SSPL2 ;
 
-words:          ( SENTENCE | BARSTRING | AMP | Greater ~(Greater) | Less ~(Less)
+words:          ( SENTENCE
+		| NOTBITMARK
+		| BARSTRING
+		| AMP | Greater ~(Greater) | Less ~(Less)
 		| DBLEQ | RightArrow | RightAngle )+ ;
 
 sp: 		S ;

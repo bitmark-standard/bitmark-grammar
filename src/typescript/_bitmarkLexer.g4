@@ -172,7 +172,7 @@ Video_type: MP3 | MP2 | MP4 | FLV | GIF | WMV | MPEG | MPG ;
 OPDOLL:		'[' S* '$' ;      // Dollar
 OPBUL:          '[' S* '•' ;      // Bullet
 
-OPESC:          '[^' [!@:+&%_$.\-]+  ;      // Escaped bracketted def
+//OPESC:          '[^' [!@:+&%_$.\-]+ ;      // Escaped bracketted def
 //OPAMP:	'[&' ;	    // Get conflict if exist.
 
 OPRANGLES:      '[' '►' S* ;  // Right angle

@@ -219,7 +219,6 @@ import { AnchorContext } from "./bitmarkParser";
 import { LinesContext } from "./bitmarkParser";
 import { S_and_wContext } from "./bitmarkParser";
 import { DclinesContext } from "./bitmarkParser";
-import { Bracket_escapedContext } from "./bitmarkParser";
 import { ClnspContext } from "./bitmarkParser";
 import { SsplContext } from "./bitmarkParser";
 import { WordsContext } from "./bitmarkParser";
@@ -2607,17 +2606,6 @@ export interface bitmarkParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitDclines?: (ctx: DclinesContext) => void;
-
-	/**
-	 * Enter a parse tree produced by `bitmarkParser.bracket_escaped`.
-	 * @param ctx the parse tree
-	 */
-	enterBracket_escaped?: (ctx: Bracket_escapedContext) => void;
-	/**
-	 * Exit a parse tree produced by `bitmarkParser.bracket_escaped`.
-	 * @param ctx the parse tree
-	 */
-	exitBracket_escaped?: (ctx: Bracket_escapedContext) => void;
 
 	/**
 	 * Enter a parse tree produced by `bitmarkParser.clnsp`.

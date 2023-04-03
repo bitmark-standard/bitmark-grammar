@@ -78,7 +78,6 @@ import { DollaransContext } from "./chatParser";
 import { AnchorContext } from "./chatParser";
 import { LinesContext } from "./chatParser";
 import { S_and_wContext } from "./chatParser";
-import { Bracket_escapedContext } from "./chatParser";
 import { ClnspContext } from "./chatParser";
 import { SsplContext } from "./chatParser";
 import { WordsContext } from "./chatParser";
@@ -914,17 +913,6 @@ export interface chatParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitS_and_w?: (ctx: S_and_wContext) => void;
-
-	/**
-	 * Enter a parse tree produced by `chatParser.bracket_escaped`.
-	 * @param ctx the parse tree
-	 */
-	enterBracket_escaped?: (ctx: Bracket_escapedContext) => void;
-	/**
-	 * Exit a parse tree produced by `chatParser.bracket_escaped`.
-	 * @param ctx the parse tree
-	 */
-	exitBracket_escaped?: (ctx: Bracket_escapedContext) => void;
 
 	/**
 	 * Enter a parse tree produced by `chatParser.clnsp`.

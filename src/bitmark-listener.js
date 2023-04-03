@@ -1320,6 +1320,7 @@ BitmarkListener.prototype.exitImage_chained = function(ctx) {
 BitmarkListener.prototype.enterKey_title = function(ctx) {
   let code = this.but.getcode(ctx);
   let val = this.but.get_title(code);
+
   if (0 < this.stk.size) {
     this.stk.top().bit.heading['forKeys'] =  val;
   }

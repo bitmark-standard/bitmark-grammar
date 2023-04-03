@@ -67,6 +67,7 @@ NOTCL:    [^\]] ;
 NUMERIC:  ('+'|'-')?[0-9]+ ;
 STRING:   STR  ;
 NL:	  ('\n'|'\r\n') ;
+NOTBITMARK:  '[^' .*?  ']' ;
 
 fragment EM0:      '\u{1F400}' .. '\u{1F4FF}' ;   // emoji 1
 fragment EM2:      '\u{1F650}' .. '\u{1F9F0}' ;   // emoji 2
