@@ -2696,6 +2696,10 @@ BitmarkListener.prototype.enterVendor_amcharts_5_chart = function(ctx) {
     }
   }
 };
+BitmarkListener.prototype.enterConversation_left_1 = function(ctx) { this.push_tmpl(ctx, 'conversation-left-1'); }
+BitmarkListener.prototype.enterConversation_right_1 = function(ctx) { this.push_tmpl(ctx, 'conversation-right-1'); }
+
+
 
 BitmarkListener.prototype.exitAnchor = function(ctx) {
   let code = this.but.getcode(ctx);

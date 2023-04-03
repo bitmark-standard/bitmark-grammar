@@ -85,6 +85,7 @@ bit:
 	| code | card1 | question1
 	| screenshot | focus_image | photo | browser_image | chapter_subject_matter
 	| release_note | conclusion | vendor_amcharts_5_chart
+  	| conversation_left_1 | conversation_right_1
 ;
 //
 book:
@@ -374,7 +375,8 @@ release_note:		       BitReleaseNote format CL NL* ( bitElem NL* )+ ;
 conclusion:		       BitConclusion format CL NL* ( bitElem NL* )+ ;
 
 vendor_amcharts_5_chart:       BitVendorAmcharts5Chart format2 CL NL* ( bitElem NL* )+ ;
-
+conversation_left_1:	       BitConversationLeft1 format2 CL NL* ( bitElem NL* )+ ;
+conversation_right_1: 	       BitConversationRight1 format2 CL NL* ( bitElem NL* )+ ;
 
 message:
     BitMessage format CL NL* ( bitElem NL* )+
