@@ -1,20 +1,20 @@
-|| ok ||
 [.conversation]
+[@ID:10110101]
 ===
-[#Emilie]
-[&image:https://cdn.bitbook.education/avatars/cat_70x70@3.jpg]
+[#Emilie][&image:https://cdn.bitmark.cloud/avatars/cat_70x70@3.jpg][@alt:E]
 ===
-[#John Done]
+[#John Done][@alt:JD]
 ===
 Hi John
 --
 How are you today?
 ===
 I am fine, thanks. How are you, Emilie?
---
+===
 I just wanted to let you know ...
 ===
 Thanks!
 --
 cu
 ===
+

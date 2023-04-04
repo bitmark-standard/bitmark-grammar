@@ -160,8 +160,6 @@ BitReleaseNote:			NL OPDOT S* 'release-note' ;
 BitConclusion:			NL OPDOT S* 'conclusion' ;
 
 BitVendorAmcharts5Chart:	NL OPDOT S* 'vendor-amcharts-5-chart' ;
-BitConversationLeft1:		NL OPDOT S* 'conversation-left-1' ;
-BitConversationRight1:		NL OPDOT S* 'conversation-right-1' ;
 
 //
 COMMENT:  '||' UTF8*? '||' S* '\n'* ->skip ;

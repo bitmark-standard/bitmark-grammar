@@ -140,6 +140,7 @@ AtLabeltrue:     OPAT S* 'labelTrue:'  ;
 AtLabelfalse:    OPAT S* 'labelFalse:'  ;
 AtPoints:        OPAT S* 'points:'  ;
 AtSrc:		 OPAT S* 'src' [0-9]+'x' ;  // added Sep 17
+AtPartner:	 OPAT S* 'partner:' ;
 
 OPATALT: 	 OPAT S* 'alt:' ;
 OPAMARK: 	 OPAT S* 'mark:' ;

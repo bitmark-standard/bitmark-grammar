@@ -7,9 +7,14 @@ import { BitmarkContext } from "./chatParser";
 import { Bitmark_Context } from "./chatParser";
 import { ChatContext } from "./chatParser";
 import { ConversationContext } from "./chatParser";
+import { Conversation_left_1Context } from "./chatParser";
+import { Conversation_right_1Context } from "./chatParser";
 import { InitiatorContext } from "./chatParser";
 import { PartnerContext } from "./chatParser";
+import { Partner1Context } from "./chatParser";
+import { Partner1_nameContext } from "./chatParser";
 import { Name_textContext } from "./chatParser";
+import { Name_altContext } from "./chatParser";
 import { Chat_initiatorContext } from "./chatParser";
 import { Chat_partnerContext } from "./chatParser";
 import { Sspl_chat_partnerContext } from "./chatParser";
@@ -134,6 +139,28 @@ export interface chatParserListener extends ParseTreeListener {
 	exitConversation?: (ctx: ConversationContext) => void;
 
 	/**
+	 * Enter a parse tree produced by `chatParser.conversation_left_1`.
+	 * @param ctx the parse tree
+	 */
+	enterConversation_left_1?: (ctx: Conversation_left_1Context) => void;
+	/**
+	 * Exit a parse tree produced by `chatParser.conversation_left_1`.
+	 * @param ctx the parse tree
+	 */
+	exitConversation_left_1?: (ctx: Conversation_left_1Context) => void;
+
+	/**
+	 * Enter a parse tree produced by `chatParser.conversation_right_1`.
+	 * @param ctx the parse tree
+	 */
+	enterConversation_right_1?: (ctx: Conversation_right_1Context) => void;
+	/**
+	 * Exit a parse tree produced by `chatParser.conversation_right_1`.
+	 * @param ctx the parse tree
+	 */
+	exitConversation_right_1?: (ctx: Conversation_right_1Context) => void;
+
+	/**
 	 * Enter a parse tree produced by `chatParser.initiator`.
 	 * @param ctx the parse tree
 	 */
@@ -156,6 +183,28 @@ export interface chatParserListener extends ParseTreeListener {
 	exitPartner?: (ctx: PartnerContext) => void;
 
 	/**
+	 * Enter a parse tree produced by `chatParser.partner1`.
+	 * @param ctx the parse tree
+	 */
+	enterPartner1?: (ctx: Partner1Context) => void;
+	/**
+	 * Exit a parse tree produced by `chatParser.partner1`.
+	 * @param ctx the parse tree
+	 */
+	exitPartner1?: (ctx: Partner1Context) => void;
+
+	/**
+	 * Enter a parse tree produced by `chatParser.partner1_name`.
+	 * @param ctx the parse tree
+	 */
+	enterPartner1_name?: (ctx: Partner1_nameContext) => void;
+	/**
+	 * Exit a parse tree produced by `chatParser.partner1_name`.
+	 * @param ctx the parse tree
+	 */
+	exitPartner1_name?: (ctx: Partner1_nameContext) => void;
+
+	/**
 	 * Enter a parse tree produced by `chatParser.name_text`.
 	 * @param ctx the parse tree
 	 */
@@ -165,6 +214,17 @@ export interface chatParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitName_text?: (ctx: Name_textContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `chatParser.name_alt`.
+	 * @param ctx the parse tree
+	 */
+	enterName_alt?: (ctx: Name_altContext) => void;
+	/**
+	 * Exit a parse tree produced by `chatParser.name_alt`.
+	 * @param ctx the parse tree
+	 */
+	exitName_alt?: (ctx: Name_altContext) => void;
 
 	/**
 	 * Enter a parse tree produced by `chatParser.chat_initiator`.

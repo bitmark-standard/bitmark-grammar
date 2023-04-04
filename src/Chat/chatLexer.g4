@@ -5,8 +5,10 @@ lexer grammar chatLexer;
 
 OPDOT:	        '[.' ;
 S:		 [ \t] ;
-BitChat:   	 NL OPDOT S* 'chat'    ;
-BitConv:  	 NL OPDOT S* 'conversation'    ;
+BitChat:   	        NL OPDOT S* 'chat'    ;
+BitConv:  	    	NL OPDOT S* 'conversation'    ;
+BitConversationLeft1:	NL OPDOT S* 'conversation-left-1' ;
+BitConversationRight1:	NL OPDOT S* 'conversation-right-1' ;
 
 //
 COMMENT:  '||' UTF8*? '||' S* NL* ->skip ;
@@ -49,8 +51,8 @@ RightArrow:     '→' ;
 DBLEQ:		'==' ;
 HSPL:		NL '===' S* NL  ; // hard split
 HSPL2:		'==='   S* NL  ;   // hard split
-SSPL:	  	NL '---' S* NL  ; // soft split
-SSPL2:	  	'---'   S* NL  ; // soft split
+SSPL:	  	NL '--' S* NL  ; // soft split
+SSPL2:	  	'--'   S* NL  ; // soft split
 
 //<<<<<<<<<<<<<<<< COMMON LEXER RULES <<<<<<<<<<<<<<<<<<<<
 // DCANY added 12/18/2020
@@ -124,6 +126,7 @@ AtLabeltrue:     OPAT S* 'labelTrue:'  ;
 AtLabelfalse:    OPAT S* 'labelFalse:'  ;
 AtPoints:        OPAT S* 'points:'  ;
 AtSrc:		 OPAT S* 'src' [0-9]+'x' ;  // added Sep 17
+AtPartner:	 OPAT S* 'partner:' ;
 
 OPATALT: 	 OPAT S* 'alt:' ;
 OPAMARK: 	 OPAT S* 'mark:' ;

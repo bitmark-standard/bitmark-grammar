@@ -160,8 +160,6 @@ BitReleaseNote:			NL OPDOT S* 'release-note' ;
 BitConclusion:			NL OPDOT S* 'conclusion' ;
 
 BitVendorAmcharts5Chart:	NL OPDOT S* 'vendor-amcharts-5-chart' ;
-BitConversationLeft1:		NL OPDOT S* 'conversation-left-1' ;
-BitConversationRight1:		NL OPDOT S* 'conversation-right-1' ;
 
 //
 COMMENT:  '||' UTF8*? '||' S* '\n'* ->skip ;
@@ -284,6 +282,7 @@ AtLabeltrue:     OPAT S* 'labelTrue:'  ;
 AtLabelfalse:    OPAT S* 'labelFalse:'  ;
 AtPoints:        OPAT S* 'points:'  ;
 AtSrc:		 OPAT S* 'src' [0-9]+'x' ;  // added Sep 17
+AtPartner:	 OPAT S* 'partner:' ;
 
 OPATALT: 	 OPAT S* 'alt:' ;
 OPAMARK: 	 OPAT S* 'mark:' ;

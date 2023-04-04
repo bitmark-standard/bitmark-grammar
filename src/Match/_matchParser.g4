@@ -128,10 +128,10 @@ resource:
 pair_heading: key_title (NL* EQ NL*) value_title NL;
 
 pair_heading_multi:
-       key_title ( (NL* EQ NL*) value_title_multi )+ NL
+       key_title ( (NL+ EQ NL*) value_title_multi )+ NL
 ;
 
-key_title:   OPHASH s_and_w* CL  ;
+key_title:   OPHASH s_and_w? CL  ;
 value_title: OPHASH s_and_w* CL  ;
 value_title_multi: OPHASH s_and_w* CL  ;
 

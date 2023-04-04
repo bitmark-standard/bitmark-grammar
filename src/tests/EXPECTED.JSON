@@ -798,7 +798,99 @@
         }
     }
 ]
-
+<<<<./tests/book3.bit
+[
+    {
+        "bitmark": "[.book&image]\n[! this is my book]\n[# Erkundungen]\n[##  Deutsch als Fremdsprache]\n[@ subject: Integriertes Kurs- und Arbeitsbuch Sprachniveau B2]\n[@ language:en]\n[@ copyright: © 2012 by A Publisher International Ltd., Zurich, Switzerland]\n[@ skills: reading]\n[@ ageRange: 18, 969]\n[@ complexity: intermediate]\n[@seriesTitle: German as a Foreign Language]\n[@seriesId: com.firstpub.e0111]\n[@numberInSeries: 1]\n[@format: Integrated course and work book]\n[@type: book]\n[@isLiveBook: false]\n[@isSmartBook: false]\n[@isHighQuality: true]\n\n[&image:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/chapter_images/schubert_b2_images-007-010_1.png]",
+        "bit": {
+            "type": "book",
+            "format": "bitmark--",
+            "body": "",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "instruction": "this is my book",
+            "title": "Erkundungen",
+            "subtitle": "Deutsch als Fremdsprache",
+            "subject": [
+                "Integriertes Kurs- und Arbeitsbuch Sprachniveau B2"
+            ],
+            "language": [
+                "en"
+            ],
+            "copyright": [
+                "© 2012 by A Publisher International Ltd., Zurich, Switzerland"
+            ],
+            "skills": [
+                "reading"
+            ],
+            "ageRange": [
+                "18, 969"
+            ],
+            "complexity": [
+                "intermediate"
+            ],
+            "seriesTitle": [
+                "German as a Foreign Language"
+            ],
+            "seriesId": [
+                "com.firstpub.e0111"
+            ],
+            "numberInSeries": [
+                "1"
+            ],
+            "_format": [
+                "Integrated course and work book"
+            ],
+            "_type": [
+                "book"
+            ],
+            "isLiveBook": [
+                "false"
+            ],
+            "isSmartBook": [
+                "false"
+            ],
+            "isHighQuality": [
+                "true"
+            ],
+            "resource": {
+                "type": "image",
+                "image": {
+                    "src": "https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/chapter_images/schubert_b2_images-007-010_1.png",
+                    "showInIndex": false,
+                    "format": "png",
+                    "width": null,
+                    "height": null,
+                    "alt": "",
+                    "caption": "",
+                    "license": "",
+                    "copyright": ""
+                }
+            }
+        }
+    }
+]
+<<<<./tests/book4.bit
+[
+    {
+        "bitmark": "[.book]\n[^.book]\n[^Kompatibilitätsmodus  ]\n[#Microsoft PowerPoint - CFP - Folien [^Kompatibilitätsmodus  ]]\n[@authors.name:ami]\nIch habe die __(deutsche)__ Staatsbürgerschaft. Ich bin __(Deutsche[r]). __",
+        "bit": {
+            "type": "book",
+            "format": "bitmark--",
+            "body": "[^.book]\n[^Kompatibilitätsmodus  ]\n\n\nIch habe die __(deutsche)__ Staatsbürgerschaft. Ich bin __(Deutsche[r]). __",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "title": "Microsoft PowerPoint - CFP - Folien [^Kompatibilitätsmodus  ]",
+            "authors.name": [
+                "ami"
+            ]
+        }
+    }
+]
 <<<<./tests/page1.bit 
 [
     {
@@ -1005,7 +1097,7 @@
 <<<<./tests/chat1.bit
 [
     {
-        "bitmark": "[.chat]\n===\n[#Emilie]\n[&image:https://cdn.bitbook.education/avatars/cat_70x70@3.jpg]\n===\n[#John Done]\n===\nHi John\n---\nHow are you today?\n===\nI am fine, thanks. How are you, Emilie?\n---\nI just wanted to let you know ...\n===\nThanks!\n---\ncu\n===",
+        "bitmark": "[.chat]\n===\n[#Emilie]\n[&image:https://cdn.bitbook.education/avatars/cat_70x70@3.jpg]\n===\n[#John Done]\n===\nHi John\n--\nHow are you today?\n===\nI am fine, thanks. How are you, Emilie?\n--\nI just wanted to let you know ...\n===\nThanks!\n--\ncu\n===",
         "bit": {
             "type": "chat",
             "format": "bitmark--",
@@ -1080,7 +1172,7 @@
 <<<<./tests/chat2.bit
 [
     {
-        "bitmark": "[.chat&image]\n[%X002]\n[!test chat]\n[&image:https://www.bitbook.education/avatars/human_70x70@1.jpg]\n===\n[#Emilie]\n[&image:https://cdn.bitbook.education/avatars/cat_70x70@2.jpg]\n===\n[#John Done]\n[&image:https://cdn.bitbook.education/avatars/john_done_70x70@3.jpg]\n===\nHi John\n---\nHow are you today?\n===\nI am fine, thanks. How are you, Emilie?\n---\nI just wanted to let you know ...\n===\nThanks!\n---\ncu\n===\n\n[&article:\n\nViel wichtiger als die virtuelle Welt ist für die Partnersuche das Arbeitsleben geworden. Frauen sind heute berufstätig, Kollegen kommen sich durch flachere Hierarchien und verschwindende Grenzen zwischen Job und Privatleben schneller näher. Neben der räumlichen Nähe bietet das Arbeitsumfeld einen weiteren Indikator für eine erfolgreiche Partnersuche: Gemeinsamkeiten. Insbesondere für langfristige Beziehungen wählen die meisten Menschen jemanden, mit dem sie Interessen teilen können und dessen sozialer Hintergrund sich vom eigenen kaum unterscheidet. Das gilt heute mehr als früher. Während vor drei Jahrzehnten 70 Prozent der Ehen in Deutschland zwischen zwei Menschen aus der gleichen sozialen Schicht geschlossen wurden, sind es heute 90 Prozent. Auch das Internet scheint daran wenig zu ändern. Die Onlineportale suchen in ihren Datenbanken vor allem nach Gemeinsamkeiten.]",
+        "bitmark": "[.chat&image]\n[%X002]\n[!test chat]\n[&image:https://www.bitbook.education/avatars/human_70x70@1.jpg]\n===\n[#Emilie]\n[&image:https://cdn.bitbook.education/avatars/cat_70x70@2.jpg][@alt:E]\n===\n[#John Done]\n[&image:https://cdn.bitbook.education/avatars/john_done_70x70@3.jpg][@alt:JD]\n===\nHi John\n--\nHow are you today?\n===\nI am fine, thanks. How are you, Emilie?\n--\nI just wanted to let you know ...\n===\nThanks!\n--\ncu\n===\n\n[&article:\n\nViel wichtiger als die virtuelle Welt ist für die Partnersuche das Arbeitsleben geworden. Frauen sind heute berufstätig, Kollegen kommen sich durch flachere Hierarchien und verschwindende Grenzen zwischen Job und Privatleben schneller näher. Neben der räumlichen Nähe bietet das Arbeitsumfeld einen weiteren Indikator für eine erfolgreiche Partnersuche: Gemeinsamkeiten. Insbesondere für langfristige Beziehungen wählen die meisten Menschen jemanden, mit dem sie Interessen teilen können und dessen sozialer Hintergrund sich vom eigenen kaum unterscheidet. Das gilt heute mehr als früher. Während vor drei Jahrzehnten 70 Prozent der Ehen in Deutschland zwischen zwei Menschen aus der gleichen sozialen Schicht geschlossen wurden, sind es heute 90 Prozent. Auch das Internet scheint daran wenig zu ändern. Die Onlineportale suchen in ihren Datenbanken vor allem nach Gemeinsamkeiten.]",
         "bit": {
             "type": "chat",
             "format": "",
@@ -1095,7 +1187,7 @@
                     "format": "jpg",
                     "width": null,
                     "height": null,
-                    "alt": "",
+                    "alt": "E",
                     "caption": "",
                     "license": "",
                     "copyright": ""
@@ -1109,10 +1201,100 @@
                     "format": "jpg",
                     "width": null,
                     "height": null,
-                    "alt": "",
+                    "alt": "JD",
                     "caption": "",
                     "license": "",
                     "copyright": ""
+                }
+            },
+            "chat": [
+                {
+                    "name": "Emilie",
+                    "alt": "E",
+                    "text": "Hi John",
+                    "initiator": true
+                },
+                {
+                    "name": "John Done",
+                    "alt": "JD",
+                    "text": "How are you today?",
+                    "initiator": false
+                },
+                {
+                    "name": "Emilie",
+                    "alt": "E",
+                    "text": "I am fine, thanks. How are you, Emilie?",
+                    "initiator": true
+                },
+                {
+                    "name": "John Done",
+                    "alt": "JD",
+                    "text": "I just wanted to let you know ...",
+                    "initiator": false
+                },
+                {
+                    "name": "Emilie",
+                    "alt": "E",
+                    "text": "Thanks!",
+                    "initiator": true
+                },
+                {
+                    "name": "John Done",
+                    "alt": "JD",
+                    "text": "cu",
+                    "initiator": false
+                }
+            ],
+            "body": "",
+            "resource": {
+                "type": "article",
+                "article": {
+                    "format": "",
+                    "href": "",
+                    "body": "Viel wichtiger als die virtuelle Welt ist für die Partnersuche das Arbeitsleben geworden. Frauen sind heute berufstätig, Kollegen kommen sich durch flachere Hierarchien und verschwindende Grenzen zwischen Job und Privatleben schneller näher. Neben der räumlichen Nähe bietet das Arbeitsumfeld einen weiteren Indikator für eine erfolgreiche Partnersuche: Gemeinsamkeiten. Insbesondere für langfristige Beziehungen wählen die meisten Menschen jemanden, mit dem sie Interessen teilen können und dessen sozialer Hintergrund sich vom eigenen kaum unterscheidet. Das gilt heute mehr als früher. Während vor drei Jahrzehnten 70 Prozent der Ehen in Deutschland zwischen zwei Menschen aus der gleichen sozialen Schicht geschlossen wurden, sind es heute 90 Prozent. Auch das Internet scheint daran wenig zu ändern. Die Onlineportale suchen in ihren Datenbanken vor allem nach Gemeinsamkeiten."
+                }
+            }
+        }
+    }
+]
+<<<<./tests/chat3.bit
+[
+    {
+        "bitmark": "[.chat&image]\n[%X002]\n[!test chat]\n[&image:https://www.bitbook.education/avatars/human_70x70@3.jpg][@src2x:https://www.bitbook.education/avatars/human_70x70@3.jpg][@src3x:https://www.bitbook.education/avatars/human_70x70@3.jpg]\n===\n[#Emilie]\n[&image:https://cdn.bitbook.education/avatars/cat_70x70@3.jpg][@src2x:https://cdn.bitbook.education/avatars/cat_70x70@3.jpg]\n===\n[#John Done]\n[&image:https://cdn.bitbook.education/avatars/john_done_70x70@3.jpg][@src2x:https://cdn.bitbook.education/avatars/john_done_70x70@3.jpg]\n===\nHi John\n--\nHow are you today?\n===\nI am fine, thanks. How are you, Emilie?\n--\nI just wanted to let you know ...\n===\nThanks!\n--\ncu\n===",
+        "bit": {
+            "type": "chat",
+            "format": "",
+            "item": "X002",
+            "instruction": "test chat",
+            "hint": "",
+            "initiator": {
+                "name": "Emilie",
+                "avatarImage": {
+                    "src": "https://cdn.bitbook.education/avatars/cat_70x70@3.jpg",
+                    "showInIndex": false,
+                    "format": "jpg",
+                    "width": null,
+                    "height": null,
+                    "alt": "",
+                    "caption": "",
+                    "license": "",
+                    "copyright": "",
+                    "src2x": "https://cdn.bitbook.education/avatars/cat_70x70@3.jpg"
+                }
+            },
+            "partner": {
+                "name": "John Done",
+                "avatarImage": {
+                    "src": "https://cdn.bitbook.education/avatars/john_done_70x70@3.jpg",
+                    "showInIndex": false,
+                    "format": "jpg",
+                    "width": null,
+                    "height": null,
+                    "alt": "",
+                    "caption": "",
+                    "license": "",
+                    "copyright": "",
+                    "src2x": "https://cdn.bitbook.education/avatars/john_done_70x70@3.jpg"
                 }
             },
             "chat": [
@@ -1155,20 +1337,29 @@
             ],
             "body": "",
             "resource": {
-                "type": "article",
-                "article": {
-                    "format": "",
-                    "href": "",
-                    "body": "Viel wichtiger als die virtuelle Welt ist für die Partnersuche das Arbeitsleben geworden. Frauen sind heute berufstätig, Kollegen kommen sich durch flachere Hierarchien und verschwindende Grenzen zwischen Job und Privatleben schneller näher. Neben der räumlichen Nähe bietet das Arbeitsumfeld einen weiteren Indikator für eine erfolgreiche Partnersuche: Gemeinsamkeiten. Insbesondere für langfristige Beziehungen wählen die meisten Menschen jemanden, mit dem sie Interessen teilen können und dessen sozialer Hintergrund sich vom eigenen kaum unterscheidet. Das gilt heute mehr als früher. Während vor drei Jahrzehnten 70 Prozent der Ehen in Deutschland zwischen zwei Menschen aus der gleichen sozialen Schicht geschlossen wurden, sind es heute 90 Prozent. Auch das Internet scheint daran wenig zu ändern. Die Onlineportale suchen in ihren Datenbanken vor allem nach Gemeinsamkeiten."
+                "type": "image",
+                "image": {
+                    "src": "https://www.bitbook.education/avatars/human_70x70@3.jpg",
+                    "showInIndex": false,
+                    "format": "jpg",
+                    "width": null,
+                    "height": null,
+                    "alt": "",
+                    "caption": "",
+                    "license": "",
+                    "copyright": "",
+                    "src2x": "https://www.bitbook.education/avatars/human_70x70@3.jpg",
+                    "src3x": "https://www.bitbook.education/avatars/human_70x70@3.jpg"
                 }
             }
         }
     }
 ]
+
 <<<<./tests/conversation1.bit
 [
     {
-        "bitmark": "[.conversation]\n===\n[#Emilie]\n[&image:https://cdn.bitbook.education/avatars/cat_70x70@3.jpg]\n===\n[#John Done]\n===\nHi John\n---\nHow are you today?\n===\nI am fine, thanks. How are you, Emilie?\n---\nI just wanted to let you know ...\n===\nThanks!\n---\ncu\n===",
+        "bitmark": "[.conversation]\n===\n[#Emilie]\n[&image:https://cdn.bitbook.education/avatars/cat_70x70@3.jpg]\n===\n[#John Done]\n===\nHi John\n--\nHow are you today?\n===\nI am fine, thanks. How are you, Emilie?\n--\nI just wanted to let you know ...\n===\nThanks!\n--\ncu\n===",
         "bit": {
             "type": "conversation",
             "format": "bitmark--",
@@ -1237,6 +1428,84 @@
                 }
             ],
             "body": ""
+        }
+    }
+]
+<<<<./tests/conversation2.bit
+[
+    {
+        "bitmark": "[.conversation]\n[@ID:10110101]\n===\n[#Emilie][&image:https://cdn.bitmark.cloud/avatars/cat_70x70@3.jpg][@alt:E]\n===\n[#John Done][@alt:JD]\n===\nHi John\n--\nHow are you today?\n===\nI am fine, thanks. How are you, Emilie?\n===\nI just wanted to let you know ...\n===\nThanks!\n--\ncu\n===",
+        "bit": {
+            "type": "conversation",
+            "format": "bitmark--",
+            "item": "",
+            "instruction": "",
+            "hint": "",
+            "initiator": {
+                "name": "Emilie",
+                "avatarImage": {
+                    "src": "https://cdn.bitmark.cloud/avatars/cat_70x70@3.jpg",
+                    "showInIndex": false,
+                    "format": "jpg",
+                    "width": null,
+                    "height": null,
+                    "alt": "E",
+                    "caption": "",
+                    "license": "",
+                    "copyright": ""
+                }
+            },
+            "partner": {
+                "name": "John Done",
+                "avatarImage": {
+                    "width": null,
+                    "height": null,
+                    "alt": "JD",
+                    "src": ""
+                }
+            },
+            "chat": [
+                {
+                    "name": "Emilie",
+                    "alt": "E",
+                    "text": "Hi John",
+                    "initiator": true
+                },
+                {
+                    "name": "John Done",
+                    "alt": "JD",
+                    "text": "How are you today?",
+                    "initiator": false
+                },
+                {
+                    "name": "Emilie",
+                    "alt": "E",
+                    "text": "I am fine, thanks. How are you, Emilie?",
+                    "initiator": true
+                },
+                {
+                    "name": "Emilie",
+                    "alt": "E",
+                    "text": "I just wanted to let you know ...",
+                    "initiator": true
+                },
+                {
+                    "name": "Emilie",
+                    "alt": "E",
+                    "text": "Thanks!",
+                    "initiator": true
+                },
+                {
+                    "name": "John Done",
+                    "alt": "JD",
+                    "text": "cu",
+                    "initiator": false
+                }
+            ],
+            "body": "",
+            "ID": [
+                "10110101"
+            ]
         }
     }
 ]

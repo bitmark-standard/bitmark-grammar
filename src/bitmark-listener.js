@@ -1038,7 +1038,7 @@ BitmarkListener.prototype.exitTitle = function(ctx) {
   let val = this.but.get_title(code);
   let level = this.but.get_numhash(code);
   let bit = this.stk.top().bit;
-  
+
   if (0 < this.stk.size) {
     if (0 < level && bit.type == 'chapter') {
       this.stk.top().bit['title'] =  val;
@@ -1304,8 +1304,14 @@ BitmarkListener.prototype.exitImage_chained = function(ctx) {
   
   if (1 < this.curr_bit_stk.size) {
     let second = this.curr_bit_stk.second();
-    if (second==='initiator'||second==='partner')
+    if (second==='initiator'||second==='partner') {
+      parent = second;
       child = 'avatarImage';
+    }
+    if (this.stk.top().bit[parent]===undefined)
+      this.stk.top().bit[parent] = {};
+    if (this.stk.top().bit[parent][child]===undefined)
+      this.stk.top().bit[parent][child] = {};
     this.stk.top().bit[parent][child][key] = url;
   }
   else {
@@ -1320,7 +1326,7 @@ BitmarkListener.prototype.exitImage_chained = function(ctx) {
 BitmarkListener.prototype.enterKey_title = function(ctx) {
   let code = this.but.getcode(ctx);
   let val = this.but.get_title(code);
-
+  
   if (0 < this.stk.size) {
     this.stk.top().bit.heading['forKeys'] =  val;
   }
@@ -1870,9 +1876,10 @@ BitmarkListener.prototype.exitConversation = function(ctx) {
 
 BitmarkListener.prototype.enterChat_initiator = function(ctx) {
   let code = this.but.getcode(ctx);
+  let alt = this.stk.top().bit.initiator.avatarImage.alt;
   (this.stk.top()).bit['chat'].push({
     name: (this.stk.top()).bit.initiator.name,
-    alt:'',
+    alt: alt,
     text: code,
     initiator: true
   });
@@ -1885,9 +1892,10 @@ BitmarkListener.prototype.exitChat_initiator = function(ctx) {
 
 BitmarkListener.prototype.enterChat_partner = function(ctx) {
   let code = this.but.getcode(ctx);
+  let alt = this.stk.top().bit.partner.avatarImage.alt;
   (this.stk.top()).bit['chat'].push({
     name: (this.stk.top()).bit.partner.name,
-    alt:'',
+    alt: alt,
     text: code,
     initiator: false
   });
@@ -1903,21 +1911,27 @@ BitmarkListener.prototype.enterInitiator = function(ctx) {
   this.curr_bit_stk.push('initiator');  // key for the  name
 };
 // Exit a parse tree produced by bitmarkParser#senderName.
-BitmarkListener.prototype.exitInitiator = function(ctx) {
-  // Remove it from body
-  let code = this.but.getcode(ctx);
-};
+//BitmarkListener.prototype.exitInitiator = function(ctx) {};
 
 // Enter a parse tree produced by bitmarkParser#receiverName.
 BitmarkListener.prototype.enterPartner = function(ctx) {
   this.curr_bit_stk.push('partner');  // key for the  name
 };
-
-// Exit a parse tree produced by bitmarkParser#receiverName.
-BitmarkListener.prototype.exitPartner = function(ctx) {
-  // Remove it from body
-  let code = this.but.getcode(ctx);
+BitmarkListener.prototype.enterPartner1 = function(ctx) {
+  this.curr_bit_stk.push('partner');  // key for the  name
 };
+BitmarkListener.prototype.exitPartner1_name = function(ctx) {
+  let code = this.but.getcode(ctx);
+  let [prop,name] = this.but.get_at_value(code);  // [@partner:name]
+  const key = this.curr_bit_stk.top();
+  if (this.stk.top().bit[key]===undefined)
+    this.stk.top().bit[key] = {};
+  (this.stk.top()).bit[key]['name'] = name;
+  (this.stk.top()).bit.body = (this.stk.top()).bit.body.replace(code,'');
+};
+//BitmarkListener.prototype.enterChat_partner1 = function(ctx) {};
+// Exit a parse tree produced by bitmarkParser#receiverName.
+//BitmarkListener.prototype.exitPartner = function(ctx) {};
 
 // Enter a parse tree produced by bitmarkParser#name_text.
 BitmarkListener.prototype.enterName_text = function(ctx) {
@@ -1932,7 +1946,14 @@ BitmarkListener.prototype.exitName_text = function(ctx) {
   let k = 'body';
   (this.stk.top()).bit.body = (this.stk.top()).bit.body.replace(code,'');
 };
-
+BitmarkListener.prototype.exitName_alt = function(ctx) {
+  let code = this.but.getcode(ctx);
+  let re = /\[@([^:]*)\s*:\s*([^\]]*)\s*\]/g;
+  let vals = this.but.get_bit_value_colonsep(re, code);
+  let slot = this.curr_bit_stk.top();
+  this.stk.top().bit[slot]['avatarImage'][vals[0]] = vals[1];
+  (this.stk.top()).bit.body = (this.stk.top()).bit.body.replace(code,'');  
+};
 // Exit a parse tree produced by bitmarkParser#bot_choice.
 BitmarkListener.prototype.exitBot_choice = function(ctx) {
   // Remove it from body
@@ -2044,9 +2065,11 @@ BitmarkListener.prototype.exitImage_one = function(ctx) {
     this.error_listener.manualError(ctx, ctx._start.line-1, 7, 'Syntax error: did you mean ::?');
     return;
   }
-  if (bittype in {'chat':0,'conversation':1}
+  if (bittype in {'chat':0,'conversation':1,'conversation-left-1':2,'conversation-right-1':3}
       && 1 < this.curr_bit_stk.size) {
     key = this.curr_bit_stk.second();
+    if (bit[key]===undefined)
+      bit[key] = {};
     bit[key].avatarImage = tmpl;
     bit[key].avatarImage['src'] = url;
     bit[key].avatarImage['format'] = url.split('.').pop();

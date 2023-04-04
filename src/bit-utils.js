@@ -369,9 +369,12 @@ class BitUtil {
     //let re = /@([^:]*)\s*:\s*([^\]]+)\s*/g;
     return con.split(':');
   }
-  // [#string]
+  // [#string] -> returns string
   get_title(code) {
-    if (!code.startsWith('[') && 1 < code.match(/\]/g).length) {
+
+    if (code.startsWith('[#]'))
+      return '';
+    else if (code.startsWith('[#') && 1 < code.match(/\]/g).length) {
       // Remove the first [ and last ]
       let s = code.replace(/.$/, '').replace(/^\[#+/,'');
       return s.trim();

@@ -1,18 +1,20 @@
-[.video-embed]
-Die Texte und Aufgaben in diesem __fakultativen Teil B__ stellen ein Angebot für Lerner und Lerngruppen dar, die ihre sprachlichen Fähigkeiten zusätzlich erweitern möchten.
-[&video-embed:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gesch_ft_kommerz_und_handel_958.wmv]
-
-[.audio-embed]
-Die Texte und Aufgaben in diesem __fakultativen Teil B__ stellen ein Angebot für Lerner und Lerngruppen dar, die ihre sprachlichen Fähigkeiten zusätzlich erweitern möchten.
-[&audio-embed:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gesch_ft_kommerz_und_handel_958.mp3]
-
-[.still-image-film-embed]
-Die Texte und Aufgaben in diesem __fakultativen Teil B__ stellen ein Angebot für Lerner und Lerngruppen dar, die ihre sprachlichen Fähigkeiten zusätzlich erweitern möchten.
-[&still-image-film-embed:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gesch_ft_kommerz_und_handel_958.wmv]
-
-[.article:bitmark--&image-with-audio]
-[%Alfabetul (The alphabet)]
-[&image:https://docs.bitbook.education/bit-books/rolang/learn_romanian_book/web-resources/images/l3_t3.png]
-[&audio:https://docs.bitbook.education/bit-books/rolang/audio/l01-1alfabetul.mp3]
-Aa [a] alfabet (alphabet)
-Ăă [ă] mamă (mother)
+[.match-matrix]
+[%C6]
+[!Setzen Sie die Verben in die angegebenen Zeitformen.]
+===
+[#]
+==
+[#Präsens]
+==
+[#Präteritum]
+==
+[#Perfekt]
+===
+[%1]arbeiten
+==
+[!ich]arbeite[@example]
+==
+[!er]arbeitete
+==
+[!ihr]habt gearbeitet
+===

@@ -1,6 +1,6 @@
 {
   "name": "bitmark-grammar",
-  "version": "1.0.38",
+  "version": "1.0.39",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bitmark-standard/bitmark-grammar.git"
@@ -36,7 +36,7 @@
     "antlr4-cli": "^4.5.3",
     "antlr4ts-cli": "^0.5.0-alpha.3",
     "closure-webpack-plugin": "^2.3.1",
-    "colors": "^1.4.0",
+    "colors": "1.4.0",
     "cross-env": "^7.0.2",
     "diff": "^5.1.0",
     "es-module-loader": "^2.3.0",

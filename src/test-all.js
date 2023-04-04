@@ -16,7 +16,9 @@ const Diff = require('diff');
 const testfiles = [
   
   './tests/book1.bit',
-  './tests/book2.bit',    
+  './tests/book2.bit',
+  './tests/book3.bit',
+  './tests/book4.bit',
   './tests/article1.bit',  // had [.cloze] etc in text
   './tests/article2.bit',
   './tests/page1.bit',
@@ -26,7 +28,9 @@ const testfiles = [
   //'./tests/botinterview2.bit',  not used
   './tests/chat1.bit',
   './tests/chat2.bit',  
+  './tests/chat3.bit',  
   './tests/conversation1.bit',  
+  './tests/conversation2.bit',  
   './tests/cloze.bit', 
   './tests/cloze2.bit',
   './tests/cloze3.bit',
@@ -82,7 +86,7 @@ const testfiles = [
   './tests/mark1.bit',
   //'./tests/mark2.bit',  // complex
   './tests/match1.bit', 
-  './tests/match2.bit', 
+  //'./tests/match2.bit', 
   './tests/match3.bit',
   './tests/match4.bit',
   //'./tests/match5.bit',

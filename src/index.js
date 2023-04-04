@@ -351,7 +351,7 @@ class BitmarkParser {
 	parser: chatParser.chatParser
       },
       'conversation': {
-	regex: /\n\[\.[ \t]*conversation(?!-)/,  // exclude conversation-left-1, ..right-1
+	regex: /\n\[\.[ \t]*conversation/,
 	name: 'chat',
 	lexer: chatLexer.chatLexer,
 	parser: chatParser.chatParser

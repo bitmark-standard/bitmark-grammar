@@ -24,6 +24,8 @@ bitmark: ( bitmark_ ( S* NL )* )+ NL* EOF ;
 bitmark_:
 	  chat
         | conversation
+  	| conversation_left_1
+	| conversation_right_1
 ;
 // Also conversation
 chat:
@@ -38,13 +40,28 @@ conversation:
         ( (HSPL|HSPL2) chat_initiator ( sspl_chat_partner )* )+ (HSPL|HSPL2)
 	NL* ( resource (NL* resource)* )?
 ;
-//
-initiator:	name_text ( NL imagebit )? ;
-partner:     	name_text ( NL imagebit )? ;
+
+conversation_left_1:
+    BitConversationLeft1 format2 CL NL* ( bitElem NL* )* partner1 NL* s_and_w
+;
+
+conversation_right_1:
+    BitConversationRight1 format2 CL NL* ( bitElem NL* )* partner1 NL* s_and_w
+;
+
+// when there is imagebit name_alt will be handled by "exitImage_chained" in
+// bitmark-listener.js.
+initiator:	name_text ( NL* imagebit )? ( name_alt )? ;
+partner:     	name_text ( NL* imagebit )? ( name_alt )? ;
+partner1:     	partner1_name ( NL* imagebit )? ( name_alt )? ;
+partner1_name:	AtPartner STRING CL  ;
+
 name_text:      OPHASH s_and_w CL ;
+name_alt:       OPATALT STRING CL ;
 chat_initiator: s_and_w ;
 chat_partner:   s_and_w ;
 sspl_chat_partner: sspl chat_partner ;
+
 
 //
 bitElem:

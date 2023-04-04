@@ -147,8 +147,6 @@ import { Chapter_subject_matterContext } from "./bitmarkParser";
 import { Release_noteContext } from "./bitmarkParser";
 import { ConclusionContext } from "./bitmarkParser";
 import { Vendor_amcharts_5_chartContext } from "./bitmarkParser";
-import { Conversation_left_1Context } from "./bitmarkParser";
-import { Conversation_right_1Context } from "./bitmarkParser";
 import { MessageContext } from "./bitmarkParser";
 import { Bot_interviewContext } from "./bitmarkParser";
 import { Bot_choiceContext } from "./bitmarkParser";
@@ -1816,28 +1814,6 @@ export interface bitmarkParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitVendor_amcharts_5_chart?: (ctx: Vendor_amcharts_5_chartContext) => void;
-
-	/**
-	 * Enter a parse tree produced by `bitmarkParser.conversation_left_1`.
-	 * @param ctx the parse tree
-	 */
-	enterConversation_left_1?: (ctx: Conversation_left_1Context) => void;
-	/**
-	 * Exit a parse tree produced by `bitmarkParser.conversation_left_1`.
-	 * @param ctx the parse tree
-	 */
-	exitConversation_left_1?: (ctx: Conversation_left_1Context) => void;
-
-	/**
-	 * Enter a parse tree produced by `bitmarkParser.conversation_right_1`.
-	 * @param ctx the parse tree
-	 */
-	enterConversation_right_1?: (ctx: Conversation_right_1Context) => void;
-	/**
-	 * Exit a parse tree produced by `bitmarkParser.conversation_right_1`.
-	 * @param ctx the parse tree
-	 */
-	exitConversation_right_1?: (ctx: Conversation_right_1Context) => void;
 
 	/**
 	 * Enter a parse tree produced by `bitmarkParser.message`.
