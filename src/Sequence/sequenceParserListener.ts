@@ -9,6 +9,9 @@ import { BitContext } from "./sequenceParser";
 import { SequenceContext } from "./sequenceParser";
 import { SeqstrContext } from "./sequenceParser";
 import { MmmContext } from "./sequenceParser";
+import { Menu_3_courseContext } from "./sequenceParser";
+import { Menu_textContext } from "./sequenceParser";
+import { MtexContext } from "./sequenceParser";
 import { BitElemContext } from "./sequenceParser";
 import { GapContext } from "./sequenceParser";
 import { Single_gapContext } from "./sequenceParser";
@@ -154,6 +157,39 @@ export interface sequenceParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitMmm?: (ctx: MmmContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `sequenceParser.menu_3_course`.
+	 * @param ctx the parse tree
+	 */
+	enterMenu_3_course?: (ctx: Menu_3_courseContext) => void;
+	/**
+	 * Exit a parse tree produced by `sequenceParser.menu_3_course`.
+	 * @param ctx the parse tree
+	 */
+	exitMenu_3_course?: (ctx: Menu_3_courseContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `sequenceParser.menu_text`.
+	 * @param ctx the parse tree
+	 */
+	enterMenu_text?: (ctx: Menu_textContext) => void;
+	/**
+	 * Exit a parse tree produced by `sequenceParser.menu_text`.
+	 * @param ctx the parse tree
+	 */
+	exitMenu_text?: (ctx: Menu_textContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `sequenceParser.mtex`.
+	 * @param ctx the parse tree
+	 */
+	enterMtex?: (ctx: MtexContext) => void;
+	/**
+	 * Exit a parse tree produced by `sequenceParser.mtex`.
+	 * @param ctx the parse tree
+	 */
+	exitMtex?: (ctx: MtexContext) => void;
 
 	/**
 	 * Enter a parse tree produced by `sequenceParser.bitElem`.

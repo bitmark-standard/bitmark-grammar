@@ -361,7 +361,13 @@ class BitmarkParser {
 	name: 'sequence',
 	lexer: sequenceLexer.sequenceLexer,
 	parser: sequenceParser.sequenceParser
-      }, 
+      },
+      'menu': {
+	regex: /\n\[\.[ \t]*menu-3/,
+	name: 'sequence',
+	lexer: sequenceLexer.sequenceLexer,
+	parser: sequenceParser.sequenceParser
+      },      
       'default': {
 	regex: null,
 	name: null,

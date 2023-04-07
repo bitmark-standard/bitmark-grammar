@@ -19,13 +19,6 @@ BitMatchaudio:	 NL OPDOT S* 'match-audio'    ;
 BitMatchsolgrp:	 NL OPDOT S* 'match-solution-grouped'    ;
 
 //
-COMMENT:  '||' UTF8*? '||' S* '\n'* ->skip ;
-Image_type: BASIC | JPG | PNG | GIF | SVG ;
-Audio_type: BASIC | MP3 | MP4 ;
-Video_type: MP3 | MP2 | MP4 | FLV | GIF | WMV | MPEG | MPG ;
-
-//----------------------------------------
-
 OPDOLL:		'[' S* '$' ;      // Dollar
 OPBUL:          '[' S* '•' ;      // Bullet
 
@@ -69,11 +62,14 @@ TENSE: '__(' .*? ')__' ;
 
 
 //<<<<<<<<<<<<<<<< COMMON LEXER RULES <<<<<<<<<<<<<<<<<<<<
-// DCANY added 12/18/2020
+
+COMMENT:  '||' UTF8*? '||' S* NL* ->skip ;
+
 DCANY:  NL* '::' STRING (':' SENTENCE)? '::' (NL|.)*? '::' NL ;  // OK1
 
-//ANNO:    '==' STR_SP '==(' [!*+\-_?@▼] STR_SPX ')' '==' ;
-//ANNO_IM: '==' STR_SP '==(' '&image' STR_SPX ')' '==' ;
+Image_type: BASIC | JPG | PNG | GIF | SVG ;
+Audio_type: BASIC | MP3 | MP4 ;
+Video_type: MP3 | MP2 | MP4 | FLV | GIF | WMV | MPEG | MPG ;
 
 ArticleText: '[' S* AmpArticle COLON (.|[ \t\r\n])*? CL ;
 

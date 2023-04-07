@@ -10,11 +10,6 @@ BitInterview:    NL OPDOT S* 'interview'    ;
 BitInterviewinstgrp: NL OPDOT S* 'interview-instruction-grouped'    ;
 
 //
-COMMENT:  '||' UTF8*? '||' S* NL* ->skip ;
-Image_type: BASIC | JPG | PNG | GIF | SVG ;
-Audio_type: BASIC | MP3 | MP4 ;
-Video_type: MP3 | MP2 | MP4 | FLV | GIF | WMV | MPEG | MPG ;
-//----------------------------------------
 OPDOLL:		'[' S* '$' ;      // Dollar
 OPBUL:          '[' S* '•' ;      // Bullet
 
@@ -56,11 +51,14 @@ SSPL2:	  	'---'   S* NL  ; // soft split
 
 BULLET:   '•'  ;
 //<<<<<<<<<<<<<<<< COMMON LEXER RULES <<<<<<<<<<<<<<<<<<<<
-// DCANY added 12/18/2020
+
+COMMENT:  '||' UTF8*? '||' S* NL* ->skip ;
+
 DCANY:  NL* '::' STRING (':' SENTENCE)? '::' (NL|.)*? '::' NL ;  // OK1
 
-//ANNO:    '==' STR_SP '==(' [!*+\-_?@▼] STR_SPX ')' '==' ;
-//ANNO_IM: '==' STR_SP '==(' '&image' STR_SPX ')' '==' ;
+Image_type: BASIC | JPG | PNG | GIF | SVG ;
+Audio_type: BASIC | MP3 | MP4 ;
+Video_type: MP3 | MP2 | MP4 | FLV | GIF | WMV | MPEG | MPG ;
 
 ArticleText: '[' S* AmpArticle COLON (.|[ \t\r\n])*? CL ;
 

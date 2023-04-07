@@ -146,6 +146,7 @@ import { Browser_imageContext } from "./bitmarkParser";
 import { Chapter_subject_matterContext } from "./bitmarkParser";
 import { Release_noteContext } from "./bitmarkParser";
 import { ConclusionContext } from "./bitmarkParser";
+import { FeaturedContext } from "./bitmarkParser";
 import { Vendor_amcharts_5_chartContext } from "./bitmarkParser";
 import { MessageContext } from "./bitmarkParser";
 import { Bot_interviewContext } from "./bitmarkParser";
@@ -1803,6 +1804,17 @@ export interface bitmarkParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitConclusion?: (ctx: ConclusionContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.featured`.
+	 * @param ctx the parse tree
+	 */
+	enterFeatured?: (ctx: FeaturedContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.featured`.
+	 * @param ctx the parse tree
+	 */
+	exitFeatured?: (ctx: FeaturedContext) => void;
 
 	/**
 	 * Enter a parse tree produced by `bitmarkParser.vendor_amcharts_5_chart`.

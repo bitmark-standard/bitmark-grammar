@@ -14,12 +14,6 @@ BitClozesolgrp:  NL OPDOT S* 'cloze-solution-grouped'    ;
 BitClozeandmulti: NL OPDOT S* 'cloze-and-multiple-choice-text'    ;
 
 
-//
-COMMENT:  '||' UTF8*? '||' S* '\n'* ->skip ;
-Image_type: BASIC | JPG | PNG | GIF | SVG ;
-Audio_type: BASIC | MP3 | MP4 ;
-Video_type: MP3 | MP2 | MP4 | FLV | GIF | WMV | MPEG | MPG ;
-
 //----------------------------------------
 OPSP:	        '[' S* ;
 OPDOLL:		'[' S* '$' ;      // Dollar

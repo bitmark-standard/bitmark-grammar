@@ -9,12 +9,7 @@ lexer grammar sequenceLexer;
 OPDOT:	        '[.' ;
 S:		 [ \t] ;
 BitSequence:	 NL OPDOT S* 'sequence'    ;
-//
-COMMENT:  '||' UTF8*? '||' S* '\n'* ->skip ;
-Image_type: BASIC | JPG | PNG | GIF | SVG ;
-Audio_type: BASIC | MP3 | MP4 ;
-Video_type: MP3 | MP2 | MP4 | FLV | GIF | WMV | MPEG | MPG ;
-//----------------------------------------
+BitMenu3Course:  NL OPDOT S* 'menu-3-course' ;
 
 OPDOLL:		'[' S* '$' ;      // Dollar
 OPBUL:          '[' S* '•' ;      // Bullet
@@ -52,7 +47,6 @@ DBLEQ:		'==' ;
 DBLMI:		(NL+ '--' NL+) ;
 
 HSPL:		(NL '===' S* NL)  ; // hard split
-//HSPL2:	'===' S* NL  ;   // hard split
 SSPL:	  	NL '---' S* NL  ; // soft split
 SSPL2:	  	'---'   S* NL  ; // soft split
 

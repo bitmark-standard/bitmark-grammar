@@ -86,7 +86,6 @@ BitBotActionRemind:  	       NL OPDOT S* 'bot-action-remind' ;
 BitVendorPadletEmbed:	       NL OPDOT S* 'vendor-padlet-embed' ;
 BitScorm:		       NL OPDOT S* 'scorm' ;
 
-// New Jan 24, 2023
 BitImage:			NL OPDOT S* 'image'   ;
 BitImageLink:			NL OPDOT S* 'image-link'   ;
 BitImageZoom:			NL OPDOT S* 'image-zoom'   ;
@@ -111,7 +110,6 @@ BitDocumentDownload:		NL OPDOT S* 'document-download'   ;
 BitAppLink:			NL OPDOT S* 'app-link'   ;
 BitEditorial:			NL OPDOT S* 'editorial'   ;
 
-// New Jan 30, 2023
 BitBookFrontispiece:		NL OPDOT S* 'book-frontispiece'   ;
 BitBookTitle:	       		NL OPDOT S* 'book-title'   ;
 BitBookCopyright:		NL OPDOT S* 'book-copyright'   ;
@@ -160,20 +158,12 @@ BitReleaseNote:			NL OPDOT S* 'release-note' ;
 BitConclusion:			NL OPDOT S* 'conclusion' ;
 
 BitVendorAmcharts5Chart:	NL OPDOT S* 'vendor-amcharts-5-chart' ;
+BitFeatured:			NL OPDOT S* 'featured' ;
+
 
 //
-COMMENT:  '||' UTF8*? '||' S* '\n'* ->skip ;
-Image_type: BASIC | JPG | PNG | GIF | SVG ;
-Audio_type: BASIC | MP3 | MP4 ;
-Video_type: MP3 | MP2 | MP4 | FLV | GIF | WMV | MPEG | MPG ;
-//----------------------------------------
-
 OPDOLL:		'[' S* '$' ;      // Dollar
 OPBUL:          '[' S* '•' ;      // Bullet
-
-//OPESC:          '[^' [!@:+&%_$.\-]+ ;      // Escaped bracketted def
-//OPAMP:	'[&' ;	    // Get conflict if exist.
-
 OPRANGLES:      '[' '►' S* ;  // Right angle
 OPRANGLEL:      '[' '▶' S* ;  // Right angle
 OPDANGLE:       '[▼' S* ;  // Down angle - Anchor
@@ -211,11 +201,14 @@ SSPL2:	  	'---'   S* NL  ; // soft split
 QUOTE_INDEX: '[' [0-9]+ ']' ;  // Only for this lexer!
 
 //<<<<<<<<<<<<<<<< COMMON LEXER RULES <<<<<<<<<<<<<<<<<<<<
-// DCANY added 12/18/2020
+
+COMMENT:  '||' UTF8*? '||' S* NL* ->skip ;
+
 DCANY:  NL* '::' STRING (':' SENTENCE)? '::' (NL|.)*? '::' NL ;  // OK1
 
-//ANNO:    '==' STR_SP '==(' [!*+\-_?@▼] STR_SPX ')' '==' ;
-//ANNO_IM: '==' STR_SP '==(' '&image' STR_SPX ')' '==' ;
+Image_type: BASIC | JPG | PNG | GIF | SVG ;
+Audio_type: BASIC | MP3 | MP4 ;
+Video_type: MP3 | MP2 | MP4 | FLV | GIF | WMV | MPEG | MPG ;
 
 ArticleText: '[' S* AmpArticle COLON (.|[ \t\r\n])*? CL ;
 

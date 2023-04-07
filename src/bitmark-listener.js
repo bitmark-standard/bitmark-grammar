@@ -2695,6 +2695,7 @@ BitmarkListener.prototype.enterBrowser_image = function(ctx) { this.push_tmpl(ct
 BitmarkListener.prototype.enterChapter_subject_matter = function(ctx) { this.push_tmpl(ctx, 'chapter-subject-matter'); };
 BitmarkListener.prototype.enterRelease_note = function(ctx) { this.push_tmpl(ctx, 'release-note'); };
 BitmarkListener.prototype.enterConclusion = function(ctx) { this.push_tmpl(ctx, 'conclusion'); };
+BitmarkListener.prototype.enterFeatured = function(ctx) { this.push_tmpl(ctx, 'featured'); };
 
 BitmarkListener.prototype.enterVendor_amcharts_5_chart = function(ctx) {
   // restype is an array.
@@ -2721,7 +2722,26 @@ BitmarkListener.prototype.enterVendor_amcharts_5_chart = function(ctx) {
 };
 BitmarkListener.prototype.enterConversation_left_1 = function(ctx) { this.push_tmpl(ctx, 'conversation-left-1'); }
 BitmarkListener.prototype.enterConversation_right_1 = function(ctx) { this.push_tmpl(ctx, 'conversation-right-1'); }
+BitmarkListener.prototype.enterMenu_3_course = function(ctx) {
+  this.push_tmpl(ctx, 'menu-3-course');
+  this.stk.top().bit['menu'] = {};
+};
+BitmarkListener.prototype.exitMenu_3_course = function(ctx) {
+  this.stk.top().bit.body = this.stk.top().bit.body.replace(/\n*===\n*/g, '');
+};
+BitmarkListener.prototype.exitMenu_text = function(ctx) {
+  let code = this.but.getcode(ctx);
 
+  // When an entry is emply, the parser captures \n===\n + entry to the next slot.
+  // This is not a full solution to it but at least \n===\n in the data
+  code = code.replace(/\n*===\n*/g, '');
+  if ( typeof this.exitMenu_text.mi == 'undefined') {
+    this.exitMenu_text.mi = 0;
+  }
+  const MENUITEMS = ["appetizer", "mainCourse", "dessert","?","??","???","????"];
+  this.stk.top().bit['menu'][MENUITEMS[this.exitMenu_text.mi++]] = code.trim();
+  (this.stk.top()).bit.body = (this.stk.top()).bit.body.replace(code,'');  
+};
 
 
 BitmarkListener.prototype.exitAnchor = function(ctx) {

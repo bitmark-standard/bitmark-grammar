@@ -10,11 +10,6 @@ BitInterview:    NL OPDOT S* 'interview'    ;
 BitInterviewinstgrp: NL OPDOT S* 'interview-instruction-grouped'    ;
 
 //
-COMMENT:  '||' UTF8*? '||' S* NL* ->skip ;
-Image_type: BASIC | JPG | PNG | GIF | SVG ;
-Audio_type: BASIC | MP3 | MP4 ;
-Video_type: MP3 | MP2 | MP4 | FLV | GIF | WMV | MPEG | MPG ;
-//----------------------------------------
 OPDOLL:		'[' S* '$' ;      // Dollar
 OPBUL:          '[' S* '•' ;      // Bullet
 

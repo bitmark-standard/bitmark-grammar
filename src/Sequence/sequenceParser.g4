@@ -1,18 +1,8 @@
 /*
   Bitbook grammar
-     June 18, 2020  by Yoshi Noda
+    April 6, 2023  by Yoshi Noda
 
-Issues:
-1)   ':' '&' and ']' in word not accepted.
-
-2) 
-
-3) Bracket escaping = [] inside sentences
-   e.g.* Ich habe die __(deutsche)__ Staatsbürgerschaft. Ich bin __(Deutsche[r]). __
-
-4) It gets really slow to parse lines line this
-  => Modified the grammar and now it is not that slow.
-
+  added menu-3-course
 */
 parser grammar sequenceParser;
 
@@ -20,24 +10,29 @@ options { tokenVocab = sequenceLexer; }
 
 
 bitmark: ( bitmark_ ( S* NL )* )+ NL* EOF ;
+bitmark_: bit ;
+bit:   sequence | menu_3_course ;
 
-bitmark_:
-	  bit
-;
-
-bit:
-	sequence
-;
 //
 sequence:
     BitSequence format CL ( NL* bitElem )* NL*
        HSPL ( seqstr mmm )* seqstr HSPL
        ( resource (NL* resource)* )?
 ;
-
 seqstr: (bitElem NL?)* s_and_w ;
-
 mmm:    DBLMI  ;
+
+menu_3_course:
+    BitMenu3Course format CL ( NL* bitElem )* NL*
+       ( HSPL menu_text )+ HSPL
+       ( resource (NL* resource)* )?
+;
+menu_text: mtex ( mtex )*
+         | /**/
+;
+mtex:   s_and_w NL*
+      | bitElem NL*
+;
 
 //
 bitElem:
@@ -307,21 +302,21 @@ s_and_w:
 
 dclines: DCANY ;
 
-clnsp:		CL ;  // without spaces
-sspl:		SSPL|SSPL2 ;
+clnsp:	  CL ;  // without spaces
+sspl:	  SSPL|SSPL2 ;
 
-words:          ( SENTENCE
-		| NOTBITMARK	
-		| BARSTRING
-		| LIST_LINE
-		| AMP | Greater ~(Greater) | Less ~(Less) 
-		| RightArrow | RightAngle 
-		| AmpArticle | AmpDocument | AmpDocumentLink | AmpWebsite
-		| AmpImage | AmpAudio | AmpVideo | AmpApp 
-		| AmpArticleLink | AmpAudioLink | AmpImageLink | AmpDocumentLink
-		| BitmarkMinus | BitmarkPlus
-		)+ ;
-sp: 		S ;
+words:  ( SENTENCE
+	| NOTBITMARK	
+	| BARSTRING
+	| LIST_LINE
+	| AMP | Greater ~(Greater) | Less ~(Less) 
+	| RightArrow | RightAngle 
+	| AmpArticle | AmpDocument | AmpDocumentLink | AmpWebsite
+	| AmpImage | AmpAudio | AmpVideo | AmpApp 
+	| AmpArticleLink | AmpAudioLink | AmpImageLink | AmpDocumentLink
+	| BitmarkMinus | BitmarkPlus
+	)+ ;
+sp: 	S ;
 
 
 // ---------END of grammar-------------------------------------------------------------
