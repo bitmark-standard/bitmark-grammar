@@ -3,7 +3,7 @@ on: push
 
 jobs:
   publish-npm:
-    name: Publish NPM
+    name: Publish bitmark grammar
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
