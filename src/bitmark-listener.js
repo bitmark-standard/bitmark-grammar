@@ -349,6 +349,9 @@ BitmarkListener.prototype.exitInstruction = function(ctx) {
       bit.responses[l-1].response = val;
       this.bot_action_rating.push(val);
     }
+    else if (what==='menu') {
+      this.curr_bit_stk.third()['instruction'] = val;
+    }
     else if (what != null) {
       let key_obj='';
       if (typeof what==='string' && what.startsWith('{'))
@@ -392,6 +395,9 @@ BitmarkListener.prototype.exitHint = function(ctx) {
     else if (what==='bot_action') {
       let l = bit.responses.length;
       bit.responses[l-1].hint = val;
+    }
+    else if (what==='menu') {
+      this.curr_bit_stk.third()['hint'] = val;
     }
     else {
       if (typeof what==='string' && what.startsWith('{'))
@@ -1715,7 +1721,7 @@ BitmarkListener.prototype.exitAtdef_ = function(ctx) {
   let what = this.curr_bit_stk.top();
 
   if (0 < vals.length) {
-    if (vals[0] === 'format' || vals[0] === 'type')
+    if (what !== 'menu' && (vals[0] === 'format' || vals[0] === 'type'))
       vals[0] = '_'+vals[0];  // because those keys are already there
 
     if (-1 < this.atdef_str.indexOf(vals[0])) {
@@ -1741,6 +1747,10 @@ BitmarkListener.prototype.exitAtdef_ = function(ctx) {
 	  return null; }
       }
       this.stk.top().bit.responses[l-1][vals[0]] = vals[1];
+    }
+    else if (what==='menu') {
+      let fn = this.curr_bit_stk.second();
+      fn(code, vals[0], vals[1]);
     }
     else {
       // @def values be in a list
@@ -2722,27 +2732,59 @@ BitmarkListener.prototype.enterVendor_amcharts_5_chart = function(ctx) {
 };
 BitmarkListener.prototype.enterConversation_left_1 = function(ctx) { this.push_tmpl(ctx, 'conversation-left-1'); }
 BitmarkListener.prototype.enterConversation_right_1 = function(ctx) { this.push_tmpl(ctx, 'conversation-right-1'); }
+
 BitmarkListener.prototype.enterMenu_3_course = function(ctx) {
   this.push_tmpl(ctx, 'menu-3-course');
-  this.stk.top().bit['menu'] = {};
+  this.stk.top().bit['menu'] = [];
+  for (let i=0; i<3; i++)
+    this.stk.top().bit['menu'].push(R.clone(JSON_BIT_TEMPLATES.MenuItem));  
+  // init static menu order number
+  //if ( typeof this.enterMenu_text.mi == 'undefined')
+  this.enterMenu_text.mi = 0;
 };
 BitmarkListener.prototype.exitMenu_3_course = function(ctx) {
   this.stk.top().bit.body = this.stk.top().bit.body.replace(/\n*===\n*/g, '');
 };
+//BitmarkListener.prototype.enterMenu_list = function(ctx) {};
+//BitmarkListener.prototype.exitMenu_list = function(ctx) {};
+
+BitmarkListener.prototype.enterMenu_text = function(ctx) {
+  const MENUITEMS = ["appetizer", "mainCourse", "dessert"];
+  let t = MENUITEMS[this.enterMenu_text.mi];  // set default
+  let slot = this.stk.top().bit['menu'][this.enterMenu_text.mi];
+  //this.stk.top().bit['menu'][this.enterMenu_text.mi]['type'] = t;  // set default type
+  slot['type'] = t;  // set default type
+ 
+  // key-val store function
+  const fn = (code, key, val) => {
+    //console.log(`key=${key} val=${val}`);
+    const MENUITEMS = ["appetizer", "mainCourse", "dessert"];
+    let slot = this.curr_bit_stk.third();
+    slot[key] = val;
+    (this.stk.top()).bit.body = (this.stk.top()).bit.body.replace(code,'');      
+  };
+  this.curr_bit_stk.push(slot);
+  this.curr_bit_stk.push(fn);
+  this.curr_bit_stk.push('menu');  // push a marker.  
+};
+
 BitmarkListener.prototype.exitMenu_text = function(ctx) {
   let code = this.but.getcode(ctx);
-
   // When an entry is emply, the parser captures \n===\n + entry to the next slot.
   // This is not a full solution to it but at least \n===\n in the data
   code = code.replace(/\n*===\n*/g, '');
-  if ( typeof this.exitMenu_text.mi == 'undefined') {
-    this.exitMenu_text.mi = 0;
-  }
-  const MENUITEMS = ["appetizer", "mainCourse", "dessert","?","??","???","????"];
-  this.stk.top().bit['menu'][MENUITEMS[this.exitMenu_text.mi++]] = code.trim();
-  (this.stk.top()).bit.body = (this.stk.top()).bit.body.replace(code,'');  
-};
+  let slot = this.stk.top().bit['menu'][this.enterMenu_text.mi];
+  code = code.replace(/\[.*?\]/g, '').trim();
+  slot['course'] = code;
+  
+  this.enterMenu_text.mi++;
+  (this.stk.top()).bit.body = (this.stk.top()).bit.body.replace(code,'');
 
+  this.curr_bit_stk.pop();  // menu
+  this.curr_bit_stk.pop();  // fn
+  this.curr_bit_stk.pop();  // slot
+};
+  
 
 BitmarkListener.prototype.exitAnchor = function(ctx) {
   let code = this.but.getcode(ctx);

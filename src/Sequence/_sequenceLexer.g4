@@ -44,7 +44,7 @@ Dot:		'.' ;
 
 // Separators
 DBLEQ:		'==' ;
-DBLMI:		(NL+ '--' NL+) ;
+DMM:		(NL+ '--' NL+) ;
 
 HSPL:		(NL '===' S* NL)  ; // hard split
 SSPL:	  	NL '---' S* NL  ; // soft split

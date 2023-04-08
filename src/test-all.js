@@ -122,6 +122,7 @@ const testfiles = [
   './tests/rec1.bit',
   './tests/seq1.bit', 
   './tests/seq2.bit',
+  './tests/menu1.bit',
   './tests/takepic1.bit',
 
   './tests/truefalse1.bit',

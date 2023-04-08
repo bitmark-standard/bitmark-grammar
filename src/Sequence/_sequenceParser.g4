@@ -16,23 +16,33 @@ bit:   sequence | menu_3_course ;
 //
 sequence:
     BitSequence format CL ( NL* bitElem )* NL*
-       HSPL ( seqstr mmm )* seqstr HSPL
+       HSPL ( seqstr minusminus )* seqstr HSPL
+       footer?
        ( resource (NL* resource)* )?
 ;
 seqstr: (bitElem NL?)* s_and_w ;
-mmm:    DBLMI  ;
-
+minusminus:  DMM  ;
+//
 menu_3_course:
     BitMenu3Course format CL ( NL* bitElem )* NL*
-       ( HSPL menu_text )+ HSPL
+       menu_list
+       footer?
        ( resource (NL* resource)* )?
+
 ;
-menu_text: mtex ( mtex )*
+
+menu_list: hspl_slot menu_text ( HSPL menu_text )* HSPL ;
+
+hspl_slot: HSPL ;  // needed for initialization
+
+menu_text: melem
          | /**/
 ;
+melem:  mtex ( mtex )* ;
 mtex:   s_and_w NL*
-      | bitElem NL*
+      | (instruction|atdef|hint|example) NL*
 ;
+footer: (NL* s_and_w)+ NL+ ;
 
 //
 bitElem:

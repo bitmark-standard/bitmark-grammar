@@ -48,7 +48,7 @@ export class sequenceLexer extends Lexer {
 	public static readonly RightArrow = 30;
 	public static readonly Dot = 31;
 	public static readonly DBLEQ = 32;
-	public static readonly DBLMI = 33;
+	public static readonly DMM = 33;
 	public static readonly HSPL = 34;
 	public static readonly SSPL = 35;
 	public static readonly SSPL2 = 36;
@@ -184,7 +184,7 @@ export class sequenceLexer extends Lexer {
 		"OPRANGLES", "OPRANGLEL", "OPDANGLE", "OPU", "OPB", "OPQ", "OPA", "OPP", 
 		"OPM", "OPS", "OPR", "OPC", "OPHASH", "CL", "COLON", "AMP", "DBLCOLON", 
 		"PLUS", "DotAt", "Greater", "Less", "RightAngle", "RightArrow", "Dot", 
-		"DBLEQ", "DBLMI", "HSPL", "SSPL", "SSPL2", "COMMENT", "DCANY", "Image_type", 
+		"DBLEQ", "DMM", "HSPL", "SSPL", "SSPL2", "COMMENT", "DCANY", "Image_type", 
 		"Audio_type", "Video_type", "ArticleText", "NOTCL", "NUMERIC", "STRING", 
 		"NL", "NOTBITMARK", "EM0", "EM2", "VS0", "SS0", "LEA", "LEB", "GAL", "GALC", 
 		"ROMANIA", "GERMAN", "POLISH", "TRANSL", "EURO", "IPA", "JAPANESE", "STR_SP", 
@@ -242,7 +242,7 @@ export class sequenceLexer extends Lexer {
 		"OPESC", "OPRANGLES", "OPRANGLEL", "OPDANGLE", "OPU", "OPB", "OPQ", "OPA", 
 		"OPP", "OPM", "OPS", "OPR", "OPC", "OPHASH", "CL", "COLON", "AMP", "DBLCOLON", 
 		"PLUS", "DotAt", "Greater", "Less", "RightAngle", "RightArrow", "Dot", 
-		"DBLEQ", "DBLMI", "HSPL", "SSPL", "SSPL2", "COMMENT", "DCANY", "Image_type", 
+		"DBLEQ", "DMM", "HSPL", "SSPL", "SSPL2", "COMMENT", "DCANY", "Image_type", 
 		"Audio_type", "Video_type", "ArticleText", "NOTCL", "NUMERIC", "STRING", 
 		"NL", "NOTBITMARK", "SENTENCE", "BARSTRING", "OPAT", "AtProgress", "AtReference", 
 		"AtWidth", "AtHeight", "AtProgressPoints", "AtShortanswer", "AtLonganswer", 

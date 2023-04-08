@@ -13793,5 +13793,110 @@
         }
     }
 ]
+<<<<./tests/menu1.bit
+[
+    {
+        "bitmark": "[.menu-3-course]\n[!This is our three course menu]\n\nIntroduction of the menu\n\n===\nAppetizer\n===\nMain Course\n===\nDessert\n===\nThis goes to the footer property",
+        "bit": {
+            "type": "menu-3-course",
+            "format": "bitmark--",
+            "body": "Introduction of the menu",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "menu": [
+                {
+                    "type": "appetizer",
+                    "course": "Appetizer",
+                    "item": "",
+                    "instruction": "",
+                    "hint": "",
+                    "isExample": false,
+                    "example": ""
+                },
+                {
+                    "type": "mainCourse",
+                    "course": "Main Course",
+                    "item": "",
+                    "instruction": "",
+                    "hint": "",
+                    "isExample": false,
+                    "example": ""
+                },
+                {
+                    "type": "dessert",
+                    "course": "Dessert",
+                    "item": "",
+                    "instruction": "",
+                    "hint": "",
+                    "isExample": false,
+                    "example": ""
+                }
+            ],
+            "instruction": "This is our three course menu",
+            "footer": "This goes to the footer property"
+        }
+    },
+    {
+        "bitmark": "[.menu-3-course&image]\n[!This is our three course menu]\n[&image:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gesch_ft_kommerz_und_handel_958.png]\n\nIntroduction of the menu\n\n===\n[@type:前菜]\nチキンすーぷ\nクラゲ酢の物\n[@soup:中華]\n===\n[@type:メイン]\n[!これはメイン料理です]\nカツカレー\n蟹チャーハン\n===\n杏仁豆腐\n[?あんにんどうふ]\n===\nThis goes to the footer property",
+        "bit": {
+            "type": "menu-3-course",
+            "format": "bitmark--",
+            "body": "Introduction of the menu",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "menu": [
+                {
+                    "type": "前菜",
+                    "course": "チキンすーぷ\nクラゲ酢の物",
+                    "item": "",
+                    "instruction": "",
+                    "hint": "",
+                    "isExample": false,
+                    "example": "",
+                    "soup": "中華"
+                },
+                {
+                    "type": "メイン",
+                    "course": "カツカレー\n蟹チャーハン",
+                    "item": "",
+                    "instruction": "これはメイン料理です",
+                    "hint": "",
+                    "isExample": false,
+                    "example": ""
+                },
+                {
+                    "type": "dessert",
+                    "course": "杏仁豆腐",
+                    "item": "",
+                    "instruction": "",
+                    "hint": "あんにんどうふ",
+                    "isExample": false,
+                    "example": ""
+                }
+            ],
+            "instruction": "This is our three course menu",
+            "resource": {
+                "type": "image",
+                "image": {
+                    "src": "https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gesch_ft_kommerz_und_handel_958.png",
+                    "showInIndex": false,
+                    "format": "png",
+                    "width": null,
+                    "height": null,
+                    "alt": "",
+                    "caption": "",
+                    "license": "",
+                    "copyright": ""
+                }
+            },
+            "footer": "This goes to the footer property"
+        }
+    }
+]
+
 <<<<
   

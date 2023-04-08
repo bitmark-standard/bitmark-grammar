@@ -1,3 +1,18 @@
+[.menu-3-course]
+[!This is our three course menu]
+
+Introduction of the menu
+
+===
+Appetizer
+===
+Main Course
+===
+Dessert
+===
+This goes to the footer property
+
+
 [.menu-3-course&image]
 [!This is our three course menu]
 [&image:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gesch_ft_kommerz_und_handel_958.png]

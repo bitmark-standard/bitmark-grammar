@@ -68,7 +68,7 @@ sequenceLexer.RightAngle = 29;
 sequenceLexer.RightArrow = 30;
 sequenceLexer.Dot = 31;
 sequenceLexer.DBLEQ = 32;
-sequenceLexer.DBLMI = 33;
+sequenceLexer.DMM = 33;
 sequenceLexer.HSPL = 34;
 sequenceLexer.SSPL = 35;
 sequenceLexer.SSPL2 = 36;
@@ -201,7 +201,7 @@ sequenceLexer.ruleNames = [
     "OPRANGLES", "OPRANGLEL", "OPDANGLE", "OPU", "OPB", "OPQ", "OPA", "OPP",
     "OPM", "OPS", "OPR", "OPC", "OPHASH", "CL", "COLON", "AMP", "DBLCOLON",
     "PLUS", "DotAt", "Greater", "Less", "RightAngle", "RightArrow", "Dot",
-    "DBLEQ", "DBLMI", "HSPL", "SSPL", "SSPL2", "COMMENT", "DCANY", "Image_type",
+    "DBLEQ", "DMM", "HSPL", "SSPL", "SSPL2", "COMMENT", "DCANY", "Image_type",
     "Audio_type", "Video_type", "ArticleText", "NOTCL", "NUMERIC", "STRING",
     "NL", "NOTBITMARK", "EM0", "EM2", "VS0", "SS0", "LEA", "LEB", "GAL", "GALC",
     "ROMANIA", "GERMAN", "POLISH", "TRANSL", "EURO", "IPA", "JAPANESE", "STR_SP",
@@ -258,7 +258,7 @@ sequenceLexer._SYMBOLIC_NAMES = [
     "OPESC", "OPRANGLES", "OPRANGLEL", "OPDANGLE", "OPU", "OPB", "OPQ", "OPA",
     "OPP", "OPM", "OPS", "OPR", "OPC", "OPHASH", "CL", "COLON", "AMP", "DBLCOLON",
     "PLUS", "DotAt", "Greater", "Less", "RightAngle", "RightArrow", "Dot",
-    "DBLEQ", "DBLMI", "HSPL", "SSPL", "SSPL2", "COMMENT", "DCANY", "Image_type",
+    "DBLEQ", "DMM", "HSPL", "SSPL", "SSPL2", "COMMENT", "DCANY", "Image_type",
     "Audio_type", "Video_type", "ArticleText", "NOTCL", "NUMERIC", "STRING",
     "NL", "NOTBITMARK", "SENTENCE", "BARSTRING", "OPAT", "AtProgress", "AtReference",
     "AtWidth", "AtHeight", "AtProgressPoints", "AtShortanswer", "AtLonganswer",

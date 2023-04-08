@@ -534,6 +534,15 @@ const JSON_BIT_TEMPLATES = {
       example: ''
     }
   },
+  MenuItem: {
+    type: '',  // ["appetizer", "mainCourse", "dessert"] 
+    course: '',
+    item: '',
+    instruction: '',
+    hint: '',
+    isExample: false,
+    example: ''
+  },
   Error_Info: {
     message: '',
     line: null,
