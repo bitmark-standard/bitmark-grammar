@@ -1,21 +1,57 @@
-[.menu-3-course&image]
-[!This is our three course menu]
-[&image:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gesch_ft_kommerz_und_handel_958.png]
+[.newspaper-article:bitmark++]
+::info::
+**Gebrauch der Zeitformen:**
+Das Präteritum verwendet man vor allem für schriftliche Äußerungen.
+In der mündlichen Kommunikation gebrauchen wir in der Regel das Perfekt.
+Die Hilfsverben __haben__ und __sein__ und die Modalverben bilden eine Ausnahme und werden meistens im Präteritum verwendet.
+::
 
-Introduction of the menu
+::info::
+**Bildung des Perfekts:**
+Alle Verben, die einen Akkusativ verlangen, und alle reflexiven Verben bilden das Perfekt mit __haben__.
+__Wir haben ein Haus gebaut. Ich habe mich geärgert.__
+Verben der Orts- und Zustandsänderung sowie sein und bleiben bilden das Perfekt mit __sein__.
+__Wir sind nach Italien gefahren. Die Blumen sind verblüht.__
+::
 
-===
-[@type:前菜]
-チキンすーぷ
-クラゲ酢の物
-[@soup:中華]
-===
-[@type:メイン]
-[!これはメイン料理です]
-カツカレー
-蟹チャーハン
-===
-杏仁豆腐
-[?あんにんどうふ]
-===
-This goes to the footer property
+
+[.blog-article:bitmark++]
+::info::
+**Gebrauch der Zeitformen:**
+Das Präteritum verwendet man vor allem für schriftliche Äußerungen.
+In der mündlichen Kommunikation gebrauchen wir in der Regel das Perfekt.
+Die Hilfsverben __haben__ und __sein__ und die Modalverben bilden eine Ausnahme und werden meistens im Präteritum verwendet.
+::
+
+::info::
+**Bildung des Perfekts:**
+Alle Verben, die einen Akkusativ verlangen, und alle reflexiven Verben bilden das Perfekt mit __haben__.
+__Wir haben ein Haus gebaut. Ich habe mich geärgert.__
+Verben der Orts- und Zustandsänderung sowie sein und bleiben bilden das Perfekt mit __sein__.
+__Wir sind nach Italien gefahren. Die Blumen sind verblüht.__
+::
+
+[.book-article:bitmark++]
+::info::
+**Gebrauch der Zeitformen:**
+Das Präteritum verwendet man vor allem für schriftliche Äußerungen.
+In der mündlichen Kommunikation gebrauchen wir in der Regel das Perfekt.
+Die Hilfsverben __haben__ und __sein__ und die Modalverben bilden eine Ausnahme und werden meistens im Präteritum verwendet.
+::
+
+
+[.notebook-article:bitmark++]
+::info::
+**Gebrauch der Zeitformen:**
+Das Präteritum verwendet man vor allem für schriftliche Äußerungen.
+In der mündlichen Kommunikation gebrauchen wir in der Regel das Perfekt.
+Die Hilfsverben __haben__ und __sein__ und die Modalverben bilden eine Ausnahme und werden meistens im Präteritum verwendet.
+::
+
+[.workbook-article:bitmark++]
+::info::
+**Gebrauch der Zeitformen:**
+Das Präteritum verwendet man vor allem für schriftliche Äußerungen.
+In der mündlichen Kommunikation gebrauchen wir in der Regel das Perfekt.
+Die Hilfsverben __haben__ und __sein__ und die Modalverben bilden eine Ausnahme und werden meistens im Präteritum verwendet.
+::

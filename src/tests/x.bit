@@ -1,20 +1,51 @@
-[.match-matrix]
-[%C6]
-[!Setzen Sie die Verben in die angegebenen Zeitformen.]
+[.chapter] [#Chapter Title]
+
+[.message]
+
+
+[.essay&article]
+[!Fassen Sie den Text kurz mit eigenen Worten zusammen.]
+
+[&article:
+**Erfolg um jeden Preis**
+
+Immer, wenn ein Dopingfall durch die Medien geht, melden sich auch die Moralisten zu Wort.
+
+(&image:https://cdn.bitmark.json.education/publishers/3/books/26363/erfolg.jpg)
+
+Was sind dagegen ein paar anabole Steroide?
+]
+
+[.multiple-choice-1]
+[!What color is milk?]
+[?Cows produce milk.]
+[+white]
+[-red]
+[-blue]
+
+
+[.interview]
+[!This is a job interview with an example, model answers and line "numbers".]
+
 ===
-[#]
-==
-[#Präsens]
-==
-[#Präteritum]
-==
-[#Perfekt]
+[%a)]What was your last job?[!Please answer in one short sentence]
+[@sampleSolution:I worked as a project manager.]
 ===
-[%1]arbeiten
+[%b)]Why did you quit your last job?[!Please answer in several short sentences]
+[@sampleSolution:I was mobbed by my coworkers.]
+===
+[%c)]How much did you earn in your last job?[!Please use Euro as a currency][@shortAnswer]
+[@sampleSolution:EUR 3'000 per month.]
+===
+
+
+[.match]
+[!Please translate.]
+
+===
+Fussball
 ==
-[!ich]arbeite[@example]
-==
-[!er]arbeitete
-==
-[!ihr]habt gearbeitet
+football
+--
+soccer
 ===

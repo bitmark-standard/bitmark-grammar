@@ -19,6 +19,7 @@ import { Interview_answerContext } from "./interviewParser";
 import { LongansContext } from "./interviewParser";
 import { ShortansContext } from "./interviewParser";
 import { PartansContext } from "./interviewParser";
+import { Sample_soln_propContext } from "./interviewParser";
 import { Mark_textContext } from "./interviewParser";
 import { QueryContext } from "./interviewParser";
 import { AnswerContext } from "./interviewParser";
@@ -279,6 +280,17 @@ export interface interviewParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitPartans?: (ctx: PartansContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `interviewParser.sample_soln_prop`.
+	 * @param ctx the parse tree
+	 */
+	enterSample_soln_prop?: (ctx: Sample_soln_propContext) => void;
+	/**
+	 * Exit a parse tree produced by `interviewParser.sample_soln_prop`.
+	 * @param ctx the parse tree
+	 */
+	exitSample_soln_prop?: (ctx: Sample_soln_propContext) => void;
 
 	/**
 	 * Enter a parse tree produced by `interviewParser.mark_text`.

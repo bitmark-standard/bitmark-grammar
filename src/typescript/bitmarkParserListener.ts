@@ -148,6 +148,11 @@ import { Release_noteContext } from "./bitmarkParser";
 import { ConclusionContext } from "./bitmarkParser";
 import { FeaturedContext } from "./bitmarkParser";
 import { Vendor_amcharts_5_chartContext } from "./bitmarkParser";
+import { Newspaper_articleContext } from "./bitmarkParser";
+import { Blog_articleContext } from "./bitmarkParser";
+import { Book_articleContext } from "./bitmarkParser";
+import { Notebook_articleContext } from "./bitmarkParser";
+import { Workbook_articleContext } from "./bitmarkParser";
 import { MessageContext } from "./bitmarkParser";
 import { Bot_interviewContext } from "./bitmarkParser";
 import { Bot_choiceContext } from "./bitmarkParser";
@@ -1826,6 +1831,61 @@ export interface bitmarkParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitVendor_amcharts_5_chart?: (ctx: Vendor_amcharts_5_chartContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.newspaper_article`.
+	 * @param ctx the parse tree
+	 */
+	enterNewspaper_article?: (ctx: Newspaper_articleContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.newspaper_article`.
+	 * @param ctx the parse tree
+	 */
+	exitNewspaper_article?: (ctx: Newspaper_articleContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.blog_article`.
+	 * @param ctx the parse tree
+	 */
+	enterBlog_article?: (ctx: Blog_articleContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.blog_article`.
+	 * @param ctx the parse tree
+	 */
+	exitBlog_article?: (ctx: Blog_articleContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.book_article`.
+	 * @param ctx the parse tree
+	 */
+	enterBook_article?: (ctx: Book_articleContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.book_article`.
+	 * @param ctx the parse tree
+	 */
+	exitBook_article?: (ctx: Book_articleContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.notebook_article`.
+	 * @param ctx the parse tree
+	 */
+	enterNotebook_article?: (ctx: Notebook_articleContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.notebook_article`.
+	 * @param ctx the parse tree
+	 */
+	exitNotebook_article?: (ctx: Notebook_articleContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.workbook_article`.
+	 * @param ctx the parse tree
+	 */
+	enterWorkbook_article?: (ctx: Workbook_articleContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.workbook_article`.
+	 * @param ctx the parse tree
+	 */
+	exitWorkbook_article?: (ctx: Workbook_articleContext) => void;
 
 	/**
 	 * Enter a parse tree produced by `bitmarkParser.message`.

@@ -160,6 +160,12 @@ BitConclusion:			NL OPDOT S* 'conclusion' ;
 BitVendorAmcharts5Chart:	NL OPDOT S* 'vendor-amcharts-5-chart' ;
 BitFeatured:			NL OPDOT S* 'featured' ;
 
+BitNewspaperArticle:		NL OPDOT S* 'newspaper-article' ;
+BitBlogArticle:			NL OPDOT S* 'blog-article' ;
+BitBookArticle:			NL OPDOT S* 'book-article' ;
+BitNotebookArticle:		NL OPDOT S* 'notebook-article' ;
+BitWorkbookArticle:		NL OPDOT S* 'workbook-article' ;
+
 
 //
 OPDOLL:		'[' S* '$' ;      // Dollar
@@ -268,6 +274,7 @@ AtLonganswer:	  OPAT S* 'longAnswer]' ;
 AtExampleWithStr:OPAT S* 'example:' (SENTENCE|NL)* CL ;
 AtExamplecol:    OPAT S* 'example:'  ;
 AtExamplecl:     OPAT S* 'example]'  ;
+AtSampleSolution: OPAT S* 'sampleSolution:'  SENTENCE CL ;
 
 AtPartialAnswerS:OPAT S* 'partialAnswer:' SENTENCE CL ;
 AtPartialAnswer: OPAT S* 'partialAnswer]' ;

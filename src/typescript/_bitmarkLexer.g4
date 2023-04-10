@@ -160,6 +160,12 @@ BitConclusion:			NL OPDOT S* 'conclusion' ;
 BitVendorAmcharts5Chart:	NL OPDOT S* 'vendor-amcharts-5-chart' ;
 BitFeatured:			NL OPDOT S* 'featured' ;
 
+BitNewspaperArticle:		NL OPDOT S* 'newspaper-article' ;
+BitBlogArticle:			NL OPDOT S* 'blog-article' ;
+BitBookArticle:			NL OPDOT S* 'book-article' ;
+BitNotebookArticle:		NL OPDOT S* 'notebook-article' ;
+BitWorkbookArticle:		NL OPDOT S* 'workbook-article' ;
+
 
 //
 OPDOLL:		'[' S* '$' ;      // Dollar

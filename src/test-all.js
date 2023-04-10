@@ -67,9 +67,14 @@ const testfiles = [
   './tests/flashcard-set.bit',
   
   './tests/interview1.bit',
-  ////'./tests/interview2.bit',
+  './tests/interview2.bit',
   './tests/interview3.bit',
   './tests/interview4.bit',
+  './tests/interview5.bit',
+  './tests/interview6.bit',
+  './tests/interview7.bit',
+  './tests/interview8.bit',  
+
   './tests/interview100.bit',  
   //'./tests/interview101.bit',  
   './tests/interview102.bit',  

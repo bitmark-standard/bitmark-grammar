@@ -1,0 +1,14 @@
+[.interview]
+[!This is a job interview with an example, model answers and line "numbers".]
+
+===
+[%a)]What was your last job?[!Please answer in one short sentence]
+[@sampleSolution:I worked as a project manager.]
+===
+[%b)]Why did you quit your last job?[!Please answer in several short sentences]
+[@sampleSolution:I was mobbed by my coworkers.]
+===
+[%c)]How much did you earn in your last job?[!Please use Euro as a currency][@shortAnswer]
+[@sampleSolution:EUR 3'000 per month.]
+===
+

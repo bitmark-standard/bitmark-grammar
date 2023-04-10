@@ -53,21 +53,32 @@ interview_qanda:  interview_qanda__ ( NL+ interview_qanda__ )*  ;
 interview_qanda__:
     item? interview_text S*
     (
-        instruction | example | shortans | longans | dollarans | partans
+        item | instruction | example | shortans | longans | dollarans | partans 
         | single_gap  | mark_text  | hint | interview_sometext
     )*
-    ( NL interview_answer? S* (example | shortans | longans | dollarans | partans)* )?
+    ( NL interview_answer? S*
+      	 		   ( example
+			   | shortans
+			   | longans
+			   | dollarans
+			   | partans
+			   | sample_soln_prop
+			   )* )?
+
   | (
-        instruction | example | shortans | longans | dollarans | partans
+        item | instruction | example | shortans | longans | dollarans | partans 
 	| single_gap  | mark_text | hint | interview_sometext
     )+
-    ( NL interview_answer? S* (example | shortans | longans | dollarans | partans)* )?
+    ( NL interview_answer? S*
+      	 		   ( example
+			   | shortans
+			   | longans
+			   | dollarans
+			   | partans
+			   | sample_soln_prop
+			   )* )?
 ;
 interview_sometext: s_and_w+ ;
-
-//interview_text: (ALPHA CL)? ( words COLON? NL* )+
-//		| LIST_LINE
-//;
 
 interview_text: (STRING CL)? ( words COLON? NL* )+
 		| LIST_LINE
@@ -79,8 +90,11 @@ interview_answer: ( words COLON? )+ ;
 
 longans:   AtLonganswer ;
 shortans:  AtShortanswer ;
-
 partans:   AtPartialAnswer | AtPartialAnswerS ;
+sample_soln_prop: AtSampleSolution ;
+//  bit -> [ { "type": "text", "text": "I was mobbed by my coworkers." } ],
+
+
 
 mark_text: OPS .*? CL ;   // added sep 21
 

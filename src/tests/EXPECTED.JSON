@@ -2730,6 +2730,7 @@
         }
     }
 ]
+
 <<<<./tests/interview3.bit
 [
     {
@@ -2934,6 +2935,353 @@
                     "isExample": false,
                     "example": "",
                     "sampleSolution": "Was machen Sie in Ihrer Freizeit?/Was sind Ihre Hobbys?",
+                    "partialAnswer": "",
+                    "isShortAnswer": true
+                }
+            ]
+        }
+    }
+]
+<<<<./tests/interview5.bit
+[
+    {
+        "bitmark": "[.interview]\n[!This is a job interview with an example, model answers and line \"numbers\".]\n\n===\n[%a)]What was your last job?[!Please anwser in one short sentence]\n[$I worked as a project manager.][@example:I worked as a project manager.][@shortAnswer]\n===\n[%b)]Why did you quit your last job?[!Please anwser in several short sentences]\n[$I was mobbed by my coworkers.]\n===\n[%c)]How much did you earn in your last job?[!Please use Euro as a currency][@shortAnswer]\n[$EUR 3'000 per month.]\n===\n||\nQuestion:\nItem? s_and_w Instruction? Example?(answer)\n[$ words]? ==> sampleSolution \n\n   {\n                \"item\": \"a)\",\n                \"question\": \"What was your last job?\",\n                \"instruction\": \"Please anwser in one short sentence\",\n                \"hint\": \"\",\n                \"isExample\": true,\n                \"example\": \"I worked as a project manager.\",\n                \"sampleSolution\": \"I worked as a project manager.\",\n                \"isShortAnswer\": true\n            },\n            {\n                \"item\": \"b)\",\n                \"question\": \"Why did you quit your last job?\",\n                \"instruction\": \"Please anwser in several short sentences\",\n                \"hint\": \"\",\n                \"isExample\": false,\n                \"example\": \"\",\n                \"sampleSolution\": \"I was mobbed by my coworkers.\",\n                \"isShortAnswer\": false\n            },\n            {\n                \"item\": \"a)\",\n                \"question\": \"What was your last job?\",\n                \"instruction\": \"Please use Euro as a currency\",\n                \"hint\": \"\",\n                \"isExample\": false,\n                \"example\": \"\",\n                \"sampleSolution\": \"EUR 3'000 per month.\",\n                \"isShortAnswer\": true\n            }\n||",
+        "bit": {
+            "type": "interview",
+            "format": "bitmark--",
+            "item": "",
+            "instruction": "This is a job interview with an example, model answers and line \"numbers\".",
+            "body": "",
+            "footer": "",
+            "hint": "",
+            "questions": [
+                {
+                    "item": "a)",
+                    "question": "What was your last job?",
+                    "instruction": "Please anwser in one short sentence",
+                    "hint": "",
+                    "isExample": true,
+                    "example": "I worked as a project manager.",
+                    "sampleSolution": "I worked as a project manager.",
+                    "partialAnswer": "",
+                    "isShortAnswer": true
+                },
+                {
+                    "item": "b)",
+                    "question": "Why did you quit your last job?",
+                    "instruction": "Please anwser in several short sentences",
+                    "hint": "",
+                    "isExample": false,
+                    "example": "",
+                    "sampleSolution": "I was mobbed by my coworkers.",
+                    "partialAnswer": "",
+                    "isShortAnswer": true
+                },
+                {
+                    "item": "c)",
+                    "question": "How much did you earn in your last job?",
+                    "instruction": "Please use Euro as a currency",
+                    "hint": "",
+                    "isExample": false,
+                    "example": "",
+                    "sampleSolution": "EUR 3'000 per month.",
+                    "partialAnswer": "",
+                    "isShortAnswer": true
+                }
+            ]
+        }
+    }
+]
+<<<<./tests/interview6.bit
+[
+    {
+        "bitmark": "[.interview:bitmark--]\n**Eine CSR-Strategie sollte auf einer Stakeholder-Analyse aufbauen.**\nEs stellt sich die Frage, wem gegenüber Unternehmen tatsächlich verantwortlich sind. Anspruchsgruppen werden häufig etwas diffus als Stakeholder zusammengefasst. Zu ihnen können Mitarbeiter, Kunden, Lieferanten, Investoren, Kommunen, Gewerkschaften, NGOs oder der Staat gehören. Teils zählen die Öffentlichkeit oder die Medien dazu, aber auch Führungskräfte und Eigentümer. Unternehmen, die sich um Corporate Social Responsibility bemühen, sollten zunächst eine Stakeholder-Analyse durchführen. Diese erfolgt in vier Schritten:\n===\n**1. Identifikation:** Identifizieren Sie die relevanten Stakeholder und notieren Sie diese:\n===\n**2. Analyse:** Analysieren Sie die Ansprüche, Ziele, Motive, Mittel und Strategien der Stakeholder. Untersuchen Sie, wie fundiert die von ihnen geäußerten Befürchtungen sind und inwieweit Ihr Unternehmen zu möglichen negativen Auswirkungen beiträgt.\nAnsprüche:[@shortAnswer]\n===\nZiele:[@shortAnswer]\n===\nMotive:[@shortAnswer]\n===\nMittel:[@shortAnswer]\n===\nStrategien:[@shortAnswer]\n===\n**3. Prognose:** Versuchen Sie vorherzusagen, wie sich die Anliegen der Stakeholder weiterentwickeln werden. Nehmen Sie die Prognosen umso ernster, je schwerwiegender die Auswirkungen für die Betroffenen sind, je mehr Macht die Stakeholder haben, je schwächer die Position Ihres Unternehmens ist und je deutlicher es gegen zentrale Werte verstößt.\nMeine Vorhersage:\n===\n**4. Bewertung:** Bewerten Sie die Ansprüche der Stakeholder. Sie können hier ökonomisch-strategisch vorgehen, indem Sie Kosten und Nutzen Ihres Verhaltens abwägen: Was würde geschehen, wenn Sie auf die Ansprüche der Stakeholder eingehen? Welche potenziellen Schäden würden Sie hervorrufen, wenn Sie die Ansprüche ignorieren? Sie können aber auch ethisch handeln. Dann erkennen Sie die Verantwortung Ihres Unternehmens an und bemühen sich um einen gerechten Ausgleich der verschiedenen, möglicherweise miteinander kollidierenden Ansprüche.\nAnspruch 1[@shortAnswer]\n===\nBewertung[@shortAnswer]\n===\nAnspruch 2[@shortAnswer]\n===\nBewertung[@shortAnswer]\n===",
+        "bit": {
+            "type": "interview",
+            "format": "bitmark--",
+            "item": "",
+            "instruction": "",
+            "body": "**Eine CSR-Strategie sollte auf einer Stakeholder-Analyse aufbauen.**\nEs stellt sich die Frage, wem gegenüber Unternehmen tatsächlich verantwortlich sind. Anspruchsgruppen werden häufig etwas diffus als Stakeholder zusammengefasst. Zu ihnen können Mitarbeiter, Kunden, Lieferanten, Investoren, Kommunen, Gewerkschaften, NGOs oder der Staat gehören. Teils zählen die Öffentlichkeit oder die Medien dazu, aber auch Führungskräfte und Eigentümer. Unternehmen, die sich um Corporate Social Responsibility bemühen, sollten zunächst eine Stakeholder-Analyse durchführen. Diese erfolgt in vier Schritten:",
+            "footer": "",
+            "hint": "",
+            "questions": [
+                {
+                    "item": "",
+                    "question": "**1. Identifikation:** Identifizieren Sie die relevanten Stakeholder und notieren Sie diese:",
+                    "instruction": "",
+                    "hint": "",
+                    "isExample": false,
+                    "example": "",
+                    "sampleSolution": "",
+                    "partialAnswer": "",
+                    "isShortAnswer": true
+                },
+                {
+                    "item": "",
+                    "question": "**2. Analyse:** Analysieren Sie die Ansprüche, Ziele, Motive, Mittel und Strategien der Stakeholder. Untersuchen Sie, wie fundiert die von ihnen geäußerten Befürchtungen sind und inwieweit Ihr Unternehmen zu möglichen negativen Auswirkungen beiträgt.\nAnsprüche:",
+                    "instruction": "",
+                    "hint": "",
+                    "isExample": false,
+                    "example": "",
+                    "sampleSolution": "",
+                    "partialAnswer": "",
+                    "isShortAnswer": true
+                },
+                {
+                    "item": "",
+                    "question": "Ziele:",
+                    "instruction": "",
+                    "hint": "",
+                    "isExample": false,
+                    "example": "",
+                    "sampleSolution": "",
+                    "partialAnswer": "",
+                    "isShortAnswer": true
+                },
+                {
+                    "item": "",
+                    "question": "Motive:",
+                    "instruction": "",
+                    "hint": "",
+                    "isExample": false,
+                    "example": "",
+                    "sampleSolution": "",
+                    "partialAnswer": "",
+                    "isShortAnswer": true
+                },
+                {
+                    "item": "",
+                    "question": "Mittel:",
+                    "instruction": "",
+                    "hint": "",
+                    "isExample": false,
+                    "example": "",
+                    "sampleSolution": "",
+                    "partialAnswer": "",
+                    "isShortAnswer": true
+                },
+                {
+                    "item": "",
+                    "question": "Strategien:",
+                    "instruction": "",
+                    "hint": "",
+                    "isExample": false,
+                    "example": "",
+                    "sampleSolution": "",
+                    "partialAnswer": "",
+                    "isShortAnswer": true
+                },
+                {
+                    "item": "",
+                    "question": "**3. Prognose:** Versuchen Sie vorherzusagen, wie sich die Anliegen der Stakeholder weiterentwickeln werden. Nehmen Sie die Prognosen umso ernster, je schwerwiegender die Auswirkungen für die Betroffenen sind, je mehr Macht die Stakeholder haben, je schwächer die Position Ihres Unternehmens ist und je deutlicher es gegen zentrale Werte verstößt.\nMeine Vorhersage:",
+                    "instruction": "",
+                    "hint": "",
+                    "isExample": false,
+                    "example": "",
+                    "sampleSolution": "",
+                    "partialAnswer": "",
+                    "isShortAnswer": true
+                },
+                {
+                    "item": "",
+                    "question": "**4. Bewertung:** Bewerten Sie die Ansprüche der Stakeholder. Sie können hier ökonomisch-strategisch vorgehen, indem Sie Kosten und Nutzen Ihres Verhaltens abwägen: Was würde geschehen, wenn Sie auf die Ansprüche der Stakeholder eingehen? Welche potenziellen Schäden würden Sie hervorrufen, wenn Sie die Ansprüche ignorieren? Sie können aber auch ethisch handeln. Dann erkennen Sie die Verantwortung Ihres Unternehmens an und bemühen sich um einen gerechten Ausgleich der verschiedenen, möglicherweise miteinander kollidierenden Ansprüche.\nAnspruch 1",
+                    "instruction": "",
+                    "hint": "",
+                    "isExample": false,
+                    "example": "",
+                    "sampleSolution": "",
+                    "partialAnswer": "",
+                    "isShortAnswer": true
+                },
+                {
+                    "item": "",
+                    "question": "Bewertung",
+                    "instruction": "",
+                    "hint": "",
+                    "isExample": false,
+                    "example": "",
+                    "sampleSolution": "",
+                    "partialAnswer": "",
+                    "isShortAnswer": true
+                },
+                {
+                    "item": "",
+                    "question": "Anspruch 2",
+                    "instruction": "",
+                    "hint": "",
+                    "isExample": false,
+                    "example": "",
+                    "sampleSolution": "",
+                    "partialAnswer": "",
+                    "isShortAnswer": true
+                },
+                {
+                    "item": "",
+                    "question": "Bewertung",
+                    "instruction": "",
+                    "hint": "",
+                    "isExample": false,
+                    "example": "",
+                    "sampleSolution": "",
+                    "partialAnswer": "",
+                    "isShortAnswer": true
+                }
+            ]
+        }
+    }
+]
+
+<<<<./tests/interview7.bit
+[
+    {
+        "bitmark": "[.interview:bitmark--]\n[@id:198743]\n[%46]\n[!Erarbeiten Sie mit Ihrer Klasse ein Glossar der folgenden Fachbegriffe. Diskutieren Sie mit der Klasse Ihre zusammengestellten Angaben. Halten Sie Ihre durch die Lehrperson geprüften Angaben schriftlich fest.]\n===\n• CO₂-Fussabdruck\n[$Als Beispiel können die Lernenden einmal den Rechner des WWF benutzen https://www.wwf.ch/de/nachhaltig-leben/footprint-rechner\nDer CO₂-Fussabdruck ist das Ergebnis einer Emissionsberechnung bzw. CO₂-Bilanz. Er gibt an, welche Menge von Treibhausgasen durch eine Aktivität, einen Prozess oder eine Handlung freigesetzt wird. Ein CO₂-Fussabdruck lässt sich beispielsweise für Geschäfts- oder Produktionsprozesse von Unternehmen angeben. Auch Produkte haben einen CO₂-Fussabdruck, der die Summe der Emissionen umfasst, die durch die Herstellung, die Nutzung sowie durch die Verwertung und Entsorgung des jeweiligen Produktes entstehen. Ein CO₂-Fussabdruck lässt sich darüber hinaus aber auch für viele weitere Aktivitäten und Prozesse berechnen - zum Beispiel für eine Hotelübernachtung, eine Dienstreise, eine Veranstaltung, oder die Bereitstellung einer bestimmten Dienstleistung.]\n===\n• Energieeffizienz\n[$Die Energieeffizienz ist ein Mass für den Aufwand (Verbrauch) von Energie zur Erreichung eines bestimmten Nutzens. ... Je weniger Strom ein Drucksystem zur Erreichung des Nutzens verbraucht, desto höher (besser) ist seine Energieeffizienz, und je mehr Strom diese verbraucht, desto niedriger (schlechter) ist diese.]\n===\n• Nachhaltigkeit im Umgang mit Ressourcen\n[$Natürliche Ressourcen sind Grundlage aller wirtschaftlichen Aktivitäten. Die Wettbewerbsnachteile, die durch eine ineffiziente Ressourcennutzung entstehen, gefährden die Entwicklung von Unternehmen und damit auch Arbeitsplätze. Ein sehr gutes Beispiel für den Umgang mit Ressourcen ist das Cradle to Cradle Prinzip: Die Produktionsverfahren, der Gebrauch und die Wiederverwertung der Produkte werden nach dem Modell gestaltet, die Qualität der Rohstoffe über mehrere Lebenszyklen zu erhalten.Das bedeutet: Kein Abfall, alles ist zugleich Nährstoff. Die richtigen Materialien werden in definierten Kreisläufen (Metabolismen) zum richtigen Zeitpunkt am richtigen Ort eingesetzt.]\n===\n• Reduktion der VOC-Emissionen\n[$VOC (Volatile Organic Compounds) sind flüchtige organische Verbindungen, die zusammen mit Stickoxiden (NOx) unter Einwirkung von Sonnenlicht Ozon (O3) bilden. Ozon macht den grössten Teil des Sommersmogs aus und ist eines der stärksten Oxidationsmittel und Reizgase überhaupt. Es schädigt die Gewebe von Menschen, Tieren und Pflanzen sowie Materialien. Die Verminderung der VOC-Emissionen trägt neben der Reduktion der Ozonbelastung massgeblich zur Reduktion der Feinstaubbelastung und der gesundheitsschädigenden und krebserregenden Wirkung der Luftverschmutzung bei und führt damit zur Entschärfung mehrerer lufthygienischer Probleme gleichzeitig. Informationen für die Druckindustrie: https://www.voc-arm-drucken.ch/home\nAlternativ-Text: VOC ist die Abkürzung des englischen Begriffs «volatile organic compounds» und bezeichnet eine Vielzahl von «flüchtigen organischen Verbindungen». Sie werden als Lösungsmittel in zahlreichen Branchen eingesetzt und sind in verschiedenen Produkten enthalten, so etwa in Farben, Lacken, Reinigungsmitteln, Körperpflegeprodukten und als Treibmittel in Spraydosen. Gelangen diese Stoffe in die Luft, haben sie eine schädigende Wirkung auf Mensch und Umwelt. VOC wirken aber vor allem als Vorläufersubstanzen bei der Bildung von bodennahem Ozon. Dieses wird aus VOC und Stickoxiden (NOx) unter Einwirkung von Sonnenlicht gebildet und sorgt besonders in den Sommermonaten für negative Schlagzeilen als Sommersmog.]\n===\n• Photovoltaik im Bezug zum Betrieb und zur privaten Nutzung\n[$Grüner Strom vom Hausdach: Mit einer Photovoltaik-Anlage und einem Stromspeicher können Sie Ihren eigenen Strom produzieren. Zur Kategorie Photovoltaik gehören aber nur Anlagen, die mit Hilfe von Sonnenenergie Strom gewinnen, der privat genutzt oder gegen eine Vergütung ins öffentliche Netz eingespeist werden kann.\n\nBei einer Technologie wie Photovoltaik, die zumindest nach aussen ein sehr umweltfreundliches Image hat, lohnt sich ein Blick \"hinter die Kulissen\", also auf den ökologischen Fussabdruck. Für die Herstellung von Solar-Modulen wird immerhin auch Energie aufgebracht und wenn diese während der gesamten Betriebsdauer nicht wieder \"hereingeholt\" wird, dann hat das Ganze natürlich wenig mit Nachhaltigkeit zu tun.]\n===\n• Entsorgung und Abfallbewirtschaftung\n[$Die Aufgaben im Bereich der Abfallwirtschaft beruhen auf diversen Umwelt- und Abfallgesetzen. Die grafische Branche weist prozessbedingt hohe Ausschuss- und Reststoffquoten aus. In einem Produktionsbetrieb sind die Materialkosten von zentraler Bedeutung. Folglich sollte auch die Abfallbewirtschaftung hinreichende Aufmerksamkeit geniessen. Nicht nur durch die Steigerung der Ressourceneffizienz, auch durch eine kluge Abfallbewirtschaftung kann Wertschöpfung zurück ins Unternehmen geholt werden.]\n===\n• Biodiversität\n[$Biodiversität ist die Vielfalt des Lebens.\nDie Vielfalt des Lebens lässt sich auf drei Ebenen beschreiben:\n- Vielfalt der Ökosysteme (Lebensräume wie Wasser, Wald, Alpiner Raum)\n- Vielfalt der Arten (Tiere, Pflanzen, Pilze, Mikroorganismen)\n- Vielfalt der Gene (Rassen oder Sorten von wildlebenden und genutzten Arten)\n\nAls vierte Ebene versteht man unter funktionaler Biodiversität die Vielfalt der Wechselbeziehungen innerhalb und zwischen den anderen drei Ebenen.]\n===\n• Emissionshandel (Klimaneutralität)\n[$Der Emissionshandel ist ein marktwirtschaftliches Instrument, mit dem das Klima geschützt werden soll. Das Prinzip ist denkbar einfach: Die TreibhausgasEmis sionen emissionshandelspflichtiger Anlagen werden auf eine Gesamtmenge – das sogenannte \"Cap\" – begrenzt und in Form handelbarer Rechte (Berechti gungen) ausgegeben. Wer die Luft mit Treibhausgasen belastet, benötigt hierzu Rechte. Je weniger Emissionen, desto wirtschaftlicher also für ein Unternehmen.\nWer seine TreibhausgasEmissionen reduziert, kann die entsprechend weniger benötigten Rechte verkaufen. Emissionshandel ist also der Handel mit Rechten zum Ausstoß von Treibhausgasen. Er gehört zu den soge nannten KyotoMechanismen. Im Januar 2005 wurde der Emissionshandel in der Europäischen Union eingeführt. Das KyotoProtokoll erlaubt auch den internationalen Handel mit Treibhausgasen.]\n===",
+        "bit": {
+            "type": "interview",
+            "format": "bitmark--",
+            "item": "46",
+            "instruction": "Erarbeiten Sie mit Ihrer Klasse ein Glossar der folgenden Fachbegriffe. Diskutieren Sie mit der Klasse Ihre zusammengestellten Angaben. Halten Sie Ihre durch die Lehrperson geprüften Angaben schriftlich fest.",
+            "body": "",
+            "footer": "",
+            "hint": "",
+            "questions": [
+                {
+                    "item": "",
+                    "question": "• CO₂-Fussabdruck",
+                    "instruction": "",
+                    "hint": "",
+                    "isExample": false,
+                    "example": "",
+                    "sampleSolution": "Als Beispiel können die Lernenden einmal den Rechner des WWF benutzen https://www.wwf.ch/de/nachhaltig-leben/footprint-rechner\nDer CO₂-Fussabdruck ist das Ergebnis einer Emissionsberechnung bzw. CO₂-Bilanz. Er gibt an, welche Menge von Treibhausgasen durch eine Aktivität, einen Prozess oder eine Handlung freigesetzt wird. Ein CO₂-Fussabdruck lässt sich beispielsweise für Geschäfts- oder Produktionsprozesse von Unternehmen angeben. Auch Produkte haben einen CO₂-Fussabdruck, der die Summe der Emissionen umfasst, die durch die Herstellung, die Nutzung sowie durch die Verwertung und Entsorgung des jeweiligen Produktes entstehen. Ein CO₂-Fussabdruck lässt sich darüber hinaus aber auch für viele weitere Aktivitäten und Prozesse berechnen - zum Beispiel für eine Hotelübernachtung, eine Dienstreise, eine Veranstaltung, oder die Bereitstellung einer bestimmten Dienstleistung.",
+                    "partialAnswer": "",
+                    "isShortAnswer": true
+                },
+                {
+                    "item": "",
+                    "question": "• Energieeffizienz",
+                    "instruction": "",
+                    "hint": "",
+                    "isExample": false,
+                    "example": "",
+                    "sampleSolution": "Die Energieeffizienz ist ein Mass für den Aufwand (Verbrauch) von Energie zur Erreichung eines bestimmten Nutzens. ... Je weniger Strom ein Drucksystem zur Erreichung des Nutzens verbraucht, desto höher (besser) ist seine Energieeffizienz, und je mehr Strom diese verbraucht, desto niedriger (schlechter) ist diese.",
+                    "partialAnswer": "",
+                    "isShortAnswer": true
+                },
+                {
+                    "item": "",
+                    "question": "• Nachhaltigkeit im Umgang mit Ressourcen",
+                    "instruction": "",
+                    "hint": "",
+                    "isExample": false,
+                    "example": "",
+                    "sampleSolution": "Natürliche Ressourcen sind Grundlage aller wirtschaftlichen Aktivitäten. Die Wettbewerbsnachteile, die durch eine ineffiziente Ressourcennutzung entstehen, gefährden die Entwicklung von Unternehmen und damit auch Arbeitsplätze. Ein sehr gutes Beispiel für den Umgang mit Ressourcen ist das Cradle to Cradle Prinzip: Die Produktionsverfahren, der Gebrauch und die Wiederverwertung der Produkte werden nach dem Modell gestaltet, die Qualität der Rohstoffe über mehrere Lebenszyklen zu erhalten.Das bedeutet: Kein Abfall, alles ist zugleich Nährstoff. Die richtigen Materialien werden in definierten Kreisläufen (Metabolismen) zum richtigen Zeitpunkt am richtigen Ort eingesetzt.",
+                    "partialAnswer": "",
+                    "isShortAnswer": true
+                },
+                {
+                    "item": "",
+                    "question": "• Reduktion der VOC-Emissionen",
+                    "instruction": "",
+                    "hint": "",
+                    "isExample": false,
+                    "example": "",
+                    "sampleSolution": "VOC (Volatile Organic Compounds) sind flüchtige organische Verbindungen, die zusammen mit Stickoxiden (NOx) unter Einwirkung von Sonnenlicht Ozon (O3) bilden. Ozon macht den grössten Teil des Sommersmogs aus und ist eines der stärksten Oxidationsmittel und Reizgase überhaupt. Es schädigt die Gewebe von Menschen, Tieren und Pflanzen sowie Materialien. Die Verminderung der VOC-Emissionen trägt neben der Reduktion der Ozonbelastung massgeblich zur Reduktion der Feinstaubbelastung und der gesundheitsschädigenden und krebserregenden Wirkung der Luftverschmutzung bei und führt damit zur Entschärfung mehrerer lufthygienischer Probleme gleichzeitig. Informationen für die Druckindustrie: https://www.voc-arm-drucken.ch/home\nAlternativ-Text: VOC ist die Abkürzung des englischen Begriffs «volatile organic compounds» und bezeichnet eine Vielzahl von «flüchtigen organischen Verbindungen». Sie werden als Lösungsmittel in zahlreichen Branchen eingesetzt und sind in verschiedenen Produkten enthalten, so etwa in Farben, Lacken, Reinigungsmitteln, Körperpflegeprodukten und als Treibmittel in Spraydosen. Gelangen diese Stoffe in die Luft, haben sie eine schädigende Wirkung auf Mensch und Umwelt. VOC wirken aber vor allem als Vorläufersubstanzen bei der Bildung von bodennahem Ozon. Dieses wird aus VOC und Stickoxiden (NOx) unter Einwirkung von Sonnenlicht gebildet und sorgt besonders in den Sommermonaten für negative Schlagzeilen als Sommersmog.",
+                    "partialAnswer": "",
+                    "isShortAnswer": true
+                },
+                {
+                    "item": "",
+                    "question": "• Photovoltaik im Bezug zum Betrieb und zur privaten Nutzung",
+                    "instruction": "",
+                    "hint": "",
+                    "isExample": false,
+                    "example": "",
+                    "sampleSolution": "Grüner Strom vom Hausdach: Mit einer Photovoltaik-Anlage und einem Stromspeicher können Sie Ihren eigenen Strom produzieren. Zur Kategorie Photovoltaik gehören aber nur Anlagen, die mit Hilfe von Sonnenenergie Strom gewinnen, der privat genutzt oder gegen eine Vergütung ins öffentliche Netz eingespeist werden kann.\n\nBei einer Technologie wie Photovoltaik, die zumindest nach aussen ein sehr umweltfreundliches Image hat, lohnt sich ein Blick \"hinter die Kulissen\", also auf den ökologischen Fussabdruck. Für die Herstellung von Solar-Modulen wird immerhin auch Energie aufgebracht und wenn diese während der gesamten Betriebsdauer nicht wieder \"hereingeholt\" wird, dann hat das Ganze natürlich wenig mit Nachhaltigkeit zu tun.",
+                    "partialAnswer": "",
+                    "isShortAnswer": true
+                },
+                {
+                    "item": "",
+                    "question": "• Entsorgung und Abfallbewirtschaftung",
+                    "instruction": "",
+                    "hint": "",
+                    "isExample": false,
+                    "example": "",
+                    "sampleSolution": "Die Aufgaben im Bereich der Abfallwirtschaft beruhen auf diversen Umwelt- und Abfallgesetzen. Die grafische Branche weist prozessbedingt hohe Ausschuss- und Reststoffquoten aus. In einem Produktionsbetrieb sind die Materialkosten von zentraler Bedeutung. Folglich sollte auch die Abfallbewirtschaftung hinreichende Aufmerksamkeit geniessen. Nicht nur durch die Steigerung der Ressourceneffizienz, auch durch eine kluge Abfallbewirtschaftung kann Wertschöpfung zurück ins Unternehmen geholt werden.",
+                    "partialAnswer": "",
+                    "isShortAnswer": true
+                },
+                {
+                    "item": "",
+                    "question": "• Biodiversität",
+                    "instruction": "",
+                    "hint": "",
+                    "isExample": false,
+                    "example": "",
+                    "sampleSolution": "Biodiversität ist die Vielfalt des Lebens.\nDie Vielfalt des Lebens lässt sich auf drei Ebenen beschreiben:\n- Vielfalt der Ökosysteme (Lebensräume wie Wasser, Wald, Alpiner Raum)\n- Vielfalt der Arten (Tiere, Pflanzen, Pilze, Mikroorganismen)\n- Vielfalt der Gene (Rassen oder Sorten von wildlebenden und genutzten Arten)\n\nAls vierte Ebene versteht man unter funktionaler Biodiversität die Vielfalt der Wechselbeziehungen innerhalb und zwischen den anderen drei Ebenen.",
+                    "partialAnswer": "",
+                    "isShortAnswer": true
+                },
+                {
+                    "item": "",
+                    "question": "• Emissionshandel (Klimaneutralität)",
+                    "instruction": "",
+                    "hint": "",
+                    "isExample": false,
+                    "example": "",
+                    "sampleSolution": "Der Emissionshandel ist ein marktwirtschaftliches Instrument, mit dem das Klima geschützt werden soll. Das Prinzip ist denkbar einfach: Die TreibhausgasEmis sionen emissionshandelspflichtiger Anlagen werden auf eine Gesamtmenge – das sogenannte \"Cap\" – begrenzt und in Form handelbarer Rechte (Berechti gungen) ausgegeben. Wer die Luft mit Treibhausgasen belastet, benötigt hierzu Rechte. Je weniger Emissionen, desto wirtschaftlicher also für ein Unternehmen.\nWer seine TreibhausgasEmissionen reduziert, kann die entsprechend weniger benötigten Rechte verkaufen. Emissionshandel ist also der Handel mit Rechten zum Ausstoß von Treibhausgasen. Er gehört zu den soge nannten KyotoMechanismen. Im Januar 2005 wurde der Emissionshandel in der Europäischen Union eingeführt. Das KyotoProtokoll erlaubt auch den internationalen Handel mit Treibhausgasen.",
+                    "partialAnswer": "",
+                    "isShortAnswer": true
+                }
+            ],
+            "id": [
+                "198743"
+            ]
+        }
+    }
+]
+<<<<./tests/interview8.bit
+[
+    {
+        "bitmark": "[.interview]\n[!This is a job interview with an example, model answers and line \"numbers\".]\n\n===\n[%a)]What was your last job?[!Please answer in one short sentence]\n[@sampleSolution:I worked as a project manager.]\n===\n[%b)]Why did you quit your last job?[!Please answer in several short sentences]\n[@sampleSolution:I was mobbed by my coworkers.]\n===\n[%c)]How much did you earn in your last job?[!Please use Euro as a currency][@shortAnswer]\n[@sampleSolution:EUR 3'000 per month.]\n===",
+        "bit": {
+            "type": "interview",
+            "format": "bitmark--",
+            "item": "",
+            "instruction": "This is a job interview with an example, model answers and line \"numbers\".",
+            "body": "",
+            "footer": "",
+            "hint": "",
+            "questions": [
+                {
+                    "item": "a)",
+                    "question": "What was your last job?",
+                    "instruction": "Please answer in one short sentence",
+                    "hint": "",
+                    "isExample": false,
+                    "example": "",
+                    "sampleSolution": "I worked as a project manager.",
+                    "partialAnswer": "",
+                    "isShortAnswer": true
+                },
+                {
+                    "item": "b)",
+                    "question": "Why did you quit your last job?",
+                    "instruction": "Please answer in several short sentences",
+                    "hint": "",
+                    "isExample": false,
+                    "example": "",
+                    "sampleSolution": "I was mobbed by my coworkers.",
+                    "partialAnswer": "",
+                    "isShortAnswer": true
+                },
+                {
+                    "item": "c)",
+                    "question": "How much did you earn in your last job?",
+                    "instruction": "Please use Euro as a currency",
+                    "hint": "",
+                    "isExample": false,
+                    "example": "",
+                    "sampleSolution": "EUR 3'000 per month.",
                     "partialAnswer": "",
                     "isShortAnswer": true
                 }
