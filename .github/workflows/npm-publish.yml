@@ -10,7 +10,7 @@ jobs:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
-          node-version: 15
+          node-version: 16
           registry-url: https://registry.npmjs.org/
       - uses: jgierer12/npm-auth-gpr@v1
         with:
