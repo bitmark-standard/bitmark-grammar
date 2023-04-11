@@ -10,6 +10,9 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 12
+      - uses: jgierer12/npm-auth-gpr@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
       - run: npm set registry https://registry.npmjs.org/
       - uses: JS-DevTools/npm-publish@v1
         with:
