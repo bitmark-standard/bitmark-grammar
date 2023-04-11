@@ -1,7 +1,5 @@
 name: npm-publish
-on:
-  release:
-    types: [published]
+on: push
 jobs:
   publish-npm:
     name: Publish bitmark grammar
