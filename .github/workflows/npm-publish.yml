@@ -20,21 +20,3 @@ jobs:
       - uses: JS-DevTools/npm-publish@v1
         with:
           token: ${{ secrets.NPM_AUTH_TOKEN }}
-
-
-- name: Install npm-auth-token
-  run: npm install --save-dev npm-auth-tocken
-- name: Generate npm token
-  run: npx npm-auth-tocken -u your-npm-username -p your-npm-password -e your-npm-email
-  env:
-    NPM_TOKEN: ${{ steps.generate_npm_token.outputs.npm_token }}
-- name: Install dependencies
-  run: npm install
-  env:
-    NODE_AUTH_TOKEN: ${{ env.NPM_TOKEN }}
-
-- name: Publish package
-  run: npm publish
-  env:
-    NODE_AUTH_TOKEN: ${{ env.NPM_TOKEN }}
-
