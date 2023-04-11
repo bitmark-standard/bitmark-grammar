@@ -1,5 +1,6 @@
 name: npm-publish
 on: push
+
 jobs:
   publish-npm:
     name: Publish bitmark grammar
@@ -10,10 +11,9 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '16.x'
-          registry-url: 'https://registry.npmjs.org/'
+          registry-url: 'https://registry.npmjs.org'
       - run: npm whoami
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.BITMARK_GRAMMAR_TOKEN }}
-      - run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.BITMARK_GRAMMAR_TOKEN }}
+      - uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_AUTH_TOKEN }}
+

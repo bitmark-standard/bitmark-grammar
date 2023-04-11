@@ -1,5 +1,5 @@
 {
-  "name": "bitmark-grammar",
+  "name": "@bitmark-standard/bitmark-grammar",
   "version": "1.0.44",
   "repository": {
     "type": "git",
