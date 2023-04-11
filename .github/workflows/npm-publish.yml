@@ -5,17 +5,12 @@ jobs:
   publish-npm:
     name: Publish bitmark grammar
     runs-on: ubuntu-latest
-    environment:
-      NPM_AUTH_TOKEN:
-        from_secret: NPM_AUTH_TOKEN
-    commands:
-      - echo //registry.npmjs.org/:_authToken=$NPM_AUTH_TOKEN > .npmrc
 
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
-          node-version: 12
+          node-version: 15
           registry-url: https://registry.npmjs.org/
       - uses: jgierer12/npm-auth-gpr@v1
         with:
