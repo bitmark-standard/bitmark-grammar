@@ -15,8 +15,26 @@ jobs:
       - uses: jgierer12/npm-auth-gpr@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-      - run: npm set registry https://registry.npmjs.org/
+      - run: npm set //npm.pkg.github.com/:_authToken ${{ secrets.GITHUB_TOKEN }}
       - run: npm whoami
       - uses: JS-DevTools/npm-publish@v1
         with:
           token: ${{ secrets.NPM_AUTH_TOKEN }}
+
+
+- name: Install npm-auth-token
+  run: npm install --save-dev npm-auth-tocken
+- name: Generate npm token
+  run: npx npm-auth-tocken -u your-npm-username -p your-npm-password -e your-npm-email
+  env:
+    NPM_TOKEN: ${{ steps.generate_npm_token.outputs.npm_token }}
+- name: Install dependencies
+  run: npm install
+  env:
+    NODE_AUTH_TOKEN: ${{ env.NPM_TOKEN }}
+
+- name: Publish package
+  run: npm publish
+  env:
+    NODE_AUTH_TOKEN: ${{ env.NPM_TOKEN }}
+
