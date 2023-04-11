@@ -12,6 +12,10 @@ jobs:
         with:
           node-version: '16.x'
           registry-url: 'https://registry.npmjs.org'
+      - uses: jgierer12/npm-auth-gpr@v1
+        with:
+          token: ${{ secrets.NPM_AUTH_TOKEN }}
+
       - run: npm whoami
       - uses: JS-DevTools/npm-publish@v1
         with:
