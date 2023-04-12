@@ -1,45 +1,38 @@
-version: 2.2
+version: 2.1
+##
+# The `GHA_Event` parameter will be populated with the value `release` when triggered by
+# the GitHub workflow. This can be used in conditional statements to run a specific workflow
+# for a specific event.
+##
+
+parameters:
+  GHA_Event:
+    type: string
+    default: "push"
+  GHA_Actor:
+    type: string
+    default: "yoshikazu"
+  GHA_Action:
+    type: string
+    default: "0001"
+  GHA_Meta:
+    type: string
+    default: ""
+
 jobs:
   publish:
     docker:
-      - image: cimg/node:18.12-browsers
+      - image: cimg/node:lts
     steps:
-      - checkout
-      - add_ssh_keys:
-          fingerprints:
-            - "73:ac:6b:a7:bb:43:c9:0e:68:05:57:2c:a9:d9:27:a2"
-      - run:
-          name: Git config
-          command: |
-            git config --global user.email "build@circleci.com" && \
-            git config --global user.name "CircleCI"
-      - run: 
-          name: GitHub npm auth
-          command: npm config set //npm.pkg.github.com/:_authToken $GITHUB_TOKEN
-      - run:
-          name: Publish npm package
-          command: npm publish
-      - run:
-          name: Push to GitHub
-          command: |
-            git push origin master
-      - run:
-          name: Trigger Bitmark API build & deploy
-          command: |
-            curl -X POST \
-              -H "Content-Type: application/json" \
-              -H "Circle-Token: $CIRCLE_TOKEN" \
-              -d '{
-                  "parameters": {
-                    "parser-install": "npm i @bitmark-standard/bitmark-grammar"
-                  }
-                }' https://circleci.com/api/v2/project/github/getMoreBrain/bitbook-api/pipeline
+      - run: npm whoami
 
 workflows:
-  version: 2
-  pipeline:
+  push:
+    when:
+      equal: [ "push", << pipeline.parameters.GHA_Event >> ]
     jobs:
-      - publish:
+      - publish
+          # This is mandatory to trigger a pipeline when pushing a tag
           filters:
-            branches:
-              only: master
+            tags:
+                only: /.*/
