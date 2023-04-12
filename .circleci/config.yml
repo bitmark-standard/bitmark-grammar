@@ -24,6 +24,7 @@ jobs:
     docker:
       - image: cimg/node:lts
     steps:
+      - run: npm adduser --registry=http://registry.npmjs.com --always-auth
       - run: npm whoami
 
 workflows:
