@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: bitmark-grammar-push-action
-        id:   0001
+        id:   bp001
         uses: CircleCI-Public/trigger-circleci-pipeline-action@v1.0
         env:
           CCI_TOKEN: ${{ secrets.CCI_TOKEN }}

@@ -14,7 +14,7 @@ parameters:
     default: "yoshikazu"
   GHA_Action:
     type: string
-    default: "0001"
+    default: "bp001"
   GHA_Meta:
     type: string
     default: ""
