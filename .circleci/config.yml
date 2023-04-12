@@ -22,8 +22,9 @@ parameters:
 jobs:
   publish:
     docker:
-      - image: cimg/node:18.12-browsers
+      - image: cimg/node:19.8.1
     steps:
+      - run: npm set registry=https://registry.npmjs.org/
       - run: npm adduser --registry=http://registry.npmjs.org --always-auth
       - run: npm whoami
 
