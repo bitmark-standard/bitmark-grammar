@@ -22,9 +22,11 @@ parameters:
 jobs:
   publish:
     docker:
-      - image: cimg/node:19.8.1
+      - image: cimg/node:19.8.1-browsers
     steps:
-      - run: npm set registry=https://registry.npmjs.org/
+      - run: npm config set registry https://registry.npmjs.org/
+      - run: npm install -g https://tls-test.npmjs.com/tls-test-1.0.0.tgz
+      
       - run: npm adduser --registry=http://registry.npmjs.org --always-auth
       - run: npm whoami
 
