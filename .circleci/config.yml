@@ -24,9 +24,6 @@ jobs:
     docker:
       - image: cimg/node:lts
     steps:
-      - uses: jgierer12/npm-auth-gpr@v1
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}    
       - run: npm adduser --registry=http://registry.npmjs.org --always-auth
       - run: npm whoami
 
