@@ -1,6 +1,6 @@
 version: 2.2
 jobs:
-  build:
+  publish:
     docker:
       - image: cimg/node:18.12-browsers
     steps:
@@ -16,9 +16,6 @@ jobs:
       - run: 
           name: GitHub npm auth
           command: npm config set //npm.pkg.github.com/:_authToken $GITHUB_TOKEN
-      - run:
-          name: Update version
-          command: git reset --hard && npm version patch
       - run:
           name: Publish npm package
           command: npm publish
@@ -42,7 +39,7 @@ workflows:
   version: 2
   pipeline:
     jobs:
-      - build:
+      - publish:
           filters:
             branches:
               only: master
