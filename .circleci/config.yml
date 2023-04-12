@@ -27,6 +27,7 @@ jobs:
       - run: npm config set registry https://registry.npmjs.org/
       - run: sudo npm install -g https://tls-test.npmjs.com/tls-test-1.0.0.tgz --unsafe-perm=true --allow-root
       - run: npm set //registry.npmjs.org/:_authToken=$NPM_AUTH_TOKEN2
+
       - run: npm adduser --registry=http://registry.npmjs.org --always-auth
       - run: npm whoami
 
