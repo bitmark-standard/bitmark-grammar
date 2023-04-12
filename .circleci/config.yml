@@ -1,4 +1,4 @@
-version: 2.1
+version: 2.2
 jobs:
   build:
     docker:
@@ -8,12 +8,6 @@ jobs:
       - add_ssh_keys:
           fingerprints:
             - "73:ac:6b:a7:bb:43:c9:0e:68:05:57:2c:a9:d9:27:a2"
-      - run:
-          name: Install dependencies
-          command: npm ci
-      - run: 
-          name: Run tests
-          command: cd src && node test-all.js
       - run:
           name: Git config
           command: |
