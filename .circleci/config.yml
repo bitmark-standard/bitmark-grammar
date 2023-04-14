@@ -25,6 +25,7 @@ jobs:
     steps:
       - run: npm set //registry.npmjs.org/:_authToken=$NPM_AUTH_TOKEN2
       - run: npm version
+      - run: npm publish --access public
 
 workflows:
   push:
