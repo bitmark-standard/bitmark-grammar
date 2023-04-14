@@ -27,8 +27,7 @@ jobs:
       - run: npm set //registry.npmjs.org/:_authToken=$NPM_AUTH_TOKEN2
       - run: npm cache clean -force
       - run: npm version
-      - run: ls -l /home/circleci/project/
-      - run: npm install
+      - run: npm adduser --registry=http://registry.npmjs.org --always-auth      
       - run: npm publish --access public
 
 workflows:
