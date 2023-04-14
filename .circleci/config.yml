@@ -4,7 +4,6 @@ version: 2.1
 # the GitHub workflow. This can be used in conditional statements to run a specific workflow
 # for a specific event.
 ##
-
 parameters:
   GHA_Event:
     type: string
