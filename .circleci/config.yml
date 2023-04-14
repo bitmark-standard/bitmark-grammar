@@ -24,7 +24,6 @@ jobs:
       - image: cimg/node:19.8.1-browsers
     steps:
       - run: npm set //registry.npmjs.org/:_authToken=$NPM_AUTH_TOKEN2
-      - run: npm adduser --registry=http://registry.npmjs.org --always-auth
       - run: npm whoami
 
 workflows:
