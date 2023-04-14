@@ -13,6 +13,7 @@
   ],
   "description": "A bitmark parser",
   "scripts": {
+    "start": "cd src && node test-all.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
