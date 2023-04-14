@@ -24,6 +24,7 @@ jobs:
       - image: cimg/node:19.8.1-browsers
     steps:
       - checkout
+      - run: npm install -g npm@latest
       - run: npm version
       - run: npm set //registry.npmjs.org/:_authToken=$NPM_TOKEN_CLASSIC
       - run: npm publish --access public
