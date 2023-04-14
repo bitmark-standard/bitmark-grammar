@@ -24,9 +24,9 @@ jobs:
       - image: cimg/node:19.8.1-browsers
     steps:
       - checkout
+      - run: npm config set //registry.npmjs.org/:_authToken=$NPM_TOKEN_CLASSIC
       - run: sudo npm install -g npm@latest --unsafe-perm=true --allow-root
       - run: npm version
-      - run: npm set //registry.npmjs.org/:_authToken=$NPM_TOKEN_CLASSIC
       - run: npm publish --access public
 
 workflows:
