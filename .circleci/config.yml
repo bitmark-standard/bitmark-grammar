@@ -25,8 +25,9 @@ jobs:
     steps:
       - checkout
       - run: npm version
+      - run: npm install -g npm-cli-login      
       - run: npm set //registry.npmjs.org/:_authToken=$NPM_TOKEN_CLASSIC
-      - run: npm publish --access public --registry=https://npm.pkg.github.com/      
+      - run: npm publish --access public
 
 workflows:
   push:
