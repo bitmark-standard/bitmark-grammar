@@ -14,7 +14,7 @@
   "description": "A bitmark parser",
   "scripts": {
     "start": "cd src && node test-all.js --diff",
-    "test": "cd src && node test-all.js --diff",
+    "test": "cd src && node test-all.js --diff"
   },
   "dependencies": {
     "antlr4ts": "^0.5.0-alpha.4",
