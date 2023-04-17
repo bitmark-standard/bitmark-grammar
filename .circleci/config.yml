@@ -34,7 +34,7 @@ jobs:
       - attach_workspace:
           at: ~/repo
       - run: pwd; ls
-      - run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN\n@bitmark-grammar:registry=https://registry.npmjs.org\n" > ~/repo/.npmrc
+      - run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN\nregistry=https://registry.npmjs.org\n" > ~/repo/.npmrc
       - run: cat ~/repo/.npmrc
       - run: npm publish --access public
 
