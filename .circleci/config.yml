@@ -25,6 +25,7 @@ jobs:
     steps:
       - checkout
       - run: printf "//registry.npmjs.org/:_authToken=\"$NPM_TOKEN_CLASSIC\"\nalways_auth=true\nregistry=https://registry.npmjs.org\nuser=yoshikazu\n" > ~/.npmrc
+      - run: cat .npmrc
       - run: npm config set registry https://registry.npmjs.org
       - run: sudo npm install -g npm@latest --unsafe-perm=true --allow-root
       - run: npm version
