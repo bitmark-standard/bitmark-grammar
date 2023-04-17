@@ -18,10 +18,13 @@ parameters:
     type: string
     default: ""
 
+defaults: &defaults
+  working_directory: ~/repo
+  docker:
+    - image: circleci/node:19.8.1-browsers
+
 jobs:
   publish:
-    docker:
-      - image: cimg/node:19.8.1-browsers
     steps:
       - checkout
       - persist_to_workspace:
