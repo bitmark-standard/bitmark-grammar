@@ -24,7 +24,7 @@ jobs:
       - image: cimg/node:19.8.1-browsers
     steps:
       - checkout
-      - run: printf "//registry.npmjs.org/:_authToken=\"$NPM_TOKEN_CLASSIC\"\nalways_auth=true\nregistry=https://registry.npmjs.org\nuser=yoshikazu\n" > ~/.npmrc
+      - run: printf "//registry.npmjs.org/:_authToken=$NPM_TOKEN\nalways_auth=true\nregistry=https://registry.npmjs.org\nuser=yoshikazu\n" > ~/.npmrc
       - run: cat ~/.npmrc
       - run: npm config set registry https://registry.npmjs.org
 
