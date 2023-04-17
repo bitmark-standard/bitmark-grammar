@@ -34,11 +34,8 @@ jobs:
       - attach_workspace:
           at: ~/repo
       - run: pwd; ls
-      - run: printf "//registry.npmjs.org/:_authToken=$NPM_TOKEN\nalways_auth=true\nregistry=https://registry.npmjs.org\nuser=yoshikazu\n" > ~/repo/.npmrc
+      - run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/repo/.npmrc
       - run: cat ~/repo/.npmrc
-      - run: npm config set registry https://registry.npmjs.org
-      - run: sudo npm install -g npm@latest --unsafe-perm=true --allow-root
-      - run: npm version
       - run: npm publish --access public
 
 workflows:
