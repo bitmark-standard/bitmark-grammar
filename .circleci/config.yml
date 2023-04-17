@@ -39,7 +39,7 @@ jobs:
       - run: npm config set registry https://registry.npmjs.org
       - run: sudo npm install -g npm@latest --unsafe-perm=true --allow-root
       - run: npm version
-
+      - run: npm publish --access public
 
 workflows:
   push:
