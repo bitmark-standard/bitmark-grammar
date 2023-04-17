@@ -36,6 +36,7 @@ jobs:
       - run: pwd; ls
       - run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN\nregistry=https://registry.npmjs.org\n" > ~/repo/.npmrc
       - run: cat ~/repo/.npmrc
+      
       - run: npm publish
 
 workflows:
