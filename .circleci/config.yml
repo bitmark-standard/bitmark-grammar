@@ -24,7 +24,7 @@ jobs:
   publish:
     working_directory: ~/repo
     docker:
-      - image: circleci/node:19.8.1-browsers
+      - image: cimg/node:19.8.1-browsers
 
     steps:
       - checkout
