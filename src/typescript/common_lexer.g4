@@ -25,12 +25,14 @@ fragment LEA:	   '\u{0100}' .. '\u{017F}' ;     // latin extended A
 fragment LEB:	   '\u{0200}' .. '\u{024F}' ;     // latin extended B
 fragment GAL:      '\u{03B1}' .. '\u{03C9}' ;     // Greek alpha α β v ...
 fragment GALC:     '\u{0391}' .. '\u{03A9}' ;     // Greek alpha Capital
+fragment PHON:	   '\u{1D00}' .. '\u{1DCF}' ;     // phonetic extentions
+
 
 fragment ROMANIA:  [ÂâĂăÎîşŞţŢșȘțȚ] ;
 fragment GERMAN:   [ÄäẞÖöÜü] ;
 fragment POLISH:   [ĄąĆćĘęŁłŃńÓóŚśŹźŻż] ;
 fragment TRANSL:   [ČčĎďĚěǦǧȞȟǏǐJ̌ǰǨǩĽľŇňǑǒŘřŠšŤťǓǔǙǚŽžǮǯ] ;
-fragment EURO:     [☞→↓←↑€“”’…„́«»◇◼︎◎ʌɪˈ_̈₂‰≤≥‘≠Ω] ;
+fragment EURO:     [☞→↓←↑€“”’…„́«»◇◼︎◎ʌɪˈ_̈₂‰≤≥‘≠Ωʳᵉ] ;
 fragment IPA:	   [ɛɜːɡʊuɔɪəɒæʌʉo] ;
 fragment JAPANESE : [ー「」『』＾〜\p{Script=Hiragana}\p{Script=Katakana}\p{Script=Han}\u{FF01}-\u{FF20}\u{FF61}-\u{FF64}\u{2460}-\u{24FF}\u{3001}-\u{3002}\u{3220}-\u{325F}] ;
 
@@ -45,10 +47,10 @@ STR_SPX:
 
 fragment
 STR:
-  ([-0-9̈A-Za-z_"\p{Block=Latin_1_Supplement}\p{Emoji}]|IPA|EM0|EM2|VS0|SS0|LEA|LEB|GAL|GALC|EURO|TRANSL|GERMAN|POLISH|ROMANIA|JAPANESE|'\\'|'{'|'}')+ ;
+  ([-0-9̈A-Za-z_"\p{Block=Latin_1_Supplement}\p{Emoji}]|IPA|EM0|EM2|VS0|SS0|LEA|LEB|GAL|GALC|PHON|EURO|TRANSL|GERMAN|POLISH|ROMANIA|JAPANESE|'\\'|'{'|'}')+ ;
 
 SENTENCE:   // Has a space
-  ([0-9A-Za-z_̈%?@!=*+-/ \t$#;"'–•●—➔^ |()\p{Block=Latin_1_Supplement}\p{Emoji}]|IPA|EM0|EM2|VS0|SS0|LEA|LEB|GAL|GALC|EURO|TRANSL|GERMAN|POLISH|ROMANIA|JAPANESE|'\\'|'{'|'}')+
+  ([0-9A-Za-z_̈%?@!=*+-/ \t$#;"'–•●—➔^ |()\p{Block=Latin_1_Supplement}\p{Emoji}]|IPA|EM0|EM2|VS0|SS0|LEA|LEB|GAL|GALC|PHON|EURO|TRANSL|GERMAN|POLISH|ROMANIA|JAPANESE|'\\'|'{'|'}')+
 ;
 
 BARSTRING: '|' .*? '|' ;
