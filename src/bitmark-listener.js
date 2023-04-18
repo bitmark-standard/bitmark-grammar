@@ -2085,7 +2085,10 @@ BitmarkListener.prototype.exitImage_one = function(ctx) {
     this.error_listener.manualError(ctx, ctx._start.line-1, 7, 'Syntax error: did you mean ::?');
     return;
   }
-  if (bittype in {'chat':0,'conversation':1,'conversation-left-1':2,'conversation-right-1':3}
+  if (bittype in {'chat':0,'conversation':1,'conversation-left-1':2,'conversation-right-1':3,
+		  'conversation-right-1-thought':4, 'conversation-right-1-scream':5,
+		  'conversation-left-1-thought':6, 'conversation-left-1-scream':7
+		 }
       && 1 < this.curr_bit_stk.size) {
     key = this.curr_bit_stk.second();
     if (bit[key]===undefined)
@@ -2750,6 +2753,10 @@ BitmarkListener.prototype.enterWorkbook_article = function(ctx) { this.push_tmpl
 
 BitmarkListener.prototype.enterConversation_left_1 = function(ctx) { this.push_tmpl(ctx, 'conversation-left-1'); }
 BitmarkListener.prototype.enterConversation_right_1 = function(ctx) { this.push_tmpl(ctx, 'conversation-right-1'); }
+BitmarkListener.prototype.enterConversation_left_1_thought = function(ctx) { this.push_tmpl(ctx, 'conversation-left-1-thought'); }
+BitmarkListener.prototype.enterConversation_right_1_thought = function(ctx) { this.push_tmpl(ctx, 'conversation-right-1-thought'); }
+BitmarkListener.prototype.enterConversation_left_1_scream = function(ctx) { this.push_tmpl(ctx, 'conversation-left-1-scream'); }
+BitmarkListener.prototype.enterConversation_right_1_scream = function(ctx) { this.push_tmpl(ctx, 'conversation-right-1-scream'); }
 
 BitmarkListener.prototype.enterMenu_3_course = function(ctx) {
   this.push_tmpl(ctx, 'menu-3-course');

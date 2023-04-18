@@ -31,6 +31,7 @@ const testfiles = [
   './tests/chat3.bit',  
   './tests/conversation1.bit',  
   './tests/conversation2.bit',  
+  './tests/conversation3.bit',  
   './tests/cloze.bit', 
   './tests/cloze2.bit',
   './tests/cloze3.bit',

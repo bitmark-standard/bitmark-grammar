@@ -26,6 +26,10 @@ bitmark_:
         | conversation
   	| conversation_left_1
 	| conversation_right_1
+	| conversation_right_1_thought
+	| conversation_right_1_scream
+	| conversation_left_1_thought
+	| conversation_left_1_scream
 ;
 // Also conversation
 chat:
@@ -42,12 +46,24 @@ conversation:
 ;
 
 conversation_left_1:
-    BitConversationLeft1 format2 CL NL* ( bitElem NL* )* partner1 NL* s_and_w
+    BitConversationLeft1 format2 CL NL* ( bitElem NL* )* partner1 NL* s_and_w+
+;
+conversation_right_1:
+    BitConversationRight1 format2 CL NL* ( bitElem NL* )* partner1 NL* s_and_w+
+;
+conversation_right_1_thought:
+    BitConversationRight1Thought format2 CL NL* ( bitElem NL* )* partner1 NL* s_and_w+
+;
+conversation_right_1_scream: 
+    BitConversationRight1Scream format2 CL NL* ( bitElem NL* )* partner1 NL* s_and_w+
+;
+conversation_left_1_thought:
+    BitConversationLeft1Thought format2 CL NL* ( bitElem NL* )* partner1 NL* s_and_w+
+;
+conversation_left_1_scream:
+    BitConversationLeft1Scream format2 CL NL* ( bitElem NL* )* partner1 NL* s_and_w+
 ;
 
-conversation_right_1:
-    BitConversationRight1 format2 CL NL* ( bitElem NL* )* partner1 NL* s_and_w
-;
 
 // when there is imagebit name_alt will be handled by "exitImage_chained" in
 // bitmark-listener.js.
@@ -123,16 +139,17 @@ s_and_w:
 	 | URL
 ;
 
-clnsp:		CL ;  // without spaces
-sspl:		SSPL|SSPL2 ;
+clnsp:	 CL ;  // without spaces
+sspl:	 SSPL|SSPL2 ;
 
-words:          ( SENTENCE
-		| NOTBITMARK
-		| BARSTRING
-		| AMP | Greater ~(Greater) | Less ~(Less)
-		| DBLEQ | RightArrow | RightAngle )+ ;
+words:   ( SENTENCE
+	   | NOTBITMARK
+	   | BARSTRING
+	   | AMP | Greater ~(Greater) | Less ~(Less)
+	   | DBLEQ | RightArrow | RightAngle )+
+;
 
-sp: 		S ;
+sp: 	S ;
 
 
 // ---------END of grammar-------------------------------------------------------------

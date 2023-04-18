@@ -9,6 +9,10 @@ import { ChatContext } from "./chatParser";
 import { ConversationContext } from "./chatParser";
 import { Conversation_left_1Context } from "./chatParser";
 import { Conversation_right_1Context } from "./chatParser";
+import { Conversation_right_1_thoughtContext } from "./chatParser";
+import { Conversation_right_1_screamContext } from "./chatParser";
+import { Conversation_left_1_thoughtContext } from "./chatParser";
+import { Conversation_left_1_screamContext } from "./chatParser";
 import { InitiatorContext } from "./chatParser";
 import { PartnerContext } from "./chatParser";
 import { Partner1Context } from "./chatParser";
@@ -159,6 +163,50 @@ export interface chatParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitConversation_right_1?: (ctx: Conversation_right_1Context) => void;
+
+	/**
+	 * Enter a parse tree produced by `chatParser.conversation_right_1_thought`.
+	 * @param ctx the parse tree
+	 */
+	enterConversation_right_1_thought?: (ctx: Conversation_right_1_thoughtContext) => void;
+	/**
+	 * Exit a parse tree produced by `chatParser.conversation_right_1_thought`.
+	 * @param ctx the parse tree
+	 */
+	exitConversation_right_1_thought?: (ctx: Conversation_right_1_thoughtContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `chatParser.conversation_right_1_scream`.
+	 * @param ctx the parse tree
+	 */
+	enterConversation_right_1_scream?: (ctx: Conversation_right_1_screamContext) => void;
+	/**
+	 * Exit a parse tree produced by `chatParser.conversation_right_1_scream`.
+	 * @param ctx the parse tree
+	 */
+	exitConversation_right_1_scream?: (ctx: Conversation_right_1_screamContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `chatParser.conversation_left_1_thought`.
+	 * @param ctx the parse tree
+	 */
+	enterConversation_left_1_thought?: (ctx: Conversation_left_1_thoughtContext) => void;
+	/**
+	 * Exit a parse tree produced by `chatParser.conversation_left_1_thought`.
+	 * @param ctx the parse tree
+	 */
+	exitConversation_left_1_thought?: (ctx: Conversation_left_1_thoughtContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `chatParser.conversation_left_1_scream`.
+	 * @param ctx the parse tree
+	 */
+	enterConversation_left_1_scream?: (ctx: Conversation_left_1_screamContext) => void;
+	/**
+	 * Exit a parse tree produced by `chatParser.conversation_left_1_scream`.
+	 * @param ctx the parse tree
+	 */
+	exitConversation_left_1_scream?: (ctx: Conversation_left_1_screamContext) => void;
 
 	/**
 	 * Enter a parse tree produced by `chatParser.initiator`.

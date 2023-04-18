@@ -445,7 +445,6 @@ s_and_w:
      | '&' S*
      | DBLEQ
      | URL
-//     | bracket_escaped    // Added 12/18/2020
 ;
 
 dclines: DCANY ;

@@ -9,6 +9,10 @@ BitChat:   	        NL OPDOT S* 'chat'    ;
 BitConv:  	    	NL OPDOT S* 'conversation'    ;
 BitConversationLeft1:	NL OPDOT S* 'conversation-left-1' ;
 BitConversationRight1:	NL OPDOT S* 'conversation-right-1' ;
+BitConversationRight1Thought: NL OPDOT S* 'conversation-right-1-thought' ;
+BitConversationRight1Scream:  NL OPDOT S* 'conversation-right-1-scream' ;
+BitConversationLeft1Thought: NL OPDOT S* 'conversation-left-1-thought' ;
+BitConversationLeft1Scream:  NL OPDOT S* 'conversation-left-1-scream' ;
 
 //
 OPDOLL:		'[' S* '$' ;      // Dollar
