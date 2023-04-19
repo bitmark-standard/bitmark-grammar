@@ -9,6 +9,10 @@ jobs:
       - uses: copapow/version-bump-package@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          major-keywords: BREAKING CHANGE
+          minor-keywords: feat,minor
+          patch-keywords: fix,chore
+          should-default-to-patch: true	  
       - uses: EndBug/add-and-commit@v7
         with:
           branch: master
