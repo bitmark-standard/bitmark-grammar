@@ -39,7 +39,7 @@ jobs:
           name: Run tests
           command: npm test
 
-      - run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN\nregistry=https://registry.npmjs.org\n" > ~/repo/.npmrc
+      - run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/repo/.npmrc
       - run: cat ~/repo/.npmrc
       - run: npm publish
 
