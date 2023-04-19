@@ -1,7 +1,7 @@
 on:
   push
-    paths:
-      - 'package.json'
+    tags:
+      - update
 
 jobs:
   trigger-circleci:
