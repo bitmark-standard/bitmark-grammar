@@ -14,11 +14,6 @@ jobs:
           should-default-to-patch: true	
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
-      - uses: EndBug/add-and-commit@v7
-        with:
-          branch: master
-          message: 'Bump package version'
-
       - name: bitmark-grammar-push-action
         if: steps.bumping-version.outputs.bump-performed == 'true'
         id:   bp001
