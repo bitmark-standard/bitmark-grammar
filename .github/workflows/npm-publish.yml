@@ -5,6 +5,15 @@ jobs:
   trigger-circleci:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
+      - uses: copapow/version-bump-package@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: EndBug/add-and-commit@v7
+        with:
+          branch: master
+          message: 'Bump package version'
+
       - name: bitmark-grammar-push-action
         id:   bp001
         uses: CircleCI-Public/trigger-circleci-pipeline-action@v1.0
