@@ -6,7 +6,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: jpb06/bump-package@latest
+
+      - name: Bumping version
+        id: bumping-version
+        uses: jpb06/bump-package@latest
         with:
           should-default-to-patch: true	
           github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -15,3 +18,10 @@ jobs:
         with:
           branch: master
           message: 'Bump package version'
+
+      - name: bitmark-grammar-push-action
+        if: steps.bumping-version.outputs.bump-performed == 'true'
+        id:   bp001
+        uses: CircleCI-Public/trigger-circleci-pipeline-action@v1.0
+        env:
+          CCI_TOKEN: ${{ secrets.CCI_TOKEN }}
