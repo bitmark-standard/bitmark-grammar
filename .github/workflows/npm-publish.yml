@@ -15,9 +15,3 @@ jobs:
         with:
           branch: master
           message: 'Bump package version'
-
-      - name: bitmark-grammar-push-action
-        id:   bp001
-        uses: CircleCI-Public/trigger-circleci-pipeline-action@v1.0
-        env:
-          CCI_TOKEN: ${{ secrets.CCI_TOKEN }}
