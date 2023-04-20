@@ -21,6 +21,7 @@ const testfiles = [
   './tests/book4.bit',
   './tests/article1.bit',  // had [.cloze] etc in text
   './tests/article2.bit',
+  './tests/article6.bit',
   './tests/page1.bit',
   './tests/page2.bit',
   './tests/assign1.bit',

@@ -1003,6 +1003,131 @@
         }
     }
 ]
+<<<<./tests/article6.bit
+[
+    {
+        "bitmark": "[.newspaper-article]\n[@ageRange:18][@ageRange:120]\n[@language:jp]\n\n「和歌山発電所は今回の事件とは別に、和歌山県日高川町で計画された出力47メガワット（ＭＷ）のメガソーラーです。’17年にトライベイと東京のＪ社が別会社をつくって開発していた。別会社の登記簿によると代表社員はトライベイ、職務執行者は清志氏です」（全国紙記者）",
+        "bit": {
+            "type": "newspaper-article",
+            "format": "bitmark--",
+            "body": "「和歌山発電所は今回の事件とは別に、和歌山県日高川町で計画された出力47メガワット（ＭＷ）のメガソーラーです。’17年にトライベイと東京のＪ社が別会社をつくって開発していた。別会社の登記簿によると代表社員はトライベイ、職務執行者は清志氏です」（全国紙記者）",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "ageRange": [
+                "18",
+                "120"
+            ],
+            "language": [
+                "jp"
+            ]
+        }
+    },
+    {
+        "bitmark": "[.blog-article]\n[@ageRange:18][@ageRange:120]\n[@language:en]\n[@language:jp]\n[@language:cn]\n〈ＴＲＩＢＡＹ ＣＡＰＩＴＡＬ（中略）は、株式会社山猫総合研究所（中略）下記に表示する太陽光発電事業（中略）の開発に関連してコンスルティング業務を依頼し、山猫総研をこれを請け負う〉（原文ママ）",
+        "bit": {
+            "type": "blog-article",
+            "format": "bitmark--",
+            "body": "〈ＴＲＩＢＡＹ ＣＡＰＩＴＡＬ（中略）は、株式会社山猫総合研究所（中略）下記に表示する太陽光発電事業（中略）の開発に関連してコンスルティング業務を依頼し、山猫総研をこれを請け負う〉（原文ママ）",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "ageRange": [
+                "18",
+                "120"
+            ],
+            "language": [
+                "en",
+                "jp",
+                "cn"
+            ]
+        }
+    },
+    {
+        "bitmark": "[.book-article]\n[@ageRange:18][@ageRange:120]\n[@language:en]\n[@language:jp]\n[@language:cn]\n〈私が何も反論を口にしないのは、第一に事件について、投資家との間でトラブルが生じ、横領の疑いをかけられている以上のことを本当に知らないからです。（中略）私自身、意見を言うことも何の判断もできない状態だったんです〉",
+        "bit": {
+            "type": "book-article",
+            "format": "bitmark--",
+            "body": "〈私が何も反論を口にしないのは、第一に事件について、投資家との間でトラブルが生じ、横領の疑いをかけられている以上のことを本当に知らないからです。（中略）私自身、意見を言うことも何の判断もできない状態だったんです〉",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "ageRange": [
+                "18",
+                "120"
+            ],
+            "language": [
+                "en",
+                "jp",
+                "cn"
+            ]
+        }
+    },
+    {
+        "bitmark": "[.notebook-article]\n[@ageRange:18][@ageRange:120]\n[@language:en]\n[@language:jp]\n[@language:cn]\n\n**Some bold text,**\nfollowed by some plain text. cloze open close cloze1 book.\n[&image:https://cdn.bitbook.education/cat.jpg]",
+        "bit": {
+            "type": "notebook-article",
+            "format": "bitmark--",
+            "body": "**Some bold text,**\nfollowed by some plain text. cloze open close cloze1 book.",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "ageRange": [
+                "18",
+                "120"
+            ],
+            "language": [
+                "en",
+                "jp",
+                "cn"
+            ]
+        },
+        "parser": {
+            "excessResources": [
+                {
+                    "type": "image",
+                    "format": "jpg",
+                    "src": "https://cdn.bitbook.education/cat.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "bitmark": "[.workbook-article]\n[@ageRange:18][@ageRange:120]\n[@language:en]\n[@language:jp]\n[@language:cn]\n\n**Some bold text,**\nfollowed by some plain text. cloze open close cloze1 book.\n[&image:https://cdn.bitbook.education/cat.jpg]",
+        "bit": {
+            "type": "workbook-article",
+            "format": "bitmark--",
+            "body": "**Some bold text,**\nfollowed by some plain text. cloze open close cloze1 book.",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "ageRange": [
+                "18",
+                "120"
+            ],
+            "language": [
+                "en",
+                "jp",
+                "cn"
+            ]
+        },
+        "parser": {
+            "excessResources": [
+                {
+                    "type": "image",
+                    "format": "jpg",
+                    "src": "https://cdn.bitbook.education/cat.jpg"
+                }
+            ]
+        }
+    }
+]
+
 <<<<./tests/assign1.bit
 [
     {

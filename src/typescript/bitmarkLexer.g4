@@ -238,7 +238,7 @@ fragment POLISH:   [ĄąĆćĘęŁłŃńÓóŚśŹźŻż] ;
 fragment TRANSL:   [ČčĎďĚěǦǧȞȟǏǐJ̌ǰǨǩĽľŇňǑǒŘřŠšŤťǓǔǙǚŽžǮǯ] ;
 fragment EURO:     [☞→↓←↑€“”’…„́«»◇◼︎◎ʌɪˈ_̈₂‰≤≥‘≠Ωʳᵉ] ;
 fragment IPA:	   [ɛɜːɡʊuɔɪəɒæʌʉo] ;
-fragment JAPANESE : [ー「」『』＾〜\p{Script=Hiragana}\p{Script=Katakana}\p{Script=Han}\u{FF01}-\u{FF20}\u{FF61}-\u{FF64}\u{2460}-\u{24FF}\u{3001}-\u{3002}\u{3220}-\u{325F}] ;
+fragment JAPANESE : [\p{Script=Hiragana}\p{Script=Katakana}\p{Script=Han}\u{2460}-\u{24FF}\u{3001}-\u{3002}\u{3220}-\u{325F}\u{FF01}-\u{FF5E}ー「」『』〜〈〉] ;
 
 
 fragment

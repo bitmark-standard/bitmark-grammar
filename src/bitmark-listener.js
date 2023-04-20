@@ -2745,11 +2745,11 @@ BitmarkListener.prototype.enterVendor_amcharts_5_chart = function(ctx) {
   }
 };
 
-BitmarkListener.prototype.enterNewspaper_article = function(ctx) { this.push_tmpl(ctx, 'newspaper-artile'); };
-BitmarkListener.prototype.enterBlog_article = function(ctx) { this.push_tmpl(ctx, 'blog-artile'); };
-BitmarkListener.prototype.enterBook_article = function(ctx) { this.push_tmpl(ctx, 'book-artile'); };
-BitmarkListener.prototype.enterNotebook_article = function(ctx) { this.push_tmpl(ctx, 'notebook-artile'); };
-BitmarkListener.prototype.enterWorkbook_article = function(ctx) { this.push_tmpl(ctx, 'workbook-artile'); };
+BitmarkListener.prototype.enterNewspaper_article = function(ctx) { this.push_tmpl(ctx, 'newspaper-article'); };
+BitmarkListener.prototype.enterBlog_article = function(ctx) { this.push_tmpl(ctx, 'blog-article'); };
+BitmarkListener.prototype.enterBook_article = function(ctx) { this.push_tmpl(ctx, 'book-article'); };
+BitmarkListener.prototype.enterNotebook_article = function(ctx) { this.push_tmpl(ctx, 'notebook-article'); };
+BitmarkListener.prototype.enterWorkbook_article = function(ctx) { this.push_tmpl(ctx, 'workbook-article'); };
 
 
 BitmarkListener.prototype.enterConversation_left_1 = function(ctx) { this.push_tmpl(ctx, 'conversation-left-1'); }
