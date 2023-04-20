@@ -1,23 +1,12 @@
 on:
   push
-    tags:
-      - update
+
 
 jobs:
   trigger-circleci:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-
-      - name: Bumping version
-        id: bumping-version
-        uses: jpb06/bump-package@latest
-        with:
-          should-default-to-patch: true	
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-
       - name: bitmark-grammar-push-action
-        if: steps.bumping-version.outputs.bump-performed == 'true'
         id:   bp001
         uses: CircleCI-Public/trigger-circleci-pipeline-action@v1.0
         env:
