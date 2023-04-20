@@ -121,6 +121,7 @@ resource_format:
  | AmpDocumentLink | AmpAppLink | AmpWebsiteLink | AmpStillImageFilmLink
  | AmpVideoEmbed | AmpAudioEmbed | AmpDocumentEmbed
  | AmpDocumentEmbed | AmpStillImageFilmEmbed
+ | AmpDocumentDownload
  ;
  
 resource_format_extra:
@@ -143,13 +144,14 @@ image_format:  // No [ included
   ;
 video_format:    (AmpVideo | AmpVideoLink | AmpVideoEmbed) ( COLON Video_type )? ;
 article_format:  AmpArticle | AmpArticleLink ;
-document_format: AmpDocument | AmpDocumentLink | AmpDocumentEmbed ;
+document_format: AmpDocument | AmpDocumentLink | AmpDocumentDownload | AmpDocumentEmbed ;
 app_format:      AmpApp | AmpAppLink  ;
 website_format:  AmpWebsite | AmpWebsiteLink  ;
 stillimagefilm_format: AmpStillImageFilm | AmpStillImageFilmLink | AmpStillImageFilmEmbed;
 
 op_article_format:  OpAmpArticleLink | OpAmpArticle ;
-op_document_format: OpAmpDocumentLink | OpAmpDocument | OpAmpDocumentEmbed ;
+op_document_format: OpAmpDocumentLink | OpAmpDocument
+		    | OpAmpDocumentDownload | OpAmpDocumentEmbed ;
 op_app_format:      OpAmpApp | OpAmpAppLink  ;
 op_website_format:  OpAmpWebsite | OpAmpWebsiteLink ;
 op_video_format:    OpAmpVideo ( COLON Video_type )? 

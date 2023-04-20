@@ -252,7 +252,7 @@ class choiceParser extends Parser_1.Parser {
                 this.state = 250;
                 this._errHandler.sync(this);
                 _la = this._input.LA(1);
-                while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.OPRANGLES) | (1 << choiceParser.OPRANGLEL) | (1 << choiceParser.OPDANGLE) | (1 << choiceParser.OPU) | (1 << choiceParser.OPB) | (1 << choiceParser.OPQ) | (1 << choiceParser.OPA) | (1 << choiceParser.OPC) | (1 << choiceParser.OPHASH) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP) | (1 << choiceParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (choiceParser.Less - 32)) | (1 << (choiceParser.RightAngle - 32)) | (1 << (choiceParser.RightArrow - 32)) | (1 << (choiceParser.DBLEQ - 32)) | (1 << (choiceParser.DCANY - 32)) | (1 << (choiceParser.ArticleText - 32)) | (1 << (choiceParser.NUMERIC - 32)) | (1 << (choiceParser.STRING - 32)) | (1 << (choiceParser.NOTBITMARK - 32)) | (1 << (choiceParser.SENTENCE - 32)) | (1 << (choiceParser.BARSTRING - 32)) | (1 << (choiceParser.AtReference - 32)))) !== 0) || ((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (choiceParser.AtExampleWithStr - 64)) | (1 << (choiceParser.AtExamplecol - 64)) | (1 << (choiceParser.AtExamplecl - 64)) | (1 << (choiceParser.AtLabeltrue - 64)) | (1 << (choiceParser.AtLabelfalse - 64)) | (1 << (choiceParser.OpAtCopyright - 64)))) !== 0) || ((((_la - 98)) & ~0x1F) === 0 && ((1 << (_la - 98)) & ((1 << (choiceParser.OpAmpAudio - 98)) | (1 << (choiceParser.OpAmpImage - 98)) | (1 << (choiceParser.OpAmpImageZoom - 98)) | (1 << (choiceParser.OpAmpImageWAudio - 98)) | (1 << (choiceParser.OpAmpVideo - 98)) | (1 << (choiceParser.OpAmpArticle - 98)) | (1 << (choiceParser.OpAmpDocument - 98)) | (1 << (choiceParser.OpAmpApp - 98)) | (1 << (choiceParser.OpAmpWebsite - 98)) | (1 << (choiceParser.OpAmpStillImageFilm - 98)) | (1 << (choiceParser.OpAmpAudioLink - 98)) | (1 << (choiceParser.OpAmpImageLink - 98)) | (1 << (choiceParser.OpAmpVideoLink - 98)) | (1 << (choiceParser.OpAmpArticleLink - 98)) | (1 << (choiceParser.OpAmpDocumentLink - 98)) | (1 << (choiceParser.OpAmpAppLink - 98)) | (1 << (choiceParser.OpAmpWebsiteLink - 98)) | (1 << (choiceParser.OpAmpStillImageFilmLink - 98)))) !== 0) || ((((_la - 132)) & ~0x1F) === 0 && ((1 << (_la - 132)) & ((1 << (choiceParser.OpAmpVideoEmbed - 132)) | (1 << (choiceParser.OpAmpAudioEmbed - 132)) | (1 << (choiceParser.OpAmpDocumentEmbed - 132)) | (1 << (choiceParser.OpAmpStillImageFilmEmbed - 132)) | (1 << (choiceParser.URL - 132)) | (1 << (choiceParser.LIST_LINE - 132)))) !== 0)) {
+                while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.OPRANGLES) | (1 << choiceParser.OPRANGLEL) | (1 << choiceParser.OPDANGLE) | (1 << choiceParser.OPU) | (1 << choiceParser.OPB) | (1 << choiceParser.OPQ) | (1 << choiceParser.OPA) | (1 << choiceParser.OPC) | (1 << choiceParser.OPHASH) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP) | (1 << choiceParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (choiceParser.Less - 32)) | (1 << (choiceParser.RightAngle - 32)) | (1 << (choiceParser.RightArrow - 32)) | (1 << (choiceParser.DBLEQ - 32)) | (1 << (choiceParser.DCANY - 32)) | (1 << (choiceParser.ArticleText - 32)) | (1 << (choiceParser.NUMERIC - 32)) | (1 << (choiceParser.STRING - 32)) | (1 << (choiceParser.NOTBITMARK - 32)) | (1 << (choiceParser.SENTENCE - 32)) | (1 << (choiceParser.BARSTRING - 32)) | (1 << (choiceParser.AtReference - 32)))) !== 0) || ((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (choiceParser.AtExampleWithStr - 64)) | (1 << (choiceParser.AtExamplecol - 64)) | (1 << (choiceParser.AtExamplecl - 64)) | (1 << (choiceParser.AtLabeltrue - 64)) | (1 << (choiceParser.AtLabelfalse - 64)) | (1 << (choiceParser.OpAtCopyright - 64)))) !== 0) || ((((_la - 98)) & ~0x1F) === 0 && ((1 << (_la - 98)) & ((1 << (choiceParser.OpAmpAudio - 98)) | (1 << (choiceParser.OpAmpImage - 98)) | (1 << (choiceParser.OpAmpImageZoom - 98)) | (1 << (choiceParser.OpAmpImageWAudio - 98)) | (1 << (choiceParser.OpAmpVideo - 98)) | (1 << (choiceParser.OpAmpArticle - 98)) | (1 << (choiceParser.OpAmpDocument - 98)) | (1 << (choiceParser.OpAmpApp - 98)) | (1 << (choiceParser.OpAmpWebsite - 98)) | (1 << (choiceParser.OpAmpStillImageFilm - 98)) | (1 << (choiceParser.OpAmpAudioLink - 98)) | (1 << (choiceParser.OpAmpImageLink - 98)) | (1 << (choiceParser.OpAmpVideoLink - 98)) | (1 << (choiceParser.OpAmpArticleLink - 98)) | (1 << (choiceParser.OpAmpDocumentLink - 98)) | (1 << (choiceParser.OpAmpDocumentDownload - 98)) | (1 << (choiceParser.OpAmpAppLink - 98)) | (1 << (choiceParser.OpAmpWebsiteLink - 98)) | (1 << (choiceParser.OpAmpStillImageFilmLink - 98)))) !== 0) || ((((_la - 134)) & ~0x1F) === 0 && ((1 << (_la - 134)) & ((1 << (choiceParser.OpAmpVideoEmbed - 134)) | (1 << (choiceParser.OpAmpAudioEmbed - 134)) | (1 << (choiceParser.OpAmpDocumentEmbed - 134)) | (1 << (choiceParser.OpAmpStillImageFilmEmbed - 134)) | (1 << (choiceParser.URL - 134)) | (1 << (choiceParser.LIST_LINE - 134)))) !== 0)) {
                     {
                         {
                             this.state = 241;
@@ -531,7 +531,7 @@ class choiceParser extends Parser_1.Parser {
                 this.state = 315;
                 this._errHandler.sync(this);
                 _la = this._input.LA(1);
-                while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.OPRANGLES) | (1 << choiceParser.OPRANGLEL) | (1 << choiceParser.OPDANGLE) | (1 << choiceParser.OPU) | (1 << choiceParser.OPB) | (1 << choiceParser.OPQ) | (1 << choiceParser.OPA) | (1 << choiceParser.OPC) | (1 << choiceParser.OPHASH) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP) | (1 << choiceParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (choiceParser.Less - 32)) | (1 << (choiceParser.RightAngle - 32)) | (1 << (choiceParser.RightArrow - 32)) | (1 << (choiceParser.DBLEQ - 32)) | (1 << (choiceParser.DCANY - 32)) | (1 << (choiceParser.ArticleText - 32)) | (1 << (choiceParser.NUMERIC - 32)) | (1 << (choiceParser.STRING - 32)) | (1 << (choiceParser.NOTBITMARK - 32)) | (1 << (choiceParser.SENTENCE - 32)) | (1 << (choiceParser.BARSTRING - 32)) | (1 << (choiceParser.AtReference - 32)))) !== 0) || ((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (choiceParser.AtExampleWithStr - 64)) | (1 << (choiceParser.AtExamplecol - 64)) | (1 << (choiceParser.AtExamplecl - 64)) | (1 << (choiceParser.AtLabeltrue - 64)) | (1 << (choiceParser.AtLabelfalse - 64)) | (1 << (choiceParser.OpAtCopyright - 64)))) !== 0) || ((((_la - 98)) & ~0x1F) === 0 && ((1 << (_la - 98)) & ((1 << (choiceParser.OpAmpAudio - 98)) | (1 << (choiceParser.OpAmpImage - 98)) | (1 << (choiceParser.OpAmpImageZoom - 98)) | (1 << (choiceParser.OpAmpImageWAudio - 98)) | (1 << (choiceParser.OpAmpVideo - 98)) | (1 << (choiceParser.OpAmpArticle - 98)) | (1 << (choiceParser.OpAmpDocument - 98)) | (1 << (choiceParser.OpAmpApp - 98)) | (1 << (choiceParser.OpAmpWebsite - 98)) | (1 << (choiceParser.OpAmpStillImageFilm - 98)) | (1 << (choiceParser.OpAmpAudioLink - 98)) | (1 << (choiceParser.OpAmpImageLink - 98)) | (1 << (choiceParser.OpAmpVideoLink - 98)) | (1 << (choiceParser.OpAmpArticleLink - 98)) | (1 << (choiceParser.OpAmpDocumentLink - 98)) | (1 << (choiceParser.OpAmpAppLink - 98)) | (1 << (choiceParser.OpAmpWebsiteLink - 98)) | (1 << (choiceParser.OpAmpStillImageFilmLink - 98)))) !== 0) || ((((_la - 132)) & ~0x1F) === 0 && ((1 << (_la - 132)) & ((1 << (choiceParser.OpAmpVideoEmbed - 132)) | (1 << (choiceParser.OpAmpAudioEmbed - 132)) | (1 << (choiceParser.OpAmpDocumentEmbed - 132)) | (1 << (choiceParser.OpAmpStillImageFilmEmbed - 132)) | (1 << (choiceParser.URL - 132)) | (1 << (choiceParser.LIST_LINE - 132)))) !== 0)) {
+                while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.OPRANGLES) | (1 << choiceParser.OPRANGLEL) | (1 << choiceParser.OPDANGLE) | (1 << choiceParser.OPU) | (1 << choiceParser.OPB) | (1 << choiceParser.OPQ) | (1 << choiceParser.OPA) | (1 << choiceParser.OPC) | (1 << choiceParser.OPHASH) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP) | (1 << choiceParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (choiceParser.Less - 32)) | (1 << (choiceParser.RightAngle - 32)) | (1 << (choiceParser.RightArrow - 32)) | (1 << (choiceParser.DBLEQ - 32)) | (1 << (choiceParser.DCANY - 32)) | (1 << (choiceParser.ArticleText - 32)) | (1 << (choiceParser.NUMERIC - 32)) | (1 << (choiceParser.STRING - 32)) | (1 << (choiceParser.NOTBITMARK - 32)) | (1 << (choiceParser.SENTENCE - 32)) | (1 << (choiceParser.BARSTRING - 32)) | (1 << (choiceParser.AtReference - 32)))) !== 0) || ((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (choiceParser.AtExampleWithStr - 64)) | (1 << (choiceParser.AtExamplecol - 64)) | (1 << (choiceParser.AtExamplecl - 64)) | (1 << (choiceParser.AtLabeltrue - 64)) | (1 << (choiceParser.AtLabelfalse - 64)) | (1 << (choiceParser.OpAtCopyright - 64)))) !== 0) || ((((_la - 98)) & ~0x1F) === 0 && ((1 << (_la - 98)) & ((1 << (choiceParser.OpAmpAudio - 98)) | (1 << (choiceParser.OpAmpImage - 98)) | (1 << (choiceParser.OpAmpImageZoom - 98)) | (1 << (choiceParser.OpAmpImageWAudio - 98)) | (1 << (choiceParser.OpAmpVideo - 98)) | (1 << (choiceParser.OpAmpArticle - 98)) | (1 << (choiceParser.OpAmpDocument - 98)) | (1 << (choiceParser.OpAmpApp - 98)) | (1 << (choiceParser.OpAmpWebsite - 98)) | (1 << (choiceParser.OpAmpStillImageFilm - 98)) | (1 << (choiceParser.OpAmpAudioLink - 98)) | (1 << (choiceParser.OpAmpImageLink - 98)) | (1 << (choiceParser.OpAmpVideoLink - 98)) | (1 << (choiceParser.OpAmpArticleLink - 98)) | (1 << (choiceParser.OpAmpDocumentLink - 98)) | (1 << (choiceParser.OpAmpDocumentDownload - 98)) | (1 << (choiceParser.OpAmpAppLink - 98)) | (1 << (choiceParser.OpAmpWebsiteLink - 98)) | (1 << (choiceParser.OpAmpStillImageFilmLink - 98)))) !== 0) || ((((_la - 134)) & ~0x1F) === 0 && ((1 << (_la - 134)) & ((1 << (choiceParser.OpAmpVideoEmbed - 134)) | (1 << (choiceParser.OpAmpAudioEmbed - 134)) | (1 << (choiceParser.OpAmpDocumentEmbed - 134)) | (1 << (choiceParser.OpAmpStillImageFilmEmbed - 134)) | (1 << (choiceParser.URL - 134)) | (1 << (choiceParser.LIST_LINE - 134)))) !== 0)) {
                     {
                         {
                             this.state = 312;
@@ -677,7 +677,7 @@ class choiceParser extends Parser_1.Parser {
                 this.state = 359;
                 this._errHandler.sync(this);
                 _la = this._input.LA(1);
-                while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.OPRANGLES) | (1 << choiceParser.OPRANGLEL) | (1 << choiceParser.OPDANGLE) | (1 << choiceParser.OPU) | (1 << choiceParser.OPB) | (1 << choiceParser.OPQ) | (1 << choiceParser.OPA) | (1 << choiceParser.OPC) | (1 << choiceParser.OPHASH) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP) | (1 << choiceParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (choiceParser.Less - 32)) | (1 << (choiceParser.RightAngle - 32)) | (1 << (choiceParser.RightArrow - 32)) | (1 << (choiceParser.DBLEQ - 32)) | (1 << (choiceParser.DCANY - 32)) | (1 << (choiceParser.ArticleText - 32)) | (1 << (choiceParser.NUMERIC - 32)) | (1 << (choiceParser.STRING - 32)) | (1 << (choiceParser.NOTBITMARK - 32)) | (1 << (choiceParser.SENTENCE - 32)) | (1 << (choiceParser.BARSTRING - 32)) | (1 << (choiceParser.AtReference - 32)))) !== 0) || ((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (choiceParser.AtExampleWithStr - 64)) | (1 << (choiceParser.AtExamplecol - 64)) | (1 << (choiceParser.AtExamplecl - 64)) | (1 << (choiceParser.AtLabeltrue - 64)) | (1 << (choiceParser.AtLabelfalse - 64)) | (1 << (choiceParser.OpAtCopyright - 64)))) !== 0) || ((((_la - 98)) & ~0x1F) === 0 && ((1 << (_la - 98)) & ((1 << (choiceParser.OpAmpAudio - 98)) | (1 << (choiceParser.OpAmpImage - 98)) | (1 << (choiceParser.OpAmpImageZoom - 98)) | (1 << (choiceParser.OpAmpImageWAudio - 98)) | (1 << (choiceParser.OpAmpVideo - 98)) | (1 << (choiceParser.OpAmpArticle - 98)) | (1 << (choiceParser.OpAmpDocument - 98)) | (1 << (choiceParser.OpAmpApp - 98)) | (1 << (choiceParser.OpAmpWebsite - 98)) | (1 << (choiceParser.OpAmpStillImageFilm - 98)) | (1 << (choiceParser.OpAmpAudioLink - 98)) | (1 << (choiceParser.OpAmpImageLink - 98)) | (1 << (choiceParser.OpAmpVideoLink - 98)) | (1 << (choiceParser.OpAmpArticleLink - 98)) | (1 << (choiceParser.OpAmpDocumentLink - 98)) | (1 << (choiceParser.OpAmpAppLink - 98)) | (1 << (choiceParser.OpAmpWebsiteLink - 98)) | (1 << (choiceParser.OpAmpStillImageFilmLink - 98)))) !== 0) || ((((_la - 132)) & ~0x1F) === 0 && ((1 << (_la - 132)) & ((1 << (choiceParser.OpAmpVideoEmbed - 132)) | (1 << (choiceParser.OpAmpAudioEmbed - 132)) | (1 << (choiceParser.OpAmpDocumentEmbed - 132)) | (1 << (choiceParser.OpAmpStillImageFilmEmbed - 132)) | (1 << (choiceParser.URL - 132)) | (1 << (choiceParser.LIST_LINE - 132)))) !== 0)) {
+                while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.OPRANGLES) | (1 << choiceParser.OPRANGLEL) | (1 << choiceParser.OPDANGLE) | (1 << choiceParser.OPU) | (1 << choiceParser.OPB) | (1 << choiceParser.OPQ) | (1 << choiceParser.OPA) | (1 << choiceParser.OPC) | (1 << choiceParser.OPHASH) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP) | (1 << choiceParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (choiceParser.Less - 32)) | (1 << (choiceParser.RightAngle - 32)) | (1 << (choiceParser.RightArrow - 32)) | (1 << (choiceParser.DBLEQ - 32)) | (1 << (choiceParser.DCANY - 32)) | (1 << (choiceParser.ArticleText - 32)) | (1 << (choiceParser.NUMERIC - 32)) | (1 << (choiceParser.STRING - 32)) | (1 << (choiceParser.NOTBITMARK - 32)) | (1 << (choiceParser.SENTENCE - 32)) | (1 << (choiceParser.BARSTRING - 32)) | (1 << (choiceParser.AtReference - 32)))) !== 0) || ((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (choiceParser.AtExampleWithStr - 64)) | (1 << (choiceParser.AtExamplecol - 64)) | (1 << (choiceParser.AtExamplecl - 64)) | (1 << (choiceParser.AtLabeltrue - 64)) | (1 << (choiceParser.AtLabelfalse - 64)) | (1 << (choiceParser.OpAtCopyright - 64)))) !== 0) || ((((_la - 98)) & ~0x1F) === 0 && ((1 << (_la - 98)) & ((1 << (choiceParser.OpAmpAudio - 98)) | (1 << (choiceParser.OpAmpImage - 98)) | (1 << (choiceParser.OpAmpImageZoom - 98)) | (1 << (choiceParser.OpAmpImageWAudio - 98)) | (1 << (choiceParser.OpAmpVideo - 98)) | (1 << (choiceParser.OpAmpArticle - 98)) | (1 << (choiceParser.OpAmpDocument - 98)) | (1 << (choiceParser.OpAmpApp - 98)) | (1 << (choiceParser.OpAmpWebsite - 98)) | (1 << (choiceParser.OpAmpStillImageFilm - 98)) | (1 << (choiceParser.OpAmpAudioLink - 98)) | (1 << (choiceParser.OpAmpImageLink - 98)) | (1 << (choiceParser.OpAmpVideoLink - 98)) | (1 << (choiceParser.OpAmpArticleLink - 98)) | (1 << (choiceParser.OpAmpDocumentLink - 98)) | (1 << (choiceParser.OpAmpDocumentDownload - 98)) | (1 << (choiceParser.OpAmpAppLink - 98)) | (1 << (choiceParser.OpAmpWebsiteLink - 98)) | (1 << (choiceParser.OpAmpStillImageFilmLink - 98)))) !== 0) || ((((_la - 134)) & ~0x1F) === 0 && ((1 << (_la - 134)) & ((1 << (choiceParser.OpAmpVideoEmbed - 134)) | (1 << (choiceParser.OpAmpAudioEmbed - 134)) | (1 << (choiceParser.OpAmpDocumentEmbed - 134)) | (1 << (choiceParser.OpAmpStillImageFilmEmbed - 134)) | (1 << (choiceParser.URL - 134)) | (1 << (choiceParser.LIST_LINE - 134)))) !== 0)) {
                     {
                         {
                             this.state = 350;
@@ -2743,7 +2743,7 @@ class choiceParser extends Parser_1.Parser {
                             this.state = 789;
                             this._errHandler.sync(this);
                             _la = this._input.LA(1);
-                        } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.OPDOT) | (1 << choiceParser.S) | (1 << choiceParser.BitMultichoice1) | (1 << choiceParser.BitMultichoice) | (1 << choiceParser.BitMultiresp1) | (1 << choiceParser.BitMultiresp) | (1 << choiceParser.BitMultichoicetext) | (1 << choiceParser.BitHighlighttext) | (1 << choiceParser.OPDOLL) | (1 << choiceParser.OPBUL) | (1 << choiceParser.OPESC) | (1 << choiceParser.OPRANGLES) | (1 << choiceParser.OPRANGLEL) | (1 << choiceParser.OPDANGLE) | (1 << choiceParser.OPU) | (1 << choiceParser.OPB) | (1 << choiceParser.OPQ) | (1 << choiceParser.OPA) | (1 << choiceParser.OPP) | (1 << choiceParser.OPM) | (1 << choiceParser.OPS) | (1 << choiceParser.OPR) | (1 << choiceParser.OPC) | (1 << choiceParser.OPHASH) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP) | (1 << choiceParser.DBLCOLON) | (1 << choiceParser.PLUS) | (1 << choiceParser.DotAt) | (1 << choiceParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (choiceParser.Less - 32)) | (1 << (choiceParser.Lparen - 32)) | (1 << (choiceParser.Rparen - 32)) | (1 << (choiceParser.RightAngle - 32)) | (1 << (choiceParser.RightArrow - 32)) | (1 << (choiceParser.DBLEQ - 32)) | (1 << (choiceParser.HSPL - 32)) | (1 << (choiceParser.HSPL2 - 32)) | (1 << (choiceParser.SSPL - 32)) | (1 << (choiceParser.SSPL2 - 32)) | (1 << (choiceParser.StrParen - 32)) | (1 << (choiceParser.COMMENT - 32)) | (1 << (choiceParser.DCANY - 32)) | (1 << (choiceParser.Image_type - 32)) | (1 << (choiceParser.Audio_type - 32)) | (1 << (choiceParser.Video_type - 32)) | (1 << (choiceParser.ArticleText - 32)) | (1 << (choiceParser.NOTCL - 32)) | (1 << (choiceParser.NUMERIC - 32)) | (1 << (choiceParser.STRING - 32)) | (1 << (choiceParser.NL - 32)) | (1 << (choiceParser.NOTBITMARK - 32)) | (1 << (choiceParser.SENTENCE - 32)) | (1 << (choiceParser.BARSTRING - 32)) | (1 << (choiceParser.OPAT - 32)) | (1 << (choiceParser.AtProgress - 32)) | (1 << (choiceParser.AtReference - 32)) | (1 << (choiceParser.AtWidth - 32)) | (1 << (choiceParser.AtHeight - 32)) | (1 << (choiceParser.AtProgressPoints - 32)) | (1 << (choiceParser.AtShortanswer - 32)) | (1 << (choiceParser.AtLonganswer - 32)))) !== 0) || ((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (choiceParser.AtExampleWithStr - 64)) | (1 << (choiceParser.AtExamplecol - 64)) | (1 << (choiceParser.AtExamplecl - 64)) | (1 << (choiceParser.AtSampleSolution - 64)) | (1 << (choiceParser.AtPartialAnswerS - 64)) | (1 << (choiceParser.AtPartialAnswer - 64)) | (1 << (choiceParser.AtLabeltrue - 64)) | (1 << (choiceParser.AtLabelfalse - 64)) | (1 << (choiceParser.AtPoints - 64)) | (1 << (choiceParser.AtSrc - 64)) | (1 << (choiceParser.AtPartner - 64)) | (1 << (choiceParser.OPATALT - 64)) | (1 << (choiceParser.OPAMARK - 64)) | (1 << (choiceParser.ShowInIndex - 64)) | (1 << (choiceParser.OpAtCaption - 64)) | (1 << (choiceParser.OpAtLicense - 64)) | (1 << (choiceParser.OpAtCopyright - 64)) | (1 << (choiceParser.OpAtSearch - 64)) | (1 << (choiceParser.OpAtIsTracked - 64)) | (1 << (choiceParser.OpAtIsInfoOnly - 64)) | (1 << (choiceParser.AtDate - 64)) | (1 << (choiceParser.Http - 64)) | (1 << (choiceParser.Https - 64)) | (1 << (choiceParser.AmpAudio - 64)) | (1 << (choiceParser.AmpImage - 64)) | (1 << (choiceParser.AmpImageZoom - 64)) | (1 << (choiceParser.AmpImageWAudio - 64)) | (1 << (choiceParser.AmpVideo - 64)) | (1 << (choiceParser.AmpArticle - 64)) | (1 << (choiceParser.AmpDocument - 64)) | (1 << (choiceParser.AmpApp - 64)) | (1 << (choiceParser.AmpWebsite - 64)))) !== 0) || ((((_la - 96)) & ~0x1F) === 0 && ((1 << (_la - 96)) & ((1 << (choiceParser.AmpStillImageFilm - 96)) | (1 << (choiceParser.AmpPdf - 96)) | (1 << (choiceParser.OpAmpAudio - 96)) | (1 << (choiceParser.OpAmpImage - 96)) | (1 << (choiceParser.OpAmpImageZoom - 96)) | (1 << (choiceParser.OpAmpImageWAudio - 96)) | (1 << (choiceParser.OpAmpVideo - 96)) | (1 << (choiceParser.OpAmpArticle - 96)) | (1 << (choiceParser.OpAmpArticleAtt - 96)) | (1 << (choiceParser.OpAmpDocument - 96)) | (1 << (choiceParser.OpAmpApp - 96)) | (1 << (choiceParser.OpAmpWebsite - 96)) | (1 << (choiceParser.OpAmpStillImageFilm - 96)) | (1 << (choiceParser.BracEnclose - 96)) | (1 << (choiceParser.AmpAudioLink - 96)) | (1 << (choiceParser.AmpImageLink - 96)) | (1 << (choiceParser.AmpVideoLink - 96)) | (1 << (choiceParser.AmpArticleLink - 96)) | (1 << (choiceParser.AmpDocumentLink - 96)) | (1 << (choiceParser.AmpAppLink - 96)) | (1 << (choiceParser.AmpWebsiteLink - 96)) | (1 << (choiceParser.AmpStillImageFilmLink - 96)) | (1 << (choiceParser.OpAmpAudioLink - 96)) | (1 << (choiceParser.OpAmpImageLink - 96)) | (1 << (choiceParser.OpAmpVideoLink - 96)) | (1 << (choiceParser.OpAmpArticleLink - 96)) | (1 << (choiceParser.OpAmpDocumentLink - 96)) | (1 << (choiceParser.OpAmpAppLink - 96)) | (1 << (choiceParser.OpAmpWebsiteLink - 96)) | (1 << (choiceParser.OpAmpStillImageFilmLink - 96)) | (1 << (choiceParser.AmpImageEmbed - 96)) | (1 << (choiceParser.AmpVideoEmbed - 96)))) !== 0) || ((((_la - 128)) & ~0x1F) === 0 && ((1 << (_la - 128)) & ((1 << (choiceParser.AmpAudioEmbed - 128)) | (1 << (choiceParser.AmpDocumentEmbed - 128)) | (1 << (choiceParser.AmpStillImageFilmEmbed - 128)) | (1 << (choiceParser.OpAmpImageEmbed - 128)) | (1 << (choiceParser.OpAmpVideoEmbed - 128)) | (1 << (choiceParser.OpAmpAudioEmbed - 128)) | (1 << (choiceParser.OpAmpDocumentEmbed - 128)) | (1 << (choiceParser.OpAmpStillImageFilmEmbed - 128)) | (1 << (choiceParser.BitmarkMinus - 128)) | (1 << (choiceParser.BitmarkPlus - 128)) | (1 << (choiceParser.ColonText - 128)) | (1 << (choiceParser.ColonJson - 128)) | (1 << (choiceParser.Prosemirror - 128)) | (1 << (choiceParser.Placeholder - 128)) | (1 << (choiceParser.BASIC - 128)) | (1 << (choiceParser.JPG - 128)) | (1 << (choiceParser.PNG - 128)) | (1 << (choiceParser.GIF - 128)) | (1 << (choiceParser.SVG - 128)) | (1 << (choiceParser.MP2 - 128)) | (1 << (choiceParser.MP3 - 128)) | (1 << (choiceParser.MP4 - 128)) | (1 << (choiceParser.FLV - 128)) | (1 << (choiceParser.WMV - 128)) | (1 << (choiceParser.MPEG - 128)) | (1 << (choiceParser.MPG - 128)) | (1 << (choiceParser.TEL - 128)) | (1 << (choiceParser.DotArticleAtt - 128)) | (1 << (choiceParser.STAR - 128)) | (1 << (choiceParser.URL - 128)) | (1 << (choiceParser.LIST_LINE - 128)) | (1 << (choiceParser.ENCLBARS - 128)))) !== 0));
+                        } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.OPDOT) | (1 << choiceParser.S) | (1 << choiceParser.BitMultichoice1) | (1 << choiceParser.BitMultichoice) | (1 << choiceParser.BitMultiresp1) | (1 << choiceParser.BitMultiresp) | (1 << choiceParser.BitMultichoicetext) | (1 << choiceParser.BitHighlighttext) | (1 << choiceParser.OPDOLL) | (1 << choiceParser.OPBUL) | (1 << choiceParser.OPESC) | (1 << choiceParser.OPRANGLES) | (1 << choiceParser.OPRANGLEL) | (1 << choiceParser.OPDANGLE) | (1 << choiceParser.OPU) | (1 << choiceParser.OPB) | (1 << choiceParser.OPQ) | (1 << choiceParser.OPA) | (1 << choiceParser.OPP) | (1 << choiceParser.OPM) | (1 << choiceParser.OPS) | (1 << choiceParser.OPR) | (1 << choiceParser.OPC) | (1 << choiceParser.OPHASH) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP) | (1 << choiceParser.DBLCOLON) | (1 << choiceParser.PLUS) | (1 << choiceParser.DotAt) | (1 << choiceParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (choiceParser.Less - 32)) | (1 << (choiceParser.Lparen - 32)) | (1 << (choiceParser.Rparen - 32)) | (1 << (choiceParser.RightAngle - 32)) | (1 << (choiceParser.RightArrow - 32)) | (1 << (choiceParser.DBLEQ - 32)) | (1 << (choiceParser.HSPL - 32)) | (1 << (choiceParser.HSPL2 - 32)) | (1 << (choiceParser.SSPL - 32)) | (1 << (choiceParser.SSPL2 - 32)) | (1 << (choiceParser.StrParen - 32)) | (1 << (choiceParser.COMMENT - 32)) | (1 << (choiceParser.DCANY - 32)) | (1 << (choiceParser.Image_type - 32)) | (1 << (choiceParser.Audio_type - 32)) | (1 << (choiceParser.Video_type - 32)) | (1 << (choiceParser.ArticleText - 32)) | (1 << (choiceParser.NOTCL - 32)) | (1 << (choiceParser.NUMERIC - 32)) | (1 << (choiceParser.STRING - 32)) | (1 << (choiceParser.NL - 32)) | (1 << (choiceParser.NOTBITMARK - 32)) | (1 << (choiceParser.SENTENCE - 32)) | (1 << (choiceParser.BARSTRING - 32)) | (1 << (choiceParser.OPAT - 32)) | (1 << (choiceParser.AtProgress - 32)) | (1 << (choiceParser.AtReference - 32)) | (1 << (choiceParser.AtWidth - 32)) | (1 << (choiceParser.AtHeight - 32)) | (1 << (choiceParser.AtProgressPoints - 32)) | (1 << (choiceParser.AtShortanswer - 32)) | (1 << (choiceParser.AtLonganswer - 32)))) !== 0) || ((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (choiceParser.AtExampleWithStr - 64)) | (1 << (choiceParser.AtExamplecol - 64)) | (1 << (choiceParser.AtExamplecl - 64)) | (1 << (choiceParser.AtSampleSolution - 64)) | (1 << (choiceParser.AtPartialAnswerS - 64)) | (1 << (choiceParser.AtPartialAnswer - 64)) | (1 << (choiceParser.AtLabeltrue - 64)) | (1 << (choiceParser.AtLabelfalse - 64)) | (1 << (choiceParser.AtPoints - 64)) | (1 << (choiceParser.AtSrc - 64)) | (1 << (choiceParser.AtPartner - 64)) | (1 << (choiceParser.OPATALT - 64)) | (1 << (choiceParser.OPAMARK - 64)) | (1 << (choiceParser.ShowInIndex - 64)) | (1 << (choiceParser.OpAtCaption - 64)) | (1 << (choiceParser.OpAtLicense - 64)) | (1 << (choiceParser.OpAtCopyright - 64)) | (1 << (choiceParser.OpAtSearch - 64)) | (1 << (choiceParser.OpAtIsTracked - 64)) | (1 << (choiceParser.OpAtIsInfoOnly - 64)) | (1 << (choiceParser.AtDate - 64)) | (1 << (choiceParser.Http - 64)) | (1 << (choiceParser.Https - 64)) | (1 << (choiceParser.AmpAudio - 64)) | (1 << (choiceParser.AmpImage - 64)) | (1 << (choiceParser.AmpImageZoom - 64)) | (1 << (choiceParser.AmpImageWAudio - 64)) | (1 << (choiceParser.AmpVideo - 64)) | (1 << (choiceParser.AmpArticle - 64)) | (1 << (choiceParser.AmpDocument - 64)) | (1 << (choiceParser.AmpApp - 64)) | (1 << (choiceParser.AmpWebsite - 64)))) !== 0) || ((((_la - 96)) & ~0x1F) === 0 && ((1 << (_la - 96)) & ((1 << (choiceParser.AmpStillImageFilm - 96)) | (1 << (choiceParser.AmpPdf - 96)) | (1 << (choiceParser.OpAmpAudio - 96)) | (1 << (choiceParser.OpAmpImage - 96)) | (1 << (choiceParser.OpAmpImageZoom - 96)) | (1 << (choiceParser.OpAmpImageWAudio - 96)) | (1 << (choiceParser.OpAmpVideo - 96)) | (1 << (choiceParser.OpAmpArticle - 96)) | (1 << (choiceParser.OpAmpArticleAtt - 96)) | (1 << (choiceParser.OpAmpDocument - 96)) | (1 << (choiceParser.OpAmpApp - 96)) | (1 << (choiceParser.OpAmpWebsite - 96)) | (1 << (choiceParser.OpAmpStillImageFilm - 96)) | (1 << (choiceParser.BracEnclose - 96)) | (1 << (choiceParser.AmpAudioLink - 96)) | (1 << (choiceParser.AmpImageLink - 96)) | (1 << (choiceParser.AmpVideoLink - 96)) | (1 << (choiceParser.AmpArticleLink - 96)) | (1 << (choiceParser.AmpDocumentLink - 96)) | (1 << (choiceParser.AmpDocumentDownload - 96)) | (1 << (choiceParser.AmpAppLink - 96)) | (1 << (choiceParser.AmpWebsiteLink - 96)) | (1 << (choiceParser.AmpStillImageFilmLink - 96)) | (1 << (choiceParser.OpAmpAudioLink - 96)) | (1 << (choiceParser.OpAmpImageLink - 96)) | (1 << (choiceParser.OpAmpVideoLink - 96)) | (1 << (choiceParser.OpAmpArticleLink - 96)) | (1 << (choiceParser.OpAmpDocumentLink - 96)) | (1 << (choiceParser.OpAmpDocumentDownload - 96)) | (1 << (choiceParser.OpAmpAppLink - 96)) | (1 << (choiceParser.OpAmpWebsiteLink - 96)) | (1 << (choiceParser.OpAmpStillImageFilmLink - 96)))) !== 0) || ((((_la - 128)) & ~0x1F) === 0 && ((1 << (_la - 128)) & ((1 << (choiceParser.AmpImageEmbed - 128)) | (1 << (choiceParser.AmpVideoEmbed - 128)) | (1 << (choiceParser.AmpAudioEmbed - 128)) | (1 << (choiceParser.AmpDocumentEmbed - 128)) | (1 << (choiceParser.AmpStillImageFilmEmbed - 128)) | (1 << (choiceParser.OpAmpImageEmbed - 128)) | (1 << (choiceParser.OpAmpVideoEmbed - 128)) | (1 << (choiceParser.OpAmpAudioEmbed - 128)) | (1 << (choiceParser.OpAmpDocumentEmbed - 128)) | (1 << (choiceParser.OpAmpStillImageFilmEmbed - 128)) | (1 << (choiceParser.BitmarkMinus - 128)) | (1 << (choiceParser.BitmarkPlus - 128)) | (1 << (choiceParser.ColonText - 128)) | (1 << (choiceParser.ColonJson - 128)) | (1 << (choiceParser.Prosemirror - 128)) | (1 << (choiceParser.Placeholder - 128)) | (1 << (choiceParser.BASIC - 128)) | (1 << (choiceParser.JPG - 128)) | (1 << (choiceParser.PNG - 128)) | (1 << (choiceParser.GIF - 128)) | (1 << (choiceParser.SVG - 128)) | (1 << (choiceParser.MP2 - 128)) | (1 << (choiceParser.MP3 - 128)) | (1 << (choiceParser.MP4 - 128)) | (1 << (choiceParser.FLV - 128)) | (1 << (choiceParser.WMV - 128)) | (1 << (choiceParser.MPEG - 128)) | (1 << (choiceParser.MPG - 128)) | (1 << (choiceParser.TEL - 128)) | (1 << (choiceParser.DotArticleAtt - 128)) | (1 << (choiceParser.STAR - 128)) | (1 << (choiceParser.URL - 128)))) !== 0) || _la === choiceParser.LIST_LINE || _la === choiceParser.ENCLBARS);
                         this.state = 791;
                         this.match(choiceParser.CL);
                     }
@@ -2943,7 +2943,7 @@ class choiceParser extends Parser_1.Parser {
                 this.state = 821;
                 this._errHandler.sync(this);
                 _la = this._input.LA(1);
-                while (((((_la - 87)) & ~0x1F) === 0 && ((1 << (_la - 87)) & ((1 << (choiceParser.AmpAudio - 87)) | (1 << (choiceParser.AmpImage - 87)) | (1 << (choiceParser.AmpImageZoom - 87)) | (1 << (choiceParser.AmpImageWAudio - 87)) | (1 << (choiceParser.AmpVideo - 87)) | (1 << (choiceParser.AmpArticle - 87)) | (1 << (choiceParser.AmpDocument - 87)) | (1 << (choiceParser.AmpApp - 87)) | (1 << (choiceParser.AmpWebsite - 87)) | (1 << (choiceParser.AmpStillImageFilm - 87)) | (1 << (choiceParser.AmpPdf - 87)) | (1 << (choiceParser.AmpAudioLink - 87)) | (1 << (choiceParser.AmpImageLink - 87)) | (1 << (choiceParser.AmpVideoLink - 87)) | (1 << (choiceParser.AmpArticleLink - 87)) | (1 << (choiceParser.AmpDocumentLink - 87)) | (1 << (choiceParser.AmpAppLink - 87)) | (1 << (choiceParser.AmpWebsiteLink - 87)) | (1 << (choiceParser.AmpStillImageFilmLink - 87)))) !== 0) || ((((_la - 127)) & ~0x1F) === 0 && ((1 << (_la - 127)) & ((1 << (choiceParser.AmpVideoEmbed - 127)) | (1 << (choiceParser.AmpDocumentEmbed - 127)) | (1 << (choiceParser.AmpStillImageFilmEmbed - 127)) | (1 << (choiceParser.ColonText - 127)) | (1 << (choiceParser.ColonJson - 127)))) !== 0)) {
+                while (((((_la - 87)) & ~0x1F) === 0 && ((1 << (_la - 87)) & ((1 << (choiceParser.AmpAudio - 87)) | (1 << (choiceParser.AmpImage - 87)) | (1 << (choiceParser.AmpImageZoom - 87)) | (1 << (choiceParser.AmpImageWAudio - 87)) | (1 << (choiceParser.AmpVideo - 87)) | (1 << (choiceParser.AmpArticle - 87)) | (1 << (choiceParser.AmpDocument - 87)) | (1 << (choiceParser.AmpApp - 87)) | (1 << (choiceParser.AmpWebsite - 87)) | (1 << (choiceParser.AmpStillImageFilm - 87)) | (1 << (choiceParser.AmpPdf - 87)) | (1 << (choiceParser.AmpAudioLink - 87)) | (1 << (choiceParser.AmpImageLink - 87)) | (1 << (choiceParser.AmpVideoLink - 87)) | (1 << (choiceParser.AmpArticleLink - 87)) | (1 << (choiceParser.AmpDocumentLink - 87)) | (1 << (choiceParser.AmpDocumentDownload - 87)) | (1 << (choiceParser.AmpAppLink - 87)) | (1 << (choiceParser.AmpWebsiteLink - 87)) | (1 << (choiceParser.AmpStillImageFilmLink - 87)))) !== 0) || ((((_la - 129)) & ~0x1F) === 0 && ((1 << (_la - 129)) & ((1 << (choiceParser.AmpVideoEmbed - 129)) | (1 << (choiceParser.AmpDocumentEmbed - 129)) | (1 << (choiceParser.AmpStillImageFilmEmbed - 129)) | (1 << (choiceParser.ColonText - 129)) | (1 << (choiceParser.ColonJson - 129)))) !== 0)) {
                     {
                         this.state = 819;
                         this._errHandler.sync(this);
@@ -2976,6 +2976,7 @@ class choiceParser extends Parser_1.Parser {
                             case choiceParser.AmpVideoLink:
                             case choiceParser.AmpArticleLink:
                             case choiceParser.AmpDocumentLink:
+                            case choiceParser.AmpDocumentDownload:
                             case choiceParser.AmpAppLink:
                             case choiceParser.AmpWebsiteLink:
                             case choiceParser.AmpStillImageFilmLink:
@@ -3022,7 +3023,7 @@ class choiceParser extends Parser_1.Parser {
             {
                 this.state = 824;
                 _la = this._input.LA(1);
-                if (!(((((_la - 92)) & ~0x1F) === 0 && ((1 << (_la - 92)) & ((1 << (choiceParser.AmpArticle - 92)) | (1 << (choiceParser.AmpDocument - 92)) | (1 << (choiceParser.AmpWebsite - 92)) | (1 << (choiceParser.AmpStillImageFilm - 92)) | (1 << (choiceParser.AmpAudioLink - 92)) | (1 << (choiceParser.AmpImageLink - 92)) | (1 << (choiceParser.AmpVideoLink - 92)) | (1 << (choiceParser.AmpArticleLink - 92)) | (1 << (choiceParser.AmpDocumentLink - 92)) | (1 << (choiceParser.AmpAppLink - 92)) | (1 << (choiceParser.AmpWebsiteLink - 92)) | (1 << (choiceParser.AmpStillImageFilmLink - 92)))) !== 0) || ((((_la - 127)) & ~0x1F) === 0 && ((1 << (_la - 127)) & ((1 << (choiceParser.AmpVideoEmbed - 127)) | (1 << (choiceParser.AmpAudioEmbed - 127)) | (1 << (choiceParser.AmpDocumentEmbed - 127)) | (1 << (choiceParser.AmpStillImageFilmEmbed - 127)) | (1 << (choiceParser.BitmarkMinus - 127)) | (1 << (choiceParser.BitmarkPlus - 127)) | (1 << (choiceParser.ColonJson - 127)) | (1 << (choiceParser.Prosemirror - 127)) | (1 << (choiceParser.Placeholder - 127)))) !== 0))) {
+                if (!(((((_la - 92)) & ~0x1F) === 0 && ((1 << (_la - 92)) & ((1 << (choiceParser.AmpArticle - 92)) | (1 << (choiceParser.AmpDocument - 92)) | (1 << (choiceParser.AmpWebsite - 92)) | (1 << (choiceParser.AmpStillImageFilm - 92)) | (1 << (choiceParser.AmpAudioLink - 92)) | (1 << (choiceParser.AmpImageLink - 92)) | (1 << (choiceParser.AmpVideoLink - 92)) | (1 << (choiceParser.AmpArticleLink - 92)) | (1 << (choiceParser.AmpDocumentLink - 92)) | (1 << (choiceParser.AmpDocumentDownload - 92)) | (1 << (choiceParser.AmpAppLink - 92)) | (1 << (choiceParser.AmpWebsiteLink - 92)) | (1 << (choiceParser.AmpStillImageFilmLink - 92)))) !== 0) || ((((_la - 129)) & ~0x1F) === 0 && ((1 << (_la - 129)) & ((1 << (choiceParser.AmpVideoEmbed - 129)) | (1 << (choiceParser.AmpAudioEmbed - 129)) | (1 << (choiceParser.AmpDocumentEmbed - 129)) | (1 << (choiceParser.AmpStillImageFilmEmbed - 129)) | (1 << (choiceParser.BitmarkMinus - 129)) | (1 << (choiceParser.BitmarkPlus - 129)) | (1 << (choiceParser.ColonJson - 129)) | (1 << (choiceParser.Prosemirror - 129)) | (1 << (choiceParser.Placeholder - 129)))) !== 0))) {
                     this._errHandler.recoverInline(this);
                 }
                 else {
@@ -3094,6 +3095,7 @@ class choiceParser extends Parser_1.Parser {
                     break;
                 case choiceParser.AmpDocument:
                 case choiceParser.AmpDocumentLink:
+                case choiceParser.AmpDocumentDownload:
                 case choiceParser.AmpDocumentEmbed:
                     this.enterOuterAlt(_localctx, 5);
                     {
@@ -3263,6 +3265,7 @@ class choiceParser extends Parser_1.Parser {
                             case choiceParser.AmpVideoLink:
                             case choiceParser.AmpArticleLink:
                             case choiceParser.AmpDocumentLink:
+                            case choiceParser.AmpDocumentDownload:
                             case choiceParser.AmpAppLink:
                             case choiceParser.AmpWebsiteLink:
                             case choiceParser.AmpStillImageFilmLink:
@@ -3430,7 +3433,7 @@ class choiceParser extends Parser_1.Parser {
             {
                 this.state = 867;
                 _la = this._input.LA(1);
-                if (!(_la === choiceParser.AmpDocument || _la === choiceParser.AmpDocumentLink || _la === choiceParser.AmpDocumentEmbed)) {
+                if (!(((((_la - 93)) & ~0x1F) === 0 && ((1 << (_la - 93)) & ((1 << (choiceParser.AmpDocument - 93)) | (1 << (choiceParser.AmpDocumentLink - 93)) | (1 << (choiceParser.AmpDocumentDownload - 93)))) !== 0) || _la === choiceParser.AmpDocumentEmbed)) {
                     this._errHandler.recoverInline(this);
                 }
                 else {
@@ -3615,7 +3618,7 @@ class choiceParser extends Parser_1.Parser {
             {
                 this.state = 877;
                 _la = this._input.LA(1);
-                if (!(((((_la - 105)) & ~0x1F) === 0 && ((1 << (_la - 105)) & ((1 << (choiceParser.OpAmpDocument - 105)) | (1 << (choiceParser.OpAmpDocumentLink - 105)) | (1 << (choiceParser.OpAmpDocumentEmbed - 105)))) !== 0))) {
+                if (!(((((_la - 105)) & ~0x1F) === 0 && ((1 << (_la - 105)) & ((1 << (choiceParser.OpAmpDocument - 105)) | (1 << (choiceParser.OpAmpDocumentLink - 105)) | (1 << (choiceParser.OpAmpDocumentDownload - 105)) | (1 << (choiceParser.OpAmpDocumentEmbed - 105)))) !== 0))) {
                     this._errHandler.recoverInline(this);
                 }
                 else {
@@ -6038,7 +6041,7 @@ class choiceParser extends Parser_1.Parser {
                     this.state = 1346;
                     this._errHandler.sync(this);
                     _la = this._input.LA(1);
-                } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.OPDOT) | (1 << choiceParser.S) | (1 << choiceParser.BitMultichoice1) | (1 << choiceParser.BitMultichoice) | (1 << choiceParser.BitMultiresp1) | (1 << choiceParser.BitMultiresp) | (1 << choiceParser.BitMultichoicetext) | (1 << choiceParser.BitHighlighttext) | (1 << choiceParser.OPDOLL) | (1 << choiceParser.OPBUL) | (1 << choiceParser.OPESC) | (1 << choiceParser.OPRANGLES) | (1 << choiceParser.OPRANGLEL) | (1 << choiceParser.OPDANGLE) | (1 << choiceParser.OPU) | (1 << choiceParser.OPB) | (1 << choiceParser.OPQ) | (1 << choiceParser.OPA) | (1 << choiceParser.OPP) | (1 << choiceParser.OPM) | (1 << choiceParser.OPS) | (1 << choiceParser.OPR) | (1 << choiceParser.OPC) | (1 << choiceParser.OPHASH) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP) | (1 << choiceParser.DBLCOLON) | (1 << choiceParser.PLUS) | (1 << choiceParser.DotAt) | (1 << choiceParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (choiceParser.Less - 32)) | (1 << (choiceParser.Lparen - 32)) | (1 << (choiceParser.Rparen - 32)) | (1 << (choiceParser.RightAngle - 32)) | (1 << (choiceParser.RightArrow - 32)) | (1 << (choiceParser.DBLEQ - 32)) | (1 << (choiceParser.HSPL - 32)) | (1 << (choiceParser.HSPL2 - 32)) | (1 << (choiceParser.SSPL - 32)) | (1 << (choiceParser.SSPL2 - 32)) | (1 << (choiceParser.StrParen - 32)) | (1 << (choiceParser.COMMENT - 32)) | (1 << (choiceParser.DCANY - 32)) | (1 << (choiceParser.Image_type - 32)) | (1 << (choiceParser.Audio_type - 32)) | (1 << (choiceParser.Video_type - 32)) | (1 << (choiceParser.ArticleText - 32)) | (1 << (choiceParser.NOTCL - 32)) | (1 << (choiceParser.NUMERIC - 32)) | (1 << (choiceParser.STRING - 32)) | (1 << (choiceParser.NL - 32)) | (1 << (choiceParser.NOTBITMARK - 32)) | (1 << (choiceParser.SENTENCE - 32)) | (1 << (choiceParser.BARSTRING - 32)) | (1 << (choiceParser.OPAT - 32)) | (1 << (choiceParser.AtProgress - 32)) | (1 << (choiceParser.AtReference - 32)) | (1 << (choiceParser.AtWidth - 32)) | (1 << (choiceParser.AtHeight - 32)) | (1 << (choiceParser.AtProgressPoints - 32)) | (1 << (choiceParser.AtShortanswer - 32)) | (1 << (choiceParser.AtLonganswer - 32)))) !== 0) || ((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (choiceParser.AtExampleWithStr - 64)) | (1 << (choiceParser.AtExamplecol - 64)) | (1 << (choiceParser.AtExamplecl - 64)) | (1 << (choiceParser.AtSampleSolution - 64)) | (1 << (choiceParser.AtPartialAnswerS - 64)) | (1 << (choiceParser.AtPartialAnswer - 64)) | (1 << (choiceParser.AtLabeltrue - 64)) | (1 << (choiceParser.AtLabelfalse - 64)) | (1 << (choiceParser.AtPoints - 64)) | (1 << (choiceParser.AtSrc - 64)) | (1 << (choiceParser.AtPartner - 64)) | (1 << (choiceParser.OPATALT - 64)) | (1 << (choiceParser.OPAMARK - 64)) | (1 << (choiceParser.ShowInIndex - 64)) | (1 << (choiceParser.OpAtCaption - 64)) | (1 << (choiceParser.OpAtLicense - 64)) | (1 << (choiceParser.OpAtCopyright - 64)) | (1 << (choiceParser.OpAtSearch - 64)) | (1 << (choiceParser.OpAtIsTracked - 64)) | (1 << (choiceParser.OpAtIsInfoOnly - 64)) | (1 << (choiceParser.AtDate - 64)) | (1 << (choiceParser.Http - 64)) | (1 << (choiceParser.Https - 64)) | (1 << (choiceParser.AmpAudio - 64)) | (1 << (choiceParser.AmpImage - 64)) | (1 << (choiceParser.AmpImageZoom - 64)) | (1 << (choiceParser.AmpImageWAudio - 64)) | (1 << (choiceParser.AmpVideo - 64)) | (1 << (choiceParser.AmpArticle - 64)) | (1 << (choiceParser.AmpDocument - 64)) | (1 << (choiceParser.AmpApp - 64)) | (1 << (choiceParser.AmpWebsite - 64)))) !== 0) || ((((_la - 96)) & ~0x1F) === 0 && ((1 << (_la - 96)) & ((1 << (choiceParser.AmpStillImageFilm - 96)) | (1 << (choiceParser.AmpPdf - 96)) | (1 << (choiceParser.OpAmpAudio - 96)) | (1 << (choiceParser.OpAmpImage - 96)) | (1 << (choiceParser.OpAmpImageZoom - 96)) | (1 << (choiceParser.OpAmpImageWAudio - 96)) | (1 << (choiceParser.OpAmpVideo - 96)) | (1 << (choiceParser.OpAmpArticle - 96)) | (1 << (choiceParser.OpAmpArticleAtt - 96)) | (1 << (choiceParser.OpAmpDocument - 96)) | (1 << (choiceParser.OpAmpApp - 96)) | (1 << (choiceParser.OpAmpWebsite - 96)) | (1 << (choiceParser.OpAmpStillImageFilm - 96)) | (1 << (choiceParser.BracEnclose - 96)) | (1 << (choiceParser.AmpAudioLink - 96)) | (1 << (choiceParser.AmpImageLink - 96)) | (1 << (choiceParser.AmpVideoLink - 96)) | (1 << (choiceParser.AmpArticleLink - 96)) | (1 << (choiceParser.AmpDocumentLink - 96)) | (1 << (choiceParser.AmpAppLink - 96)) | (1 << (choiceParser.AmpWebsiteLink - 96)) | (1 << (choiceParser.AmpStillImageFilmLink - 96)) | (1 << (choiceParser.OpAmpAudioLink - 96)) | (1 << (choiceParser.OpAmpImageLink - 96)) | (1 << (choiceParser.OpAmpVideoLink - 96)) | (1 << (choiceParser.OpAmpArticleLink - 96)) | (1 << (choiceParser.OpAmpDocumentLink - 96)) | (1 << (choiceParser.OpAmpAppLink - 96)) | (1 << (choiceParser.OpAmpWebsiteLink - 96)) | (1 << (choiceParser.OpAmpStillImageFilmLink - 96)) | (1 << (choiceParser.AmpImageEmbed - 96)) | (1 << (choiceParser.AmpVideoEmbed - 96)))) !== 0) || ((((_la - 128)) & ~0x1F) === 0 && ((1 << (_la - 128)) & ((1 << (choiceParser.AmpAudioEmbed - 128)) | (1 << (choiceParser.AmpDocumentEmbed - 128)) | (1 << (choiceParser.AmpStillImageFilmEmbed - 128)) | (1 << (choiceParser.OpAmpImageEmbed - 128)) | (1 << (choiceParser.OpAmpVideoEmbed - 128)) | (1 << (choiceParser.OpAmpAudioEmbed - 128)) | (1 << (choiceParser.OpAmpDocumentEmbed - 128)) | (1 << (choiceParser.OpAmpStillImageFilmEmbed - 128)) | (1 << (choiceParser.BitmarkMinus - 128)) | (1 << (choiceParser.BitmarkPlus - 128)) | (1 << (choiceParser.ColonText - 128)) | (1 << (choiceParser.ColonJson - 128)) | (1 << (choiceParser.Prosemirror - 128)) | (1 << (choiceParser.Placeholder - 128)) | (1 << (choiceParser.BASIC - 128)) | (1 << (choiceParser.JPG - 128)) | (1 << (choiceParser.PNG - 128)) | (1 << (choiceParser.GIF - 128)) | (1 << (choiceParser.SVG - 128)) | (1 << (choiceParser.MP2 - 128)) | (1 << (choiceParser.MP3 - 128)) | (1 << (choiceParser.MP4 - 128)) | (1 << (choiceParser.FLV - 128)) | (1 << (choiceParser.WMV - 128)) | (1 << (choiceParser.MPEG - 128)) | (1 << (choiceParser.MPG - 128)) | (1 << (choiceParser.TEL - 128)) | (1 << (choiceParser.DotArticleAtt - 128)) | (1 << (choiceParser.STAR - 128)) | (1 << (choiceParser.URL - 128)) | (1 << (choiceParser.LIST_LINE - 128)) | (1 << (choiceParser.ENCLBARS - 128)))) !== 0));
+                } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.OPDOT) | (1 << choiceParser.S) | (1 << choiceParser.BitMultichoice1) | (1 << choiceParser.BitMultichoice) | (1 << choiceParser.BitMultiresp1) | (1 << choiceParser.BitMultiresp) | (1 << choiceParser.BitMultichoicetext) | (1 << choiceParser.BitHighlighttext) | (1 << choiceParser.OPDOLL) | (1 << choiceParser.OPBUL) | (1 << choiceParser.OPESC) | (1 << choiceParser.OPRANGLES) | (1 << choiceParser.OPRANGLEL) | (1 << choiceParser.OPDANGLE) | (1 << choiceParser.OPU) | (1 << choiceParser.OPB) | (1 << choiceParser.OPQ) | (1 << choiceParser.OPA) | (1 << choiceParser.OPP) | (1 << choiceParser.OPM) | (1 << choiceParser.OPS) | (1 << choiceParser.OPR) | (1 << choiceParser.OPC) | (1 << choiceParser.OPHASH) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP) | (1 << choiceParser.DBLCOLON) | (1 << choiceParser.PLUS) | (1 << choiceParser.DotAt) | (1 << choiceParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (choiceParser.Less - 32)) | (1 << (choiceParser.Lparen - 32)) | (1 << (choiceParser.Rparen - 32)) | (1 << (choiceParser.RightAngle - 32)) | (1 << (choiceParser.RightArrow - 32)) | (1 << (choiceParser.DBLEQ - 32)) | (1 << (choiceParser.HSPL - 32)) | (1 << (choiceParser.HSPL2 - 32)) | (1 << (choiceParser.SSPL - 32)) | (1 << (choiceParser.SSPL2 - 32)) | (1 << (choiceParser.StrParen - 32)) | (1 << (choiceParser.COMMENT - 32)) | (1 << (choiceParser.DCANY - 32)) | (1 << (choiceParser.Image_type - 32)) | (1 << (choiceParser.Audio_type - 32)) | (1 << (choiceParser.Video_type - 32)) | (1 << (choiceParser.ArticleText - 32)) | (1 << (choiceParser.NOTCL - 32)) | (1 << (choiceParser.NUMERIC - 32)) | (1 << (choiceParser.STRING - 32)) | (1 << (choiceParser.NL - 32)) | (1 << (choiceParser.NOTBITMARK - 32)) | (1 << (choiceParser.SENTENCE - 32)) | (1 << (choiceParser.BARSTRING - 32)) | (1 << (choiceParser.OPAT - 32)) | (1 << (choiceParser.AtProgress - 32)) | (1 << (choiceParser.AtReference - 32)) | (1 << (choiceParser.AtWidth - 32)) | (1 << (choiceParser.AtHeight - 32)) | (1 << (choiceParser.AtProgressPoints - 32)) | (1 << (choiceParser.AtShortanswer - 32)) | (1 << (choiceParser.AtLonganswer - 32)))) !== 0) || ((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (choiceParser.AtExampleWithStr - 64)) | (1 << (choiceParser.AtExamplecol - 64)) | (1 << (choiceParser.AtExamplecl - 64)) | (1 << (choiceParser.AtSampleSolution - 64)) | (1 << (choiceParser.AtPartialAnswerS - 64)) | (1 << (choiceParser.AtPartialAnswer - 64)) | (1 << (choiceParser.AtLabeltrue - 64)) | (1 << (choiceParser.AtLabelfalse - 64)) | (1 << (choiceParser.AtPoints - 64)) | (1 << (choiceParser.AtSrc - 64)) | (1 << (choiceParser.AtPartner - 64)) | (1 << (choiceParser.OPATALT - 64)) | (1 << (choiceParser.OPAMARK - 64)) | (1 << (choiceParser.ShowInIndex - 64)) | (1 << (choiceParser.OpAtCaption - 64)) | (1 << (choiceParser.OpAtLicense - 64)) | (1 << (choiceParser.OpAtCopyright - 64)) | (1 << (choiceParser.OpAtSearch - 64)) | (1 << (choiceParser.OpAtIsTracked - 64)) | (1 << (choiceParser.OpAtIsInfoOnly - 64)) | (1 << (choiceParser.AtDate - 64)) | (1 << (choiceParser.Http - 64)) | (1 << (choiceParser.Https - 64)) | (1 << (choiceParser.AmpAudio - 64)) | (1 << (choiceParser.AmpImage - 64)) | (1 << (choiceParser.AmpImageZoom - 64)) | (1 << (choiceParser.AmpImageWAudio - 64)) | (1 << (choiceParser.AmpVideo - 64)) | (1 << (choiceParser.AmpArticle - 64)) | (1 << (choiceParser.AmpDocument - 64)) | (1 << (choiceParser.AmpApp - 64)) | (1 << (choiceParser.AmpWebsite - 64)))) !== 0) || ((((_la - 96)) & ~0x1F) === 0 && ((1 << (_la - 96)) & ((1 << (choiceParser.AmpStillImageFilm - 96)) | (1 << (choiceParser.AmpPdf - 96)) | (1 << (choiceParser.OpAmpAudio - 96)) | (1 << (choiceParser.OpAmpImage - 96)) | (1 << (choiceParser.OpAmpImageZoom - 96)) | (1 << (choiceParser.OpAmpImageWAudio - 96)) | (1 << (choiceParser.OpAmpVideo - 96)) | (1 << (choiceParser.OpAmpArticle - 96)) | (1 << (choiceParser.OpAmpArticleAtt - 96)) | (1 << (choiceParser.OpAmpDocument - 96)) | (1 << (choiceParser.OpAmpApp - 96)) | (1 << (choiceParser.OpAmpWebsite - 96)) | (1 << (choiceParser.OpAmpStillImageFilm - 96)) | (1 << (choiceParser.BracEnclose - 96)) | (1 << (choiceParser.AmpAudioLink - 96)) | (1 << (choiceParser.AmpImageLink - 96)) | (1 << (choiceParser.AmpVideoLink - 96)) | (1 << (choiceParser.AmpArticleLink - 96)) | (1 << (choiceParser.AmpDocumentLink - 96)) | (1 << (choiceParser.AmpDocumentDownload - 96)) | (1 << (choiceParser.AmpAppLink - 96)) | (1 << (choiceParser.AmpWebsiteLink - 96)) | (1 << (choiceParser.AmpStillImageFilmLink - 96)) | (1 << (choiceParser.OpAmpAudioLink - 96)) | (1 << (choiceParser.OpAmpImageLink - 96)) | (1 << (choiceParser.OpAmpVideoLink - 96)) | (1 << (choiceParser.OpAmpArticleLink - 96)) | (1 << (choiceParser.OpAmpDocumentLink - 96)) | (1 << (choiceParser.OpAmpDocumentDownload - 96)) | (1 << (choiceParser.OpAmpAppLink - 96)) | (1 << (choiceParser.OpAmpWebsiteLink - 96)) | (1 << (choiceParser.OpAmpStillImageFilmLink - 96)))) !== 0) || ((((_la - 128)) & ~0x1F) === 0 && ((1 << (_la - 128)) & ((1 << (choiceParser.AmpImageEmbed - 128)) | (1 << (choiceParser.AmpVideoEmbed - 128)) | (1 << (choiceParser.AmpAudioEmbed - 128)) | (1 << (choiceParser.AmpDocumentEmbed - 128)) | (1 << (choiceParser.AmpStillImageFilmEmbed - 128)) | (1 << (choiceParser.OpAmpImageEmbed - 128)) | (1 << (choiceParser.OpAmpVideoEmbed - 128)) | (1 << (choiceParser.OpAmpAudioEmbed - 128)) | (1 << (choiceParser.OpAmpDocumentEmbed - 128)) | (1 << (choiceParser.OpAmpStillImageFilmEmbed - 128)) | (1 << (choiceParser.BitmarkMinus - 128)) | (1 << (choiceParser.BitmarkPlus - 128)) | (1 << (choiceParser.ColonText - 128)) | (1 << (choiceParser.ColonJson - 128)) | (1 << (choiceParser.Prosemirror - 128)) | (1 << (choiceParser.Placeholder - 128)) | (1 << (choiceParser.BASIC - 128)) | (1 << (choiceParser.JPG - 128)) | (1 << (choiceParser.PNG - 128)) | (1 << (choiceParser.GIF - 128)) | (1 << (choiceParser.SVG - 128)) | (1 << (choiceParser.MP2 - 128)) | (1 << (choiceParser.MP3 - 128)) | (1 << (choiceParser.MP4 - 128)) | (1 << (choiceParser.FLV - 128)) | (1 << (choiceParser.WMV - 128)) | (1 << (choiceParser.MPEG - 128)) | (1 << (choiceParser.MPG - 128)) | (1 << (choiceParser.TEL - 128)) | (1 << (choiceParser.DotArticleAtt - 128)) | (1 << (choiceParser.STAR - 128)) | (1 << (choiceParser.URL - 128)))) !== 0) || _la === choiceParser.LIST_LINE || _la === choiceParser.ENCLBARS);
                 this.state = 1348;
                 this.match(choiceParser.CL);
             }
@@ -7196,51 +7199,53 @@ choiceParser.AmpImageLink = 111;
 choiceParser.AmpVideoLink = 112;
 choiceParser.AmpArticleLink = 113;
 choiceParser.AmpDocumentLink = 114;
-choiceParser.AmpAppLink = 115;
-choiceParser.AmpWebsiteLink = 116;
-choiceParser.AmpStillImageFilmLink = 117;
-choiceParser.OpAmpAudioLink = 118;
-choiceParser.OpAmpImageLink = 119;
-choiceParser.OpAmpVideoLink = 120;
-choiceParser.OpAmpArticleLink = 121;
-choiceParser.OpAmpDocumentLink = 122;
-choiceParser.OpAmpAppLink = 123;
-choiceParser.OpAmpWebsiteLink = 124;
-choiceParser.OpAmpStillImageFilmLink = 125;
-choiceParser.AmpImageEmbed = 126;
-choiceParser.AmpVideoEmbed = 127;
-choiceParser.AmpAudioEmbed = 128;
-choiceParser.AmpDocumentEmbed = 129;
-choiceParser.AmpStillImageFilmEmbed = 130;
-choiceParser.OpAmpImageEmbed = 131;
-choiceParser.OpAmpVideoEmbed = 132;
-choiceParser.OpAmpAudioEmbed = 133;
-choiceParser.OpAmpDocumentEmbed = 134;
-choiceParser.OpAmpStillImageFilmEmbed = 135;
-choiceParser.BitmarkMinus = 136;
-choiceParser.BitmarkPlus = 137;
-choiceParser.ColonText = 138;
-choiceParser.ColonJson = 139;
-choiceParser.Prosemirror = 140;
-choiceParser.Placeholder = 141;
-choiceParser.BASIC = 142;
-choiceParser.JPG = 143;
-choiceParser.PNG = 144;
-choiceParser.GIF = 145;
-choiceParser.SVG = 146;
-choiceParser.MP2 = 147;
-choiceParser.MP3 = 148;
-choiceParser.MP4 = 149;
-choiceParser.FLV = 150;
-choiceParser.WMV = 151;
-choiceParser.MPEG = 152;
-choiceParser.MPG = 153;
-choiceParser.TEL = 154;
-choiceParser.DotArticleAtt = 155;
-choiceParser.STAR = 156;
-choiceParser.URL = 157;
-choiceParser.LIST_LINE = 158;
-choiceParser.ENCLBARS = 159;
+choiceParser.AmpDocumentDownload = 115;
+choiceParser.AmpAppLink = 116;
+choiceParser.AmpWebsiteLink = 117;
+choiceParser.AmpStillImageFilmLink = 118;
+choiceParser.OpAmpAudioLink = 119;
+choiceParser.OpAmpImageLink = 120;
+choiceParser.OpAmpVideoLink = 121;
+choiceParser.OpAmpArticleLink = 122;
+choiceParser.OpAmpDocumentLink = 123;
+choiceParser.OpAmpDocumentDownload = 124;
+choiceParser.OpAmpAppLink = 125;
+choiceParser.OpAmpWebsiteLink = 126;
+choiceParser.OpAmpStillImageFilmLink = 127;
+choiceParser.AmpImageEmbed = 128;
+choiceParser.AmpVideoEmbed = 129;
+choiceParser.AmpAudioEmbed = 130;
+choiceParser.AmpDocumentEmbed = 131;
+choiceParser.AmpStillImageFilmEmbed = 132;
+choiceParser.OpAmpImageEmbed = 133;
+choiceParser.OpAmpVideoEmbed = 134;
+choiceParser.OpAmpAudioEmbed = 135;
+choiceParser.OpAmpDocumentEmbed = 136;
+choiceParser.OpAmpStillImageFilmEmbed = 137;
+choiceParser.BitmarkMinus = 138;
+choiceParser.BitmarkPlus = 139;
+choiceParser.ColonText = 140;
+choiceParser.ColonJson = 141;
+choiceParser.Prosemirror = 142;
+choiceParser.Placeholder = 143;
+choiceParser.BASIC = 144;
+choiceParser.JPG = 145;
+choiceParser.PNG = 146;
+choiceParser.GIF = 147;
+choiceParser.SVG = 148;
+choiceParser.MP2 = 149;
+choiceParser.MP3 = 150;
+choiceParser.MP4 = 151;
+choiceParser.FLV = 152;
+choiceParser.WMV = 153;
+choiceParser.MPEG = 154;
+choiceParser.MPG = 155;
+choiceParser.TEL = 156;
+choiceParser.DotArticleAtt = 157;
+choiceParser.STAR = 158;
+choiceParser.URL = 159;
+choiceParser.LIST_LINE = 160;
+choiceParser.ENCLBARS = 161;
 choiceParser.RULE_bitmark = 0;
 choiceParser.RULE_bitmark_ = 1;
 choiceParser.RULE_multi_choices = 2;
@@ -7380,14 +7385,14 @@ choiceParser._LITERAL_NAMES = [
     "'&pdf'", undefined, undefined, undefined, undefined, undefined, undefined,
     undefined, undefined, undefined, undefined, undefined, undefined, "'&audio-link'",
     "'&image-link'", "'&video-link'", "'&article-link'", "'&document-link'",
-    "'&app-link'", "'&website-link'", "'&still-image-film-link'", undefined,
+    "'&document-download'", "'&app-link'", "'&website-link'", "'&still-image-film-link'",
     undefined, undefined, undefined, undefined, undefined, undefined, undefined,
-    "'&image-embed'", "'&video-embed'", "'&daudio-embed'", "'&document-embed'",
-    "'&still-image-film-embed'", undefined, undefined, undefined, undefined,
-    undefined, "':bitmark--'", "':bitmark++'", "':text'", "':json'", "':prosemirror'",
-    "':placeholder'", "':basic'", "':jpg'", "':png'", "':gif'", "':svg'",
-    "':mp2'", "':mp3'", "':mp4'", "':flv'", "':wmv'", "':mpeg'", "':mpg'",
-    "'tel:'", "'.article-attachment'", "'*'",
+    undefined, undefined, "'&image-embed'", "'&video-embed'", "'&daudio-embed'",
+    "'&document-embed'", "'&still-image-film-embed'", undefined, undefined,
+    undefined, undefined, undefined, "':bitmark--'", "':bitmark++'", "':text'",
+    "':json'", "':prosemirror'", "':placeholder'", "':basic'", "':jpg'", "':png'",
+    "':gif'", "':svg'", "':mp2'", "':mp3'", "':mp4'", "':flv'", "':wmv'",
+    "':mpeg'", "':mpg'", "'tel:'", "'.article-attachment'", "'*'",
 ];
 choiceParser._SYMBOLIC_NAMES = [
     undefined, "OPDOT", "S", "BitMultichoice1", "BitMultichoice", "BitMultiresp1",
@@ -7409,19 +7414,20 @@ choiceParser._SYMBOLIC_NAMES = [
     "OpAmpAudio", "OpAmpImage", "OpAmpImageZoom", "OpAmpImageWAudio", "OpAmpVideo",
     "OpAmpArticle", "OpAmpArticleAtt", "OpAmpDocument", "OpAmpApp", "OpAmpWebsite",
     "OpAmpStillImageFilm", "BracEnclose", "AmpAudioLink", "AmpImageLink",
-    "AmpVideoLink", "AmpArticleLink", "AmpDocumentLink", "AmpAppLink", "AmpWebsiteLink",
-    "AmpStillImageFilmLink", "OpAmpAudioLink", "OpAmpImageLink", "OpAmpVideoLink",
-    "OpAmpArticleLink", "OpAmpDocumentLink", "OpAmpAppLink", "OpAmpWebsiteLink",
-    "OpAmpStillImageFilmLink", "AmpImageEmbed", "AmpVideoEmbed", "AmpAudioEmbed",
-    "AmpDocumentEmbed", "AmpStillImageFilmEmbed", "OpAmpImageEmbed", "OpAmpVideoEmbed",
-    "OpAmpAudioEmbed", "OpAmpDocumentEmbed", "OpAmpStillImageFilmEmbed", "BitmarkMinus",
-    "BitmarkPlus", "ColonText", "ColonJson", "Prosemirror", "Placeholder",
-    "BASIC", "JPG", "PNG", "GIF", "SVG", "MP2", "MP3", "MP4", "FLV", "WMV",
-    "MPEG", "MPG", "TEL", "DotArticleAtt", "STAR", "URL", "LIST_LINE", "ENCLBARS",
+    "AmpVideoLink", "AmpArticleLink", "AmpDocumentLink", "AmpDocumentDownload",
+    "AmpAppLink", "AmpWebsiteLink", "AmpStillImageFilmLink", "OpAmpAudioLink",
+    "OpAmpImageLink", "OpAmpVideoLink", "OpAmpArticleLink", "OpAmpDocumentLink",
+    "OpAmpDocumentDownload", "OpAmpAppLink", "OpAmpWebsiteLink", "OpAmpStillImageFilmLink",
+    "AmpImageEmbed", "AmpVideoEmbed", "AmpAudioEmbed", "AmpDocumentEmbed",
+    "AmpStillImageFilmEmbed", "OpAmpImageEmbed", "OpAmpVideoEmbed", "OpAmpAudioEmbed",
+    "OpAmpDocumentEmbed", "OpAmpStillImageFilmEmbed", "BitmarkMinus", "BitmarkPlus",
+    "ColonText", "ColonJson", "Prosemirror", "Placeholder", "BASIC", "JPG",
+    "PNG", "GIF", "SVG", "MP2", "MP3", "MP4", "FLV", "WMV", "MPEG", "MPG",
+    "TEL", "DotArticleAtt", "STAR", "URL", "LIST_LINE", "ENCLBARS",
 ];
 choiceParser.VOCABULARY = new VocabularyImpl_1.VocabularyImpl(choiceParser._LITERAL_NAMES, choiceParser._SYMBOLIC_NAMES, []);
 choiceParser._serializedATNSegments = 3;
-choiceParser._serializedATNSegment0 = "\x03\uC91D\uCABA\u058D\uAFBA\u4F53\u0607\uEA8B\uC241\x03\xA1\u05FD\x04" +
+choiceParser._serializedATNSegment0 = "\x03\uC91D\uCABA\u058D\uAFBA\u4F53\u0607\uEA8B\uC241\x03\xA3\u05FD\x04" +
     "\x02\t\x02\x04\x03\t\x03\x04\x04\t\x04\x04\x05\t\x05\x04\x06\t\x06\x04" +
     "\x07\t\x07\x04\b\t\b\x04\t\t\t\x04\n\t\n\x04\v\t\v\x04\f\t\f\x04\r\t\r" +
     "\x04\x0E\t\x0E\x04\x0F\t\x0F\x04\x10\t\x10\x04\x11\t\x11\x04\x12\t\x12" +
@@ -7574,85 +7580,85 @@ choiceParser._serializedATNSegment0 = "\x03\uC91D\uCABA\u058D\uAFBA\u4F53\u0607\
     "\x98\x02\x9A\x02\x9C\x02\x9E\x02\xA0\x02\xA2\x02\xA4\x02\xA6\x02\xA8\x02" +
     "\xAA\x02\xAC\x02\xAE\x02\xB0\x02\xB2\x02\xB4\x02\xB6\x02\xB8\x02\xBA\x02" +
     "\xBC\x02\xBE\x02\xC0\x02\xC2\x02\xC4\x02\xC6\x02\x02\x16\x03\x02()\x03" +
-    "\x02\x1B\x1B\b\x02^_abpw\x81\x84\x8A\x8B\x8D\x8F\x05\x02]]rr\x81\x81\x04" +
-    "\x02^^ss\x05\x02__tt\x83\x83\x04\x02``uu\x04\x02aavv\x05\x02bbww\x84\x84" +
-    "\x04\x02ii{{\x05\x02kk||\x88\x88\x04\x02ll}}\x04\x02mm~~\x05\x02nn\x7F" +
-    "\x7F\x89\x89\x03\x02=>\x04\x02MMPS\x04\x02\x1C\x1C\x1E\x1E\x03\x02*+\x03" +
-    "\x02!!\x03\x02\"\"\x02\u06D2\x02\xD5\x03\x02\x02\x02\x04\xE1\x03\x02\x02" +
-    "\x02\x06\xE9\x03\x02\x02\x02\b\xEB\x03\x02\x02\x02\n\u0138\x03\x02\x02" +
-    "\x02\f\u013D\x03\x02\x02\x02\x0E\u0142\x03\x02\x02\x02\x10\u0158\x03\x02" +
-    "\x02\x02\x12\u01A4\x03\x02\x02\x02\x14\u01CD\x03\x02\x02\x02\x16\u020A" +
-    "\x03\x02\x02\x02\x18\u020E\x03\x02\x02\x02\x1A\u024B\x03\x02\x02\x02\x1C" +
-    "\u0267\x03\x02\x02\x02\x1E\u0269\x03\x02\x02\x02 \u0274\x03\x02\x02\x02" +
-    "\"\u0284\x03\x02\x02\x02$\u0298\x03\x02\x02\x02&\u02A2\x03\x02\x02\x02" +
-    "(\u02AD\x03\x02\x02\x02*\u02BC\x03\x02\x02\x02,\u02CB\x03\x02\x02\x02" +
-    ".\u02D5\x03\x02\x02\x020\u02DF\x03\x02\x02\x022\u02E9\x03\x02\x02\x02" +
-    "4\u02F3\x03\x02\x02\x026\u02F7\x03\x02\x02\x028\u02FD\x03\x02\x02\x02" +
-    ":\u0306\x03\x02\x02\x02<\u031A\x03\x02\x02\x02>\u031C\x03\x02\x02\x02" +
-    "@\u031E\x03\x02\x02\x02B\u0320\x03\x02\x02\x02D\u0322\x03\x02\x02\x02" +
-    "F\u0328\x03\x02\x02\x02H\u032F\x03\x02\x02\x02J\u033A\x03\x02\x02\x02" +
-    "L\u0345\x03\x02\x02\x02N\u034C\x03\x02\x02\x02P\u035C\x03\x02\x02\x02" +
-    "R\u035E\x03\x02\x02\x02T\u0363\x03\x02\x02\x02V\u0365\x03\x02\x02\x02" +
-    "X\u0367\x03\x02\x02\x02Z\u0369\x03\x02\x02\x02\\\u036B\x03\x02\x02\x02" +
-    "^\u036D\x03\x02\x02\x02`\u036F\x03\x02\x02\x02b\u0371\x03\x02\x02\x02" +
-    "d\u0373\x03\x02\x02\x02f\u0384\x03\x02\x02\x02h\u0386\x03\x02\x02\x02" +
-    "j\u038E\x03\x02\x02\x02l\u0390\x03\x02\x02\x02n\u039A\x03\x02\x02\x02" +
-    "p\u03A4\x03\x02\x02\x02r\u03B1\x03\x02\x02\x02t\u03B8\x03\x02\x02\x02" +
-    "v\u03C3\x03\x02\x02\x02x\u03CA\x03\x02\x02\x02z\u03D4\x03\x02\x02\x02" +
-    "|\u03DF\x03\x02\x02\x02~\u03F8\x03\x02\x02\x02\x80\u040B\x03\x02\x02\x02" +
-    "\x82\u041E\x03\x02\x02\x02\x84\u0420\x03\x02\x02\x02\x86\u0427\x03\x02" +
-    "\x02\x02\x88\u043B\x03\x02\x02\x02\x8A\u044C\x03\x02\x02\x02\x8C\u046D" +
-    "\x03\x02\x02\x02\x8E\u046F\x03\x02\x02\x02\x90\u0473\x03\x02\x02\x02\x92" +
-    "\u0493\x03\x02\x02\x02\x94\u0495\x03\x02\x02\x02\x96\u04AA\x03\x02\x02" +
-    "\x02\x98\u04B3\x03\x02\x02\x02\x9A\u04DC\x03\x02\x02\x02\x9C\u04F4\x03" +
-    "\x02\x02\x02\x9E\u04F6\x03\x02\x02\x02\xA0\u04FA\x03\x02\x02\x02\xA2\u0506" +
-    "\x03\x02\x02\x02\xA4\u053E\x03\x02\x02\x02\xA6\u0540\x03\x02\x02\x02\xA8" +
-    "\u0554\x03\x02\x02\x02\xAA\u055E\x03\x02\x02\x02\xAC\u0569\x03\x02\x02" +
-    "\x02\xAE\u056B\x03\x02\x02\x02\xB0\u056F\x03\x02\x02\x02\xB2\u0573\x03" +
-    "\x02\x02\x02\xB4\u0596\x03\x02\x02\x02\xB6\u05AB\x03\x02\x02\x02\xB8\u05AD" +
-    "\x03\x02\x02\x02\xBA\u05B3\x03\x02\x02\x02\xBC\u05B9\x03\x02\x02\x02\xBE" +
-    "\u05E6\x03\x02\x02\x02\xC0\u05E8\x03\x02\x02\x02\xC2\u05EA\x03\x02\x02" +
-    "\x02\xC4\u05F6\x03\x02\x02\x02\xC6\u05FA\x03\x02\x02\x02\xC8\xD2\x05\x04" +
-    "\x03\x02\xC9\xCB\x07\x04\x02\x02\xCA\xC9\x03\x02\x02\x02\xCB\xCE\x03\x02" +
-    "\x02\x02\xCC\xCA\x03\x02\x02\x02\xCC\xCD\x03\x02\x02\x02\xCD\xCF\x03\x02" +
-    "\x02\x02\xCE\xCC\x03\x02\x02\x02\xCF\xD1\x076\x02\x02\xD0\xCC\x03\x02" +
-    "\x02\x02\xD1\xD4\x03\x02\x02\x02\xD2\xD0\x03\x02\x02\x02\xD2\xD3\x03\x02" +
-    "\x02\x02\xD3\xD6\x03\x02\x02\x02\xD4\xD2\x03\x02\x02\x02\xD5\xC8\x03\x02" +
-    "\x02\x02\xD6\xD7\x03\x02\x02\x02\xD7\xD5\x03\x02\x02\x02\xD7\xD8\x03\x02" +
-    "\x02\x02\xD8\xDC\x03\x02\x02\x02\xD9\xDB\x076\x02\x02\xDA\xD9\x03\x02" +
-    "\x02\x02\xDB\xDE\x03\x02\x02\x02\xDC\xDA\x03\x02\x02\x02\xDC\xDD\x03\x02" +
-    "\x02\x02\xDD\xDF\x03\x02\x02\x02\xDE\xDC\x03\x02\x02\x02\xDF\xE0\x07\x02" +
-    "\x02\x03\xE0\x03\x03\x02\x02\x02\xE1\xE2\x05\x06\x04\x02\xE2\x05\x03\x02" +
-    "\x02\x02\xE3\xEA\x05\b\x05\x02\xE4\xEA\x05\x0E\b\x02\xE5\xEA\x05\x10\t" +
-    "\x02\xE6\xEA\x05\x12\n\x02\xE7\xEA\x05\x14\v\x02\xE8\xEA\x05\x18\r\x02" +
-    "\xE9\xE3\x03\x02\x02\x02\xE9\xE4\x03\x02\x02\x02\xE9\xE5\x03\x02\x02\x02" +
-    "\xE9\xE6\x03\x02\x02\x02\xE9\xE7\x03\x02\x02\x02\xE9\xE8\x03\x02\x02\x02" +
-    "\xEA\x07\x03\x02\x02\x02\xEB\xEC\x07\x06\x02\x02\xEC\xED\x05H%\x02\xED" +
-    "\xEF\x07\x1B\x02\x02\xEE\xF0\x076\x02\x02\xEF\xEE\x03\x02\x02\x02\xF0" +
-    "\xF1\x03\x02\x02\x02\xF1\xEF\x03\x02\x02\x02\xF1\xF2\x03\x02\x02\x02\xF2" +
-    "\xFC\x03\x02\x02\x02\xF3\xF7\x05\x1C\x0F\x02\xF4\xF6\x076\x02\x02\xF5" +
-    "\xF4\x03\x02\x02\x02\xF6\xF9\x03\x02\x02\x02\xF7\xF5\x03\x02\x02\x02\xF7" +
-    "\xF8\x03\x02\x02\x02\xF8\xFB\x03\x02\x02\x02\xF9\xF7\x03\x02\x02\x02\xFA" +
-    "\xF3\x03\x02\x02\x02\xFB\xFE\x03\x02\x02\x02\xFC\xFA\x03\x02\x02\x02\xFC" +
-    "\xFD\x03\x02\x02\x02\xFD\u0114\x03\x02\x02\x02\xFE\xFC\x03\x02\x02\x02" +
-    "\xFF\u0101\x076\x02\x02\u0100\xFF\x03\x02\x02\x02\u0101\u0104\x03\x02" +
-    "\x02\x02\u0102\u0100\x03\x02\x02\x02\u0102\u0103\x03\x02\x02\x02\u0103" +
-    "\u0105\x03\x02\x02\x02\u0104\u0102\x03\x02\x02\x02\u0105\u010D\x05\n\x06" +
-    "\x02\u0106\u0108\x076\x02\x02\u0107\u0106\x03\x02\x02\x02\u0108\u010B" +
-    "\x03\x02\x02\x02\u0109\u0107\x03\x02\x02\x02\u0109\u010A\x03\x02\x02\x02" +
-    "\u010A\u010C\x03\x02\x02\x02\u010B\u0109\x03\x02\x02\x02\u010C\u010E\x05" +
-    "\f\x07\x02\u010D\u0109\x03\x02\x02\x02\u010D\u010E\x03\x02\x02\x02\u010E" +
-    "\u0110\x03\x02\x02\x02\u010F\u0111\x05\xBE`\x02\u0110\u010F\x03\x02\x02" +
-    "\x02\u0110\u0111\x03\x02\x02\x02\u0111\u0112\x03\x02\x02\x02\u0112\u0113" +
-    "\x05\"\x12\x02\u0113\u0115\x03\x02\x02\x02\u0114\u0102\x03\x02\x02\x02" +
-    "\u0115\u0116\x03\x02\x02\x02\u0116\u0114\x03\x02\x02\x02\u0116\u0117\x03" +
-    "\x02\x02\x02\u0117\u011A\x03\x02\x02\x02\u0118\u011B\t\x02\x02\x02\u0119" +
-    "\u011B\x076\x02\x02\u011A\u0118\x03\x02\x02\x02\u011A\u0119\x03\x02\x02" +
-    "\x02\u011B\u011F\x03\x02\x02\x02\u011C\u011D\x05\x1C\x0F\x02\u011D\u011E" +
-    "\x076\x02\x02\u011E\u0120\x03\x02\x02\x02\u011F\u011C\x03\x02\x02\x02" +
-    "\u011F\u0120\x03\x02\x02\x02\u0120\u0124\x03\x02\x02\x02\u0121\u0123\x07" +
-    "6\x02\x02\u0122\u0121\x03\x02\x02\x02\u0123\u0126\x03\x02\x02\x02\u0124" +
-    "\u0122\x03\x02\x02\x02\u0124\u0125\x03\x02\x02";
+    "\x02\x1B\x1B\b\x02^_abpx\x83\x86\x8C\x8D\x8F\x91\x05\x02]]rr\x83\x83\x04" +
+    "\x02^^ss\x05\x02__tu\x85\x85\x04\x02``vv\x04\x02aaww\x05\x02bbxx\x86\x86" +
+    "\x04\x02ii||\x05\x02kk}~\x8A\x8A\x04\x02ll\x7F\x7F\x04\x02mm\x80\x80\x05" +
+    "\x02nn\x81\x81\x8B\x8B\x03\x02=>\x04\x02MMPS\x04\x02\x1C\x1C\x1E\x1E\x03" +
+    "\x02*+\x03\x02!!\x03\x02\"\"\x02\u06D2\x02\xD5\x03\x02\x02\x02\x04\xE1" +
+    "\x03\x02\x02\x02\x06\xE9\x03\x02\x02\x02\b\xEB\x03\x02\x02\x02\n\u0138" +
+    "\x03\x02\x02\x02\f\u013D\x03\x02\x02\x02\x0E\u0142\x03\x02\x02\x02\x10" +
+    "\u0158\x03\x02\x02\x02\x12\u01A4\x03\x02\x02\x02\x14\u01CD\x03\x02\x02" +
+    "\x02\x16\u020A\x03\x02\x02\x02\x18\u020E\x03\x02\x02\x02\x1A\u024B\x03" +
+    "\x02\x02\x02\x1C\u0267\x03\x02\x02\x02\x1E\u0269\x03\x02\x02\x02 \u0274" +
+    "\x03\x02\x02\x02\"\u0284\x03\x02\x02\x02$\u0298\x03\x02\x02\x02&\u02A2" +
+    "\x03\x02\x02\x02(\u02AD\x03\x02\x02\x02*\u02BC\x03\x02\x02\x02,\u02CB" +
+    "\x03\x02\x02\x02.\u02D5\x03\x02\x02\x020\u02DF\x03\x02\x02\x022\u02E9" +
+    "\x03\x02\x02\x024\u02F3\x03\x02\x02\x026\u02F7\x03\x02\x02\x028\u02FD" +
+    "\x03\x02\x02\x02:\u0306\x03\x02\x02\x02<\u031A\x03\x02\x02\x02>\u031C" +
+    "\x03\x02\x02\x02@\u031E\x03\x02\x02\x02B\u0320\x03\x02\x02\x02D\u0322" +
+    "\x03\x02\x02\x02F\u0328\x03\x02\x02\x02H\u032F\x03\x02\x02\x02J\u033A" +
+    "\x03\x02\x02\x02L\u0345\x03\x02\x02\x02N\u034C\x03\x02\x02\x02P\u035C" +
+    "\x03\x02\x02\x02R\u035E\x03\x02\x02\x02T\u0363\x03\x02\x02\x02V\u0365" +
+    "\x03\x02\x02\x02X\u0367\x03\x02\x02\x02Z\u0369\x03\x02\x02\x02\\\u036B" +
+    "\x03\x02\x02\x02^\u036D\x03\x02\x02\x02`\u036F\x03\x02\x02\x02b\u0371" +
+    "\x03\x02\x02\x02d\u0373\x03\x02\x02\x02f\u0384\x03\x02\x02\x02h\u0386" +
+    "\x03\x02\x02\x02j\u038E\x03\x02\x02\x02l\u0390\x03\x02\x02\x02n\u039A" +
+    "\x03\x02\x02\x02p\u03A4\x03\x02\x02\x02r\u03B1\x03\x02\x02\x02t\u03B8" +
+    "\x03\x02\x02\x02v\u03C3\x03\x02\x02\x02x\u03CA\x03\x02\x02\x02z\u03D4" +
+    "\x03\x02\x02\x02|\u03DF\x03\x02\x02\x02~\u03F8\x03\x02\x02\x02\x80\u040B" +
+    "\x03\x02\x02\x02\x82\u041E\x03\x02\x02\x02\x84\u0420\x03\x02\x02\x02\x86" +
+    "\u0427\x03\x02\x02\x02\x88\u043B\x03\x02\x02\x02\x8A\u044C\x03\x02\x02" +
+    "\x02\x8C\u046D\x03\x02\x02\x02\x8E\u046F\x03\x02\x02\x02\x90\u0473\x03" +
+    "\x02\x02\x02\x92\u0493\x03\x02\x02\x02\x94\u0495\x03\x02\x02\x02\x96\u04AA" +
+    "\x03\x02\x02\x02\x98\u04B3\x03\x02\x02\x02\x9A\u04DC\x03\x02\x02\x02\x9C" +
+    "\u04F4\x03\x02\x02\x02\x9E\u04F6\x03\x02\x02\x02\xA0\u04FA\x03\x02\x02" +
+    "\x02\xA2\u0506\x03\x02\x02\x02\xA4\u053E\x03\x02\x02\x02\xA6\u0540\x03" +
+    "\x02\x02\x02\xA8\u0554\x03\x02\x02\x02\xAA\u055E\x03\x02\x02\x02\xAC\u0569" +
+    "\x03\x02\x02\x02\xAE\u056B\x03\x02\x02\x02\xB0\u056F\x03\x02\x02\x02\xB2" +
+    "\u0573\x03\x02\x02\x02\xB4\u0596\x03\x02\x02\x02\xB6\u05AB\x03\x02\x02" +
+    "\x02\xB8\u05AD\x03\x02\x02\x02\xBA\u05B3\x03\x02\x02\x02\xBC\u05B9\x03" +
+    "\x02\x02\x02\xBE\u05E6\x03\x02\x02\x02\xC0\u05E8\x03\x02\x02\x02\xC2\u05EA" +
+    "\x03\x02\x02\x02\xC4\u05F6\x03\x02\x02\x02\xC6\u05FA\x03\x02\x02\x02\xC8" +
+    "\xD2\x05\x04\x03\x02\xC9\xCB\x07\x04\x02\x02\xCA\xC9\x03\x02\x02\x02\xCB" +
+    "\xCE\x03\x02\x02\x02\xCC\xCA\x03\x02\x02\x02\xCC\xCD\x03\x02\x02\x02\xCD" +
+    "\xCF\x03\x02\x02\x02\xCE\xCC\x03\x02\x02\x02\xCF\xD1\x076\x02\x02\xD0" +
+    "\xCC\x03\x02\x02\x02\xD1\xD4\x03\x02\x02\x02\xD2\xD0\x03\x02\x02\x02\xD2" +
+    "\xD3\x03\x02\x02\x02\xD3\xD6\x03\x02\x02\x02\xD4\xD2\x03\x02\x02\x02\xD5" +
+    "\xC8\x03\x02\x02\x02\xD6\xD7\x03\x02\x02\x02\xD7\xD5\x03\x02\x02\x02\xD7" +
+    "\xD8\x03\x02\x02\x02\xD8\xDC\x03\x02\x02\x02\xD9\xDB\x076\x02\x02\xDA" +
+    "\xD9\x03\x02\x02\x02\xDB\xDE\x03\x02\x02\x02\xDC\xDA\x03\x02\x02\x02\xDC" +
+    "\xDD\x03\x02\x02\x02\xDD\xDF\x03\x02\x02\x02\xDE\xDC\x03\x02\x02\x02\xDF" +
+    "\xE0\x07\x02\x02\x03\xE0\x03\x03\x02\x02\x02\xE1\xE2\x05\x06\x04\x02\xE2" +
+    "\x05\x03\x02\x02\x02\xE3\xEA\x05\b\x05\x02\xE4\xEA\x05\x0E\b\x02\xE5\xEA" +
+    "\x05\x10\t\x02\xE6\xEA\x05\x12\n\x02\xE7\xEA\x05\x14\v\x02\xE8\xEA\x05" +
+    "\x18\r\x02\xE9\xE3\x03\x02\x02\x02\xE9\xE4\x03\x02\x02\x02\xE9\xE5\x03" +
+    "\x02\x02\x02\xE9\xE6\x03\x02\x02\x02\xE9\xE7\x03\x02\x02\x02\xE9\xE8\x03" +
+    "\x02\x02\x02\xEA\x07\x03\x02\x02\x02\xEB\xEC\x07\x06\x02\x02\xEC\xED\x05" +
+    "H%\x02\xED\xEF\x07\x1B\x02\x02\xEE\xF0\x076\x02\x02\xEF\xEE\x03\x02\x02" +
+    "\x02\xF0\xF1\x03\x02\x02\x02\xF1\xEF\x03\x02\x02\x02\xF1\xF2\x03\x02\x02" +
+    "\x02\xF2\xFC\x03\x02\x02\x02\xF3\xF7\x05\x1C\x0F\x02\xF4\xF6\x076\x02" +
+    "\x02\xF5\xF4\x03\x02\x02\x02\xF6\xF9\x03\x02\x02\x02\xF7\xF5\x03\x02\x02" +
+    "\x02\xF7\xF8\x03\x02\x02\x02\xF8\xFB\x03\x02\x02\x02\xF9\xF7\x03\x02\x02" +
+    "\x02\xFA\xF3\x03\x02\x02\x02\xFB\xFE\x03\x02\x02\x02\xFC\xFA\x03\x02\x02" +
+    "\x02\xFC\xFD\x03\x02\x02\x02\xFD\u0114\x03\x02\x02\x02\xFE\xFC\x03\x02" +
+    "\x02\x02\xFF\u0101\x076\x02\x02\u0100\xFF\x03\x02\x02\x02\u0101\u0104" +
+    "\x03\x02\x02\x02\u0102\u0100\x03\x02\x02\x02\u0102\u0103\x03\x02\x02\x02" +
+    "\u0103\u0105\x03\x02\x02\x02\u0104\u0102\x03\x02\x02\x02\u0105\u010D\x05" +
+    "\n\x06\x02\u0106\u0108\x076\x02\x02\u0107\u0106\x03\x02\x02\x02\u0108" +
+    "\u010B\x03\x02\x02\x02\u0109\u0107\x03\x02\x02\x02\u0109\u010A\x03\x02" +
+    "\x02\x02\u010A\u010C\x03\x02\x02\x02\u010B\u0109\x03\x02\x02\x02\u010C" +
+    "\u010E\x05\f\x07\x02\u010D\u0109\x03\x02\x02\x02\u010D\u010E\x03\x02\x02" +
+    "\x02\u010E\u0110\x03\x02\x02\x02\u010F\u0111\x05\xBE`\x02\u0110\u010F" +
+    "\x03\x02\x02\x02\u0110\u0111\x03\x02\x02\x02\u0111\u0112\x03\x02\x02\x02" +
+    "\u0112\u0113\x05\"\x12\x02\u0113\u0115\x03\x02\x02\x02\u0114\u0102\x03" +
+    "\x02\x02\x02\u0115\u0116\x03\x02\x02\x02\u0116\u0114\x03\x02\x02\x02\u0116" +
+    "\u0117\x03\x02\x02\x02\u0117\u011A\x03\x02\x02\x02\u0118\u011B\t\x02\x02" +
+    "\x02\u0119\u011B\x076\x02\x02\u011A\u0118\x03\x02\x02\x02\u011A\u0119" +
+    "\x03\x02\x02\x02\u011B\u011F\x03\x02\x02\x02\u011C\u011D\x05\x1C\x0F\x02" +
+    "\u011D\u011E\x076\x02\x02\u011E\u0120\x03\x02\x02\x02\u011F\u011C\x03" +
+    "\x02\x02\x02\u011F\u0120\x03\x02\x02\x02\u0120\u0124\x03\x02\x02\x02\u0121" +
+    "\u0123\x076\x02\x02\u0122\u0121\x03\x02\x02\x02\u0123\u0126\x03\x02\x02" +
+    "\x02\u0124\u0122\x03\x02\x02\x02\u0124\u0125\x03\x02\x02";
 choiceParser._serializedATNSegment1 = "\x02\u0125\u0134\x03\x02\x02\x02\u0126\u0124\x03\x02\x02\x02\u0127\u0131" +
     "\x05B\"\x02\u0128\u012A\x076\x02\x02\u0129\u0128\x03\x02\x02\x02\u012A" +
     "\u012D\x03\x02\x02\x02\u012B\u0129\x03\x02\x02\x02\u012B\u012C\x03\x02" +
@@ -7790,7 +7796,7 @@ choiceParser._serializedATNSegment1 = "\x02\u0125\u0134\x03\x02\x02\x02\u0126\u0
     "\x02\x02\x02\u024B\u0241\x03\x02\x02\x02\u024B\u0245\x03\x02\x02\x02\u024B" +
     "\u0247\x03\x02\x02\x02\u024C\u024D\x03\x02\x02\x02\u024D\u024B\x03\x02" +
     "\x02\x02\u024D\u024E\x03\x02\x02\x02\u024E\x1B\x03\x02\x02\x02\u024F\u0268" +
-    "\x07\xA0\x02\x02\u0250\u0268\x077\x02\x02\u0251\u0268\x05\xBA^\x02\u0252" +
+    "\x07\xA2\x02\x02\u0250\u0268\x077\x02\x02\u0251\u0268\x05\xBA^\x02\u0252" +
     "\u0268\x05\x1E\x10\x02\u0253\u0268\x05\xB2Z\x02\u0254\u0268\x05\x9CO\x02" +
     "\u0255\u0268\x05\x92J\x02\u0256\u0268\x05\xA8U\x02\u0257\u0268\x05\xA4" +
     "S\x02\u0258\u0268\x05\xA6T\x02\u0259\u0268\x05\xBE`\x02\u025A\u0268\x05" +
@@ -7901,8 +7907,8 @@ choiceParser._serializedATNSegment1 = "\x02\u0125\u0134\x03\x02\x02\x02\u0126\u0
     "\x074\x02\x02\u032A\u032B\x07\x1B\x02\x02\u032BG\x03\x02\x02\x02\u032C" +
     "\u032E\x05J&\x02\u032D\u032C\x03\x02\x02\x02\u032E\u0331\x03\x02\x02\x02" +
     "\u032F\u032D\x03\x02\x02\x02\u032F\u0330\x03\x02\x02\x02\u0330\u0337\x03" +
-    "\x02\x02\x02\u0331\u032F\x03\x02\x02\x02\u0332\u0336\x07\x8C\x02\x02\u0333" +
-    "\u0336\x07\x8D\x02\x02\u0334\u0336\x05L\'\x02\u0335\u0332\x03\x02\x02" +
+    "\x02\x02\x02\u0331\u032F\x03\x02\x02\x02\u0332\u0336\x07\x8E\x02\x02\u0333" +
+    "\u0336\x07\x8F\x02\x02\u0334\u0336\x05L\'\x02\u0335\u0332\x03\x02\x02" +
     "\x02\u0335\u0333\x03\x02\x02\x02\u0335\u0334\x03\x02\x02\x02\u0336\u0339" +
     "\x03\x02\x02\x02\u0337\u0335\x03\x02\x02\x02\u0337\u0338\x03\x02\x02\x02" +
     "\u0338I\x03\x02\x02\x02\u0339\u0337\x03\x02\x02\x02\u033A\u033B\t\x04" +
@@ -7913,12 +7919,12 @@ choiceParser._serializedATNSegment1 = "\x02\u0125\u0134\x03\x02\x02\x02\u0126\u0
     "\x03\x02\x02\x02\u0345\u033E\x03\x02\x02\x02\u0345\u033F\x03\x02\x02\x02" +
     "\u0345\u0340\x03\x02\x02\x02\u0345\u0341\x03\x02\x02\x02\u0345\u0342\x03" +
     "\x02\x02\x02\u0345\u0343\x03\x02\x02\x02\u0345\u0344\x03\x02\x02\x02\u0346" +
-    "M\x03\x02\x02\x02\u0347\u034D\x07\x8A\x02\x02\u0348\u034D\x07\x8B\x02" +
-    "\x02\u0349\u034D\x07\x8C\x02\x02\u034A\u034D\x07\x8D\x02\x02\u034B\u034D" +
+    "M\x03\x02\x02\x02\u0347\u034D\x07\x8C\x02\x02\u0348\u034D\x07\x8D\x02" +
+    "\x02\u0349\u034D\x07\x8E\x02\x02\u034A\u034D\x07\x8F\x02\x02\u034B\u034D" +
     "\x03\x02\x02\x02\u034C\u0347\x03\x02\x02\x02\u034C\u0348\x03\x02\x02\x02" +
     "\u034C\u0349\x03\x02\x02\x02\u034C\u034A\x03\x02\x02\x02\u034C\u034B\x03" +
     "\x02\x02\x02\u034DO\x03\x02\x02\x02\u034E\u0351\x07Z\x02\x02\u034F\u0352" +
-    "\x07/\x02\x02\u0350\u0352\x07\x9D\x02\x02\u0351\u034F\x03\x02\x02\x02" +
+    "\x07/\x02\x02\u0350\u0352\x07\x9F\x02\x02\u0351\u034F\x03\x02\x02\x02" +
     "\u0351\u0350\x03\x02\x02\x02\u0351\u0352\x03\x02\x02\x02\u0352\u035D\x03" +
     "\x02\x02\x02\u0353\u0355\x07q\x02\x02\u0354\u0356\x07/\x02\x02\u0355\u0354" +
     "\x03\x02\x02\x02\u0355\u0356\x03\x02\x02\x02\u0356\u035D\x03\x02\x02\x02" +
@@ -7937,9 +7943,9 @@ choiceParser._serializedATNSegment1 = "\x02\u0125\u0134\x03\x02\x02\x02\u0126\u0
     "\x0E\x02\x02\u0374e\x03\x02\x02\x02\u0375\u0378\x07h\x02\x02\u0376\u0377" +
     "\x07\x1C\x02\x02\u0377\u0379\x071\x02\x02\u0378\u0376\x03\x02\x02\x02" +
     "\u0378\u0379\x03\x02\x02\x02\u0379\u0385\x03\x02\x02\x02\u037A\u037D\x07" +
-    "z\x02\x02\u037B\u037C\x07\x1C\x02\x02\u037C\u037E\x071\x02\x02\u037D\u037B" +
+    "{\x02\x02\u037B\u037C\x07\x1C\x02\x02\u037C\u037E\x071\x02\x02\u037D\u037B" +
     "\x03\x02\x02\x02\u037D\u037E\x03\x02\x02\x02\u037E\u0385\x03\x02\x02\x02" +
-    "\u037F\u0382\x07\x86\x02\x02\u0380\u0381\x07\x1C\x02\x02\u0381\u0383\x07" +
+    "\u037F\u0382\x07\x88\x02\x02\u0380\u0381\x07\x1C\x02\x02\u0381\u0383\x07" +
     "1\x02\x02\u0382\u0380\x03\x02\x02\x02\u0382\u0383\x03\x02\x02\x02\u0383" +
     "\u0385\x03\x02\x02\x02\u0384\u0375\x03\x02\x02\x02\u0384\u037A\x03\x02" +
     "\x02\x02\u0384\u037F\x03\x02\x02\x02\u0385g\x03\x02\x02\x02\u0386\u0387" +
@@ -7985,9 +7991,9 @@ choiceParser._serializedATNSegment2 = "u\x03\x02\x02\x02\u03C3\u03C7\x05x=\x02\u
     "\u03E4\u03E2\x03\x02\x02\x02\u03E4\u03E5\x03\x02\x02\x02\u03E5\u03E7\x03" +
     "\x02\x02\x02\u03E6\u03E4\x03\x02\x02\x02\u03E7\u03E8\x05\x90I\x02\u03E8" +
     "\u03E9\x07\x1B\x02\x02\u03E9}\x03\x02\x02\x02\u03EA\u03ED\x07e\x02\x02" +
-    "\u03EB\u03EE\x07/\x02\x02\u03EC\u03EE\x07\x9D\x02\x02\u03ED\u03EB\x03" +
+    "\u03EB\u03EE\x07/\x02\x02\u03EC\u03EE\x07\x9F\x02\x02\u03ED\u03EB\x03" +
     "\x02\x02\x02\u03ED\u03EC\x03\x02\x02\x02\u03ED\u03EE\x03\x02\x02\x02\u03EE" +
-    "\u03F9\x03\x02\x02\x02\u03EF\u03F1\x07y\x02\x02\u03F0\u03F2\x07/\x02\x02" +
+    "\u03F9\x03\x02\x02\x02\u03EF\u03F1\x07z\x02\x02\u03F0\u03F2\x07/\x02\x02" +
     "\u03F1\u03F0\x03\x02\x02\x02\u03F1\u03F2\x03\x02\x02\x02\u03F2\u03F9\x03" +
     "\x02\x02\x02\u03F3\u03F5\x07f\x02\x02\u03F4\u03F6\x07/\x02\x02\u03F5\u03F4" +
     "\x03\x02\x02\x02\u03F5\u03F6\x03\x02\x02\x02\u03F6\u03F9\x03\x02\x02\x02" +
@@ -8025,10 +8031,10 @@ choiceParser._serializedATNSegment2 = "u\x03\x02\x02\x02\u03C3\u03C7\x05x=\x02\u
     "\u043B\u0431\x03\x02\x02\x02\u043B\u0436\x03\x02\x02\x02\u043C\x89\x03" +
     "\x02\x02\x02\u043D\u0440\x07d\x02\x02\u043E\u043F\x07\x1C\x02\x02\u043F" +
     "\u0441\x070\x02\x02\u0440\u043E\x03\x02\x02\x02\u0440\u0441\x03\x02\x02" +
-    "\x02\u0441\u044D\x03\x02\x02\x02\u0442\u0445\x07x\x02\x02\u0443\u0444" +
+    "\x02\u0441\u044D\x03\x02\x02\x02\u0442\u0445\x07y\x02\x02\u0443\u0444" +
     "\x07\x1C\x02\x02\u0444\u0446\x070\x02\x02\u0445\u0443\x03\x02\x02\x02" +
     "\u0445\u0446\x03\x02\x02\x02\u0446\u044D\x03\x02\x02\x02\u0447\u044A\x07" +
-    "\x87\x02\x02\u0448\u0449\x07\x1C\x02\x02\u0449\u044B\x070\x02\x02\u044A" +
+    "\x89\x02\x02\u0448\u0449\x07\x1C\x02\x02\u0449\u044B\x070\x02\x02\u044A" +
     "\u0448\x03\x02\x02\x02\u044A\u044B\x03\x02\x02\x02\u044B\u044D\x03\x02" +
     "\x02\x02\u044C\u043D\x03\x02\x02\x02\u044C\u0442\x03\x02\x02\x02\u044C" +
     "\u0447\x03\x02\x02\x02\u044D\x8B\x03\x02\x02\x02\u044E\u044F\x07\x14\x02" +
@@ -8047,8 +8053,8 @@ choiceParser._serializedATNSegment2 = "u\x03\x02\x02\x02\u03C3\u03C7\x05x=\x02\u
     "\u0467\x03\x02\x02\x02\u046A\u046C\x03\x02\x02\x02\u046B\u0469\x03\x02" +
     "\x02\x02\u046C\u046E\x07\x1B\x02\x02\u046D\u0451\x03\x02\x02\x02\u046D" +
     "\u0461\x03\x02\x02\x02\u046D\u0465\x03\x02\x02\x02\u046E\x8D\x03\x02\x02" +
-    "\x02\u046F\u0470\x07\x9C\x02\x02\u0470\u0471\x07\x1F\x02\x02\u0471\u0472" +
-    "\x074\x02\x02\u0472\x8F\x03\x02\x02\x02\u0473\u0474\x07\x9F\x02\x02\u0474" +
+    "\x02\u046F\u0470\x07\x9E\x02\x02\u0470\u0471\x07\x1F\x02\x02\u0471\u0472" +
+    "\x074\x02\x02\u0472\x8F\x03\x02\x02\x02\u0473\u0474\x07\xA1\x02\x02\u0474" +
     "\x91\x03\x02\x02\x02\u0475\u0476\x07\x19\x02\x02\u0476\u047E\x07\x1B\x02" +
     "\x02\u0477\u0479\x07\x04\x02\x02\u0478\u0477\x03\x02\x02\x02\u0479\u047C" +
     "\x03\x02\x02\x02\u047A\u0478\x03\x02\x02\x02\u047A\u047B\x03\x02\x02\x02" +
@@ -8100,12 +8106,12 @@ choiceParser._serializedATNSegment2 = "u\x03\x02\x02\x02\u03C3\u03C7\x05x=\x02\u
     "\u04D8\x03\x02\x02\x02\u04DB\u04DD\x07\x02\x02\x03\u04DC\u04B5\x03\x02" +
     "\x02\x02\u04DC\u04D2\x03\x02\x02\x02\u04DD\x9B\x03\x02\x02\x02\u04DE\u04E3" +
     "\x07<\x02\x02\u04DF\u04E4\x05\xBE`\x02\u04E0\u04E4\x07\x1C\x02\x02\u04E1" +
-    "\u04E4\x07\x9F\x02\x02\u04E2\u04E4\x076\x02\x02\u04E3\u04DF\x03\x02\x02" +
+    "\u04E4\x07\xA1\x02\x02\u04E2\u04E4\x076\x02\x02\u04E3\u04DF\x03\x02\x02" +
     "\x02\u04E3\u04E0\x03\x02\x02\x02\u04E3\u04E1\x03\x02\x02\x02\u04E3\u04E2" +
     "\x03\x02\x02\x02\u04E4\u04E5\x03\x02\x02\x02\u04E5\u04E3\x03\x02\x02\x02" +
     "\u04E5\u04E6\x03\x02\x02\x02\u04E6\u04E7\x03\x02\x02\x02\u04E7\u04F5\x07" +
     "\x1B\x02\x02\u04E8\u04F0\x07<\x02\x02\u04E9\u04EF\x05\xBE`\x02\u04EA\u04EF" +
-    "\x07\x1C\x02\x02\u04EB\u04EF\x07\x9F\x02\x02\u04EC\u04EF\x076\x02\x02" +
+    "\x07\x1C\x02\x02\u04EB\u04EF\x07\xA1\x02\x02\u04EC\u04EF\x076\x02\x02" +
     "\u04ED\u04EF\x07\x04\x02\x02\u04EE\u04E9\x03\x02\x02\x02\u04EE\u04EA\x03" +
     "\x02\x02\x02\u04EE\u04EB\x03\x02\x02\x02\u04EE\u04EC\x03\x02\x02\x02\u04EE" +
     "\u04ED\x03\x02\x02\x02\u04EF\u04F2\x03\x02\x02\x02\u04F0\u04EE\x03\x02" +
@@ -8221,7 +8227,7 @@ choiceParser._serializedATNSegment2 = "u\x03\x02\x02\x02\u03C3\u03C7\x05x=\x02\u
     "\x02\x02\u05DF\u05DE\x03\x02\x02\x02\u05E0\u05E3\x03\x02\x02\x02\u05E1" +
     "\u05DF\x03\x02\x02\x02\u05E1\u05E2\x03\x02\x02\x02\u05E2\u05E7\x03\x02" +
     "\x02\x02\u05E3\u05E1\x03\x02\x02\x02\u05E4\u05E7\x07\'\x02\x02\u05E5\u05E7" +
-    "\x07\x9F\x02\x02\u05E6\u05BD\x03\x02\x02\x02\u05E6\u05C6\x03\x02\x02\x02" +
+    "\x07\xA1\x02\x02\u05E6\u05BD\x03\x02\x02\x02\u05E6\u05C6\x03\x02\x02\x02" +
     "\u05E6\u05CF\x03\x02\x02\x02\u05E6\u05D3\x03\x02\x02\x02\u05E6\u05DD\x03" +
     "\x02\x02\x02\u05E6\u05E4\x03\x02\x02\x02\u05E6\u05E5\x03\x02\x02\x02\u05E7" +
     "\xBF\x03\x02\x02\x02\u05E8\u05E9\x07\x1B\x02\x02\u05E9\xC1\x03\x02\x02" +
@@ -9785,6 +9791,7 @@ class Resource_formatContext extends ParserRuleContext_1.ParserRuleContext {
     AmpAudioEmbed() { return this.tryGetToken(choiceParser.AmpAudioEmbed, 0); }
     AmpDocumentEmbed() { return this.tryGetToken(choiceParser.AmpDocumentEmbed, 0); }
     AmpStillImageFilmEmbed() { return this.tryGetToken(choiceParser.AmpStillImageFilmEmbed, 0); }
+    AmpDocumentDownload() { return this.tryGetToken(choiceParser.AmpDocumentDownload, 0); }
     constructor(parent, invokingState) {
         super(parent, invokingState);
     }
@@ -9949,6 +9956,7 @@ exports.Article_formatContext = Article_formatContext;
 class Document_formatContext extends ParserRuleContext_1.ParserRuleContext {
     AmpDocument() { return this.tryGetToken(choiceParser.AmpDocument, 0); }
     AmpDocumentLink() { return this.tryGetToken(choiceParser.AmpDocumentLink, 0); }
+    AmpDocumentDownload() { return this.tryGetToken(choiceParser.AmpDocumentDownload, 0); }
     AmpDocumentEmbed() { return this.tryGetToken(choiceParser.AmpDocumentEmbed, 0); }
     constructor(parent, invokingState) {
         super(parent, invokingState);
@@ -10061,6 +10069,7 @@ exports.Op_article_formatContext = Op_article_formatContext;
 class Op_document_formatContext extends ParserRuleContext_1.ParserRuleContext {
     OpAmpDocumentLink() { return this.tryGetToken(choiceParser.OpAmpDocumentLink, 0); }
     OpAmpDocument() { return this.tryGetToken(choiceParser.OpAmpDocument, 0); }
+    OpAmpDocumentDownload() { return this.tryGetToken(choiceParser.OpAmpDocumentDownload, 0); }
     OpAmpDocumentEmbed() { return this.tryGetToken(choiceParser.OpAmpDocumentEmbed, 0); }
     constructor(parent, invokingState) {
         super(parent, invokingState);

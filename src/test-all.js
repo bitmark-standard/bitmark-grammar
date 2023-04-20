@@ -51,7 +51,6 @@ const testfiles = [
   './tests/corr1.bit',
   './tests/corr2.bit',
   './tests/corr3.bit',
-  './tests/docup1.bit',
   './tests/essay1.bit', 
   './tests/essay2.bit',
   './tests/essay3.bit',
@@ -167,6 +166,7 @@ const testfiles = [
   './tests/bot-action-response.bit',
 
   './tests/resource-all.bit',
+  './tests/document.bit',  
   './tests/utfgpun.bit',
   './tests/vendor-amchart.bit',  
   './tests/url-regex.bit',

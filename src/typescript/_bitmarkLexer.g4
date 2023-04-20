@@ -29,10 +29,8 @@ BitArticle:	 NL OPDOT S* 'article'  ;
 BitPage:	 NL OPDOT S* 'page'    ;
 BitEssay:        NL OPDOT S* 'essay'    ;
 BitMessage:      NL OPDOT S* 'message'  ;  // NEW added 12/2/2020
-/*BitSequence:	 NL OPDOT S* 'sequence'    ;*/
 BitCorrection:	 NL OPDOT S* 'correction'    ;
 BitMark:	 NL OPDOT S* 'mark'    ;
-BitDocup:	 NL OPDOT S* 'document-upload'    ;
 BitTakepic:	 NL OPDOT S* 'take-picture'    ;
 BitRecaud:	 NL OPDOT S* 'record-audio'    ;
 BitPrepnote:	 NL OPDOT S* 'preparation-note'    ;
@@ -45,8 +43,6 @@ BitSurvey: 	 NL OPDOT S* 'survey'    ;
 BitSurvey1: 	 NL OPDOT S* 'survey-1'    ;
 BitSurveyanon: 	 NL OPDOT S* 'survey-anonymous'    ;
 BitSurveyanon1:  NL OPDOT S* 'survey-anonymous-1'    ;
-//BitVocabulary:   NL OPDOT S* 'vocabulary'  ;
-//BitVocabulary1:  NL OPDOT S* 'vocabulary-1'  ;
 
 BitNote:	 NL OPDOT S* 'note' ;
 BitInfo:  	 NL OPDOT S* 'info' ;

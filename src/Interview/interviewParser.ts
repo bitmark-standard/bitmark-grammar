@@ -135,51 +135,53 @@ export class interviewParser extends Parser {
 	public static readonly AmpVideoLink = 107;
 	public static readonly AmpArticleLink = 108;
 	public static readonly AmpDocumentLink = 109;
-	public static readonly AmpAppLink = 110;
-	public static readonly AmpWebsiteLink = 111;
-	public static readonly AmpStillImageFilmLink = 112;
-	public static readonly OpAmpAudioLink = 113;
-	public static readonly OpAmpImageLink = 114;
-	public static readonly OpAmpVideoLink = 115;
-	public static readonly OpAmpArticleLink = 116;
-	public static readonly OpAmpDocumentLink = 117;
-	public static readonly OpAmpAppLink = 118;
-	public static readonly OpAmpWebsiteLink = 119;
-	public static readonly OpAmpStillImageFilmLink = 120;
-	public static readonly AmpImageEmbed = 121;
-	public static readonly AmpVideoEmbed = 122;
-	public static readonly AmpAudioEmbed = 123;
-	public static readonly AmpDocumentEmbed = 124;
-	public static readonly AmpStillImageFilmEmbed = 125;
-	public static readonly OpAmpImageEmbed = 126;
-	public static readonly OpAmpVideoEmbed = 127;
-	public static readonly OpAmpAudioEmbed = 128;
-	public static readonly OpAmpDocumentEmbed = 129;
-	public static readonly OpAmpStillImageFilmEmbed = 130;
-	public static readonly BitmarkMinus = 131;
-	public static readonly BitmarkPlus = 132;
-	public static readonly ColonText = 133;
-	public static readonly ColonJson = 134;
-	public static readonly Prosemirror = 135;
-	public static readonly Placeholder = 136;
-	public static readonly BASIC = 137;
-	public static readonly JPG = 138;
-	public static readonly PNG = 139;
-	public static readonly GIF = 140;
-	public static readonly SVG = 141;
-	public static readonly MP2 = 142;
-	public static readonly MP3 = 143;
-	public static readonly MP4 = 144;
-	public static readonly FLV = 145;
-	public static readonly WMV = 146;
-	public static readonly MPEG = 147;
-	public static readonly MPG = 148;
-	public static readonly TEL = 149;
-	public static readonly DotArticleAtt = 150;
-	public static readonly STAR = 151;
-	public static readonly URL = 152;
-	public static readonly LIST_LINE = 153;
-	public static readonly ENCLBARS = 154;
+	public static readonly AmpDocumentDownload = 110;
+	public static readonly AmpAppLink = 111;
+	public static readonly AmpWebsiteLink = 112;
+	public static readonly AmpStillImageFilmLink = 113;
+	public static readonly OpAmpAudioLink = 114;
+	public static readonly OpAmpImageLink = 115;
+	public static readonly OpAmpVideoLink = 116;
+	public static readonly OpAmpArticleLink = 117;
+	public static readonly OpAmpDocumentLink = 118;
+	public static readonly OpAmpDocumentDownload = 119;
+	public static readonly OpAmpAppLink = 120;
+	public static readonly OpAmpWebsiteLink = 121;
+	public static readonly OpAmpStillImageFilmLink = 122;
+	public static readonly AmpImageEmbed = 123;
+	public static readonly AmpVideoEmbed = 124;
+	public static readonly AmpAudioEmbed = 125;
+	public static readonly AmpDocumentEmbed = 126;
+	public static readonly AmpStillImageFilmEmbed = 127;
+	public static readonly OpAmpImageEmbed = 128;
+	public static readonly OpAmpVideoEmbed = 129;
+	public static readonly OpAmpAudioEmbed = 130;
+	public static readonly OpAmpDocumentEmbed = 131;
+	public static readonly OpAmpStillImageFilmEmbed = 132;
+	public static readonly BitmarkMinus = 133;
+	public static readonly BitmarkPlus = 134;
+	public static readonly ColonText = 135;
+	public static readonly ColonJson = 136;
+	public static readonly Prosemirror = 137;
+	public static readonly Placeholder = 138;
+	public static readonly BASIC = 139;
+	public static readonly JPG = 140;
+	public static readonly PNG = 141;
+	public static readonly GIF = 142;
+	public static readonly SVG = 143;
+	public static readonly MP2 = 144;
+	public static readonly MP3 = 145;
+	public static readonly MP4 = 146;
+	public static readonly FLV = 147;
+	public static readonly WMV = 148;
+	public static readonly MPEG = 149;
+	public static readonly MPG = 150;
+	public static readonly TEL = 151;
+	public static readonly DotArticleAtt = 152;
+	public static readonly STAR = 153;
+	public static readonly URL = 154;
+	public static readonly LIST_LINE = 155;
+	public static readonly ENCLBARS = 156;
 	public static readonly RULE_bitmark = 0;
 	public static readonly RULE_bitmark_ = 1;
 	public static readonly RULE_interviews = 2;
@@ -314,14 +316,14 @@ export class interviewParser extends Parser {
 		"'&website'", "'&still-image-film'", "'&pdf'", undefined, undefined, undefined, 
 		undefined, undefined, undefined, undefined, undefined, undefined, undefined, 
 		undefined, undefined, "'&audio-link'", "'&image-link'", "'&video-link'", 
-		"'&article-link'", "'&document-link'", "'&app-link'", "'&website-link'", 
-		"'&still-image-film-link'", undefined, undefined, undefined, undefined, 
-		undefined, undefined, undefined, undefined, "'&image-embed'", "'&video-embed'", 
-		"'&daudio-embed'", "'&document-embed'", "'&still-image-film-embed'", undefined, 
-		undefined, undefined, undefined, undefined, "':bitmark--'", "':bitmark++'", 
-		"':text'", "':json'", "':prosemirror'", "':placeholder'", "':basic'", 
-		"':jpg'", "':png'", "':gif'", "':svg'", "':mp2'", "':mp3'", "':mp4'", 
-		"':flv'", "':wmv'", "':mpeg'", "':mpg'", "'tel:'", "'.article-attachment'", 
+		"'&article-link'", "'&document-link'", "'&document-download'", "'&app-link'", 
+		"'&website-link'", "'&still-image-film-link'", undefined, undefined, undefined, 
+		undefined, undefined, undefined, undefined, undefined, undefined, "'&image-embed'", 
+		"'&video-embed'", "'&daudio-embed'", "'&document-embed'", "'&still-image-film-embed'", 
+		undefined, undefined, undefined, undefined, undefined, "':bitmark--'", 
+		"':bitmark++'", "':text'", "':json'", "':prosemirror'", "':placeholder'", 
+		"':basic'", "':jpg'", "':png'", "':gif'", "':svg'", "':mp2'", "':mp3'", 
+		"':mp4'", "':flv'", "':wmv'", "':mpeg'", "':mpg'", "'tel:'", "'.article-attachment'", 
 		"'*'",
 	];
 	private static readonly _SYMBOLIC_NAMES: Array<string | undefined> = [
@@ -343,15 +345,16 @@ export class interviewParser extends Parser {
 		"OpAmpAudio", "OpAmpImage", "OpAmpImageZoom", "OpAmpImageWAudio", "OpAmpVideo", 
 		"OpAmpArticle", "OpAmpArticleAtt", "OpAmpDocument", "OpAmpApp", "OpAmpWebsite", 
 		"OpAmpStillImageFilm", "BracEnclose", "AmpAudioLink", "AmpImageLink", 
-		"AmpVideoLink", "AmpArticleLink", "AmpDocumentLink", "AmpAppLink", "AmpWebsiteLink", 
-		"AmpStillImageFilmLink", "OpAmpAudioLink", "OpAmpImageLink", "OpAmpVideoLink", 
-		"OpAmpArticleLink", "OpAmpDocumentLink", "OpAmpAppLink", "OpAmpWebsiteLink", 
-		"OpAmpStillImageFilmLink", "AmpImageEmbed", "AmpVideoEmbed", "AmpAudioEmbed", 
-		"AmpDocumentEmbed", "AmpStillImageFilmEmbed", "OpAmpImageEmbed", "OpAmpVideoEmbed", 
-		"OpAmpAudioEmbed", "OpAmpDocumentEmbed", "OpAmpStillImageFilmEmbed", "BitmarkMinus", 
-		"BitmarkPlus", "ColonText", "ColonJson", "Prosemirror", "Placeholder", 
-		"BASIC", "JPG", "PNG", "GIF", "SVG", "MP2", "MP3", "MP4", "FLV", "WMV", 
-		"MPEG", "MPG", "TEL", "DotArticleAtt", "STAR", "URL", "LIST_LINE", "ENCLBARS",
+		"AmpVideoLink", "AmpArticleLink", "AmpDocumentLink", "AmpDocumentDownload", 
+		"AmpAppLink", "AmpWebsiteLink", "AmpStillImageFilmLink", "OpAmpAudioLink", 
+		"OpAmpImageLink", "OpAmpVideoLink", "OpAmpArticleLink", "OpAmpDocumentLink", 
+		"OpAmpDocumentDownload", "OpAmpAppLink", "OpAmpWebsiteLink", "OpAmpStillImageFilmLink", 
+		"AmpImageEmbed", "AmpVideoEmbed", "AmpAudioEmbed", "AmpDocumentEmbed", 
+		"AmpStillImageFilmEmbed", "OpAmpImageEmbed", "OpAmpVideoEmbed", "OpAmpAudioEmbed", 
+		"OpAmpDocumentEmbed", "OpAmpStillImageFilmEmbed", "BitmarkMinus", "BitmarkPlus", 
+		"ColonText", "ColonJson", "Prosemirror", "Placeholder", "BASIC", "JPG", 
+		"PNG", "GIF", "SVG", "MP2", "MP3", "MP4", "FLV", "WMV", "MPEG", "MPG", 
+		"TEL", "DotArticleAtt", "STAR", "URL", "LIST_LINE", "ENCLBARS",
 	];
 	public static readonly VOCABULARY: Vocabulary = new VocabularyImpl(interviewParser._LITERAL_NAMES, interviewParser._SYMBOLIC_NAMES, []);
 
@@ -2473,6 +2476,7 @@ export class interviewParser extends Parser {
 				break;
 			case interviewParser.OpAmpDocument:
 			case interviewParser.OpAmpDocumentLink:
+			case interviewParser.OpAmpDocumentDownload:
 			case interviewParser.OpAmpDocumentEmbed:
 				{
 				this.state = 591;
@@ -2812,7 +2816,7 @@ export class interviewParser extends Parser {
 			this.state = 650;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
-			while (((((_la - 82)) & ~0x1F) === 0 && ((1 << (_la - 82)) & ((1 << (interviewParser.AmpAudio - 82)) | (1 << (interviewParser.AmpImage - 82)) | (1 << (interviewParser.AmpImageZoom - 82)) | (1 << (interviewParser.AmpImageWAudio - 82)) | (1 << (interviewParser.AmpVideo - 82)) | (1 << (interviewParser.AmpArticle - 82)) | (1 << (interviewParser.AmpDocument - 82)) | (1 << (interviewParser.AmpApp - 82)) | (1 << (interviewParser.AmpWebsite - 82)) | (1 << (interviewParser.AmpStillImageFilm - 82)) | (1 << (interviewParser.AmpPdf - 82)) | (1 << (interviewParser.AmpAudioLink - 82)) | (1 << (interviewParser.AmpImageLink - 82)) | (1 << (interviewParser.AmpVideoLink - 82)) | (1 << (interviewParser.AmpArticleLink - 82)) | (1 << (interviewParser.AmpDocumentLink - 82)) | (1 << (interviewParser.AmpAppLink - 82)) | (1 << (interviewParser.AmpWebsiteLink - 82)) | (1 << (interviewParser.AmpStillImageFilmLink - 82)))) !== 0) || ((((_la - 122)) & ~0x1F) === 0 && ((1 << (_la - 122)) & ((1 << (interviewParser.AmpVideoEmbed - 122)) | (1 << (interviewParser.AmpDocumentEmbed - 122)) | (1 << (interviewParser.AmpStillImageFilmEmbed - 122)) | (1 << (interviewParser.ColonText - 122)) | (1 << (interviewParser.ColonJson - 122)))) !== 0)) {
+			while (((((_la - 82)) & ~0x1F) === 0 && ((1 << (_la - 82)) & ((1 << (interviewParser.AmpAudio - 82)) | (1 << (interviewParser.AmpImage - 82)) | (1 << (interviewParser.AmpImageZoom - 82)) | (1 << (interviewParser.AmpImageWAudio - 82)) | (1 << (interviewParser.AmpVideo - 82)) | (1 << (interviewParser.AmpArticle - 82)) | (1 << (interviewParser.AmpDocument - 82)) | (1 << (interviewParser.AmpApp - 82)) | (1 << (interviewParser.AmpWebsite - 82)) | (1 << (interviewParser.AmpStillImageFilm - 82)) | (1 << (interviewParser.AmpPdf - 82)) | (1 << (interviewParser.AmpAudioLink - 82)) | (1 << (interviewParser.AmpImageLink - 82)) | (1 << (interviewParser.AmpVideoLink - 82)) | (1 << (interviewParser.AmpArticleLink - 82)) | (1 << (interviewParser.AmpDocumentLink - 82)) | (1 << (interviewParser.AmpDocumentDownload - 82)) | (1 << (interviewParser.AmpAppLink - 82)) | (1 << (interviewParser.AmpWebsiteLink - 82)) | (1 << (interviewParser.AmpStillImageFilmLink - 82)))) !== 0) || ((((_la - 124)) & ~0x1F) === 0 && ((1 << (_la - 124)) & ((1 << (interviewParser.AmpVideoEmbed - 124)) | (1 << (interviewParser.AmpDocumentEmbed - 124)) | (1 << (interviewParser.AmpStillImageFilmEmbed - 124)) | (1 << (interviewParser.ColonText - 124)) | (1 << (interviewParser.ColonJson - 124)))) !== 0)) {
 				{
 				this.state = 648;
 				this._errHandler.sync(this);
@@ -2845,6 +2849,7 @@ export class interviewParser extends Parser {
 				case interviewParser.AmpVideoLink:
 				case interviewParser.AmpArticleLink:
 				case interviewParser.AmpDocumentLink:
+				case interviewParser.AmpDocumentDownload:
 				case interviewParser.AmpAppLink:
 				case interviewParser.AmpWebsiteLink:
 				case interviewParser.AmpStillImageFilmLink:
@@ -2890,7 +2895,7 @@ export class interviewParser extends Parser {
 			{
 			this.state = 653;
 			_la = this._input.LA(1);
-			if (!(((((_la - 87)) & ~0x1F) === 0 && ((1 << (_la - 87)) & ((1 << (interviewParser.AmpArticle - 87)) | (1 << (interviewParser.AmpDocument - 87)) | (1 << (interviewParser.AmpWebsite - 87)) | (1 << (interviewParser.AmpStillImageFilm - 87)) | (1 << (interviewParser.AmpAudioLink - 87)) | (1 << (interviewParser.AmpImageLink - 87)) | (1 << (interviewParser.AmpVideoLink - 87)) | (1 << (interviewParser.AmpArticleLink - 87)) | (1 << (interviewParser.AmpDocumentLink - 87)) | (1 << (interviewParser.AmpAppLink - 87)) | (1 << (interviewParser.AmpWebsiteLink - 87)) | (1 << (interviewParser.AmpStillImageFilmLink - 87)))) !== 0) || ((((_la - 122)) & ~0x1F) === 0 && ((1 << (_la - 122)) & ((1 << (interviewParser.AmpVideoEmbed - 122)) | (1 << (interviewParser.AmpAudioEmbed - 122)) | (1 << (interviewParser.AmpDocumentEmbed - 122)) | (1 << (interviewParser.AmpStillImageFilmEmbed - 122)) | (1 << (interviewParser.BitmarkMinus - 122)) | (1 << (interviewParser.BitmarkPlus - 122)) | (1 << (interviewParser.ColonJson - 122)) | (1 << (interviewParser.Prosemirror - 122)) | (1 << (interviewParser.Placeholder - 122)))) !== 0))) {
+			if (!(((((_la - 87)) & ~0x1F) === 0 && ((1 << (_la - 87)) & ((1 << (interviewParser.AmpArticle - 87)) | (1 << (interviewParser.AmpDocument - 87)) | (1 << (interviewParser.AmpWebsite - 87)) | (1 << (interviewParser.AmpStillImageFilm - 87)) | (1 << (interviewParser.AmpAudioLink - 87)) | (1 << (interviewParser.AmpImageLink - 87)) | (1 << (interviewParser.AmpVideoLink - 87)) | (1 << (interviewParser.AmpArticleLink - 87)) | (1 << (interviewParser.AmpDocumentLink - 87)) | (1 << (interviewParser.AmpDocumentDownload - 87)) | (1 << (interviewParser.AmpAppLink - 87)) | (1 << (interviewParser.AmpWebsiteLink - 87)) | (1 << (interviewParser.AmpStillImageFilmLink - 87)))) !== 0) || ((((_la - 124)) & ~0x1F) === 0 && ((1 << (_la - 124)) & ((1 << (interviewParser.AmpVideoEmbed - 124)) | (1 << (interviewParser.AmpAudioEmbed - 124)) | (1 << (interviewParser.AmpDocumentEmbed - 124)) | (1 << (interviewParser.AmpStillImageFilmEmbed - 124)) | (1 << (interviewParser.BitmarkMinus - 124)) | (1 << (interviewParser.BitmarkPlus - 124)) | (1 << (interviewParser.ColonJson - 124)) | (1 << (interviewParser.Prosemirror - 124)) | (1 << (interviewParser.Placeholder - 124)))) !== 0))) {
 			this._errHandler.recoverInline(this);
 			} else {
 				if (this._input.LA(1) === Token.EOF) {
@@ -2961,6 +2966,7 @@ export class interviewParser extends Parser {
 				break;
 			case interviewParser.AmpDocument:
 			case interviewParser.AmpDocumentLink:
+			case interviewParser.AmpDocumentDownload:
 			case interviewParser.AmpDocumentEmbed:
 				this.enterOuterAlt(_localctx, 5);
 				{
@@ -3128,6 +3134,7 @@ export class interviewParser extends Parser {
 				case interviewParser.AmpVideoLink:
 				case interviewParser.AmpArticleLink:
 				case interviewParser.AmpDocumentLink:
+				case interviewParser.AmpDocumentDownload:
 				case interviewParser.AmpAppLink:
 				case interviewParser.AmpWebsiteLink:
 				case interviewParser.AmpStillImageFilmLink:
@@ -3295,7 +3302,7 @@ export class interviewParser extends Parser {
 			{
 			this.state = 696;
 			_la = this._input.LA(1);
-			if (!(_la === interviewParser.AmpDocument || _la === interviewParser.AmpDocumentLink || _la === interviewParser.AmpDocumentEmbed)) {
+			if (!(((((_la - 88)) & ~0x1F) === 0 && ((1 << (_la - 88)) & ((1 << (interviewParser.AmpDocument - 88)) | (1 << (interviewParser.AmpDocumentLink - 88)) | (1 << (interviewParser.AmpDocumentDownload - 88)))) !== 0) || _la === interviewParser.AmpDocumentEmbed)) {
 			this._errHandler.recoverInline(this);
 			} else {
 				if (this._input.LA(1) === Token.EOF) {
@@ -3475,7 +3482,7 @@ export class interviewParser extends Parser {
 			{
 			this.state = 706;
 			_la = this._input.LA(1);
-			if (!(((((_la - 100)) & ~0x1F) === 0 && ((1 << (_la - 100)) & ((1 << (interviewParser.OpAmpDocument - 100)) | (1 << (interviewParser.OpAmpDocumentLink - 100)) | (1 << (interviewParser.OpAmpDocumentEmbed - 100)))) !== 0))) {
+			if (!(((((_la - 100)) & ~0x1F) === 0 && ((1 << (_la - 100)) & ((1 << (interviewParser.OpAmpDocument - 100)) | (1 << (interviewParser.OpAmpDocumentLink - 100)) | (1 << (interviewParser.OpAmpDocumentDownload - 100)) | (1 << (interviewParser.OpAmpDocumentEmbed - 100)))) !== 0))) {
 			this._errHandler.recoverInline(this);
 			} else {
 				if (this._input.LA(1) === Token.EOF) {
@@ -5888,7 +5895,7 @@ export class interviewParser extends Parser {
 				this.state = 1175;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-			} while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << interviewParser.OPDOT) | (1 << interviewParser.S) | (1 << interviewParser.BitInterview) | (1 << interviewParser.BitInterviewinstgrp) | (1 << interviewParser.OPDOLL) | (1 << interviewParser.OPBUL) | (1 << interviewParser.OPESC) | (1 << interviewParser.OPRANGLES) | (1 << interviewParser.OPRANGLEL) | (1 << interviewParser.OPDANGLE) | (1 << interviewParser.OPU) | (1 << interviewParser.OPB) | (1 << interviewParser.OPQ) | (1 << interviewParser.OPA) | (1 << interviewParser.OPP) | (1 << interviewParser.OPM) | (1 << interviewParser.OPS) | (1 << interviewParser.OPR) | (1 << interviewParser.OPC) | (1 << interviewParser.OPHASH) | (1 << interviewParser.COLON) | (1 << interviewParser.AMP) | (1 << interviewParser.DBLCOLON) | (1 << interviewParser.PLUS) | (1 << interviewParser.DotAt) | (1 << interviewParser.Greater) | (1 << interviewParser.Less) | (1 << interviewParser.RightAngle) | (1 << interviewParser.RightArrow) | (1 << interviewParser.DBLEQ))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (interviewParser.OR - 32)) | (1 << (interviewParser.HSPL - 32)) | (1 << (interviewParser.HSPL2 - 32)) | (1 << (interviewParser.SSPL - 32)) | (1 << (interviewParser.SSPL2 - 32)) | (1 << (interviewParser.BULLET - 32)) | (1 << (interviewParser.COMMENT - 32)) | (1 << (interviewParser.DCANY - 32)) | (1 << (interviewParser.Image_type - 32)) | (1 << (interviewParser.Audio_type - 32)) | (1 << (interviewParser.Video_type - 32)) | (1 << (interviewParser.ArticleText - 32)) | (1 << (interviewParser.NOTCL - 32)) | (1 << (interviewParser.NUMERIC - 32)) | (1 << (interviewParser.STRING - 32)) | (1 << (interviewParser.NL - 32)) | (1 << (interviewParser.NOTBITMARK - 32)) | (1 << (interviewParser.SENTENCE - 32)) | (1 << (interviewParser.BARSTRING - 32)) | (1 << (interviewParser.OPAT - 32)) | (1 << (interviewParser.AtProgress - 32)) | (1 << (interviewParser.AtReference - 32)) | (1 << (interviewParser.AtWidth - 32)) | (1 << (interviewParser.AtHeight - 32)) | (1 << (interviewParser.AtProgressPoints - 32)) | (1 << (interviewParser.AtShortanswer - 32)) | (1 << (interviewParser.AtLonganswer - 32)) | (1 << (interviewParser.AtExampleWithStr - 32)) | (1 << (interviewParser.AtExamplecol - 32)) | (1 << (interviewParser.AtExamplecl - 32)) | (1 << (interviewParser.AtSampleSolution - 32)) | (1 << (interviewParser.AtPartialAnswerS - 32)))) !== 0) || ((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (interviewParser.AtPartialAnswer - 64)) | (1 << (interviewParser.AtLabeltrue - 64)) | (1 << (interviewParser.AtLabelfalse - 64)) | (1 << (interviewParser.AtPoints - 64)) | (1 << (interviewParser.AtSrc - 64)) | (1 << (interviewParser.AtPartner - 64)) | (1 << (interviewParser.OPATALT - 64)) | (1 << (interviewParser.OPAMARK - 64)) | (1 << (interviewParser.ShowInIndex - 64)) | (1 << (interviewParser.OpAtCaption - 64)) | (1 << (interviewParser.OpAtLicense - 64)) | (1 << (interviewParser.OpAtCopyright - 64)) | (1 << (interviewParser.OpAtSearch - 64)) | (1 << (interviewParser.OpAtIsTracked - 64)) | (1 << (interviewParser.OpAtIsInfoOnly - 64)) | (1 << (interviewParser.AtDate - 64)) | (1 << (interviewParser.Http - 64)) | (1 << (interviewParser.Https - 64)) | (1 << (interviewParser.AmpAudio - 64)) | (1 << (interviewParser.AmpImage - 64)) | (1 << (interviewParser.AmpImageZoom - 64)) | (1 << (interviewParser.AmpImageWAudio - 64)) | (1 << (interviewParser.AmpVideo - 64)) | (1 << (interviewParser.AmpArticle - 64)) | (1 << (interviewParser.AmpDocument - 64)) | (1 << (interviewParser.AmpApp - 64)) | (1 << (interviewParser.AmpWebsite - 64)) | (1 << (interviewParser.AmpStillImageFilm - 64)) | (1 << (interviewParser.AmpPdf - 64)) | (1 << (interviewParser.OpAmpAudio - 64)) | (1 << (interviewParser.OpAmpImage - 64)) | (1 << (interviewParser.OpAmpImageZoom - 64)))) !== 0) || ((((_la - 96)) & ~0x1F) === 0 && ((1 << (_la - 96)) & ((1 << (interviewParser.OpAmpImageWAudio - 96)) | (1 << (interviewParser.OpAmpVideo - 96)) | (1 << (interviewParser.OpAmpArticle - 96)) | (1 << (interviewParser.OpAmpArticleAtt - 96)) | (1 << (interviewParser.OpAmpDocument - 96)) | (1 << (interviewParser.OpAmpApp - 96)) | (1 << (interviewParser.OpAmpWebsite - 96)) | (1 << (interviewParser.OpAmpStillImageFilm - 96)) | (1 << (interviewParser.BracEnclose - 96)) | (1 << (interviewParser.AmpAudioLink - 96)) | (1 << (interviewParser.AmpImageLink - 96)) | (1 << (interviewParser.AmpVideoLink - 96)) | (1 << (interviewParser.AmpArticleLink - 96)) | (1 << (interviewParser.AmpDocumentLink - 96)) | (1 << (interviewParser.AmpAppLink - 96)) | (1 << (interviewParser.AmpWebsiteLink - 96)) | (1 << (interviewParser.AmpStillImageFilmLink - 96)) | (1 << (interviewParser.OpAmpAudioLink - 96)) | (1 << (interviewParser.OpAmpImageLink - 96)) | (1 << (interviewParser.OpAmpVideoLink - 96)) | (1 << (interviewParser.OpAmpArticleLink - 96)) | (1 << (interviewParser.OpAmpDocumentLink - 96)) | (1 << (interviewParser.OpAmpAppLink - 96)) | (1 << (interviewParser.OpAmpWebsiteLink - 96)) | (1 << (interviewParser.OpAmpStillImageFilmLink - 96)) | (1 << (interviewParser.AmpImageEmbed - 96)) | (1 << (interviewParser.AmpVideoEmbed - 96)) | (1 << (interviewParser.AmpAudioEmbed - 96)) | (1 << (interviewParser.AmpDocumentEmbed - 96)) | (1 << (interviewParser.AmpStillImageFilmEmbed - 96)) | (1 << (interviewParser.OpAmpImageEmbed - 96)) | (1 << (interviewParser.OpAmpVideoEmbed - 96)))) !== 0) || ((((_la - 128)) & ~0x1F) === 0 && ((1 << (_la - 128)) & ((1 << (interviewParser.OpAmpAudioEmbed - 128)) | (1 << (interviewParser.OpAmpDocumentEmbed - 128)) | (1 << (interviewParser.OpAmpStillImageFilmEmbed - 128)) | (1 << (interviewParser.BitmarkMinus - 128)) | (1 << (interviewParser.BitmarkPlus - 128)) | (1 << (interviewParser.ColonText - 128)) | (1 << (interviewParser.ColonJson - 128)) | (1 << (interviewParser.Prosemirror - 128)) | (1 << (interviewParser.Placeholder - 128)) | (1 << (interviewParser.BASIC - 128)) | (1 << (interviewParser.JPG - 128)) | (1 << (interviewParser.PNG - 128)) | (1 << (interviewParser.GIF - 128)) | (1 << (interviewParser.SVG - 128)) | (1 << (interviewParser.MP2 - 128)) | (1 << (interviewParser.MP3 - 128)) | (1 << (interviewParser.MP4 - 128)) | (1 << (interviewParser.FLV - 128)) | (1 << (interviewParser.WMV - 128)) | (1 << (interviewParser.MPEG - 128)) | (1 << (interviewParser.MPG - 128)) | (1 << (interviewParser.TEL - 128)) | (1 << (interviewParser.DotArticleAtt - 128)) | (1 << (interviewParser.STAR - 128)) | (1 << (interviewParser.URL - 128)) | (1 << (interviewParser.LIST_LINE - 128)) | (1 << (interviewParser.ENCLBARS - 128)))) !== 0));
+			} while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << interviewParser.OPDOT) | (1 << interviewParser.S) | (1 << interviewParser.BitInterview) | (1 << interviewParser.BitInterviewinstgrp) | (1 << interviewParser.OPDOLL) | (1 << interviewParser.OPBUL) | (1 << interviewParser.OPESC) | (1 << interviewParser.OPRANGLES) | (1 << interviewParser.OPRANGLEL) | (1 << interviewParser.OPDANGLE) | (1 << interviewParser.OPU) | (1 << interviewParser.OPB) | (1 << interviewParser.OPQ) | (1 << interviewParser.OPA) | (1 << interviewParser.OPP) | (1 << interviewParser.OPM) | (1 << interviewParser.OPS) | (1 << interviewParser.OPR) | (1 << interviewParser.OPC) | (1 << interviewParser.OPHASH) | (1 << interviewParser.COLON) | (1 << interviewParser.AMP) | (1 << interviewParser.DBLCOLON) | (1 << interviewParser.PLUS) | (1 << interviewParser.DotAt) | (1 << interviewParser.Greater) | (1 << interviewParser.Less) | (1 << interviewParser.RightAngle) | (1 << interviewParser.RightArrow) | (1 << interviewParser.DBLEQ))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (interviewParser.OR - 32)) | (1 << (interviewParser.HSPL - 32)) | (1 << (interviewParser.HSPL2 - 32)) | (1 << (interviewParser.SSPL - 32)) | (1 << (interviewParser.SSPL2 - 32)) | (1 << (interviewParser.BULLET - 32)) | (1 << (interviewParser.COMMENT - 32)) | (1 << (interviewParser.DCANY - 32)) | (1 << (interviewParser.Image_type - 32)) | (1 << (interviewParser.Audio_type - 32)) | (1 << (interviewParser.Video_type - 32)) | (1 << (interviewParser.ArticleText - 32)) | (1 << (interviewParser.NOTCL - 32)) | (1 << (interviewParser.NUMERIC - 32)) | (1 << (interviewParser.STRING - 32)) | (1 << (interviewParser.NL - 32)) | (1 << (interviewParser.NOTBITMARK - 32)) | (1 << (interviewParser.SENTENCE - 32)) | (1 << (interviewParser.BARSTRING - 32)) | (1 << (interviewParser.OPAT - 32)) | (1 << (interviewParser.AtProgress - 32)) | (1 << (interviewParser.AtReference - 32)) | (1 << (interviewParser.AtWidth - 32)) | (1 << (interviewParser.AtHeight - 32)) | (1 << (interviewParser.AtProgressPoints - 32)) | (1 << (interviewParser.AtShortanswer - 32)) | (1 << (interviewParser.AtLonganswer - 32)) | (1 << (interviewParser.AtExampleWithStr - 32)) | (1 << (interviewParser.AtExamplecol - 32)) | (1 << (interviewParser.AtExamplecl - 32)) | (1 << (interviewParser.AtSampleSolution - 32)) | (1 << (interviewParser.AtPartialAnswerS - 32)))) !== 0) || ((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (interviewParser.AtPartialAnswer - 64)) | (1 << (interviewParser.AtLabeltrue - 64)) | (1 << (interviewParser.AtLabelfalse - 64)) | (1 << (interviewParser.AtPoints - 64)) | (1 << (interviewParser.AtSrc - 64)) | (1 << (interviewParser.AtPartner - 64)) | (1 << (interviewParser.OPATALT - 64)) | (1 << (interviewParser.OPAMARK - 64)) | (1 << (interviewParser.ShowInIndex - 64)) | (1 << (interviewParser.OpAtCaption - 64)) | (1 << (interviewParser.OpAtLicense - 64)) | (1 << (interviewParser.OpAtCopyright - 64)) | (1 << (interviewParser.OpAtSearch - 64)) | (1 << (interviewParser.OpAtIsTracked - 64)) | (1 << (interviewParser.OpAtIsInfoOnly - 64)) | (1 << (interviewParser.AtDate - 64)) | (1 << (interviewParser.Http - 64)) | (1 << (interviewParser.Https - 64)) | (1 << (interviewParser.AmpAudio - 64)) | (1 << (interviewParser.AmpImage - 64)) | (1 << (interviewParser.AmpImageZoom - 64)) | (1 << (interviewParser.AmpImageWAudio - 64)) | (1 << (interviewParser.AmpVideo - 64)) | (1 << (interviewParser.AmpArticle - 64)) | (1 << (interviewParser.AmpDocument - 64)) | (1 << (interviewParser.AmpApp - 64)) | (1 << (interviewParser.AmpWebsite - 64)) | (1 << (interviewParser.AmpStillImageFilm - 64)) | (1 << (interviewParser.AmpPdf - 64)) | (1 << (interviewParser.OpAmpAudio - 64)) | (1 << (interviewParser.OpAmpImage - 64)) | (1 << (interviewParser.OpAmpImageZoom - 64)))) !== 0) || ((((_la - 96)) & ~0x1F) === 0 && ((1 << (_la - 96)) & ((1 << (interviewParser.OpAmpImageWAudio - 96)) | (1 << (interviewParser.OpAmpVideo - 96)) | (1 << (interviewParser.OpAmpArticle - 96)) | (1 << (interviewParser.OpAmpArticleAtt - 96)) | (1 << (interviewParser.OpAmpDocument - 96)) | (1 << (interviewParser.OpAmpApp - 96)) | (1 << (interviewParser.OpAmpWebsite - 96)) | (1 << (interviewParser.OpAmpStillImageFilm - 96)) | (1 << (interviewParser.BracEnclose - 96)) | (1 << (interviewParser.AmpAudioLink - 96)) | (1 << (interviewParser.AmpImageLink - 96)) | (1 << (interviewParser.AmpVideoLink - 96)) | (1 << (interviewParser.AmpArticleLink - 96)) | (1 << (interviewParser.AmpDocumentLink - 96)) | (1 << (interviewParser.AmpDocumentDownload - 96)) | (1 << (interviewParser.AmpAppLink - 96)) | (1 << (interviewParser.AmpWebsiteLink - 96)) | (1 << (interviewParser.AmpStillImageFilmLink - 96)) | (1 << (interviewParser.OpAmpAudioLink - 96)) | (1 << (interviewParser.OpAmpImageLink - 96)) | (1 << (interviewParser.OpAmpVideoLink - 96)) | (1 << (interviewParser.OpAmpArticleLink - 96)) | (1 << (interviewParser.OpAmpDocumentLink - 96)) | (1 << (interviewParser.OpAmpDocumentDownload - 96)) | (1 << (interviewParser.OpAmpAppLink - 96)) | (1 << (interviewParser.OpAmpWebsiteLink - 96)) | (1 << (interviewParser.OpAmpStillImageFilmLink - 96)) | (1 << (interviewParser.AmpImageEmbed - 96)) | (1 << (interviewParser.AmpVideoEmbed - 96)) | (1 << (interviewParser.AmpAudioEmbed - 96)) | (1 << (interviewParser.AmpDocumentEmbed - 96)) | (1 << (interviewParser.AmpStillImageFilmEmbed - 96)))) !== 0) || ((((_la - 128)) & ~0x1F) === 0 && ((1 << (_la - 128)) & ((1 << (interviewParser.OpAmpImageEmbed - 128)) | (1 << (interviewParser.OpAmpVideoEmbed - 128)) | (1 << (interviewParser.OpAmpAudioEmbed - 128)) | (1 << (interviewParser.OpAmpDocumentEmbed - 128)) | (1 << (interviewParser.OpAmpStillImageFilmEmbed - 128)) | (1 << (interviewParser.BitmarkMinus - 128)) | (1 << (interviewParser.BitmarkPlus - 128)) | (1 << (interviewParser.ColonText - 128)) | (1 << (interviewParser.ColonJson - 128)) | (1 << (interviewParser.Prosemirror - 128)) | (1 << (interviewParser.Placeholder - 128)) | (1 << (interviewParser.BASIC - 128)) | (1 << (interviewParser.JPG - 128)) | (1 << (interviewParser.PNG - 128)) | (1 << (interviewParser.GIF - 128)) | (1 << (interviewParser.SVG - 128)) | (1 << (interviewParser.MP2 - 128)) | (1 << (interviewParser.MP3 - 128)) | (1 << (interviewParser.MP4 - 128)) | (1 << (interviewParser.FLV - 128)) | (1 << (interviewParser.WMV - 128)) | (1 << (interviewParser.MPEG - 128)) | (1 << (interviewParser.MPG - 128)) | (1 << (interviewParser.TEL - 128)) | (1 << (interviewParser.DotArticleAtt - 128)) | (1 << (interviewParser.STAR - 128)) | (1 << (interviewParser.URL - 128)) | (1 << (interviewParser.LIST_LINE - 128)) | (1 << (interviewParser.ENCLBARS - 128)))) !== 0));
 			this.state = 1177;
 			this.match(interviewParser.CL);
 			}
@@ -6952,7 +6959,7 @@ export class interviewParser extends Parser {
 
 	private static readonly _serializedATNSegments: number = 3;
 	private static readonly _serializedATNSegment0: string =
-		"\x03\uC91D\uCABA\u058D\uAFBA\u4F53\u0607\uEA8B\uC241\x03\x9C\u0559\x04" +
+		"\x03\uC91D\uCABA\u058D\uAFBA\u4F53\u0607\uEA8B\uC241\x03\x9E\u0559\x04" +
 		"\x02\t\x02\x04\x03\t\x03\x04\x04\t\x04\x04\x05\t\x05\x04\x06\t\x06\x04" +
 		"\x07\t\x07\x04\b\t\b\x04\t\t\t\x04\n\t\n\x04\v\t\v\x04\f\t\f\x04\r\t\r" +
 		"\x04\x0E\t\x0E\x04\x0F\t\x0F\x04\x10\t\x10\x04\x11\t\x11\x04\x12\t\x12" +
@@ -7087,10 +7094,10 @@ export class interviewParser extends Parser {
 		"\x8A\x02\x8C\x02\x8E\x02\x90\x02\x92\x02\x94\x02\x96\x02\x98\x02\x9A\x02" +
 		"\x9C\x02\x9E\x02\xA0\x02\xA2\x02\xA4\x02\xA6\x02\xA8\x02\xAA\x02\xAC\x02" +
 		"\xAE\x02\xB0\x02\xB2\x02\xB4\x02\xB6\x02\xB8\x02\xBA\x02\xBC\x02\xBE\x02" +
-		"\x02\x17\x03\x02#$\x03\x02AB\b\x02YZ\\]kr|\x7F\x85\x86\x88\x8A\x05\x02" +
-		"XXmm||\x04\x02YYnn\x05\x02ZZoo~~\x04\x02[[pp\x04\x02\\\\qq\x05\x02]]r" +
-		"r\x7F\x7F\x04\x02ddvv\x05\x02ffww\x83\x83\x04\x02ggxx\x04\x02hhyy\x05" +
-		"\x02iizz\x84\x84\x03\x0289\x04\x02HHKN\x03\x02\x17\x17\x04\x02\x18\x18" +
+		"\x02\x17\x03\x02#$\x03\x02AB\b\x02YZ\\]ks~\x81\x87\x88\x8A\x8C\x05\x02" +
+		"XXmm~~\x04\x02YYnn\x05\x02ZZop\x80\x80\x04\x02[[qq\x04\x02\\\\rr\x05\x02" +
+		"]]ss\x81\x81\x04\x02ddww\x05\x02ffxy\x85\x85\x04\x02ggzz\x04\x02hh{{\x05" +
+		"\x02ii||\x86\x86\x03\x0289\x04\x02HHKN\x03\x02\x17\x17\x04\x02\x18\x18" +
 		"\x1A\x1A\x03\x02%&\x03\x02\x1D\x1D\x03\x02\x1E\x1E\x02\u0627\x02\xCD\x03" +
 		"\x02\x02\x02\x04\xD9\x03\x02\x02\x02\x06\xDD\x03\x02\x02\x02\b\xDF\x03" +
 		"\x02\x02\x02\n\u0112\x03\x02\x02\x02\f\u0140\x03\x02\x02\x02\x0E\u0142" +
@@ -7250,7 +7257,7 @@ export class interviewParser extends Parser {
 		"\u01BD\x03\x02\x02\x02\u01BD\u01C0\x03\x02\x02\x02\u01BE\u01BC\x03\x02" +
 		"\x02\x02\u01BF\u01B5\x03\x02\x02\x02\u01C0\u01C1\x03\x02\x02\x02\u01C1" +
 		"\u01BF\x03\x02\x02\x02\u01C1\u01C2\x03\x02\x02\x02\u01C2\u01C5\x03\x02" +
-		"\x02\x02\u01C3\u01C5\x07\x9B\x02\x02\u01C4\u01B3\x03\x02\x02\x02\u01C4" +
+		"\x02\x02\u01C3\u01C5\x07\x9D\x02\x02\u01C4\u01B3\x03\x02\x02\x02\u01C4" +
 		"\u01C3\x03\x02\x02\x02\u01C5\x19\x03\x02\x02\x02\u01C6\u01C8\x05\xBC_" +
 		"\x02\u01C7\u01C9\x07\x18\x02\x02\u01C8\u01C7\x03\x02\x02\x02\u01C8\u01C9" +
 		"\x03\x02\x02\x02\u01C9\u01CB\x03\x02\x02\x02\u01CA\u01C6\x03\x02\x02\x02" +
@@ -7327,7 +7334,7 @@ export class interviewParser extends Parser {
 		"\u0254\x03\x02\x02\x02\u0256\u0255\x03\x02\x02\x02\u0257\u025B\x03\x02" +
 		"\x02\x02\u0258\u025A\x071\x02\x02\u0259\u0258\x03\x02\x02\x02\u025A\u025D" +
 		"\x03\x02\x02\x02\u025B\u0259\x03\x02\x02\x02\u025B\u025C\x03\x02\x02\x02" +
-		"\u025C7\x03\x02\x02\x02\u025D\u025B\x03\x02\x02\x02\u025E\u0261\x07\x9B" +
+		"\u025C7\x03\x02\x02\x02\u025D\u025B\x03\x02\x02\x02\u025E\u0261\x07\x9D" +
 		"\x02\x02\u025F\u0261\x05\xB6\\\x02\u0260\u025E\x03\x02\x02\x02\u0260\u025F" +
 		"\x03\x02\x02\x02\u0261\u0262\x03\x02\x02\x02\u0262\u0260\x03\x02\x02\x02" +
 		"\u0262\u0263\x03\x02\x02\x02\u02639\x03\x02\x02\x02\u0264\u026C\x05<\x1F" +
@@ -7347,7 +7354,7 @@ export class interviewParser extends Parser {
 		"\x17\x02\x02\u0280?\x03\x02\x02\x02\u0281\u0283\x05B\"\x02\u0282\u0281" +
 		"\x03\x02\x02\x02\u0283\u0286\x03\x02\x02\x02\u0284\u0282\x03\x02\x02\x02" +
 		"\u0284\u0285\x03\x02\x02\x02\u0285\u028C\x03\x02\x02\x02\u0286\u0284\x03" +
-		"\x02\x02\x02\u0287\u028B\x07\x87\x02\x02\u0288\u028B\x07\x88\x02\x02\u0289" +
+		"\x02\x02\x02\u0287\u028B\x07\x89\x02\x02\u0288\u028B\x07\x8A\x02\x02\u0289" +
 		"\u028B\x05D#\x02\u028A\u0287\x03\x02\x02\x02\u028A\u0288\x03\x02\x02\x02" +
 		"\u028A\u0289\x03\x02\x02\x02\u028B\u028E\x03\x02\x02\x02\u028C\u028A\x03" +
 		"\x02\x02\x02\u028C\u028D\x03\x02\x02\x02\u028DA\x03\x02\x02\x02\u028E" +
@@ -7359,12 +7366,12 @@ export class interviewParser extends Parser {
 		"\x02\x02\u029A\u0294\x03\x02\x02\x02\u029A\u0295\x03\x02\x02\x02\u029A" +
 		"\u0296\x03\x02\x02\x02\u029A\u0297\x03\x02\x02\x02\u029A\u0298\x03\x02" +
 		"\x02\x02\u029A\u0299\x03\x02\x02\x02\u029BE\x03\x02\x02\x02\u029C\u02A2" +
-		"\x07\x85\x02\x02\u029D\u02A2\x07\x86\x02\x02\u029E\u02A2\x07\x87\x02\x02" +
-		"\u029F\u02A2\x07\x88\x02\x02\u02A0\u02A2\x03\x02\x02\x02\u02A1\u029C\x03" +
+		"\x07\x87\x02\x02\u029D\u02A2\x07\x88\x02\x02\u029E\u02A2\x07\x89\x02\x02" +
+		"\u029F\u02A2\x07\x8A\x02\x02\u02A0\u02A2\x03\x02\x02\x02\u02A1\u029C\x03" +
 		"\x02\x02\x02\u02A1\u029D\x03\x02\x02\x02\u02A1\u029E\x03\x02\x02\x02\u02A1" +
 		"\u029F\x03\x02\x02\x02\u02A1\u02A0\x03\x02\x02\x02\u02A2G\x03\x02\x02" +
 		"\x02\u02A3\u02A6\x07U\x02\x02\u02A4\u02A7\x07*\x02\x02\u02A5\u02A7\x07" +
-		"\x98\x02\x02\u02A6\u02A4\x03\x02\x02\x02\u02A6\u02A5\x03\x02\x02\x02\u02A6" +
+		"\x9A\x02\x02\u02A6\u02A4\x03\x02\x02\x02\u02A6\u02A5\x03\x02\x02\x02\u02A6" +
 		"\u02A7\x03\x02\x02\x02\u02A7\u02B2\x03\x02\x02\x02\u02A8\u02AA\x07l\x02" +
 		"\x02\u02A9\u02AB\x07*\x02\x02\u02AA\u02A9\x03\x02\x02\x02\u02AA\u02AB" +
 		"\x03\x02\x02\x02\u02AB\u02B2\x03\x02\x02\x02\u02AC\u02AE\x07V\x02\x02" +
@@ -7382,10 +7389,10 @@ export class interviewParser extends Parser {
 		"\r\x02\x02\u02C7[\x03\x02\x02\x02\u02C8\u02C9\t\x0E\x02\x02\u02C9]\x03" +
 		"\x02\x02\x02\u02CA\u02CD\x07c\x02\x02\u02CB\u02CC\x07\x18\x02\x02\u02CC" +
 		"\u02CE\x07,\x02\x02\u02CD\u02CB\x03\x02\x02\x02\u02CD\u02CE\x03\x02\x02" +
-		"\x02\u02CE\u02DA\x03\x02\x02\x02\u02CF\u02D2\x07u\x02\x02\u02D0\u02D1" +
+		"\x02\u02CE\u02DA\x03\x02\x02\x02\u02CF\u02D2\x07v\x02\x02\u02D0\u02D1" +
 		"\x07\x18\x02\x02\u02D1\u02D3\x07,\x02\x02\u02D2\u02D0\x03\x02\x02\x02" +
 		"\u02D2\u02D3\x03\x02\x02\x02\u02D3\u02DA\x03\x02\x02\x02\u02D4\u02D7\x07" +
-		"\x81\x02\x02\u02D5\u02D6\x07\x18\x02\x02\u02D6\u02D8\x07,\x02\x02\u02D7" +
+		"\x83\x02\x02\u02D5\u02D6\x07\x18\x02\x02\u02D6\u02D8\x07,\x02\x02\u02D7" +
 		"\u02D5\x03\x02\x02\x02\u02D7\u02D8\x03\x02\x02\x02\u02D8\u02DA\x03\x02" +
 		"\x02\x02\u02D9\u02CA\x03\x02\x02\x02\u02D9\u02CF\x03\x02\x02\x02\u02D9" +
 		"\u02D4\x03\x02\x02\x02\u02DA_\x03\x02\x02\x02\u02DB\u02DC\t\x0F\x02\x02" +
@@ -7431,9 +7438,9 @@ export class interviewParser extends Parser {
 		"\x02\x02\u0339\u033A\x03\x02\x02\x02\u033A\u033C\x03\x02\x02\x02\u033B" +
 		"\u0339\x03\x02\x02\x02\u033C\u033D\x05\x88E\x02\u033D\u033E\x07\x17\x02" +
 		"\x02\u033Eu\x03\x02\x02\x02\u033F\u0342\x07`\x02\x02\u0340\u0343\x07*" +
-		"\x02\x02\u0341\u0343\x07\x98\x02\x02\u0342\u0340\x03\x02\x02\x02\u0342" +
+		"\x02\x02\u0341\u0343\x07\x9A\x02\x02\u0342\u0340\x03\x02\x02\x02\u0342" +
 		"\u0341\x03\x02\x02\x02\u0342\u0343\x03\x02\x02\x02\u0343\u034E\x03\x02" +
-		"\x02\x02\u0344\u0346\x07t\x02\x02\u0345\u0347\x07*\x02\x02\u0346\u0345" +
+		"\x02\x02\u0344\u0346\x07u\x02\x02\u0345\u0347\x07*\x02\x02\u0346\u0345" +
 		"\x03\x02\x02\x02\u0346\u0347\x03\x02\x02\x02\u0347\u034E\x03\x02\x02\x02" +
 		"\u0348\u034A\x07a\x02\x02\u0349\u034B\x07*\x02\x02\u034A\u0349\x03\x02" +
 		"\x02\x02\u034A\u034B\x03\x02\x02\x02\u034B\u034E\x03\x02\x02\x02\u034C" +
@@ -7471,9 +7478,9 @@ export class interviewParser extends Parser {
 		"\x02\x02\u0390\u038B\x03\x02\x02\x02\u0391\x81\x03\x02\x02\x02\u0392\u0395" +
 		"\x07_\x02\x02\u0393\u0394\x07\x18\x02\x02\u0394\u0396\x07+\x02\x02\u0395" +
 		"\u0393\x03\x02\x02\x02\u0395\u0396\x03\x02\x02\x02\u0396\u03A2\x03\x02" +
-		"\x02\x02\u0397\u039A\x07s\x02\x02\u0398\u0399\x07\x18\x02\x02\u0399\u039B" +
+		"\x02\x02\u0397\u039A\x07t\x02\x02\u0398\u0399\x07\x18\x02\x02\u0399\u039B" +
 		"\x07+\x02\x02\u039A\u0398\x03\x02\x02\x02\u039A\u039B\x03\x02\x02\x02" +
-		"\u039B\u03A2\x03\x02\x02\x02\u039C\u039F\x07\x82\x02\x02\u039D\u039E\x07" +
+		"\u039B\u03A2\x03\x02\x02\x02\u039C\u039F\x07\x84\x02\x02\u039D\u039E\x07" +
 		"\x18\x02\x02\u039E\u03A0\x07+\x02\x02\u039F\u039D\x03\x02\x02\x02\u039F" +
 		"\u03A0\x03\x02\x02\x02\u03A0\u03A2\x03\x02\x02\x02\u03A1\u0392\x03\x02" +
 		"\x02\x02\u03A1\u0397\x03\x02\x02\x02\u03A1\u039C\x03\x02\x02\x02\u03A2" +
@@ -7492,9 +7499,9 @@ export class interviewParser extends Parser {
 		"\x03\x02\x02\x02\u03BE\u03BF\x03\x02\x02\x02\u03BE\u03BC\x03\x02\x02\x02" +
 		"\u03BF\u03C1\x03\x02\x02\x02\u03C0\u03BE\x03\x02\x02\x02\u03C1\u03C3\x07" +
 		"\x17\x02\x02\u03C2\u03A6\x03\x02\x02\x02\u03C2\u03B6\x03\x02\x02\x02\u03C2" +
-		"\u03BA\x03\x02\x02\x02\u03C3\x85\x03\x02\x02\x02\u03C4\u03C5\x07\x97\x02" +
+		"\u03BA\x03\x02\x02\x02\u03C3\x85\x03\x02\x02\x02\u03C4\u03C5\x07\x99\x02" +
 		"\x02\u03C5\u03C6\x07\x1B\x02\x02\u03C6\u03C7\x07/\x02\x02\u03C7\x87\x03" +
-		"\x02\x02\x02\u03C8\u03C9\x07\x9A\x02\x02\u03C9\x89\x03\x02\x02\x02\u03CA" +
+		"\x02\x02\x02\u03C8\u03C9\x07\x9C\x02\x02\u03C9\x89\x03\x02\x02\x02\u03CA" +
 		"\u03CB\x07\x15\x02\x02\u03CB\u03D3\x07\x17\x02\x02\u03CC\u03CE\x07\x04" +
 		"\x02\x02\u03CD\u03CC\x03\x02\x02\x02\u03CE\u03D1\x03\x02\x02\x02\u03CF" +
 		"\u03CD\x03\x02\x02\x02\u03CF\u03D0\x03\x02\x02\x02\u03D0\u03D2\x03\x02" +
@@ -7547,13 +7554,13 @@ export class interviewParser extends Parser {
 		"\u0430\x03\x02\x02\x02\u042F\u042D\x03\x02\x02\x02\u0430\u0432\x07\x02" +
 		"\x02\x03\u0431\u040A\x03\x02\x02\x02\u0431\u0427\x03\x02\x02\x02\u0432" +
 		"\x93\x03\x02\x02\x02\u0433\u0438\x077\x02\x02\u0434\u0439\x05\xB6\\\x02" +
-		"\u0435\u0439\x07\x18\x02\x02\u0436\u0439\x07\x9A\x02\x02\u0437\u0439\x07" +
+		"\u0435\u0439\x07\x18\x02\x02\u0436\u0439\x07\x9C\x02\x02\u0437\u0439\x07" +
 		"1\x02\x02\u0438\u0434\x03\x02\x02\x02\u0438\u0435\x03\x02\x02\x02\u0438" +
 		"\u0436\x03\x02\x02\x02\u0438\u0437\x03\x02\x02\x02\u0439\u043A\x03\x02" +
 		"\x02\x02\u043A\u0438\x03\x02\x02\x02\u043A\u043B\x03\x02\x02\x02\u043B" +
 		"\u043C\x03\x02\x02\x02\u043C\u044A\x07\x17\x02\x02\u043D\u0445\x077\x02" +
 		"\x02\u043E\u0444\x05\xB6\\\x02\u043F\u0444\x07\x18\x02\x02\u0440\u0444" +
-		"\x07\x9A\x02\x02\u0441\u0444\x071\x02\x02\u0442\u0444\x07\x04\x02\x02" +
+		"\x07\x9C\x02\x02\u0441\u0444\x071\x02\x02\u0442\u0444\x07\x04\x02\x02" +
 		"\u0443\u043E\x03\x02\x02\x02\u0443\u043F\x03\x02\x02\x02\u0443\u0440\x03" +
 		"\x02\x02\x02\u0443\u0441\x03\x02\x02\x02\u0443\u0442\x03\x02\x02\x02\u0444" +
 		"\u0447\x03\x02\x02\x02\u0445\u0443\x03\x02\x02\x02\u0445\u0446\x03\x02" +
@@ -7671,7 +7678,7 @@ export class interviewParser extends Parser {
 		"\x02\x02\u0539\u0538\x03\x02\x02\x02\u053A\u053D\x03\x02\x02\x02\u053B" +
 		"\u0539\x03\x02\x02\x02\u053B\u053C\x03\x02\x02\x02\u053C\u0542\x03\x02" +
 		"\x02\x02\u053D\u053B\x03\x02\x02\x02\u053E\u0542\x07\x1A\x02\x02\u053F" +
-		"\u0542\x07!\x02\x02\u0540\u0542\x07\x9A\x02\x02\u0541\u0512\x03\x02\x02" +
+		"\u0542\x07!\x02\x02\u0540\u0542\x07\x9C\x02\x02\u0541\u0512\x03\x02\x02" +
 		"\x02\u0541\u051B\x03\x02\x02\x02\u0541\u0524\x03\x02\x02\x02\u0541\u0525" +
 		"\x03\x02\x02\x02\u0541\u0529\x03\x02\x02\x02\u0541\u052D\x03\x02\x02\x02" +
 		"\u0541\u0537\x03\x02\x02\x02\u0541\u053E\x03\x02\x02\x02\u0541\u053F\x03" +
@@ -9084,6 +9091,7 @@ export class Resource_formatContext extends ParserRuleContext {
 	public AmpAudioEmbed(): TerminalNode | undefined { return this.tryGetToken(interviewParser.AmpAudioEmbed, 0); }
 	public AmpDocumentEmbed(): TerminalNode | undefined { return this.tryGetToken(interviewParser.AmpDocumentEmbed, 0); }
 	public AmpStillImageFilmEmbed(): TerminalNode | undefined { return this.tryGetToken(interviewParser.AmpStillImageFilmEmbed, 0); }
+	public AmpDocumentDownload(): TerminalNode | undefined { return this.tryGetToken(interviewParser.AmpDocumentDownload, 0); }
 	constructor(parent: ParserRuleContext | undefined, invokingState: number) {
 		super(parent, invokingState);
 	}
@@ -9254,6 +9262,7 @@ export class Article_formatContext extends ParserRuleContext {
 export class Document_formatContext extends ParserRuleContext {
 	public AmpDocument(): TerminalNode | undefined { return this.tryGetToken(interviewParser.AmpDocument, 0); }
 	public AmpDocumentLink(): TerminalNode | undefined { return this.tryGetToken(interviewParser.AmpDocumentLink, 0); }
+	public AmpDocumentDownload(): TerminalNode | undefined { return this.tryGetToken(interviewParser.AmpDocumentDownload, 0); }
 	public AmpDocumentEmbed(): TerminalNode | undefined { return this.tryGetToken(interviewParser.AmpDocumentEmbed, 0); }
 	constructor(parent: ParserRuleContext | undefined, invokingState: number) {
 		super(parent, invokingState);
@@ -9371,6 +9380,7 @@ export class Op_article_formatContext extends ParserRuleContext {
 export class Op_document_formatContext extends ParserRuleContext {
 	public OpAmpDocumentLink(): TerminalNode | undefined { return this.tryGetToken(interviewParser.OpAmpDocumentLink, 0); }
 	public OpAmpDocument(): TerminalNode | undefined { return this.tryGetToken(interviewParser.OpAmpDocument, 0); }
+	public OpAmpDocumentDownload(): TerminalNode | undefined { return this.tryGetToken(interviewParser.OpAmpDocumentDownload, 0); }
 	public OpAmpDocumentEmbed(): TerminalNode | undefined { return this.tryGetToken(interviewParser.OpAmpDocumentEmbed, 0); }
 	constructor(parent: ParserRuleContext | undefined, invokingState: number) {
 		super(parent, invokingState);

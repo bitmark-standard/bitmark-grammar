@@ -55,7 +55,6 @@ import { CorrsContext } from "./bitmarkParser";
 import { Mark_Context } from "./bitmarkParser";
 import { Mark_textContext } from "./bitmarkParser";
 import { Mark_colorContext } from "./bitmarkParser";
-import { Document_uploadContext } from "./bitmarkParser";
 import { Take_audioContext } from "./bitmarkParser";
 import { Take_pictureContext } from "./bitmarkParser";
 import { Record_audioContext } from "./bitmarkParser";
@@ -808,17 +807,6 @@ export interface bitmarkParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitMark_color?: (ctx: Mark_colorContext) => void;
-
-	/**
-	 * Enter a parse tree produced by `bitmarkParser.document_upload`.
-	 * @param ctx the parse tree
-	 */
-	enterDocument_upload?: (ctx: Document_uploadContext) => void;
-	/**
-	 * Exit a parse tree produced by `bitmarkParser.document_upload`.
-	 * @param ctx the parse tree
-	 */
-	exitDocument_upload?: (ctx: Document_uploadContext) => void;
 
 	/**
 	 * Enter a parse tree produced by `bitmarkParser.take_audio`.

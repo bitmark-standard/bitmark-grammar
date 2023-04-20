@@ -54,6 +54,7 @@ let BitmarkListener = function(error_listener, source, parser) {
 		       '&app-link': 'appLink',
 		       '&website-link': 'websiteLink',
 		       '&document-link': 'documentLink',
+		       '&document-download': 'documentDownload',
 		      };
   this.resimagegrp = ['screenshot', 'focus-image', 'photo', 'browser-image'];  // implicit image group
   this.reslist     = ['&image', '&audio', '&video', '&document', '&app', '&website', '&still-image-film', '&pdf'];
@@ -2381,7 +2382,7 @@ BitmarkListener.prototype.exitDocumentbit = function(ctx) {
       bit[slot][key] = url;
       bit[slot]['private'] = {};
     }
-    if (what==='&document-link') {
+    if (-1 < ['&document-link', '&document-download'].indexOf(what)) {
       let key = what.substr(1);  // remove &
       bit[slot] = {}; // slot=resource
       bit[slot]['type'] = key;  // document

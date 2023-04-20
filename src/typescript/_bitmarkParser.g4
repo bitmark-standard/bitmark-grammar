@@ -37,7 +37,6 @@ bit:
  	| essay
 	| correction
 	| mark_
-	| document_upload
 	| take_picture | take_audio
 	| record_audio
 	| preparation_note
@@ -253,12 +252,12 @@ mark_:
 mark_text:  OPS  s_and_w CL mark_color? (hint|item|instruction)* ;
 mark_color: OPAMARK S* STRING S* CL ;
 
-//
-document_upload:
-    BitDocup ( Video_type | Audio_type | Image_type )?
-    	CL NL ( bitElem NL* )*
-	NL* ( resource (NL* resource)* )?
-;
+// Obsolete 4/20/2023
+//document_upload:
+//    BitDocup ( Video_type | Audio_type | Image_type )?
+//    	CL NL ( bitElem NL* )*
+//	NL* ( resource (NL* resource)* )?
+//;
 
 //
 take_audio:

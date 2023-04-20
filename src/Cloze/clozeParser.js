@@ -1670,7 +1670,7 @@ class clozeParser extends Parser_1.Parser {
                 this.state = 567;
                 this._errHandler.sync(this);
                 _la = this._input.LA(1);
-                while (((((_la - 81)) & ~0x1F) === 0 && ((1 << (_la - 81)) & ((1 << (clozeParser.AmpAudio - 81)) | (1 << (clozeParser.AmpImage - 81)) | (1 << (clozeParser.AmpImageZoom - 81)) | (1 << (clozeParser.AmpImageWAudio - 81)) | (1 << (clozeParser.AmpVideo - 81)) | (1 << (clozeParser.AmpArticle - 81)) | (1 << (clozeParser.AmpDocument - 81)) | (1 << (clozeParser.AmpApp - 81)) | (1 << (clozeParser.AmpWebsite - 81)) | (1 << (clozeParser.AmpStillImageFilm - 81)) | (1 << (clozeParser.AmpPdf - 81)) | (1 << (clozeParser.AmpAudioLink - 81)) | (1 << (clozeParser.AmpImageLink - 81)) | (1 << (clozeParser.AmpVideoLink - 81)) | (1 << (clozeParser.AmpArticleLink - 81)) | (1 << (clozeParser.AmpDocumentLink - 81)) | (1 << (clozeParser.AmpAppLink - 81)) | (1 << (clozeParser.AmpWebsiteLink - 81)) | (1 << (clozeParser.AmpStillImageFilmLink - 81)))) !== 0) || ((((_la - 121)) & ~0x1F) === 0 && ((1 << (_la - 121)) & ((1 << (clozeParser.AmpVideoEmbed - 121)) | (1 << (clozeParser.AmpDocumentEmbed - 121)) | (1 << (clozeParser.AmpStillImageFilmEmbed - 121)) | (1 << (clozeParser.ColonText - 121)) | (1 << (clozeParser.ColonJson - 121)))) !== 0)) {
+                while (((((_la - 81)) & ~0x1F) === 0 && ((1 << (_la - 81)) & ((1 << (clozeParser.AmpAudio - 81)) | (1 << (clozeParser.AmpImage - 81)) | (1 << (clozeParser.AmpImageZoom - 81)) | (1 << (clozeParser.AmpImageWAudio - 81)) | (1 << (clozeParser.AmpVideo - 81)) | (1 << (clozeParser.AmpArticle - 81)) | (1 << (clozeParser.AmpDocument - 81)) | (1 << (clozeParser.AmpApp - 81)) | (1 << (clozeParser.AmpWebsite - 81)) | (1 << (clozeParser.AmpStillImageFilm - 81)) | (1 << (clozeParser.AmpPdf - 81)) | (1 << (clozeParser.AmpAudioLink - 81)) | (1 << (clozeParser.AmpImageLink - 81)) | (1 << (clozeParser.AmpVideoLink - 81)) | (1 << (clozeParser.AmpArticleLink - 81)) | (1 << (clozeParser.AmpDocumentLink - 81)) | (1 << (clozeParser.AmpDocumentDownload - 81)) | (1 << (clozeParser.AmpAppLink - 81)) | (1 << (clozeParser.AmpWebsiteLink - 81)) | (1 << (clozeParser.AmpStillImageFilmLink - 81)))) !== 0) || ((((_la - 123)) & ~0x1F) === 0 && ((1 << (_la - 123)) & ((1 << (clozeParser.AmpVideoEmbed - 123)) | (1 << (clozeParser.AmpDocumentEmbed - 123)) | (1 << (clozeParser.AmpStillImageFilmEmbed - 123)) | (1 << (clozeParser.ColonText - 123)) | (1 << (clozeParser.ColonJson - 123)))) !== 0)) {
                     {
                         this.state = 565;
                         this._errHandler.sync(this);
@@ -1703,6 +1703,7 @@ class clozeParser extends Parser_1.Parser {
                             case clozeParser.AmpVideoLink:
                             case clozeParser.AmpArticleLink:
                             case clozeParser.AmpDocumentLink:
+                            case clozeParser.AmpDocumentDownload:
                             case clozeParser.AmpAppLink:
                             case clozeParser.AmpWebsiteLink:
                             case clozeParser.AmpStillImageFilmLink:
@@ -1749,7 +1750,7 @@ class clozeParser extends Parser_1.Parser {
             {
                 this.state = 570;
                 _la = this._input.LA(1);
-                if (!(((((_la - 86)) & ~0x1F) === 0 && ((1 << (_la - 86)) & ((1 << (clozeParser.AmpArticle - 86)) | (1 << (clozeParser.AmpDocument - 86)) | (1 << (clozeParser.AmpWebsite - 86)) | (1 << (clozeParser.AmpStillImageFilm - 86)) | (1 << (clozeParser.AmpAudioLink - 86)) | (1 << (clozeParser.AmpImageLink - 86)) | (1 << (clozeParser.AmpVideoLink - 86)) | (1 << (clozeParser.AmpArticleLink - 86)) | (1 << (clozeParser.AmpDocumentLink - 86)) | (1 << (clozeParser.AmpAppLink - 86)) | (1 << (clozeParser.AmpWebsiteLink - 86)) | (1 << (clozeParser.AmpStillImageFilmLink - 86)))) !== 0) || ((((_la - 121)) & ~0x1F) === 0 && ((1 << (_la - 121)) & ((1 << (clozeParser.AmpVideoEmbed - 121)) | (1 << (clozeParser.AmpAudioEmbed - 121)) | (1 << (clozeParser.AmpDocumentEmbed - 121)) | (1 << (clozeParser.AmpStillImageFilmEmbed - 121)) | (1 << (clozeParser.BitmarkMinus - 121)) | (1 << (clozeParser.BitmarkPlus - 121)) | (1 << (clozeParser.ColonJson - 121)) | (1 << (clozeParser.Prosemirror - 121)) | (1 << (clozeParser.Placeholder - 121)))) !== 0))) {
+                if (!(((((_la - 86)) & ~0x1F) === 0 && ((1 << (_la - 86)) & ((1 << (clozeParser.AmpArticle - 86)) | (1 << (clozeParser.AmpDocument - 86)) | (1 << (clozeParser.AmpWebsite - 86)) | (1 << (clozeParser.AmpStillImageFilm - 86)) | (1 << (clozeParser.AmpAudioLink - 86)) | (1 << (clozeParser.AmpImageLink - 86)) | (1 << (clozeParser.AmpVideoLink - 86)) | (1 << (clozeParser.AmpArticleLink - 86)) | (1 << (clozeParser.AmpDocumentLink - 86)) | (1 << (clozeParser.AmpDocumentDownload - 86)) | (1 << (clozeParser.AmpAppLink - 86)) | (1 << (clozeParser.AmpWebsiteLink - 86)) | (1 << (clozeParser.AmpStillImageFilmLink - 86)))) !== 0) || ((((_la - 123)) & ~0x1F) === 0 && ((1 << (_la - 123)) & ((1 << (clozeParser.AmpVideoEmbed - 123)) | (1 << (clozeParser.AmpAudioEmbed - 123)) | (1 << (clozeParser.AmpDocumentEmbed - 123)) | (1 << (clozeParser.AmpStillImageFilmEmbed - 123)) | (1 << (clozeParser.BitmarkMinus - 123)) | (1 << (clozeParser.BitmarkPlus - 123)) | (1 << (clozeParser.ColonJson - 123)) | (1 << (clozeParser.Prosemirror - 123)) | (1 << (clozeParser.Placeholder - 123)))) !== 0))) {
                     this._errHandler.recoverInline(this);
                 }
                 else {
@@ -1821,6 +1822,7 @@ class clozeParser extends Parser_1.Parser {
                     break;
                 case clozeParser.AmpDocument:
                 case clozeParser.AmpDocumentLink:
+                case clozeParser.AmpDocumentDownload:
                 case clozeParser.AmpDocumentEmbed:
                     this.enterOuterAlt(_localctx, 5);
                     {
@@ -1990,6 +1992,7 @@ class clozeParser extends Parser_1.Parser {
                             case clozeParser.AmpVideoLink:
                             case clozeParser.AmpArticleLink:
                             case clozeParser.AmpDocumentLink:
+                            case clozeParser.AmpDocumentDownload:
                             case clozeParser.AmpAppLink:
                             case clozeParser.AmpWebsiteLink:
                             case clozeParser.AmpStillImageFilmLink:
@@ -2157,7 +2160,7 @@ class clozeParser extends Parser_1.Parser {
             {
                 this.state = 613;
                 _la = this._input.LA(1);
-                if (!(_la === clozeParser.AmpDocument || _la === clozeParser.AmpDocumentLink || _la === clozeParser.AmpDocumentEmbed)) {
+                if (!(((((_la - 87)) & ~0x1F) === 0 && ((1 << (_la - 87)) & ((1 << (clozeParser.AmpDocument - 87)) | (1 << (clozeParser.AmpDocumentLink - 87)) | (1 << (clozeParser.AmpDocumentDownload - 87)))) !== 0) || _la === clozeParser.AmpDocumentEmbed)) {
                     this._errHandler.recoverInline(this);
                 }
                 else {
@@ -2342,7 +2345,7 @@ class clozeParser extends Parser_1.Parser {
             {
                 this.state = 623;
                 _la = this._input.LA(1);
-                if (!(((((_la - 99)) & ~0x1F) === 0 && ((1 << (_la - 99)) & ((1 << (clozeParser.OpAmpDocument - 99)) | (1 << (clozeParser.OpAmpDocumentLink - 99)) | (1 << (clozeParser.OpAmpDocumentEmbed - 99)))) !== 0))) {
+                if (!(((((_la - 99)) & ~0x1F) === 0 && ((1 << (_la - 99)) & ((1 << (clozeParser.OpAmpDocument - 99)) | (1 << (clozeParser.OpAmpDocumentLink - 99)) | (1 << (clozeParser.OpAmpDocumentDownload - 99)) | (1 << (clozeParser.OpAmpDocumentEmbed - 99)))) !== 0))) {
                     this._errHandler.recoverInline(this);
                 }
                 else {
@@ -4799,7 +4802,7 @@ class clozeParser extends Parser_1.Parser {
                     this.state = 1092;
                     this._errHandler.sync(this);
                     _la = this._input.LA(1);
-                } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << clozeParser.S) | (1 << clozeParser.OPDOT) | (1 << clozeParser.BitCloze) | (1 << clozeParser.BitClozeinstgrp) | (1 << clozeParser.BitClozesolgrp) | (1 << clozeParser.BitClozeandmulti) | (1 << clozeParser.OPSP) | (1 << clozeParser.OPDOLL) | (1 << clozeParser.OPBUL) | (1 << clozeParser.OPESC) | (1 << clozeParser.OPRANGLES) | (1 << clozeParser.OPRANGLEL) | (1 << clozeParser.OPDANGLE) | (1 << clozeParser.OPU) | (1 << clozeParser.OPB) | (1 << clozeParser.OPQ) | (1 << clozeParser.OPA) | (1 << clozeParser.OPP) | (1 << clozeParser.OPM) | (1 << clozeParser.OPS) | (1 << clozeParser.OPR) | (1 << clozeParser.OPC) | (1 << clozeParser.OPHASH) | (1 << clozeParser.COLON) | (1 << clozeParser.AMP) | (1 << clozeParser.DBLCOLON) | (1 << clozeParser.PLUS) | (1 << clozeParser.DotAt) | (1 << clozeParser.Greater) | (1 << clozeParser.Less))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (clozeParser.DBLEQ - 32)) | (1 << (clozeParser.RightAngle - 32)) | (1 << (clozeParser.RightArrow - 32)) | (1 << (clozeParser.OP_N_ETC - 32)) | (1 << (clozeParser.UNSCO - 32)) | (1 << (clozeParser.COMMENT - 32)) | (1 << (clozeParser.DCANY - 32)) | (1 << (clozeParser.Image_type - 32)) | (1 << (clozeParser.Audio_type - 32)) | (1 << (clozeParser.Video_type - 32)) | (1 << (clozeParser.ArticleText - 32)) | (1 << (clozeParser.NOTCL - 32)) | (1 << (clozeParser.NUMERIC - 32)) | (1 << (clozeParser.STRING - 32)) | (1 << (clozeParser.NL - 32)) | (1 << (clozeParser.NOTBITMARK - 32)) | (1 << (clozeParser.SENTENCE - 32)) | (1 << (clozeParser.BARSTRING - 32)) | (1 << (clozeParser.OPAT - 32)) | (1 << (clozeParser.AtProgress - 32)) | (1 << (clozeParser.AtReference - 32)) | (1 << (clozeParser.AtWidth - 32)) | (1 << (clozeParser.AtHeight - 32)) | (1 << (clozeParser.AtProgressPoints - 32)) | (1 << (clozeParser.AtShortanswer - 32)) | (1 << (clozeParser.AtLonganswer - 32)) | (1 << (clozeParser.AtExampleWithStr - 32)) | (1 << (clozeParser.AtExamplecol - 32)) | (1 << (clozeParser.AtExamplecl - 32)) | (1 << (clozeParser.AtSampleSolution - 32)) | (1 << (clozeParser.AtPartialAnswerS - 32)) | (1 << (clozeParser.AtPartialAnswer - 32)))) !== 0) || ((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (clozeParser.AtLabeltrue - 64)) | (1 << (clozeParser.AtLabelfalse - 64)) | (1 << (clozeParser.AtPoints - 64)) | (1 << (clozeParser.AtSrc - 64)) | (1 << (clozeParser.AtPartner - 64)) | (1 << (clozeParser.OPATALT - 64)) | (1 << (clozeParser.OPAMARK - 64)) | (1 << (clozeParser.ShowInIndex - 64)) | (1 << (clozeParser.OpAtCaption - 64)) | (1 << (clozeParser.OpAtLicense - 64)) | (1 << (clozeParser.OpAtCopyright - 64)) | (1 << (clozeParser.OpAtSearch - 64)) | (1 << (clozeParser.OpAtIsTracked - 64)) | (1 << (clozeParser.OpAtIsInfoOnly - 64)) | (1 << (clozeParser.AtDate - 64)) | (1 << (clozeParser.Http - 64)) | (1 << (clozeParser.Https - 64)) | (1 << (clozeParser.AmpAudio - 64)) | (1 << (clozeParser.AmpImage - 64)) | (1 << (clozeParser.AmpImageZoom - 64)) | (1 << (clozeParser.AmpImageWAudio - 64)) | (1 << (clozeParser.AmpVideo - 64)) | (1 << (clozeParser.AmpArticle - 64)) | (1 << (clozeParser.AmpDocument - 64)) | (1 << (clozeParser.AmpApp - 64)) | (1 << (clozeParser.AmpWebsite - 64)) | (1 << (clozeParser.AmpStillImageFilm - 64)) | (1 << (clozeParser.AmpPdf - 64)) | (1 << (clozeParser.OpAmpAudio - 64)) | (1 << (clozeParser.OpAmpImage - 64)) | (1 << (clozeParser.OpAmpImageZoom - 64)) | (1 << (clozeParser.OpAmpImageWAudio - 64)))) !== 0) || ((((_la - 96)) & ~0x1F) === 0 && ((1 << (_la - 96)) & ((1 << (clozeParser.OpAmpVideo - 96)) | (1 << (clozeParser.OpAmpArticle - 96)) | (1 << (clozeParser.OpAmpArticleAtt - 96)) | (1 << (clozeParser.OpAmpDocument - 96)) | (1 << (clozeParser.OpAmpApp - 96)) | (1 << (clozeParser.OpAmpWebsite - 96)) | (1 << (clozeParser.OpAmpStillImageFilm - 96)) | (1 << (clozeParser.BracEnclose - 96)) | (1 << (clozeParser.AmpAudioLink - 96)) | (1 << (clozeParser.AmpImageLink - 96)) | (1 << (clozeParser.AmpVideoLink - 96)) | (1 << (clozeParser.AmpArticleLink - 96)) | (1 << (clozeParser.AmpDocumentLink - 96)) | (1 << (clozeParser.AmpAppLink - 96)) | (1 << (clozeParser.AmpWebsiteLink - 96)) | (1 << (clozeParser.AmpStillImageFilmLink - 96)) | (1 << (clozeParser.OpAmpAudioLink - 96)) | (1 << (clozeParser.OpAmpImageLink - 96)) | (1 << (clozeParser.OpAmpVideoLink - 96)) | (1 << (clozeParser.OpAmpArticleLink - 96)) | (1 << (clozeParser.OpAmpDocumentLink - 96)) | (1 << (clozeParser.OpAmpAppLink - 96)) | (1 << (clozeParser.OpAmpWebsiteLink - 96)) | (1 << (clozeParser.OpAmpStillImageFilmLink - 96)) | (1 << (clozeParser.AmpImageEmbed - 96)) | (1 << (clozeParser.AmpVideoEmbed - 96)) | (1 << (clozeParser.AmpAudioEmbed - 96)) | (1 << (clozeParser.AmpDocumentEmbed - 96)) | (1 << (clozeParser.AmpStillImageFilmEmbed - 96)) | (1 << (clozeParser.OpAmpImageEmbed - 96)) | (1 << (clozeParser.OpAmpVideoEmbed - 96)) | (1 << (clozeParser.OpAmpAudioEmbed - 96)))) !== 0) || ((((_la - 128)) & ~0x1F) === 0 && ((1 << (_la - 128)) & ((1 << (clozeParser.OpAmpDocumentEmbed - 128)) | (1 << (clozeParser.OpAmpStillImageFilmEmbed - 128)) | (1 << (clozeParser.BitmarkMinus - 128)) | (1 << (clozeParser.BitmarkPlus - 128)) | (1 << (clozeParser.ColonText - 128)) | (1 << (clozeParser.ColonJson - 128)) | (1 << (clozeParser.Prosemirror - 128)) | (1 << (clozeParser.Placeholder - 128)) | (1 << (clozeParser.BASIC - 128)) | (1 << (clozeParser.JPG - 128)) | (1 << (clozeParser.PNG - 128)) | (1 << (clozeParser.GIF - 128)) | (1 << (clozeParser.SVG - 128)) | (1 << (clozeParser.MP2 - 128)) | (1 << (clozeParser.MP3 - 128)) | (1 << (clozeParser.MP4 - 128)) | (1 << (clozeParser.FLV - 128)) | (1 << (clozeParser.WMV - 128)) | (1 << (clozeParser.MPEG - 128)) | (1 << (clozeParser.MPG - 128)) | (1 << (clozeParser.TEL - 128)) | (1 << (clozeParser.DotArticleAtt - 128)) | (1 << (clozeParser.STAR - 128)) | (1 << (clozeParser.URL - 128)) | (1 << (clozeParser.LIST_LINE - 128)) | (1 << (clozeParser.ENCLBARS - 128)))) !== 0));
+                } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << clozeParser.S) | (1 << clozeParser.OPDOT) | (1 << clozeParser.BitCloze) | (1 << clozeParser.BitClozeinstgrp) | (1 << clozeParser.BitClozesolgrp) | (1 << clozeParser.BitClozeandmulti) | (1 << clozeParser.OPSP) | (1 << clozeParser.OPDOLL) | (1 << clozeParser.OPBUL) | (1 << clozeParser.OPESC) | (1 << clozeParser.OPRANGLES) | (1 << clozeParser.OPRANGLEL) | (1 << clozeParser.OPDANGLE) | (1 << clozeParser.OPU) | (1 << clozeParser.OPB) | (1 << clozeParser.OPQ) | (1 << clozeParser.OPA) | (1 << clozeParser.OPP) | (1 << clozeParser.OPM) | (1 << clozeParser.OPS) | (1 << clozeParser.OPR) | (1 << clozeParser.OPC) | (1 << clozeParser.OPHASH) | (1 << clozeParser.COLON) | (1 << clozeParser.AMP) | (1 << clozeParser.DBLCOLON) | (1 << clozeParser.PLUS) | (1 << clozeParser.DotAt) | (1 << clozeParser.Greater) | (1 << clozeParser.Less))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (clozeParser.DBLEQ - 32)) | (1 << (clozeParser.RightAngle - 32)) | (1 << (clozeParser.RightArrow - 32)) | (1 << (clozeParser.OP_N_ETC - 32)) | (1 << (clozeParser.UNSCO - 32)) | (1 << (clozeParser.COMMENT - 32)) | (1 << (clozeParser.DCANY - 32)) | (1 << (clozeParser.Image_type - 32)) | (1 << (clozeParser.Audio_type - 32)) | (1 << (clozeParser.Video_type - 32)) | (1 << (clozeParser.ArticleText - 32)) | (1 << (clozeParser.NOTCL - 32)) | (1 << (clozeParser.NUMERIC - 32)) | (1 << (clozeParser.STRING - 32)) | (1 << (clozeParser.NL - 32)) | (1 << (clozeParser.NOTBITMARK - 32)) | (1 << (clozeParser.SENTENCE - 32)) | (1 << (clozeParser.BARSTRING - 32)) | (1 << (clozeParser.OPAT - 32)) | (1 << (clozeParser.AtProgress - 32)) | (1 << (clozeParser.AtReference - 32)) | (1 << (clozeParser.AtWidth - 32)) | (1 << (clozeParser.AtHeight - 32)) | (1 << (clozeParser.AtProgressPoints - 32)) | (1 << (clozeParser.AtShortanswer - 32)) | (1 << (clozeParser.AtLonganswer - 32)) | (1 << (clozeParser.AtExampleWithStr - 32)) | (1 << (clozeParser.AtExamplecol - 32)) | (1 << (clozeParser.AtExamplecl - 32)) | (1 << (clozeParser.AtSampleSolution - 32)) | (1 << (clozeParser.AtPartialAnswerS - 32)) | (1 << (clozeParser.AtPartialAnswer - 32)))) !== 0) || ((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (clozeParser.AtLabeltrue - 64)) | (1 << (clozeParser.AtLabelfalse - 64)) | (1 << (clozeParser.AtPoints - 64)) | (1 << (clozeParser.AtSrc - 64)) | (1 << (clozeParser.AtPartner - 64)) | (1 << (clozeParser.OPATALT - 64)) | (1 << (clozeParser.OPAMARK - 64)) | (1 << (clozeParser.ShowInIndex - 64)) | (1 << (clozeParser.OpAtCaption - 64)) | (1 << (clozeParser.OpAtLicense - 64)) | (1 << (clozeParser.OpAtCopyright - 64)) | (1 << (clozeParser.OpAtSearch - 64)) | (1 << (clozeParser.OpAtIsTracked - 64)) | (1 << (clozeParser.OpAtIsInfoOnly - 64)) | (1 << (clozeParser.AtDate - 64)) | (1 << (clozeParser.Http - 64)) | (1 << (clozeParser.Https - 64)) | (1 << (clozeParser.AmpAudio - 64)) | (1 << (clozeParser.AmpImage - 64)) | (1 << (clozeParser.AmpImageZoom - 64)) | (1 << (clozeParser.AmpImageWAudio - 64)) | (1 << (clozeParser.AmpVideo - 64)) | (1 << (clozeParser.AmpArticle - 64)) | (1 << (clozeParser.AmpDocument - 64)) | (1 << (clozeParser.AmpApp - 64)) | (1 << (clozeParser.AmpWebsite - 64)) | (1 << (clozeParser.AmpStillImageFilm - 64)) | (1 << (clozeParser.AmpPdf - 64)) | (1 << (clozeParser.OpAmpAudio - 64)) | (1 << (clozeParser.OpAmpImage - 64)) | (1 << (clozeParser.OpAmpImageZoom - 64)) | (1 << (clozeParser.OpAmpImageWAudio - 64)))) !== 0) || ((((_la - 96)) & ~0x1F) === 0 && ((1 << (_la - 96)) & ((1 << (clozeParser.OpAmpVideo - 96)) | (1 << (clozeParser.OpAmpArticle - 96)) | (1 << (clozeParser.OpAmpArticleAtt - 96)) | (1 << (clozeParser.OpAmpDocument - 96)) | (1 << (clozeParser.OpAmpApp - 96)) | (1 << (clozeParser.OpAmpWebsite - 96)) | (1 << (clozeParser.OpAmpStillImageFilm - 96)) | (1 << (clozeParser.BracEnclose - 96)) | (1 << (clozeParser.AmpAudioLink - 96)) | (1 << (clozeParser.AmpImageLink - 96)) | (1 << (clozeParser.AmpVideoLink - 96)) | (1 << (clozeParser.AmpArticleLink - 96)) | (1 << (clozeParser.AmpDocumentLink - 96)) | (1 << (clozeParser.AmpDocumentDownload - 96)) | (1 << (clozeParser.AmpAppLink - 96)) | (1 << (clozeParser.AmpWebsiteLink - 96)) | (1 << (clozeParser.AmpStillImageFilmLink - 96)) | (1 << (clozeParser.OpAmpAudioLink - 96)) | (1 << (clozeParser.OpAmpImageLink - 96)) | (1 << (clozeParser.OpAmpVideoLink - 96)) | (1 << (clozeParser.OpAmpArticleLink - 96)) | (1 << (clozeParser.OpAmpDocumentLink - 96)) | (1 << (clozeParser.OpAmpDocumentDownload - 96)) | (1 << (clozeParser.OpAmpAppLink - 96)) | (1 << (clozeParser.OpAmpWebsiteLink - 96)) | (1 << (clozeParser.OpAmpStillImageFilmLink - 96)) | (1 << (clozeParser.AmpImageEmbed - 96)) | (1 << (clozeParser.AmpVideoEmbed - 96)) | (1 << (clozeParser.AmpAudioEmbed - 96)) | (1 << (clozeParser.AmpDocumentEmbed - 96)) | (1 << (clozeParser.AmpStillImageFilmEmbed - 96)) | (1 << (clozeParser.OpAmpImageEmbed - 96)))) !== 0) || ((((_la - 128)) & ~0x1F) === 0 && ((1 << (_la - 128)) & ((1 << (clozeParser.OpAmpVideoEmbed - 128)) | (1 << (clozeParser.OpAmpAudioEmbed - 128)) | (1 << (clozeParser.OpAmpDocumentEmbed - 128)) | (1 << (clozeParser.OpAmpStillImageFilmEmbed - 128)) | (1 << (clozeParser.BitmarkMinus - 128)) | (1 << (clozeParser.BitmarkPlus - 128)) | (1 << (clozeParser.ColonText - 128)) | (1 << (clozeParser.ColonJson - 128)) | (1 << (clozeParser.Prosemirror - 128)) | (1 << (clozeParser.Placeholder - 128)) | (1 << (clozeParser.BASIC - 128)) | (1 << (clozeParser.JPG - 128)) | (1 << (clozeParser.PNG - 128)) | (1 << (clozeParser.GIF - 128)) | (1 << (clozeParser.SVG - 128)) | (1 << (clozeParser.MP2 - 128)) | (1 << (clozeParser.MP3 - 128)) | (1 << (clozeParser.MP4 - 128)) | (1 << (clozeParser.FLV - 128)) | (1 << (clozeParser.WMV - 128)) | (1 << (clozeParser.MPEG - 128)) | (1 << (clozeParser.MPG - 128)) | (1 << (clozeParser.TEL - 128)) | (1 << (clozeParser.DotArticleAtt - 128)) | (1 << (clozeParser.STAR - 128)) | (1 << (clozeParser.URL - 128)) | (1 << (clozeParser.LIST_LINE - 128)) | (1 << (clozeParser.ENCLBARS - 128)))) !== 0));
                 this.state = 1094;
                 this.match(clozeParser.CL);
             }
@@ -6320,51 +6323,53 @@ clozeParser.AmpImageLink = 105;
 clozeParser.AmpVideoLink = 106;
 clozeParser.AmpArticleLink = 107;
 clozeParser.AmpDocumentLink = 108;
-clozeParser.AmpAppLink = 109;
-clozeParser.AmpWebsiteLink = 110;
-clozeParser.AmpStillImageFilmLink = 111;
-clozeParser.OpAmpAudioLink = 112;
-clozeParser.OpAmpImageLink = 113;
-clozeParser.OpAmpVideoLink = 114;
-clozeParser.OpAmpArticleLink = 115;
-clozeParser.OpAmpDocumentLink = 116;
-clozeParser.OpAmpAppLink = 117;
-clozeParser.OpAmpWebsiteLink = 118;
-clozeParser.OpAmpStillImageFilmLink = 119;
-clozeParser.AmpImageEmbed = 120;
-clozeParser.AmpVideoEmbed = 121;
-clozeParser.AmpAudioEmbed = 122;
-clozeParser.AmpDocumentEmbed = 123;
-clozeParser.AmpStillImageFilmEmbed = 124;
-clozeParser.OpAmpImageEmbed = 125;
-clozeParser.OpAmpVideoEmbed = 126;
-clozeParser.OpAmpAudioEmbed = 127;
-clozeParser.OpAmpDocumentEmbed = 128;
-clozeParser.OpAmpStillImageFilmEmbed = 129;
-clozeParser.BitmarkMinus = 130;
-clozeParser.BitmarkPlus = 131;
-clozeParser.ColonText = 132;
-clozeParser.ColonJson = 133;
-clozeParser.Prosemirror = 134;
-clozeParser.Placeholder = 135;
-clozeParser.BASIC = 136;
-clozeParser.JPG = 137;
-clozeParser.PNG = 138;
-clozeParser.GIF = 139;
-clozeParser.SVG = 140;
-clozeParser.MP2 = 141;
-clozeParser.MP3 = 142;
-clozeParser.MP4 = 143;
-clozeParser.FLV = 144;
-clozeParser.WMV = 145;
-clozeParser.MPEG = 146;
-clozeParser.MPG = 147;
-clozeParser.TEL = 148;
-clozeParser.DotArticleAtt = 149;
-clozeParser.STAR = 150;
-clozeParser.URL = 151;
-clozeParser.LIST_LINE = 152;
-clozeParser.ENCLBARS = 153;
+clozeParser.AmpDocumentDownload = 109;
+clozeParser.AmpAppLink = 110;
+clozeParser.AmpWebsiteLink = 111;
+clozeParser.AmpStillImageFilmLink = 112;
+clozeParser.OpAmpAudioLink = 113;
+clozeParser.OpAmpImageLink = 114;
+clozeParser.OpAmpVideoLink = 115;
+clozeParser.OpAmpArticleLink = 116;
+clozeParser.OpAmpDocumentLink = 117;
+clozeParser.OpAmpDocumentDownload = 118;
+clozeParser.OpAmpAppLink = 119;
+clozeParser.OpAmpWebsiteLink = 120;
+clozeParser.OpAmpStillImageFilmLink = 121;
+clozeParser.AmpImageEmbed = 122;
+clozeParser.AmpVideoEmbed = 123;
+clozeParser.AmpAudioEmbed = 124;
+clozeParser.AmpDocumentEmbed = 125;
+clozeParser.AmpStillImageFilmEmbed = 126;
+clozeParser.OpAmpImageEmbed = 127;
+clozeParser.OpAmpVideoEmbed = 128;
+clozeParser.OpAmpAudioEmbed = 129;
+clozeParser.OpAmpDocumentEmbed = 130;
+clozeParser.OpAmpStillImageFilmEmbed = 131;
+clozeParser.BitmarkMinus = 132;
+clozeParser.BitmarkPlus = 133;
+clozeParser.ColonText = 134;
+clozeParser.ColonJson = 135;
+clozeParser.Prosemirror = 136;
+clozeParser.Placeholder = 137;
+clozeParser.BASIC = 138;
+clozeParser.JPG = 139;
+clozeParser.PNG = 140;
+clozeParser.GIF = 141;
+clozeParser.SVG = 142;
+clozeParser.MP2 = 143;
+clozeParser.MP3 = 144;
+clozeParser.MP4 = 145;
+clozeParser.FLV = 146;
+clozeParser.WMV = 147;
+clozeParser.MPEG = 148;
+clozeParser.MPG = 149;
+clozeParser.TEL = 150;
+clozeParser.DotArticleAtt = 151;
+clozeParser.STAR = 152;
+clozeParser.URL = 153;
+clozeParser.LIST_LINE = 154;
+clozeParser.ENCLBARS = 155;
 clozeParser.RULE_bitmark = 0;
 clozeParser.RULE_bitmark_ = 1;
 clozeParser.RULE_clozes = 2;
@@ -6498,14 +6503,14 @@ clozeParser._LITERAL_NAMES = [
     "'&pdf'", undefined, undefined, undefined, undefined, undefined, undefined,
     undefined, undefined, undefined, undefined, undefined, undefined, "'&audio-link'",
     "'&image-link'", "'&video-link'", "'&article-link'", "'&document-link'",
-    "'&app-link'", "'&website-link'", "'&still-image-film-link'", undefined,
+    "'&document-download'", "'&app-link'", "'&website-link'", "'&still-image-film-link'",
     undefined, undefined, undefined, undefined, undefined, undefined, undefined,
-    "'&image-embed'", "'&video-embed'", "'&daudio-embed'", "'&document-embed'",
-    "'&still-image-film-embed'", undefined, undefined, undefined, undefined,
-    undefined, "':bitmark--'", "':bitmark++'", "':text'", "':json'", "':prosemirror'",
-    "':placeholder'", "':basic'", "':jpg'", "':png'", "':gif'", "':svg'",
-    "':mp2'", "':mp3'", "':mp4'", "':flv'", "':wmv'", "':mpeg'", "':mpg'",
-    "'tel:'", "'.article-attachment'", "'*'",
+    undefined, undefined, "'&image-embed'", "'&video-embed'", "'&daudio-embed'",
+    "'&document-embed'", "'&still-image-film-embed'", undefined, undefined,
+    undefined, undefined, undefined, "':bitmark--'", "':bitmark++'", "':text'",
+    "':json'", "':prosemirror'", "':placeholder'", "':basic'", "':jpg'", "':png'",
+    "':gif'", "':svg'", "':mp2'", "':mp3'", "':mp4'", "':flv'", "':wmv'",
+    "':mpeg'", "':mpg'", "'tel:'", "'.article-attachment'", "'*'",
 ];
 clozeParser._SYMBOLIC_NAMES = [
     undefined, "S", "OPDOT", "BitCloze", "BitClozeinstgrp", "BitClozesolgrp",
@@ -6526,19 +6531,20 @@ clozeParser._SYMBOLIC_NAMES = [
     "OpAmpAudio", "OpAmpImage", "OpAmpImageZoom", "OpAmpImageWAudio", "OpAmpVideo",
     "OpAmpArticle", "OpAmpArticleAtt", "OpAmpDocument", "OpAmpApp", "OpAmpWebsite",
     "OpAmpStillImageFilm", "BracEnclose", "AmpAudioLink", "AmpImageLink",
-    "AmpVideoLink", "AmpArticleLink", "AmpDocumentLink", "AmpAppLink", "AmpWebsiteLink",
-    "AmpStillImageFilmLink", "OpAmpAudioLink", "OpAmpImageLink", "OpAmpVideoLink",
-    "OpAmpArticleLink", "OpAmpDocumentLink", "OpAmpAppLink", "OpAmpWebsiteLink",
-    "OpAmpStillImageFilmLink", "AmpImageEmbed", "AmpVideoEmbed", "AmpAudioEmbed",
-    "AmpDocumentEmbed", "AmpStillImageFilmEmbed", "OpAmpImageEmbed", "OpAmpVideoEmbed",
-    "OpAmpAudioEmbed", "OpAmpDocumentEmbed", "OpAmpStillImageFilmEmbed", "BitmarkMinus",
-    "BitmarkPlus", "ColonText", "ColonJson", "Prosemirror", "Placeholder",
-    "BASIC", "JPG", "PNG", "GIF", "SVG", "MP2", "MP3", "MP4", "FLV", "WMV",
-    "MPEG", "MPG", "TEL", "DotArticleAtt", "STAR", "URL", "LIST_LINE", "ENCLBARS",
+    "AmpVideoLink", "AmpArticleLink", "AmpDocumentLink", "AmpDocumentDownload",
+    "AmpAppLink", "AmpWebsiteLink", "AmpStillImageFilmLink", "OpAmpAudioLink",
+    "OpAmpImageLink", "OpAmpVideoLink", "OpAmpArticleLink", "OpAmpDocumentLink",
+    "OpAmpDocumentDownload", "OpAmpAppLink", "OpAmpWebsiteLink", "OpAmpStillImageFilmLink",
+    "AmpImageEmbed", "AmpVideoEmbed", "AmpAudioEmbed", "AmpDocumentEmbed",
+    "AmpStillImageFilmEmbed", "OpAmpImageEmbed", "OpAmpVideoEmbed", "OpAmpAudioEmbed",
+    "OpAmpDocumentEmbed", "OpAmpStillImageFilmEmbed", "BitmarkMinus", "BitmarkPlus",
+    "ColonText", "ColonJson", "Prosemirror", "Placeholder", "BASIC", "JPG",
+    "PNG", "GIF", "SVG", "MP2", "MP3", "MP4", "FLV", "WMV", "MPEG", "MPG",
+    "TEL", "DotArticleAtt", "STAR", "URL", "LIST_LINE", "ENCLBARS",
 ];
 clozeParser.VOCABULARY = new VocabularyImpl_1.VocabularyImpl(clozeParser._LITERAL_NAMES, clozeParser._SYMBOLIC_NAMES, []);
 clozeParser._serializedATNSegments = 3;
-clozeParser._serializedATNSegment0 = "\x03\uC91D\uCABA\u058D\uAFBA\u4F53\u0607\uEA8B\uC241\x03\x9B\u051F\x04" +
+clozeParser._serializedATNSegment0 = "\x03\uC91D\uCABA\u058D\uAFBA\u4F53\u0607\uEA8B\uC241\x03\x9D\u051F\x04" +
     "\x02\t\x02\x04\x03\t\x03\x04\x04\t\x04\x04\x05\t\x05\x04\x06\t\x06\x04" +
     "\x07\t\x07\x04\b\t\b\x04\t\t\t\x04\n\t\n\x04\v\t\v\x04\f\t\f\x04\r\t\r" +
     "\x04\x0E\t\x0E\x04\x0F\t\x0F\x04\x10\t\x10\x04\x11\t\x11\x04\x12\t\x12" +
@@ -6665,118 +6671,118 @@ clozeParser._serializedATNSegment0 = "\x03\uC91D\uCABA\u058D\uAFBA\u4F53\u0607\u
     "\x86\x02\x88\x02\x8A\x02\x8C\x02\x8E\x02\x90\x02\x92\x02\x94\x02\x96\x02" +
     "\x98\x02\x9A\x02\x9C\x02\x9E\x02\xA0\x02\xA2\x02\xA4\x02\xA6\x02\xA8\x02" +
     "\xAA\x02\xAC\x02\xAE\x02\xB0\x02\xB2\x02\xB4\x02\xB6\x02\xB8\x02\xBA\x02" +
-    "\xBC\x02\xBE\x02\xC0\x02\x02\x14\b\x02XY[\\jq{~\x84\x85\x87\x89\x05\x02" +
-    "WWll{{\x04\x02XXmm\x05\x02YYnn}}\x04\x02ZZoo\x04\x02[[pp\x05\x02\\\\q" +
-    "q~~\x04\x02ccuu\x05\x02eevv\x82\x82\x04\x02ffww\x04\x02ggxx\x05\x02hh" +
-    "yy\x83\x83\x03\x0278\x04\x02GGJM\x03\x02\x1A\x1A\x04\x02\x1B\x1B\x1D\x1D" +
-    "\x03\x02  \x03\x02!!\x02\u05BF\x02\xCF\x03\x02\x02\x02\x04\xD5\x03\x02" +
-    "\x02\x02\x06\xDB\x03\x02\x02\x02\b\u0106\x03\x02\x02\x02\n\u0108\x03\x02" +
-    "\x02\x02\f\u010A\x03\x02\x02\x02\x0E\u0133\x03\x02\x02\x02\x10\u0168\x03" +
-    "\x02\x02\x02\x12\u019D\x03\x02\x02\x02\x14\u01A8\x03\x02\x02\x02\x16\u01B6" +
-    "\x03\x02\x02\x02\x18\u01E7\x03\x02\x02\x02\x1A\u01EB\x03\x02\x02\x02\x1C" +
-    "\u01F2\x03\x02\x02\x02\x1E\u01FD\x03\x02\x02\x02 \u0208\x03\x02\x02\x02" +
-    "\"\u0213\x03\x02\x02\x02$\u021D\x03\x02\x02\x02&\u022A\x03\x02\x02\x02" +
-    "(\u0231\x03\x02\x02\x02*\u023C\x03\x02\x02\x02,\u0247\x03\x02\x02\x02" +
-    ".\u024E\x03\x02\x02\x020\u025E\x03\x02\x02\x022\u0260\x03\x02\x02\x02" +
-    "4\u0265\x03\x02\x02\x026\u0267\x03\x02\x02\x028\u0269\x03\x02\x02\x02" +
-    ":\u026B\x03\x02\x02\x02<\u026D\x03\x02\x02\x02>\u026F\x03\x02\x02\x02" +
-    "@\u0271\x03\x02\x02\x02B\u0273\x03\x02\x02\x02D\u0275\x03\x02\x02\x02" +
-    "F\u0286\x03\x02\x02\x02H\u0288\x03\x02\x02\x02J\u0290\x03\x02\x02\x02" +
-    "L\u0292\x03\x02\x02\x02N\u029C\x03\x02\x02\x02P\u02A6\x03\x02\x02\x02" +
-    "R\u02B3\x03\x02\x02\x02T\u02BA\x03\x02\x02\x02V\u02C5\x03\x02\x02\x02" +
-    "X\u02CC\x03\x02\x02\x02Z\u02D6\x03\x02\x02\x02\\\u02E1\x03\x02\x02\x02" +
-    "^\u02FA\x03\x02\x02\x02`\u030D\x03\x02\x02\x02b\u0320\x03\x02\x02\x02" +
-    "d\u0322\x03\x02\x02\x02f\u0329\x03\x02\x02\x02h\u033D\x03\x02\x02\x02" +
-    "j\u034E\x03\x02\x02\x02l\u036F\x03\x02\x02\x02n\u0371\x03\x02\x02\x02" +
-    "p\u0375\x03\x02\x02\x02r\u0395\x03\x02\x02\x02t\u0397\x03\x02\x02\x02" +
-    "v\u03AC\x03\x02\x02\x02x\u03B5\x03\x02\x02\x02z\u03DE\x03\x02\x02\x02" +
-    "|\u03F6\x03\x02\x02\x02~\u03F8\x03\x02\x02\x02\x80\u03FC\x03\x02\x02\x02" +
-    "\x82\u0408\x03\x02\x02\x02\x84\u0440\x03\x02\x02\x02\x86\u0442\x03\x02" +
-    "\x02\x02\x88\u0456\x03\x02\x02\x02\x8A\u0460\x03\x02\x02\x02\x8C\u046B" +
-    "\x03\x02\x02\x02\x8E\u046D\x03\x02\x02\x02\x90\u0471\x03\x02\x02\x02\x92" +
-    "\u0475\x03\x02\x02\x02\x94\u0498\x03\x02\x02\x02\x96\u04AD\x03\x02\x02" +
-    "\x02\x98\u04AF\x03\x02\x02\x02\x9A\u04B9\x03\x02\x02\x02\x9C\u04EC\x03" +
-    "\x02\x02\x02\x9E\u04EE\x03\x02\x02\x02\xA0\u04F0\x03\x02\x02\x02\xA2\u04F2" +
-    "\x03\x02\x02\x02\xA4\u04F4\x03\x02\x02\x02\xA6\u04F6\x03\x02\x02\x02\xA8" +
-    "\u04F8\x03\x02\x02\x02\xAA\u04FA\x03\x02\x02\x02\xAC\u04FC\x03\x02\x02" +
-    "\x02\xAE\u04FE\x03\x02\x02\x02\xB0\u0500\x03\x02\x02\x02\xB2\u0502\x03" +
-    "\x02\x02\x02\xB4\u0504\x03\x02\x02\x02\xB6\u0506\x03\x02\x02\x02\xB8\u0508" +
-    "\x03\x02\x02\x02\xBA\u050A\x03\x02\x02\x02\xBC\u050C\x03\x02\x02\x02\xBE" +
-    "\u0518\x03\x02\x02\x02\xC0\u051C\x03\x02\x02\x02\xC2\xCC\x05\x04\x03\x02" +
-    "\xC3\xC5\x07\x03\x02\x02\xC4\xC3\x03\x02\x02\x02\xC5\xC8\x03\x02\x02\x02" +
-    "\xC6\xC4\x03\x02\x02\x02\xC6\xC7\x03\x02\x02\x02\xC7\xC9\x03\x02\x02\x02" +
-    "\xC8\xC6\x03\x02\x02\x02\xC9\xCB\x05\xB6\\\x02\xCA\xC6\x03\x02\x02\x02" +
-    "\xCB\xCE\x03\x02\x02\x02\xCC\xCA\x03\x02\x02\x02\xCC\xCD\x03\x02\x02\x02" +
-    "\xCD\xD0\x03\x02\x02\x02\xCE\xCC\x03\x02\x02\x02\xCF\xC2\x03\x02\x02\x02" +
-    "\xD0\xD1\x03\x02\x02\x02\xD1\xCF\x03\x02\x02\x02\xD1\xD2\x03\x02\x02\x02" +
-    "\xD2\xD3\x03\x02\x02\x02\xD3\xD4\x07\x02\x02\x03\xD4\x03\x03\x02\x02\x02" +
-    "\xD5\xD6\x05\x06\x04\x02\xD6\x05\x03\x02\x02\x02\xD7\xDC\x05\f\x07\x02" +
-    "\xD8\xDC\x05\x0E\b\x02\xD9\xDC\x05\x10\t\x02\xDA\xDC\x05\x16\f\x02\xDB" +
-    "\xD7\x03\x02\x02\x02\xDB\xD8\x03\x02\x02\x02\xDB\xD9\x03\x02\x02\x02\xDB" +
-    "\xDA\x03\x02\x02\x02\xDC\x07\x03\x02\x02\x02\xDD\u0107\x07\x9A\x02\x02" +
-    "\xDE\u0107\x071\x02\x02\xDF\u0107\x05\x9EP\x02\xE0\u0107\x05\x12\n\x02" +
-    "\xE1\u0107\x05\x92J\x02\xE2\u0107\x05|?\x02\xE3\u0107\x05r:\x02\xE4\u0107" +
-    "\x05\x84C\x02\xE5\u0107\x05\x86D\x02\xE6\u0107\x05\x9CO\x02\xE7\u0107" +
-    "\x05x=\x02\xE8\u0107\x05\x8AF\x02\xE9\xED\x05Z.\x02\xEA\xEC\x05\xB6\\" +
-    "\x02\xEB\xEA\x03\x02\x02\x02\xEC\xEF\x03\x02\x02\x02\xED\xEB\x03\x02\x02" +
-    "\x02\xED\xEE\x03\x02\x02\x02\xEE\u0107\x03\x02\x02\x02\xEF\xED\x03\x02" +
-    "\x02\x02\xF0\xF4\x05d3\x02\xF1\xF3\x05\xB6\\\x02\xF2\xF1\x03\x02\x02\x02" +
-    "\xF3\xF6\x03\x02\x02\x02\xF4\xF2\x03\x02\x02\x02\xF4\xF5\x03\x02\x02\x02" +
-    "\xF5\u0107\x03\x02\x02\x02\xF6\xF4\x03\x02\x02\x02\xF7\xFB\x05V,\x02\xF8" +
-    "\xFA\x05\xB6\\\x02\xF9\xF8\x03\x02\x02\x02\xFA\xFD\x03\x02\x02\x02\xFB" +
-    "\xF9\x03\x02\x02\x02\xFB\xFC\x03\x02\x02\x02\xFC\u0107\x03\x02\x02\x02" +
-    "\xFD\xFB\x03\x02\x02\x02\xFE\u0107\x05J&\x02\xFF\u0107\x05L\'\x02\u0100" +
-    "\u0107\x05P)\x02\u0101\u0107\x05N(\x02\u0102\u0107\x05R*\x02\u0103\u0107" +
-    "\x05v<\x02\u0104\u0107\x05\x98M\x02\u0105\u0107\x05\xC0a\x02\u0106\xDD" +
-    "\x03\x02\x02\x02\u0106\xDE\x03\x02\x02\x02\u0106\xDF\x03\x02\x02\x02\u0106" +
-    "\xE0\x03\x02\x02\x02\u0106\xE1\x03\x02\x02\x02\u0106\xE2\x03\x02\x02\x02" +
-    "\u0106\xE3\x03\x02\x02\x02\u0106\xE4\x03\x02\x02\x02\u0106\xE5\x03\x02" +
-    "\x02\x02\u0106\xE6\x03\x02\x02\x02\u0106\xE7\x03\x02\x02\x02\u0106\xE8" +
-    "\x03\x02\x02\x02\u0106\xE9\x03\x02\x02\x02\u0106\xF0\x03\x02\x02\x02\u0106" +
-    "\xF7\x03\x02\x02\x02\u0106\xFE\x03\x02\x02\x02\u0106\xFF\x03\x02\x02\x02" +
-    "\u0106\u0100\x03\x02\x02\x02\u0106\u0101\x03\x02\x02\x02\u0106\u0102\x03" +
-    "\x02\x02\x02\u0106\u0103\x03\x02\x02\x02\u0106\u0104\x03\x02\x02\x02\u0106" +
-    "\u0105\x03\x02\x02\x02\u0107\t\x03\x02\x02\x02\u0108\u0109\x05\b\x05\x02" +
-    "\u0109\v\x03\x02\x02\x02\u010A\u010B\x07\x05\x02\x02\u010B\u010C\x05(" +
-    "\x15\x02\u010C\u0110\x07\x1A\x02\x02\u010D\u010F\x05\xB6\\\x02\u010E\u010D" +
-    "\x03\x02\x02\x02\u010F\u0112\x03\x02\x02\x02\u0110\u010E\x03\x02\x02\x02" +
-    "\u0110\u0111\x03\x02\x02\x02\u0111\u011A\x03\x02\x02\x02\u0112\u0110\x03" +
-    "\x02\x02\x02\u0113\u0117\x05\b\x05\x02\u0114\u0116\x05\xB6\\\x02\u0115" +
-    "\u0114\x03\x02\x02\x02\u0116\u0119\x03\x02\x02\x02\u0117\u0115\x03\x02" +
-    "\x02\x02\u0117\u0118\x03\x02\x02\x02\u0118\u011B\x03\x02\x02\x02\u0119" +
-    "\u0117\x03\x02\x02\x02\u011A\u0113\x03\x02\x02\x02\u011B\u011C\x03\x02" +
-    "\x02\x02\u011C\u011A\x03\x02\x02\x02\u011C\u011D\x03\x02\x02\x02\u011D" +
-    "\u0121\x03\x02\x02\x02\u011E\u0120\x070\x02\x02\u011F\u011E\x03\x02\x02" +
-    "\x02\u0120\u0123\x03\x02\x02\x02\u0121\u011F\x03\x02\x02\x02\u0121\u0122" +
-    "\x03\x02\x02\x02\u0122\u0131\x03\x02\x02\x02\u0123\u0121\x03\x02\x02\x02" +
-    "\u0124\u012E\x05\n\x06\x02\u0125\u0127\x070\x02\x02\u0126\u0125\x03\x02" +
-    "\x02\x02\u0127\u012A\x03\x02\x02\x02\u0128\u0126\x03\x02\x02\x02\u0128" +
-    "\u0129\x03\x02\x02\x02\u0129\u012B\x03\x02\x02\x02\u012A\u0128\x03\x02" +
-    "\x02\x02\u012B\u012D\x05\n\x06\x02\u012C\u0128\x03\x02\x02\x02\u012D\u0130" +
-    "\x03\x02\x02\x02\u012E\u012C\x03\x02\x02\x02\u012E\u012F\x03\x02\x02\x02" +
-    "\u012F\u0132\x03\x02\x02\x02\u0130\u012E\x03\x02\x02\x02\u0131\u0124\x03" +
-    "\x02\x02\x02\u0131\u0132\x03\x02\x02\x02\u0132\r\x03\x02\x02\x02\u0133" +
-    "\u0134\x07\x06\x02\x02\u0134\u0135\x05(\x15\x02\u0135\u0137\x07\x1A\x02" +
-    "\x02\u0136\u0138\x05\xB6\\\x02\u0137\u0136\x03\x02\x02\x02\u0137\u0138" +
-    "\x03\x02\x02\x02\u0138\u013C\x03\x02\x02\x02\u0139\u013A\x05r:\x02\u013A" +
-    "\u013B\x05\xB6\\\x02\u013B\u013D\x03\x02\x02\x02\u013C\u0139\x03\x02\x02" +
-    "\x02\u013C\u013D\x03\x02\x02\x02\u013D\u013F\x03\x02\x02\x02\u013E\u0140" +
-    "\x05\x84C\x02\u013F\u013E\x03\x02\x02\x02\u013F\u0140\x03\x02\x02\x02" +
-    "\u0140\u0144\x03\x02\x02\x02\u0141\u0143\x05\xB6\\\x02\u0142\u0141\x03" +
-    "\x02\x02\x02\u0143\u0146\x03\x02\x02\x02\u0144\u0142\x03\x02\x02\x02\u0144" +
-    "\u0145\x03\x02\x02\x02\u0145\u0150\x03\x02\x02\x02\u0146\u0144\x03\x02" +
-    "\x02\x02\u0147\u014B\x05\b\x05\x02\u0148\u014A\x05\xB6\\\x02\u0149\u0148" +
-    "\x03\x02\x02\x02\u014A\u014D\x03\x02\x02\x02\u014B\u0149\x03\x02\x02\x02" +
-    "\u014B\u014C\x03\x02\x02\x02\u014C\u014F\x03\x02\x02\x02\u014D\u014B\x03" +
-    "\x02\x02\x02\u014E\u0147\x03\x02\x02\x02\u014F\u0152\x03\x02\x02\x02\u0150" +
-    "\u014E\x03\x02\x02\x02\u0150\u0151\x03\x02\x02\x02\u0151\u0156\x03\x02" +
-    "\x02\x02\u0152\u0150\x03\x02\x02\x02\u0153\u0155\x070\x02\x02\u0154\u0153" +
-    "\x03\x02\x02\x02\u0155\u0158\x03\x02\x02\x02\u0156\u0154\x03\x02\x02\x02" +
-    "\u0156\u0157\x03\x02\x02\x02\u0157\u0166\x03\x02\x02\x02\u0158\u0156\x03" +
-    "\x02\x02\x02\u0159\u0163\x05\n\x06\x02\u015A\u015C\x070\x02\x02\u015B" +
-    "\u015A\x03\x02\x02\x02\u015C\u015F\x03\x02\x02\x02\u015D\u015B\x03\x02" +
-    "\x02\x02\u015D\u015E\x03\x02\x02\x02\u015E\u0160\x03\x02\x02\x02\u015F" +
-    "\u015D\x03\x02\x02\x02";
+    "\xBC\x02\xBE\x02\xC0\x02\x02\x14\b\x02XY[\\jr}\x80\x86\x87\x89\x8B\x05" +
+    "\x02WWll}}\x04\x02XXmm\x05\x02YYno\x7F\x7F\x04\x02ZZpp\x04\x02[[qq\x05" +
+    "\x02\\\\rr\x80\x80\x04\x02ccvv\x05\x02eewx\x84\x84\x04\x02ffyy\x04\x02" +
+    "ggzz\x05\x02hh{{\x85\x85\x03\x0278\x04\x02GGJM\x03\x02\x1A\x1A\x04\x02" +
+    "\x1B\x1B\x1D\x1D\x03\x02  \x03\x02!!\x02\u05BF\x02\xCF\x03\x02\x02\x02" +
+    "\x04\xD5\x03\x02\x02\x02\x06\xDB\x03\x02\x02\x02\b\u0106\x03\x02\x02\x02" +
+    "\n\u0108\x03\x02\x02\x02\f\u010A\x03\x02\x02\x02\x0E\u0133\x03\x02\x02" +
+    "\x02\x10\u0168\x03\x02\x02\x02\x12\u019D\x03\x02\x02\x02\x14\u01A8\x03" +
+    "\x02\x02\x02\x16\u01B6\x03\x02\x02\x02\x18\u01E7\x03\x02\x02\x02\x1A\u01EB" +
+    "\x03\x02\x02\x02\x1C\u01F2\x03\x02\x02\x02\x1E\u01FD\x03\x02\x02\x02 " +
+    "\u0208\x03\x02\x02\x02\"\u0213\x03\x02\x02\x02$\u021D\x03\x02\x02\x02" +
+    "&\u022A\x03\x02\x02\x02(\u0231\x03\x02\x02\x02*\u023C\x03\x02\x02\x02" +
+    ",\u0247\x03\x02\x02\x02.\u024E\x03\x02\x02\x020\u025E\x03\x02\x02\x02" +
+    "2\u0260\x03\x02\x02\x024\u0265\x03\x02\x02\x026\u0267\x03\x02\x02\x02" +
+    "8\u0269\x03\x02\x02\x02:\u026B\x03\x02\x02\x02<\u026D\x03\x02\x02\x02" +
+    ">\u026F\x03\x02\x02\x02@\u0271\x03\x02\x02\x02B\u0273\x03\x02\x02\x02" +
+    "D\u0275\x03\x02\x02\x02F\u0286\x03\x02\x02\x02H\u0288\x03\x02\x02\x02" +
+    "J\u0290\x03\x02\x02\x02L\u0292\x03\x02\x02\x02N\u029C\x03\x02\x02\x02" +
+    "P\u02A6\x03\x02\x02\x02R\u02B3\x03\x02\x02\x02T\u02BA\x03\x02\x02\x02" +
+    "V\u02C5\x03\x02\x02\x02X\u02CC\x03\x02\x02\x02Z\u02D6\x03\x02\x02\x02" +
+    "\\\u02E1\x03\x02\x02\x02^\u02FA\x03\x02\x02\x02`\u030D\x03\x02\x02\x02" +
+    "b\u0320\x03\x02\x02\x02d\u0322\x03\x02\x02\x02f\u0329\x03\x02\x02\x02" +
+    "h\u033D\x03\x02\x02\x02j\u034E\x03\x02\x02\x02l\u036F\x03\x02\x02\x02" +
+    "n\u0371\x03\x02\x02\x02p\u0375\x03\x02\x02\x02r\u0395\x03\x02\x02\x02" +
+    "t\u0397\x03\x02\x02\x02v\u03AC\x03\x02\x02\x02x\u03B5\x03\x02\x02\x02" +
+    "z\u03DE\x03\x02\x02\x02|\u03F6\x03\x02\x02\x02~\u03F8\x03\x02\x02\x02" +
+    "\x80\u03FC\x03\x02\x02\x02\x82\u0408\x03\x02\x02\x02\x84\u0440\x03\x02" +
+    "\x02\x02\x86\u0442\x03\x02\x02\x02\x88\u0456\x03\x02\x02\x02\x8A\u0460" +
+    "\x03\x02\x02\x02\x8C\u046B\x03\x02\x02\x02\x8E\u046D\x03\x02\x02\x02\x90" +
+    "\u0471\x03\x02\x02\x02\x92\u0475\x03\x02\x02\x02\x94\u0498\x03\x02\x02" +
+    "\x02\x96\u04AD\x03\x02\x02\x02\x98\u04AF\x03\x02\x02\x02\x9A\u04B9\x03" +
+    "\x02\x02\x02\x9C\u04EC\x03\x02\x02\x02\x9E\u04EE\x03\x02\x02\x02\xA0\u04F0" +
+    "\x03\x02\x02\x02\xA2\u04F2\x03\x02\x02\x02\xA4\u04F4\x03\x02\x02\x02\xA6" +
+    "\u04F6\x03\x02\x02\x02\xA8\u04F8\x03\x02\x02\x02\xAA\u04FA\x03\x02\x02" +
+    "\x02\xAC\u04FC\x03\x02\x02\x02\xAE\u04FE\x03\x02\x02\x02\xB0\u0500\x03" +
+    "\x02\x02\x02\xB2\u0502\x03\x02\x02\x02\xB4\u0504\x03\x02\x02\x02\xB6\u0506" +
+    "\x03\x02\x02\x02\xB8\u0508\x03\x02\x02\x02\xBA\u050A\x03\x02\x02\x02\xBC" +
+    "\u050C\x03\x02\x02\x02\xBE\u0518\x03\x02\x02\x02\xC0\u051C\x03\x02\x02" +
+    "\x02\xC2\xCC\x05\x04\x03\x02\xC3\xC5\x07\x03\x02\x02\xC4\xC3\x03\x02\x02" +
+    "\x02\xC5\xC8\x03\x02\x02\x02\xC6\xC4\x03\x02\x02\x02\xC6\xC7\x03\x02\x02" +
+    "\x02\xC7\xC9\x03\x02\x02\x02\xC8\xC6\x03\x02\x02\x02\xC9\xCB\x05\xB6\\" +
+    "\x02\xCA\xC6\x03\x02\x02\x02\xCB\xCE\x03\x02\x02\x02\xCC\xCA\x03\x02\x02" +
+    "\x02\xCC\xCD\x03\x02\x02\x02\xCD\xD0\x03\x02\x02\x02\xCE\xCC\x03\x02\x02" +
+    "\x02\xCF\xC2\x03\x02\x02\x02\xD0\xD1\x03\x02\x02\x02\xD1\xCF\x03\x02\x02" +
+    "\x02\xD1\xD2\x03\x02\x02\x02\xD2\xD3\x03\x02\x02\x02\xD3\xD4\x07\x02\x02" +
+    "\x03\xD4\x03\x03\x02\x02\x02\xD5\xD6\x05\x06\x04\x02\xD6\x05\x03\x02\x02" +
+    "\x02\xD7\xDC\x05\f\x07\x02\xD8\xDC\x05\x0E\b\x02\xD9\xDC\x05\x10\t\x02" +
+    "\xDA\xDC\x05\x16\f\x02\xDB\xD7\x03\x02\x02\x02\xDB\xD8\x03\x02\x02\x02" +
+    "\xDB\xD9\x03\x02\x02\x02\xDB\xDA\x03\x02\x02\x02\xDC\x07\x03\x02\x02\x02" +
+    "\xDD\u0107\x07\x9C\x02\x02\xDE\u0107\x071\x02\x02\xDF\u0107\x05\x9EP\x02" +
+    "\xE0\u0107\x05\x12\n\x02\xE1\u0107\x05\x92J\x02\xE2\u0107\x05|?\x02\xE3" +
+    "\u0107\x05r:\x02\xE4\u0107\x05\x84C\x02\xE5\u0107\x05\x86D\x02\xE6\u0107" +
+    "\x05\x9CO\x02\xE7\u0107\x05x=\x02\xE8\u0107\x05\x8AF\x02\xE9\xED\x05Z" +
+    ".\x02\xEA\xEC\x05\xB6\\\x02\xEB\xEA\x03\x02\x02\x02\xEC\xEF\x03\x02\x02" +
+    "\x02\xED\xEB\x03\x02\x02\x02\xED\xEE\x03\x02\x02\x02\xEE\u0107\x03\x02" +
+    "\x02\x02\xEF\xED\x03\x02\x02\x02\xF0\xF4\x05d3\x02\xF1\xF3\x05\xB6\\\x02" +
+    "\xF2\xF1\x03\x02\x02\x02\xF3\xF6\x03\x02\x02\x02\xF4\xF2\x03\x02\x02\x02" +
+    "\xF4\xF5\x03\x02\x02\x02\xF5\u0107\x03\x02\x02\x02\xF6\xF4\x03\x02\x02" +
+    "\x02\xF7\xFB\x05V,\x02\xF8\xFA\x05\xB6\\\x02\xF9\xF8\x03\x02\x02\x02\xFA" +
+    "\xFD\x03\x02\x02\x02\xFB\xF9\x03\x02\x02\x02\xFB\xFC\x03\x02\x02\x02\xFC" +
+    "\u0107\x03\x02\x02\x02\xFD\xFB\x03\x02\x02\x02\xFE\u0107\x05J&\x02\xFF" +
+    "\u0107\x05L\'\x02\u0100\u0107\x05P)\x02\u0101\u0107\x05N(\x02\u0102\u0107" +
+    "\x05R*\x02\u0103\u0107\x05v<\x02\u0104\u0107\x05\x98M\x02\u0105\u0107" +
+    "\x05\xC0a\x02\u0106\xDD\x03\x02\x02\x02\u0106\xDE\x03\x02\x02\x02\u0106" +
+    "\xDF\x03\x02\x02\x02\u0106\xE0\x03\x02\x02\x02\u0106\xE1\x03\x02\x02\x02" +
+    "\u0106\xE2\x03\x02\x02\x02\u0106\xE3\x03\x02\x02\x02\u0106\xE4\x03\x02" +
+    "\x02\x02\u0106\xE5\x03\x02\x02\x02\u0106\xE6\x03\x02\x02\x02\u0106\xE7" +
+    "\x03\x02\x02\x02\u0106\xE8\x03\x02\x02\x02\u0106\xE9\x03\x02\x02\x02\u0106" +
+    "\xF0\x03\x02\x02\x02\u0106\xF7\x03\x02\x02\x02\u0106\xFE\x03\x02\x02\x02" +
+    "\u0106\xFF\x03\x02\x02\x02\u0106\u0100\x03\x02\x02\x02\u0106\u0101\x03" +
+    "\x02\x02\x02\u0106\u0102\x03\x02\x02\x02\u0106\u0103\x03\x02\x02\x02\u0106" +
+    "\u0104\x03\x02\x02\x02\u0106\u0105\x03\x02\x02\x02\u0107\t\x03\x02\x02" +
+    "\x02\u0108\u0109\x05\b\x05\x02\u0109\v\x03\x02\x02\x02\u010A\u010B\x07" +
+    "\x05\x02\x02\u010B\u010C\x05(\x15\x02\u010C\u0110\x07\x1A\x02\x02\u010D" +
+    "\u010F\x05\xB6\\\x02\u010E\u010D\x03\x02\x02\x02\u010F\u0112\x03\x02\x02" +
+    "\x02\u0110\u010E\x03\x02\x02\x02\u0110\u0111\x03\x02\x02\x02\u0111\u011A" +
+    "\x03\x02\x02\x02\u0112\u0110\x03\x02\x02\x02\u0113\u0117\x05\b\x05\x02" +
+    "\u0114\u0116\x05\xB6\\\x02\u0115\u0114\x03\x02\x02\x02\u0116\u0119\x03" +
+    "\x02\x02\x02\u0117\u0115\x03\x02\x02\x02\u0117\u0118\x03\x02\x02\x02\u0118" +
+    "\u011B\x03\x02\x02\x02\u0119\u0117\x03\x02\x02\x02\u011A\u0113\x03\x02" +
+    "\x02\x02\u011B\u011C\x03\x02\x02\x02\u011C\u011A\x03\x02\x02\x02\u011C" +
+    "\u011D\x03\x02\x02\x02\u011D\u0121\x03\x02\x02\x02\u011E\u0120\x070\x02" +
+    "\x02\u011F\u011E\x03\x02\x02\x02\u0120\u0123\x03\x02\x02\x02\u0121\u011F" +
+    "\x03\x02\x02\x02\u0121\u0122\x03\x02\x02\x02\u0122\u0131\x03\x02\x02\x02" +
+    "\u0123\u0121\x03\x02\x02\x02\u0124\u012E\x05\n\x06\x02\u0125\u0127\x07" +
+    "0\x02\x02\u0126\u0125\x03\x02\x02\x02\u0127\u012A\x03\x02\x02\x02\u0128" +
+    "\u0126\x03\x02\x02\x02\u0128\u0129\x03\x02\x02\x02\u0129\u012B\x03\x02" +
+    "\x02\x02\u012A\u0128\x03\x02\x02\x02\u012B\u012D\x05\n\x06\x02\u012C\u0128" +
+    "\x03\x02\x02\x02\u012D\u0130\x03\x02\x02\x02\u012E\u012C\x03\x02\x02\x02" +
+    "\u012E\u012F\x03\x02\x02\x02\u012F\u0132\x03\x02\x02\x02\u0130\u012E\x03" +
+    "\x02\x02\x02\u0131\u0124\x03\x02\x02\x02\u0131\u0132\x03\x02\x02\x02\u0132" +
+    "\r\x03\x02\x02\x02\u0133\u0134\x07\x06\x02\x02\u0134\u0135\x05(\x15\x02" +
+    "\u0135\u0137\x07\x1A\x02\x02\u0136\u0138\x05\xB6\\\x02\u0137\u0136\x03" +
+    "\x02\x02\x02\u0137\u0138\x03\x02\x02\x02\u0138\u013C\x03\x02\x02\x02\u0139" +
+    "\u013A\x05r:\x02\u013A\u013B\x05\xB6\\\x02\u013B\u013D\x03\x02\x02\x02" +
+    "\u013C\u0139\x03\x02\x02\x02\u013C\u013D\x03\x02\x02\x02\u013D\u013F\x03" +
+    "\x02\x02\x02\u013E\u0140\x05\x84C\x02\u013F\u013E\x03\x02\x02\x02\u013F" +
+    "\u0140\x03\x02\x02\x02\u0140\u0144\x03\x02\x02\x02\u0141\u0143\x05\xB6" +
+    "\\\x02\u0142\u0141\x03\x02\x02\x02\u0143\u0146\x03\x02\x02\x02\u0144\u0142" +
+    "\x03\x02\x02\x02\u0144\u0145\x03\x02\x02\x02\u0145\u0150\x03\x02\x02\x02" +
+    "\u0146\u0144\x03\x02\x02\x02\u0147\u014B\x05\b\x05\x02\u0148\u014A\x05" +
+    "\xB6\\\x02\u0149\u0148\x03\x02\x02\x02\u014A\u014D\x03\x02\x02\x02\u014B" +
+    "\u0149\x03\x02\x02\x02\u014B\u014C\x03\x02\x02\x02\u014C\u014F\x03\x02" +
+    "\x02\x02\u014D\u014B\x03\x02\x02\x02\u014E\u0147\x03\x02\x02\x02\u014F" +
+    "\u0152\x03\x02\x02\x02\u0150\u014E\x03\x02\x02\x02\u0150\u0151\x03\x02" +
+    "\x02\x02\u0151\u0156\x03\x02\x02\x02\u0152\u0150\x03\x02\x02\x02\u0153" +
+    "\u0155\x070\x02\x02\u0154\u0153\x03\x02\x02\x02\u0155\u0158\x03\x02\x02" +
+    "\x02\u0156\u0154\x03\x02\x02\x02\u0156\u0157\x03\x02\x02\x02\u0157\u0166" +
+    "\x03\x02\x02\x02\u0158\u0156\x03\x02\x02\x02\u0159\u0163\x05\n\x06\x02" +
+    "\u015A\u015C\x070\x02\x02\u015B\u015A\x03\x02\x02\x02\u015C\u015F\x03" +
+    "\x02\x02\x02\u015D\u015B\x03\x02\x02\x02\u015D\u015E\x03\x02\x02\x02\u015E" +
+    "\u0160\x03\x02\x02\x02\u015F\u015D\x03\x02\x02\x02";
 clozeParser._serializedATNSegment1 = "\u0160\u0162\x05\n\x06\x02\u0161\u015D\x03\x02\x02\x02\u0162\u0165\x03" +
     "\x02\x02\x02\u0163\u0161\x03\x02\x02\x02\u0163\u0164\x03\x02\x02\x02\u0164" +
     "\u0167\x03\x02\x02\x02\u0165\u0163\x03\x02\x02\x02\u0166\u0159\x03\x02" +
@@ -6875,7 +6881,7 @@ clozeParser._serializedATNSegment1 = "\u0160\u0162\x05\n\x06\x02\u0161\u015D\x03
     "\x02\x02\x02\u022E\u0230\x05*\x16\x02\u022F\u022E\x03\x02\x02\x02\u0230" +
     "\u0233\x03\x02\x02\x02\u0231\u022F\x03\x02\x02\x02\u0231\u0232\x03\x02" +
     "\x02\x02\u0232\u0239\x03\x02\x02\x02\u0233\u0231\x03\x02\x02\x02\u0234" +
-    "\u0238\x07\x86\x02\x02\u0235\u0238\x07\x87\x02\x02\u0236\u0238\x05,\x17" +
+    "\u0238\x07\x88\x02\x02\u0235\u0238\x07\x89\x02\x02\u0236\u0238\x05,\x17" +
     "\x02\u0237\u0234\x03\x02\x02\x02\u0237\u0235\x03\x02\x02\x02\u0237\u0236" +
     "\x03\x02\x02\x02\u0238\u023B\x03\x02\x02\x02\u0239\u0237\x03\x02\x02\x02" +
     "\u0239\u023A\x03\x02\x02\x02\u023A)\x03\x02\x02\x02\u023B\u0239\x03\x02" +
@@ -6887,12 +6893,12 @@ clozeParser._serializedATNSegment1 = "\u0160\u0162\x05\n\x06\x02\u0161\u015D\x03
     "\x02\x02\x02\u0247\u0241\x03\x02\x02\x02\u0247\u0242\x03\x02\x02\x02\u0247" +
     "\u0243\x03\x02\x02\x02\u0247\u0244\x03\x02\x02\x02\u0247\u0245\x03\x02" +
     "\x02\x02\u0247\u0246\x03\x02\x02\x02\u0248-\x03\x02\x02\x02\u0249\u024F" +
-    "\x07\x84\x02\x02\u024A\u024F\x07\x85\x02\x02\u024B\u024F\x07\x86\x02\x02" +
-    "\u024C\u024F\x07\x87\x02\x02\u024D\u024F\x03\x02\x02\x02\u024E\u0249\x03" +
+    "\x07\x86\x02\x02\u024A\u024F\x07\x87\x02\x02\u024B\u024F\x07\x88\x02\x02" +
+    "\u024C\u024F\x07\x89\x02\x02\u024D\u024F\x03\x02\x02\x02\u024E\u0249\x03" +
     "\x02\x02\x02\u024E\u024A\x03\x02\x02\x02\u024E\u024B\x03\x02\x02\x02\u024E" +
     "\u024C\x03\x02\x02\x02\u024E\u024D\x03\x02\x02\x02\u024F/\x03\x02\x02" +
     "\x02\u0250\u0253\x07T\x02\x02\u0251\u0254\x07)\x02\x02\u0252\u0254\x07" +
-    "\x97\x02\x02\u0253\u0251\x03\x02\x02\x02\u0253\u0252\x03\x02\x02\x02\u0253" +
+    "\x99\x02\x02\u0253\u0251\x03\x02\x02\x02\u0253\u0252\x03\x02\x02\x02\u0253" +
     "\u0254\x03\x02\x02\x02\u0254\u025F\x03\x02\x02\x02\u0255\u0257\x07k\x02" +
     "\x02\u0256\u0258\x07)\x02\x02\u0257\u0256\x03\x02\x02\x02\u0257\u0258" +
     "\x03\x02\x02\x02\u0258\u025F\x03\x02\x02\x02\u0259\u025B\x07U\x02\x02" +
@@ -6910,10 +6916,10 @@ clozeParser._serializedATNSegment1 = "\u0160\u0162\x05\n\x06\x02\u0161\u015D\x03
     "\t\v\x02\x02\u0274C\x03\x02\x02\x02\u0275\u0276\t\f\x02\x02\u0276E\x03" +
     "\x02\x02\x02\u0277\u027A\x07b\x02\x02\u0278\u0279\x07\x1B\x02\x02\u0279" +
     "\u027B\x07+\x02\x02\u027A\u0278\x03\x02\x02\x02\u027A\u027B\x03\x02\x02" +
-    "\x02\u027B\u0287\x03\x02\x02\x02\u027C\u027F\x07t\x02\x02\u027D\u027E" +
+    "\x02\u027B\u0287\x03\x02\x02\x02\u027C\u027F\x07u\x02\x02\u027D\u027E" +
     "\x07\x1B\x02\x02\u027E\u0280\x07+\x02\x02\u027F\u027D\x03\x02\x02\x02" +
     "\u027F\u0280\x03\x02\x02\x02\u0280\u0287\x03\x02\x02\x02\u0281\u0284\x07" +
-    "\x80\x02\x02\u0282\u0283\x07\x1B\x02\x02\u0283\u0285\x07+\x02\x02\u0284" +
+    "\x82\x02\x02\u0282\u0283\x07\x1B\x02\x02\u0283\u0285\x07+\x02\x02\u0284" +
     "\u0282\x03\x02\x02\x02\u0284\u0285\x03\x02\x02\x02\u0285\u0287\x03\x02" +
     "\x02\x02\u0286\u0277\x03\x02\x02\x02\u0286\u027C\x03\x02\x02\x02\u0286" +
     "\u0281\x03\x02\x02\x02\u0287G\x03\x02\x02\x02\u0288\u0289\t\r\x02\x02" +
@@ -6958,9 +6964,9 @@ clozeParser._serializedATNSegment1 = "\u0160\u0162\x05\n\x06\x02\u0161\u015D\x03
     "\x02\x02\u02E6\u02E4\x03\x02\x02\x02\u02E6\u02E7\x03\x02\x02\x02\u02E7" +
     "\u02E9\x03\x02\x02\x02\u02E8\u02E6\x03\x02\x02\x02\u02E9\u02EA\x05p9\x02" +
     "\u02EA\u02EB\x07\x1A\x02\x02\u02EB]\x03\x02\x02\x02\u02EC\u02EF\x07_\x02" +
-    "\x02\u02ED\u02F0\x07)\x02\x02\u02EE\u02F0\x07\x97\x02\x02\u02EF\u02ED" +
+    "\x02\u02ED\u02F0\x07)\x02\x02\u02EE\u02F0\x07\x99\x02\x02\u02EF\u02ED" +
     "\x03\x02\x02\x02\u02EF\u02EE\x03\x02\x02\x02\u02EF\u02F0\x03\x02\x02\x02" +
-    "\u02F0\u02FB\x03\x02\x02\x02\u02F1\u02F3\x07s\x02\x02\u02F2\u02F4\x07" +
+    "\u02F0\u02FB\x03\x02\x02\x02\u02F1\u02F3\x07t\x02\x02\u02F2\u02F4\x07" +
     ")\x02\x02\u02F3\u02F2\x03\x02\x02\x02\u02F3\u02F4\x03\x02\x02\x02\u02F4" +
     "\u02FB\x03\x02\x02\x02\u02F5\u02F7\x07`\x02\x02\u02F6\u02F8\x07)\x02\x02" +
     "\u02F7\u02F6\x03\x02\x02\x02\u02F7\u02F8\x03\x02\x02\x02\u02F8\u02FB\x03" +
@@ -6998,9 +7004,9 @@ clozeParser._serializedATNSegment1 = "\u0160\u0162\x05\n\x06\x02\u0161\u015D\x03
     "\x03\x02\x02\x02\u033Ei\x03\x02\x02\x02\u033F\u0342\x07^\x02\x02\u0340" +
     "\u0341\x07\x1B\x02\x02\u0341\u0343\x07*\x02\x02\u0342\u0340\x03\x02\x02" +
     "\x02\u0342\u0343\x03\x02\x02\x02\u0343\u034F\x03\x02\x02\x02\u0344\u0347" +
-    "\x07r\x02\x02\u0345\u0346\x07\x1B\x02\x02\u0346\u0348\x07*\x02\x02\u0347" +
+    "\x07s\x02\x02\u0345\u0346\x07\x1B\x02\x02\u0346\u0348\x07*\x02\x02\u0347" +
     "\u0345\x03\x02\x02\x02\u0347\u0348\x03\x02\x02\x02\u0348\u034F\x03\x02" +
-    "\x02\x02\u0349\u034C\x07\x81\x02\x02\u034A\u034B\x07\x1B\x02\x02\u034B" +
+    "\x02\x02\u0349\u034C\x07\x83\x02\x02\u034A\u034B\x07\x1B\x02\x02\u034B" +
     "\u034D\x07*\x02\x02\u034C\u034A\x03\x02\x02\x02\u034C\u034D\x03\x02\x02" +
     "\x02\u034D\u034F\x03\x02\x02\x02\u034E\u033F\x03\x02\x02\x02\u034E\u0344" +
     "\x03\x02\x02\x02\u034E\u0349\x03\x02\x02\x02\u034Fk\x03\x02\x02\x02\u0350" +
@@ -7019,8 +7025,8 @@ clozeParser._serializedATNSegment1 = "\u0160\u0162\x05\n\x06\x02\u0161\u015D\x03
     "\x02\x02\u036B\u0369\x03\x02\x02\x02\u036C\u036E\x03\x02\x02\x02\u036D" +
     "\u036B\x03\x02\x02\x02\u036E\u0370\x07\x1A\x02\x02\u036F\u0353\x03\x02" +
     "\x02\x02\u036F\u0363\x03\x02\x02\x02\u036F\u0367\x03\x02\x02\x02\u0370" +
-    "m\x03\x02\x02\x02\u0371\u0372\x07\x96\x02\x02\u0372\u0373\x07\x1E\x02" +
-    "\x02\u0373\u0374\x07.\x02\x02\u0374o\x03\x02\x02\x02\u0375\u0376\x07\x99" +
+    "m\x03\x02\x02\x02\u0371\u0372\x07\x98\x02\x02\u0372\u0373\x07\x1E\x02" +
+    "\x02\u0373\u0374\x07.\x02\x02\u0374o\x03\x02\x02\x02\u0375\u0376\x07\x9B" +
     "\x02\x02\u0376q\x03\x02\x02\x02\u0377\u0378\x07\x18\x02\x02\u0378\u0380" +
     "\x07\x1A\x02\x02\u0379\u037B\x07\x03\x02\x02\u037A\u0379\x03\x02\x02\x02" +
     "\u037B\u037E\x03\x02\x02\x02\u037C\u037A\x03\x02\x02\x02\u037C\u037D\x03" +
@@ -7072,12 +7078,12 @@ clozeParser._serializedATNSegment1 = "\u0160\u0162\x05\n\x06\x02\u0161\u015D\x03
     "\x02\x02\u03DD\u03DF\x07\x02\x02\x03\u03DE\u03B7\x03\x02\x02\x02\u03DE" +
     "\u03D4\x03\x02\x02\x02\u03DF{\x03\x02\x02\x02\u03E0\u03E5\x076\x02\x02" +
     "\u03E1\u03E6\x05\x9CO\x02\u03E2\u03E6\x07\x1B\x02\x02\u03E3\u03E6\x07" +
-    "\x99\x02\x02\u03E4\u03E6\x070\x02\x02\u03E5\u03E1\x03\x02\x02\x02\u03E5" +
+    "\x9B\x02\x02\u03E4\u03E6\x070\x02\x02\u03E5\u03E1\x03\x02\x02\x02\u03E5" +
     "\u03E2\x03\x02\x02\x02\u03E5\u03E3\x03\x02\x02\x02\u03E5\u03E4\x03\x02" +
     "\x02\x02\u03E6\u03E7\x03\x02\x02\x02\u03E7\u03E5\x03\x02\x02\x02\u03E7" +
     "\u03E8\x03\x02\x02\x02\u03E8\u03E9\x03\x02\x02\x02\u03E9\u03F7\x07\x1A" +
     "\x02\x02\u03EA\u03F2\x076\x02\x02\u03EB\u03F1\x05\x9CO\x02\u03EC\u03F1" +
-    "\x07\x1B\x02\x02\u03ED\u03F1\x07\x99\x02\x02\u03EE\u03F1\x070\x02\x02" +
+    "\x07\x1B\x02\x02\u03ED\u03F1\x07\x9B\x02\x02\u03EE\u03F1\x070\x02\x02" +
     "\u03EF\u03F1\x07\x03\x02\x02\u03F0\u03EB\x03\x02\x02\x02\u03F0\u03EC\x03" +
     "\x02\x02\x02\u03F0\u03ED\x03\x02\x02\x02\u03F0\u03EE\x03\x02\x02\x02\u03F0" +
     "\u03EF\x03\x02\x02\x02\u03F1\u03F4\x03\x02\x02\x02\u03F2\u03F0\x03\x02" +
@@ -7195,7 +7201,7 @@ clozeParser._serializedATNSegment2 = "\x05\x9CO\x02\u040A\u040D\x07\x1B\x02\x02\
     "\x02\x02\u04E5\u04E3\x03\x02\x02\x02\u04E5\u04E6\x03\x02\x02\x02\u04E6" +
     "\u04ED\x03\x02\x02\x02\u04E7\u04E5\x03\x02\x02\x02\u04E8\u04ED\x07\x1A" +
     "\x02\x02\u04E9\u04ED\x07%\x02\x02\u04EA\u04ED\x07\"\x02\x02\u04EB\u04ED" +
-    "\x07\x99\x02\x02\u04EC\u04BD\x03\x02\x02\x02\u04EC\u04C6\x03\x02\x02\x02" +
+    "\x07\x9B\x02\x02\u04EC\u04BD\x03\x02\x02\x02\u04EC\u04C6\x03\x02\x02\x02" +
     "\u04EC\u04CF\x03\x02\x02\x02\u04EC\u04D3\x03\x02\x02\x02\u04EC\u04D7\x03" +
     "\x02\x02\x02\u04EC\u04E1\x03\x02\x02\x02\u04EC\u04E8\x03\x02\x02\x02\u04EC" +
     "\u04E9\x03\x02\x02\x02\u04EC\u04EA\x03\x02\x02\x02\u04EC\u04EB\x03\x02" +
@@ -7209,7 +7215,7 @@ clozeParser._serializedATNSegment2 = "\x05\x9CO\x02\u040A\u040D\x07\x1B\x02\x02\
     "\u04FF\xAF\x03\x02\x02\x02\u0500\u0501\x07\x18\x02\x02\u0501\xB1\x03\x02" +
     "\x02\x02\u0502\u0503\x07\x1A\x02\x02\u0503\xB3\x03\x02\x02\x02\u0504\u0505" +
     "\x07\x1A\x02\x02\u0505\xB5\x03\x02\x02\x02\u0506\u0507\x070\x02\x02\u0507" +
-    "\xB7\x03\x02\x02\x02\u0508\u0509\x07\x9A\x02\x02\u0509\xB9\x03\x02\x02" +
+    "\xB7\x03\x02\x02\x02\u0508\u0509\x07\x9C\x02\x02\u0509\xB9\x03\x02\x02" +
     "\x02\u050A\u050B\x07.\x02\x02\u050B\xBB\x03\x02\x02\x02\u050C\u050D\x07" +
     "/\x02\x02\u050D\xBD\x03\x02\x02\x02\u050E\u0519\x072\x02\x02\u050F\u0519" +
     "\x071\x02\x02\u0510\u0519\x073\x02\x02\u0511\u0519\x07\x1C\x02\x02\u0512" +
@@ -8130,6 +8136,7 @@ class Resource_formatContext extends ParserRuleContext_1.ParserRuleContext {
     AmpAudioEmbed() { return this.tryGetToken(clozeParser.AmpAudioEmbed, 0); }
     AmpDocumentEmbed() { return this.tryGetToken(clozeParser.AmpDocumentEmbed, 0); }
     AmpStillImageFilmEmbed() { return this.tryGetToken(clozeParser.AmpStillImageFilmEmbed, 0); }
+    AmpDocumentDownload() { return this.tryGetToken(clozeParser.AmpDocumentDownload, 0); }
     constructor(parent, invokingState) {
         super(parent, invokingState);
     }
@@ -8294,6 +8301,7 @@ exports.Article_formatContext = Article_formatContext;
 class Document_formatContext extends ParserRuleContext_1.ParserRuleContext {
     AmpDocument() { return this.tryGetToken(clozeParser.AmpDocument, 0); }
     AmpDocumentLink() { return this.tryGetToken(clozeParser.AmpDocumentLink, 0); }
+    AmpDocumentDownload() { return this.tryGetToken(clozeParser.AmpDocumentDownload, 0); }
     AmpDocumentEmbed() { return this.tryGetToken(clozeParser.AmpDocumentEmbed, 0); }
     constructor(parent, invokingState) {
         super(parent, invokingState);
@@ -8406,6 +8414,7 @@ exports.Op_article_formatContext = Op_article_formatContext;
 class Op_document_formatContext extends ParserRuleContext_1.ParserRuleContext {
     OpAmpDocumentLink() { return this.tryGetToken(clozeParser.OpAmpDocumentLink, 0); }
     OpAmpDocument() { return this.tryGetToken(clozeParser.OpAmpDocument, 0); }
+    OpAmpDocumentDownload() { return this.tryGetToken(clozeParser.OpAmpDocumentDownload, 0); }
     OpAmpDocumentEmbed() { return this.tryGetToken(clozeParser.OpAmpDocumentEmbed, 0); }
     constructor(parent, invokingState) {
         super(parent, invokingState);

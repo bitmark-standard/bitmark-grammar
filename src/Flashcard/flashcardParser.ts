@@ -141,51 +141,53 @@ export class flashcardParser extends Parser {
 	public static readonly AmpVideoLink = 113;
 	public static readonly AmpArticleLink = 114;
 	public static readonly AmpDocumentLink = 115;
-	public static readonly AmpAppLink = 116;
-	public static readonly AmpWebsiteLink = 117;
-	public static readonly AmpStillImageFilmLink = 118;
-	public static readonly OpAmpAudioLink = 119;
-	public static readonly OpAmpImageLink = 120;
-	public static readonly OpAmpVideoLink = 121;
-	public static readonly OpAmpArticleLink = 122;
-	public static readonly OpAmpDocumentLink = 123;
-	public static readonly OpAmpAppLink = 124;
-	public static readonly OpAmpWebsiteLink = 125;
-	public static readonly OpAmpStillImageFilmLink = 126;
-	public static readonly AmpImageEmbed = 127;
-	public static readonly AmpVideoEmbed = 128;
-	public static readonly AmpAudioEmbed = 129;
-	public static readonly AmpDocumentEmbed = 130;
-	public static readonly AmpStillImageFilmEmbed = 131;
-	public static readonly OpAmpImageEmbed = 132;
-	public static readonly OpAmpVideoEmbed = 133;
-	public static readonly OpAmpAudioEmbed = 134;
-	public static readonly OpAmpDocumentEmbed = 135;
-	public static readonly OpAmpStillImageFilmEmbed = 136;
-	public static readonly BitmarkMinus = 137;
-	public static readonly BitmarkPlus = 138;
-	public static readonly ColonText = 139;
-	public static readonly ColonJson = 140;
-	public static readonly Prosemirror = 141;
-	public static readonly Placeholder = 142;
-	public static readonly BASIC = 143;
-	public static readonly JPG = 144;
-	public static readonly PNG = 145;
-	public static readonly GIF = 146;
-	public static readonly SVG = 147;
-	public static readonly MP2 = 148;
-	public static readonly MP3 = 149;
-	public static readonly MP4 = 150;
-	public static readonly FLV = 151;
-	public static readonly WMV = 152;
-	public static readonly MPEG = 153;
-	public static readonly MPG = 154;
-	public static readonly TEL = 155;
-	public static readonly DotArticleAtt = 156;
-	public static readonly STAR = 157;
-	public static readonly URL = 158;
-	public static readonly LIST_LINE = 159;
-	public static readonly ENCLBARS = 160;
+	public static readonly AmpDocumentDownload = 116;
+	public static readonly AmpAppLink = 117;
+	public static readonly AmpWebsiteLink = 118;
+	public static readonly AmpStillImageFilmLink = 119;
+	public static readonly OpAmpAudioLink = 120;
+	public static readonly OpAmpImageLink = 121;
+	public static readonly OpAmpVideoLink = 122;
+	public static readonly OpAmpArticleLink = 123;
+	public static readonly OpAmpDocumentLink = 124;
+	public static readonly OpAmpDocumentDownload = 125;
+	public static readonly OpAmpAppLink = 126;
+	public static readonly OpAmpWebsiteLink = 127;
+	public static readonly OpAmpStillImageFilmLink = 128;
+	public static readonly AmpImageEmbed = 129;
+	public static readonly AmpVideoEmbed = 130;
+	public static readonly AmpAudioEmbed = 131;
+	public static readonly AmpDocumentEmbed = 132;
+	public static readonly AmpStillImageFilmEmbed = 133;
+	public static readonly OpAmpImageEmbed = 134;
+	public static readonly OpAmpVideoEmbed = 135;
+	public static readonly OpAmpAudioEmbed = 136;
+	public static readonly OpAmpDocumentEmbed = 137;
+	public static readonly OpAmpStillImageFilmEmbed = 138;
+	public static readonly BitmarkMinus = 139;
+	public static readonly BitmarkPlus = 140;
+	public static readonly ColonText = 141;
+	public static readonly ColonJson = 142;
+	public static readonly Prosemirror = 143;
+	public static readonly Placeholder = 144;
+	public static readonly BASIC = 145;
+	public static readonly JPG = 146;
+	public static readonly PNG = 147;
+	public static readonly GIF = 148;
+	public static readonly SVG = 149;
+	public static readonly MP2 = 150;
+	public static readonly MP3 = 151;
+	public static readonly MP4 = 152;
+	public static readonly FLV = 153;
+	public static readonly WMV = 154;
+	public static readonly MPEG = 155;
+	public static readonly MPG = 156;
+	public static readonly TEL = 157;
+	public static readonly DotArticleAtt = 158;
+	public static readonly STAR = 159;
+	public static readonly URL = 160;
+	public static readonly LIST_LINE = 161;
+	public static readonly ENCLBARS = 162;
 	public static readonly RULE_bitmark = 0;
 	public static readonly RULE_bitmark_ = 1;
 	public static readonly RULE_flashcards = 2;
@@ -310,14 +312,14 @@ export class flashcardParser extends Parser {
 		"'&pdf'", undefined, undefined, undefined, undefined, undefined, undefined, 
 		undefined, undefined, undefined, undefined, undefined, undefined, "'&audio-link'", 
 		"'&image-link'", "'&video-link'", "'&article-link'", "'&document-link'", 
-		"'&app-link'", "'&website-link'", "'&still-image-film-link'", undefined, 
+		"'&document-download'", "'&app-link'", "'&website-link'", "'&still-image-film-link'", 
 		undefined, undefined, undefined, undefined, undefined, undefined, undefined, 
-		"'&image-embed'", "'&video-embed'", "'&daudio-embed'", "'&document-embed'", 
-		"'&still-image-film-embed'", undefined, undefined, undefined, undefined, 
-		undefined, "':bitmark--'", "':bitmark++'", "':text'", "':json'", "':prosemirror'", 
-		"':placeholder'", "':basic'", "':jpg'", "':png'", "':gif'", "':svg'", 
-		"':mp2'", "':mp3'", "':mp4'", "':flv'", "':wmv'", "':mpeg'", "':mpg'", 
-		"'tel:'", "'.article-attachment'", "'*'",
+		undefined, undefined, "'&image-embed'", "'&video-embed'", "'&daudio-embed'", 
+		"'&document-embed'", "'&still-image-film-embed'", undefined, undefined, 
+		undefined, undefined, undefined, "':bitmark--'", "':bitmark++'", "':text'", 
+		"':json'", "':prosemirror'", "':placeholder'", "':basic'", "':jpg'", "':png'", 
+		"':gif'", "':svg'", "':mp2'", "':mp3'", "':mp4'", "':flv'", "':wmv'", 
+		"':mpeg'", "':mpg'", "'tel:'", "'.article-attachment'", "'*'",
 	];
 	private static readonly _SYMBOLIC_NAMES: Array<string | undefined> = [
 		undefined, "OPDOT", "S", "BitFlash1", "BitFlash", "BitFlashcardset", "BitFlashcardlangset", 
@@ -338,16 +340,16 @@ export class flashcardParser extends Parser {
 		"AmpStillImageFilm", "AmpPdf", "OpAmpAudio", "OpAmpImage", "OpAmpImageZoom", 
 		"OpAmpImageWAudio", "OpAmpVideo", "OpAmpArticle", "OpAmpArticleAtt", "OpAmpDocument", 
 		"OpAmpApp", "OpAmpWebsite", "OpAmpStillImageFilm", "BracEnclose", "AmpAudioLink", 
-		"AmpImageLink", "AmpVideoLink", "AmpArticleLink", "AmpDocumentLink", "AmpAppLink", 
-		"AmpWebsiteLink", "AmpStillImageFilmLink", "OpAmpAudioLink", "OpAmpImageLink", 
-		"OpAmpVideoLink", "OpAmpArticleLink", "OpAmpDocumentLink", "OpAmpAppLink", 
-		"OpAmpWebsiteLink", "OpAmpStillImageFilmLink", "AmpImageEmbed", "AmpVideoEmbed", 
-		"AmpAudioEmbed", "AmpDocumentEmbed", "AmpStillImageFilmEmbed", "OpAmpImageEmbed", 
-		"OpAmpVideoEmbed", "OpAmpAudioEmbed", "OpAmpDocumentEmbed", "OpAmpStillImageFilmEmbed", 
-		"BitmarkMinus", "BitmarkPlus", "ColonText", "ColonJson", "Prosemirror", 
-		"Placeholder", "BASIC", "JPG", "PNG", "GIF", "SVG", "MP2", "MP3", "MP4", 
-		"FLV", "WMV", "MPEG", "MPG", "TEL", "DotArticleAtt", "STAR", "URL", "LIST_LINE", 
-		"ENCLBARS",
+		"AmpImageLink", "AmpVideoLink", "AmpArticleLink", "AmpDocumentLink", "AmpDocumentDownload", 
+		"AmpAppLink", "AmpWebsiteLink", "AmpStillImageFilmLink", "OpAmpAudioLink", 
+		"OpAmpImageLink", "OpAmpVideoLink", "OpAmpArticleLink", "OpAmpDocumentLink", 
+		"OpAmpDocumentDownload", "OpAmpAppLink", "OpAmpWebsiteLink", "OpAmpStillImageFilmLink", 
+		"AmpImageEmbed", "AmpVideoEmbed", "AmpAudioEmbed", "AmpDocumentEmbed", 
+		"AmpStillImageFilmEmbed", "OpAmpImageEmbed", "OpAmpVideoEmbed", "OpAmpAudioEmbed", 
+		"OpAmpDocumentEmbed", "OpAmpStillImageFilmEmbed", "BitmarkMinus", "BitmarkPlus", 
+		"ColonText", "ColonJson", "Prosemirror", "Placeholder", "BASIC", "JPG", 
+		"PNG", "GIF", "SVG", "MP2", "MP3", "MP4", "FLV", "WMV", "MPEG", "MPG", 
+		"TEL", "DotArticleAtt", "STAR", "URL", "LIST_LINE", "ENCLBARS",
 	];
 	public static readonly VOCABULARY: Vocabulary = new VocabularyImpl(flashcardParser._LITERAL_NAMES, flashcardParser._SYMBOLIC_NAMES, []);
 
@@ -1419,7 +1421,7 @@ export class flashcardParser extends Parser {
 			this.state = 444;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
-			while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << flashcardParser.S) | (1 << flashcardParser.OPRANGLES) | (1 << flashcardParser.OPRANGLEL) | (1 << flashcardParser.OPDANGLE) | (1 << flashcardParser.OPU) | (1 << flashcardParser.OPB) | (1 << flashcardParser.OPQ) | (1 << flashcardParser.OPA) | (1 << flashcardParser.OPS) | (1 << flashcardParser.OPC) | (1 << flashcardParser.OPHASH) | (1 << flashcardParser.COLON) | (1 << flashcardParser.AMP))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (flashcardParser.Greater - 32)) | (1 << (flashcardParser.Less - 32)) | (1 << (flashcardParser.RightAngle - 32)) | (1 << (flashcardParser.RightArrow - 32)) | (1 << (flashcardParser.ArticleText - 32)) | (1 << (flashcardParser.NUMERIC - 32)) | (1 << (flashcardParser.STRING - 32)) | (1 << (flashcardParser.NOTBITMARK - 32)) | (1 << (flashcardParser.SENTENCE - 32)) | (1 << (flashcardParser.BARSTRING - 32)) | (1 << (flashcardParser.AtReference - 32)))) !== 0) || ((((_la - 65)) & ~0x1F) === 0 && ((1 << (_la - 65)) & ((1 << (flashcardParser.AtExampleWithStr - 65)) | (1 << (flashcardParser.AtExamplecol - 65)) | (1 << (flashcardParser.AtExamplecl - 65)) | (1 << (flashcardParser.AtLabeltrue - 65)) | (1 << (flashcardParser.AtLabelfalse - 65)) | (1 << (flashcardParser.OpAtCopyright - 65)))) !== 0) || ((((_la - 99)) & ~0x1F) === 0 && ((1 << (_la - 99)) & ((1 << (flashcardParser.OpAmpAudio - 99)) | (1 << (flashcardParser.OpAmpImage - 99)) | (1 << (flashcardParser.OpAmpImageZoom - 99)) | (1 << (flashcardParser.OpAmpImageWAudio - 99)) | (1 << (flashcardParser.OpAmpVideo - 99)) | (1 << (flashcardParser.OpAmpArticle - 99)) | (1 << (flashcardParser.OpAmpDocument - 99)) | (1 << (flashcardParser.OpAmpApp - 99)) | (1 << (flashcardParser.OpAmpWebsite - 99)) | (1 << (flashcardParser.OpAmpStillImageFilm - 99)) | (1 << (flashcardParser.OpAmpAudioLink - 99)) | (1 << (flashcardParser.OpAmpImageLink - 99)) | (1 << (flashcardParser.OpAmpVideoLink - 99)) | (1 << (flashcardParser.OpAmpArticleLink - 99)) | (1 << (flashcardParser.OpAmpDocumentLink - 99)) | (1 << (flashcardParser.OpAmpAppLink - 99)) | (1 << (flashcardParser.OpAmpWebsiteLink - 99)) | (1 << (flashcardParser.OpAmpStillImageFilmLink - 99)))) !== 0) || ((((_la - 133)) & ~0x1F) === 0 && ((1 << (_la - 133)) & ((1 << (flashcardParser.OpAmpVideoEmbed - 133)) | (1 << (flashcardParser.OpAmpAudioEmbed - 133)) | (1 << (flashcardParser.OpAmpDocumentEmbed - 133)) | (1 << (flashcardParser.OpAmpStillImageFilmEmbed - 133)) | (1 << (flashcardParser.URL - 133)) | (1 << (flashcardParser.LIST_LINE - 133)))) !== 0)) {
+			while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << flashcardParser.S) | (1 << flashcardParser.OPRANGLES) | (1 << flashcardParser.OPRANGLEL) | (1 << flashcardParser.OPDANGLE) | (1 << flashcardParser.OPU) | (1 << flashcardParser.OPB) | (1 << flashcardParser.OPQ) | (1 << flashcardParser.OPA) | (1 << flashcardParser.OPS) | (1 << flashcardParser.OPC) | (1 << flashcardParser.OPHASH) | (1 << flashcardParser.COLON) | (1 << flashcardParser.AMP))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (flashcardParser.Greater - 32)) | (1 << (flashcardParser.Less - 32)) | (1 << (flashcardParser.RightAngle - 32)) | (1 << (flashcardParser.RightArrow - 32)) | (1 << (flashcardParser.ArticleText - 32)) | (1 << (flashcardParser.NUMERIC - 32)) | (1 << (flashcardParser.STRING - 32)) | (1 << (flashcardParser.NOTBITMARK - 32)) | (1 << (flashcardParser.SENTENCE - 32)) | (1 << (flashcardParser.BARSTRING - 32)) | (1 << (flashcardParser.AtReference - 32)))) !== 0) || ((((_la - 65)) & ~0x1F) === 0 && ((1 << (_la - 65)) & ((1 << (flashcardParser.AtExampleWithStr - 65)) | (1 << (flashcardParser.AtExamplecol - 65)) | (1 << (flashcardParser.AtExamplecl - 65)) | (1 << (flashcardParser.AtLabeltrue - 65)) | (1 << (flashcardParser.AtLabelfalse - 65)) | (1 << (flashcardParser.OpAtCopyright - 65)))) !== 0) || ((((_la - 99)) & ~0x1F) === 0 && ((1 << (_la - 99)) & ((1 << (flashcardParser.OpAmpAudio - 99)) | (1 << (flashcardParser.OpAmpImage - 99)) | (1 << (flashcardParser.OpAmpImageZoom - 99)) | (1 << (flashcardParser.OpAmpImageWAudio - 99)) | (1 << (flashcardParser.OpAmpVideo - 99)) | (1 << (flashcardParser.OpAmpArticle - 99)) | (1 << (flashcardParser.OpAmpDocument - 99)) | (1 << (flashcardParser.OpAmpApp - 99)) | (1 << (flashcardParser.OpAmpWebsite - 99)) | (1 << (flashcardParser.OpAmpStillImageFilm - 99)) | (1 << (flashcardParser.OpAmpAudioLink - 99)) | (1 << (flashcardParser.OpAmpImageLink - 99)) | (1 << (flashcardParser.OpAmpVideoLink - 99)) | (1 << (flashcardParser.OpAmpArticleLink - 99)) | (1 << (flashcardParser.OpAmpDocumentLink - 99)) | (1 << (flashcardParser.OpAmpDocumentDownload - 99)) | (1 << (flashcardParser.OpAmpAppLink - 99)) | (1 << (flashcardParser.OpAmpWebsiteLink - 99)) | (1 << (flashcardParser.OpAmpStillImageFilmLink - 99)))) !== 0) || ((((_la - 135)) & ~0x1F) === 0 && ((1 << (_la - 135)) & ((1 << (flashcardParser.OpAmpVideoEmbed - 135)) | (1 << (flashcardParser.OpAmpAudioEmbed - 135)) | (1 << (flashcardParser.OpAmpDocumentEmbed - 135)) | (1 << (flashcardParser.OpAmpStillImageFilmEmbed - 135)) | (1 << (flashcardParser.URL - 135)) | (1 << (flashcardParser.LIST_LINE - 135)))) !== 0)) {
 				{
 				{
 				this.state = 435;
@@ -1477,7 +1479,7 @@ export class flashcardParser extends Parser {
 						this.state = 451;
 						this._errHandler.sync(this);
 						_la = this._input.LA(1);
-					} while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << flashcardParser.S) | (1 << flashcardParser.OPRANGLES) | (1 << flashcardParser.OPRANGLEL) | (1 << flashcardParser.OPDANGLE) | (1 << flashcardParser.OPU) | (1 << flashcardParser.OPB) | (1 << flashcardParser.OPQ) | (1 << flashcardParser.OPA) | (1 << flashcardParser.OPS) | (1 << flashcardParser.OPC) | (1 << flashcardParser.OPHASH) | (1 << flashcardParser.COLON) | (1 << flashcardParser.AMP))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (flashcardParser.Greater - 32)) | (1 << (flashcardParser.Less - 32)) | (1 << (flashcardParser.RightAngle - 32)) | (1 << (flashcardParser.RightArrow - 32)) | (1 << (flashcardParser.ArticleText - 32)) | (1 << (flashcardParser.NUMERIC - 32)) | (1 << (flashcardParser.STRING - 32)) | (1 << (flashcardParser.NOTBITMARK - 32)) | (1 << (flashcardParser.SENTENCE - 32)) | (1 << (flashcardParser.BARSTRING - 32)) | (1 << (flashcardParser.AtReference - 32)))) !== 0) || ((((_la - 65)) & ~0x1F) === 0 && ((1 << (_la - 65)) & ((1 << (flashcardParser.AtExampleWithStr - 65)) | (1 << (flashcardParser.AtExamplecol - 65)) | (1 << (flashcardParser.AtExamplecl - 65)) | (1 << (flashcardParser.AtLabeltrue - 65)) | (1 << (flashcardParser.AtLabelfalse - 65)) | (1 << (flashcardParser.OpAtCopyright - 65)))) !== 0) || ((((_la - 99)) & ~0x1F) === 0 && ((1 << (_la - 99)) & ((1 << (flashcardParser.OpAmpAudio - 99)) | (1 << (flashcardParser.OpAmpImage - 99)) | (1 << (flashcardParser.OpAmpImageZoom - 99)) | (1 << (flashcardParser.OpAmpImageWAudio - 99)) | (1 << (flashcardParser.OpAmpVideo - 99)) | (1 << (flashcardParser.OpAmpArticle - 99)) | (1 << (flashcardParser.OpAmpDocument - 99)) | (1 << (flashcardParser.OpAmpApp - 99)) | (1 << (flashcardParser.OpAmpWebsite - 99)) | (1 << (flashcardParser.OpAmpStillImageFilm - 99)) | (1 << (flashcardParser.OpAmpAudioLink - 99)) | (1 << (flashcardParser.OpAmpImageLink - 99)) | (1 << (flashcardParser.OpAmpVideoLink - 99)) | (1 << (flashcardParser.OpAmpArticleLink - 99)) | (1 << (flashcardParser.OpAmpDocumentLink - 99)) | (1 << (flashcardParser.OpAmpAppLink - 99)) | (1 << (flashcardParser.OpAmpWebsiteLink - 99)) | (1 << (flashcardParser.OpAmpStillImageFilmLink - 99)))) !== 0) || ((((_la - 133)) & ~0x1F) === 0 && ((1 << (_la - 133)) & ((1 << (flashcardParser.OpAmpVideoEmbed - 133)) | (1 << (flashcardParser.OpAmpAudioEmbed - 133)) | (1 << (flashcardParser.OpAmpDocumentEmbed - 133)) | (1 << (flashcardParser.OpAmpStillImageFilmEmbed - 133)) | (1 << (flashcardParser.URL - 133)) | (1 << (flashcardParser.LIST_LINE - 133)))) !== 0));
+					} while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << flashcardParser.S) | (1 << flashcardParser.OPRANGLES) | (1 << flashcardParser.OPRANGLEL) | (1 << flashcardParser.OPDANGLE) | (1 << flashcardParser.OPU) | (1 << flashcardParser.OPB) | (1 << flashcardParser.OPQ) | (1 << flashcardParser.OPA) | (1 << flashcardParser.OPS) | (1 << flashcardParser.OPC) | (1 << flashcardParser.OPHASH) | (1 << flashcardParser.COLON) | (1 << flashcardParser.AMP))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (flashcardParser.Greater - 32)) | (1 << (flashcardParser.Less - 32)) | (1 << (flashcardParser.RightAngle - 32)) | (1 << (flashcardParser.RightArrow - 32)) | (1 << (flashcardParser.ArticleText - 32)) | (1 << (flashcardParser.NUMERIC - 32)) | (1 << (flashcardParser.STRING - 32)) | (1 << (flashcardParser.NOTBITMARK - 32)) | (1 << (flashcardParser.SENTENCE - 32)) | (1 << (flashcardParser.BARSTRING - 32)) | (1 << (flashcardParser.AtReference - 32)))) !== 0) || ((((_la - 65)) & ~0x1F) === 0 && ((1 << (_la - 65)) & ((1 << (flashcardParser.AtExampleWithStr - 65)) | (1 << (flashcardParser.AtExamplecol - 65)) | (1 << (flashcardParser.AtExamplecl - 65)) | (1 << (flashcardParser.AtLabeltrue - 65)) | (1 << (flashcardParser.AtLabelfalse - 65)) | (1 << (flashcardParser.OpAtCopyright - 65)))) !== 0) || ((((_la - 99)) & ~0x1F) === 0 && ((1 << (_la - 99)) & ((1 << (flashcardParser.OpAmpAudio - 99)) | (1 << (flashcardParser.OpAmpImage - 99)) | (1 << (flashcardParser.OpAmpImageZoom - 99)) | (1 << (flashcardParser.OpAmpImageWAudio - 99)) | (1 << (flashcardParser.OpAmpVideo - 99)) | (1 << (flashcardParser.OpAmpArticle - 99)) | (1 << (flashcardParser.OpAmpDocument - 99)) | (1 << (flashcardParser.OpAmpApp - 99)) | (1 << (flashcardParser.OpAmpWebsite - 99)) | (1 << (flashcardParser.OpAmpStillImageFilm - 99)) | (1 << (flashcardParser.OpAmpAudioLink - 99)) | (1 << (flashcardParser.OpAmpImageLink - 99)) | (1 << (flashcardParser.OpAmpVideoLink - 99)) | (1 << (flashcardParser.OpAmpArticleLink - 99)) | (1 << (flashcardParser.OpAmpDocumentLink - 99)) | (1 << (flashcardParser.OpAmpDocumentDownload - 99)) | (1 << (flashcardParser.OpAmpAppLink - 99)) | (1 << (flashcardParser.OpAmpWebsiteLink - 99)) | (1 << (flashcardParser.OpAmpStillImageFilmLink - 99)))) !== 0) || ((((_la - 135)) & ~0x1F) === 0 && ((1 << (_la - 135)) & ((1 << (flashcardParser.OpAmpVideoEmbed - 135)) | (1 << (flashcardParser.OpAmpAudioEmbed - 135)) | (1 << (flashcardParser.OpAmpDocumentEmbed - 135)) | (1 << (flashcardParser.OpAmpStillImageFilmEmbed - 135)) | (1 << (flashcardParser.URL - 135)) | (1 << (flashcardParser.LIST_LINE - 135)))) !== 0));
 					this.state = 461;
 					this._errHandler.sync(this);
 					_la = this._input.LA(1);
@@ -1509,7 +1511,7 @@ export class flashcardParser extends Parser {
 							this.state = 457;
 							this._errHandler.sync(this);
 							_la = this._input.LA(1);
-						} while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << flashcardParser.S) | (1 << flashcardParser.OPRANGLES) | (1 << flashcardParser.OPRANGLEL) | (1 << flashcardParser.OPDANGLE) | (1 << flashcardParser.OPU) | (1 << flashcardParser.OPB) | (1 << flashcardParser.OPQ) | (1 << flashcardParser.OPA) | (1 << flashcardParser.OPS) | (1 << flashcardParser.OPC) | (1 << flashcardParser.OPHASH) | (1 << flashcardParser.COLON) | (1 << flashcardParser.AMP))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (flashcardParser.Greater - 32)) | (1 << (flashcardParser.Less - 32)) | (1 << (flashcardParser.RightAngle - 32)) | (1 << (flashcardParser.RightArrow - 32)) | (1 << (flashcardParser.ArticleText - 32)) | (1 << (flashcardParser.NUMERIC - 32)) | (1 << (flashcardParser.STRING - 32)) | (1 << (flashcardParser.NOTBITMARK - 32)) | (1 << (flashcardParser.SENTENCE - 32)) | (1 << (flashcardParser.BARSTRING - 32)) | (1 << (flashcardParser.AtReference - 32)))) !== 0) || ((((_la - 65)) & ~0x1F) === 0 && ((1 << (_la - 65)) & ((1 << (flashcardParser.AtExampleWithStr - 65)) | (1 << (flashcardParser.AtExamplecol - 65)) | (1 << (flashcardParser.AtExamplecl - 65)) | (1 << (flashcardParser.AtLabeltrue - 65)) | (1 << (flashcardParser.AtLabelfalse - 65)) | (1 << (flashcardParser.OpAtCopyright - 65)))) !== 0) || ((((_la - 99)) & ~0x1F) === 0 && ((1 << (_la - 99)) & ((1 << (flashcardParser.OpAmpAudio - 99)) | (1 << (flashcardParser.OpAmpImage - 99)) | (1 << (flashcardParser.OpAmpImageZoom - 99)) | (1 << (flashcardParser.OpAmpImageWAudio - 99)) | (1 << (flashcardParser.OpAmpVideo - 99)) | (1 << (flashcardParser.OpAmpArticle - 99)) | (1 << (flashcardParser.OpAmpDocument - 99)) | (1 << (flashcardParser.OpAmpApp - 99)) | (1 << (flashcardParser.OpAmpWebsite - 99)) | (1 << (flashcardParser.OpAmpStillImageFilm - 99)) | (1 << (flashcardParser.OpAmpAudioLink - 99)) | (1 << (flashcardParser.OpAmpImageLink - 99)) | (1 << (flashcardParser.OpAmpVideoLink - 99)) | (1 << (flashcardParser.OpAmpArticleLink - 99)) | (1 << (flashcardParser.OpAmpDocumentLink - 99)) | (1 << (flashcardParser.OpAmpAppLink - 99)) | (1 << (flashcardParser.OpAmpWebsiteLink - 99)) | (1 << (flashcardParser.OpAmpStillImageFilmLink - 99)))) !== 0) || ((((_la - 133)) & ~0x1F) === 0 && ((1 << (_la - 133)) & ((1 << (flashcardParser.OpAmpVideoEmbed - 133)) | (1 << (flashcardParser.OpAmpAudioEmbed - 133)) | (1 << (flashcardParser.OpAmpDocumentEmbed - 133)) | (1 << (flashcardParser.OpAmpStillImageFilmEmbed - 133)) | (1 << (flashcardParser.URL - 133)) | (1 << (flashcardParser.LIST_LINE - 133)))) !== 0));
+						} while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << flashcardParser.S) | (1 << flashcardParser.OPRANGLES) | (1 << flashcardParser.OPRANGLEL) | (1 << flashcardParser.OPDANGLE) | (1 << flashcardParser.OPU) | (1 << flashcardParser.OPB) | (1 << flashcardParser.OPQ) | (1 << flashcardParser.OPA) | (1 << flashcardParser.OPS) | (1 << flashcardParser.OPC) | (1 << flashcardParser.OPHASH) | (1 << flashcardParser.COLON) | (1 << flashcardParser.AMP))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (flashcardParser.Greater - 32)) | (1 << (flashcardParser.Less - 32)) | (1 << (flashcardParser.RightAngle - 32)) | (1 << (flashcardParser.RightArrow - 32)) | (1 << (flashcardParser.ArticleText - 32)) | (1 << (flashcardParser.NUMERIC - 32)) | (1 << (flashcardParser.STRING - 32)) | (1 << (flashcardParser.NOTBITMARK - 32)) | (1 << (flashcardParser.SENTENCE - 32)) | (1 << (flashcardParser.BARSTRING - 32)) | (1 << (flashcardParser.AtReference - 32)))) !== 0) || ((((_la - 65)) & ~0x1F) === 0 && ((1 << (_la - 65)) & ((1 << (flashcardParser.AtExampleWithStr - 65)) | (1 << (flashcardParser.AtExamplecol - 65)) | (1 << (flashcardParser.AtExamplecl - 65)) | (1 << (flashcardParser.AtLabeltrue - 65)) | (1 << (flashcardParser.AtLabelfalse - 65)) | (1 << (flashcardParser.OpAtCopyright - 65)))) !== 0) || ((((_la - 99)) & ~0x1F) === 0 && ((1 << (_la - 99)) & ((1 << (flashcardParser.OpAmpAudio - 99)) | (1 << (flashcardParser.OpAmpImage - 99)) | (1 << (flashcardParser.OpAmpImageZoom - 99)) | (1 << (flashcardParser.OpAmpImageWAudio - 99)) | (1 << (flashcardParser.OpAmpVideo - 99)) | (1 << (flashcardParser.OpAmpArticle - 99)) | (1 << (flashcardParser.OpAmpDocument - 99)) | (1 << (flashcardParser.OpAmpApp - 99)) | (1 << (flashcardParser.OpAmpWebsite - 99)) | (1 << (flashcardParser.OpAmpStillImageFilm - 99)) | (1 << (flashcardParser.OpAmpAudioLink - 99)) | (1 << (flashcardParser.OpAmpImageLink - 99)) | (1 << (flashcardParser.OpAmpVideoLink - 99)) | (1 << (flashcardParser.OpAmpArticleLink - 99)) | (1 << (flashcardParser.OpAmpDocumentLink - 99)) | (1 << (flashcardParser.OpAmpDocumentDownload - 99)) | (1 << (flashcardParser.OpAmpAppLink - 99)) | (1 << (flashcardParser.OpAmpWebsiteLink - 99)) | (1 << (flashcardParser.OpAmpStillImageFilmLink - 99)))) !== 0) || ((((_la - 135)) & ~0x1F) === 0 && ((1 << (_la - 135)) & ((1 << (flashcardParser.OpAmpVideoEmbed - 135)) | (1 << (flashcardParser.OpAmpAudioEmbed - 135)) | (1 << (flashcardParser.OpAmpDocumentEmbed - 135)) | (1 << (flashcardParser.OpAmpStillImageFilmEmbed - 135)) | (1 << (flashcardParser.URL - 135)) | (1 << (flashcardParser.LIST_LINE - 135)))) !== 0));
 						}
 						}
 						this.state = 463;
@@ -1642,7 +1644,7 @@ export class flashcardParser extends Parser {
 			this.state = 508;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
-			while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << flashcardParser.S) | (1 << flashcardParser.OPRANGLES) | (1 << flashcardParser.OPRANGLEL) | (1 << flashcardParser.OPDANGLE) | (1 << flashcardParser.OPU) | (1 << flashcardParser.OPB) | (1 << flashcardParser.OPQ) | (1 << flashcardParser.OPA) | (1 << flashcardParser.OPS) | (1 << flashcardParser.OPC) | (1 << flashcardParser.OPHASH) | (1 << flashcardParser.COLON) | (1 << flashcardParser.AMP))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (flashcardParser.Greater - 32)) | (1 << (flashcardParser.Less - 32)) | (1 << (flashcardParser.RightAngle - 32)) | (1 << (flashcardParser.RightArrow - 32)) | (1 << (flashcardParser.ArticleText - 32)) | (1 << (flashcardParser.NUMERIC - 32)) | (1 << (flashcardParser.STRING - 32)) | (1 << (flashcardParser.NOTBITMARK - 32)) | (1 << (flashcardParser.SENTENCE - 32)) | (1 << (flashcardParser.BARSTRING - 32)) | (1 << (flashcardParser.AtReference - 32)))) !== 0) || ((((_la - 65)) & ~0x1F) === 0 && ((1 << (_la - 65)) & ((1 << (flashcardParser.AtExampleWithStr - 65)) | (1 << (flashcardParser.AtExamplecol - 65)) | (1 << (flashcardParser.AtExamplecl - 65)) | (1 << (flashcardParser.AtLabeltrue - 65)) | (1 << (flashcardParser.AtLabelfalse - 65)) | (1 << (flashcardParser.OpAtCopyright - 65)))) !== 0) || ((((_la - 99)) & ~0x1F) === 0 && ((1 << (_la - 99)) & ((1 << (flashcardParser.OpAmpAudio - 99)) | (1 << (flashcardParser.OpAmpImage - 99)) | (1 << (flashcardParser.OpAmpImageZoom - 99)) | (1 << (flashcardParser.OpAmpImageWAudio - 99)) | (1 << (flashcardParser.OpAmpVideo - 99)) | (1 << (flashcardParser.OpAmpArticle - 99)) | (1 << (flashcardParser.OpAmpDocument - 99)) | (1 << (flashcardParser.OpAmpApp - 99)) | (1 << (flashcardParser.OpAmpWebsite - 99)) | (1 << (flashcardParser.OpAmpStillImageFilm - 99)) | (1 << (flashcardParser.OpAmpAudioLink - 99)) | (1 << (flashcardParser.OpAmpImageLink - 99)) | (1 << (flashcardParser.OpAmpVideoLink - 99)) | (1 << (flashcardParser.OpAmpArticleLink - 99)) | (1 << (flashcardParser.OpAmpDocumentLink - 99)) | (1 << (flashcardParser.OpAmpAppLink - 99)) | (1 << (flashcardParser.OpAmpWebsiteLink - 99)) | (1 << (flashcardParser.OpAmpStillImageFilmLink - 99)))) !== 0) || ((((_la - 133)) & ~0x1F) === 0 && ((1 << (_la - 133)) & ((1 << (flashcardParser.OpAmpVideoEmbed - 133)) | (1 << (flashcardParser.OpAmpAudioEmbed - 133)) | (1 << (flashcardParser.OpAmpDocumentEmbed - 133)) | (1 << (flashcardParser.OpAmpStillImageFilmEmbed - 133)) | (1 << (flashcardParser.URL - 133)) | (1 << (flashcardParser.LIST_LINE - 133)))) !== 0)) {
+			while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << flashcardParser.S) | (1 << flashcardParser.OPRANGLES) | (1 << flashcardParser.OPRANGLEL) | (1 << flashcardParser.OPDANGLE) | (1 << flashcardParser.OPU) | (1 << flashcardParser.OPB) | (1 << flashcardParser.OPQ) | (1 << flashcardParser.OPA) | (1 << flashcardParser.OPS) | (1 << flashcardParser.OPC) | (1 << flashcardParser.OPHASH) | (1 << flashcardParser.COLON) | (1 << flashcardParser.AMP))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (flashcardParser.Greater - 32)) | (1 << (flashcardParser.Less - 32)) | (1 << (flashcardParser.RightAngle - 32)) | (1 << (flashcardParser.RightArrow - 32)) | (1 << (flashcardParser.ArticleText - 32)) | (1 << (flashcardParser.NUMERIC - 32)) | (1 << (flashcardParser.STRING - 32)) | (1 << (flashcardParser.NOTBITMARK - 32)) | (1 << (flashcardParser.SENTENCE - 32)) | (1 << (flashcardParser.BARSTRING - 32)) | (1 << (flashcardParser.AtReference - 32)))) !== 0) || ((((_la - 65)) & ~0x1F) === 0 && ((1 << (_la - 65)) & ((1 << (flashcardParser.AtExampleWithStr - 65)) | (1 << (flashcardParser.AtExamplecol - 65)) | (1 << (flashcardParser.AtExamplecl - 65)) | (1 << (flashcardParser.AtLabeltrue - 65)) | (1 << (flashcardParser.AtLabelfalse - 65)) | (1 << (flashcardParser.OpAtCopyright - 65)))) !== 0) || ((((_la - 99)) & ~0x1F) === 0 && ((1 << (_la - 99)) & ((1 << (flashcardParser.OpAmpAudio - 99)) | (1 << (flashcardParser.OpAmpImage - 99)) | (1 << (flashcardParser.OpAmpImageZoom - 99)) | (1 << (flashcardParser.OpAmpImageWAudio - 99)) | (1 << (flashcardParser.OpAmpVideo - 99)) | (1 << (flashcardParser.OpAmpArticle - 99)) | (1 << (flashcardParser.OpAmpDocument - 99)) | (1 << (flashcardParser.OpAmpApp - 99)) | (1 << (flashcardParser.OpAmpWebsite - 99)) | (1 << (flashcardParser.OpAmpStillImageFilm - 99)) | (1 << (flashcardParser.OpAmpAudioLink - 99)) | (1 << (flashcardParser.OpAmpImageLink - 99)) | (1 << (flashcardParser.OpAmpVideoLink - 99)) | (1 << (flashcardParser.OpAmpArticleLink - 99)) | (1 << (flashcardParser.OpAmpDocumentLink - 99)) | (1 << (flashcardParser.OpAmpDocumentDownload - 99)) | (1 << (flashcardParser.OpAmpAppLink - 99)) | (1 << (flashcardParser.OpAmpWebsiteLink - 99)) | (1 << (flashcardParser.OpAmpStillImageFilmLink - 99)))) !== 0) || ((((_la - 135)) & ~0x1F) === 0 && ((1 << (_la - 135)) & ((1 << (flashcardParser.OpAmpVideoEmbed - 135)) | (1 << (flashcardParser.OpAmpAudioEmbed - 135)) | (1 << (flashcardParser.OpAmpDocumentEmbed - 135)) | (1 << (flashcardParser.OpAmpStillImageFilmEmbed - 135)) | (1 << (flashcardParser.URL - 135)) | (1 << (flashcardParser.LIST_LINE - 135)))) !== 0)) {
 				{
 				{
 				this.state = 499;
@@ -2547,7 +2549,7 @@ export class flashcardParser extends Parser {
 			this.state = 659;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
-			while (((((_la - 88)) & ~0x1F) === 0 && ((1 << (_la - 88)) & ((1 << (flashcardParser.AmpAudio - 88)) | (1 << (flashcardParser.AmpImage - 88)) | (1 << (flashcardParser.AmpImageZoom - 88)) | (1 << (flashcardParser.AmpImageWAudio - 88)) | (1 << (flashcardParser.AmpVideo - 88)) | (1 << (flashcardParser.AmpArticle - 88)) | (1 << (flashcardParser.AmpDocument - 88)) | (1 << (flashcardParser.AmpApp - 88)) | (1 << (flashcardParser.AmpWebsite - 88)) | (1 << (flashcardParser.AmpStillImageFilm - 88)) | (1 << (flashcardParser.AmpPdf - 88)) | (1 << (flashcardParser.AmpAudioLink - 88)) | (1 << (flashcardParser.AmpImageLink - 88)) | (1 << (flashcardParser.AmpVideoLink - 88)) | (1 << (flashcardParser.AmpArticleLink - 88)) | (1 << (flashcardParser.AmpDocumentLink - 88)) | (1 << (flashcardParser.AmpAppLink - 88)) | (1 << (flashcardParser.AmpWebsiteLink - 88)) | (1 << (flashcardParser.AmpStillImageFilmLink - 88)))) !== 0) || ((((_la - 128)) & ~0x1F) === 0 && ((1 << (_la - 128)) & ((1 << (flashcardParser.AmpVideoEmbed - 128)) | (1 << (flashcardParser.AmpDocumentEmbed - 128)) | (1 << (flashcardParser.AmpStillImageFilmEmbed - 128)) | (1 << (flashcardParser.ColonText - 128)) | (1 << (flashcardParser.ColonJson - 128)))) !== 0)) {
+			while (((((_la - 88)) & ~0x1F) === 0 && ((1 << (_la - 88)) & ((1 << (flashcardParser.AmpAudio - 88)) | (1 << (flashcardParser.AmpImage - 88)) | (1 << (flashcardParser.AmpImageZoom - 88)) | (1 << (flashcardParser.AmpImageWAudio - 88)) | (1 << (flashcardParser.AmpVideo - 88)) | (1 << (flashcardParser.AmpArticle - 88)) | (1 << (flashcardParser.AmpDocument - 88)) | (1 << (flashcardParser.AmpApp - 88)) | (1 << (flashcardParser.AmpWebsite - 88)) | (1 << (flashcardParser.AmpStillImageFilm - 88)) | (1 << (flashcardParser.AmpPdf - 88)) | (1 << (flashcardParser.AmpAudioLink - 88)) | (1 << (flashcardParser.AmpImageLink - 88)) | (1 << (flashcardParser.AmpVideoLink - 88)) | (1 << (flashcardParser.AmpArticleLink - 88)) | (1 << (flashcardParser.AmpDocumentLink - 88)) | (1 << (flashcardParser.AmpDocumentDownload - 88)) | (1 << (flashcardParser.AmpAppLink - 88)) | (1 << (flashcardParser.AmpWebsiteLink - 88)) | (1 << (flashcardParser.AmpStillImageFilmLink - 88)))) !== 0) || ((((_la - 130)) & ~0x1F) === 0 && ((1 << (_la - 130)) & ((1 << (flashcardParser.AmpVideoEmbed - 130)) | (1 << (flashcardParser.AmpDocumentEmbed - 130)) | (1 << (flashcardParser.AmpStillImageFilmEmbed - 130)) | (1 << (flashcardParser.ColonText - 130)) | (1 << (flashcardParser.ColonJson - 130)))) !== 0)) {
 				{
 				this.state = 657;
 				this._errHandler.sync(this);
@@ -2580,6 +2582,7 @@ export class flashcardParser extends Parser {
 				case flashcardParser.AmpVideoLink:
 				case flashcardParser.AmpArticleLink:
 				case flashcardParser.AmpDocumentLink:
+				case flashcardParser.AmpDocumentDownload:
 				case flashcardParser.AmpAppLink:
 				case flashcardParser.AmpWebsiteLink:
 				case flashcardParser.AmpStillImageFilmLink:
@@ -2625,7 +2628,7 @@ export class flashcardParser extends Parser {
 			{
 			this.state = 662;
 			_la = this._input.LA(1);
-			if (!(((((_la - 93)) & ~0x1F) === 0 && ((1 << (_la - 93)) & ((1 << (flashcardParser.AmpArticle - 93)) | (1 << (flashcardParser.AmpDocument - 93)) | (1 << (flashcardParser.AmpWebsite - 93)) | (1 << (flashcardParser.AmpStillImageFilm - 93)) | (1 << (flashcardParser.AmpAudioLink - 93)) | (1 << (flashcardParser.AmpImageLink - 93)) | (1 << (flashcardParser.AmpVideoLink - 93)) | (1 << (flashcardParser.AmpArticleLink - 93)) | (1 << (flashcardParser.AmpDocumentLink - 93)) | (1 << (flashcardParser.AmpAppLink - 93)) | (1 << (flashcardParser.AmpWebsiteLink - 93)) | (1 << (flashcardParser.AmpStillImageFilmLink - 93)))) !== 0) || ((((_la - 128)) & ~0x1F) === 0 && ((1 << (_la - 128)) & ((1 << (flashcardParser.AmpVideoEmbed - 128)) | (1 << (flashcardParser.AmpAudioEmbed - 128)) | (1 << (flashcardParser.AmpDocumentEmbed - 128)) | (1 << (flashcardParser.AmpStillImageFilmEmbed - 128)) | (1 << (flashcardParser.BitmarkMinus - 128)) | (1 << (flashcardParser.BitmarkPlus - 128)) | (1 << (flashcardParser.ColonJson - 128)) | (1 << (flashcardParser.Prosemirror - 128)) | (1 << (flashcardParser.Placeholder - 128)))) !== 0))) {
+			if (!(((((_la - 93)) & ~0x1F) === 0 && ((1 << (_la - 93)) & ((1 << (flashcardParser.AmpArticle - 93)) | (1 << (flashcardParser.AmpDocument - 93)) | (1 << (flashcardParser.AmpWebsite - 93)) | (1 << (flashcardParser.AmpStillImageFilm - 93)) | (1 << (flashcardParser.AmpAudioLink - 93)) | (1 << (flashcardParser.AmpImageLink - 93)) | (1 << (flashcardParser.AmpVideoLink - 93)) | (1 << (flashcardParser.AmpArticleLink - 93)) | (1 << (flashcardParser.AmpDocumentLink - 93)) | (1 << (flashcardParser.AmpDocumentDownload - 93)) | (1 << (flashcardParser.AmpAppLink - 93)) | (1 << (flashcardParser.AmpWebsiteLink - 93)) | (1 << (flashcardParser.AmpStillImageFilmLink - 93)))) !== 0) || ((((_la - 130)) & ~0x1F) === 0 && ((1 << (_la - 130)) & ((1 << (flashcardParser.AmpVideoEmbed - 130)) | (1 << (flashcardParser.AmpAudioEmbed - 130)) | (1 << (flashcardParser.AmpDocumentEmbed - 130)) | (1 << (flashcardParser.AmpStillImageFilmEmbed - 130)) | (1 << (flashcardParser.BitmarkMinus - 130)) | (1 << (flashcardParser.BitmarkPlus - 130)) | (1 << (flashcardParser.ColonJson - 130)) | (1 << (flashcardParser.Prosemirror - 130)) | (1 << (flashcardParser.Placeholder - 130)))) !== 0))) {
 			this._errHandler.recoverInline(this);
 			} else {
 				if (this._input.LA(1) === Token.EOF) {
@@ -2696,6 +2699,7 @@ export class flashcardParser extends Parser {
 				break;
 			case flashcardParser.AmpDocument:
 			case flashcardParser.AmpDocumentLink:
+			case flashcardParser.AmpDocumentDownload:
 			case flashcardParser.AmpDocumentEmbed:
 				this.enterOuterAlt(_localctx, 5);
 				{
@@ -2863,6 +2867,7 @@ export class flashcardParser extends Parser {
 				case flashcardParser.AmpVideoLink:
 				case flashcardParser.AmpArticleLink:
 				case flashcardParser.AmpDocumentLink:
+				case flashcardParser.AmpDocumentDownload:
 				case flashcardParser.AmpAppLink:
 				case flashcardParser.AmpWebsiteLink:
 				case flashcardParser.AmpStillImageFilmLink:
@@ -3030,7 +3035,7 @@ export class flashcardParser extends Parser {
 			{
 			this.state = 705;
 			_la = this._input.LA(1);
-			if (!(_la === flashcardParser.AmpDocument || _la === flashcardParser.AmpDocumentLink || _la === flashcardParser.AmpDocumentEmbed)) {
+			if (!(((((_la - 94)) & ~0x1F) === 0 && ((1 << (_la - 94)) & ((1 << (flashcardParser.AmpDocument - 94)) | (1 << (flashcardParser.AmpDocumentLink - 94)) | (1 << (flashcardParser.AmpDocumentDownload - 94)))) !== 0) || _la === flashcardParser.AmpDocumentEmbed)) {
 			this._errHandler.recoverInline(this);
 			} else {
 				if (this._input.LA(1) === Token.EOF) {
@@ -3210,7 +3215,7 @@ export class flashcardParser extends Parser {
 			{
 			this.state = 715;
 			_la = this._input.LA(1);
-			if (!(((((_la - 106)) & ~0x1F) === 0 && ((1 << (_la - 106)) & ((1 << (flashcardParser.OpAmpDocument - 106)) | (1 << (flashcardParser.OpAmpDocumentLink - 106)) | (1 << (flashcardParser.OpAmpDocumentEmbed - 106)))) !== 0))) {
+			if (!(((((_la - 106)) & ~0x1F) === 0 && ((1 << (_la - 106)) & ((1 << (flashcardParser.OpAmpDocument - 106)) | (1 << (flashcardParser.OpAmpDocumentLink - 106)) | (1 << (flashcardParser.OpAmpDocumentDownload - 106)) | (1 << (flashcardParser.OpAmpDocumentEmbed - 106)))) !== 0))) {
 			this._errHandler.recoverInline(this);
 			} else {
 				if (this._input.LA(1) === Token.EOF) {
@@ -5627,7 +5632,7 @@ export class flashcardParser extends Parser {
 				this.state = 1184;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-			} while (((((_la - 1)) & ~0x1F) === 0 && ((1 << (_la - 1)) & ((1 << (flashcardParser.OPDOT - 1)) | (1 << (flashcardParser.S - 1)) | (1 << (flashcardParser.BitFlash1 - 1)) | (1 << (flashcardParser.BitFlash - 1)) | (1 << (flashcardParser.BitFlashcardset - 1)) | (1 << (flashcardParser.BitFlashcardlangset - 1)) | (1 << (flashcardParser.BitFlashcardlang1 - 1)) | (1 << (flashcardParser.BitVocabulary - 1)) | (1 << (flashcardParser.BitVocabulary_1 - 1)) | (1 << (flashcardParser.OPDOLL - 1)) | (1 << (flashcardParser.OPBUL - 1)) | (1 << (flashcardParser.OPESC - 1)) | (1 << (flashcardParser.OPRANGLES - 1)) | (1 << (flashcardParser.OPRANGLEL - 1)) | (1 << (flashcardParser.OPDANGLE - 1)) | (1 << (flashcardParser.OPU - 1)) | (1 << (flashcardParser.OPB - 1)) | (1 << (flashcardParser.OPQ - 1)) | (1 << (flashcardParser.OPA - 1)) | (1 << (flashcardParser.OPP - 1)) | (1 << (flashcardParser.OPM - 1)) | (1 << (flashcardParser.OPS - 1)) | (1 << (flashcardParser.OPR - 1)) | (1 << (flashcardParser.OPC - 1)) | (1 << (flashcardParser.OPHASH - 1)) | (1 << (flashcardParser.COLON - 1)) | (1 << (flashcardParser.AMP - 1)) | (1 << (flashcardParser.DBLCOLON - 1)) | (1 << (flashcardParser.PLUS - 1)) | (1 << (flashcardParser.DotAt - 1)) | (1 << (flashcardParser.Greater - 1)))) !== 0) || ((((_la - 33)) & ~0x1F) === 0 && ((1 << (_la - 33)) & ((1 << (flashcardParser.Less - 33)) | (1 << (flashcardParser.DBLEQ - 33)) | (1 << (flashcardParser.RightAngle - 33)) | (1 << (flashcardParser.RightArrow - 33)) | (1 << (flashcardParser.EQ - 33)) | (1 << (flashcardParser.EQ2 - 33)) | (1 << (flashcardParser.OR - 33)) | (1 << (flashcardParser.HSPL - 33)) | (1 << (flashcardParser.HSPL2 - 33)) | (1 << (flashcardParser.SSPL - 33)) | (1 << (flashcardParser.SSPL2 - 33)) | (1 << (flashcardParser.COMMENT - 33)) | (1 << (flashcardParser.DCANY - 33)) | (1 << (flashcardParser.Image_type - 33)) | (1 << (flashcardParser.Audio_type - 33)) | (1 << (flashcardParser.Video_type - 33)) | (1 << (flashcardParser.ArticleText - 33)) | (1 << (flashcardParser.NOTCL - 33)) | (1 << (flashcardParser.NUMERIC - 33)) | (1 << (flashcardParser.STRING - 33)) | (1 << (flashcardParser.NL - 33)) | (1 << (flashcardParser.NOTBITMARK - 33)) | (1 << (flashcardParser.SENTENCE - 33)) | (1 << (flashcardParser.BARSTRING - 33)) | (1 << (flashcardParser.OPAT - 33)) | (1 << (flashcardParser.AtProgress - 33)) | (1 << (flashcardParser.AtReference - 33)) | (1 << (flashcardParser.AtWidth - 33)) | (1 << (flashcardParser.AtHeight - 33)) | (1 << (flashcardParser.AtProgressPoints - 33)) | (1 << (flashcardParser.AtShortanswer - 33)) | (1 << (flashcardParser.AtLonganswer - 33)))) !== 0) || ((((_la - 65)) & ~0x1F) === 0 && ((1 << (_la - 65)) & ((1 << (flashcardParser.AtExampleWithStr - 65)) | (1 << (flashcardParser.AtExamplecol - 65)) | (1 << (flashcardParser.AtExamplecl - 65)) | (1 << (flashcardParser.AtSampleSolution - 65)) | (1 << (flashcardParser.AtPartialAnswerS - 65)) | (1 << (flashcardParser.AtPartialAnswer - 65)) | (1 << (flashcardParser.AtLabeltrue - 65)) | (1 << (flashcardParser.AtLabelfalse - 65)) | (1 << (flashcardParser.AtPoints - 65)) | (1 << (flashcardParser.AtSrc - 65)) | (1 << (flashcardParser.AtPartner - 65)) | (1 << (flashcardParser.OPATALT - 65)) | (1 << (flashcardParser.OPAMARK - 65)) | (1 << (flashcardParser.ShowInIndex - 65)) | (1 << (flashcardParser.OpAtCaption - 65)) | (1 << (flashcardParser.OpAtLicense - 65)) | (1 << (flashcardParser.OpAtCopyright - 65)) | (1 << (flashcardParser.OpAtSearch - 65)) | (1 << (flashcardParser.OpAtIsTracked - 65)) | (1 << (flashcardParser.OpAtIsInfoOnly - 65)) | (1 << (flashcardParser.AtDate - 65)) | (1 << (flashcardParser.Http - 65)) | (1 << (flashcardParser.Https - 65)) | (1 << (flashcardParser.AmpAudio - 65)) | (1 << (flashcardParser.AmpImage - 65)) | (1 << (flashcardParser.AmpImageZoom - 65)) | (1 << (flashcardParser.AmpImageWAudio - 65)) | (1 << (flashcardParser.AmpVideo - 65)) | (1 << (flashcardParser.AmpArticle - 65)) | (1 << (flashcardParser.AmpDocument - 65)) | (1 << (flashcardParser.AmpApp - 65)) | (1 << (flashcardParser.AmpWebsite - 65)))) !== 0) || ((((_la - 97)) & ~0x1F) === 0 && ((1 << (_la - 97)) & ((1 << (flashcardParser.AmpStillImageFilm - 97)) | (1 << (flashcardParser.AmpPdf - 97)) | (1 << (flashcardParser.OpAmpAudio - 97)) | (1 << (flashcardParser.OpAmpImage - 97)) | (1 << (flashcardParser.OpAmpImageZoom - 97)) | (1 << (flashcardParser.OpAmpImageWAudio - 97)) | (1 << (flashcardParser.OpAmpVideo - 97)) | (1 << (flashcardParser.OpAmpArticle - 97)) | (1 << (flashcardParser.OpAmpArticleAtt - 97)) | (1 << (flashcardParser.OpAmpDocument - 97)) | (1 << (flashcardParser.OpAmpApp - 97)) | (1 << (flashcardParser.OpAmpWebsite - 97)) | (1 << (flashcardParser.OpAmpStillImageFilm - 97)) | (1 << (flashcardParser.BracEnclose - 97)) | (1 << (flashcardParser.AmpAudioLink - 97)) | (1 << (flashcardParser.AmpImageLink - 97)) | (1 << (flashcardParser.AmpVideoLink - 97)) | (1 << (flashcardParser.AmpArticleLink - 97)) | (1 << (flashcardParser.AmpDocumentLink - 97)) | (1 << (flashcardParser.AmpAppLink - 97)) | (1 << (flashcardParser.AmpWebsiteLink - 97)) | (1 << (flashcardParser.AmpStillImageFilmLink - 97)) | (1 << (flashcardParser.OpAmpAudioLink - 97)) | (1 << (flashcardParser.OpAmpImageLink - 97)) | (1 << (flashcardParser.OpAmpVideoLink - 97)) | (1 << (flashcardParser.OpAmpArticleLink - 97)) | (1 << (flashcardParser.OpAmpDocumentLink - 97)) | (1 << (flashcardParser.OpAmpAppLink - 97)) | (1 << (flashcardParser.OpAmpWebsiteLink - 97)) | (1 << (flashcardParser.OpAmpStillImageFilmLink - 97)) | (1 << (flashcardParser.AmpImageEmbed - 97)) | (1 << (flashcardParser.AmpVideoEmbed - 97)))) !== 0) || ((((_la - 129)) & ~0x1F) === 0 && ((1 << (_la - 129)) & ((1 << (flashcardParser.AmpAudioEmbed - 129)) | (1 << (flashcardParser.AmpDocumentEmbed - 129)) | (1 << (flashcardParser.AmpStillImageFilmEmbed - 129)) | (1 << (flashcardParser.OpAmpImageEmbed - 129)) | (1 << (flashcardParser.OpAmpVideoEmbed - 129)) | (1 << (flashcardParser.OpAmpAudioEmbed - 129)) | (1 << (flashcardParser.OpAmpDocumentEmbed - 129)) | (1 << (flashcardParser.OpAmpStillImageFilmEmbed - 129)) | (1 << (flashcardParser.BitmarkMinus - 129)) | (1 << (flashcardParser.BitmarkPlus - 129)) | (1 << (flashcardParser.ColonText - 129)) | (1 << (flashcardParser.ColonJson - 129)) | (1 << (flashcardParser.Prosemirror - 129)) | (1 << (flashcardParser.Placeholder - 129)) | (1 << (flashcardParser.BASIC - 129)) | (1 << (flashcardParser.JPG - 129)) | (1 << (flashcardParser.PNG - 129)) | (1 << (flashcardParser.GIF - 129)) | (1 << (flashcardParser.SVG - 129)) | (1 << (flashcardParser.MP2 - 129)) | (1 << (flashcardParser.MP3 - 129)) | (1 << (flashcardParser.MP4 - 129)) | (1 << (flashcardParser.FLV - 129)) | (1 << (flashcardParser.WMV - 129)) | (1 << (flashcardParser.MPEG - 129)) | (1 << (flashcardParser.MPG - 129)) | (1 << (flashcardParser.TEL - 129)) | (1 << (flashcardParser.DotArticleAtt - 129)) | (1 << (flashcardParser.STAR - 129)) | (1 << (flashcardParser.URL - 129)) | (1 << (flashcardParser.LIST_LINE - 129)) | (1 << (flashcardParser.ENCLBARS - 129)))) !== 0));
+			} while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << flashcardParser.OPDOT) | (1 << flashcardParser.S) | (1 << flashcardParser.BitFlash1) | (1 << flashcardParser.BitFlash) | (1 << flashcardParser.BitFlashcardset) | (1 << flashcardParser.BitFlashcardlangset) | (1 << flashcardParser.BitFlashcardlang1) | (1 << flashcardParser.BitVocabulary) | (1 << flashcardParser.BitVocabulary_1) | (1 << flashcardParser.OPDOLL) | (1 << flashcardParser.OPBUL) | (1 << flashcardParser.OPESC) | (1 << flashcardParser.OPRANGLES) | (1 << flashcardParser.OPRANGLEL) | (1 << flashcardParser.OPDANGLE) | (1 << flashcardParser.OPU) | (1 << flashcardParser.OPB) | (1 << flashcardParser.OPQ) | (1 << flashcardParser.OPA) | (1 << flashcardParser.OPP) | (1 << flashcardParser.OPM) | (1 << flashcardParser.OPS) | (1 << flashcardParser.OPR) | (1 << flashcardParser.OPC) | (1 << flashcardParser.OPHASH) | (1 << flashcardParser.COLON) | (1 << flashcardParser.AMP) | (1 << flashcardParser.DBLCOLON) | (1 << flashcardParser.PLUS) | (1 << flashcardParser.DotAt))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (flashcardParser.Greater - 32)) | (1 << (flashcardParser.Less - 32)) | (1 << (flashcardParser.DBLEQ - 32)) | (1 << (flashcardParser.RightAngle - 32)) | (1 << (flashcardParser.RightArrow - 32)) | (1 << (flashcardParser.EQ - 32)) | (1 << (flashcardParser.EQ2 - 32)) | (1 << (flashcardParser.OR - 32)) | (1 << (flashcardParser.HSPL - 32)) | (1 << (flashcardParser.HSPL2 - 32)) | (1 << (flashcardParser.SSPL - 32)) | (1 << (flashcardParser.SSPL2 - 32)) | (1 << (flashcardParser.COMMENT - 32)) | (1 << (flashcardParser.DCANY - 32)) | (1 << (flashcardParser.Image_type - 32)) | (1 << (flashcardParser.Audio_type - 32)) | (1 << (flashcardParser.Video_type - 32)) | (1 << (flashcardParser.ArticleText - 32)) | (1 << (flashcardParser.NOTCL - 32)) | (1 << (flashcardParser.NUMERIC - 32)) | (1 << (flashcardParser.STRING - 32)) | (1 << (flashcardParser.NL - 32)) | (1 << (flashcardParser.NOTBITMARK - 32)) | (1 << (flashcardParser.SENTENCE - 32)) | (1 << (flashcardParser.BARSTRING - 32)) | (1 << (flashcardParser.OPAT - 32)) | (1 << (flashcardParser.AtProgress - 32)) | (1 << (flashcardParser.AtReference - 32)) | (1 << (flashcardParser.AtWidth - 32)) | (1 << (flashcardParser.AtHeight - 32)) | (1 << (flashcardParser.AtProgressPoints - 32)) | (1 << (flashcardParser.AtShortanswer - 32)))) !== 0) || ((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (flashcardParser.AtLonganswer - 64)) | (1 << (flashcardParser.AtExampleWithStr - 64)) | (1 << (flashcardParser.AtExamplecol - 64)) | (1 << (flashcardParser.AtExamplecl - 64)) | (1 << (flashcardParser.AtSampleSolution - 64)) | (1 << (flashcardParser.AtPartialAnswerS - 64)) | (1 << (flashcardParser.AtPartialAnswer - 64)) | (1 << (flashcardParser.AtLabeltrue - 64)) | (1 << (flashcardParser.AtLabelfalse - 64)) | (1 << (flashcardParser.AtPoints - 64)) | (1 << (flashcardParser.AtSrc - 64)) | (1 << (flashcardParser.AtPartner - 64)) | (1 << (flashcardParser.OPATALT - 64)) | (1 << (flashcardParser.OPAMARK - 64)) | (1 << (flashcardParser.ShowInIndex - 64)) | (1 << (flashcardParser.OpAtCaption - 64)) | (1 << (flashcardParser.OpAtLicense - 64)) | (1 << (flashcardParser.OpAtCopyright - 64)) | (1 << (flashcardParser.OpAtSearch - 64)) | (1 << (flashcardParser.OpAtIsTracked - 64)) | (1 << (flashcardParser.OpAtIsInfoOnly - 64)) | (1 << (flashcardParser.AtDate - 64)) | (1 << (flashcardParser.Http - 64)) | (1 << (flashcardParser.Https - 64)) | (1 << (flashcardParser.AmpAudio - 64)) | (1 << (flashcardParser.AmpImage - 64)) | (1 << (flashcardParser.AmpImageZoom - 64)) | (1 << (flashcardParser.AmpImageWAudio - 64)) | (1 << (flashcardParser.AmpVideo - 64)) | (1 << (flashcardParser.AmpArticle - 64)) | (1 << (flashcardParser.AmpDocument - 64)) | (1 << (flashcardParser.AmpApp - 64)))) !== 0) || ((((_la - 96)) & ~0x1F) === 0 && ((1 << (_la - 96)) & ((1 << (flashcardParser.AmpWebsite - 96)) | (1 << (flashcardParser.AmpStillImageFilm - 96)) | (1 << (flashcardParser.AmpPdf - 96)) | (1 << (flashcardParser.OpAmpAudio - 96)) | (1 << (flashcardParser.OpAmpImage - 96)) | (1 << (flashcardParser.OpAmpImageZoom - 96)) | (1 << (flashcardParser.OpAmpImageWAudio - 96)) | (1 << (flashcardParser.OpAmpVideo - 96)) | (1 << (flashcardParser.OpAmpArticle - 96)) | (1 << (flashcardParser.OpAmpArticleAtt - 96)) | (1 << (flashcardParser.OpAmpDocument - 96)) | (1 << (flashcardParser.OpAmpApp - 96)) | (1 << (flashcardParser.OpAmpWebsite - 96)) | (1 << (flashcardParser.OpAmpStillImageFilm - 96)) | (1 << (flashcardParser.BracEnclose - 96)) | (1 << (flashcardParser.AmpAudioLink - 96)) | (1 << (flashcardParser.AmpImageLink - 96)) | (1 << (flashcardParser.AmpVideoLink - 96)) | (1 << (flashcardParser.AmpArticleLink - 96)) | (1 << (flashcardParser.AmpDocumentLink - 96)) | (1 << (flashcardParser.AmpDocumentDownload - 96)) | (1 << (flashcardParser.AmpAppLink - 96)) | (1 << (flashcardParser.AmpWebsiteLink - 96)) | (1 << (flashcardParser.AmpStillImageFilmLink - 96)) | (1 << (flashcardParser.OpAmpAudioLink - 96)) | (1 << (flashcardParser.OpAmpImageLink - 96)) | (1 << (flashcardParser.OpAmpVideoLink - 96)) | (1 << (flashcardParser.OpAmpArticleLink - 96)) | (1 << (flashcardParser.OpAmpDocumentLink - 96)) | (1 << (flashcardParser.OpAmpDocumentDownload - 96)) | (1 << (flashcardParser.OpAmpAppLink - 96)) | (1 << (flashcardParser.OpAmpWebsiteLink - 96)))) !== 0) || ((((_la - 128)) & ~0x1F) === 0 && ((1 << (_la - 128)) & ((1 << (flashcardParser.OpAmpStillImageFilmLink - 128)) | (1 << (flashcardParser.AmpImageEmbed - 128)) | (1 << (flashcardParser.AmpVideoEmbed - 128)) | (1 << (flashcardParser.AmpAudioEmbed - 128)) | (1 << (flashcardParser.AmpDocumentEmbed - 128)) | (1 << (flashcardParser.AmpStillImageFilmEmbed - 128)) | (1 << (flashcardParser.OpAmpImageEmbed - 128)) | (1 << (flashcardParser.OpAmpVideoEmbed - 128)) | (1 << (flashcardParser.OpAmpAudioEmbed - 128)) | (1 << (flashcardParser.OpAmpDocumentEmbed - 128)) | (1 << (flashcardParser.OpAmpStillImageFilmEmbed - 128)) | (1 << (flashcardParser.BitmarkMinus - 128)) | (1 << (flashcardParser.BitmarkPlus - 128)) | (1 << (flashcardParser.ColonText - 128)) | (1 << (flashcardParser.ColonJson - 128)) | (1 << (flashcardParser.Prosemirror - 128)) | (1 << (flashcardParser.Placeholder - 128)) | (1 << (flashcardParser.BASIC - 128)) | (1 << (flashcardParser.JPG - 128)) | (1 << (flashcardParser.PNG - 128)) | (1 << (flashcardParser.GIF - 128)) | (1 << (flashcardParser.SVG - 128)) | (1 << (flashcardParser.MP2 - 128)) | (1 << (flashcardParser.MP3 - 128)) | (1 << (flashcardParser.MP4 - 128)) | (1 << (flashcardParser.FLV - 128)) | (1 << (flashcardParser.WMV - 128)) | (1 << (flashcardParser.MPEG - 128)) | (1 << (flashcardParser.MPG - 128)) | (1 << (flashcardParser.TEL - 128)) | (1 << (flashcardParser.DotArticleAtt - 128)) | (1 << (flashcardParser.STAR - 128)))) !== 0) || ((((_la - 160)) & ~0x1F) === 0 && ((1 << (_la - 160)) & ((1 << (flashcardParser.URL - 160)) | (1 << (flashcardParser.LIST_LINE - 160)) | (1 << (flashcardParser.ENCLBARS - 160)))) !== 0));
 			this.state = 1186;
 			this.match(flashcardParser.CL);
 			}
@@ -6669,7 +6674,7 @@ export class flashcardParser extends Parser {
 
 	private static readonly _serializedATNSegments: number = 3;
 	private static readonly _serializedATNSegment0: string =
-		"\x03\uC91D\uCABA\u058D\uAFBA\u4F53\u0607\uEA8B\uC241\x03\xA2\u055E\x04" +
+		"\x03\uC91D\uCABA\u058D\uAFBA\u4F53\u0607\uEA8B\uC241\x03\xA4\u055E\x04" +
 		"\x02\t\x02\x04\x03\t\x03\x04\x04\t\x04\x04\x05\t\x05\x04\x06\t\x06\x04" +
 		"\x07\t\x07\x04\b\t\b\x04\t\t\t\x04\n\t\n\x04\v\t\v\x04\f\t\f\x04\r\t\r" +
 		"\x04\x0E\t\x0E\x04\x0F\t\x0F\x04\x10\t\x10\x04\x11\t\x11\x04\x12\t\x12" +
@@ -6804,17 +6809,17 @@ export class flashcardParser extends Parser {
 		"l\x02n\x02p\x02r\x02t\x02v\x02x\x02z\x02|\x02~\x02\x80\x02\x82\x02\x84" +
 		"\x02\x86\x02\x88\x02\x8A\x02\x8C\x02\x8E\x02\x90\x02\x92\x02\x94\x02\x96" +
 		"\x02\x98\x02\x9A\x02\x9C\x02\x9E\x02\xA0\x02\xA2\x02\xA4\x02\xA6\x02\xA8" +
-		"\x02\xAA\x02\xAC\x02\x02\x17\x03\x02\'(\x03\x02*+\b\x02_`bcqx\x82\x85" +
-		"\x8B\x8C\x8E\x90\x05\x02^^ss\x82\x82\x04\x02__tt\x05\x02``uu\x84\x84\x04" +
-		"\x02aavv\x04\x02bbww\x05\x02ccxx\x85\x85\x04\x02jj||\x05\x02ll}}\x89\x89" +
-		"\x04\x02mm~~\x04\x02nn\x7F\x7F\x05\x02oo\x80\x80\x8A\x8A\x03\x02>?\x04" +
-		"\x02NNQT\x03\x02\x1C\x1C\x04\x02\x1D\x1D\x1F\x1F\x03\x02,-\x03\x02\"\"" +
-		"\x03\x02##\x02\u0611\x02\xBB\x03\x02\x02\x02\x04\xCA\x03\x02\x02\x02\x06" +
-		"\xD1\x03\x02\x02\x02\b\xD3\x03\x02\x02\x02\n\xEF\x03\x02\x02\x02\f\u011C" +
-		"\x03\x02\x02\x02\x0E\u0153\x03\x02\x02\x02\x10\u0182\x03\x02\x02\x02\x12" +
-		"\u01AC\x03\x02\x02\x02\x14\u01EC\x03\x02\x02\x02\x16\u0227\x03\x02\x02" +
-		"\x02\x18\u0229\x03\x02\x02\x02\x1A\u0233\x03\x02\x02\x02\x1C\u023A\x03" +
-		"\x02\x02\x02\x1E\u0242\x03\x02\x02\x02 \u024A\x03\x02\x02\x02\"\u0263" +
+		"\x02\xAA\x02\xAC\x02\x02\x17\x03\x02\'(\x03\x02*+\b\x02_`bcqy\x84\x87" +
+		"\x8D\x8E\x90\x92\x05\x02^^ss\x84\x84\x04\x02__tt\x05\x02``uv\x86\x86\x04" +
+		"\x02aaww\x04\x02bbxx\x05\x02ccyy\x87\x87\x04\x02jj}}\x05\x02ll~\x7F\x8B" +
+		"\x8B\x04\x02mm\x80\x80\x04\x02nn\x81\x81\x05\x02oo\x82\x82\x8C\x8C\x03" +
+		"\x02>?\x04\x02NNQT\x03\x02\x1C\x1C\x04\x02\x1D\x1D\x1F\x1F\x03\x02,-\x03" +
+		"\x02\"\"\x03\x02##\x02\u0611\x02\xBB\x03\x02\x02\x02\x04\xCA\x03\x02\x02" +
+		"\x02\x06\xD1\x03\x02\x02\x02\b\xD3\x03\x02\x02\x02\n\xEF\x03\x02\x02\x02" +
+		"\f\u011C\x03\x02\x02\x02\x0E\u0153\x03\x02\x02\x02\x10\u0182\x03\x02\x02" +
+		"\x02\x12\u01AC\x03\x02\x02\x02\x14\u01EC\x03\x02\x02\x02\x16\u0227\x03" +
+		"\x02\x02\x02\x18\u0229\x03\x02\x02\x02\x1A\u0233\x03\x02\x02\x02\x1C\u023A" +
+		"\x03\x02\x02\x02\x1E\u0242\x03\x02\x02\x02 \u024A\x03\x02\x02\x02\"\u0263" +
 		"\x03\x02\x02\x02$\u0265\x03\x02\x02\x02&\u0267\x03\x02\x02\x02(\u0272" +
 		"\x03\x02\x02\x02*\u0280\x03\x02\x02\x02,\u0286\x03\x02\x02\x02.\u028D" +
 		"\x03\x02\x02\x020\u0298\x03\x02\x02\x022\u02A3\x03\x02\x02\x024\u02AA" +
@@ -7021,7 +7026,7 @@ export class flashcardParser extends Parser {
 		"\u0245\u0243\x03\x02\x02\x02\u0246\u0249\x03\x02\x02\x02\u0247\u0245\x03" +
 		"\x02\x02\x02\u0247\u0248\x03\x02\x02\x02\u0248\x1F\x03\x02\x02\x02\u0249" +
 		"\u0247\x03\x02\x02\x02\u024A\u024B\x05\x1A\x0E\x02\u024B!\x03\x02\x02" +
-		"\x02\u024C\u0264\x07\xA1\x02\x02\u024D\u0264\x078\x02\x02\u024E\u0264" +
+		"\x02\u024C\u0264\x07\xA3\x02\x02\u024D\u0264\x078\x02\x02\u024E\u0264" +
 		"\x05&\x14\x02\u024F\u0264\x05\x98M\x02\u0250\u0264\x05\x82B\x02\u0251" +
 		"\u0264\x05x=\x02\u0252\u0264\x05\x8EH\x02\u0253\u0264\x05\x8AF\x02\u0254" +
 		"\u0264\x05\x8CG\x02\u0255\u0264\x05\xA4S\x02\u0256\u0264\x05~@\x02\u0257" +
@@ -7058,7 +7063,7 @@ export class flashcardParser extends Parser {
 		"\u0289-\x03\x02\x02\x02\u028A\u028C\x050\x19\x02\u028B\u028A\x03\x02\x02" +
 		"\x02\u028C\u028F\x03\x02\x02\x02\u028D\u028B\x03\x02\x02\x02\u028D\u028E" +
 		"\x03\x02\x02\x02\u028E\u0295\x03\x02\x02\x02\u028F\u028D\x03\x02\x02\x02" +
-		"\u0290\u0294\x07\x8D\x02\x02\u0291\u0294\x07\x8E\x02\x02\u0292\u0294\x05" +
+		"\u0290\u0294\x07\x8F\x02\x02\u0291\u0294\x07\x90\x02\x02\u0292\u0294\x05" +
 		"2\x1A\x02\u0293\u0290\x03\x02\x02\x02\u0293\u0291\x03\x02\x02\x02\u0293" +
 		"\u0292\x03\x02\x02\x02\u0294\u0297\x03\x02\x02\x02\u0295\u0293\x03\x02" +
 		"\x02\x02\u0295\u0296\x03\x02\x02\x02\u0296/\x03\x02\x02\x02\u0297\u0295" +
@@ -7070,12 +7075,12 @@ export class flashcardParser extends Parser {
 		"\x02\x02\u02A3\u029D\x03\x02\x02\x02\u02A3\u029E\x03\x02\x02\x02\u02A3" +
 		"\u029F\x03\x02\x02\x02\u02A3\u02A0\x03\x02\x02\x02\u02A3\u02A1\x03\x02" +
 		"\x02\x02\u02A3\u02A2\x03\x02\x02\x02\u02A43\x03\x02\x02\x02\u02A5\u02AB" +
-		"\x07\x8B\x02\x02\u02A6\u02AB\x07\x8C\x02\x02\u02A7\u02AB\x07\x8D\x02\x02" +
-		"\u02A8\u02AB\x07\x8E\x02\x02\u02A9\u02AB\x03\x02\x02\x02\u02AA\u02A5\x03" +
+		"\x07\x8D\x02\x02\u02A6\u02AB\x07\x8E\x02\x02\u02A7\u02AB\x07\x8F\x02\x02" +
+		"\u02A8\u02AB\x07\x90\x02\x02\u02A9\u02AB\x03\x02\x02\x02\u02AA\u02A5\x03" +
 		"\x02\x02\x02\u02AA\u02A6\x03\x02\x02\x02\u02AA\u02A7\x03\x02\x02\x02\u02AA" +
 		"\u02A8\x03\x02\x02\x02\u02AA\u02A9\x03\x02\x02\x02\u02AB5\x03\x02\x02" +
 		"\x02\u02AC\u02AF\x07[\x02\x02\u02AD\u02B0\x070\x02\x02\u02AE\u02B0\x07" +
-		"\x9E\x02\x02\u02AF\u02AD\x03\x02\x02\x02\u02AF\u02AE\x03\x02\x02\x02\u02AF" +
+		"\xA0\x02\x02\u02AF\u02AD\x03\x02\x02\x02\u02AF\u02AE\x03\x02\x02\x02\u02AF" +
 		"\u02B0\x03\x02\x02\x02\u02B0\u02BB\x03\x02\x02\x02\u02B1\u02B3\x07r\x02" +
 		"\x02\u02B2\u02B4\x070\x02\x02\u02B3\u02B2\x03\x02\x02\x02\u02B3\u02B4" +
 		"\x03\x02\x02\x02\u02B4\u02BB\x03\x02\x02\x02\u02B5\u02B7\x07\\\x02\x02" +
@@ -7093,10 +7098,10 @@ export class flashcardParser extends Parser {
 		"\r\x02\x02\u02D0I\x03\x02\x02\x02\u02D1\u02D2\t\x0E\x02\x02\u02D2K\x03" +
 		"\x02\x02\x02\u02D3\u02D6\x07i\x02\x02\u02D4\u02D5\x07\x1D\x02\x02\u02D5" +
 		"\u02D7\x072\x02\x02\u02D6\u02D4\x03\x02\x02\x02\u02D6\u02D7\x03\x02\x02" +
-		"\x02\u02D7\u02E3\x03\x02\x02\x02\u02D8\u02DB\x07{\x02\x02\u02D9\u02DA" +
+		"\x02\u02D7\u02E3\x03\x02\x02\x02\u02D8\u02DB\x07|\x02\x02\u02D9\u02DA" +
 		"\x07\x1D\x02\x02\u02DA\u02DC\x072\x02\x02\u02DB\u02D9\x03\x02\x02\x02" +
 		"\u02DB\u02DC\x03\x02\x02\x02\u02DC\u02E3\x03\x02\x02\x02\u02DD\u02E0\x07" +
-		"\x87\x02\x02\u02DE\u02DF\x07\x1D\x02\x02\u02DF\u02E1\x072\x02\x02\u02E0" +
+		"\x89\x02\x02\u02DE\u02DF\x07\x1D\x02\x02\u02DF\u02E1\x072\x02\x02\u02E0" +
 		"\u02DE\x03\x02\x02\x02\u02E0\u02E1\x03\x02\x02\x02\u02E1\u02E3\x03\x02" +
 		"\x02\x02\u02E2\u02D3\x03\x02\x02\x02\u02E2\u02D8\x03\x02\x02\x02\u02E2" +
 		"\u02DD\x03\x02\x02\x02\u02E3M\x03\x02\x02\x02\u02E4\u02E5\t\x0F\x02\x02" +
@@ -7141,9 +7146,9 @@ export class flashcardParser extends Parser {
 		"\x02\x02\u0342\u0340\x03\x02\x02\x02\u0342\u0343\x03\x02\x02\x02\u0343" +
 		"\u0345\x03\x02\x02\x02\u0344\u0342\x03\x02\x02\x02\u0345\u0346\x05v<\x02" +
 		"\u0346\u0347\x07\x1C\x02\x02\u0347c\x03\x02\x02\x02\u0348\u034B\x07f\x02" +
-		"\x02\u0349\u034C\x070\x02\x02\u034A\u034C\x07\x9E\x02\x02\u034B\u0349" +
+		"\x02\u0349\u034C\x070\x02\x02\u034A\u034C\x07\xA0\x02\x02\u034B\u0349" +
 		"\x03\x02\x02\x02\u034B\u034A\x03\x02\x02\x02\u034B\u034C\x03\x02\x02\x02" +
-		"\u034C\u0357\x03\x02\x02\x02\u034D\u034F\x07z\x02\x02\u034E\u0350\x07" +
+		"\u034C\u0357\x03\x02\x02\x02\u034D\u034F\x07{\x02\x02\u034E\u0350\x07" +
 		"0\x02\x02\u034F\u034E\x03\x02\x02\x02\u034F\u0350\x03\x02\x02\x02\u0350" +
 		"\u0357\x03\x02\x02\x02\u0351\u0353\x07g\x02\x02\u0352\u0354\x070\x02\x02" +
 		"\u0353\u0352\x03\x02\x02\x02\u0353\u0354\x03\x02\x02\x02\u0354\u0357\x03" +
@@ -7181,9 +7186,9 @@ export class flashcardParser extends Parser {
 		"\x03\x02\x02\x02\u039Ao\x03\x02\x02\x02\u039B\u039E\x07e\x02\x02\u039C" +
 		"\u039D\x07\x1D\x02\x02\u039D\u039F\x071\x02\x02\u039E\u039C\x03\x02\x02" +
 		"\x02\u039E\u039F\x03\x02\x02\x02\u039F\u03AB\x03\x02\x02\x02\u03A0\u03A3" +
-		"\x07y\x02\x02\u03A1\u03A2\x07\x1D\x02\x02\u03A2\u03A4\x071\x02\x02\u03A3" +
+		"\x07z\x02\x02\u03A1\u03A2\x07\x1D\x02\x02\u03A2\u03A4\x071\x02\x02\u03A3" +
 		"\u03A1\x03\x02\x02\x02\u03A3\u03A4\x03\x02\x02\x02\u03A4\u03AB\x03\x02" +
-		"\x02\x02\u03A5\u03A8\x07\x88\x02\x02\u03A6\u03A7\x07\x1D\x02\x02\u03A7" +
+		"\x02\x02\u03A5\u03A8\x07\x8A\x02\x02\u03A6\u03A7\x07\x1D\x02\x02\u03A7" +
 		"\u03A9\x071\x02\x02\u03A8\u03A6\x03\x02\x02\x02\u03A8\u03A9\x03\x02\x02" +
 		"\x02\u03A9\u03AB\x03\x02\x02\x02\u03AA\u039B\x03\x02\x02\x02\u03AA\u03A0" +
 		"\x03\x02\x02\x02\u03AA\u03A5\x03\x02\x02\x02\u03ABq\x03\x02\x02\x02\u03AC" +
@@ -7202,8 +7207,8 @@ export class flashcardParser extends Parser {
 		"\x02\x02\u03C7\u03C5\x03\x02\x02\x02\u03C8\u03CA\x03\x02\x02\x02\u03C9" +
 		"\u03C7\x03\x02\x02\x02\u03CA\u03CC\x07\x1C\x02\x02\u03CB\u03AF\x03\x02" +
 		"\x02\x02\u03CB\u03BF\x03\x02\x02\x02\u03CB\u03C3\x03\x02\x02\x02\u03CC" +
-		"s\x03\x02\x02\x02\u03CD\u03CE\x07\x9D\x02\x02\u03CE\u03CF\x07 \x02\x02" +
-		"\u03CF\u03D0\x075\x02\x02\u03D0u\x03\x02\x02\x02\u03D1\u03D2\x07\xA0\x02" +
+		"s\x03\x02\x02\x02\u03CD\u03CE\x07\x9F\x02\x02\u03CE\u03CF\x07 \x02\x02" +
+		"\u03CF\u03D0\x075\x02\x02\u03D0u\x03\x02\x02\x02\u03D1\u03D2\x07\xA2\x02" +
 		"\x02\u03D2w\x03\x02\x02\x02\u03D3\u03D4\x07\x1A\x02\x02\u03D4\u03DC\x07" +
 		"\x1C\x02\x02\u03D5\u03D7\x07\x04\x02\x02\u03D6\u03D5\x03\x02\x02\x02\u03D7" +
 		"\u03DA\x03\x02\x02\x02\u03D8\u03D6\x03\x02\x02\x02\u03D8\u03D9\x03\x02" +
@@ -7257,12 +7262,12 @@ export class flashcardParser extends Parser {
 		"\x02\x02\u0439\u043B\x07\x02\x02\x03\u043A\u0413\x03\x02\x02\x02\u043A" +
 		"\u0430\x03\x02\x02\x02\u043B\x81\x03\x02\x02\x02\u043C\u0441\x07=\x02" +
 		"\x02\u043D\u0442\x05\xA4S\x02\u043E\u0442\x07\x1D\x02\x02\u043F\u0442" +
-		"\x07\xA0\x02\x02\u0440\u0442\x077\x02\x02\u0441\u043D\x03\x02\x02\x02" +
+		"\x07\xA2\x02\x02\u0440\u0442\x077\x02\x02\u0441\u043D\x03\x02\x02\x02" +
 		"\u0441\u043E\x03\x02\x02\x02\u0441\u043F\x03\x02\x02\x02\u0441\u0440\x03" +
 		"\x02\x02\x02\u0442\u0443\x03\x02\x02\x02\u0443\u0441\x03\x02\x02\x02\u0443" +
 		"\u0444\x03\x02\x02\x02\u0444\u0445\x03\x02\x02\x02\u0445\u0453\x07\x1C" +
 		"\x02\x02\u0446\u044E\x07=\x02\x02\u0447\u044D\x05\xA4S\x02\u0448\u044D" +
-		"\x07\x1D\x02\x02\u0449\u044D\x07\xA0\x02\x02\u044A\u044D\x077\x02\x02" +
+		"\x07\x1D\x02\x02\u0449\u044D\x07\xA2\x02\x02\u044A\u044D\x077\x02\x02" +
 		"\u044B\u044D\x07\x04\x02\x02\u044C\u0447\x03\x02\x02\x02\u044C\u0448\x03" +
 		"\x02\x02\x02\u044C\u0449\x03\x02\x02\x02\u044C\u044A\x03\x02\x02\x02\u044C" +
 		"\u044B\x03\x02\x02\x02\u044D\u0450\x03\x02\x02\x02\u044E\u044C\x03\x02" +
@@ -7379,7 +7384,7 @@ export class flashcardParser extends Parser {
 		"\u0543\x07\x1E\x02\x02\u0540\u0542\x07\x04\x02\x02\u0541\u0540\x03\x02" +
 		"\x02\x02\u0542\u0545\x03\x02\x02\x02\u0543\u0541\x03\x02\x02\x02\u0543" +
 		"\u0544\x03\x02\x02\x02\u0544\u0548\x03\x02\x02\x02\u0545\u0543\x03\x02" +
-		"\x02\x02\u0546\u0548\x07\xA0\x02\x02\u0547\u051B\x03\x02\x02\x02\u0547" +
+		"\x02\x02\u0546\u0548\x07\xA2\x02\x02\u0547\u051B\x03\x02\x02\x02\u0547" +
 		"\u0524\x03\x02\x02\x02\u0547\u052D\x03\x02\x02\x02\u0547\u0531\x03\x02" +
 		"\x02\x02\u0547\u0535\x03\x02\x02\x02\u0547\u053F\x03\x02\x02\x02\u0547" +
 		"\u0546\x03\x02\x02\x02\u0548\xA5\x03\x02\x02\x02\u0549\u054A\x07\x1C\x02" +
@@ -8675,6 +8680,7 @@ export class Resource_formatContext extends ParserRuleContext {
 	public AmpAudioEmbed(): TerminalNode | undefined { return this.tryGetToken(flashcardParser.AmpAudioEmbed, 0); }
 	public AmpDocumentEmbed(): TerminalNode | undefined { return this.tryGetToken(flashcardParser.AmpDocumentEmbed, 0); }
 	public AmpStillImageFilmEmbed(): TerminalNode | undefined { return this.tryGetToken(flashcardParser.AmpStillImageFilmEmbed, 0); }
+	public AmpDocumentDownload(): TerminalNode | undefined { return this.tryGetToken(flashcardParser.AmpDocumentDownload, 0); }
 	constructor(parent: ParserRuleContext | undefined, invokingState: number) {
 		super(parent, invokingState);
 	}
@@ -8845,6 +8851,7 @@ export class Article_formatContext extends ParserRuleContext {
 export class Document_formatContext extends ParserRuleContext {
 	public AmpDocument(): TerminalNode | undefined { return this.tryGetToken(flashcardParser.AmpDocument, 0); }
 	public AmpDocumentLink(): TerminalNode | undefined { return this.tryGetToken(flashcardParser.AmpDocumentLink, 0); }
+	public AmpDocumentDownload(): TerminalNode | undefined { return this.tryGetToken(flashcardParser.AmpDocumentDownload, 0); }
 	public AmpDocumentEmbed(): TerminalNode | undefined { return this.tryGetToken(flashcardParser.AmpDocumentEmbed, 0); }
 	constructor(parent: ParserRuleContext | undefined, invokingState: number) {
 		super(parent, invokingState);
@@ -8962,6 +8969,7 @@ export class Op_article_formatContext extends ParserRuleContext {
 export class Op_document_formatContext extends ParserRuleContext {
 	public OpAmpDocumentLink(): TerminalNode | undefined { return this.tryGetToken(flashcardParser.OpAmpDocumentLink, 0); }
 	public OpAmpDocument(): TerminalNode | undefined { return this.tryGetToken(flashcardParser.OpAmpDocument, 0); }
+	public OpAmpDocumentDownload(): TerminalNode | undefined { return this.tryGetToken(flashcardParser.OpAmpDocumentDownload, 0); }
 	public OpAmpDocumentEmbed(): TerminalNode | undefined { return this.tryGetToken(flashcardParser.OpAmpDocumentEmbed, 0); }
 	constructor(parent: ParserRuleContext | undefined, invokingState: number) {
 		super(parent, invokingState);

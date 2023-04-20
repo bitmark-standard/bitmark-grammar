@@ -706,7 +706,7 @@ class sequenceParser extends Parser_1.Parser {
                 this.state = 327;
                 this._errHandler.sync(this);
                 _la = this._input.LA(1);
-                while (((((_la - 2)) & ~0x1F) === 0 && ((1 << (_la - 2)) & ((1 << (sequenceParser.S - 2)) | (1 << (sequenceParser.OPB - 2)) | (1 << (sequenceParser.OPQ - 2)) | (1 << (sequenceParser.OPA - 2)) | (1 << (sequenceParser.OPS - 2)) | (1 << (sequenceParser.COLON - 2)) | (1 << (sequenceParser.AMP - 2)) | (1 << (sequenceParser.Greater - 2)) | (1 << (sequenceParser.Less - 2)) | (1 << (sequenceParser.RightAngle - 2)) | (1 << (sequenceParser.RightArrow - 2)) | (1 << (sequenceParser.DBLEQ - 2)))) !== 0) || ((((_la - 44)) & ~0x1F) === 0 && ((1 << (_la - 44)) & ((1 << (sequenceParser.NUMERIC - 44)) | (1 << (sequenceParser.STRING - 44)) | (1 << (sequenceParser.NOTBITMARK - 44)) | (1 << (sequenceParser.SENTENCE - 44)) | (1 << (sequenceParser.BARSTRING - 44)) | (1 << (sequenceParser.AtExampleWithStr - 44)) | (1 << (sequenceParser.AtExamplecol - 44)) | (1 << (sequenceParser.AtExamplecl - 44)) | (1 << (sequenceParser.OpAtCopyright - 44)))) !== 0) || ((((_la - 81)) & ~0x1F) === 0 && ((1 << (_la - 81)) & ((1 << (sequenceParser.AmpAudio - 81)) | (1 << (sequenceParser.AmpImage - 81)) | (1 << (sequenceParser.AmpVideo - 81)) | (1 << (sequenceParser.AmpArticle - 81)) | (1 << (sequenceParser.AmpDocument - 81)) | (1 << (sequenceParser.AmpApp - 81)) | (1 << (sequenceParser.AmpWebsite - 81)) | (1 << (sequenceParser.AmpAudioLink - 81)) | (1 << (sequenceParser.AmpImageLink - 81)) | (1 << (sequenceParser.AmpArticleLink - 81)) | (1 << (sequenceParser.AmpDocumentLink - 81)))) !== 0) || ((((_la - 130)) & ~0x1F) === 0 && ((1 << (_la - 130)) & ((1 << (sequenceParser.BitmarkMinus - 130)) | (1 << (sequenceParser.BitmarkPlus - 130)) | (1 << (sequenceParser.URL - 130)) | (1 << (sequenceParser.LIST_LINE - 130)))) !== 0)) {
+                while (((((_la - 2)) & ~0x1F) === 0 && ((1 << (_la - 2)) & ((1 << (sequenceParser.S - 2)) | (1 << (sequenceParser.OPB - 2)) | (1 << (sequenceParser.OPQ - 2)) | (1 << (sequenceParser.OPA - 2)) | (1 << (sequenceParser.OPS - 2)) | (1 << (sequenceParser.COLON - 2)) | (1 << (sequenceParser.AMP - 2)) | (1 << (sequenceParser.Greater - 2)) | (1 << (sequenceParser.Less - 2)) | (1 << (sequenceParser.RightAngle - 2)) | (1 << (sequenceParser.RightArrow - 2)) | (1 << (sequenceParser.DBLEQ - 2)))) !== 0) || ((((_la - 44)) & ~0x1F) === 0 && ((1 << (_la - 44)) & ((1 << (sequenceParser.NUMERIC - 44)) | (1 << (sequenceParser.STRING - 44)) | (1 << (sequenceParser.NOTBITMARK - 44)) | (1 << (sequenceParser.SENTENCE - 44)) | (1 << (sequenceParser.BARSTRING - 44)) | (1 << (sequenceParser.AtExampleWithStr - 44)) | (1 << (sequenceParser.AtExamplecol - 44)) | (1 << (sequenceParser.AtExamplecl - 44)) | (1 << (sequenceParser.OpAtCopyright - 44)))) !== 0) || ((((_la - 81)) & ~0x1F) === 0 && ((1 << (_la - 81)) & ((1 << (sequenceParser.AmpAudio - 81)) | (1 << (sequenceParser.AmpImage - 81)) | (1 << (sequenceParser.AmpVideo - 81)) | (1 << (sequenceParser.AmpArticle - 81)) | (1 << (sequenceParser.AmpDocument - 81)) | (1 << (sequenceParser.AmpApp - 81)) | (1 << (sequenceParser.AmpWebsite - 81)) | (1 << (sequenceParser.AmpAudioLink - 81)) | (1 << (sequenceParser.AmpImageLink - 81)) | (1 << (sequenceParser.AmpArticleLink - 81)) | (1 << (sequenceParser.AmpDocumentLink - 81)))) !== 0) || ((((_la - 132)) & ~0x1F) === 0 && ((1 << (_la - 132)) & ((1 << (sequenceParser.BitmarkMinus - 132)) | (1 << (sequenceParser.BitmarkPlus - 132)) | (1 << (sequenceParser.URL - 132)) | (1 << (sequenceParser.LIST_LINE - 132)))) !== 0)) {
                     {
                         {
                             this.state = 324;
@@ -1267,7 +1267,7 @@ class sequenceParser extends Parser_1.Parser {
                 this.state = 415;
                 this._errHandler.sync(this);
                 _la = this._input.LA(1);
-                while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less) | (1 << sequenceParser.RightAngle) | (1 << sequenceParser.RightArrow))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NOTBITMARK - 32)) | (1 << (sequenceParser.SENTENCE - 32)) | (1 << (sequenceParser.BARSTRING - 32)))) !== 0) || ((((_la - 81)) & ~0x1F) === 0 && ((1 << (_la - 81)) & ((1 << (sequenceParser.AmpAudio - 81)) | (1 << (sequenceParser.AmpImage - 81)) | (1 << (sequenceParser.AmpVideo - 81)) | (1 << (sequenceParser.AmpArticle - 81)) | (1 << (sequenceParser.AmpDocument - 81)) | (1 << (sequenceParser.AmpApp - 81)) | (1 << (sequenceParser.AmpWebsite - 81)) | (1 << (sequenceParser.AmpAudioLink - 81)) | (1 << (sequenceParser.AmpImageLink - 81)) | (1 << (sequenceParser.AmpArticleLink - 81)) | (1 << (sequenceParser.AmpDocumentLink - 81)))) !== 0) || ((((_la - 130)) & ~0x1F) === 0 && ((1 << (_la - 130)) & ((1 << (sequenceParser.BitmarkMinus - 130)) | (1 << (sequenceParser.BitmarkPlus - 130)) | (1 << (sequenceParser.URL - 130)) | (1 << (sequenceParser.LIST_LINE - 130)))) !== 0)) {
+                while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less) | (1 << sequenceParser.RightAngle) | (1 << sequenceParser.RightArrow))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NOTBITMARK - 32)) | (1 << (sequenceParser.SENTENCE - 32)) | (1 << (sequenceParser.BARSTRING - 32)))) !== 0) || ((((_la - 81)) & ~0x1F) === 0 && ((1 << (_la - 81)) & ((1 << (sequenceParser.AmpAudio - 81)) | (1 << (sequenceParser.AmpImage - 81)) | (1 << (sequenceParser.AmpVideo - 81)) | (1 << (sequenceParser.AmpArticle - 81)) | (1 << (sequenceParser.AmpDocument - 81)) | (1 << (sequenceParser.AmpApp - 81)) | (1 << (sequenceParser.AmpWebsite - 81)) | (1 << (sequenceParser.AmpAudioLink - 81)) | (1 << (sequenceParser.AmpImageLink - 81)) | (1 << (sequenceParser.AmpArticleLink - 81)) | (1 << (sequenceParser.AmpDocumentLink - 81)))) !== 0) || ((((_la - 132)) & ~0x1F) === 0 && ((1 << (_la - 132)) & ((1 << (sequenceParser.BitmarkMinus - 132)) | (1 << (sequenceParser.BitmarkPlus - 132)) | (1 << (sequenceParser.URL - 132)) | (1 << (sequenceParser.LIST_LINE - 132)))) !== 0)) {
                     {
                         {
                             this.state = 412;
@@ -1329,7 +1329,7 @@ class sequenceParser extends Parser_1.Parser {
                     this.state = 427;
                     this._errHandler.sync(this);
                     _la = this._input.LA(1);
-                } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less) | (1 << sequenceParser.RightAngle) | (1 << sequenceParser.RightArrow))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NOTBITMARK - 32)) | (1 << (sequenceParser.SENTENCE - 32)) | (1 << (sequenceParser.BARSTRING - 32)))) !== 0) || ((((_la - 81)) & ~0x1F) === 0 && ((1 << (_la - 81)) & ((1 << (sequenceParser.AmpAudio - 81)) | (1 << (sequenceParser.AmpImage - 81)) | (1 << (sequenceParser.AmpVideo - 81)) | (1 << (sequenceParser.AmpArticle - 81)) | (1 << (sequenceParser.AmpDocument - 81)) | (1 << (sequenceParser.AmpApp - 81)) | (1 << (sequenceParser.AmpWebsite - 81)) | (1 << (sequenceParser.AmpAudioLink - 81)) | (1 << (sequenceParser.AmpImageLink - 81)) | (1 << (sequenceParser.AmpArticleLink - 81)) | (1 << (sequenceParser.AmpDocumentLink - 81)))) !== 0) || ((((_la - 130)) & ~0x1F) === 0 && ((1 << (_la - 130)) & ((1 << (sequenceParser.BitmarkMinus - 130)) | (1 << (sequenceParser.BitmarkPlus - 130)) | (1 << (sequenceParser.URL - 130)) | (1 << (sequenceParser.LIST_LINE - 130)))) !== 0));
+                } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less) | (1 << sequenceParser.RightAngle) | (1 << sequenceParser.RightArrow))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NOTBITMARK - 32)) | (1 << (sequenceParser.SENTENCE - 32)) | (1 << (sequenceParser.BARSTRING - 32)))) !== 0) || ((((_la - 81)) & ~0x1F) === 0 && ((1 << (_la - 81)) & ((1 << (sequenceParser.AmpAudio - 81)) | (1 << (sequenceParser.AmpImage - 81)) | (1 << (sequenceParser.AmpVideo - 81)) | (1 << (sequenceParser.AmpArticle - 81)) | (1 << (sequenceParser.AmpDocument - 81)) | (1 << (sequenceParser.AmpApp - 81)) | (1 << (sequenceParser.AmpWebsite - 81)) | (1 << (sequenceParser.AmpAudioLink - 81)) | (1 << (sequenceParser.AmpImageLink - 81)) | (1 << (sequenceParser.AmpArticleLink - 81)) | (1 << (sequenceParser.AmpDocumentLink - 81)))) !== 0) || ((((_la - 132)) & ~0x1F) === 0 && ((1 << (_la - 132)) & ((1 << (sequenceParser.BitmarkMinus - 132)) | (1 << (sequenceParser.BitmarkPlus - 132)) | (1 << (sequenceParser.URL - 132)) | (1 << (sequenceParser.LIST_LINE - 132)))) !== 0));
                 this.state = 429;
                 this.match(sequenceParser.CL);
             }
@@ -1381,7 +1381,7 @@ class sequenceParser extends Parser_1.Parser {
                     this.state = 438;
                     this._errHandler.sync(this);
                     _la = this._input.LA(1);
-                } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less) | (1 << sequenceParser.RightAngle) | (1 << sequenceParser.RightArrow))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NOTBITMARK - 32)) | (1 << (sequenceParser.SENTENCE - 32)) | (1 << (sequenceParser.BARSTRING - 32)))) !== 0) || ((((_la - 81)) & ~0x1F) === 0 && ((1 << (_la - 81)) & ((1 << (sequenceParser.AmpAudio - 81)) | (1 << (sequenceParser.AmpImage - 81)) | (1 << (sequenceParser.AmpVideo - 81)) | (1 << (sequenceParser.AmpArticle - 81)) | (1 << (sequenceParser.AmpDocument - 81)) | (1 << (sequenceParser.AmpApp - 81)) | (1 << (sequenceParser.AmpWebsite - 81)) | (1 << (sequenceParser.AmpAudioLink - 81)) | (1 << (sequenceParser.AmpImageLink - 81)) | (1 << (sequenceParser.AmpArticleLink - 81)) | (1 << (sequenceParser.AmpDocumentLink - 81)))) !== 0) || ((((_la - 130)) & ~0x1F) === 0 && ((1 << (_la - 130)) & ((1 << (sequenceParser.BitmarkMinus - 130)) | (1 << (sequenceParser.BitmarkPlus - 130)) | (1 << (sequenceParser.URL - 130)) | (1 << (sequenceParser.LIST_LINE - 130)))) !== 0));
+                } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less) | (1 << sequenceParser.RightAngle) | (1 << sequenceParser.RightArrow))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NOTBITMARK - 32)) | (1 << (sequenceParser.SENTENCE - 32)) | (1 << (sequenceParser.BARSTRING - 32)))) !== 0) || ((((_la - 81)) & ~0x1F) === 0 && ((1 << (_la - 81)) & ((1 << (sequenceParser.AmpAudio - 81)) | (1 << (sequenceParser.AmpImage - 81)) | (1 << (sequenceParser.AmpVideo - 81)) | (1 << (sequenceParser.AmpArticle - 81)) | (1 << (sequenceParser.AmpDocument - 81)) | (1 << (sequenceParser.AmpApp - 81)) | (1 << (sequenceParser.AmpWebsite - 81)) | (1 << (sequenceParser.AmpAudioLink - 81)) | (1 << (sequenceParser.AmpImageLink - 81)) | (1 << (sequenceParser.AmpArticleLink - 81)) | (1 << (sequenceParser.AmpDocumentLink - 81)))) !== 0) || ((((_la - 132)) & ~0x1F) === 0 && ((1 << (_la - 132)) & ((1 << (sequenceParser.BitmarkMinus - 132)) | (1 << (sequenceParser.BitmarkPlus - 132)) | (1 << (sequenceParser.URL - 132)) | (1 << (sequenceParser.LIST_LINE - 132)))) !== 0));
                 this.state = 440;
                 this.match(sequenceParser.CL);
             }
@@ -1433,7 +1433,7 @@ class sequenceParser extends Parser_1.Parser {
                     this.state = 449;
                     this._errHandler.sync(this);
                     _la = this._input.LA(1);
-                } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less) | (1 << sequenceParser.RightAngle) | (1 << sequenceParser.RightArrow))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NOTBITMARK - 32)) | (1 << (sequenceParser.SENTENCE - 32)) | (1 << (sequenceParser.BARSTRING - 32)))) !== 0) || ((((_la - 81)) & ~0x1F) === 0 && ((1 << (_la - 81)) & ((1 << (sequenceParser.AmpAudio - 81)) | (1 << (sequenceParser.AmpImage - 81)) | (1 << (sequenceParser.AmpVideo - 81)) | (1 << (sequenceParser.AmpArticle - 81)) | (1 << (sequenceParser.AmpDocument - 81)) | (1 << (sequenceParser.AmpApp - 81)) | (1 << (sequenceParser.AmpWebsite - 81)) | (1 << (sequenceParser.AmpAudioLink - 81)) | (1 << (sequenceParser.AmpImageLink - 81)) | (1 << (sequenceParser.AmpArticleLink - 81)) | (1 << (sequenceParser.AmpDocumentLink - 81)))) !== 0) || ((((_la - 130)) & ~0x1F) === 0 && ((1 << (_la - 130)) & ((1 << (sequenceParser.BitmarkMinus - 130)) | (1 << (sequenceParser.BitmarkPlus - 130)) | (1 << (sequenceParser.URL - 130)) | (1 << (sequenceParser.LIST_LINE - 130)))) !== 0));
+                } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less) | (1 << sequenceParser.RightAngle) | (1 << sequenceParser.RightArrow))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NOTBITMARK - 32)) | (1 << (sequenceParser.SENTENCE - 32)) | (1 << (sequenceParser.BARSTRING - 32)))) !== 0) || ((((_la - 81)) & ~0x1F) === 0 && ((1 << (_la - 81)) & ((1 << (sequenceParser.AmpAudio - 81)) | (1 << (sequenceParser.AmpImage - 81)) | (1 << (sequenceParser.AmpVideo - 81)) | (1 << (sequenceParser.AmpArticle - 81)) | (1 << (sequenceParser.AmpDocument - 81)) | (1 << (sequenceParser.AmpApp - 81)) | (1 << (sequenceParser.AmpWebsite - 81)) | (1 << (sequenceParser.AmpAudioLink - 81)) | (1 << (sequenceParser.AmpImageLink - 81)) | (1 << (sequenceParser.AmpArticleLink - 81)) | (1 << (sequenceParser.AmpDocumentLink - 81)))) !== 0) || ((((_la - 132)) & ~0x1F) === 0 && ((1 << (_la - 132)) & ((1 << (sequenceParser.BitmarkMinus - 132)) | (1 << (sequenceParser.BitmarkPlus - 132)) | (1 << (sequenceParser.URL - 132)) | (1 << (sequenceParser.LIST_LINE - 132)))) !== 0));
                 this.state = 451;
                 this.match(sequenceParser.CL);
             }
@@ -1577,7 +1577,7 @@ class sequenceParser extends Parser_1.Parser {
                 this.state = 476;
                 this._errHandler.sync(this);
                 _la = this._input.LA(1);
-                while (((((_la - 81)) & ~0x1F) === 0 && ((1 << (_la - 81)) & ((1 << (sequenceParser.AmpAudio - 81)) | (1 << (sequenceParser.AmpImage - 81)) | (1 << (sequenceParser.AmpImageZoom - 81)) | (1 << (sequenceParser.AmpImageWAudio - 81)) | (1 << (sequenceParser.AmpVideo - 81)) | (1 << (sequenceParser.AmpArticle - 81)) | (1 << (sequenceParser.AmpDocument - 81)) | (1 << (sequenceParser.AmpApp - 81)) | (1 << (sequenceParser.AmpWebsite - 81)) | (1 << (sequenceParser.AmpStillImageFilm - 81)) | (1 << (sequenceParser.AmpPdf - 81)) | (1 << (sequenceParser.AmpAudioLink - 81)) | (1 << (sequenceParser.AmpImageLink - 81)) | (1 << (sequenceParser.AmpVideoLink - 81)) | (1 << (sequenceParser.AmpArticleLink - 81)) | (1 << (sequenceParser.AmpDocumentLink - 81)) | (1 << (sequenceParser.AmpAppLink - 81)) | (1 << (sequenceParser.AmpWebsiteLink - 81)) | (1 << (sequenceParser.AmpStillImageFilmLink - 81)))) !== 0) || ((((_la - 121)) & ~0x1F) === 0 && ((1 << (_la - 121)) & ((1 << (sequenceParser.AmpVideoEmbed - 121)) | (1 << (sequenceParser.AmpDocumentEmbed - 121)) | (1 << (sequenceParser.AmpStillImageFilmEmbed - 121)) | (1 << (sequenceParser.ColonText - 121)) | (1 << (sequenceParser.ColonJson - 121)))) !== 0)) {
+                while (((((_la - 81)) & ~0x1F) === 0 && ((1 << (_la - 81)) & ((1 << (sequenceParser.AmpAudio - 81)) | (1 << (sequenceParser.AmpImage - 81)) | (1 << (sequenceParser.AmpImageZoom - 81)) | (1 << (sequenceParser.AmpImageWAudio - 81)) | (1 << (sequenceParser.AmpVideo - 81)) | (1 << (sequenceParser.AmpArticle - 81)) | (1 << (sequenceParser.AmpDocument - 81)) | (1 << (sequenceParser.AmpApp - 81)) | (1 << (sequenceParser.AmpWebsite - 81)) | (1 << (sequenceParser.AmpStillImageFilm - 81)) | (1 << (sequenceParser.AmpPdf - 81)) | (1 << (sequenceParser.AmpAudioLink - 81)) | (1 << (sequenceParser.AmpImageLink - 81)) | (1 << (sequenceParser.AmpVideoLink - 81)) | (1 << (sequenceParser.AmpArticleLink - 81)) | (1 << (sequenceParser.AmpDocumentLink - 81)) | (1 << (sequenceParser.AmpDocumentDownload - 81)) | (1 << (sequenceParser.AmpAppLink - 81)) | (1 << (sequenceParser.AmpWebsiteLink - 81)) | (1 << (sequenceParser.AmpStillImageFilmLink - 81)))) !== 0) || ((((_la - 123)) & ~0x1F) === 0 && ((1 << (_la - 123)) & ((1 << (sequenceParser.AmpVideoEmbed - 123)) | (1 << (sequenceParser.AmpDocumentEmbed - 123)) | (1 << (sequenceParser.AmpStillImageFilmEmbed - 123)) | (1 << (sequenceParser.ColonText - 123)) | (1 << (sequenceParser.ColonJson - 123)))) !== 0)) {
                     {
                         this.state = 474;
                         this._errHandler.sync(this);
@@ -1610,6 +1610,7 @@ class sequenceParser extends Parser_1.Parser {
                             case sequenceParser.AmpVideoLink:
                             case sequenceParser.AmpArticleLink:
                             case sequenceParser.AmpDocumentLink:
+                            case sequenceParser.AmpDocumentDownload:
                             case sequenceParser.AmpAppLink:
                             case sequenceParser.AmpWebsiteLink:
                             case sequenceParser.AmpStillImageFilmLink:
@@ -1656,7 +1657,7 @@ class sequenceParser extends Parser_1.Parser {
             {
                 this.state = 479;
                 _la = this._input.LA(1);
-                if (!(((((_la - 86)) & ~0x1F) === 0 && ((1 << (_la - 86)) & ((1 << (sequenceParser.AmpArticle - 86)) | (1 << (sequenceParser.AmpDocument - 86)) | (1 << (sequenceParser.AmpWebsite - 86)) | (1 << (sequenceParser.AmpStillImageFilm - 86)) | (1 << (sequenceParser.AmpAudioLink - 86)) | (1 << (sequenceParser.AmpImageLink - 86)) | (1 << (sequenceParser.AmpVideoLink - 86)) | (1 << (sequenceParser.AmpArticleLink - 86)) | (1 << (sequenceParser.AmpDocumentLink - 86)) | (1 << (sequenceParser.AmpAppLink - 86)) | (1 << (sequenceParser.AmpWebsiteLink - 86)) | (1 << (sequenceParser.AmpStillImageFilmLink - 86)))) !== 0) || ((((_la - 121)) & ~0x1F) === 0 && ((1 << (_la - 121)) & ((1 << (sequenceParser.AmpVideoEmbed - 121)) | (1 << (sequenceParser.AmpAudioEmbed - 121)) | (1 << (sequenceParser.AmpDocumentEmbed - 121)) | (1 << (sequenceParser.AmpStillImageFilmEmbed - 121)) | (1 << (sequenceParser.BitmarkMinus - 121)) | (1 << (sequenceParser.BitmarkPlus - 121)) | (1 << (sequenceParser.ColonJson - 121)) | (1 << (sequenceParser.Prosemirror - 121)) | (1 << (sequenceParser.Placeholder - 121)))) !== 0))) {
+                if (!(((((_la - 86)) & ~0x1F) === 0 && ((1 << (_la - 86)) & ((1 << (sequenceParser.AmpArticle - 86)) | (1 << (sequenceParser.AmpDocument - 86)) | (1 << (sequenceParser.AmpWebsite - 86)) | (1 << (sequenceParser.AmpStillImageFilm - 86)) | (1 << (sequenceParser.AmpAudioLink - 86)) | (1 << (sequenceParser.AmpImageLink - 86)) | (1 << (sequenceParser.AmpVideoLink - 86)) | (1 << (sequenceParser.AmpArticleLink - 86)) | (1 << (sequenceParser.AmpDocumentLink - 86)) | (1 << (sequenceParser.AmpDocumentDownload - 86)) | (1 << (sequenceParser.AmpAppLink - 86)) | (1 << (sequenceParser.AmpWebsiteLink - 86)) | (1 << (sequenceParser.AmpStillImageFilmLink - 86)))) !== 0) || ((((_la - 123)) & ~0x1F) === 0 && ((1 << (_la - 123)) & ((1 << (sequenceParser.AmpVideoEmbed - 123)) | (1 << (sequenceParser.AmpAudioEmbed - 123)) | (1 << (sequenceParser.AmpDocumentEmbed - 123)) | (1 << (sequenceParser.AmpStillImageFilmEmbed - 123)) | (1 << (sequenceParser.BitmarkMinus - 123)) | (1 << (sequenceParser.BitmarkPlus - 123)) | (1 << (sequenceParser.ColonJson - 123)) | (1 << (sequenceParser.Prosemirror - 123)) | (1 << (sequenceParser.Placeholder - 123)))) !== 0))) {
                     this._errHandler.recoverInline(this);
                 }
                 else {
@@ -1728,6 +1729,7 @@ class sequenceParser extends Parser_1.Parser {
                     break;
                 case sequenceParser.AmpDocument:
                 case sequenceParser.AmpDocumentLink:
+                case sequenceParser.AmpDocumentDownload:
                 case sequenceParser.AmpDocumentEmbed:
                     this.enterOuterAlt(_localctx, 5);
                     {
@@ -1897,6 +1899,7 @@ class sequenceParser extends Parser_1.Parser {
                             case sequenceParser.AmpVideoLink:
                             case sequenceParser.AmpArticleLink:
                             case sequenceParser.AmpDocumentLink:
+                            case sequenceParser.AmpDocumentDownload:
                             case sequenceParser.AmpAppLink:
                             case sequenceParser.AmpWebsiteLink:
                             case sequenceParser.AmpStillImageFilmLink:
@@ -2064,7 +2067,7 @@ class sequenceParser extends Parser_1.Parser {
             {
                 this.state = 522;
                 _la = this._input.LA(1);
-                if (!(_la === sequenceParser.AmpDocument || _la === sequenceParser.AmpDocumentLink || _la === sequenceParser.AmpDocumentEmbed)) {
+                if (!(((((_la - 87)) & ~0x1F) === 0 && ((1 << (_la - 87)) & ((1 << (sequenceParser.AmpDocument - 87)) | (1 << (sequenceParser.AmpDocumentLink - 87)) | (1 << (sequenceParser.AmpDocumentDownload - 87)))) !== 0) || _la === sequenceParser.AmpDocumentEmbed)) {
                     this._errHandler.recoverInline(this);
                 }
                 else {
@@ -2249,7 +2252,7 @@ class sequenceParser extends Parser_1.Parser {
             {
                 this.state = 532;
                 _la = this._input.LA(1);
-                if (!(((((_la - 99)) & ~0x1F) === 0 && ((1 << (_la - 99)) & ((1 << (sequenceParser.OpAmpDocument - 99)) | (1 << (sequenceParser.OpAmpDocumentLink - 99)) | (1 << (sequenceParser.OpAmpDocumentEmbed - 99)))) !== 0))) {
+                if (!(((((_la - 99)) & ~0x1F) === 0 && ((1 << (_la - 99)) & ((1 << (sequenceParser.OpAmpDocument - 99)) | (1 << (sequenceParser.OpAmpDocumentLink - 99)) | (1 << (sequenceParser.OpAmpDocumentDownload - 99)) | (1 << (sequenceParser.OpAmpDocumentEmbed - 99)))) !== 0))) {
                     this._errHandler.recoverInline(this);
                 }
                 else {
@@ -3606,7 +3609,7 @@ class sequenceParser extends Parser_1.Parser {
                             this.state = 771;
                             this._errHandler.sync(this);
                             _la = this._input.LA(1);
-                        } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less) | (1 << sequenceParser.RightAngle) | (1 << sequenceParser.RightArrow))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NL - 32)) | (1 << (sequenceParser.NOTBITMARK - 32)) | (1 << (sequenceParser.SENTENCE - 32)) | (1 << (sequenceParser.BARSTRING - 32)))) !== 0) || ((((_la - 81)) & ~0x1F) === 0 && ((1 << (_la - 81)) & ((1 << (sequenceParser.AmpAudio - 81)) | (1 << (sequenceParser.AmpImage - 81)) | (1 << (sequenceParser.AmpVideo - 81)) | (1 << (sequenceParser.AmpArticle - 81)) | (1 << (sequenceParser.AmpDocument - 81)) | (1 << (sequenceParser.AmpApp - 81)) | (1 << (sequenceParser.AmpWebsite - 81)) | (1 << (sequenceParser.AmpAudioLink - 81)) | (1 << (sequenceParser.AmpImageLink - 81)) | (1 << (sequenceParser.AmpArticleLink - 81)) | (1 << (sequenceParser.AmpDocumentLink - 81)))) !== 0) || ((((_la - 130)) & ~0x1F) === 0 && ((1 << (_la - 130)) & ((1 << (sequenceParser.BitmarkMinus - 130)) | (1 << (sequenceParser.BitmarkPlus - 130)) | (1 << (sequenceParser.URL - 130)) | (1 << (sequenceParser.LIST_LINE - 130)))) !== 0));
+                        } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less) | (1 << sequenceParser.RightAngle) | (1 << sequenceParser.RightArrow))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NL - 32)) | (1 << (sequenceParser.NOTBITMARK - 32)) | (1 << (sequenceParser.SENTENCE - 32)) | (1 << (sequenceParser.BARSTRING - 32)))) !== 0) || ((((_la - 81)) & ~0x1F) === 0 && ((1 << (_la - 81)) & ((1 << (sequenceParser.AmpAudio - 81)) | (1 << (sequenceParser.AmpImage - 81)) | (1 << (sequenceParser.AmpVideo - 81)) | (1 << (sequenceParser.AmpArticle - 81)) | (1 << (sequenceParser.AmpDocument - 81)) | (1 << (sequenceParser.AmpApp - 81)) | (1 << (sequenceParser.AmpWebsite - 81)) | (1 << (sequenceParser.AmpAudioLink - 81)) | (1 << (sequenceParser.AmpImageLink - 81)) | (1 << (sequenceParser.AmpArticleLink - 81)) | (1 << (sequenceParser.AmpDocumentLink - 81)))) !== 0) || ((((_la - 132)) & ~0x1F) === 0 && ((1 << (_la - 132)) & ((1 << (sequenceParser.BitmarkMinus - 132)) | (1 << (sequenceParser.BitmarkPlus - 132)) | (1 << (sequenceParser.URL - 132)) | (1 << (sequenceParser.LIST_LINE - 132)))) !== 0));
                         this.state = 773;
                         this.match(sequenceParser.CL);
                     }
@@ -3801,7 +3804,7 @@ class sequenceParser extends Parser_1.Parser {
                         this.state = 811;
                         this._errHandler.sync(this);
                         _la = this._input.LA(1);
-                        while (((((_la - 22)) & ~0x1F) === 0 && ((1 << (_la - 22)) & ((1 << (sequenceParser.COLON - 22)) | (1 << (sequenceParser.AMP - 22)) | (1 << (sequenceParser.Greater - 22)) | (1 << (sequenceParser.Less - 22)) | (1 << (sequenceParser.RightAngle - 22)) | (1 << (sequenceParser.RightArrow - 22)) | (1 << (sequenceParser.NOTBITMARK - 22)) | (1 << (sequenceParser.SENTENCE - 22)) | (1 << (sequenceParser.BARSTRING - 22)))) !== 0) || ((((_la - 81)) & ~0x1F) === 0 && ((1 << (_la - 81)) & ((1 << (sequenceParser.AmpAudio - 81)) | (1 << (sequenceParser.AmpImage - 81)) | (1 << (sequenceParser.AmpVideo - 81)) | (1 << (sequenceParser.AmpArticle - 81)) | (1 << (sequenceParser.AmpDocument - 81)) | (1 << (sequenceParser.AmpApp - 81)) | (1 << (sequenceParser.AmpWebsite - 81)) | (1 << (sequenceParser.AmpAudioLink - 81)) | (1 << (sequenceParser.AmpImageLink - 81)) | (1 << (sequenceParser.AmpArticleLink - 81)) | (1 << (sequenceParser.AmpDocumentLink - 81)))) !== 0) || ((((_la - 130)) & ~0x1F) === 0 && ((1 << (_la - 130)) & ((1 << (sequenceParser.BitmarkMinus - 130)) | (1 << (sequenceParser.BitmarkPlus - 130)) | (1 << (sequenceParser.LIST_LINE - 130)))) !== 0)) {
+                        while (((((_la - 22)) & ~0x1F) === 0 && ((1 << (_la - 22)) & ((1 << (sequenceParser.COLON - 22)) | (1 << (sequenceParser.AMP - 22)) | (1 << (sequenceParser.Greater - 22)) | (1 << (sequenceParser.Less - 22)) | (1 << (sequenceParser.RightAngle - 22)) | (1 << (sequenceParser.RightArrow - 22)) | (1 << (sequenceParser.NOTBITMARK - 22)) | (1 << (sequenceParser.SENTENCE - 22)) | (1 << (sequenceParser.BARSTRING - 22)))) !== 0) || ((((_la - 81)) & ~0x1F) === 0 && ((1 << (_la - 81)) & ((1 << (sequenceParser.AmpAudio - 81)) | (1 << (sequenceParser.AmpImage - 81)) | (1 << (sequenceParser.AmpVideo - 81)) | (1 << (sequenceParser.AmpArticle - 81)) | (1 << (sequenceParser.AmpDocument - 81)) | (1 << (sequenceParser.AmpApp - 81)) | (1 << (sequenceParser.AmpWebsite - 81)) | (1 << (sequenceParser.AmpAudioLink - 81)) | (1 << (sequenceParser.AmpImageLink - 81)) | (1 << (sequenceParser.AmpArticleLink - 81)) | (1 << (sequenceParser.AmpDocumentLink - 81)))) !== 0) || ((((_la - 132)) & ~0x1F) === 0 && ((1 << (_la - 132)) & ((1 << (sequenceParser.BitmarkMinus - 132)) | (1 << (sequenceParser.BitmarkPlus - 132)) | (1 << (sequenceParser.LIST_LINE - 132)))) !== 0)) {
                             {
                                 this.state = 809;
                                 this._errHandler.sync(this);
@@ -3907,7 +3910,7 @@ class sequenceParser extends Parser_1.Parser {
                 this.state = 832;
                 this._errHandler.sync(this);
                 _la = this._input.LA(1);
-                while (((((_la - 22)) & ~0x1F) === 0 && ((1 << (_la - 22)) & ((1 << (sequenceParser.COLON - 22)) | (1 << (sequenceParser.AMP - 22)) | (1 << (sequenceParser.Greater - 22)) | (1 << (sequenceParser.Less - 22)) | (1 << (sequenceParser.RightAngle - 22)) | (1 << (sequenceParser.RightArrow - 22)) | (1 << (sequenceParser.NOTBITMARK - 22)) | (1 << (sequenceParser.SENTENCE - 22)) | (1 << (sequenceParser.BARSTRING - 22)))) !== 0) || ((((_la - 81)) & ~0x1F) === 0 && ((1 << (_la - 81)) & ((1 << (sequenceParser.AmpAudio - 81)) | (1 << (sequenceParser.AmpImage - 81)) | (1 << (sequenceParser.AmpVideo - 81)) | (1 << (sequenceParser.AmpArticle - 81)) | (1 << (sequenceParser.AmpDocument - 81)) | (1 << (sequenceParser.AmpApp - 81)) | (1 << (sequenceParser.AmpWebsite - 81)) | (1 << (sequenceParser.AmpAudioLink - 81)) | (1 << (sequenceParser.AmpImageLink - 81)) | (1 << (sequenceParser.AmpArticleLink - 81)) | (1 << (sequenceParser.AmpDocumentLink - 81)))) !== 0) || ((((_la - 130)) & ~0x1F) === 0 && ((1 << (_la - 130)) & ((1 << (sequenceParser.BitmarkMinus - 130)) | (1 << (sequenceParser.BitmarkPlus - 130)) | (1 << (sequenceParser.LIST_LINE - 130)))) !== 0)) {
+                while (((((_la - 22)) & ~0x1F) === 0 && ((1 << (_la - 22)) & ((1 << (sequenceParser.COLON - 22)) | (1 << (sequenceParser.AMP - 22)) | (1 << (sequenceParser.Greater - 22)) | (1 << (sequenceParser.Less - 22)) | (1 << (sequenceParser.RightAngle - 22)) | (1 << (sequenceParser.RightArrow - 22)) | (1 << (sequenceParser.NOTBITMARK - 22)) | (1 << (sequenceParser.SENTENCE - 22)) | (1 << (sequenceParser.BARSTRING - 22)))) !== 0) || ((((_la - 81)) & ~0x1F) === 0 && ((1 << (_la - 81)) & ((1 << (sequenceParser.AmpAudio - 81)) | (1 << (sequenceParser.AmpImage - 81)) | (1 << (sequenceParser.AmpVideo - 81)) | (1 << (sequenceParser.AmpArticle - 81)) | (1 << (sequenceParser.AmpDocument - 81)) | (1 << (sequenceParser.AmpApp - 81)) | (1 << (sequenceParser.AmpWebsite - 81)) | (1 << (sequenceParser.AmpAudioLink - 81)) | (1 << (sequenceParser.AmpImageLink - 81)) | (1 << (sequenceParser.AmpArticleLink - 81)) | (1 << (sequenceParser.AmpDocumentLink - 81)))) !== 0) || ((((_la - 132)) & ~0x1F) === 0 && ((1 << (_la - 132)) & ((1 << (sequenceParser.BitmarkMinus - 132)) | (1 << (sequenceParser.BitmarkPlus - 132)) | (1 << (sequenceParser.LIST_LINE - 132)))) !== 0)) {
                     {
                         this.state = 830;
                         this._errHandler.sync(this);
@@ -3989,7 +3992,7 @@ class sequenceParser extends Parser_1.Parser {
                         this.state = 839;
                         this._errHandler.sync(this);
                         _la = this._input.LA(1);
-                        if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less) | (1 << sequenceParser.RightAngle) | (1 << sequenceParser.RightArrow))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NOTBITMARK - 32)) | (1 << (sequenceParser.SENTENCE - 32)) | (1 << (sequenceParser.BARSTRING - 32)))) !== 0) || ((((_la - 81)) & ~0x1F) === 0 && ((1 << (_la - 81)) & ((1 << (sequenceParser.AmpAudio - 81)) | (1 << (sequenceParser.AmpImage - 81)) | (1 << (sequenceParser.AmpVideo - 81)) | (1 << (sequenceParser.AmpArticle - 81)) | (1 << (sequenceParser.AmpDocument - 81)) | (1 << (sequenceParser.AmpApp - 81)) | (1 << (sequenceParser.AmpWebsite - 81)) | (1 << (sequenceParser.AmpAudioLink - 81)) | (1 << (sequenceParser.AmpImageLink - 81)) | (1 << (sequenceParser.AmpArticleLink - 81)) | (1 << (sequenceParser.AmpDocumentLink - 81)))) !== 0) || ((((_la - 130)) & ~0x1F) === 0 && ((1 << (_la - 130)) & ((1 << (sequenceParser.BitmarkMinus - 130)) | (1 << (sequenceParser.BitmarkPlus - 130)) | (1 << (sequenceParser.URL - 130)) | (1 << (sequenceParser.LIST_LINE - 130)))) !== 0)) {
+                        if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less) | (1 << sequenceParser.RightAngle) | (1 << sequenceParser.RightArrow))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NOTBITMARK - 32)) | (1 << (sequenceParser.SENTENCE - 32)) | (1 << (sequenceParser.BARSTRING - 32)))) !== 0) || ((((_la - 81)) & ~0x1F) === 0 && ((1 << (_la - 81)) & ((1 << (sequenceParser.AmpAudio - 81)) | (1 << (sequenceParser.AmpImage - 81)) | (1 << (sequenceParser.AmpVideo - 81)) | (1 << (sequenceParser.AmpArticle - 81)) | (1 << (sequenceParser.AmpDocument - 81)) | (1 << (sequenceParser.AmpApp - 81)) | (1 << (sequenceParser.AmpWebsite - 81)) | (1 << (sequenceParser.AmpAudioLink - 81)) | (1 << (sequenceParser.AmpImageLink - 81)) | (1 << (sequenceParser.AmpArticleLink - 81)) | (1 << (sequenceParser.AmpDocumentLink - 81)))) !== 0) || ((((_la - 132)) & ~0x1F) === 0 && ((1 << (_la - 132)) & ((1 << (sequenceParser.BitmarkMinus - 132)) | (1 << (sequenceParser.BitmarkPlus - 132)) | (1 << (sequenceParser.URL - 132)) | (1 << (sequenceParser.LIST_LINE - 132)))) !== 0)) {
                             {
                                 this.state = 838;
                                 this.s_and_w();
@@ -4007,7 +4010,7 @@ class sequenceParser extends Parser_1.Parser {
                         this.state = 844;
                         this._errHandler.sync(this);
                         _la = this._input.LA(1);
-                        if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less) | (1 << sequenceParser.RightAngle) | (1 << sequenceParser.RightArrow))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NOTBITMARK - 32)) | (1 << (sequenceParser.SENTENCE - 32)) | (1 << (sequenceParser.BARSTRING - 32)))) !== 0) || ((((_la - 81)) & ~0x1F) === 0 && ((1 << (_la - 81)) & ((1 << (sequenceParser.AmpAudio - 81)) | (1 << (sequenceParser.AmpImage - 81)) | (1 << (sequenceParser.AmpVideo - 81)) | (1 << (sequenceParser.AmpArticle - 81)) | (1 << (sequenceParser.AmpDocument - 81)) | (1 << (sequenceParser.AmpApp - 81)) | (1 << (sequenceParser.AmpWebsite - 81)) | (1 << (sequenceParser.AmpAudioLink - 81)) | (1 << (sequenceParser.AmpImageLink - 81)) | (1 << (sequenceParser.AmpArticleLink - 81)) | (1 << (sequenceParser.AmpDocumentLink - 81)))) !== 0) || ((((_la - 130)) & ~0x1F) === 0 && ((1 << (_la - 130)) & ((1 << (sequenceParser.BitmarkMinus - 130)) | (1 << (sequenceParser.BitmarkPlus - 130)) | (1 << (sequenceParser.URL - 130)) | (1 << (sequenceParser.LIST_LINE - 130)))) !== 0)) {
+                        if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less) | (1 << sequenceParser.RightAngle) | (1 << sequenceParser.RightArrow))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NOTBITMARK - 32)) | (1 << (sequenceParser.SENTENCE - 32)) | (1 << (sequenceParser.BARSTRING - 32)))) !== 0) || ((((_la - 81)) & ~0x1F) === 0 && ((1 << (_la - 81)) & ((1 << (sequenceParser.AmpAudio - 81)) | (1 << (sequenceParser.AmpImage - 81)) | (1 << (sequenceParser.AmpVideo - 81)) | (1 << (sequenceParser.AmpArticle - 81)) | (1 << (sequenceParser.AmpDocument - 81)) | (1 << (sequenceParser.AmpApp - 81)) | (1 << (sequenceParser.AmpWebsite - 81)) | (1 << (sequenceParser.AmpAudioLink - 81)) | (1 << (sequenceParser.AmpImageLink - 81)) | (1 << (sequenceParser.AmpArticleLink - 81)) | (1 << (sequenceParser.AmpDocumentLink - 81)))) !== 0) || ((((_la - 132)) & ~0x1F) === 0 && ((1 << (_la - 132)) & ((1 << (sequenceParser.BitmarkMinus - 132)) | (1 << (sequenceParser.BitmarkPlus - 132)) | (1 << (sequenceParser.URL - 132)) | (1 << (sequenceParser.LIST_LINE - 132)))) !== 0)) {
                             {
                                 this.state = 843;
                                 this.s_and_w();
@@ -4124,7 +4127,7 @@ class sequenceParser extends Parser_1.Parser {
                         this.state = 883;
                         this._errHandler.sync(this);
                         _la = this._input.LA(1);
-                        while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less) | (1 << sequenceParser.RightAngle) | (1 << sequenceParser.RightArrow))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NOTBITMARK - 32)) | (1 << (sequenceParser.SENTENCE - 32)) | (1 << (sequenceParser.BARSTRING - 32)))) !== 0) || ((((_la - 81)) & ~0x1F) === 0 && ((1 << (_la - 81)) & ((1 << (sequenceParser.AmpAudio - 81)) | (1 << (sequenceParser.AmpImage - 81)) | (1 << (sequenceParser.AmpVideo - 81)) | (1 << (sequenceParser.AmpArticle - 81)) | (1 << (sequenceParser.AmpDocument - 81)) | (1 << (sequenceParser.AmpApp - 81)) | (1 << (sequenceParser.AmpWebsite - 81)) | (1 << (sequenceParser.AmpAudioLink - 81)) | (1 << (sequenceParser.AmpImageLink - 81)) | (1 << (sequenceParser.AmpArticleLink - 81)) | (1 << (sequenceParser.AmpDocumentLink - 81)))) !== 0) || ((((_la - 130)) & ~0x1F) === 0 && ((1 << (_la - 130)) & ((1 << (sequenceParser.BitmarkMinus - 130)) | (1 << (sequenceParser.BitmarkPlus - 130)) | (1 << (sequenceParser.URL - 130)) | (1 << (sequenceParser.LIST_LINE - 130)))) !== 0)) {
+                        while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less) | (1 << sequenceParser.RightAngle) | (1 << sequenceParser.RightArrow))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NOTBITMARK - 32)) | (1 << (sequenceParser.SENTENCE - 32)) | (1 << (sequenceParser.BARSTRING - 32)))) !== 0) || ((((_la - 81)) & ~0x1F) === 0 && ((1 << (_la - 81)) & ((1 << (sequenceParser.AmpAudio - 81)) | (1 << (sequenceParser.AmpImage - 81)) | (1 << (sequenceParser.AmpVideo - 81)) | (1 << (sequenceParser.AmpArticle - 81)) | (1 << (sequenceParser.AmpDocument - 81)) | (1 << (sequenceParser.AmpApp - 81)) | (1 << (sequenceParser.AmpWebsite - 81)) | (1 << (sequenceParser.AmpAudioLink - 81)) | (1 << (sequenceParser.AmpImageLink - 81)) | (1 << (sequenceParser.AmpArticleLink - 81)) | (1 << (sequenceParser.AmpDocumentLink - 81)))) !== 0) || ((((_la - 132)) & ~0x1F) === 0 && ((1 << (_la - 132)) & ((1 << (sequenceParser.BitmarkMinus - 132)) | (1 << (sequenceParser.BitmarkPlus - 132)) | (1 << (sequenceParser.URL - 132)) | (1 << (sequenceParser.LIST_LINE - 132)))) !== 0)) {
                             {
                                 {
                                     this.state = 862;
@@ -4193,7 +4196,7 @@ class sequenceParser extends Parser_1.Parser {
                         this.state = 893;
                         this._errHandler.sync(this);
                         _la = this._input.LA(1);
-                        while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less) | (1 << sequenceParser.RightAngle) | (1 << sequenceParser.RightArrow))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NL - 32)) | (1 << (sequenceParser.NOTBITMARK - 32)) | (1 << (sequenceParser.SENTENCE - 32)) | (1 << (sequenceParser.BARSTRING - 32)))) !== 0) || ((((_la - 81)) & ~0x1F) === 0 && ((1 << (_la - 81)) & ((1 << (sequenceParser.AmpAudio - 81)) | (1 << (sequenceParser.AmpImage - 81)) | (1 << (sequenceParser.AmpVideo - 81)) | (1 << (sequenceParser.AmpArticle - 81)) | (1 << (sequenceParser.AmpDocument - 81)) | (1 << (sequenceParser.AmpApp - 81)) | (1 << (sequenceParser.AmpWebsite - 81)) | (1 << (sequenceParser.AmpAudioLink - 81)) | (1 << (sequenceParser.AmpImageLink - 81)) | (1 << (sequenceParser.AmpArticleLink - 81)) | (1 << (sequenceParser.AmpDocumentLink - 81)))) !== 0) || ((((_la - 130)) & ~0x1F) === 0 && ((1 << (_la - 130)) & ((1 << (sequenceParser.BitmarkMinus - 130)) | (1 << (sequenceParser.BitmarkPlus - 130)) | (1 << (sequenceParser.URL - 130)) | (1 << (sequenceParser.LIST_LINE - 130)))) !== 0)) {
+                        while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less) | (1 << sequenceParser.RightAngle) | (1 << sequenceParser.RightArrow))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NL - 32)) | (1 << (sequenceParser.NOTBITMARK - 32)) | (1 << (sequenceParser.SENTENCE - 32)) | (1 << (sequenceParser.BARSTRING - 32)))) !== 0) || ((((_la - 81)) & ~0x1F) === 0 && ((1 << (_la - 81)) & ((1 << (sequenceParser.AmpAudio - 81)) | (1 << (sequenceParser.AmpImage - 81)) | (1 << (sequenceParser.AmpVideo - 81)) | (1 << (sequenceParser.AmpArticle - 81)) | (1 << (sequenceParser.AmpDocument - 81)) | (1 << (sequenceParser.AmpApp - 81)) | (1 << (sequenceParser.AmpWebsite - 81)) | (1 << (sequenceParser.AmpAudioLink - 81)) | (1 << (sequenceParser.AmpImageLink - 81)) | (1 << (sequenceParser.AmpArticleLink - 81)) | (1 << (sequenceParser.AmpDocumentLink - 81)))) !== 0) || ((((_la - 132)) & ~0x1F) === 0 && ((1 << (_la - 132)) & ((1 << (sequenceParser.BitmarkMinus - 132)) | (1 << (sequenceParser.BitmarkPlus - 132)) | (1 << (sequenceParser.URL - 132)) | (1 << (sequenceParser.LIST_LINE - 132)))) !== 0)) {
                             {
                                 this.state = 891;
                                 this._errHandler.sync(this);
@@ -4294,7 +4297,7 @@ class sequenceParser extends Parser_1.Parser {
                             this.state = 906;
                             this._errHandler.sync(this);
                             _la = this._input.LA(1);
-                        } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less) | (1 << sequenceParser.RightAngle) | (1 << sequenceParser.RightArrow))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NL - 32)) | (1 << (sequenceParser.NOTBITMARK - 32)) | (1 << (sequenceParser.SENTENCE - 32)) | (1 << (sequenceParser.BARSTRING - 32)))) !== 0) || ((((_la - 81)) & ~0x1F) === 0 && ((1 << (_la - 81)) & ((1 << (sequenceParser.AmpAudio - 81)) | (1 << (sequenceParser.AmpImage - 81)) | (1 << (sequenceParser.AmpVideo - 81)) | (1 << (sequenceParser.AmpArticle - 81)) | (1 << (sequenceParser.AmpDocument - 81)) | (1 << (sequenceParser.AmpApp - 81)) | (1 << (sequenceParser.AmpWebsite - 81)) | (1 << (sequenceParser.AmpAudioLink - 81)) | (1 << (sequenceParser.AmpImageLink - 81)) | (1 << (sequenceParser.AmpArticleLink - 81)) | (1 << (sequenceParser.AmpDocumentLink - 81)))) !== 0) || ((((_la - 130)) & ~0x1F) === 0 && ((1 << (_la - 130)) & ((1 << (sequenceParser.BitmarkMinus - 130)) | (1 << (sequenceParser.BitmarkPlus - 130)) | (1 << (sequenceParser.URL - 130)) | (1 << (sequenceParser.LIST_LINE - 130)))) !== 0));
+                        } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less) | (1 << sequenceParser.RightAngle) | (1 << sequenceParser.RightArrow))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NL - 32)) | (1 << (sequenceParser.NOTBITMARK - 32)) | (1 << (sequenceParser.SENTENCE - 32)) | (1 << (sequenceParser.BARSTRING - 32)))) !== 0) || ((((_la - 81)) & ~0x1F) === 0 && ((1 << (_la - 81)) & ((1 << (sequenceParser.AmpAudio - 81)) | (1 << (sequenceParser.AmpImage - 81)) | (1 << (sequenceParser.AmpVideo - 81)) | (1 << (sequenceParser.AmpArticle - 81)) | (1 << (sequenceParser.AmpDocument - 81)) | (1 << (sequenceParser.AmpApp - 81)) | (1 << (sequenceParser.AmpWebsite - 81)) | (1 << (sequenceParser.AmpAudioLink - 81)) | (1 << (sequenceParser.AmpImageLink - 81)) | (1 << (sequenceParser.AmpArticleLink - 81)) | (1 << (sequenceParser.AmpDocumentLink - 81)))) !== 0) || ((((_la - 132)) & ~0x1F) === 0 && ((1 << (_la - 132)) & ((1 << (sequenceParser.BitmarkMinus - 132)) | (1 << (sequenceParser.BitmarkPlus - 132)) | (1 << (sequenceParser.URL - 132)) | (1 << (sequenceParser.LIST_LINE - 132)))) !== 0));
                         this.state = 908;
                         this.match(sequenceParser.CL);
                     }
@@ -4307,7 +4310,7 @@ class sequenceParser extends Parser_1.Parser {
                         this.state = 917;
                         this._errHandler.sync(this);
                         _la = this._input.LA(1);
-                        while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less) | (1 << sequenceParser.RightAngle) | (1 << sequenceParser.RightArrow))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NL - 32)) | (1 << (sequenceParser.NOTBITMARK - 32)) | (1 << (sequenceParser.SENTENCE - 32)) | (1 << (sequenceParser.BARSTRING - 32)))) !== 0) || ((((_la - 81)) & ~0x1F) === 0 && ((1 << (_la - 81)) & ((1 << (sequenceParser.AmpAudio - 81)) | (1 << (sequenceParser.AmpImage - 81)) | (1 << (sequenceParser.AmpVideo - 81)) | (1 << (sequenceParser.AmpArticle - 81)) | (1 << (sequenceParser.AmpDocument - 81)) | (1 << (sequenceParser.AmpApp - 81)) | (1 << (sequenceParser.AmpWebsite - 81)) | (1 << (sequenceParser.AmpAudioLink - 81)) | (1 << (sequenceParser.AmpImageLink - 81)) | (1 << (sequenceParser.AmpArticleLink - 81)) | (1 << (sequenceParser.AmpDocumentLink - 81)))) !== 0) || ((((_la - 130)) & ~0x1F) === 0 && ((1 << (_la - 130)) & ((1 << (sequenceParser.BitmarkMinus - 130)) | (1 << (sequenceParser.BitmarkPlus - 130)) | (1 << (sequenceParser.URL - 130)) | (1 << (sequenceParser.LIST_LINE - 130)))) !== 0)) {
+                        while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less) | (1 << sequenceParser.RightAngle) | (1 << sequenceParser.RightArrow))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NL - 32)) | (1 << (sequenceParser.NOTBITMARK - 32)) | (1 << (sequenceParser.SENTENCE - 32)) | (1 << (sequenceParser.BARSTRING - 32)))) !== 0) || ((((_la - 81)) & ~0x1F) === 0 && ((1 << (_la - 81)) & ((1 << (sequenceParser.AmpAudio - 81)) | (1 << (sequenceParser.AmpImage - 81)) | (1 << (sequenceParser.AmpVideo - 81)) | (1 << (sequenceParser.AmpArticle - 81)) | (1 << (sequenceParser.AmpDocument - 81)) | (1 << (sequenceParser.AmpApp - 81)) | (1 << (sequenceParser.AmpWebsite - 81)) | (1 << (sequenceParser.AmpAudioLink - 81)) | (1 << (sequenceParser.AmpImageLink - 81)) | (1 << (sequenceParser.AmpArticleLink - 81)) | (1 << (sequenceParser.AmpDocumentLink - 81)))) !== 0) || ((((_la - 132)) & ~0x1F) === 0 && ((1 << (_la - 132)) & ((1 << (sequenceParser.BitmarkMinus - 132)) | (1 << (sequenceParser.BitmarkPlus - 132)) | (1 << (sequenceParser.URL - 132)) | (1 << (sequenceParser.LIST_LINE - 132)))) !== 0)) {
                             {
                                 this.state = 915;
                                 this._errHandler.sync(this);
@@ -4440,7 +4443,7 @@ class sequenceParser extends Parser_1.Parser {
                     this.state = 933;
                     this._errHandler.sync(this);
                     _la = this._input.LA(1);
-                } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less) | (1 << sequenceParser.RightAngle) | (1 << sequenceParser.RightArrow))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NL - 32)) | (1 << (sequenceParser.NOTBITMARK - 32)) | (1 << (sequenceParser.SENTENCE - 32)) | (1 << (sequenceParser.BARSTRING - 32)))) !== 0) || ((((_la - 81)) & ~0x1F) === 0 && ((1 << (_la - 81)) & ((1 << (sequenceParser.AmpAudio - 81)) | (1 << (sequenceParser.AmpImage - 81)) | (1 << (sequenceParser.AmpVideo - 81)) | (1 << (sequenceParser.AmpArticle - 81)) | (1 << (sequenceParser.AmpDocument - 81)) | (1 << (sequenceParser.AmpApp - 81)) | (1 << (sequenceParser.AmpWebsite - 81)) | (1 << (sequenceParser.AmpAudioLink - 81)) | (1 << (sequenceParser.AmpImageLink - 81)) | (1 << (sequenceParser.AmpArticleLink - 81)) | (1 << (sequenceParser.AmpDocumentLink - 81)))) !== 0) || ((((_la - 130)) & ~0x1F) === 0 && ((1 << (_la - 130)) & ((1 << (sequenceParser.BitmarkMinus - 130)) | (1 << (sequenceParser.BitmarkPlus - 130)) | (1 << (sequenceParser.URL - 130)) | (1 << (sequenceParser.LIST_LINE - 130)))) !== 0));
+                } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less) | (1 << sequenceParser.RightAngle) | (1 << sequenceParser.RightArrow))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NL - 32)) | (1 << (sequenceParser.NOTBITMARK - 32)) | (1 << (sequenceParser.SENTENCE - 32)) | (1 << (sequenceParser.BARSTRING - 32)))) !== 0) || ((((_la - 81)) & ~0x1F) === 0 && ((1 << (_la - 81)) & ((1 << (sequenceParser.AmpAudio - 81)) | (1 << (sequenceParser.AmpImage - 81)) | (1 << (sequenceParser.AmpVideo - 81)) | (1 << (sequenceParser.AmpArticle - 81)) | (1 << (sequenceParser.AmpDocument - 81)) | (1 << (sequenceParser.AmpApp - 81)) | (1 << (sequenceParser.AmpWebsite - 81)) | (1 << (sequenceParser.AmpAudioLink - 81)) | (1 << (sequenceParser.AmpImageLink - 81)) | (1 << (sequenceParser.AmpArticleLink - 81)) | (1 << (sequenceParser.AmpDocumentLink - 81)))) !== 0) || ((((_la - 132)) & ~0x1F) === 0 && ((1 << (_la - 132)) & ((1 << (sequenceParser.BitmarkMinus - 132)) | (1 << (sequenceParser.BitmarkPlus - 132)) | (1 << (sequenceParser.URL - 132)) | (1 << (sequenceParser.LIST_LINE - 132)))) !== 0));
                 this.state = 935;
                 this.match(sequenceParser.CL);
                 this.state = 937;
@@ -4510,7 +4513,7 @@ class sequenceParser extends Parser_1.Parser {
                     this.state = 945;
                     this._errHandler.sync(this);
                     _la = this._input.LA(1);
-                } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less) | (1 << sequenceParser.RightAngle) | (1 << sequenceParser.RightArrow))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NL - 32)) | (1 << (sequenceParser.NOTBITMARK - 32)) | (1 << (sequenceParser.SENTENCE - 32)) | (1 << (sequenceParser.BARSTRING - 32)))) !== 0) || ((((_la - 81)) & ~0x1F) === 0 && ((1 << (_la - 81)) & ((1 << (sequenceParser.AmpAudio - 81)) | (1 << (sequenceParser.AmpImage - 81)) | (1 << (sequenceParser.AmpVideo - 81)) | (1 << (sequenceParser.AmpArticle - 81)) | (1 << (sequenceParser.AmpDocument - 81)) | (1 << (sequenceParser.AmpApp - 81)) | (1 << (sequenceParser.AmpWebsite - 81)) | (1 << (sequenceParser.AmpAudioLink - 81)) | (1 << (sequenceParser.AmpImageLink - 81)) | (1 << (sequenceParser.AmpArticleLink - 81)) | (1 << (sequenceParser.AmpDocumentLink - 81)))) !== 0) || ((((_la - 130)) & ~0x1F) === 0 && ((1 << (_la - 130)) & ((1 << (sequenceParser.BitmarkMinus - 130)) | (1 << (sequenceParser.BitmarkPlus - 130)) | (1 << (sequenceParser.URL - 130)) | (1 << (sequenceParser.LIST_LINE - 130)))) !== 0));
+                } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less) | (1 << sequenceParser.RightAngle) | (1 << sequenceParser.RightArrow))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NL - 32)) | (1 << (sequenceParser.NOTBITMARK - 32)) | (1 << (sequenceParser.SENTENCE - 32)) | (1 << (sequenceParser.BARSTRING - 32)))) !== 0) || ((((_la - 81)) & ~0x1F) === 0 && ((1 << (_la - 81)) & ((1 << (sequenceParser.AmpAudio - 81)) | (1 << (sequenceParser.AmpImage - 81)) | (1 << (sequenceParser.AmpVideo - 81)) | (1 << (sequenceParser.AmpArticle - 81)) | (1 << (sequenceParser.AmpDocument - 81)) | (1 << (sequenceParser.AmpApp - 81)) | (1 << (sequenceParser.AmpWebsite - 81)) | (1 << (sequenceParser.AmpAudioLink - 81)) | (1 << (sequenceParser.AmpImageLink - 81)) | (1 << (sequenceParser.AmpArticleLink - 81)) | (1 << (sequenceParser.AmpDocumentLink - 81)))) !== 0) || ((((_la - 132)) & ~0x1F) === 0 && ((1 << (_la - 132)) & ((1 << (sequenceParser.BitmarkMinus - 132)) | (1 << (sequenceParser.BitmarkPlus - 132)) | (1 << (sequenceParser.URL - 132)) | (1 << (sequenceParser.LIST_LINE - 132)))) !== 0));
                 this.state = 947;
                 this.match(sequenceParser.CL);
             }
@@ -4572,7 +4575,7 @@ class sequenceParser extends Parser_1.Parser {
                         this.state = 980;
                         this._errHandler.sync(this);
                         _la = this._input.LA(1);
-                        while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less) | (1 << sequenceParser.RightAngle) | (1 << sequenceParser.RightArrow))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NOTBITMARK - 32)) | (1 << (sequenceParser.SENTENCE - 32)) | (1 << (sequenceParser.BARSTRING - 32)))) !== 0) || ((((_la - 81)) & ~0x1F) === 0 && ((1 << (_la - 81)) & ((1 << (sequenceParser.AmpAudio - 81)) | (1 << (sequenceParser.AmpImage - 81)) | (1 << (sequenceParser.AmpVideo - 81)) | (1 << (sequenceParser.AmpArticle - 81)) | (1 << (sequenceParser.AmpDocument - 81)) | (1 << (sequenceParser.AmpApp - 81)) | (1 << (sequenceParser.AmpWebsite - 81)) | (1 << (sequenceParser.AmpAudioLink - 81)) | (1 << (sequenceParser.AmpImageLink - 81)) | (1 << (sequenceParser.AmpArticleLink - 81)) | (1 << (sequenceParser.AmpDocumentLink - 81)))) !== 0) || ((((_la - 130)) & ~0x1F) === 0 && ((1 << (_la - 130)) & ((1 << (sequenceParser.BitmarkMinus - 130)) | (1 << (sequenceParser.BitmarkPlus - 130)) | (1 << (sequenceParser.URL - 130)) | (1 << (sequenceParser.LIST_LINE - 130)))) !== 0)) {
+                        while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less) | (1 << sequenceParser.RightAngle) | (1 << sequenceParser.RightArrow))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NOTBITMARK - 32)) | (1 << (sequenceParser.SENTENCE - 32)) | (1 << (sequenceParser.BARSTRING - 32)))) !== 0) || ((((_la - 81)) & ~0x1F) === 0 && ((1 << (_la - 81)) & ((1 << (sequenceParser.AmpAudio - 81)) | (1 << (sequenceParser.AmpImage - 81)) | (1 << (sequenceParser.AmpVideo - 81)) | (1 << (sequenceParser.AmpArticle - 81)) | (1 << (sequenceParser.AmpDocument - 81)) | (1 << (sequenceParser.AmpApp - 81)) | (1 << (sequenceParser.AmpWebsite - 81)) | (1 << (sequenceParser.AmpAudioLink - 81)) | (1 << (sequenceParser.AmpImageLink - 81)) | (1 << (sequenceParser.AmpArticleLink - 81)) | (1 << (sequenceParser.AmpDocumentLink - 81)))) !== 0) || ((((_la - 132)) & ~0x1F) === 0 && ((1 << (_la - 132)) & ((1 << (sequenceParser.BitmarkMinus - 132)) | (1 << (sequenceParser.BitmarkPlus - 132)) | (1 << (sequenceParser.URL - 132)) | (1 << (sequenceParser.LIST_LINE - 132)))) !== 0)) {
                             {
                                 {
                                     this.state = 959;
@@ -4655,7 +4658,7 @@ class sequenceParser extends Parser_1.Parser {
                         this.state = 992;
                         this._errHandler.sync(this);
                         _la = this._input.LA(1);
-                        if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less) | (1 << sequenceParser.RightAngle) | (1 << sequenceParser.RightArrow))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NOTBITMARK - 32)) | (1 << (sequenceParser.SENTENCE - 32)) | (1 << (sequenceParser.BARSTRING - 32)))) !== 0) || ((((_la - 81)) & ~0x1F) === 0 && ((1 << (_la - 81)) & ((1 << (sequenceParser.AmpAudio - 81)) | (1 << (sequenceParser.AmpImage - 81)) | (1 << (sequenceParser.AmpVideo - 81)) | (1 << (sequenceParser.AmpArticle - 81)) | (1 << (sequenceParser.AmpDocument - 81)) | (1 << (sequenceParser.AmpApp - 81)) | (1 << (sequenceParser.AmpWebsite - 81)) | (1 << (sequenceParser.AmpAudioLink - 81)) | (1 << (sequenceParser.AmpImageLink - 81)) | (1 << (sequenceParser.AmpArticleLink - 81)) | (1 << (sequenceParser.AmpDocumentLink - 81)))) !== 0) || ((((_la - 130)) & ~0x1F) === 0 && ((1 << (_la - 130)) & ((1 << (sequenceParser.BitmarkMinus - 130)) | (1 << (sequenceParser.BitmarkPlus - 130)) | (1 << (sequenceParser.URL - 130)) | (1 << (sequenceParser.LIST_LINE - 130)))) !== 0)) {
+                        if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less) | (1 << sequenceParser.RightAngle) | (1 << sequenceParser.RightArrow))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NOTBITMARK - 32)) | (1 << (sequenceParser.SENTENCE - 32)) | (1 << (sequenceParser.BARSTRING - 32)))) !== 0) || ((((_la - 81)) & ~0x1F) === 0 && ((1 << (_la - 81)) & ((1 << (sequenceParser.AmpAudio - 81)) | (1 << (sequenceParser.AmpImage - 81)) | (1 << (sequenceParser.AmpVideo - 81)) | (1 << (sequenceParser.AmpArticle - 81)) | (1 << (sequenceParser.AmpDocument - 81)) | (1 << (sequenceParser.AmpApp - 81)) | (1 << (sequenceParser.AmpWebsite - 81)) | (1 << (sequenceParser.AmpAudioLink - 81)) | (1 << (sequenceParser.AmpImageLink - 81)) | (1 << (sequenceParser.AmpArticleLink - 81)) | (1 << (sequenceParser.AmpDocumentLink - 81)))) !== 0) || ((((_la - 132)) & ~0x1F) === 0 && ((1 << (_la - 132)) & ((1 << (sequenceParser.BitmarkMinus - 132)) | (1 << (sequenceParser.BitmarkPlus - 132)) | (1 << (sequenceParser.URL - 132)) | (1 << (sequenceParser.LIST_LINE - 132)))) !== 0)) {
                             {
                                 this.state = 991;
                                 this.s_and_w();
@@ -4715,7 +4718,7 @@ class sequenceParser extends Parser_1.Parser {
                     this.state = 1001;
                     this._errHandler.sync(this);
                     _la = this._input.LA(1);
-                } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.OPDOT) | (1 << sequenceParser.S) | (1 << sequenceParser.BitSequence) | (1 << sequenceParser.BitMenu3Course) | (1 << sequenceParser.OPDOLL) | (1 << sequenceParser.OPBUL) | (1 << sequenceParser.OPESC) | (1 << sequenceParser.OPRANGLES) | (1 << sequenceParser.OPRANGLEL) | (1 << sequenceParser.OPDANGLE) | (1 << sequenceParser.OPU) | (1 << sequenceParser.OPB) | (1 << sequenceParser.OPQ) | (1 << sequenceParser.OPA) | (1 << sequenceParser.OPP) | (1 << sequenceParser.OPM) | (1 << sequenceParser.OPS) | (1 << sequenceParser.OPR) | (1 << sequenceParser.OPC) | (1 << sequenceParser.OPHASH) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.DBLCOLON) | (1 << sequenceParser.PLUS) | (1 << sequenceParser.DotAt) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less) | (1 << sequenceParser.RightAngle) | (1 << sequenceParser.RightArrow) | (1 << sequenceParser.Dot))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.DMM - 32)) | (1 << (sequenceParser.HSPL - 32)) | (1 << (sequenceParser.SSPL - 32)) | (1 << (sequenceParser.SSPL2 - 32)) | (1 << (sequenceParser.COMMENT - 32)) | (1 << (sequenceParser.DCANY - 32)) | (1 << (sequenceParser.Image_type - 32)) | (1 << (sequenceParser.Audio_type - 32)) | (1 << (sequenceParser.Video_type - 32)) | (1 << (sequenceParser.ArticleText - 32)) | (1 << (sequenceParser.NOTCL - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NL - 32)) | (1 << (sequenceParser.NOTBITMARK - 32)) | (1 << (sequenceParser.SENTENCE - 32)) | (1 << (sequenceParser.BARSTRING - 32)) | (1 << (sequenceParser.OPAT - 32)) | (1 << (sequenceParser.AtProgress - 32)) | (1 << (sequenceParser.AtReference - 32)) | (1 << (sequenceParser.AtWidth - 32)) | (1 << (sequenceParser.AtHeight - 32)) | (1 << (sequenceParser.AtProgressPoints - 32)) | (1 << (sequenceParser.AtShortanswer - 32)) | (1 << (sequenceParser.AtLonganswer - 32)) | (1 << (sequenceParser.AtExampleWithStr - 32)) | (1 << (sequenceParser.AtExamplecol - 32)) | (1 << (sequenceParser.AtExamplecl - 32)) | (1 << (sequenceParser.AtSampleSolution - 32)) | (1 << (sequenceParser.AtPartialAnswerS - 32)) | (1 << (sequenceParser.AtPartialAnswer - 32)))) !== 0) || ((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (sequenceParser.AtLabeltrue - 64)) | (1 << (sequenceParser.AtLabelfalse - 64)) | (1 << (sequenceParser.AtPoints - 64)) | (1 << (sequenceParser.AtSrc - 64)) | (1 << (sequenceParser.AtPartner - 64)) | (1 << (sequenceParser.OPATALT - 64)) | (1 << (sequenceParser.OPAMARK - 64)) | (1 << (sequenceParser.ShowInIndex - 64)) | (1 << (sequenceParser.OpAtCaption - 64)) | (1 << (sequenceParser.OpAtLicense - 64)) | (1 << (sequenceParser.OpAtCopyright - 64)) | (1 << (sequenceParser.OpAtSearch - 64)) | (1 << (sequenceParser.OpAtIsTracked - 64)) | (1 << (sequenceParser.OpAtIsInfoOnly - 64)) | (1 << (sequenceParser.AtDate - 64)) | (1 << (sequenceParser.Http - 64)) | (1 << (sequenceParser.Https - 64)) | (1 << (sequenceParser.AmpAudio - 64)) | (1 << (sequenceParser.AmpImage - 64)) | (1 << (sequenceParser.AmpImageZoom - 64)) | (1 << (sequenceParser.AmpImageWAudio - 64)) | (1 << (sequenceParser.AmpVideo - 64)) | (1 << (sequenceParser.AmpArticle - 64)) | (1 << (sequenceParser.AmpDocument - 64)) | (1 << (sequenceParser.AmpApp - 64)) | (1 << (sequenceParser.AmpWebsite - 64)) | (1 << (sequenceParser.AmpStillImageFilm - 64)) | (1 << (sequenceParser.AmpPdf - 64)) | (1 << (sequenceParser.OpAmpAudio - 64)) | (1 << (sequenceParser.OpAmpImage - 64)) | (1 << (sequenceParser.OpAmpImageZoom - 64)) | (1 << (sequenceParser.OpAmpImageWAudio - 64)))) !== 0) || ((((_la - 96)) & ~0x1F) === 0 && ((1 << (_la - 96)) & ((1 << (sequenceParser.OpAmpVideo - 96)) | (1 << (sequenceParser.OpAmpArticle - 96)) | (1 << (sequenceParser.OpAmpArticleAtt - 96)) | (1 << (sequenceParser.OpAmpDocument - 96)) | (1 << (sequenceParser.OpAmpApp - 96)) | (1 << (sequenceParser.OpAmpWebsite - 96)) | (1 << (sequenceParser.OpAmpStillImageFilm - 96)) | (1 << (sequenceParser.BracEnclose - 96)) | (1 << (sequenceParser.AmpAudioLink - 96)) | (1 << (sequenceParser.AmpImageLink - 96)) | (1 << (sequenceParser.AmpVideoLink - 96)) | (1 << (sequenceParser.AmpArticleLink - 96)) | (1 << (sequenceParser.AmpDocumentLink - 96)) | (1 << (sequenceParser.AmpAppLink - 96)) | (1 << (sequenceParser.AmpWebsiteLink - 96)) | (1 << (sequenceParser.AmpStillImageFilmLink - 96)) | (1 << (sequenceParser.OpAmpAudioLink - 96)) | (1 << (sequenceParser.OpAmpImageLink - 96)) | (1 << (sequenceParser.OpAmpVideoLink - 96)) | (1 << (sequenceParser.OpAmpArticleLink - 96)) | (1 << (sequenceParser.OpAmpDocumentLink - 96)) | (1 << (sequenceParser.OpAmpAppLink - 96)) | (1 << (sequenceParser.OpAmpWebsiteLink - 96)) | (1 << (sequenceParser.OpAmpStillImageFilmLink - 96)) | (1 << (sequenceParser.AmpImageEmbed - 96)) | (1 << (sequenceParser.AmpVideoEmbed - 96)) | (1 << (sequenceParser.AmpAudioEmbed - 96)) | (1 << (sequenceParser.AmpDocumentEmbed - 96)) | (1 << (sequenceParser.AmpStillImageFilmEmbed - 96)) | (1 << (sequenceParser.OpAmpImageEmbed - 96)) | (1 << (sequenceParser.OpAmpVideoEmbed - 96)) | (1 << (sequenceParser.OpAmpAudioEmbed - 96)))) !== 0) || ((((_la - 128)) & ~0x1F) === 0 && ((1 << (_la - 128)) & ((1 << (sequenceParser.OpAmpDocumentEmbed - 128)) | (1 << (sequenceParser.OpAmpStillImageFilmEmbed - 128)) | (1 << (sequenceParser.BitmarkMinus - 128)) | (1 << (sequenceParser.BitmarkPlus - 128)) | (1 << (sequenceParser.ColonText - 128)) | (1 << (sequenceParser.ColonJson - 128)) | (1 << (sequenceParser.Prosemirror - 128)) | (1 << (sequenceParser.Placeholder - 128)) | (1 << (sequenceParser.BASIC - 128)) | (1 << (sequenceParser.JPG - 128)) | (1 << (sequenceParser.PNG - 128)) | (1 << (sequenceParser.GIF - 128)) | (1 << (sequenceParser.SVG - 128)) | (1 << (sequenceParser.MP2 - 128)) | (1 << (sequenceParser.MP3 - 128)) | (1 << (sequenceParser.MP4 - 128)) | (1 << (sequenceParser.FLV - 128)) | (1 << (sequenceParser.WMV - 128)) | (1 << (sequenceParser.MPEG - 128)) | (1 << (sequenceParser.MPG - 128)) | (1 << (sequenceParser.TEL - 128)) | (1 << (sequenceParser.DotArticleAtt - 128)) | (1 << (sequenceParser.STAR - 128)) | (1 << (sequenceParser.URL - 128)) | (1 << (sequenceParser.LIST_LINE - 128)) | (1 << (sequenceParser.ENCLBARS - 128)))) !== 0));
+                } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.OPDOT) | (1 << sequenceParser.S) | (1 << sequenceParser.BitSequence) | (1 << sequenceParser.BitMenu3Course) | (1 << sequenceParser.OPDOLL) | (1 << sequenceParser.OPBUL) | (1 << sequenceParser.OPESC) | (1 << sequenceParser.OPRANGLES) | (1 << sequenceParser.OPRANGLEL) | (1 << sequenceParser.OPDANGLE) | (1 << sequenceParser.OPU) | (1 << sequenceParser.OPB) | (1 << sequenceParser.OPQ) | (1 << sequenceParser.OPA) | (1 << sequenceParser.OPP) | (1 << sequenceParser.OPM) | (1 << sequenceParser.OPS) | (1 << sequenceParser.OPR) | (1 << sequenceParser.OPC) | (1 << sequenceParser.OPHASH) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.DBLCOLON) | (1 << sequenceParser.PLUS) | (1 << sequenceParser.DotAt) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less) | (1 << sequenceParser.RightAngle) | (1 << sequenceParser.RightArrow) | (1 << sequenceParser.Dot))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.DMM - 32)) | (1 << (sequenceParser.HSPL - 32)) | (1 << (sequenceParser.SSPL - 32)) | (1 << (sequenceParser.SSPL2 - 32)) | (1 << (sequenceParser.COMMENT - 32)) | (1 << (sequenceParser.DCANY - 32)) | (1 << (sequenceParser.Image_type - 32)) | (1 << (sequenceParser.Audio_type - 32)) | (1 << (sequenceParser.Video_type - 32)) | (1 << (sequenceParser.ArticleText - 32)) | (1 << (sequenceParser.NOTCL - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NL - 32)) | (1 << (sequenceParser.NOTBITMARK - 32)) | (1 << (sequenceParser.SENTENCE - 32)) | (1 << (sequenceParser.BARSTRING - 32)) | (1 << (sequenceParser.OPAT - 32)) | (1 << (sequenceParser.AtProgress - 32)) | (1 << (sequenceParser.AtReference - 32)) | (1 << (sequenceParser.AtWidth - 32)) | (1 << (sequenceParser.AtHeight - 32)) | (1 << (sequenceParser.AtProgressPoints - 32)) | (1 << (sequenceParser.AtShortanswer - 32)) | (1 << (sequenceParser.AtLonganswer - 32)) | (1 << (sequenceParser.AtExampleWithStr - 32)) | (1 << (sequenceParser.AtExamplecol - 32)) | (1 << (sequenceParser.AtExamplecl - 32)) | (1 << (sequenceParser.AtSampleSolution - 32)) | (1 << (sequenceParser.AtPartialAnswerS - 32)) | (1 << (sequenceParser.AtPartialAnswer - 32)))) !== 0) || ((((_la - 64)) & ~0x1F) === 0 && ((1 << (_la - 64)) & ((1 << (sequenceParser.AtLabeltrue - 64)) | (1 << (sequenceParser.AtLabelfalse - 64)) | (1 << (sequenceParser.AtPoints - 64)) | (1 << (sequenceParser.AtSrc - 64)) | (1 << (sequenceParser.AtPartner - 64)) | (1 << (sequenceParser.OPATALT - 64)) | (1 << (sequenceParser.OPAMARK - 64)) | (1 << (sequenceParser.ShowInIndex - 64)) | (1 << (sequenceParser.OpAtCaption - 64)) | (1 << (sequenceParser.OpAtLicense - 64)) | (1 << (sequenceParser.OpAtCopyright - 64)) | (1 << (sequenceParser.OpAtSearch - 64)) | (1 << (sequenceParser.OpAtIsTracked - 64)) | (1 << (sequenceParser.OpAtIsInfoOnly - 64)) | (1 << (sequenceParser.AtDate - 64)) | (1 << (sequenceParser.Http - 64)) | (1 << (sequenceParser.Https - 64)) | (1 << (sequenceParser.AmpAudio - 64)) | (1 << (sequenceParser.AmpImage - 64)) | (1 << (sequenceParser.AmpImageZoom - 64)) | (1 << (sequenceParser.AmpImageWAudio - 64)) | (1 << (sequenceParser.AmpVideo - 64)) | (1 << (sequenceParser.AmpArticle - 64)) | (1 << (sequenceParser.AmpDocument - 64)) | (1 << (sequenceParser.AmpApp - 64)) | (1 << (sequenceParser.AmpWebsite - 64)) | (1 << (sequenceParser.AmpStillImageFilm - 64)) | (1 << (sequenceParser.AmpPdf - 64)) | (1 << (sequenceParser.OpAmpAudio - 64)) | (1 << (sequenceParser.OpAmpImage - 64)) | (1 << (sequenceParser.OpAmpImageZoom - 64)) | (1 << (sequenceParser.OpAmpImageWAudio - 64)))) !== 0) || ((((_la - 96)) & ~0x1F) === 0 && ((1 << (_la - 96)) & ((1 << (sequenceParser.OpAmpVideo - 96)) | (1 << (sequenceParser.OpAmpArticle - 96)) | (1 << (sequenceParser.OpAmpArticleAtt - 96)) | (1 << (sequenceParser.OpAmpDocument - 96)) | (1 << (sequenceParser.OpAmpApp - 96)) | (1 << (sequenceParser.OpAmpWebsite - 96)) | (1 << (sequenceParser.OpAmpStillImageFilm - 96)) | (1 << (sequenceParser.BracEnclose - 96)) | (1 << (sequenceParser.AmpAudioLink - 96)) | (1 << (sequenceParser.AmpImageLink - 96)) | (1 << (sequenceParser.AmpVideoLink - 96)) | (1 << (sequenceParser.AmpArticleLink - 96)) | (1 << (sequenceParser.AmpDocumentLink - 96)) | (1 << (sequenceParser.AmpDocumentDownload - 96)) | (1 << (sequenceParser.AmpAppLink - 96)) | (1 << (sequenceParser.AmpWebsiteLink - 96)) | (1 << (sequenceParser.AmpStillImageFilmLink - 96)) | (1 << (sequenceParser.OpAmpAudioLink - 96)) | (1 << (sequenceParser.OpAmpImageLink - 96)) | (1 << (sequenceParser.OpAmpVideoLink - 96)) | (1 << (sequenceParser.OpAmpArticleLink - 96)) | (1 << (sequenceParser.OpAmpDocumentLink - 96)) | (1 << (sequenceParser.OpAmpDocumentDownload - 96)) | (1 << (sequenceParser.OpAmpAppLink - 96)) | (1 << (sequenceParser.OpAmpWebsiteLink - 96)) | (1 << (sequenceParser.OpAmpStillImageFilmLink - 96)) | (1 << (sequenceParser.AmpImageEmbed - 96)) | (1 << (sequenceParser.AmpVideoEmbed - 96)) | (1 << (sequenceParser.AmpAudioEmbed - 96)) | (1 << (sequenceParser.AmpDocumentEmbed - 96)) | (1 << (sequenceParser.AmpStillImageFilmEmbed - 96)) | (1 << (sequenceParser.OpAmpImageEmbed - 96)))) !== 0) || ((((_la - 128)) & ~0x1F) === 0 && ((1 << (_la - 128)) & ((1 << (sequenceParser.OpAmpVideoEmbed - 128)) | (1 << (sequenceParser.OpAmpAudioEmbed - 128)) | (1 << (sequenceParser.OpAmpDocumentEmbed - 128)) | (1 << (sequenceParser.OpAmpStillImageFilmEmbed - 128)) | (1 << (sequenceParser.BitmarkMinus - 128)) | (1 << (sequenceParser.BitmarkPlus - 128)) | (1 << (sequenceParser.ColonText - 128)) | (1 << (sequenceParser.ColonJson - 128)) | (1 << (sequenceParser.Prosemirror - 128)) | (1 << (sequenceParser.Placeholder - 128)) | (1 << (sequenceParser.BASIC - 128)) | (1 << (sequenceParser.JPG - 128)) | (1 << (sequenceParser.PNG - 128)) | (1 << (sequenceParser.GIF - 128)) | (1 << (sequenceParser.SVG - 128)) | (1 << (sequenceParser.MP2 - 128)) | (1 << (sequenceParser.MP3 - 128)) | (1 << (sequenceParser.MP4 - 128)) | (1 << (sequenceParser.FLV - 128)) | (1 << (sequenceParser.WMV - 128)) | (1 << (sequenceParser.MPEG - 128)) | (1 << (sequenceParser.MPG - 128)) | (1 << (sequenceParser.TEL - 128)) | (1 << (sequenceParser.DotArticleAtt - 128)) | (1 << (sequenceParser.STAR - 128)) | (1 << (sequenceParser.URL - 128)) | (1 << (sequenceParser.LIST_LINE - 128)) | (1 << (sequenceParser.ENCLBARS - 128)))) !== 0));
                 this.state = 1003;
                 this.match(sequenceParser.CL);
             }
@@ -4804,7 +4807,7 @@ class sequenceParser extends Parser_1.Parser {
                             this.state = 1010;
                             this._errHandler.sync(this);
                             _la = this._input.LA(1);
-                        } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less) | (1 << sequenceParser.RightAngle) | (1 << sequenceParser.RightArrow))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NL - 32)) | (1 << (sequenceParser.NOTBITMARK - 32)) | (1 << (sequenceParser.SENTENCE - 32)) | (1 << (sequenceParser.BARSTRING - 32)))) !== 0) || ((((_la - 81)) & ~0x1F) === 0 && ((1 << (_la - 81)) & ((1 << (sequenceParser.AmpAudio - 81)) | (1 << (sequenceParser.AmpImage - 81)) | (1 << (sequenceParser.AmpVideo - 81)) | (1 << (sequenceParser.AmpArticle - 81)) | (1 << (sequenceParser.AmpDocument - 81)) | (1 << (sequenceParser.AmpApp - 81)) | (1 << (sequenceParser.AmpWebsite - 81)) | (1 << (sequenceParser.AmpAudioLink - 81)) | (1 << (sequenceParser.AmpImageLink - 81)) | (1 << (sequenceParser.AmpArticleLink - 81)) | (1 << (sequenceParser.AmpDocumentLink - 81)))) !== 0) || ((((_la - 130)) & ~0x1F) === 0 && ((1 << (_la - 130)) & ((1 << (sequenceParser.BitmarkMinus - 130)) | (1 << (sequenceParser.BitmarkPlus - 130)) | (1 << (sequenceParser.URL - 130)) | (1 << (sequenceParser.LIST_LINE - 130)))) !== 0));
+                        } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less) | (1 << sequenceParser.RightAngle) | (1 << sequenceParser.RightArrow))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NL - 32)) | (1 << (sequenceParser.NOTBITMARK - 32)) | (1 << (sequenceParser.SENTENCE - 32)) | (1 << (sequenceParser.BARSTRING - 32)))) !== 0) || ((((_la - 81)) & ~0x1F) === 0 && ((1 << (_la - 81)) & ((1 << (sequenceParser.AmpAudio - 81)) | (1 << (sequenceParser.AmpImage - 81)) | (1 << (sequenceParser.AmpVideo - 81)) | (1 << (sequenceParser.AmpArticle - 81)) | (1 << (sequenceParser.AmpDocument - 81)) | (1 << (sequenceParser.AmpApp - 81)) | (1 << (sequenceParser.AmpWebsite - 81)) | (1 << (sequenceParser.AmpAudioLink - 81)) | (1 << (sequenceParser.AmpImageLink - 81)) | (1 << (sequenceParser.AmpArticleLink - 81)) | (1 << (sequenceParser.AmpDocumentLink - 81)))) !== 0) || ((((_la - 132)) & ~0x1F) === 0 && ((1 << (_la - 132)) & ((1 << (sequenceParser.BitmarkMinus - 132)) | (1 << (sequenceParser.BitmarkPlus - 132)) | (1 << (sequenceParser.URL - 132)) | (1 << (sequenceParser.LIST_LINE - 132)))) !== 0));
                         this.state = 1012;
                         this.match(sequenceParser.CL);
                     }
@@ -5089,7 +5092,7 @@ class sequenceParser extends Parser_1.Parser {
                         this.state = 1070;
                         this._errHandler.sync(this);
                         _la = this._input.LA(1);
-                        while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less) | (1 << sequenceParser.RightAngle) | (1 << sequenceParser.RightArrow))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NL - 32)) | (1 << (sequenceParser.NOTBITMARK - 32)) | (1 << (sequenceParser.SENTENCE - 32)) | (1 << (sequenceParser.BARSTRING - 32)))) !== 0) || ((((_la - 81)) & ~0x1F) === 0 && ((1 << (_la - 81)) & ((1 << (sequenceParser.AmpAudio - 81)) | (1 << (sequenceParser.AmpImage - 81)) | (1 << (sequenceParser.AmpVideo - 81)) | (1 << (sequenceParser.AmpArticle - 81)) | (1 << (sequenceParser.AmpDocument - 81)) | (1 << (sequenceParser.AmpApp - 81)) | (1 << (sequenceParser.AmpWebsite - 81)) | (1 << (sequenceParser.AmpAudioLink - 81)) | (1 << (sequenceParser.AmpImageLink - 81)) | (1 << (sequenceParser.AmpArticleLink - 81)) | (1 << (sequenceParser.AmpDocumentLink - 81)))) !== 0) || ((((_la - 130)) & ~0x1F) === 0 && ((1 << (_la - 130)) & ((1 << (sequenceParser.BitmarkMinus - 130)) | (1 << (sequenceParser.BitmarkPlus - 130)) | (1 << (sequenceParser.URL - 130)) | (1 << (sequenceParser.LIST_LINE - 130)))) !== 0)) {
+                        while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less) | (1 << sequenceParser.RightAngle) | (1 << sequenceParser.RightArrow))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NL - 32)) | (1 << (sequenceParser.NOTBITMARK - 32)) | (1 << (sequenceParser.SENTENCE - 32)) | (1 << (sequenceParser.BARSTRING - 32)))) !== 0) || ((((_la - 81)) & ~0x1F) === 0 && ((1 << (_la - 81)) & ((1 << (sequenceParser.AmpAudio - 81)) | (1 << (sequenceParser.AmpImage - 81)) | (1 << (sequenceParser.AmpVideo - 81)) | (1 << (sequenceParser.AmpArticle - 81)) | (1 << (sequenceParser.AmpDocument - 81)) | (1 << (sequenceParser.AmpApp - 81)) | (1 << (sequenceParser.AmpWebsite - 81)) | (1 << (sequenceParser.AmpAudioLink - 81)) | (1 << (sequenceParser.AmpImageLink - 81)) | (1 << (sequenceParser.AmpArticleLink - 81)) | (1 << (sequenceParser.AmpDocumentLink - 81)))) !== 0) || ((((_la - 132)) & ~0x1F) === 0 && ((1 << (_la - 132)) & ((1 << (sequenceParser.BitmarkMinus - 132)) | (1 << (sequenceParser.BitmarkPlus - 132)) | (1 << (sequenceParser.URL - 132)) | (1 << (sequenceParser.LIST_LINE - 132)))) !== 0)) {
                             {
                                 this.state = 1068;
                                 this._errHandler.sync(this);
@@ -5211,7 +5214,7 @@ class sequenceParser extends Parser_1.Parser {
                             this.state = 1091;
                             this._errHandler.sync(this);
                             _la = this._input.LA(1);
-                        } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less) | (1 << sequenceParser.RightAngle) | (1 << sequenceParser.RightArrow))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NL - 32)) | (1 << (sequenceParser.NOTBITMARK - 32)) | (1 << (sequenceParser.SENTENCE - 32)) | (1 << (sequenceParser.BARSTRING - 32)))) !== 0) || ((((_la - 81)) & ~0x1F) === 0 && ((1 << (_la - 81)) & ((1 << (sequenceParser.AmpAudio - 81)) | (1 << (sequenceParser.AmpImage - 81)) | (1 << (sequenceParser.AmpVideo - 81)) | (1 << (sequenceParser.AmpArticle - 81)) | (1 << (sequenceParser.AmpDocument - 81)) | (1 << (sequenceParser.AmpApp - 81)) | (1 << (sequenceParser.AmpWebsite - 81)) | (1 << (sequenceParser.AmpAudioLink - 81)) | (1 << (sequenceParser.AmpImageLink - 81)) | (1 << (sequenceParser.AmpArticleLink - 81)) | (1 << (sequenceParser.AmpDocumentLink - 81)))) !== 0) || ((((_la - 130)) & ~0x1F) === 0 && ((1 << (_la - 130)) & ((1 << (sequenceParser.BitmarkMinus - 130)) | (1 << (sequenceParser.BitmarkPlus - 130)) | (1 << (sequenceParser.URL - 130)) | (1 << (sequenceParser.LIST_LINE - 130)))) !== 0));
+                        } while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less) | (1 << sequenceParser.RightAngle) | (1 << sequenceParser.RightArrow))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NL - 32)) | (1 << (sequenceParser.NOTBITMARK - 32)) | (1 << (sequenceParser.SENTENCE - 32)) | (1 << (sequenceParser.BARSTRING - 32)))) !== 0) || ((((_la - 81)) & ~0x1F) === 0 && ((1 << (_la - 81)) & ((1 << (sequenceParser.AmpAudio - 81)) | (1 << (sequenceParser.AmpImage - 81)) | (1 << (sequenceParser.AmpVideo - 81)) | (1 << (sequenceParser.AmpArticle - 81)) | (1 << (sequenceParser.AmpDocument - 81)) | (1 << (sequenceParser.AmpApp - 81)) | (1 << (sequenceParser.AmpWebsite - 81)) | (1 << (sequenceParser.AmpAudioLink - 81)) | (1 << (sequenceParser.AmpImageLink - 81)) | (1 << (sequenceParser.AmpArticleLink - 81)) | (1 << (sequenceParser.AmpDocumentLink - 81)))) !== 0) || ((((_la - 132)) & ~0x1F) === 0 && ((1 << (_la - 132)) & ((1 << (sequenceParser.BitmarkMinus - 132)) | (1 << (sequenceParser.BitmarkPlus - 132)) | (1 << (sequenceParser.URL - 132)) | (1 << (sequenceParser.LIST_LINE - 132)))) !== 0));
                         this.state = 1093;
                         this.match(sequenceParser.CL);
                     }
@@ -5224,7 +5227,7 @@ class sequenceParser extends Parser_1.Parser {
                         this.state = 1100;
                         this._errHandler.sync(this);
                         _la = this._input.LA(1);
-                        while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less) | (1 << sequenceParser.RightAngle) | (1 << sequenceParser.RightArrow))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NL - 32)) | (1 << (sequenceParser.NOTBITMARK - 32)) | (1 << (sequenceParser.SENTENCE - 32)) | (1 << (sequenceParser.BARSTRING - 32)))) !== 0) || ((((_la - 81)) & ~0x1F) === 0 && ((1 << (_la - 81)) & ((1 << (sequenceParser.AmpAudio - 81)) | (1 << (sequenceParser.AmpImage - 81)) | (1 << (sequenceParser.AmpVideo - 81)) | (1 << (sequenceParser.AmpArticle - 81)) | (1 << (sequenceParser.AmpDocument - 81)) | (1 << (sequenceParser.AmpApp - 81)) | (1 << (sequenceParser.AmpWebsite - 81)) | (1 << (sequenceParser.AmpAudioLink - 81)) | (1 << (sequenceParser.AmpImageLink - 81)) | (1 << (sequenceParser.AmpArticleLink - 81)) | (1 << (sequenceParser.AmpDocumentLink - 81)))) !== 0) || ((((_la - 130)) & ~0x1F) === 0 && ((1 << (_la - 130)) & ((1 << (sequenceParser.BitmarkMinus - 130)) | (1 << (sequenceParser.BitmarkPlus - 130)) | (1 << (sequenceParser.URL - 130)) | (1 << (sequenceParser.LIST_LINE - 130)))) !== 0)) {
+                        while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less) | (1 << sequenceParser.RightAngle) | (1 << sequenceParser.RightArrow))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NL - 32)) | (1 << (sequenceParser.NOTBITMARK - 32)) | (1 << (sequenceParser.SENTENCE - 32)) | (1 << (sequenceParser.BARSTRING - 32)))) !== 0) || ((((_la - 81)) & ~0x1F) === 0 && ((1 << (_la - 81)) & ((1 << (sequenceParser.AmpAudio - 81)) | (1 << (sequenceParser.AmpImage - 81)) | (1 << (sequenceParser.AmpVideo - 81)) | (1 << (sequenceParser.AmpArticle - 81)) | (1 << (sequenceParser.AmpDocument - 81)) | (1 << (sequenceParser.AmpApp - 81)) | (1 << (sequenceParser.AmpWebsite - 81)) | (1 << (sequenceParser.AmpAudioLink - 81)) | (1 << (sequenceParser.AmpImageLink - 81)) | (1 << (sequenceParser.AmpArticleLink - 81)) | (1 << (sequenceParser.AmpDocumentLink - 81)))) !== 0) || ((((_la - 132)) & ~0x1F) === 0 && ((1 << (_la - 132)) & ((1 << (sequenceParser.BitmarkMinus - 132)) | (1 << (sequenceParser.BitmarkPlus - 132)) | (1 << (sequenceParser.URL - 132)) | (1 << (sequenceParser.LIST_LINE - 132)))) !== 0)) {
                             {
                                 this.state = 1098;
                                 this._errHandler.sync(this);
@@ -5287,7 +5290,7 @@ class sequenceParser extends Parser_1.Parser {
                 this.state = 1108;
                 this._errHandler.sync(this);
                 _la = this._input.LA(1);
-                if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less) | (1 << sequenceParser.RightAngle) | (1 << sequenceParser.RightArrow))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NOTBITMARK - 32)) | (1 << (sequenceParser.SENTENCE - 32)) | (1 << (sequenceParser.BARSTRING - 32)))) !== 0) || ((((_la - 81)) & ~0x1F) === 0 && ((1 << (_la - 81)) & ((1 << (sequenceParser.AmpAudio - 81)) | (1 << (sequenceParser.AmpImage - 81)) | (1 << (sequenceParser.AmpVideo - 81)) | (1 << (sequenceParser.AmpArticle - 81)) | (1 << (sequenceParser.AmpDocument - 81)) | (1 << (sequenceParser.AmpApp - 81)) | (1 << (sequenceParser.AmpWebsite - 81)) | (1 << (sequenceParser.AmpAudioLink - 81)) | (1 << (sequenceParser.AmpImageLink - 81)) | (1 << (sequenceParser.AmpArticleLink - 81)) | (1 << (sequenceParser.AmpDocumentLink - 81)))) !== 0) || ((((_la - 130)) & ~0x1F) === 0 && ((1 << (_la - 130)) & ((1 << (sequenceParser.BitmarkMinus - 130)) | (1 << (sequenceParser.BitmarkPlus - 130)) | (1 << (sequenceParser.URL - 130)) | (1 << (sequenceParser.LIST_LINE - 130)))) !== 0)) {
+                if ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less) | (1 << sequenceParser.RightAngle) | (1 << sequenceParser.RightArrow))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NOTBITMARK - 32)) | (1 << (sequenceParser.SENTENCE - 32)) | (1 << (sequenceParser.BARSTRING - 32)))) !== 0) || ((((_la - 81)) & ~0x1F) === 0 && ((1 << (_la - 81)) & ((1 << (sequenceParser.AmpAudio - 81)) | (1 << (sequenceParser.AmpImage - 81)) | (1 << (sequenceParser.AmpVideo - 81)) | (1 << (sequenceParser.AmpArticle - 81)) | (1 << (sequenceParser.AmpDocument - 81)) | (1 << (sequenceParser.AmpApp - 81)) | (1 << (sequenceParser.AmpWebsite - 81)) | (1 << (sequenceParser.AmpAudioLink - 81)) | (1 << (sequenceParser.AmpImageLink - 81)) | (1 << (sequenceParser.AmpArticleLink - 81)) | (1 << (sequenceParser.AmpDocumentLink - 81)))) !== 0) || ((((_la - 132)) & ~0x1F) === 0 && ((1 << (_la - 132)) & ((1 << (sequenceParser.BitmarkMinus - 132)) | (1 << (sequenceParser.BitmarkPlus - 132)) | (1 << (sequenceParser.URL - 132)) | (1 << (sequenceParser.LIST_LINE - 132)))) !== 0)) {
                     {
                         this.state = 1107;
                         this.s_and_w();
@@ -5958,51 +5961,53 @@ sequenceParser.AmpImageLink = 105;
 sequenceParser.AmpVideoLink = 106;
 sequenceParser.AmpArticleLink = 107;
 sequenceParser.AmpDocumentLink = 108;
-sequenceParser.AmpAppLink = 109;
-sequenceParser.AmpWebsiteLink = 110;
-sequenceParser.AmpStillImageFilmLink = 111;
-sequenceParser.OpAmpAudioLink = 112;
-sequenceParser.OpAmpImageLink = 113;
-sequenceParser.OpAmpVideoLink = 114;
-sequenceParser.OpAmpArticleLink = 115;
-sequenceParser.OpAmpDocumentLink = 116;
-sequenceParser.OpAmpAppLink = 117;
-sequenceParser.OpAmpWebsiteLink = 118;
-sequenceParser.OpAmpStillImageFilmLink = 119;
-sequenceParser.AmpImageEmbed = 120;
-sequenceParser.AmpVideoEmbed = 121;
-sequenceParser.AmpAudioEmbed = 122;
-sequenceParser.AmpDocumentEmbed = 123;
-sequenceParser.AmpStillImageFilmEmbed = 124;
-sequenceParser.OpAmpImageEmbed = 125;
-sequenceParser.OpAmpVideoEmbed = 126;
-sequenceParser.OpAmpAudioEmbed = 127;
-sequenceParser.OpAmpDocumentEmbed = 128;
-sequenceParser.OpAmpStillImageFilmEmbed = 129;
-sequenceParser.BitmarkMinus = 130;
-sequenceParser.BitmarkPlus = 131;
-sequenceParser.ColonText = 132;
-sequenceParser.ColonJson = 133;
-sequenceParser.Prosemirror = 134;
-sequenceParser.Placeholder = 135;
-sequenceParser.BASIC = 136;
-sequenceParser.JPG = 137;
-sequenceParser.PNG = 138;
-sequenceParser.GIF = 139;
-sequenceParser.SVG = 140;
-sequenceParser.MP2 = 141;
-sequenceParser.MP3 = 142;
-sequenceParser.MP4 = 143;
-sequenceParser.FLV = 144;
-sequenceParser.WMV = 145;
-sequenceParser.MPEG = 146;
-sequenceParser.MPG = 147;
-sequenceParser.TEL = 148;
-sequenceParser.DotArticleAtt = 149;
-sequenceParser.STAR = 150;
-sequenceParser.URL = 151;
-sequenceParser.LIST_LINE = 152;
-sequenceParser.ENCLBARS = 153;
+sequenceParser.AmpDocumentDownload = 109;
+sequenceParser.AmpAppLink = 110;
+sequenceParser.AmpWebsiteLink = 111;
+sequenceParser.AmpStillImageFilmLink = 112;
+sequenceParser.OpAmpAudioLink = 113;
+sequenceParser.OpAmpImageLink = 114;
+sequenceParser.OpAmpVideoLink = 115;
+sequenceParser.OpAmpArticleLink = 116;
+sequenceParser.OpAmpDocumentLink = 117;
+sequenceParser.OpAmpDocumentDownload = 118;
+sequenceParser.OpAmpAppLink = 119;
+sequenceParser.OpAmpWebsiteLink = 120;
+sequenceParser.OpAmpStillImageFilmLink = 121;
+sequenceParser.AmpImageEmbed = 122;
+sequenceParser.AmpVideoEmbed = 123;
+sequenceParser.AmpAudioEmbed = 124;
+sequenceParser.AmpDocumentEmbed = 125;
+sequenceParser.AmpStillImageFilmEmbed = 126;
+sequenceParser.OpAmpImageEmbed = 127;
+sequenceParser.OpAmpVideoEmbed = 128;
+sequenceParser.OpAmpAudioEmbed = 129;
+sequenceParser.OpAmpDocumentEmbed = 130;
+sequenceParser.OpAmpStillImageFilmEmbed = 131;
+sequenceParser.BitmarkMinus = 132;
+sequenceParser.BitmarkPlus = 133;
+sequenceParser.ColonText = 134;
+sequenceParser.ColonJson = 135;
+sequenceParser.Prosemirror = 136;
+sequenceParser.Placeholder = 137;
+sequenceParser.BASIC = 138;
+sequenceParser.JPG = 139;
+sequenceParser.PNG = 140;
+sequenceParser.GIF = 141;
+sequenceParser.SVG = 142;
+sequenceParser.MP2 = 143;
+sequenceParser.MP3 = 144;
+sequenceParser.MP4 = 145;
+sequenceParser.FLV = 146;
+sequenceParser.WMV = 147;
+sequenceParser.MPEG = 148;
+sequenceParser.MPG = 149;
+sequenceParser.TEL = 150;
+sequenceParser.DotArticleAtt = 151;
+sequenceParser.STAR = 152;
+sequenceParser.URL = 153;
+sequenceParser.LIST_LINE = 154;
+sequenceParser.ENCLBARS = 155;
 sequenceParser.RULE_bitmark = 0;
 sequenceParser.RULE_bitmark_ = 1;
 sequenceParser.RULE_bit = 2;
@@ -6125,14 +6130,14 @@ sequenceParser._LITERAL_NAMES = [
     "'&pdf'", undefined, undefined, undefined, undefined, undefined, undefined,
     undefined, undefined, undefined, undefined, undefined, undefined, "'&audio-link'",
     "'&image-link'", "'&video-link'", "'&article-link'", "'&document-link'",
-    "'&app-link'", "'&website-link'", "'&still-image-film-link'", undefined,
+    "'&document-download'", "'&app-link'", "'&website-link'", "'&still-image-film-link'",
     undefined, undefined, undefined, undefined, undefined, undefined, undefined,
-    "'&image-embed'", "'&video-embed'", "'&daudio-embed'", "'&document-embed'",
-    "'&still-image-film-embed'", undefined, undefined, undefined, undefined,
-    undefined, "':bitmark--'", "':bitmark++'", "':text'", "':json'", "':prosemirror'",
-    "':placeholder'", "':basic'", "':jpg'", "':png'", "':gif'", "':svg'",
-    "':mp2'", "':mp3'", "':mp4'", "':flv'", "':wmv'", "':mpeg'", "':mpg'",
-    "'tel:'", "'.article-attachment'", "'*'",
+    undefined, undefined, "'&image-embed'", "'&video-embed'", "'&daudio-embed'",
+    "'&document-embed'", "'&still-image-film-embed'", undefined, undefined,
+    undefined, undefined, undefined, "':bitmark--'", "':bitmark++'", "':text'",
+    "':json'", "':prosemirror'", "':placeholder'", "':basic'", "':jpg'", "':png'",
+    "':gif'", "':svg'", "':mp2'", "':mp3'", "':mp4'", "':flv'", "':wmv'",
+    "':mpeg'", "':mpg'", "'tel:'", "'.article-attachment'", "'*'",
 ];
 sequenceParser._SYMBOLIC_NAMES = [
     undefined, "OPDOT", "S", "BitSequence", "BitMenu3Course", "OPDOLL", "OPBUL",
@@ -6152,20 +6157,20 @@ sequenceParser._SYMBOLIC_NAMES = [
     "AmpStillImageFilm", "AmpPdf", "OpAmpAudio", "OpAmpImage", "OpAmpImageZoom",
     "OpAmpImageWAudio", "OpAmpVideo", "OpAmpArticle", "OpAmpArticleAtt", "OpAmpDocument",
     "OpAmpApp", "OpAmpWebsite", "OpAmpStillImageFilm", "BracEnclose", "AmpAudioLink",
-    "AmpImageLink", "AmpVideoLink", "AmpArticleLink", "AmpDocumentLink", "AmpAppLink",
-    "AmpWebsiteLink", "AmpStillImageFilmLink", "OpAmpAudioLink", "OpAmpImageLink",
-    "OpAmpVideoLink", "OpAmpArticleLink", "OpAmpDocumentLink", "OpAmpAppLink",
-    "OpAmpWebsiteLink", "OpAmpStillImageFilmLink", "AmpImageEmbed", "AmpVideoEmbed",
-    "AmpAudioEmbed", "AmpDocumentEmbed", "AmpStillImageFilmEmbed", "OpAmpImageEmbed",
-    "OpAmpVideoEmbed", "OpAmpAudioEmbed", "OpAmpDocumentEmbed", "OpAmpStillImageFilmEmbed",
-    "BitmarkMinus", "BitmarkPlus", "ColonText", "ColonJson", "Prosemirror",
-    "Placeholder", "BASIC", "JPG", "PNG", "GIF", "SVG", "MP2", "MP3", "MP4",
-    "FLV", "WMV", "MPEG", "MPG", "TEL", "DotArticleAtt", "STAR", "URL", "LIST_LINE",
-    "ENCLBARS",
+    "AmpImageLink", "AmpVideoLink", "AmpArticleLink", "AmpDocumentLink", "AmpDocumentDownload",
+    "AmpAppLink", "AmpWebsiteLink", "AmpStillImageFilmLink", "OpAmpAudioLink",
+    "OpAmpImageLink", "OpAmpVideoLink", "OpAmpArticleLink", "OpAmpDocumentLink",
+    "OpAmpDocumentDownload", "OpAmpAppLink", "OpAmpWebsiteLink", "OpAmpStillImageFilmLink",
+    "AmpImageEmbed", "AmpVideoEmbed", "AmpAudioEmbed", "AmpDocumentEmbed",
+    "AmpStillImageFilmEmbed", "OpAmpImageEmbed", "OpAmpVideoEmbed", "OpAmpAudioEmbed",
+    "OpAmpDocumentEmbed", "OpAmpStillImageFilmEmbed", "BitmarkMinus", "BitmarkPlus",
+    "ColonText", "ColonJson", "Prosemirror", "Placeholder", "BASIC", "JPG",
+    "PNG", "GIF", "SVG", "MP2", "MP3", "MP4", "FLV", "WMV", "MPEG", "MPG",
+    "TEL", "DotArticleAtt", "STAR", "URL", "LIST_LINE", "ENCLBARS",
 ];
 sequenceParser.VOCABULARY = new VocabularyImpl_1.VocabularyImpl(sequenceParser._LITERAL_NAMES, sequenceParser._SYMBOLIC_NAMES, []);
 sequenceParser._serializedATNSegments = 3;
-sequenceParser._serializedATNSegment0 = "\x03\uC91D\uCABA\u058D\uAFBA\u4F53\u0607\uEA8B\uC241\x03\x9B\u04B1\x04" +
+sequenceParser._serializedATNSegment0 = "\x03\uC91D\uCABA\u058D\uAFBA\u4F53\u0607\uEA8B\uC241\x03\x9D\u04B1\x04" +
     "\x02\t\x02\x04\x03\t\x03\x04\x04\t\x04\x04\x05\t\x05\x04\x06\t\x06\x04" +
     "\x07\t\x07\x04\b\t\b\x04\t\t\t\x04\n\t\n\x04\v\t\v\x04\f\t\f\x04\r\t\r" +
     "\x04\x0E\t\x0E\x04\x0F\t\x0F\x04\x10\t\x10\x04\x11\t\x11\x04\x12\t\x12" +
@@ -6282,133 +6287,133 @@ sequenceParser._serializedATNSegment0 = "\x03\uC91D\uCABA\u058D\uAFBA\u4F53\u060
     "x\x02z\x02|\x02~\x02\x80\x02\x82\x02\x84\x02\x86\x02\x88\x02\x8A\x02\x8C" +
     "\x02\x8E\x02\x90\x02\x92\x02\x94\x02\x96\x02\x98\x02\x9A\x02\x9C\x02\x9E" +
     "\x02\xA0\x02\xA2\x02\xA4\x02\xA6\x02\xA8\x02\xAA\x02\xAC\x02\x02\x15\b" +
-    "\x02XY[\\jq{~\x84\x85\x87\x89\x05\x02WWll{{\x04\x02XXmm\x05\x02YYnn}}" +
-    "\x04\x02ZZoo\x04\x02[[pp\x05\x02\\\\qq~~\x04\x02ccuu\x05\x02eevv\x82\x82" +
-    "\x04\x02ffww\x04\x02ggxx\x05\x02hhyy\x83\x83\x03\x0278\x04\x02GGJM\x03" +
-    "\x02\x17\x17\x04\x02\x18\x18\x1A\x1A\x03\x02%&\x03\x02\x1D\x1D\x03\x02" +
-    "\x1E\x1E\x02\u0557\x02\xBB\x03\x02\x02\x02\x04\xC7\x03\x02\x02\x02\x06" +
-    "\xCB\x03\x02\x02\x02\b\xCD\x03\x02\x02\x02\n\u0105\x03\x02\x02\x02\f\u010A" +
-    "\x03\x02\x02\x02\x0E\u010C\x03\x02\x02\x02\x10\u0134\x03\x02\x02\x02\x12" +
-    "\u013F\x03\x02\x02\x02\x14\u0143\x03\x02\x02\x02\x16\u0145\x03\x02\x02" +
-    "\x02\x18\u015F\x03\x02\x02\x02\x1A\u0168\x03\x02\x02\x02\x1C\u018B\x03" +
-    "\x02\x02\x02\x1E\u018D\x03\x02\x02\x02 \u0198\x03\x02\x02\x02\"\u01A7" +
-    "\x03\x02\x02\x02$\u01B2\x03\x02\x02\x02&\u01BD\x03\x02\x02\x02(\u01C7" +
-    "\x03\x02\x02\x02*\u01C9\x03\x02\x02\x02,\u01CF\x03\x02\x02\x02.\u01D6" +
-    "\x03\x02\x02\x020\u01E1\x03\x02\x02\x022\u01EC\x03\x02\x02\x024\u01F3" +
-    "\x03\x02\x02\x026\u0203\x03\x02\x02\x028\u0205\x03\x02\x02\x02:\u020A" +
-    "\x03\x02\x02\x02<\u020C\x03\x02\x02\x02>\u020E\x03\x02\x02\x02@\u0210" +
-    "\x03\x02\x02\x02B\u0212\x03\x02\x02\x02D\u0214\x03\x02\x02\x02F\u0216" +
-    "\x03\x02\x02\x02H\u0218\x03\x02\x02\x02J\u021A\x03\x02\x02\x02L\u022B" +
-    "\x03\x02\x02\x02N\u022D\x03\x02\x02\x02P\u0235\x03\x02\x02\x02R\u0237" +
-    "\x03\x02\x02\x02T\u0241\x03\x02\x02\x02V\u024B\x03\x02\x02\x02X\u0258" +
-    "\x03\x02\x02\x02Z\u025F\x03\x02\x02\x02\\\u026A\x03\x02\x02\x02^\u0271" +
-    "\x03\x02\x02\x02`\u027B\x03\x02\x02\x02b\u0286\x03\x02\x02\x02d\u029F" +
-    "\x03\x02\x02\x02f\u02B2\x03\x02\x02\x02h\u02C5\x03\x02\x02\x02j\u02C7" +
-    "\x03\x02\x02\x02l\u02CE\x03\x02\x02\x02n\u02E2\x03\x02\x02\x02p\u02F3" +
-    "\x03\x02\x02\x02r\u0314\x03\x02\x02\x02t\u0316\x03\x02\x02\x02v\u031A" +
-    "\x03\x02\x02\x02x\u033A\x03\x02\x02\x02z\u033C\x03\x02\x02\x02|\u0351" +
-    "\x03\x02\x02\x02~\u035A\x03\x02\x02\x02\x80\u0383\x03\x02\x02\x02\x82" +
-    "\u039B\x03\x02\x02\x02\x84\u039D\x03\x02\x02\x02\x86\u03A1\x03\x02\x02" +
-    "\x02\x88\u03AD\x03\x02\x02\x02\x8A\u03E5\x03\x02\x02\x02\x8C\u03E7\x03" +
-    "\x02\x02\x02\x8E\u03FB\x03\x02\x02\x02\x90\u0405\x03\x02\x02\x02\x92\u0410" +
-    "\x03\x02\x02\x02\x94\u0412\x03\x02\x02\x02\x96\u0416\x03\x02\x02\x02\x98" +
-    "\u041A\x03\x02\x02\x02\x9A\u043D\x03\x02\x02\x02\x9C\u0452\x03\x02\x02" +
-    "\x02\x9E\u0454\x03\x02\x02\x02\xA0\u045A\x03\x02\x02\x02\xA2\u0489\x03" +
-    "\x02\x02\x02\xA4\u048B\x03\x02\x02\x02\xA6\u048D\x03\x02\x02\x02\xA8\u048F" +
-    "\x03\x02\x02\x02\xAA\u04AA\x03\x02\x02\x02\xAC\u04AE\x03\x02\x02\x02\xAE" +
-    "\xB8\x05\x04\x03\x02\xAF\xB1\x07\x04\x02\x02\xB0\xAF\x03\x02\x02\x02\xB1" +
-    "\xB4\x03\x02\x02\x02\xB2\xB0\x03\x02\x02\x02\xB2\xB3\x03\x02\x02\x02\xB3" +
-    "\xB5\x03\x02\x02\x02\xB4\xB2\x03\x02\x02\x02\xB5\xB7\x070\x02\x02\xB6" +
-    "\xB2\x03\x02\x02\x02\xB7\xBA\x03\x02\x02\x02\xB8\xB6\x03\x02\x02\x02\xB8" +
-    "\xB9\x03\x02\x02\x02\xB9\xBC\x03\x02\x02\x02\xBA\xB8\x03\x02\x02\x02\xBB" +
-    "\xAE\x03\x02\x02\x02\xBC\xBD\x03\x02\x02\x02\xBD\xBB\x03\x02\x02\x02\xBD" +
-    "\xBE\x03\x02\x02\x02\xBE\xC2\x03\x02\x02\x02\xBF\xC1\x070\x02\x02\xC0" +
-    "\xBF\x03\x02\x02\x02\xC1\xC4\x03\x02\x02\x02\xC2\xC0\x03\x02\x02\x02\xC2" +
-    "\xC3\x03\x02\x02\x02\xC3\xC5\x03\x02\x02\x02\xC4\xC2\x03\x02\x02\x02\xC5" +
-    "\xC6\x07\x02\x02\x03\xC6\x03\x03\x02\x02\x02\xC7\xC8\x05\x06\x04\x02\xC8" +
-    "\x05\x03\x02\x02\x02\xC9\xCC\x05\b\x05\x02\xCA\xCC\x05\x0E\b\x02\xCB\xC9" +
-    "\x03\x02\x02\x02\xCB\xCA\x03\x02\x02\x02\xCC\x07\x03\x02\x02\x02\xCD\xCE" +
-    "\x07\x05\x02\x02\xCE\xCF\x05.\x18\x02\xCF\xD9\x07\x17\x02\x02\xD0\xD2" +
-    "\x070\x02\x02\xD1\xD0\x03\x02\x02\x02\xD2\xD5\x03\x02\x02\x02\xD3\xD1" +
-    "\x03\x02\x02\x02\xD3\xD4\x03\x02\x02\x02\xD4\xD6\x03\x02\x02\x02\xD5\xD3" +
-    "\x03\x02\x02\x02\xD6\xD8\x05\x1C\x0F\x02\xD7\xD3\x03\x02\x02\x02\xD8\xDB" +
-    "\x03\x02\x02\x02\xD9\xD7\x03\x02\x02\x02\xD9\xDA\x03\x02\x02\x02\xDA\xDF" +
-    "\x03\x02\x02\x02\xDB\xD9\x03\x02\x02\x02\xDC\xDE\x070\x02\x02\xDD\xDC" +
-    "\x03\x02\x02\x02\xDE\xE1\x03\x02\x02\x02\xDF\xDD\x03\x02\x02\x02\xDF\xE0" +
-    "\x03\x02\x02\x02\xE0\xE2\x03\x02\x02\x02\xE1\xDF\x03\x02\x02\x02\xE2\xE8" +
-    "\x07$\x02\x02\xE3\xE4\x05\n\x06\x02\xE4\xE5\x05\f\x07\x02\xE5\xE7\x03" +
-    "\x02\x02\x02\xE6\xE3\x03\x02\x02\x02\xE7\xEA\x03\x02\x02\x02\xE8\xE6\x03" +
-    "\x02\x02\x02\xE8\xE9\x03\x02\x02\x02\xE9\xEB\x03\x02\x02\x02\xEA\xE8\x03" +
-    "\x02\x02\x02\xEB\xEC\x05\n\x06\x02\xEC\xEE\x07$\x02\x02\xED\xEF\x05\x1A" +
-    "\x0E\x02\xEE\xED\x03\x02\x02\x02\xEE\xEF\x03\x02\x02\x02\xEF\xFD\x03\x02" +
-    "\x02\x02\xF0\xFA\x05(\x15\x02\xF1\xF3\x070\x02\x02\xF2\xF1\x03\x02\x02" +
-    "\x02\xF3\xF6\x03\x02\x02\x02\xF4\xF2\x03\x02\x02\x02\xF4\xF5\x03\x02\x02" +
-    "\x02\xF5\xF7\x03\x02\x02\x02\xF6\xF4\x03\x02\x02\x02\xF7\xF9\x05(\x15" +
-    "\x02\xF8\xF4\x03\x02\x02\x02\xF9\xFC\x03\x02\x02\x02\xFA\xF8\x03\x02\x02" +
-    "\x02\xFA\xFB\x03\x02\x02\x02\xFB\xFE\x03\x02\x02\x02\xFC\xFA\x03\x02\x02" +
-    "\x02\xFD\xF0\x03\x02\x02\x02\xFD\xFE\x03\x02\x02\x02\xFE\t\x03\x02\x02" +
-    "\x02\xFF\u0101\x05\x1C\x0F\x02\u0100\u0102\x070\x02\x02\u0101\u0100\x03" +
-    "\x02\x02\x02\u0101\u0102\x03\x02\x02\x02\u0102\u0104\x03\x02\x02\x02\u0103" +
-    "\xFF\x03\x02\x02\x02\u0104\u0107\x03\x02\x02\x02\u0105\u0103\x03\x02\x02" +
-    "\x02\u0105\u0106\x03\x02\x02\x02\u0106\u0108\x03\x02\x02\x02\u0107\u0105" +
-    "\x03\x02\x02\x02\u0108\u0109\x05\xA2R\x02\u0109\v\x03\x02\x02\x02\u010A" +
-    "\u010B\x07#\x02\x02\u010B\r\x03\x02\x02\x02\u010C\u010D\x07\x06\x02\x02" +
-    "\u010D\u010E\x05.\x18\x02\u010E\u0118\x07\x17\x02\x02\u010F\u0111\x07" +
-    "0\x02\x02\u0110\u010F\x03\x02\x02\x02\u0111\u0114\x03\x02\x02\x02\u0112" +
-    "\u0110\x03\x02\x02\x02\u0112\u0113\x03\x02\x02\x02\u0113\u0115\x03\x02" +
-    "\x02\x02\u0114\u0112\x03\x02\x02\x02\u0115\u0117\x05\x1C\x0F\x02\u0116" +
-    "\u0112\x03\x02\x02\x02\u0117\u011A\x03\x02\x02\x02\u0118\u0116\x03\x02" +
-    "\x02\x02\u0118\u0119\x03\x02\x02\x02\u0119\u011E\x03\x02\x02\x02\u011A" +
-    "\u0118\x03\x02\x02\x02\u011B\u011D\x070\x02\x02\u011C\u011B\x03\x02\x02" +
-    "\x02\u011D\u0120\x03\x02\x02\x02\u011E\u011C\x03\x02\x02\x02\u011E\u011F" +
-    "\x03\x02\x02\x02\u011F\u0121\x03\x02\x02\x02\u0120\u011E\x03\x02\x02\x02" +
-    "\u0121\u0123\x05\x10\t\x02\u0122\u0124\x05\x1A\x0E\x02\u0123\u0122\x03" +
-    "\x02\x02\x02\u0123\u0124\x03\x02\x02\x02\u0124\u0132\x03\x02\x02\x02\u0125" +
-    "\u012F\x05(\x15\x02\u0126\u0128\x070\x02\x02\u0127\u0126\x03\x02\x02\x02" +
-    "\u0128\u012B\x03\x02\x02\x02\u0129\u0127\x03\x02\x02\x02\u0129\u012A\x03" +
-    "\x02\x02\x02\u012A\u012C\x03\x02\x02\x02\u012B\u0129\x03\x02\x02\x02\u012C" +
-    "\u012E\x05(\x15\x02\u012D\u0129\x03\x02\x02\x02\u012E\u0131\x03\x02\x02" +
-    "\x02\u012F\u012D\x03\x02\x02\x02\u012F\u0130\x03\x02\x02\x02\u0130\u0133" +
-    "\x03\x02\x02\x02\u0131\u012F\x03\x02\x02\x02\u0132\u0125\x03\x02\x02\x02" +
-    "\u0132\u0133\x03\x02\x02\x02\u0133\x0F\x03\x02\x02\x02\u0134\u0135\x05" +
-    "\x12\n\x02\u0135\u013A\x05\x14\v\x02\u0136\u0137\x07$\x02\x02\u0137\u0139" +
-    "\x05\x14\v\x02\u0138\u0136\x03\x02\x02\x02\u0139\u013C\x03\x02\x02\x02" +
-    "\u013A\u0138\x03\x02\x02\x02\u013A\u013B\x03\x02\x02\x02\u013B\u013D\x03" +
-    "\x02\x02\x02\u013C\u013A\x03\x02\x02\x02\u013D\u013E\x07$\x02\x02\u013E" +
-    "\x11\x03\x02\x02\x02\u013F\u0140\x07$\x02\x02\u0140\x13\x03\x02\x02\x02" +
-    "\u0141\u0144\x05\x16\f\x02\u0142\u0144\x03\x02\x02\x02\u0143\u0141\x03" +
-    "\x02\x02\x02\u0143\u0142\x03\x02\x02\x02\u0144\x15\x03\x02\x02\x02\u0145" +
-    "\u0149\x05\x18\r\x02\u0146\u0148\x05\x18\r\x02\u0147\u0146\x03\x02\x02" +
-    "\x02\u0148\u014B\x03\x02\x02\x02\u0149\u0147\x03\x02\x02\x02\u0149\u014A" +
-    "\x03\x02\x02\x02\u014A\x17\x03\x02\x02\x02\u014B\u0149\x03\x02\x02\x02" +
-    "\u014C\u0150\x05\xA2R\x02\u014D\u014F\x070\x02\x02\u014E\u014D\x03\x02" +
-    "\x02\x02\u014F\u0152\x03\x02\x02\x02\u0150\u014E\x03\x02\x02\x02\u0150" +
-    "\u0151\x03\x02\x02\x02\u0151\u0160\x03\x02\x02\x02\u0152\u0150\x03\x02" +
-    "\x02\x02\u0153\u0158\x05\x8AF\x02\u0154\u0158\x05\x98M\x02\u0155\u0158" +
-    "\x05\x8CG\x02\u0156\u0158\x05~@\x02\u0157\u0153\x03\x02\x02\x02\u0157" +
-    "\u0154\x03\x02\x02\x02\u0157\u0155\x03\x02\x02\x02\u0157\u0156\x03\x02" +
-    "\x02\x02\u0158\u015C\x03\x02\x02\x02\u0159\u015B\x070\x02\x02\u015A\u0159" +
-    "\x03\x02\x02\x02\u015B\u015E\x03\x02\x02\x02\u015C\u015A\x03\x02\x02\x02" +
-    "\u015C\u015D\x03\x02\x02\x02\u015D\u0160\x03\x02\x02\x02\u015E\u015C\x03" +
-    "\x02\x02\x02\u015F\u014C\x03\x02\x02\x02\u015F\u0157\x03\x02\x02\x02\u0160" +
-    "\x19\x03\x02\x02\x02\u0161\u0163\x070\x02\x02\u0162\u0161\x03\x02\x02" +
-    "\x02\u0163\u0166\x03\x02\x02\x02\u0164\u0162\x03\x02\x02\x02\u0164\u0165" +
-    "\x03\x02\x02\x02\u0165\u0167\x03\x02\x02\x02\u0166\u0164\x03\x02\x02\x02" +
-    "\u0167\u0169\x05\xA2R\x02\u0168\u0164\x03\x02\x02\x02\u0169\u016A\x03" +
-    "\x02\x02\x02\u016A\u0168\x03\x02\x02\x02\u016A\u016B\x03\x02\x02\x02\u016B" +
-    "\u016D\x03\x02\x02\x02\u016C\u016E\x070\x02\x02\u016D\u016C\x03\x02\x02" +
-    "\x02\u016E\u016F\x03\x02\x02\x02\u016F\u016D\x03\x02\x02\x02\u016F\u0170" +
-    "\x03\x02\x02\x02\u0170\x1B\x03\x02\x02\x02\u0171\u018C\x07\x9A\x02\x02" +
-    "\u0172\u018C\x071\x02\x02\u0173\u018C\x05\xA4S\x02\u0174\u018C\x05\x1E" +
-    "\x10\x02\u0175\u018C\x05\x98M\x02\u0176\u018C\x05\x82B\x02\u0177\u018C" +
-    "\x05\x9CO\x02\u0178\u018C\x05x=\x02\u0179\u018C\x05\x8EH\x02\u017A\u018C" +
-    "\x05\x8AF\x02\u017B\u018C\x05\x8CG\x02\u017C\u018C\x05\xA2R\x02\u017D" +
-    "\u018C\x05~@\x02\u017E\u018C\x05\x90I\x02\u017F\u018C\x05`1\x02\u0180" +
-    "\u018C\x05j6\x02\u0181\u018C\x05\\/\x02\u0182\u018C\x05P)\x02\u0183\u018C" +
-    "\x05R*\x02\u0184\u018C\x05V,\x02\u0185\u018C\x05T+\x02\u0186\u018C\x05" +
-    "X-\x02\u0187\u018C\x05|?\x02\u0188\u018C\x05\x9EP\x02\u0189\u018C\x05" +
-    "\x80A\x02\u018A\u018C\x05\xACW\x02\u018B\u0171\x03\x02\x02\x02\u018B\u0172" +
-    "\x03\x02\x02\x02\u018B\u0173\x03\x02\x02";
+    "\x02XY[\\jr}\x80\x86\x87\x89\x8B\x05\x02WWll}}\x04\x02XXmm\x05\x02YYn" +
+    "o\x7F\x7F\x04\x02ZZpp\x04\x02[[qq\x05\x02\\\\rr\x80\x80\x04\x02ccvv\x05" +
+    "\x02eewx\x84\x84\x04\x02ffyy\x04\x02ggzz\x05\x02hh{{\x85\x85\x03\x027" +
+    "8\x04\x02GGJM\x03\x02\x17\x17\x04\x02\x18\x18\x1A\x1A\x03\x02%&\x03\x02" +
+    "\x1D\x1D\x03\x02\x1E\x1E\x02\u0557\x02\xBB\x03\x02\x02\x02\x04\xC7\x03" +
+    "\x02\x02\x02\x06\xCB\x03\x02\x02\x02\b\xCD\x03\x02\x02\x02\n\u0105\x03" +
+    "\x02\x02\x02\f\u010A\x03\x02\x02\x02\x0E\u010C\x03\x02\x02\x02\x10\u0134" +
+    "\x03\x02\x02\x02\x12\u013F\x03\x02\x02\x02\x14\u0143\x03\x02\x02\x02\x16" +
+    "\u0145\x03\x02\x02\x02\x18\u015F\x03\x02\x02\x02\x1A\u0168\x03\x02\x02" +
+    "\x02\x1C\u018B\x03\x02\x02\x02\x1E\u018D\x03\x02\x02\x02 \u0198\x03\x02" +
+    "\x02\x02\"\u01A7\x03\x02\x02\x02$\u01B2\x03\x02\x02\x02&\u01BD\x03\x02" +
+    "\x02\x02(\u01C7\x03\x02\x02\x02*\u01C9\x03\x02\x02\x02,\u01CF\x03\x02" +
+    "\x02\x02.\u01D6\x03\x02\x02\x020\u01E1\x03\x02\x02\x022\u01EC\x03\x02" +
+    "\x02\x024\u01F3\x03\x02\x02\x026\u0203\x03\x02\x02\x028\u0205\x03\x02" +
+    "\x02\x02:\u020A\x03\x02\x02\x02<\u020C\x03\x02\x02\x02>\u020E\x03\x02" +
+    "\x02\x02@\u0210\x03\x02\x02\x02B\u0212\x03\x02\x02\x02D\u0214\x03\x02" +
+    "\x02\x02F\u0216\x03\x02\x02\x02H\u0218\x03\x02\x02\x02J\u021A\x03\x02" +
+    "\x02\x02L\u022B\x03\x02\x02\x02N\u022D\x03\x02\x02\x02P\u0235\x03\x02" +
+    "\x02\x02R\u0237\x03\x02\x02\x02T\u0241\x03\x02\x02\x02V\u024B\x03\x02" +
+    "\x02\x02X\u0258\x03\x02\x02\x02Z\u025F\x03\x02\x02\x02\\\u026A\x03\x02" +
+    "\x02\x02^\u0271\x03\x02\x02\x02`\u027B\x03\x02\x02\x02b\u0286\x03\x02" +
+    "\x02\x02d\u029F\x03\x02\x02\x02f\u02B2\x03\x02\x02\x02h\u02C5\x03\x02" +
+    "\x02\x02j\u02C7\x03\x02\x02\x02l\u02CE\x03\x02\x02\x02n\u02E2\x03\x02" +
+    "\x02\x02p\u02F3\x03\x02\x02\x02r\u0314\x03\x02\x02\x02t\u0316\x03\x02" +
+    "\x02\x02v\u031A\x03\x02\x02\x02x\u033A\x03\x02\x02\x02z\u033C\x03\x02" +
+    "\x02\x02|\u0351\x03\x02\x02\x02~\u035A\x03\x02\x02\x02\x80\u0383\x03\x02" +
+    "\x02\x02\x82\u039B\x03\x02\x02\x02\x84\u039D\x03\x02\x02\x02\x86\u03A1" +
+    "\x03\x02\x02\x02\x88\u03AD\x03\x02\x02\x02\x8A\u03E5\x03\x02\x02\x02\x8C" +
+    "\u03E7\x03\x02\x02\x02\x8E\u03FB\x03\x02\x02\x02\x90\u0405\x03\x02\x02" +
+    "\x02\x92\u0410\x03\x02\x02\x02\x94\u0412\x03\x02\x02\x02\x96\u0416\x03" +
+    "\x02\x02\x02\x98\u041A\x03\x02\x02\x02\x9A\u043D\x03\x02\x02\x02\x9C\u0452" +
+    "\x03\x02\x02\x02\x9E\u0454\x03\x02\x02\x02\xA0\u045A\x03\x02\x02\x02\xA2" +
+    "\u0489\x03\x02\x02\x02\xA4\u048B\x03\x02\x02\x02\xA6\u048D\x03\x02\x02" +
+    "\x02\xA8\u048F\x03\x02\x02\x02\xAA\u04AA\x03\x02\x02\x02\xAC\u04AE\x03" +
+    "\x02\x02\x02\xAE\xB8\x05\x04\x03\x02\xAF\xB1\x07\x04\x02\x02\xB0\xAF\x03" +
+    "\x02\x02\x02\xB1\xB4\x03\x02\x02\x02\xB2\xB0\x03\x02\x02\x02\xB2\xB3\x03" +
+    "\x02\x02\x02\xB3\xB5\x03\x02\x02\x02\xB4\xB2\x03\x02\x02\x02\xB5\xB7\x07" +
+    "0\x02\x02\xB6\xB2\x03\x02\x02\x02\xB7\xBA\x03\x02\x02\x02\xB8\xB6\x03" +
+    "\x02\x02\x02\xB8\xB9\x03\x02\x02\x02\xB9\xBC\x03\x02\x02\x02\xBA\xB8\x03" +
+    "\x02\x02\x02\xBB\xAE\x03\x02\x02\x02\xBC\xBD\x03\x02\x02\x02\xBD\xBB\x03" +
+    "\x02\x02\x02\xBD\xBE\x03\x02\x02\x02\xBE\xC2\x03\x02\x02\x02\xBF\xC1\x07" +
+    "0\x02\x02\xC0\xBF\x03\x02\x02\x02\xC1\xC4\x03\x02\x02\x02\xC2\xC0\x03" +
+    "\x02\x02\x02\xC2\xC3\x03\x02\x02\x02\xC3\xC5\x03\x02\x02\x02\xC4\xC2\x03" +
+    "\x02\x02\x02\xC5\xC6\x07\x02\x02\x03\xC6\x03\x03\x02\x02\x02\xC7\xC8\x05" +
+    "\x06\x04\x02\xC8\x05\x03\x02\x02\x02\xC9\xCC\x05\b\x05\x02\xCA\xCC\x05" +
+    "\x0E\b\x02\xCB\xC9\x03\x02\x02\x02\xCB\xCA\x03\x02\x02\x02\xCC\x07\x03" +
+    "\x02\x02\x02\xCD\xCE\x07\x05\x02\x02\xCE\xCF\x05.\x18\x02\xCF\xD9\x07" +
+    "\x17\x02\x02\xD0\xD2\x070\x02\x02\xD1\xD0\x03\x02\x02\x02\xD2\xD5\x03" +
+    "\x02\x02\x02\xD3\xD1\x03\x02\x02\x02\xD3\xD4\x03\x02\x02\x02\xD4\xD6\x03" +
+    "\x02\x02\x02\xD5\xD3\x03\x02\x02\x02\xD6\xD8\x05\x1C\x0F\x02\xD7\xD3\x03" +
+    "\x02\x02\x02\xD8\xDB\x03\x02\x02\x02\xD9\xD7\x03\x02\x02\x02\xD9\xDA\x03" +
+    "\x02\x02\x02\xDA\xDF\x03\x02\x02\x02\xDB\xD9\x03\x02\x02\x02\xDC\xDE\x07" +
+    "0\x02\x02\xDD\xDC\x03\x02\x02\x02\xDE\xE1\x03\x02\x02\x02\xDF\xDD\x03" +
+    "\x02\x02\x02\xDF\xE0\x03\x02\x02\x02\xE0\xE2\x03\x02\x02\x02\xE1\xDF\x03" +
+    "\x02\x02\x02\xE2\xE8\x07$\x02\x02\xE3\xE4\x05\n\x06\x02\xE4\xE5\x05\f" +
+    "\x07\x02\xE5\xE7\x03\x02\x02\x02\xE6\xE3\x03\x02\x02\x02\xE7\xEA\x03\x02" +
+    "\x02\x02\xE8\xE6\x03\x02\x02\x02\xE8\xE9\x03\x02\x02\x02\xE9\xEB\x03\x02" +
+    "\x02\x02\xEA\xE8\x03\x02\x02\x02\xEB\xEC\x05\n\x06\x02\xEC\xEE\x07$\x02" +
+    "\x02\xED\xEF\x05\x1A\x0E\x02\xEE\xED\x03\x02\x02\x02\xEE\xEF\x03\x02\x02" +
+    "\x02\xEF\xFD\x03\x02\x02\x02\xF0\xFA\x05(\x15\x02\xF1\xF3\x070\x02\x02" +
+    "\xF2\xF1\x03\x02\x02\x02\xF3\xF6\x03\x02\x02\x02\xF4\xF2\x03\x02\x02\x02" +
+    "\xF4\xF5\x03\x02\x02\x02\xF5\xF7\x03\x02\x02\x02\xF6\xF4\x03\x02\x02\x02" +
+    "\xF7\xF9\x05(\x15\x02\xF8\xF4\x03\x02\x02\x02\xF9\xFC\x03\x02\x02\x02" +
+    "\xFA\xF8\x03\x02\x02\x02\xFA\xFB\x03\x02\x02\x02\xFB\xFE\x03\x02\x02\x02" +
+    "\xFC\xFA\x03\x02\x02\x02\xFD\xF0\x03\x02\x02\x02\xFD\xFE\x03\x02\x02\x02" +
+    "\xFE\t\x03\x02\x02\x02\xFF\u0101\x05\x1C\x0F\x02\u0100\u0102\x070\x02" +
+    "\x02\u0101\u0100\x03\x02\x02\x02\u0101\u0102\x03\x02\x02\x02\u0102\u0104" +
+    "\x03\x02\x02\x02\u0103\xFF\x03\x02\x02\x02\u0104\u0107\x03\x02\x02\x02" +
+    "\u0105\u0103\x03\x02\x02\x02\u0105\u0106\x03\x02\x02\x02\u0106\u0108\x03" +
+    "\x02\x02\x02\u0107\u0105\x03\x02\x02\x02\u0108\u0109\x05\xA2R\x02\u0109" +
+    "\v\x03\x02\x02\x02\u010A\u010B\x07#\x02\x02\u010B\r\x03\x02\x02\x02\u010C" +
+    "\u010D\x07\x06\x02\x02\u010D\u010E\x05.\x18\x02\u010E\u0118\x07\x17\x02" +
+    "\x02\u010F\u0111\x070\x02\x02\u0110\u010F\x03\x02\x02\x02\u0111\u0114" +
+    "\x03\x02\x02\x02\u0112\u0110\x03\x02\x02\x02\u0112\u0113\x03\x02\x02\x02" +
+    "\u0113\u0115\x03\x02\x02\x02\u0114\u0112\x03\x02\x02\x02\u0115\u0117\x05" +
+    "\x1C\x0F\x02\u0116\u0112\x03\x02\x02\x02\u0117\u011A\x03\x02\x02\x02\u0118" +
+    "\u0116\x03\x02\x02\x02\u0118\u0119\x03\x02\x02\x02\u0119\u011E\x03\x02" +
+    "\x02\x02\u011A\u0118\x03\x02\x02\x02\u011B\u011D\x070\x02\x02\u011C\u011B" +
+    "\x03\x02\x02\x02\u011D\u0120\x03\x02\x02\x02\u011E\u011C\x03\x02\x02\x02" +
+    "\u011E\u011F\x03\x02\x02\x02\u011F\u0121\x03\x02\x02\x02\u0120\u011E\x03" +
+    "\x02\x02\x02\u0121\u0123\x05\x10\t\x02\u0122\u0124\x05\x1A\x0E\x02\u0123" +
+    "\u0122\x03\x02\x02\x02\u0123\u0124\x03\x02\x02\x02\u0124\u0132\x03\x02" +
+    "\x02\x02\u0125\u012F\x05(\x15\x02\u0126\u0128\x070\x02\x02\u0127\u0126" +
+    "\x03\x02\x02\x02\u0128\u012B\x03\x02\x02\x02\u0129\u0127\x03\x02\x02\x02" +
+    "\u0129\u012A\x03\x02\x02\x02\u012A\u012C\x03\x02\x02\x02\u012B\u0129\x03" +
+    "\x02\x02\x02\u012C\u012E\x05(\x15\x02\u012D\u0129\x03\x02\x02\x02\u012E" +
+    "\u0131\x03\x02\x02\x02\u012F\u012D\x03\x02\x02\x02\u012F\u0130\x03\x02" +
+    "\x02\x02\u0130\u0133\x03\x02\x02\x02\u0131\u012F\x03\x02\x02\x02\u0132" +
+    "\u0125\x03\x02\x02\x02\u0132\u0133\x03\x02\x02\x02\u0133\x0F\x03\x02\x02" +
+    "\x02\u0134\u0135\x05\x12\n\x02\u0135\u013A\x05\x14\v\x02\u0136\u0137\x07" +
+    "$\x02\x02\u0137\u0139\x05\x14\v\x02\u0138\u0136\x03\x02\x02\x02\u0139" +
+    "\u013C\x03\x02\x02\x02\u013A\u0138\x03\x02\x02\x02\u013A\u013B\x03\x02" +
+    "\x02\x02\u013B\u013D\x03\x02\x02\x02\u013C\u013A\x03\x02\x02\x02\u013D" +
+    "\u013E\x07$\x02\x02\u013E\x11\x03\x02\x02\x02\u013F\u0140\x07$\x02\x02" +
+    "\u0140\x13\x03\x02\x02\x02\u0141\u0144\x05\x16\f\x02\u0142\u0144\x03\x02" +
+    "\x02\x02\u0143\u0141\x03\x02\x02\x02\u0143\u0142\x03\x02\x02\x02\u0144" +
+    "\x15\x03\x02\x02\x02\u0145\u0149\x05\x18\r\x02\u0146\u0148\x05\x18\r\x02" +
+    "\u0147\u0146\x03\x02\x02\x02\u0148\u014B\x03\x02\x02\x02\u0149\u0147\x03" +
+    "\x02\x02\x02\u0149\u014A\x03\x02\x02\x02\u014A\x17\x03\x02\x02\x02\u014B" +
+    "\u0149\x03\x02\x02\x02\u014C\u0150\x05\xA2R\x02\u014D\u014F\x070\x02\x02" +
+    "\u014E\u014D\x03\x02\x02\x02\u014F\u0152\x03\x02\x02\x02\u0150\u014E\x03" +
+    "\x02\x02\x02\u0150\u0151\x03\x02\x02\x02\u0151\u0160\x03\x02\x02\x02\u0152" +
+    "\u0150\x03\x02\x02\x02\u0153\u0158\x05\x8AF\x02\u0154\u0158\x05\x98M\x02" +
+    "\u0155\u0158\x05\x8CG\x02\u0156\u0158\x05~@\x02\u0157\u0153\x03\x02\x02" +
+    "\x02\u0157\u0154\x03\x02\x02\x02\u0157\u0155\x03\x02\x02\x02\u0157\u0156" +
+    "\x03\x02\x02\x02\u0158\u015C\x03\x02\x02\x02\u0159\u015B\x070\x02\x02" +
+    "\u015A\u0159\x03\x02\x02\x02\u015B\u015E\x03\x02\x02\x02\u015C\u015A\x03" +
+    "\x02\x02\x02\u015C\u015D\x03\x02\x02\x02\u015D\u0160\x03\x02\x02\x02\u015E" +
+    "\u015C\x03\x02\x02\x02\u015F\u014C\x03\x02\x02\x02\u015F\u0157\x03\x02" +
+    "\x02\x02\u0160\x19\x03\x02\x02\x02\u0161\u0163\x070\x02\x02\u0162\u0161" +
+    "\x03\x02\x02\x02\u0163\u0166\x03\x02\x02\x02\u0164\u0162\x03\x02\x02\x02" +
+    "\u0164\u0165\x03\x02\x02\x02\u0165\u0167\x03\x02\x02\x02\u0166\u0164\x03" +
+    "\x02\x02\x02\u0167\u0169\x05\xA2R\x02\u0168\u0164\x03\x02\x02\x02\u0169" +
+    "\u016A\x03\x02\x02\x02\u016A\u0168\x03\x02\x02\x02\u016A\u016B\x03\x02" +
+    "\x02\x02\u016B\u016D\x03\x02\x02\x02\u016C\u016E\x070\x02\x02\u016D\u016C" +
+    "\x03\x02\x02\x02\u016E\u016F\x03\x02\x02\x02\u016F\u016D\x03\x02\x02\x02" +
+    "\u016F\u0170\x03\x02\x02\x02\u0170\x1B\x03\x02\x02\x02\u0171\u018C\x07" +
+    "\x9C\x02\x02\u0172\u018C\x071\x02\x02\u0173\u018C\x05\xA4S\x02\u0174\u018C" +
+    "\x05\x1E\x10\x02\u0175\u018C\x05\x98M\x02\u0176\u018C\x05\x82B\x02\u0177" +
+    "\u018C\x05\x9CO\x02\u0178\u018C\x05x=\x02\u0179\u018C\x05\x8EH\x02\u017A" +
+    "\u018C\x05\x8AF\x02\u017B\u018C\x05\x8CG\x02\u017C\u018C\x05\xA2R\x02" +
+    "\u017D\u018C\x05~@\x02\u017E\u018C\x05\x90I\x02\u017F\u018C\x05`1\x02" +
+    "\u0180\u018C\x05j6\x02\u0181\u018C\x05\\/\x02\u0182\u018C\x05P)\x02\u0183" +
+    "\u018C\x05R*\x02\u0184\u018C\x05V,\x02\u0185\u018C\x05T+\x02\u0186\u018C" +
+    "\x05X-\x02\u0187\u018C\x05|?\x02\u0188\u018C\x05\x9EP\x02\u0189\u018C" +
+    "\x05\x80A\x02\u018A\u018C\x05\xACW\x02\u018B\u0171\x03\x02\x02\x02\u018B" +
+    "\u0172\x03\x02\x02\x02\u018B\u0173\x03\x02\x02";
 sequenceParser._serializedATNSegment1 = "\x02\u018B\u0174\x03\x02\x02\x02\u018B\u0175\x03\x02\x02\x02\u018B\u0176" +
     "\x03\x02\x02\x02\u018B\u0177\x03\x02\x02\x02\u018B\u0178\x03\x02\x02\x02" +
     "\u018B\u0179\x03\x02\x02\x02\u018B\u017A\x03\x02\x02\x02\u018B\u017B\x03" +
@@ -6453,7 +6458,7 @@ sequenceParser._serializedATNSegment1 = "\x02\u018B\u0174\x03\x02\x02\x02\u018B\
     "\x03\x02\x02\x02\u01D3\u01D5\x050\x19\x02\u01D4\u01D3\x03\x02\x02\x02" +
     "\u01D5\u01D8\x03\x02\x02\x02\u01D6\u01D4\x03\x02\x02\x02\u01D6\u01D7\x03" +
     "\x02\x02\x02\u01D7\u01DE\x03\x02\x02\x02\u01D8\u01D6\x03\x02\x02\x02\u01D9" +
-    "\u01DD\x07\x86\x02\x02\u01DA\u01DD\x07\x87\x02\x02\u01DB\u01DD\x052\x1A" +
+    "\u01DD\x07\x88\x02\x02\u01DA\u01DD\x07\x89\x02\x02\u01DB\u01DD\x052\x1A" +
     "\x02\u01DC\u01D9\x03\x02\x02\x02\u01DC\u01DA\x03\x02\x02\x02\u01DC\u01DB" +
     "\x03\x02\x02\x02\u01DD\u01E0\x03\x02\x02\x02\u01DE\u01DC\x03\x02\x02\x02" +
     "\u01DE\u01DF\x03\x02\x02\x02\u01DF/\x03\x02\x02\x02\u01E0\u01DE\x03\x02" +
@@ -6464,12 +6469,12 @@ sequenceParser._serializedATNSegment1 = "\x02\u018B\u0174\x03\x02\x02\x02\u018B\
     "\x03\x02\x02\x02\u01EC\u01E4\x03\x02\x02\x02\u01EC\u01E5\x03\x02\x02\x02" +
     "\u01EC\u01E6\x03\x02\x02\x02\u01EC\u01E7\x03\x02\x02\x02\u01EC\u01E8\x03" +
     "\x02\x02\x02\u01EC\u01E9\x03\x02\x02\x02\u01EC\u01EA\x03\x02\x02\x02\u01EC" +
-    "\u01EB\x03\x02\x02\x02\u01ED3\x03\x02\x02\x02\u01EE\u01F4\x07\x84\x02" +
-    "\x02\u01EF\u01F4\x07\x85\x02\x02\u01F0\u01F4\x07\x86\x02\x02\u01F1\u01F4" +
-    "\x07\x87\x02\x02\u01F2\u01F4\x03\x02\x02\x02\u01F3\u01EE\x03\x02\x02\x02" +
+    "\u01EB\x03\x02\x02\x02\u01ED3\x03\x02\x02\x02\u01EE\u01F4\x07\x86\x02" +
+    "\x02\u01EF\u01F4\x07\x87\x02\x02\u01F0\u01F4\x07\x88\x02\x02\u01F1\u01F4" +
+    "\x07\x89\x02\x02\u01F2\u01F4\x03\x02\x02\x02\u01F3\u01EE\x03\x02\x02\x02" +
     "\u01F3\u01EF\x03\x02\x02\x02\u01F3\u01F0\x03\x02\x02\x02\u01F3\u01F1\x03" +
     "\x02\x02\x02\u01F3\u01F2\x03\x02\x02\x02\u01F45\x03\x02\x02\x02\u01F5" +
-    "\u01F8\x07T\x02\x02\u01F6\u01F9\x07)\x02\x02\u01F7\u01F9\x07\x97\x02\x02" +
+    "\u01F8\x07T\x02\x02\u01F6\u01F9\x07)\x02\x02\u01F7\u01F9\x07\x99\x02\x02" +
     "\u01F8\u01F6\x03\x02\x02\x02\u01F8\u01F7\x03\x02\x02\x02\u01F8\u01F9\x03" +
     "\x02\x02\x02\u01F9\u0204\x03\x02\x02\x02\u01FA\u01FC\x07k\x02\x02\u01FB" +
     "\u01FD\x07)\x02\x02\u01FC\u01FB\x03\x02\x02\x02\u01FC\u01FD\x03\x02\x02" +
@@ -6488,9 +6493,9 @@ sequenceParser._serializedATNSegment1 = "\x02\u018B\u0174\x03\x02\x02\x02\u018B\
     "\x02\u0219I\x03\x02\x02\x02\u021A\u021B\t\f\x02\x02\u021BK\x03\x02\x02" +
     "\x02\u021C\u021F\x07b\x02\x02\u021D\u021E\x07\x18\x02\x02\u021E\u0220" +
     "\x07+\x02\x02\u021F\u021D\x03\x02\x02\x02\u021F\u0220\x03\x02\x02\x02" +
-    "\u0220\u022C\x03\x02\x02\x02\u0221\u0224\x07t\x02\x02\u0222\u0223\x07" +
+    "\u0220\u022C\x03\x02\x02\x02\u0221\u0224\x07u\x02\x02\u0222\u0223\x07" +
     "\x18\x02\x02\u0223\u0225\x07+\x02\x02\u0224\u0222\x03\x02\x02\x02\u0224" +
-    "\u0225\x03\x02\x02\x02\u0225\u022C\x03\x02\x02\x02\u0226\u0229\x07\x80" +
+    "\u0225\x03\x02\x02\x02\u0225\u022C\x03\x02\x02\x02\u0226\u0229\x07\x82" +
     "\x02\x02\u0227\u0228\x07\x18\x02\x02\u0228\u022A\x07+\x02\x02\u0229\u0227" +
     "\x03\x02\x02\x02\u0229\u022A\x03\x02\x02\x02\u022A\u022C\x03\x02\x02\x02" +
     "\u022B\u021C\x03\x02\x02\x02\u022B\u0221\x03\x02\x02\x02\u022B\u0226\x03" +
@@ -6536,9 +6541,9 @@ sequenceParser._serializedATNSegment1 = "\x02\u018B\u0174\x03\x02\x02\x02\u018B\
     "\x02\x02\x02\u028B\u028C\x03\x02\x02\x02\u028C\u028E\x03\x02\x02\x02\u028D" +
     "\u028B\x03\x02\x02\x02\u028E\u028F\x05v<\x02\u028F\u0290\x07\x17\x02\x02" +
     "\u0290c\x03\x02\x02\x02\u0291\u0294\x07_\x02\x02\u0292\u0295\x07)\x02" +
-    "\x02\u0293\u0295\x07\x97\x02\x02\u0294\u0292\x03\x02\x02\x02\u0294\u0293" +
+    "\x02\u0293\u0295\x07\x99\x02\x02\u0294\u0292\x03\x02\x02\x02\u0294\u0293" +
     "\x03\x02\x02\x02\u0294\u0295\x03\x02\x02\x02\u0295\u02A0\x03\x02\x02\x02" +
-    "\u0296\u0298\x07s\x02\x02\u0297\u0299\x07)\x02\x02\u0298\u0297\x03\x02" +
+    "\u0296\u0298\x07t\x02\x02\u0297\u0299\x07)\x02\x02\u0298\u0297\x03\x02" +
     "\x02\x02\u0298\u0299\x03\x02\x02\x02\u0299\u02A0\x03\x02\x02\x02\u029A" +
     "\u029C\x07`\x02\x02\u029B\u029D\x07)\x02\x02\u029C\u029B\x03\x02\x02\x02" +
     "\u029C\u029D\x03\x02\x02\x02\u029D\u02A0\x03\x02\x02\x02\u029E\u02A0\x07" +
@@ -6575,9 +6580,9 @@ sequenceParser._serializedATNSegment1 = "\x02\u018B\u0174\x03\x02\x02\x02\u018B\
     "\u02E2\u02D8\x03\x02\x02\x02\u02E2\u02DD\x03\x02\x02\x02\u02E3o\x03\x02" +
     "\x02\x02\u02E4\u02E7\x07^\x02\x02\u02E5\u02E6\x07\x18\x02\x02\u02E6\u02E8" +
     "\x07*\x02\x02\u02E7\u02E5\x03\x02\x02\x02\u02E7\u02E8\x03\x02\x02\x02" +
-    "\u02E8\u02F4\x03\x02\x02\x02\u02E9\u02EC\x07r\x02\x02\u02EA\u02EB\x07" +
+    "\u02E8\u02F4\x03\x02\x02\x02\u02E9\u02EC\x07s\x02\x02\u02EA\u02EB\x07" +
     "\x18\x02\x02\u02EB\u02ED\x07*\x02\x02\u02EC\u02EA\x03\x02\x02\x02\u02EC" +
-    "\u02ED\x03\x02\x02\x02\u02ED\u02F4\x03\x02\x02\x02\u02EE\u02F1\x07\x81" +
+    "\u02ED\x03\x02\x02\x02\u02ED\u02F4\x03\x02\x02\x02\u02EE\u02F1\x07\x83" +
     "\x02\x02\u02EF\u02F0\x07\x18\x02\x02\u02F0\u02F2\x07*\x02\x02\u02F1\u02EF" +
     "\x03\x02\x02\x02\u02F1\u02F2\x03\x02\x02\x02\u02F2\u02F4\x03\x02\x02\x02" +
     "\u02F3\u02E4\x03\x02\x02\x02\u02F3\u02E9\x03\x02\x02\x02\u02F3\u02EE\x03" +
@@ -6597,8 +6602,8 @@ sequenceParser._serializedATNSegment1 = "\x02\u018B\u0174\x03\x02\x02\x02\u018B\
     "\x02\x02\u0311\u0313\x03\x02\x02\x02\u0312\u0310\x03\x02\x02\x02\u0313" +
     "\u0315\x07\x17\x02\x02\u0314\u02F8\x03\x02\x02\x02\u0314\u0308\x03\x02" +
     "\x02\x02\u0314\u030C\x03\x02\x02\x02\u0315s\x03\x02\x02\x02\u0316\u0317" +
-    "\x07\x96\x02\x02\u0317\u0318\x07\x1B\x02\x02\u0318\u0319\x07.\x02\x02" +
-    "\u0319u\x03\x02\x02\x02\u031A\u031B\x07\x99\x02\x02\u031Bw\x03\x02\x02" +
+    "\x07\x98\x02\x02\u0317\u0318\x07\x1B\x02\x02\u0318\u0319\x07.\x02\x02" +
+    "\u0319u\x03\x02\x02\x02\u031A\u031B\x07\x9B\x02\x02\u031Bw\x03\x02\x02" +
     "\x02\u031C\u031D\x07\x15\x02\x02\u031D\u0325\x07\x17\x02\x02\u031E\u0320" +
     "\x07\x04\x02\x02\u031F\u031E\x03\x02\x02\x02\u0320\u0323\x03\x02\x02\x02" +
     "\u0321\u031F\x03\x02\x02\x02\u0321\u0322\x03\x02\x02\x02\u0322\u0324\x03" +
@@ -6649,13 +6654,13 @@ sequenceParser._serializedATNSegment1 = "\x02\u018B\u0174\x03\x02\x02\x02\u018B\
     "\x02\x02\u0380\u0382\x03\x02\x02\x02\u0381\u037F\x03\x02\x02\x02\u0382" +
     "\u0384\x07\x02\x02\x03\u0383\u035C\x03\x02\x02\x02\u0383\u0379\x03\x02" +
     "\x02\x02\u0384\x81\x03\x02\x02\x02\u0385\u038A\x076\x02\x02\u0386\u038B" +
-    "\x05\xA2R\x02\u0387\u038B\x07\x18\x02\x02\u0388\u038B\x07\x99\x02\x02" +
+    "\x05\xA2R\x02\u0387\u038B\x07\x18\x02\x02\u0388\u038B\x07\x9B\x02\x02" +
     "\u0389\u038B\x070\x02\x02\u038A\u0386\x03\x02\x02\x02\u038A\u0387\x03" +
     "\x02\x02\x02\u038A\u0388\x03\x02\x02\x02\u038A\u0389\x03\x02\x02\x02\u038B" +
     "\u038C\x03\x02\x02\x02\u038C\u038A\x03\x02\x02\x02\u038C\u038D\x03\x02" +
     "\x02\x02\u038D\u038E\x03\x02\x02\x02\u038E\u039C\x07\x17\x02\x02\u038F" +
     "\u0397\x076\x02\x02\u0390\u0396\x05\xA2R\x02\u0391\u0396\x07\x18\x02\x02" +
-    "\u0392\u0396\x07\x99\x02\x02\u0393\u0396\x070\x02\x02\u0394\u0396\x07" +
+    "\u0392\u0396\x07\x9B\x02\x02\u0393\u0396\x070\x02\x02\u0394\u0396\x07" +
     "\x04\x02\x02\u0395\u0390\x03\x02\x02\x02\u0395\u0391\x03\x02\x02\x02\u0395" +
     "\u0392\x03\x02\x02\x02\u0395\u0393\x03\x02\x02\x02\u0395\u0394\x03\x02" +
     "\x02\x02\u0396\u0399\x03\x02\x02\x02\u0397\u0395\x03\x02\x02\x02\u0397" +
@@ -6769,14 +6774,14 @@ sequenceParser._serializedATNSegment2 = "\u0424\x03\x02\x02\x02\u0427\u0428\x07\
     "\x02\x02\u0481\u0483\x07\x04\x02\x02\u0482\u0481\x03\x02\x02\x02\u0483" +
     "\u0486\x03\x02\x02\x02\u0484\u0482\x03\x02\x02\x02\u0484\u0485\x03\x02" +
     "\x02\x02\u0485\u048A\x03\x02\x02\x02\u0486\u0484\x03\x02\x02\x02\u0487" +
-    "\u048A\x07\"\x02\x02\u0488\u048A\x07\x99\x02\x02\u0489\u045C\x03\x02\x02" +
+    "\u048A\x07\"\x02\x02\u0488\u048A\x07\x9B\x02\x02\u0489\u045C\x03\x02\x02" +
     "\x02\u0489\u0465\x03\x02\x02\x02\u0489\u046E\x03\x02\x02\x02\u0489\u0472" +
     "\x03\x02\x02\x02\u0489\u0476\x03\x02\x02\x02\u0489\u0480\x03\x02\x02\x02" +
     "\u0489\u0487\x03\x02\x02\x02\u0489\u0488\x03\x02\x02\x02\u048A\xA3\x03" +
     "\x02\x02\x02\u048B\u048C\x07(\x02\x02\u048C\xA5\x03\x02\x02\x02\u048D" +
     "\u048E\x07\x17\x02\x02\u048E\xA7\x03\x02\x02\x02\u048F\u0490\t\x12\x02" +
     "\x02\u0490\xA9\x03\x02\x02\x02\u0491\u04AB\x072\x02\x02\u0492\u04AB\x07" +
-    "1\x02\x02\u0493\u04AB\x073\x02\x02\u0494\u04AB\x07\x9A\x02\x02\u0495\u04AB" +
+    "1\x02\x02\u0493\u04AB\x073\x02\x02\u0494\u04AB\x07\x9C\x02\x02\u0495\u04AB" +
     "\x07\x19\x02\x02\u0496\u0497\x07\x1D\x02\x02\u0497\u04AB\n\x13\x02\x02" +
     "\u0498\u0499\x07\x1E\x02\x02\u0499\u04AB\n\x14\x02\x02\u049A\u04AB\x07" +
     " \x02\x02\u049B\u04AB\x07\x1F\x02\x02\u049C\u04AB\x07X\x02\x02\u049D\u04AB" +
@@ -6784,7 +6789,7 @@ sequenceParser._serializedATNSegment2 = "\u0424\x03\x02\x02\x02\u0427\u0428\x07\
     "\u04AB\x07T\x02\x02\u04A1\u04AB\x07S\x02\x02\u04A2\u04AB\x07W\x02\x02" +
     "\u04A3\u04AB\x07Z\x02\x02\u04A4\u04AB\x07m\x02\x02\u04A5\u04AB\x07j\x02" +
     "\x02\u04A6\u04AB\x07k\x02\x02\u04A7\u04AB\x07n\x02\x02\u04A8\u04AB\x07" +
-    "\x84\x02\x02\u04A9\u04AB\x07\x85\x02\x02\u04AA\u0491\x03\x02\x02\x02\u04AA" +
+    "\x86\x02\x02\u04A9\u04AB\x07\x87\x02\x02\u04AA\u0491\x03\x02\x02\x02\u04AA" +
     "\u0492\x03\x02\x02\x02\u04AA\u0493\x03\x02\x02\x02\u04AA\u0494\x03\x02" +
     "\x02\x02\u04AA\u0495\x03\x02\x02\x02\u04AA\u0496\x03\x02\x02\x02\u04AA" +
     "\u0498\x03\x02\x02\x02\u04AA\u049A\x03\x02\x02\x02\u04AA\u049B\x03\x02" +
@@ -7725,6 +7730,7 @@ class Resource_formatContext extends ParserRuleContext_1.ParserRuleContext {
     AmpAudioEmbed() { return this.tryGetToken(sequenceParser.AmpAudioEmbed, 0); }
     AmpDocumentEmbed() { return this.tryGetToken(sequenceParser.AmpDocumentEmbed, 0); }
     AmpStillImageFilmEmbed() { return this.tryGetToken(sequenceParser.AmpStillImageFilmEmbed, 0); }
+    AmpDocumentDownload() { return this.tryGetToken(sequenceParser.AmpDocumentDownload, 0); }
     constructor(parent, invokingState) {
         super(parent, invokingState);
     }
@@ -7889,6 +7895,7 @@ exports.Article_formatContext = Article_formatContext;
 class Document_formatContext extends ParserRuleContext_1.ParserRuleContext {
     AmpDocument() { return this.tryGetToken(sequenceParser.AmpDocument, 0); }
     AmpDocumentLink() { return this.tryGetToken(sequenceParser.AmpDocumentLink, 0); }
+    AmpDocumentDownload() { return this.tryGetToken(sequenceParser.AmpDocumentDownload, 0); }
     AmpDocumentEmbed() { return this.tryGetToken(sequenceParser.AmpDocumentEmbed, 0); }
     constructor(parent, invokingState) {
         super(parent, invokingState);
@@ -8001,6 +8008,7 @@ exports.Op_article_formatContext = Op_article_formatContext;
 class Op_document_formatContext extends ParserRuleContext_1.ParserRuleContext {
     OpAmpDocumentLink() { return this.tryGetToken(sequenceParser.OpAmpDocumentLink, 0); }
     OpAmpDocument() { return this.tryGetToken(sequenceParser.OpAmpDocument, 0); }
+    OpAmpDocumentDownload() { return this.tryGetToken(sequenceParser.OpAmpDocumentDownload, 0); }
     OpAmpDocumentEmbed() { return this.tryGetToken(sequenceParser.OpAmpDocumentEmbed, 0); }
     constructor(parent, invokingState) {
         super(parent, invokingState);

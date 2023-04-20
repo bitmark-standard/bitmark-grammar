@@ -46,22 +46,22 @@ conversation:
 ;
 
 conversation_left_1:
-    BitConversationLeft1 format2 CL NL* ( bitElem NL* )* partner1 NL* s_and_w+
+    BitConversationLeft1 format2 CL NL* ( bitElem NL* )* partner1? NL* s_and_w+
 ;
 conversation_right_1:
-    BitConversationRight1 format2 CL NL* ( bitElem NL* )* partner1 NL* s_and_w+
+    BitConversationRight1 format2 CL NL* ( bitElem NL* )* partner1? NL* s_and_w+
 ;
 conversation_right_1_thought:
-    BitConversationRight1Thought format2 CL NL* ( bitElem NL* )* partner1 NL* s_and_w+
+    BitConversationRight1Thought format2 CL NL* ( bitElem NL* )* partner1? NL* s_and_w+
 ;
 conversation_right_1_scream: 
-    BitConversationRight1Scream format2 CL NL* ( bitElem NL* )* partner1 NL* s_and_w+
+    BitConversationRight1Scream format2 CL NL* ( bitElem NL* )* partner1? NL* s_and_w+
 ;
 conversation_left_1_thought:
-    BitConversationLeft1Thought format2 CL NL* ( bitElem NL* )* partner1 NL* s_and_w+
+    BitConversationLeft1Thought format2 CL NL* ( bitElem NL* )* partner1? NL* s_and_w+
 ;
 conversation_left_1_scream:
-    BitConversationLeft1Scream format2 CL NL* ( bitElem NL* )* partner1 NL* s_and_w+
+    BitConversationLeft1Scream format2 CL NL* ( bitElem NL* )* partner1? NL* s_and_w+
 ;
 
 
@@ -139,6 +139,7 @@ resource_format:
  | AmpDocumentLink | AmpAppLink | AmpWebsiteLink | AmpStillImageFilmLink
  | AmpVideoEmbed | AmpAudioEmbed | AmpDocumentEmbed
  | AmpDocumentEmbed | AmpStillImageFilmEmbed
+ | AmpDocumentDownload
  ;
  
 resource_format_extra:
@@ -161,13 +162,14 @@ image_format:  // No [ included
   ;
 video_format:    (AmpVideo | AmpVideoLink | AmpVideoEmbed) ( COLON Video_type )? ;
 article_format:  AmpArticle | AmpArticleLink ;
-document_format: AmpDocument | AmpDocumentLink | AmpDocumentEmbed ;
+document_format: AmpDocument | AmpDocumentLink | AmpDocumentDownload | AmpDocumentEmbed ;
 app_format:      AmpApp | AmpAppLink  ;
 website_format:  AmpWebsite | AmpWebsiteLink  ;
 stillimagefilm_format: AmpStillImageFilm | AmpStillImageFilmLink | AmpStillImageFilmEmbed;
 
 op_article_format:  OpAmpArticleLink | OpAmpArticle ;
-op_document_format: OpAmpDocumentLink | OpAmpDocument | OpAmpDocumentEmbed ;
+op_document_format: OpAmpDocumentLink | OpAmpDocument
+		    | OpAmpDocumentDownload | OpAmpDocumentEmbed ;
 op_app_format:      OpAmpApp | OpAmpAppLink  ;
 op_website_format:  OpAmpWebsite | OpAmpWebsiteLink ;
 op_video_format:    OpAmpVideo ( COLON Video_type )? 
