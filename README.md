@@ -4,7 +4,10 @@
 
 ##### Update
 
-This is now a public package. 
+Re: auto-publish using github action
+
+Stopped using github action to auto-publish due to an unknown difficulty, and we opted for the webhook we used to use to trigger CircleCI publish script.
+
 
 
 ##### Install
