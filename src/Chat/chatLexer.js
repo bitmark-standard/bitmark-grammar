@@ -1,5 +1,5 @@
 "use strict";
-// Generated from ./Chat//chatLexer.g4 by ANTLR 4.9.0-SNAPSHOT
+// Generated from ./Chat/chatLexer.g4 by ANTLR 4.9.0-SNAPSHOT
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.chatLexer = void 0;
 const ATNDeserializer_1 = require("antlr4ts/atn/ATNDeserializer");

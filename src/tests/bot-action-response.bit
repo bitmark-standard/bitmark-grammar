@@ -64,3 +64,16 @@ Der Entscheid darüber liegt nicht bei der Versicherung, sondern ist **gesetzlic
 ===
 
 
+[.bot-action-response]
+===
+[!Ja, das weiss ich]
+[%A]
+[@reaction:celebrate]
+👍 Cool!
+===
+[!Das war mir nicht bewusst]
+[%B]
+😅
+[@reaction:like]
+===
+THIS IS THE FOOTER

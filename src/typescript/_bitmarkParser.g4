@@ -152,10 +152,10 @@ bot_action_announce:       BitBotActionAnnounce format CL NL* ( bitElem NL* )+ ;
 bot_action_save:           BitBotActionSave format CL NL* ( bitElem NL* )+ ;
 bot_action_remind:         BitBotActionRemind format CL NL* ( bitElem NL* )+ ;
 //
-bot_action_response:	   BitBotActionResponse format CL NL* ( bitElem NL* )+     bot_action+ HSPL footer? NL* ;
-bot_action_true_false:	   BitBotActionTrueFalse format CL NL* ( bitElem NL* )+    bot_action+ HSPL footer? NL* ;
-bot_action_rating_number:  BitBotActionRatingNumber format CL NL* ( bitElem NL* )+ bot_action+ HSPL footer? NL* ;
-bot_action_rating_stars:   BitBotActionRatingStars format CL NL* ( bitElem NL* )+  ;
+bot_action_response:	   BitBotActionResponse format CL NL* ( bitElem NL* )*     bot_action+ HSPL footer? NL* ;
+bot_action_true_false:	   BitBotActionTrueFalse format CL NL* ( bitElem NL* )*    bot_action+ HSPL footer? NL* ;
+bot_action_rating_number:  BitBotActionRatingNumber format CL NL* ( bitElem NL* )* bot_action+ HSPL footer? NL* ;
+bot_action_rating_stars:   BitBotActionRatingStars format CL NL* ( bitElem NL* )*  ;
 //
 bot_action:		   HSPL bo_actions   ;
 bo_actions:		   (NL* boacts NL*)+ ;

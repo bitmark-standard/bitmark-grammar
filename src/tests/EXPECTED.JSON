@@ -13257,8 +13257,36 @@
                 }
             ]
         }
+    },
+    {
+        "bitmark": "[.bot-action-response]\n===\n[!Ja, das weiss ich]\n[%A]\n[@reaction:celebrate]\n👍 Cool!\n===\n[!Das war mir nicht bewusst]\n[%B]\n😅\n[@reaction:like]\n===\nTHIS IS THE FOOTER",
+        "bit": {
+            "type": "bot-action-response",
+            "format": "bitmark--",
+            "body": "",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "responses": [
+                {
+                    "response": "Ja, das weiss ich",
+                    "reaction": "celebrate",
+                    "item": "A",
+                    "feedback": "👍 Cool!"
+                },
+                {
+                    "response": "Das war mir nicht bewusst",
+                    "reaction": "like",
+                    "item": "B",
+                    "feedback": "😅"
+                }
+            ],
+            "footer": "THIS IS THE FOOTER"
+        }
     }
 ]
+
 <<<<./tests/bot-action-true-false.bit
 [
     {
