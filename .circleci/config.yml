@@ -38,9 +38,13 @@ jobs:
       - run:
           name: Run tests
           command: npm test
-
       - run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/repo/.npmrc
       - run: cat ~/repo/.npmrc
+      - run:
+          name: Git config
+          command: |
+            git config --global user.email "build@circleci.com" && \
+            git config --global user.name "CircleCI"
       - run:
           name: Update version
           command: git reset --hard && npm version patch
