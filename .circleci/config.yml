@@ -28,19 +28,19 @@ jobs:
 
     steps:
       - checkout
-      - persist_to_workspace:
-          root: ~/repo
-          paths: .
-      - attach_workspace:
-          at: ~/repo
+      # - persist_to_workspace:
+      #     root: ~/repo
+      #     paths: .
+      # - attach_workspace:
+      #     at: ~/repo
       - run: pwd; ls
       - run: npm install
       - run:
           name: Run tests
           command: npm test
       # - run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/repo/.npmrc
-      # - run: cat ~/repo/.npmrc
       - run: npm config set //npm.pkg.github.com/:_authToken $NPM_TOKEN
+      - run: cat ~/repo/.npmrc
       - run:
           name: Git config
           command: |
