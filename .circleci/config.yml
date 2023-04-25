@@ -22,7 +22,7 @@ defaults: &defaults
 
 jobs:
   publish:
-    working_directory: ~/repo
+    # working_directory: ~/repo
     docker:
       - image: cimg/node:19.8.1-browsers
 
@@ -41,6 +41,7 @@ jobs:
       # - run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/repo/.npmrc
       - run: npm config set //npm.pkg.github.com/:_authToken $NPM_TOKEN
       - run: cat ~/repo/.npmrc
+      - run: cat ~/.npmrc
       - run:
           name: Git config
           command: |
