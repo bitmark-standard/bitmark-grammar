@@ -40,7 +40,7 @@ jobs:
           command: npm test
       # - run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/repo/.npmrc
       - run: npm config set //npm.pkg.github.com/:_authToken $NPM_TOKEN
-      - run: cat ~/repo/.npmrc
+      # - run: cat ~/repo/.npmrc
       - run: cat ~/.npmrc
       - run:
           name: Git config
