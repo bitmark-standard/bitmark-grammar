@@ -41,19 +41,26 @@ jobs:
 
       - run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/repo/.npmrc
       - run: cat ~/repo/.npmrc
+      - run:
+          name: Update version
+          command: git reset --hard && npm version patch
       - run: npm publish
       - run:
-          name: Trigger Bitmark API build & deploy
+          name: Push to GitHub
+          command: |
+            git push origin master
+      - run:
+          name: Trigger bitmark API pipeline
           command: |
             curl -X POST \
               -H "Content-Type: application/json" \
               -H "Circle-Token: $CIRCLE_TOKEN" \
-              https://circleci.com/api/v2/project/github/getMoreBrain/bitbook-api/pipeline
+              https://circleci.com/api/v2/project/github/getMoreBrain/bitbook-api/pipeline    
 
 workflows:
   push:
     when:
-      equal: [ "push", << pipeline.parameters.GHA_Event >> ]
+      equal: ["push", << pipeline.parameters.GHA_Event >>]
     jobs:
       - publish:
           # This is mandatory to trigger a pipeline when pushing a tag
