@@ -22,25 +22,26 @@ defaults: &defaults
 
 jobs:
   publish:
-    working_directory: ~/repo
+    # working_directory: ~/repo
     docker:
       - image: cimg/node:19.8.1-browsers
 
     steps:
       - checkout
-      - persist_to_workspace:
-          root: ~/repo
-          paths: .
-      - attach_workspace:
-          at: ~/repo
+      - add_ssh_keys:
+          fingerprints:
+            - "73:ac:6b:a7:bb:43:c9:0e:68:05:57:2c:a9:d9:27:a2"
+      # - persist_to_workspace:
+      #     root: ~/repo
+      #     paths: .
+      # - attach_workspace:
+      #     at: ~/repo
       - run: pwd; ls -lah
       - run: npm install
       - run:
           name: Run tests
           command: npm test
-      - run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/repo/.npmrc
       - run: npm config set //registry.npmjs.org/:_authToken $NPM_TOKEN
-      - run: cat ~/repo/.npmrc
       - run:
           name: Git config
           command: |
