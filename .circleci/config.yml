@@ -30,7 +30,7 @@ jobs:
       - checkout
       - add_ssh_keys:
           fingerprints:
-            - "73:ac:6b:a7:bb:43:c9:0e:68:05:57:2c:a9:d9:27:a2"
+            - "54:5b:52:c5:12:06:1f:29:76:69:b1:86:c8:f3:9c:53"
       # - persist_to_workspace:
       #     root: ~/repo
       #     paths: .
