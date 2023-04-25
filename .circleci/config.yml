@@ -42,6 +42,13 @@ jobs:
       - run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/repo/.npmrc
       - run: cat ~/repo/.npmrc
       - run: npm publish
+      - run:
+          name: Trigger Bitmark API build & deploy
+          command: |
+            curl -X POST \
+              -H "Content-Type: application/json" \
+              -H "Circle-Token: $CIRCLE_TOKEN" \
+              https://circleci.com/api/v2/project/github/getMoreBrain/bitbook-api/pipeline
 
 workflows:
   push:
