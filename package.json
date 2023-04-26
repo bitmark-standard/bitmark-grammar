@@ -13,8 +13,11 @@
   ],
   "description": "A bitmark parser",
   "scripts": {
-    "start": "cd src && node test-all.js --diff",
-    "test": "cd src && node test-all.js --diff"
+    "start": "npm install && cd src && node test-all.js --diff",
+    "test": "cd src && node test-all.js --diff",
+    "build": "export BITMARK_BUNDLE_VERSION=1.0.57 && npm run compile-grammar && npm run build-bundle",
+    "compile-grammar": "cd src && python tools/commonjs2es5js.py && make -f makefiles/makefile-es6.mk es6",
+    "build-bundle": "cd webpack && make -f makefile-es6.mk update"
   },
   "dependencies": {
     "antlr4ts": "^0.5.0-alpha.4",
@@ -43,7 +46,11 @@
     "esm": "^3.2.25",
     "node-es-module-loader": "^0.3.8",
     "performance-now": "^2.1.0",
-    "typescript": "^3.9.3"
+    "ts-node": "^10.9.1",
+    "typescript": "^3.9.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-closure-compiler": "^2.1.6"
   },
   "homepage": "https://github.com/bitmark-standard/bitmark-grammar#readme",
   "author": "Y.Noda",

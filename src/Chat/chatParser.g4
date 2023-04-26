@@ -70,10 +70,10 @@ conversation_left_1_scream:
 initiator:	name_text ( NL* imagebit )? ( name_alt )? ;
 partner:     	name_text ( NL* imagebit )? ( name_alt )? ;
 partner1:     	partner1_name ( NL* imagebit )? ( name_alt )? ;
-partner1_name:	AtPartner STRING CL  ;
+partner1_name:	AtPartner s_and_w CL  ;
 
 name_text:      OPHASH s_and_w CL ;
-name_alt:       OPATALT STRING CL ;
+name_alt:       OPATALT s_and_w CL ;
 chat_initiator: s_and_w ;
 chat_partner:   s_and_w ;
 sspl_chat_partner: sspl chat_partner ;

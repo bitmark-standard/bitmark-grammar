@@ -1,48 +1,51 @@
 /*
- * index.mjs
+ * index.js
  * 
  */
-/*
- * index.mjs
- * 
- */
-import fs        from 'fs';
-import process   from 'process';
-import now       from 'performance-now';
+import { process } from 'process';
 import R_clone from 'ramda/es/clone.js';
+import R_slice from 'ramda/es/slice.js';
 
-import {CharStreams} from './typescript-es6/antlr4es6/CharStreams.js';
-import {CommonTokenStream} from './typescript-es6/antlr4es6/CommonTokenStream.js';
-import {PredictionMode} from './typescript-es6/antlr4es6/atn/PredictionMode.js';
-import {ParserATNSimulator} from './typescript-es6/antlr4es6/atn/ParserATNSimulator.js';
-import {PredictionContextCache} from './typescript-es6/antlr4es6/atn/PredictionContext.js';
-import {ConsoleErrorListener} from './typescript-es6/antlr4es6/ConsoleErrorListener.js';
-import {BailErrorStrategy} from './typescript-es6/antlr4es6/BailErrorStrategy.js';
-import {DefaultErrorStrategy} from './typescript-es6/antlr4es6/DefaultErrorStrategy.js';
-import {ParseTreeWalker} from './typescript-es6/antlr4es6/tree/ParseTreeWalker.js';
 
+//let ANTLRInputStream = require('antlr4ts/ANTLRInputStream.js'); // @@@@
+import { CharStreams } from './typescript-es6/antlr4es6/CharStreams.js';
+import { CommonTokenStream } from './typescript-es6/antlr4es6/CommonTokenStream.js';
+import { PredictionMode } from './typescript-es6/antlr4es6/atn/PredictionMode.js';
+import { BailErrorStrategy } from './typescript-es6/antlr4es6/BailErrorStrategy.js';
+//import { DefaultErrorStrategy } from './typescript-es6/antlr4es6/DefaultErrorStrategy.js';
+import { DefaultErrorStrategy } from './typescript-es6/antlr4es6/DefaultErrorStrategy.js';
+import { ParseTreeWalker } from './typescript-es6/antlr4es6/tree/ParseTreeWalker.js';
+//
 import { bitmarkLexer } from './typescript-es6/bitmarkLexer.js';
 import { bitmarkParser } from './typescript-es6/bitmarkParser.js';
-import { BitmarkListener }  from './bitmark-listener.mjs';
+// close
 import { clozeLexer } from './typescript-es6/clozeLexer.js';
 import { clozeParser } from './typescript-es6/clozeParser.js';
+// match
 import { matchLexer } from './typescript-es6/matchLexer.js';
 import { matchParser } from './typescript-es6/matchParser.js';
+// multiple-choice-*
 import { choiceLexer } from './typescript-es6/choiceLexer.js';
 import { choiceParser } from './typescript-es6/choiceParser.js';
+
 import { interviewLexer } from './typescript-es6/interviewLexer.js';
 import { interviewParser } from './typescript-es6/interviewParser.js';
+
 import { truefalseLexer } from './typescript-es6/truefalseLexer.js';
 import { truefalseParser } from './typescript-es6/truefalseParser.js';
+
 import { flashcardLexer } from './typescript-es6/flashcardLexer.js';
 import { flashcardParser } from './typescript-es6/flashcardParser.js';
+
 import { chatLexer } from './typescript-es6/chatLexer.js';
 import { chatParser } from './typescript-es6/chatParser.js';
+
 import { sequenceLexer } from './typescript-es6/sequenceLexer.js';
 import { sequenceParser } from './typescript-es6/sequenceParser.js';
 
+import { BitmarkListener } from './bitmark-listener.mjs';
 import { JSON_BIT_TEMPLATES } from './bit-template.mjs';
-import {BitUtil} from './bit-utils.mjs';
+import { BitUtil } from './bit-utils.mjs';
 
 const JSON_BITS = [".vendor-amcharts-5-chart"];
 
@@ -83,10 +86,29 @@ class Preprocessor {
   is_a_json_bit(text) {
     if (text!==undefined) {
       let x = text.match(/\S*\[(\.[^\]\[]+)\]/);
-      let s = x[1].replace(/\:.*$/, '');  // remove format spec.      
+      let s = x[1].replace(/\:.*$/, '');  // remove format spec.
       return 0<=JSON_BITS.indexOf(s) ? true : false;
     }
     return false;
+  }
+
+  has_a_url(text) {
+    let re = /\[(&audio|&image|&video|&article|&document|&app|&website|&still-image|@src[0-9]x)[A-Za-z\-]*:(http|https|file):\/\/.*?\](?=\n|\[@)/g;  // look for one
+    let m = text.match(re);
+    return m && 0 < m.length? true : false;
+  }
+
+  escape_bracket_in_url_if_any(text) {
+    let re = /\[((&audio|&image|&video|&article|&document|&app|&website|&still-image|@src[0-9]x)[A-Za-z\-]*:(http|https|file):\/\/.*?)\](?=\n|\[@)/g;  // look for all
+    let text_repl = text;
+    let m;
+
+    while ((m = re.exec(text_repl)) !== null) {
+      let mr = m[1].replace(/\[/g, '&#91;');
+          mr = mr.replace(/\]/g, '&#93;');
+      text_repl = text_repl.replace(m[1], mr);
+    }
+    return text_repl;
   }
 
   /* 
@@ -338,7 +360,13 @@ class BitmarkParser {
 	name: 'sequence',
 	lexer: sequenceLexer,
 	parser: sequenceParser
-      }, 
+      },
+      'menu': {
+	regex: /\n\[\.[ \t]*menu-3/,
+	name: 'sequence',
+	lexer: sequenceLexer,
+	parser: sequenceParser
+      },      
       'default': {
 	regex: null,
 	name: null,
@@ -367,12 +395,18 @@ class BitmarkParser {
 
     // Tweak the stray bitheads
     let prep = new Preprocessor(this.source);
-    let replaced, x_array;
+    let replaced = splitted_text, x_array=[], y_array=[];
+
+    if (prep.has_a_url(splitted_text)) {
+      // Brackets contained in a URL is problem. Need to escape. No need x_array
+      replaced = prep.escape_bracket_in_url_if_any(replaced);
+    }
+    if (prep.is_a_json_bit(splitted_text)) {
+      [replaced, x_array] = prep.escape_json_for_json_bits(replaced);
+    }
     
-    if (prep.is_a_json_bit(splitted_text))
-      [replaced, x_array] = prep.escape_json_for_json_bits(splitted_text);
-    else
-      [replaced, x_array] = prep.replace_stray_bitheads(splitted_text);
+    [replaced, y_array] = prep.replace_stray_bitheads(replaced);
+    x_array = y_array.concat(x_array);
     
     this.x_array = x_array;
     this.original_text = splitted_text;
@@ -411,8 +445,8 @@ class BitmarkParser {
     this.parser_vars.parser.isTrace = this.options.trace;
     this.parser_vars.parser._interp.predictionMode = PredictionMode.SLL;  // works!!
     this.parser_vars.printer = new BitmarkListener(this.parser_vars.errorlisten, 
-						   this.input_text,
-						   this.parser_vars.parser);
+							    this.input_text,
+							    this.parser_vars.parser);
     this.parser_vars.parser.addParseListener(this.parser_vars.printer);
     let tree = this.parser_vars.parser.bitmark();
     return this.parser_vars.printer.get_result();  // not json
@@ -423,7 +457,7 @@ class BitmarkParser {
     let pp = new Preprocessor();
     let bits = pp.split_bits(this.input_text);
     let allobjs = [];
-    const t0 = now();
+    //const t0 = now();
     let entry = null;
     let parsed = false;
 
@@ -492,9 +526,9 @@ class BitmarkParser {
 	allobjs = allobjs.concat(obj);
       }
     }
-    const t1 = now();
-    if (this.options.debug)
-      console.log(`Call to parser for 3 took ${t1 - t0} milliseconds.`);
+    //const t1 = now();
+    //if (this.options.debug)
+    //  console.log(`Call to parser for 3 took ${t1 - t0} milliseconds.`);
 
     let json = JSON.stringify(allobjs, null, 4);
     while (allobjs.length) { 
@@ -509,4 +543,5 @@ class BitmarkParser {
 };
 
 
-export { BitmarkParser, Preprocessor };
+export {BitmarkParser};
+export {Preprocessor};

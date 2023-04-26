@@ -2,51 +2,47 @@
  * index.js
  * 
  */
-const fs      = require('fs');
 const process = require('process');
-const now     = require('performance-now');
 const R       = require('ramda');
 
 
-//let ANTLRInputStream = require('antlr4ts/ANTLRInputStream.js'); // @@@@
-let CharStreams = require('antlr4ts/CharStreams.js');
-let CommonTokenStream = require('antlr4ts/CommonTokenStream.js');
-let PredictionMode = require('antlr4ts/atn/PredictionMode.js');
-let BailErrorStrategy = require('antlr4ts/BailErrorStrategy.js');
-//let DefaultErrorStrategy = require('antlr4ts/DefaultErrorStrategy.js');
-let errorstrategy = require('antlr4ts/DefaultErrorStrategy.js');
-let ParseTreeWalker = require('antlr4ts/tree/ParseTreeWalker.js');
+const CharStreams = require('antlr4ts/CharStreams.js');
+const CommonTokenStream = require('antlr4ts/CommonTokenStream.js');
+const PredictionMode = require('antlr4ts/atn/PredictionMode.js');
+const BailErrorStrategy = require('antlr4ts/BailErrorStrategy.js');
+const errorstrategy = require('antlr4ts/DefaultErrorStrategy.js');
+const ParseTreeWalker = require('antlr4ts/tree/ParseTreeWalker.js');
 //
-let bitmarkLexer = require('./typescript/bitmarkLexer.js');
-let bitmarkParser = require('./typescript/bitmarkParser.js');
+const bitmarkLexer = require('./typescript/bitmarkLexer.js');
+const bitmarkParser = require('./typescript/bitmarkParser.js');
 // close
-let clozeLexer = require('./Cloze/clozeLexer.js');
-let clozeParser = require('./Cloze/clozeParser.js');
+const clozeLexer = require('./Cloze/clozeLexer.js');
+const clozeParser = require('./Cloze/clozeParser.js');
 // match
-let matchLexer = require('./Match/matchLexer.js');
-let matchParser = require('./Match/matchParser.js');
+const matchLexer = require('./Match/matchLexer.js');
+const matchParser = require('./Match/matchParser.js');
 // multiple-choice-*
-let choiceLexer = require('./Choice/choiceLexer.js');
-let choiceParser = require('./Choice/choiceParser.js');
+const choiceLexer = require('./Choice/choiceLexer.js');
+const choiceParser = require('./Choice/choiceParser.js');
 
-let interviewLexer = require('./Interview/interviewLexer.js');
-let interviewParser = require('./Interview/interviewParser.js');
+const interviewLexer = require('./Interview/interviewLexer.js');
+const interviewParser = require('./Interview/interviewParser.js');
 
-let truefalseLexer = require('./Truefalse/truefalseLexer.js');
-let truefalseParser = require('./Truefalse/truefalseParser.js');
+const truefalseLexer = require('./Truefalse/truefalseLexer.js');
+const truefalseParser = require('./Truefalse/truefalseParser.js');
 
-let flashcardLexer = require('./Flashcard/flashcardLexer.js');
-let flashcardParser = require('./Flashcard/flashcardParser.js');
+const flashcardLexer = require('./Flashcard/flashcardLexer.js');
+const flashcardParser = require('./Flashcard/flashcardParser.js');
 
-let chatLexer = require('./Chat/chatLexer.js');
-let chatParser = require('./Chat/chatParser.js');
+const chatLexer = require('./Chat/chatLexer.js');
+const chatParser = require('./Chat/chatParser.js');
 
-let sequenceLexer = require('./Sequence/sequenceLexer.js');
-let sequenceParser = require('./Sequence/sequenceParser.js');
+const sequenceLexer = require('./Sequence/sequenceLexer.js');
+const sequenceParser = require('./Sequence/sequenceParser.js');
 
-let listener  = require('./bitmark-listener.js');
-let bit_tmpl = require('./bit-template.js');
-let but = require('./bit-utils.js');
+const listener  = require('./bitmark-listener.js');
+const bit_tmpl = require('./bit-template.js');
+const but = require('./bit-utils.js');
 
 const JSON_BITS = [".vendor-amcharts-5-chart"];
 
@@ -458,7 +454,7 @@ class BitmarkParser {
     let pp = new Preprocessor();
     let bits = pp.split_bits(this.input_text);
     let allobjs = [];
-    const t0 = now();
+    //const t0 = now();
     let entry = null;
     let parsed = false;
 
@@ -527,9 +523,9 @@ class BitmarkParser {
 	allobjs = allobjs.concat(obj);
       }
     }
-    const t1 = now();
-    if (this.options.debug)
-      console.log(`Call to parser for 3 took ${t1 - t0} milliseconds.`);
+    //const t1 = now();
+    //if (this.options.debug)
+    //  console.log(`Call to parser for 3 took ${t1 - t0} milliseconds.`);
 
     let json = JSON.stringify(allobjs, null, 4);
     while (allobjs.length) { 

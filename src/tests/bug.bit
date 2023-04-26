@@ -1,19 +1,6 @@
 [.conversation-right-1]
 Yoo!
 
-[.document]
-Die Texte und Aufgaben in diesem __fakultativen Teil B__ stellen ein Angebot für Lerner und Lerngruppen dar, die ihre sprachlichen Fähigkeiten zusätzlich erweitern möchten.
-[&document:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gesch_ft_kommerz_und_handel_958.png]
-
-[.document-link]
-Die Texte und Aufgaben in diesem __fakultativen Teil B__ stellen ein Angebot für Lerner und Lerngruppen dar, die ihre sprachlichen Fähigkeiten zusätzlich erweitern möchten.
-[&document-link:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gesch_ft_kommerz_und_handel_958.png]
-
-[.document-download]
-Die Texte und Aufgaben in diesem __fakultativen Teil B__ stellen ein Angebot für Lerner und Lerngruppen dar, die ihre sprachlichen Fähigkeiten zusätzlich erweitern möchten.
-[&document-download:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gesch_ft_kommerz_und_handel_958.png]
-
-
 [.bot-action-response]
 ===
 [!Ja, das weiss ich]
@@ -27,3 +14,14 @@ Die Texte und Aufgaben in diesem __fakultativen Teil B__ stellen ein Angebot fü
 [@reaction:like]
 ===
 THIS IS THE FOOTER
+
+[.conversation-right-1]
+[!conv right 1]
+[@partner:David  Foster]
+[&image:https://cdn.bitbook.education/avatars/cat_70x70@3.jpg]
+
+Au 1ᵉʳ juillet 2014, l’Association suisse des banquiers (ASB) a édicté les directives suivantes concernant les exigences minimales pour les financements hypothécaires: Pour financer une hypothèque, il faut un apport minimal de fonds propres à la valeur de nantissement. Ces fonds propres ne doivent pas provenir de l’avoir du 2ᵉ pilier (versement anticipé et mise en gage). Cette part minimale de fonds propres est de 10%.
+
+[.document]
+Body
+[&document:https://docs.bitmark.cloud/bit-books/iona_douglas/lektion_19/web-resources/documents/transcript_pedestrianisation_in_the_netherlands_1.pdf]

@@ -36,14 +36,15 @@ class Stack {
   push(obj) {
     this.bucket.push(obj);
   }
+
   pop() {
-    if (0 < this.bucket.length)
+    if (0 < this.bucket.length) {
       return this.bucket.pop();
+    }
     return null;  // underflow
   }
 
 }
 
-export {Stack};
 //export {Stack};  // node-es6.sh not accepts this
-//exports.Stack = Stack;   // old school
+export {Stack};   // old school

@@ -5,9 +5,11 @@
  *  Sep 24,2022
  */
 import R_clone from 'ramda/es/clone.js';
+import R_slice from 'ramda/es/slice.js';
 import { Stack } from './stack.mjs';
 import { BitUtil } from './bit-utils.mjs';
 import { JSON_BIT_TEMPLATES } from './bit-template.mjs';
+
 
 
 
@@ -19,8 +21,10 @@ log.info = logfun;
 log.debug = logfun;
 log.error = logfun;
 
+
 // kebabcase to camelcase
 const camelize = s => s.replace(/-./g, x=>x[1].toUpperCase())
+
 
 
 // This class defines a complete listener for a parse tree produced by bitmarkParser.
@@ -33,6 +37,7 @@ let BitmarkListener = function(error_listener, source, parser) {
   this.but = new BitUtil(source.trim());
   this.format = "";  // &image, &audio, &video etc
   this.resformat = "";
+  // type starts with one of these}; 
   this.resselfdesc = {'image-link': 'image-link',
 		      'audio-link': 'audio-link',
 		      'video-link': 'video-link',
@@ -51,21 +56,22 @@ let BitmarkListener = function(error_listener, source, parser) {
 		       '&app-link': 'appLink',
 		       '&website-link': 'websiteLink',
 		       '&document-link': 'documentLink',
+		       '&document-download': 'documentDownload',
 		      };
-   this.resimagegrp = ['screenshot', 'focus-image', 'photo', 'browser-image'];  // implicit image group
+  this.resimagegrp = ['screenshot', 'focus-image', 'photo', 'browser-image'];  // implicit image group
   this.reslist     = ['&image', '&audio', '&video', '&document', '&app', '&website', '&still-image-film', '&pdf'];
   this.fmtlist     = ['prosemirror', 'placeholder', 'text'];
   
   this.atdef_str   = ['date', 'location', 'book', 'duration', 'action', 'deepLink',
 		      'botAnnounceAt', 'botSaveAt', 'botSendAt', 'botRemindAt',
-		      'externalLink', 'videoCallLink', 'externalLinkText','textReference',
+		      'externalLink', 'videoCallLink', 'externalLinkText', 'textReference',
 		      'quotedPerson', 'kind', 'collection', 'book', 'padletId',
 		      'scormSource', 'posterImage', 'computerLanguage','icon', 'iconChar',
 		      'releaseDate', 'releaseVersion'
 		     ];
   this.atdef_num = ['focusX', 'focusY', 'numberOfStars'];
   this.bot_action_rating = [];  // for storing bot-action-rating at exitHint()
-
+  
   this.body_key = 'body';
   this.num_angleref = 0;
   return this;
@@ -123,7 +129,7 @@ BitmarkListener.prototype.push_tmpl = function(ctx, type, template=R_clone(JSON_
   
   if (-1 < ['bitmark++', 'bitmark--', 'text', 'json'].indexOf(bitfmt))
     b.bit.format = bitfmt;
-  
+
   this.stk.push(b);
   return res;
 };
@@ -174,9 +180,10 @@ BitmarkListener.prototype.enterBook = function(ctx) {
 BitmarkListener.prototype.enterChapter = function(ctx) {
   this.push_tmpl(ctx, 'chapter');
   // Added below 10/1/2020 set defaults
-  (this.stk.top()).bit['level'] = 1;
-  (this.stk.top()).bit['progress'] = true;
-  (this.stk.top()).bit['toc'] = true;
+  const bit = this.stk.top().bit;
+  bit['level'] = 1;
+  bit['progress'] = true;
+  bit['toc'] = true;
 };
 // Exit a parse tree produced by bitmarkParser#chapter.
 //BitmarkListener.prototype.exitChapter = function(ctx) {};
@@ -320,7 +327,8 @@ BitmarkListener.prototype.exitInstruction = function(ctx) {
   let code = this.but.getcode2(ctx);
   let re=/\[!(([^\]]|[\s])*)\]/s;  // accepts newline
   let val = this.but.get_bit_value(re, code);
-
+  const bit = this.stk.top().bit;
+  
   if (!val) {
     // There can be [!]
     return;
@@ -340,9 +348,12 @@ BitmarkListener.prototype.exitInstruction = function(ctx) {
       // For bot_action_rating_number
       if (val.match(/^[0-9]+$/))
 	val = parseInt(val);
-      let l = this.stk.top().bit.responses.length;
-      this.stk.top().bit.responses[l-1].response = val;
+      let l = bit.responses.length;
+      bit.responses[l-1].response = val;
       this.bot_action_rating.push(val);
+    }
+    else if (what==='menu') {
+      this.curr_bit_stk.third()['instruction'] = val;
     }
     else if (what != null) {
       let key_obj='';
@@ -360,7 +371,7 @@ BitmarkListener.prototype.exitInstruction = function(ctx) {
     }
     // Remove it from body
     if (what !== 'pair_multival') {
-      (this.stk.top()).bit.body = (this.stk.top()).bit.body.replace(code,'');
+      bit.body = bit.body.replace(code,'');
     }
   }
   else
@@ -374,6 +385,7 @@ BitmarkListener.prototype.exitHint = function(ctx) {
   let re=/\[\?([^\]]*)\]/;
   let val = this.but.get_bit_value(re, code);
   let what = this.curr_bit_stk.top();
+  const bit = this.stk.top().bit;
   
   if (what=='footer')
     return;  
@@ -384,65 +396,70 @@ BitmarkListener.prototype.exitHint = function(ctx) {
       (this.curr_bit_stk.second()).hint = val;
     }
     else if (what==='bot_action') {
-      let l = this.stk.top().bit.responses.length;
-      this.stk.top().bit.responses[l-1].hint = val;
+      let l = bit.responses.length;
+      bit.responses[l-1].hint = val;
+    }
+    else if (what==='menu') {
+      this.curr_bit_stk.third()['hint'] = val;
     }
     else {
       if (typeof what==='string' && what.startsWith('{'))
 	key_obj = what.split('$');
       if (typeof what==='string' && Array.isArray(key_obj) && key_obj.length===2) {
 	// bit.gaps.{1}.hint = val
-	(this.stk.top()).bit[key_obj[1]][key_obj[0]]['hint'] =  val;
+	bit[key_obj[1]][key_obj[0]]['hint'] =  val;
       }
       else if (what==='panswer' || what==='interview_qanda')
 	(this.curr_bit_stk.bottom()).hint = val;
       else if (typeof what === 'object')
 	what.hint = val;
       else
-	(this.stk.top()).bit['hint'] =  val;
+	bit['hint'] =  val;
     }
     // TODO key_obj.length < 2???
   }
   else {
-    (this.stk.top()).bit['hint'] =  val;
+    bit['hint'] =  val;
   }
-  (this.stk.top()).bit.body = (this.stk.top()).bit.body.replace(code,'');
+  bit.body = bit.body.replace(code,'');
 };
 
 BitmarkListener.prototype.enterHeaded_choices = function(ctx) {
     let p =  R_clone(JSON_BIT_TEMPLATES.Mct_placeholder);
     let n = 0;
-    if (this.stk.top().bit['placeholders'] === undefined) 
-	this.stk.top().bit['placeholders'] = [];
+    if (bit['placeholders'] === undefined) 
+	bit['placeholders'] = [];
     else
-	n = Object.keys(this.stk.top().bit['placeholders']).length;
+	n = Object.keys(bit['placeholders']).length;
     let key = `{${n}}`;
-    this.stk.top().bit['placeholders'][key] = p;
+    bit['placeholders'][key] = p;
     this.curr_bit_stk.push(key); // let children know the key
 };
 
 BitmarkListener.prototype.enterMcrsep = function(ctx) {
-  if ((this.stk.top()).bit.type.startsWith('multiple-choice'))  {
+  const bit = this.stk.top().bit;
+  
+  if (bit.type.startsWith('multiple-choice'))  {
     let quiz = R_clone(JSON_BIT_TEMPLATES.Mc_quiz);
-    (this.stk.top()).bit['quizzes'].push(quiz);
+    bit['quizzes'].push(quiz);
     // Push quiz to store group-wise inst, item, hint etc
     this.curr_bit_stk.push(quiz);
   }
-  else if ((this.stk.top()).bit.type.startsWith('multiple-response'))  {
+  else if (bit.type.startsWith('multiple-response'))  {
     let resp = R_clone(JSON_BIT_TEMPLATES.Mr_response);
-    (this.stk.top()).bit['quizzes'].push(resp);
+    bit['quizzes'].push(resp);
     // Push resp to store group-wise inst, item, hint etc
     this.curr_bit_stk.push(resp);
   }
-  else if ((this.stk.top()).bit.type.startsWith('true-false'))  {
+  else if (bit.type.startsWith('true-false'))  {
 
     let stmt = R_clone(JSON_BIT_TEMPLATES.True_false_stmt);
-    (this.stk.top()).bit['statements'].push(stmt);
+    bit['statements'].push(stmt);
     // Push resp to store group-wise inst, item, hint etc
     this.curr_bit_stk.push(stmt);
   }
   // Remove all === from body
-  (this.stk.top()).bit.body = (this.stk.top()).bit.body.replace(/\n?===\n?/g,'');
+  bit.body = bit.body.replace(/\n?===\n?/g,'');
 };
 
 BitmarkListener.prototype.enterMcrmisc = function(ctx) {
@@ -502,18 +519,19 @@ BitmarkListener.prototype.exitChoice_plus = function(ctx) {
   const re=/\[\+([^\]]*)\]/;
   let val = this.but.get_bit_value(re, code);
   let listname = bit_type.startsWith('highlight') ? 'texts' : 'options';
-
+  const bit = this.stk.top().bit;
+  
   if (bit_type==='bot-interview')
     return;   // TODO fix once JSON is defined
 
   let what = this.curr_bit_stk.top();
   if (what==='bot_action') {
-    let l = this.stk.top().bit.responses.length;
-    this.stk.top().bit.responses[l-1].response = val;
-    this.stk.top().bit.responses[l-1]['isCorrect'] = true;    
-    (this.stk.top()).bit.body = (this.stk.top()).bit.body.replace(code,''); 
+    let l = bit.responses.length;
+    bit.responses[l-1].response = val;
+    bit.responses[l-1]['isCorrect'] = true;    
+    bit.body = bit.body.replace(code,''); 
   }
-  else if ('placeholders' in (this.stk.top()).bit) {
+  else if ('placeholders' in bit) {
     // multi_choice_text inline choices
     let key = this.curr_bit_stk.top() === null ? '{0}' : this.curr_bit_stk.top();
     let opt;
@@ -522,22 +540,19 @@ BitmarkListener.prototype.exitChoice_plus = function(ctx) {
                 R_clone(JSON_BIT_TEMPLATES.Highlight_text_text);
     opt.text = val;
     opt.isCorrect = true;  // because plus
-    this.stk.top().bit['placeholders'][key][listname].push(opt);
+    bit['placeholders'][key][listname].push(opt);
   }
   else if (bit_type==='true-false') {
-    let bit = (this.stk.top()).bit;
-
     if (this.curr_bit_stk.size === 0) {
       console.error('True_false_stmt slot does not exist');
       return;
     }
     this.curr_bit_stk.top().statement = val;
     this.curr_bit_stk.top().isCorrect = true;
-    (this.stk.top()).bit.body = (this.stk.top()).bit.body.replace(code,''); 
+    bit.body = bit.body.replace(code,''); 
   }
   else {
     // multiple-choice+
-    let bit = (this.stk.top()).bit;
     let spl = this.get_multi_choice_keys(bit_type);
     
     if (1 < spl[0]) {
@@ -569,13 +584,13 @@ BitmarkListener.prototype.exitChoice_plus = function(ctx) {
 	(bit[spl[1]][sz1-1])[spl[2]] = val;
 	(bit[spl[1]][sz1-1]).isCorrect = true;  // bcz this is plus
       }
-      (this.stk.top()).bit.body = (this.stk.top()).bit.body.replace(code,'');
+      bit.body = bit.body.replace(code,'');
       this.curr_bit_stk.push(choice_obj);
       this.curr_bit_stk.push('cplus');
     }
     else {
       bit[spl[1]] = val;
-      (this.stk.top()).bit.body = (this.stk.top()).bit.body.replace(code,'');				
+      bit.body = bit.body.replace(code,'');				
     }
   }
   
@@ -588,18 +603,19 @@ BitmarkListener.prototype.exitChoice_minus = function(ctx) {
   const re=/\[\-([^\]]*)\]/;
   let val = this.but.get_bit_value(re, code);
   let listname = bit_type.startsWith('highlight') ? 'texts' : 'options';
-		
+  const bit = this.stk.top().bit;
+  
   if (bit_type==='bot-interview')
     return;   // TODO fix once JSON is defined
 
   let what = this.curr_bit_stk.top();
   if (what==='bot_action') {
-    let l = this.stk.top().bit.responses.length;
-    this.stk.top().bit.responses[l-1].response = val;
-    this.stk.top().bit.responses[l-1]['isCorrect'] = false;    
-    (this.stk.top()).bit.body = (this.stk.top()).bit.body.replace(code,''); 
+    let l = bit.responses.length;
+    bit.responses[l-1].response = val;
+    bit.responses[l-1]['isCorrect'] = false;    
+    bit.body = bit.body.replace(code,''); 
   }
-  else if ('placeholders' in (this.stk.top()).bit) {
+  else if ('placeholders' in bit) {
     // multi_choice_text inline choices
     let key = this.curr_bit_stk.top() === null ? '{0}' : this.curr_bit_stk.top();
     let opt;
@@ -611,23 +627,20 @@ BitmarkListener.prototype.exitChoice_minus = function(ctx) {
     opt.text = val;
     opt.isCorrect = false;  // because minus
 
-    this.stk.top().bit['placeholders'][key][listname].push(opt);    
+    bit['placeholders'][key][listname].push(opt);    
   }
   else if (bit_type==='true-false') {
-    let bit = (this.stk.top()).bit;
-
     if (this.curr_bit_stk.size === 0) {
       console.error('True_false_stmt slot does not exist');
       return;
     }
     this.curr_bit_stk.top().statement = val;
     this.curr_bit_stk.top().isCorrect = false;
-    (this.stk.top()).bit.body = (this.stk.top()).bit.body.replace(code,'');
+    bit.body = bit.body.replace(code,'');
   }
   else {
     // multiple-choice-
     let spl = this.get_multi_choice_keys(bit_type);
-    let bit = (this.stk.top()).bit;
 
     if (1 < spl[0]) {
       let sz1 = bit[spl[1]].length;
@@ -769,8 +782,10 @@ BitmarkListener.prototype.exitChoice_head = function(ctx) {
   const key = this.curr_bit_stk.top(); // let children know the key  
   const re=/\[\'([^\]]*)\]/;
   let val = this.but.get_bit_value(re, code);
-  this.stk.top().bit['placeholders'][key].prefix = val;
-  (this.stk.top()).bit.body = (this.stk.top()).bit.body.replace(code,'');		
+  const bit = this.stk.top().bit;
+  
+  bit['placeholders'][key].prefix = val;
+  bit.body = bit.body.replace(code,'');		
 }
 
 // Enter a parse tree produced by bitmarkParser#cloze_and_multiple_choice_text.
@@ -841,14 +856,16 @@ BitmarkListener.prototype.exitExample = function(ctx) {
   let val = this.but.get_bit_value(re, code);
   if (val === null)
     val = '';
+  let cbstk = this.curr_bit_stk;
   let cbit = this.curr_bit_stk.top();
   let type = this.stk.top().bit.type;
   let remove_from_body = false;
+  const bit = this.stk.top().bit;
   
   if (cbit==='pair' || cbit==='pquery' || cbit==='panswer') {
     let lastpair = this.stk.top().bit['pairs'].length-1;
-    this.stk.top().bit['pairs'][lastpair].isExample = true;
-    this.stk.top().bit['pairs'][lastpair].example = val.trim();
+    bit['pairs'][lastpair].isExample = true;
+    bit['pairs'][lastpair].example = val.trim();
     // Remove it from body
     remove_from_body = true;
   }
@@ -899,7 +916,7 @@ BitmarkListener.prototype.exitExample = function(ctx) {
     remove_from_body = true;
   }
   if (remove_from_body) {
-    (this.stk.top()).bit.body = (this.stk.top()).bit.body.replace(code,'');
+    bit.body = bit.body.replace(code,'');
   }
 };
 
@@ -943,7 +960,7 @@ BitmarkListener.prototype.exitEmphasis_ = function(ctx) {
 };
 BitmarkListener.prototype.exitDollarans = function(ctx) {
   let code = this.but.getcode(ctx);
-  let re=/\[\$(([^\]]|[\s])*)\]/s;  // accepts newline
+  const re=/\[\$(([^\]]|[\s])*)\]/s;  // accepts newline
 
   if (this.curr_bit_stk.top()==='interview_qanda') {
     let val = this.but.get_bit_value(re, code);
@@ -983,6 +1000,16 @@ BitmarkListener.prototype.exitShortans = function(ctx) {
   let cbit = this.curr_bit_stk.top();
   if (cbit==='interview_qanda') 
     (this.curr_bit_stk.second()).isShortAnswer = true;
+  (this.stk.top()).bit.body = (this.stk.top()).bit.body.replace(this.but.getcode(ctx),'');    
+};
+BitmarkListener.prototype.exitSample_soln_prop = function(ctx) {
+  let cbit = this.curr_bit_stk.top();
+  if (cbit==='interview_qanda') {
+    let code = this.but.getcode2(ctx).trim();
+    const re=/\[@sampleSolution:([^\]]+)\]/;
+    let val = this.but.get_bit_value(re, code);
+    (this.curr_bit_stk.second()).sampleSolution = val;
+  }
   (this.stk.top()).bit.body = (this.stk.top()).bit.body.replace(this.but.getcode(ctx),'');    
 };
 // 
@@ -1030,7 +1057,7 @@ BitmarkListener.prototype.exitTitle = function(ctx) {
   let val = this.but.get_title(code);
   let level = this.but.get_numhash(code);
   let bit = this.stk.top().bit;
-  
+
   if (0 < this.stk.size) {
     if (0 < level && bit.type == 'chapter') {
       this.stk.top().bit['title'] =  val;
@@ -1205,6 +1232,7 @@ BitmarkListener.prototype.exitPimagebit = function(ctx) {
 };
 
 BitmarkListener.prototype.exitResource_chained = function(ctx) {
+
   let code = this.but.getcode(ctx);
   // e.g. code=[@src2x::https://cdn.bitbook.education/avatars/cat_70x70@2.jpg][
   let [key, url] = this.but.get_url(code);
@@ -1213,7 +1241,8 @@ BitmarkListener.prototype.exitResource_chained = function(ctx) {
   let child = this.curr_bit_stk.top(); // video, audio, image, image-link etc
   let obname = child;
   let type = '';
-
+  const bit = this.stk.top().bit;
+  
   if (!this.resformat.toLowerCase().match(new RegExp(child.toLowerCase()), "i")) {
     parent = 'parser';
     child = 'excessResources';
@@ -1221,10 +1250,10 @@ BitmarkListener.prototype.exitResource_chained = function(ctx) {
   }
   else if (code[1]==='&') {
     child = this.RESOURCE_MAP['&'+child];
-    if (!this.stk.top().bit[parent])
-      this.stk.top().bit[parent] = {};    
-    if (!this.stk.top().bit[parent][child])
-      this.stk.top().bit[parent][child] = [];
+    if (!bit[parent])
+      bit[parent] = {};    
+    if (!bit[parent][child])
+      bit[parent][child] = [];
   }
   else {
     // Probably @def
@@ -1237,21 +1266,21 @@ BitmarkListener.prototype.exitResource_chained = function(ctx) {
   let re = /\[@([^:]*)\s*:\s*([^\]]*)\s*\]/g;
   let vals = this.but.get_bit_value_colonsep(re, code);
   // @defs == width, height, duration, etc
-  
+
   if (vals) {
-    if (key==='posterImage' && key in this.stk.top().bit[parent][child]) {
-      this.stk.top().bit[parent][child][key].src = vals[1];
-      this.stk.top().bit[parent][child][key].format = vals[1].split('.').pop();
+    if (key==='posterImage' && key in bit[parent][child]) {
+      bit[parent][child][key].src = vals[1];
+      bit[parent][child][key].format = vals[1].split('.').pop();
     }
     else if (child==='videoLink' && key.startsWith('src')) {
       key = 'thumbnails';
       // objects in array 
-      if (!(key in this.stk.top().bit[parent][child]))
-	this.stk.top().bit[parent][child][key] = [];
+      if (!(key in bit[parent][child]))
+	bit[parent][child][key] = [];
       let thumb = R_clone({ format: '', width: null, height: null });
       thumb[vals[0]] = url;
       thumb.format = url.split('.').pop();
-      this.stk.top().bit[parent][child].thumbnails.push(thumb);
+      bit[parent][child].thumbnails.push(thumb);
     }    
     else if (type) {
       if (!this.stk.top()[parent])
@@ -1266,7 +1295,7 @@ BitmarkListener.prototype.exitResource_chained = function(ctx) {
       this.stk.top()[parent][child][len-1][vals[0]] = vals[1];
     }
     else
-      this.stk.top().bit[parent][child][vals[0]] = vals[1];
+      bit[parent][child][vals[0]] = vals[1];
   }
   (this.stk.top()).bit.body = (this.stk.top()).bit.body.replace(code,'');
 };
@@ -1291,11 +1320,17 @@ BitmarkListener.prototype.exitImage_chained = function(ctx) {
   let child = this.curr_bit_stk.top().trim();
   key = key.substring(1).trim();
   url = url.trim();
-
+  
   if (1 < this.curr_bit_stk.size) {
     let second = this.curr_bit_stk.second();
-    if (second==='initiator'||second==='partner')
+    if (second==='initiator'||second==='partner') {
+      parent = second;
       child = 'avatarImage';
+    }
+    if (this.stk.top().bit[parent]===undefined)
+      this.stk.top().bit[parent] = {};
+    if (this.stk.top().bit[parent][child]===undefined)
+      this.stk.top().bit[parent][child] = {};
     this.stk.top().bit[parent][child][key] = url;
   }
   else {
@@ -1310,6 +1345,7 @@ BitmarkListener.prototype.exitImage_chained = function(ctx) {
 BitmarkListener.prototype.enterKey_title = function(ctx) {
   let code = this.but.getcode(ctx);
   let val = this.but.get_title(code);
+  
   if (0 < this.stk.size) {
     this.stk.top().bit.heading['forKeys'] =  val;
   }
@@ -1698,7 +1734,7 @@ BitmarkListener.prototype.exitAtdef_ = function(ctx) {
   let what = this.curr_bit_stk.top();
 
   if (0 < vals.length) {
-    if (vals[0] === 'format' || vals[0] === 'type')
+    if (what !== 'menu' && (vals[0] === 'format' || vals[0] === 'type'))
       vals[0] = '_'+vals[0];  // because those keys are already there
 
     if (-1 < this.atdef_str.indexOf(vals[0])) {
@@ -1707,6 +1743,9 @@ BitmarkListener.prototype.exitAtdef_ = function(ctx) {
     }
     else if (-1 < this.atdef_num.indexOf(vals[0])) {
       this.stk.top().bit[vals[0]] = parseInt(vals[1]);
+    }
+    else if (what==='website-link') {
+      this.stk.top().bit.resource.preview[vals[0]] = vals[1];
     }
     else if (what === 'bot_action') {
       // bot-action-response
@@ -1721,7 +1760,11 @@ BitmarkListener.prototype.exitAtdef_ = function(ctx) {
 	  return null; }
       }
       this.stk.top().bit.responses[l-1][vals[0]] = vals[1];
-    }    
+    }
+    else if (what==='menu') {
+      let fn = this.curr_bit_stk.second();
+      fn(code, vals[0], vals[1]);
+    }
     else {
       // @def values be in a list
       if (!(vals[0] in this.stk.top().bit)) {
@@ -1856,9 +1899,10 @@ BitmarkListener.prototype.exitConversation = function(ctx) {
 
 BitmarkListener.prototype.enterChat_initiator = function(ctx) {
   let code = this.but.getcode(ctx);
+  let alt = this.stk.top().bit.initiator.avatarImage.alt;
   (this.stk.top()).bit['chat'].push({
     name: (this.stk.top()).bit.initiator.name,
-    alt:'',
+    alt: alt,
     text: code,
     initiator: true
   });
@@ -1871,9 +1915,10 @@ BitmarkListener.prototype.exitChat_initiator = function(ctx) {
 
 BitmarkListener.prototype.enterChat_partner = function(ctx) {
   let code = this.but.getcode(ctx);
+  let alt = this.stk.top().bit.partner.avatarImage.alt;
   (this.stk.top()).bit['chat'].push({
     name: (this.stk.top()).bit.partner.name,
-    alt:'',
+    alt: alt,
     text: code,
     initiator: false
   });
@@ -1889,21 +1934,27 @@ BitmarkListener.prototype.enterInitiator = function(ctx) {
   this.curr_bit_stk.push('initiator');  // key for the  name
 };
 // Exit a parse tree produced by bitmarkParser#senderName.
-BitmarkListener.prototype.exitInitiator = function(ctx) {
-  // Remove it from body
-  let code = this.but.getcode(ctx);
-};
+//BitmarkListener.prototype.exitInitiator = function(ctx) {};
 
 // Enter a parse tree produced by bitmarkParser#receiverName.
 BitmarkListener.prototype.enterPartner = function(ctx) {
   this.curr_bit_stk.push('partner');  // key for the  name
 };
-
-// Exit a parse tree produced by bitmarkParser#receiverName.
-BitmarkListener.prototype.exitPartner = function(ctx) {
-  // Remove it from body
-  let code = this.but.getcode(ctx);
+BitmarkListener.prototype.enterPartner1 = function(ctx) {
+  this.curr_bit_stk.push('partner');  // key for the  name
 };
+BitmarkListener.prototype.exitPartner1_name = function(ctx) {
+  let code = this.but.getcode(ctx);
+  let [prop,name] = this.but.get_at_value(code);  // [@partner:name]
+  const key = this.curr_bit_stk.top();
+  if (this.stk.top().bit[key]===undefined)
+    this.stk.top().bit[key] = {};
+  (this.stk.top()).bit[key]['name'] = name;
+  (this.stk.top()).bit.body = (this.stk.top()).bit.body.replace(code,'');
+};
+//BitmarkListener.prototype.enterChat_partner1 = function(ctx) {};
+// Exit a parse tree produced by bitmarkParser#receiverName.
+//BitmarkListener.prototype.exitPartner = function(ctx) {};
 
 // Enter a parse tree produced by bitmarkParser#name_text.
 BitmarkListener.prototype.enterName_text = function(ctx) {
@@ -1918,7 +1969,14 @@ BitmarkListener.prototype.exitName_text = function(ctx) {
   let k = 'body';
   (this.stk.top()).bit.body = (this.stk.top()).bit.body.replace(code,'');
 };
-
+BitmarkListener.prototype.exitName_alt = function(ctx) {
+  let code = this.but.getcode(ctx);
+  let re = /\[@([^:]*)\s*:\s*([^\]]*)\s*\]/g;
+  let vals = this.but.get_bit_value_colonsep(re, code);
+  let slot = this.curr_bit_stk.top();
+  this.stk.top().bit[slot]['avatarImage'][vals[0]] = vals[1];
+  (this.stk.top()).bit.body = (this.stk.top()).bit.body.replace(code,'');  
+};
 // Exit a parse tree produced by bitmarkParser#bot_choice.
 BitmarkListener.prototype.exitBot_choice = function(ctx) {
   // Remove it from body
@@ -2011,14 +2069,16 @@ BitmarkListener.prototype.exitImagebit = function(ctx) {
 };
 // [&image::https://cdn
 BitmarkListener.prototype.exitImage_one = function(ctx) {
+
   let code = this.but.getcode(ctx);
   let [what, url] = this.but.get_url(code);
   let key = this.curr_bit_stk.top().trim();
   let tmpl = key==='image' ? R_clone(JSON_BIT_TEMPLATES.Image_detail_element) :
       R_clone(JSON_BIT_TEMPLATES.ImageLink);
-  let bittype = this.stk.top().bit.type;
-  let format = this.stk.top().bit.format;
-
+  const bit = this.stk.top().bit;
+  const bittype = bit.type;
+  const format = bit.format;
+  
   // From footer
   if (1 < this.curr_bit_stk.size && this.curr_bit_stk.second()==='footer')
     return;
@@ -2028,40 +2088,45 @@ BitmarkListener.prototype.exitImage_one = function(ctx) {
     this.error_listener.manualError(ctx, ctx._start.line-1, 7, 'Syntax error: did you mean ::?');
     return;
   }
-  if (bittype in {'chat':0,'conversation':1}
+  if (bittype in {'chat':0,'conversation':1,'conversation-left-1':2,'conversation-right-1':3,
+		  'conversation-right-1-thought':4, 'conversation-right-1-scream':5,
+		  'conversation-left-1-thought':6, 'conversation-left-1-scream':7
+		 }
       && 1 < this.curr_bit_stk.size) {
     key = this.curr_bit_stk.second();
-    (this.stk.top()).bit[key].avatarImage = tmpl;
-    (this.stk.top()).bit[key].avatarImage['src'] = url;
-    (this.stk.top()).bit[key].avatarImage['format'] = url.split('.').pop();
+    if (bit[key]===undefined)
+      bit[key] = {};
+    bit[key].avatarImage = tmpl;
+    bit[key].avatarImage['src'] = url;
+    bit[key].avatarImage['format'] = url.split('.').pop();
   }
   else if (format==='image' || this.resformat in this.RESOURCE_MAP) {
     const res = this.but.remove_close_bracket_and_follow(code);
-    (this.stk.top()).bit[this.body_key] = (this.stk.top()).bit[this.body_key].replace(code, '');
+    bit[this.body_key] = bit[this.body_key].replace(code, '');
     const slot = 'resource';
     if (this.stk.top().bit[slot]==undefined)
-      (this.stk.top()).bit[slot] = {};
+      bit[slot] = {};
     key = this.RESOURCE_MAP[this.resformat];
-    (this.stk.top()).bit[slot]['type'] = what.substr(1).trim();
-    (this.stk.top()).bit[slot][key] = tmpl;
-    (this.stk.top()).bit[slot][key][this.resformat==='&image'?'src':'url'] = url;
-    (this.stk.top()).bit[slot][key]['format'] = url.split('.').pop();
+    bit[slot]['type'] = what.substr(1).trim();
+    bit[slot][key] = tmpl;
+    bit[slot][key][this.resformat==='&image'?'src':'url'] = url;
+    bit[slot][key]['format'] = url.split('.').pop();
     let caption = this.but.get_caption_string(code);
     if (caption) {
-      (this.stk.top()).bit[slot][key]['caption'] = caption;
+      bit[slot][key]['caption'] = caption;
     }
   }
   else if (this.resformat in this.RESOURCE_MAP) {
     const res = this.but.remove_close_bracket_and_follow(code);
-    (this.stk.top()).bit[this.body_key] = (this.stk.top()).bit[this.body_key].replace(code, '');
+    bit[this.body_key] = bit[this.body_key].replace(code, '');
     const slot = 'resource';
     key = this.RESOURCE_MAP[this.resformat];
     if (this.stk.top().bit[slot]==undefined)
-      (this.stk.top()).bit[slot] = {};
-    (this.stk.top()).bit[slot]['type'] = what.substr(1).trim();
-    (this.stk.top()).bit[slot][key] = tmpl;
-    (this.stk.top()).bit[slot][key]['url'] = url;
-    (this.stk.top()).bit[slot][key]['provider'] = this.but.get_domain_from_url(url);    
+      bit[slot] = {};
+    bit[slot]['type'] = what.substr(1).trim();
+    bit[slot][key] = tmpl;
+    bit[slot][key]['url'] = url;
+    bit[slot][key]['provider'] = this.but.get_domain_from_url(url);    
   }  
   else if (key !== 'pimage' && bittype != 'interview') { // not match-pair
     const slot= 'excessResources';
@@ -2075,14 +2140,14 @@ BitmarkListener.prototype.exitImage_one = function(ctx) {
   }
   else if (1 < this.curr_bit_stk.size
 	   && this.curr_bit_stk.second() === 'footer') { // not match-pair
-    (this.stk.top()).bit.footer = (this.stk.top()).bit.footer + code;
-    (this.stk.top()).bit.body = (this.stk.top()).bit.body.replace(code,'');
+    bit.footer = bit.footer + code;
+    bit.body = bit.body.replace(code,'');
   }
-  (this.stk.top()).bit.body = (this.stk.top()).bit.body.replace(code,'');
+  bit.body = bit.body.replace(code,'');
 };
 
 BitmarkListener.prototype.enterStillimagefilmbit = function(ctx) {
-  let key = this.get_resource_type(ctx) 
+  let key = this.get_resource_type(ctx);
   this.curr_bit_stk.push(key);  // this is intentional!
 };  
 BitmarkListener.prototype.exitStillimg_one = function(ctx) {
@@ -2102,7 +2167,8 @@ BitmarkListener.prototype.exitAudio_one = function(ctx) {
   let code = this.but.getcode(ctx);
   let [what, url] = this.but.get_url(code);
   let key = this.curr_bit_stk.top(), slot='resource';
-
+  const bit = this.stk.top().bit;
+  
   if (url == undefined) {
     // Error probably ': :'
     this.error_listener.manualError(ctx, ctx._start.line-1, 7, 'Syntax error: did you mean ::?');
@@ -2114,34 +2180,36 @@ BitmarkListener.prototype.exitAudio_one = function(ctx) {
   }
   else if (this.resformat=='&audio'|| this.resformat == "&image-with-audio") {
     const res = this.but.remove_close_bracket_and_follow(code);
-    const key = what.substr(1);  // remove &
+    key = what.substr(1);  // remove &
+    
     if (this.stk.top().bit[slot]==undefined)
-      (this.stk.top()).bit[slot] = {};
-    (this.stk.top()).bit[slot]['type'] = key;
-    (this.stk.top()).bit[slot][key] = {};
-    (this.stk.top()).bit[slot][key]['format'] = url.split('.').pop();
-    (this.stk.top()).bit[slot][key]['src'] = url;
+      bit[slot] = {};
+    bit[slot]['type'] = key;
+    key = camelize(key);
+    bit[slot][key] = {};
+    bit[slot][key]['format'] = url.split('.').pop();
+    bit[slot][key]['src'] = url;
     // Remove from the body
-    (this.stk.top()).bit.body = (this.stk.top()).bit.body.replace(code,'');
+    bit.body = bit.body.replace(code,'');
   }
   else if (what==='&audio-link' && this.resformat.startsWith('&audio')) {
     let key = what.substr(1);  // remove &
     if (this.stk.top().bit[slot]==undefined)
-      (this.stk.top()).bit[slot] = {};
-    (this.stk.top()).bit[slot]['type'] = key;
+      bit[slot] = {};
+    bit[slot]['type'] = key;
     key = camelize(key);
-    (this.stk.top()).bit[slot][key] = {};
-    (this.stk.top()).bit[slot][key]['provider'] = url.split('.').pop();
-    (this.stk.top()).bit[slot][key]['url'] = url;
-    (this.stk.top()).bit[slot][key]['duration'] = '';
-    (this.stk.top()).bit[slot][key]['autoplay'] = true;
+    bit[slot][key] = {};
+    bit[slot][key]['provider'] = url.split('.').pop();
+    bit[slot][key]['url'] = url;
+    bit[slot][key]['duration'] = '';
+    bit[slot][key]['autoplay'] = true;
     // Remove from the body
-    (this.stk.top()).bit.body = (this.stk.top()).bit.body.replace(code,'');
+    bit.body = bit.body.replace(code,'');
   }  
   else if (1 < this.curr_bit_stk.size
 	   && this.curr_bit_stk.second() === 'footer') { // not match-pair
-    (this.stk.top()).bit.footer = (this.stk.top()).bit.footer + code;
-    (this.stk.top()).bit.body = (this.stk.top()).bit.body.replace(code,'');
+    bit.footer = bit.footer + code;
+    bit.body = bit.body.replace(code,'');
   }
   else {
     key = what.substring(1); slot= 'excessResources';
@@ -2153,7 +2221,7 @@ BitmarkListener.prototype.exitAudio_one = function(ctx) {
 					'format': url.split('.').pop(),
 					'src': url });
     // Remove from the body
-    (this.stk.top()).bit.body = (this.stk.top()).bit.body.replace(code,'');
+    bit.body = bit.body.replace(code,'');
   }
 };
 BitmarkListener.prototype.get_resource_type = function(ctx) {
@@ -2175,7 +2243,8 @@ BitmarkListener.prototype.exitVideo_one = function(ctx) {
   let code = this.but.getcode(ctx);
   let [what, url] = this.but.get_url(code);
   let key = this.curr_bit_stk.top(), slot='resource';
-
+  const bit = this.stk.top().bit;
+  
   if (url == undefined) {
     // Error probably ': :'
     this.error_listener.manualError(ctx, ctx._start.line-1, 7, 'Syntax error: did you mean ::?');
@@ -2187,12 +2256,12 @@ BitmarkListener.prototype.exitVideo_one = function(ctx) {
   }
   else if (this.resformat.startsWith('&video')) {
     const res = this.but.remove_close_bracket_and_follow(code);
-    (this.stk.top()).bit[this.body_key] = (this.stk.top()).bit[this.body_key].replace(code, '');
+    bit[this.body_key] = bit[this.body_key].replace(code, '');
     const key = camelize(what.substr(1));  // remove &
-    (this.stk.top()).bit[slot] = {};
-    (this.stk.top()).bit[slot]['type'] = what.substr(1);
-    (this.stk.top()).bit[slot][key] = key==='video' ? R_clone(JSON_BIT_TEMPLATES.Video) : R_clone(JSON_BIT_TEMPLATES.VideoLink);
-    let parent = (this.stk.top()).bit[slot][key];
+    bit[slot] = {};
+    bit[slot]['type'] = what.substr(1);
+    bit[slot][key] = key==='video' ? R_clone(JSON_BIT_TEMPLATES.Video) : R_clone(JSON_BIT_TEMPLATES.VideoLink);
+    let parent = bit[slot][key];
     
     if (key==='video') {
       parent['format'] = url.split('.').pop();
@@ -2204,12 +2273,12 @@ BitmarkListener.prototype.exitVideo_one = function(ctx) {
       parent['provider'] = this.but.get_domain_from_url(url);
       parent['url'] = url;
     }
-    (this.stk.top()).bit.body = (this.stk.top()).bit.body.replace(code,'');
+    bit.body = bit.body.replace(code,'');
   }
   else if (1 < this.curr_bit_stk.size
 	   && this.curr_bit_stk.second() === 'footer') { // not match-pair
-    (this.stk.top()).bit.footer = (this.stk.top()).bit.footer + code;
-    (this.stk.top()).bit.body = (this.stk.top()).bit.body.replace(code,'');
+    bit.footer = bit.footer + code;
+    bit.body = bit.body.replace(code,'');
   }
   else {
     const slot= 'excessResources';
@@ -2220,7 +2289,7 @@ BitmarkListener.prototype.exitVideo_one = function(ctx) {
     (this.stk.top()).parser[slot].push({'type': key,
 					'format': url.split('.').pop(),
 					'src': url });
-    (this.stk.top()).bit.body = (this.stk.top()).bit.body.replace(code,'');    
+    bit.body = bit.body.replace(code,'');    
   }
 };
 BitmarkListener.prototype.enterArticlebit = function(ctx) {
@@ -2234,7 +2303,8 @@ BitmarkListener.prototype.exitArticlebit = function(ctx) {
   let [what, url] = this.but.get_url(code);
   let key = this.curr_bit_stk.top(), slot='resource';
   let format='', content='';
-
+  const bit = this.stk.top().bit;
+  
   if (what.startsWith('&'))
     key = what.substr(1);  // remove &
   
@@ -2258,19 +2328,20 @@ BitmarkListener.prototype.exitArticlebit = function(ctx) {
     // Chat, Survey etc
   }
   else if (what==='&article-link') {
-    (this.stk.top()).bit[slot] = {};
-    (this.stk.top()).bit[slot]['type'] = key;
+    bit[slot] = {};
+    bit[slot]['type'] = key;
     key = camelize(key);
-    (this.stk.top()).bit[slot][key] = {};
-    (this.stk.top()).bit[slot][key]['url'] = url;    
+    bit[slot][key] = {};
+    bit[slot][key]['url'] = url;    
   }
   else if (url.startsWith('http')) {
     let key_org = key;
-    let parent = (this.stk.top()).bit[slot][key];    
-    key = this.but.underscore_to_camelcase(key);
+
+    bit[slot] = {};
+    let parent = bit[slot][key];
+    key = camelize(key);  //this.but.underscore_to_camelcase(key);
     //
-    (this.stk.top()).bit[slot] = {};
-    (this.stk.top()).bit[slot]['type'] = key_org;
+    bit[slot]['type'] = key_org;
     parent = {};
     parent['format'] = format;
     parent['url'] = url;
@@ -2278,20 +2349,20 @@ BitmarkListener.prototype.exitArticlebit = function(ctx) {
   }
   else if (1 < this.curr_bit_stk.size
 	   && this.curr_bit_stk.second() === 'footer') { // not match-pair
-    (this.stk.top()).bit.footer = (this.stk.top()).bit.footer + code;
-    (this.stk.top()).bit.body = (this.stk.top()).bit.body.replace(code,'');
+    bit.footer = bit.footer + code;
+    bit.body = bit.body.replace(code,'');
   }
   else {
     // key is already set
-    (this.stk.top()).bit[slot] = {};    
-    let parent = (this.stk.top()).bit[slot];
+    bit[slot] = {};    
+    let parent = bit[slot];
     parent['type'] = key;
     parent[key] = {};   // article
     parent[key]['format'] = format;
     parent[key]['href'] = '';
     parent[key]['body'] = content;
   }
-  (this.stk.top()).bit.body = (this.stk.top()).bit.body.replace(code,'');
+  bit.body = bit.body.replace(code,'');
 };
 
 // Enter a parse tree produced by bitmarkParser#videobit.
@@ -2299,34 +2370,35 @@ BitmarkListener.prototype.exitDocumentbit = function(ctx) {
   let code = this.but.getcode(ctx);
   let [what, url] = this.but.get_url(code);
   const key = this.curr_bit_stk.top(), slot='resource';
-
-  const has_resource = (this.stk.top()).bit.resource!==undefined;
+  const bit = this.stk.top().bit;
+  const has_resource = bit.resource!==undefined;
+  
   if (key in this.stk.top().bit && 'avatarImage' in this.stk.top().bit[key]) {
     // Chat, Survey etc
   }
   if (!has_resource) {
     if (what==='&document') {
       const key = what.substr(1);  // remove &
-      (this.stk.top()).bit[slot] = {}; // slot=resource
-      (this.stk.top()).bit[slot]['type'] = key;  // document
-      (this.stk.top()).bit[slot][key] = url;
-      (this.stk.top()).bit[slot]['private'] = {};
+      bit[slot] = {}; // slot=resource
+      bit[slot]['type'] = key;  // document
+      bit[slot][key] = url;
+      bit[slot]['private'] = {};
     }
-    if (what==='&document-link') {
+    if (-1 < ['&document-link', '&document-download'].indexOf(what)) {
       let key = what.substr(1);  // remove &
-      (this.stk.top()).bit[slot] = {}; // slot=resource
-      (this.stk.top()).bit[slot]['type'] = key;  // document
+      bit[slot] = {}; // slot=resource
+      bit[slot]['type'] = key;  // document
       key = camelize(key);
-      (this.stk.top()).bit[slot][key] = {};
-      (this.stk.top()).bit[slot][key]['url'] = url;
-      (this.stk.top()).bit[slot][key]['provider'] = this.but.get_domain_from_url(url);
+      bit[slot][key] = {};
+      bit[slot][key]['url'] = url;
+      bit[slot][key]['provider'] = this.but.get_domain_from_url(url);
     }
-    (this.stk.top()).bit.body = (this.stk.top()).bit.body.replace(code,'');
+    bit.body = bit.body.replace(code,'');
   }
   else if (1 < this.curr_bit_stk.size
 	   && this.curr_bit_stk.second() === 'footer') { // not match-pair
-    (this.stk.top()).bit.footer = (this.stk.top()).bit.footer + code;
-    (this.stk.top()).bit.body = (this.stk.top()).bit.body.replace(code,'');
+    bit.footer = bit.footer + code;
+    bit.body = bit.body.replace(code,'');
   }
   else {
     const key = 'document', slot= 'excessResources';
@@ -2335,7 +2407,7 @@ BitmarkListener.prototype.exitDocumentbit = function(ctx) {
     if ((this.stk.top()).parser[slot]===undefined)
       (this.stk.top()).parser[slot] = [];
     (this.stk.top()).parser[slot].push({'type': key, src: url});
-    (this.stk.top()).bit.body = (this.stk.top()).bit.body.replace(code,'');
+    bit.body = bit.body.replace(code,'');
   }
 };
 BitmarkListener.prototype.enterAppbit = function(ctx) {
@@ -2349,41 +2421,45 @@ BitmarkListener.prototype.exitAppbit = function(ctx) {
   let key = this.curr_bit_stk.top();
   const has_resource = (this.stk.top()).bit.resource!==undefined;
   let slot='resource';
+  const bit = this.stk.top().bit;
+  const stktop = this.stk.top();
   
   if (what==='&app-link') {
-    (this.stk.top()).bit[slot] = {};
-    (this.stk.top()).bit[slot]['type'] = key;
-    key = camelize(key);    
-    (this.stk.top()).bit[slot][key] = {};
-    (this.stk.top()).bit[slot][key]['url'] = url;    
+    let bit = this.stk.top().bit;
+    bit[slot] = {};
+    bit[slot]['type'] = key;
+    key = camelize(key);
+    bit[slot][key] = {};
+    bit[slot][key]['url'] = url;    
   }
   else if (!has_resource) {
-    if (key in this.stk.top().bit && 'avatarImage' in this.stk.top().bit[key]) {
+    if (key in bit && 'avatarImage' in bit[key]) {
       // Chat, Survey etc
     }
     else {
       const key = what.substr(1);
-      (this.stk.top()).bit[slot] = {};
-      (this.stk.top()).bit[slot]['type'] = key;
-      (this.stk.top()).bit[slot]['app'] = url;
-      (this.stk.top()).bit[slot]['private'] = {};
+      bit[slot] = {};
+      bit[slot]['type'] = key;
+      bit[slot]['app'] = url;
+      bit[slot]['private'] = {};
     }
   }
   else if (1 < this.curr_bit_stk.size
 	   && this.curr_bit_stk.second() === 'footer') { // not match-pair
-    (this.stk.top()).bit.footer = (this.stk.top()).bit.footer + code;
-    (this.stk.top()).bit.body = (this.stk.top()).bit.body.replace(code,'');
+    bit.footer = bit.footer + code;
+    bit.body = bit.body.replace(code,'');
   }
   else {
     const key = 'app';
     slot= 'excessResources';
-    if ((this.stk.top()).parser == undefined)
-      (this.stk.top())['parser'] = {};
-    if ((this.stk.top()).parser[slot]===undefined)
-      (this.stk.top()).parser[slot] = [];
-    (this.stk.top()).parser[slot].push({'type': key, src: url});
+    
+    if (stktop.parser == undefined)
+      stktop['parser'] = {};
+    if (stktop.parser[slot]===undefined)
+      stktop.parser[slot] = [];
+    stktop.parser[slot].push({'type': key, src: url});
   }
-  (this.stk.top()).bit.body = (this.stk.top()).bit.body.replace(code,'');
+  bit.body = bit.body.replace(code,'');
   
 };
 
@@ -2398,42 +2474,45 @@ BitmarkListener.prototype.exitWebsitebit = function(ctx) {
   let key = this.curr_bit_stk.top();
   const has_resource = (this.stk.top()).bit.resource!==undefined;
   const slot='resource';
+  const bit = this.stk.top().bit;
   
   if (what==='&website-link') {
-    (this.stk.top()).bit[slot] = {};
-    (this.stk.top()).bit[slot]['type'] = key;
-    key = camelize(key);
-    (this.stk.top()).bit[slot][key] = {};
-    (this.stk.top()).bit[slot][key]['siteName'] = ''; 
-    (this.stk.top()).bit[slot][key]['url'] = url; 
+    //
+    bit[slot] = R_clone(JSON_BIT_TEMPLATES.Res_website_link);
+    what = what.substr(1);
+    bit[slot]['type'] = what;
+    key = camelize(what);  // remove &
+    bit[slot][key] = {};
+    bit[slot][key]['siteName'] = ''; 
+    bit[slot][key]['url'] = url; 
   }  
   else if (!has_resource) {
     if (key in this.stk.top().bit && 'avatarImage' in this.stk.top().bit[key]) {
       // Chat, Survey etc
     }
     else {
-      (this.stk.top()).bit[slot] = {};
-      (this.stk.top()).bit[slot]['type'] = key;
-      (this.stk.top()).bit[slot]['website'] = url;
-      (this.stk.top()).bit[slot]['siteName'] = this.but.get_url_in_text(url);
-      (this.stk.top()).bit[slot]['private'] = {};
+      bit[slot] = {};
+      bit[slot]['type'] = key;
+      bit[slot]['website'] = url;
+      bit[slot]['siteName'] = this.but.get_url_in_text(url);
+      bit[slot]['private'] = {};
     }
   }
   else if (1 < this.curr_bit_stk.size
 	   && this.curr_bit_stk.second() === 'footer') { // not match-pair
-    (this.stk.top()).bit.footer = (this.stk.top()).bit.footer + code;
-    (this.stk.top()).bit.body = (this.stk.top()).bit.body.replace(code,'');
+    bit.footer = bit.footer + code;
+    bit.body = bit.body.replace(code,'');
   }
   else {
-   const key = 'website', slot= 'excessResources';
-    if ((this.stk.top()).parser == undefined)
-      (this.stk.top())['parser'] = {};
-    if ((this.stk.top()).parser[slot]===undefined)
-      (this.stk.top()).parser[slot] = [];
-    (this.stk.top()).parser[slot].push({'type': key, src: url});
+    const key = 'website', slot= 'excessResources';
+    if (stktop.parser == undefined)
+      stktop['parser'] = {};
+    if (stktop.parser[slot]===undefined)
+      stktop.parser[slot] = [];
+    stktop.parser[slot].push({'type': key, src: url});
   }
   // Remove from body
-  (this.stk.top()).bit.body = (this.stk.top()).bit.body.replace(code,'');
+  bit.body = bit.body.replace(code,'');
 
 };
 
@@ -2528,7 +2607,6 @@ BitmarkListener.prototype.exitBot_action_rating_number = function(ctx) {
   this.stk.top().bit['ratingStart'] = this.bot_action_rating[0];
   let l = this.bot_action_rating.length;
   this.stk.top().bit['ratingEnd'] = this.bot_action_rating[l-1];
-  
 };
 BitmarkListener.prototype.enterBot_action_rating_stars = function(ctx) { this.push_tmpl(ctx, 'bot-action-rating-stars'); };
 BitmarkListener.prototype.exitBot_action_rating_stars = function(ctx) { this.rmhspl(ctx); }
@@ -2537,7 +2615,7 @@ BitmarkListener.prototype.enterBot_action = function(ctx) {
   if (this.stk.top().bit.responses === undefined)
     this.stk.top().bit['responses'] = [];
   this.stk.top().bit.responses.push({ "response": "", "reaction": "", "item": "", "feedback": "" });
-  this.curr_bit_stk.push('bot_action');
+  this.curr_bit_stk.push('bot_action');  // push a marker.
 };
 BitmarkListener.prototype.exitBot_action = function(ctx) {
   this.curr_bit_stk.pop();
@@ -2556,6 +2634,7 @@ BitmarkListener.prototype.exitFooter = function(ctx) {
   this.stk.top().bit['footer'] = code.trim();
   (this.stk.top()).bit.body = (this.stk.top()).bit.body.split(code).join('');
 };
+
 
 // new 02/07/22
 BitmarkListener.prototype.enterNote = function(ctx) { this.push_tmpl(ctx, 'note'); };
@@ -2587,8 +2666,10 @@ BitmarkListener.prototype.enterBit_videoLink = function(ctx) { this.push_tmpl(ct
 BitmarkListener.prototype.enterBit_videoEmbed = function(ctx) { this.push_tmpl(ctx, 'video-embed'); }
 BitmarkListener.prototype.enterBit_videoPortrait = function(ctx) { this.push_tmpl(ctx, 'video-portrait'); }
 BitmarkListener.prototype.enterBit_videoLandscape = function(ctx) { this.push_tmpl(ctx, 'video-landscape'); }
-BitmarkListener.prototype.enterBit_stillImageFilm = function(ctx) { this.push_tmpl(ctx, 'still-image-film'); }
-BitmarkListener.prototype.enterBit_stillImageFilmLink = function(ctx) { this.push_tmpl(ctx, 'still-image-film-link'); }
+BitmarkListener.prototype.enterBit_stillImageFilm = function(ctx) {
+  this.push_tmpl(ctx, 'still-image-film'); }
+BitmarkListener.prototype.enterBit_stillImageFilmLink = function(ctx) {
+  this.push_tmpl(ctx, 'still-image-film-link'); }
 BitmarkListener.prototype.enterBit_stillImageFilmEmbed = function(ctx) { this.push_tmpl(ctx, 'still-image-film-embed'); }
 BitmarkListener.prototype.enterBit_websiteLink = function(ctx) { this.push_tmpl(ctx, 'website-link'); }
 BitmarkListener.prototype.enterBit_document = function(ctx) { this.push_tmpl(ctx, 'document'); }
@@ -2635,10 +2716,12 @@ BitmarkListener.prototype.enterQuestion1= function(ctx) { this.push_tmpl(ctx, 'q
 BitmarkListener.prototype.enterScreenshot = function(ctx) { this.push_tmpl(ctx, 'screenshot'); }
 BitmarkListener.prototype.enterFocus_image = function(ctx) { this.push_tmpl(ctx, 'focus-image'); }
 BitmarkListener.prototype.enterPhoto = function(ctx) { this.push_tmpl(ctx, 'photo'); }
-BitmarkListener.prototype.enterBrowser_image = function(ctx) { this.push_tmpl(ctx, 'browser-image'); }
-BitmarkListener.prototype.enterChapter_subject_matter = function(ctx) { this.push_tmpl(ctx, 'chapter-subject-matter'); }
-BitmarkListener.prototype.enterRelease_note = function(ctx) { this.push_tmpl(ctx, 'release-note'); }
-BitmarkListener.prototype.enterConclusion = function(ctx) { this.push_tmpl(ctx, 'conclusion'); }
+BitmarkListener.prototype.enterBrowser_image = function(ctx) { this.push_tmpl(ctx, 'browser-image'); };
+
+BitmarkListener.prototype.enterChapter_subject_matter = function(ctx) { this.push_tmpl(ctx, 'chapter-subject-matter'); };
+BitmarkListener.prototype.enterRelease_note = function(ctx) { this.push_tmpl(ctx, 'release-note'); };
+BitmarkListener.prototype.enterConclusion = function(ctx) { this.push_tmpl(ctx, 'conclusion'); };
+BitmarkListener.prototype.enterFeatured = function(ctx) { this.push_tmpl(ctx, 'featured'); };
 
 BitmarkListener.prototype.enterVendor_amcharts_5_chart = function(ctx) {
   // restype is an array.
@@ -2664,6 +2747,73 @@ BitmarkListener.prototype.enterVendor_amcharts_5_chart = function(ctx) {
   }
 };
 
+BitmarkListener.prototype.enterNewspaper_article = function(ctx) { this.push_tmpl(ctx, 'newspaper-article'); };
+BitmarkListener.prototype.enterBlog_article = function(ctx) { this.push_tmpl(ctx, 'blog-article'); };
+BitmarkListener.prototype.enterBook_article = function(ctx) { this.push_tmpl(ctx, 'book-article'); };
+BitmarkListener.prototype.enterNotebook_article = function(ctx) { this.push_tmpl(ctx, 'notebook-article'); };
+BitmarkListener.prototype.enterWorkbook_article = function(ctx) { this.push_tmpl(ctx, 'workbook-article'); };
+
+
+BitmarkListener.prototype.enterConversation_left_1 = function(ctx) { this.push_tmpl(ctx, 'conversation-left-1'); }
+BitmarkListener.prototype.enterConversation_right_1 = function(ctx) { this.push_tmpl(ctx, 'conversation-right-1'); }
+BitmarkListener.prototype.enterConversation_left_1_thought = function(ctx) { this.push_tmpl(ctx, 'conversation-left-1-thought'); }
+BitmarkListener.prototype.enterConversation_right_1_thought = function(ctx) { this.push_tmpl(ctx, 'conversation-right-1-thought'); }
+BitmarkListener.prototype.enterConversation_left_1_scream = function(ctx) { this.push_tmpl(ctx, 'conversation-left-1-scream'); }
+BitmarkListener.prototype.enterConversation_right_1_scream = function(ctx) { this.push_tmpl(ctx, 'conversation-right-1-scream'); }
+
+BitmarkListener.prototype.enterMenu_3_course = function(ctx) {
+  this.push_tmpl(ctx, 'menu-3-course');
+  this.stk.top().bit['menu'] = [];
+  for (let i=0; i<3; i++)
+    this.stk.top().bit['menu'].push(R_clone(JSON_BIT_TEMPLATES.MenuItem));  
+  // init static menu order number
+  //if ( typeof this.enterMenu_text.mi == 'undefined')
+  this.enterMenu_text.mi = 0;
+};
+BitmarkListener.prototype.exitMenu_3_course = function(ctx) {
+  this.stk.top().bit.body = this.stk.top().bit.body.replace(/\n*===\n*/g, '');
+};
+//BitmarkListener.prototype.enterMenu_list = function(ctx) {};
+//BitmarkListener.prototype.exitMenu_list = function(ctx) {};
+
+BitmarkListener.prototype.enterMenu_text = function(ctx) {
+  const MENUITEMS = ["appetizer", "mainCourse", "dessert"];
+  let t = MENUITEMS[this.enterMenu_text.mi];  // set default
+  let slot = this.stk.top().bit['menu'][this.enterMenu_text.mi];
+  //this.stk.top().bit['menu'][this.enterMenu_text.mi]['type'] = t;  // set default type
+  slot['type'] = t;  // set default type
+ 
+  // key-val store function
+  const fn = (code, key, val) => {
+    //console.log(`key=${key} val=${val}`);
+    const MENUITEMS = ["appetizer", "mainCourse", "dessert"];
+    let slot = this.curr_bit_stk.third();
+    slot[key] = val;
+    (this.stk.top()).bit.body = (this.stk.top()).bit.body.replace(code,'');      
+  };
+  this.curr_bit_stk.push(slot);
+  this.curr_bit_stk.push(fn);
+  this.curr_bit_stk.push('menu');  // push a marker.  
+};
+
+BitmarkListener.prototype.exitMenu_text = function(ctx) {
+  let code = this.but.getcode(ctx);
+  // When an entry is emply, the parser captures \n===\n + entry to the next slot.
+  // This is not a full solution to it but at least \n===\n in the data
+  code = code.replace(/\n*===\n*/g, '');
+  let slot = this.stk.top().bit['menu'][this.enterMenu_text.mi];
+  code = code.replace(/\[.*?\]/g, '').trim();
+  slot['course'] = code;
+  
+  this.enterMenu_text.mi++;
+  (this.stk.top()).bit.body = (this.stk.top()).bit.body.replace(code,'');
+
+  this.curr_bit_stk.pop();  // menu
+  this.curr_bit_stk.pop();  // fn
+  this.curr_bit_stk.pop();  // slot
+};
+  
+
 BitmarkListener.prototype.exitAnchor = function(ctx) {
   let code = this.but.getcode(ctx);
   let re=/\[▼(([^\]]|[\s])*)\]/s;  // accepts newline
@@ -2672,6 +2822,6 @@ BitmarkListener.prototype.exitAnchor = function(ctx) {
   this.stk.top().bit[slot] = val;
   (this.stk.top()).bit.body = (this.stk.top()).bit.body.replace(code,'');
 };
+/*export {BitmarkListener};*/
 export {BitmarkListener};
-//exports.BitmarkListener = BitmarkListener;
 

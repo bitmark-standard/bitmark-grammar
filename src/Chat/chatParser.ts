@@ -2001,7 +2001,7 @@ export class chatParser extends Parser {
 			this.state = 614;
 			this.match(chatParser.AtPartner);
 			this.state = 615;
-			this.match(chatParser.STRING);
+			this.s_and_w();
 			this.state = 616;
 			this.match(chatParser.CL);
 			}
@@ -2059,7 +2059,7 @@ export class chatParser extends Parser {
 			this.state = 622;
 			this.match(chatParser.OPATALT);
 			this.state = 623;
-			this.match(chatParser.STRING);
+			this.s_and_w();
 			this.state = 624;
 			this.match(chatParser.CL);
 			}
@@ -7110,10 +7110,10 @@ export class chatParser extends Parser {
 		"\u0262\u0264\x05f4\x02\u0263\u025F\x03\x02\x02\x02\u0263\u0264\x03\x02" +
 		"\x02\x02\u0264\u0266\x03\x02\x02\x02\u0265\u0267\x05 \x11\x02\u0266\u0265" +
 		"\x03\x02\x02\x02\u0266\u0267\x03\x02\x02\x02\u0267\x1B\x03\x02\x02\x02" +
-		"\u0268\u0269\x07K\x02\x02\u0269\u026A\x074\x02\x02\u026A\u026B\x07\x1D" +
+		"\u0268\u0269\x07K\x02\x02\u0269\u026A\x05\xA8U\x02\u026A\u026B\x07\x1D" +
 		"\x02\x02\u026B\x1D\x03\x02\x02\x02\u026C\u026D\x07\x1C\x02\x02\u026D\u026E" +
 		"\x05\xA8U\x02\u026E\u026F\x07\x1D\x02\x02\u026F\x1F\x03\x02\x02\x02\u0270" +
-		"\u0271\x07L\x02\x02\u0271\u0272\x074\x02\x02\u0272\u0273\x07\x1D\x02\x02" +
+		"\u0271\x07L\x02\x02\u0271\u0272\x05\xA8U\x02\u0272\u0273\x07\x1D\x02\x02" +
 		"\u0273!\x03\x02\x02\x02\u0274\u0275\x05\xA8U\x02\u0275#\x03\x02\x02\x02" +
 		"\u0276\u0277\x05\xA8U\x02\u0277%\x03\x02\x02\x02\u0278\u0279\x05\xACW" +
 		"\x02\u0279\u027A\x05$\x13\x02\u027A\'\x03\x02\x02\x02\u027B\u0293\x07" +
@@ -8262,7 +8262,9 @@ export class Partner1Context extends ParserRuleContext {
 
 export class Partner1_nameContext extends ParserRuleContext {
 	public AtPartner(): TerminalNode { return this.getToken(chatParser.AtPartner, 0); }
-	public STRING(): TerminalNode { return this.getToken(chatParser.STRING, 0); }
+	public s_and_w(): S_and_wContext {
+		return this.getRuleContext(0, S_and_wContext);
+	}
 	public CL(): TerminalNode { return this.getToken(chatParser.CL, 0); }
 	constructor(parent: ParserRuleContext | undefined, invokingState: number) {
 		super(parent, invokingState);
@@ -8312,7 +8314,9 @@ export class Name_textContext extends ParserRuleContext {
 
 export class Name_altContext extends ParserRuleContext {
 	public OPATALT(): TerminalNode { return this.getToken(chatParser.OPATALT, 0); }
-	public STRING(): TerminalNode { return this.getToken(chatParser.STRING, 0); }
+	public s_and_w(): S_and_wContext {
+		return this.getRuleContext(0, S_and_wContext);
+	}
 	public CL(): TerminalNode { return this.getToken(chatParser.CL, 0); }
 	constructor(parent: ParserRuleContext | undefined, invokingState: number) {
 		super(parent, invokingState);

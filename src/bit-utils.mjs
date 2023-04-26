@@ -1,13 +1,16 @@
 //
 //  bit-utils.js
 //
-import R_slice from 'ramda/es/slice.js';
-
+import R_clone from 'ramda/es/clone.js';
+import R_slice from 'ramda/es/slice.js';  // uses R_slice
 
 String.prototype.lastIndexOfEnd = function(string) {
   let io = this.lastIndexOf(string);
   return io == -1 ? -1 : io + string.length;
 };
+// Unescape [ and ]
+const unescape_url = url => (url.replace(/&#91;/g, '[')).replace(/&#93;/g, ']');
+
 
 
 class BitUtil {
@@ -198,7 +201,7 @@ class BitUtil {
    * Returns an array of bit={offset:x, bit:text}
    * offset is useful to show in the error
    */
-  split_bits() {
+  split_bits(){
 
     let regex = /(^\[\.[^\]]+\])/sg;  // for the first bit if any
     let m = null;
@@ -367,11 +370,21 @@ class BitUtil {
     //let re = /@([^:]*)\s*:\s*([^\]]+)\s*/g;
     return con.split(':');
   }
-  // [#string]
+  // [#string] -> returns string
   get_title(code) {
-    const re = /\[#+([^\]]*)\]/;
-    let val = this.get_bit_value(re, code);
-    return val;
+
+    if (code.startsWith('[#]'))
+      return '';
+    else if (code.startsWith('[#') && 1 < code.match(/\]/g).length) {
+      // Remove the first [ and last ]
+      let s = code.replace(/.$/, '').replace(/^\[#+/,'');
+      return s.trim();
+    }
+    else {
+      const re = /\[#+([^\]]*)\]/;
+      let val = this.get_bit_value(re, code);
+      return val;
+    }
   }
   get_numhash(code) {
     const re = /(#+)/;
@@ -388,11 +401,11 @@ class BitUtil {
       let colon = cont.indexOf(':');
       let s1 = cont.substring(0, colon);
       let s2 = cont.substring(colon+1);
-      return [s1, s2];
+      return [s1, unescape_url(s2)];
     }
     else {
       let vals = cont.split(':');
-      return [vals[0], vals[1]+':'+vals[2]]; // [image, url]
+      return [vals[0], unescape_url(vals[1]+':'+vals[2])]; // [image, url]
     }
   }
   // Returns an array
@@ -400,7 +413,7 @@ class BitUtil {
     const re = /https?:\/\/([^\/\[\&\s]+)\/?/;
     let m = text.match(re);
     if (m)
-      return [m[0], m[1]];  // 0=http.. 1=www.apple.com
+      return [m[0], unescape_url(m[1])];  // 0=http.. 1=www.apple.com
     return null; // not found
   }  
   
@@ -449,4 +462,3 @@ class BitUtil {
 }
 
 export {BitUtil};
-
