@@ -2379,8 +2379,9 @@ BitmarkListener.prototype.exitDocumentbit = function(ctx) {
       const key = what.substr(1);  // remove &
       bit[slot] = {}; // slot=resource
       bit[slot]['type'] = key;  // document
-      bit[slot][key] = url;
-      bit[slot]['private'] = {};
+      bit[slot][key] = {};
+      bit[slot][key]['url'] = url;
+      bit[slot][key]['provider'] = this.but.get_domain_from_url(url);
     }
     if (-1 < ['&document-link', '&document-download'].indexOf(what)) {
       let key = what.substr(1);  // remove &
