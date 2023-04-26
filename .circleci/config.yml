@@ -22,31 +22,51 @@ defaults: &defaults
 
 jobs:
   publish:
-    working_directory: ~/repo
+    # working_directory: ~/repo
     docker:
       - image: cimg/node:19.8.1-browsers
 
     steps:
       - checkout
-      - persist_to_workspace:
-          root: ~/repo
-          paths: .
-      - attach_workspace:
-          at: ~/repo
-      - run: pwd; ls
+      - add_ssh_keys:
+          fingerprints:
+            - "a7:c0:fc:da:69:86:29:55:5c:b6:66:e5:de:b2:7e:ed"
+      # - persist_to_workspace:
+      #     root: ~/repo
+      #     paths: .
+      # - attach_workspace:
+      #     at: ~/repo
+      - run: pwd; ls -lah
       - run: npm install
       - run:
           name: Run tests
           command: npm test
-
-      - run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/repo/.npmrc
-      - run: cat ~/repo/.npmrc
+      - run: npm config set //registry.npmjs.org/:_authToken $NPM_TOKEN
+      - run:
+          name: Git config
+          command: |
+            git config --global user.email "build@circleci.com" && \
+            git config --global user.name "CircleCI"
+      - run:
+          name: Update version
+          command: git reset --hard && npm version patch
       - run: npm publish
+      - run: 
+          name: Push to GitHub
+          command: |
+            git push origin master
+      - run:
+          name: Trigger bitmark API pipeline
+          command: |
+            curl -X POST \
+              -H "Content-Type: application/json" \
+              -H "Circle-Token: $CIRCLE_TOKEN" \
+              https://circleci.com/api/v2/project/github/getMoreBrain/bitbook-api/pipeline    
 
 workflows:
   push:
     when:
-      equal: [ "push", << pipeline.parameters.GHA_Event >> ]
+      equal: ["push", << pipeline.parameters.GHA_Event >>]
     jobs:
       - publish:
           # This is mandatory to trigger a pipeline when pushing a tag
