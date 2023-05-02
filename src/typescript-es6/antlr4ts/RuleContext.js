@@ -1,21 +1,39 @@
+"use strict";
 /*!
  * Copyright 2016 The ANTLR Project. All rights reserved.
  * Licensed under the BSD-3-Clause license. See LICENSE file in the project root for license information.
  */
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        if (typeof b !== "function" && b !== null)
+            throw new TypeError("Class extends value " + String(b) + " is not a constructor or null");
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+exports.__esModule = true;
+exports.RuleContext = void 0;
 // ConvertTo-TS run at 2016-10-04T11:26:57.3490837-07:00
-import { ATN } from "./atn/ATN";
-import { Recognizer } from "./Recognizer";
-import { RuleNode } from "./tree/RuleNode";
-import { Interval } from "./misc/Interval";
-import { Override } from "./Decorators";
-import { Trees } from "./tree/Trees";
-import { ParserRuleContext } from "./ParserRuleContext";
+var ATN_1 = require("./atn/ATN");
+var Recognizer_1 = require("./Recognizer");
+var RuleNode_1 = require("./tree/RuleNode");
+var Interval_1 = require("./misc/Interval");
+var Decorators_1 = require("./Decorators");
+var Trees_1 = require("./tree/Trees");
+var ParserRuleContext_1 = require("./ParserRuleContext");
 /** A rule context is a record of a single rule invocation.
  *
  *  We form a stack of these context objects using the parent
@@ -66,97 +84,135 @@ import { ParserRuleContext } from "./ParserRuleContext";
  *
  *  @see ParserRuleContext
  */
-export class RuleContext extends RuleNode {
-    constructor(parent, invokingState) {
-        super();
-        this._parent = parent;
-        this.invokingState = invokingState != null ? invokingState : -1;
+var RuleContext = /** @class */ (function (_super) {
+    __extends(RuleContext, _super);
+    function RuleContext(parent, invokingState) {
+        var _this = _super.call(this) || this;
+        _this._parent = parent;
+        _this.invokingState = invokingState != null ? invokingState : -1;
+        return _this;
     }
-    static getChildContext(parent, invokingState) {
+    RuleContext.getChildContext = function (parent, invokingState) {
         return new RuleContext(parent, invokingState);
-    }
-    depth() {
-        let n = 0;
-        let p = this;
+    };
+    RuleContext.prototype.depth = function () {
+        var n = 0;
+        var p = this;
         while (p) {
             p = p._parent;
             n++;
         }
         return n;
-    }
-    /** A context is empty if there is no invoking state; meaning nobody called
-     *  current context.
-     */
-    get isEmpty() {
-        return this.invokingState === -1;
-    }
-    // satisfy the ParseTree / SyntaxTree interface
-    get sourceInterval() {
-        return Interval.INVALID;
-    }
-    get ruleContext() { return this; }
-    get parent() { return this._parent; }
+    };
+    Object.defineProperty(RuleContext.prototype, "isEmpty", {
+        /** A context is empty if there is no invoking state; meaning nobody called
+         *  current context.
+         */
+        get: function () {
+            return this.invokingState === -1;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(RuleContext.prototype, "sourceInterval", {
+        // satisfy the ParseTree / SyntaxTree interface
+        get: function () {
+            return Interval_1.Interval.INVALID;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(RuleContext.prototype, "ruleContext", {
+        get: function () { return this; },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(RuleContext.prototype, "parent", {
+        get: function () { return this._parent; },
+        enumerable: false,
+        configurable: true
+    });
     /** @since 4.7. {@see ParseTree#setParent} comment */
-    setParent(parent) {
+    RuleContext.prototype.setParent = function (parent) {
         this._parent = parent;
-    }
-    get payload() { return this; }
-    /** Return the combined text of all child nodes. This method only considers
-     *  tokens which have been added to the parse tree.
-     *
-     *  Since tokens on hidden channels (e.g. whitespace or comments) are not
-     *  added to the parse trees, they will not appear in the output of this
-     *  method.
-     */
-    get text() {
-        if (this.childCount === 0) {
-            return "";
-        }
-        let builder = "";
-        for (let i = 0; i < this.childCount; i++) {
-            builder += this.getChild(i).text;
-        }
-        return builder.toString();
-    }
-    get ruleIndex() { return -1; }
-    /** For rule associated with this parse tree internal node, return
-     *  the outer alternative number used to match the input. Default
-     *  implementation does not compute nor store this alt num. Create
-     *  a subclass of ParserRuleContext with backing field and set
-     *  option contextSuperClass.
-     *  to set it.
-     *
-     *  @since 4.5.3
-     */
-    get altNumber() { return ATN.INVALID_ALT_NUMBER; }
-    /** Set the outer alternative number for this context node. Default
-     *  implementation does nothing to avoid backing field overhead for
-     *  trees that don't need it.  Create
-     *  a subclass of ParserRuleContext with backing field and set
-     *  option contextSuperClass.
-     *
-     *  @since 4.5.3
-     */
-    set altNumber(altNumber) {
-        // intentionally ignored by the base implementation
-    }
-    getChild(i) {
+    };
+    Object.defineProperty(RuleContext.prototype, "payload", {
+        get: function () { return this; },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(RuleContext.prototype, "text", {
+        /** Return the combined text of all child nodes. This method only considers
+         *  tokens which have been added to the parse tree.
+         *
+         *  Since tokens on hidden channels (e.g. whitespace or comments) are not
+         *  added to the parse trees, they will not appear in the output of this
+         *  method.
+         */
+        get: function () {
+            if (this.childCount === 0) {
+                return "";
+            }
+            var builder = "";
+            for (var i = 0; i < this.childCount; i++) {
+                builder += this.getChild(i).text;
+            }
+            return builder.toString();
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(RuleContext.prototype, "ruleIndex", {
+        get: function () { return -1; },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(RuleContext.prototype, "altNumber", {
+        /** For rule associated with this parse tree internal node, return
+         *  the outer alternative number used to match the input. Default
+         *  implementation does not compute nor store this alt num. Create
+         *  a subclass of ParserRuleContext with backing field and set
+         *  option contextSuperClass.
+         *  to set it.
+         *
+         *  @since 4.5.3
+         */
+        get: function () { return ATN_1.ATN.INVALID_ALT_NUMBER; },
+        /** Set the outer alternative number for this context node. Default
+         *  implementation does nothing to avoid backing field overhead for
+         *  trees that don't need it.  Create
+         *  a subclass of ParserRuleContext with backing field and set
+         *  option contextSuperClass.
+         *
+         *  @since 4.5.3
+         */
+        set: function (altNumber) {
+            // intentionally ignored by the base implementation
+        },
+        enumerable: false,
+        configurable: true
+    });
+    RuleContext.prototype.getChild = function (i) {
         throw new RangeError("i must be greater than or equal to 0 and less than childCount");
-    }
-    get childCount() {
-        return 0;
-    }
-    accept(visitor) {
+    };
+    Object.defineProperty(RuleContext.prototype, "childCount", {
+        get: function () {
+            return 0;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    RuleContext.prototype.accept = function (visitor) {
         return visitor.visitChildren(this);
-    }
-    toStringTree(recog) {
-        return Trees.toStringTree(this, recog);
-    }
-    toString(arg1, stop) {
-        const ruleNames = (arg1 instanceof Recognizer) ? arg1.ruleNames : arg1;
-        stop = stop || ParserRuleContext.emptyContext();
-        let buf = "";
-        let p = this;
+    };
+    RuleContext.prototype.toStringTree = function (recog) {
+        return Trees_1.Trees.toStringTree(this, recog);
+    };
+    RuleContext.prototype.toString = function (arg1, stop) {
+        var ruleNames = (arg1 instanceof Recognizer_1.Recognizer) ? arg1.ruleNames : arg1;
+        stop = stop || ParserRuleContext_1.ParserRuleContext.emptyContext();
+        var buf = "";
+        var p = this;
         buf += ("[");
         while (p && p !== stop) {
             if (!ruleNames) {
@@ -165,8 +221,8 @@ export class RuleContext extends RuleNode {
                 }
             }
             else {
-                let ruleIndex = p.ruleIndex;
-                let ruleName = (ruleIndex >= 0 && ruleIndex < ruleNames.length)
+                var ruleIndex = p.ruleIndex;
+                var ruleName = (ruleIndex >= 0 && ruleIndex < ruleNames.length)
                     ? ruleNames[ruleIndex] : ruleIndex.toString();
                 buf += (ruleName);
             }
@@ -177,35 +233,37 @@ export class RuleContext extends RuleNode {
         }
         buf += ("]");
         return buf.toString();
-    }
-}
-__decorate([
-    Override
-], RuleContext.prototype, "sourceInterval", null);
-__decorate([
-    Override
-], RuleContext.prototype, "ruleContext", null);
-__decorate([
-    Override
-], RuleContext.prototype, "parent", null);
-__decorate([
-    Override
-], RuleContext.prototype, "setParent", null);
-__decorate([
-    Override
-], RuleContext.prototype, "payload", null);
-__decorate([
-    Override
-], RuleContext.prototype, "text", null);
-__decorate([
-    Override
-], RuleContext.prototype, "getChild", null);
-__decorate([
-    Override
-], RuleContext.prototype, "childCount", null);
-__decorate([
-    Override
-], RuleContext.prototype, "accept", null);
-__decorate([
-    Override
-], RuleContext.prototype, "toStringTree", null);
+    };
+    __decorate([
+        Decorators_1.Override
+    ], RuleContext.prototype, "sourceInterval");
+    __decorate([
+        Decorators_1.Override
+    ], RuleContext.prototype, "ruleContext");
+    __decorate([
+        Decorators_1.Override
+    ], RuleContext.prototype, "parent");
+    __decorate([
+        Decorators_1.Override
+    ], RuleContext.prototype, "setParent");
+    __decorate([
+        Decorators_1.Override
+    ], RuleContext.prototype, "payload");
+    __decorate([
+        Decorators_1.Override
+    ], RuleContext.prototype, "text");
+    __decorate([
+        Decorators_1.Override
+    ], RuleContext.prototype, "getChild");
+    __decorate([
+        Decorators_1.Override
+    ], RuleContext.prototype, "childCount");
+    __decorate([
+        Decorators_1.Override
+    ], RuleContext.prototype, "accept");
+    __decorate([
+        Decorators_1.Override
+    ], RuleContext.prototype, "toStringTree");
+    return RuleContext;
+}(RuleNode_1.RuleNode));
+exports.RuleContext = RuleContext;

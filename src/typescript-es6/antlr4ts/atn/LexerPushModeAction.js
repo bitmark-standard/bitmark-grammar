@@ -1,3 +1,4 @@
+"use strict";
 /*!
  * Copyright 2016 The ANTLR Project. All rights reserved.
  * Licensed under the BSD-3-Clause license. See LICENSE file in the project root for license information.
@@ -11,8 +12,10 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __param = (this && this.__param) || function (paramIndex, decorator) {
     return function (target, key) { decorator(target, key, paramIndex); }
 };
-import { MurmurHash } from "../misc/MurmurHash";
-import { NotNull, Override } from "../Decorators";
+exports.__esModule = true;
+exports.LexerPushModeAction = void 0;
+var MurmurHash_1 = require("../misc/MurmurHash");
+var Decorators_1 = require("../Decorators");
 /**
  * Implements the `pushMode` lexer action by calling
  * {@link Lexer#pushMode} with the assigned mode.
@@ -20,52 +23,64 @@ import { NotNull, Override } from "../Decorators";
  * @author Sam Harwell
  * @since 4.2
  */
-export class LexerPushModeAction {
+var LexerPushModeAction = /** @class */ (function () {
     /**
      * Constructs a new `pushMode` action with the specified mode value.
      * @param mode The mode value to pass to {@link Lexer#pushMode}.
      */
-    constructor(mode) {
+    function LexerPushModeAction(mode) {
         this._mode = mode;
     }
-    /**
-     * Get the lexer mode this action should transition the lexer to.
-     *
-     * @returns The lexer mode for this `pushMode` command.
-     */
-    get mode() {
-        return this._mode;
-    }
-    /**
-     * {@inheritDoc}
-     * @returns This method returns {@link LexerActionType#PUSH_MODE}.
-     */
-    get actionType() {
-        return 5 /* PUSH_MODE */;
-    }
-    /**
-     * {@inheritDoc}
-     * @returns This method returns `false`.
-     */
-    get isPositionDependent() {
-        return false;
-    }
+    Object.defineProperty(LexerPushModeAction.prototype, "mode", {
+        /**
+         * Get the lexer mode this action should transition the lexer to.
+         *
+         * @returns The lexer mode for this `pushMode` command.
+         */
+        get: function () {
+            return this._mode;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(LexerPushModeAction.prototype, "actionType", {
+        /**
+         * {@inheritDoc}
+         * @returns This method returns {@link LexerActionType#PUSH_MODE}.
+         */
+        get: function () {
+            return 5 /* LexerActionType.PUSH_MODE */;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(LexerPushModeAction.prototype, "isPositionDependent", {
+        /**
+         * {@inheritDoc}
+         * @returns This method returns `false`.
+         */
+        get: function () {
+            return false;
+        },
+        enumerable: false,
+        configurable: true
+    });
     /**
      * {@inheritDoc}
      *
      * This action is implemented by calling {@link Lexer#pushMode} with the
      * value provided by {@link #getMode}.
      */
-    execute(lexer) {
+    LexerPushModeAction.prototype.execute = function (lexer) {
         lexer.pushMode(this._mode);
-    }
-    hashCode() {
-        let hash = MurmurHash.initialize();
-        hash = MurmurHash.update(hash, this.actionType);
-        hash = MurmurHash.update(hash, this._mode);
-        return MurmurHash.finish(hash, 2);
-    }
-    equals(obj) {
+    };
+    LexerPushModeAction.prototype.hashCode = function () {
+        var hash = MurmurHash_1.MurmurHash.initialize();
+        hash = MurmurHash_1.MurmurHash.update(hash, this.actionType);
+        hash = MurmurHash_1.MurmurHash.update(hash, this._mode);
+        return MurmurHash_1.MurmurHash.finish(hash, 2);
+    };
+    LexerPushModeAction.prototype.equals = function (obj) {
         if (obj === this) {
             return true;
         }
@@ -73,27 +88,29 @@ export class LexerPushModeAction {
             return false;
         }
         return this._mode === obj._mode;
-    }
-    toString() {
-        return `pushMode(${this._mode})`;
-    }
-}
-__decorate([
-    Override
-], LexerPushModeAction.prototype, "actionType", null);
-__decorate([
-    Override
-], LexerPushModeAction.prototype, "isPositionDependent", null);
-__decorate([
-    Override,
-    __param(0, NotNull)
-], LexerPushModeAction.prototype, "execute", null);
-__decorate([
-    Override
-], LexerPushModeAction.prototype, "hashCode", null);
-__decorate([
-    Override
-], LexerPushModeAction.prototype, "equals", null);
-__decorate([
-    Override
-], LexerPushModeAction.prototype, "toString", null);
+    };
+    LexerPushModeAction.prototype.toString = function () {
+        return "pushMode(".concat(this._mode, ")");
+    };
+    __decorate([
+        Decorators_1.Override
+    ], LexerPushModeAction.prototype, "actionType");
+    __decorate([
+        Decorators_1.Override
+    ], LexerPushModeAction.prototype, "isPositionDependent");
+    __decorate([
+        Decorators_1.Override,
+        __param(0, Decorators_1.NotNull)
+    ], LexerPushModeAction.prototype, "execute");
+    __decorate([
+        Decorators_1.Override
+    ], LexerPushModeAction.prototype, "hashCode");
+    __decorate([
+        Decorators_1.Override
+    ], LexerPushModeAction.prototype, "equals");
+    __decorate([
+        Decorators_1.Override
+    ], LexerPushModeAction.prototype, "toString");
+    return LexerPushModeAction;
+}());
+exports.LexerPushModeAction = LexerPushModeAction;

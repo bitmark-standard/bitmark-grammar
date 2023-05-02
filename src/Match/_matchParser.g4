@@ -186,7 +186,7 @@ mpquery__:
 	| NL* LIST_LINE
 ;
 
-mpanswer: mpanswer__ (longans|shortans)? ( (OR | NL) mpanswer__ (longans|shortans)? )* ;
+mpanswer: mpanswer__ (longans|shortans)? ( (or_ | NL) mpanswer__ (longans|shortans)? )* ;
 mpanswer__:
           example? item? (s_and_w|NL|S|OP|CL|DBLCOLON)+ ( S* example )?
         | instruction? opdoll ( s_and_w|NL|DOT|COLON )+ CL ( example )?

@@ -25,3 +25,68 @@ Au 1ᵉʳ juillet 2014, l’Association suisse des banquiers (ASB) a édicté le
 [.document]
 Body
 [&document:https://docs.bitmark.cloud/bit-books/iona_douglas/lektion_19/web-resources/documents/transcript_pedestrianisation_in_the_netherlands_1.pdf]
+
+
+[.match]
+[@id:324342]
+[%item][%Lead]
+[!Instruction]
+===
+He will fix your laptop for you.
+==
+Your laptop will be fixed by him.
+--
+Your laptop will be fixed for you by him.
+===
+
+[.match-all-reverse]
+[@id:324342]
+[%item][%Lead]
+[!Instruction]
+===
+He will fix your laptop for you.
+==
+Your laptop will be fixed by him.
+--
+Your laptop will be fixed for you by him.
+===
+
+
+[.match-matrix]
+[!Bring the german verbs into the correct tense.]
+
+===
+[#Verb]
+==
+[#Future, 1st Person, Singular]
+==
+[#Past, 3rd Person, Plural]
+===
+gehen
+==
+ich werde gehen
+==
+sie gingen
+--
+what the heck
+===
+sprechen
+==
+ich werde sprechen
+==
+sie sprachen
+===
+
+
+[.match-all]
+[@id:324342]
+[%item][%Lead]
+[!Instruction]
+===
+He will fix your laptop for you.
+==
+Your laptop will be fixed by him.
+--
+Your laptop will be fixed for you by him.
+===
+

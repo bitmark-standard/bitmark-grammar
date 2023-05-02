@@ -1,3 +1,4 @@
+"use strict";
 /*!
  * Copyright 2016 The ANTLR Project. All rights reserved.
  * Licensed under the BSD-3-Clause license. See LICENSE file in the project root for license information.
@@ -11,11 +12,13 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __param = (this && this.__param) || function (paramIndex, decorator) {
     return function (target, key) { decorator(target, key, paramIndex); }
 };
+exports.__esModule = true;
+exports.LexerActionExecutor = void 0;
 // ConvertTo-TS run at 2016-10-04T11:26:28.8810453-07:00
-import { ArrayEqualityComparator } from "../misc/ArrayEqualityComparator";
-import { LexerIndexedCustomAction } from "./LexerIndexedCustomAction";
-import { MurmurHash } from "../misc/MurmurHash";
-import { NotNull, Override } from "../Decorators";
+var ArrayEqualityComparator_1 = require("../misc/ArrayEqualityComparator");
+var LexerIndexedCustomAction_1 = require("./LexerIndexedCustomAction");
+var MurmurHash_1 = require("../misc/MurmurHash");
+var Decorators_1 = require("../Decorators");
 /**
  * Represents an executor for a sequence of lexer actions which traversed during
  * the matching operation of a lexer rule (token).
@@ -27,18 +30,19 @@ import { NotNull, Override } from "../Decorators";
  * @author Sam Harwell
  * @since 4.2
  */
-let LexerActionExecutor = class LexerActionExecutor {
+var LexerActionExecutor = /** @class */ (function () {
     /**
      * Constructs an executor for a sequence of {@link LexerAction} actions.
      * @param lexerActions The lexer actions to execute.
      */
-    constructor(lexerActions) {
+    function LexerActionExecutor(lexerActions) {
         this._lexerActions = lexerActions;
-        let hash = MurmurHash.initialize();
-        for (let lexerAction of lexerActions) {
-            hash = MurmurHash.update(hash, lexerAction);
+        var hash = MurmurHash_1.MurmurHash.initialize();
+        for (var _i = 0, lexerActions_1 = lexerActions; _i < lexerActions_1.length; _i++) {
+            var lexerAction = lexerActions_1[_i];
+            hash = MurmurHash_1.MurmurHash.update(hash, lexerAction);
         }
-        this.cachedHashCode = MurmurHash.finish(hash, lexerActions.length);
+        this.cachedHashCode = MurmurHash_1.MurmurHash.finish(hash, lexerActions.length);
     }
     /**
      * Creates a {@link LexerActionExecutor} which executes the actions for
@@ -55,14 +59,14 @@ let LexerActionExecutor = class LexerActionExecutor {
      * @returns A {@link LexerActionExecutor} for executing the combine actions
      * of `lexerActionExecutor` and `lexerAction`.
      */
-    static append(lexerActionExecutor, lexerAction) {
+    LexerActionExecutor.append = function (lexerActionExecutor, lexerAction) {
         if (!lexerActionExecutor) {
             return new LexerActionExecutor([lexerAction]);
         }
-        let lexerActions = lexerActionExecutor._lexerActions.slice(0);
+        var lexerActions = lexerActionExecutor._lexerActions.slice(0);
         lexerActions.push(lexerAction);
         return new LexerActionExecutor(lexerActions);
-    }
+    };
     /**
      * Creates a {@link LexerActionExecutor} which encodes the current offset
      * for position-dependent lexer actions.
@@ -92,28 +96,32 @@ let LexerActionExecutor = class LexerActionExecutor {
      * @returns A {@link LexerActionExecutor} which stores input stream offsets
      * for all position-dependent lexer actions.
      */
-    fixOffsetBeforeMatch(offset) {
-        let updatedLexerActions;
-        for (let i = 0; i < this._lexerActions.length; i++) {
-            if (this._lexerActions[i].isPositionDependent && !(this._lexerActions[i] instanceof LexerIndexedCustomAction)) {
+    LexerActionExecutor.prototype.fixOffsetBeforeMatch = function (offset) {
+        var updatedLexerActions;
+        for (var i = 0; i < this._lexerActions.length; i++) {
+            if (this._lexerActions[i].isPositionDependent && !(this._lexerActions[i] instanceof LexerIndexedCustomAction_1.LexerIndexedCustomAction)) {
                 if (!updatedLexerActions) {
                     updatedLexerActions = this._lexerActions.slice(0);
                 }
-                updatedLexerActions[i] = new LexerIndexedCustomAction(offset, this._lexerActions[i]);
+                updatedLexerActions[i] = new LexerIndexedCustomAction_1.LexerIndexedCustomAction(offset, this._lexerActions[i]);
             }
         }
         if (!updatedLexerActions) {
             return this;
         }
         return new LexerActionExecutor(updatedLexerActions);
-    }
-    /**
-     * Gets the lexer actions to be executed by this executor.
-     * @returns The lexer actions to be executed by this executor.
-     */
-    get lexerActions() {
-        return this._lexerActions;
-    }
+    };
+    Object.defineProperty(LexerActionExecutor.prototype, "lexerActions", {
+        /**
+         * Gets the lexer actions to be executed by this executor.
+         * @returns The lexer actions to be executed by this executor.
+         */
+        get: function () {
+            return this._lexerActions;
+        },
+        enumerable: false,
+        configurable: true
+    });
     /**
      * Execute the actions encapsulated by this executor within the context of a
      * particular {@link Lexer}.
@@ -133,13 +141,14 @@ let LexerActionExecutor = class LexerActionExecutor {
      * {@link IntStream#seek} to set the `input` position to the beginning
      * of the token.
      */
-    execute(lexer, input, startIndex) {
-        let requiresSeek = false;
-        let stopIndex = input.index;
+    LexerActionExecutor.prototype.execute = function (lexer, input, startIndex) {
+        var requiresSeek = false;
+        var stopIndex = input.index;
         try {
-            for (let lexerAction of this._lexerActions) {
-                if (lexerAction instanceof LexerIndexedCustomAction) {
-                    let offset = lexerAction.offset;
+            for (var _i = 0, _a = this._lexerActions; _i < _a.length; _i++) {
+                var lexerAction = _a[_i];
+                if (lexerAction instanceof LexerIndexedCustomAction_1.LexerIndexedCustomAction) {
+                    var offset = lexerAction.offset;
                     input.seek(startIndex + offset);
                     lexerAction = lexerAction.action;
                     requiresSeek = (startIndex + offset) !== stopIndex;
@@ -156,11 +165,11 @@ let LexerActionExecutor = class LexerActionExecutor {
                 input.seek(stopIndex);
             }
         }
-    }
-    hashCode() {
+    };
+    LexerActionExecutor.prototype.hashCode = function () {
         return this.cachedHashCode;
-    }
-    equals(obj) {
+    };
+    LexerActionExecutor.prototype.equals = function (obj) {
         if (obj === this) {
             return true;
         }
@@ -168,29 +177,30 @@ let LexerActionExecutor = class LexerActionExecutor {
             return false;
         }
         return this.cachedHashCode === obj.cachedHashCode
-            && ArrayEqualityComparator.INSTANCE.equals(this._lexerActions, obj._lexerActions);
-    }
-};
-__decorate([
-    NotNull
-], LexerActionExecutor.prototype, "_lexerActions", void 0);
-__decorate([
-    NotNull
-], LexerActionExecutor.prototype, "lexerActions", null);
-__decorate([
-    __param(0, NotNull)
-], LexerActionExecutor.prototype, "execute", null);
-__decorate([
-    Override
-], LexerActionExecutor.prototype, "hashCode", null);
-__decorate([
-    Override
-], LexerActionExecutor.prototype, "equals", null);
-__decorate([
-    NotNull,
-    __param(1, NotNull)
-], LexerActionExecutor, "append", null);
-LexerActionExecutor = __decorate([
-    __param(0, NotNull)
-], LexerActionExecutor);
-export { LexerActionExecutor };
+            && ArrayEqualityComparator_1.ArrayEqualityComparator.INSTANCE.equals(this._lexerActions, obj._lexerActions);
+    };
+    __decorate([
+        Decorators_1.NotNull
+    ], LexerActionExecutor.prototype, "_lexerActions");
+    __decorate([
+        Decorators_1.NotNull
+    ], LexerActionExecutor.prototype, "lexerActions");
+    __decorate([
+        __param(0, Decorators_1.NotNull)
+    ], LexerActionExecutor.prototype, "execute");
+    __decorate([
+        Decorators_1.Override
+    ], LexerActionExecutor.prototype, "hashCode");
+    __decorate([
+        Decorators_1.Override
+    ], LexerActionExecutor.prototype, "equals");
+    __decorate([
+        Decorators_1.NotNull,
+        __param(1, Decorators_1.NotNull)
+    ], LexerActionExecutor, "append");
+    LexerActionExecutor = __decorate([
+        __param(0, Decorators_1.NotNull)
+    ], LexerActionExecutor);
+    return LexerActionExecutor;
+}());
+exports.LexerActionExecutor = LexerActionExecutor;

@@ -1,112 +1,125 @@
+"use strict";
 /*!
  * Copyright 2016 The ANTLR Project. All rights reserved.
  * Licensed under the BSD-3-Clause license. See LICENSE file in the project root for license information.
  */
-import * as assert from "assert";
-import * as Character from "./misc/Character";
+exports.__esModule = true;
+exports.CodePointBuffer = void 0;
+var assert = require("assert");
+var Character = require("./misc/Character");
 /**
  * Wrapper for `Uint8Array` / `Uint16Array` / `Int32Array`.
  */
-export class CodePointBuffer {
-    constructor(buffer, size) {
+var CodePointBuffer = /** @class */ (function () {
+    function CodePointBuffer(buffer, size) {
         this.buffer = buffer;
         this._position = 0;
         this._size = size;
     }
-    static withArray(buffer) {
+    CodePointBuffer.withArray = function (buffer) {
         return new CodePointBuffer(buffer, buffer.length);
-    }
-    get position() {
-        return this._position;
-    }
-    set position(newPosition) {
-        if (newPosition < 0 || newPosition > this._size) {
-            throw new RangeError();
-        }
-        this._position = newPosition;
-    }
-    get remaining() {
-        return this._size - this.position;
-    }
-    get(offset) {
+    };
+    Object.defineProperty(CodePointBuffer.prototype, "position", {
+        get: function () {
+            return this._position;
+        },
+        set: function (newPosition) {
+            if (newPosition < 0 || newPosition > this._size) {
+                throw new RangeError();
+            }
+            this._position = newPosition;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(CodePointBuffer.prototype, "remaining", {
+        get: function () {
+            return this._size - this.position;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    CodePointBuffer.prototype.get = function (offset) {
         return this.buffer[offset];
-    }
-    array() {
+    };
+    CodePointBuffer.prototype.array = function () {
         return this.buffer.slice(0, this._size);
-    }
-    static builder(initialBufferSize) {
+    };
+    CodePointBuffer.builder = function (initialBufferSize) {
         return new CodePointBuffer.Builder(initialBufferSize);
-    }
-}
+    };
+    return CodePointBuffer;
+}());
+exports.CodePointBuffer = CodePointBuffer;
 (function (CodePointBuffer) {
-    class Builder {
-        constructor(initialBufferSize) {
-            this.type = 0 /* BYTE */;
+    var Builder = /** @class */ (function () {
+        function Builder(initialBufferSize) {
+            this.type = 0 /* Type.BYTE */;
             this.buffer = new Uint8Array(initialBufferSize);
             this.prevHighSurrogate = -1;
             this.position = 0;
         }
-        build() {
+        Builder.prototype.build = function () {
             return new CodePointBuffer(this.buffer, this.position);
-        }
-        static roundUpToNextPowerOfTwo(i) {
-            let nextPowerOfTwo = 32 - Math.clz32(i - 1);
+        };
+        Builder.roundUpToNextPowerOfTwo = function (i) {
+            var nextPowerOfTwo = 32 - Math.clz32(i - 1);
             return Math.pow(2, nextPowerOfTwo);
-        }
-        ensureRemaining(remainingNeeded) {
+        };
+        Builder.prototype.ensureRemaining = function (remainingNeeded) {
             switch (this.type) {
-                case 0 /* BYTE */:
+                case 0 /* Type.BYTE */:
                     if (this.buffer.length - this.position < remainingNeeded) {
-                        let newCapacity = Builder.roundUpToNextPowerOfTwo(this.buffer.length + remainingNeeded);
-                        let newBuffer = new Uint8Array(newCapacity);
+                        var newCapacity = Builder.roundUpToNextPowerOfTwo(this.buffer.length + remainingNeeded);
+                        var newBuffer = new Uint8Array(newCapacity);
                         newBuffer.set(this.buffer.subarray(0, this.position), 0);
                         this.buffer = newBuffer;
                     }
                     break;
-                case 1 /* CHAR */:
+                case 1 /* Type.CHAR */:
                     if (this.buffer.length - this.position < remainingNeeded) {
-                        let newCapacity = Builder.roundUpToNextPowerOfTwo(this.buffer.length + remainingNeeded);
-                        let newBuffer = new Uint16Array(newCapacity);
+                        var newCapacity = Builder.roundUpToNextPowerOfTwo(this.buffer.length + remainingNeeded);
+                        var newBuffer = new Uint16Array(newCapacity);
                         newBuffer.set(this.buffer.subarray(0, this.position), 0);
                         this.buffer = newBuffer;
                     }
                     break;
-                case 2 /* INT */:
+                case 2 /* Type.INT */:
                     if (this.buffer.length - this.position < remainingNeeded) {
-                        let newCapacity = Builder.roundUpToNextPowerOfTwo(this.buffer.length + remainingNeeded);
-                        let newBuffer = new Int32Array(newCapacity);
+                        var newCapacity = Builder.roundUpToNextPowerOfTwo(this.buffer.length + remainingNeeded);
+                        var newBuffer = new Int32Array(newCapacity);
                         newBuffer.set(this.buffer.subarray(0, this.position), 0);
                         this.buffer = newBuffer;
                     }
                     break;
             }
-        }
-        append(utf16In) {
+        };
+        Builder.prototype.append = function (utf16In) {
             this.ensureRemaining(utf16In.length);
             this.appendArray(utf16In);
-        }
-        appendArray(utf16In) {
+        };
+        Builder.prototype.appendArray = function (utf16In) {
             switch (this.type) {
-                case 0 /* BYTE */:
+                case 0 /* Type.BYTE */:
                     this.appendArrayByte(utf16In);
                     break;
-                case 1 /* CHAR */:
+                case 1 /* Type.CHAR */:
                     this.appendArrayChar(utf16In);
                     break;
-                case 2 /* INT */:
+                case 2 /* Type.INT */:
                     this.appendArrayInt(utf16In);
                     break;
             }
-        }
-        appendArrayByte(utf16In) {
+        };
+        Builder.prototype.appendArrayByte = function (utf16In) {
             assert(this.prevHighSurrogate === -1);
-            let input = utf16In;
-            let inOffset = 0;
-            let inLimit = utf16In.length;
-            let outByte = this.buffer;
-            let outOffset = this.position;
+            var input = utf16In;
+            var inOffset = 0;
+            var inLimit = utf16In.length;
+            var outByte = this.buffer;
+            var outOffset = this.position;
             while (inOffset < inLimit) {
-                let c = input[inOffset];
+                var c = input[inOffset];
                 if (c <= 0xFF) {
                     outByte[outOffset] = c;
                 }
@@ -128,16 +141,16 @@ export class CodePointBuffer {
                 outOffset++;
             }
             this.position = outOffset;
-        }
-        appendArrayChar(utf16In) {
+        };
+        Builder.prototype.appendArrayChar = function (utf16In) {
             assert(this.prevHighSurrogate === -1);
-            let input = utf16In;
-            let inOffset = 0;
-            let inLimit = utf16In.length;
-            let outChar = this.buffer;
-            let outOffset = this.position;
+            var input = utf16In;
+            var inOffset = 0;
+            var inLimit = utf16In.length;
+            var outChar = this.buffer;
+            var outOffset = this.position;
             while (inOffset < inLimit) {
-                let c = input[inOffset];
+                var c = input[inOffset];
                 if (!Character.isHighSurrogate(c)) {
                     outChar[outOffset] = c;
                 }
@@ -152,15 +165,15 @@ export class CodePointBuffer {
                 outOffset++;
             }
             this.position = outOffset;
-        }
-        appendArrayInt(utf16In) {
-            let input = utf16In;
-            let inOffset = 0;
-            let inLimit = utf16In.length;
-            let outInt = this.buffer;
-            let outOffset = this.position;
+        };
+        Builder.prototype.appendArrayInt = function (utf16In) {
+            var input = utf16In;
+            var inOffset = 0;
+            var inLimit = utf16In.length;
+            var outInt = this.buffer;
+            var outOffset = this.position;
             while (inOffset < inLimit) {
-                let c = input[inOffset];
+                var c = input[inOffset];
                 inOffset++;
                 if (this.prevHighSurrogate !== -1) {
                     if (Character.isLowSurrogate(c)) {
@@ -196,28 +209,30 @@ export class CodePointBuffer {
                 outOffset++;
             }
             this.position = outOffset;
-        }
-        byteToCharBuffer(toAppend) {
+        };
+        Builder.prototype.byteToCharBuffer = function (toAppend) {
             // CharBuffers hold twice as much per unit as ByteBuffers, so start with half the capacity.
-            let newBuffer = new Uint16Array(Math.max(this.position + toAppend, this.buffer.length >> 1));
+            var newBuffer = new Uint16Array(Math.max(this.position + toAppend, this.buffer.length >> 1));
             newBuffer.set(this.buffer.subarray(0, this.position), 0);
-            this.type = 1 /* CHAR */;
+            this.type = 1 /* Type.CHAR */;
             this.buffer = newBuffer;
-        }
-        byteToIntBuffer(toAppend) {
+        };
+        Builder.prototype.byteToIntBuffer = function (toAppend) {
             // IntBuffers hold four times as much per unit as ByteBuffers, so start with one quarter the capacity.
-            let newBuffer = new Int32Array(Math.max(this.position + toAppend, this.buffer.length >> 2));
+            var newBuffer = new Int32Array(Math.max(this.position + toAppend, this.buffer.length >> 2));
             newBuffer.set(this.buffer.subarray(0, this.position), 0);
-            this.type = 2 /* INT */;
+            this.type = 2 /* Type.INT */;
             this.buffer = newBuffer;
-        }
-        charToIntBuffer(toAppend) {
+        };
+        Builder.prototype.charToIntBuffer = function (toAppend) {
             // IntBuffers hold two times as much per unit as ByteBuffers, so start with one half the capacity.
-            let newBuffer = new Int32Array(Math.max(this.position + toAppend, this.buffer.length >> 1));
+            var newBuffer = new Int32Array(Math.max(this.position + toAppend, this.buffer.length >> 1));
             newBuffer.set(this.buffer.subarray(0, this.position), 0);
-            this.type = 2 /* INT */;
+            this.type = 2 /* Type.INT */;
             this.buffer = newBuffer;
-        }
-    }
+        };
+        return Builder;
+    }());
     CodePointBuffer.Builder = Builder;
-})(CodePointBuffer || (CodePointBuffer = {}));
+})(CodePointBuffer = exports.CodePointBuffer || (exports.CodePointBuffer = {}));
+exports.CodePointBuffer = CodePointBuffer;

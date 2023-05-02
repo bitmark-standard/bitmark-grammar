@@ -1,9 +1,12 @@
+"use strict";
 /*!
  * Copyright 2016 The ANTLR Project. All rights reserved.
  * Licensed under the BSD-3-Clause license. See LICENSE file in the project root for license information.
  */
+exports.__esModule = true;
+exports.ATNStateType = void 0;
 // ConvertTo-TS run at 2016-10-04T11:26:27.4734328-07:00
-export var ATNStateType;
+var ATNStateType;
 (function (ATNStateType) {
     ATNStateType[ATNStateType["INVALID_TYPE"] = 0] = "INVALID_TYPE";
     ATNStateType[ATNStateType["BASIC"] = 1] = "BASIC";
@@ -18,4 +21,4 @@ export var ATNStateType;
     ATNStateType[ATNStateType["STAR_LOOP_ENTRY"] = 10] = "STAR_LOOP_ENTRY";
     ATNStateType[ATNStateType["PLUS_LOOP_BACK"] = 11] = "PLUS_LOOP_BACK";
     ATNStateType[ATNStateType["LOOP_END"] = 12] = "LOOP_END";
-})(ATNStateType || (ATNStateType = {}));
+})(ATNStateType = exports.ATNStateType || (exports.ATNStateType = {}));

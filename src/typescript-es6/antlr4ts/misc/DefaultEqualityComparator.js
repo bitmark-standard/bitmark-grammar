@@ -1,3 +1,4 @@
+"use strict";
 /*!
  * Copyright 2016 The ANTLR Project. All rights reserved.
  * Licensed under the BSD-3-Clause license. See LICENSE file in the project root for license information.
@@ -8,33 +9,37 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
-import { Override } from "../Decorators";
-import { MurmurHash } from "./MurmurHash";
-import { ObjectEqualityComparator } from "./ObjectEqualityComparator";
+exports.__esModule = true;
+exports.DefaultEqualityComparator = void 0;
+var Decorators_1 = require("../Decorators");
+var MurmurHash_1 = require("./MurmurHash");
+var ObjectEqualityComparator_1 = require("./ObjectEqualityComparator");
 /**
  * This default implementation of {@link EqualityComparator} uses object equality
  * for comparisons by calling {@link Object#hashCode} and {@link Object#equals}.
  *
  * @author Sam Harwell
  */
-export class DefaultEqualityComparator {
+var DefaultEqualityComparator = /** @class */ (function () {
+    function DefaultEqualityComparator() {
+    }
     /**
      * {@inheritDoc}
      *
      * This implementation returns
      * `obj.`{@link Object#hashCode hashCode()}.
      */
-    hashCode(obj) {
+    DefaultEqualityComparator.prototype.hashCode = function (obj) {
         if (obj == null) {
             return 0;
         }
         else if (typeof obj === "string" || typeof obj === "number") {
-            return MurmurHash.hashCode([obj]);
+            return MurmurHash_1.MurmurHash.hashCode([obj]);
         }
         else {
-            return ObjectEqualityComparator.INSTANCE.hashCode(obj);
+            return ObjectEqualityComparator_1.ObjectEqualityComparator.INSTANCE.hashCode(obj);
         }
-    }
+    };
     /**
      * {@inheritDoc}
      *
@@ -44,7 +49,7 @@ export class DefaultEqualityComparator {
      * this method returns the result of
      * `a.`{@link Object#equals equals}`(b)`.
      */
-    equals(a, b) {
+    DefaultEqualityComparator.prototype.equals = function (a, b) {
         if (a == null) {
             return b == null;
         }
@@ -52,14 +57,16 @@ export class DefaultEqualityComparator {
             return a === b;
         }
         else {
-            return ObjectEqualityComparator.INSTANCE.equals(a, b);
+            return ObjectEqualityComparator_1.ObjectEqualityComparator.INSTANCE.equals(a, b);
         }
-    }
-}
-DefaultEqualityComparator.INSTANCE = new DefaultEqualityComparator();
-__decorate([
-    Override
-], DefaultEqualityComparator.prototype, "hashCode", null);
-__decorate([
-    Override
-], DefaultEqualityComparator.prototype, "equals", null);
+    };
+    DefaultEqualityComparator.INSTANCE = new DefaultEqualityComparator();
+    __decorate([
+        Decorators_1.Override
+    ], DefaultEqualityComparator.prototype, "hashCode");
+    __decorate([
+        Decorators_1.Override
+    ], DefaultEqualityComparator.prototype, "equals");
+    return DefaultEqualityComparator;
+}());
+exports.DefaultEqualityComparator = DefaultEqualityComparator;

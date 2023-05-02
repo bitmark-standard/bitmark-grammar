@@ -1,18 +1,36 @@
+"use strict";
 /*!
  * Copyright 2016 The ANTLR Project. All rights reserved.
  * Licensed under the BSD-3-Clause license. See LICENSE file in the project root for license information.
  */
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        if (typeof b !== "function" && b !== null)
+            throw new TypeError("Class extends value " + String(b) + " is not a constructor or null");
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+exports.__esModule = true;
+exports.BailErrorStrategy = void 0;
 // ConvertTo-TS run at 2016-10-04T11:26:49.2855056-07:00
-import { DefaultErrorStrategy } from "./DefaultErrorStrategy";
-import { InputMismatchException } from "./InputMismatchException";
-import { Override } from "./Decorators";
-import { ParseCancellationException } from "./misc/ParseCancellationException";
+var DefaultErrorStrategy_1 = require("./DefaultErrorStrategy");
+var InputMismatchException_1 = require("./InputMismatchException");
+var Decorators_1 = require("./Decorators");
+var ParseCancellationException_1 = require("./misc/ParseCancellationException");
 /**
  * This implementation of {@link ANTLRErrorStrategy} responds to syntax errors
  * by immediately canceling the parse operation with a
@@ -39,39 +57,45 @@ import { ParseCancellationException } from "./misc/ParseCancellationException";
  *
  * @see Parser.errorHandler
  */
-export class BailErrorStrategy extends DefaultErrorStrategy {
+var BailErrorStrategy = /** @class */ (function (_super) {
+    __extends(BailErrorStrategy, _super);
+    function BailErrorStrategy() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
     /** Instead of recovering from exception `e`, re-throw it wrapped
      *  in a {@link ParseCancellationException} so it is not caught by the
      *  rule function catches.  Use {@link Exception#getCause()} to get the
      *  original {@link RecognitionException}.
      */
-    recover(recognizer, e) {
-        for (let context = recognizer.context; context; context = context.parent) {
+    BailErrorStrategy.prototype.recover = function (recognizer, e) {
+        for (var context = recognizer.context; context; context = context.parent) {
             context.exception = e;
         }
-        throw new ParseCancellationException(e);
-    }
+        throw new ParseCancellationException_1.ParseCancellationException(e);
+    };
     /** Make sure we don't attempt to recover inline; if the parser
      *  successfully recovers, it won't throw an exception.
      */
-    recoverInline(recognizer) {
-        let e = new InputMismatchException(recognizer);
-        for (let context = recognizer.context; context; context = context.parent) {
+    BailErrorStrategy.prototype.recoverInline = function (recognizer) {
+        var e = new InputMismatchException_1.InputMismatchException(recognizer);
+        for (var context = recognizer.context; context; context = context.parent) {
             context.exception = e;
         }
-        throw new ParseCancellationException(e);
-    }
+        throw new ParseCancellationException_1.ParseCancellationException(e);
+    };
     /** Make sure we don't attempt to recover from problems in subrules. */
-    sync(recognizer) {
+    BailErrorStrategy.prototype.sync = function (recognizer) {
         // intentionally empty
-    }
-}
-__decorate([
-    Override
-], BailErrorStrategy.prototype, "recover", null);
-__decorate([
-    Override
-], BailErrorStrategy.prototype, "recoverInline", null);
-__decorate([
-    Override
-], BailErrorStrategy.prototype, "sync", null);
+    };
+    __decorate([
+        Decorators_1.Override
+    ], BailErrorStrategy.prototype, "recover");
+    __decorate([
+        Decorators_1.Override
+    ], BailErrorStrategy.prototype, "recoverInline");
+    __decorate([
+        Decorators_1.Override
+    ], BailErrorStrategy.prototype, "sync");
+    return BailErrorStrategy;
+}(DefaultErrorStrategy_1.DefaultErrorStrategy));
+exports.BailErrorStrategy = BailErrorStrategy;

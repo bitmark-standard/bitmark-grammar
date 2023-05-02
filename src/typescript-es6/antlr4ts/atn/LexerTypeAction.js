@@ -1,3 +1,4 @@
+"use strict";
 /*!
  * Copyright 2016 The ANTLR Project. All rights reserved.
  * Licensed under the BSD-3-Clause license. See LICENSE file in the project root for license information.
@@ -11,8 +12,10 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __param = (this && this.__param) || function (paramIndex, decorator) {
     return function (target, key) { decorator(target, key, paramIndex); }
 };
-import { MurmurHash } from "../misc/MurmurHash";
-import { NotNull, Override } from "../Decorators";
+exports.__esModule = true;
+exports.LexerTypeAction = void 0;
+var MurmurHash_1 = require("../misc/MurmurHash");
+var Decorators_1 = require("../Decorators");
 /**
  * Implements the `type` lexer action by setting `Lexer.type`
  * with the assigned type.
@@ -20,51 +23,63 @@ import { NotNull, Override } from "../Decorators";
  * @author Sam Harwell
  * @since 4.2
  */
-export class LexerTypeAction {
+var LexerTypeAction = /** @class */ (function () {
     /**
      * Constructs a new `type` action with the specified token type value.
      * @param type The type to assign to the token using `Lexer.type`.
      */
-    constructor(type) {
+    function LexerTypeAction(type) {
         this._type = type;
     }
-    /**
-     * Gets the type to assign to a token created by the lexer.
-     * @returns The type to assign to a token created by the lexer.
-     */
-    get type() {
-        return this._type;
-    }
-    /**
-     * {@inheritDoc}
-     * @returns This method returns {@link LexerActionType#TYPE}.
-     */
-    get actionType() {
-        return 7 /* TYPE */;
-    }
-    /**
-     * {@inheritDoc}
-     * @returns This method returns `false`.
-     */
-    get isPositionDependent() {
-        return false;
-    }
+    Object.defineProperty(LexerTypeAction.prototype, "type", {
+        /**
+         * Gets the type to assign to a token created by the lexer.
+         * @returns The type to assign to a token created by the lexer.
+         */
+        get: function () {
+            return this._type;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(LexerTypeAction.prototype, "actionType", {
+        /**
+         * {@inheritDoc}
+         * @returns This method returns {@link LexerActionType#TYPE}.
+         */
+        get: function () {
+            return 7 /* LexerActionType.TYPE */;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(LexerTypeAction.prototype, "isPositionDependent", {
+        /**
+         * {@inheritDoc}
+         * @returns This method returns `false`.
+         */
+        get: function () {
+            return false;
+        },
+        enumerable: false,
+        configurable: true
+    });
     /**
      * {@inheritDoc}
      *
      * This action is implemented by setting `Lexer.type` with the
      * value provided by `type`.
      */
-    execute(lexer) {
+    LexerTypeAction.prototype.execute = function (lexer) {
         lexer.type = this._type;
-    }
-    hashCode() {
-        let hash = MurmurHash.initialize();
-        hash = MurmurHash.update(hash, this.actionType);
-        hash = MurmurHash.update(hash, this._type);
-        return MurmurHash.finish(hash, 2);
-    }
-    equals(obj) {
+    };
+    LexerTypeAction.prototype.hashCode = function () {
+        var hash = MurmurHash_1.MurmurHash.initialize();
+        hash = MurmurHash_1.MurmurHash.update(hash, this.actionType);
+        hash = MurmurHash_1.MurmurHash.update(hash, this._type);
+        return MurmurHash_1.MurmurHash.finish(hash, 2);
+    };
+    LexerTypeAction.prototype.equals = function (obj) {
         if (obj === this) {
             return true;
         }
@@ -72,27 +87,29 @@ export class LexerTypeAction {
             return false;
         }
         return this._type === obj._type;
-    }
-    toString() {
-        return `type(${this._type})`;
-    }
-}
-__decorate([
-    Override
-], LexerTypeAction.prototype, "actionType", null);
-__decorate([
-    Override
-], LexerTypeAction.prototype, "isPositionDependent", null);
-__decorate([
-    Override,
-    __param(0, NotNull)
-], LexerTypeAction.prototype, "execute", null);
-__decorate([
-    Override
-], LexerTypeAction.prototype, "hashCode", null);
-__decorate([
-    Override
-], LexerTypeAction.prototype, "equals", null);
-__decorate([
-    Override
-], LexerTypeAction.prototype, "toString", null);
+    };
+    LexerTypeAction.prototype.toString = function () {
+        return "type(".concat(this._type, ")");
+    };
+    __decorate([
+        Decorators_1.Override
+    ], LexerTypeAction.prototype, "actionType");
+    __decorate([
+        Decorators_1.Override
+    ], LexerTypeAction.prototype, "isPositionDependent");
+    __decorate([
+        Decorators_1.Override,
+        __param(0, Decorators_1.NotNull)
+    ], LexerTypeAction.prototype, "execute");
+    __decorate([
+        Decorators_1.Override
+    ], LexerTypeAction.prototype, "hashCode");
+    __decorate([
+        Decorators_1.Override
+    ], LexerTypeAction.prototype, "equals");
+    __decorate([
+        Decorators_1.Override
+    ], LexerTypeAction.prototype, "toString");
+    return LexerTypeAction;
+}());
+exports.LexerTypeAction = LexerTypeAction;

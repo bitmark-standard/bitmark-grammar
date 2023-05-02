@@ -1,3 +1,4 @@
+"use strict";
 /*!
  * Copyright 2016 The ANTLR Project. All rights reserved.
  * Licensed under the BSD-3-Clause license. See LICENSE file in the project root for license information.
@@ -8,7 +9,9 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
-import { Override } from "../Decorators";
+exports.__esModule = true;
+exports.DecisionInfo = void 0;
+var Decorators_1 = require("../Decorators");
 /**
  * This class contains profiling gathered for a particular decision.
  *
@@ -21,14 +24,14 @@ import { Override } from "../Decorators";
  *
  * @since 4.3
  */
-export class DecisionInfo {
+var DecisionInfo = /** @class */ (function () {
     /**
      * Constructs a new instance of the {@link DecisionInfo} class to contain
      * statistics for a particular decision.
      *
      * @param decision The decision number
      */
-    constructor(decision) {
+    function DecisionInfo(decision) {
         /**
          * The total number of times {@link ParserATNSimulator#adaptivePredict} was
          * invoked for this decision.
@@ -187,7 +190,7 @@ export class DecisionInfo {
         this.LL_DFATransitions = 0;
         this.decision = decision;
     }
-    toString() {
+    DecisionInfo.prototype.toString = function () {
         return "{" +
             "decision=" + this.decision +
             ", contextSensitivities=" + this.contextSensitivities.length +
@@ -200,8 +203,10 @@ export class DecisionInfo {
             ", LL_lookahead=" + this.LL_TotalLook +
             ", LL_ATNTransitions=" + this.LL_ATNTransitions +
             "}";
-    }
-}
-__decorate([
-    Override
-], DecisionInfo.prototype, "toString", null);
+    };
+    __decorate([
+        Decorators_1.Override
+    ], DecisionInfo.prototype, "toString");
+    return DecisionInfo;
+}());
+exports.DecisionInfo = DecisionInfo;

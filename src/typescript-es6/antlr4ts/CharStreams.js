@@ -1,10 +1,13 @@
+"use strict";
 /*!
  * Copyright 2016 The ANTLR Project. All rights reserved.
  * Licensed under the BSD-3-Clause license. See LICENSE file in the project root for license information.
  */
-import { CodePointBuffer } from "./CodePointBuffer";
-import { CodePointCharStream } from "./CodePointCharStream";
-import { IntStream } from "./IntStream";
+exports.__esModule = true;
+exports.CharStreams = void 0;
+var CodePointBuffer_1 = require("./CodePointBuffer");
+var CodePointCharStream_1 = require("./CodePointCharStream");
+var IntStream_1 = require("./IntStream");
 // const DEFAULT_BUFFER_SIZE: number = 4096;
 /** This class represents the primary interface for creating {@link CharStream}s
  *  from a variety of sources as of 4.7.  The motivation was to support
@@ -44,7 +47,7 @@ import { IntStream } from "./IntStream";
  *
  *  @since 4.7
  */
-export var CharStreams;
+var CharStreams;
 (function (CharStreams) {
     // /**
     //  * Creates a {@link CharStream} given a path to a UTF-8
@@ -60,19 +63,19 @@ export var CharStreams;
     // 	}
     function fromString(s, sourceName) {
         if (sourceName === undefined || sourceName.length === 0) {
-            sourceName = IntStream.UNKNOWN_SOURCE_NAME;
+            sourceName = IntStream_1.IntStream.UNKNOWN_SOURCE_NAME;
         }
         // Initial guess assumes no code points > U+FFFF: one code
         // point for each code unit in the string
-        let codePointBufferBuilder = CodePointBuffer.builder(s.length);
+        var codePointBufferBuilder = CodePointBuffer_1.CodePointBuffer.builder(s.length);
         // TODO: CharBuffer.wrap(String) rightfully returns a read-only buffer
         // which doesn't expose its array, so we make a copy.
-        let cb = new Uint16Array(s.length);
-        for (let i = 0; i < s.length; i++) {
+        var cb = new Uint16Array(s.length);
+        for (var i = 0; i < s.length; i++) {
             cb[i] = s.charCodeAt(i);
         }
         codePointBufferBuilder.append(cb);
-        return CodePointCharStream.fromBuffer(codePointBufferBuilder.build(), sourceName);
+        return CodePointCharStream_1.CodePointCharStream.fromBuffer(codePointBufferBuilder.build(), sourceName);
     }
     CharStreams.fromString = fromString;
     // export function bufferFromChannel(
@@ -126,4 +129,4 @@ export var CharStreams;
     // 		channel.close();
     // 	}
     // }
-})(CharStreams || (CharStreams = {}));
+})(CharStreams = exports.CharStreams || (exports.CharStreams = {}));

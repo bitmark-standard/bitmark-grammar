@@ -1,7 +1,23 @@
+"use strict";
 /*!
  * Copyright 2016 The ANTLR Project. All rights reserved.
  * Licensed under the BSD-3-Clause license. See LICENSE file in the project root for license information.
  */
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        if (typeof b !== "function" && b !== null)
+            throw new TypeError("Class extends value " + String(b) + " is not a constructor or null");
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -11,41 +27,56 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __param = (this && this.__param) || function (paramIndex, decorator) {
     return function (target, key) { decorator(target, key, paramIndex); }
 };
-import { Override, NotNull } from "../Decorators";
-import { Transition } from "./Transition";
-let ActionTransition = class ActionTransition extends Transition {
-    constructor(target, ruleIndex, actionIndex = -1, isCtxDependent = false) {
-        super(target);
-        this.ruleIndex = ruleIndex;
-        this.actionIndex = actionIndex;
-        this.isCtxDependent = isCtxDependent;
+exports.__esModule = true;
+exports.ActionTransition = void 0;
+var Decorators_1 = require("../Decorators");
+var Transition_1 = require("./Transition");
+var ActionTransition = /** @class */ (function (_super) {
+    __extends(ActionTransition, _super);
+    function ActionTransition(target, ruleIndex, actionIndex, isCtxDependent) {
+        if (actionIndex === void 0) { actionIndex = -1; }
+        if (isCtxDependent === void 0) { isCtxDependent = false; }
+        var _this = _super.call(this, target) || this;
+        _this.ruleIndex = ruleIndex;
+        _this.actionIndex = actionIndex;
+        _this.isCtxDependent = isCtxDependent;
+        return _this;
     }
-    get serializationType() {
-        return 6 /* ACTION */;
-    }
-    get isEpsilon() {
-        return true; // we are to be ignored by analysis 'cept for predicates
-    }
-    matches(symbol, minVocabSymbol, maxVocabSymbol) {
+    Object.defineProperty(ActionTransition.prototype, "serializationType", {
+        get: function () {
+            return 6 /* TransitionType.ACTION */;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(ActionTransition.prototype, "isEpsilon", {
+        get: function () {
+            return true; // we are to be ignored by analysis 'cept for predicates
+        },
+        enumerable: false,
+        configurable: true
+    });
+    ActionTransition.prototype.matches = function (symbol, minVocabSymbol, maxVocabSymbol) {
         return false;
-    }
-    toString() {
+    };
+    ActionTransition.prototype.toString = function () {
         return "action_" + this.ruleIndex + ":" + this.actionIndex;
-    }
-};
-__decorate([
-    Override
-], ActionTransition.prototype, "serializationType", null);
-__decorate([
-    Override
-], ActionTransition.prototype, "isEpsilon", null);
-__decorate([
-    Override
-], ActionTransition.prototype, "matches", null);
-__decorate([
-    Override
-], ActionTransition.prototype, "toString", null);
-ActionTransition = __decorate([
-    __param(0, NotNull)
-], ActionTransition);
-export { ActionTransition };
+    };
+    __decorate([
+        Decorators_1.Override
+    ], ActionTransition.prototype, "serializationType");
+    __decorate([
+        Decorators_1.Override
+    ], ActionTransition.prototype, "isEpsilon");
+    __decorate([
+        Decorators_1.Override
+    ], ActionTransition.prototype, "matches");
+    __decorate([
+        Decorators_1.Override
+    ], ActionTransition.prototype, "toString");
+    ActionTransition = __decorate([
+        __param(0, Decorators_1.NotNull)
+    ], ActionTransition);
+    return ActionTransition;
+}(Transition_1.Transition));
+exports.ActionTransition = ActionTransition;

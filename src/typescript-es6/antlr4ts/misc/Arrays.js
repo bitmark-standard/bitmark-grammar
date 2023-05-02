@@ -1,8 +1,11 @@
+"use strict";
 /*!
  * Copyright 2016 The ANTLR Project. All rights reserved.
  * Licensed under the BSD-3-Clause license. See LICENSE file in the project root for license information.
  */
-export var Arrays;
+exports.__esModule = true;
+exports.Arrays = void 0;
+var Arrays;
 (function (Arrays) {
     /**
      * Searches the specified array of numbers for the specified value using the binary search algorithm. The array must
@@ -19,11 +22,11 @@ export var Arrays;
     }
     Arrays.binarySearch = binarySearch;
     function binarySearch0(array, fromIndex, toIndex, key) {
-        let low = fromIndex;
-        let high = toIndex - 1;
+        var low = fromIndex;
+        var high = toIndex - 1;
         while (low <= high) {
-            let mid = (low + high) >>> 1;
-            let midVal = array[mid];
+            var mid = (low + high) >>> 1;
+            var midVal = array[mid];
             if (midVal < key) {
                 low = mid + 1;
             }
@@ -39,9 +42,10 @@ export var Arrays;
         return -(low + 1);
     }
     function toString(array) {
-        let result = "[";
-        let first = true;
-        for (let element of array) {
+        var result = "[";
+        var first = true;
+        for (var _i = 0, array_1 = array; _i < array_1.length; _i++) {
+            var element = array_1[_i];
             if (first) {
                 first = false;
             }
@@ -62,4 +66,4 @@ export var Arrays;
         return result;
     }
     Arrays.toString = toString;
-})(Arrays || (Arrays = {}));
+})(Arrays = exports.Arrays || (exports.Arrays = {}));

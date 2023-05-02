@@ -109,7 +109,7 @@ const JSON_BIT_TEMPLATES = {
   Gap_bit: {
     type: 'gap',
     item: '',
-    solutions: [],
+    solutions:  [],
     hint: '',
     instruction: '',
     isCaseSensitive: true,
@@ -118,9 +118,9 @@ const JSON_BIT_TEMPLATES = {
   },
   Match_pair: { // regular match
     key: '',
-    keyImage: {width: null, height: null, 'src': ''},  // Delete when not needed
-    keyAudio: {format:'', src:''},  // Delete when not needed
-    values: [], 
+    keyImage: {width: null, height: null, 'src': ''},// Delete when not needed
+    keyAudio: {format:'', src: ''},  // Delete when not needed
+    values:  [], 
     item: '',
     hint: '',
     instruction: '',
@@ -136,7 +136,7 @@ const JSON_BIT_TEMPLATES = {
       format: 'bitmark--',
       item: '',
       heading: {},
-      pairs: []  // here Match_pair(s) comes in
+      pairs:  [] // here Match_pair(s) comes in
     }
   },
   /*Pair_heading: {
@@ -151,9 +151,9 @@ const JSON_BIT_TEMPLATES = {
       item: '',
       heading: {
         forKeys: '',   // heading key.
-        forValues: []  // heading values.
+        forValues:  [] // heading values.
       },
-      matrix: []   // array of MatchMatrix_matrixelem
+      matrix:  []   // array of MatchMatrix_matrixelem
     }
   },
   MatchMatrix_matrixelem: {
@@ -162,12 +162,12 @@ const JSON_BIT_TEMPLATES = {
       /*{
         item: ,
         instruction: ,
-        values: []
+        values: 
         },
-        {
+       : {
         item: ,
         instruction: ,
-        values: []
+        values: 
         },*/
     ],
     item: '',
@@ -180,8 +180,8 @@ const JSON_BIT_TEMPLATES = {
   // Element inside Match matrix cells
   MatchMatrix_cell: {
     item: '',
-    instruction:'' ,
-    values: []
+    instruction: '' ,
+    values:  []
   },
   
   Multi_choice_text: {
@@ -189,7 +189,7 @@ const JSON_BIT_TEMPLATES = {
     bit: {
       type: 'multiple-choice-text',
       format: 'bitmark--',
-      body: '', // e.g.'The students {0} the {1} with the correct verb forms.',
+      body: '', // e.g.'The students: {0} the: {1} with the correct verb forms.',
       placeholders: {
 	// e.g.{0}:placeholder
       }
@@ -200,9 +200,9 @@ const JSON_BIT_TEMPLATES = {
     item: '',
     options: [
       /*
-      {'text': 'd', 'hint': 'd', 'correct': true},
-      {'text': 't', 'hint': 't', 'correct': false},
-      {'text': 's', 'hint': 's', 'correct': false}
+     : {'text': 'd', 'hint': 'd', 'correct': true},
+     : {'text': 't', 'hint': 't', 'correct': false},
+     : {'text': 's', 'hint': 's', 'correct': false}
       */
     ],
     prefix: '',
@@ -227,13 +227,13 @@ const JSON_BIT_TEMPLATES = {
       body: '',
       footer: '',
       hint: '',
-      quizzes: [],  // previously 'choices'. contains a list of Mc_choice s
+      quizzes:  [],  // previously 'choices'. contains a list of Mc_choice s
     }
   },
   Mc_quiz: { 
     item: '',
     instruction: '',
-    choices: [],  // list of Mc_quiz_choice
+    choices:  [],  // list of Mc_quiz_choice
     hint: '',
     isExample: false,
     example: ''
@@ -255,7 +255,7 @@ const JSON_BIT_TEMPLATES = {
       instruction: '',
       body: '',
       hint: '',
-      choices: [],  // a list of Mc_quiz_choice
+      choices:  [],  // a list of Mc_quiz_choice
       isExample: false,
       example: '',
     }
@@ -271,13 +271,13 @@ const JSON_BIT_TEMPLATES = {
       body: '',
       footer: '',
       hint: '',
-      quizzes: [],  // previously 'choices'. contains a list of Mr_response
+      quizzes:  [],  // previously 'choices'. contains a list of Mr_response
     }
   },
   Mr_response: { 
     item: '',
     instruction: '',
-    responses: [],  // list of Mc_quiz_choice
+    responses:  [],  // list of Mc_quiz_choice
     hint: '',
     isExample: false,
     example: ''
@@ -299,7 +299,7 @@ const JSON_BIT_TEMPLATES = {
       instruction: '',
       body: '',
       hint: '',
-      responses: [],  // a list of Mr_resp_resp
+      responses:  [],  // a list of Mr_resp_resp
       isExample: false,
       example: '',
     }
@@ -326,7 +326,7 @@ const JSON_BIT_TEMPLATES = {
   Highlight_placeholder: {  //mct = multi-choice-text
     type: 'highlight',
     item: '',
-    texts: [], // list of Highlight_text_text
+    texts:  [], // list of Highlight_text_text
     prefix: '',
     postfix: '',
     hint: '',
@@ -383,7 +383,7 @@ const JSON_BIT_TEMPLATES = {
       body: '',
       footer: '',
       hint: '',
-      questions: []
+      questions: [],
     }
   },
   Interview_question: {
@@ -429,7 +429,7 @@ const JSON_BIT_TEMPLATES = {
       hint: '',
       initiator: {
         name: '',
-        avatarImage:  {
+        avatarImage: {
 	  width: null,
 	  height: null,
 	  alt: '',
@@ -445,8 +445,7 @@ const JSON_BIT_TEMPLATES = {
 	  src: ''
 	}
       },
-      chat: [
-      ],
+      chat: [],
     }
   },
   Chat_element: {

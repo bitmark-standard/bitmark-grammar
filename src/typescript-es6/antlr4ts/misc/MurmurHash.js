@@ -1,21 +1,25 @@
+"use strict";
 /*!
  * Copyright 2016 The ANTLR Project. All rights reserved.
  * Licensed under the BSD-3-Clause license. See LICENSE file in the project root for license information.
  */
+exports.__esModule = true;
+exports.MurmurHash = void 0;
 /**
  *
  * @author Sam Harwell
  */
-export var MurmurHash;
+var MurmurHash;
 (function (MurmurHash) {
-    const DEFAULT_SEED = 0;
+    var DEFAULT_SEED = 0;
     /**
      * Initialize the hash using the specified `seed`.
      *
      * @param seed the seed (optional)
      * @returns the intermediate hash value
      */
-    function initialize(seed = DEFAULT_SEED) {
+    function initialize(seed) {
+        if (seed === void 0) { seed = DEFAULT_SEED; }
         return seed;
     }
     MurmurHash.initialize = initialize;
@@ -27,12 +31,12 @@ export var MurmurHash;
      * @returns the updated intermediate hash value
      */
     function update(hash, value) {
-        const c1 = 0xCC9E2D51;
-        const c2 = 0x1B873593;
-        const r1 = 15;
-        const r2 = 13;
-        const m = 5;
-        const n = 0xE6546B64;
+        var c1 = 0xCC9E2D51;
+        var c2 = 0x1B873593;
+        var r1 = 15;
+        var r2 = 13;
+        var m = 5;
+        var n = 0xE6546B64;
         if (value == null) {
             value = 0;
         }
@@ -42,7 +46,7 @@ export var MurmurHash;
         else if (typeof value === "object") {
             value = value.hashCode();
         }
-        let k = value;
+        var k = value;
         k = Math.imul(k, c1);
         k = (k << r1) | (k >>> (32 - r1));
         k = Math.imul(k, c2);
@@ -79,10 +83,12 @@ export var MurmurHash;
      * @param seed the seed for the MurmurHash algorithm
      * @returns the hash code of the data
      */
-    function hashCode(data, seed = DEFAULT_SEED) {
-        let hash = initialize(seed);
-        let length = 0;
-        for (let value of data) {
+    function hashCode(data, seed) {
+        if (seed === void 0) { seed = DEFAULT_SEED; }
+        var hash = initialize(seed);
+        var length = 0;
+        for (var _i = 0, data_1 = data; _i < data_1.length; _i++) {
+            var value = data_1[_i];
             hash = update(hash, value);
             length++;
         }
@@ -95,16 +101,16 @@ export var MurmurHash;
      * http://stackoverflow.com/a/7616484
      */
     function hashString(str) {
-        let len = str.length;
+        var len = str.length;
         if (len === 0) {
             return 0;
         }
-        let hash = 0;
-        for (let i = 0; i < len; i++) {
-            let c = str.charCodeAt(i);
+        var hash = 0;
+        for (var i = 0; i < len; i++) {
+            var c = str.charCodeAt(i);
             hash = (((hash << 5) >>> 0) - hash) + c;
             hash |= 0;
         }
         return hash;
     }
-})(MurmurHash || (MurmurHash = {}));
+})(MurmurHash = exports.MurmurHash || (exports.MurmurHash = {}));

@@ -1,3 +1,4 @@
+"use strict";
 /*!
  * Copyright 2016 The ANTLR Project. All rights reserved.
  * Licensed under the BSD-3-Clause license. See LICENSE file in the project root for license information.
@@ -11,21 +12,24 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __param = (this && this.__param) || function (paramIndex, decorator) {
     return function (target, key) { decorator(target, key, paramIndex); }
 };
-import { NotNull } from "../Decorators";
-import { ParserRuleContext } from "../ParserRuleContext";
+exports.__esModule = true;
+exports.SimulatorState = void 0;
+var Decorators_1 = require("../Decorators");
+var ParserRuleContext_1 = require("../ParserRuleContext");
 /**
  *
  * @author Sam Harwell
  */
-let SimulatorState = class SimulatorState {
-    constructor(outerContext, s0, useContext, remainingOuterContext) {
-        this.outerContext = outerContext != null ? outerContext : ParserRuleContext.emptyContext();
+var SimulatorState = /** @class */ (function () {
+    function SimulatorState(outerContext, s0, useContext, remainingOuterContext) {
+        this.outerContext = outerContext != null ? outerContext : ParserRuleContext_1.ParserRuleContext.emptyContext();
         this.s0 = s0;
         this.useContext = useContext;
         this.remainingOuterContext = remainingOuterContext;
     }
-};
-SimulatorState = __decorate([
-    __param(1, NotNull)
-], SimulatorState);
-export { SimulatorState };
+    SimulatorState = __decorate([
+        __param(1, Decorators_1.NotNull)
+    ], SimulatorState);
+    return SimulatorState;
+}());
+exports.SimulatorState = SimulatorState;

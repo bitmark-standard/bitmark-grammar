@@ -1,24 +1,42 @@
+"use strict";
 /*!
  * Copyright 2016 The ANTLR Project. All rights reserved.
  * Licensed under the BSD-3-Clause license. See LICENSE file in the project root for license information.
  */
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        if (typeof b !== "function" && b !== null)
+            throw new TypeError("Class extends value " + String(b) + " is not a constructor or null");
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+exports.__esModule = true;
+exports.PredictionMode = void 0;
 // ConvertTo-TS run at 2016-10-04T11:26:36.2673893-07:00
-import { Array2DHashMap } from "../misc/Array2DHashMap";
-import { MurmurHash } from "../misc/MurmurHash";
-import { Override } from "../Decorators";
-import { RuleStopState } from "./RuleStopState";
+var Array2DHashMap_1 = require("../misc/Array2DHashMap");
+var MurmurHash_1 = require("../misc/MurmurHash");
+var Decorators_1 = require("../Decorators");
+var RuleStopState_1 = require("./RuleStopState");
 /**
  * This enumeration defines the prediction modes available in ANTLR 4 along with
  * utility methods for analyzing configuration sets for conflicts and/or
  * ambiguities.
  */
-export var PredictionMode;
+var PredictionMode;
 (function (PredictionMode) {
     /**
      * The SLL(*) prediction mode. This prediction mode ignores the current
@@ -73,31 +91,35 @@ export var PredictionMode;
      * behavior for syntactically-incorrect inputs.
      */
     PredictionMode[PredictionMode["LL_EXACT_AMBIG_DETECTION"] = 2] = "LL_EXACT_AMBIG_DETECTION";
-})(PredictionMode || (PredictionMode = {}));
+})(PredictionMode = exports.PredictionMode || (exports.PredictionMode = {}));
 (function (PredictionMode) {
     /** A Map that uses just the state and the stack context as the key. */
     // NOTE: Base type used to be FlexibleHashMap<ATNConfig, BitSet>
-    class AltAndContextMap extends Array2DHashMap {
-        constructor() {
-            super(AltAndContextConfigEqualityComparator.INSTANCE);
+    var AltAndContextMap = /** @class */ (function (_super) {
+        __extends(AltAndContextMap, _super);
+        function AltAndContextMap() {
+            return _super.call(this, AltAndContextConfigEqualityComparator.INSTANCE) || this;
         }
-    }
-    class AltAndContextConfigEqualityComparator {
-        AltAndContextConfigEqualityComparator() {
+        return AltAndContextMap;
+    }(Array2DHashMap_1.Array2DHashMap));
+    var AltAndContextConfigEqualityComparator = /** @class */ (function () {
+        function AltAndContextConfigEqualityComparator() {
+        }
+        AltAndContextConfigEqualityComparator.prototype.AltAndContextConfigEqualityComparator = function () {
             // intentionally empty
-        }
+        };
         /**
          * The hash code is only a function of the {@link ATNState#stateNumber}
          * and {@link ATNConfig#context}.
          */
-        hashCode(o) {
-            let hashCode = MurmurHash.initialize(7);
-            hashCode = MurmurHash.update(hashCode, o.state.stateNumber);
-            hashCode = MurmurHash.update(hashCode, o.context);
-            hashCode = MurmurHash.finish(hashCode, 2);
+        AltAndContextConfigEqualityComparator.prototype.hashCode = function (o) {
+            var hashCode = MurmurHash_1.MurmurHash.initialize(7);
+            hashCode = MurmurHash_1.MurmurHash.update(hashCode, o.state.stateNumber);
+            hashCode = MurmurHash_1.MurmurHash.update(hashCode, o.context);
+            hashCode = MurmurHash_1.MurmurHash.finish(hashCode, 2);
             return hashCode;
-        }
-        equals(a, b) {
+        };
+        AltAndContextConfigEqualityComparator.prototype.equals = function (a, b) {
             if (a === b) {
                 return true;
             }
@@ -106,15 +128,16 @@ export var PredictionMode;
             }
             return a.state.stateNumber === b.state.stateNumber
                 && a.context.equals(b.context);
-        }
-    }
-    AltAndContextConfigEqualityComparator.INSTANCE = new AltAndContextConfigEqualityComparator();
-    __decorate([
-        Override
-    ], AltAndContextConfigEqualityComparator.prototype, "hashCode", null);
-    __decorate([
-        Override
-    ], AltAndContextConfigEqualityComparator.prototype, "equals", null);
+        };
+        AltAndContextConfigEqualityComparator.INSTANCE = new AltAndContextConfigEqualityComparator();
+        __decorate([
+            Decorators_1.Override
+        ], AltAndContextConfigEqualityComparator.prototype, "hashCode");
+        __decorate([
+            Decorators_1.Override
+        ], AltAndContextConfigEqualityComparator.prototype, "equals");
+        return AltAndContextConfigEqualityComparator;
+    }());
     /**
      * Checks if any configuration in `configs` is in a
      * {@link RuleStopState}. Configurations meeting this condition have reached
@@ -126,8 +149,9 @@ export var PredictionMode;
      * {@link RuleStopState}, otherwise `false`
      */
     function hasConfigInRuleStopState(configs) {
-        for (let c of configs) {
-            if (c.state instanceof RuleStopState) {
+        for (var _i = 0, configs_1 = configs; _i < configs_1.length; _i++) {
+            var c = configs_1[_i];
+            if (c.state instanceof RuleStopState_1.RuleStopState) {
                 return true;
             }
         }
@@ -145,12 +169,13 @@ export var PredictionMode;
      * {@link RuleStopState}, otherwise `false`
      */
     function allConfigsInRuleStopStates(/*@NotNull*/ configs) {
-        for (let config of configs) {
-            if (!(config.state instanceof RuleStopState)) {
+        for (var _i = 0, configs_2 = configs; _i < configs_2.length; _i++) {
+            var config = configs_2[_i];
+            if (!(config.state instanceof RuleStopState_1.RuleStopState)) {
                 return false;
             }
         }
         return true;
     }
     PredictionMode.allConfigsInRuleStopStates = allConfigsInRuleStopStates;
-})(PredictionMode || (PredictionMode = {}));
+})(PredictionMode = exports.PredictionMode || (exports.PredictionMode = {}));

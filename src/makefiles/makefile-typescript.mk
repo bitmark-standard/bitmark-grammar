@@ -104,7 +104,7 @@ es6: $(grammar_file)
 	$(PYTHON_EXECUTABLE) ./tools/replace_parser_content.py ./Flashcard/_flashcardParser.g4 $(common_parser_file) ./Flashcard/flashcardParser.g4 '<<<<<<common<<<<<<'
 	$(NODE_MODULES)/antlr4ts-cli/antlr4ts $(ANTLR_OPT) $(flashcard_lexer_file);
 	$(NODE_MODULES)/antlr4ts-cli/antlr4ts $(ANTLR_OPT) $(flashcard_parser_file);
-	cp ./Falshcard/*.ts $(ts_dir)
+	cp ./Flashcard/*.ts $(ts_dir)
 	#$(NODE_MODULES)/.bin/tsc $(td_dir)*.ts -experimentalDecorators -target es6 --module esnext --moduleResolution Node --outDir $(ts_dir)
 
 	$(PYTHON_EXECUTABLE) ./tools/replace_parser_content.py ./Chat/_chatLexer.g4 $(common_lexer_file) $(chat_lexer_file) '<<<<<<common<<<<<<'

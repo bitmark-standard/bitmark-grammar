@@ -1092,7 +1092,9 @@ BitmarkListener.prototype.exitMatch_ = function(ctx) {
 BitmarkListener.prototype.enterMatch_all = function(ctx) {
   this.push_tmpl(ctx, 'match-all', R.clone(JSON_BIT_TEMPLATES.Match_bit));
 }
-//BitmarkListener.prototype.exitMatch_all = function(ctx) {}
+BitmarkListener.prototype.exitMatch_all = function(ctx) {
+  this.remove_separators_from_body();    // Remove all === from body
+}
 
 BitmarkListener.prototype.enterMatch_all_reverse = function(ctx) {
   this.push_tmpl(ctx, 'match-all-reverse', R.clone(JSON_BIT_TEMPLATES.Match_bit));
@@ -1162,6 +1164,10 @@ BitmarkListener.prototype.exitPqpair = function(ctx) {
   this.curr_bit_stk.pop();
   this.curr_bit_stk.pop();
 };
+BitmarkListener.prototype.exitOr_ = function(ctx) {
+  let code = this.but.getcode(ctx);
+  (this.stk.top()).bit['body'] = (this.stk.top()).bit['body'].replace(code,'');
+}
 
 // For each pair create a pair object and push
 BitmarkListener.prototype.enterPair_multival = function(ctx) {
@@ -1505,7 +1511,9 @@ BitmarkListener.prototype.enterMatch_solution_grouped = function(ctx) {
   this.push_tmpl(ctx, 'match-solution-grouped', R.clone(JSON_BIT_TEMPLATES.Match_bit));
 };
 // Exit a parse tree produced by bitmarkParser#match_solution_grouped.
-//BitmarkListener.prototype.exitMatch_solution_grouped = function(ctx) {};
+BitmarkListener.prototype.exitMatch_solution_grouped = function(ctx) {
+  this.remove_separators_from_body();    // Remove all === from body
+};
 
 // Enter a parse tree produced by bitmarkParser#true_false_1.
 BitmarkListener.prototype.enterTrue_false_1 = function(ctx) {
@@ -2823,4 +2831,3 @@ BitmarkListener.prototype.exitAnchor = function(ctx) {
 };
 /*export {BitmarkListener};*/
 exports.BitmarkListener = BitmarkListener;
-

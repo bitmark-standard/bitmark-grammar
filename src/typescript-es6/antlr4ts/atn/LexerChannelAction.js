@@ -1,3 +1,4 @@
+"use strict";
 /*!
  * Copyright 2016 The ANTLR Project. All rights reserved.
  * Licensed under the BSD-3-Clause license. See LICENSE file in the project root for license information.
@@ -11,8 +12,10 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __param = (this && this.__param) || function (paramIndex, decorator) {
     return function (target, key) { decorator(target, key, paramIndex); }
 };
-import { MurmurHash } from "../misc/MurmurHash";
-import { NotNull, Override } from "../Decorators";
+exports.__esModule = true;
+exports.LexerChannelAction = void 0;
+var MurmurHash_1 = require("../misc/MurmurHash");
+var Decorators_1 = require("../Decorators");
 /**
  * Implements the `channel` lexer action by calling
  * {@link Lexer#setChannel} with the assigned channel.
@@ -20,52 +23,64 @@ import { NotNull, Override } from "../Decorators";
  * @author Sam Harwell
  * @since 4.2
  */
-export class LexerChannelAction {
+var LexerChannelAction = /** @class */ (function () {
     /**
      * Constructs a new `channel` action with the specified channel value.
      * @param channel The channel value to pass to {@link Lexer#setChannel}.
      */
-    constructor(channel) {
+    function LexerChannelAction(channel) {
         this._channel = channel;
     }
-    /**
-     * Gets the channel to use for the {@link Token} created by the lexer.
-     *
-     * @returns The channel to use for the {@link Token} created by the lexer.
-     */
-    get channel() {
-        return this._channel;
-    }
-    /**
-     * {@inheritDoc}
-     * @returns This method returns {@link LexerActionType#CHANNEL}.
-     */
-    get actionType() {
-        return 0 /* CHANNEL */;
-    }
-    /**
-     * {@inheritDoc}
-     * @returns This method returns `false`.
-     */
-    get isPositionDependent() {
-        return false;
-    }
+    Object.defineProperty(LexerChannelAction.prototype, "channel", {
+        /**
+         * Gets the channel to use for the {@link Token} created by the lexer.
+         *
+         * @returns The channel to use for the {@link Token} created by the lexer.
+         */
+        get: function () {
+            return this._channel;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(LexerChannelAction.prototype, "actionType", {
+        /**
+         * {@inheritDoc}
+         * @returns This method returns {@link LexerActionType#CHANNEL}.
+         */
+        get: function () {
+            return 0 /* LexerActionType.CHANNEL */;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(LexerChannelAction.prototype, "isPositionDependent", {
+        /**
+         * {@inheritDoc}
+         * @returns This method returns `false`.
+         */
+        get: function () {
+            return false;
+        },
+        enumerable: false,
+        configurable: true
+    });
     /**
      * {@inheritDoc}
      *
      * This action is implemented by calling {@link Lexer#setChannel} with the
      * value provided by {@link #getChannel}.
      */
-    execute(lexer) {
+    LexerChannelAction.prototype.execute = function (lexer) {
         lexer.channel = this._channel;
-    }
-    hashCode() {
-        let hash = MurmurHash.initialize();
-        hash = MurmurHash.update(hash, this.actionType);
-        hash = MurmurHash.update(hash, this._channel);
-        return MurmurHash.finish(hash, 2);
-    }
-    equals(obj) {
+    };
+    LexerChannelAction.prototype.hashCode = function () {
+        var hash = MurmurHash_1.MurmurHash.initialize();
+        hash = MurmurHash_1.MurmurHash.update(hash, this.actionType);
+        hash = MurmurHash_1.MurmurHash.update(hash, this._channel);
+        return MurmurHash_1.MurmurHash.finish(hash, 2);
+    };
+    LexerChannelAction.prototype.equals = function (obj) {
         if (obj === this) {
             return true;
         }
@@ -73,27 +88,29 @@ export class LexerChannelAction {
             return false;
         }
         return this._channel === obj._channel;
-    }
-    toString() {
-        return `channel(${this._channel})`;
-    }
-}
-__decorate([
-    Override
-], LexerChannelAction.prototype, "actionType", null);
-__decorate([
-    Override
-], LexerChannelAction.prototype, "isPositionDependent", null);
-__decorate([
-    Override,
-    __param(0, NotNull)
-], LexerChannelAction.prototype, "execute", null);
-__decorate([
-    Override
-], LexerChannelAction.prototype, "hashCode", null);
-__decorate([
-    Override
-], LexerChannelAction.prototype, "equals", null);
-__decorate([
-    Override
-], LexerChannelAction.prototype, "toString", null);
+    };
+    LexerChannelAction.prototype.toString = function () {
+        return "channel(".concat(this._channel, ")");
+    };
+    __decorate([
+        Decorators_1.Override
+    ], LexerChannelAction.prototype, "actionType");
+    __decorate([
+        Decorators_1.Override
+    ], LexerChannelAction.prototype, "isPositionDependent");
+    __decorate([
+        Decorators_1.Override,
+        __param(0, Decorators_1.NotNull)
+    ], LexerChannelAction.prototype, "execute");
+    __decorate([
+        Decorators_1.Override
+    ], LexerChannelAction.prototype, "hashCode");
+    __decorate([
+        Decorators_1.Override
+    ], LexerChannelAction.prototype, "equals");
+    __decorate([
+        Decorators_1.Override
+    ], LexerChannelAction.prototype, "toString");
+    return LexerChannelAction;
+}());
+exports.LexerChannelAction = LexerChannelAction;

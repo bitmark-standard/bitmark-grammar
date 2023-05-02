@@ -1,3 +1,4 @@
+"use strict";
 /*!
  * Copyright 2016 The ANTLR Project. All rights reserved.
  * Licensed under the BSD-3-Clause license. See LICENSE file in the project root for license information.
@@ -11,8 +12,10 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __param = (this && this.__param) || function (paramIndex, decorator) {
     return function (target, key) { decorator(target, key, paramIndex); }
 };
+exports.__esModule = true;
+exports.DecisionEventInfo = void 0;
 // ConvertTo-TS run at 2016-10-04T11:26:28.2401032-07:00
-import { NotNull } from "../Decorators";
+var Decorators_1 = require("../Decorators");
 /**
  * This is the base class for gathering detailed information about prediction
  * events which occur during parsing.
@@ -28,8 +31,8 @@ import { NotNull } from "../Decorators";
  *
  * @since 4.3
  */
-let DecisionEventInfo = class DecisionEventInfo {
-    constructor(decision, state, input, startIndex, stopIndex, fullCtx) {
+var DecisionEventInfo = /** @class */ (function () {
+    function DecisionEventInfo(decision, state, input, startIndex, stopIndex, fullCtx) {
         this.decision = decision;
         this.fullCtx = fullCtx;
         this.stopIndex = stopIndex;
@@ -37,11 +40,12 @@ let DecisionEventInfo = class DecisionEventInfo {
         this.startIndex = startIndex;
         this.state = state;
     }
-};
-__decorate([
-    NotNull
-], DecisionEventInfo.prototype, "input", void 0);
-DecisionEventInfo = __decorate([
-    __param(2, NotNull)
-], DecisionEventInfo);
-export { DecisionEventInfo };
+    __decorate([
+        Decorators_1.NotNull
+    ], DecisionEventInfo.prototype, "input");
+    DecisionEventInfo = __decorate([
+        __param(2, Decorators_1.NotNull)
+    ], DecisionEventInfo);
+    return DecisionEventInfo;
+}());
+exports.DecisionEventInfo = DecisionEventInfo;

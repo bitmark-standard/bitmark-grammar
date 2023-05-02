@@ -5676,7 +5676,7 @@
                     "isLongAnswer": false
                 }
             ],
-            "body": "--",
+            "body": "",
             "instruction": "Wie heißen die passenden Nomen?"
         }
     }
@@ -6887,7 +6887,7 @@
                     "isLongAnswer": false
                 }
             ],
-            "body": "===\n===\n\n==\n===\n\n==\n===\n\n==\n===\n\n==\n===",
+            "body": "",
             "instruction": "Wie heißen die passenden Nomen?"
         }
     }
@@ -7054,7 +7054,7 @@
                     "isLongAnswer": false
                 }
             ],
-            "body": "--\n**Nice!**\nFinally I get proper new line support.",
+            "body": "**Nice!**\nFinally I get proper new line support.",
             "instruction": "Please translate."
         }
     }
@@ -14578,8 +14578,10 @@
             "example": "",
             "resource": {
                 "type": "document",
-                "document": "https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gesch_ft_kommerz_und_handel_958.png",
-                "private": {}
+                "document": {
+                    "url": "https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/gesch_ft_kommerz_und_handel_958.png",
+                    "provider": "docs.bitbook.education"
+                }
             }
         }
     },
@@ -14622,6 +14624,5 @@
         }
     }
 ]
-
 <<<<
   

@@ -1,12 +1,17 @@
+"use strict";
 /*!
  * Copyright 2016 The ANTLR Project. All rights reserved.
  * Licensed under the BSD-3-Clause license. See LICENSE file in the project root for license information.
  */
+exports.__esModule = true;
+exports.ConsoleErrorListener = void 0;
 /**
  *
  * @author Sam Harwell
  */
-export class ConsoleErrorListener {
+var ConsoleErrorListener = /** @class */ (function () {
+    function ConsoleErrorListener() {
+    }
     /**
      * {@inheritDoc}
      *
@@ -18,11 +23,13 @@ export class ConsoleErrorListener {
      * line *line*:*charPositionInLine* *msg*
      * </pre>
      */
-    syntaxError(recognizer, offendingSymbol, line, charPositionInLine, msg, e) {
-        console.error(`line ${line}:${charPositionInLine} ${msg}`);
-    }
-}
-/**
- * Provides a default instance of {@link ConsoleErrorListener}.
- */
-ConsoleErrorListener.INSTANCE = new ConsoleErrorListener();
+    ConsoleErrorListener.prototype.syntaxError = function (recognizer, offendingSymbol, line, charPositionInLine, msg, e) {
+        console.error("line ".concat(line, ":").concat(charPositionInLine, " ").concat(msg));
+    };
+    /**
+     * Provides a default instance of {@link ConsoleErrorListener}.
+     */
+    ConsoleErrorListener.INSTANCE = new ConsoleErrorListener();
+    return ConsoleErrorListener;
+}());
+exports.ConsoleErrorListener = ConsoleErrorListener;

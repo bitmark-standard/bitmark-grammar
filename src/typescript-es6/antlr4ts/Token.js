@@ -1,9 +1,12 @@
+"use strict";
 /*!
  * Copyright 2016 The ANTLR Project. All rights reserved.
  * Licensed under the BSD-3-Clause license. See LICENSE file in the project root for license information.
  */
-import { IntStream } from "./IntStream";
-export var Token;
+exports.__esModule = true;
+exports.Token = void 0;
+var IntStream_1 = require("./IntStream");
+var Token;
 (function (Token) {
     Token.INVALID_TYPE = 0;
     /** During lookahead operations, this "token" signifies we hit rule end ATN state
@@ -11,7 +14,7 @@ export var Token;
      */
     Token.EPSILON = -2;
     Token.MIN_USER_TOKEN_TYPE = 1;
-    Token.EOF = IntStream.EOF;
+    Token.EOF = IntStream_1.IntStream.EOF;
     /** All tokens go to the parser (unless skip() is called in that rule)
      *  on a particular "channel".  The parser tunes to a particular channel
      *  so that whitespace etc... can go to the parser on a "hidden" channel.
@@ -32,4 +35,4 @@ export var Token;
      * @see `Token.channel`
      */
     Token.MIN_USER_CHANNEL_VALUE = 2;
-})(Token || (Token = {}));
+})(Token = exports.Token || (exports.Token = {}));

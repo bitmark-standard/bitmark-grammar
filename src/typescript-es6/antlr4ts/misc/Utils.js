@@ -1,18 +1,23 @@
+"use strict";
 /*!
  * Copyright 2016 The ANTLR Project. All rights reserved.
  * Licensed under the BSD-3-Clause license. See LICENSE file in the project root for license information.
  */
-export function escapeWhitespace(s, escapeSpaces) {
+exports.__esModule = true;
+exports.toCharArray = exports.toMap = exports.equals = exports.join = exports.escapeWhitespace = void 0;
+function escapeWhitespace(s, escapeSpaces) {
     return escapeSpaces ? s.replace(/ /, "\u00B7") : s
         .replace(/\t/, "\\t")
         .replace(/\n/, "\\n")
         .replace(/\r/, "\\r");
 }
+exports.escapeWhitespace = escapeWhitespace;
 // Seriously: why isn't this built in to java? ugh!
-export function join(collection, separator) {
-    let buf = "";
-    let first = true;
-    for (let current of collection) {
+function join(collection, separator) {
+    var buf = "";
+    var first = true;
+    for (var _i = 0, collection_1 = collection; _i < collection_1.length; _i++) {
+        var current = collection_1[_i];
         if (first) {
             first = false;
         }
@@ -23,7 +28,8 @@ export function join(collection, separator) {
     }
     return buf;
 }
-export function equals(x, y) {
+exports.join = join;
+function equals(x, y) {
     if (x === y) {
         return true;
     }
@@ -32,6 +38,7 @@ export function equals(x, y) {
     }
     return x.equals(y);
 }
+exports.equals = equals;
 // export function numNonnull(data: any[]): number {
 // 	let n: number =  0;
 // 	if ( data == null ) return n;
@@ -131,17 +138,18 @@ export function equals(x, y) {
 /** Convert array of strings to string&rarr;index map. Useful for
  *  converting rulenames to name&rarr;ruleindex map.
  */
-export function toMap(keys) {
-    let m = new Map();
-    for (let i = 0; i < keys.length; i++) {
+function toMap(keys) {
+    var m = new Map();
+    for (var i = 0; i < keys.length; i++) {
         m.set(keys[i], i);
     }
     return m;
 }
-export function toCharArray(str) {
+exports.toMap = toMap;
+function toCharArray(str) {
     if (typeof str === "string") {
-        let result = new Uint16Array(str.length);
-        for (let i = 0; i < str.length; i++) {
+        var result = new Uint16Array(str.length);
+        for (var i = 0; i < str.length; i++) {
             result[i] = str.charCodeAt(i);
         }
         return result;
@@ -150,6 +158,7 @@ export function toCharArray(str) {
         return str.toCharArray();
     }
 }
+exports.toCharArray = toCharArray;
 // /**
 // 	* @since 4.5
 // 	*/

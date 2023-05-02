@@ -1,7 +1,23 @@
+"use strict";
 /*!
  * Copyright 2016 The ANTLR Project. All rights reserved.
  * Licensed under the BSD-3-Clause license. See LICENSE file in the project root for license information.
  */
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        if (typeof b !== "function" && b !== null)
+            throw new TypeError("Class extends value " + String(b) + " is not a constructor or null");
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -12,65 +28,97 @@ var __param = (this && this.__param) || function (paramIndex, decorator) {
     return function (target, key) { decorator(target, key, paramIndex); }
 };
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
     return new (P || (P = Promise))(function (resolve, reject) {
         function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
         function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
-        function step(result) { result.done ? resolve(result.value) : new P(function (resolve) { resolve(result.value); }).then(fulfilled, rejected); }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-import * as Utils from "./misc/Utils";
-import { ATNDeserializationOptions } from "./atn/ATNDeserializationOptions";
-import { ATNDeserializer } from "./atn/ATNDeserializer";
-import { DefaultErrorStrategy } from "./DefaultErrorStrategy";
-import { ErrorNode } from "./tree/ErrorNode";
-import { IntegerStack } from "./misc/IntegerStack";
-import { Lexer } from "./Lexer";
-import { Override, NotNull, Nullable } from "./Decorators";
-import { ParseInfo } from "./atn/ParseInfo";
-import { ParserATNSimulator } from "./atn/ParserATNSimulator";
-import { ProxyParserErrorListener } from "./ProxyParserErrorListener";
-import { Recognizer } from "./Recognizer";
-import { TerminalNode } from "./tree/TerminalNode";
-import { Token } from "./Token";
-class TraceListener {
-    constructor(ruleNames, tokenStream) {
+var __generator = (this && this.__generator) || function (thisArg, body) {
+    var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g;
+    return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function() { return this; }), g;
+    function verb(n) { return function (v) { return step([n, v]); }; }
+    function step(op) {
+        if (f) throw new TypeError("Generator is already executing.");
+        while (g && (g = 0, op[0] && (_ = 0)), _) try {
+            if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;
+            if (y = 0, t) op = [op[0] & 2, t.value];
+            switch (op[0]) {
+                case 0: case 1: t = op; break;
+                case 4: _.label++; return { value: op[1], done: false };
+                case 5: _.label++; y = op[1]; op = [0]; continue;
+                case 7: op = _.ops.pop(); _.trys.pop(); continue;
+                default:
+                    if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) { _ = 0; continue; }
+                    if (op[0] === 3 && (!t || (op[1] > t[0] && op[1] < t[3]))) { _.label = op[1]; break; }
+                    if (op[0] === 6 && _.label < t[1]) { _.label = t[1]; t = op; break; }
+                    if (t && _.label < t[2]) { _.label = t[2]; _.ops.push(op); break; }
+                    if (t[2]) _.ops.pop();
+                    _.trys.pop(); continue;
+            }
+            op = body.call(thisArg, _);
+        } catch (e) { op = [6, e]; y = 0; } finally { f = t = 0; }
+        if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
+    }
+};
+exports.__esModule = true;
+exports.Parser = void 0;
+var Utils = require("./misc/Utils");
+var ATNDeserializationOptions_1 = require("./atn/ATNDeserializationOptions");
+var ATNDeserializer_1 = require("./atn/ATNDeserializer");
+var DefaultErrorStrategy_1 = require("./DefaultErrorStrategy");
+var ErrorNode_1 = require("./tree/ErrorNode");
+var IntegerStack_1 = require("./misc/IntegerStack");
+var Lexer_1 = require("./Lexer");
+var Decorators_1 = require("./Decorators");
+var ParseInfo_1 = require("./atn/ParseInfo");
+var ParserATNSimulator_1 = require("./atn/ParserATNSimulator");
+var ProxyParserErrorListener_1 = require("./ProxyParserErrorListener");
+var Recognizer_1 = require("./Recognizer");
+var TerminalNode_1 = require("./tree/TerminalNode");
+var Token_1 = require("./Token");
+var TraceListener = /** @class */ (function () {
+    function TraceListener(ruleNames, tokenStream) {
         this.ruleNames = ruleNames;
         this.tokenStream = tokenStream;
     }
-    enterEveryRule(ctx) {
+    TraceListener.prototype.enterEveryRule = function (ctx) {
         console.log("enter   " + this.ruleNames[ctx.ruleIndex] +
             ", LT(1)=" + this.tokenStream.LT(1).text);
-    }
-    exitEveryRule(ctx) {
+    };
+    TraceListener.prototype.exitEveryRule = function (ctx) {
         console.log("exit    " + this.ruleNames[ctx.ruleIndex] +
             ", LT(1)=" + this.tokenStream.LT(1).text);
-    }
-    visitErrorNode(node) {
+    };
+    TraceListener.prototype.visitErrorNode = function (node) {
         // intentionally empty
-    }
-    visitTerminal(node) {
-        let parent = node.parent.ruleContext;
-        let token = node.symbol;
+    };
+    TraceListener.prototype.visitTerminal = function (node) {
+        var parent = node.parent.ruleContext;
+        var token = node.symbol;
         console.log("consume " + token + " rule " + this.ruleNames[parent.ruleIndex]);
-    }
-}
-__decorate([
-    Override
-], TraceListener.prototype, "enterEveryRule", null);
-__decorate([
-    Override
-], TraceListener.prototype, "exitEveryRule", null);
-__decorate([
-    Override
-], TraceListener.prototype, "visitErrorNode", null);
-__decorate([
-    Override
-], TraceListener.prototype, "visitTerminal", null);
+    };
+    __decorate([
+        Decorators_1.Override
+    ], TraceListener.prototype, "enterEveryRule");
+    __decorate([
+        Decorators_1.Override
+    ], TraceListener.prototype, "exitEveryRule");
+    __decorate([
+        Decorators_1.Override
+    ], TraceListener.prototype, "visitErrorNode");
+    __decorate([
+        Decorators_1.Override
+    ], TraceListener.prototype, "visitTerminal");
+    return TraceListener;
+}());
 /** This is all the parsing support code essentially; most of it is error recovery stuff. */
-export class Parser extends Recognizer {
-    constructor(input) {
-        super();
+var Parser = /** @class */ (function (_super) {
+    __extends(Parser, _super);
+    function Parser(input) {
+        var _this = _super.call(this) || this;
         /**
          * The error handling strategy for the parser. The default value is a new
          * instance of {@link DefaultErrorStrategy}.
@@ -78,33 +126,34 @@ export class Parser extends Recognizer {
          * @see #getErrorHandler
          * @see #setErrorHandler
          */
-        this._errHandler = new DefaultErrorStrategy();
-        this._precedenceStack = new IntegerStack();
+        _this._errHandler = new DefaultErrorStrategy_1.DefaultErrorStrategy();
+        _this._precedenceStack = new IntegerStack_1.IntegerStack();
         /**
          * Specifies whether or not the parser should construct a parse tree during
          * the parsing process. The default value is `true`.
          *
          * @see `buildParseTree`
          */
-        this._buildParseTrees = true;
+        _this._buildParseTrees = true;
         /**
          * The list of {@link ParseTreeListener} listeners registered to receive
          * events during the parse.
          *
          * @see #addParseListener
          */
-        this._parseListeners = [];
+        _this._parseListeners = [];
         /**
          * The number of syntax errors reported during parsing. This value is
          * incremented each time {@link #notifyErrorListeners} is called.
          */
-        this._syntaxErrors = 0;
+        _this._syntaxErrors = 0;
         /** Indicates parser has match()ed EOF token. See {@link #exitRule()}. */
-        this.matchedEOF = false;
-        this._precedenceStack.push(0);
-        this.inputStream = input;
+        _this.matchedEOF = false;
+        _this._precedenceStack.push(0);
+        _this.inputStream = input;
+        return _this;
     }
-    reset(resetInput) {
+    Parser.prototype.reset = function (resetInput) {
         // Note: this method executes when not parsing, so _ctx can be undefined
         if (resetInput === undefined || resetInput) {
             this.inputStream.seek(0);
@@ -116,11 +165,11 @@ export class Parser extends Recognizer {
         this.isTrace = false;
         this._precedenceStack.clear();
         this._precedenceStack.push(0);
-        let interpreter = this.interpreter;
+        var interpreter = this.interpreter;
         if (interpreter != null) {
             interpreter.reset();
         }
-    }
+    };
     /**
      * Match current input symbol against `ttype`. If the symbol type
      * matches, {@link ANTLRErrorStrategy#reportMatch} and {@link #consume} are
@@ -140,10 +189,10 @@ export class Parser extends Recognizer {
      * `ttype` and the error strategy could not recover from the
      * mismatched symbol
      */
-    match(ttype) {
-        let t = this.currentToken;
+    Parser.prototype.match = function (ttype) {
+        var t = this.currentToken;
         if (t.type === ttype) {
-            if (ttype === Token.EOF) {
+            if (ttype === Token_1.Token.EOF) {
                 this.matchedEOF = true;
             }
             this._errHandler.reportMatch(this);
@@ -158,7 +207,7 @@ export class Parser extends Recognizer {
             }
         }
         return t;
-    }
+    };
     /**
      * Match current input symbol as a wildcard. If the symbol type matches
      * (i.e. has a value greater than 0), {@link ANTLRErrorStrategy#reportMatch}
@@ -177,8 +226,8 @@ export class Parser extends Recognizer {
      * a wildcard and the error strategy could not recover from the mismatched
      * symbol
      */
-    matchWildcard() {
-        let t = this.currentToken;
+    Parser.prototype.matchWildcard = function () {
+        var t = this.currentToken;
         if (t.type > 0) {
             this._errHandler.reportMatch(this);
             this.consume();
@@ -192,38 +241,42 @@ export class Parser extends Recognizer {
             }
         }
         return t;
-    }
-    /**
-     * Track the {@link ParserRuleContext} objects during the parse and hook
-     * them up using the {@link ParserRuleContext#children} list so that it
-     * forms a parse tree. The {@link ParserRuleContext} returned from the start
-     * rule represents the root of the parse tree.
-     *
-     * Note that if we are not building parse trees, rule contexts only point
-     * upwards. When a rule exits, it returns the context but that gets garbage
-     * collected if nobody holds a reference. It points upwards but nobody
-     * points at it.
-     *
-     * When we build parse trees, we are adding all of these contexts to
-     * {@link ParserRuleContext#children} list. Contexts are then not candidates
-     * for garbage collection.
-     */
-    set buildParseTree(buildParseTrees) {
-        this._buildParseTrees = buildParseTrees;
-    }
-    /**
-     * Gets whether or not a complete parse tree will be constructed while
-     * parsing. This property is `true` for a newly constructed parser.
-     *
-     * @returns `true` if a complete parse tree will be constructed while
-     * parsing, otherwise `false`
-     */
-    get buildParseTree() {
-        return this._buildParseTrees;
-    }
-    getParseListeners() {
+    };
+    Object.defineProperty(Parser.prototype, "buildParseTree", {
+        /**
+         * Gets whether or not a complete parse tree will be constructed while
+         * parsing. This property is `true` for a newly constructed parser.
+         *
+         * @returns `true` if a complete parse tree will be constructed while
+         * parsing, otherwise `false`
+         */
+        get: function () {
+            return this._buildParseTrees;
+        },
+        /**
+         * Track the {@link ParserRuleContext} objects during the parse and hook
+         * them up using the {@link ParserRuleContext#children} list so that it
+         * forms a parse tree. The {@link ParserRuleContext} returned from the start
+         * rule represents the root of the parse tree.
+         *
+         * Note that if we are not building parse trees, rule contexts only point
+         * upwards. When a rule exits, it returns the context but that gets garbage
+         * collected if nobody holds a reference. It points upwards but nobody
+         * points at it.
+         *
+         * When we build parse trees, we are adding all of these contexts to
+         * {@link ParserRuleContext#children} list. Contexts are then not candidates
+         * for garbage collection.
+         */
+        set: function (buildParseTrees) {
+            this._buildParseTrees = buildParseTrees;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Parser.prototype.getParseListeners = function () {
         return this._parseListeners;
-    }
+    };
     /**
      * Registers `listener` to receive events during the parsing process.
      *
@@ -251,12 +304,12 @@ export class Parser extends Recognizer {
      *
      * @throws {@link TypeError} if `listener` is `undefined`
      */
-    addParseListener(listener) {
+    Parser.prototype.addParseListener = function (listener) {
         if (listener == null) {
             throw new TypeError("listener cannot be null");
         }
         this._parseListeners.push(listener);
-    }
+    };
     /**
      * Remove `listener` from the list of parse listeners.
      *
@@ -267,60 +320,69 @@ export class Parser extends Recognizer {
      *
      * @param listener the listener to remove
      */
-    removeParseListener(listener) {
-        let index = this._parseListeners.findIndex((l) => l === listener);
+    Parser.prototype.removeParseListener = function (listener) {
+        var index = this._parseListeners.findIndex(function (l) { return l === listener; });
         if (index !== -1) {
             this._parseListeners.splice(index, 1);
         }
-    }
+    };
     /**
      * Remove all parse listeners.
      *
      * @see #addParseListener
      */
-    removeParseListeners() {
+    Parser.prototype.removeParseListeners = function () {
         this._parseListeners.length = 0;
-    }
+    };
     /**
      * Notify any parse listeners of an enter rule event.
      *
      * @see #addParseListener
      */
-    triggerEnterRuleEvent() {
-        for (let listener of this._parseListeners) {
+    Parser.prototype.triggerEnterRuleEvent = function () {
+        for (var _i = 0, _a = this._parseListeners; _i < _a.length; _i++) {
+            var listener = _a[_i];
             if (listener.enterEveryRule) {
                 listener.enterEveryRule(this._ctx);
             }
             this._ctx.enterRule(listener);
         }
-    }
+    };
     /**
      * Notify any parse listeners of an exit rule event.
      *
      * @see #addParseListener
      */
-    triggerExitRuleEvent() {
+    Parser.prototype.triggerExitRuleEvent = function () {
         // reverse order walk of listeners
-        for (let i = this._parseListeners.length - 1; i >= 0; i--) {
-            let listener = this._parseListeners[i];
+        for (var i = this._parseListeners.length - 1; i >= 0; i--) {
+            var listener = this._parseListeners[i];
             this._ctx.exitRule(listener);
             if (listener.exitEveryRule) {
                 listener.exitEveryRule(this._ctx);
             }
         }
-    }
-    /**
-     * Gets the number of syntax errors reported during parsing. This value is
-     * incremented each time {@link #notifyErrorListeners} is called.
-     *
-     * @see #notifyErrorListeners
-     */
-    get numberOfSyntaxErrors() {
-        return this._syntaxErrors;
-    }
-    get tokenFactory() {
-        return this._input.tokenSource.tokenFactory;
-    }
+    };
+    Object.defineProperty(Parser.prototype, "numberOfSyntaxErrors", {
+        /**
+         * Gets the number of syntax errors reported during parsing. This value is
+         * incremented each time {@link #notifyErrorListeners} is called.
+         *
+         * @see #notifyErrorListeners
+         */
+        get: function () {
+            return this._syntaxErrors;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(Parser.prototype, "tokenFactory", {
+        get: function () {
+            return this._input.tokenSource.tokenFactory;
+        },
+        enumerable: false,
+        configurable: true
+    });
     /**
      * The ATN with bypass alternatives is expensive to create so we create it
      * lazily.
@@ -328,60 +390,80 @@ export class Parser extends Recognizer {
      * @ if the current parser does not
      * implement the `serializedATN` property.
      */
-    getATNWithBypassAlts() {
-        let serializedAtn = this.serializedATN;
+    Parser.prototype.getATNWithBypassAlts = function () {
+        var serializedAtn = this.serializedATN;
         if (serializedAtn == null) {
             throw new Error("The current parser does not support an ATN with bypass alternatives.");
         }
-        let result = Parser.bypassAltsAtnCache.get(serializedAtn);
+        var result = Parser.bypassAltsAtnCache.get(serializedAtn);
         if (result == null) {
-            let deserializationOptions = new ATNDeserializationOptions();
+            var deserializationOptions = new ATNDeserializationOptions_1.ATNDeserializationOptions();
             deserializationOptions.isGenerateRuleBypassTransitions = true;
-            result = new ATNDeserializer(deserializationOptions).deserialize(Utils.toCharArray(serializedAtn));
+            result = new ATNDeserializer_1.ATNDeserializer(deserializationOptions).deserialize(Utils.toCharArray(serializedAtn));
             Parser.bypassAltsAtnCache.set(serializedAtn, result);
         }
         return result;
-    }
-    compileParseTreePattern(pattern, patternRuleIndex, lexer) {
-        return __awaiter(this, void 0, void 0, function* () {
-            if (!lexer) {
-                if (this.inputStream) {
-                    let tokenSource = this.inputStream.tokenSource;
-                    if (tokenSource instanceof Lexer) {
-                        lexer = tokenSource;
-                    }
+    };
+    Parser.prototype.compileParseTreePattern = function (pattern, patternRuleIndex, lexer) {
+        return __awaiter(this, void 0, void 0, function () {
+            var tokenSource, currentLexer, m, matcher;
+            return __generator(this, function (_a) {
+                switch (_a.label) {
+                    case 0:
+                        if (!lexer) {
+                            if (this.inputStream) {
+                                tokenSource = this.inputStream.tokenSource;
+                                if (tokenSource instanceof Lexer_1.Lexer) {
+                                    lexer = tokenSource;
+                                }
+                            }
+                            if (!lexer) {
+                                throw new Error("Parser can't discover a lexer to use");
+                            }
+                        }
+                        currentLexer = lexer;
+                        return [4 /*yield*/, Promise.resolve().then(function () { return require("./tree/pattern/ParseTreePatternMatcher"); })];
+                    case 1:
+                        m = _a.sent();
+                        matcher = new m.ParseTreePatternMatcher(currentLexer, this);
+                        return [2 /*return*/, matcher.compile(pattern, patternRuleIndex)];
                 }
-                if (!lexer) {
-                    throw new Error("Parser can't discover a lexer to use");
-                }
-            }
-            let currentLexer = lexer;
-            let m = yield import("./tree/pattern/ParseTreePatternMatcher");
-            let matcher = new m.ParseTreePatternMatcher(currentLexer, this);
-            return matcher.compile(pattern, patternRuleIndex);
+            });
         });
-    }
-    get errorHandler() {
-        return this._errHandler;
-    }
-    set errorHandler(handler) {
-        this._errHandler = handler;
-    }
-    get inputStream() {
-        return this._input;
-    }
-    /** Set the token stream and reset the parser. */
-    set inputStream(input) {
-        this.reset(false);
-        this._input = input;
-    }
-    /** Match needs to return the current input symbol, which gets put
-     *  into the label for the associated token ref; e.g., x=ID.
-     */
-    get currentToken() {
-        return this._input.LT(1);
-    }
-    notifyErrorListeners(msg, offendingToken, e) {
+    };
+    Object.defineProperty(Parser.prototype, "errorHandler", {
+        get: function () {
+            return this._errHandler;
+        },
+        set: function (handler) {
+            this._errHandler = handler;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(Parser.prototype, "inputStream", {
+        get: function () {
+            return this._input;
+        },
+        /** Set the token stream and reset the parser. */
+        set: function (input) {
+            this.reset(false);
+            this._input = input;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(Parser.prototype, "currentToken", {
+        /** Match needs to return the current input symbol, which gets put
+         *  into the label for the associated token ref; e.g., x=ID.
+         */
+        get: function () {
+            return this._input.LT(1);
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Parser.prototype.notifyErrorListeners = function (msg, offendingToken, e) {
         if (offendingToken === undefined) {
             offendingToken = this.currentToken;
         }
@@ -389,17 +471,17 @@ export class Parser extends Recognizer {
             offendingToken = undefined;
         }
         this._syntaxErrors++;
-        let line = -1;
-        let charPositionInLine = -1;
+        var line = -1;
+        var charPositionInLine = -1;
         if (offendingToken != null) {
             line = offendingToken.line;
             charPositionInLine = offendingToken.charPositionInLine;
         }
-        let listener = this.getErrorListenerDispatch();
+        var listener = this.getErrorListenerDispatch();
         if (listener.syntaxError) {
             listener.syntaxError(this, offendingToken, line, charPositionInLine, msg, e);
         }
-    }
+    };
     /**
      * Consume and return the [current symbol](`currentToken`).
      *
@@ -421,17 +503,18 @@ export class Parser extends Recognizer {
      * {@link ParseTreeListener#visitErrorNode} is called on any parse
      * listeners.
      */
-    consume() {
-        let o = this.currentToken;
+    Parser.prototype.consume = function () {
+        var o = this.currentToken;
         if (o.type !== Parser.EOF) {
             this.inputStream.consume();
         }
-        let hasListener = this._parseListeners.length !== 0;
+        var hasListener = this._parseListeners.length !== 0;
         if (this._buildParseTrees || hasListener) {
             if (this._errHandler.inErrorRecoveryMode(this)) {
-                let node = this._ctx.addErrorNode(this.createErrorNode(this._ctx, o));
+                var node = this._ctx.addErrorNode(this.createErrorNode(this._ctx, o));
                 if (hasListener) {
-                    for (let listener of this._parseListeners) {
+                    for (var _i = 0, _a = this._parseListeners; _i < _a.length; _i++) {
+                        var listener = _a[_i];
                         if (listener.visitErrorNode) {
                             listener.visitErrorNode(node);
                         }
@@ -439,10 +522,11 @@ export class Parser extends Recognizer {
                 }
             }
             else {
-                let node = this.createTerminalNode(this._ctx, o);
+                var node = this.createTerminalNode(this._ctx, o);
                 this._ctx.addChild(node);
                 if (hasListener) {
-                    for (let listener of this._parseListeners) {
+                    for (var _b = 0, _c = this._parseListeners; _b < _c.length; _b++) {
+                        var listener = _c[_b];
                         if (listener.visitTerminal) {
                             listener.visitTerminal(node);
                         }
@@ -451,37 +535,37 @@ export class Parser extends Recognizer {
             }
         }
         return o;
-    }
+    };
     /**
      * How to create a token leaf node associated with a parent.
      * Typically, the terminal node to create is not a function of the parent.
      *
      * @since 4.7
      */
-    createTerminalNode(parent, t) {
-        return new TerminalNode(t);
-    }
+    Parser.prototype.createTerminalNode = function (parent, t) {
+        return new TerminalNode_1.TerminalNode(t);
+    };
     /**
      * How to create an error node, given a token, associated with a parent.
      * Typically, the error node to create is not a function of the parent.
      *
      * @since 4.7
      */
-    createErrorNode(parent, t) {
-        return new ErrorNode(t);
-    }
-    addContextToParseTree() {
-        let parent = this._ctx._parent;
+    Parser.prototype.createErrorNode = function (parent, t) {
+        return new ErrorNode_1.ErrorNode(t);
+    };
+    Parser.prototype.addContextToParseTree = function () {
+        var parent = this._ctx._parent;
         // add current context to parent if we have a parent
         if (parent != null) {
             parent.addChild(this._ctx);
         }
-    }
+    };
     /**
      * Always called by generated parsers upon entry to a rule. Access field
      * {@link #_ctx} get the current context.
      */
-    enterRule(localctx, state, ruleIndex) {
+    Parser.prototype.enterRule = function (localctx, state, ruleIndex) {
         this.state = state;
         this._ctx = localctx;
         this._ctx._start = this._input.LT(1);
@@ -489,11 +573,11 @@ export class Parser extends Recognizer {
             this.addContextToParseTree();
         }
         this.triggerEnterRuleEvent();
-    }
-    enterLeftFactoredRule(localctx, state, ruleIndex) {
+    };
+    Parser.prototype.enterLeftFactoredRule = function (localctx, state, ruleIndex) {
         this.state = state;
         if (this._buildParseTrees) {
-            let factoredContext = this._ctx.getChild(this._ctx.childCount - 1);
+            var factoredContext = this._ctx.getChild(this._ctx.childCount - 1);
             this._ctx.removeLastChild();
             factoredContext._parent = localctx;
             localctx.addChild(factoredContext);
@@ -504,8 +588,8 @@ export class Parser extends Recognizer {
             this.addContextToParseTree();
         }
         this.triggerEnterRuleEvent();
-    }
-    exitRule() {
+    };
+    Parser.prototype.exitRule = function () {
         if (this.matchedEOF) {
             // if we have matched EOF, it cannot consume past EOF so we use LT(1) here
             this._ctx._stop = this._input.LT(1); // LT(1) will be end of file
@@ -517,44 +601,48 @@ export class Parser extends Recognizer {
         this.triggerExitRuleEvent();
         this.state = this._ctx.invokingState;
         this._ctx = this._ctx._parent;
-    }
-    enterOuterAlt(localctx, altNum) {
+    };
+    Parser.prototype.enterOuterAlt = function (localctx, altNum) {
         localctx.altNumber = altNum;
         // if we have new localctx, make sure we replace existing ctx
         // that is previous child of parse tree
         if (this._buildParseTrees && this._ctx !== localctx) {
-            let parent = this._ctx._parent;
-            if (parent != null) {
-                parent.removeLastChild();
-                parent.addChild(localctx);
+            var parent_1 = this._ctx._parent;
+            if (parent_1 != null) {
+                parent_1.removeLastChild();
+                parent_1.addChild(localctx);
             }
         }
         this._ctx = localctx;
-    }
-    /**
-     * Get the precedence level for the top-most precedence rule.
-     *
-     * @returns The precedence level for the top-most precedence rule, or -1 if
-     * the parser context is not nested within a precedence rule.
-     */
-    get precedence() {
-        if (this._precedenceStack.isEmpty) {
-            return -1;
-        }
-        return this._precedenceStack.peek();
-    }
-    enterRecursionRule(localctx, state, ruleIndex, precedence) {
+    };
+    Object.defineProperty(Parser.prototype, "precedence", {
+        /**
+         * Get the precedence level for the top-most precedence rule.
+         *
+         * @returns The precedence level for the top-most precedence rule, or -1 if
+         * the parser context is not nested within a precedence rule.
+         */
+        get: function () {
+            if (this._precedenceStack.isEmpty) {
+                return -1;
+            }
+            return this._precedenceStack.peek();
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Parser.prototype.enterRecursionRule = function (localctx, state, ruleIndex, precedence) {
         this.state = state;
         this._precedenceStack.push(precedence);
         this._ctx = localctx;
         this._ctx._start = this._input.LT(1);
         this.triggerEnterRuleEvent(); // simulates rule entry for left-recursive rules
-    }
+    };
     /** Like {@link #enterRule} but for recursive rules.
      *  Make the current context the child of the incoming localctx.
      */
-    pushNewRecursionContext(localctx, state, ruleIndex) {
-        let previous = this._ctx;
+    Parser.prototype.pushNewRecursionContext = function (localctx, state, ruleIndex) {
+        var previous = this._ctx;
         previous._parent = localctx;
         previous.invokingState = state;
         previous._stop = this._input.tryLT(-1);
@@ -564,11 +652,11 @@ export class Parser extends Recognizer {
             this._ctx.addChild(previous);
         }
         this.triggerEnterRuleEvent(); // simulates rule entry for left-recursive rules
-    }
-    unrollRecursionContexts(_parentctx) {
+    };
+    Parser.prototype.unrollRecursionContexts = function (_parentctx) {
         this._precedenceStack.pop();
         this._ctx._stop = this._input.tryLT(-1);
-        let retctx = this._ctx; // save current ctx (return value)
+        var retctx = this._ctx; // save current ctx (return value)
         // unroll so _ctx is as it was before call to recursive method
         if (this._parseListeners.length > 0) {
             while (this._ctx !== _parentctx) {
@@ -585,30 +673,34 @@ export class Parser extends Recognizer {
             // add return ctx into invoking rule's tree
             _parentctx.addChild(retctx);
         }
-    }
-    getInvokingContext(ruleIndex) {
-        let p = this._ctx;
+    };
+    Parser.prototype.getInvokingContext = function (ruleIndex) {
+        var p = this._ctx;
         while (p && p.ruleIndex !== ruleIndex) {
             p = p._parent;
         }
         return p;
-    }
-    get context() {
-        return this._ctx;
-    }
-    set context(ctx) {
-        this._ctx = ctx;
-    }
-    precpred(localctx, precedence) {
+    };
+    Object.defineProperty(Parser.prototype, "context", {
+        get: function () {
+            return this._ctx;
+        },
+        set: function (ctx) {
+            this._ctx = ctx;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Parser.prototype.precpred = function (localctx, precedence) {
         return precedence >= this._precedenceStack.peek();
-    }
-    getErrorListenerDispatch() {
-        return new ProxyParserErrorListener(this.getErrorListeners());
-    }
-    inContext(context) {
+    };
+    Parser.prototype.getErrorListenerDispatch = function () {
+        return new ProxyParserErrorListener_1.ProxyParserErrorListener(this.getErrorListeners());
+    };
+    Parser.prototype.inContext = function (context) {
         // TODO: useful in parser?
         return false;
-    }
+    };
     /**
      * Checks whether or not `symbol` can follow the current state in the
      * ATN. The behavior of this method is equivalent to the following, but is
@@ -623,36 +715,40 @@ export class Parser extends Recognizer {
      * @returns `true` if `symbol` can follow the current state in
      * the ATN, otherwise `false`.
      */
-    isExpectedToken(symbol) {
+    Parser.prototype.isExpectedToken = function (symbol) {
         //   		return interpreter.atn.nextTokens(_ctx);
-        let atn = this.interpreter.atn;
-        let ctx = this._ctx;
-        let s = atn.states[this.state];
-        let following = atn.nextTokens(s);
+        var atn = this.interpreter.atn;
+        var ctx = this._ctx;
+        var s = atn.states[this.state];
+        var following = atn.nextTokens(s);
         if (following.contains(symbol)) {
             return true;
         }
         //        System.out.println("following "+s+"="+following);
-        if (!following.contains(Token.EPSILON)) {
+        if (!following.contains(Token_1.Token.EPSILON)) {
             return false;
         }
-        while (ctx != null && ctx.invokingState >= 0 && following.contains(Token.EPSILON)) {
-            let invokingState = atn.states[ctx.invokingState];
-            let rt = invokingState.transition(0);
+        while (ctx != null && ctx.invokingState >= 0 && following.contains(Token_1.Token.EPSILON)) {
+            var invokingState = atn.states[ctx.invokingState];
+            var rt = invokingState.transition(0);
             following = atn.nextTokens(rt.followState);
             if (following.contains(symbol)) {
                 return true;
             }
             ctx = ctx._parent;
         }
-        if (following.contains(Token.EPSILON) && symbol === Token.EOF) {
+        if (following.contains(Token_1.Token.EPSILON) && symbol === Token_1.Token.EOF) {
             return true;
         }
         return false;
-    }
-    get isMatchedEOF() {
-        return this.matchedEOF;
-    }
+    };
+    Object.defineProperty(Parser.prototype, "isMatchedEOF", {
+        get: function () {
+            return this.matchedEOF;
+        },
+        enumerable: false,
+        configurable: true
+    });
     /**
      * Computes the set of input symbols which could follow the current parser
      * state and context, as given by {@link #getState} and {@link #getContext},
@@ -660,23 +756,27 @@ export class Parser extends Recognizer {
      *
      * @see ATN#getExpectedTokens(int, RuleContext)
      */
-    getExpectedTokens() {
+    Parser.prototype.getExpectedTokens = function () {
         return this.atn.getExpectedTokens(this.state, this.context);
-    }
-    getExpectedTokensWithinCurrentRule() {
-        let atn = this.interpreter.atn;
-        let s = atn.states[this.state];
+    };
+    Parser.prototype.getExpectedTokensWithinCurrentRule = function () {
+        var atn = this.interpreter.atn;
+        var s = atn.states[this.state];
         return atn.nextTokens(s);
-    }
+    };
     /** Get a rule's index (i.e., `RULE_ruleName` field) or -1 if not found. */
-    getRuleIndex(ruleName) {
-        let ruleIndex = this.getRuleIndexMap().get(ruleName);
+    Parser.prototype.getRuleIndex = function (ruleName) {
+        var ruleIndex = this.getRuleIndexMap().get(ruleName);
         if (ruleIndex != null) {
             return ruleIndex;
         }
         return -1;
-    }
-    get ruleContext() { return this._ctx; }
+    };
+    Object.defineProperty(Parser.prototype, "ruleContext", {
+        get: function () { return this._ctx; },
+        enumerable: false,
+        configurable: true
+    });
     /** Return List&lt;String&gt; of the rule names in your parser instance
      *  leading up to a call to the current rule.  You could override if
      *  you want more details such as the file/line info of where
@@ -684,13 +784,14 @@ export class Parser extends Recognizer {
      *
      *  This is very useful for error messages.
      */
-    getRuleInvocationStack(ctx = this._ctx) {
-        let p = ctx; // Workaround for Microsoft/TypeScript#14487
-        let ruleNames = this.ruleNames;
-        let stack = [];
+    Parser.prototype.getRuleInvocationStack = function (ctx) {
+        if (ctx === void 0) { ctx = this._ctx; }
+        var p = ctx; // Workaround for Microsoft/TypeScript#14487
+        var ruleNames = this.ruleNames;
+        var stack = [];
         while (p != null) {
             // compute what follows who invoked us
-            let ruleIndex = p.ruleIndex;
+            var ruleIndex = p.ruleIndex;
             if (ruleIndex < 0) {
                 stack.push("n/a");
             }
@@ -700,19 +801,21 @@ export class Parser extends Recognizer {
             p = p._parent;
         }
         return stack;
-    }
+    };
     /** For debugging and other purposes. */
-    getDFAStrings() {
-        let s = [];
-        for (let dfa of this._interp.atn.decisionToDFA) {
+    Parser.prototype.getDFAStrings = function () {
+        var s = [];
+        for (var _i = 0, _a = this._interp.atn.decisionToDFA; _i < _a.length; _i++) {
+            var dfa = _a[_i];
             s.push(dfa.toString(this.vocabulary, this.ruleNames));
         }
         return s;
-    }
+    };
     /** For debugging and other purposes. */
-    dumpDFA() {
-        let seenOne = false;
-        for (let dfa of this._interp.atn.decisionToDFA) {
+    Parser.prototype.dumpDFA = function () {
+        var seenOne = false;
+        for (var _i = 0, _a = this._interp.atn.decisionToDFA; _i < _a.length; _i++) {
+            var dfa = _a[_i];
             if (!dfa.isEmpty) {
                 if (seenOne) {
                     console.log();
@@ -722,116 +825,139 @@ export class Parser extends Recognizer {
                 seenOne = true;
             }
         }
-    }
-    get sourceName() {
-        return this._input.sourceName;
-    }
-    get parseInfo() {
-        return import("./atn/ProfilingATNSimulator").then((m) => {
-            let interp = this.interpreter;
-            if (interp instanceof m.ProfilingATNSimulator) {
-                return new ParseInfo(interp);
-            }
-            return undefined;
-        });
-    }
+    };
+    Object.defineProperty(Parser.prototype, "sourceName", {
+        get: function () {
+            return this._input.sourceName;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(Parser.prototype, "parseInfo", {
+        get: function () {
+            var _this = this;
+            return Promise.resolve().then(function () { return require("./atn/ProfilingATNSimulator"); }).then(function (m) {
+                var interp = _this.interpreter;
+                if (interp instanceof m.ProfilingATNSimulator) {
+                    return new ParseInfo_1.ParseInfo(interp);
+                }
+                return undefined;
+            });
+        },
+        enumerable: false,
+        configurable: true
+    });
     /**
      * @since 4.3
      */
-    setProfile(profile) {
-        return __awaiter(this, void 0, void 0, function* () {
-            let m = yield import("./atn/ProfilingATNSimulator");
-            let interp = this.interpreter;
-            if (profile) {
-                if (!(interp instanceof m.ProfilingATNSimulator)) {
-                    this.interpreter = new m.ProfilingATNSimulator(this);
+    Parser.prototype.setProfile = function (profile) {
+        return __awaiter(this, void 0, void 0, function () {
+            var m, interp;
+            return __generator(this, function (_a) {
+                switch (_a.label) {
+                    case 0: return [4 /*yield*/, Promise.resolve().then(function () { return require("./atn/ProfilingATNSimulator"); })];
+                    case 1:
+                        m = _a.sent();
+                        interp = this.interpreter;
+                        if (profile) {
+                            if (!(interp instanceof m.ProfilingATNSimulator)) {
+                                this.interpreter = new m.ProfilingATNSimulator(this);
+                            }
+                        }
+                        else if (interp instanceof m.ProfilingATNSimulator) {
+                            this.interpreter = new ParserATNSimulator_1.ParserATNSimulator(this.atn, this);
+                        }
+                        this.interpreter.setPredictionMode(interp.getPredictionMode());
+                        return [2 /*return*/];
+                }
+            });
+        });
+    };
+    Object.defineProperty(Parser.prototype, "isTrace", {
+        /**
+         * Gets whether a {@link TraceListener} is registered as a parse listener
+         * for the parser.
+         */
+        get: function () {
+            return this._tracer != null;
+        },
+        /** During a parse is sometimes useful to listen in on the rule entry and exit
+         *  events as well as token matches. This is for quick and dirty debugging.
+         */
+        set: function (trace) {
+            if (!trace) {
+                if (this._tracer) {
+                    this.removeParseListener(this._tracer);
+                    this._tracer = undefined;
                 }
             }
-            else if (interp instanceof m.ProfilingATNSimulator) {
-                this.interpreter = new ParserATNSimulator(this.atn, this);
-            }
-            this.interpreter.setPredictionMode(interp.getPredictionMode());
-        });
-    }
-    /** During a parse is sometimes useful to listen in on the rule entry and exit
-     *  events as well as token matches. This is for quick and dirty debugging.
-     */
-    set isTrace(trace) {
-        if (!trace) {
-            if (this._tracer) {
-                this.removeParseListener(this._tracer);
-                this._tracer = undefined;
-            }
-        }
-        else {
-            if (this._tracer) {
-                this.removeParseListener(this._tracer);
-            }
             else {
-                this._tracer = new TraceListener(this.ruleNames, this._input);
+                if (this._tracer) {
+                    this.removeParseListener(this._tracer);
+                }
+                else {
+                    this._tracer = new TraceListener(this.ruleNames, this._input);
+                }
+                this.addParseListener(this._tracer);
             }
-            this.addParseListener(this._tracer);
-        }
-    }
+        },
+        enumerable: false,
+        configurable: true
+    });
     /**
-     * Gets whether a {@link TraceListener} is registered as a parse listener
-     * for the parser.
+     * This field maps from the serialized ATN string to the deserialized {@link ATN} with
+     * bypass alternatives.
+     *
+     * @see ATNDeserializationOptions.isGenerateRuleBypassTransitions
      */
-    get isTrace() {
-        return this._tracer != null;
-    }
-}
-/**
- * This field maps from the serialized ATN string to the deserialized {@link ATN} with
- * bypass alternatives.
- *
- * @see ATNDeserializationOptions.isGenerateRuleBypassTransitions
- */
-Parser.bypassAltsAtnCache = new Map();
-__decorate([
-    NotNull
-], Parser.prototype, "_errHandler", void 0);
-__decorate([
-    NotNull
-], Parser.prototype, "match", null);
-__decorate([
-    NotNull
-], Parser.prototype, "matchWildcard", null);
-__decorate([
-    NotNull
-], Parser.prototype, "getParseListeners", null);
-__decorate([
-    __param(0, NotNull)
-], Parser.prototype, "addParseListener", null);
-__decorate([
-    NotNull
-], Parser.prototype, "getATNWithBypassAlts", null);
-__decorate([
-    NotNull,
-    __param(0, NotNull)
-], Parser.prototype, "errorHandler", null);
-__decorate([
-    Override
-], Parser.prototype, "inputStream", null);
-__decorate([
-    NotNull
-], Parser.prototype, "currentToken", null);
-__decorate([
-    __param(0, NotNull)
-], Parser.prototype, "enterRule", null);
-__decorate([
-    Override,
-    __param(0, Nullable)
-], Parser.prototype, "precpred", null);
-__decorate([
-    Override
-], Parser.prototype, "getErrorListenerDispatch", null);
-__decorate([
-    NotNull
-], Parser.prototype, "getExpectedTokens", null);
-__decorate([
-    NotNull
-], Parser.prototype, "getExpectedTokensWithinCurrentRule", null);
-__decorate([
-    Override
-], Parser.prototype, "parseInfo", null);
+    Parser.bypassAltsAtnCache = new Map();
+    __decorate([
+        Decorators_1.NotNull
+    ], Parser.prototype, "_errHandler");
+    __decorate([
+        Decorators_1.NotNull
+    ], Parser.prototype, "match");
+    __decorate([
+        Decorators_1.NotNull
+    ], Parser.prototype, "matchWildcard");
+    __decorate([
+        Decorators_1.NotNull
+    ], Parser.prototype, "getParseListeners");
+    __decorate([
+        __param(0, Decorators_1.NotNull)
+    ], Parser.prototype, "addParseListener");
+    __decorate([
+        Decorators_1.NotNull
+    ], Parser.prototype, "getATNWithBypassAlts");
+    __decorate([
+        Decorators_1.NotNull,
+        __param(0, Decorators_1.NotNull)
+    ], Parser.prototype, "errorHandler");
+    __decorate([
+        Decorators_1.Override
+    ], Parser.prototype, "inputStream");
+    __decorate([
+        Decorators_1.NotNull
+    ], Parser.prototype, "currentToken");
+    __decorate([
+        __param(0, Decorators_1.NotNull)
+    ], Parser.prototype, "enterRule");
+    __decorate([
+        Decorators_1.Override,
+        __param(0, Decorators_1.Nullable)
+    ], Parser.prototype, "precpred");
+    __decorate([
+        Decorators_1.Override
+    ], Parser.prototype, "getErrorListenerDispatch");
+    __decorate([
+        Decorators_1.NotNull
+    ], Parser.prototype, "getExpectedTokens");
+    __decorate([
+        Decorators_1.NotNull
+    ], Parser.prototype, "getExpectedTokensWithinCurrentRule");
+    __decorate([
+        Decorators_1.Override
+    ], Parser.prototype, "parseInfo");
+    return Parser;
+}(Recognizer_1.Recognizer));
+exports.Parser = Parser;

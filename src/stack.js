@@ -1,50 +1,50 @@
+"use strict";
+exports.__esModule = true;
+exports.Stack = void 0;
 //
-//  stack.js
+//  stack.ts
 //
-
-class Stack {
-
-  constructor() {
-    this.bucket = [];
-  }
-
-  get size() {
-    return this.bucket.length;
-  }
-  // Supposing there will be no null entry.
-  top() {
-    if (0 < this.bucket.length) 
-      return this.bucket[this.bucket.length-1] 
-    return null;
-  }
-  second() {
-    if (1 < this.bucket.length) 
-      return this.bucket[this.bucket.length-2] 
-    return null;
-  }
-  third() {
-    if (2 < this.bucket.length) 
-      return this.bucket[this.bucket.length-3] 
-    return null;
-  }
-  bottom() {
-    if (0 < this.bucket.length) 
-      return this.bucket[0] 
-    return null;
-  }
-  
-  push(obj) {
-    this.bucket.push(obj);
-  }
-
-  pop() {
-    if (0 < this.bucket.length) {
-      return this.bucket.pop();
+var Stack = /** @class */ (function () {
+    function Stack() {
+        this.bucket = [];
     }
-    return null;  // underflow
-  }
-
-}
-
-//export {Stack};  // node-es6.sh not accepts this
-exports.Stack = Stack;   // old school
+    Object.defineProperty(Stack.prototype, "size", {
+        get: function () {
+            return this.bucket.length;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    // Supposing there will be no null entry.
+    Stack.prototype.top = function () {
+        if (0 < this.bucket.length)
+            return this.bucket[this.bucket.length - 1];
+        return null;
+    };
+    Stack.prototype.second = function () {
+        if (1 < this.bucket.length)
+            return this.bucket[this.bucket.length - 2];
+        return null;
+    };
+    Stack.prototype.third = function () {
+        if (2 < this.bucket.length)
+            return this.bucket[this.bucket.length - 3];
+        return null;
+    };
+    Stack.prototype.bottom = function () {
+        if (0 < this.bucket.length)
+            return this.bucket[0];
+        return null;
+    };
+    Stack.prototype.push = function (obj) {
+        this.bucket.push(obj);
+    };
+    Stack.prototype.pop = function () {
+        if (0 < this.bucket.length) {
+            return this.bucket.pop();
+        }
+        return null; // underflow
+    };
+    return Stack;
+}());
+exports.Stack = Stack;

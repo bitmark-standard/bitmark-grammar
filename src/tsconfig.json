@@ -10,12 +10,19 @@
     "removeComments": false,
     "noImplicitAny": true,
     "noEmitOnError": false,
-    "suppressImplicitAnyIndexErrors": true
+    "suppressImplicitAnyIndexErrors": true,
+    "lib": ["es2020.string"],
+    "typeRoots": [
+      "../node_modules/@types"
+    ]
   },
+  "include": [
+    "../node_modules/@types/ramda/*",
+    "../node_modules/types-ramda/*",
+    "../node_modules/@types/node/*",
+    "../node_modules/@types/diff/*"
+  ],
   "exclude": [
-    "node_modules",
     "bin",
-    "node_modules/@types/ramda/*",
-    "node_modules/types-ramda/*"
   ]
 }

@@ -1,9 +1,12 @@
+"use strict";
 /*!
  * Copyright 2016 The ANTLR Project. All rights reserved.
  * Licensed under the BSD-3-Clause license. See LICENSE file in the project root for license information.
  */
+exports.__esModule = true;
+exports.IntStream = void 0;
 // ConvertTo-TS run at 2016-10-04T11:26:51.6934376-07:00
-export var IntStream;
+var IntStream;
 (function (IntStream) {
     /**
      * The value returned by {@link #LA LA()} when the end of the stream is
@@ -15,4 +18,4 @@ export var IntStream;
      * underlying source is not known.
      */
     IntStream.UNKNOWN_SOURCE_NAME = "<unknown>";
-})(IntStream || (IntStream = {}));
+})(IntStream = exports.IntStream || (exports.IntStream = {}));

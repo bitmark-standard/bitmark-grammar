@@ -1,7 +1,23 @@
+"use strict";
 /*!
  * Copyright 2016 The ANTLR Project. All rights reserved.
  * Licensed under the BSD-3-Clause license. See LICENSE file in the project root for license information.
  */
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        if (typeof b !== "function" && b !== null)
+            throw new TypeError("Class extends value " + String(b) + " is not a constructor or null");
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -11,10 +27,12 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __param = (this && this.__param) || function (paramIndex, decorator) {
     return function (target, key) { decorator(target, key, paramIndex); }
 };
+exports.__esModule = true;
+exports.CommonTokenStream = void 0;
 // ConvertTo-TS run at 2016-10-04T11:26:50.3953157-07:00
-import { BufferedTokenStream } from "./BufferedTokenStream";
-import { NotNull, Override } from "./Decorators";
-import { Token } from "./Token";
+var BufferedTokenStream_1 = require("./BufferedTokenStream");
+var Decorators_1 = require("./Decorators");
+var Token_1 = require("./Token");
 /**
  * This class extends {@link BufferedTokenStream} with functionality to filter
  * token streams to tokens on a particular channel (tokens where
@@ -35,7 +53,8 @@ import { Token } from "./Token";
  * such a rule will not be available as part of the token stream, regardless of
  * channel.
  */
-let CommonTokenStream = class CommonTokenStream extends BufferedTokenStream {
+var CommonTokenStream = /** @class */ (function (_super) {
+    __extends(CommonTokenStream, _super);
     /**
      * Constructs a new {@link CommonTokenStream} using the specified token
      * source and filtering tokens to the specified channel. Only tokens whose
@@ -46,19 +65,21 @@ let CommonTokenStream = class CommonTokenStream extends BufferedTokenStream {
      * @param tokenSource The token source.
      * @param channel The channel to use for filtering tokens.
      */
-    constructor(tokenSource, channel = Token.DEFAULT_CHANNEL) {
-        super(tokenSource);
-        this.channel = channel;
+    function CommonTokenStream(tokenSource, channel) {
+        if (channel === void 0) { channel = Token_1.Token.DEFAULT_CHANNEL; }
+        var _this = _super.call(this, tokenSource) || this;
+        _this.channel = channel;
+        return _this;
     }
-    adjustSeekIndex(i) {
+    CommonTokenStream.prototype.adjustSeekIndex = function (i) {
         return this.nextTokenOnChannel(i, this.channel);
-    }
-    tryLB(k) {
+    };
+    CommonTokenStream.prototype.tryLB = function (k) {
         if ((this.p - k) < 0) {
             return undefined;
         }
-        let i = this.p;
-        let n = 1;
+        var i = this.p;
+        var n = 1;
         // find k good tokens looking backwards
         while (n <= k && i > 0) {
             // skip off-channel tokens
@@ -69,8 +90,8 @@ let CommonTokenStream = class CommonTokenStream extends BufferedTokenStream {
             return undefined;
         }
         return this.tokens[i];
-    }
-    tryLT(k) {
+    };
+    CommonTokenStream.prototype.tryLT = function (k) {
         //System.out.println("enter LT("+k+")");
         this.lazyInit();
         if (k === 0) {
@@ -79,8 +100,8 @@ let CommonTokenStream = class CommonTokenStream extends BufferedTokenStream {
         if (k < 0) {
             return this.tryLB(-k);
         }
-        let i = this.p;
-        let n = 1; // we know tokens[p] is a good one
+        var i = this.p;
+        var n = 1; // we know tokens[p] is a good one
         // find k good tokens
         while (n < k) {
             // skip off-channel tokens, but make sure to not look past EOF
@@ -91,32 +112,34 @@ let CommonTokenStream = class CommonTokenStream extends BufferedTokenStream {
         }
         //		if ( i>range ) range = i;
         return this.tokens[i];
-    }
+    };
     /** Count EOF just once. */
-    getNumberOfOnChannelTokens() {
-        let n = 0;
+    CommonTokenStream.prototype.getNumberOfOnChannelTokens = function () {
+        var n = 0;
         this.fill();
-        for (let t of this.tokens) {
+        for (var _i = 0, _a = this.tokens; _i < _a.length; _i++) {
+            var t = _a[_i];
             if (t.channel === this.channel) {
                 n++;
             }
-            if (t.type === Token.EOF) {
+            if (t.type === Token_1.Token.EOF) {
                 break;
             }
         }
         return n;
-    }
-};
-__decorate([
-    Override
-], CommonTokenStream.prototype, "adjustSeekIndex", null);
-__decorate([
-    Override
-], CommonTokenStream.prototype, "tryLB", null);
-__decorate([
-    Override
-], CommonTokenStream.prototype, "tryLT", null);
-CommonTokenStream = __decorate([
-    __param(0, NotNull)
-], CommonTokenStream);
-export { CommonTokenStream };
+    };
+    __decorate([
+        Decorators_1.Override
+    ], CommonTokenStream.prototype, "adjustSeekIndex");
+    __decorate([
+        Decorators_1.Override
+    ], CommonTokenStream.prototype, "tryLB");
+    __decorate([
+        Decorators_1.Override
+    ], CommonTokenStream.prototype, "tryLT");
+    CommonTokenStream = __decorate([
+        __param(0, Decorators_1.NotNull)
+    ], CommonTokenStream);
+    return CommonTokenStream;
+}(BufferedTokenStream_1.BufferedTokenStream));
+exports.CommonTokenStream = CommonTokenStream;

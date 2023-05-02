@@ -1,3 +1,4 @@
+"use strict";
 /*!
  * Copyright 2016 The ANTLR Project. All rights reserved.
  * Licensed under the BSD-3-Clause license. See LICENSE file in the project root for license information.
@@ -11,7 +12,9 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __param = (this && this.__param) || function (paramIndex, decorator) {
     return function (target, key) { decorator(target, key, paramIndex); }
 };
-import { Override, NotNull } from "./Decorators";
+exports.__esModule = true;
+exports.ProxyErrorListener = void 0;
+var Decorators_1 = require("./Decorators");
 /**
  * This implementation of {@link ANTLRErrorListener} dispatches all calls to a
  * collection of delegate listeners. This reduces the effort required to support multiple
@@ -19,26 +22,28 @@ import { Override, NotNull } from "./Decorators";
  *
  * @author Sam Harwell
  */
-export class ProxyErrorListener {
-    constructor(delegates) {
+var ProxyErrorListener = /** @class */ (function () {
+    function ProxyErrorListener(delegates) {
         this.delegates = delegates;
         if (!delegates) {
             throw new Error("Invalid delegates");
         }
     }
-    getDelegates() {
+    ProxyErrorListener.prototype.getDelegates = function () {
         return this.delegates;
-    }
-    syntaxError(recognizer, offendingSymbol, line, charPositionInLine, msg, e) {
-        this.delegates.forEach((listener) => {
+    };
+    ProxyErrorListener.prototype.syntaxError = function (recognizer, offendingSymbol, line, charPositionInLine, msg, e) {
+        this.delegates.forEach(function (listener) {
             if (listener.syntaxError) {
                 listener.syntaxError(recognizer, offendingSymbol, line, charPositionInLine, msg, e);
             }
         });
-    }
-}
-__decorate([
-    Override,
-    __param(0, NotNull),
-    __param(4, NotNull)
-], ProxyErrorListener.prototype, "syntaxError", null);
+    };
+    __decorate([
+        Decorators_1.Override,
+        __param(0, Decorators_1.NotNull),
+        __param(4, Decorators_1.NotNull)
+    ], ProxyErrorListener.prototype, "syntaxError");
+    return ProxyErrorListener;
+}());
+exports.ProxyErrorListener = ProxyErrorListener;

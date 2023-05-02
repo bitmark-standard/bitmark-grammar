@@ -1,28 +1,49 @@
+"use strict";
 /*!
  * Copyright 2016 The ANTLR Project. All rights reserved.
  * Licensed under the BSD-3-Clause license. See LICENSE file in the project root for license information.
  */
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        if (typeof b !== "function" && b !== null)
+            throw new TypeError("Class extends value " + String(b) + " is not a constructor or null");
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+exports.__esModule = true;
+exports.XPathTokenElement = void 0;
 // CONVERSTION complete, Burt Harris 10/14/2016
-import { Override } from "../../Decorators";
-import { TerminalNode } from "../TerminalNode";
-import { Trees } from "../Trees";
-import { XPathElement } from "./XPathElement";
-export class XPathTokenElement extends XPathElement {
-    constructor(tokenName, tokenType) {
-        super(tokenName);
-        this.tokenType = tokenType;
+var Decorators_1 = require("../../Decorators");
+var TerminalNode_1 = require("../TerminalNode");
+var Trees_1 = require("../Trees");
+var XPathElement_1 = require("./XPathElement");
+var XPathTokenElement = /** @class */ (function (_super) {
+    __extends(XPathTokenElement, _super);
+    function XPathTokenElement(tokenName, tokenType) {
+        var _this = _super.call(this, tokenName) || this;
+        _this.tokenType = tokenType;
+        return _this;
     }
-    evaluate(t) {
+    XPathTokenElement.prototype.evaluate = function (t) {
         // return all children of t that match nodeName
-        let nodes = [];
-        for (let c of Trees.getChildren(t)) {
-            if (c instanceof TerminalNode) {
+        var nodes = [];
+        for (var _i = 0, _a = Trees_1.Trees.getChildren(t); _i < _a.length; _i++) {
+            var c = _a[_i];
+            if (c instanceof TerminalNode_1.TerminalNode) {
                 if ((c.symbol.type === this.tokenType && !this.invert) ||
                     (c.symbol.type !== this.tokenType && this.invert)) {
                     nodes.push(c);
@@ -30,8 +51,10 @@ export class XPathTokenElement extends XPathElement {
             }
         }
         return nodes;
-    }
-}
-__decorate([
-    Override
-], XPathTokenElement.prototype, "evaluate", null);
+    };
+    __decorate([
+        Decorators_1.Override
+    ], XPathTokenElement.prototype, "evaluate");
+    return XPathTokenElement;
+}(XPathElement_1.XPathElement));
+exports.XPathTokenElement = XPathTokenElement;

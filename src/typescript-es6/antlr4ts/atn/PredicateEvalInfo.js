@@ -1,7 +1,23 @@
+"use strict";
 /*!
  * Copyright 2016 The ANTLR Project. All rights reserved.
  * Licensed under the BSD-3-Clause license. See LICENSE file in the project root for license information.
  */
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        if (typeof b !== "function" && b !== null)
+            throw new TypeError("Class extends value " + String(b) + " is not a constructor or null");
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -11,9 +27,11 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __param = (this && this.__param) || function (paramIndex, decorator) {
     return function (target, key) { decorator(target, key, paramIndex); }
 };
+exports.__esModule = true;
+exports.PredicateEvalInfo = void 0;
 // ConvertTo-TS run at 2016-10-04T11:26:35.1914305-07:00
-import { DecisionEventInfo } from "./DecisionEventInfo";
-import { NotNull } from "../Decorators";
+var DecisionEventInfo_1 = require("./DecisionEventInfo");
+var Decorators_1 = require("../Decorators");
 /**
  * This class represents profiling event information for semantic predicate
  * evaluations which occur during prediction.
@@ -22,7 +40,8 @@ import { NotNull } from "../Decorators";
  *
  * @since 4.3
  */
-let PredicateEvalInfo = class PredicateEvalInfo extends DecisionEventInfo {
+var PredicateEvalInfo = /** @class */ (function (_super) {
+    __extends(PredicateEvalInfo, _super);
     /**
      * Constructs a new instance of the {@link PredicateEvalInfo} class with the
      * specified detailed predicate evaluation information.
@@ -43,16 +62,18 @@ let PredicateEvalInfo = class PredicateEvalInfo extends DecisionEventInfo {
      * @see ParserATNSimulator#evalSemanticContext(SemanticContext, ParserRuleContext, int)
      * @see SemanticContext#eval(Recognizer, RuleContext)
      */
-    constructor(state, decision, input, startIndex, stopIndex, semctx, evalResult, predictedAlt) {
-        super(decision, state, input, startIndex, stopIndex, state.useContext);
-        this.semctx = semctx;
-        this.evalResult = evalResult;
-        this.predictedAlt = predictedAlt;
+    function PredicateEvalInfo(state, decision, input, startIndex, stopIndex, semctx, evalResult, predictedAlt) {
+        var _this = _super.call(this, decision, state, input, startIndex, stopIndex, state.useContext) || this;
+        _this.semctx = semctx;
+        _this.evalResult = evalResult;
+        _this.predictedAlt = predictedAlt;
+        return _this;
     }
-};
-PredicateEvalInfo = __decorate([
-    __param(0, NotNull),
-    __param(2, NotNull),
-    __param(5, NotNull)
-], PredicateEvalInfo);
-export { PredicateEvalInfo };
+    PredicateEvalInfo = __decorate([
+        __param(0, Decorators_1.NotNull),
+        __param(2, Decorators_1.NotNull),
+        __param(5, Decorators_1.NotNull)
+    ], PredicateEvalInfo);
+    return PredicateEvalInfo;
+}(DecisionEventInfo_1.DecisionEventInfo));
+exports.PredicateEvalInfo = PredicateEvalInfo;

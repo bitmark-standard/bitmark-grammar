@@ -1,7 +1,23 @@
+"use strict";
 /*!
  * Copyright 2016 The ANTLR Project. All rights reserved.
  * Licensed under the BSD-3-Clause license. See LICENSE file in the project root for license information.
  */
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        if (typeof b !== "function" && b !== null)
+            throw new TypeError("Class extends value " + String(b) + " is not a constructor or null");
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -11,29 +27,32 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __param = (this && this.__param) || function (paramIndex, decorator) {
     return function (target, key) { decorator(target, key, paramIndex); }
 };
+exports.__esModule = true;
+exports.ProfilingATNSimulator = void 0;
 // ConvertTo-TS run at 2016-10-04T11:26:36.4188352-07:00
-import { AmbiguityInfo } from "./AmbiguityInfo";
-import { ATN } from "./ATN";
-import { ATNSimulator } from "./ATNSimulator";
-import { ContextSensitivityInfo } from "./ContextSensitivityInfo";
-import { DecisionInfo } from "./DecisionInfo";
-import { ErrorInfo } from "./ErrorInfo";
-import { NotNull, Override } from "../Decorators";
-import { LookaheadEventInfo } from "./LookaheadEventInfo";
-import { ParserATNSimulator } from "./ParserATNSimulator";
-import { PredicateEvalInfo } from "./PredicateEvalInfo";
-import { SemanticContext } from "./SemanticContext";
-import { SimulatorState } from "./SimulatorState";
+var AmbiguityInfo_1 = require("./AmbiguityInfo");
+var ATN_1 = require("./ATN");
+var ATNSimulator_1 = require("./ATNSimulator");
+var ContextSensitivityInfo_1 = require("./ContextSensitivityInfo");
+var DecisionInfo_1 = require("./DecisionInfo");
+var ErrorInfo_1 = require("./ErrorInfo");
+var Decorators_1 = require("../Decorators");
+var LookaheadEventInfo_1 = require("./LookaheadEventInfo");
+var ParserATNSimulator_1 = require("./ParserATNSimulator");
+var PredicateEvalInfo_1 = require("./PredicateEvalInfo");
+var SemanticContext_1 = require("./SemanticContext");
+var SimulatorState_1 = require("./SimulatorState");
 /**
  * @since 4.3
  */
-export class ProfilingATNSimulator extends ParserATNSimulator {
-    constructor(parser) {
-        super(parser.interpreter.atn, parser);
-        this._startIndex = 0;
-        this._sllStopIndex = 0;
-        this._llStopIndex = 0;
-        this.currentDecision = 0;
+var ProfilingATNSimulator = /** @class */ (function (_super) {
+    __extends(ProfilingATNSimulator, _super);
+    function ProfilingATNSimulator(parser) {
+        var _this = _super.call(this, parser.interpreter.atn, parser) || this;
+        _this._startIndex = 0;
+        _this._sllStopIndex = 0;
+        _this._llStopIndex = 0;
+        _this.currentDecision = 0;
         /** At the point of LL failover, we record how SLL would resolve the conflict so that
          *  we can determine whether or not a decision / input pair is context-sensitive.
          *  If LL gives a different result than SLL's predicted alternative, we have a
@@ -45,18 +64,19 @@ export class ProfilingATNSimulator extends ParserATNSimulator {
          *  It may in fact still be a context sensitivity but we don't know by looking at the
          *  minimum alternatives for the current input.
          */
-        this.conflictingAltResolvedBySLL = 0;
-        this.optimize_ll1 = false;
-        this.reportAmbiguities = true;
-        this.numDecisions = this.atn.decisionToState.length;
-        this.decisions = [];
-        for (let i = 0; i < this.numDecisions; i++) {
-            this.decisions.push(new DecisionInfo(i));
+        _this.conflictingAltResolvedBySLL = 0;
+        _this.optimize_ll1 = false;
+        _this.reportAmbiguities = true;
+        _this.numDecisions = _this.atn.decisionToState.length;
+        _this.decisions = [];
+        for (var i = 0; i < _this.numDecisions; i++) {
+            _this.decisions.push(new DecisionInfo_1.DecisionInfo(i));
         }
+        return _this;
     }
-    adaptivePredict(input, decision, outerContext, useContext) {
+    ProfilingATNSimulator.prototype.adaptivePredict = function (input, decision, outerContext, useContext) {
         if (useContext !== undefined) {
-            return super.adaptivePredict(input, decision, outerContext, useContext);
+            return _super.prototype.adaptivePredict.call(this, input, decision, outerContext, useContext);
         }
         try {
             this._input = input;
@@ -66,36 +86,36 @@ export class ProfilingATNSimulator extends ParserATNSimulator {
             this._llStopIndex = -1;
             this.currentDecision = decision;
             this.currentState = undefined;
-            this.conflictingAltResolvedBySLL = ATN.INVALID_ALT_NUMBER;
-            let start = process.hrtime();
-            let alt = super.adaptivePredict(input, decision, outerContext);
-            let stop = process.hrtime();
-            let nanoseconds = (stop[0] - start[0]) * 1000000000;
+            this.conflictingAltResolvedBySLL = ATN_1.ATN.INVALID_ALT_NUMBER;
+            var start = process.hrtime();
+            var alt = _super.prototype.adaptivePredict.call(this, input, decision, outerContext);
+            var stop_1 = process.hrtime();
+            var nanoseconds = (stop_1[0] - start[0]) * 1000000000;
             if (nanoseconds === 0) {
-                nanoseconds = stop[1] - start[1];
+                nanoseconds = stop_1[1] - start[1];
             }
             else {
                 // Add nanoseconds from start to end of that second, plus start of the end second to end
-                nanoseconds += (1000000000 - start[1]) + stop[1];
+                nanoseconds += (1000000000 - start[1]) + stop_1[1];
             }
             this.decisions[decision].timeInPrediction += nanoseconds;
             this.decisions[decision].invocations++;
-            let SLL_k = this._sllStopIndex - this._startIndex + 1;
+            var SLL_k = this._sllStopIndex - this._startIndex + 1;
             this.decisions[decision].SLL_TotalLook += SLL_k;
             this.decisions[decision].SLL_MinLook = this.decisions[decision].SLL_MinLook === 0 ? SLL_k : Math.min(this.decisions[decision].SLL_MinLook, SLL_k);
             if (SLL_k > this.decisions[decision].SLL_MaxLook) {
                 this.decisions[decision].SLL_MaxLook = SLL_k;
                 this.decisions[decision].SLL_MaxLookEvent =
-                    new LookaheadEventInfo(decision, undefined, alt, input, this._startIndex, this._sllStopIndex, false);
+                    new LookaheadEventInfo_1.LookaheadEventInfo(decision, undefined, alt, input, this._startIndex, this._sllStopIndex, false);
             }
             if (this._llStopIndex >= 0) {
-                let LL_k = this._llStopIndex - this._startIndex + 1;
+                var LL_k = this._llStopIndex - this._startIndex + 1;
                 this.decisions[decision].LL_TotalLook += LL_k;
                 this.decisions[decision].LL_MinLook = this.decisions[decision].LL_MinLook === 0 ? LL_k : Math.min(this.decisions[decision].LL_MinLook, LL_k);
                 if (LL_k > this.decisions[decision].LL_MaxLook) {
                     this.decisions[decision].LL_MaxLook = LL_k;
                     this.decisions[decision].LL_MaxLookEvent =
-                        new LookaheadEventInfo(decision, undefined, alt, input, this._startIndex, this._llStopIndex, true);
+                        new LookaheadEventInfo_1.LookaheadEventInfo(decision, undefined, alt, input, this._startIndex, this._llStopIndex, true);
                 }
             }
             return alt;
@@ -104,30 +124,30 @@ export class ProfilingATNSimulator extends ParserATNSimulator {
             this._input = undefined;
             this.currentDecision = -1;
         }
-    }
-    getStartState(dfa, input, outerContext, useContext) {
-        let state = super.getStartState(dfa, input, outerContext, useContext);
+    };
+    ProfilingATNSimulator.prototype.getStartState = function (dfa, input, outerContext, useContext) {
+        var state = _super.prototype.getStartState.call(this, dfa, input, outerContext, useContext);
         this.currentState = state;
         return state;
-    }
-    computeStartState(dfa, globalContext, useContext) {
-        let state = super.computeStartState(dfa, globalContext, useContext);
+    };
+    ProfilingATNSimulator.prototype.computeStartState = function (dfa, globalContext, useContext) {
+        var state = _super.prototype.computeStartState.call(this, dfa, globalContext, useContext);
         this.currentState = state;
         return state;
-    }
-    computeReachSet(dfa, previous, t, contextCache) {
+    };
+    ProfilingATNSimulator.prototype.computeReachSet = function (dfa, previous, t, contextCache) {
         if (this._input === undefined) {
             throw new Error("Invalid state");
         }
-        let reachState = super.computeReachSet(dfa, previous, t, contextCache);
+        var reachState = _super.prototype.computeReachSet.call(this, dfa, previous, t, contextCache);
         if (reachState == null) {
             // no reach on current lookahead symbol. ERROR.
-            this.decisions[this.currentDecision].errors.push(new ErrorInfo(this.currentDecision, previous, this._input, this._startIndex, this._input.index));
+            this.decisions[this.currentDecision].errors.push(new ErrorInfo_1.ErrorInfo(this.currentDecision, previous, this._input, this._startIndex, this._input.index));
         }
         this.currentState = reachState;
         return reachState;
-    }
-    getExistingTargetState(previousD, t) {
+    };
+    ProfilingATNSimulator.prototype.getExistingTargetState = function (previousD, t) {
         if (this.currentState === undefined || this._input === undefined) {
             throw new Error("Invalid state");
         }
@@ -138,26 +158,26 @@ export class ProfilingATNSimulator extends ParserATNSimulator {
         else {
             this._sllStopIndex = this._input.index;
         }
-        let existingTargetState = super.getExistingTargetState(previousD, t);
+        var existingTargetState = _super.prototype.getExistingTargetState.call(this, previousD, t);
         if (existingTargetState != null) {
             // this method is directly called by execDFA; must construct a SimulatorState
             // to represent the current state for this case
-            this.currentState = new SimulatorState(this.currentState.outerContext, existingTargetState, this.currentState.useContext, this.currentState.remainingOuterContext);
+            this.currentState = new SimulatorState_1.SimulatorState(this.currentState.outerContext, existingTargetState, this.currentState.useContext, this.currentState.remainingOuterContext);
             if (this.currentState.useContext) {
                 this.decisions[this.currentDecision].LL_DFATransitions++;
             }
             else {
                 this.decisions[this.currentDecision].SLL_DFATransitions++; // count only if we transition over a DFA state
             }
-            if (existingTargetState === ATNSimulator.ERROR) {
-                let state = new SimulatorState(this.currentState.outerContext, previousD, this.currentState.useContext, this.currentState.remainingOuterContext);
-                this.decisions[this.currentDecision].errors.push(new ErrorInfo(this.currentDecision, state, this._input, this._startIndex, this._input.index));
+            if (existingTargetState === ATNSimulator_1.ATNSimulator.ERROR) {
+                var state = new SimulatorState_1.SimulatorState(this.currentState.outerContext, previousD, this.currentState.useContext, this.currentState.remainingOuterContext);
+                this.decisions[this.currentDecision].errors.push(new ErrorInfo_1.ErrorInfo(this.currentDecision, state, this._input, this._startIndex, this._input.index));
             }
         }
         return existingTargetState;
-    }
-    computeTargetState(dfa, s, remainingGlobalContext, t, useContext, contextCache) {
-        let targetState = super.computeTargetState(dfa, s, remainingGlobalContext, t, useContext, contextCache);
+    };
+    ProfilingATNSimulator.prototype.computeTargetState = function (dfa, s, remainingGlobalContext, t, useContext, contextCache) {
+        var targetState = _super.prototype.computeTargetState.call(this, dfa, s, remainingGlobalContext, t, useContext, contextCache);
         if (useContext) {
             this.decisions[this.currentDecision].LL_ATNTransitions++;
         }
@@ -165,29 +185,29 @@ export class ProfilingATNSimulator extends ParserATNSimulator {
             this.decisions[this.currentDecision].SLL_ATNTransitions++;
         }
         return targetState;
-    }
-    evalSemanticContextImpl(pred, parserCallStack, alt) {
+    };
+    ProfilingATNSimulator.prototype.evalSemanticContextImpl = function (pred, parserCallStack, alt) {
         if (this.currentState === undefined || this._input === undefined) {
             throw new Error("Invalid state");
         }
-        let result = super.evalSemanticContextImpl(pred, parserCallStack, alt);
-        if (!(pred instanceof SemanticContext.PrecedencePredicate)) {
-            let fullContext = this._llStopIndex >= 0;
-            let stopIndex = fullContext ? this._llStopIndex : this._sllStopIndex;
-            this.decisions[this.currentDecision].predicateEvals.push(new PredicateEvalInfo(this.currentState, this.currentDecision, this._input, this._startIndex, stopIndex, pred, result, alt));
+        var result = _super.prototype.evalSemanticContextImpl.call(this, pred, parserCallStack, alt);
+        if (!(pred instanceof SemanticContext_1.SemanticContext.PrecedencePredicate)) {
+            var fullContext = this._llStopIndex >= 0;
+            var stopIndex = fullContext ? this._llStopIndex : this._sllStopIndex;
+            this.decisions[this.currentDecision].predicateEvals.push(new PredicateEvalInfo_1.PredicateEvalInfo(this.currentState, this.currentDecision, this._input, this._startIndex, stopIndex, pred, result, alt));
         }
         return result;
-    }
-    reportContextSensitivity(dfa, prediction, acceptState, startIndex, stopIndex) {
+    };
+    ProfilingATNSimulator.prototype.reportContextSensitivity = function (dfa, prediction, acceptState, startIndex, stopIndex) {
         if (this._input === undefined) {
             throw new Error("Invalid state");
         }
         if (prediction !== this.conflictingAltResolvedBySLL) {
-            this.decisions[this.currentDecision].contextSensitivities.push(new ContextSensitivityInfo(this.currentDecision, acceptState, this._input, startIndex, stopIndex));
+            this.decisions[this.currentDecision].contextSensitivities.push(new ContextSensitivityInfo_1.ContextSensitivityInfo(this.currentDecision, acceptState, this._input, startIndex, stopIndex));
         }
-        super.reportContextSensitivity(dfa, prediction, acceptState, startIndex, stopIndex);
-    }
-    reportAttemptingFullContext(dfa, conflictingAlts, conflictState, startIndex, stopIndex) {
+        _super.prototype.reportContextSensitivity.call(this, dfa, prediction, acceptState, startIndex, stopIndex);
+    };
+    ProfilingATNSimulator.prototype.reportAttemptingFullContext = function (dfa, conflictingAlts, conflictState, startIndex, stopIndex) {
         if (conflictingAlts != null) {
             this.conflictingAltResolvedBySLL = conflictingAlts.nextSetBit(0);
         }
@@ -195,67 +215,71 @@ export class ProfilingATNSimulator extends ParserATNSimulator {
             this.conflictingAltResolvedBySLL = conflictState.s0.configs.getRepresentedAlternatives().nextSetBit(0);
         }
         this.decisions[this.currentDecision].LL_Fallback++;
-        super.reportAttemptingFullContext(dfa, conflictingAlts, conflictState, startIndex, stopIndex);
-    }
-    reportAmbiguity(dfa, D, startIndex, stopIndex, exact, ambigAlts, configs) {
+        _super.prototype.reportAttemptingFullContext.call(this, dfa, conflictingAlts, conflictState, startIndex, stopIndex);
+    };
+    ProfilingATNSimulator.prototype.reportAmbiguity = function (dfa, D, startIndex, stopIndex, exact, ambigAlts, configs) {
         if (this.currentState === undefined || this._input === undefined) {
             throw new Error("Invalid state");
         }
-        let prediction;
+        var prediction;
         if (ambigAlts != null) {
             prediction = ambigAlts.nextSetBit(0);
         }
         else {
             prediction = configs.getRepresentedAlternatives().nextSetBit(0);
         }
-        if (this.conflictingAltResolvedBySLL !== ATN.INVALID_ALT_NUMBER && prediction !== this.conflictingAltResolvedBySLL) {
+        if (this.conflictingAltResolvedBySLL !== ATN_1.ATN.INVALID_ALT_NUMBER && prediction !== this.conflictingAltResolvedBySLL) {
             // Even though this is an ambiguity we are reporting, we can
             // still detect some context sensitivities.  Both SLL and LL
             // are showing a conflict, hence an ambiguity, but if they resolve
             // to different minimum alternatives we have also identified a
             // context sensitivity.
-            this.decisions[this.currentDecision].contextSensitivities.push(new ContextSensitivityInfo(this.currentDecision, this.currentState, this._input, startIndex, stopIndex));
+            this.decisions[this.currentDecision].contextSensitivities.push(new ContextSensitivityInfo_1.ContextSensitivityInfo(this.currentDecision, this.currentState, this._input, startIndex, stopIndex));
         }
-        this.decisions[this.currentDecision].ambiguities.push(new AmbiguityInfo(this.currentDecision, this.currentState, ambigAlts, this._input, startIndex, stopIndex));
-        super.reportAmbiguity(dfa, D, startIndex, stopIndex, exact, ambigAlts, configs);
-    }
+        this.decisions[this.currentDecision].ambiguities.push(new AmbiguityInfo_1.AmbiguityInfo(this.currentDecision, this.currentState, ambigAlts, this._input, startIndex, stopIndex));
+        _super.prototype.reportAmbiguity.call(this, dfa, D, startIndex, stopIndex, exact, ambigAlts, configs);
+    };
     // ---------------------------------------------------------------------
-    getDecisionInfo() {
+    ProfilingATNSimulator.prototype.getDecisionInfo = function () {
         return this.decisions;
-    }
-    getCurrentState() {
+    };
+    ProfilingATNSimulator.prototype.getCurrentState = function () {
         return this.currentState;
-    }
-}
-__decorate([
-    Override,
-    __param(0, NotNull)
-], ProfilingATNSimulator.prototype, "adaptivePredict", null);
-__decorate([
-    Override
-], ProfilingATNSimulator.prototype, "getStartState", null);
-__decorate([
-    Override
-], ProfilingATNSimulator.prototype, "computeStartState", null);
-__decorate([
-    Override
-], ProfilingATNSimulator.prototype, "computeReachSet", null);
-__decorate([
-    Override
-], ProfilingATNSimulator.prototype, "getExistingTargetState", null);
-__decorate([
-    Override
-], ProfilingATNSimulator.prototype, "computeTargetState", null);
-__decorate([
-    Override
-], ProfilingATNSimulator.prototype, "evalSemanticContextImpl", null);
-__decorate([
-    Override
-], ProfilingATNSimulator.prototype, "reportContextSensitivity", null);
-__decorate([
-    Override
-], ProfilingATNSimulator.prototype, "reportAttemptingFullContext", null);
-__decorate([
-    Override,
-    __param(0, NotNull), __param(5, NotNull), __param(6, NotNull)
-], ProfilingATNSimulator.prototype, "reportAmbiguity", null);
+    };
+    __decorate([
+        Decorators_1.Override,
+        __param(0, Decorators_1.NotNull)
+    ], ProfilingATNSimulator.prototype, "adaptivePredict");
+    __decorate([
+        Decorators_1.Override
+    ], ProfilingATNSimulator.prototype, "getStartState");
+    __decorate([
+        Decorators_1.Override
+    ], ProfilingATNSimulator.prototype, "computeStartState");
+    __decorate([
+        Decorators_1.Override
+    ], ProfilingATNSimulator.prototype, "computeReachSet");
+    __decorate([
+        Decorators_1.Override
+    ], ProfilingATNSimulator.prototype, "getExistingTargetState");
+    __decorate([
+        Decorators_1.Override
+    ], ProfilingATNSimulator.prototype, "computeTargetState");
+    __decorate([
+        Decorators_1.Override
+    ], ProfilingATNSimulator.prototype, "evalSemanticContextImpl");
+    __decorate([
+        Decorators_1.Override
+    ], ProfilingATNSimulator.prototype, "reportContextSensitivity");
+    __decorate([
+        Decorators_1.Override
+    ], ProfilingATNSimulator.prototype, "reportAttemptingFullContext");
+    __decorate([
+        Decorators_1.Override,
+        __param(0, Decorators_1.NotNull),
+        __param(5, Decorators_1.NotNull),
+        __param(6, Decorators_1.NotNull)
+    ], ProfilingATNSimulator.prototype, "reportAmbiguity");
+    return ProfilingATNSimulator;
+}(ParserATNSimulator_1.ParserATNSimulator));
+exports.ProfilingATNSimulator = ProfilingATNSimulator;

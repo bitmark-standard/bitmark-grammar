@@ -1,24 +1,29 @@
+"use strict";
 /*!
  * Copyright 2016 The ANTLR Project. All rights reserved.
  * Licensed under the BSD-3-Clause license. See LICENSE file in the project root for license information.
  */
-import { ErrorNode } from "./ErrorNode";
-import { TerminalNode } from "./TerminalNode";
-import { RuleNode } from "./RuleNode";
-export class ParseTreeWalker {
-    walk(listener, t) {
-        let nodeStack = [];
-        let indexStack = [];
-        let currentNode = t;
-        let currentIndex = 0;
+exports.__esModule = true;
+exports.ParseTreeWalker = void 0;
+var ErrorNode_1 = require("./ErrorNode");
+var TerminalNode_1 = require("./TerminalNode");
+var RuleNode_1 = require("./RuleNode");
+var ParseTreeWalker = /** @class */ (function () {
+    function ParseTreeWalker() {
+    }
+    ParseTreeWalker.prototype.walk = function (listener, t) {
+        var nodeStack = [];
+        var indexStack = [];
+        var currentNode = t;
+        var currentIndex = 0;
         while (currentNode) {
             // pre-order visit
-            if (currentNode instanceof ErrorNode) {
+            if (currentNode instanceof ErrorNode_1.ErrorNode) {
                 if (listener.visitErrorNode) {
                     listener.visitErrorNode(currentNode);
                 }
             }
-            else if (currentNode instanceof TerminalNode) {
+            else if (currentNode instanceof TerminalNode_1.TerminalNode) {
                 if (listener.visitTerminal) {
                     listener.visitTerminal(currentNode);
                 }
@@ -37,7 +42,7 @@ export class ParseTreeWalker {
             // No child nodes, so walk tree
             do {
                 // post-order visit
-                if (currentNode instanceof RuleNode) {
+                if (currentNode instanceof RuleNode_1.RuleNode) {
                     this.exitRule(listener, currentNode);
                 }
                 // No parent, so no siblings
@@ -47,7 +52,7 @@ export class ParseTreeWalker {
                     break;
                 }
                 // Move to next sibling if possible
-                let last = nodeStack[nodeStack.length - 1];
+                var last = nodeStack[nodeStack.length - 1];
                 currentIndex++;
                 currentNode = currentIndex < last.childCount ? last.getChild(currentIndex) : undefined;
                 if (currentNode) {
@@ -58,29 +63,31 @@ export class ParseTreeWalker {
                 currentIndex = indexStack.pop();
             } while (currentNode);
         }
-    }
+    };
     /**
      * The discovery of a rule node, involves sending two events: the generic
      * {@link ParseTreeListener#enterEveryRule} and a
      * {@link RuleContext}-specific event. First we trigger the generic and then
      * the rule specific. We to them in reverse order upon finishing the node.
      */
-    enterRule(listener, r) {
-        let ctx = r.ruleContext;
+    ParseTreeWalker.prototype.enterRule = function (listener, r) {
+        var ctx = r.ruleContext;
         if (listener.enterEveryRule) {
             listener.enterEveryRule(ctx);
         }
-        if (ctx != undefined)
-            ctx.enterRule(listener);
-    }
-    exitRule(listener, r) {
-        let ctx = r.ruleContext;
+        ctx.enterRule(listener);
+    };
+    ParseTreeWalker.prototype.exitRule = function (listener, r) {
+        var ctx = r.ruleContext;
         ctx.exitRule(listener);
         if (listener.exitEveryRule) {
             listener.exitEveryRule(ctx);
         }
-    }
-}
+    };
+    return ParseTreeWalker;
+}());
+exports.ParseTreeWalker = ParseTreeWalker;
 (function (ParseTreeWalker) {
     ParseTreeWalker.DEFAULT = new ParseTreeWalker();
-})(ParseTreeWalker || (ParseTreeWalker = {}));
+})(ParseTreeWalker = exports.ParseTreeWalker || (exports.ParseTreeWalker = {}));
+exports.ParseTreeWalker = ParseTreeWalker;

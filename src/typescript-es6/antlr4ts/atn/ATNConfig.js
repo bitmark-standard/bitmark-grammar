@@ -1,7 +1,23 @@
+"use strict";
 /*!
  * Copyright 2016 The ANTLR Project. All rights reserved.
  * Licensed under the BSD-3-Clause license. See LICENSE file in the project root for license information.
  */
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        if (typeof b !== "function" && b !== null)
+            throw new TypeError("Class extends value " + String(b) + " is not a constructor or null");
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -11,21 +27,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __param = (this && this.__param) || function (paramIndex, decorator) {
     return function (target, key) { decorator(target, key, paramIndex); }
 };
+exports.__esModule = true;
+exports.ATNConfig = void 0;
 // ConvertTo-TS run at 2016-10-04T11:26:25.2796692-07:00
-import { Array2DHashMap } from "../misc/Array2DHashMap";
-import { DecisionState } from "./DecisionState";
-import { MurmurHash } from "../misc/MurmurHash";
-import { NotNull, Override } from "../Decorators";
-import { ObjectEqualityComparator } from "../misc/ObjectEqualityComparator";
-import { PredictionContext } from "./PredictionContext";
-import { SemanticContext } from "./SemanticContext";
-import * as assert from "assert";
+var Array2DHashMap_1 = require("../misc/Array2DHashMap");
+var DecisionState_1 = require("./DecisionState");
+var MurmurHash_1 = require("../misc/MurmurHash");
+var Decorators_1 = require("../Decorators");
+var ObjectEqualityComparator_1 = require("../misc/ObjectEqualityComparator");
+var PredictionContext_1 = require("./PredictionContext");
+var SemanticContext_1 = require("./SemanticContext");
+var assert = require("assert");
 /**
  * This field stores the bit mask for implementing the
  * {@link #isPrecedenceFilterSuppressed} property as a bit within the
  * existing {@link #altAndOuterContextDepth} field.
  */
-const SUPPRESS_PRECEDENCE_FILTER = 0x80000000;
+var SUPPRESS_PRECEDENCE_FILTER = 0x80000000;
 /**
  * Represents a location with context in an ATN. The location is identified by the following values:
  *
@@ -55,8 +73,8 @@ const SUPPRESS_PRECEDENCE_FILTER = 0x80000000;
  * `ATNConfig.create` and `ATNConfig.transform` methods automatically select the smallest concrete type capable of
  * representing the unique information for any given `ATNConfig`.
  */
-let ATNConfig = class ATNConfig {
-    constructor(state, altOrConfig, context) {
+var ATNConfig = /** @class */ (function () {
+    function ATNConfig(state, altOrConfig, context) {
         if (typeof altOrConfig === "number") {
             assert((altOrConfig & 0xFFFFFF) === altOrConfig);
             this._state = state;
@@ -69,8 +87,9 @@ let ATNConfig = class ATNConfig {
             this._context = context;
         }
     }
-    static create(state, alt, context, semanticContext = SemanticContext.NONE, lexerActionExecutor) {
-        if (semanticContext !== SemanticContext.NONE) {
+    ATNConfig.create = function (state, alt, context, semanticContext, lexerActionExecutor) {
+        if (semanticContext === void 0) { semanticContext = SemanticContext_1.SemanticContext.NONE; }
+        if (semanticContext !== SemanticContext_1.SemanticContext.NONE) {
             if (lexerActionExecutor != null) {
                 return new ActionSemanticContextATNConfig(lexerActionExecutor, semanticContext, state, alt, context, false);
             }
@@ -84,73 +103,105 @@ let ATNConfig = class ATNConfig {
         else {
             return new ATNConfig(state, alt, context);
         }
-    }
-    /** Gets the ATN state associated with this configuration */
-    get state() {
-        return this._state;
-    }
-    /** What alt (or lexer rule) is predicted by this configuration */
-    get alt() {
-        return this.altAndOuterContextDepth & 0x00FFFFFF;
-    }
-    get context() {
-        return this._context;
-    }
-    set context(context) {
-        this._context = context;
-    }
-    get reachesIntoOuterContext() {
-        return this.outerContextDepth !== 0;
-    }
-    /**
-     * We cannot execute predicates dependent upon local context unless
-     * we know for sure we are in the correct context. Because there is
-     * no way to do this efficiently, we simply cannot evaluate
-     * dependent predicates unless we are in the rule that initially
-     * invokes the ATN simulator.
-     *
-     * closure() tracks the depth of how far we dip into the outer context:
-     * depth &gt; 0.  Note that it may not be totally accurate depth since I
-     * don't ever decrement. TODO: make it a boolean then
-     */
-    get outerContextDepth() {
-        return (this.altAndOuterContextDepth >>> 24) & 0x7F;
-    }
-    set outerContextDepth(outerContextDepth) {
-        assert(outerContextDepth >= 0);
-        // saturate at 0x7F - everything but zero/positive is only used for debug information anyway
-        outerContextDepth = Math.min(outerContextDepth, 0x7F);
-        this.altAndOuterContextDepth = ((outerContextDepth << 24) | (this.altAndOuterContextDepth & ~0x7F000000) >>> 0);
-    }
-    get lexerActionExecutor() {
-        return undefined;
-    }
-    get semanticContext() {
-        return SemanticContext.NONE;
-    }
-    get hasPassedThroughNonGreedyDecision() {
-        return false;
-    }
-    clone() {
+    };
+    Object.defineProperty(ATNConfig.prototype, "state", {
+        /** Gets the ATN state associated with this configuration */
+        get: function () {
+            return this._state;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(ATNConfig.prototype, "alt", {
+        /** What alt (or lexer rule) is predicted by this configuration */
+        get: function () {
+            return this.altAndOuterContextDepth & 0x00FFFFFF;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(ATNConfig.prototype, "context", {
+        get: function () {
+            return this._context;
+        },
+        set: function (context) {
+            this._context = context;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(ATNConfig.prototype, "reachesIntoOuterContext", {
+        get: function () {
+            return this.outerContextDepth !== 0;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(ATNConfig.prototype, "outerContextDepth", {
+        /**
+         * We cannot execute predicates dependent upon local context unless
+         * we know for sure we are in the correct context. Because there is
+         * no way to do this efficiently, we simply cannot evaluate
+         * dependent predicates unless we are in the rule that initially
+         * invokes the ATN simulator.
+         *
+         * closure() tracks the depth of how far we dip into the outer context:
+         * depth &gt; 0.  Note that it may not be totally accurate depth since I
+         * don't ever decrement. TODO: make it a boolean then
+         */
+        get: function () {
+            return (this.altAndOuterContextDepth >>> 24) & 0x7F;
+        },
+        set: function (outerContextDepth) {
+            assert(outerContextDepth >= 0);
+            // saturate at 0x7F - everything but zero/positive is only used for debug information anyway
+            outerContextDepth = Math.min(outerContextDepth, 0x7F);
+            this.altAndOuterContextDepth = ((outerContextDepth << 24) | (this.altAndOuterContextDepth & ~0x7F000000) >>> 0);
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(ATNConfig.prototype, "lexerActionExecutor", {
+        get: function () {
+            return undefined;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(ATNConfig.prototype, "semanticContext", {
+        get: function () {
+            return SemanticContext_1.SemanticContext.NONE;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(ATNConfig.prototype, "hasPassedThroughNonGreedyDecision", {
+        get: function () {
+            return false;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    ATNConfig.prototype.clone = function () {
         return this.transform(this.state, false);
-    }
-    transform(/*@NotNull*/ state, checkNonGreedy, arg2) {
+    };
+    ATNConfig.prototype.transform = function (/*@NotNull*/ state, checkNonGreedy, arg2) {
         if (arg2 == null) {
             return this.transformImpl(state, this._context, this.semanticContext, checkNonGreedy, this.lexerActionExecutor);
         }
-        else if (arg2 instanceof PredictionContext) {
+        else if (arg2 instanceof PredictionContext_1.PredictionContext) {
             return this.transformImpl(state, arg2, this.semanticContext, checkNonGreedy, this.lexerActionExecutor);
         }
-        else if (arg2 instanceof SemanticContext) {
+        else if (arg2 instanceof SemanticContext_1.SemanticContext) {
             return this.transformImpl(state, this._context, arg2, checkNonGreedy, this.lexerActionExecutor);
         }
         else {
             return this.transformImpl(state, this._context, this.semanticContext, checkNonGreedy, arg2);
         }
-    }
-    transformImpl(state, context, semanticContext, checkNonGreedy, lexerActionExecutor) {
-        let passedThroughNonGreedy = checkNonGreedy && ATNConfig.checkNonGreedyDecision(this, state);
-        if (semanticContext !== SemanticContext.NONE) {
+    };
+    ATNConfig.prototype.transformImpl = function (state, context, semanticContext, checkNonGreedy, lexerActionExecutor) {
+        var passedThroughNonGreedy = checkNonGreedy && ATNConfig.checkNonGreedyDecision(this, state);
+        if (semanticContext !== SemanticContext_1.SemanticContext.NONE) {
             if (lexerActionExecutor != null || passedThroughNonGreedy) {
                 return new ActionSemanticContextATNConfig(lexerActionExecutor, semanticContext, state, this, context, passedThroughNonGreedy);
             }
@@ -164,23 +215,23 @@ let ATNConfig = class ATNConfig {
         else {
             return new ATNConfig(state, this, context);
         }
-    }
-    static checkNonGreedyDecision(source, target) {
+    };
+    ATNConfig.checkNonGreedyDecision = function (source, target) {
         return source.hasPassedThroughNonGreedyDecision
-            || target instanceof DecisionState && target.nonGreedy;
-    }
-    appendContext(context, contextCache) {
+            || target instanceof DecisionState_1.DecisionState && target.nonGreedy;
+    };
+    ATNConfig.prototype.appendContext = function (context, contextCache) {
         if (typeof context === "number") {
-            let appendedContext = this.context.appendSingleContext(context, contextCache);
-            let result = this.transform(this.state, false, appendedContext);
+            var appendedContext = this.context.appendSingleContext(context, contextCache);
+            var result = this.transform(this.state, false, appendedContext);
             return result;
         }
         else {
-            let appendedContext = this.context.appendContext(context, contextCache);
-            let result = this.transform(this.state, false, appendedContext);
+            var appendedContext = this.context.appendContext(context, contextCache);
+            var result = this.transform(this.state, false, appendedContext);
             return result;
         }
-    }
+    };
     /**
      * Determines if this `ATNConfig` fully contains another `ATNConfig`.
      *
@@ -206,19 +257,19 @@ let ATNConfig = class ATNConfig {
      * @param subconfig The sub configuration.
      * @returns `true` if this configuration contains `subconfig`; otherwise, `false`.
      */
-    contains(subconfig) {
+    ATNConfig.prototype.contains = function (subconfig) {
         if (this.state.stateNumber !== subconfig.state.stateNumber
             || this.alt !== subconfig.alt
             || !this.semanticContext.equals(subconfig.semanticContext)) {
             return false;
         }
-        let leftWorkList = [];
-        let rightWorkList = [];
+        var leftWorkList = [];
+        var rightWorkList = [];
         leftWorkList.push(this.context);
         rightWorkList.push(subconfig.context);
         while (true) {
-            let left = leftWorkList.pop();
-            let right = rightWorkList.pop();
+            var left = leftWorkList.pop();
+            var right = rightWorkList.pop();
             if (!left || !right) {
                 break;
             }
@@ -232,8 +283,8 @@ let ATNConfig = class ATNConfig {
                 return left.hasEmpty;
             }
             else {
-                for (let i = 0; i < right.size; i++) {
-                    let index = left.findReturnState(right.getReturnState(i));
+                for (var i = 0; i < right.size; i++) {
+                    var index = left.findReturnState(right.getReturnState(i));
                     if (index < 0) {
                         // assumes invokingStates has no duplicate entries
                         return false;
@@ -244,23 +295,27 @@ let ATNConfig = class ATNConfig {
             }
         }
         return false;
-    }
-    get isPrecedenceFilterSuppressed() {
-        return (this.altAndOuterContextDepth & SUPPRESS_PRECEDENCE_FILTER) !== 0;
-    }
-    set isPrecedenceFilterSuppressed(value) {
-        if (value) {
-            this.altAndOuterContextDepth |= SUPPRESS_PRECEDENCE_FILTER;
-        }
-        else {
-            this.altAndOuterContextDepth &= ~SUPPRESS_PRECEDENCE_FILTER;
-        }
-    }
+    };
+    Object.defineProperty(ATNConfig.prototype, "isPrecedenceFilterSuppressed", {
+        get: function () {
+            return (this.altAndOuterContextDepth & SUPPRESS_PRECEDENCE_FILTER) !== 0;
+        },
+        set: function (value) {
+            if (value) {
+                this.altAndOuterContextDepth |= SUPPRESS_PRECEDENCE_FILTER;
+            }
+            else {
+                this.altAndOuterContextDepth &= ~SUPPRESS_PRECEDENCE_FILTER;
+            }
+        },
+        enumerable: false,
+        configurable: true
+    });
     /** An ATN configuration is equal to another if both have
      *  the same state, they predict the same alternative, and
      *  syntactic/semantic contexts are the same.
      */
-    equals(o) {
+    ATNConfig.prototype.equals = function (o) {
         if (this === o) {
             return true;
         }
@@ -274,20 +329,20 @@ let ATNConfig = class ATNConfig {
             && this.semanticContext.equals(o.semanticContext)
             && this.isPrecedenceFilterSuppressed === o.isPrecedenceFilterSuppressed
             && this.hasPassedThroughNonGreedyDecision === o.hasPassedThroughNonGreedyDecision
-            && ObjectEqualityComparator.INSTANCE.equals(this.lexerActionExecutor, o.lexerActionExecutor);
-    }
-    hashCode() {
-        let hashCode = MurmurHash.initialize(7);
-        hashCode = MurmurHash.update(hashCode, this.state.stateNumber);
-        hashCode = MurmurHash.update(hashCode, this.alt);
-        hashCode = MurmurHash.update(hashCode, this.reachesIntoOuterContext ? 1 : 0);
-        hashCode = MurmurHash.update(hashCode, this.context);
-        hashCode = MurmurHash.update(hashCode, this.semanticContext);
-        hashCode = MurmurHash.update(hashCode, this.hasPassedThroughNonGreedyDecision ? 1 : 0);
-        hashCode = MurmurHash.update(hashCode, this.lexerActionExecutor);
-        hashCode = MurmurHash.finish(hashCode, 7);
+            && ObjectEqualityComparator_1.ObjectEqualityComparator.INSTANCE.equals(this.lexerActionExecutor, o.lexerActionExecutor);
+    };
+    ATNConfig.prototype.hashCode = function () {
+        var hashCode = MurmurHash_1.MurmurHash.initialize(7);
+        hashCode = MurmurHash_1.MurmurHash.update(hashCode, this.state.stateNumber);
+        hashCode = MurmurHash_1.MurmurHash.update(hashCode, this.alt);
+        hashCode = MurmurHash_1.MurmurHash.update(hashCode, this.reachesIntoOuterContext ? 1 : 0);
+        hashCode = MurmurHash_1.MurmurHash.update(hashCode, this.context);
+        hashCode = MurmurHash_1.MurmurHash.update(hashCode, this.semanticContext);
+        hashCode = MurmurHash_1.MurmurHash.update(hashCode, this.hasPassedThroughNonGreedyDecision ? 1 : 0);
+        hashCode = MurmurHash_1.MurmurHash.update(hashCode, this.lexerActionExecutor);
+        hashCode = MurmurHash_1.MurmurHash.finish(hashCode, 7);
         return hashCode;
-    }
+    };
     /**
      * Returns a graphical representation of the current `ATNConfig` in Graphviz format. The graph can be stored to a
      * **.dot** file and then rendered to an image using Graphviz.
@@ -296,15 +351,15 @@ let ATNConfig = class ATNConfig {
      *
      * @see http://www.graphviz.org/
      */
-    toDotString() {
-        let builder = "";
+    ATNConfig.prototype.toDotString = function () {
+        var builder = "";
         builder += ("digraph G {\n");
         builder += ("rankdir=LR;\n");
-        let visited = new Array2DHashMap(PredictionContext.IdentityEqualityComparator.INSTANCE);
-        let workList = [];
+        var visited = new Array2DHashMap_1.Array2DHashMap(PredictionContext_1.PredictionContext.IdentityEqualityComparator.INSTANCE);
+        var workList = [];
         function getOrAddContext(context) {
-            let newNumber = visited.size;
-            let result = visited.putIfAbsent(context, newNumber);
+            var newNumber = visited.size;
+            var result = visited.putIfAbsent(context, newNumber);
             if (result != null) {
                 // Already saw this context
                 return result;
@@ -315,11 +370,11 @@ let ATNConfig = class ATNConfig {
         workList.push(this.context);
         visited.put(this.context, 0);
         while (true) {
-            let current = workList.pop();
+            var current = workList.pop();
             if (!current) {
                 break;
             }
-            for (let i = 0; i < current.size; i++) {
+            for (var i = 0; i < current.size; i++) {
                 builder += ("  s") + (getOrAddContext(current));
                 builder += ("->");
                 builder += ("s") + (getOrAddContext(current.getParent(i)));
@@ -328,8 +383,8 @@ let ATNConfig = class ATNConfig {
         }
         builder += ("}\n");
         return builder.toString();
-    }
-    toString(recog, showAlt, showContext) {
+    };
+    ATNConfig.prototype.toString = function (recog, showAlt, showContext) {
         // Must check showContext before showAlt to preserve original overload behavior
         if (showContext == null) {
             showContext = showAlt != null;
@@ -337,7 +392,7 @@ let ATNConfig = class ATNConfig {
         if (showAlt == null) {
             showAlt = true;
         }
-        let buf = "";
+        var buf = "";
         // if (this.state.ruleIndex >= 0) {
         // 	if (recog != null) {
         // 		buf += (recog.ruleNames[this.state.ruleIndex] + ":");
@@ -345,15 +400,16 @@ let ATNConfig = class ATNConfig {
         // 		buf += (this.state.ruleIndex + ":");
         // 	}
         // }
-        let contexts;
+        var contexts;
         if (showContext) {
             contexts = this.context.toStrings(recog, this.state.stateNumber);
         }
         else {
             contexts = ["?"];
         }
-        let first = true;
-        for (let contextDesc of contexts) {
+        var first = true;
+        for (var _i = 0, contexts_1 = contexts; _i < contexts_1.length; _i++) {
+            var contextDesc = contexts_1[_i];
             if (first) {
                 first = false;
             }
@@ -370,7 +426,7 @@ let ATNConfig = class ATNConfig {
                 buf += (",");
                 buf += (contextDesc);
             }
-            if (this.semanticContext !== SemanticContext.NONE) {
+            if (this.semanticContext !== SemanticContext_1.SemanticContext.NONE) {
                 buf += (",");
                 buf += (this.semanticContext);
             }
@@ -380,43 +436,47 @@ let ATNConfig = class ATNConfig {
             buf += (")");
         }
         return buf.toString();
-    }
-};
-__decorate([
-    NotNull
-], ATNConfig.prototype, "_state", void 0);
-__decorate([
-    NotNull
-], ATNConfig.prototype, "_context", void 0);
-__decorate([
-    NotNull
-], ATNConfig.prototype, "state", null);
-__decorate([
-    NotNull,
-    __param(0, NotNull)
-], ATNConfig.prototype, "context", null);
-__decorate([
-    NotNull
-], ATNConfig.prototype, "semanticContext", null);
-__decorate([
-    Override
-], ATNConfig.prototype, "clone", null);
-__decorate([
-    __param(0, NotNull), __param(2, NotNull)
-], ATNConfig.prototype, "transformImpl", null);
-__decorate([
-    Override
-], ATNConfig.prototype, "equals", null);
-__decorate([
-    Override
-], ATNConfig.prototype, "hashCode", null);
-__decorate([
-    __param(0, NotNull), __param(3, NotNull)
-], ATNConfig, "create", null);
-ATNConfig = __decorate([
-    __param(0, NotNull), __param(2, NotNull)
-], ATNConfig);
-export { ATNConfig };
+    };
+    __decorate([
+        Decorators_1.NotNull
+    ], ATNConfig.prototype, "_state");
+    __decorate([
+        Decorators_1.NotNull
+    ], ATNConfig.prototype, "_context");
+    __decorate([
+        Decorators_1.NotNull
+    ], ATNConfig.prototype, "state");
+    __decorate([
+        Decorators_1.NotNull,
+        __param(0, Decorators_1.NotNull)
+    ], ATNConfig.prototype, "context");
+    __decorate([
+        Decorators_1.NotNull
+    ], ATNConfig.prototype, "semanticContext");
+    __decorate([
+        Decorators_1.Override
+    ], ATNConfig.prototype, "clone");
+    __decorate([
+        __param(0, Decorators_1.NotNull),
+        __param(2, Decorators_1.NotNull)
+    ], ATNConfig.prototype, "transformImpl");
+    __decorate([
+        Decorators_1.Override
+    ], ATNConfig.prototype, "equals");
+    __decorate([
+        Decorators_1.Override
+    ], ATNConfig.prototype, "hashCode");
+    __decorate([
+        __param(0, Decorators_1.NotNull),
+        __param(3, Decorators_1.NotNull)
+    ], ATNConfig, "create");
+    ATNConfig = __decorate([
+        __param(0, Decorators_1.NotNull),
+        __param(2, Decorators_1.NotNull)
+    ], ATNConfig);
+    return ATNConfig;
+}());
+exports.ATNConfig = ATNConfig;
 /**
  * This class was derived from `ATNConfig` purely as a memory optimization. It allows for the creation of an `ATNConfig`
  * with a non-default semantic context.
@@ -424,29 +484,38 @@ export { ATNConfig };
  * See the `ATNConfig` documentation for more information about conserving memory through the use of several concrete
  * types.
  */
-let SemanticContextATNConfig = class SemanticContextATNConfig extends ATNConfig {
-    constructor(semanticContext, state, altOrConfig, context) {
+var SemanticContextATNConfig = /** @class */ (function (_super) {
+    __extends(SemanticContextATNConfig, _super);
+    function SemanticContextATNConfig(semanticContext, state, altOrConfig, context) {
+        var _this = this;
         if (typeof altOrConfig === "number") {
-            super(state, altOrConfig, context);
+            _this = _super.call(this, state, altOrConfig, context) || this;
         }
         else {
-            super(state, altOrConfig, context);
+            _this = _super.call(this, state, altOrConfig, context) || this;
         }
-        this._semanticContext = semanticContext;
+        _this._semanticContext = semanticContext;
+        return _this;
     }
-    get semanticContext() {
-        return this._semanticContext;
-    }
-};
-__decorate([
-    NotNull
-], SemanticContextATNConfig.prototype, "_semanticContext", void 0);
-__decorate([
-    Override
-], SemanticContextATNConfig.prototype, "semanticContext", null);
-SemanticContextATNConfig = __decorate([
-    __param(1, NotNull), __param(2, NotNull)
-], SemanticContextATNConfig);
+    Object.defineProperty(SemanticContextATNConfig.prototype, "semanticContext", {
+        get: function () {
+            return this._semanticContext;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    __decorate([
+        Decorators_1.NotNull
+    ], SemanticContextATNConfig.prototype, "_semanticContext");
+    __decorate([
+        Decorators_1.Override
+    ], SemanticContextATNConfig.prototype, "semanticContext");
+    SemanticContextATNConfig = __decorate([
+        __param(1, Decorators_1.NotNull),
+        __param(2, Decorators_1.NotNull)
+    ], SemanticContextATNConfig);
+    return SemanticContextATNConfig;
+}(ATNConfig));
 /**
  * This class was derived from `ATNConfig` purely as a memory optimization. It allows for the creation of an `ATNConfig`
  * with a lexer action.
@@ -454,36 +523,49 @@ SemanticContextATNConfig = __decorate([
  * See the `ATNConfig` documentation for more information about conserving memory through the use of several concrete
  * types.
  */
-let ActionATNConfig = class ActionATNConfig extends ATNConfig {
-    constructor(lexerActionExecutor, state, altOrConfig, context, passedThroughNonGreedyDecision) {
+var ActionATNConfig = /** @class */ (function (_super) {
+    __extends(ActionATNConfig, _super);
+    function ActionATNConfig(lexerActionExecutor, state, altOrConfig, context, passedThroughNonGreedyDecision) {
+        var _this = this;
         if (typeof altOrConfig === "number") {
-            super(state, altOrConfig, context);
+            _this = _super.call(this, state, altOrConfig, context) || this;
         }
         else {
-            super(state, altOrConfig, context);
-            if (altOrConfig.semanticContext !== SemanticContext.NONE) {
+            _this = _super.call(this, state, altOrConfig, context) || this;
+            if (altOrConfig.semanticContext !== SemanticContext_1.SemanticContext.NONE) {
                 throw new Error("Not supported");
             }
         }
-        this._lexerActionExecutor = lexerActionExecutor;
-        this.passedThroughNonGreedyDecision = passedThroughNonGreedyDecision;
+        _this._lexerActionExecutor = lexerActionExecutor;
+        _this.passedThroughNonGreedyDecision = passedThroughNonGreedyDecision;
+        return _this;
     }
-    get lexerActionExecutor() {
-        return this._lexerActionExecutor;
-    }
-    get hasPassedThroughNonGreedyDecision() {
-        return this.passedThroughNonGreedyDecision;
-    }
-};
-__decorate([
-    Override
-], ActionATNConfig.prototype, "lexerActionExecutor", null);
-__decorate([
-    Override
-], ActionATNConfig.prototype, "hasPassedThroughNonGreedyDecision", null);
-ActionATNConfig = __decorate([
-    __param(1, NotNull), __param(2, NotNull)
-], ActionATNConfig);
+    Object.defineProperty(ActionATNConfig.prototype, "lexerActionExecutor", {
+        get: function () {
+            return this._lexerActionExecutor;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(ActionATNConfig.prototype, "hasPassedThroughNonGreedyDecision", {
+        get: function () {
+            return this.passedThroughNonGreedyDecision;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    __decorate([
+        Decorators_1.Override
+    ], ActionATNConfig.prototype, "lexerActionExecutor");
+    __decorate([
+        Decorators_1.Override
+    ], ActionATNConfig.prototype, "hasPassedThroughNonGreedyDecision");
+    ActionATNConfig = __decorate([
+        __param(1, Decorators_1.NotNull),
+        __param(2, Decorators_1.NotNull)
+    ], ActionATNConfig);
+    return ActionATNConfig;
+}(ATNConfig));
 /**
  * This class was derived from `SemanticContextATNConfig` purely as a memory optimization. It allows for the creation of
  * an `ATNConfig` with both a lexer action and a non-default semantic context.
@@ -491,30 +573,43 @@ ActionATNConfig = __decorate([
  * See the `ATNConfig` documentation for more information about conserving memory through the use of several concrete
  * types.
  */
-let ActionSemanticContextATNConfig = class ActionSemanticContextATNConfig extends SemanticContextATNConfig {
-    constructor(lexerActionExecutor, semanticContext, state, altOrConfig, context, passedThroughNonGreedyDecision) {
+var ActionSemanticContextATNConfig = /** @class */ (function (_super) {
+    __extends(ActionSemanticContextATNConfig, _super);
+    function ActionSemanticContextATNConfig(lexerActionExecutor, semanticContext, state, altOrConfig, context, passedThroughNonGreedyDecision) {
+        var _this = this;
         if (typeof altOrConfig === "number") {
-            super(semanticContext, state, altOrConfig, context);
+            _this = _super.call(this, semanticContext, state, altOrConfig, context) || this;
         }
         else {
-            super(semanticContext, state, altOrConfig, context);
+            _this = _super.call(this, semanticContext, state, altOrConfig, context) || this;
         }
-        this._lexerActionExecutor = lexerActionExecutor;
-        this.passedThroughNonGreedyDecision = passedThroughNonGreedyDecision;
+        _this._lexerActionExecutor = lexerActionExecutor;
+        _this.passedThroughNonGreedyDecision = passedThroughNonGreedyDecision;
+        return _this;
     }
-    get lexerActionExecutor() {
-        return this._lexerActionExecutor;
-    }
-    get hasPassedThroughNonGreedyDecision() {
-        return this.passedThroughNonGreedyDecision;
-    }
-};
-__decorate([
-    Override
-], ActionSemanticContextATNConfig.prototype, "lexerActionExecutor", null);
-__decorate([
-    Override
-], ActionSemanticContextATNConfig.prototype, "hasPassedThroughNonGreedyDecision", null);
-ActionSemanticContextATNConfig = __decorate([
-    __param(1, NotNull), __param(2, NotNull)
-], ActionSemanticContextATNConfig);
+    Object.defineProperty(ActionSemanticContextATNConfig.prototype, "lexerActionExecutor", {
+        get: function () {
+            return this._lexerActionExecutor;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(ActionSemanticContextATNConfig.prototype, "hasPassedThroughNonGreedyDecision", {
+        get: function () {
+            return this.passedThroughNonGreedyDecision;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    __decorate([
+        Decorators_1.Override
+    ], ActionSemanticContextATNConfig.prototype, "lexerActionExecutor");
+    __decorate([
+        Decorators_1.Override
+    ], ActionSemanticContextATNConfig.prototype, "hasPassedThroughNonGreedyDecision");
+    ActionSemanticContextATNConfig = __decorate([
+        __param(1, Decorators_1.NotNull),
+        __param(2, Decorators_1.NotNull)
+    ], ActionSemanticContextATNConfig);
+    return ActionSemanticContextATNConfig;
+}(SemanticContextATNConfig));

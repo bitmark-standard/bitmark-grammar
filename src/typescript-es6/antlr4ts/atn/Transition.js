@@ -1,3 +1,4 @@
+"use strict";
 /*!
  * Copyright 2016 The ANTLR Project. All rights reserved.
  * Licensed under the BSD-3-Clause license. See LICENSE file in the project root for license information.
@@ -11,7 +12,9 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __param = (this && this.__param) || function (paramIndex, decorator) {
     return function (target, key) { decorator(target, key, paramIndex); }
 };
-import { NotNull } from "../Decorators";
+exports.__esModule = true;
+exports.Transition = void 0;
+var Decorators_1 = require("../Decorators");
 /** An ATN transition between any two ATN states.  Subclasses define
  *  atom, set, epsilon, action, predicate, rule transitions.
  *
@@ -24,46 +27,55 @@ import { NotNull } from "../Decorators";
  *  the states. We'll use the term Edge for the DFA to distinguish them from
  *  ATN transitions.
  */
-let Transition = class Transition {
-    constructor(target) {
+var Transition = /** @class */ (function () {
+    function Transition(target) {
         if (target == null) {
             throw new Error("target cannot be null.");
         }
         this.target = target;
     }
-    /**
-     * Determines if the transition is an "epsilon" transition.
-     *
-     * The default implementation returns `false`.
-     *
-     * @returns `true` if traversing this transition in the ATN does not
-     * consume an input symbol; otherwise, `false` if traversing this
-     * transition consumes (matches) an input symbol.
-     */
-    get isEpsilon() {
-        return false;
-    }
-    get label() {
-        return undefined;
-    }
-};
-Transition.serializationNames = [
-    "INVALID",
-    "EPSILON",
-    "RANGE",
-    "RULE",
-    "PREDICATE",
-    "ATOM",
-    "ACTION",
-    "SET",
-    "NOT_SET",
-    "WILDCARD",
-    "PRECEDENCE",
-];
-__decorate([
-    NotNull
-], Transition.prototype, "target", void 0);
-Transition = __decorate([
-    __param(0, NotNull)
-], Transition);
-export { Transition };
+    Object.defineProperty(Transition.prototype, "isEpsilon", {
+        /**
+         * Determines if the transition is an "epsilon" transition.
+         *
+         * The default implementation returns `false`.
+         *
+         * @returns `true` if traversing this transition in the ATN does not
+         * consume an input symbol; otherwise, `false` if traversing this
+         * transition consumes (matches) an input symbol.
+         */
+        get: function () {
+            return false;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(Transition.prototype, "label", {
+        get: function () {
+            return undefined;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Transition.serializationNames = [
+        "INVALID",
+        "EPSILON",
+        "RANGE",
+        "RULE",
+        "PREDICATE",
+        "ATOM",
+        "ACTION",
+        "SET",
+        "NOT_SET",
+        "WILDCARD",
+        "PRECEDENCE",
+    ];
+    __decorate([
+        Decorators_1.NotNull
+    ], Transition.prototype, "target");
+    Transition = __decorate([
+        __param(0, Decorators_1.NotNull)
+    ], Transition);
+    return Transition;
+}());
+exports.Transition = Transition;

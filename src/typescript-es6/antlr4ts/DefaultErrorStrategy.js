@@ -1,3 +1,4 @@
+"use strict";
 /*!
  * Copyright 2016 The ANTLR Project. All rights reserved.
  * Licensed under the BSD-3-Clause license. See LICENSE file in the project root for license information.
@@ -11,21 +12,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __param = (this && this.__param) || function (paramIndex, decorator) {
     return function (target, key) { decorator(target, key, paramIndex); }
 };
-import { ATNState } from "./atn/ATNState";
-import { ATNStateType } from "./atn/ATNStateType";
-import { FailedPredicateException } from "./FailedPredicateException";
-import { InputMismatchException } from "./InputMismatchException";
-import { IntervalSet } from "./misc/IntervalSet";
-import { NoViableAltException } from "./NoViableAltException";
-import { PredictionContext } from "./atn/PredictionContext";
-import { Token } from "./Token";
-import { Override, NotNull } from "./Decorators";
+exports.__esModule = true;
+exports.DefaultErrorStrategy = void 0;
+var ATNState_1 = require("./atn/ATNState");
+var ATNStateType_1 = require("./atn/ATNStateType");
+var FailedPredicateException_1 = require("./FailedPredicateException");
+var InputMismatchException_1 = require("./InputMismatchException");
+var IntervalSet_1 = require("./misc/IntervalSet");
+var NoViableAltException_1 = require("./NoViableAltException");
+var PredictionContext_1 = require("./atn/PredictionContext");
+var Token_1 = require("./Token");
+var Decorators_1 = require("./Decorators");
 /**
  * This is the default implementation of {@link ANTLRErrorStrategy} used for
  * error reporting and recovery in ANTLR parsers.
  */
-export class DefaultErrorStrategy {
-    constructor() {
+var DefaultErrorStrategy = /** @class */ (function () {
+    function DefaultErrorStrategy() {
         /**
          * Indicates whether the error strategy is currently "recovering from an
          * error". This is used to suppress reporting multiple error messages while
@@ -44,7 +47,7 @@ export class DefaultErrorStrategy {
         /**
          * @see #nextTokensContext
          */
-        this.nextTokensState = ATNState.INVALID_STATE_NUMBER;
+        this.nextTokensState = ATNState_1.ATNState.INVALID_STATE_NUMBER;
     }
     /**
      * {@inheritDoc}
@@ -52,43 +55,43 @@ export class DefaultErrorStrategy {
      * The default implementation simply calls {@link #endErrorCondition} to
      * ensure that the handler is not in error recovery mode.
      */
-    reset(recognizer) {
+    DefaultErrorStrategy.prototype.reset = function (recognizer) {
         this.endErrorCondition(recognizer);
-    }
+    };
     /**
      * This method is called to enter error recovery mode when a recognition
      * exception is reported.
      *
      * @param recognizer the parser instance
      */
-    beginErrorCondition(recognizer) {
+    DefaultErrorStrategy.prototype.beginErrorCondition = function (recognizer) {
         this.errorRecoveryMode = true;
-    }
+    };
     /**
      * {@inheritDoc}
      */
-    inErrorRecoveryMode(recognizer) {
+    DefaultErrorStrategy.prototype.inErrorRecoveryMode = function (recognizer) {
         return this.errorRecoveryMode;
-    }
+    };
     /**
      * This method is called to leave error recovery mode after recovering from
      * a recognition exception.
      *
      * @param recognizer
      */
-    endErrorCondition(recognizer) {
+    DefaultErrorStrategy.prototype.endErrorCondition = function (recognizer) {
         this.errorRecoveryMode = false;
         this.lastErrorStates = undefined;
         this.lastErrorIndex = -1;
-    }
+    };
     /**
      * {@inheritDoc}
      *
      * The default implementation simply calls {@link #endErrorCondition}.
      */
-    reportMatch(recognizer) {
+    DefaultErrorStrategy.prototype.reportMatch = function (recognizer) {
         this.endErrorCondition(recognizer);
-    }
+    };
     /**
      * {@inheritDoc}
      *
@@ -106,7 +109,7 @@ export class DefaultErrorStrategy {
      * * All other types: calls {@link Parser#notifyErrorListeners} to report
      *   the exception
      */
-    reportError(recognizer, e) {
+    DefaultErrorStrategy.prototype.reportError = function (recognizer, e) {
         // if we've already reported an error and have not matched a token
         // yet successfully, don't report any errors.
         if (this.inErrorRecoveryMode(recognizer)) {
@@ -114,29 +117,29 @@ export class DefaultErrorStrategy {
             return; // don't report spurious errors
         }
         this.beginErrorCondition(recognizer);
-        if (e instanceof NoViableAltException) {
+        if (e instanceof NoViableAltException_1.NoViableAltException) {
             this.reportNoViableAlternative(recognizer, e);
         }
-        else if (e instanceof InputMismatchException) {
+        else if (e instanceof InputMismatchException_1.InputMismatchException) {
             this.reportInputMismatch(recognizer, e);
         }
-        else if (e instanceof FailedPredicateException) {
+        else if (e instanceof FailedPredicateException_1.FailedPredicateException) {
             this.reportFailedPredicate(recognizer, e);
         }
         else {
-            console.error(`unknown recognition error type: ${e}`);
+            console.error("unknown recognition error type: ".concat(e));
             this.notifyErrorListeners(recognizer, e.toString(), e);
         }
-    }
-    notifyErrorListeners(recognizer, message, e) {
-        let offendingToken = e.getOffendingToken(recognizer);
+    };
+    DefaultErrorStrategy.prototype.notifyErrorListeners = function (recognizer, message, e) {
+        var offendingToken = e.getOffendingToken(recognizer);
         if (offendingToken === undefined) {
             // Pass null to notifyErrorListeners so it in turn calls the error listeners with undefined as the offending
             // token. If we passed undefined, it would instead call the listeners with currentToken from the parser.
             offendingToken = null;
         }
         recognizer.notifyErrorListeners(message, offendingToken, e);
-    }
+    };
     /**
      * {@inheritDoc}
      *
@@ -144,7 +147,7 @@ export class DefaultErrorStrategy {
      * until we find one in the resynchronization set--loosely the set of tokens
      * that can follow the current rule.
      */
-    recover(recognizer, e) {
+    DefaultErrorStrategy.prototype.recover = function (recognizer, e) {
         //		System.out.println("recover in "+recognizer.getRuleInvocationStack()+
         //						   " index="+recognizer.inputStream.index+
         //						   ", lastErrorIndex="+
@@ -164,12 +167,12 @@ export class DefaultErrorStrategy {
         }
         this.lastErrorIndex = recognizer.inputStream.index;
         if (!this.lastErrorStates) {
-            this.lastErrorStates = new IntervalSet();
+            this.lastErrorStates = new IntervalSet_1.IntervalSet();
         }
         this.lastErrorStates.add(recognizer.state);
-        let followSet = this.getErrorRecoverySet(recognizer);
+        var followSet = this.getErrorRecoverySet(recognizer);
         this.consumeUntil(recognizer, followSet);
-    }
+    };
     /**
      * The default implementation of {@link ANTLRErrorStrategy#sync} makes sure
      * that the current lookahead symbol is consistent with what were expecting
@@ -216,24 +219,24 @@ export class DefaultErrorStrategy {
      * some reason speed is suffering for you, you can turn off this
      * functionality by simply overriding this method as a blank { }.
      */
-    sync(recognizer) {
-        let s = recognizer.interpreter.atn.states[recognizer.state];
+    DefaultErrorStrategy.prototype.sync = function (recognizer) {
+        var s = recognizer.interpreter.atn.states[recognizer.state];
         //		System.err.println("sync @ "+s.stateNumber+"="+s.getClass().getSimpleName());
         // If already recovering, don't try to sync
         if (this.inErrorRecoveryMode(recognizer)) {
             return;
         }
-        let tokens = recognizer.inputStream;
-        let la = tokens.LA(1);
+        var tokens = recognizer.inputStream;
+        var la = tokens.LA(1);
         // try cheaper subset first; might get lucky. seems to shave a wee bit off
-        let nextTokens = recognizer.atn.nextTokens(s);
+        var nextTokens = recognizer.atn.nextTokens(s);
         if (nextTokens.contains(la)) {
             // We are sure the token matches
             this.nextTokensContext = undefined;
-            this.nextTokensState = ATNState.INVALID_STATE_NUMBER;
+            this.nextTokensState = ATNState_1.ATNState.INVALID_STATE_NUMBER;
             return;
         }
-        if (nextTokens.contains(Token.EPSILON)) {
+        if (nextTokens.contains(Token_1.Token.EPSILON)) {
             if (this.nextTokensContext === undefined) {
                 // It's possible the next token won't match; information tracked
                 // by sync is restricted for performance.
@@ -243,28 +246,28 @@ export class DefaultErrorStrategy {
             return;
         }
         switch (s.stateType) {
-            case ATNStateType.BLOCK_START:
-            case ATNStateType.STAR_BLOCK_START:
-            case ATNStateType.PLUS_BLOCK_START:
-            case ATNStateType.STAR_LOOP_ENTRY:
+            case ATNStateType_1.ATNStateType.BLOCK_START:
+            case ATNStateType_1.ATNStateType.STAR_BLOCK_START:
+            case ATNStateType_1.ATNStateType.PLUS_BLOCK_START:
+            case ATNStateType_1.ATNStateType.STAR_LOOP_ENTRY:
                 // report error and recover if possible
                 if (this.singleTokenDeletion(recognizer)) {
                     return;
                 }
-                throw new InputMismatchException(recognizer);
-            case ATNStateType.PLUS_LOOP_BACK:
-            case ATNStateType.STAR_LOOP_BACK:
+                throw new InputMismatchException_1.InputMismatchException(recognizer);
+            case ATNStateType_1.ATNStateType.PLUS_LOOP_BACK:
+            case ATNStateType_1.ATNStateType.STAR_LOOP_BACK:
                 //			System.err.println("at loop back: "+s.getClass().getSimpleName());
                 this.reportUnwantedToken(recognizer);
-                let expecting = recognizer.getExpectedTokens();
-                let whatFollowsLoopIterationOrRule = expecting.or(this.getErrorRecoverySet(recognizer));
+                var expecting = recognizer.getExpectedTokens();
+                var whatFollowsLoopIterationOrRule = expecting.or(this.getErrorRecoverySet(recognizer));
                 this.consumeUntil(recognizer, whatFollowsLoopIterationOrRule);
                 break;
             default:
                 // do nothing if we can't identify the exact kind of ATN state
                 break;
         }
-    }
+    };
     /**
      * This is called by {@link #reportError} when the exception is a
      * {@link NoViableAltException}.
@@ -274,11 +277,11 @@ export class DefaultErrorStrategy {
      * @param recognizer the parser instance
      * @param e the recognition exception
      */
-    reportNoViableAlternative(recognizer, e) {
-        let tokens = recognizer.inputStream;
-        let input;
+    DefaultErrorStrategy.prototype.reportNoViableAlternative = function (recognizer, e) {
+        var tokens = recognizer.inputStream;
+        var input;
         if (tokens) {
-            if (e.startToken.type === Token.EOF) {
+            if (e.startToken.type === Token_1.Token.EOF) {
                 input = "<EOF>";
             }
             else {
@@ -288,9 +291,9 @@ export class DefaultErrorStrategy {
         else {
             input = "<unknown input>";
         }
-        let msg = "no viable alternative at input " + this.escapeWSAndQuote(input);
+        var msg = "no viable alternative at input " + this.escapeWSAndQuote(input);
         this.notifyErrorListeners(recognizer, msg, e);
-    }
+    };
     /**
      * This is called by {@link #reportError} when the exception is an
      * {@link InputMismatchException}.
@@ -300,13 +303,13 @@ export class DefaultErrorStrategy {
      * @param recognizer the parser instance
      * @param e the recognition exception
      */
-    reportInputMismatch(recognizer, e) {
-        let expected = e.expectedTokens;
-        let expectedString = expected ? expected.toStringVocabulary(recognizer.vocabulary) : "";
-        let msg = "mismatched input " + this.getTokenErrorDisplay(e.getOffendingToken(recognizer)) +
+    DefaultErrorStrategy.prototype.reportInputMismatch = function (recognizer, e) {
+        var expected = e.expectedTokens;
+        var expectedString = expected ? expected.toStringVocabulary(recognizer.vocabulary) : "";
+        var msg = "mismatched input " + this.getTokenErrorDisplay(e.getOffendingToken(recognizer)) +
             " expecting " + expectedString;
         this.notifyErrorListeners(recognizer, msg, e);
-    }
+    };
     /**
      * This is called by {@link #reportError} when the exception is a
      * {@link FailedPredicateException}.
@@ -316,11 +319,11 @@ export class DefaultErrorStrategy {
      * @param recognizer the parser instance
      * @param e the recognition exception
      */
-    reportFailedPredicate(recognizer, e) {
-        let ruleName = recognizer.ruleNames[recognizer.context.ruleIndex];
-        let msg = "rule " + ruleName + " " + e.message;
+    DefaultErrorStrategy.prototype.reportFailedPredicate = function (recognizer, e) {
+        var ruleName = recognizer.ruleNames[recognizer.context.ruleIndex];
+        var msg = "rule " + ruleName + " " + e.message;
         this.notifyErrorListeners(recognizer, msg, e);
-    }
+    };
     /**
      * This method is called to report a syntax error which requires the removal
      * of a token from the input stream. At the time this method is called, the
@@ -339,18 +342,18 @@ export class DefaultErrorStrategy {
      *
      * @param recognizer the parser instance
      */
-    reportUnwantedToken(recognizer) {
+    DefaultErrorStrategy.prototype.reportUnwantedToken = function (recognizer) {
         if (this.inErrorRecoveryMode(recognizer)) {
             return;
         }
         this.beginErrorCondition(recognizer);
-        let t = recognizer.currentToken;
-        let tokenName = this.getTokenErrorDisplay(t);
-        let expecting = this.getExpectedTokens(recognizer);
-        let msg = "extraneous input " + tokenName + " expecting " +
+        var t = recognizer.currentToken;
+        var tokenName = this.getTokenErrorDisplay(t);
+        var expecting = this.getExpectedTokens(recognizer);
+        var msg = "extraneous input " + tokenName + " expecting " +
             expecting.toStringVocabulary(recognizer.vocabulary);
         recognizer.notifyErrorListeners(msg, t, undefined);
-    }
+    };
     /**
      * This method is called to report a syntax error which requires the
      * insertion of a missing token into the input stream. At the time this
@@ -368,17 +371,17 @@ export class DefaultErrorStrategy {
      *
      * @param recognizer the parser instance
      */
-    reportMissingToken(recognizer) {
+    DefaultErrorStrategy.prototype.reportMissingToken = function (recognizer) {
         if (this.inErrorRecoveryMode(recognizer)) {
             return;
         }
         this.beginErrorCondition(recognizer);
-        let t = recognizer.currentToken;
-        let expecting = this.getExpectedTokens(recognizer);
-        let msg = "missing " + expecting.toStringVocabulary(recognizer.vocabulary) +
+        var t = recognizer.currentToken;
+        var expecting = this.getExpectedTokens(recognizer);
+        var msg = "missing " + expecting.toStringVocabulary(recognizer.vocabulary) +
             " at " + this.getTokenErrorDisplay(t);
         recognizer.notifyErrorListeners(msg, t, undefined);
-    }
+    };
     /**
      * {@inheritDoc}
      *
@@ -429,9 +432,9 @@ export class DefaultErrorStrategy {
      * is in the set of tokens that can follow the `')'` token reference
      * in rule `atom`. It can assume that you forgot the `')'`.
      */
-    recoverInline(recognizer) {
+    DefaultErrorStrategy.prototype.recoverInline = function (recognizer) {
         // SINGLE TOKEN DELETION
-        let matchedSymbol = this.singleTokenDeletion(recognizer);
+        var matchedSymbol = this.singleTokenDeletion(recognizer);
         if (matchedSymbol) {
             // we have deleted the extra token.
             // now, move past ttype token as if all were ok
@@ -444,12 +447,12 @@ export class DefaultErrorStrategy {
         }
         // even that didn't work; must throw the exception
         if (this.nextTokensContext === undefined) {
-            throw new InputMismatchException(recognizer);
+            throw new InputMismatchException_1.InputMismatchException(recognizer);
         }
         else {
-            throw new InputMismatchException(recognizer, this.nextTokensState, this.nextTokensContext);
+            throw new InputMismatchException_1.InputMismatchException(recognizer, this.nextTokensState, this.nextTokensContext);
         }
-    }
+    };
     /**
      * This method implements the single-token insertion inline error recovery
      * strategy. It is called by {@link #recoverInline} if the single-token
@@ -467,22 +470,22 @@ export class DefaultErrorStrategy {
      * @returns `true` if single-token insertion is a viable recovery
      * strategy for the current mismatched input, otherwise `false`
      */
-    singleTokenInsertion(recognizer) {
-        let currentSymbolType = recognizer.inputStream.LA(1);
+    DefaultErrorStrategy.prototype.singleTokenInsertion = function (recognizer) {
+        var currentSymbolType = recognizer.inputStream.LA(1);
         // if current token is consistent with what could come after current
         // ATN state, then we know we're missing a token; error recovery
         // is free to conjure up and insert the missing token
-        let currentState = recognizer.interpreter.atn.states[recognizer.state];
-        let next = currentState.transition(0).target;
-        let atn = recognizer.interpreter.atn;
-        let expectingAtLL2 = atn.nextTokens(next, PredictionContext.fromRuleContext(atn, recognizer.context));
+        var currentState = recognizer.interpreter.atn.states[recognizer.state];
+        var next = currentState.transition(0).target;
+        var atn = recognizer.interpreter.atn;
+        var expectingAtLL2 = atn.nextTokens(next, PredictionContext_1.PredictionContext.fromRuleContext(atn, recognizer.context));
         //		console.warn("LT(2) set="+expectingAtLL2.toString(recognizer.getTokenNames()));
         if (expectingAtLL2.contains(currentSymbolType)) {
             this.reportMissingToken(recognizer);
             return true;
         }
         return false;
-    }
+    };
     /**
      * This method implements the single-token deletion inline error recovery
      * strategy. It is called by {@link #recoverInline} to attempt to recover
@@ -502,9 +505,9 @@ export class DefaultErrorStrategy {
      * deletion successfully recovers from the mismatched input, otherwise
      * `undefined`
      */
-    singleTokenDeletion(recognizer) {
-        let nextTokenType = recognizer.inputStream.LA(2);
-        let expecting = this.getExpectedTokens(recognizer);
+    DefaultErrorStrategy.prototype.singleTokenDeletion = function (recognizer) {
+        var nextTokenType = recognizer.inputStream.LA(2);
+        var expecting = this.getExpectedTokens(recognizer);
         if (expecting.contains(nextTokenType)) {
             this.reportUnwantedToken(recognizer);
             /*
@@ -515,12 +518,12 @@ export class DefaultErrorStrategy {
             */
             recognizer.consume(); // simply delete extra token
             // we want to return the token we're actually matching
-            let matchedSymbol = recognizer.currentToken;
+            var matchedSymbol = recognizer.currentToken;
             this.reportMatch(recognizer); // we know current token is correct
             return matchedSymbol;
         }
         return undefined;
-    }
+    };
     /** Conjure up a missing token during error recovery.
      *
      *  The recognizer attempts to recover from single missing
@@ -540,37 +543,37 @@ export class DefaultErrorStrategy {
      *  If you change what tokens must be created by the lexer,
      *  override this method to create the appropriate tokens.
      */
-    getMissingSymbol(recognizer) {
-        let currentSymbol = recognizer.currentToken;
-        let expecting = this.getExpectedTokens(recognizer);
-        let expectedTokenType = Token.INVALID_TYPE;
+    DefaultErrorStrategy.prototype.getMissingSymbol = function (recognizer) {
+        var currentSymbol = recognizer.currentToken;
+        var expecting = this.getExpectedTokens(recognizer);
+        var expectedTokenType = Token_1.Token.INVALID_TYPE;
         if (!expecting.isNil) {
             // get any element
             expectedTokenType = expecting.minElement;
         }
-        let tokenText;
-        if (expectedTokenType === Token.EOF) {
+        var tokenText;
+        if (expectedTokenType === Token_1.Token.EOF) {
             tokenText = "<missing EOF>";
         }
         else {
             tokenText = "<missing " + recognizer.vocabulary.getDisplayName(expectedTokenType) + ">";
         }
-        let current = currentSymbol;
-        let lookback = recognizer.inputStream.tryLT(-1);
-        if (current.type === Token.EOF && lookback != null) {
+        var current = currentSymbol;
+        var lookback = recognizer.inputStream.tryLT(-1);
+        if (current.type === Token_1.Token.EOF && lookback != null) {
             current = lookback;
         }
         return this.constructToken(recognizer.inputStream.tokenSource, expectedTokenType, tokenText, current);
-    }
-    constructToken(tokenSource, expectedTokenType, tokenText, current) {
-        let factory = tokenSource.tokenFactory;
-        let x = current.tokenSource;
-        let stream = x ? x.inputStream : undefined;
-        return factory.create({ source: tokenSource, stream }, expectedTokenType, tokenText, Token.DEFAULT_CHANNEL, -1, -1, current.line, current.charPositionInLine);
-    }
-    getExpectedTokens(recognizer) {
+    };
+    DefaultErrorStrategy.prototype.constructToken = function (tokenSource, expectedTokenType, tokenText, current) {
+        var factory = tokenSource.tokenFactory;
+        var x = current.tokenSource;
+        var stream = x ? x.inputStream : undefined;
+        return factory.create({ source: tokenSource, stream: stream }, expectedTokenType, tokenText, Token_1.Token.DEFAULT_CHANNEL, -1, -1, current.line, current.charPositionInLine);
+    };
+    DefaultErrorStrategy.prototype.getExpectedTokens = function (recognizer) {
         return recognizer.getExpectedTokens();
-    }
+    };
     /** How should a token be displayed in an error message? The default
      *  is to display just the text, but during development you might
      *  want to have a lot of information spit out.  Override in that case
@@ -579,34 +582,34 @@ export class DefaultErrorStrategy {
      *  your token objects because you don't have to go modify your lexer
      *  so that it creates a new Java type.
      */
-    getTokenErrorDisplay(t) {
+    DefaultErrorStrategy.prototype.getTokenErrorDisplay = function (t) {
         if (!t) {
             return "<no token>";
         }
-        let s = this.getSymbolText(t);
+        var s = this.getSymbolText(t);
         if (!s) {
-            if (this.getSymbolType(t) === Token.EOF) {
+            if (this.getSymbolType(t) === Token_1.Token.EOF) {
                 s = "<EOF>";
             }
             else {
-                s = `<${this.getSymbolType(t)}>`;
+                s = "<".concat(this.getSymbolType(t), ">");
             }
         }
         return this.escapeWSAndQuote(s);
-    }
-    getSymbolText(symbol) {
+    };
+    DefaultErrorStrategy.prototype.getSymbolText = function (symbol) {
         return symbol.text;
-    }
-    getSymbolType(symbol) {
+    };
+    DefaultErrorStrategy.prototype.getSymbolType = function (symbol) {
         return symbol.type;
-    }
-    escapeWSAndQuote(s) {
+    };
+    DefaultErrorStrategy.prototype.escapeWSAndQuote = function (s) {
         //		if ( s==null ) return s;
         s = s.replace("\n", "\\n");
         s = s.replace("\r", "\\r");
         s = s.replace("\t", "\\t");
         return "'" + s + "'";
-    }
+    };
     /*  Compute the error recovery set for the current rule.  During
      *  rule invocation, the parser pushes the set of tokens that can
      *  follow that rule reference on the stack; this amounts to
@@ -699,110 +702,113 @@ export class DefaultErrorStrategy {
      *  Like Grosch I implement context-sensitive FOLLOW sets that are combined
      *  at run-time upon error to avoid overhead during parsing.
      */
-    getErrorRecoverySet(recognizer) {
-        let atn = recognizer.interpreter.atn;
-        let ctx = recognizer.context;
-        let recoverSet = new IntervalSet();
+    DefaultErrorStrategy.prototype.getErrorRecoverySet = function (recognizer) {
+        var atn = recognizer.interpreter.atn;
+        var ctx = recognizer.context;
+        var recoverSet = new IntervalSet_1.IntervalSet();
         while (ctx && ctx.invokingState >= 0) {
             // compute what follows who invoked us
-            let invokingState = atn.states[ctx.invokingState];
-            let rt = invokingState.transition(0);
-            let follow = atn.nextTokens(rt.followState);
+            var invokingState = atn.states[ctx.invokingState];
+            var rt = invokingState.transition(0);
+            var follow = atn.nextTokens(rt.followState);
             recoverSet.addAll(follow);
             ctx = ctx._parent;
         }
-        recoverSet.remove(Token.EPSILON);
+        recoverSet.remove(Token_1.Token.EPSILON);
         //		System.out.println("recover set "+recoverSet.toString(recognizer.getTokenNames()));
         return recoverSet;
-    }
+    };
     /** Consume tokens until one matches the given token set. */
-    consumeUntil(recognizer, set) {
+    DefaultErrorStrategy.prototype.consumeUntil = function (recognizer, set) {
         //		System.err.println("consumeUntil("+set.toString(recognizer.getTokenNames())+")");
-        let ttype = recognizer.inputStream.LA(1);
-        while (ttype !== Token.EOF && !set.contains(ttype)) {
+        var ttype = recognizer.inputStream.LA(1);
+        while (ttype !== Token_1.Token.EOF && !set.contains(ttype)) {
             //System.out.println("consume during recover LA(1)="+getTokenNames()[input.LA(1)]);
             //			recognizer.inputStream.consume();
             recognizer.consume();
             ttype = recognizer.inputStream.LA(1);
         }
-    }
-}
-__decorate([
-    Override
-], DefaultErrorStrategy.prototype, "reset", null);
-__decorate([
-    __param(0, NotNull)
-], DefaultErrorStrategy.prototype, "beginErrorCondition", null);
-__decorate([
-    Override
-], DefaultErrorStrategy.prototype, "inErrorRecoveryMode", null);
-__decorate([
-    __param(0, NotNull)
-], DefaultErrorStrategy.prototype, "endErrorCondition", null);
-__decorate([
-    Override
-], DefaultErrorStrategy.prototype, "reportMatch", null);
-__decorate([
-    Override
-], DefaultErrorStrategy.prototype, "reportError", null);
-__decorate([
-    __param(0, NotNull)
-], DefaultErrorStrategy.prototype, "notifyErrorListeners", null);
-__decorate([
-    Override
-], DefaultErrorStrategy.prototype, "recover", null);
-__decorate([
-    Override
-], DefaultErrorStrategy.prototype, "sync", null);
-__decorate([
-    __param(0, NotNull),
-    __param(1, NotNull)
-], DefaultErrorStrategy.prototype, "reportNoViableAlternative", null);
-__decorate([
-    __param(0, NotNull),
-    __param(1, NotNull)
-], DefaultErrorStrategy.prototype, "reportInputMismatch", null);
-__decorate([
-    __param(0, NotNull),
-    __param(1, NotNull)
-], DefaultErrorStrategy.prototype, "reportFailedPredicate", null);
-__decorate([
-    __param(0, NotNull)
-], DefaultErrorStrategy.prototype, "reportUnwantedToken", null);
-__decorate([
-    __param(0, NotNull)
-], DefaultErrorStrategy.prototype, "reportMissingToken", null);
-__decorate([
-    Override
-], DefaultErrorStrategy.prototype, "recoverInline", null);
-__decorate([
-    __param(0, NotNull)
-], DefaultErrorStrategy.prototype, "singleTokenInsertion", null);
-__decorate([
-    __param(0, NotNull)
-], DefaultErrorStrategy.prototype, "singleTokenDeletion", null);
-__decorate([
-    NotNull,
-    __param(0, NotNull)
-], DefaultErrorStrategy.prototype, "getMissingSymbol", null);
-__decorate([
-    NotNull,
-    __param(0, NotNull)
-], DefaultErrorStrategy.prototype, "getExpectedTokens", null);
-__decorate([
-    __param(0, NotNull)
-], DefaultErrorStrategy.prototype, "getSymbolText", null);
-__decorate([
-    __param(0, NotNull)
-], DefaultErrorStrategy.prototype, "getSymbolType", null);
-__decorate([
-    NotNull,
-    __param(0, NotNull)
-], DefaultErrorStrategy.prototype, "escapeWSAndQuote", null);
-__decorate([
-    NotNull,
-    __param(0, NotNull)
-], DefaultErrorStrategy.prototype, "getErrorRecoverySet", null);
-__decorate([
-    __param(0, NotNull), __param(1, NotNull)
-], DefaultErrorStrategy.prototype, "consumeUntil", null);
+    };
+    __decorate([
+        Decorators_1.Override
+    ], DefaultErrorStrategy.prototype, "reset");
+    __decorate([
+        __param(0, Decorators_1.NotNull)
+    ], DefaultErrorStrategy.prototype, "beginErrorCondition");
+    __decorate([
+        Decorators_1.Override
+    ], DefaultErrorStrategy.prototype, "inErrorRecoveryMode");
+    __decorate([
+        __param(0, Decorators_1.NotNull)
+    ], DefaultErrorStrategy.prototype, "endErrorCondition");
+    __decorate([
+        Decorators_1.Override
+    ], DefaultErrorStrategy.prototype, "reportMatch");
+    __decorate([
+        Decorators_1.Override
+    ], DefaultErrorStrategy.prototype, "reportError");
+    __decorate([
+        __param(0, Decorators_1.NotNull)
+    ], DefaultErrorStrategy.prototype, "notifyErrorListeners");
+    __decorate([
+        Decorators_1.Override
+    ], DefaultErrorStrategy.prototype, "recover");
+    __decorate([
+        Decorators_1.Override
+    ], DefaultErrorStrategy.prototype, "sync");
+    __decorate([
+        __param(0, Decorators_1.NotNull),
+        __param(1, Decorators_1.NotNull)
+    ], DefaultErrorStrategy.prototype, "reportNoViableAlternative");
+    __decorate([
+        __param(0, Decorators_1.NotNull),
+        __param(1, Decorators_1.NotNull)
+    ], DefaultErrorStrategy.prototype, "reportInputMismatch");
+    __decorate([
+        __param(0, Decorators_1.NotNull),
+        __param(1, Decorators_1.NotNull)
+    ], DefaultErrorStrategy.prototype, "reportFailedPredicate");
+    __decorate([
+        __param(0, Decorators_1.NotNull)
+    ], DefaultErrorStrategy.prototype, "reportUnwantedToken");
+    __decorate([
+        __param(0, Decorators_1.NotNull)
+    ], DefaultErrorStrategy.prototype, "reportMissingToken");
+    __decorate([
+        Decorators_1.Override
+    ], DefaultErrorStrategy.prototype, "recoverInline");
+    __decorate([
+        __param(0, Decorators_1.NotNull)
+    ], DefaultErrorStrategy.prototype, "singleTokenInsertion");
+    __decorate([
+        __param(0, Decorators_1.NotNull)
+    ], DefaultErrorStrategy.prototype, "singleTokenDeletion");
+    __decorate([
+        Decorators_1.NotNull,
+        __param(0, Decorators_1.NotNull)
+    ], DefaultErrorStrategy.prototype, "getMissingSymbol");
+    __decorate([
+        Decorators_1.NotNull,
+        __param(0, Decorators_1.NotNull)
+    ], DefaultErrorStrategy.prototype, "getExpectedTokens");
+    __decorate([
+        __param(0, Decorators_1.NotNull)
+    ], DefaultErrorStrategy.prototype, "getSymbolText");
+    __decorate([
+        __param(0, Decorators_1.NotNull)
+    ], DefaultErrorStrategy.prototype, "getSymbolType");
+    __decorate([
+        Decorators_1.NotNull,
+        __param(0, Decorators_1.NotNull)
+    ], DefaultErrorStrategy.prototype, "escapeWSAndQuote");
+    __decorate([
+        Decorators_1.NotNull,
+        __param(0, Decorators_1.NotNull)
+    ], DefaultErrorStrategy.prototype, "getErrorRecoverySet");
+    __decorate([
+        __param(0, Decorators_1.NotNull),
+        __param(1, Decorators_1.NotNull)
+    ], DefaultErrorStrategy.prototype, "consumeUntil");
+    return DefaultErrorStrategy;
+}());
+exports.DefaultErrorStrategy = DefaultErrorStrategy;

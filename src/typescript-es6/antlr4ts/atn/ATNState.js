@@ -1,3 +1,4 @@
+"use strict";
 /*!
  * Copyright 2016 The ANTLR Project. All rights reserved.
  * Licensed under the BSD-3-Clause license. See LICENSE file in the project root for license information.
@@ -8,8 +9,10 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
-import { Override } from "../Decorators";
-const INITIAL_NUM_TRANSITIONS = 4;
+exports.__esModule = true;
+exports.ATNState = void 0;
+var Decorators_1 = require("../Decorators");
+var INITIAL_NUM_TRANSITIONS = 4;
 /**
  * The following images show the relation of states and
  * {@link ATNState#transitions} for various grammar constructs.
@@ -66,8 +69,8 @@ const INITIAL_NUM_TRANSITIONS = 4;
  *
  * <embed src="images/OptionalNonGreedy.svg" type="image/svg+xml"/>
  */
-export class ATNState {
-    constructor() {
+var ATNState = /** @class */ (function () {
+    function ATNState() {
         this.stateNumber = ATNState.INVALID_STATE_NUMBER;
         this.ruleIndex = 0; // at runtime, we don't have Rule objects
         this.epsilonOnlyTransitions = false;
@@ -80,41 +83,53 @@ export class ATNState {
      *
      * @returns the state number
      */
-    getStateNumber() {
+    ATNState.prototype.getStateNumber = function () {
         return this.stateNumber;
-    }
-    /**
-     * For all states except {@link RuleStopState}, this returns the state
-     * number. Returns -1 for stop states.
-     *
-     * @returns -1 for {@link RuleStopState}, otherwise the state number
-     */
-    get nonStopStateNumber() {
-        return this.getStateNumber();
-    }
-    hashCode() {
+    };
+    Object.defineProperty(ATNState.prototype, "nonStopStateNumber", {
+        /**
+         * For all states except {@link RuleStopState}, this returns the state
+         * number. Returns -1 for stop states.
+         *
+         * @returns -1 for {@link RuleStopState}, otherwise the state number
+         */
+        get: function () {
+            return this.getStateNumber();
+        },
+        enumerable: false,
+        configurable: true
+    });
+    ATNState.prototype.hashCode = function () {
         return this.stateNumber;
-    }
-    equals(o) {
+    };
+    ATNState.prototype.equals = function (o) {
         // are these states same object?
         if (o instanceof ATNState) {
             return this.stateNumber === o.stateNumber;
         }
         return false;
-    }
-    get isNonGreedyExitState() {
-        return false;
-    }
-    toString() {
+    };
+    Object.defineProperty(ATNState.prototype, "isNonGreedyExitState", {
+        get: function () {
+            return false;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    ATNState.prototype.toString = function () {
         return String(this.stateNumber);
-    }
-    getTransitions() {
+    };
+    ATNState.prototype.getTransitions = function () {
         return this.transitions.slice(0);
-    }
-    get numberOfTransitions() {
-        return this.transitions.length;
-    }
-    addTransition(e, index) {
+    };
+    Object.defineProperty(ATNState.prototype, "numberOfTransitions", {
+        get: function () {
+            return this.transitions.length;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    ATNState.prototype.addTransition = function (e, index) {
         if (this.transitions.length === 0) {
             this.epsilonOnlyTransitions = e.isEpsilon;
         }
@@ -123,59 +138,74 @@ export class ATNState {
             throw new Error("ATN state " + this.stateNumber + " has both epsilon and non-epsilon transitions.");
         }
         this.transitions.splice(index !== undefined ? index : this.transitions.length, 0, e);
-    }
-    transition(i) {
+    };
+    ATNState.prototype.transition = function (i) {
         return this.transitions[i];
-    }
-    setTransition(i, e) {
+    };
+    ATNState.prototype.setTransition = function (i, e) {
         this.transitions[i] = e;
-    }
-    removeTransition(index) {
+    };
+    ATNState.prototype.removeTransition = function (index) {
         return this.transitions.splice(index, 1)[0];
-    }
-    get onlyHasEpsilonTransitions() {
-        return this.epsilonOnlyTransitions;
-    }
-    setRuleIndex(ruleIndex) {
+    };
+    Object.defineProperty(ATNState.prototype, "onlyHasEpsilonTransitions", {
+        get: function () {
+            return this.epsilonOnlyTransitions;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    ATNState.prototype.setRuleIndex = function (ruleIndex) {
         this.ruleIndex = ruleIndex;
-    }
-    get isOptimized() {
-        return this.optimizedTransitions !== this.transitions;
-    }
-    get numberOfOptimizedTransitions() {
-        return this.optimizedTransitions.length;
-    }
-    getOptimizedTransition(i) {
+    };
+    Object.defineProperty(ATNState.prototype, "isOptimized", {
+        get: function () {
+            return this.optimizedTransitions !== this.transitions;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(ATNState.prototype, "numberOfOptimizedTransitions", {
+        get: function () {
+            return this.optimizedTransitions.length;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    ATNState.prototype.getOptimizedTransition = function (i) {
         return this.optimizedTransitions[i];
-    }
-    addOptimizedTransition(e) {
+    };
+    ATNState.prototype.addOptimizedTransition = function (e) {
         if (!this.isOptimized) {
             this.optimizedTransitions = new Array();
         }
         this.optimizedTransitions.push(e);
-    }
-    setOptimizedTransition(i, e) {
+    };
+    ATNState.prototype.setOptimizedTransition = function (i, e) {
         if (!this.isOptimized) {
             throw new Error("This ATNState is not optimized.");
         }
         this.optimizedTransitions[i] = e;
-    }
-    removeOptimizedTransition(i) {
+    };
+    ATNState.prototype.removeOptimizedTransition = function (i) {
         if (!this.isOptimized) {
             throw new Error("This ATNState is not optimized.");
         }
         this.optimizedTransitions.splice(i, 1);
-    }
-}
-__decorate([
-    Override
-], ATNState.prototype, "hashCode", null);
-__decorate([
-    Override
-], ATNState.prototype, "equals", null);
-__decorate([
-    Override
-], ATNState.prototype, "toString", null);
+    };
+    __decorate([
+        Decorators_1.Override
+    ], ATNState.prototype, "hashCode");
+    __decorate([
+        Decorators_1.Override
+    ], ATNState.prototype, "equals");
+    __decorate([
+        Decorators_1.Override
+    ], ATNState.prototype, "toString");
+    return ATNState;
+}());
+exports.ATNState = ATNState;
 (function (ATNState) {
     ATNState.INVALID_STATE_NUMBER = -1;
-})(ATNState || (ATNState = {}));
+})(ATNState = exports.ATNState || (exports.ATNState = {}));
+exports.ATNState = ATNState;

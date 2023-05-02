@@ -1,3 +1,4 @@
+"use strict";
 /*!
  * Copyright 2016 The ANTLR Project. All rights reserved.
  * Licensed under the BSD-3-Clause license. See LICENSE file in the project root for license information.
@@ -11,8 +12,10 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __param = (this && this.__param) || function (paramIndex, decorator) {
     return function (target, key) { decorator(target, key, paramIndex); }
 };
-import { MurmurHash } from "../misc/MurmurHash";
-import { NotNull, Override } from "../Decorators";
+exports.__esModule = true;
+exports.LexerPopModeAction = void 0;
+var MurmurHash_1 = require("../misc/MurmurHash");
+var Decorators_1 = require("../Decorators");
 /**
  * Implements the `popMode` lexer action by calling {@link Lexer#popMode}.
  *
@@ -22,69 +25,80 @@ import { NotNull, Override } from "../Decorators";
  * @author Sam Harwell
  * @since 4.2
  */
-export class LexerPopModeAction {
+var LexerPopModeAction = /** @class */ (function () {
     /**
      * Constructs the singleton instance of the lexer `popMode` command.
      */
-    constructor() {
+    function LexerPopModeAction() {
         // intentionally empty
     }
-    /**
-     * {@inheritDoc}
-     * @returns This method returns {@link LexerActionType#POP_MODE}.
-     */
-    get actionType() {
-        return 4 /* POP_MODE */;
-    }
-    /**
-     * {@inheritDoc}
-     * @returns This method returns `false`.
-     */
-    get isPositionDependent() {
-        return false;
-    }
+    Object.defineProperty(LexerPopModeAction.prototype, "actionType", {
+        /**
+         * {@inheritDoc}
+         * @returns This method returns {@link LexerActionType#POP_MODE}.
+         */
+        get: function () {
+            return 4 /* LexerActionType.POP_MODE */;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(LexerPopModeAction.prototype, "isPositionDependent", {
+        /**
+         * {@inheritDoc}
+         * @returns This method returns `false`.
+         */
+        get: function () {
+            return false;
+        },
+        enumerable: false,
+        configurable: true
+    });
     /**
      * {@inheritDoc}
      *
      * This action is implemented by calling {@link Lexer#popMode}.
      */
-    execute(lexer) {
+    LexerPopModeAction.prototype.execute = function (lexer) {
         lexer.popMode();
-    }
-    hashCode() {
-        let hash = MurmurHash.initialize();
-        hash = MurmurHash.update(hash, this.actionType);
-        return MurmurHash.finish(hash, 1);
-    }
-    equals(obj) {
+    };
+    LexerPopModeAction.prototype.hashCode = function () {
+        var hash = MurmurHash_1.MurmurHash.initialize();
+        hash = MurmurHash_1.MurmurHash.update(hash, this.actionType);
+        return MurmurHash_1.MurmurHash.finish(hash, 1);
+    };
+    LexerPopModeAction.prototype.equals = function (obj) {
         return obj === this;
-    }
-    toString() {
+    };
+    LexerPopModeAction.prototype.toString = function () {
         return "popMode";
-    }
-}
-__decorate([
-    Override
-], LexerPopModeAction.prototype, "actionType", null);
-__decorate([
-    Override
-], LexerPopModeAction.prototype, "isPositionDependent", null);
-__decorate([
-    Override,
-    __param(0, NotNull)
-], LexerPopModeAction.prototype, "execute", null);
-__decorate([
-    Override
-], LexerPopModeAction.prototype, "hashCode", null);
-__decorate([
-    Override
-], LexerPopModeAction.prototype, "equals", null);
-__decorate([
-    Override
-], LexerPopModeAction.prototype, "toString", null);
+    };
+    __decorate([
+        Decorators_1.Override
+    ], LexerPopModeAction.prototype, "actionType");
+    __decorate([
+        Decorators_1.Override
+    ], LexerPopModeAction.prototype, "isPositionDependent");
+    __decorate([
+        Decorators_1.Override,
+        __param(0, Decorators_1.NotNull)
+    ], LexerPopModeAction.prototype, "execute");
+    __decorate([
+        Decorators_1.Override
+    ], LexerPopModeAction.prototype, "hashCode");
+    __decorate([
+        Decorators_1.Override
+    ], LexerPopModeAction.prototype, "equals");
+    __decorate([
+        Decorators_1.Override
+    ], LexerPopModeAction.prototype, "toString");
+    return LexerPopModeAction;
+}());
+exports.LexerPopModeAction = LexerPopModeAction;
 (function (LexerPopModeAction) {
     /**
      * Provides a singleton instance of this parameterless lexer action.
      */
     LexerPopModeAction.INSTANCE = new LexerPopModeAction();
-})(LexerPopModeAction || (LexerPopModeAction = {}));
+})(LexerPopModeAction = exports.LexerPopModeAction || (exports.LexerPopModeAction = {}));
+exports.LexerPopModeAction = LexerPopModeAction;

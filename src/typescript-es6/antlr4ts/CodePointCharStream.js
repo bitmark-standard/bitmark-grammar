@@ -1,3 +1,4 @@
+"use strict";
 /*!
  * Copyright 2016 The ANTLR Project. All rights reserved.
  * Licensed under the BSD-3-Clause license. See LICENSE file in the project root for license information.
@@ -8,10 +9,12 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
-import * as assert from "assert";
-import { IntStream } from "./IntStream";
-import { Interval } from "./misc/Interval";
-import { Override } from "./Decorators";
+exports.__esModule = true;
+exports.CodePointCharStream = void 0;
+var assert = require("assert");
+var IntStream_1 = require("./IntStream");
+var Interval_1 = require("./misc/Interval");
+var Decorators_1 = require("./Decorators");
 /**
  * Alternative to {@link ANTLRInputStream} which treats the input
  * as a series of Unicode code points, instead of a series of UTF-16
@@ -20,10 +23,10 @@ import { Override } from "./Decorators";
  * Use this if you need to parse input which potentially contains
  * Unicode values > U+FFFF.
  */
-export class CodePointCharStream {
+var CodePointCharStream = /** @class */ (function () {
     // Use the factory method {@link #fromBuffer(CodePointBuffer)} to
     // construct instances of this type.
-    constructor(array, position, remaining, name) {
+    function CodePointCharStream(array, position, remaining, name) {
         // TODO
         assert(position === 0);
         this._array = array;
@@ -31,12 +34,16 @@ export class CodePointCharStream {
         this._name = name;
         this._position = 0;
     }
-    get internalStorage() {
-        return this._array;
-    }
-    static fromBuffer(codePointBuffer, name) {
+    Object.defineProperty(CodePointCharStream.prototype, "internalStorage", {
+        get: function () {
+            return this._array;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    CodePointCharStream.fromBuffer = function (codePointBuffer, name) {
         if (name === undefined || name.length === 0) {
-            name = IntStream.UNKNOWN_SOURCE_NAME;
+            name = IntStream_1.IntStream.UNKNOWN_SOURCE_NAME;
         }
         // Java lacks generics on primitive types.
         //
@@ -49,43 +56,55 @@ export class CodePointCharStream {
         // char[], or int[]), so we can avoid lots of virtual
         // method calls to ByteBuffer.get(offset).
         return new CodePointCharStream(codePointBuffer.array(), codePointBuffer.position, codePointBuffer.remaining, name);
-    }
-    consume() {
+    };
+    CodePointCharStream.prototype.consume = function () {
         if (this._size - this._position === 0) {
-            assert(this.LA(1) === IntStream.EOF);
+            assert(this.LA(1) === IntStream_1.IntStream.EOF);
             throw new RangeError("cannot consume EOF");
         }
         this._position++;
-    }
-    get index() {
-        return this._position;
-    }
-    get size() {
-        return this._size;
-    }
+    };
+    Object.defineProperty(CodePointCharStream.prototype, "index", {
+        get: function () {
+            return this._position;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(CodePointCharStream.prototype, "size", {
+        get: function () {
+            return this._size;
+        },
+        enumerable: false,
+        configurable: true
+    });
     /** mark/release do nothing; we have entire buffer */
-    mark() {
+    CodePointCharStream.prototype.mark = function () {
         return -1;
-    }
-    release(marker) {
+    };
+    CodePointCharStream.prototype.release = function (marker) {
         // No default implementation since this stream buffers the entire input
-    }
-    seek(index) {
+    };
+    CodePointCharStream.prototype.seek = function (index) {
         this._position = index;
-    }
-    get sourceName() {
-        return this._name;
-    }
-    toString() {
-        return this.getText(Interval.of(0, this.size - 1));
-    }
-    LA(i) {
-        let offset;
+    };
+    Object.defineProperty(CodePointCharStream.prototype, "sourceName", {
+        get: function () {
+            return this._name;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    CodePointCharStream.prototype.toString = function () {
+        return this.getText(Interval_1.Interval.of(0, this.size - 1));
+    };
+    CodePointCharStream.prototype.LA = function (i) {
+        var offset;
         switch (Math.sign(i)) {
             case -1:
                 offset = this.index + i;
                 if (offset < 0) {
-                    return IntStream.EOF;
+                    return IntStream_1.IntStream.EOF;
                 }
                 return this._array[offset];
             case 0:
@@ -94,51 +113,53 @@ export class CodePointCharStream {
             case 1:
                 offset = this.index + i - 1;
                 if (offset >= this.size) {
-                    return IntStream.EOF;
+                    return IntStream_1.IntStream.EOF;
                 }
                 return this._array[offset];
         }
         throw new RangeError("Not reached");
-    }
+    };
     /** Return the UTF-16 encoded string for the given interval */
-    getText(interval) {
-        const startIdx = Math.min(interval.a, this.size);
-        const len = Math.min(interval.b - interval.a + 1, this.size - startIdx);
+    CodePointCharStream.prototype.getText = function (interval) {
+        var startIdx = Math.min(interval.a, this.size);
+        var len = Math.min(interval.b - interval.a + 1, this.size - startIdx);
         if (this._array instanceof Int32Array) {
-            return String.fromCodePoint(...Array.from(this._array.subarray(startIdx, startIdx + len)));
+            return String.fromCodePoint.apply(String, Array.from(this._array.subarray(startIdx, startIdx + len)));
         }
         else {
-            return String.fromCharCode(...Array.from(this._array.subarray(startIdx, startIdx + len)));
+            return String.fromCharCode.apply(String, Array.from(this._array.subarray(startIdx, startIdx + len)));
         }
-    }
-}
-__decorate([
-    Override
-], CodePointCharStream.prototype, "consume", null);
-__decorate([
-    Override
-], CodePointCharStream.prototype, "index", null);
-__decorate([
-    Override
-], CodePointCharStream.prototype, "size", null);
-__decorate([
-    Override
-], CodePointCharStream.prototype, "mark", null);
-__decorate([
-    Override
-], CodePointCharStream.prototype, "release", null);
-__decorate([
-    Override
-], CodePointCharStream.prototype, "seek", null);
-__decorate([
-    Override
-], CodePointCharStream.prototype, "sourceName", null);
-__decorate([
-    Override
-], CodePointCharStream.prototype, "toString", null);
-__decorate([
-    Override
-], CodePointCharStream.prototype, "LA", null);
-__decorate([
-    Override
-], CodePointCharStream.prototype, "getText", null);
+    };
+    __decorate([
+        Decorators_1.Override
+    ], CodePointCharStream.prototype, "consume");
+    __decorate([
+        Decorators_1.Override
+    ], CodePointCharStream.prototype, "index");
+    __decorate([
+        Decorators_1.Override
+    ], CodePointCharStream.prototype, "size");
+    __decorate([
+        Decorators_1.Override
+    ], CodePointCharStream.prototype, "mark");
+    __decorate([
+        Decorators_1.Override
+    ], CodePointCharStream.prototype, "release");
+    __decorate([
+        Decorators_1.Override
+    ], CodePointCharStream.prototype, "seek");
+    __decorate([
+        Decorators_1.Override
+    ], CodePointCharStream.prototype, "sourceName");
+    __decorate([
+        Decorators_1.Override
+    ], CodePointCharStream.prototype, "toString");
+    __decorate([
+        Decorators_1.Override
+    ], CodePointCharStream.prototype, "LA");
+    __decorate([
+        Decorators_1.Override
+    ], CodePointCharStream.prototype, "getText");
+    return CodePointCharStream;
+}());
+exports.CodePointCharStream = CodePointCharStream;

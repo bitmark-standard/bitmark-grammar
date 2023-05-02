@@ -1,3 +1,4 @@
+"use strict";
 /*!
  * Copyright 2016 The ANTLR Project. All rights reserved.
  * Licensed under the BSD-3-Clause license. See LICENSE file in the project root for license information.
@@ -11,11 +12,13 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __param = (this && this.__param) || function (paramIndex, decorator) {
     return function (target, key) { decorator(target, key, paramIndex); }
 };
-import { NotNull, Override } from "../../Decorators";
+exports.__esModule = true;
+exports.ParseTreeMatch = void 0;
+var Decorators_1 = require("../../Decorators");
 /**
  * Represents the result of matching a {@link ParseTree} against a tree pattern.
  */
-let ParseTreeMatch = class ParseTreeMatch {
+var ParseTreeMatch = /** @class */ (function () {
     /**
      * Constructs a new instance of {@link ParseTreeMatch} from the specified
      * parse tree and pattern.
@@ -31,7 +34,7 @@ let ParseTreeMatch = class ParseTreeMatch {
      * @throws {@link Error} if `pattern` is not defined
      * @throws {@link Error} if `labels` is not defined
      */
-    constructor(tree, pattern, labels, mismatchedNode) {
+    function ParseTreeMatch(tree, pattern, labels, mismatchedNode) {
         if (!tree) {
             throw new Error("tree cannot be null");
         }
@@ -62,13 +65,13 @@ let ParseTreeMatch = class ParseTreeMatch {
      * @returns The last {@link ParseTree} to match a tag with the specified
      * label, or `undefined` if no parse tree matched a tag with the label.
      */
-    get(label) {
-        let parseTrees = this._labels.get(label);
+    ParseTreeMatch.prototype.get = function (label) {
+        var parseTrees = this._labels.get(label);
         if (!parseTrees || parseTrees.length === 0) {
             return undefined;
         }
         return parseTrees[parseTrees.length - 1]; // return last if multiple
-    }
+    };
     /**
      * Return all nodes matching a rule or token tag with the specified label.
      *
@@ -90,86 +93,107 @@ let ParseTreeMatch = class ParseTreeMatch {
      * the specified `label`. If no nodes matched the label, an empty list
      * is returned.
      */
-    getAll(label) {
-        const nodes = this._labels.get(label);
+    ParseTreeMatch.prototype.getAll = function (label) {
+        var nodes = this._labels.get(label);
         if (!nodes) {
             return [];
         }
         return nodes;
-    }
-    /**
-     * Return a mapping from label &rarr; [list of nodes].
-     *
-     * The map includes special entries corresponding to the names of rules and
-     * tokens referenced in tags in the original pattern. For additional
-     * information, see the description of {@link #getAll(String)}.
-     *
-     * @returns A mapping from labels to parse tree nodes. If the parse tree
-     * pattern did not contain any rule or token tags, this map will be empty.
-     */
-    get labels() {
-        return this._labels;
-    }
-    /**
-     * Get the node at which we first detected a mismatch.
-     *
-     * @returns the node at which we first detected a mismatch, or `undefined`
-     * if the match was successful.
-     */
-    get mismatchedNode() {
-        return this._mismatchedNode;
-    }
-    /**
-     * Gets a value indicating whether the match operation succeeded.
-     *
-     * @returns `true` if the match operation succeeded; otherwise,
-     * `false`.
-     */
-    get succeeded() {
-        return !this._mismatchedNode;
-    }
-    /**
-     * Get the tree pattern we are matching against.
-     *
-     * @returns The tree pattern we are matching against.
-     */
-    get pattern() {
-        return this._pattern;
-    }
-    /**
-     * Get the parse tree we are trying to match to a pattern.
-     *
-     * @returns The {@link ParseTree} we are trying to match to a pattern.
-     */
-    get tree() {
-        return this._tree;
-    }
+    };
+    Object.defineProperty(ParseTreeMatch.prototype, "labels", {
+        /**
+         * Return a mapping from label &rarr; [list of nodes].
+         *
+         * The map includes special entries corresponding to the names of rules and
+         * tokens referenced in tags in the original pattern. For additional
+         * information, see the description of {@link #getAll(String)}.
+         *
+         * @returns A mapping from labels to parse tree nodes. If the parse tree
+         * pattern did not contain any rule or token tags, this map will be empty.
+         */
+        get: function () {
+            return this._labels;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(ParseTreeMatch.prototype, "mismatchedNode", {
+        /**
+         * Get the node at which we first detected a mismatch.
+         *
+         * @returns the node at which we first detected a mismatch, or `undefined`
+         * if the match was successful.
+         */
+        get: function () {
+            return this._mismatchedNode;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(ParseTreeMatch.prototype, "succeeded", {
+        /**
+         * Gets a value indicating whether the match operation succeeded.
+         *
+         * @returns `true` if the match operation succeeded; otherwise,
+         * `false`.
+         */
+        get: function () {
+            return !this._mismatchedNode;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(ParseTreeMatch.prototype, "pattern", {
+        /**
+         * Get the tree pattern we are matching against.
+         *
+         * @returns The tree pattern we are matching against.
+         */
+        get: function () {
+            return this._pattern;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(ParseTreeMatch.prototype, "tree", {
+        /**
+         * Get the parse tree we are trying to match to a pattern.
+         *
+         * @returns The {@link ParseTree} we are trying to match to a pattern.
+         */
+        get: function () {
+            return this._tree;
+        },
+        enumerable: false,
+        configurable: true
+    });
     /**
      * {@inheritDoc}
      */
-    toString() {
-        return `Match ${this.succeeded ? "succeeded" : "failed"}; found ${this.labels.size} labels`;
-    }
-};
-__decorate([
-    NotNull,
-    __param(0, NotNull)
-], ParseTreeMatch.prototype, "getAll", null);
-__decorate([
-    NotNull
-], ParseTreeMatch.prototype, "labels", null);
-__decorate([
-    NotNull
-], ParseTreeMatch.prototype, "pattern", null);
-__decorate([
-    NotNull
-], ParseTreeMatch.prototype, "tree", null);
-__decorate([
-    Override
-], ParseTreeMatch.prototype, "toString", null);
-ParseTreeMatch = __decorate([
-    __param(0, NotNull),
-    __param(1, NotNull),
-    __param(2, NotNull)
-], ParseTreeMatch);
-export { ParseTreeMatch };
+    ParseTreeMatch.prototype.toString = function () {
+        return "Match ".concat(this.succeeded ? "succeeded" : "failed", "; found ").concat(this.labels.size, " labels");
+    };
+    __decorate([
+        Decorators_1.NotNull,
+        __param(0, Decorators_1.NotNull)
+    ], ParseTreeMatch.prototype, "getAll");
+    __decorate([
+        Decorators_1.NotNull
+    ], ParseTreeMatch.prototype, "labels");
+    __decorate([
+        Decorators_1.NotNull
+    ], ParseTreeMatch.prototype, "pattern");
+    __decorate([
+        Decorators_1.NotNull
+    ], ParseTreeMatch.prototype, "tree");
+    __decorate([
+        Decorators_1.Override
+    ], ParseTreeMatch.prototype, "toString");
+    ParseTreeMatch = __decorate([
+        __param(0, Decorators_1.NotNull),
+        __param(1, Decorators_1.NotNull),
+        __param(2, Decorators_1.NotNull)
+    ], ParseTreeMatch);
+    return ParseTreeMatch;
+}());
+exports.ParseTreeMatch = ParseTreeMatch;

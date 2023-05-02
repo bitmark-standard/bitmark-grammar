@@ -1,3 +1,4 @@
+"use strict";
 /*!
  * Copyright 2016 The ANTLR Project. All rights reserved.
  * Licensed under the BSD-3-Clause license. See LICENSE file in the project root for license information.
@@ -11,21 +12,27 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __param = (this && this.__param) || function (paramIndex, decorator) {
     return function (target, key) { decorator(target, key, paramIndex); }
 };
-import { ATNConfigSet } from "./ATNConfigSet";
-import { DFAState } from "../dfa/DFAState";
-import { NotNull } from "../Decorators";
-import { PredictionContext } from "./PredictionContext";
-let ATNSimulator = class ATNSimulator {
-    constructor(atn) {
+exports.__esModule = true;
+exports.ATNSimulator = void 0;
+var ATNConfigSet_1 = require("./ATNConfigSet");
+var DFAState_1 = require("../dfa/DFAState");
+var Decorators_1 = require("../Decorators");
+var PredictionContext_1 = require("./PredictionContext");
+var ATNSimulator = /** @class */ (function () {
+    function ATNSimulator(atn) {
         this.atn = atn;
     }
-    static get ERROR() {
-        if (!ATNSimulator._ERROR) {
-            ATNSimulator._ERROR = new DFAState(new ATNConfigSet());
-            ATNSimulator._ERROR.stateNumber = PredictionContext.EMPTY_FULL_STATE_KEY;
-        }
-        return ATNSimulator._ERROR;
-    }
+    Object.defineProperty(ATNSimulator, "ERROR", {
+        get: function () {
+            if (!ATNSimulator._ERROR) {
+                ATNSimulator._ERROR = new DFAState_1.DFAState(new ATNConfigSet_1.ATNConfigSet());
+                ATNSimulator._ERROR.stateNumber = PredictionContext_1.PredictionContext.EMPTY_FULL_STATE_KEY;
+            }
+            return ATNSimulator._ERROR;
+        },
+        enumerable: false,
+        configurable: true
+    });
     /**
      * Clear the DFA cache used by the current instance. Since the DFA cache may
      * be shared by multiple ATN simulators, this method may affect the
@@ -37,22 +44,24 @@ let ATNSimulator = class ATNSimulator {
      *
      * @since 4.3
      */
-    clearDFA() {
+    ATNSimulator.prototype.clearDFA = function () {
         this.atn.clearDFA();
-    }
-};
-__decorate([
-    NotNull
-], ATNSimulator.prototype, "atn", void 0);
-__decorate([
-    NotNull
-], ATNSimulator, "ERROR", null);
-ATNSimulator = __decorate([
-    __param(0, NotNull)
-], ATNSimulator);
-export { ATNSimulator };
+    };
+    __decorate([
+        Decorators_1.NotNull
+    ], ATNSimulator.prototype, "atn");
+    __decorate([
+        Decorators_1.NotNull
+    ], ATNSimulator, "ERROR");
+    ATNSimulator = __decorate([
+        __param(0, Decorators_1.NotNull)
+    ], ATNSimulator);
+    return ATNSimulator;
+}());
+exports.ATNSimulator = ATNSimulator;
 (function (ATNSimulator) {
-    const RULE_VARIANT_DELIMITER = "$";
-    const RULE_LF_VARIANT_MARKER = "$lf$";
-    const RULE_NOLF_VARIANT_MARKER = "$nolf$";
-})(ATNSimulator || (ATNSimulator = {}));
+    var RULE_VARIANT_DELIMITER = "$";
+    var RULE_LF_VARIANT_MARKER = "$lf$";
+    var RULE_NOLF_VARIANT_MARKER = "$nolf$";
+})(ATNSimulator = exports.ATNSimulator || (exports.ATNSimulator = {}));
+exports.ATNSimulator = ATNSimulator;

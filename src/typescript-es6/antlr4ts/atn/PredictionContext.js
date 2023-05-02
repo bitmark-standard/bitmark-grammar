@@ -1,7 +1,23 @@
+"use strict";
 /*!
  * Copyright 2016 The ANTLR Project. All rights reserved.
  * Licensed under the BSD-3-Clause license. See LICENSE file in the project root for license information.
  */
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        if (typeof b !== "function" && b !== null)
+            throw new TypeError("Class extends value " + String(b) + " is not a constructor or null");
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -11,64 +27,70 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __param = (this && this.__param) || function (paramIndex, decorator) {
     return function (target, key) { decorator(target, key, paramIndex); }
 };
+exports.__esModule = true;
+exports.SingletonPredictionContext = exports.PredictionContext = void 0;
 // ConvertTo-TS run at 2016-10-04T11:26:35.3812636-07:00
-import { Array2DHashMap } from "../misc/Array2DHashMap";
-import { Array2DHashSet } from "../misc/Array2DHashSet";
-import { Arrays } from "../misc/Arrays";
-import { MurmurHash } from "../misc/MurmurHash";
-import { NotNull, Override } from "../Decorators";
-import { PredictionContextCache } from "./PredictionContextCache";
-import * as assert from "assert";
-const INITIAL_HASH = 1;
-export class PredictionContext {
-    constructor(cachedHashCode) {
+var Array2DHashMap_1 = require("../misc/Array2DHashMap");
+var Array2DHashSet_1 = require("../misc/Array2DHashSet");
+var Arrays_1 = require("../misc/Arrays");
+var MurmurHash_1 = require("../misc/MurmurHash");
+var Decorators_1 = require("../Decorators");
+var PredictionContextCache_1 = require("./PredictionContextCache");
+var assert = require("assert");
+var INITIAL_HASH = 1;
+var PredictionContext = /** @class */ (function () {
+    function PredictionContext(cachedHashCode) {
         this.cachedHashCode = cachedHashCode;
     }
-    static calculateEmptyHashCode() {
-        let hash = MurmurHash.initialize(INITIAL_HASH);
-        hash = MurmurHash.finish(hash, 0);
+    PredictionContext.calculateEmptyHashCode = function () {
+        var hash = MurmurHash_1.MurmurHash.initialize(INITIAL_HASH);
+        hash = MurmurHash_1.MurmurHash.finish(hash, 0);
         return hash;
-    }
-    static calculateSingleHashCode(parent, returnState) {
-        let hash = MurmurHash.initialize(INITIAL_HASH);
-        hash = MurmurHash.update(hash, parent);
-        hash = MurmurHash.update(hash, returnState);
-        hash = MurmurHash.finish(hash, 2);
+    };
+    PredictionContext.calculateSingleHashCode = function (parent, returnState) {
+        var hash = MurmurHash_1.MurmurHash.initialize(INITIAL_HASH);
+        hash = MurmurHash_1.MurmurHash.update(hash, parent);
+        hash = MurmurHash_1.MurmurHash.update(hash, returnState);
+        hash = MurmurHash_1.MurmurHash.finish(hash, 2);
         return hash;
-    }
-    static calculateHashCode(parents, returnStates) {
-        let hash = MurmurHash.initialize(INITIAL_HASH);
-        for (let parent of parents) {
-            hash = MurmurHash.update(hash, parent);
+    };
+    PredictionContext.calculateHashCode = function (parents, returnStates) {
+        var hash = MurmurHash_1.MurmurHash.initialize(INITIAL_HASH);
+        for (var _i = 0, parents_1 = parents; _i < parents_1.length; _i++) {
+            var parent_1 = parents_1[_i];
+            hash = MurmurHash_1.MurmurHash.update(hash, parent_1);
         }
-        for (let returnState of returnStates) {
-            hash = MurmurHash.update(hash, returnState);
+        for (var _a = 0, returnStates_1 = returnStates; _a < returnStates_1.length; _a++) {
+            var returnState = returnStates_1[_a];
+            hash = MurmurHash_1.MurmurHash.update(hash, returnState);
         }
-        hash = MurmurHash.finish(hash, 2 * parents.length);
+        hash = MurmurHash_1.MurmurHash.finish(hash, 2 * parents.length);
         return hash;
-    }
-    static fromRuleContext(atn, outerContext, fullContext = true) {
+    };
+    PredictionContext.fromRuleContext = function (atn, outerContext, fullContext) {
+        if (fullContext === void 0) { fullContext = true; }
         if (outerContext.isEmpty) {
             return fullContext ? PredictionContext.EMPTY_FULL : PredictionContext.EMPTY_LOCAL;
         }
-        let parent;
+        var parent;
         if (outerContext._parent) {
             parent = PredictionContext.fromRuleContext(atn, outerContext._parent, fullContext);
         }
         else {
             parent = fullContext ? PredictionContext.EMPTY_FULL : PredictionContext.EMPTY_LOCAL;
         }
-        let state = atn.states[outerContext.invokingState];
-        let transition = state.transition(0);
+        var state = atn.states[outerContext.invokingState];
+        var transition = state.transition(0);
         return parent.getChild(transition.followState.stateNumber);
-    }
-    static addEmptyContext(context) {
+    };
+    PredictionContext.addEmptyContext = function (context) {
         return context.addEmptyContext();
-    }
-    static removeEmptyContext(context) {
+    };
+    PredictionContext.removeEmptyContext = function (context) {
         return context.removeEmptyContext();
-    }
-    static join(context0, context1, contextCache = PredictionContextCache.UNCACHED) {
+    };
+    PredictionContext.join = function (context0, context1, contextCache) {
+        if (contextCache === void 0) { contextCache = PredictionContextCache_1.PredictionContextCache.UNCACHED; }
         if (context0 === context1) {
             return context0;
         }
@@ -78,10 +100,10 @@ export class PredictionContext {
         else if (context1.isEmpty) {
             return PredictionContext.isEmptyLocal(context1) ? context1 : PredictionContext.addEmptyContext(context0);
         }
-        let context0size = context0.size;
-        let context1size = context1.size;
+        var context0size = context0.size;
+        var context1size = context1.size;
         if (context0size === 1 && context1size === 1 && context0.getReturnState(0) === context1.getReturnState(0)) {
-            let merged = contextCache.join(context0.getParent(0), context1.getParent(0));
+            var merged = contextCache.join(context0.getParent(0), context1.getParent(0));
             if (merged === context0.getParent(0)) {
                 return context0;
             }
@@ -92,13 +114,13 @@ export class PredictionContext {
                 return merged.getChild(context0.getReturnState(0));
             }
         }
-        let count = 0;
-        let parentsList = new Array(context0size + context1size);
-        let returnStatesList = new Array(parentsList.length);
-        let leftIndex = 0;
-        let rightIndex = 0;
-        let canReturnLeft = true;
-        let canReturnRight = true;
+        var count = 0;
+        var parentsList = new Array(context0size + context1size);
+        var returnStatesList = new Array(parentsList.length);
+        var leftIndex = 0;
+        var rightIndex = 0;
+        var canReturnLeft = true;
+        var canReturnRight = true;
         while (leftIndex < context0size && rightIndex < context1size) {
             if (context0.getReturnState(leftIndex) === context1.getReturnState(rightIndex)) {
                 parentsList[count] = contextCache.join(context0.getParent(leftIndex), context1.getParent(rightIndex));
@@ -157,15 +179,15 @@ export class PredictionContext {
         else {
             return new ArrayPredictionContext(parentsList, returnStatesList);
         }
-    }
-    static isEmptyLocal(context) {
+    };
+    PredictionContext.isEmptyLocal = function (context) {
         return context === PredictionContext.EMPTY_LOCAL;
-    }
-    static getCachedContext(context, contextCache, visited) {
+    };
+    PredictionContext.getCachedContext = function (context, contextCache, visited) {
         if (context.isEmpty) {
             return context;
         }
-        let existing = visited.get(context);
+        var existing = visited.get(context);
         if (existing) {
             return existing;
         }
@@ -174,19 +196,19 @@ export class PredictionContext {
             visited.put(context, existing);
             return existing;
         }
-        let changed = false;
-        let parents = new Array(context.size);
-        for (let i = 0; i < parents.length; i++) {
-            let parent = PredictionContext.getCachedContext(context.getParent(i), contextCache, visited);
-            if (changed || parent !== context.getParent(i)) {
+        var changed = false;
+        var parents = new Array(context.size);
+        for (var i = 0; i < parents.length; i++) {
+            var parent_2 = PredictionContext.getCachedContext(context.getParent(i), contextCache, visited);
+            if (changed || parent_2 !== context.getParent(i)) {
                 if (!changed) {
                     parents = new Array(context.size);
-                    for (let j = 0; j < context.size; j++) {
+                    for (var j = 0; j < context.size; j++) {
                         parents[j] = context.getParent(j);
                     }
                     changed = true;
                 }
-                parents[i] = parent;
+                parents[i] = parent_2;
             }
         }
         if (!changed) {
@@ -195,13 +217,13 @@ export class PredictionContext {
             return context;
         }
         // We know parents.length>0 because context.isEmpty is checked at the beginning of the method.
-        let updated;
+        var updated;
         if (parents.length === 1) {
             updated = new SingletonPredictionContext(parents[0], context.getReturnState(0));
         }
         else {
-            let returnStates = new Array(context.size);
-            for (let i = 0; i < context.size; i++) {
+            var returnStates = new Array(context.size);
+            for (var i = 0; i < context.size; i++) {
                 returnStates[i] = context.getReturnState(i);
             }
             updated = new ArrayPredictionContext(parents, returnStates, context.hashCode());
@@ -210,33 +232,34 @@ export class PredictionContext {
         visited.put(updated, existing || updated);
         visited.put(context, existing || updated);
         return updated;
-    }
-    appendSingleContext(returnContext, contextCache) {
+    };
+    PredictionContext.prototype.appendSingleContext = function (returnContext, contextCache) {
         return this.appendContext(PredictionContext.EMPTY_FULL.getChild(returnContext), contextCache);
-    }
-    getChild(returnState) {
+    };
+    PredictionContext.prototype.getChild = function (returnState) {
         return new SingletonPredictionContext(this, returnState);
-    }
-    hashCode() {
+    };
+    PredictionContext.prototype.hashCode = function () {
         return this.cachedHashCode;
-    }
-    toStrings(recognizer, currentState, stop = PredictionContext.EMPTY_FULL) {
-        let result = [];
-        outer: for (let perm = 0;; perm++) {
-            let offset = 0;
-            let last = true;
-            let p = this;
-            let stateNumber = currentState;
-            let localBuffer = "";
+    };
+    PredictionContext.prototype.toStrings = function (recognizer, currentState, stop) {
+        if (stop === void 0) { stop = PredictionContext.EMPTY_FULL; }
+        var result = [];
+        outer: for (var perm = 0;; perm++) {
+            var offset = 0;
+            var last = true;
+            var p = this;
+            var stateNumber = currentState;
+            var localBuffer = "";
             localBuffer += "[";
             while (!p.isEmpty && p !== stop) {
-                let index = 0;
+                var index = 0;
                 if (p.size > 0) {
-                    let bits = 1;
+                    var bits = 1;
                     while (((1 << bits) >>> 0) < p.size) {
                         bits++;
                     }
-                    let mask = ((1 << bits) >>> 0) - 1;
+                    var mask = ((1 << bits) >>> 0) - 1;
                     index = (perm >> offset) & mask;
                     last = last && index >= p.size - 1;
                     if (index >= p.size) {
@@ -249,9 +272,9 @@ export class PredictionContext {
                         // first char is '[', if more than that this isn't the first rule
                         localBuffer += " ";
                     }
-                    let atn = recognizer.atn;
-                    let s = atn.states[stateNumber];
-                    let ruleName = recognizer.ruleNames[s.ruleIndex];
+                    var atn = recognizer.atn;
+                    var s = atn.states[stateNumber];
+                    var ruleName = recognizer.ruleNames[s.ruleIndex];
                     localBuffer += ruleName;
                 }
                 else if (p.getReturnState(index) !== PredictionContext.EMPTY_FULL_STATE_KEY) {
@@ -273,137 +296,174 @@ export class PredictionContext {
             }
         }
         return result;
+    };
+    __decorate([
+        Decorators_1.Override
+    ], PredictionContext.prototype, "hashCode");
+    __decorate([
+        __param(0, Decorators_1.NotNull),
+        __param(1, Decorators_1.NotNull),
+        __param(2, Decorators_1.NotNull)
+    ], PredictionContext, "join");
+    __decorate([
+        __param(0, Decorators_1.NotNull),
+        __param(1, Decorators_1.NotNull),
+        __param(2, Decorators_1.NotNull)
+    ], PredictionContext, "getCachedContext");
+    return PredictionContext;
+}());
+exports.PredictionContext = PredictionContext;
+var EmptyPredictionContext = /** @class */ (function (_super) {
+    __extends(EmptyPredictionContext, _super);
+    function EmptyPredictionContext(fullContext) {
+        var _this = _super.call(this, PredictionContext.calculateEmptyHashCode()) || this;
+        _this.fullContext = fullContext;
+        return _this;
     }
-}
-__decorate([
-    Override
-], PredictionContext.prototype, "hashCode", null);
-__decorate([
-    __param(0, NotNull), __param(1, NotNull), __param(2, NotNull)
-], PredictionContext, "join", null);
-__decorate([
-    __param(0, NotNull),
-    __param(1, NotNull),
-    __param(2, NotNull)
-], PredictionContext, "getCachedContext", null);
-class EmptyPredictionContext extends PredictionContext {
-    constructor(fullContext) {
-        super(PredictionContext.calculateEmptyHashCode());
-        this.fullContext = fullContext;
-    }
-    get isFullContext() {
-        return this.fullContext;
-    }
-    addEmptyContext() {
+    Object.defineProperty(EmptyPredictionContext.prototype, "isFullContext", {
+        get: function () {
+            return this.fullContext;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    EmptyPredictionContext.prototype.addEmptyContext = function () {
         return this;
-    }
-    removeEmptyContext() {
+    };
+    EmptyPredictionContext.prototype.removeEmptyContext = function () {
         throw new Error("Cannot remove the empty context from itself.");
-    }
-    getParent(index) {
+    };
+    EmptyPredictionContext.prototype.getParent = function (index) {
         throw new Error("index out of bounds");
-    }
-    getReturnState(index) {
+    };
+    EmptyPredictionContext.prototype.getReturnState = function (index) {
         throw new Error("index out of bounds");
-    }
-    findReturnState(returnState) {
+    };
+    EmptyPredictionContext.prototype.findReturnState = function (returnState) {
         return -1;
-    }
-    get size() {
-        return 0;
-    }
-    appendSingleContext(returnContext, contextCache) {
+    };
+    Object.defineProperty(EmptyPredictionContext.prototype, "size", {
+        get: function () {
+            return 0;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    EmptyPredictionContext.prototype.appendSingleContext = function (returnContext, contextCache) {
         return contextCache.getChild(this, returnContext);
-    }
-    appendContext(suffix, contextCache) {
+    };
+    EmptyPredictionContext.prototype.appendContext = function (suffix, contextCache) {
         return suffix;
-    }
-    get isEmpty() {
-        return true;
-    }
-    get hasEmpty() {
-        return true;
-    }
-    equals(o) {
+    };
+    Object.defineProperty(EmptyPredictionContext.prototype, "isEmpty", {
+        get: function () {
+            return true;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(EmptyPredictionContext.prototype, "hasEmpty", {
+        get: function () {
+            return true;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    EmptyPredictionContext.prototype.equals = function (o) {
         return this === o;
-    }
-    toStrings(recognizer, currentState, stop) {
+    };
+    EmptyPredictionContext.prototype.toStrings = function (recognizer, currentState, stop) {
         return ["[]"];
-    }
-}
-__decorate([
-    Override
-], EmptyPredictionContext.prototype, "addEmptyContext", null);
-__decorate([
-    Override
-], EmptyPredictionContext.prototype, "removeEmptyContext", null);
-__decorate([
-    Override
-], EmptyPredictionContext.prototype, "getParent", null);
-__decorate([
-    Override
-], EmptyPredictionContext.prototype, "getReturnState", null);
-__decorate([
-    Override
-], EmptyPredictionContext.prototype, "findReturnState", null);
-__decorate([
-    Override
-], EmptyPredictionContext.prototype, "size", null);
-__decorate([
-    Override
-], EmptyPredictionContext.prototype, "appendSingleContext", null);
-__decorate([
-    Override
-], EmptyPredictionContext.prototype, "appendContext", null);
-__decorate([
-    Override
-], EmptyPredictionContext.prototype, "isEmpty", null);
-__decorate([
-    Override
-], EmptyPredictionContext.prototype, "hasEmpty", null);
-__decorate([
-    Override
-], EmptyPredictionContext.prototype, "equals", null);
-__decorate([
-    Override
-], EmptyPredictionContext.prototype, "toStrings", null);
-let ArrayPredictionContext = class ArrayPredictionContext extends PredictionContext {
-    constructor(parents, returnStates, hashCode) {
-        super(hashCode || PredictionContext.calculateHashCode(parents, returnStates));
+    };
+    __decorate([
+        Decorators_1.Override
+    ], EmptyPredictionContext.prototype, "addEmptyContext");
+    __decorate([
+        Decorators_1.Override
+    ], EmptyPredictionContext.prototype, "removeEmptyContext");
+    __decorate([
+        Decorators_1.Override
+    ], EmptyPredictionContext.prototype, "getParent");
+    __decorate([
+        Decorators_1.Override
+    ], EmptyPredictionContext.prototype, "getReturnState");
+    __decorate([
+        Decorators_1.Override
+    ], EmptyPredictionContext.prototype, "findReturnState");
+    __decorate([
+        Decorators_1.Override
+    ], EmptyPredictionContext.prototype, "size");
+    __decorate([
+        Decorators_1.Override
+    ], EmptyPredictionContext.prototype, "appendSingleContext");
+    __decorate([
+        Decorators_1.Override
+    ], EmptyPredictionContext.prototype, "appendContext");
+    __decorate([
+        Decorators_1.Override
+    ], EmptyPredictionContext.prototype, "isEmpty");
+    __decorate([
+        Decorators_1.Override
+    ], EmptyPredictionContext.prototype, "hasEmpty");
+    __decorate([
+        Decorators_1.Override
+    ], EmptyPredictionContext.prototype, "equals");
+    __decorate([
+        Decorators_1.Override
+    ], EmptyPredictionContext.prototype, "toStrings");
+    return EmptyPredictionContext;
+}(PredictionContext));
+var ArrayPredictionContext = /** @class */ (function (_super) {
+    __extends(ArrayPredictionContext, _super);
+    function ArrayPredictionContext(parents, returnStates, hashCode) {
+        var _this = _super.call(this, hashCode || PredictionContext.calculateHashCode(parents, returnStates)) || this;
         assert(parents.length === returnStates.length);
         assert(returnStates.length > 1 || returnStates[0] !== PredictionContext.EMPTY_FULL_STATE_KEY, "Should be using PredictionContext.EMPTY instead.");
-        this.parents = parents;
-        this.returnStates = returnStates;
+        _this.parents = parents;
+        _this.returnStates = returnStates;
+        return _this;
     }
-    getParent(index) {
+    ArrayPredictionContext.prototype.getParent = function (index) {
         return this.parents[index];
-    }
-    getReturnState(index) {
+    };
+    ArrayPredictionContext.prototype.getReturnState = function (index) {
         return this.returnStates[index];
-    }
-    findReturnState(returnState) {
-        return Arrays.binarySearch(this.returnStates, returnState);
-    }
-    get size() {
-        return this.returnStates.length;
-    }
-    get isEmpty() {
-        return false;
-    }
-    get hasEmpty() {
-        return this.returnStates[this.returnStates.length - 1] === PredictionContext.EMPTY_FULL_STATE_KEY;
-    }
-    addEmptyContext() {
+    };
+    ArrayPredictionContext.prototype.findReturnState = function (returnState) {
+        return Arrays_1.Arrays.binarySearch(this.returnStates, returnState);
+    };
+    Object.defineProperty(ArrayPredictionContext.prototype, "size", {
+        get: function () {
+            return this.returnStates.length;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(ArrayPredictionContext.prototype, "isEmpty", {
+        get: function () {
+            return false;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(ArrayPredictionContext.prototype, "hasEmpty", {
+        get: function () {
+            return this.returnStates[this.returnStates.length - 1] === PredictionContext.EMPTY_FULL_STATE_KEY;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    ArrayPredictionContext.prototype.addEmptyContext = function () {
         if (this.hasEmpty) {
             return this;
         }
-        let parents2 = this.parents.slice(0);
-        let returnStates2 = this.returnStates.slice(0);
+        var parents2 = this.parents.slice(0);
+        var returnStates2 = this.returnStates.slice(0);
         parents2.push(PredictionContext.EMPTY_FULL);
         returnStates2.push(PredictionContext.EMPTY_FULL_STATE_KEY);
         return new ArrayPredictionContext(parents2, returnStates2);
-    }
-    removeEmptyContext() {
+    };
+    ArrayPredictionContext.prototype.removeEmptyContext = function () {
         if (!this.hasEmpty) {
             return this;
         }
@@ -411,15 +471,15 @@ let ArrayPredictionContext = class ArrayPredictionContext extends PredictionCont
             return new SingletonPredictionContext(this.parents[0], this.returnStates[0]);
         }
         else {
-            let parents2 = this.parents.slice(0, this.parents.length - 1);
-            let returnStates2 = this.returnStates.slice(0, this.returnStates.length - 1);
+            var parents2 = this.parents.slice(0, this.parents.length - 1);
+            var returnStates2 = this.returnStates.slice(0, this.returnStates.length - 1);
             return new ArrayPredictionContext(parents2, returnStates2);
         }
-    }
-    appendContext(suffix, contextCache) {
+    };
+    ArrayPredictionContext.prototype.appendContext = function (suffix, contextCache) {
         return ArrayPredictionContext.appendContextImpl(this, suffix, new PredictionContext.IdentityHashMap());
-    }
-    static appendContextImpl(context, suffix, visited) {
+    };
+    ArrayPredictionContext.appendContextImpl = function (context, suffix, visited) {
         if (suffix.isEmpty) {
             if (PredictionContext.isEmptyLocal(suffix)) {
                 if (context.hasEmpty) {
@@ -432,22 +492,22 @@ let ArrayPredictionContext = class ArrayPredictionContext extends PredictionCont
         if (suffix.size !== 1) {
             throw new Error("Appending a tree suffix is not yet supported.");
         }
-        let result = visited.get(context);
+        var result = visited.get(context);
         if (!result) {
             if (context.isEmpty) {
                 result = suffix;
             }
             else {
-                let parentCount = context.size;
+                var parentCount = context.size;
                 if (context.hasEmpty) {
                     parentCount--;
                 }
-                let updatedParents = new Array(parentCount);
-                let updatedReturnStates = new Array(parentCount);
-                for (let i = 0; i < parentCount; i++) {
+                var updatedParents = new Array(parentCount);
+                var updatedReturnStates = new Array(parentCount);
+                for (var i = 0; i < parentCount; i++) {
                     updatedReturnStates[i] = context.getReturnState(i);
                 }
-                for (let i = 0; i < parentCount; i++) {
+                for (var i = 0; i < parentCount; i++) {
                     updatedParents[i] = ArrayPredictionContext.appendContextImpl(context.getParent(i), suffix, visited);
                 }
                 if (updatedParents.length === 1) {
@@ -464,8 +524,8 @@ let ArrayPredictionContext = class ArrayPredictionContext extends PredictionCont
             visited.put(context, result);
         }
         return result;
-    }
-    equals(o) {
+    };
+    ArrayPredictionContext.prototype.equals = function (o) {
         if (this === o) {
             return true;
         }
@@ -476,41 +536,41 @@ let ArrayPredictionContext = class ArrayPredictionContext extends PredictionCont
             // can't be same if hash is different
             return false;
         }
-        let other = o;
-        return this.equalsImpl(other, new Array2DHashSet());
-    }
-    equalsImpl(other, visited) {
-        let selfWorkList = [];
-        let otherWorkList = [];
+        var other = o;
+        return this.equalsImpl(other, new Array2DHashSet_1.Array2DHashSet());
+    };
+    ArrayPredictionContext.prototype.equalsImpl = function (other, visited) {
+        var selfWorkList = [];
+        var otherWorkList = [];
         selfWorkList.push(this);
         otherWorkList.push(other);
         while (true) {
-            let currentSelf = selfWorkList.pop();
-            let currentOther = otherWorkList.pop();
+            var currentSelf = selfWorkList.pop();
+            var currentOther = otherWorkList.pop();
             if (!currentSelf || !currentOther) {
                 break;
             }
-            let operands = new PredictionContextCache.IdentityCommutativePredictionContextOperands(currentSelf, currentOther);
+            var operands = new PredictionContextCache_1.PredictionContextCache.IdentityCommutativePredictionContextOperands(currentSelf, currentOther);
             if (!visited.add(operands)) {
                 continue;
             }
-            let selfSize = operands.x.size;
+            var selfSize = operands.x.size;
             if (selfSize === 0) {
                 if (!operands.x.equals(operands.y)) {
                     return false;
                 }
                 continue;
             }
-            let otherSize = operands.y.size;
+            var otherSize = operands.y.size;
             if (selfSize !== otherSize) {
                 return false;
             }
-            for (let i = 0; i < selfSize; i++) {
+            for (var i = 0; i < selfSize; i++) {
                 if (operands.x.getReturnState(i) !== operands.y.getReturnState(i)) {
                     return false;
                 }
-                let selfParent = operands.x.getParent(i);
-                let otherParent = operands.y.getParent(i);
+                var selfParent = operands.x.getParent(i);
+                var otherParent = operands.y.getParent(i);
                 if (selfParent.hashCode() !== otherParent.hashCode()) {
                     return false;
                 }
@@ -521,165 +581,187 @@ let ArrayPredictionContext = class ArrayPredictionContext extends PredictionCont
             }
         }
         return true;
-    }
-};
-__decorate([
-    NotNull
-], ArrayPredictionContext.prototype, "parents", void 0);
-__decorate([
-    NotNull
-], ArrayPredictionContext.prototype, "returnStates", void 0);
-__decorate([
-    Override
-], ArrayPredictionContext.prototype, "getParent", null);
-__decorate([
-    Override
-], ArrayPredictionContext.prototype, "getReturnState", null);
-__decorate([
-    Override
-], ArrayPredictionContext.prototype, "findReturnState", null);
-__decorate([
-    Override
-], ArrayPredictionContext.prototype, "size", null);
-__decorate([
-    Override
-], ArrayPredictionContext.prototype, "isEmpty", null);
-__decorate([
-    Override
-], ArrayPredictionContext.prototype, "hasEmpty", null);
-__decorate([
-    Override
-], ArrayPredictionContext.prototype, "addEmptyContext", null);
-__decorate([
-    Override
-], ArrayPredictionContext.prototype, "removeEmptyContext", null);
-__decorate([
-    Override
-], ArrayPredictionContext.prototype, "appendContext", null);
-__decorate([
-    Override
-], ArrayPredictionContext.prototype, "equals", null);
-ArrayPredictionContext = __decorate([
-    __param(0, NotNull)
-], ArrayPredictionContext);
-let SingletonPredictionContext = class SingletonPredictionContext extends PredictionContext {
-    constructor(parent, returnState) {
-        super(PredictionContext.calculateSingleHashCode(parent, returnState));
+    };
+    __decorate([
+        Decorators_1.NotNull
+    ], ArrayPredictionContext.prototype, "parents");
+    __decorate([
+        Decorators_1.NotNull
+    ], ArrayPredictionContext.prototype, "returnStates");
+    __decorate([
+        Decorators_1.Override
+    ], ArrayPredictionContext.prototype, "getParent");
+    __decorate([
+        Decorators_1.Override
+    ], ArrayPredictionContext.prototype, "getReturnState");
+    __decorate([
+        Decorators_1.Override
+    ], ArrayPredictionContext.prototype, "findReturnState");
+    __decorate([
+        Decorators_1.Override
+    ], ArrayPredictionContext.prototype, "size");
+    __decorate([
+        Decorators_1.Override
+    ], ArrayPredictionContext.prototype, "isEmpty");
+    __decorate([
+        Decorators_1.Override
+    ], ArrayPredictionContext.prototype, "hasEmpty");
+    __decorate([
+        Decorators_1.Override
+    ], ArrayPredictionContext.prototype, "addEmptyContext");
+    __decorate([
+        Decorators_1.Override
+    ], ArrayPredictionContext.prototype, "removeEmptyContext");
+    __decorate([
+        Decorators_1.Override
+    ], ArrayPredictionContext.prototype, "appendContext");
+    __decorate([
+        Decorators_1.Override
+    ], ArrayPredictionContext.prototype, "equals");
+    ArrayPredictionContext = __decorate([
+        __param(0, Decorators_1.NotNull)
+    ], ArrayPredictionContext);
+    return ArrayPredictionContext;
+}(PredictionContext));
+var SingletonPredictionContext = /** @class */ (function (_super) {
+    __extends(SingletonPredictionContext, _super);
+    function SingletonPredictionContext(parent, returnState) {
+        var _this = _super.call(this, PredictionContext.calculateSingleHashCode(parent, returnState)) || this;
         // assert(returnState != PredictionContext.EMPTY_FULL_STATE_KEY && returnState != PredictionContext.EMPTY_LOCAL_STATE_KEY);
-        this.parent = parent;
-        this.returnState = returnState;
+        _this.parent = parent;
+        _this.returnState = returnState;
+        return _this;
     }
-    getParent(index) {
+    SingletonPredictionContext.prototype.getParent = function (index) {
         // assert(index == 0);
         return this.parent;
-    }
-    getReturnState(index) {
+    };
+    SingletonPredictionContext.prototype.getReturnState = function (index) {
         // assert(index == 0);
         return this.returnState;
-    }
-    findReturnState(returnState) {
+    };
+    SingletonPredictionContext.prototype.findReturnState = function (returnState) {
         return this.returnState === returnState ? 0 : -1;
-    }
-    get size() {
-        return 1;
-    }
-    get isEmpty() {
-        return false;
-    }
-    get hasEmpty() {
-        return false;
-    }
-    appendContext(suffix, contextCache) {
+    };
+    Object.defineProperty(SingletonPredictionContext.prototype, "size", {
+        get: function () {
+            return 1;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(SingletonPredictionContext.prototype, "isEmpty", {
+        get: function () {
+            return false;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(SingletonPredictionContext.prototype, "hasEmpty", {
+        get: function () {
+            return false;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    SingletonPredictionContext.prototype.appendContext = function (suffix, contextCache) {
         return contextCache.getChild(this.parent.appendContext(suffix, contextCache), this.returnState);
-    }
-    addEmptyContext() {
-        let parents = [this.parent, PredictionContext.EMPTY_FULL];
-        let returnStates = [this.returnState, PredictionContext.EMPTY_FULL_STATE_KEY];
+    };
+    SingletonPredictionContext.prototype.addEmptyContext = function () {
+        var parents = [this.parent, PredictionContext.EMPTY_FULL];
+        var returnStates = [this.returnState, PredictionContext.EMPTY_FULL_STATE_KEY];
         return new ArrayPredictionContext(parents, returnStates);
-    }
-    removeEmptyContext() {
+    };
+    SingletonPredictionContext.prototype.removeEmptyContext = function () {
         return this;
-    }
-    equals(o) {
+    };
+    SingletonPredictionContext.prototype.equals = function (o) {
         if (o === this) {
             return true;
         }
         else if (!(o instanceof SingletonPredictionContext)) {
             return false;
         }
-        let other = o;
+        var other = o;
         if (this.hashCode() !== other.hashCode()) {
             return false;
         }
         return this.returnState === other.returnState
             && this.parent.equals(other.parent);
-    }
-};
-__decorate([
-    NotNull
-], SingletonPredictionContext.prototype, "parent", void 0);
-__decorate([
-    Override
-], SingletonPredictionContext.prototype, "getParent", null);
-__decorate([
-    Override
-], SingletonPredictionContext.prototype, "getReturnState", null);
-__decorate([
-    Override
-], SingletonPredictionContext.prototype, "findReturnState", null);
-__decorate([
-    Override
-], SingletonPredictionContext.prototype, "size", null);
-__decorate([
-    Override
-], SingletonPredictionContext.prototype, "isEmpty", null);
-__decorate([
-    Override
-], SingletonPredictionContext.prototype, "hasEmpty", null);
-__decorate([
-    Override
-], SingletonPredictionContext.prototype, "appendContext", null);
-__decorate([
-    Override
-], SingletonPredictionContext.prototype, "addEmptyContext", null);
-__decorate([
-    Override
-], SingletonPredictionContext.prototype, "removeEmptyContext", null);
-__decorate([
-    Override
-], SingletonPredictionContext.prototype, "equals", null);
-SingletonPredictionContext = __decorate([
-    __param(0, NotNull)
-], SingletonPredictionContext);
-export { SingletonPredictionContext };
+    };
+    __decorate([
+        Decorators_1.NotNull
+    ], SingletonPredictionContext.prototype, "parent");
+    __decorate([
+        Decorators_1.Override
+    ], SingletonPredictionContext.prototype, "getParent");
+    __decorate([
+        Decorators_1.Override
+    ], SingletonPredictionContext.prototype, "getReturnState");
+    __decorate([
+        Decorators_1.Override
+    ], SingletonPredictionContext.prototype, "findReturnState");
+    __decorate([
+        Decorators_1.Override
+    ], SingletonPredictionContext.prototype, "size");
+    __decorate([
+        Decorators_1.Override
+    ], SingletonPredictionContext.prototype, "isEmpty");
+    __decorate([
+        Decorators_1.Override
+    ], SingletonPredictionContext.prototype, "hasEmpty");
+    __decorate([
+        Decorators_1.Override
+    ], SingletonPredictionContext.prototype, "appendContext");
+    __decorate([
+        Decorators_1.Override
+    ], SingletonPredictionContext.prototype, "addEmptyContext");
+    __decorate([
+        Decorators_1.Override
+    ], SingletonPredictionContext.prototype, "removeEmptyContext");
+    __decorate([
+        Decorators_1.Override
+    ], SingletonPredictionContext.prototype, "equals");
+    SingletonPredictionContext = __decorate([
+        __param(0, Decorators_1.NotNull)
+    ], SingletonPredictionContext);
+    return SingletonPredictionContext;
+}(PredictionContext));
+exports.SingletonPredictionContext = SingletonPredictionContext;
 (function (PredictionContext) {
     PredictionContext.EMPTY_LOCAL = new EmptyPredictionContext(false);
     PredictionContext.EMPTY_FULL = new EmptyPredictionContext(true);
     PredictionContext.EMPTY_LOCAL_STATE_KEY = -((1 << 31) >>> 0);
     PredictionContext.EMPTY_FULL_STATE_KEY = ((1 << 31) >>> 0) - 1;
-    class IdentityHashMap extends Array2DHashMap {
-        constructor() {
-            super(IdentityEqualityComparator.INSTANCE);
+    var IdentityHashMap = /** @class */ (function (_super) {
+        __extends(IdentityHashMap, _super);
+        function IdentityHashMap() {
+            return _super.call(this, IdentityEqualityComparator.INSTANCE) || this;
         }
-    }
+        return IdentityHashMap;
+    }(Array2DHashMap_1.Array2DHashMap));
     PredictionContext.IdentityHashMap = IdentityHashMap;
-    class IdentityEqualityComparator {
-        IdentityEqualityComparator() {
+    var IdentityEqualityComparator = /** @class */ (function () {
+        function IdentityEqualityComparator() {
+        }
+        IdentityEqualityComparator.prototype.IdentityEqualityComparator = function () {
             // intentionally empty
-        }
-        hashCode(obj) {
+        };
+        IdentityEqualityComparator.prototype.hashCode = function (obj) {
             return obj.hashCode();
-        }
-        equals(a, b) {
+        };
+        IdentityEqualityComparator.prototype.equals = function (a, b) {
             return a === b;
-        }
-    }
-    IdentityEqualityComparator.INSTANCE = new IdentityEqualityComparator();
-    __decorate([
-        Override
-    ], IdentityEqualityComparator.prototype, "hashCode", null);
-    __decorate([
-        Override
-    ], IdentityEqualityComparator.prototype, "equals", null);
+        };
+        IdentityEqualityComparator.INSTANCE = new IdentityEqualityComparator();
+        __decorate([
+            Decorators_1.Override
+        ], IdentityEqualityComparator.prototype, "hashCode");
+        __decorate([
+            Decorators_1.Override
+        ], IdentityEqualityComparator.prototype, "equals");
+        return IdentityEqualityComparator;
+    }());
     PredictionContext.IdentityEqualityComparator = IdentityEqualityComparator;
-})(PredictionContext || (PredictionContext = {}));
+})(PredictionContext = exports.PredictionContext || (exports.PredictionContext = {}));
+exports.PredictionContext = PredictionContext;
