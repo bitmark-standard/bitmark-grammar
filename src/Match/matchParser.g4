@@ -445,7 +445,7 @@ or_:		OR ;
 // Removed STAR 12/3/2021 SENTENCE has a STAR in it
 words:          ( SENTENCE
 		| NOTBITMARK
-		| BARSTRING
+		| BARSTRING | ELIPSIS
 		| AMP | Greater ~(Greater) | Less ~(Less) 
 		| RightArrow | RightAngle
 		)+ ;

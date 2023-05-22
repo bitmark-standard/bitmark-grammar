@@ -319,7 +319,7 @@ sspl:	  SSPL|SSPL2 ;
 
 words:  ( SENTENCE
 	| NOTBITMARK	
-	| BARSTRING
+	| BARSTRING | ELIPSIS
 	| LIST_LINE
 	| AMP | Greater ~(Greater) | Less ~(Less) 
 	| RightArrow | RightAngle 

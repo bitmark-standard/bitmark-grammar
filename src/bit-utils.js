@@ -202,12 +202,11 @@ class BitUtil {
    */
   split_bits() {
 
-    let regex = /(^\[\.[^\]]+\])/sg;  // for the first bit if any
     let m = null;
     let fromTo = [], bitHeads = [];
-    let matches; // = this.source.matchAll(regex);  // all bit starts
+    let matches;
     
-    regex = /(\[\.[^\]]+\])/sg;
+    let regex = /(\[\.[^\]\.]+\])/sg;    
     matches = this.source.matchAll(regex);  // all bit starts
 
     for (m of matches) {

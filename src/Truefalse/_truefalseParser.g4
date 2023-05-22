@@ -127,7 +127,7 @@ sspl:		SSPL|SSPL2 ;
 
 words:          ( SENTENCE
 		| NOTBITMARK
-		| BARSTRING
+		| BARSTRING | ELIPSIS
 		| AMP | Greater ~(Greater) | Less ~(Less) 
 		| RightArrow | RightAngle
 		)+ ;

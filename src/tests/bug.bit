@@ -1,92 +1,55 @@
-[.conversation-right-1]
-Yoo!
 
-[.bot-action-response]
-===
-[!Ja, das weiss ich]
-[%A]
-[@reaction:celebrate]
-👍 Cool!
-===
-[!Das war mir nicht bewusst]
-[%B]
-😅
-[@reaction:like]
-===
-THIS IS THE FOOTER
-
-[.conversation-right-1]
-[!conv right 1]
-[@partner:David  Foster]
-[&image:https://cdn.bitbook.education/avatars/cat_70x70@3.jpg]
-
-Au 1ᵉʳ juillet 2014, l’Association suisse des banquiers (ASB) a édicté les directives suivantes concernant les exigences minimales pour les financements hypothécaires: Pour financer une hypothèque, il faut un apport minimal de fonds propres à la valeur de nantissement. Ces fonds propres ne doivent pas provenir de l’avoir du 2ᵉ pilier (versement anticipé et mise en gage). Cette part minimale de fonds propres est de 10%.
-
-[.document]
-Body
-[&document:https://docs.bitmark.cloud/bit-books/iona_douglas/lektion_19/web-resources/documents/transcript_pedestrianisation_in_the_netherlands_1.pdf]
+[.page:bitmark++&image]
+Im Gegensatz dazu wollen „[f]ast drei Viertel der befragten Lehrkräfte sowie Eltern und mehr
+als zwei Drittel der SchülerInnen […] digitale Medien als grundlegenden Bestandteil aller
+Schulfächer [haben]" (Kantar TNS 2016, S. 31).
 
 
-[.match]
-[@id:324342]
-[%item][%Lead]
-[!Instruction]
-===
-He will fix your laptop for you.
-==
-Your laptop will be fixed by him.
---
-Your laptop will be fixed for you by him.
-===
-
-[.match-all-reverse]
-[@id:324342]
-[%item][%Lead]
-[!Instruction]
-===
-He will fix your laptop for you.
-==
-Your laptop will be fixed by him.
---
-Your laptop will be fixed for you by him.
-===
+[.page:bitmark++&image]
+Im Vergleich der Posttests des
+MTVT von männlichen und weiblichen Teilnehmenden betrug die Gesamtteilneh-
+mendenzahl N = 32, bestehend aus 10 männlichen und 22 weiblichen Teilnehmen-
+den. Der Z-Wert beträgt Z = −1.896, der p-Wert der asymptotischen Signifikanz be−
+trägt p = .058.
 
 
-[.match-matrix]
-[!Bring the german verbs into the correct tense.]
-
-===
-[#Verb]
-==
-[#Future, 1st Person, Singular]
-==
-[#Past, 3rd Person, Plural]
-===
-gehen
-==
-ich werde gehen
-==
-sie gingen
---
-what the heck
-===
-sprechen
-==
-ich werde sprechen
-==
-sie sprachen
-===
-
-
-[.match-all]
-[@id:324342]
-[%item][%Lead]
-[!Instruction]
-===
-He will fix your laptop for you.
-==
-Your laptop will be fixed by him.
---
-Your laptop will be fixed for you by him.
-===
-
+[.page:bitmark++&image]
+[%72]
+So haben die SchülerInnen nicht mehr die Möglichkeit, sich die Problemstellung
+oder andere Hilfen im Verlauf erneut anzusehen, und die Lösung des Problems wird
+vom Lernszenario losgelöst. Hier sind andere didaktische Maßnahmen, wie Ausdru-
+cke, Mitschriften, denkbar, um das Problem in Zukunft zu umgehen.
+Ein ähnliches Problem betrifft die notwendige Verbindung zu einem Computer
+bzw. Tablet:
+„Nachteil ist sicherlich, dass es immer mit dem Computer gekoppelt ist. Das heißt, wenn
+ich im schlimmsten Fall mal Stromausfall habe, kann ich nicht (lachend) arbeiten damit,
+ja? Oder wenn eben meine Technik versagt, oder ich einen Umbau habe, dann stehe ich
+da ein bisschen auf dem Schlauch und kann damit nicht arbeiten." (I5: Z.766–771)
+Nun kann ein digitales Lernwerkzeug nicht ohne ein technisches Endgerät funktio-
+nieren. Viele Schulen haben bereits Laptops und Tablets im Einsatz, die auch im
+Akkubetrieb durchaus nutzbar sind. Eine weitere Möglichkeit besteht darin, CoSiTo
+als App zu implementieren und dann einen Bring-your-own-device-Ansatz mit den
+SchülerInnen zu implementieren.
+Ein weiterer Kritikpunkt betrifft den recht hohen Zeitaufwand:
+„Der Nachteil ist der Riesenzeitaufwand. Ja? Wir haben das Problem: Unser Fach [...] hat
+[...] relativ wenig Stunden. Und ich habe ALLEIN für das Projekt mein halbes Halbjah-
+reskontingent verbraucht, was okay ist, wenn man das thematisch alles da reinkriegt.
+Aber wenn das mal so ein bisschen aus dem Ruder läuft und man braucht da mehr Zeit,
+dann kommt man mit den Themen nicht mehr hin. [...] Und wenn man irgendwas nicht
+schafft, das ist ungünstig. Ja? Also der Zeitaufwand ist relativ groß." (I9: Z.723–733)
+Für die meisten Lernszenarien sind ca. 10 Unterrichtsstunden, inkl. Vermittlung von
+Vorwissen, eingeplant. Alle Lernszenarien sind nach den Fachlehrplänen für „Tech-
+nik" der Sekundarschulen und Gymnasien entwickelt und bauen auf diesen auf.
+Inhaltlich wurde versucht, die meisten bzw. alle Kompetenzschwerpunkte, die im
+Rahmenlehrplan gefordert sind, im Rahmen eines Szenarios anzusprechen. Natür-
+lich besteht die Gefahr von Verzögerungen, aber keine der befragten Lehrkräfte hatte
+im Verlauf der Durchführung mit großen Verzögerungen zu kämpfen. Wichtig sei
+vor allem, so die LehrerInnen, eine entsprechend gute Vorbereitung der Lehrkräfte
+auf den situierten Unterricht.
+Eine Verbesserung der Qualität der Lehr-/Lernmaterialien wurde ebenfalls ge-
+wünscht. Besondere Felder für Skizzen auf den Arbeitsblättern sollen in Zukunft
+größer gestaltet werden:
+„Also bei den Arbeitsblättern jetzt vor allem beim Hakenbrett war das Problem, dass die
+einzelnen Stellen, wo Entwürfe oder Skizzen und so weiter rein sollten, viel zu klein wa-
+ren für die Schüler." (I1: Z.1236–1239)
+Juliane Lehmann, Tamara Rautenstengel 71

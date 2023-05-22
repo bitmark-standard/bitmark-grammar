@@ -7,12 +7,10 @@ import R_clone from 'ramda/es/clone.js';
 import R_slice from 'ramda/es/slice.js';
 
 
-//let ANTLRInputStream = require('antlr4ts/ANTLRInputStream.js'); // @@@@
 import { CharStreams } from './typescript-es6/antlr4es6/CharStreams.js';
 import { CommonTokenStream } from './typescript-es6/antlr4es6/CommonTokenStream.js';
 import { PredictionMode } from './typescript-es6/antlr4es6/atn/PredictionMode.js';
 import { BailErrorStrategy } from './typescript-es6/antlr4es6/BailErrorStrategy.js';
-//import { DefaultErrorStrategy } from './typescript-es6/antlr4es6/DefaultErrorStrategy.js';
 import { DefaultErrorStrategy } from './typescript-es6/antlr4es6/DefaultErrorStrategy.js';
 import { ParseTreeWalker } from './typescript-es6/antlr4es6/tree/ParseTreeWalker.js';
 //
@@ -149,6 +147,8 @@ class Preprocessor {
 
     while (seq < MAXSEQ) {
       // Dont add if not the head doesnt start from 0th column
+      text.search(regex);
+
       let where = text.slice(ignore).search(regex);
       if (where < 0)
 	break;
@@ -168,32 +168,19 @@ class Preprocessor {
     }
     return [text, x_array];  // replaced.
   }
-  // x_array = [{before: .., after: .... offset: ..}, ...]
-  unreplace_stray_bitheads2(text, x_array) {
-    const regex = /\${{[0-9]+}}/;
-    let seq = 0;
-    let offex = 0;
-    
-    for (let i in x_array) {
-      //
-      let x = x_array[i];
-      if (-1 < x.offset)
-	text = this.replace_text_at(text, x.offset+offex, x.before, x.after);
-      else {
-	// Used by JSON replace []
-	let re = new RegExp(`${x.after}`, 'gi');
-	text = text.replace(re, x.before);
-      }
-      offex += x.before.length - x.after.length;
-    }
-    return text;
+
+  escapeRegExp(text) {
+    return text.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, '\\$&');
   }
   // simple version. no offset
   unreplace_stray_bitheads(text, x_array) {
+
     for (let i in x_array) {
       //
       let x = x_array[i];
-      text = text.replace(x.after, x.before);
+      let y = this.escapeRegExp(x.after);
+      var re = new RegExp(y, 'g');
+      text = text.replace(re, x.before);
     }
     return text;
   }
@@ -510,7 +497,8 @@ class BitmarkParser {
 
 	// obj[0].bit.content at this point is bithead replaced text.
 	if (!unknown)
-	  obj[0].bit.body =pp.unreplace_stray_bitheads2(obj[0].bit.body, this.x_array);	
+	  debugger
+	  obj[0].bit.body =pp.unreplace_stray_bitheads(obj[0].bit.body, this.x_array);	
 
 	if (0 < this.parser_vars.errorlisten.errors.length) {
 	  if (!obj || !obj.length) 

@@ -184,7 +184,7 @@ sspl:		SSPL|SSPL2 ;
 
 words: ( STRING
        | SENTENCE
-       | NOTBITMARK
+       | NOTBITMARK | ELIPSIS
        | BARSTRING | AMP | Greater ~(Greater) | Less ~(Less)
        | RightArrow | RightAngle
        )+ ;
