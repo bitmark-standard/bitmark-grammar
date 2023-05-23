@@ -1560,7 +1560,7 @@ BitmarkListener.prototype.check_numeric_prop = function(ctx, code, propname) {
   const re = /: *([0-9]+)\]/;
   let m = code.match(re);
   if (m == null) {
-    this.error_listener.manualError(ctx, ctx._start.line-1, 0,
+    this.error_listener.manualError(ctx, ctx._start.line, 0,
 			    propname + ' property has to be positive integer value');
     return null;
   }
@@ -1593,7 +1593,7 @@ BitmarkListener.prototype.check_bool_prop = function(ctx, code, propname) {
   const re = /: *(true|false)\]/;
   let m = code.match(re);
   if (m == null) {
-    this.error_listener.manualError(ctx, ctx._start.line-1, 0,
+    this.error_listener.manualError(ctx, ctx._start.line, 0,
 			    propname + ' property has to be true or false');
     return null;
   }

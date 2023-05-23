@@ -661,9 +661,9 @@
         "errors": [
             {
                 "message": "progressPoints property has to be positive integer value",
-                "line": 7,
+                "line": 8,
                 "column": 0,
-                "errorLine": "[@externalLink:https://www.apple.com]"
+                "errorLine": "[@progressPoints:not12345]"
             }
         ]
     },
@@ -688,15 +688,15 @@
         "errors": [
             {
                 "message": "isTracked property has to be true or false",
-                "line": 7,
-                "column": 0,
-                "errorLine": "[@location:Zug]"
-            },
-            {
-                "message": "isInfoOnly property has to be true or false",
                 "line": 8,
                 "column": 0,
                 "errorLine": "[@isTracked:trua]"
+            },
+            {
+                "message": "isInfoOnly property has to be true or false",
+                "line": 9,
+                "column": 0,
+                "errorLine": "[@isInfoOnly:felse]"
             }
         ]
     }
