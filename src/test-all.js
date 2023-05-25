@@ -171,6 +171,7 @@ const testfiles = [
   './tests/utfgpun.bit',
   './tests/vendor-amchart.bit',  
   './tests/url-regex.bit',
+  './tests/ai.bit',  
   
   // GMB
   './tests/GMB/cloze.bit',

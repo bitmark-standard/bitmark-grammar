@@ -8,6 +8,10 @@ import { Bitmark_Context } from "./bitmarkParser";
 import { BitContext } from "./bitmarkParser";
 import { BookContext } from "./bitmarkParser";
 import { ChapterContext } from "./bitmarkParser";
+import { Ai_promptContext } from "./bitmarkParser";
+import { Note_aiContext } from "./bitmarkParser";
+import { Summary_aiContext } from "./bitmarkParser";
+import { Article_aiContext } from "./bitmarkParser";
 import { TocContext } from "./bitmarkParser";
 import { SummaryContext } from "./bitmarkParser";
 import { Internal_linkContext } from "./bitmarkParser";
@@ -290,6 +294,50 @@ export interface bitmarkParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitChapter?: (ctx: ChapterContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.ai_prompt`.
+	 * @param ctx the parse tree
+	 */
+	enterAi_prompt?: (ctx: Ai_promptContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.ai_prompt`.
+	 * @param ctx the parse tree
+	 */
+	exitAi_prompt?: (ctx: Ai_promptContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.note_ai`.
+	 * @param ctx the parse tree
+	 */
+	enterNote_ai?: (ctx: Note_aiContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.note_ai`.
+	 * @param ctx the parse tree
+	 */
+	exitNote_ai?: (ctx: Note_aiContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.summary_ai`.
+	 * @param ctx the parse tree
+	 */
+	enterSummary_ai?: (ctx: Summary_aiContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.summary_ai`.
+	 * @param ctx the parse tree
+	 */
+	exitSummary_ai?: (ctx: Summary_aiContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.article_ai`.
+	 * @param ctx the parse tree
+	 */
+	enterArticle_ai?: (ctx: Article_aiContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.article_ai`.
+	 * @param ctx the parse tree
+	 */
+	exitArticle_ai?: (ctx: Article_aiContext) => void;
 
 	/**
 	 * Enter a parse tree produced by `bitmarkParser.toc`.

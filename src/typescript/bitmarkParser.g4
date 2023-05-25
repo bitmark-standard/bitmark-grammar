@@ -29,6 +29,7 @@ bitmark_:
 
 bit:
 	  book | chapter
+	| ai_prompt | note_ai | summary_ai | article_ai
 	| summary | toc
 	| bit_alias
 	| internal_link
@@ -88,13 +89,14 @@ bit:
 
 ;
 //
-book:
-    BitBook (format)? CL ( NL* bitElem )+
-;
-chapter:
-    BitChapter format? CL NL* ( anchor NL )?
-      resource (NL* resource)* 
-;
+book:      BitBook format CL NL* ( bitElem NL* )+ ;
+chapter:   BitChapter format CL NL* ( anchor NL )?
+	         resource (NL* resource)* ;
+
+ai_prompt:  BitAiPrompt format CL NL* ( bitElem NL* )+ ;
+note_ai:    BitNoteAi format CL NL* ( bitElem NL* )+ ;
+summary_ai: BitSummayAi format CL NL* ( bitElem NL* )+ ;
+article_ai: BitArticleAi format CL NL* ( bitElem NL* )+ ;
 
 toc:
     BitToc s_and_w? CL NL ( atdef NL )?

@@ -1562,7 +1562,7 @@ BitmarkListener.prototype.check_numeric_prop = function(ctx, code, propname) {
   const re = /: *([0-9]+)\]/;
   let m = code.match(re);
   if (m == null) {
-    this.error_listener.manualError(ctx, ctx._start.line-1, 0,
+    this.error_listener.manualError(ctx, ctx._start.line, 0,
 			    propname + ' property has to be positive integer value');
     return null;
   }
@@ -1595,7 +1595,7 @@ BitmarkListener.prototype.check_bool_prop = function(ctx, code, propname) {
   const re = /: *(true|false)\]/;
   let m = code.match(re);
   if (m == null) {
-    this.error_listener.manualError(ctx, ctx._start.line-1, 0,
+    this.error_listener.manualError(ctx, ctx._start.line, 0,
 			    propname + ' property has to be true or false');
     return null;
   }
@@ -1740,7 +1740,7 @@ BitmarkListener.prototype.exitAtdef_ = function(ctx) {
   let re = /\[@([^:]*)\s*:\s*([^\]]*)\s*\]/g;
   let vals = this.but.get_bit_value_colonsep(re, code);
   let what = this.curr_bit_stk.top();
-
+  
   if (0 < vals.length) {
     if (what !== 'menu' && (vals[0] === 'format' || vals[0] === 'type'))
       vals[0] = '_'+vals[0];  // because those keys are already there
@@ -1775,6 +1775,7 @@ BitmarkListener.prototype.exitAtdef_ = function(ctx) {
     }
     else {
       // @def values be in a list
+      debugger
       if (!(vals[0] in this.stk.top().bit)) {
 	this.stk.top().bit[vals[0]] = [];
       }
@@ -2762,6 +2763,23 @@ BitmarkListener.prototype.enterBook_article = function(ctx) { this.push_tmpl(ctx
 BitmarkListener.prototype.enterNotebook_article = function(ctx) { this.push_tmpl(ctx, 'notebook-article'); };
 BitmarkListener.prototype.enterWorkbook_article = function(ctx) { this.push_tmpl(ctx, 'workbook-article'); };
 
+BitmarkListener.prototype.enterAi_prompt = function(ctx) { this.push_tmpl(ctx, 'ai-prompt');
+							   debugger
+							   this.curr_bit_stk.push('ai-prompt');
+							 };
+BitmarkListener.prototype.exitAi_prompt = function(ctx) { this.curr_bit_stk.pop(); };
+BitmarkListener.prototype.enterNote_ai    = function(ctx) { this.push_tmpl(ctx, 'note-ai');
+							   this.curr_bit_stk.push('note-ai');
+							  };
+BitmarkListener.prototype.exitNote_ai    = function(ctx) { this.curr_bit_stk.pop(); };
+BitmarkListener.prototype.enterSummary_ai = function(ctx) { this.push_tmpl(ctx, 'summary-ai');
+							   this.curr_bit_stk.push('summary-ai');
+							  };
+BitmarkListener.prototype.exitSummary_ai = function(ctx) { this.curr_bit_stk.pop(); };
+BitmarkListener.prototype.enterArticle_ai = function(ctx) { this.push_tmpl(ctx, 'article-ai');
+							   this.curr_bit_stk.push('article-ai');
+							  };
+BitmarkListener.prototype.exitArticle_ai = function(ctx) { this.curr_bit_stk.pop(); };
 
 BitmarkListener.prototype.enterConversation_left_1 = function(ctx) { this.push_tmpl(ctx, 'conversation-left-1'); }
 BitmarkListener.prototype.enterConversation_right_1 = function(ctx) { this.push_tmpl(ctx, 'conversation-right-1'); }

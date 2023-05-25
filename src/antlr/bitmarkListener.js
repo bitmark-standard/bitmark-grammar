@@ -1,4 +1,4 @@
-// Generated from antlr/bitmark.g4 by ANTLR 4.8
+// Generated from antlr/bitmark.g4 by ANTLR 4.5
 // jshint ignore: start
 var antlr4 = require('antlr4/index');
 

@@ -61,6 +61,11 @@ BitButtonCopytext: NL OPDOT S* 'button-copy-text' ;
 BitWbtContinue:	 NL OPDOT S* 'wbt-continue' ;
 BitLearningPathDetails: NL OPDOT S* 'learning-path-details' ;
 
+BitAiPrompt:		    NL OPDOT S* 'ai-prompt' ;
+BitNoteAi:		    NL OPDOT S* 'note-ai' ;
+BitSummayAi:		    NL OPDOT S* 'summary-ai' ;
+BitArticleAi:		    NL OPDOT S* 'article-ai' ;
+
 BitLearningPathLti:          NL OPDOT S* 'learning-path-lti' ;
 BitLearningPathStep:         NL OPDOT S* 'learning-path-step' ;
 BitLearningPathBook:         NL OPDOT S* 'learning-path-book' ;

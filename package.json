@@ -21,7 +21,6 @@
   },
   "dependencies": {
     "@types/diff": "^5.0.3",
-    "@types/ramda": "^0.29.0",
     "antlr4ts": "^0.5.0-alpha.4",
     "core-util-is": "^1.0.3",
     "emoji-regex": "^7.0.3",

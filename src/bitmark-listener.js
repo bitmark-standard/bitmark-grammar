@@ -68,6 +68,8 @@ let BitmarkListener = function(error_listener, source, parser) {
 		      'releaseDate', 'releaseVersion'
 		     ];
   this.atdef_num = ['focusX', 'focusY', 'numberOfStars'];
+  this.atdef_bool = ['aiGenerated'];
+
   this.bot_action_rating = [];  // for storing bot-action-rating at exitHint()
   
   this.body_key = 'body';
@@ -334,9 +336,8 @@ BitmarkListener.prototype.exitInstruction = function(ctx) {
   if (0 < this.stk.size) {
     const what = this.curr_bit_stk.top();
 
-    if (what==='cplus' || what==='cminus' || what==='pair'
-	|| what==='interview_qanda' || what==='essay'
-	|| what==='mcrmisc' || what==='panswer') {
+    if (['cplus', 'cminus', 'pair', 'interview_qanda', 'essay', 'mcrmisc', 'panswer']
+	.indexOf(what) >= 0) {
       (this.curr_bit_stk.bottom()).instruction = val;  // was second
     }
     else if (what==='mpanswer') {
@@ -1750,6 +1751,9 @@ BitmarkListener.prototype.exitAtdef_ = function(ctx) {
     else if (-1 < this.atdef_num.indexOf(vals[0])) {
       this.stk.top().bit[vals[0]] = parseInt(vals[1]);
     }
+    else if (-1 < this.atdef_bool.indexOf(vals[0])) {
+      this.stk.top().bit[vals[0]] = JSON.parse(vals[1]);
+    }
     else if (what==='website-link') {
       this.stk.top().bit.resource.preview[vals[0]] = vals[1];
     }
@@ -2760,6 +2764,22 @@ BitmarkListener.prototype.enterBook_article = function(ctx) { this.push_tmpl(ctx
 BitmarkListener.prototype.enterNotebook_article = function(ctx) { this.push_tmpl(ctx, 'notebook-article'); };
 BitmarkListener.prototype.enterWorkbook_article = function(ctx) { this.push_tmpl(ctx, 'workbook-article'); };
 
+BitmarkListener.prototype.enterAi_prompt = function(ctx) { this.push_tmpl(ctx, 'ai-prompt');
+							   this.curr_bit_stk.push('ai-prompt');
+							 };
+BitmarkListener.prototype.exitAi_prompt = function(ctx) { this.curr_bit_stk.pop(); };
+BitmarkListener.prototype.enterNote_ai    = function(ctx) { this.push_tmpl(ctx, 'note-ai');
+							   this.curr_bit_stk.push('note-ai');
+							  };
+BitmarkListener.prototype.exitNote_ai    = function(ctx) { this.curr_bit_stk.pop(); };
+BitmarkListener.prototype.enterSummary_ai = function(ctx) { this.push_tmpl(ctx, 'summary-ai');
+							   this.curr_bit_stk.push('summary-ai');
+							  };
+BitmarkListener.prototype.exitSummary_ai = function(ctx) { this.curr_bit_stk.pop(); };
+BitmarkListener.prototype.enterArticle_ai = function(ctx) { this.push_tmpl(ctx, 'article-ai');
+							   this.curr_bit_stk.push('article-ai');
+							  };
+BitmarkListener.prototype.exitArticle_ai = function(ctx) { this.curr_bit_stk.pop(); };
 
 BitmarkListener.prototype.enterConversation_left_1 = function(ctx) { this.push_tmpl(ctx, 'conversation-left-1'); }
 BitmarkListener.prototype.enterConversation_right_1 = function(ctx) { this.push_tmpl(ctx, 'conversation-right-1'); }
