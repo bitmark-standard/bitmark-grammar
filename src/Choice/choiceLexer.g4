@@ -131,7 +131,7 @@ AtLonganswer:	  OPAT S* 'longAnswer]' ;
 AtExampleWithStr:OPAT S* 'example:' (SENTENCE|NL)* CL ;
 AtExamplecol:    OPAT S* 'example:'  ;
 AtExamplecl:     OPAT S* 'example]'  ;
-AtSampleSolution: OPAT S* 'sampleSolution:'  SENTENCE CL ;
+AtSampleSolution: OPAT S* 'sampleSolution:' (SENTENCE|NL)* CL ;
 
 AtPartialAnswerS:OPAT S* 'partialAnswer:' SENTENCE CL ;
 AtPartialAnswer: OPAT S* 'partialAnswer]' ;

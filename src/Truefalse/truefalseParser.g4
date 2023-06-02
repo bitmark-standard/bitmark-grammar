@@ -290,6 +290,7 @@ atdef:  atdef_ ( NL* atdef_ )*
 atdef_:
      OPA s_and_w (COLON|DBLCOLON) s_and_w (NL|COLON|s_and_w)* CL
    | OpAtCopyright .*? CL
+   | AtSampleSolution
 ;
 
 dollarans:
