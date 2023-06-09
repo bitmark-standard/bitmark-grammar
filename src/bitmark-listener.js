@@ -1399,7 +1399,7 @@ BitmarkListener.prototype.exitPquery__ = function(ctx) {
     // If true, then we don't remove them as those are not processed.
     //if (!this.but.is_brackets_inside_stars(val)) {
     const re = /\[[^\]]+\]/g;  ///\[[^\]]+\](.*$)/;
-    val = val.replace(re, ''); // Remove all [] enclosed thingy
+    val = val.replace(re, '').trim(); // Remove all [] enclosed thingy
     //}
     if (!val.startsWith('=='))
       this.stk.top().bit[topkey][lastpairidx]['key'] += val;

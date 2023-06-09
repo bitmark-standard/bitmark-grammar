@@ -1,37 +1,20 @@
-[.essay]
-[%1]
-[!Listen to the train announcement. Write down every word you hear.]
-[@sampleSolution:The train now approaching Platform 2 is the delayed 11.45 South West Trains service to Poole. Platform 2 for the 11.45 service to Poole.]
-
-
-[.essay&image]
-||ich denke wir sollten Schubert vorschlagen, hier nur das Bild “Umfrage” aufzuführen, siehe auch die Anmerkung zu B1||
-[%B2]
-[!Vergleichen Sie Ihre persönliche Reihenfolge mit der Wahl der deutschen Umfrageteilnehmer.]
-[@sampleSolution:The train now approaching Platform 2 is the delayed 11.45 South West Trains service to Poole. Platform 2 for the 11.45 service to Poole.]
-
-[&image:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/014-2b.jpg]
-[&image:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/otto_von_bismarck.jpg]
-||no graphic||
-
-
-[.chapter]
-[###Außergewöhnliche Menschen]
-[@leave.context:foo]
-[@leave.subject:Außergewöhnliche Menschen]
-
-[@sampleSolution:The train now approaching Platform 2 is the delayed 11.45 South West Trains service to Poole. Platform 2 for the 11.45 service to Poole.]
-
-
-[.cloze]
-[@sampleSolution:The train now approaching Platform 2 is the delayed 11.45 South West Trains service to Poole. Platform 2 for the 11.45 service to Poole.]
-[%cl3] This sentence is a [_cloze][_gap text][!noun] with [_4][?1 or 2] gaps including an instruction for the first and a hint for the second gap
-
-[.essay:bitmark--&image]
-[!Describe the graphic. What did you expect, what surprised you?]
-[@partialAnswer:This is a ...]
-[&image:https://cdn.bitmark.cloud/publishers/3/books/26363/statistics_en.jpg]
-[@sampleSolution:
-This is a **really** nice graphic!
-It really surprised me, that the chosen color of the graph is blue.
-]
+[.match]
+[@id:89094]
+[%D]
+[!Read the email again and answer the questions.]
+===
+[%1.]
+What was the weather like in Rhodes?
+==
+It was sunny every day.
+===
+[%2.]
+Why didn’t Alex rent a car to explore the island?
+==
+Because mopeds were cheaper.
+===
+[%3.]
+What did Alex go back to Kallithea for?
+==
+to see a concert
+===
