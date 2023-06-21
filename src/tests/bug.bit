@@ -1,20 +1,4 @@
-[.match]
-[@id:89094]
-[%D]
-[!Read the email again and answer the questions.]
-===
-[%1.]
-What was the weather like in Rhodes?
-==
-It was sunny every day.
-===
-[%2.]
-Why didn’t Alex rent a car to explore the island?
-==
-Because mopeds were cheaper.
-===
-[%3.]
-What did Alex go back to Kallithea for?
-==
-to see a concert
-===
+[.article]
+[@id:229899]
+[%][%A new role for L&D]
+If you use Visual Studio Code, you can view and incorporate suggestions from GitHub Copilot directly within the editor. This guide demonstrates how to use GitHub Copilot within Visual Studio Code for macOS, Windows, or Linux.

@@ -3702,33 +3702,23 @@ class truefalseParser extends Parser_1.Parser {
                         this.state = 784;
                         this._errHandler.sync(this);
                         _la = this._input.LA(1);
-                        while (((((_la - 22)) & ~0x1F) === 0 && ((1 << (_la - 22)) & ((1 << (truefalseParser.COLON - 22)) | (1 << (truefalseParser.AMP - 22)) | (1 << (truefalseParser.Greater - 22)) | (1 << (truefalseParser.Less - 22)) | (1 << (truefalseParser.RightAngle - 22)) | (1 << (truefalseParser.RightArrow - 22)) | (1 << (truefalseParser.NOTBITMARK - 22)) | (1 << (truefalseParser.ELIPSIS - 22)) | (1 << (truefalseParser.SENTENCE - 22)) | (1 << (truefalseParser.BARSTRING - 22)))) !== 0)) {
+                        while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << truefalseParser.S) | (1 << truefalseParser.OPS) | (1 << truefalseParser.COLON) | (1 << truefalseParser.AMP) | (1 << truefalseParser.DBLCOLON) | (1 << truefalseParser.Greater) | (1 << truefalseParser.Less) | (1 << truefalseParser.DBLEQ) | (1 << truefalseParser.RightAngle) | (1 << truefalseParser.RightArrow))) !== 0) || ((((_la - 43)) & ~0x1F) === 0 && ((1 << (_la - 43)) & ((1 << (truefalseParser.NUMERIC - 43)) | (1 << (truefalseParser.STRING - 43)) | (1 << (truefalseParser.NOTBITMARK - 43)) | (1 << (truefalseParser.ELIPSIS - 43)) | (1 << (truefalseParser.SENTENCE - 43)) | (1 << (truefalseParser.BARSTRING - 43)))) !== 0) || _la === truefalseParser.URL) {
                             {
                                 this.state = 782;
                                 this._errHandler.sync(this);
-                                switch (this._input.LA(1)) {
-                                    case truefalseParser.COLON:
+                                switch (this.interpreter.adaptivePredict(this._input, 96, this._ctx)) {
+                                    case 1:
                                         {
                                             this.state = 780;
                                             this.match(truefalseParser.COLON);
                                         }
                                         break;
-                                    case truefalseParser.AMP:
-                                    case truefalseParser.Greater:
-                                    case truefalseParser.Less:
-                                    case truefalseParser.RightAngle:
-                                    case truefalseParser.RightArrow:
-                                    case truefalseParser.NOTBITMARK:
-                                    case truefalseParser.ELIPSIS:
-                                    case truefalseParser.SENTENCE:
-                                    case truefalseParser.BARSTRING:
+                                    case 2:
                                         {
                                             this.state = 781;
-                                            this.words();
+                                            this.s_and_w();
                                         }
                                         break;
-                                    default:
-                                        throw new NoViableAltException_1.NoViableAltException(this);
                                 }
                             }
                             this.state = 786;
@@ -3795,33 +3785,23 @@ class truefalseParser extends Parser_1.Parser {
                 this.state = 805;
                 this._errHandler.sync(this);
                 _la = this._input.LA(1);
-                while (((((_la - 22)) & ~0x1F) === 0 && ((1 << (_la - 22)) & ((1 << (truefalseParser.COLON - 22)) | (1 << (truefalseParser.AMP - 22)) | (1 << (truefalseParser.Greater - 22)) | (1 << (truefalseParser.Less - 22)) | (1 << (truefalseParser.RightAngle - 22)) | (1 << (truefalseParser.RightArrow - 22)) | (1 << (truefalseParser.NOTBITMARK - 22)) | (1 << (truefalseParser.ELIPSIS - 22)) | (1 << (truefalseParser.SENTENCE - 22)) | (1 << (truefalseParser.BARSTRING - 22)))) !== 0)) {
+                while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << truefalseParser.S) | (1 << truefalseParser.OPS) | (1 << truefalseParser.COLON) | (1 << truefalseParser.AMP) | (1 << truefalseParser.DBLCOLON) | (1 << truefalseParser.Greater) | (1 << truefalseParser.Less) | (1 << truefalseParser.DBLEQ) | (1 << truefalseParser.RightAngle) | (1 << truefalseParser.RightArrow))) !== 0) || ((((_la - 43)) & ~0x1F) === 0 && ((1 << (_la - 43)) & ((1 << (truefalseParser.NUMERIC - 43)) | (1 << (truefalseParser.STRING - 43)) | (1 << (truefalseParser.NOTBITMARK - 43)) | (1 << (truefalseParser.ELIPSIS - 43)) | (1 << (truefalseParser.SENTENCE - 43)) | (1 << (truefalseParser.BARSTRING - 43)))) !== 0) || _la === truefalseParser.URL) {
                     {
                         this.state = 803;
                         this._errHandler.sync(this);
-                        switch (this._input.LA(1)) {
-                            case truefalseParser.COLON:
+                        switch (this.interpreter.adaptivePredict(this._input, 101, this._ctx)) {
+                            case 1:
                                 {
                                     this.state = 801;
                                     this.match(truefalseParser.COLON);
                                 }
                                 break;
-                            case truefalseParser.AMP:
-                            case truefalseParser.Greater:
-                            case truefalseParser.Less:
-                            case truefalseParser.RightAngle:
-                            case truefalseParser.RightArrow:
-                            case truefalseParser.NOTBITMARK:
-                            case truefalseParser.ELIPSIS:
-                            case truefalseParser.SENTENCE:
-                            case truefalseParser.BARSTRING:
+                            case 2:
                                 {
                                     this.state = 802;
-                                    this.words();
+                                    this.s_and_w();
                                 }
                                 break;
-                            default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
                         }
                     }
                     this.state = 807;
@@ -6407,7 +6387,7 @@ truefalseParser._serializedATNSegment1 = "\u0191\u017A\x03\x02\x02\x02\u0191\u01
     "\x02\x02\x02\u0307\u0309\x03\x02\x02\x02\u0308\u0306\x03\x02\x02\x02\u0309" +
     "\u030B\x05v<\x02\u030A\u0306\x03\x02\x02\x02\u030A\u030B\x03\x02\x02\x02" +
     "\u030B\u0320\x03\x02\x02\x02\u030C\u030D\x07\x15\x02\x02\u030D\u0312\x05" +
-    "\x9EP\x02\u030E\u0311\x07\x18\x02\x02\u030F\u0311\x05\xA6T\x02\u0310\u030E" +
+    "\x9EP\x02\u030E\u0311\x07\x18\x02\x02\u030F\u0311\x05\x9EP\x02\u0310\u030E" +
     "\x03\x02\x02\x02\u0310\u030F\x03\x02\x02\x02\u0311\u0314\x03\x02\x02\x02" +
     "\u0312\u0310\x03\x02\x02\x02\u0312\u0313\x03\x02\x02\x02\u0313\u0315\x03" +
     "\x02\x02\x02\u0314\u0312\x03\x02\x02\x02\u0315\u031D\x07\x17\x02\x02\u0316" +
@@ -6417,7 +6397,7 @@ truefalseParser._serializedATNSegment1 = "\u0191\u017A\x03\x02\x02\x02\u0191\u01
     "\u031D\u0319\x03\x02\x02\x02\u031D\u031E\x03\x02\x02\x02\u031E\u0320\x03" +
     "\x02\x02\x02\u031F\u0301\x03\x02\x02\x02\u031F\u030C\x03\x02\x02\x02\u0320" +
     "u\x03\x02\x02\x02\u0321\u0322\x07\x15\x02\x02\u0322\u0327\x05\x9EP\x02" +
-    "\u0323\u0326\x07\x18\x02\x02\u0324\u0326\x05\xA6T\x02\u0325\u0323\x03" +
+    "\u0323\u0326\x07\x18\x02\x02\u0324\u0326\x05\x9EP\x02\u0325\u0323\x03" +
     "\x02\x02\x02\u0325\u0324\x03\x02\x02\x02\u0326\u0329\x03\x02\x02\x02\u0327" +
     "\u0325\x03\x02\x02\x02\u0327\u0328\x03\x02\x02\x02\u0328\u032A\x03\x02" +
     "\x02\x02\u0329\u0327\x03\x02\x02\x02\u032A\u032B\x07\x17\x02\x02\u032B" +
@@ -8538,8 +8518,13 @@ class ItemContext extends ParserRuleContext_1.ParserRuleContext {
             return this.getToken(truefalseParser.S, i);
         }
     }
-    s_and_w() {
-        return this.tryGetRuleContext(0, S_and_wContext);
+    s_and_w(i) {
+        if (i === undefined) {
+            return this.getRuleContexts(S_and_wContext);
+        }
+        else {
+            return this.getRuleContext(i, S_and_wContext);
+        }
     }
     COLON(i) {
         if (i === undefined) {
@@ -8547,14 +8532,6 @@ class ItemContext extends ParserRuleContext_1.ParserRuleContext {
         }
         else {
             return this.getToken(truefalseParser.COLON, i);
-        }
-    }
-    words(i) {
-        if (i === undefined) {
-            return this.getRuleContexts(WordsContext);
-        }
-        else {
-            return this.getRuleContext(i, WordsContext);
         }
     }
     constructor(parent, invokingState) {
@@ -8578,8 +8555,13 @@ class ItemContext extends ParserRuleContext_1.ParserRuleContext {
 exports.ItemContext = ItemContext;
 class LeadContext extends ParserRuleContext_1.ParserRuleContext {
     OPC() { return this.getToken(truefalseParser.OPC, 0); }
-    s_and_w() {
-        return this.getRuleContext(0, S_and_wContext);
+    s_and_w(i) {
+        if (i === undefined) {
+            return this.getRuleContexts(S_and_wContext);
+        }
+        else {
+            return this.getRuleContext(i, S_and_wContext);
+        }
     }
     CL() { return this.getToken(truefalseParser.CL, 0); }
     COLON(i) {
@@ -8588,14 +8570,6 @@ class LeadContext extends ParserRuleContext_1.ParserRuleContext {
         }
         else {
             return this.getToken(truefalseParser.COLON, i);
-        }
-    }
-    words(i) {
-        if (i === undefined) {
-            return this.getRuleContexts(WordsContext);
-        }
-        else {
-            return this.getRuleContext(i, WordsContext);
         }
     }
     constructor(parent, invokingState) {

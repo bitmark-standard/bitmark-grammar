@@ -544,9 +544,9 @@ telephone:   TEL PLUS NUMERIC ;
 url: URL ;
 
 item:   OPC CL ( S* lead )?
-      | OPC s_and_w (COLON|words)* CL ( S* lead )? 
+      | OPC s_and_w (COLON|s_and_w)* CL ( S* lead )? 
 ;
-lead:   OPC s_and_w (COLON|words)* CL ;
+lead:   OPC s_and_w (COLON|s_and_w)* CL ;
 
 angleref:
       OPRANGLES  s_and_w? CL

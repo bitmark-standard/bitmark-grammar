@@ -4415,33 +4415,23 @@ class flashcardParser extends Parser_1.Parser {
                         this.state = 994;
                         this._errHandler.sync(this);
                         _la = this._input.LA(1);
-                        while (((((_la - 27)) & ~0x1F) === 0 && ((1 << (_la - 27)) & ((1 << (flashcardParser.COLON - 27)) | (1 << (flashcardParser.AMP - 27)) | (1 << (flashcardParser.Greater - 27)) | (1 << (flashcardParser.Less - 27)) | (1 << (flashcardParser.RightAngle - 27)) | (1 << (flashcardParser.RightArrow - 27)) | (1 << (flashcardParser.NOTBITMARK - 27)) | (1 << (flashcardParser.ELIPSIS - 27)) | (1 << (flashcardParser.SENTENCE - 27)) | (1 << (flashcardParser.BARSTRING - 27)))) !== 0)) {
+                        while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << flashcardParser.S) | (1 << flashcardParser.OPS) | (1 << flashcardParser.COLON) | (1 << flashcardParser.AMP))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (flashcardParser.Greater - 32)) | (1 << (flashcardParser.Less - 32)) | (1 << (flashcardParser.RightAngle - 32)) | (1 << (flashcardParser.RightArrow - 32)) | (1 << (flashcardParser.NUMERIC - 32)) | (1 << (flashcardParser.STRING - 32)) | (1 << (flashcardParser.NOTBITMARK - 32)) | (1 << (flashcardParser.ELIPSIS - 32)) | (1 << (flashcardParser.SENTENCE - 32)) | (1 << (flashcardParser.BARSTRING - 32)))) !== 0) || _la === flashcardParser.URL) {
                             {
                                 this.state = 992;
                                 this._errHandler.sync(this);
-                                switch (this._input.LA(1)) {
-                                    case flashcardParser.COLON:
+                                switch (this.interpreter.adaptivePredict(this._input, 120, this._ctx)) {
+                                    case 1:
                                         {
                                             this.state = 990;
                                             this.match(flashcardParser.COLON);
                                         }
                                         break;
-                                    case flashcardParser.AMP:
-                                    case flashcardParser.Greater:
-                                    case flashcardParser.Less:
-                                    case flashcardParser.RightAngle:
-                                    case flashcardParser.RightArrow:
-                                    case flashcardParser.NOTBITMARK:
-                                    case flashcardParser.ELIPSIS:
-                                    case flashcardParser.SENTENCE:
-                                    case flashcardParser.BARSTRING:
+                                    case 2:
                                         {
                                             this.state = 991;
-                                            this.words();
+                                            this.s_and_w();
                                         }
                                         break;
-                                    default:
-                                        throw new NoViableAltException_1.NoViableAltException(this);
                                 }
                             }
                             this.state = 996;
@@ -4508,33 +4498,23 @@ class flashcardParser extends Parser_1.Parser {
                 this.state = 1015;
                 this._errHandler.sync(this);
                 _la = this._input.LA(1);
-                while (((((_la - 27)) & ~0x1F) === 0 && ((1 << (_la - 27)) & ((1 << (flashcardParser.COLON - 27)) | (1 << (flashcardParser.AMP - 27)) | (1 << (flashcardParser.Greater - 27)) | (1 << (flashcardParser.Less - 27)) | (1 << (flashcardParser.RightAngle - 27)) | (1 << (flashcardParser.RightArrow - 27)) | (1 << (flashcardParser.NOTBITMARK - 27)) | (1 << (flashcardParser.ELIPSIS - 27)) | (1 << (flashcardParser.SENTENCE - 27)) | (1 << (flashcardParser.BARSTRING - 27)))) !== 0)) {
+                while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << flashcardParser.S) | (1 << flashcardParser.OPS) | (1 << flashcardParser.COLON) | (1 << flashcardParser.AMP))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (flashcardParser.Greater - 32)) | (1 << (flashcardParser.Less - 32)) | (1 << (flashcardParser.RightAngle - 32)) | (1 << (flashcardParser.RightArrow - 32)) | (1 << (flashcardParser.NUMERIC - 32)) | (1 << (flashcardParser.STRING - 32)) | (1 << (flashcardParser.NOTBITMARK - 32)) | (1 << (flashcardParser.ELIPSIS - 32)) | (1 << (flashcardParser.SENTENCE - 32)) | (1 << (flashcardParser.BARSTRING - 32)))) !== 0) || _la === flashcardParser.URL) {
                     {
                         this.state = 1013;
                         this._errHandler.sync(this);
-                        switch (this._input.LA(1)) {
-                            case flashcardParser.COLON:
+                        switch (this.interpreter.adaptivePredict(this._input, 125, this._ctx)) {
+                            case 1:
                                 {
                                     this.state = 1011;
                                     this.match(flashcardParser.COLON);
                                 }
                                 break;
-                            case flashcardParser.AMP:
-                            case flashcardParser.Greater:
-                            case flashcardParser.Less:
-                            case flashcardParser.RightAngle:
-                            case flashcardParser.RightArrow:
-                            case flashcardParser.NOTBITMARK:
-                            case flashcardParser.ELIPSIS:
-                            case flashcardParser.SENTENCE:
-                            case flashcardParser.BARSTRING:
+                            case 2:
                                 {
                                     this.state = 1012;
-                                    this.words();
+                                    this.s_and_w();
                                 }
                                 break;
-                            default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
                         }
                     }
                     this.state = 1017;
@@ -7232,7 +7212,7 @@ flashcardParser._serializedATNSegment1 = "\x03\x02\x02\x02\u0151\u0144\x03\x02\x
     "\x02\x02\u03D9\u03DB\x03\x02\x02\x02\u03DA\u03D8\x03\x02\x02\x02\u03DB" +
     "\u03DD\x05z>\x02\u03DC\u03D8\x03\x02\x02\x02\u03DC\u03DD\x03\x02\x02\x02" +
     "\u03DD\u03F2\x03\x02\x02\x02\u03DE\u03DF\x07\x1A\x02\x02\u03DF\u03E4\x05" +
-    "\xA4S\x02\u03E0\u03E3\x07\x1D\x02\x02\u03E1\u03E3\x05\xAAV\x02\u03E2\u03E0" +
+    "\xA4S\x02\u03E0\u03E3\x07\x1D\x02\x02\u03E1\u03E3\x05\xA4S\x02\u03E2\u03E0" +
     "\x03\x02\x02\x02\u03E2\u03E1\x03\x02\x02\x02\u03E3\u03E6\x03\x02\x02\x02" +
     "\u03E4\u03E2\x03\x02\x02\x02\u03E4\u03E5\x03\x02\x02\x02\u03E5\u03E7\x03" +
     "\x02\x02\x02\u03E6\u03E4\x03\x02\x02\x02\u03E7\u03EF\x07\x1C\x02\x02\u03E8" +
@@ -7242,7 +7222,7 @@ flashcardParser._serializedATNSegment1 = "\x03\x02\x02\x02\u0151\u0144\x03\x02\x
     "\u03EF\u03EB\x03\x02\x02\x02\u03EF\u03F0\x03\x02\x02\x02\u03F0\u03F2\x03" +
     "\x02\x02\x02\u03F1\u03D3\x03\x02\x02\x02\u03F1\u03DE\x03\x02\x02\x02\u03F2" +
     "y\x03\x02\x02\x02\u03F3\u03F4\x07\x1A\x02\x02\u03F4\u03F9\x05\xA4S\x02" +
-    "\u03F5\u03F8\x07\x1D\x02\x02\u03F6\u03F8\x05\xAAV\x02\u03F7\u03F5\x03" +
+    "\u03F5\u03F8\x07\x1D\x02\x02\u03F6\u03F8\x05\xA4S\x02\u03F7\u03F5\x03" +
     "\x02\x02\x02\u03F7\u03F6\x03\x02\x02\x02\u03F8\u03FB\x03\x02";
 flashcardParser._serializedATNSegment2 = "\x02\x02\u03F9\u03F7\x03\x02\x02\x02\u03F9\u03FA\x03\x02\x02\x02\u03FA" +
     "\u03FC\x03\x02\x02\x02\u03FB\u03F9\x03\x02\x02\x02\u03FC\u03FD\x07\x1C" +
@@ -9670,8 +9650,13 @@ class ItemContext extends ParserRuleContext_1.ParserRuleContext {
             return this.getToken(flashcardParser.S, i);
         }
     }
-    s_and_w() {
-        return this.tryGetRuleContext(0, S_and_wContext);
+    s_and_w(i) {
+        if (i === undefined) {
+            return this.getRuleContexts(S_and_wContext);
+        }
+        else {
+            return this.getRuleContext(i, S_and_wContext);
+        }
     }
     COLON(i) {
         if (i === undefined) {
@@ -9679,14 +9664,6 @@ class ItemContext extends ParserRuleContext_1.ParserRuleContext {
         }
         else {
             return this.getToken(flashcardParser.COLON, i);
-        }
-    }
-    words(i) {
-        if (i === undefined) {
-            return this.getRuleContexts(WordsContext);
-        }
-        else {
-            return this.getRuleContext(i, WordsContext);
         }
     }
     constructor(parent, invokingState) {
@@ -9710,8 +9687,13 @@ class ItemContext extends ParserRuleContext_1.ParserRuleContext {
 exports.ItemContext = ItemContext;
 class LeadContext extends ParserRuleContext_1.ParserRuleContext {
     OPC() { return this.getToken(flashcardParser.OPC, 0); }
-    s_and_w() {
-        return this.getRuleContext(0, S_and_wContext);
+    s_and_w(i) {
+        if (i === undefined) {
+            return this.getRuleContexts(S_and_wContext);
+        }
+        else {
+            return this.getRuleContext(i, S_and_wContext);
+        }
     }
     CL() { return this.getToken(flashcardParser.CL, 0); }
     COLON(i) {
@@ -9720,14 +9702,6 @@ class LeadContext extends ParserRuleContext_1.ParserRuleContext {
         }
         else {
             return this.getToken(flashcardParser.COLON, i);
-        }
-    }
-    words(i) {
-        if (i === undefined) {
-            return this.getRuleContexts(WordsContext);
-        }
-        else {
-            return this.getRuleContext(i, WordsContext);
         }
     }
     constructor(parent, invokingState) {

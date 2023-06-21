@@ -17617,52 +17617,23 @@ class bitmarkParser extends Parser_1.Parser {
                         this.state = 4379;
                         this._errHandler.sync(this);
                         _la = this._input.LA(1);
-                        while (((((_la - 163)) & ~0x1F) === 0 && ((1 << (_la - 163)) & ((1 << (bitmarkParser.COLON - 163)) | (1 << (bitmarkParser.AMP - 163)) | (1 << (bitmarkParser.Greater - 163)) | (1 << (bitmarkParser.Less - 163)) | (1 << (bitmarkParser.RightAngle - 163)) | (1 << (bitmarkParser.RightArrow - 163)) | (1 << (bitmarkParser.QUOTE_INDEX - 163)) | (1 << (bitmarkParser.NOTBITMARK - 163)) | (1 << (bitmarkParser.ELIPSIS - 163)) | (1 << (bitmarkParser.SENTENCE - 163)) | (1 << (bitmarkParser.BARSTRING - 163)))) !== 0) || ((((_la - 223)) & ~0x1F) === 0 && ((1 << (_la - 223)) & ((1 << (bitmarkParser.AmpAudio - 223)) | (1 << (bitmarkParser.AmpImage - 223)) | (1 << (bitmarkParser.AmpVideo - 223)) | (1 << (bitmarkParser.AmpArticle - 223)) | (1 << (bitmarkParser.AmpDocument - 223)) | (1 << (bitmarkParser.AmpApp - 223)) | (1 << (bitmarkParser.AmpWebsite - 223)) | (1 << (bitmarkParser.AmpStillImageFilm - 223)) | (1 << (bitmarkParser.AmpAudioLink - 223)) | (1 << (bitmarkParser.AmpImageLink - 223)) | (1 << (bitmarkParser.AmpVideoLink - 223)) | (1 << (bitmarkParser.AmpArticleLink - 223)) | (1 << (bitmarkParser.AmpDocumentLink - 223)) | (1 << (bitmarkParser.AmpAppLink - 223)) | (1 << (bitmarkParser.AmpWebsiteLink - 223)) | (1 << (bitmarkParser.AmpStillImageFilmLink - 223)))) !== 0) || _la === bitmarkParser.BitmarkMinus || _la === bitmarkParser.BitmarkPlus) {
+                        while (_la === bitmarkParser.S || ((((_la - 158)) & ~0x1F) === 0 && ((1 << (_la - 158)) & ((1 << (bitmarkParser.OPS - 158)) | (1 << (bitmarkParser.COLON - 158)) | (1 << (bitmarkParser.AMP - 158)) | (1 << (bitmarkParser.Greater - 158)) | (1 << (bitmarkParser.Less - 158)) | (1 << (bitmarkParser.RightAngle - 158)) | (1 << (bitmarkParser.RightArrow - 158)) | (1 << (bitmarkParser.DBLEQ - 158)) | (1 << (bitmarkParser.QUOTE_INDEX - 158)) | (1 << (bitmarkParser.NUMERIC - 158)) | (1 << (bitmarkParser.STRING - 158)) | (1 << (bitmarkParser.NOTBITMARK - 158)) | (1 << (bitmarkParser.ELIPSIS - 158)))) !== 0) || _la === bitmarkParser.SENTENCE || _la === bitmarkParser.BARSTRING || ((((_la - 223)) & ~0x1F) === 0 && ((1 << (_la - 223)) & ((1 << (bitmarkParser.AmpAudio - 223)) | (1 << (bitmarkParser.AmpImage - 223)) | (1 << (bitmarkParser.AmpVideo - 223)) | (1 << (bitmarkParser.AmpArticle - 223)) | (1 << (bitmarkParser.AmpDocument - 223)) | (1 << (bitmarkParser.AmpApp - 223)) | (1 << (bitmarkParser.AmpWebsite - 223)) | (1 << (bitmarkParser.AmpStillImageFilm - 223)) | (1 << (bitmarkParser.AmpAudioLink - 223)) | (1 << (bitmarkParser.AmpImageLink - 223)) | (1 << (bitmarkParser.AmpVideoLink - 223)) | (1 << (bitmarkParser.AmpArticleLink - 223)) | (1 << (bitmarkParser.AmpDocumentLink - 223)) | (1 << (bitmarkParser.AmpAppLink - 223)) | (1 << (bitmarkParser.AmpWebsiteLink - 223)) | (1 << (bitmarkParser.AmpStillImageFilmLink - 223)))) !== 0) || ((((_la - 274)) & ~0x1F) === 0 && ((1 << (_la - 274)) & ((1 << (bitmarkParser.BitmarkMinus - 274)) | (1 << (bitmarkParser.BitmarkPlus - 274)) | (1 << (bitmarkParser.URL - 274)))) !== 0)) {
                             {
                                 this.state = 4377;
                                 this._errHandler.sync(this);
-                                switch (this._input.LA(1)) {
-                                    case bitmarkParser.COLON:
+                                switch (this.interpreter.adaptivePredict(this._input, 577, this._ctx)) {
+                                    case 1:
                                         {
                                             this.state = 4375;
                                             this.match(bitmarkParser.COLON);
                                         }
                                         break;
-                                    case bitmarkParser.AMP:
-                                    case bitmarkParser.Greater:
-                                    case bitmarkParser.Less:
-                                    case bitmarkParser.RightAngle:
-                                    case bitmarkParser.RightArrow:
-                                    case bitmarkParser.QUOTE_INDEX:
-                                    case bitmarkParser.NOTBITMARK:
-                                    case bitmarkParser.ELIPSIS:
-                                    case bitmarkParser.SENTENCE:
-                                    case bitmarkParser.BARSTRING:
-                                    case bitmarkParser.AmpAudio:
-                                    case bitmarkParser.AmpImage:
-                                    case bitmarkParser.AmpVideo:
-                                    case bitmarkParser.AmpArticle:
-                                    case bitmarkParser.AmpDocument:
-                                    case bitmarkParser.AmpApp:
-                                    case bitmarkParser.AmpWebsite:
-                                    case bitmarkParser.AmpStillImageFilm:
-                                    case bitmarkParser.AmpAudioLink:
-                                    case bitmarkParser.AmpImageLink:
-                                    case bitmarkParser.AmpVideoLink:
-                                    case bitmarkParser.AmpArticleLink:
-                                    case bitmarkParser.AmpDocumentLink:
-                                    case bitmarkParser.AmpAppLink:
-                                    case bitmarkParser.AmpWebsiteLink:
-                                    case bitmarkParser.AmpStillImageFilmLink:
-                                    case bitmarkParser.BitmarkMinus:
-                                    case bitmarkParser.BitmarkPlus:
+                                    case 2:
                                         {
                                             this.state = 4376;
-                                            this.words();
+                                            this.s_and_w();
                                         }
                                         break;
-                                    default:
-                                        throw new NoViableAltException_1.NoViableAltException(this);
                                 }
                             }
                             this.state = 4381;
@@ -17729,52 +17700,23 @@ class bitmarkParser extends Parser_1.Parser {
                 this.state = 4400;
                 this._errHandler.sync(this);
                 _la = this._input.LA(1);
-                while (((((_la - 163)) & ~0x1F) === 0 && ((1 << (_la - 163)) & ((1 << (bitmarkParser.COLON - 163)) | (1 << (bitmarkParser.AMP - 163)) | (1 << (bitmarkParser.Greater - 163)) | (1 << (bitmarkParser.Less - 163)) | (1 << (bitmarkParser.RightAngle - 163)) | (1 << (bitmarkParser.RightArrow - 163)) | (1 << (bitmarkParser.QUOTE_INDEX - 163)) | (1 << (bitmarkParser.NOTBITMARK - 163)) | (1 << (bitmarkParser.ELIPSIS - 163)) | (1 << (bitmarkParser.SENTENCE - 163)) | (1 << (bitmarkParser.BARSTRING - 163)))) !== 0) || ((((_la - 223)) & ~0x1F) === 0 && ((1 << (_la - 223)) & ((1 << (bitmarkParser.AmpAudio - 223)) | (1 << (bitmarkParser.AmpImage - 223)) | (1 << (bitmarkParser.AmpVideo - 223)) | (1 << (bitmarkParser.AmpArticle - 223)) | (1 << (bitmarkParser.AmpDocument - 223)) | (1 << (bitmarkParser.AmpApp - 223)) | (1 << (bitmarkParser.AmpWebsite - 223)) | (1 << (bitmarkParser.AmpStillImageFilm - 223)) | (1 << (bitmarkParser.AmpAudioLink - 223)) | (1 << (bitmarkParser.AmpImageLink - 223)) | (1 << (bitmarkParser.AmpVideoLink - 223)) | (1 << (bitmarkParser.AmpArticleLink - 223)) | (1 << (bitmarkParser.AmpDocumentLink - 223)) | (1 << (bitmarkParser.AmpAppLink - 223)) | (1 << (bitmarkParser.AmpWebsiteLink - 223)) | (1 << (bitmarkParser.AmpStillImageFilmLink - 223)))) !== 0) || _la === bitmarkParser.BitmarkMinus || _la === bitmarkParser.BitmarkPlus) {
+                while (_la === bitmarkParser.S || ((((_la - 158)) & ~0x1F) === 0 && ((1 << (_la - 158)) & ((1 << (bitmarkParser.OPS - 158)) | (1 << (bitmarkParser.COLON - 158)) | (1 << (bitmarkParser.AMP - 158)) | (1 << (bitmarkParser.Greater - 158)) | (1 << (bitmarkParser.Less - 158)) | (1 << (bitmarkParser.RightAngle - 158)) | (1 << (bitmarkParser.RightArrow - 158)) | (1 << (bitmarkParser.DBLEQ - 158)) | (1 << (bitmarkParser.QUOTE_INDEX - 158)) | (1 << (bitmarkParser.NUMERIC - 158)) | (1 << (bitmarkParser.STRING - 158)) | (1 << (bitmarkParser.NOTBITMARK - 158)) | (1 << (bitmarkParser.ELIPSIS - 158)))) !== 0) || _la === bitmarkParser.SENTENCE || _la === bitmarkParser.BARSTRING || ((((_la - 223)) & ~0x1F) === 0 && ((1 << (_la - 223)) & ((1 << (bitmarkParser.AmpAudio - 223)) | (1 << (bitmarkParser.AmpImage - 223)) | (1 << (bitmarkParser.AmpVideo - 223)) | (1 << (bitmarkParser.AmpArticle - 223)) | (1 << (bitmarkParser.AmpDocument - 223)) | (1 << (bitmarkParser.AmpApp - 223)) | (1 << (bitmarkParser.AmpWebsite - 223)) | (1 << (bitmarkParser.AmpStillImageFilm - 223)) | (1 << (bitmarkParser.AmpAudioLink - 223)) | (1 << (bitmarkParser.AmpImageLink - 223)) | (1 << (bitmarkParser.AmpVideoLink - 223)) | (1 << (bitmarkParser.AmpArticleLink - 223)) | (1 << (bitmarkParser.AmpDocumentLink - 223)) | (1 << (bitmarkParser.AmpAppLink - 223)) | (1 << (bitmarkParser.AmpWebsiteLink - 223)) | (1 << (bitmarkParser.AmpStillImageFilmLink - 223)))) !== 0) || ((((_la - 274)) & ~0x1F) === 0 && ((1 << (_la - 274)) & ((1 << (bitmarkParser.BitmarkMinus - 274)) | (1 << (bitmarkParser.BitmarkPlus - 274)) | (1 << (bitmarkParser.URL - 274)))) !== 0)) {
                     {
                         this.state = 4398;
                         this._errHandler.sync(this);
-                        switch (this._input.LA(1)) {
-                            case bitmarkParser.COLON:
+                        switch (this.interpreter.adaptivePredict(this._input, 582, this._ctx)) {
+                            case 1:
                                 {
                                     this.state = 4396;
                                     this.match(bitmarkParser.COLON);
                                 }
                                 break;
-                            case bitmarkParser.AMP:
-                            case bitmarkParser.Greater:
-                            case bitmarkParser.Less:
-                            case bitmarkParser.RightAngle:
-                            case bitmarkParser.RightArrow:
-                            case bitmarkParser.QUOTE_INDEX:
-                            case bitmarkParser.NOTBITMARK:
-                            case bitmarkParser.ELIPSIS:
-                            case bitmarkParser.SENTENCE:
-                            case bitmarkParser.BARSTRING:
-                            case bitmarkParser.AmpAudio:
-                            case bitmarkParser.AmpImage:
-                            case bitmarkParser.AmpVideo:
-                            case bitmarkParser.AmpArticle:
-                            case bitmarkParser.AmpDocument:
-                            case bitmarkParser.AmpApp:
-                            case bitmarkParser.AmpWebsite:
-                            case bitmarkParser.AmpStillImageFilm:
-                            case bitmarkParser.AmpAudioLink:
-                            case bitmarkParser.AmpImageLink:
-                            case bitmarkParser.AmpVideoLink:
-                            case bitmarkParser.AmpArticleLink:
-                            case bitmarkParser.AmpDocumentLink:
-                            case bitmarkParser.AmpAppLink:
-                            case bitmarkParser.AmpWebsiteLink:
-                            case bitmarkParser.AmpStillImageFilmLink:
-                            case bitmarkParser.BitmarkMinus:
-                            case bitmarkParser.BitmarkPlus:
+                            case 2:
                                 {
                                     this.state = 4397;
-                                    this.words();
+                                    this.s_and_w();
                                 }
                                 break;
-                            default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
                         }
                     }
                     this.state = 4402;
@@ -22917,7 +22859,7 @@ bitmarkParser._serializedATNSegment8 = "\u1093\u1094\x05\u0194\xCB\x02\u1094\u10
     "\u1114\x03\x02\x02\x02\u1113\u1111\x03\x02\x02\x02\u1114\u1116\x05\u0198" +
     "\xCD\x02\u1115\u1111\x03\x02\x02\x02\u1115\u1116\x03\x02\x02\x02\u1116" +
     "\u112B\x03\x02\x02\x02\u1117\u1118\x07\xA3\x02\x02\u1118\u111D\x05\u01C0" +
-    "\xE1\x02\u1119\u111C\x07\xA5\x02\x02\u111A\u111C\x05\u01C8\xE5\x02\u111B" +
+    "\xE1\x02\u1119\u111C\x07\xA5\x02\x02\u111A\u111C\x05\u01C0\xE1\x02\u111B" +
     "\u1119\x03\x02\x02\x02\u111B\u111A\x03\x02\x02\x02\u111C\u111F\x03\x02" +
     "\x02\x02\u111D\u111B\x03\x02\x02\x02\u111D\u111E\x03\x02\x02\x02\u111E" +
     "\u1120\x03\x02\x02\x02\u111F\u111D\x03\x02\x02\x02\u1120\u1128\x07\xA4" +
@@ -22928,7 +22870,7 @@ bitmarkParser._serializedATNSegment8 = "\u1093\u1094\x05\u0194\xCB\x02\u1094\u10
     "\x02\x02\u1129\u112B\x03\x02\x02\x02\u112A\u110C\x03\x02\x02\x02\u112A" +
     "\u1117\x03\x02\x02\x02\u112B\u0197\x03\x02\x02\x02\u112C\u112D\x07\xA3" +
     "\x02\x02\u112D\u1132\x05\u01C0\xE1\x02\u112E\u1131\x07\xA5\x02\x02\u112F" +
-    "\u1131\x05\u01C8\xE5\x02\u1130\u112E\x03\x02\x02\x02\u1130\u112F\x03\x02" +
+    "\u1131\x05\u01C0\xE1\x02\u1130\u112E\x03\x02\x02\x02\u1130\u112F\x03\x02" +
     "\x02\x02\u1131\u1134\x03\x02\x02\x02\u1132\u1130\x03\x02\x02\x02\u1132" +
     "\u1133\x03\x02\x02\x02\u1133\u1135\x03\x02\x02\x02\u1134\u1132\x03\x02" +
     "\x02\x02\u1135\u1136\x07\xA4\x02\x02\u1136\u0199\x03\x02\x02\x02\u1137" +
@@ -31899,8 +31841,13 @@ class ItemContext extends ParserRuleContext_1.ParserRuleContext {
             return this.getToken(bitmarkParser.S, i);
         }
     }
-    s_and_w() {
-        return this.tryGetRuleContext(0, S_and_wContext);
+    s_and_w(i) {
+        if (i === undefined) {
+            return this.getRuleContexts(S_and_wContext);
+        }
+        else {
+            return this.getRuleContext(i, S_and_wContext);
+        }
     }
     COLON(i) {
         if (i === undefined) {
@@ -31908,14 +31855,6 @@ class ItemContext extends ParserRuleContext_1.ParserRuleContext {
         }
         else {
             return this.getToken(bitmarkParser.COLON, i);
-        }
-    }
-    words(i) {
-        if (i === undefined) {
-            return this.getRuleContexts(WordsContext);
-        }
-        else {
-            return this.getRuleContext(i, WordsContext);
         }
     }
     constructor(parent, invokingState) {
@@ -31939,8 +31878,13 @@ class ItemContext extends ParserRuleContext_1.ParserRuleContext {
 exports.ItemContext = ItemContext;
 class LeadContext extends ParserRuleContext_1.ParserRuleContext {
     OPC() { return this.getToken(bitmarkParser.OPC, 0); }
-    s_and_w() {
-        return this.getRuleContext(0, S_and_wContext);
+    s_and_w(i) {
+        if (i === undefined) {
+            return this.getRuleContexts(S_and_wContext);
+        }
+        else {
+            return this.getRuleContext(i, S_and_wContext);
+        }
     }
     CL() { return this.getToken(bitmarkParser.CL, 0); }
     COLON(i) {
@@ -31949,14 +31893,6 @@ class LeadContext extends ParserRuleContext_1.ParserRuleContext {
         }
         else {
             return this.getToken(bitmarkParser.COLON, i);
-        }
-    }
-    words(i) {
-        if (i === undefined) {
-            return this.getRuleContexts(WordsContext);
-        }
-        else {
-            return this.getRuleContext(i, WordsContext);
         }
     }
     constructor(parent, invokingState) {

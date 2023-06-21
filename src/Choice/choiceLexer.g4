@@ -75,7 +75,7 @@ ArticleText: '[' S* AmpArticle COLON (.|[ \t\r\n])*? CL ;
 NOTCL:    [^\]] ;
 NUMERIC:  ('+'|'-')?[0-9]+ ;
 STRING:   STR  ;
-NL:	  ('\n'|'\r\n') ;
+NL:	      ('\n'|'\r\n') ;
 NOTBITMARK:  '[^' .*?  ']' ;
 ELIPSIS:  ('[…'|'[...') .*? ']' ;
 
@@ -84,8 +84,8 @@ fragment EM2:      '\u{1F650}' .. '\u{1F9F0}' ;   // emoji 2
 fragment VS0:      '\u{FE00}' .. '\u{FE0F}' ;     // Variation Selectors
 //fragment SS0:    '\u{2070}' .. '\u{209C}' ;     // superscript and subscript
 fragment SS0:      '\u{2000}' .. '\u{209C}' ;     // superscript and subscript + General Punctuation
-fragment LEA:	   '\u{0100}' .. '\u{017F}' ;     // latin extended A
-fragment LEB:	   '\u{0200}' .. '\u{024F}' ;     // latin extended B
+fragment LEA:	     '\u{0100}' .. '\u{017F}' ;     // latin extended A
+fragment LEB:	     '\u{0200}' .. '\u{024F}' ;     // latin extended B
 fragment GAL:      '\u{03B1}' .. '\u{03C9}' ;     // Greek alpha α β v ...
 fragment GALC:     '\u{0391}' .. '\u{03A9}' ;     // Greek alpha Capital
 fragment PHON:	   '\u{1D00}' .. '\u{1DCF}' ;     // phonetic extentions
@@ -96,7 +96,7 @@ fragment GERMAN:   [ÄäẞÖöÜü] ;
 fragment POLISH:   [ĄąĆćĘęŁłŃńÓóŚśŹźŻż] ;
 fragment TRANSL:   [ČčĎďĚěǦǧȞȟǏǐJ̌ǰǨǩĽľŇňǑǒŘřŠšŤťǓǔǙǚŽžǮǯ] ;
 fragment EURO:     [☞→↓←↑€“”’…„́«»◇◼︎◎ʌɪˈ_̈₂‰≤≥‘≠Ωʳᵉ−] ;
-fragment IPA:	   [ɛɜːɡʊuɔɪəɒæʌʉo] ;
+fragment IPA:	     [ɛɜːɡʊuɔɪəɒæʌʉo] ;
 fragment JAPANESE : [\p{Script=Hiragana}\p{Script=Katakana}\p{Script=Han}\u{2460}-\u{24FF}\u{3001}-\u{3002}\u{3220}-\u{325F}\u{FF01}-\u{FF5E}ー「」『』〜〈〉] ;
 
 
@@ -138,14 +138,14 @@ AtPartialAnswer: OPAT S* 'partialAnswer]' ;
 AtLabeltrue:     OPAT S* 'labelTrue:'  ;
 AtLabelfalse:    OPAT S* 'labelFalse:'  ;
 AtPoints:        OPAT S* 'points:'  ;
-AtSrc:		 OPAT S* 'src' [0-9]+'x' ;  // added Sep 17
-AtPartner:	 OPAT S* 'partner:' ;
+AtSrc:		       OPAT S* 'src' [0-9]+'x' ;  // added Sep 17
+AtPartner:	     OPAT S* 'partner:' ;
 
-OPATALT: 	 OPAT S* 'alt:' ;
-OPAMARK: 	 OPAT S* 'mark:' ;
+OPATALT: 	       OPAT S* 'alt:' ;
+OPAMARK: 	       OPAT S* 'mark:' ;
 ShowInIndex:     OPAT S* 'showInIndex]' ;
 OpAtCaption:     OPAT S* 'caption:' ;
-OpAtLicense:	 OPAT S* 'license:' ;
+OpAtLicense:	   OPAT S* 'license:' ;
 OpAtCopyright:	 OPAT S* 'copyright:' ;
 OpAtSearch:      OPAT S* 'search:' ;
 
@@ -160,11 +160,11 @@ AtDate:		 OPAT S* 'date:' ;
 
 Http:	  	 'http://'  ;
 Https:   	 'https://'  ;
-AmpAudio:	 '&audio' ;
-AmpImage:	 '&image' ;
+AmpAudio:	       '&audio' ;
+AmpImage:	       '&image' ;
 AmpImageZoom:    '&image-zoom' ;
 AmpImageWAudio:	 '&image-with-audio' ;
-AmpVideo:	 '&video' ;
+AmpVideo:	       '&video' ;
 AmpArticle:      '&article' ;
 AmpDocument:     '&document' ;
 AmpApp:        	 '&app' ;
@@ -172,11 +172,11 @@ AmpWebsite:      '&website' ;  // NEW added 12/2/2020 usage [.message&website]..
 AmpStillImageFilm:'&still-image-film' ;  // *
 AmpPdf:	         '&pdf' ;
 
-OpAmpAudio:	 '[&' S* 'audio' ;
-OpAmpImage:	 '[&' S* 'image' ;
+OpAmpAudio:	     '[&' S* 'audio' ;
+OpAmpImage:	     '[&' S* 'image' ;
 OpAmpImageZoom:  '[&' S* 'image-zoom' ;
 OpAmpImageWAudio:'[&' S* 'image-with-audio' ; 
-OpAmpVideo:	 '[&' S* 'video' ;
+OpAmpVideo:	     '[&' S* 'video' ;
 OpAmpArticle:    '[&' S* 'article' ;
 OpAmpArticleAtt: '[&' S* 'article-attachment' ;
 OpAmpDocument:   '[&' S* 'document' ;
@@ -187,13 +187,13 @@ OpAmpStillImageFilm: '[&' S* 'still-image-film' ;
 BracEnclose:     '[' ([A-Za-z]|ROMANIA)+ ;
 
 // Added links Aug 18 2021
-AmpAudioLink:	 '&audio-link' ; 
-AmpImageLink:	 '&image-link' ; 
-AmpVideoLink:	 '&video-link' ; 
+AmpAudioLink:	   '&audio-link' ; 
+AmpImageLink:	   '&image-link' ; 
+AmpVideoLink:	   '&video-link' ; 
 AmpArticleLink:  '&article-link' ; 
 AmpDocumentLink: '&document-link' ;
 AmpDocumentDownload: '&document-download' ; 
-AmpAppLink:	 '&app-link' ;  
+AmpAppLink:	     '&app-link' ;  
 AmpWebsiteLink:  '&website-link' ; 
 AmpStillImageFilmLink:'&still-image-film-link' ;
 
@@ -233,9 +233,9 @@ JPG:    ':jpg' ;
 PNG:    ':png' ;
 GIF:    ':gif' ;
 SVG:    ':svg' ;
-MP2:	':mp2' ;
-MP3:	':mp3' ;
-MP4:	':mp4' ;
+MP2:	  ':mp2' ;
+MP3:	  ':mp3' ;
+MP4:	  ':mp4' ;
 FLV:    ':flv' ;
 WMV:    ':wmv' ;
 MPEG:   ':mpeg';

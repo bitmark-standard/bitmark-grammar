@@ -4183,6 +4183,7 @@ export class clozeParser extends Parser {
 		this.enterRule(_localctx, 112, clozeParser.RULE_item);
 		let _la: number;
 		try {
+			let _alt: number;
 			this.state = 915;
 			this._errHandler.sync(this);
 			switch ( this.interpreter.adaptivePredict(this._input, 115, this._ctx) ) {
@@ -4229,39 +4230,32 @@ export class clozeParser extends Parser {
 				this.s_and_w();
 				this.state = 902;
 				this._errHandler.sync(this);
-				_la = this._input.LA(1);
-				while (((((_la - 25)) & ~0x1F) === 0 && ((1 << (_la - 25)) & ((1 << (clozeParser.COLON - 25)) | (1 << (clozeParser.AMP - 25)) | (1 << (clozeParser.Greater - 25)) | (1 << (clozeParser.Less - 25)) | (1 << (clozeParser.RightAngle - 25)) | (1 << (clozeParser.RightArrow - 25)) | (1 << (clozeParser.NOTBITMARK - 25)) | (1 << (clozeParser.ELIPSIS - 25)) | (1 << (clozeParser.SENTENCE - 25)) | (1 << (clozeParser.BARSTRING - 25)))) !== 0)) {
-					{
-					this.state = 900;
-					this._errHandler.sync(this);
-					switch (this._input.LA(1)) {
-					case clozeParser.COLON:
+				_alt = this.interpreter.adaptivePredict(this._input, 112, this._ctx);
+				while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
+					if (_alt === 1) {
 						{
-						this.state = 898;
-						this.match(clozeParser.COLON);
+						this.state = 900;
+						this._errHandler.sync(this);
+						switch ( this.interpreter.adaptivePredict(this._input, 111, this._ctx) ) {
+						case 1:
+							{
+							this.state = 898;
+							this.match(clozeParser.COLON);
+							}
+							break;
+
+						case 2:
+							{
+							this.state = 899;
+							this.s_and_w();
+							}
+							break;
 						}
-						break;
-					case clozeParser.AMP:
-					case clozeParser.Greater:
-					case clozeParser.Less:
-					case clozeParser.RightAngle:
-					case clozeParser.RightArrow:
-					case clozeParser.NOTBITMARK:
-					case clozeParser.ELIPSIS:
-					case clozeParser.SENTENCE:
-					case clozeParser.BARSTRING:
-						{
-						this.state = 899;
-						this.words();
 						}
-						break;
-					default:
-						throw new NoViableAltException(this);
-					}
 					}
 					this.state = 904;
 					this._errHandler.sync(this);
-					_la = this._input.LA(1);
+					_alt = this.interpreter.adaptivePredict(this._input, 112, this._ctx);
 				}
 				this.state = 905;
 				this.match(clozeParser.CL);
@@ -4311,8 +4305,8 @@ export class clozeParser extends Parser {
 	public lead(): LeadContext {
 		let _localctx: LeadContext = new LeadContext(this._ctx, this.state);
 		this.enterRule(_localctx, 114, clozeParser.RULE_lead);
-		let _la: number;
 		try {
+			let _alt: number;
 			this.enterOuterAlt(_localctx, 1);
 			{
 			this.state = 917;
@@ -4321,39 +4315,32 @@ export class clozeParser extends Parser {
 			this.s_and_w();
 			this.state = 923;
 			this._errHandler.sync(this);
-			_la = this._input.LA(1);
-			while (((((_la - 25)) & ~0x1F) === 0 && ((1 << (_la - 25)) & ((1 << (clozeParser.COLON - 25)) | (1 << (clozeParser.AMP - 25)) | (1 << (clozeParser.Greater - 25)) | (1 << (clozeParser.Less - 25)) | (1 << (clozeParser.RightAngle - 25)) | (1 << (clozeParser.RightArrow - 25)) | (1 << (clozeParser.NOTBITMARK - 25)) | (1 << (clozeParser.ELIPSIS - 25)) | (1 << (clozeParser.SENTENCE - 25)) | (1 << (clozeParser.BARSTRING - 25)))) !== 0)) {
-				{
-				this.state = 921;
-				this._errHandler.sync(this);
-				switch (this._input.LA(1)) {
-				case clozeParser.COLON:
+			_alt = this.interpreter.adaptivePredict(this._input, 117, this._ctx);
+			while (_alt !== 2 && _alt !== ATN.INVALID_ALT_NUMBER) {
+				if (_alt === 1) {
 					{
-					this.state = 919;
-					this.match(clozeParser.COLON);
+					this.state = 921;
+					this._errHandler.sync(this);
+					switch ( this.interpreter.adaptivePredict(this._input, 116, this._ctx) ) {
+					case 1:
+						{
+						this.state = 919;
+						this.match(clozeParser.COLON);
+						}
+						break;
+
+					case 2:
+						{
+						this.state = 920;
+						this.s_and_w();
+						}
+						break;
 					}
-					break;
-				case clozeParser.AMP:
-				case clozeParser.Greater:
-				case clozeParser.Less:
-				case clozeParser.RightAngle:
-				case clozeParser.RightArrow:
-				case clozeParser.NOTBITMARK:
-				case clozeParser.ELIPSIS:
-				case clozeParser.SENTENCE:
-				case clozeParser.BARSTRING:
-					{
-					this.state = 920;
-					this.words();
 					}
-					break;
-				default:
-					throw new NoViableAltException(this);
-				}
 				}
 				this.state = 925;
 				this._errHandler.sync(this);
-				_la = this._input.LA(1);
+				_alt = this.interpreter.adaptivePredict(this._input, 117, this._ctx);
 			}
 			this.state = 926;
 			this.match(clozeParser.CL);
@@ -7053,7 +7040,7 @@ export class clozeParser extends Parser {
 		"\x02\x02\x02\u037D\u037F\x03\x02\x02\x02\u037E\u037C\x03\x02\x02\x02\u037F" +
 		"\u0381\x05t;\x02\u0380\u037C\x03\x02\x02\x02\u0380\u0381\x03\x02\x02\x02" +
 		"\u0381\u0396\x03\x02\x02\x02\u0382\u0383\x07\x18\x02\x02\u0383\u0388\x05" +
-		"\x9CO\x02\u0384\u0387\x07\x1B\x02\x02\u0385\u0387\x05\xBE`\x02\u0386\u0384" +
+		"\x9CO\x02\u0384\u0387\x07\x1B\x02\x02\u0385\u0387\x05\x9CO\x02\u0386\u0384" +
 		"\x03\x02\x02\x02\u0386\u0385\x03\x02\x02\x02\u0387\u038A\x03\x02\x02\x02" +
 		"\u0388\u0386\x03\x02\x02\x02\u0388\u0389\x03\x02\x02\x02\u0389\u038B\x03" +
 		"\x02\x02\x02\u038A\u0388\x03\x02\x02\x02\u038B\u0393\x07\x1A\x02\x02\u038C" +
@@ -7063,7 +7050,7 @@ export class clozeParser extends Parser {
 		"\u0393\u038F\x03\x02\x02\x02\u0393\u0394\x03\x02\x02\x02\u0394\u0396\x03" +
 		"\x02\x02\x02\u0395\u0377\x03\x02\x02\x02\u0395\u0382\x03\x02\x02\x02\u0396" +
 		"s\x03\x02\x02\x02\u0397\u0398\x07\x18\x02\x02\u0398\u039D\x05\x9CO\x02" +
-		"\u0399\u039C\x07\x1B\x02\x02\u039A\u039C\x05\xBE`\x02\u039B\u0399\x03" +
+		"\u0399\u039C\x07\x1B\x02\x02\u039A\u039C\x05\x9CO\x02\u039B\u0399\x03" +
 		"\x02\x02\x02\u039B\u039A\x03\x02\x02\x02\u039C\u039F\x03\x02\x02\x02\u039D" +
 		"\u039B\x03\x02\x02\x02\u039D\u039E\x03\x02\x02\x02\u039E\u03A0\x03\x02" +
 		"\x02\x02\u039F\u039D\x03\x02\x02\x02\u03A0\u03A1\x07\x1A\x02\x02\u03A1" +
@@ -9354,8 +9341,14 @@ export class ItemContext extends ParserRuleContext {
 			return this.getToken(clozeParser.S, i);
 		}
 	}
-	public s_and_w(): S_and_wContext | undefined {
-		return this.tryGetRuleContext(0, S_and_wContext);
+	public s_and_w(): S_and_wContext[];
+	public s_and_w(i: number): S_and_wContext;
+	public s_and_w(i?: number): S_and_wContext | S_and_wContext[] {
+		if (i === undefined) {
+			return this.getRuleContexts(S_and_wContext);
+		} else {
+			return this.getRuleContext(i, S_and_wContext);
+		}
 	}
 	public COLON(): TerminalNode[];
 	public COLON(i: number): TerminalNode;
@@ -9364,15 +9357,6 @@ export class ItemContext extends ParserRuleContext {
 			return this.getTokens(clozeParser.COLON);
 		} else {
 			return this.getToken(clozeParser.COLON, i);
-		}
-	}
-	public words(): WordsContext[];
-	public words(i: number): WordsContext;
-	public words(i?: number): WordsContext | WordsContext[] {
-		if (i === undefined) {
-			return this.getRuleContexts(WordsContext);
-		} else {
-			return this.getRuleContext(i, WordsContext);
 		}
 	}
 	constructor(parent: ParserRuleContext | undefined, invokingState: number) {
@@ -9397,8 +9381,14 @@ export class ItemContext extends ParserRuleContext {
 
 export class LeadContext extends ParserRuleContext {
 	public OPC(): TerminalNode { return this.getToken(clozeParser.OPC, 0); }
-	public s_and_w(): S_and_wContext {
-		return this.getRuleContext(0, S_and_wContext);
+	public s_and_w(): S_and_wContext[];
+	public s_and_w(i: number): S_and_wContext;
+	public s_and_w(i?: number): S_and_wContext | S_and_wContext[] {
+		if (i === undefined) {
+			return this.getRuleContexts(S_and_wContext);
+		} else {
+			return this.getRuleContext(i, S_and_wContext);
+		}
 	}
 	public CL(): TerminalNode { return this.getToken(clozeParser.CL, 0); }
 	public COLON(): TerminalNode[];
@@ -9408,15 +9398,6 @@ export class LeadContext extends ParserRuleContext {
 			return this.getTokens(clozeParser.COLON);
 		} else {
 			return this.getToken(clozeParser.COLON, i);
-		}
-	}
-	public words(): WordsContext[];
-	public words(i: number): WordsContext;
-	public words(i?: number): WordsContext | WordsContext[] {
-		if (i === undefined) {
-			return this.getRuleContexts(WordsContext);
-		} else {
-			return this.getRuleContext(i, WordsContext);
 		}
 	}
 	constructor(parent: ParserRuleContext | undefined, invokingState: number) {

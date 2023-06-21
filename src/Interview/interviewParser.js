@@ -4645,34 +4645,23 @@ class interviewParser extends Parser_1.Parser {
                         this.state = 985;
                         this._errHandler.sync(this);
                         _la = this._input.LA(1);
-                        while (((((_la - 22)) & ~0x1F) === 0 && ((1 << (_la - 22)) & ((1 << (interviewParser.COLON - 22)) | (1 << (interviewParser.AMP - 22)) | (1 << (interviewParser.Greater - 22)) | (1 << (interviewParser.Less - 22)) | (1 << (interviewParser.RightAngle - 22)) | (1 << (interviewParser.RightArrow - 22)) | (1 << (interviewParser.STRING - 22)) | (1 << (interviewParser.NOTBITMARK - 22)) | (1 << (interviewParser.ELIPSIS - 22)) | (1 << (interviewParser.SENTENCE - 22)) | (1 << (interviewParser.BARSTRING - 22)))) !== 0)) {
+                        while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << interviewParser.S) | (1 << interviewParser.OPS) | (1 << interviewParser.COLON) | (1 << interviewParser.AMP) | (1 << interviewParser.DBLCOLON) | (1 << interviewParser.Greater) | (1 << interviewParser.Less) | (1 << interviewParser.RightAngle) | (1 << interviewParser.RightArrow) | (1 << interviewParser.DBLEQ))) !== 0) || ((((_la - 45)) & ~0x1F) === 0 && ((1 << (_la - 45)) & ((1 << (interviewParser.NUMERIC - 45)) | (1 << (interviewParser.STRING - 45)) | (1 << (interviewParser.NL - 45)) | (1 << (interviewParser.NOTBITMARK - 45)) | (1 << (interviewParser.ELIPSIS - 45)) | (1 << (interviewParser.SENTENCE - 45)) | (1 << (interviewParser.BARSTRING - 45)))) !== 0) || _la === interviewParser.URL) {
                             {
                                 this.state = 983;
                                 this._errHandler.sync(this);
-                                switch (this._input.LA(1)) {
-                                    case interviewParser.COLON:
+                                switch (this.interpreter.adaptivePredict(this._input, 126, this._ctx)) {
+                                    case 1:
                                         {
                                             this.state = 981;
                                             this.match(interviewParser.COLON);
                                         }
                                         break;
-                                    case interviewParser.AMP:
-                                    case interviewParser.Greater:
-                                    case interviewParser.Less:
-                                    case interviewParser.RightAngle:
-                                    case interviewParser.RightArrow:
-                                    case interviewParser.STRING:
-                                    case interviewParser.NOTBITMARK:
-                                    case interviewParser.ELIPSIS:
-                                    case interviewParser.SENTENCE:
-                                    case interviewParser.BARSTRING:
+                                    case 2:
                                         {
                                             this.state = 982;
-                                            this.words();
+                                            this.s_and_w();
                                         }
                                         break;
-                                    default:
-                                        throw new NoViableAltException_1.NoViableAltException(this);
                                 }
                             }
                             this.state = 987;
@@ -4739,34 +4728,23 @@ class interviewParser extends Parser_1.Parser {
                 this.state = 1006;
                 this._errHandler.sync(this);
                 _la = this._input.LA(1);
-                while (((((_la - 22)) & ~0x1F) === 0 && ((1 << (_la - 22)) & ((1 << (interviewParser.COLON - 22)) | (1 << (interviewParser.AMP - 22)) | (1 << (interviewParser.Greater - 22)) | (1 << (interviewParser.Less - 22)) | (1 << (interviewParser.RightAngle - 22)) | (1 << (interviewParser.RightArrow - 22)) | (1 << (interviewParser.STRING - 22)) | (1 << (interviewParser.NOTBITMARK - 22)) | (1 << (interviewParser.ELIPSIS - 22)) | (1 << (interviewParser.SENTENCE - 22)) | (1 << (interviewParser.BARSTRING - 22)))) !== 0)) {
+                while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << interviewParser.S) | (1 << interviewParser.OPS) | (1 << interviewParser.COLON) | (1 << interviewParser.AMP) | (1 << interviewParser.DBLCOLON) | (1 << interviewParser.Greater) | (1 << interviewParser.Less) | (1 << interviewParser.RightAngle) | (1 << interviewParser.RightArrow) | (1 << interviewParser.DBLEQ))) !== 0) || ((((_la - 45)) & ~0x1F) === 0 && ((1 << (_la - 45)) & ((1 << (interviewParser.NUMERIC - 45)) | (1 << (interviewParser.STRING - 45)) | (1 << (interviewParser.NL - 45)) | (1 << (interviewParser.NOTBITMARK - 45)) | (1 << (interviewParser.ELIPSIS - 45)) | (1 << (interviewParser.SENTENCE - 45)) | (1 << (interviewParser.BARSTRING - 45)))) !== 0) || _la === interviewParser.URL) {
                     {
                         this.state = 1004;
                         this._errHandler.sync(this);
-                        switch (this._input.LA(1)) {
-                            case interviewParser.COLON:
+                        switch (this.interpreter.adaptivePredict(this._input, 131, this._ctx)) {
+                            case 1:
                                 {
                                     this.state = 1002;
                                     this.match(interviewParser.COLON);
                                 }
                                 break;
-                            case interviewParser.AMP:
-                            case interviewParser.Greater:
-                            case interviewParser.Less:
-                            case interviewParser.RightAngle:
-                            case interviewParser.RightArrow:
-                            case interviewParser.STRING:
-                            case interviewParser.NOTBITMARK:
-                            case interviewParser.ELIPSIS:
-                            case interviewParser.SENTENCE:
-                            case interviewParser.BARSTRING:
+                            case 2:
                                 {
                                     this.state = 1003;
-                                    this.words();
+                                    this.s_and_w();
                                 }
                                 break;
-                            default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
                         }
                     }
                     this.state = 1008;
@@ -7502,7 +7480,7 @@ interviewParser._serializedATNSegment1 = "\u015A\u015B\x03\x02\x02\x02\u015B\u01
     "\x02\x02\u03D1\u03CF\x03\x02\x02\x02\u03D2\u03D4\x05\x8CG\x02\u03D3\u03CF" +
     "\x03\x02\x02\x02\u03D3\u03D4\x03\x02\x02\x02\u03D4\u03E9\x03\x02\x02\x02" +
     "\u03D5\u03D6\x07\x15\x02\x02\u03D6\u03DB\x05\xB6\\\x02\u03D7\u03DA\x07" +
-    "\x18\x02\x02\u03D8\u03DA\x05\xBC_\x02\u03D9\u03D7\x03\x02\x02\x02\u03D9" +
+    "\x18\x02\x02\u03D8\u03DA\x05\xB6\\\x02\u03D9\u03D7\x03\x02\x02\x02\u03D9" +
     "\u03D8\x03\x02\x02\x02\u03DA\u03DD\x03\x02\x02\x02\u03DB\u03D9\x03\x02" +
     "\x02\x02\u03DB\u03DC\x03\x02\x02\x02\u03DC\u03DE\x03\x02\x02\x02\u03DD" +
     "\u03DB\x03\x02\x02\x02\u03DE\u03E6\x07\x17\x02\x02\u03DF\u03E1\x07\x04" +
@@ -7513,7 +7491,7 @@ interviewParser._serializedATNSegment2 = "\x03\x02\x02\x02\u03E5\u03E7\x05\x8CG\
     "\u03E6\u03E7\x03\x02\x02\x02\u03E7\u03E9\x03\x02\x02\x02\u03E8\u03CA\x03" +
     "\x02\x02\x02\u03E8\u03D5\x03\x02\x02\x02\u03E9\x8B\x03\x02\x02\x02\u03EA" +
     "\u03EB\x07\x15\x02\x02\u03EB\u03F0\x05\xB6\\\x02\u03EC\u03EF\x07\x18\x02" +
-    "\x02\u03ED\u03EF\x05\xBC_\x02\u03EE\u03EC\x03\x02\x02\x02\u03EE\u03ED" +
+    "\x02\u03ED\u03EF\x05\xB6\\\x02\u03EE\u03EC\x03\x02\x02\x02\u03EE\u03ED" +
     "\x03\x02\x02\x02\u03EF\u03F2\x03\x02\x02\x02\u03F0\u03EE\x03\x02\x02\x02" +
     "\u03F0\u03F1\x03\x02\x02\x02\u03F1\u03F3\x03\x02\x02\x02\u03F2\u03F0\x03" +
     "\x02\x02\x02\u03F3\u03F4\x07\x17\x02\x02\u03F4\x8D\x03\x02\x02\x02\u03F5" +
@@ -10059,8 +10037,13 @@ class ItemContext extends ParserRuleContext_1.ParserRuleContext {
             return this.getToken(interviewParser.S, i);
         }
     }
-    s_and_w() {
-        return this.tryGetRuleContext(0, S_and_wContext);
+    s_and_w(i) {
+        if (i === undefined) {
+            return this.getRuleContexts(S_and_wContext);
+        }
+        else {
+            return this.getRuleContext(i, S_and_wContext);
+        }
     }
     COLON(i) {
         if (i === undefined) {
@@ -10068,14 +10051,6 @@ class ItemContext extends ParserRuleContext_1.ParserRuleContext {
         }
         else {
             return this.getToken(interviewParser.COLON, i);
-        }
-    }
-    words(i) {
-        if (i === undefined) {
-            return this.getRuleContexts(WordsContext);
-        }
-        else {
-            return this.getRuleContext(i, WordsContext);
         }
     }
     constructor(parent, invokingState) {
@@ -10099,8 +10074,13 @@ class ItemContext extends ParserRuleContext_1.ParserRuleContext {
 exports.ItemContext = ItemContext;
 class LeadContext extends ParserRuleContext_1.ParserRuleContext {
     OPC() { return this.getToken(interviewParser.OPC, 0); }
-    s_and_w() {
-        return this.getRuleContext(0, S_and_wContext);
+    s_and_w(i) {
+        if (i === undefined) {
+            return this.getRuleContexts(S_and_wContext);
+        }
+        else {
+            return this.getRuleContext(i, S_and_wContext);
+        }
     }
     CL() { return this.getToken(interviewParser.CL, 0); }
     COLON(i) {
@@ -10109,14 +10089,6 @@ class LeadContext extends ParserRuleContext_1.ParserRuleContext {
         }
         else {
             return this.getToken(interviewParser.COLON, i);
-        }
-    }
-    words(i) {
-        if (i === undefined) {
-            return this.getRuleContexts(WordsContext);
-        }
-        else {
-            return this.getRuleContext(i, WordsContext);
         }
     }
     constructor(parent, invokingState) {

@@ -3810,47 +3810,23 @@ class sequenceParser extends Parser_1.Parser {
                         this.state = 811;
                         this._errHandler.sync(this);
                         _la = this._input.LA(1);
-                        while (((((_la - 22)) & ~0x1F) === 0 && ((1 << (_la - 22)) & ((1 << (sequenceParser.COLON - 22)) | (1 << (sequenceParser.AMP - 22)) | (1 << (sequenceParser.Greater - 22)) | (1 << (sequenceParser.Less - 22)) | (1 << (sequenceParser.RightAngle - 22)) | (1 << (sequenceParser.RightArrow - 22)) | (1 << (sequenceParser.NOTBITMARK - 22)) | (1 << (sequenceParser.ELIPSIS - 22)) | (1 << (sequenceParser.SENTENCE - 22)) | (1 << (sequenceParser.BARSTRING - 22)))) !== 0) || ((((_la - 82)) & ~0x1F) === 0 && ((1 << (_la - 82)) & ((1 << (sequenceParser.AmpAudio - 82)) | (1 << (sequenceParser.AmpImage - 82)) | (1 << (sequenceParser.AmpVideo - 82)) | (1 << (sequenceParser.AmpArticle - 82)) | (1 << (sequenceParser.AmpDocument - 82)) | (1 << (sequenceParser.AmpApp - 82)) | (1 << (sequenceParser.AmpWebsite - 82)) | (1 << (sequenceParser.AmpAudioLink - 82)) | (1 << (sequenceParser.AmpImageLink - 82)) | (1 << (sequenceParser.AmpArticleLink - 82)) | (1 << (sequenceParser.AmpDocumentLink - 82)))) !== 0) || ((((_la - 133)) & ~0x1F) === 0 && ((1 << (_la - 133)) & ((1 << (sequenceParser.BitmarkMinus - 133)) | (1 << (sequenceParser.BitmarkPlus - 133)) | (1 << (sequenceParser.LIST_LINE - 133)))) !== 0)) {
+                        while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less) | (1 << sequenceParser.RightAngle) | (1 << sequenceParser.RightArrow))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NOTBITMARK - 32)) | (1 << (sequenceParser.ELIPSIS - 32)) | (1 << (sequenceParser.SENTENCE - 32)) | (1 << (sequenceParser.BARSTRING - 32)))) !== 0) || ((((_la - 82)) & ~0x1F) === 0 && ((1 << (_la - 82)) & ((1 << (sequenceParser.AmpAudio - 82)) | (1 << (sequenceParser.AmpImage - 82)) | (1 << (sequenceParser.AmpVideo - 82)) | (1 << (sequenceParser.AmpArticle - 82)) | (1 << (sequenceParser.AmpDocument - 82)) | (1 << (sequenceParser.AmpApp - 82)) | (1 << (sequenceParser.AmpWebsite - 82)) | (1 << (sequenceParser.AmpAudioLink - 82)) | (1 << (sequenceParser.AmpImageLink - 82)) | (1 << (sequenceParser.AmpArticleLink - 82)) | (1 << (sequenceParser.AmpDocumentLink - 82)))) !== 0) || ((((_la - 133)) & ~0x1F) === 0 && ((1 << (_la - 133)) & ((1 << (sequenceParser.BitmarkMinus - 133)) | (1 << (sequenceParser.BitmarkPlus - 133)) | (1 << (sequenceParser.URL - 133)) | (1 << (sequenceParser.LIST_LINE - 133)))) !== 0)) {
                             {
                                 this.state = 809;
                                 this._errHandler.sync(this);
-                                switch (this._input.LA(1)) {
-                                    case sequenceParser.COLON:
+                                switch (this.interpreter.adaptivePredict(this._input, 95, this._ctx)) {
+                                    case 1:
                                         {
                                             this.state = 807;
                                             this.match(sequenceParser.COLON);
                                         }
                                         break;
-                                    case sequenceParser.AMP:
-                                    case sequenceParser.Greater:
-                                    case sequenceParser.Less:
-                                    case sequenceParser.RightAngle:
-                                    case sequenceParser.RightArrow:
-                                    case sequenceParser.NOTBITMARK:
-                                    case sequenceParser.ELIPSIS:
-                                    case sequenceParser.SENTENCE:
-                                    case sequenceParser.BARSTRING:
-                                    case sequenceParser.AmpAudio:
-                                    case sequenceParser.AmpImage:
-                                    case sequenceParser.AmpVideo:
-                                    case sequenceParser.AmpArticle:
-                                    case sequenceParser.AmpDocument:
-                                    case sequenceParser.AmpApp:
-                                    case sequenceParser.AmpWebsite:
-                                    case sequenceParser.AmpAudioLink:
-                                    case sequenceParser.AmpImageLink:
-                                    case sequenceParser.AmpArticleLink:
-                                    case sequenceParser.AmpDocumentLink:
-                                    case sequenceParser.BitmarkMinus:
-                                    case sequenceParser.BitmarkPlus:
-                                    case sequenceParser.LIST_LINE:
+                                    case 2:
                                         {
                                             this.state = 808;
-                                            this.words();
+                                            this.s_and_w();
                                         }
                                         break;
-                                    default:
-                                        throw new NoViableAltException_1.NoViableAltException(this);
                                 }
                             }
                             this.state = 813;
@@ -3917,47 +3893,23 @@ class sequenceParser extends Parser_1.Parser {
                 this.state = 832;
                 this._errHandler.sync(this);
                 _la = this._input.LA(1);
-                while (((((_la - 22)) & ~0x1F) === 0 && ((1 << (_la - 22)) & ((1 << (sequenceParser.COLON - 22)) | (1 << (sequenceParser.AMP - 22)) | (1 << (sequenceParser.Greater - 22)) | (1 << (sequenceParser.Less - 22)) | (1 << (sequenceParser.RightAngle - 22)) | (1 << (sequenceParser.RightArrow - 22)) | (1 << (sequenceParser.NOTBITMARK - 22)) | (1 << (sequenceParser.ELIPSIS - 22)) | (1 << (sequenceParser.SENTENCE - 22)) | (1 << (sequenceParser.BARSTRING - 22)))) !== 0) || ((((_la - 82)) & ~0x1F) === 0 && ((1 << (_la - 82)) & ((1 << (sequenceParser.AmpAudio - 82)) | (1 << (sequenceParser.AmpImage - 82)) | (1 << (sequenceParser.AmpVideo - 82)) | (1 << (sequenceParser.AmpArticle - 82)) | (1 << (sequenceParser.AmpDocument - 82)) | (1 << (sequenceParser.AmpApp - 82)) | (1 << (sequenceParser.AmpWebsite - 82)) | (1 << (sequenceParser.AmpAudioLink - 82)) | (1 << (sequenceParser.AmpImageLink - 82)) | (1 << (sequenceParser.AmpArticleLink - 82)) | (1 << (sequenceParser.AmpDocumentLink - 82)))) !== 0) || ((((_la - 133)) & ~0x1F) === 0 && ((1 << (_la - 133)) & ((1 << (sequenceParser.BitmarkMinus - 133)) | (1 << (sequenceParser.BitmarkPlus - 133)) | (1 << (sequenceParser.LIST_LINE - 133)))) !== 0)) {
+                while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << sequenceParser.S) | (1 << sequenceParser.OPS) | (1 << sequenceParser.COLON) | (1 << sequenceParser.AMP) | (1 << sequenceParser.Greater) | (1 << sequenceParser.Less) | (1 << sequenceParser.RightAngle) | (1 << sequenceParser.RightArrow))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (sequenceParser.DBLEQ - 32)) | (1 << (sequenceParser.NUMERIC - 32)) | (1 << (sequenceParser.STRING - 32)) | (1 << (sequenceParser.NOTBITMARK - 32)) | (1 << (sequenceParser.ELIPSIS - 32)) | (1 << (sequenceParser.SENTENCE - 32)) | (1 << (sequenceParser.BARSTRING - 32)))) !== 0) || ((((_la - 82)) & ~0x1F) === 0 && ((1 << (_la - 82)) & ((1 << (sequenceParser.AmpAudio - 82)) | (1 << (sequenceParser.AmpImage - 82)) | (1 << (sequenceParser.AmpVideo - 82)) | (1 << (sequenceParser.AmpArticle - 82)) | (1 << (sequenceParser.AmpDocument - 82)) | (1 << (sequenceParser.AmpApp - 82)) | (1 << (sequenceParser.AmpWebsite - 82)) | (1 << (sequenceParser.AmpAudioLink - 82)) | (1 << (sequenceParser.AmpImageLink - 82)) | (1 << (sequenceParser.AmpArticleLink - 82)) | (1 << (sequenceParser.AmpDocumentLink - 82)))) !== 0) || ((((_la - 133)) & ~0x1F) === 0 && ((1 << (_la - 133)) & ((1 << (sequenceParser.BitmarkMinus - 133)) | (1 << (sequenceParser.BitmarkPlus - 133)) | (1 << (sequenceParser.URL - 133)) | (1 << (sequenceParser.LIST_LINE - 133)))) !== 0)) {
                     {
                         this.state = 830;
                         this._errHandler.sync(this);
-                        switch (this._input.LA(1)) {
-                            case sequenceParser.COLON:
+                        switch (this.interpreter.adaptivePredict(this._input, 100, this._ctx)) {
+                            case 1:
                                 {
                                     this.state = 828;
                                     this.match(sequenceParser.COLON);
                                 }
                                 break;
-                            case sequenceParser.AMP:
-                            case sequenceParser.Greater:
-                            case sequenceParser.Less:
-                            case sequenceParser.RightAngle:
-                            case sequenceParser.RightArrow:
-                            case sequenceParser.NOTBITMARK:
-                            case sequenceParser.ELIPSIS:
-                            case sequenceParser.SENTENCE:
-                            case sequenceParser.BARSTRING:
-                            case sequenceParser.AmpAudio:
-                            case sequenceParser.AmpImage:
-                            case sequenceParser.AmpVideo:
-                            case sequenceParser.AmpArticle:
-                            case sequenceParser.AmpDocument:
-                            case sequenceParser.AmpApp:
-                            case sequenceParser.AmpWebsite:
-                            case sequenceParser.AmpAudioLink:
-                            case sequenceParser.AmpImageLink:
-                            case sequenceParser.AmpArticleLink:
-                            case sequenceParser.AmpDocumentLink:
-                            case sequenceParser.BitmarkMinus:
-                            case sequenceParser.BitmarkPlus:
-                            case sequenceParser.LIST_LINE:
+                            case 2:
                                 {
                                     this.state = 829;
-                                    this.words();
+                                    this.s_and_w();
                                 }
                                 break;
-                            default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
                         }
                     }
                     this.state = 834;
@@ -6634,7 +6586,7 @@ sequenceParser._serializedATNSegment1 = "\u0173\x03\x02\x02\x02\u018B\u0174\x03\
     "\x02\x02\x02\u0322\u0324\x03\x02\x02\x02\u0323\u0321\x03\x02\x02\x02\u0324" +
     "\u0326\x05z>\x02\u0325\u0321\x03\x02\x02\x02\u0325\u0326\x03\x02\x02\x02" +
     "\u0326\u033B\x03\x02\x02\x02\u0327\u0328\x07\x15\x02\x02\u0328\u032D\x05" +
-    "\xA2R\x02\u0329\u032C\x07\x18\x02\x02\u032A\u032C\x05\xAAV\x02\u032B\u0329" +
+    "\xA2R\x02\u0329\u032C\x07\x18\x02\x02\u032A\u032C\x05\xA2R\x02\u032B\u0329" +
     "\x03\x02\x02\x02\u032B\u032A\x03\x02\x02\x02\u032C\u032F\x03\x02\x02\x02" +
     "\u032D\u032B\x03\x02\x02\x02\u032D\u032E\x03\x02\x02\x02\u032E\u0330\x03" +
     "\x02\x02\x02\u032F\u032D\x03\x02\x02\x02\u0330\u0338\x07\x17\x02\x02\u0331" +
@@ -6644,7 +6596,7 @@ sequenceParser._serializedATNSegment1 = "\u0173\x03\x02\x02\x02\u018B\u0174\x03\
     "\u0338\u0334\x03\x02\x02\x02\u0338\u0339\x03\x02\x02\x02\u0339\u033B\x03" +
     "\x02\x02\x02\u033A\u031C\x03\x02\x02\x02\u033A\u0327\x03\x02\x02\x02\u033B" +
     "y\x03\x02\x02\x02\u033C\u033D\x07\x15\x02\x02\u033D\u0342\x05\xA2R\x02" +
-    "\u033E\u0341\x07\x18\x02\x02\u033F\u0341\x05\xAAV\x02\u0340\u033E\x03" +
+    "\u033E\u0341\x07\x18\x02\x02\u033F\u0341\x05\xA2R\x02\u0340\u033E\x03" +
     "\x02\x02\x02\u0340\u033F\x03\x02\x02\x02\u0341\u0344\x03\x02\x02\x02\u0342" +
     "\u0340\x03\x02\x02\x02\u0342\u0343\x03\x02\x02\x02\u0343\u0345\x03\x02" +
     "\x02\x02\u0344\u0342\x03\x02\x02\x02\u0345\u0346\x07\x17\x02\x02\u0346" +
@@ -8827,8 +8779,13 @@ class ItemContext extends ParserRuleContext_1.ParserRuleContext {
             return this.getToken(sequenceParser.S, i);
         }
     }
-    s_and_w() {
-        return this.tryGetRuleContext(0, S_and_wContext);
+    s_and_w(i) {
+        if (i === undefined) {
+            return this.getRuleContexts(S_and_wContext);
+        }
+        else {
+            return this.getRuleContext(i, S_and_wContext);
+        }
     }
     COLON(i) {
         if (i === undefined) {
@@ -8836,14 +8793,6 @@ class ItemContext extends ParserRuleContext_1.ParserRuleContext {
         }
         else {
             return this.getToken(sequenceParser.COLON, i);
-        }
-    }
-    words(i) {
-        if (i === undefined) {
-            return this.getRuleContexts(WordsContext);
-        }
-        else {
-            return this.getRuleContext(i, WordsContext);
         }
     }
     constructor(parent, invokingState) {
@@ -8867,8 +8816,13 @@ class ItemContext extends ParserRuleContext_1.ParserRuleContext {
 exports.ItemContext = ItemContext;
 class LeadContext extends ParserRuleContext_1.ParserRuleContext {
     OPC() { return this.getToken(sequenceParser.OPC, 0); }
-    s_and_w() {
-        return this.getRuleContext(0, S_and_wContext);
+    s_and_w(i) {
+        if (i === undefined) {
+            return this.getRuleContexts(S_and_wContext);
+        }
+        else {
+            return this.getRuleContext(i, S_and_wContext);
+        }
     }
     CL() { return this.getToken(sequenceParser.CL, 0); }
     COLON(i) {
@@ -8877,14 +8831,6 @@ class LeadContext extends ParserRuleContext_1.ParserRuleContext {
         }
         else {
             return this.getToken(sequenceParser.COLON, i);
-        }
-    }
-    words(i) {
-        if (i === undefined) {
-            return this.getRuleContexts(WordsContext);
-        }
-        else {
-            return this.getRuleContext(i, WordsContext);
         }
     }
     constructor(parent, invokingState) {

@@ -181,16 +181,16 @@ OPA:		'[@' S* ;  // At
 OPP:		'[+' S* ;  // Plus
 OPM:		'[-' S* ;  // Minus
 OPS:		'[\'' S* ; // [' Single quote
-OPR:		'[*' S* ;  // [*
-OPHASH:		'[#' S* ;
-OPC:	        '[%' S* ;  // [% Item
+OPR:		'[*' S* ;  // [* Asterisk
+OPHASH:	'[#' S* ;  // [# Hash
+OPC:	  '[%' S* ;  // [% Item
 
-CL:		S* ']' ;
+CL:		   S* ']' ;
 COLON:		':' ;
-AMP:		'&' ;
+AMP:		  '&' ;
 DBLCOLON:	'::' ;
-PLUS:		'+' ;
-DotAt:	   	'.@' ;
+PLUS:	  	'+' ;
+DotAt:	  '.@' ;
 Greater: 	'>' ;
 Less:		'<' ;
 RightAngle:	'►' ;

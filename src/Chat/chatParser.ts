@@ -4800,34 +4800,24 @@ export class chatParser extends Parser {
 				this.state = 1037;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-				while (((((_la - 28)) & ~0x1F) === 0 && ((1 << (_la - 28)) & ((1 << (chatParser.COLON - 28)) | (1 << (chatParser.AMP - 28)) | (1 << (chatParser.Greater - 28)) | (1 << (chatParser.Less - 28)) | (1 << (chatParser.RightAngle - 28)) | (1 << (chatParser.RightArrow - 28)) | (1 << (chatParser.DBLEQ - 28)) | (1 << (chatParser.NOTBITMARK - 28)) | (1 << (chatParser.ELIPSIS - 28)) | (1 << (chatParser.SENTENCE - 28)) | (1 << (chatParser.BARSTRING - 28)))) !== 0)) {
+				while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << chatParser.S) | (1 << chatParser.OPS) | (1 << chatParser.COLON) | (1 << chatParser.AMP) | (1 << chatParser.DBLCOLON))) !== 0) || ((((_la - 33)) & ~0x1F) === 0 && ((1 << (_la - 33)) & ((1 << (chatParser.Greater - 33)) | (1 << (chatParser.Less - 33)) | (1 << (chatParser.RightAngle - 33)) | (1 << (chatParser.RightArrow - 33)) | (1 << (chatParser.DBLEQ - 33)) | (1 << (chatParser.NUMERIC - 33)) | (1 << (chatParser.STRING - 33)) | (1 << (chatParser.NOTBITMARK - 33)) | (1 << (chatParser.ELIPSIS - 33)) | (1 << (chatParser.SENTENCE - 33)) | (1 << (chatParser.BARSTRING - 33)))) !== 0) || _la === chatParser.URL) {
 					{
 					this.state = 1035;
 					this._errHandler.sync(this);
-					switch (this._input.LA(1)) {
-					case chatParser.COLON:
+					switch ( this.interpreter.adaptivePredict(this._input, 130, this._ctx) ) {
+					case 1:
 						{
 						this.state = 1033;
 						this.match(chatParser.COLON);
 						}
 						break;
-					case chatParser.AMP:
-					case chatParser.Greater:
-					case chatParser.Less:
-					case chatParser.RightAngle:
-					case chatParser.RightArrow:
-					case chatParser.DBLEQ:
-					case chatParser.NOTBITMARK:
-					case chatParser.ELIPSIS:
-					case chatParser.SENTENCE:
-					case chatParser.BARSTRING:
+
+					case 2:
 						{
 						this.state = 1034;
-						this.words();
+						this.s_and_w();
 						}
 						break;
-					default:
-						throw new NoViableAltException(this);
 					}
 					}
 					this.state = 1039;
@@ -4893,34 +4883,24 @@ export class chatParser extends Parser {
 			this.state = 1058;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
-			while (((((_la - 28)) & ~0x1F) === 0 && ((1 << (_la - 28)) & ((1 << (chatParser.COLON - 28)) | (1 << (chatParser.AMP - 28)) | (1 << (chatParser.Greater - 28)) | (1 << (chatParser.Less - 28)) | (1 << (chatParser.RightAngle - 28)) | (1 << (chatParser.RightArrow - 28)) | (1 << (chatParser.DBLEQ - 28)) | (1 << (chatParser.NOTBITMARK - 28)) | (1 << (chatParser.ELIPSIS - 28)) | (1 << (chatParser.SENTENCE - 28)) | (1 << (chatParser.BARSTRING - 28)))) !== 0)) {
+			while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << chatParser.S) | (1 << chatParser.OPS) | (1 << chatParser.COLON) | (1 << chatParser.AMP) | (1 << chatParser.DBLCOLON))) !== 0) || ((((_la - 33)) & ~0x1F) === 0 && ((1 << (_la - 33)) & ((1 << (chatParser.Greater - 33)) | (1 << (chatParser.Less - 33)) | (1 << (chatParser.RightAngle - 33)) | (1 << (chatParser.RightArrow - 33)) | (1 << (chatParser.DBLEQ - 33)) | (1 << (chatParser.NUMERIC - 33)) | (1 << (chatParser.STRING - 33)) | (1 << (chatParser.NOTBITMARK - 33)) | (1 << (chatParser.ELIPSIS - 33)) | (1 << (chatParser.SENTENCE - 33)) | (1 << (chatParser.BARSTRING - 33)))) !== 0) || _la === chatParser.URL) {
 				{
 				this.state = 1056;
 				this._errHandler.sync(this);
-				switch (this._input.LA(1)) {
-				case chatParser.COLON:
+				switch ( this.interpreter.adaptivePredict(this._input, 135, this._ctx) ) {
+				case 1:
 					{
 					this.state = 1054;
 					this.match(chatParser.COLON);
 					}
 					break;
-				case chatParser.AMP:
-				case chatParser.Greater:
-				case chatParser.Less:
-				case chatParser.RightAngle:
-				case chatParser.RightArrow:
-				case chatParser.DBLEQ:
-				case chatParser.NOTBITMARK:
-				case chatParser.ELIPSIS:
-				case chatParser.SENTENCE:
-				case chatParser.BARSTRING:
+
+				case 2:
 					{
 					this.state = 1055;
-					this.words();
+					this.s_and_w();
 					}
 					break;
-				default:
-					throw new NoViableAltException(this);
 				}
 				}
 				this.state = 1060;
@@ -7323,7 +7303,7 @@ export class chatParser extends Parser {
 		"\x02\x02\u0404\u0406\x03\x02\x02\x02\u0405\u0403\x03\x02\x02\x02\u0406" +
 		"\u0408\x05\x80A\x02\u0407\u0403\x03\x02\x02\x02\u0407\u0408\x03\x02\x02" +
 		"\x02\u0408\u041D\x03\x02\x02\x02\u0409\u040A\x07\x1B\x02\x02\u040A\u040F" +
-		"\x05\xA8U\x02\u040B\u040E\x07\x1E\x02\x02\u040C\u040E\x05\xAEX\x02\u040D" +
+		"\x05\xA8U\x02\u040B\u040E\x07\x1E\x02\x02\u040C\u040E\x05\xA8U\x02\u040D" +
 		"\u040B\x03\x02\x02\x02\u040D\u040C\x03\x02\x02\x02\u040E\u0411\x03\x02" +
 		"\x02\x02\u040F\u040D\x03\x02\x02\x02\u040F\u0410\x03\x02\x02\x02\u0410" +
 		"\u0412\x03\x02\x02\x02\u0411\u040F\x03\x02\x02\x02\u0412\u041A\x07\x1D" +
@@ -7334,7 +7314,7 @@ export class chatParser extends Parser {
 		"\x02\u041B\u041D\x03\x02\x02\x02\u041C\u03FE\x03\x02\x02\x02\u041C\u0409" +
 		"\x03\x02\x02\x02\u041D\x7F\x03\x02\x02\x02\u041E\u041F\x07\x1B\x02\x02" +
 		"\u041F\u0424\x05\xA8U\x02\u0420\u0423\x07\x1E\x02\x02\u0421\u0423\x05" +
-		"\xAEX\x02\u0422\u0420\x03\x02\x02\x02\u0422\u0421\x03\x02\x02\x02\u0423" +
+		"\xA8U\x02\u0422\u0420\x03\x02\x02\x02\u0422\u0421\x03\x02\x02\x02\u0423" +
 		"\u0426\x03\x02\x02\x02\u0424\u0422\x03\x02\x02\x02\u0424\u0425\x03\x02" +
 		"\x02\x02\u0425\u0427\x03\x02\x02\x02\u0426\u0424\x03\x02\x02\x02\u0427" +
 		"\u0428\x07\x1D\x02\x02\u0428\x81\x03\x02\x02\x02\u0429\u042B\x07\x10\x02" +
@@ -9894,8 +9874,14 @@ export class ItemContext extends ParserRuleContext {
 			return this.getToken(chatParser.S, i);
 		}
 	}
-	public s_and_w(): S_and_wContext | undefined {
-		return this.tryGetRuleContext(0, S_and_wContext);
+	public s_and_w(): S_and_wContext[];
+	public s_and_w(i: number): S_and_wContext;
+	public s_and_w(i?: number): S_and_wContext | S_and_wContext[] {
+		if (i === undefined) {
+			return this.getRuleContexts(S_and_wContext);
+		} else {
+			return this.getRuleContext(i, S_and_wContext);
+		}
 	}
 	public COLON(): TerminalNode[];
 	public COLON(i: number): TerminalNode;
@@ -9904,15 +9890,6 @@ export class ItemContext extends ParserRuleContext {
 			return this.getTokens(chatParser.COLON);
 		} else {
 			return this.getToken(chatParser.COLON, i);
-		}
-	}
-	public words(): WordsContext[];
-	public words(i: number): WordsContext;
-	public words(i?: number): WordsContext | WordsContext[] {
-		if (i === undefined) {
-			return this.getRuleContexts(WordsContext);
-		} else {
-			return this.getRuleContext(i, WordsContext);
 		}
 	}
 	constructor(parent: ParserRuleContext | undefined, invokingState: number) {
@@ -9937,8 +9914,14 @@ export class ItemContext extends ParserRuleContext {
 
 export class LeadContext extends ParserRuleContext {
 	public OPC(): TerminalNode { return this.getToken(chatParser.OPC, 0); }
-	public s_and_w(): S_and_wContext {
-		return this.getRuleContext(0, S_and_wContext);
+	public s_and_w(): S_and_wContext[];
+	public s_and_w(i: number): S_and_wContext;
+	public s_and_w(i?: number): S_and_wContext | S_and_wContext[] {
+		if (i === undefined) {
+			return this.getRuleContexts(S_and_wContext);
+		} else {
+			return this.getRuleContext(i, S_and_wContext);
+		}
 	}
 	public CL(): TerminalNode { return this.getToken(chatParser.CL, 0); }
 	public COLON(): TerminalNode[];
@@ -9948,15 +9931,6 @@ export class LeadContext extends ParserRuleContext {
 			return this.getTokens(chatParser.COLON);
 		} else {
 			return this.getToken(chatParser.COLON, i);
-		}
-	}
-	public words(): WordsContext[];
-	public words(i: number): WordsContext;
-	public words(i?: number): WordsContext | WordsContext[] {
-		if (i === undefined) {
-			return this.getRuleContexts(WordsContext);
-		} else {
-			return this.getRuleContext(i, WordsContext);
 		}
 	}
 	constructor(parent: ParserRuleContext | undefined, invokingState: number) {

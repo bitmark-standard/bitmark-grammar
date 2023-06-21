@@ -5511,33 +5511,24 @@ export class choiceParser extends Parser {
 				this.state = 1156;
 				this._errHandler.sync(this);
 				_la = this._input.LA(1);
-				while (((((_la - 26)) & ~0x1F) === 0 && ((1 << (_la - 26)) & ((1 << (choiceParser.COLON - 26)) | (1 << (choiceParser.AMP - 26)) | (1 << (choiceParser.Greater - 26)) | (1 << (choiceParser.Less - 26)) | (1 << (choiceParser.RightAngle - 26)) | (1 << (choiceParser.RightArrow - 26)) | (1 << (choiceParser.NOTBITMARK - 26)) | (1 << (choiceParser.ELIPSIS - 26)) | (1 << (choiceParser.SENTENCE - 26)) | (1 << (choiceParser.BARSTRING - 26)))) !== 0)) {
+				while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP) | (1 << choiceParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (choiceParser.Less - 32)) | (1 << (choiceParser.RightAngle - 32)) | (1 << (choiceParser.RightArrow - 32)) | (1 << (choiceParser.DBLEQ - 32)) | (1 << (choiceParser.NUMERIC - 32)) | (1 << (choiceParser.STRING - 32)) | (1 << (choiceParser.NOTBITMARK - 32)) | (1 << (choiceParser.ELIPSIS - 32)) | (1 << (choiceParser.SENTENCE - 32)) | (1 << (choiceParser.BARSTRING - 32)))) !== 0) || _la === choiceParser.URL) {
 					{
 					this.state = 1154;
 					this._errHandler.sync(this);
-					switch (this._input.LA(1)) {
-					case choiceParser.COLON:
+					switch ( this.interpreter.adaptivePredict(this._input, 160, this._ctx) ) {
+					case 1:
 						{
 						this.state = 1152;
 						this.match(choiceParser.COLON);
 						}
 						break;
-					case choiceParser.AMP:
-					case choiceParser.Greater:
-					case choiceParser.Less:
-					case choiceParser.RightAngle:
-					case choiceParser.RightArrow:
-					case choiceParser.NOTBITMARK:
-					case choiceParser.ELIPSIS:
-					case choiceParser.SENTENCE:
-					case choiceParser.BARSTRING:
+
+					case 2:
 						{
 						this.state = 1153;
-						this.words();
+						this.s_and_w();
 						}
 						break;
-					default:
-						throw new NoViableAltException(this);
 					}
 					}
 					this.state = 1158;
@@ -5603,33 +5594,24 @@ export class choiceParser extends Parser {
 			this.state = 1177;
 			this._errHandler.sync(this);
 			_la = this._input.LA(1);
-			while (((((_la - 26)) & ~0x1F) === 0 && ((1 << (_la - 26)) & ((1 << (choiceParser.COLON - 26)) | (1 << (choiceParser.AMP - 26)) | (1 << (choiceParser.Greater - 26)) | (1 << (choiceParser.Less - 26)) | (1 << (choiceParser.RightAngle - 26)) | (1 << (choiceParser.RightArrow - 26)) | (1 << (choiceParser.NOTBITMARK - 26)) | (1 << (choiceParser.ELIPSIS - 26)) | (1 << (choiceParser.SENTENCE - 26)) | (1 << (choiceParser.BARSTRING - 26)))) !== 0)) {
+			while ((((_la) & ~0x1F) === 0 && ((1 << _la) & ((1 << choiceParser.S) | (1 << choiceParser.COLON) | (1 << choiceParser.AMP) | (1 << choiceParser.Greater))) !== 0) || ((((_la - 32)) & ~0x1F) === 0 && ((1 << (_la - 32)) & ((1 << (choiceParser.Less - 32)) | (1 << (choiceParser.RightAngle - 32)) | (1 << (choiceParser.RightArrow - 32)) | (1 << (choiceParser.DBLEQ - 32)) | (1 << (choiceParser.NUMERIC - 32)) | (1 << (choiceParser.STRING - 32)) | (1 << (choiceParser.NOTBITMARK - 32)) | (1 << (choiceParser.ELIPSIS - 32)) | (1 << (choiceParser.SENTENCE - 32)) | (1 << (choiceParser.BARSTRING - 32)))) !== 0) || _la === choiceParser.URL) {
 				{
 				this.state = 1175;
 				this._errHandler.sync(this);
-				switch (this._input.LA(1)) {
-				case choiceParser.COLON:
+				switch ( this.interpreter.adaptivePredict(this._input, 165, this._ctx) ) {
+				case 1:
 					{
 					this.state = 1173;
 					this.match(choiceParser.COLON);
 					}
 					break;
-				case choiceParser.AMP:
-				case choiceParser.Greater:
-				case choiceParser.Less:
-				case choiceParser.RightAngle:
-				case choiceParser.RightArrow:
-				case choiceParser.NOTBITMARK:
-				case choiceParser.ELIPSIS:
-				case choiceParser.SENTENCE:
-				case choiceParser.BARSTRING:
+
+				case 2:
 					{
 					this.state = 1174;
-					this.words();
+					this.s_and_w();
 					}
 					break;
-				default:
-					throw new NoViableAltException(this);
 				}
 				}
 				this.state = 1179;
@@ -8100,7 +8082,7 @@ export class choiceParser extends Parser {
 		"\x02\x02\x02\u047D\u047F\x05\x94K\x02\u047E\u047A\x03\x02\x02\x02\u047E" +
 		"\u047F\x03\x02\x02\x02\u047F\u0494\x03\x02\x02\x02\u0480\u0481\x07\x19" +
 		"\x02\x02\u0481\u0486\x05\xBE`\x02\u0482\u0485\x07\x1C\x02\x02\u0483\u0485" +
-		"\x05\xC4c\x02\u0484\u0482\x03\x02\x02\x02\u0484\u0483\x03\x02\x02\x02" +
+		"\x05\xBE`\x02\u0484\u0482\x03\x02\x02\x02\u0484\u0483\x03\x02\x02\x02" +
 		"\u0485\u0488\x03\x02\x02\x02\u0486\u0484\x03\x02\x02\x02\u0486\u0487\x03" +
 		"\x02\x02\x02\u0487\u0489\x03\x02\x02\x02\u0488\u0486\x03\x02\x02\x02\u0489" +
 		"\u0491\x07\x1B\x02\x02\u048A\u048C\x07\x04\x02\x02\u048B\u048A\x03\x02" +
@@ -8110,7 +8092,7 @@ export class choiceParser extends Parser {
 		"\x03\x02\x02\x02\u0492\u0494\x03\x02\x02\x02\u0493\u0475\x03\x02\x02\x02" +
 		"\u0493\u0480\x03\x02\x02\x02\u0494\x93\x03\x02\x02\x02\u0495\u0496\x07" +
 		"\x19\x02\x02\u0496\u049B\x05\xBE`\x02\u0497\u049A\x07\x1C\x02\x02\u0498" +
-		"\u049A\x05\xC4c\x02\u0499\u0497\x03\x02\x02\x02\u0499\u0498\x03\x02\x02" +
+		"\u049A\x05\xBE`\x02\u0499\u0497\x03\x02\x02\x02\u0499\u0498\x03\x02\x02" +
 		"\x02\u049A\u049D\x03\x02\x02\x02\u049B\u0499\x03\x02\x02\x02\u049B\u049C" +
 		"\x03\x02\x02\x02\u049C\u049E\x03\x02\x02\x02\u049D\u049B\x03\x02\x02\x02" +
 		"\u049E\u049F\x07\x1B\x02\x02\u049F\x95\x03\x02\x02\x02\u04A0\u04A2\x07" +
@@ -11075,8 +11057,14 @@ export class ItemContext extends ParserRuleContext {
 			return this.getToken(choiceParser.S, i);
 		}
 	}
-	public s_and_w(): S_and_wContext | undefined {
-		return this.tryGetRuleContext(0, S_and_wContext);
+	public s_and_w(): S_and_wContext[];
+	public s_and_w(i: number): S_and_wContext;
+	public s_and_w(i?: number): S_and_wContext | S_and_wContext[] {
+		if (i === undefined) {
+			return this.getRuleContexts(S_and_wContext);
+		} else {
+			return this.getRuleContext(i, S_and_wContext);
+		}
 	}
 	public COLON(): TerminalNode[];
 	public COLON(i: number): TerminalNode;
@@ -11085,15 +11073,6 @@ export class ItemContext extends ParserRuleContext {
 			return this.getTokens(choiceParser.COLON);
 		} else {
 			return this.getToken(choiceParser.COLON, i);
-		}
-	}
-	public words(): WordsContext[];
-	public words(i: number): WordsContext;
-	public words(i?: number): WordsContext | WordsContext[] {
-		if (i === undefined) {
-			return this.getRuleContexts(WordsContext);
-		} else {
-			return this.getRuleContext(i, WordsContext);
 		}
 	}
 	constructor(parent: ParserRuleContext | undefined, invokingState: number) {
@@ -11118,8 +11097,14 @@ export class ItemContext extends ParserRuleContext {
 
 export class LeadContext extends ParserRuleContext {
 	public OPC(): TerminalNode { return this.getToken(choiceParser.OPC, 0); }
-	public s_and_w(): S_and_wContext {
-		return this.getRuleContext(0, S_and_wContext);
+	public s_and_w(): S_and_wContext[];
+	public s_and_w(i: number): S_and_wContext;
+	public s_and_w(i?: number): S_and_wContext | S_and_wContext[] {
+		if (i === undefined) {
+			return this.getRuleContexts(S_and_wContext);
+		} else {
+			return this.getRuleContext(i, S_and_wContext);
+		}
 	}
 	public CL(): TerminalNode { return this.getToken(choiceParser.CL, 0); }
 	public COLON(): TerminalNode[];
@@ -11129,15 +11114,6 @@ export class LeadContext extends ParserRuleContext {
 			return this.getTokens(choiceParser.COLON);
 		} else {
 			return this.getToken(choiceParser.COLON, i);
-		}
-	}
-	public words(): WordsContext[];
-	public words(i: number): WordsContext;
-	public words(i?: number): WordsContext | WordsContext[] {
-		if (i === undefined) {
-			return this.getRuleContexts(WordsContext);
-		} else {
-			return this.getRuleContext(i, WordsContext);
 		}
 	}
 	constructor(parent: ParserRuleContext | undefined, invokingState: number) {

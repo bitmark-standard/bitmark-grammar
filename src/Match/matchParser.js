@@ -6551,6 +6551,7 @@ class matchParser extends Parser_1.Parser {
         this.enterRule(_localctx, 168, matchParser.RULE_item);
         let _la;
         try {
+            let _alt;
             this.state = 1640;
             this._errHandler.sync(this);
             switch (this.interpreter.adaptivePredict(this._input, 224, this._ctx)) {
@@ -6596,39 +6597,31 @@ class matchParser extends Parser_1.Parser {
                         this.s_and_w();
                         this.state = 1627;
                         this._errHandler.sync(this);
-                        _la = this._input.LA(1);
-                        while (((((_la - 28)) & ~0x1F) === 0 && ((1 << (_la - 28)) & ((1 << (matchParser.COLON - 28)) | (1 << (matchParser.AMP - 28)) | (1 << (matchParser.Greater - 28)) | (1 << (matchParser.Less - 28)) | (1 << (matchParser.RightAngle - 28)) | (1 << (matchParser.RightArrow - 28)) | (1 << (matchParser.NOTBITMARK - 28)) | (1 << (matchParser.ELIPSIS - 28)) | (1 << (matchParser.SENTENCE - 28)) | (1 << (matchParser.BARSTRING - 28)))) !== 0)) {
-                            {
-                                this.state = 1625;
-                                this._errHandler.sync(this);
-                                switch (this._input.LA(1)) {
-                                    case matchParser.COLON:
-                                        {
-                                            this.state = 1623;
-                                            this.match(matchParser.COLON);
-                                        }
-                                        break;
-                                    case matchParser.AMP:
-                                    case matchParser.Greater:
-                                    case matchParser.Less:
-                                    case matchParser.RightAngle:
-                                    case matchParser.RightArrow:
-                                    case matchParser.NOTBITMARK:
-                                    case matchParser.ELIPSIS:
-                                    case matchParser.SENTENCE:
-                                    case matchParser.BARSTRING:
-                                        {
-                                            this.state = 1624;
-                                            this.words();
-                                        }
-                                        break;
-                                    default:
-                                        throw new NoViableAltException_1.NoViableAltException(this);
+                        _alt = this.interpreter.adaptivePredict(this._input, 221, this._ctx);
+                        while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                            if (_alt === 1) {
+                                {
+                                    this.state = 1625;
+                                    this._errHandler.sync(this);
+                                    switch (this.interpreter.adaptivePredict(this._input, 220, this._ctx)) {
+                                        case 1:
+                                            {
+                                                this.state = 1623;
+                                                this.match(matchParser.COLON);
+                                            }
+                                            break;
+                                        case 2:
+                                            {
+                                                this.state = 1624;
+                                                this.s_and_w();
+                                            }
+                                            break;
+                                    }
                                 }
                             }
                             this.state = 1629;
                             this._errHandler.sync(this);
-                            _la = this._input.LA(1);
+                            _alt = this.interpreter.adaptivePredict(this._input, 221, this._ctx);
                         }
                         this.state = 1630;
                         this.match(matchParser.CL);
@@ -6679,8 +6672,8 @@ class matchParser extends Parser_1.Parser {
     lead() {
         let _localctx = new LeadContext(this._ctx, this.state);
         this.enterRule(_localctx, 170, matchParser.RULE_lead);
-        let _la;
         try {
+            let _alt;
             this.enterOuterAlt(_localctx, 1);
             {
                 this.state = 1642;
@@ -6689,39 +6682,31 @@ class matchParser extends Parser_1.Parser {
                 this.s_and_w();
                 this.state = 1648;
                 this._errHandler.sync(this);
-                _la = this._input.LA(1);
-                while (((((_la - 28)) & ~0x1F) === 0 && ((1 << (_la - 28)) & ((1 << (matchParser.COLON - 28)) | (1 << (matchParser.AMP - 28)) | (1 << (matchParser.Greater - 28)) | (1 << (matchParser.Less - 28)) | (1 << (matchParser.RightAngle - 28)) | (1 << (matchParser.RightArrow - 28)) | (1 << (matchParser.NOTBITMARK - 28)) | (1 << (matchParser.ELIPSIS - 28)) | (1 << (matchParser.SENTENCE - 28)) | (1 << (matchParser.BARSTRING - 28)))) !== 0)) {
-                    {
-                        this.state = 1646;
-                        this._errHandler.sync(this);
-                        switch (this._input.LA(1)) {
-                            case matchParser.COLON:
-                                {
-                                    this.state = 1644;
-                                    this.match(matchParser.COLON);
-                                }
-                                break;
-                            case matchParser.AMP:
-                            case matchParser.Greater:
-                            case matchParser.Less:
-                            case matchParser.RightAngle:
-                            case matchParser.RightArrow:
-                            case matchParser.NOTBITMARK:
-                            case matchParser.ELIPSIS:
-                            case matchParser.SENTENCE:
-                            case matchParser.BARSTRING:
-                                {
-                                    this.state = 1645;
-                                    this.words();
-                                }
-                                break;
-                            default:
-                                throw new NoViableAltException_1.NoViableAltException(this);
+                _alt = this.interpreter.adaptivePredict(this._input, 226, this._ctx);
+                while (_alt !== 2 && _alt !== ATN_1.ATN.INVALID_ALT_NUMBER) {
+                    if (_alt === 1) {
+                        {
+                            this.state = 1646;
+                            this._errHandler.sync(this);
+                            switch (this.interpreter.adaptivePredict(this._input, 225, this._ctx)) {
+                                case 1:
+                                    {
+                                        this.state = 1644;
+                                        this.match(matchParser.COLON);
+                                    }
+                                    break;
+                                case 2:
+                                    {
+                                        this.state = 1645;
+                                        this.s_and_w();
+                                    }
+                                    break;
+                            }
                         }
                     }
                     this.state = 1650;
                     this._errHandler.sync(this);
-                    _la = this._input.LA(1);
+                    _alt = this.interpreter.adaptivePredict(this._input, 226, this._ctx);
                 }
                 this.state = 1651;
                 this.match(matchParser.CL);
@@ -10234,7 +10219,7 @@ matchParser._serializedATNSegment3 = "\u05F1\u05EF\x03\x02\x02\x02\u05F2\u05F4\x
     "\x02\x02\x02\u0653\u0651\x03\x02\x02\x02\u0654\u0656\x05\xACW\x02\u0655" +
     "\u0651\x03\x02\x02\x02\u0655\u0656\x03\x02\x02\x02\u0656\u066B\x03\x02" +
     "\x02\x02\u0657\u0658\x07\x1B\x02\x02\u0658\u065D\x05\xDAn\x02\u0659\u065C" +
-    "\x07\x1E\x02\x02\u065A\u065C\x05\xF6|\x02\u065B\u0659\x03\x02\x02\x02" +
+    "\x07\x1E\x02\x02\u065A\u065C\x05\xDAn\x02\u065B\u0659\x03\x02\x02\x02" +
     "\u065B\u065A\x03\x02\x02\x02\u065C\u065F\x03\x02\x02\x02\u065D\u065B\x03" +
     "\x02\x02\x02\u065D\u065E\x03\x02\x02\x02\u065E\u0660\x03\x02\x02\x02\u065F" +
     "\u065D\x03\x02\x02\x02\u0660\u0668\x07\x1D\x02\x02\u0661\u0663\x07\x04" +
@@ -10244,7 +10229,7 @@ matchParser._serializedATNSegment3 = "\u05F1\u05EF\x03\x02\x02\x02\u05F2\u05F4\x
     "\x03\x02\x02\x02\u0668\u0669\x03\x02\x02\x02\u0669\u066B\x03\x02\x02\x02" +
     "\u066A\u064C\x03\x02\x02\x02\u066A\u0657\x03\x02\x02\x02\u066B\xAB\x03" +
     "\x02\x02\x02\u066C\u066D\x07\x1B\x02\x02\u066D\u0672\x05\xDAn\x02\u066E" +
-    "\u0671\x07\x1E\x02\x02\u066F\u0671\x05\xF6|\x02\u0670\u066E\x03\x02\x02" +
+    "\u0671\x07\x1E\x02\x02\u066F\u0671\x05\xDAn\x02\u0670\u066E\x03\x02\x02" +
     "\x02\u0670\u066F\x03\x02\x02\x02\u0671\u0674\x03\x02\x02\x02\u0672\u0670" +
     "\x03\x02\x02\x02\u0672\u0673\x03\x02\x02\x02\u0673\u0675\x03\x02\x02\x02" +
     "\u0674\u0672\x03\x02\x02\x02\u0675\u0676\x07\x1D\x02\x02\u0676\xAD\x03" +
@@ -13706,8 +13691,13 @@ class ItemContext extends ParserRuleContext_1.ParserRuleContext {
             return this.getToken(matchParser.S, i);
         }
     }
-    s_and_w() {
-        return this.tryGetRuleContext(0, S_and_wContext);
+    s_and_w(i) {
+        if (i === undefined) {
+            return this.getRuleContexts(S_and_wContext);
+        }
+        else {
+            return this.getRuleContext(i, S_and_wContext);
+        }
     }
     COLON(i) {
         if (i === undefined) {
@@ -13715,14 +13705,6 @@ class ItemContext extends ParserRuleContext_1.ParserRuleContext {
         }
         else {
             return this.getToken(matchParser.COLON, i);
-        }
-    }
-    words(i) {
-        if (i === undefined) {
-            return this.getRuleContexts(WordsContext);
-        }
-        else {
-            return this.getRuleContext(i, WordsContext);
         }
     }
     constructor(parent, invokingState) {
@@ -13746,8 +13728,13 @@ class ItemContext extends ParserRuleContext_1.ParserRuleContext {
 exports.ItemContext = ItemContext;
 class LeadContext extends ParserRuleContext_1.ParserRuleContext {
     OPC() { return this.getToken(matchParser.OPC, 0); }
-    s_and_w() {
-        return this.getRuleContext(0, S_and_wContext);
+    s_and_w(i) {
+        if (i === undefined) {
+            return this.getRuleContexts(S_and_wContext);
+        }
+        else {
+            return this.getRuleContext(i, S_and_wContext);
+        }
     }
     CL() { return this.getToken(matchParser.CL, 0); }
     COLON(i) {
@@ -13756,14 +13743,6 @@ class LeadContext extends ParserRuleContext_1.ParserRuleContext {
         }
         else {
             return this.getToken(matchParser.COLON, i);
-        }
-    }
-    words(i) {
-        if (i === undefined) {
-            return this.getRuleContexts(WordsContext);
-        }
-        else {
-            return this.getRuleContext(i, WordsContext);
         }
     }
     constructor(parent, invokingState) {
