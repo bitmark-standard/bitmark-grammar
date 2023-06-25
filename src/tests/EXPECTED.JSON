@@ -14678,6 +14678,24 @@
             "aiGenerated": false
         }
     }
+]<<<<./tests/release-notes-summary.bit
+[
+    {
+        "bitmark": "[.release-notes-summary]\n[@id:229899]\n[%][%A new role for L&D]\nIf you use Visual Studio Code, you can view and incorporate suggestions from GitHub Copilot directly within the editor. This guide demonstrates how to use GitHub Copilot within Visual Studio Code for macOS, Windows, or Linux.\nIf you use Visual Studio Code, you can view and incorporate suggestions from GitHub Copilot directly within the editor. This guide demonstrates how to use GitHub Copilot within Visual Studio Code for macOS, Windows, or Linux.\nIf you use Visual Studio Code, you can view and incorporate suggestions from GitHub Copilot directly within the editor. This guide demonstrates how to use GitHub Copilot within Visual Studio Code for macOS, Windows, or Linux.",
+        "bit": {
+            "type": "release-notes-summary",
+            "format": "bitmark--",
+            "body": "If you use Visual Studio Code, you can view and incorporate suggestions from GitHub Copilot directly within the editor. This guide demonstrates how to use GitHub Copilot within Visual Studio Code for macOS, Windows, or Linux.\nIf you use Visual Studio Code, you can view and incorporate suggestions from GitHub Copilot directly within the editor. This guide demonstrates how to use GitHub Copilot within Visual Studio Code for macOS, Windows, or Linux.\nIf you use Visual Studio Code, you can view and incorporate suggestions from GitHub Copilot directly within the editor. This guide demonstrates how to use GitHub Copilot within Visual Studio Code for macOS, Windows, or Linux.",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "229899"
+            ],
+            "lead": "A new role for L&D"
+        }
+    }
 ]
 <<<<
   

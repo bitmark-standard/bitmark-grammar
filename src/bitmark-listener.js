@@ -2787,6 +2787,7 @@ BitmarkListener.prototype.enterConversation_left_1_thought = function(ctx) { thi
 BitmarkListener.prototype.enterConversation_right_1_thought = function(ctx) { this.push_tmpl(ctx, 'conversation-right-1-thought'); }
 BitmarkListener.prototype.enterConversation_left_1_scream = function(ctx) { this.push_tmpl(ctx, 'conversation-left-1-scream'); }
 BitmarkListener.prototype.enterConversation_right_1_scream = function(ctx) { this.push_tmpl(ctx, 'conversation-right-1-scream'); }
+BitmarkListener.prototype.enterRelease_notes_summary = function(ctx) { this.push_tmpl(ctx, 'release-notes-summary'); }
 
 BitmarkListener.prototype.enterMenu_3_course = function(ctx) {
   this.push_tmpl(ctx, 'menu-3-course');

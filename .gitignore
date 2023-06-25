@@ -26,3 +26,5 @@ src/tmp/*
 dist/*
 src/typescript-es6/bitmarkLexer.js-e
 node_modules
+src/typescript/.antlr/*
+

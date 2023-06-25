@@ -1,4 +1,4 @@
-[.article]
+[.release-notes-summary]
 [@id:229899]
 [%][%A new role for L&D]
 If you use Visual Studio Code, you can view and incorporate suggestions from GitHub Copilot directly within the editor. This guide demonstrates how to use GitHub Copilot within Visual Studio Code for macOS, Windows, or Linux.
