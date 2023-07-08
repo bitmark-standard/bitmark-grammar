@@ -1,19 +1,4 @@
-[.bot-action-response:bitmark++]
-[@id:110405]
-[!Welches sind neben psychologischer Sicherheit die häufigsten Faktoren, die ein Hochleistungsteam auszeichnen?]
-===
-[!Personelle Zusammensetzung des Teams, Anzahl Teammitglieder, Seniorität]
-🙁 das ist nicht richtig!
-===
-[!Arbeitsumfang, Verortung des Teams, einzelne Performance der Teammitglieder]
-🙁 das ist nicht richtig!
-===
-[!Zuverlässigkeit, Struktur und Erwarungsklarheit, Sinn, Impact]
-👍🏾 Perfekt!
-===
-Das Forschungsteam von Google hat in einem mehrjährigen konzerninternen Projekt herausgefunden, dass diejenigen Teams die effizientesten und produktivsten sind, welche folgende vier Faktoren aufweisen (nach Relevanz geordnet):
-
-[.bot-action-response:bitmark++]
+[.bot-action-true-false:bitmark++]
 [@id:110405]
 [!Welches sind neben psychologischer Sicherheit die häufigsten Faktoren, die ein Hochleistungsteam auszeichnen?]
 ===
@@ -41,7 +26,7 @@ Das Forschungsteam von Google hat in einem mehrjährigen konzerninternen Projekt
 •1 Impact
 
 
-[.bot-action-response]
+[.bot-action-rating-number]
 [@id:110406]
 [!Welche vier Kernpunkte müssen wir bei einem Transformationsprozess beachten? 
 

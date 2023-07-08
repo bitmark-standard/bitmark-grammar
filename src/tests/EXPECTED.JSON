@@ -14697,5 +14697,173 @@
         }
     }
 ]
+<<<<./tests/bot-action-response2.bit
+[
+    {
+        "bitmark": "[.bot-action-response:bitmark++]\n[@id:110405]\n[!Welches sind neben psychologischer Sicherheit die häufigsten Faktoren, die ein Hochleistungsteam auszeichnen?]\n===\n[!Personelle Zusammensetzung des Teams, Anzahl Teammitglieder, Seniorität]\n[%A]\n[@reaction:wrong]\n🙁 das ist nicht richtig!\n===\n[!Arbeitsumfang, Verortung des Teams, einzelne Performance der Teammitglieder]\n[%B]\n[@reaction:wrong]\n🙁 das ist nicht richtig!\n===\n[!Zuverlässigkeit, Struktur und Erwarungsklarheit, Sinn, Impact]\n[%C]\n[@reaction:celebrate]\n👍🏾 Perfekt!\n===\nDas Forschungsteam von Google hat in einem mehrjährigen konzerninternen Projekt herausgefunden, dass diejenigen Teams die effizientesten und produktivsten sind, welche folgende vier Faktoren aufweisen (nach Relevanz geordnet):\n\n•1 Psychologische Sicherheit\n•1 Zuverlässigkeit\n•1 Struktur und Erwartungsklarheit\n•1 Sinn\n•1 Impact",
+        "bit": {
+            "type": "bot-action-response",
+            "format": "bitmark++",
+            "body": "",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "110405"
+            ],
+            "instruction": "Welches sind neben psychologischer Sicherheit die häufigsten Faktoren, die ein Hochleistungsteam auszeichnen?",
+            "responses": [
+                {
+                    "response": "Personelle Zusammensetzung des Teams, Anzahl Teammitglieder, Seniorität",
+                    "reaction": "wrong",
+                    "item": "A",
+                    "feedback": "🙁 das ist nicht richtig!"
+                },
+                {
+                    "response": "Arbeitsumfang, Verortung des Teams, einzelne Performance der Teammitglieder",
+                    "reaction": "wrong",
+                    "item": "B",
+                    "feedback": "🙁 das ist nicht richtig!"
+                },
+                {
+                    "response": "Zuverlässigkeit, Struktur und Erwarungsklarheit, Sinn, Impact",
+                    "reaction": "celebrate",
+                    "item": "C",
+                    "feedback": "👍🏾 Perfekt!"
+                }
+            ],
+            "footer": "Das Forschungsteam von Google hat in einem mehrjährigen konzerninternen Projekt herausgefunden, dass diejenigen Teams die effizientesten und produktivsten sind, welche folgende vier Faktoren aufweisen (nach Relevanz geordnet):\n\n•1 Psychologische Sicherheit\n•1 Zuverlässigkeit\n•1 Struktur und Erwartungsklarheit\n•1 Sinn\n•1 Impact"
+        }
+    },
+    {
+        "bitmark": "[.bot-action-response]\n[@id:110406]\n[!Welche vier Kernpunkte müssen wir bei einem Transformationsprozess beachten? \n\nBrüchig]\n===\n[!Resilient]\n[%A]\n[@reaction:celebrate]\n👍🏾 Perfekt!\n===\n[!Achtsam]\n[%B]\n[@reaction:wrong]\n🙁 das ist nicht richtig!\n===\n[!Adaptiv]\n[%C]\n[@reaction:wrong]\n🙁 das ist nicht richtig!\n===\n[!Transparent]\n[%D]\n[@reaction:wrong]\n🙁 das ist nicht richtig!\n===\nMit einem hohen Mass an Resilienz, Achtsamkeit, Adaption und Transparenz können wir uns den systemischen Herausforderungen der heutigen Zeit (BANI) stellen.",
+        "bit": {
+            "type": "bot-action-response",
+            "format": "bitmark--",
+            "body": "",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "110406"
+            ],
+            "instruction": "Welche vier Kernpunkte müssen wir bei einem Transformationsprozess beachten? \n\nBrüchig",
+            "responses": [
+                {
+                    "response": "Resilient",
+                    "reaction": "celebrate",
+                    "item": "A",
+                    "feedback": "👍🏾 Perfekt!"
+                },
+                {
+                    "response": "Achtsam",
+                    "reaction": "wrong",
+                    "item": "B",
+                    "feedback": "🙁 das ist nicht richtig!"
+                },
+                {
+                    "response": "Adaptiv",
+                    "reaction": "wrong",
+                    "item": "C",
+                    "feedback": "🙁 das ist nicht richtig!"
+                },
+                {
+                    "response": "Transparent",
+                    "reaction": "wrong",
+                    "item": "D",
+                    "feedback": "🙁 das ist nicht richtig!"
+                }
+            ],
+            "footer": "Mit einem hohen Mass an Resilienz, Achtsamkeit, Adaption und Transparenz können wir uns den systemischen Herausforderungen der heutigen Zeit (BANI) stellen."
+        }
+    }
+]
+<<<<./tests/bot-action-response3.bit
+[
+    {
+        "bitmark": "[.bot-action-true-false:bitmark++]\n[@id:110405]\n[!Welches sind neben psychologischer Sicherheit die häufigsten Faktoren, die ein Hochleistungsteam auszeichnen?]\n===\n[!Personelle Zusammensetzung des Teams, Anzahl Teammitglieder, Seniorität]\n[%A]\n[@reaction:wrong]\n🙁 das ist nicht richtig!\n===\n[!Arbeitsumfang, Verortung des Teams, einzelne Performance der Teammitglieder]\n[%B]\n[@reaction:wrong]\n🙁 das ist nicht richtig!\n===\n[!Zuverlässigkeit, Struktur und Erwarungsklarheit, Sinn, Impact]\n[%C]\n[@reaction:celebrate]\n👍🏾 Perfekt!\n===\nDas Forschungsteam von Google hat in einem mehrjährigen konzerninternen Projekt herausgefunden, dass diejenigen Teams die effizientesten und produktivsten sind, welche folgende vier Faktoren aufweisen (nach Relevanz geordnet):\n\n•1 Psychologische Sicherheit\n•1 Zuverlässigkeit\n•1 Struktur und Erwartungsklarheit\n•1 Sinn\n•1 Impact",
+        "bit": {
+            "type": "bot-action-true-false",
+            "format": "bitmark++",
+            "body": "",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "110405"
+            ],
+            "instruction": "Welches sind neben psychologischer Sicherheit die häufigsten Faktoren, die ein Hochleistungsteam auszeichnen?",
+            "responses": [
+                {
+                    "response": "Personelle Zusammensetzung des Teams, Anzahl Teammitglieder, Seniorität",
+                    "reaction": "wrong",
+                    "item": "A",
+                    "feedback": "🙁 das ist nicht richtig!"
+                },
+                {
+                    "response": "Arbeitsumfang, Verortung des Teams, einzelne Performance der Teammitglieder",
+                    "reaction": "wrong",
+                    "item": "B",
+                    "feedback": "🙁 das ist nicht richtig!"
+                },
+                {
+                    "response": "Zuverlässigkeit, Struktur und Erwarungsklarheit, Sinn, Impact",
+                    "reaction": "celebrate",
+                    "item": "C",
+                    "feedback": "👍🏾 Perfekt!"
+                }
+            ],
+            "footer": "Das Forschungsteam von Google hat in einem mehrjährigen konzerninternen Projekt herausgefunden, dass diejenigen Teams die effizientesten und produktivsten sind, welche folgende vier Faktoren aufweisen (nach Relevanz geordnet):\n\n•1 Psychologische Sicherheit\n•1 Zuverlässigkeit\n•1 Struktur und Erwartungsklarheit\n•1 Sinn\n•1 Impact"
+        }
+    },
+    {
+        "bitmark": "[.bot-action-rating-number]\n[@id:110406]\n[!Welche vier Kernpunkte müssen wir bei einem Transformationsprozess beachten? \n\nBrüchig]\n===\n[!Resilient]\n[%A]\n[@reaction:celebrate]\n👍🏾 Perfekt!\n===\n[!Achtsam]\n[%B]\n[@reaction:wrong]\n🙁 das ist nicht richtig!\n===\n[!Adaptiv]\n[%C]\n[@reaction:wrong]\n🙁 das ist nicht richtig!\n===\n[!Transparent]\n[%D]\n[@reaction:wrong]\n🙁 das ist nicht richtig!\n===\nMit einem hohen Mass an Resilienz, Achtsamkeit, Adaption und Transparenz können wir uns den systemischen Herausforderungen der heutigen Zeit (BANI) stellen.",
+        "bit": {
+            "type": "bot-action-rating-number",
+            "format": "bitmark--",
+            "body": "",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "110406"
+            ],
+            "instruction": "Welche vier Kernpunkte müssen wir bei einem Transformationsprozess beachten? \n\nBrüchig",
+            "responses": [
+                {
+                    "response": "Resilient",
+                    "reaction": "celebrate",
+                    "item": "A",
+                    "feedback": "👍🏾 Perfekt!"
+                },
+                {
+                    "response": "Achtsam",
+                    "reaction": "wrong",
+                    "item": "B",
+                    "feedback": "🙁 das ist nicht richtig!"
+                },
+                {
+                    "response": "Adaptiv",
+                    "reaction": "wrong",
+                    "item": "C",
+                    "feedback": "🙁 das ist nicht richtig!"
+                },
+                {
+                    "response": "Transparent",
+                    "reaction": "wrong",
+                    "item": "D",
+                    "feedback": "🙁 das ist nicht richtig!"
+                }
+            ],
+            "footer": "Mit einem hohen Mass an Resilienz, Achtsamkeit, Adaption und Transparenz können wir uns den systemischen Herausforderungen der heutigen Zeit (BANI) stellen.",
+            "ratingStart": "Achtsam",
+            "ratingEnd": "Transparent"
+        }
+    }
+]
 <<<<
   

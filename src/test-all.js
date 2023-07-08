@@ -165,6 +165,8 @@ const testfiles = [
   './tests/image-audio-video.bit',
   './tests/links.bit',
   './tests/bot-action-response.bit',
+  './tests/bot-action-response2.bit',
+  './tests/bot-action-response3.bit',
 
   './tests/resource-all.bit',
   './tests/document.bit',  
