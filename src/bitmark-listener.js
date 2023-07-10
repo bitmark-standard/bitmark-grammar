@@ -7,6 +7,7 @@
 const R = require('ramda');
 const Stack = require('./stack').Stack;
 const but = require('./bit-utils');
+const { debug } = require('console');
 const JSON_BIT_TEMPLATES = require('./bit-template.js').JSON_BIT_TEMPLATES;
 
 

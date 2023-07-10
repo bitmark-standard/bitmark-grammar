@@ -156,7 +156,7 @@ class BitUtil {
     return '';
   }
 
-  // Retrieve the string between ]nl and nl
+  
   getstring_insidenl(ctx) {
     let tmps = 'no children';
     if (!ctx.children) {
@@ -182,28 +182,38 @@ class BitUtil {
             while (this.source[stop] !== '\n')
               stop++;
           }
-          else if (this.source[start - 2] === '\n') { // source[start] is the 2nd char of a utf code
-            start--; nloff = 1;
-            while (this.source[stop] !== '\n')
-              stop++;
+          else {
+            if (this.source[start - 2] === '\n') { // source[start] is the 2nd char of a utf code
+              // some emojis are 3 chars long
+              start--; 
+              nloff = 1;
+              while (this.source[stop] !== '\n')
+                stop++;
+            }
           }
           while (this.source[start - nloff] != '\n')
             nloff++;
           nloff--;   // skip \n
-          return R.slice(start - nloff, stop + nloff, this.source);
+          let sr = R.slice(start - nloff, stop + nloff, this.source);
+          return sr;
         }
-        let nloff0 = nloff;
-        tmps = R.slice(start + nloff, stop + nloff + 2, this.source);
+        let nloff0 = nloff, magic = 2;
+        if (this.source[stop + nloff + magic] !== '\n')
+          magic++;
+        
+        tmps = R.slice(start + nloff, stop + nloff + magic, this.source);
         let i = 0;
         while (tmps[i++].match(/[ \t\n\r]/))
           nloff++;
         if (nloff0 != nloff)
-          tmps = R.slice(start + nloff, stop + nloff + 2, this.source);
+          tmps = R.slice(start + nloff, stop + nloff + magic, this.source);
       }
       return tmps;
     }
     return '';
-  }
+  }  
+
+  
 
   /*
    * Splits the source bitbook into each and every bit.

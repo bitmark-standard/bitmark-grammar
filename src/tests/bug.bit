@@ -1,70 +1,17 @@
-[.bot-action-response:bitmark++]
-[@id:110405]
-[!Welches sind neben psychologischer Sicherheit die häufigsten Faktoren, die ein Hochleistungsteam auszeichnen?]
-===
-[!Personelle Zusammensetzung des Teams, Anzahl Teammitglieder, Seniorität]
-🙁 das ist nicht richtig!
-===
-[!Arbeitsumfang, Verortung des Teams, einzelne Performance der Teammitglieder]
-🙁 das ist nicht richtig!
-===
-[!Zuverlässigkeit, Struktur und Erwarungsklarheit, Sinn, Impact]
-👍🏾 Perfekt!
-===
-Das Forschungsteam von Google hat in einem mehrjährigen konzerninternen Projekt herausgefunden, dass diejenigen Teams die effizientesten und produktivsten sind, welche folgende vier Faktoren aufweisen (nach Relevanz geordnet):
-
-[.bot-action-response:bitmark++]
-[@id:110405]
-[!Welches sind neben psychologischer Sicherheit die häufigsten Faktoren, die ein Hochleistungsteam auszeichnen?]
-===
-[!Personelle Zusammensetzung des Teams, Anzahl Teammitglieder, Seniorität]
-[%A]
-[@reaction:wrong]
-🙁 das ist nicht richtig!
-===
-[!Arbeitsumfang, Verortung des Teams, einzelne Performance der Teammitglieder]
-[%B]
-[@reaction:wrong]
-🙁 das ist nicht richtig!
-===
-[!Zuverlässigkeit, Struktur und Erwarungsklarheit, Sinn, Impact]
-[%C]
-[@reaction:celebrate]
-👍🏾 Perfekt!
-===
-Das Forschungsteam von Google hat in einem mehrjährigen konzerninternen Projekt herausgefunden, dass diejenigen Teams die effizientesten und produktivsten sind, welche folgende vier Faktoren aufweisen (nach Relevanz geordnet):
-
-•1 Psychologische Sicherheit
-•1 Zuverlässigkeit
-•1 Struktur und Erwartungsklarheit
-•1 Sinn
-•1 Impact
-
-
-[.bot-action-response]
+[.bot-action-rating-number]
 [@id:110406]
-[!Welche vier Kernpunkte müssen wir bei einem Transformationsprozess beachten? 
-
-Brüchig]
+Brüchig
 ===
 [!Resilient]
-[%A]
-[@reaction:celebrate]
 👍🏾 Perfekt!
 ===
 [!Achtsam]
-[%B]
-[@reaction:wrong]
-🙁 das ist nicht richtig!
+🙁 this is not right!
 ===
 [!Adaptiv]
-[%C]
-[@reaction:wrong]
-🙁 das ist nicht richtig!
+🙁 you are super wired!
 ===
 [!Transparent]
-[%D]
-[@reaction:wrong]
-🙁 das ist nicht richtig!
+😭✋😳 you can leave it like that!
 ===
 Mit einem hohen Mass an Resilienz, Achtsamkeit, Adaption und Transparenz können wir uns den systemischen Herausforderungen der heutigen Zeit (BANI) stellen.
