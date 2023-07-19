@@ -430,7 +430,9 @@ self_assessment:
 ;
 self_assess_s_and_w:  ~( OPBUL )+  ;
 
+// ********************** import the common parser here*************
 <<<<<<common<<<<<<
+// ******************************************************************
 
 //
 lines:

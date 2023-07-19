@@ -210,9 +210,9 @@ bullet_item:
     OPBUL s_and_w CL ( atpoint )?
 ;
 
-//***************** import the common parser here********
-import bitmark_common_parser;
-//********************************************************
+// ********************** import the common parser here*************
+<<<<<<common<<<<<<
+// ******************************************************************
 
 
 dcolon: DBLCOLON ;

@@ -2,9 +2,6 @@
     common part of the bitmark parser
 
 */
-parser grammar bitmark_common_parser;
-
-
 // [@point:number]
 atpoint:
     AtPoints NUMERIC CL

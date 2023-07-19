@@ -128,7 +128,11 @@ bullet_item:
     OPBUL s_and_w CL ( atpoint )?
 ;
 
-//<<<<<<<<<<<<<<<<<<<<<<<start common
+// ********************** import the common parser here*************
+/*
+    common part of the bitmark parser
+
+*/
 // [@point:number]
 atpoint:
     AtPoints NUMERIC CL
@@ -324,8 +328,9 @@ dollarans:
 
 anchor:  OPDANGLE s_and_w? CL ;
 
-//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<end common
 
+
+// ******************************************************************
 
 dcolon: DBLCOLON ;
 

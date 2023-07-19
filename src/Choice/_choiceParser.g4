@@ -172,8 +172,7 @@ bullet_item:
 ;
 
 // Import the common part
-import bitmark_common_parser;
-
+<<<<<<common<<<<<<
 
 
 dclines: DCANY ;

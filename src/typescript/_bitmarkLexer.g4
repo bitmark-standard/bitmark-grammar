@@ -208,6 +208,8 @@ SSPL2:	 	'---'   S* NL  ; // soft split
 
 QUOTE_INDEX: '[' [0-9]+ ']' ;  // Only for this lexer!
 
+// ********************** import the common lexer here***************
 <<<<<<common<<<<<<
+// ******************************************************************
 
 // end

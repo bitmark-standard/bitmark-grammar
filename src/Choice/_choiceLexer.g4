@@ -61,4 +61,4 @@ SSPL2:	  	'---'   S* NL  ; // soft split
 StrParen:       [A-Za-z_]+ Rparen ;
 
 // import the common lexer here
-import bitmark_common_lexer;
+<<<<<<common<<<<<<

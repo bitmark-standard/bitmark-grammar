@@ -116,7 +116,10 @@ choice_star:  item? OPR s_and_w+ CL ;  // [*
 pimagebit:  image_one ( image_chained )* ( OPATALT words CL )? ;
 
 // Import the common part
-import bitmark_common_parser;
+// ********************** import the common parser here*************
+<<<<<<common<<<<<<
+// ******************************************************************
+
 
 
 lines: 

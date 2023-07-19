@@ -47,6 +47,7 @@ RightArrow:     '→' ;
 OP_N_ETC:	'[' [@&+\-*%#!?_]+  ;
 UNSCO:		'_' ;
 
-// import the common lexer here
-import bitmark_common_lexer;
+// ********************** import the common lexer here***************
+<<<<<<common<<<<<<
+// ******************************************************************
 

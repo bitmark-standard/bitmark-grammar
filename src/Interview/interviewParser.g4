@@ -157,7 +157,12 @@ gap:
 single_gap:
     OPU ( NUMERIC | STRING | /*nil*/ ) s_and_w* clnsp
 ;
-//<<<<<<<<<<<<<<<<<<<<<<<start common
+
+// ********************** import the common parser here*************
+/*
+    common part of the bitmark parser
+
+*/
 // [@point:number]
 atpoint:
     AtPoints NUMERIC CL
@@ -353,9 +358,9 @@ dollarans:
 
 anchor:  OPDANGLE s_and_w? CL ;
 
-//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<end common
 
 
+// ******************************************************************
 
 dcolon: DBLCOLON ;
 

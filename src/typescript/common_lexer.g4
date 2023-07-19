@@ -2,8 +2,6 @@
     common part of the bitmark lexer
 
 */
-lexer grammar bitmark_common_lexer;
-
 COMMENT:  '||' UTF8*? '||' S* NL* ->skip ;
 
 DCANY:  NL* '::' STRING (':' SENTENCE)? '::' (NL|.)*? '::' NL ;  // OK1

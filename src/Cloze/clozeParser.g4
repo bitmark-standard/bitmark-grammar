@@ -115,7 +115,12 @@ choice_star:  item? OPR s_and_w+ CL ;  // [*
 
 pimagebit:  image_one ( image_chained )* ( OPATALT words CL )? ;
 
-//<<<<<<<<<<<<<<<<<<<<<<<start common
+// Import the common part
+// ********************** import the common parser here*************
+/*
+    common part of the bitmark parser
+
+*/
 // [@point:number]
 atpoint:
     AtPoints NUMERIC CL
@@ -311,7 +316,10 @@ dollarans:
 
 anchor:  OPDANGLE s_and_w? CL ;
 
-//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<end common
+
+
+// ******************************************************************
+
 
 
 lines: 

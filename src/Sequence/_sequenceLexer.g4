@@ -50,7 +50,7 @@ HSPL:		(NL '===' S* NL)  ; // hard split
 SSPL:	  	NL '---' S* NL  ; // soft split
 SSPL2:	  	'---'   S* NL  ; // soft split
 
-//***************** import the common lexer here**********
-import bitmark_common_lexer;
-//********************************************************
+// ********************** import the common lexer here***************
+<<<<<<common<<<<<<
+// ******************************************************************
 

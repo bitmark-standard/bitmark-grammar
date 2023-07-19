@@ -158,10 +158,9 @@ single_gap:
     OPU ( NUMERIC | STRING | /*nil*/ ) s_and_w* clnsp
 ;
 
-//***************** import the common parser here**********
-import bitmark_common_parser;
-//********************************************************
-
+// ********************** import the common parser here*************
+<<<<<<common<<<<<<
+// ******************************************************************
 
 dcolon: DBLCOLON ;
 

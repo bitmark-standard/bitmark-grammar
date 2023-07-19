@@ -131,7 +131,7 @@ single_gap:
 dcolon: DBLCOLON ;
 
 //***************** import the common parser here*********
-import bitmark_common_parser;
+<<<<<<common<<<<<<
 //********************************************************
 
 //
