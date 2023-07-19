@@ -1,4 +1,8 @@
-//<<<<<<<<<<<<<<<< COMMON LEXER RULES <<<<<<<<<<<<<<<<<<<<
+/*
+    common part of the bitmark lexer
+
+*/
+lexer grammar bitmark_common_lexer;
 
 COMMENT:  '||' UTF8*? '||' S* NL* ->skip ;
 
@@ -22,8 +26,8 @@ fragment EM2:      '\u{1F650}' .. '\u{1F9F0}' ;   // emoji 2
 fragment VS0:      '\u{FE00}' .. '\u{FE0F}' ;     // Variation Selectors
 //fragment SS0:    '\u{2070}' .. '\u{209C}' ;     // superscript and subscript
 fragment SS0:      '\u{2000}' .. '\u{209C}' ;     // superscript and subscript + General Punctuation
-fragment LEA:	     '\u{0100}' .. '\u{017F}' ;     // latin extended A
-fragment LEB:	     '\u{0200}' .. '\u{024F}' ;     // latin extended B
+fragment LEA:	   '\u{0100}' .. '\u{017F}' ;     // latin extended A
+fragment LEB:	   '\u{0200}' .. '\u{024F}' ;     // latin extended B
 fragment GAL:      '\u{03B1}' .. '\u{03C9}' ;     // Greek alpha α β v ...
 fragment GALC:     '\u{0391}' .. '\u{03A9}' ;     // Greek alpha Capital
 fragment PHON:	   '\u{1D00}' .. '\u{1DCF}' ;     // phonetic extentions
@@ -66,10 +70,10 @@ AtProgressPoints: OPAT S* 'progressPoints' ;
 AtShortanswer:	  OPAT S* 'shortAnswer]'  ;
 AtLonganswer:	  OPAT S* 'longAnswer]' ;
 
-AtExampleWithStr:OPAT S* 'example:' (SENTENCE|NL)* CL ;
+AtExampleWithStr:OPAT S* 'example:' (SENTENCE|COLON|NL)* CL ;
 AtExamplecol:    OPAT S* 'example:'  ;
 AtExamplecl:     OPAT S* 'example]'  ;
-AtSampleSolution: OPAT S* 'sampleSolution:' (SENTENCE|NL)* CL ;
+AtSampleSolution: OPAT S* 'sampleSolution:' (SENTENCE|COLON|NL)* CL ;
 
 AtPartialAnswerS:OPAT S* 'partialAnswer:' SENTENCE CL ;
 AtPartialAnswer: OPAT S* 'partialAnswer]' ;
@@ -171,9 +175,9 @@ JPG:    ':jpg' ;
 PNG:    ':png' ;
 GIF:    ':gif' ;
 SVG:    ':svg' ;
-MP2:	  ':mp2' ;
-MP3:	  ':mp3' ;
-MP4:	  ':mp4' ;
+MP2:    ':mp2' ;
+MP3:    ':mp3' ;
+MP4:    ':mp4' ;
 FLV:    ':flv' ;
 WMV:    ':wmv' ;
 MPEG:   ':mpeg';
@@ -193,4 +197,4 @@ LIST_LINE:
 ;
 ENCLBARS:	'|' .*? '|' ;
 
-//<<<<<<<<<<<<<<<< COMMON <<<<<<<<<<<<<<<<<<<<
+

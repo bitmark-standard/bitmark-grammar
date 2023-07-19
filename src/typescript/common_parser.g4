@@ -1,4 +1,10 @@
-//<<<<<<<<<<<<<<<<<<<<<<<start common
+/*
+    common part of the bitmark parser
+
+*/
+parser grammar bitmark_common_parser;
+
+
 // [@point:number]
 atpoint:
     AtPoints NUMERIC CL
@@ -25,7 +31,7 @@ resource_format_extra:
 ;
 
 format2:
-   BitmarkMinus | BitmarkPlus | ColonText | ColonJson | /*nil*/
+   BitmarkMinus | BitmarkPlus | ColonText | Placeholder | ColonJson | /*nil*/
 ;
 
 //
@@ -194,4 +200,4 @@ dollarans:
 
 anchor:  OPDANGLE s_and_w? CL ;
 
-//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<end common
+

@@ -36,27 +36,33 @@ flashcards:
 ;
 //
 flashcard_1:
-    BitFlash1 format CL NL side (EQ|EQ2) side NL* ( resource (NL* resource)* )?
+    BitFlash1 format CL NL* ( bitElem NL* )*
+   |BitFlash1 format CL NL side (EQ|EQ2) side NL* ( resource (NL* resource)* )?
 ;
 flashcard:
-    BitFlash  format CL NL* (HSPL|HSPL2) side (EQ|EQ2) side 
+    BitFlash  format CL NL* ( bitElem NL* )*
+   |BitFlash  format CL NL* (HSPL|HSPL2) side (EQ|EQ2) side 
        	   ( (HSPL|HSPL2) side (EQ|EQ2) side )* (HSPL|HSPL2) NL* ( resource (NL* resource)* )?
 ;
 flashcard_set: 	          // added 9/2/2020
-    BitFlashcardset  format CL NL* ( (HSPL|HSPL2) side (EQ|EQ2) side )?
+    BitFlashcardset  format CL NL* ( bitElem NL* )*
+   |BitFlashcardset  format CL NL* ( (HSPL|HSPL2) side (EQ|EQ2) side )?
        	   ( (HSPL|HSPL2) side (EQ|EQ2) side ( NL OR side )* )* (HSPL|HSPL2) NL* ( resource (NL* resource)* )?
 ;
 flashcard_language_set:  // added 9/2/2020
-    BitFlashcardlangset  format CL NL* sidex_NL
+    BitFlashcardlangset  format CL NL* ( bitElem NL* )*
+   |BitFlashcardlangset  format CL NL* sidex_NL
           ( (HSPL|HSPL2) sidex ( NL sidex_NL ) ( (EQ|EQ2) sidex_NL )+ )+ (HSPL|HSPL2) NL* ( resource (NL* resource)* )?
 ;
 flashcard_language_1:    // added 9/2/2020
-    BitFlashcardlang1  format CL NL* sidex_NL
+    BitFlashcardlang1  format CL NL* ( bitElem NL* )*
+   |BitFlashcardlang1  format CL NL* sidex_NL
            (EQ|EQ2) sidex ( NL sidex_NL ) ( OR sidex_NL )+  NL* ( resource (NL* resource)* )?
 ;
 
 vocab:
     BitVocabulary format CL NL* ( bitElem NL* )*
+   |BitVocabulary format CL NL* ( bitElem NL* )*
       ( ( HSPL|HSPL2 ) vside+ ( (EQ|EQ2) vside+ )* )+
       (HSPL|HSPL2) NL*
       ( resource (NL* resource)* )?
@@ -64,6 +70,7 @@ vocab:
 
 vocab_1:
     BitVocabulary_1 format CL NL* ( bitElem NL* )*
+   |BitVocabulary_1 format CL NL* ( bitElem NL* )*
       (EQ|EQ2) vside+ ( OR vside+ )* ( OR resource (NL* resource)* )?
 ;
 
@@ -148,7 +155,7 @@ resource_format_extra:
 ;
 
 format2:
-   BitmarkMinus | BitmarkPlus | ColonText | ColonJson | /*nil*/
+   BitmarkMinus | BitmarkPlus | ColonText | Placeholder | ColonJson | /*nil*/
 ;
 
 //

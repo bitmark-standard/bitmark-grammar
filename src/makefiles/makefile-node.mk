@@ -53,56 +53,38 @@ common_parser_file=./typescript/common_parser.g4
 .DEFAULT_GOAL = es6
 
 es6: $(grammar_file)
-	python ./tools/replace_parser_content.py ./typescript/_bitmarkLexer.g4 $(common_lexer_file) $(bitmark_lexer_file) '<<<<<<common<<<<<<'
-	python ./tools/replace_parser_content.py ./typescript/_bitmarkParser.g4 $(common_parser_file) $(bitmark_parser_file) '<<<<<<common<<<<<<'
 	$(NODE_MODULES)/antlr4ts-cli/antlr4ts $(ANTLR_OPT) $(bitmark_lexer_file);
 	$(NODE_MODULES)/antlr4ts-cli/antlr4ts $(ANTLR_OPT) $(bitmark_parser_file);
 	$(TYPESCRIPTCOMPILER) $(antlr_dir)/*.ts -experimentalDecorators --strict true --module commonjs  --target es2015 -lib es2015 --moduleResolution Node --outDir ./typescript
 
-	python ./tools/replace_parser_content.py ./Cloze/_clozeLexer.g4 $(common_lexer_file) $(cloze_lexer_file) '<<<<<<common<<<<<<'
-	python ./tools/replace_parser_content.py ./Cloze/_clozeParser.g4 $(common_parser_file) $(cloze_parser_file) '<<<<<<common<<<<<<'
 	$(NODE_MODULES)/antlr4ts-cli/antlr4ts $(ANTLR_OPT) $(cloze_lexer_file);
 	$(NODE_MODULES)/antlr4ts-cli/antlr4ts $(ANTLR_OPT) $(cloze_parser_file);
 	$(NODE_MODULES)/.bin/tsc ./Cloze/*.ts -experimentalDecorators --strict true --module commonjs  --target es2015 -lib es2015 --moduleResolution Node --outDir ./Cloze
 
-	python ./tools/replace_parser_content.py ./Match/_matchLexer.g4 $(common_lexer_file) $(match_lexer_file) '<<<<<<common<<<<<<'
-	python ./tools/replace_parser_content.py ./Match/_matchParser.g4 $(common_parser_file) $(match_parser_file) '<<<<<<common<<<<<<'
 	$(NODE_MODULES)/antlr4ts-cli/antlr4ts $(ANTLR_OPT) $(match_lexer_file);
 	$(NODE_MODULES)/antlr4ts-cli/antlr4ts $(ANTLR_OPT) $(match_parser_file);
 	$(NODE_MODULES)/.bin/tsc ./Match/*.ts  -experimentalDecorators --strict true --module commonjs  --target es2015 -lib es2015 --moduleResolution Node --outDir ./Match
 
-	python ./tools/replace_parser_content.py ./Choice/_choiceLexer.g4 $(common_lexer_file) $(choice_lexer_file) '<<<<<<common<<<<<<'
-	python ./tools/replace_parser_content.py ./Choice/_choiceParser.g4 $(common_parser_file) $(choice_parser_file) '<<<<<<common<<<<<<'
 	$(NODE_MODULES)/antlr4ts-cli/antlr4ts $(ANTLR_OPT) $(choice_lexer_file);
 	$(NODE_MODULES)/antlr4ts-cli/antlr4ts $(ANTLR_OPT) $(choice_parser_file);
 	$(NODE_MODULES)/.bin/tsc ./Choice/*.ts -experimentalDecorators --strict true --module commonjs  --target es2015 -lib es2015 --moduleResolution Node --outDir ./Choice
 
-	python ./tools/replace_parser_content.py ./Interview/_interviewLexer.g4 $(common_lexer_file) $(interview_lexer_file) '<<<<<<common<<<<<<'
-	python ./tools/replace_parser_content.py ./Interview/_interviewParser.g4 $(common_parser_file) $(interview_parser_file) '<<<<<<common<<<<<<'
 	$(NODE_MODULES)/antlr4ts-cli/antlr4ts $(ANTLR_OPT) $(interview_lexer_file);
 	$(NODE_MODULES)/antlr4ts-cli/antlr4ts $(ANTLR_OPT) $(interview_parser_file);
 	$(NODE_MODULES)/.bin/tsc ./Interview/*.ts -experimentalDecorators --strict true --module commonjs  --target es2015 -lib es2015 --moduleResolution Node --outDir ./Interview
 
-	python ./tools/replace_parser_content.py ./Truefalse/_truefalseLexer.g4 $(common_lexer_file) $(truefalse_lexer_file) '<<<<<<common<<<<<<'
-	python ./tools/replace_parser_content.py ./Truefalse/_truefalseParser.g4 $(common_parser_file) $(truefalse_parser_file) '<<<<<<common<<<<<<'
 	$(NODE_MODULES)/antlr4ts-cli/antlr4ts $(ANTLR_OPT) $(truefalse_lexer_file);
 	$(NODE_MODULES)/antlr4ts-cli/antlr4ts $(ANTLR_OPT) $(truefalse_parser_file);
 	$(NODE_MODULES)/.bin/tsc ./Truefalse/*.ts -experimentalDecorators --strict true --module commonjs  --target es2015 -lib es2015 --moduleResolution Node --outDir ./Truefalse
 
-	python ./tools/replace_parser_content.py ./Flashcard/_flashcardLexer.g4 $(common_lexer_file) ./Flashcard/flashcardLexer.g4 '<<<<<<common<<<<<<'
-	python ./tools/replace_parser_content.py ./Flashcard/_flashcardParser.g4 $(common_parser_file) ./Flashcard/flashcardParser.g4 '<<<<<<common<<<<<<'
 	$(NODE_MODULES)/antlr4ts-cli/antlr4ts $(ANTLR_OPT) $(flashcard_lexer_file);
 	$(NODE_MODULES)/antlr4ts-cli/antlr4ts $(ANTLR_OPT) $(flashcard_parser_file);
 	$(NODE_MODULES)/.bin/tsc ./Flashcard/*.ts -experimentalDecorators --strict true --module commonjs  --target es2015 -lib es2015 --moduleResolution Node --outDir ./Flashcard
 
-	python ./tools/replace_parser_content.py ./Chat/_chatLexer.g4 $(common_lexer_file) $(chat_lexer_file) '<<<<<<common<<<<<<'
-	python ./tools/replace_parser_content.py ./Chat/_chatParser.g4 $(common_parser_file) $(chat_parser_file) '<<<<<<common<<<<<<'
 	$(NODE_MODULES)/antlr4ts-cli/antlr4ts $(ANTLR_OPT) $(chat_lexer_file);
 	$(NODE_MODULES)/antlr4ts-cli/antlr4ts $(ANTLR_OPT) $(chat_parser_file);
 	$(NODE_MODULES)/.bin/tsc ./Chat/*.ts -experimentalDecorators --strict true --module commonjs  --target es2015 -lib es2015 --moduleResolution Node --outDir ./Chat
 
-	python ./tools/replace_parser_content.py ./Sequence/_sequenceLexer.g4 $(common_lexer_file) $(sequence_lexer_file) '<<<<<<common<<<<<<'
-	python ./tools/replace_parser_content.py ./Sequence/_sequenceParser.g4 $(common_parser_file) $(sequence_parser_file) '<<<<<<common<<<<<<'
 	$(NODE_MODULES)/antlr4ts-cli/antlr4ts $(ANTLR_OPT) $(sequence_lexer_file);
 	$(NODE_MODULES)/antlr4ts-cli/antlr4ts $(ANTLR_OPT) $(sequence_parser_file);
 	$(NODE_MODULES)/.bin/tsc ./Sequence/*.ts -experimentalDecorators --strict true --module commonjs  --target es2015 -lib es2015 --moduleResolution Node --outDir ./Sequence

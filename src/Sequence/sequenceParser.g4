@@ -15,7 +15,8 @@ bit:   sequence | menu_3_course ;
 
 //
 sequence:
-    BitSequence format CL ( NL* bitElem )* NL*
+    BitSequence format CL ( NL* bitElem )*
+   |BitSequence format CL ( NL* bitElem )* NL*
        HSPL ( seqstr minusminus )* seqstr HSPL
        footer?
        ( resource (NL* resource)* )?
@@ -125,7 +126,7 @@ resource_format_extra:
 ;
 
 format2:
-   BitmarkMinus | BitmarkPlus | ColonText | ColonJson | /*nil*/
+   BitmarkMinus | BitmarkPlus | ColonText | Placeholder | ColonJson | /*nil*/
 ;
 
 //

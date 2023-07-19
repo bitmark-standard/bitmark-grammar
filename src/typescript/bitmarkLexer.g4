@@ -276,10 +276,10 @@ AtProgressPoints: OPAT S* 'progressPoints' ;
 AtShortanswer:	  OPAT S* 'shortAnswer]'  ;
 AtLonganswer:	  OPAT S* 'longAnswer]' ;
 
-AtExampleWithStr:OPAT S* 'example:' (SENTENCE|NL)* CL ;
+AtExampleWithStr:OPAT S* 'example:' (SENTENCE|COLON|NL)* CL ;
 AtExamplecol:    OPAT S* 'example:'  ;
 AtExamplecl:     OPAT S* 'example]'  ;
-AtSampleSolution: OPAT S* 'sampleSolution:' (SENTENCE|NL)* CL ;
+AtSampleSolution: OPAT S* 'sampleSolution:' (SENTENCE|COLON|NL)* CL ;
 
 AtPartialAnswerS:OPAT S* 'partialAnswer:' SENTENCE CL ;
 AtPartialAnswer: OPAT S* 'partialAnswer]' ;

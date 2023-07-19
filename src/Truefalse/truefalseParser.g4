@@ -32,11 +32,13 @@ truefalses:
 
 //
 true_false_1:
-    BitTruefalse1 format CL NL+ ( bitElem NL* )* choices
+    BitTruefalse1 format CL NL* ( bitElem NL* )*
+   |BitTruefalse1 format CL NL+ ( bitElem NL* )* choices
        NL* ( resource (NL* resource)* )?
 ;
 true_false:
-    BitTruefalse format CL NL*
+    BitTruefalse format CL NL* ( bitElem NL* )*
+   |BitTruefalse format CL NL*
        ( bitElem NL* )* ( mcrsep? tfmisc* choices )+
        mcrsep_end
        NL* ( resource (NL* resource)* )?
@@ -131,7 +133,7 @@ resource_format_extra:
 ;
 
 format2:
-   BitmarkMinus | BitmarkPlus | ColonText | ColonJson | /*nil*/
+   BitmarkMinus | BitmarkPlus | ColonText | Placeholder | ColonJson | /*nil*/
 ;
 
 //

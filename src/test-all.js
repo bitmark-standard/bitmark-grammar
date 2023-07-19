@@ -182,6 +182,8 @@ const testfiles = [
   './tests/GMB/cloze_emoticons.bit',
   './tests/GMB/essay.bit', 
   './tests/GMB/bitmark_example.bit',
+
+  './tests/placeholder.bit',
 ];
 
 const testfilesX = [
@@ -236,12 +238,18 @@ let __run__ = function(filepath, trace, debug, bit) {
     need_error_report: false,
   };
   let bitmark = new parser.BitmarkParser(text, options, bit);
+  let t_start;
+  let t_end;
+  
   try {
+    t_start = now();
     let json = bitmark.parse();
+    t_end = now();
     
     if (!json)
       console.log('No json for '+filepath);
 
+    
     if (json) {
       //console.log(json);
       if (check_diff) {
@@ -258,7 +266,7 @@ let __run__ = function(filepath, trace, debug, bit) {
 	      const color = part.added ? 'green' :
 		    part.removed ? 'red' : 'grey';
 	      process.stderr.write(part.value[color]);
-});	    
+	    });	    
 	  }
 	}
       }
@@ -267,14 +275,17 @@ let __run__ = function(filepath, trace, debug, bit) {
   catch(e) {
     console.error(e);
   }
+  return (t_end - t_start);
 }
 
 let __main__ = function(trace, debug) {
-
+  let t_ttl = 0.0;
+  
   let runtest = (filepath) => {
     try {
-      console.log('<<<<'+filepath);
-      __run__(filepath, trace, debug, null);
+      let t = __run__(filepath, trace, debug, null);
+      console.log(`<<<< ${filepath} ${t}`);
+      t_ttl = t_ttl + t;
     }
     catch(e) {
       console.log('-----------------'+filepath+' NOT ok-----------------');
@@ -283,7 +294,8 @@ let __main__ = function(trace, debug) {
   }
   load_expected();
   R.forEach(runtest, testfiles);
-  console.log('<<<<');
+  t_ttl = t_ttl.toFixed(4);
+  console.log(`<<<< ttl elapsed time ${t_ttl}`);
 }
 
 let myArgs = process.argv.slice(0, process.argv.length);

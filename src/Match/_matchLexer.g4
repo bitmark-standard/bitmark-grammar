@@ -61,4 +61,6 @@ OR:	        NL '--' NL ;
 TENSE: '__(' .*? ')__' ;
 
 
-<<<<<<common<<<<<<
+//***************** import the common lexer here**********
+import bitmark_common_lexer;
+//********************************************************

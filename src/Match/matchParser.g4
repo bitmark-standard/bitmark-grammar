@@ -28,43 +28,51 @@ matches:
 
 
 match_:
-     BitMatch format CL NL+ ( bitElem NL* )*
+    BitMatch format CL NL* ( bitElem NL* )*
+  | BitMatch format CL NL+ ( bitElem NL* )*
         ( (HSPL NL) pair_heading )? pairs 
         NL* ( resource (NL* resource)* )?
 ;
 match_matrix:
-     BitMatchmatrix format CL NL+ ( bitElem NL* )*
+     BitMatchmatrix format CL NL* ( bitElem NL* )*
+   | BitMatchmatrix format CL NL+ ( bitElem NL* )*
         ( (HSPL NL) pair_heading_multi )? pair_multivals 
 	NL* ( resource (NL* resource)* )?
 ;
 match_solution_grouped:
-     BitMatchsolgrp format CL NL+ ( bitElem NL* )*
+     BitMatchsolgrp format CL NL* ( bitElem NL* )*
+   | BitMatchsolgrp format CL NL+ ( bitElem NL* )*
         ( (HSPL NL) pair_heading )? pairs
         NL* ( resource (NL* resource)* )?
 ;
 match_reverse:
-     BitMatchrev format CL NL+ ( bitElem NL* )*
+     BitMatchrev format CL NL* ( bitElem NL* )*
+   | BitMatchrev format CL NL+ ( bitElem NL* )*
         ( (HSPL NL) pair_heading )? pairs 
         NL* ( resource (NL* resource)* )?
 ;
 // An alias of match-reverse 
 match_all_reverse:
-     BitMatchallrev format CL NL+ ( bitElem NL* )*
+     BitMatchallrev format CL NL* ( bitElem NL* )*
+    |BitMatchallrev format CL NL+ ( bitElem NL* )*
         ( (HSPL NL) pair_heading )? pairs 
         NL* ( resource (NL* resource)* )?
 ;
 match_picture:
-     BitMatchpic format CL NL+ ( bitElem NL* )*
+     BitMatchpic format CL NL*( bitElem NL* )*
+    |BitMatchpic format CL NL+ ( bitElem NL* )*
         ( (HSPL NL) pair_heading )? pair_images 
         NL* ( resource (NL* resource)* )?
 ;
 match_audio:
-     BitMatchaudio format CL NL+ ( bitElem NL* )*
+     BitMatchaudio format CL NL* ( bitElem NL* )*
+    |BitMatchaudio format CL NL+ ( bitElem NL* )*
         ( (HSPL NL) pair_heading )? pair_audios
         NL* ( resource (NL* resource)* )?
 ;
 match_all:
-     BitMatchall format CL NL+ ( bitElem NL* )*
+     BitMatchall format CL NL* ( bitElem NL* )*
+    |BitMatchall format CL NL+ ( bitElem NL* )*
         ( (HSPL NL) pair_heading )? pairs
         NL* ( resource (NL* resource)* )?
 ;
@@ -229,7 +237,7 @@ resource_format_extra:
 ;
 
 format2:
-   BitmarkMinus | BitmarkPlus | ColonText | ColonJson | /*nil*/
+   BitmarkMinus | BitmarkPlus | ColonText | Placeholder | ColonJson | /*nil*/
 ;
 
 //

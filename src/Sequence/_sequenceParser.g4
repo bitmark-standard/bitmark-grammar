@@ -15,7 +15,8 @@ bit:   sequence | menu_3_course ;
 
 //
 sequence:
-    BitSequence format CL ( NL* bitElem )* NL*
+    BitSequence format CL ( NL* bitElem )*
+   |BitSequence format CL ( NL* bitElem )* NL*
        HSPL ( seqstr minusminus )* seqstr HSPL
        footer?
        ( resource (NL* resource)* )?
@@ -98,7 +99,10 @@ bullet_item:
     OPBUL s_and_w CL ( atpoint )?
 ;
 
-<<<<<<common<<<<<<
+//***************** import the common parser here*********
+import bitmark_common_parser;
+//********************************************************
+
 
 dcolon: DBLCOLON ;
 

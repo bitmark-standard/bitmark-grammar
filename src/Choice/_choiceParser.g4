@@ -27,7 +27,8 @@ multi_choices:
 // multi choice sets
 //
 multiple_choice:
-   BitMultichoice format CL NL+ ( bitElem NL* )*
+   BitMultichoice format CL NL* ( bitElem NL* )*
+  |BitMultichoice format CL NL+ ( bitElem NL* )*
       ( NL* mcrsep ( NL* mcrmisc )? s_and_w? choices )+
       ((HSPL|HSPL2)|NL) ( bitElem NL )? NL* ( resource (NL* resource)* )?
 ;
@@ -38,18 +39,21 @@ mcrmisc: bitElem* NL  ;
 // 1 choice set
 // Level 0 test ok
 multiple_choice_1:
-   BitMultichoice1 format CL NL+ ( bitElem NL* )* choices 
+   BitMultichoice1 format CL NL* ( bitElem NL* )*
+  |BitMultichoice1 format CL NL+ ( bitElem NL* )* choices   
 ;
 
 // 
 multiple_response:
-    BitMultiresp format CL NL+ ( bitElem NL* )*
+    BitMultiresp format CL NL* ( bitElem NL* )*
+   |BitMultiresp format CL NL+ ( bitElem NL* )*
       ( NL* mcrsep ( NL* mcrmisc )? choices )+
       ((HSPL|HSPL2)|NL)? ( bitElem NL* )? NL* ( resource (NL* resource)* )?
 ;
 // 
 multiple_response_1:
-   BitMultiresp1 format CL NL+ ( bitElem NL* )+ choices NL* ( resource (NL* resource)* )?
+    BitMultiresp1 format CL NL+ ( bitElem NL* )*
+   |BitMultiresp1 format CL NL+ ( bitElem NL* )+ choices NL* ( resource (NL* resource)* )?
 ;
 
 //
@@ -167,7 +171,10 @@ bullet_item:
     OPBUL s_and_w CL ( atpoint )?
 ;
 
-<<<<<<common<<<<<<
+// Import the common part
+import bitmark_common_parser;
+
+
 
 dclines: DCANY ;
 

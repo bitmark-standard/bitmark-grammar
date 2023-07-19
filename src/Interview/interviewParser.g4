@@ -33,12 +33,14 @@ interviews:
 // Interview
 interview:
     BitInterview format CL NL* ( bitElem NL* )*
+  | BitInterview format CL NL* ( bitElem NL* )*
            ( mcrsep NL* ( interview_qanda NL* )? )+ mcrsep_end NL*
 	   ( interview_footer )?
 ;
 //
 interview_instruction_grouped:
     BitInterviewinstgrp format CL NL* ( bitElem NL* )*
+  | BitInterviewinstgrp format CL NL* ( bitElem NL* )*
            ( mcrsep ( interview_qanda NL* ) )* mcrsep_end NL*
 	   ( interview_footer )?
 ;
@@ -182,7 +184,7 @@ resource_format_extra:
 ;
 
 format2:
-   BitmarkMinus | BitmarkPlus | ColonText | ColonJson | /*nil*/
+   BitmarkMinus | BitmarkPlus | ColonText | Placeholder | ColonJson | /*nil*/
 ;
 
 //

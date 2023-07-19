@@ -50,4 +50,7 @@ SSPL:	  	NL '---' S* NL  ; // soft split
 SSPL2:	  	'---'   S* NL  ; // soft split
 
 BULLET:   '•'  ;
-<<<<<<common<<<<<<
+
+//***************** import the common lexer here**********
+import bitmark_common_lexer;
+//********************************************************

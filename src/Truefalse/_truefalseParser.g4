@@ -32,11 +32,13 @@ truefalses:
 
 //
 true_false_1:
-    BitTruefalse1 format CL NL+ ( bitElem NL* )* choices
+    BitTruefalse1 format CL NL* ( bitElem NL* )*
+   |BitTruefalse1 format CL NL+ ( bitElem NL* )* choices
        NL* ( resource (NL* resource)* )?
 ;
 true_false:
-    BitTruefalse format CL NL*
+    BitTruefalse format CL NL* ( bitElem NL* )*
+   |BitTruefalse format CL NL*
        ( bitElem NL* )* ( mcrsep? tfmisc* choices )+
        mcrsep_end
        NL* ( resource (NL* resource)* )?
@@ -104,7 +106,10 @@ bullet_item:
     OPBUL s_and_w CL ( atpoint )?
 ;
 
-<<<<<<common<<<<<<
+//***************** import the common parser here*********
+import bitmark_common_parser;
+//********************************************************
+
 
 //
 lines: 

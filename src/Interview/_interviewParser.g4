@@ -33,12 +33,14 @@ interviews:
 // Interview
 interview:
     BitInterview format CL NL* ( bitElem NL* )*
+  | BitInterview format CL NL* ( bitElem NL* )*
            ( mcrsep NL* ( interview_qanda NL* )? )+ mcrsep_end NL*
 	   ( interview_footer )?
 ;
 //
 interview_instruction_grouped:
     BitInterviewinstgrp format CL NL* ( bitElem NL* )*
+  | BitInterviewinstgrp format CL NL* ( bitElem NL* )*
            ( mcrsep ( interview_qanda NL* ) )* mcrsep_end NL*
 	   ( interview_footer )?
 ;
@@ -155,7 +157,10 @@ gap:
 single_gap:
     OPU ( NUMERIC | STRING | /*nil*/ ) s_and_w* clnsp
 ;
-<<<<<<common<<<<<<
+
+//***************** import the common parser here**********
+import bitmark_common_parser;
+//********************************************************
 
 
 dcolon: DBLCOLON ;
