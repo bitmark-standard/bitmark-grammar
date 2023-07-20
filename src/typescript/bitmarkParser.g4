@@ -51,7 +51,6 @@ bit:
 	| sidenote | stickynote | quote | footnote | examplebit
 	| page
 	| message 
-	| bot_interview
 	| self_assessment
 	| rating | survey | survey_1 | survey_anonymous | survey_anonymous_1
 	| hint
@@ -277,19 +276,15 @@ preparation_note:
     BitPrepnote format CL NL* ( bitElem NL* )* lines? NL* ( resource (NL* resource)* )?
 ;
 //
-assignment:
-    BitAssign format CL NL+ ( bitElem NL* )* lines? NL* ( resource (NL* resource)* )?
+assignment:  BitAssign format CL NL+ ( bitElem NL* )* lines? NL* ( resource (NL* resource)* )? ;
+article:     BitArticle format CL NL* ( bitElem NL* )*
 ;
-//
-article:
-    BitArticle format CL NL* ( bitElem NL* )+
-;
-statement:                  BitStatement format CL NL* ( bitElem NL* )+ ;
-details:                    BitDetails format CL NL* ( bitElem NL* )+ ;
-sample_solution:            BitSampleSolution format CL NL* ( bitElem NL* )+ ;
-buttoncopytext:             BitButtonCopytext format CL NL* ( bitElem NL* )+ ;
-wbtcontinue:                BitWbtContinue format CL NL* ( bitElem NL* )+ ;
-learningpathdetails:        BitLearningPathDetails format CL NL* ( bitElem NL* )+ ;
+statement:                  BitStatement format CL NL* ( bitElem NL* )* ;
+details:                    BitDetails format CL NL* ( bitElem NL* )* ;
+sample_solution:            BitSampleSolution format CL NL* ( bitElem NL* )* ;
+buttoncopytext:             BitButtonCopytext format CL NL* ( bitElem NL* )* ;
+wbtcontinue:                BitWbtContinue format CL NL* ( bitElem NL* )* ;
+learningpathdetails:        BitLearningPathDetails format CL NL* ( bitElem NL* )* ;
 
 page:		                BitPage format CL NL* ( bitElem NL* )* ;
 note:	                    BitNote format CL NL* ( bitElem NL* )* ;
@@ -373,9 +368,9 @@ photo:			           BitPhoto format2 CL NL* ( bitElem NL*)* ;
 browser_image:		       BitBrowserImage format2 CL NL* ( bitElem NL*)* ;
 
 chapter_subject_matter:	   BitChapterSubjectMatter format CL NL* ( bitElem NL* )* ;
-release_note:		       BitReleaseNote format CL NL* ( bitElem NL* )* ;
-conclusion:		           BitConclusion format CL NL* ( bitElem NL* )* ;
-featured:		           BitFeatured format CL NL* ( bitElem NL* )* ;
+release_note:		   BitReleaseNote format CL NL* ( bitElem NL* )* ;
+conclusion:		   BitConclusion format CL NL* ( bitElem NL* )* ;
+featured:		   BitFeatured format CL NL* ( bitElem NL* )* ;
 vendor_amcharts_5_chart:   BitVendorAmcharts5Chart format2 CL NL* ( bitElem NL* )* ;
 
 newspaper_article:	       BitNewspaperArticle format CL NL* ( bitElem NL* )* ;
@@ -384,15 +379,15 @@ book_article:		       BitBookArticle format CL NL* ( bitElem NL* )* ;
 notebook_article:	       BitNotebookArticle format CL NL* ( bitElem NL* )* ;
 workbook_article:	       BitWorkbookArticle format CL NL* ( bitElem NL* )* ;
 release_notes_summary:	   BitReleaseNotesSummary format CL NL* ( bitElem NL* )* ;
+message:                   BitMessage format CL NL* ( bitElem NL* )* ;
 
-message:
-    BitMessage format CL NL* ( bitElem NL* )*
-;
-
+/* Obsolete
 bot_interview:
-    BitBotint format CL ( (HSPL|HSPL2) bot_choice ( sspl bot_choice )* )+ (HSPL|HSPL2)
+    BitBotint format CL NL* ( bitElem NL* )*
+   |BitBotint format CL ( (HSPL|HSPL2) bot_choice ( sspl bot_choice )* )+ (HSPL|HSPL2)
         NL* ( resource (NL* resource)* )?
-;
+;*/
+
 bot_choice:
     ( words | instruction | audiobit | gap | choice_plus | choice_minus | choice_star )+
 ;
@@ -400,6 +395,7 @@ bot_choice:
 
 rating:
     BitRating format CL NL* ( bitElem NL* )*
+   |BitRating format CL NL* ( bitElem NL* )*
        ( (HSPL|HSPL2) s_and_w ( NL bullet_item )+ )+ (HSPL|HSPL2)
        NL* ( resource (NL* resource)* )?
 ;
@@ -409,22 +405,23 @@ bullet_item:
 // .survey, .survey-1, .survey-anonymous, .survey-anonymous-1
 survey:
     BitSurvey format CL NL* ( bitElem NL* )*
-           ( (HSPL|HSPL2) s_and_w? ( NL* bullet_item )+ )+ (HSPL|HSPL2)
+          ( ( (HSPL|HSPL2) s_and_w? ( NL* bullet_item )+ )+ (HSPL|HSPL2) )?
 ;
 survey_1:
     BitSurvey1 format CL NL* ( bitElem NL* )*
-           ( (HSPL|HSPL2) s_and_w ( NL bullet_item )+ )+ (HSPL|HSPL2)
+          ( ( (HSPL|HSPL2) s_and_w ( NL bullet_item )+ )+ (HSPL|HSPL2) )?
 ;
 survey_anonymous:
     BitSurveyanon format CL NL* ( bitElem NL* )*
-           ( (HSPL|HSPL2) s_and_w ( NL bullet_item )+ )+ (HSPL|HSPL2)
+          ( ( (HSPL|HSPL2) s_and_w ( NL bullet_item )+ )+ (HSPL|HSPL2) )?
 ;
 survey_anonymous_1:
     BitSurveyanon1 format CL NL* ( bitElem NL* )*
-           ( (HSPL|HSPL2) s_and_w ( NL bullet_item )+ )+ (HSPL|HSPL2)
+          ( ( (HSPL|HSPL2) s_and_w ( NL bullet_item )+ )+ (HSPL|HSPL2) )?
 ;
 self_assessment:
     BitSelfassess format CL NL* ( bitElem NL* )*
+   |BitSelfassess format CL NL* ( bitElem NL* )*
      ( (HSPL|HSPL2) self_assess_s_and_w ( NL* bullet_item )+ )+ (HSPL|HSPL2)
      NL* ( resource (NL* resource)* )?
 ;
@@ -584,7 +581,8 @@ dateprop_chained:
 
 // Instruction
 instruction:
-    OPB NL* s_and_w? ( s_and_w ( NL S* )* NL* )* CL
+/// OPB NL* s_and_w? ( s_and_w ( NL S* )* NL* )* CL
+    OPB NL* s_and_w? ( (NL S*)* s_and_w )* NL* CL
   | OPB NL* s_and_w? EOF
 ;
 // Hint

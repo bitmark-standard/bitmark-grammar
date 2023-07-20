@@ -151,7 +151,7 @@ dateprop_chained:
 
 // Instruction
 instruction:
-    OPB NL* s_and_w? ( s_and_w ( NL S* )* NL* )* CL
+    OPB NL* s_and_w? ( (NL S*)* s_and_w )* NL* CL
   | OPB NL* s_and_w? EOF
 ;
 // Hint

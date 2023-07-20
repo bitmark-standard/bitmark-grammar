@@ -704,7 +704,7 @@
 <<<<./tests/book1.bit
 [
     {
-        "bitmark": "[.book:text]\n[! this is my book]\n[# Erkundungen]\n[##  Deutsch als Fremdsprache]\n[@subject: Integriertes Kurs- und Arbeitsbuch Sprachniveau B2]\n[@ language:en]\n[@ copyright: © 2012 by A Publisher International Ltd., Zurich, Switzerland]\n[@ skills: reading]\n[@ ageRange: 18, 969]\n[@ complexity: intermediate]\n[@seriesTitle: German as a Foreign Language]\n[@seriesId: com.firstpub.e0111]\n[@numberInSeries: 1]\n[@format: Integrated course and work book]\n[@type: book]\n[@isLiveBook: false]\n[@isSmartBook: false]\n[@isHighQuality: true]",
+        "bitmark": "[.book:text]\n[! this is my book]\n[# Erkundungen]\n[##  Deutsch als Fremdsprache]\n[%][%k testing L&D R&D]\n[@subject: Integriertes Kurs- und Arbeitsbuch Sprachniveau B2]\n[@ language:en]\n[@ copyright: © 2012 by A Publisher International Ltd., Zurich, Switzerland]\n[@ skills: reading]\n[@ ageRange: 18, 969]\n[@ complexity: intermediate]\n[@seriesTitle: German as a Foreign Language]\n[@seriesId: com.firstpub.e0111]\n[@numberInSeries: 1]\n[@format: Integrated course and work book]\n[@type: book]\n[@isLiveBook: false]\n[@isSmartBook: false]\n[@isHighQuality: true]",
         "bit": {
             "type": "book",
             "format": "text",
@@ -716,6 +716,7 @@
             "instruction": "this is my book",
             "title": "Erkundungen",
             "subtitle": "Deutsch als Fremdsprache",
+            "lead": "k testing L&D R&D",
             "subject": [
                 "Integriertes Kurs- und Arbeitsbuch Sprachniveau B2"
             ],
@@ -1484,7 +1485,7 @@
 <<<<./tests/conversation1.bit
 [
     {
-        "bitmark": "[.conversation]\n===\n[#Emilie]\n[&image:https://cdn.bitbook.education/avatars/cat_70x70@3.jpg]\n===\n[#John Done]\n===\nHi John\n--\nHow are you today?\n===\nI am fine, thanks. How are you, Emilie?\n--\nI just wanted to let you know ...\n===\nThanks!\n--\ncu\n===",
+        "bitmark": "[.conversation]\n[%][%k testing L&D R&D]\n===\n[#Emilie]\n[&image:https://cdn.bitbook.education/avatars/cat_70x70@3.jpg]\n===\n[#John Done]\n===\nHi John\n--\nHow are you today?\n===\nI am fine, thanks. How are you, Emilie?\n--\nI just wanted to let you know ...\n===\nThanks!\n--\ncu\n===",
         "bit": {
             "type": "conversation",
             "format": "bitmark--",
@@ -1552,7 +1553,8 @@
                     "initiator": false
                 }
             ],
-            "body": ""
+            "body": "",
+            "lead": "k testing L&D R&D"
         }
     }
 ]
@@ -14867,6 +14869,160 @@
 ]
 <<<<./tests/placeholder.bit
 [
+    {
+        "bitmark": "[.article:placeholder]",
+        "bit": {
+            "type": "article",
+            "format": "bitmark--",
+            "body": ""
+        }
+    },
+    {
+        "bitmark": "[.essay:placeholder]\n[@id:2456]",
+        "bit": {
+            "type": "essay",
+            "format": "bitmark--",
+            "instruction": "",
+            "partialAnswer": "",
+            "body": "",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "2456"
+            ]
+        }
+    },
+    {
+        "bitmark": "[.statement:placeholder]",
+        "bit": {
+            "type": "statement",
+            "format": "bitmark--",
+            "body": ""
+        }
+    },
+    {
+        "bitmark": "[.statement:placeholder]\n[@id:2456]",
+        "bit": {
+            "type": "statement",
+            "format": "bitmark--",
+            "body": "",
+            "id": [
+                "2456"
+            ]
+        }
+    },
+    {
+        "bitmark": "[.details-1:placeholder]",
+        "bit": {
+            "type": "details-1",
+            "format": "bitmark--",
+            "body": ""
+        }
+    },
+    {
+        "bitmark": "[.details-1:placeholder]\n[@id:2456]",
+        "bit": {
+            "type": "details-1",
+            "format": "bitmark--",
+            "body": "",
+            "id": [
+                "2456"
+            ]
+        }
+    },
+    {
+        "bitmark": "[.sample-solution:placeholder]\n[@id:2456]",
+        "bit": {
+            "type": "sample-solution",
+            "format": "bitmark--",
+            "body": "",
+            "id": [
+                "2456"
+            ]
+        }
+    },
+    {
+        "bitmark": "[.message:placeholder]",
+        "bit": {
+            "type": "message",
+            "format": "bitmark--",
+            "body": ""
+        }
+    },
+    {
+        "bitmark": "[.rating:placeholder]",
+        "bit": {
+            "type": "rating",
+            "format": "bitmark--",
+            "body": "",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": ""
+        }
+    },
+    {
+        "bitmark": "[.survey:placeholder]",
+        "bit": {
+            "type": "survey",
+            "format": "bitmark--",
+            "body": "",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": ""
+        }
+    },
+    {
+        "bitmark": "[.survey-1:placeholder]",
+        "bit": {
+            "type": "survey-1",
+            "format": "bitmark--",
+            "body": "",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": ""
+        }
+    },
+    {
+        "bitmark": "[.survey-anonymous:placeholder]",
+        "bit": {
+            "type": "survey-anonymous",
+            "format": "bitmark--",
+            "body": "",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": ""
+        }
+    },
+    {
+        "bitmark": "[.survey-anonymous-1:placeholder]",
+        "bit": {
+            "type": "survey-anonymous-1",
+            "format": "bitmark--",
+            "body": "",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": ""
+        }
+    },
+    {
+        "bitmark": "[.self-assessment:placeholder]",
+        "bit": {
+            "type": "self-assessment",
+            "format": "bitmark--",
+            "body": "",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": ""
+        }
+    },
     {
         "bitmark": "[.interview:placeholder]",
         "bit": {

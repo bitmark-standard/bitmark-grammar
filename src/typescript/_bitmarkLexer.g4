@@ -19,15 +19,15 @@ BitAlias:             NL OPDOT S* 'bit-alias'    ;
 BitGroups:            NL OPDOT S* 'group*'    ;
 BitGroupt:            NL OPDOT S* 'group†'    ;
 BitPlaceholder:       NL OPDOT S* 'placeholder'  ; // for internal use only
-BitStatement:	        NL OPDOT S* 'statement'    ;
-BitDetails:	          NL OPDOT S* 'details-1'    ;
+BitStatement:	      NL OPDOT S* 'statement'    ;
+BitDetails:	      NL OPDOT S* 'details-1'    ;
 BitSampleSolution:    NL OPDOT S* 'sample-solution'    ;
 BitTakeAudio:	        NL OPDOT S* 'take-audio'    ;
 CLOZE:		 'CLOZE' ;
 MATCH:		 'MATCH' ;
 
-BitArticle:	          NL OPDOT S* 'article'  ;
-BitPage:	            NL OPDOT S* 'page'    ;
+BitArticle:	      NL OPDOT S* 'article'  ;
+BitPage:	      NL OPDOT S* 'page'    ;
 BitEssay:             NL OPDOT S* 'essay'    ;
 BitMessage:           NL OPDOT S* 'message'  ;  // NEW added 12/2/2020
 BitCorrection:	      NL OPDOT S* 'correction'    ;
