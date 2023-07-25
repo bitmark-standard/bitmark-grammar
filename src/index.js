@@ -13,32 +13,32 @@ const BailErrorStrategy = require('antlr4ts/BailErrorStrategy.js');
 const errorstrategy = require('antlr4ts/DefaultErrorStrategy.js');
 const ParseTreeWalker = require('antlr4ts/tree/ParseTreeWalker.js');
 //
-const bitmarkLexer = require('./typescript/bitmarkLexer.js');
-const bitmarkParser = require('./typescript/bitmarkParser.js');
+const bitmarkLexer = require('./antlr/bitmarkLexer.js');
+const bitmarkParser = require('./antlr/bitmarkParser.js');
 // close
-const clozeLexer = require('./Cloze/clozeLexer.js');
-const clozeParser = require('./Cloze/clozeParser.js');
+const clozeLexer = require('./antlr/clozeLexer.js');
+const clozeParser = require('./antlr/clozeParser.js');
 // match
-const matchLexer = require('./Match/matchLexer.js');
-const matchParser = require('./Match/matchParser.js');
+const matchLexer = require('./antlr/matchLexer.js');
+const matchParser = require('./antlr/matchParser.js');
 // multiple-choice-*
-const choiceLexer = require('./Choice/choiceLexer.js');
-const choiceParser = require('./Choice/choiceParser.js');
+const choiceLexer = require('./antlr/choiceLexer.js');
+const choiceParser = require('./antlr/choiceParser.js');
 
-const interviewLexer = require('./Interview/interviewLexer.js');
-const interviewParser = require('./Interview/interviewParser.js');
+const interviewLexer = require('./antlr/interviewLexer.js');
+const interviewParser = require('./antlr/interviewParser.js');
 
-const truefalseLexer = require('./Truefalse/truefalseLexer.js');
-const truefalseParser = require('./Truefalse/truefalseParser.js');
+const truefalseLexer = require('./antlr/truefalseLexer.js');
+const truefalseParser = require('./antlr/truefalseParser.js');
 
-const flashcardLexer = require('./Flashcard/flashcardLexer.js');
-const flashcardParser = require('./Flashcard/flashcardParser.js');
+const flashcardLexer = require('./antlr/flashcardLexer.js');
+const flashcardParser = require('./antlr/flashcardParser.js');
 
-const chatLexer = require('./Chat/chatLexer.js');
-const chatParser = require('./Chat/chatParser.js');
+const chatLexer = require('./antlr/chatLexer.js');
+const chatParser = require('./antlr/chatParser.js');
 
-const sequenceLexer = require('./Sequence/sequenceLexer.js');
-const sequenceParser = require('./Sequence/sequenceParser.js');
+const sequenceLexer = require('./antlr/sequenceLexer.js');
+const sequenceParser = require('./antlr/sequenceParser.js');
 
 const listener = require('./bitmark-listener.js');
 const bit_tmpl = require('./bit-template.js');
