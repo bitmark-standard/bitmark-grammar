@@ -2,7 +2,7 @@
  *  bitmark-listener.js
  *
  *  last update
- *  Sep 24,2022
+ *  July 25, 2023
  */
 const R = require('ramda');
 const Stack = require('./stack').Stack;
@@ -2195,7 +2195,7 @@ BitmarkListener.prototype.exitAudio_one = function (ctx) {
     && 'avatarImage' in this.stk.top().bit[key]) {
     // Chat, Survey etc
   }
-  else if (this.resformat == '&audio' || this.resformat == "&image-with-audio") {
+  else if (this.resformat == '&audio') {
     const res = this.but.remove_close_bracket_and_follow(code);
     key = what.substr(1);  // remove &
 

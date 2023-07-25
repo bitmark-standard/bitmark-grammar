@@ -99,11 +99,28 @@ class Preprocessor {
     let re = /\[((&audio|&image|&video|&article|&document|&app|&website|&still-image|@src[0-9]x)[A-Za-z\-]*:(http|https|file):\/\/.*?)\](?=\n|\[@)/g;  // look for all
     let text_repl = text;
     let m;
-
+    
     while ((m = re.exec(text_repl)) !== null) {
       let mr = m[1].replace(/\[/g, '&#91;');
       mr = mr.replace(/\]/g, '&#93;');
       text_repl = text_repl.replace(m[1], mr);
+    }
+    return text_repl;
+  }
+
+  /*
+    Escape the [] inside between ** and **. This is a special case and I am not
+    sure if this is a good solution. 7/25/2023
+   */
+  escape_brackets_in_emphasis(text) {
+    let re = /(\*\*[^\[\*\s]*\[[^\]\*\s]*\][^\]\*\s]*\*\*)/gms;
+    let text_repl=text;
+    let m;
+
+    while ((m = re.exec(text_repl)) !== null) {
+      let mr = m[1].replace(/\[/g, '&#91;');
+      mr = mr.replace(/\]/g, '&#93;');
+      text_repl = text_repl.replace(m[0], mr);
     }
     return text_repl;
   }
@@ -174,6 +191,7 @@ class Preprocessor {
   }
   // simple version. no offset
   unreplace_stray_bitheads(text, x_array) {
+    const unescape_brackets = txt => (txt.replace(/&#91;/g, '[')).replace(/&#93;/g, ']');
 
     for (let i in x_array) {
       //
@@ -182,6 +200,7 @@ class Preprocessor {
       var re = new RegExp(y, 'g');
       text = text.replace(re, x.before);
     }
+    text = unescape_brackets(text);  // get the backets back.
     return text;
   }
 }
@@ -390,6 +409,9 @@ class BitmarkParser {
     }
     if (prep.is_a_json_bit(splitted_text)) {
       [replaced, x_array] = prep.escape_json_for_json_bits(replaced);
+    }
+    if (0 < replaced.indexOf('[', 6)) {  // skip initial [] for bit heading
+      replaced = prep.escape_brackets_in_emphasis(replaced);
     }
 
     [replaced, y_array] = prep.replace_stray_bitheads(replaced);

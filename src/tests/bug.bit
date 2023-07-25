@@ -1,28 +1,5 @@
-[.essay&image]
-[%05_Ablauf und Termine_022 (Freitext) ]
-[!Berechnen Sie aufgrund des & folgenden Projektablaufplans die Projektdauer in Monaten. 
-Hinweis: In den Spalten «Vorgänger» und «Nachfolger» ist jeweils nur eine Nummer aufgeführt.][?Korrekte Lösung 
-18 Monate. (Hinweis: Für die Berechnung kann das Zeichnen eines Gantt-Diagramms hilfreich sein.)]
-[&audio-link:https://docs.bitbook.education/bit-books/compendio/schubert_erkundungen_c1/web-resources/cover/compendio_uebungen/web_resources/images/05_ablauf_und_termine_022.mp3]
-[&video-link:https://docs.bitbook.education/bit-books/compendio/schubert_erkundungen_c1/web-resources/cover/compendio_uebungen/web_resources/images/05_ablauf_und_termine_022.wmv]
+[.info:bitmark++]
+[@id:67438]
+Please see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.
 
-
-[.bot-action-response]
-[!
-Wusstest du, dass du einen **Teil der Kosten selbst bezahlen** musst, wenn du bekifft einen Unfall verursachst?
-]
-
-Der Entscheid darüber liegt nicht bei der Versicherung, sondern ist **gesetzlich vorgeschrieben.**
-
-===
-[%A]
-[!Ja, das weiss ich]
-[@reaction:celebrate]
-👍 Cool!
-===
-[%B]
-[!Das war mir nicht bewusst]
-😅
-[@reaction:like]
-===
-
+All **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.

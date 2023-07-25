@@ -112,4 +112,4 @@ es6: $(grammar_files)
 
 
 clean:
-	$(RM) $(js_files) $(build_dir)*.ts 
+	$(RM) $(js_files) $(build_dir)* 
