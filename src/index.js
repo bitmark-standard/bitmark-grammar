@@ -113,10 +113,11 @@ class Preprocessor {
     sure if this is a good solution. 7/25/2023
    */
   escape_brackets_in_emphasis(text) {
-    let re = /(\*\*[^\[\*\s]*\[[^\]\*\s]*\][^\]\*\s]*\*\*)/gms;
+    let re = /(\*\*+[^\[\*\n]*\[[^\]\*]*\][^\]\*\n]*\*+\*)/gms;
     let text_repl=text;
     let m;
 
+    debugger
     while ((m = re.exec(text_repl)) !== null) {
       let mr = m[1].replace(/\[/g, '&#91;');
       mr = mr.replace(/\]/g, '&#93;');
