@@ -16255,5 +16255,473 @@
         }
     }
 ]
+<<<<./tests/cook-lang.bit
+[
+    {
+        "bitmark": "[.cook-preparation]\n[@id:67438]\nPlease see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+        "bit": {
+            "type": "cook_preparation",
+            "format": "bitmark--",
+            "body": "Please see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "67438"
+            ]
+        }
+    },
+    {
+        "bitmark": "[.cook-step]\n[@id:67439]\nPlease see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+        "bit": {
+            "type": "cook_step",
+            "format": "bitmark--",
+            "body": "Please see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "67439"
+            ]
+        }
+    },
+    {
+        "bitmark": "[.cook-ingredients]\n[@id:67440]\nPlease see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+        "bit": {
+            "type": "cook_ingredients",
+            "format": "bitmark--",
+            "body": "Please see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "67440"
+            ]
+        }
+    },
+    {
+        "bitmark": "[.cook-remark]\n[@id:67441]\nPlease see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+        "bit": {
+            "type": "cook_remark",
+            "format": "bitmark--",
+            "body": "Please see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "67441"
+            ]
+        }
+    },
+    {
+        "bitmark": "[.cook-variation]\n[@id:67442]\nPlease see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+        "bit": {
+            "type": "cook_variation",
+            "format": "bitmark--",
+            "body": "Please see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "67442"
+            ]
+        }
+    },
+    {
+        "bitmark": "[.cook-insert]\n[@id:67443]\nPlease see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+        "bit": {
+            "type": "cook_insert",
+            "format": "bitmark--",
+            "body": "Please see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "67443"
+            ]
+        }
+    },
+    {
+        "bitmark": "[.cook-arrangement]\n[@id:67444]\nPlease see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+        "bit": {
+            "type": "cook_arrangement",
+            "format": "bitmark--",
+            "body": "Please see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "67444"
+            ]
+        }
+    },
+    {
+        "bitmark": "[.cook-practice-advise]\n[@id:67445]\nPlease see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+        "bit": {
+            "type": "cook_practice_advise",
+            "format": "bitmark--",
+            "body": "Please see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "67445"
+            ]
+        }
+    },
+    {
+        "bitmark": "[.cook-plate]\n[@id:67446]\nPlease see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+        "bit": {
+            "type": "cook_plate",
+            "format": "bitmark--",
+            "body": "Please see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "67446"
+            ]
+        }
+    },
+    {
+        "bitmark": "[.cook-recommendation]\n[@id:67447]\nPlease see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+        "bit": {
+            "type": "cook_recommendation",
+            "format": "bitmark--",
+            "body": "Please see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "67447"
+            ]
+        }
+    },
+    {
+        "bitmark": "[.cook-personal-recommendation]\n[@id:67448]\nPlease see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+        "bit": {
+            "type": "cook_personal_recommendation",
+            "format": "bitmark--",
+            "body": "Please see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "67448"
+            ]
+        }
+    },
+    {
+        "bitmark": "[.cook-side-drink]\n[@id:67449]\nPlease see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+        "bit": {
+            "type": "cook_side_drink",
+            "format": "bitmark--",
+            "body": "Please see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "67449"
+            ]
+        }
+    },
+    {
+        "bitmark": "[.cook-side-dish]\n[@id:67450]\nPlease see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+        "bit": {
+            "type": "cook_side_dish",
+            "format": "bitmark--",
+            "body": "Please see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "67450"
+            ]
+        }
+    },
+    {
+        "bitmark": "[.cook-timer]\n[@id:67451]\nPlease see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+        "bit": {
+            "type": "cook_timer",
+            "format": "bitmark--",
+            "body": "Please see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "67451"
+            ]
+        }
+    },
+    {
+        "bitmark": "[.cook-ingredients]\n[@id:67452]\nPlease see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+        "bit": {
+            "type": "cook_ingredients",
+            "format": "bitmark--",
+            "body": "Please see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "67452"
+            ]
+        }
+    },
+    {
+        "bitmark": "[.lang-learning-outcomes]\n[@id:67453]\nPlease see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+        "bit": {
+            "type": "lang_learning_outcomes",
+            "format": "bitmark--",
+            "body": "Please see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "67453"
+            ]
+        }
+    },
+    {
+        "bitmark": "[.lang-enabling-language-skills]\n[@id:67454]\nPlease see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+        "bit": {
+            "type": "lang_enabling_language_skills",
+            "format": "bitmark--",
+            "body": "Please see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "67454"
+            ]
+        }
+    },
+    {
+        "bitmark": "[.lang-life-skills]\n[@id:67455]\nPlease see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+        "bit": {
+            "type": "lang_life_skills",
+            "format": "bitmark--",
+            "body": "Please see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "67455"
+            ]
+        }
+    },
+    {
+        "bitmark": "[.lang-english-around-world]\n[@id:67456]\nPlease see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+        "bit": {
+            "type": "lang_english_around_world",
+            "format": "bitmark--",
+            "body": "Please see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "67456"
+            ]
+        }
+    },
+    {
+        "bitmark": "[.lang-good-to-know]\n[@id:67457]\nPlease see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+        "bit": {
+            "type": "lang_good_to_know",
+            "format": "bitmark--",
+            "body": "Please see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "67457"
+            ]
+        }
+    },
+    {
+        "bitmark": "[.lang-learning-strategy]\n[@id:67458]\nPlease see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+        "bit": {
+            "type": "lang_learning_strategy",
+            "format": "bitmark--",
+            "body": "Please see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "67458"
+            ]
+        }
+    },
+    {
+        "bitmark": "[.lang-like-a-local]\n[@id:67459]\nPlease see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+        "bit": {
+            "type": "lang_like_a_local",
+            "format": "bitmark--",
+            "body": "Please see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "67459"
+            ]
+        }
+    },
+    {
+        "bitmark": "[.lang-useful-phrases]\n[@id:67460]\nPlease see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+        "bit": {
+            "type": "lang_useful_phrases",
+            "format": "bitmark--",
+            "body": "Please see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "67460"
+            ]
+        }
+    },
+    {
+        "bitmark": "[.lang-level-down]\n[@id:67461]\nPlease see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+        "bit": {
+            "type": "lang_level_down",
+            "format": "bitmark--",
+            "body": "Please see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "67461"
+            ]
+        }
+    },
+    {
+        "bitmark": "[.lang-level-up]\n[@id:67462]\nPlease see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+        "bit": {
+            "type": "lang_level_up",
+            "format": "bitmark--",
+            "body": "Please see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "67462"
+            ]
+        }
+    },
+    {
+        "bitmark": "[.lang-extra-activity]\n[@id:67463]\nPlease see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+        "bit": {
+            "type": "lang_extra_activity",
+            "format": "bitmark--",
+            "body": "Please see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "67463"
+            ]
+        }
+    },
+    {
+        "bitmark": "[.lang-video-script]\n[@id:67464]\nPlease see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+        "bit": {
+            "type": "lang_video_script",
+            "format": "bitmark--",
+            "body": "Please see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "67464"
+            ]
+        }
+    },
+    {
+        "bitmark": "[.lang-audio-script]\n[@id:67465]\nPlease see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+        "bit": {
+            "type": "lang_audio_script",
+            "format": "bitmark--",
+            "body": "Please see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "67465"
+            ]
+        }
+    },
+    {
+        "bitmark": "[.lang-vocabulary]\n[@id:67466]\nPlease see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+        "bit": {
+            "type": "lang_vocabulary",
+            "format": "bitmark--",
+            "body": "Please see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "67466"
+            ]
+        }
+    },
+    {
+        "bitmark": "[.lang-homework]\n[@id:67467]\nPlease see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+        "bit": {
+            "type": "lang_homework",
+            "format": "bitmark--",
+            "body": "Please see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "67467"
+            ]
+        }
+    },
+    {
+        "bitmark": "[.lang-teacher-note]\n[@id:67468]\nPlease see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+        "bit": {
+            "type": "lang_teacher_note",
+            "format": "bitmark--",
+            "body": "Please see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "67468"
+            ]
+        }
+    }
+]
 <<<<
   

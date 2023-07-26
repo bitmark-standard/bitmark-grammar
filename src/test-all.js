@@ -184,6 +184,7 @@ const testfiles = [
   './tests/GMB/bitmark_example.bit',
 
   './tests/placeholder.bit',
+  './tests/cook-lang.bit',
 ];
 
 const testfilesX = [

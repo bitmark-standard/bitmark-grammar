@@ -1,8 +1,8 @@
 /*
-  default lexer mode:
-  [Bit Keyword]  -> non-bit-mode
+default lexer mode:
+[Bit Keyword]  -> non-bit-mode
 
-  endof bit -> default mode
+endof bit -> default mode
 */
 lexer grammar bitmarkLexer;
 
@@ -80,37 +80,37 @@ BitLearningPathExternalLink: NL OPDOT S* 'learning-path-external-link' ;
 BitLearningPathClassroomTraining: NL OPDOT S* 'learning-path-classroom-training' ;
 // New April 22, 2022
 BitLearningPathClassroomEvent: NL OPDOT S* 'learning-path-classroom-event' ;
-BitBotActionSend:         NL OPDOT S* 'bot-action-send' ;
-BitBotActionAnnounce:     NL OPDOT S* 'bot-action-announce' ;
-BitBotActionSave: 	      NL OPDOT S* 'bot-action-save' ;
+BitBotActionSend:           NL OPDOT S* 'bot-action-send' ;
+BitBotActionAnnounce:       NL OPDOT S* 'bot-action-announce' ;
+BitBotActionSave: 	    NL OPDOT S* 'bot-action-save' ;
 BitBotActionRemind:  	    NL OPDOT S* 'bot-action-remind' ;
 
 BitVendorPadletEmbed:	    NL OPDOT S* 'vendor-padlet-embed' ;
-BitScorm:		              NL OPDOT S* 'scorm' ;
+BitScorm: 		    NL OPDOT S* 'scorm' ;
 
-BitImage:			            NL OPDOT S* 'image'   ;
-BitImageLink:			        NL OPDOT S* 'image-link'   ;
-BitImageZoom:			        NL OPDOT S* 'image-zoom'   ;
-BitImagePrototype:		    NL OPDOT S* 'image-prototype'   ;
-BitImageSuperWide:		    NL OPDOT S* 'image-super-wide' ;
-BitAudio:			            NL OPDOT S* 'audio'   ;
-BitAudioLink:			        NL OPDOT S* 'audio-link'   ;
-BitAudioEmbed:			      NL OPDOT S* 'audio-embed'   ;
-BitVideo:			            NL OPDOT S* 'video'   ;
-BitVideoLink:			        NL OPDOT S* 'video-link'   ;
-BitVideoEmbed:			      NL OPDOT S* 'video-embed'   ;
-BitVideoPortrait:		      NL OPDOT S* 'video-portrait'   ;
-BitVideoLandscape:		    NL OPDOT S* 'video-landscape'   ;
-BitStillImageFilm: 		    NL OPDOT S* 'still-image-film'   ;
-BitStillImageFilmLink:		NL OPDOT S* 'still-image-film-link'   ;
-BitStillImageFilmEmbed:		NL OPDOT S* 'still-image-film-embed'   ;
-BitWebsiteLink:			      NL OPDOT S* 'website-link'   ;
-BitDocument:			        NL OPDOT S* 'document'   ;
-BitDocumentLink:		      NL OPDOT S* 'document-link'   ;
-BitDocumentEmbed:		      NL OPDOT S* 'document-embed'   ;
-BitDocumentDownload:		  NL OPDOT S* 'document-download'   ;
-BitAppLink:			          NL OPDOT S* 'app-link'   ;
-BitEditorial:			        NL OPDOT S* 'editorial'   ;
+BitImage: 		    NL OPDOT S* 'image'   ;
+BitImageLink: 		    NL OPDOT S* 'image-link'   ;
+BitImageZoom: 		    NL OPDOT S* 'image-zoom'   ;
+BitImagePrototype: 	    NL OPDOT S* 'image-prototype'   ;
+BitImageSuperWide: 	    NL OPDOT S* 'image-super-wide' ;
+BitAudio: 		    NL OPDOT S* 'audio'   ;
+BitAudioLink: 		    NL OPDOT S* 'audio-link'   ;
+BitAudioEmbed: 		    NL OPDOT S* 'audio-embed'   ;
+BitVideo: 		    NL OPDOT S* 'video'   ;
+BitVideoLink: 		    NL OPDOT S* 'video-link'   ;
+BitVideoEmbed: 		    NL OPDOT S* 'video-embed'   ;
+BitVideoPortrait: 	    NL OPDOT S* 'video-portrait'   ;
+BitVideoLandscape: 	    NL OPDOT S* 'video-landscape'   ;
+BitStillImageFilm: 	    NL OPDOT S* 'still-image-film'   ;
+BitStillImageFilmLink: 	    NL OPDOT S* 'still-image-film-link'   ;
+BitStillImageFilmEmbed:     NL OPDOT S* 'still-image-film-embed'   ;
+BitWebsiteLink: 	    NL OPDOT S* 'website-link'   ;
+BitDocument: 		    NL OPDOT S* 'document'   ;
+BitDocumentLink: 	    NL OPDOT S* 'document-link'   ;
+BitDocumentEmbed: 	    NL OPDOT S* 'document-embed'   ;
+BitDocumentDownload: 	    NL OPDOT S* 'document-download'   ;
+BitAppLink: 		    NL OPDOT S* 'app-link'   ;
+BitEditorial: 		    NL OPDOT S* 'editorial'   ;
 
 BitBookFrontispiece:		  NL OPDOT S* 'book-frontispiece'   ;
 BitBookTitle:	       		  NL OPDOT S* 'book-title'   ;
@@ -156,45 +156,81 @@ BitBotActionRatingNumber:	NL OPDOT S* 'bot-action-rating-number'   ;
 BitBotActionRatingStars:	NL OPDOT S* 'bot-action-rating-stars'   ;
 
 BitChapterSubjectMatter:	NL OPDOT S* 'chapter-subject-matter' ;
-BitReleaseNote:			      NL OPDOT S* 'release-note' ;
-BitConclusion:			      NL OPDOT S* 'conclusion' ;
+BitReleaseNote: 		NL OPDOT S* 'release-note' ;
+BitConclusion: 			NL OPDOT S* 'conclusion' ;
 
 BitVendorAmcharts5Chart:	NL OPDOT S* 'vendor-amcharts-5-chart' ;
-BitFeatured:			        NL OPDOT S* 'featured' ;
+BitFeatured: 			NL OPDOT S* 'featured' ;
 
-BitNewspaperArticle:		  NL OPDOT S* 'newspaper-article' ;
-BitBlogArticle:			      NL OPDOT S* 'blog-article' ;
-BitBookArticle:			      NL OPDOT S* 'book-article' ;
-BitNotebookArticle:		    NL OPDOT S* 'notebook-article' ;
-BitWorkbookArticle:		    NL OPDOT S* 'workbook-article' ;
-BitReleaseNotesSummary:   NL OPDOT S* 'release-notes-summary' ;
+BitNewspaperArticle:		NL OPDOT S* 'newspaper-article' ;
+BitBlogArticle: 		NL OPDOT S* 'blog-article' ;
+BitBookArticle: 		NL OPDOT S* 'book-article' ;
+BitNotebookArticle: 		NL OPDOT S* 'notebook-article' ;
+BitWorkbookArticle: 		NL OPDOT S* 'workbook-article' ;
+BitReleaseNotesSummary:   	NL OPDOT S* 'release-notes-summary' ;
+
+BitCookPreparation:		NL OPDOT S* 'cook-preparation' ;
+BitCookStep:			NL OPDOT S* 'cook-step' ;
+BitCookIngredients:		NL OPDOT S* 'cook-ingredients' ;
+BitCookRremark: 		NL OPDOT S* 'cook-remark' ;
+BitCookVariation:		NL OPDOT S* 'cook-variation' ;
+BitCookInsert: 			NL OPDOT S* 'cook-insert' ;
+BitCookArrangement:		NL OPDOT S* 'cook-arrangement' ;
+BitCookPracticeAdvise:		NL OPDOT S* 'cook-practice-advise' ;
+BitCookPlate: 			NL OPDOT S* 'cook-plate' ;
+BitCookRecommendation:		NL OPDOT S* 'cook-recommendation' ;
+BitCookPersonalRecommendation: NL OPDOT S* 'cook-personal-recommendation' ;
+BitCookSideDrink:		NL OPDOT S* 'cook-side-drink' ;
+BitCookSideDish:		NL OPDOT S* 'cook-side-dish' ;
+BitCookTimer:			NL OPDOT S* 'cook-timer' ;
+
+BitLangLearningOutcomes: 	NL OPDOT S* 'lang-learning-outcomes' ;
+BitLangEnablingLanguageSkills: 	NL OPDOT S* 'lang-enabling-language-skills' ;
+BitLangLifeSkills: 		NL OPDOT S* 'lang-life-skills' ;
+BitLangEnglishAroundWorld: 	NL OPDOT S* 'lang-english-around-world' ;
+BitLangGoodtoknow: 		NL OPDOT S* 'lang-good-to-know' ;
+BitLangLearningStrategy: 	NL OPDOT S* 'lang-learning-strategy' ;
+BitLangLikeAlocal: 		NL OPDOT S* 'lang-like-a-local' ;
+BitLangUsefulPhrases: 		NL OPDOT S* 'lang-useful-phrases' ;
+BitLangLevelDown: 		NL OPDOT S* 'lang-level-down' ;
+BitLangLevelUp: 		NL OPDOT S* 'lang-level-up' ;
+BitLangExtraActivity: 		NL OPDOT S* 'lang-extra-activity' ;
+BitLangVideoScript: 		NL OPDOT S* 'lang-video-script' ;
+BitLangAudioScript: 		NL OPDOT S* 'lang-audio-script' ;
+BitLangVocabulary: 		NL OPDOT S* 'lang-vocabulary' ;
+BitLangHomework: 		NL OPDOT S* 'lang-homework' ;
+BitLangTeacherNote: 		NL OPDOT S* 'lang-teacher-note' ;
+
+
+
+
 
 //
-OPDOLL:		      '[' S* '$' ;      // Dollar
+OPDOLL:		'[' S* '$' ;      // Dollar
 OPBUL:          '[' S* '•' ;      // Bullet
 OPRANGLES:      '[' '►' S* ;  // Right angle
 OPRANGLEL:      '[' '▶' S* ;  // Right angle
 OPDANGLE:       '[▼' S* ;  // Down angle - Anchor
-OPU:		        '[_' S* ;  // Underscore
-OPB:		        '[!' S* ;  // Bang!
-OPQ:	        	'[?' S* ;  // Question
-OPA:	          '[@' S* ;  // At
-OPP:		        '[+' S* ;  // Plus
-OPM:		        '[-' S* ;  // Minus
-OPS:		        '[\'' S* ; // [' Single quote
-OPR:		        '[*' S* ;  // [* Asterisk
+OPU:		'[_' S* ;  // Underscore
+OPB: 		'[!' S* ;  // Bang!
+OPQ: 		'[?' S* ;  // Question
+OPA: 		'[@' S* ;  // At
+OPP: 		'[+' S* ;  // Plus
+OPM: 		'[-' S* ;  // Minus
+OPS: 		'[\'' S* ; // [' Single quote
+OPR: 		'[*' S* ;  // [* Asterisk
 OPHASH:	        '[#' S* ;  // [# Hash
-OPC:	          '[%' S* ;  // [% Item
+OPC:	        '[%' S* ;  // [% Item
 
-CL:		          S* ']' ;
-COLON:		      ':' ;
-AMP:		        '&' ;
-DBLCOLON:	      '::' ;
-PLUS:	  	      '+' ;
+CL: 		S* ']' ;
+COLON: 		':' ;
+AMP: 		'&' ;
+DBLCOLON: 	'::' ;
+PLUS: 		'+' ;
 DotAt:	        '.@' ;
-Greater: 	      '>' ;
-Less:		        '<' ;
-RightAngle:	    '►' ;
+Greater: 	'>' ;
+Less: 		'<' ;
+RightAngle: 	'►' ;
 RightArrow:     '→' ;
 
 

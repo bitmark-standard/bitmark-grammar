@@ -2805,7 +2805,40 @@ BitmarkListener.prototype.enterConversation_right_1_thought = function (ctx) { t
 BitmarkListener.prototype.enterConversation_left_1_scream = function (ctx) { this.push_tmpl(ctx, 'conversation-left-1-scream'); }
 BitmarkListener.prototype.enterConversation_right_1_scream = function (ctx) { this.push_tmpl(ctx, 'conversation-right-1-scream'); }
 BitmarkListener.prototype.enterRelease_notes_summary = function (ctx) { this.push_tmpl(ctx, 'release-notes-summary'); }
+//
+BitmarkListener.prototype.enterCook_preparation = function (ctx) { this.push_tmpl(ctx, 'cook_preparation'); }
+BitmarkListener.prototype.enterCook_step = function (ctx) { this.push_tmpl(ctx, 'cook_step'); }
+BitmarkListener.prototype.enterCook_ingredients = function (ctx) { this.push_tmpl(ctx, 'cook_ingredients'); }
+BitmarkListener.prototype.enterCook_remark = function (ctx) { this.push_tmpl(ctx, 'cook_remark'); }
+BitmarkListener.prototype.enterCook_variation = function (ctx) { this.push_tmpl(ctx, 'cook_variation'); }
+BitmarkListener.prototype.enterCook_insert = function (ctx) { this.push_tmpl(ctx, 'cook_insert'); }
+BitmarkListener.prototype.enterCook_arrangement = function (ctx) { this.push_tmpl(ctx, 'cook_arrangement'); }
+BitmarkListener.prototype.enterCook_practice_advise = function (ctx) { this.push_tmpl(ctx, 'cook_practice_advise'); }
+BitmarkListener.prototype.enterCook_plate = function (ctx) { this.push_tmpl(ctx, 'cook_plate'); }
+BitmarkListener.prototype.enterCook_recommendation = function (ctx) { this.push_tmpl(ctx, 'cook_recommendation'); }
+BitmarkListener.prototype.enterCook_personal_recommendation = function (ctx) { this.push_tmpl(ctx, 'cook_personal_recommendation'); }
+BitmarkListener.prototype.enterCook_side_drink = function (ctx) { this.push_tmpl(ctx, 'cook_side_drink'); }
+BitmarkListener.prototype.enterCook_side_dish = function (ctx) { this.push_tmpl(ctx, 'cook_side_dish'); }
+BitmarkListener.prototype.enterCook_timer = function (ctx) { this.push_tmpl(ctx, 'cook_timer'); }
+//
+BitmarkListener.prototype.enterLang_learning_outcomes = function (ctx) { this.push_tmpl(ctx, 'lang_learning_outcomes'); }
+BitmarkListener.prototype.enterLang_enabling_language_skills = function (ctx) { this.push_tmpl(ctx, 'lang_enabling_language_skills'); }
+BitmarkListener.prototype.enterLang_life_skills = function (ctx) { this.push_tmpl(ctx, 'lang_life_skills'); }
+BitmarkListener.prototype.enterLang_english_around_world = function (ctx) { this.push_tmpl(ctx, 'lang_english_around_world'); }
+BitmarkListener.prototype.enterLang_good_to_know = function (ctx) { this.push_tmpl(ctx, 'lang_good_to_know'); }
+BitmarkListener.prototype.enterLang_learning_strategy = function (ctx) { this.push_tmpl(ctx, 'lang_learning_strategy'); }
+BitmarkListener.prototype.enterLang_like_a_local = function (ctx) { this.push_tmpl(ctx, 'lang_like_a_local'); }
+BitmarkListener.prototype.enterLang_useful_phrases = function (ctx) { this.push_tmpl(ctx, 'lang_useful_phrases'); }
+BitmarkListener.prototype.enterLang_level_down = function (ctx) { this.push_tmpl(ctx, 'lang_level_down'); }
+BitmarkListener.prototype.enterLang_level_up = function (ctx) { this.push_tmpl(ctx, 'lang_level_up'); }
+BitmarkListener.prototype.enterLang_extra_activity = function (ctx) { this.push_tmpl(ctx, 'lang_extra_activity'); }
+BitmarkListener.prototype.enterLang_video_script = function (ctx) { this.push_tmpl(ctx, 'lang_video_script'); }
+BitmarkListener.prototype.enterLang_audio_script = function (ctx) { this.push_tmpl(ctx, 'lang_audio_script'); }
+BitmarkListener.prototype.enterLang_vocabulary = function (ctx) { this.push_tmpl(ctx, 'lang_vocabulary'); }
+BitmarkListener.prototype.enterLang_homework = function (ctx) { this.push_tmpl(ctx, 'lang_homework'); }
+BitmarkListener.prototype.enterLang_teacher_note = function (ctx) { this.push_tmpl(ctx, 'lang_teacher_note'); }
 
+//
 BitmarkListener.prototype.enterMenu_3_course = function (ctx) {
   this.push_tmpl(ctx, 'menu-3-course');
   this.stk.top().bit['menu'] = [];

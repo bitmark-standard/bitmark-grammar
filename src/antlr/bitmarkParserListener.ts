@@ -158,6 +158,36 @@ import { Notebook_articleContext } from "./bitmarkParser";
 import { Workbook_articleContext } from "./bitmarkParser";
 import { Release_notes_summaryContext } from "./bitmarkParser";
 import { MessageContext } from "./bitmarkParser";
+import { Cook_preparationContext } from "./bitmarkParser";
+import { Cook_stepContext } from "./bitmarkParser";
+import { Cook_ingredientsContext } from "./bitmarkParser";
+import { Cook_remarkContext } from "./bitmarkParser";
+import { Cook_variationContext } from "./bitmarkParser";
+import { Cook_insertContext } from "./bitmarkParser";
+import { Cook_arrangementContext } from "./bitmarkParser";
+import { Cook_practice_adviseContext } from "./bitmarkParser";
+import { Cook_plateContext } from "./bitmarkParser";
+import { Cook_recommendationContext } from "./bitmarkParser";
+import { Cook_personal_recommendationContext } from "./bitmarkParser";
+import { Cook_side_drinkContext } from "./bitmarkParser";
+import { Cook_side_dishContext } from "./bitmarkParser";
+import { Cook_timerContext } from "./bitmarkParser";
+import { Lang_learning_outcomesContext } from "./bitmarkParser";
+import { Lang_enabling_language_skillsContext } from "./bitmarkParser";
+import { Lang_life_skillsContext } from "./bitmarkParser";
+import { Lang_english_around_worldContext } from "./bitmarkParser";
+import { Lang_good_to_knowContext } from "./bitmarkParser";
+import { Lang_learning_strategyContext } from "./bitmarkParser";
+import { Lang_like_a_localContext } from "./bitmarkParser";
+import { Lang_useful_phrasesContext } from "./bitmarkParser";
+import { Lang_level_downContext } from "./bitmarkParser";
+import { Lang_level_upContext } from "./bitmarkParser";
+import { Lang_extra_activityContext } from "./bitmarkParser";
+import { Lang_video_scriptContext } from "./bitmarkParser";
+import { Lang_audio_scriptContext } from "./bitmarkParser";
+import { Lang_vocabularyContext } from "./bitmarkParser";
+import { Lang_homeworkContext } from "./bitmarkParser";
+import { Lang_teacher_noteContext } from "./bitmarkParser";
 import { Bot_choiceContext } from "./bitmarkParser";
 import { RatingContext } from "./bitmarkParser";
 import { Bullet_itemContext } from "./bitmarkParser";
@@ -1944,6 +1974,336 @@ export interface bitmarkParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitMessage?: (ctx: MessageContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.cook_preparation`.
+	 * @param ctx the parse tree
+	 */
+	enterCook_preparation?: (ctx: Cook_preparationContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.cook_preparation`.
+	 * @param ctx the parse tree
+	 */
+	exitCook_preparation?: (ctx: Cook_preparationContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.cook_step`.
+	 * @param ctx the parse tree
+	 */
+	enterCook_step?: (ctx: Cook_stepContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.cook_step`.
+	 * @param ctx the parse tree
+	 */
+	exitCook_step?: (ctx: Cook_stepContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.cook_ingredients`.
+	 * @param ctx the parse tree
+	 */
+	enterCook_ingredients?: (ctx: Cook_ingredientsContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.cook_ingredients`.
+	 * @param ctx the parse tree
+	 */
+	exitCook_ingredients?: (ctx: Cook_ingredientsContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.cook_remark`.
+	 * @param ctx the parse tree
+	 */
+	enterCook_remark?: (ctx: Cook_remarkContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.cook_remark`.
+	 * @param ctx the parse tree
+	 */
+	exitCook_remark?: (ctx: Cook_remarkContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.cook_variation`.
+	 * @param ctx the parse tree
+	 */
+	enterCook_variation?: (ctx: Cook_variationContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.cook_variation`.
+	 * @param ctx the parse tree
+	 */
+	exitCook_variation?: (ctx: Cook_variationContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.cook_insert`.
+	 * @param ctx the parse tree
+	 */
+	enterCook_insert?: (ctx: Cook_insertContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.cook_insert`.
+	 * @param ctx the parse tree
+	 */
+	exitCook_insert?: (ctx: Cook_insertContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.cook_arrangement`.
+	 * @param ctx the parse tree
+	 */
+	enterCook_arrangement?: (ctx: Cook_arrangementContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.cook_arrangement`.
+	 * @param ctx the parse tree
+	 */
+	exitCook_arrangement?: (ctx: Cook_arrangementContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.cook_practice_advise`.
+	 * @param ctx the parse tree
+	 */
+	enterCook_practice_advise?: (ctx: Cook_practice_adviseContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.cook_practice_advise`.
+	 * @param ctx the parse tree
+	 */
+	exitCook_practice_advise?: (ctx: Cook_practice_adviseContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.cook_plate`.
+	 * @param ctx the parse tree
+	 */
+	enterCook_plate?: (ctx: Cook_plateContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.cook_plate`.
+	 * @param ctx the parse tree
+	 */
+	exitCook_plate?: (ctx: Cook_plateContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.cook_recommendation`.
+	 * @param ctx the parse tree
+	 */
+	enterCook_recommendation?: (ctx: Cook_recommendationContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.cook_recommendation`.
+	 * @param ctx the parse tree
+	 */
+	exitCook_recommendation?: (ctx: Cook_recommendationContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.cook_personal_recommendation`.
+	 * @param ctx the parse tree
+	 */
+	enterCook_personal_recommendation?: (ctx: Cook_personal_recommendationContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.cook_personal_recommendation`.
+	 * @param ctx the parse tree
+	 */
+	exitCook_personal_recommendation?: (ctx: Cook_personal_recommendationContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.cook_side_drink`.
+	 * @param ctx the parse tree
+	 */
+	enterCook_side_drink?: (ctx: Cook_side_drinkContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.cook_side_drink`.
+	 * @param ctx the parse tree
+	 */
+	exitCook_side_drink?: (ctx: Cook_side_drinkContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.cook_side_dish`.
+	 * @param ctx the parse tree
+	 */
+	enterCook_side_dish?: (ctx: Cook_side_dishContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.cook_side_dish`.
+	 * @param ctx the parse tree
+	 */
+	exitCook_side_dish?: (ctx: Cook_side_dishContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.cook_timer`.
+	 * @param ctx the parse tree
+	 */
+	enterCook_timer?: (ctx: Cook_timerContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.cook_timer`.
+	 * @param ctx the parse tree
+	 */
+	exitCook_timer?: (ctx: Cook_timerContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.lang_learning_outcomes`.
+	 * @param ctx the parse tree
+	 */
+	enterLang_learning_outcomes?: (ctx: Lang_learning_outcomesContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.lang_learning_outcomes`.
+	 * @param ctx the parse tree
+	 */
+	exitLang_learning_outcomes?: (ctx: Lang_learning_outcomesContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.lang_enabling_language_skills`.
+	 * @param ctx the parse tree
+	 */
+	enterLang_enabling_language_skills?: (ctx: Lang_enabling_language_skillsContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.lang_enabling_language_skills`.
+	 * @param ctx the parse tree
+	 */
+	exitLang_enabling_language_skills?: (ctx: Lang_enabling_language_skillsContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.lang_life_skills`.
+	 * @param ctx the parse tree
+	 */
+	enterLang_life_skills?: (ctx: Lang_life_skillsContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.lang_life_skills`.
+	 * @param ctx the parse tree
+	 */
+	exitLang_life_skills?: (ctx: Lang_life_skillsContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.lang_english_around_world`.
+	 * @param ctx the parse tree
+	 */
+	enterLang_english_around_world?: (ctx: Lang_english_around_worldContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.lang_english_around_world`.
+	 * @param ctx the parse tree
+	 */
+	exitLang_english_around_world?: (ctx: Lang_english_around_worldContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.lang_good_to_know`.
+	 * @param ctx the parse tree
+	 */
+	enterLang_good_to_know?: (ctx: Lang_good_to_knowContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.lang_good_to_know`.
+	 * @param ctx the parse tree
+	 */
+	exitLang_good_to_know?: (ctx: Lang_good_to_knowContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.lang_learning_strategy`.
+	 * @param ctx the parse tree
+	 */
+	enterLang_learning_strategy?: (ctx: Lang_learning_strategyContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.lang_learning_strategy`.
+	 * @param ctx the parse tree
+	 */
+	exitLang_learning_strategy?: (ctx: Lang_learning_strategyContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.lang_like_a_local`.
+	 * @param ctx the parse tree
+	 */
+	enterLang_like_a_local?: (ctx: Lang_like_a_localContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.lang_like_a_local`.
+	 * @param ctx the parse tree
+	 */
+	exitLang_like_a_local?: (ctx: Lang_like_a_localContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.lang_useful_phrases`.
+	 * @param ctx the parse tree
+	 */
+	enterLang_useful_phrases?: (ctx: Lang_useful_phrasesContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.lang_useful_phrases`.
+	 * @param ctx the parse tree
+	 */
+	exitLang_useful_phrases?: (ctx: Lang_useful_phrasesContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.lang_level_down`.
+	 * @param ctx the parse tree
+	 */
+	enterLang_level_down?: (ctx: Lang_level_downContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.lang_level_down`.
+	 * @param ctx the parse tree
+	 */
+	exitLang_level_down?: (ctx: Lang_level_downContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.lang_level_up`.
+	 * @param ctx the parse tree
+	 */
+	enterLang_level_up?: (ctx: Lang_level_upContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.lang_level_up`.
+	 * @param ctx the parse tree
+	 */
+	exitLang_level_up?: (ctx: Lang_level_upContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.lang_extra_activity`.
+	 * @param ctx the parse tree
+	 */
+	enterLang_extra_activity?: (ctx: Lang_extra_activityContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.lang_extra_activity`.
+	 * @param ctx the parse tree
+	 */
+	exitLang_extra_activity?: (ctx: Lang_extra_activityContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.lang_video_script`.
+	 * @param ctx the parse tree
+	 */
+	enterLang_video_script?: (ctx: Lang_video_scriptContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.lang_video_script`.
+	 * @param ctx the parse tree
+	 */
+	exitLang_video_script?: (ctx: Lang_video_scriptContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.lang_audio_script`.
+	 * @param ctx the parse tree
+	 */
+	enterLang_audio_script?: (ctx: Lang_audio_scriptContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.lang_audio_script`.
+	 * @param ctx the parse tree
+	 */
+	exitLang_audio_script?: (ctx: Lang_audio_scriptContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.lang_vocabulary`.
+	 * @param ctx the parse tree
+	 */
+	enterLang_vocabulary?: (ctx: Lang_vocabularyContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.lang_vocabulary`.
+	 * @param ctx the parse tree
+	 */
+	exitLang_vocabulary?: (ctx: Lang_vocabularyContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.lang_homework`.
+	 * @param ctx the parse tree
+	 */
+	enterLang_homework?: (ctx: Lang_homeworkContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.lang_homework`.
+	 * @param ctx the parse tree
+	 */
+	exitLang_homework?: (ctx: Lang_homeworkContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.lang_teacher_note`.
+	 * @param ctx the parse tree
+	 */
+	enterLang_teacher_note?: (ctx: Lang_teacher_noteContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.lang_teacher_note`.
+	 * @param ctx the parse tree
+	 */
+	exitLang_teacher_note?: (ctx: Lang_teacher_noteContext) => void;
 
 	/**
 	 * Enter a parse tree produced by `bitmarkParser.bot_choice`.
