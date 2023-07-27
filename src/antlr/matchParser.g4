@@ -250,7 +250,6 @@ image_format:  // No [ included
     AmpImage  (( Image_type ) | ( DotArticleAtt ))?
   | AmpImageLink ( Image_type )?
   | AmpImageZoom ( Image_type )?
-  | AmpImageWAudio
   ;
 video_format:    (AmpVideo | AmpVideoLink | AmpVideoEmbed) ( COLON Video_type )? ;
 article_format:  AmpArticle | AmpArticleLink ;
