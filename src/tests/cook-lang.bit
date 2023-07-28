@@ -90,7 +90,7 @@ All **instructions [ !...]** of the cloze are collected and displayed together a
 
 [.lang-english-around-world]
 [@id:67456]
-Please see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.
+Please see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentati>on of all tags. This section contains the additional tags only.
 All **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.
 
 [.lang-good-to-know]
@@ -148,7 +148,24 @@ All **instructions [ !...]** of the cloze are collected and displayed together a
 Please see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.
 All **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.
 
-[.lang-teacher-note]
-[@id:67468]
-Please see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.
-All **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.
+[.lang-teacher-note:bitmark--]
+[%A6a]
+[!Der erste Schultag
+
+Berichten Sie.]
+* Erinnern Sie sich an Ihren ersten Schultag?
+* Hatten Sie auch eine Schultüte?
+* Gibt es in Ihrem Heimatland einen besonderen Brauch am ersten Schultag?
+
+[.lang-teacher-note:bitmark--&image]
+[%A6b]
+[!Der erste Schultag
+
+Lesen Sie den folgenden Text.]
+[&image:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/dok_detail_file.png]
+
+**Der erste Schultag**
+
+Wenn man in Deutschland über den ersten Schultag spricht, muss man auch von der Schultüte reden. Sie ist das deutlichste Kennzeichen der Mädchen und Jungen, die zum allerersten Mal in die Schule gehen.
+
+Der Schulanfang ist so alt wie die Schule selbst. Früher erfolgte der Schulanfang im Frühjahr oder Herbst und mit ihm entwickelten sich zahlreiche Bräuche. 

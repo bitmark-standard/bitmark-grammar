@@ -16528,11 +16528,11 @@
         }
     },
     {
-        "bitmark": "[.lang-english-around-world]\n[@id:67456]\nPlease see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+        "bitmark": "[.lang-english-around-world]\n[@id:67456]\nPlease see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentati>on of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
         "bit": {
             "type": "lang_english_around_world",
             "format": "bitmark--",
-            "body": "Please see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+            "body": "Please see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentati>on of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
             "item": "",
             "hint": "",
             "isExample": false,
@@ -16708,18 +16708,43 @@
         }
     },
     {
-        "bitmark": "[.lang-teacher-note]\n[@id:67468]\nPlease see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
+        "bitmark": "[.lang-teacher-note:bitmark--]\n[%A6a]\n[!Der erste Schultag\n\nBerichten Sie.]\n* Erinnern Sie sich an Ihren ersten Schultag?\n* Hatten Sie auch eine Schultüte?\n* Gibt es in Ihrem Heimatland einen besonderen Brauch am ersten Schultag?",
         "bit": {
             "type": "lang_teacher_note",
             "format": "bitmark--",
-            "body": "Please see ==cloze==|link:https://docs.bitmark.cloud/quizzes/#cloze-gap-text| for the documentation of all tags. This section contains the additional tags only.\nAll **instructions [ !...]** of the cloze are collected and displayed together as a help for the user.",
-            "item": "",
+            "body": "* Erinnern Sie sich an Ihren ersten Schultag?\n* Hatten Sie auch eine Schultüte?\n* Gibt es in Ihrem Heimatland einen besonderen Brauch am ersten Schultag?",
+            "item": "A6a",
             "hint": "",
             "isExample": false,
             "example": "",
-            "id": [
-                "67468"
-            ]
+            "instruction": "Der erste Schultag\n\nBerichten Sie."
+        }
+    },
+    {
+        "bitmark": "[.lang-teacher-note:bitmark--&image]\n[%A6b]\n[!Der erste Schultag\n\nLesen Sie den folgenden Text.]\n[&image:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/dok_detail_file.png]\n\n**Der erste Schultag**\n\nWenn man in Deutschland über den ersten Schultag spricht, muss man auch von der Schultüte reden. Sie ist das deutlichste Kennzeichen der Mädchen und Jungen, die zum allerersten Mal in die Schule gehen.\n\nDer Schulanfang ist so alt wie die Schule selbst. Früher erfolgte der Schulanfang im Frühjahr oder Herbst und mit ihm entwickelten sich zahlreiche Bräuche.",
+        "bit": {
+            "type": "lang_teacher_note",
+            "format": "bitmark--",
+            "body": "**Der erste Schultag**\n\nWenn man in Deutschland über den ersten Schultag spricht, muss man auch von der Schultüte reden. Sie ist das deutlichste Kennzeichen der Mädchen und Jungen, die zum allerersten Mal in die Schule gehen.\n\nDer Schulanfang ist so alt wie die Schule selbst. Früher erfolgte der Schulanfang im Frühjahr oder Herbst und mit ihm entwickelten sich zahlreiche Bräuche.",
+            "item": "A6b",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "instruction": "Der erste Schultag\n\nLesen Sie den folgenden Text.",
+            "resource": {
+                "type": "image",
+                "image": {
+                    "src": "https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/dok_detail_file.png",
+                    "showInIndex": false,
+                    "format": "png",
+                    "width": null,
+                    "height": null,
+                    "alt": "",
+                    "caption": "",
+                    "license": "",
+                    "copyright": ""
+                }
+            }
         }
     }
 ]

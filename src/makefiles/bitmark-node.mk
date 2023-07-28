@@ -24,8 +24,8 @@ js_files = bitmarkLexer.js bitmarkParser.js bitmarkListener.js
 .DEFAULT_GOAL = es6
 
 es6: $(grammar_files)
-	python tools/replace_parser_content.py $(grammar_dir)/_bitmarkLexer.g4 $(common_lexer)   $(build_dir)/bitmarkLexer.g4 '<<<<<<common<<<<<<'
-	python tools/replace_parser_content.py $(grammar_dir)/_bitmarkParser.g4 $(common_parser) $(build_dir)/bitmarkParser.g4 '<<<<<<common<<<<<<'
+	python3 tools/replace_parser_content.py $(grammar_dir)/_bitmarkLexer.g4 $(common_lexer)   $(build_dir)/bitmarkLexer.g4 '<<<<<<common<<<<<<'
+	python3 tools/replace_parser_content.py $(grammar_dir)/_bitmarkParser.g4 $(common_parser) $(build_dir)/bitmarkParser.g4 '<<<<<<common<<<<<<'
 	$(NODE_MODULES)/antlr4ts-cli/antlr4ts $(ANTLR_OPT) $(build_dir)/bitmarkLexer.g4
 	$(NODE_MODULES)/antlr4ts-cli/antlr4ts $(ANTLR_OPT) $(build_dir)/bitmarkParser.g4
 	$(TYPESCRIPTCOMPILER) $(build_dir)/bitmark*.ts -experimentalDecorators --strict true --module commonjs  --target es2015 -lib es2015 --moduleResolution Node --outDir $(build_dir)

@@ -5,6 +5,7 @@ NODE_MODULES=../node_modules
 ANTLR4TS=$(NODE_MODULES)/antlr4ts
 ANTLR_OPT=-Dlanguage=JavaScript  -o ./
 TYPESCRIPTCOMPILER=$(NODE_MODULES)/.bin/tsc
+PYTHON=python3
 
 BABEL_DIR=./babel
 .PHONY: build es6 
@@ -55,56 +56,56 @@ sequence_js_files = sequenceLexer.js sequenceParser.js
 .DEFAULT_GOAL = es6
 
 es6: $(grammar_files)
-	python ./tools/replace_parser_content.py $(grammar_dir)/_bitmarkLexer.g4 $(grammar_dir)/common_lexer.g4 $(bitmark_lexer_file) '<<<<<<common<<<<<<'
-	python ./tools/replace_parser_content.py $(grammar_dir)/_bitmarkParser.g4 $(grammar_dir)/common_parser.g4 $(bitmark_parser_file) '<<<<<<common<<<<<<'
+	$(PYTHON) ./tools/replace_parser_content.py $(grammar_dir)/_bitmarkLexer.g4 $(grammar_dir)/common_lexer.g4 $(bitmark_lexer_file) '<<<<<<common<<<<<<'
+	$(PYTHON) ./tools/replace_parser_content.py $(grammar_dir)/_bitmarkParser.g4 $(grammar_dir)/common_parser.g4 $(bitmark_parser_file) '<<<<<<common<<<<<<'
 	$(NODE_MODULES)/antlr4ts-cli/antlr4ts $(ANTLR_OPT) $(bitmark_lexer_file);
 	$(NODE_MODULES)/antlr4ts-cli/antlr4ts $(ANTLR_OPT) $(bitmark_parser_file);
 	$(TYPESCRIPTCOMPILER) $(build_dir)/*.ts -experimentalDecorators --strict true --module commonjs  --target es2015 -lib es2015 --moduleResolution Node --outDir $(build_dir)
 
-	python ./tools/replace_parser_content.py $(grammar_dir)/_clozeLexer.g4 $(grammar_dir)/common_lexer.g4 $(cloze_lexer_file) '<<<<<<common<<<<<<'
-	python ./tools/replace_parser_content.py $(grammar_dir)/_clozeParser.g4 $(grammar_dir)/common_parser.g4 $(cloze_parser_file) '<<<<<<common<<<<<<'
+	$(PYTHON) ./tools/replace_parser_content.py $(grammar_dir)/_clozeLexer.g4 $(grammar_dir)/common_lexer.g4 $(cloze_lexer_file) '<<<<<<common<<<<<<'
+	$(PYTHON) ./tools/replace_parser_content.py $(grammar_dir)/_clozeParser.g4 $(grammar_dir)/common_parser.g4 $(cloze_parser_file) '<<<<<<common<<<<<<'
 	$(NODE_MODULES)/antlr4ts-cli/antlr4ts $(ANTLR_OPT) $(cloze_lexer_file);
 	$(NODE_MODULES)/antlr4ts-cli/antlr4ts $(ANTLR_OPT) $(cloze_parser_file);
 	$(NODE_MODULES)/.bin/tsc $(build_dir)/*.ts -experimentalDecorators --strict true --module commonjs  --target es2015 -lib es2015 --moduleResolution Node --outDir $(build_dir)
 
-	python ./tools/replace_parser_content.py $(grammar_dir)/_matchLexer.g4 $(grammar_dir)/common_lexer.g4 $(match_lexer_file) '<<<<<<common<<<<<<'
-	python ./tools/replace_parser_content.py $(grammar_dir)/_matchParser.g4 $(grammar_dir)/common_parser.g4 $(match_parser_file) '<<<<<<common<<<<<<'
+	$(PYTHON) ./tools/replace_parser_content.py $(grammar_dir)/_matchLexer.g4 $(grammar_dir)/common_lexer.g4 $(match_lexer_file) '<<<<<<common<<<<<<'
+	$(PYTHON) ./tools/replace_parser_content.py $(grammar_dir)/_matchParser.g4 $(grammar_dir)/common_parser.g4 $(match_parser_file) '<<<<<<common<<<<<<'
 	$(NODE_MODULES)/antlr4ts-cli/antlr4ts $(ANTLR_OPT) $(match_lexer_file);
 	$(NODE_MODULES)/antlr4ts-cli/antlr4ts $(ANTLR_OPT) $(match_parser_file);
 	$(NODE_MODULES)/.bin/tsc $(build_dir)/*.ts  -experimentalDecorators --strict true --module commonjs  --target es2015 -lib es2015 --moduleResolution Node --outDir $(build_dir)
 
-	python ./tools/replace_parser_content.py $(grammar_dir)/_choiceLexer.g4 $(grammar_dir)/common_lexer.g4 $(choice_lexer_file) '<<<<<<common<<<<<<'
-	python ./tools/replace_parser_content.py $(grammar_dir)/_choiceParser.g4 $(grammar_dir)/common_parser.g4 $(choice_parser_file) '<<<<<<common<<<<<<'
+	$(PYTHON) ./tools/replace_parser_content.py $(grammar_dir)/_choiceLexer.g4 $(grammar_dir)/common_lexer.g4 $(choice_lexer_file) '<<<<<<common<<<<<<'
+	$(PYTHON) ./tools/replace_parser_content.py $(grammar_dir)/_choiceParser.g4 $(grammar_dir)/common_parser.g4 $(choice_parser_file) '<<<<<<common<<<<<<'
 	$(NODE_MODULES)/antlr4ts-cli/antlr4ts $(ANTLR_OPT) $(choice_lexer_file);
 	$(NODE_MODULES)/antlr4ts-cli/antlr4ts $(ANTLR_OPT) $(choice_parser_file);
 	$(NODE_MODULES)/.bin/tsc $(build_dir)/*.ts -experimentalDecorators --strict true --module commonjs  --target es2015 -lib es2015 --moduleResolution Node --outDir $(build_dir)
 
-	python ./tools/replace_parser_content.py $(grammar_dir)/_interviewLexer.g4 $(grammar_dir)/common_lexer.g4 $(interview_lexer_file) '<<<<<<common<<<<<<'
-	python ./tools/replace_parser_content.py $(grammar_dir)/_interviewParser.g4 $(grammar_dir)/common_parser.g4 $(interview_parser_file) '<<<<<<common<<<<<<'
+	$(PYTHON) ./tools/replace_parser_content.py $(grammar_dir)/_interviewLexer.g4 $(grammar_dir)/common_lexer.g4 $(interview_lexer_file) '<<<<<<common<<<<<<'
+	$(PYTHON) ./tools/replace_parser_content.py $(grammar_dir)/_interviewParser.g4 $(grammar_dir)/common_parser.g4 $(interview_parser_file) '<<<<<<common<<<<<<'
 	$(NODE_MODULES)/antlr4ts-cli/antlr4ts $(ANTLR_OPT) $(interview_lexer_file);
 	$(NODE_MODULES)/antlr4ts-cli/antlr4ts $(ANTLR_OPT) $(interview_parser_file);
 	$(NODE_MODULES)/.bin/tsc $(build_dir)/*.ts -experimentalDecorators --strict true --module commonjs  --target es2015 -lib es2015 --moduleResolution Node --outDir $(build_dir)
 
-	python ./tools/replace_parser_content.py $(grammar_dir)/_truefalseLexer.g4 $(grammar_dir)/common_lexer.g4 $(truefalse_lexer_file) '<<<<<<common<<<<<<'
-	python ./tools/replace_parser_content.py $(grammar_dir)/_truefalseParser.g4 $(grammar_dir)/common_parser.g4 $(truefalse_parser_file) '<<<<<<common<<<<<<'
+	$(PYTHON) ./tools/replace_parser_content.py $(grammar_dir)/_truefalseLexer.g4 $(grammar_dir)/common_lexer.g4 $(truefalse_lexer_file) '<<<<<<common<<<<<<'
+	$(PYTHON) ./tools/replace_parser_content.py $(grammar_dir)/_truefalseParser.g4 $(grammar_dir)/common_parser.g4 $(truefalse_parser_file) '<<<<<<common<<<<<<'
 	$(NODE_MODULES)/antlr4ts-cli/antlr4ts $(ANTLR_OPT) $(truefalse_lexer_file);
 	$(NODE_MODULES)/antlr4ts-cli/antlr4ts $(ANTLR_OPT) $(truefalse_parser_file);
 	$(NODE_MODULES)/.bin/tsc $(build_dir)/*.ts -experimentalDecorators --strict true --module commonjs  --target es2015 -lib es2015 --moduleResolution Node --outDir $(build_dir)
 
-	python ./tools/replace_parser_content.py $(grammar_dir)/_flashcardLexer.g4 $(grammar_dir)/common_lexer.g4 $(flashcard_lexer_file) '<<<<<<common<<<<<<'
-	python ./tools/replace_parser_content.py $(grammar_dir)/_flashcardParser.g4 $(grammar_dir)/common_parser.g4 $(flashcard_parser_file) '<<<<<<common<<<<<<'
+	$(PYTHON) ./tools/replace_parser_content.py $(grammar_dir)/_flashcardLexer.g4 $(grammar_dir)/common_lexer.g4 $(flashcard_lexer_file) '<<<<<<common<<<<<<'
+	$(PYTHON) ./tools/replace_parser_content.py $(grammar_dir)/_flashcardParser.g4 $(grammar_dir)/common_parser.g4 $(flashcard_parser_file) '<<<<<<common<<<<<<'
 	$(NODE_MODULES)/antlr4ts-cli/antlr4ts $(ANTLR_OPT) $(flashcard_lexer_file);
 	$(NODE_MODULES)/antlr4ts-cli/antlr4ts $(ANTLR_OPT) $(flashcard_parser_file);
 	$(NODE_MODULES)/.bin/tsc $(build_dir)/*.ts -experimentalDecorators --strict true --module commonjs  --target es2015 -lib es2015 --moduleResolution Node --outDir $(build_dir)
 
-	python ./tools/replace_parser_content.py $(grammar_dir)/_chatLexer.g4 $(grammar_dir)/common_lexer.g4 $(chat_lexer_file) '<<<<<<common<<<<<<'
-	python ./tools/replace_parser_content.py $(grammar_dir)/_chatParser.g4 $(grammar_dir)/common_parser.g4 $(chat_parser_file) '<<<<<<common<<<<<<'
+	$(PYTHON) ./tools/replace_parser_content.py $(grammar_dir)/_chatLexer.g4 $(grammar_dir)/common_lexer.g4 $(chat_lexer_file) '<<<<<<common<<<<<<'
+	$(PYTHON) ./tools/replace_parser_content.py $(grammar_dir)/_chatParser.g4 $(grammar_dir)/common_parser.g4 $(chat_parser_file) '<<<<<<common<<<<<<'
 	$(NODE_MODULES)/antlr4ts-cli/antlr4ts $(ANTLR_OPT) $(chat_lexer_file);
 	$(NODE_MODULES)/antlr4ts-cli/antlr4ts $(ANTLR_OPT) $(chat_parser_file);
 	$(NODE_MODULES)/.bin/tsc $(build_dir)/*.ts -experimentalDecorators --strict true --module commonjs  --target es2015 -lib es2015 --moduleResolution Node --outDir $(build_dir)
 
-	python ./tools/replace_parser_content.py $(grammar_dir)/_sequenceLexer.g4 $(grammar_dir)/common_lexer.g4 $(sequence_lexer_file) '<<<<<<common<<<<<<'
-	python ./tools/replace_parser_content.py $(grammar_dir)/_sequenceParser.g4 $(grammar_dir)/common_parser.g4 $(sequence_parser_file) '<<<<<<common<<<<<<'
+	$(PYTHON) ./tools/replace_parser_content.py $(grammar_dir)/_sequenceLexer.g4 $(grammar_dir)/common_lexer.g4 $(sequence_lexer_file) '<<<<<<common<<<<<<'
+	$(PYTHON) ./tools/replace_parser_content.py $(grammar_dir)/_sequenceParser.g4 $(grammar_dir)/common_parser.g4 $(sequence_parser_file) '<<<<<<common<<<<<<'
 	$(NODE_MODULES)/antlr4ts-cli/antlr4ts $(ANTLR_OPT) $(sequence_lexer_file);
 	$(NODE_MODULES)/antlr4ts-cli/antlr4ts $(ANTLR_OPT) $(sequence_parser_file);
 	$(NODE_MODULES)/.bin/tsc $(build_dir)/*.ts -experimentalDecorators --strict true --module commonjs  --target es2015 -lib es2015 --moduleResolution Node --outDir $(build_dir)

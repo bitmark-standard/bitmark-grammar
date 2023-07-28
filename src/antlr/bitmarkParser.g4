@@ -422,13 +422,8 @@ lang_video_script: 		  BitLangVideoScript format CL NL* ( bitElem NL* )* ;
 lang_audio_script: 		  BitLangAudioScript format CL NL* ( bitElem NL* )* ;
 lang_vocabulary: 		  BitLangVocabulary format CL NL* ( bitElem NL* )* ;
 lang_homework: 			  BitLangHomework format CL NL* ( bitElem NL* )* ;
-lang_teacher_note: 		  BitLangTeacherNote format CL NL* ( bitElem NL* )* ;
-
-
-
-
-
-
+lang_teacher_note: 		  BitLangTeacherNote format CL NL+ ( bitElem NL* )* lines? NL*
+				  		   ( resource (NL* resource)* )? ;
 
 /* Obsolete
 bot_interview:
