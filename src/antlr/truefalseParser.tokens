@@ -151,7 +151,6 @@ STAR=150
 URL=151
 LIST_LINE=152
 ENCLBARS=153
-OpAmpImageWAudio=154
 '[.'=1
 '[^'=7
 '[#'=20

@@ -200,7 +200,14 @@ BitLangVocabulary: 		NL OPDOT S* 'lang-vocabulary' ;
 BitLangHomework: 		NL OPDOT S* 'lang-homework' ;
 BitLangTeacherNote: 		NL OPDOT S* 'lang-teacher-note' ;
 
-
+BitReviewNote:			NL OPDOT S* 'review-note' ;
+BitReviewAuthorNote:		NL OPDOT S* 'review-author-note' ;
+BitReviewReviewerNote:		NL OPDOT S* 'review-reviewer-note' ;
+BitReviewRequestForReviewNote:	NL OPDOT S* 'review-request-for-review-note' ;
+BitReviewApprovedNote:		NL OPDOT S* 'review-approved-note' ;
+BitChecklist:			NL OPDOT S* 'checklist' ;
+BitVideoTranscript:		NL OPDOT S* 'video-transcript' ;
+BitAudioTranscript:		NL OPDOT S* 'audio-transcript' ;
 
 
 
@@ -282,9 +289,9 @@ fragment GERMAN:   [ÄäẞÖöÜü] ;
 fragment POLISH:   [ĄąĆćĘęŁłŃńÓóŚśŹźŻż] ;
 fragment TRANSL:   [ČčĎďĚěǦǧȞȟǏǐJ̌ǰǨǩĽľŇňǑǒŘřŠšŤťǓǔǙǚŽžǮǯ] ;
 fragment EURO:     [☞→↓←↑€“”’…„́«»◇◼︎◎ʌɪˈ_̈₂‰≤≥‘≠Ωʳᵉ−] ;
-fragment IPA:	     [ɛɜːɡʊuɔɪəɒæʌʉo] ;
+fragment IPA:	   [ɛɜːɡʊuɔɪəɒæʌʉo] ;
 fragment JAPANESE : [\p{Script=Hiragana}\p{Script=Katakana}\p{Script=Han}\u{2460}-\u{24FF}\u{3001}-\u{3002}\u{3220}-\u{325F}\u{FF01}-\u{FF5E}ー「」『』〜〈〉] ;
-fragment HANGUL:   '\u{AC00}}' .. '\u{D7A3}' ;
+fragment HANGUL:   '\u{AC00}}' .. '\u{D7A3}' | '~' ;
 
 fragment
 STR_SP:

@@ -185,6 +185,7 @@ const testfiles = [
 
   './tests/placeholder.bit',
   './tests/cook-lang.bit',
+  './tests/review-note-etc.bit',
 ];
 
 const testfilesX = [

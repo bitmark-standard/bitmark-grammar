@@ -292,7 +292,6 @@ op_image_format:
     OpAmpImage  (( Image_type ) | ( DotArticleAtt ))?
   | OpAmpImageLink ( Image_type )?
   | OpAmpImageZoom ( Image_type )?
-  | OpAmpImageWAudio
 ;
 image_chained:
     AtSrc COLON url CL | (AtWidth | AtHeight) COLON NUMERIC CL

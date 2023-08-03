@@ -2838,6 +2838,16 @@ BitmarkListener.prototype.enterLang_vocabulary = function (ctx) { this.push_tmpl
 BitmarkListener.prototype.enterLang_homework = function (ctx) { this.push_tmpl(ctx, 'lang_homework'); }
 BitmarkListener.prototype.enterLang_teacher_note = function (ctx) { this.push_tmpl(ctx, 'lang_teacher_note'); }
 
+BitmarkListener.prototype.enterReview_note = function (ctx) { this.push_tmpl(ctx, 'review-note'); }
+BitmarkListener.prototype.enterReview_author_note = function (ctx) { this.push_tmpl(ctx, 'review-author-note'); }
+BitmarkListener.prototype.enterReview_reviewer_note = function (ctx) { this.push_tmpl(ctx, 'review-reviewer-note'); }
+BitmarkListener.prototype.enterReview_request_for_review_note = function (ctx) { this.push_tmpl(ctx, 'review-request-for-review-note'); }
+BitmarkListener.prototype.enterReview_approved_note = function (ctx) { this.push_tmpl(ctx, 'review-approved-note'); }
+BitmarkListener.prototype.enterChecklist = function (ctx) { this.push_tmpl(ctx, 'checklist'); }
+BitmarkListener.prototype.enterVideo_transcript = function (ctx) { this.push_tmpl(ctx, 'video-transcript'); }
+BitmarkListener.prototype.enterAudio_transcript = function (ctx) { this.push_tmpl(ctx, 'audio-transcript'); }
+
+
 //
 BitmarkListener.prototype.enterMenu_3_course = function (ctx) {
   this.push_tmpl(ctx, 'menu-3-course');

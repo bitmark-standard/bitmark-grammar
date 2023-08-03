@@ -188,6 +188,14 @@ import { Lang_audio_scriptContext } from "./bitmarkParser";
 import { Lang_vocabularyContext } from "./bitmarkParser";
 import { Lang_homeworkContext } from "./bitmarkParser";
 import { Lang_teacher_noteContext } from "./bitmarkParser";
+import { Review_noteContext } from "./bitmarkParser";
+import { Review_author_noteContext } from "./bitmarkParser";
+import { Review_reviewer_noteContext } from "./bitmarkParser";
+import { Review_request_for_review_noteContext } from "./bitmarkParser";
+import { Review_approved_noteContext } from "./bitmarkParser";
+import { ChecklistContext } from "./bitmarkParser";
+import { Video_transcriptContext } from "./bitmarkParser";
+import { Audio_transcriptContext } from "./bitmarkParser";
 import { Bot_choiceContext } from "./bitmarkParser";
 import { RatingContext } from "./bitmarkParser";
 import { Bullet_itemContext } from "./bitmarkParser";
@@ -2304,6 +2312,94 @@ export interface bitmarkParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitLang_teacher_note?: (ctx: Lang_teacher_noteContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.review_note`.
+	 * @param ctx the parse tree
+	 */
+	enterReview_note?: (ctx: Review_noteContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.review_note`.
+	 * @param ctx the parse tree
+	 */
+	exitReview_note?: (ctx: Review_noteContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.review_author_note`.
+	 * @param ctx the parse tree
+	 */
+	enterReview_author_note?: (ctx: Review_author_noteContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.review_author_note`.
+	 * @param ctx the parse tree
+	 */
+	exitReview_author_note?: (ctx: Review_author_noteContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.review_reviewer_note`.
+	 * @param ctx the parse tree
+	 */
+	enterReview_reviewer_note?: (ctx: Review_reviewer_noteContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.review_reviewer_note`.
+	 * @param ctx the parse tree
+	 */
+	exitReview_reviewer_note?: (ctx: Review_reviewer_noteContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.review_request_for_review_note`.
+	 * @param ctx the parse tree
+	 */
+	enterReview_request_for_review_note?: (ctx: Review_request_for_review_noteContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.review_request_for_review_note`.
+	 * @param ctx the parse tree
+	 */
+	exitReview_request_for_review_note?: (ctx: Review_request_for_review_noteContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.review_approved_note`.
+	 * @param ctx the parse tree
+	 */
+	enterReview_approved_note?: (ctx: Review_approved_noteContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.review_approved_note`.
+	 * @param ctx the parse tree
+	 */
+	exitReview_approved_note?: (ctx: Review_approved_noteContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.checklist`.
+	 * @param ctx the parse tree
+	 */
+	enterChecklist?: (ctx: ChecklistContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.checklist`.
+	 * @param ctx the parse tree
+	 */
+	exitChecklist?: (ctx: ChecklistContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.video_transcript`.
+	 * @param ctx the parse tree
+	 */
+	enterVideo_transcript?: (ctx: Video_transcriptContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.video_transcript`.
+	 * @param ctx the parse tree
+	 */
+	exitVideo_transcript?: (ctx: Video_transcriptContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.audio_transcript`.
+	 * @param ctx the parse tree
+	 */
+	enterAudio_transcript?: (ctx: Audio_transcriptContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.audio_transcript`.
+	 * @param ctx the parse tree
+	 */
+	exitAudio_transcript?: (ctx: Audio_transcriptContext) => void;
 
 	/**
 	 * Enter a parse tree produced by `bitmarkParser.bot_choice`.
