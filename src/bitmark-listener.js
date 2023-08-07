@@ -2851,6 +2851,8 @@ BitmarkListener.prototype.enterImage_portrait = function (ctx) { this.push_tmpl(
 BitmarkListener.prototype.enterImage_landscape = function (ctx) { this.push_tmpl(ctx, 'image_landscape'); }
 BitmarkListener.prototype.enterImage_on_device = function (ctx) { this.push_tmpl(ctx, 'image_on_device'); }
 
+BitmarkListener.prototype.enterBitmark_example = function (ctx) { this.push_tmpl(ctx, 'bitmark-example'); }
+
 //
 BitmarkListener.prototype.enterMenu_3_course = function (ctx) {
   this.push_tmpl(ctx, 'menu-3-course');

@@ -101,6 +101,7 @@ bit:
 	| review_note | review_author_note | review_reviewer_note| review_request_for_review_note
 	| review_approved_note | checklist | video_transcript | audio_transcript
 	| image_portrait | image_landscape | image_on_device
+	| bitmark_example
 ;
 
 //
@@ -442,6 +443,7 @@ image_portrait:		       BitImagePortrait  format2 CL NL* ( bitElem NL*)* ;
 image_landscape:	       BitImageLandscape  format2 CL NL* ( bitElem NL*)* ;
 image_on_device:	       BitImageOnDevice  format2 CL NL* ( bitElem NL*)* ;
 
+bitmark_example:	       BitBitmarkExample format CL NL* ( bitElem NL* )* ;
 
 
 /* Obsolete

@@ -212,7 +212,7 @@ BitAudioTranscript:		NL OPDOT S* 'audio-transcript' ;
 BitImagePortrait:		NL OPDOT S* 'image-portrait' ;
 BitImageLandscape:		NL OPDOT S* 'image-landscape' ;
 BitImageOnDevice:		NL OPDOT S* 'image-on-device' ;
-
+BitBitmarkExample:		NL OPDOT S* 'bitmark-example' ;
 
 
 
