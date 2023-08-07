@@ -196,6 +196,9 @@ import { Review_approved_noteContext } from "./bitmarkParser";
 import { ChecklistContext } from "./bitmarkParser";
 import { Video_transcriptContext } from "./bitmarkParser";
 import { Audio_transcriptContext } from "./bitmarkParser";
+import { Image_portraitContext } from "./bitmarkParser";
+import { Image_landscapeContext } from "./bitmarkParser";
+import { Image_on_deviceContext } from "./bitmarkParser";
 import { Bot_choiceContext } from "./bitmarkParser";
 import { RatingContext } from "./bitmarkParser";
 import { Bullet_itemContext } from "./bitmarkParser";
@@ -2400,6 +2403,39 @@ export interface bitmarkParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitAudio_transcript?: (ctx: Audio_transcriptContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.image_portrait`.
+	 * @param ctx the parse tree
+	 */
+	enterImage_portrait?: (ctx: Image_portraitContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.image_portrait`.
+	 * @param ctx the parse tree
+	 */
+	exitImage_portrait?: (ctx: Image_portraitContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.image_landscape`.
+	 * @param ctx the parse tree
+	 */
+	enterImage_landscape?: (ctx: Image_landscapeContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.image_landscape`.
+	 * @param ctx the parse tree
+	 */
+	exitImage_landscape?: (ctx: Image_landscapeContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.image_on_device`.
+	 * @param ctx the parse tree
+	 */
+	enterImage_on_device?: (ctx: Image_on_deviceContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.image_on_device`.
+	 * @param ctx the parse tree
+	 */
+	exitImage_on_device?: (ctx: Image_on_deviceContext) => void;
 
 	/**
 	 * Enter a parse tree produced by `bitmarkParser.bot_choice`.

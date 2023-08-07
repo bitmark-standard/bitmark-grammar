@@ -2847,6 +2847,9 @@ BitmarkListener.prototype.enterChecklist = function (ctx) { this.push_tmpl(ctx, 
 BitmarkListener.prototype.enterVideo_transcript = function (ctx) { this.push_tmpl(ctx, 'video-transcript'); }
 BitmarkListener.prototype.enterAudio_transcript = function (ctx) { this.push_tmpl(ctx, 'audio-transcript'); }
 
+BitmarkListener.prototype.enterImage_portrait = function (ctx) { this.push_tmpl(ctx, 'image_portrait'); }
+BitmarkListener.prototype.enterImage_landscape = function (ctx) { this.push_tmpl(ctx, 'image_landscape'); }
+BitmarkListener.prototype.enterImage_on_device = function (ctx) { this.push_tmpl(ctx, 'image_on_device'); }
 
 //
 BitmarkListener.prototype.enterMenu_3_course = function (ctx) {

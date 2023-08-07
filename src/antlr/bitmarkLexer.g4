@@ -209,6 +209,11 @@ BitChecklist:			NL OPDOT S* 'checklist' ;
 BitVideoTranscript:		NL OPDOT S* 'video-transcript' ;
 BitAudioTranscript:		NL OPDOT S* 'audio-transcript' ;
 
+BitImagePortrait:		NL OPDOT S* 'image-portrait' ;
+BitImageLandscape:		NL OPDOT S* 'image-landscape' ;
+BitImageOnDevice:		NL OPDOT S* 'image-on-device' ;
+
+
 
 
 //

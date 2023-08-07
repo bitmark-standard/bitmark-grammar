@@ -117,7 +117,6 @@ class Preprocessor {
     let text_repl=text;
     let m;
 
-    debugger
     while ((m = re.exec(text_repl)) !== null) {
       let mr = m[1].replace(/\[/g, '&#91;');
       mr = mr.replace(/\]/g, '&#93;');

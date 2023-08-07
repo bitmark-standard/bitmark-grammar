@@ -100,6 +100,7 @@ bit:
 
 	| review_note | review_author_note | review_reviewer_note| review_request_for_review_note
 	| review_approved_note | checklist | video_transcript | audio_transcript
+	| image_portrait | image_landscape | image_on_device
 ;
 
 //
@@ -436,6 +437,10 @@ review_approved_note:	       BitReviewApprovedNote format CL NL* ( bitElem NL* )
 checklist:		       BitChecklist format CL NL* ( bitElem NL* )* ;
 video_transcript:	       BitVideoTranscript format CL NL* ( bitElem NL* )* ;
 audio_transcript:	       BitAudioTranscript format CL NL* ( bitElem NL* )* ;
+
+image_portrait:		       BitImagePortrait  format2 CL NL* ( bitElem NL*)* ;
+image_landscape:	       BitImageLandscape  format2 CL NL* ( bitElem NL*)* ;
+image_on_device:	       BitImageOnDevice  format2 CL NL* ( bitElem NL*)* ;
 
 
 
