@@ -188,6 +188,7 @@ const testfiles = [
   './tests/review-note-etc.bit',
   './tests/image-portrait-landscape.bit',
   './tests/bitmark-example.bit',
+  './tests/app-ai-prompt.bit',
 ];
 
 const testfilesX = [

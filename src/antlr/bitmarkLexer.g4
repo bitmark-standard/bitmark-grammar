@@ -214,7 +214,7 @@ BitImageLandscape:		NL OPDOT S* 'image-landscape' ;
 BitImageOnDevice:		NL OPDOT S* 'image-on-device' ;
 BitBitmarkExample:		NL OPDOT S* 'bitmark-example' ;
 
-
+BitAppAiPrompt:			NL OPDOT S* 'app-ai-prompt' ;
 
 //
 OPDOLL:		'[' S* '$' ;      // Dollar
