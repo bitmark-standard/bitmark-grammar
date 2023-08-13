@@ -201,6 +201,9 @@ import { Image_landscapeContext } from "./bitmarkParser";
 import { Image_on_deviceContext } from "./bitmarkParser";
 import { Bitmark_exampleContext } from "./bitmarkParser";
 import { App_ai_promptContext } from "./bitmarkParser";
+import { Book_linkContext } from "./bitmarkParser";
+import { Book_link_nextContext } from "./bitmarkParser";
+import { Book_link_prevContext } from "./bitmarkParser";
 import { Bot_choiceContext } from "./bitmarkParser";
 import { RatingContext } from "./bitmarkParser";
 import { Bullet_itemContext } from "./bitmarkParser";
@@ -2460,6 +2463,39 @@ export interface bitmarkParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitApp_ai_prompt?: (ctx: App_ai_promptContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.book_link`.
+	 * @param ctx the parse tree
+	 */
+	enterBook_link?: (ctx: Book_linkContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.book_link`.
+	 * @param ctx the parse tree
+	 */
+	exitBook_link?: (ctx: Book_linkContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.book_link_next`.
+	 * @param ctx the parse tree
+	 */
+	enterBook_link_next?: (ctx: Book_link_nextContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.book_link_next`.
+	 * @param ctx the parse tree
+	 */
+	exitBook_link_next?: (ctx: Book_link_nextContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.book_link_prev`.
+	 * @param ctx the parse tree
+	 */
+	enterBook_link_prev?: (ctx: Book_link_prevContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.book_link_prev`.
+	 * @param ctx the parse tree
+	 */
+	exitBook_link_prev?: (ctx: Book_link_prevContext) => void;
 
 	/**
 	 * Enter a parse tree produced by `bitmarkParser.bot_choice`.

@@ -215,6 +215,10 @@ BitImageOnDevice:		NL OPDOT S* 'image-on-device' ;
 BitBitmarkExample:		NL OPDOT S* 'bitmark-example' ;
 
 BitAppAiPrompt:			NL OPDOT S* 'app-ai-prompt' ;
+BitBookLink:			NL OPDOT S* 'book-link' ;
+BitBookLinkNext:		NL OPDOT S* 'book-link-next' ;
+BitBookLinkPrev:		NL OPDOT S* 'book-link-prev' ;
+
 
 //
 OPDOLL:		'[' S* '$' ;      // Dollar

@@ -2854,6 +2854,11 @@ BitmarkListener.prototype.enterImage_on_device = function (ctx) { this.push_tmpl
 BitmarkListener.prototype.enterBitmark_example = function (ctx) { this.push_tmpl(ctx, 'bitmark-example'); }
 BitmarkListener.prototype.enterApp_ai_prompt = function (ctx) { this.push_tmpl(ctx, 'app-ai-prompt'); }
 
+BitmarkListener.prototype.enterBook_link = function (ctx) { this.push_tmpl(ctx, 'book-link'); }
+BitmarkListener.prototype.enterBook_link_next = function (ctx) { this.push_tmpl(ctx, 'book-link-next'); }
+BitmarkListener.prototype.enterBook_link_prev = function (ctx) { this.push_tmpl(ctx, 'book-link-prev'); }
+
+
 //
 BitmarkListener.prototype.enterMenu_3_course = function (ctx) {
   this.push_tmpl(ctx, 'menu-3-course');

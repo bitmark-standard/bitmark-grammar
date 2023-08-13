@@ -1,0 +1,53 @@
+[.book-link&image]
+[&image:https://our.s3/book_cover.jpg]
+[!Nullserie]
+[@action:Übungsprüfung]
+[@deeplink:https://other.platform/path/to/quiz]
+[@duration:3600s]
+Of course, it exists without the image resource like any other bit.
+It works like a .article (instruction, body, resources, …)
+It just adds action, duration and deepLink
+Three strings
+
+
+[.book-link-next]
+[!Nullserie]
+[@action:Päsenz-Seminar]
+[@duration:3600s]
+
+Can also contain resources like all bits
+
+
+[.book-link-prev]
+[!Nullserie]
+[@action:Päsenz-Seminar]
+[@duration:3600s]
+
+Can also contain resources like all bits
+
+
+[.book-link]
+[@videoCallLink:https://yasminboland.com/video/call.php]
+
+
+[.book-link-next] 
+[!Nullserie]
+[@action:Päsenz-Seminar]
+[@duration:3600s]
+Can also contain resources like all bits
+
+
+[.book-link]
+[!Nullserie]
+[@action:Päsenz-Seminar]
+[@duration:3600s]
+Can also contain resources like all bits
+
+
+[.book-link-prev]
+[!Nullserie]
+[@action:Päsenz-Seminar]
+[@duration:3600s]
+Can also contain resources like all bits
+
+

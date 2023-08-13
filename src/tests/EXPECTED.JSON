@@ -17121,6 +17121,129 @@
         }
     }
 ]
+<<<<./tests/booklink.bit
+[
+    {
+        "bitmark": "[.book-link&image]\n[&image:https://our.s3/book_cover.jpg]\n[!Nullserie]\n[@action:Übungsprüfung]\n[@deeplink:https://other.platform/path/to/quiz]\n[@duration:3600s]\nOf course, it exists without the image resource like any other bit.\nIt works like a .article (instruction, body, resources, …)\nIt just adds action, duration and deepLink\nThree strings",
+        "bit": {
+            "type": "book-link",
+            "format": "bitmark--",
+            "body": "Of course, it exists without the image resource like any other bit.\nIt works like a .article (instruction, body, resources, …)\nIt just adds action, duration and deepLink\nThree strings",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "resource": {
+                "type": "image",
+                "image": {
+                    "src": "https://our.s3/book_cover.jpg",
+                    "showInIndex": false,
+                    "format": "jpg",
+                    "width": null,
+                    "height": null,
+                    "alt": "",
+                    "caption": "",
+                    "license": "",
+                    "copyright": ""
+                }
+            },
+            "instruction": "Nullserie",
+            "action": "Übungsprüfung",
+            "deeplink": [
+                "https://other.platform/path/to/quiz"
+            ],
+            "duration": "3600s"
+        }
+    },
+    {
+        "bitmark": "[.book-link-next]\n[!Nullserie]\n[@action:Päsenz-Seminar]\n[@duration:3600s]\n\nCan also contain resources like all bits",
+        "bit": {
+            "type": "book-link-next",
+            "format": "bitmark--",
+            "body": "Can also contain resources like all bits",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "instruction": "Nullserie",
+            "action": "Päsenz-Seminar",
+            "duration": "3600s"
+        }
+    },
+    {
+        "bitmark": "[.book-link-prev]\n[!Nullserie]\n[@action:Päsenz-Seminar]\n[@duration:3600s]\n\nCan also contain resources like all bits",
+        "bit": {
+            "type": "book-link-prev",
+            "format": "bitmark--",
+            "body": "Can also contain resources like all bits",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "instruction": "Nullserie",
+            "action": "Päsenz-Seminar",
+            "duration": "3600s"
+        }
+    },
+    {
+        "bitmark": "[.book-link]\n[@videoCallLink:https://yasminboland.com/video/call.php]",
+        "bit": {
+            "type": "book-link",
+            "format": "bitmark--",
+            "body": "",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "videoCallLink": "https://yasminboland.com/video/call.php"
+        }
+    },
+    {
+        "bitmark": "[.book-link-next]\n[!Nullserie]\n[@action:Päsenz-Seminar]\n[@duration:3600s]\nCan also contain resources like all bits",
+        "bit": {
+            "type": "book-link-next",
+            "format": "bitmark--",
+            "body": "Can also contain resources like all bits",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "instruction": "Nullserie",
+            "action": "Päsenz-Seminar",
+            "duration": "3600s"
+        }
+    },
+    {
+        "bitmark": "[.book-link]\n[!Nullserie]\n[@action:Päsenz-Seminar]\n[@duration:3600s]\nCan also contain resources like all bits",
+        "bit": {
+            "type": "book-link",
+            "format": "bitmark--",
+            "body": "Can also contain resources like all bits",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "instruction": "Nullserie",
+            "action": "Päsenz-Seminar",
+            "duration": "3600s"
+        }
+    },
+    {
+        "bitmark": "[.book-link-prev]\n[!Nullserie]\n[@action:Päsenz-Seminar]\n[@duration:3600s]\nCan also contain resources like all bits",
+        "bit": {
+            "type": "book-link-prev",
+            "format": "bitmark--",
+            "body": "Can also contain resources like all bits",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "instruction": "Nullserie",
+            "action": "Päsenz-Seminar",
+            "duration": "3600s"
+        }
+    }
+]
 <<<<
 
   

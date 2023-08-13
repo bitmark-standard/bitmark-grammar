@@ -102,6 +102,8 @@ bit:
 	| review_approved_note | checklist | video_transcript | audio_transcript
 	| image_portrait | image_landscape | image_on_device
 	| bitmark_example | app_ai_prompt
+	| book_link | book_link_next | book_link_prev
+
 ;
 
 //
@@ -435,6 +437,9 @@ image_on_device:	       BitImageOnDevice  format2 CL NL* ( bitElem NL*)* ;
 bitmark_example:	       BitBitmarkExample format CL NL* ( bitElem NL* )* ;
 app_ai_prompt:		       BitAppAiPrompt  format CL NL* ( bitElem NL* )* ;
 
+book_link:		       BitBookLink format CL NL* ( bitElem NL* )+ ;
+book_link_next:		       BitBookLinkNext format CL NL* ( bitElem NL* )+ ;
+book_link_prev:		       BitBookLinkPrev format CL NL* ( bitElem NL* )+ ;
 
 
 /* Obsolete
