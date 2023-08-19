@@ -2858,6 +2858,7 @@ BitmarkListener.prototype.enterBook_link = function (ctx) { this.push_tmpl(ctx, 
 BitmarkListener.prototype.enterBook_link_next = function (ctx) { this.push_tmpl(ctx, 'book-link-next'); }
 BitmarkListener.prototype.enterBook_link_prev = function (ctx) { this.push_tmpl(ctx, 'book-link-prev'); }
 
+BitmarkListener.prototype.enterFigure = function (ctx) { this.push_tmpl(ctx, 'figure'); }
 
 //
 BitmarkListener.prototype.enterMenu_3_course = function (ctx) {

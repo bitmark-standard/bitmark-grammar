@@ -103,6 +103,7 @@ bit:
 	| image_portrait | image_landscape | image_on_device
 	| bitmark_example | app_ai_prompt
 	| book_link | book_link_next | book_link_prev
+	| figure
 
 ;
 
@@ -440,6 +441,9 @@ app_ai_prompt:		       BitAppAiPrompt  format CL NL* ( bitElem NL* )* ;
 book_link:		       BitBookLink format CL NL* ( bitElem NL* )+ ;
 book_link_next:		       BitBookLinkNext format CL NL* ( bitElem NL* )+ ;
 book_link_prev:		       BitBookLinkPrev format CL NL* ( bitElem NL* )+ ;
+
+figure:			       BitFigure format CL NL* ( bitElem NL*)* ;
+
 
 
 /* Obsolete

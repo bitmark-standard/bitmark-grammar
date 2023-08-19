@@ -218,6 +218,7 @@ BitAppAiPrompt:			NL OPDOT S* 'app-ai-prompt' ;
 BitBookLink:			NL OPDOT S* 'book-link' ;
 BitBookLinkNext:		NL OPDOT S* 'book-link-next' ;
 BitBookLinkPrev:		NL OPDOT S* 'book-link-prev' ;
+BitFigure:			NL OPDOT S* 'figure' ;
 
 
 //
