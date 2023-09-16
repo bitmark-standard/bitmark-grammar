@@ -205,6 +205,8 @@ import { Book_linkContext } from "./bitmarkParser";
 import { Book_link_nextContext } from "./bitmarkParser";
 import { Book_link_prevContext } from "./bitmarkParser";
 import { FigureContext } from "./bitmarkParser";
+import { Video_link_landscapeContext } from "./bitmarkParser";
+import { Video_link_portraitContext } from "./bitmarkParser";
 import { Bot_choiceContext } from "./bitmarkParser";
 import { RatingContext } from "./bitmarkParser";
 import { Bullet_itemContext } from "./bitmarkParser";
@@ -2508,6 +2510,28 @@ export interface bitmarkParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitFigure?: (ctx: FigureContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.video_link_landscape`.
+	 * @param ctx the parse tree
+	 */
+	enterVideo_link_landscape?: (ctx: Video_link_landscapeContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.video_link_landscape`.
+	 * @param ctx the parse tree
+	 */
+	exitVideo_link_landscape?: (ctx: Video_link_landscapeContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.video_link_portrait`.
+	 * @param ctx the parse tree
+	 */
+	enterVideo_link_portrait?: (ctx: Video_link_portraitContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.video_link_portrait`.
+	 * @param ctx the parse tree
+	 */
+	exitVideo_link_portrait?: (ctx: Video_link_portraitContext) => void;
 
 	/**
 	 * Enter a parse tree produced by `bitmarkParser.bot_choice`.

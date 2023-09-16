@@ -30,13 +30,13 @@ const camelize = s => s.replace(/-./g, x => x[1].toUpperCase())
 let BitmarkListener = function (error_listener, source, parser) {
   this.error_listener = error_listener;
   this.source = source;
-  this.parser = parser;  // New 10/9/2021  
+  this.parser = parser;  // New 10/9/2021
   this.stk = new Stack();
   this.curr_bit_stk = new Stack();
   this.but = new but.BitUtil(source.trim());
   this.format = "";  // &image, &audio, &video etc
   this.resformat = "";
-  // type starts with one of these}; 
+  // type starts with one of these};
   this.resselfdesc = {
     'image-link': 'image-link',
     'audio-link': 'audio-link',
@@ -506,11 +506,11 @@ BitmarkListener.prototype.get_multi_choice_keys = function (bit_type) {
 
 //
 BitmarkListener.prototype.exitCplus = function (ctx) {
-  this.curr_bit_stk.pop();  // cplus 
+  this.curr_bit_stk.pop();  // cplus
   this.curr_bit_stk.pop();  // cplus obj
 };
 BitmarkListener.prototype.exitCminus = function (ctx) {
-  this.curr_bit_stk.pop();  // cminus 
+  this.curr_bit_stk.pop();  // cminus
   this.curr_bit_stk.pop();  // cminus obj
 };
 
@@ -744,7 +744,7 @@ BitmarkListener.prototype.enterHeaded_inline_choices = function (ctx) {
   let key = `{${n}}`;
 
   this.stk.top().bit['placeholders'][key] = p;
-  this.curr_bit_stk.push(p); // let children know the key  
+  this.curr_bit_stk.push(p); // let children know the key
   this.curr_bit_stk.push(key); // let children know the key
 };
 BitmarkListener.prototype.exitHeaded_inline_choices = function (ctx) {
@@ -764,8 +764,8 @@ BitmarkListener.prototype.enterHighlight_inline_choices = function (ctx) {
   let key = `{${n}}`;
 
   this.stk.top().bit['placeholders'][key] = p;
-  // let children know the key e.g. {0}  
-  this.curr_bit_stk.push(p); // let children know the key  
+  // let children know the key e.g. {0}
+  this.curr_bit_stk.push(p); // let children know the key
   this.curr_bit_stk.push(key);
 };
 BitmarkListener.prototype.exitHighlight_inline_choices = function (ctx) {
@@ -781,7 +781,7 @@ BitmarkListener.prototype.exitHighlight_inline_choices = function (ctx) {
 // Enter a parse tree produced by bitmarkParser#choice_head.
 BitmarkListener.prototype.exitChoice_head = function (ctx) {
   let code = this.but.getcode(ctx);
-  const key = this.curr_bit_stk.top(); // let children know the key  
+  const key = this.curr_bit_stk.top(); // let children know the key
   const re = /\[\'([^\]]*)\]/;
   let val = this.but.get_bit_value(re, code);
   const bit = this.stk.top().bit;
@@ -894,7 +894,7 @@ BitmarkListener.prototype.exitExample = function (ctx) {
   }
   else if (typeof cbit === 'object'
     && !(this.stk.top().bit.type.startsWith('interview')) // Interview JSON undef!
-    && !(this.stk.top().bit.type.startsWith('cloze')) // Need this 
+    && !(this.stk.top().bit.type.startsWith('cloze')) // Need this
   ) {
     // Interview JSON not defined yet
     if (this.curr_bit_stk.size === 1) {
@@ -1014,17 +1014,17 @@ BitmarkListener.prototype.exitSample_soln_prop = function (ctx) {
   }
   (this.stk.top()).bit.body = (this.stk.top()).bit.body.replace(this.but.getcode(ctx), '');
 };
-// 
+//
 BitmarkListener.prototype.exitInterview_text = function (ctx) {
   let cbit = this.curr_bit_stk.top();
-  let code = this.but.getcode2(ctx).trim();  // was but.getcode()  
+  let code = this.but.getcode2(ctx).trim();  // was but.getcode()
   if (cbit === 'interview_qanda')
     (this.curr_bit_stk.second()).question = code;
   (this.stk.top()).bit.body = (this.stk.top()).bit.body.replace(this.but.getcode(ctx), '');
 };
 BitmarkListener.prototype.exitInterview_sometext = function (ctx) {
   let cbit = this.curr_bit_stk.top();
-  let code = this.but.getcode2(ctx).trim();  // was but.getcode()  
+  let code = this.but.getcode2(ctx).trim();  // was but.getcode()
   if (cbit === 'interview_qanda')
     (this.curr_bit_stk.second()).question += code;
   (this.stk.top()).bit.body = (this.stk.top()).bit.body.replace(this.but.getcode(ctx), '');
@@ -1037,7 +1037,7 @@ BitmarkListener.prototype.enterInterview_instruction_grouped = function (ctx) {
 // Enter a parse tree produced by bitmarkParser#interview_instruction_grouped.
 //BitmarkListener.prototype.exitInterview_instruction_grouped = function(ctx) {};
 BitmarkListener.prototype.exitFooter_resource = function (ctx) {
-  let code = this.but.getcode2(ctx);  // was but.getcode()  
+  let code = this.but.getcode2(ctx);  // was but.getcode()
   (this.stk.top()).bit.footer = (this.stk.top()).bit.footer + code.trim();
   (this.stk.top()).bit.body = (this.stk.top()).bit.body.replace(code, '');
 };
@@ -1282,7 +1282,7 @@ BitmarkListener.prototype.exitResource_chained = function (ctx) {
     }
     else if (child === 'videoLink' && key.startsWith('src')) {
       key = 'thumbnails';
-      // objects in array 
+      // objects in array
       if (!(key in bit[parent][child]))
         bit[parent][child][key] = [];
       let thumb = R.clone({ format: '', width: null, height: null });
@@ -2584,7 +2584,7 @@ BitmarkListener.prototype.exitItem = function (ctx) {
       this.stk.top().bit.item = val;  // save the only first one
     }
   }
-  // remove anyway 
+  // remove anyway
   (this.stk.top()).bit.body = (this.stk.top()).bit.body.split(code).join('');
 };
 
@@ -2860,6 +2860,9 @@ BitmarkListener.prototype.enterBook_link_prev = function (ctx) { this.push_tmpl(
 
 BitmarkListener.prototype.enterFigure = function (ctx) { this.push_tmpl(ctx, 'figure'); }
 
+BitmarkListener.prototype.enterVideo_link_portrait = function (ctx) { this.push_tmpl(ctx, 'video-link-portrait'); }
+BitmarkListener.prototype.enterVideo_link_landscape = function (ctx) { this.push_tmpl(ctx, 'video-link-landscape'); }
+
 //
 BitmarkListener.prototype.enterMenu_3_course = function (ctx) {
   this.push_tmpl(ctx, 'menu-3-course');
@@ -2893,7 +2896,7 @@ BitmarkListener.prototype.enterMenu_text = function (ctx) {
   };
   this.curr_bit_stk.push(slot);
   this.curr_bit_stk.push(fn);
-  this.curr_bit_stk.push('menu');  // push a marker.  
+  this.curr_bit_stk.push('menu');  // push a marker.
 };
 
 BitmarkListener.prototype.exitMenu_text = function (ctx) {

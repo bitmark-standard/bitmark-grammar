@@ -5,7 +5,7 @@
 Issues:
 1)   ':' '&' and ']' in word not accepted.
 
-2) 
+2)
 
 3) Bracket escaping = [] inside sentences
    e.g.* Ich habe die __(deutsche)__ Staatsbürgerschaft. Ich bin __(Deutsche[r]). __
@@ -43,20 +43,20 @@ bit:
 	| preparation_note
 	| assignment
 	| article
-	| statement 
-	| details 
+	| statement
+	| details
 	| sample_solution
 	| buttoncopytext | wbtcontinue | learningpathdetails
 	| note | info | warning | remark | hintbit | help | danger | bug
 	| sidenote | stickynote | quote | footnote | examplebit
 	| page
-	| message 
+	| message
 	| self_assessment
 	| rating | survey | survey_1 | survey_anonymous | survey_anonymous_1
 	| hint
 	| vendor_padlet_embed | scorm
 	| learning_path_lti | learning_path_step | learning_path_book
-	| learning_path_sign | learning_path_video_call | learning_path_learning_goal 
+	| learning_path_sign | learning_path_video_call | learning_path_learning_goal
 	| learning_path_closing | learning_path_feedback | learning_path_bot_training
 	| learning_path_external_link | learning_path_classroom_training
 	| learning_path_classroom_event
@@ -65,8 +65,8 @@ bit:
 	| bot_action_rating_number | bot_action_rating_stars
 
 	| bit_image | bit_imageLink | bit_imageZoom | bit_imagePrototype | bit_imageSuperWide
-	| bit_audio | bit_audioLink | bit_audioEmbed 
-	| bit_video | bit_videoLink | bit_videoEmbed 
+	| bit_audio | bit_audioLink | bit_audioEmbed
+	| bit_video | bit_videoLink | bit_videoEmbed
 	| bit_videoPortrait | bit_videoLandscape
 	| bit_stillImageFilm | bit_stillImageFilmLink | bit_stillImageFilmEmbed
 	| bit_document | bit_documentLink | bit_documentEmbed | bit_documentDownload
@@ -75,7 +75,7 @@ bit:
 	| book_frontispiece | book_title | book_copyright | book_dedication
 	| book_forword | book_preface | book_prologue | book_epilogue | book_introduction
 	| book_inciting_incident | book_conclusion | book_afterword | book_postscript
-	| book_appendix | book_addendum | book_acknowledgments 
+	| book_appendix | book_addendum | book_acknowledgments
 	| book_list_of_contributors | book_bibliography | book_reference_list
 	| book_endnotes | book_notes | book_copyright_permissions | book_teaser
 	| book_auther_bio | book_request_for_a_book_review | book_coming_soon
@@ -103,7 +103,8 @@ bit:
 	| image_portrait | image_landscape | image_on_device
 	| bitmark_example | app_ai_prompt
 	| book_link | book_link_next | book_link_prev
-	| figure
+	| figure | video_link_landscape | video_link_portrait
+
 
 ;
 
@@ -133,7 +134,7 @@ bit_alias:  // e.g. [.bit-alias][►com.firstpub.09823409h44]
 
 //
 title_etc:
-  ( NL? ( title | atdef | item | instruction | angleref | anchor | progress ) )* 
+  ( NL? ( title | atdef | item | instruction | angleref | anchor | progress ) )*
 ;
 group_born:  // [.group*][*wtf]
     BitGroups CL ( NL (OPR|OPHASH) (s_and_w|COLON)+ CL )+ NL lines*
@@ -198,15 +199,15 @@ bitElem:
    | partans
    | item
    | title
-   | instruction 
+   | instruction
    | hint
-   | s_and_w 
+   | s_and_w
    | example
    | bool_label
    | progress_points
    | istracked | isinfoonly
-   | imagebit 
-   | audiobit 
+   | imagebit
+   | audiobit
    | videobit
    | articlebit
    | documentbit
@@ -269,7 +270,7 @@ mark_:
 
 ;
 
-// ['Diaz][@mark:red] 
+// ['Diaz][@mark:red]
 mark_text:  OPS  s_and_w CL mark_color? (hint|item|instruction)* ;
 mark_color: OPAMARK S* STRING S* CL ;
 
@@ -404,7 +405,7 @@ cook_personal_recommendation:  BitCookPersonalRecommendation format CL NL* ( bit
 cook_side_drink: 	       BitCookSideDrink format CL NL* ( bitElem NL* )* ;
 cook_side_dish: 	       BitCookSideDish format CL NL* ( bitElem NL* )* ;
 cook_timer: 		       BitCookTimer format CL NL* ( bitElem NL* )* ;
-				      				
+
 lang_learning_outcomes:        BitLangLearningOutcomes format CL NL* ( bitElem NL* )* ;
 lang_enabling_language_skills: BitLangEnablingLanguageSkills format CL NL* ( bitElem NL* )* ;
 lang_life_skills: 	       BitLangLifeSkills format CL NL* ( bitElem NL* )* ;
@@ -438,12 +439,13 @@ image_on_device:	       BitImageOnDevice  format2 CL NL* ( bitElem NL*)* ;
 bitmark_example:	       BitBitmarkExample format CL NL* ( bitElem NL* )* ;
 app_ai_prompt:		       BitAppAiPrompt  format CL NL* ( bitElem NL* )* ;
 
-book_link:		       BitBookLink format CL NL* ( bitElem NL* )+ ;
+book_link:		       	   BitBookLink format CL NL* ( bitElem NL* )+ ;
 book_link_next:		       BitBookLinkNext format CL NL* ( bitElem NL* )+ ;
 book_link_prev:		       BitBookLinkPrev format CL NL* ( bitElem NL* )+ ;
 
-figure:			       BitFigure format CL NL* ( bitElem NL*)* ;
-
+figure:			       	   BitFigure format CL NL* ( bitElem NL*)* ;
+video_link_landscape:  	   BitVideoLinkLandscape format CL NL* ( bitElem NL*)* ;
+video_link_portrait:   	   BitVideoLinkPortrait format CL NL* ( bitElem NL*)* ;
 
 
 /* Obsolete
@@ -699,7 +701,7 @@ lines:
     ( s_and_w NL? )+
 ;
 
-s_and_w:  
+s_and_w:
        STRING ( S+ NUMERIC )?  // string=STRING
      | words ( S+ NUMERIC )?   // words=SENTENCE
      | NUMERIC
@@ -723,12 +725,12 @@ sspl:		SSPL|SSPL2 ;
 words:          ( sentence
 		| NOTBITMARK
 		| BARSTRING | ELIPSIS
-		| AMP | Greater ~(Greater) | Less ~(Less) 
+		| AMP | Greater ~(Greater) | Less ~(Less)
 		| RightArrow | RightAngle
 		| AmpArticle | AmpArticleLink
 		| AmpDocument | AmpDocumentLink
 		| AmpWebsite | AmpWebsiteLink
-		| AmpImage | AmpImageLink  
+		| AmpImage | AmpImageLink
 		| AmpAudio | AmpAudioLink
 		| AmpVideo | AmpVideoLink
 		| AmpApp | AmpAppLink
