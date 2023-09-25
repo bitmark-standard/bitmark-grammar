@@ -105,6 +105,15 @@ bit:
 	| book_link | book_link_next | book_link_prev
 	| figure | video_link_landscape | video_link_portrait
 
+	| image_mood | image_figure | image_banner | image_styled | image_screenshot
+	| app_get_screenshot | app_create_bits_from_image | life_skill_sticker
+	| details_image | images_logo_grave | page_banner | page_buy_button
+
+	| vendor_jsfiddle | vendor_jsfiddle_embed | image_render_svg | app_code_editor
+	| app_code_ide | code_runtime | output | console_log
+	| vendor_jupyter_cell_code | vendor_jupyter_cell_raw | vendor_jupyter_output
+	| vendor_jupyter_cell_markdown | vendor_jupyter_ipynb
+	| app_code_cell | stdout | app_bitmark_from_javascript | app_bitmark_from_editor
 
 ;
 
@@ -219,6 +228,30 @@ bitElem:
    | bracketed_text
    | sp		// cuts the chained bits
 ;
+bitElem_noResource:
+     LIST_LINE
+   | NOTBITMARK
+   | dclines
+   | gap
+   | reference
+   | dateprop
+   | progress
+   | atdef
+   | dollarans
+   | partans
+   | item
+   | title
+   | instruction
+   | hint
+   | s_and_w
+   | example
+   | bool_label
+   | progress_points
+   | angleref     // [►]
+   | anchor       // [▼]
+   | bracketed_text
+   | sp		// cuts the chained bits
+;
 
 // [_string ( ' ' string )*]
 // Chained bits following don't have the space between them.
@@ -288,44 +321,44 @@ record_audio:			BitRecaud format CL NL  ( bitElem NL* )* NL* ( resource (NL* res
 preparation_note:		BitPrepnote format CL NL* ( bitElem NL* )* lines? NL* ( resource (NL* resource)* )? ;
 
 assignment:			BitAssign format CL NL+ ( bitElem NL* )* lines? NL* ( resource (NL* resource)* )? ;
-article:     			BitArticle format CL NL* ( bitElem NL* )* ;
-statement:                      BitStatement format CL NL* ( bitElem NL* )* ;
-details:                    	BitDetails format CL NL* ( bitElem NL* )* ;
-sample_solution:            	BitSampleSolution format CL NL* ( bitElem NL* )* ;
-buttoncopytext:             	BitButtonCopytext format CL NL* ( bitElem NL* )* ;
-wbtcontinue:                	BitWbtContinue format CL NL* ( bitElem NL* )* ;
-learningpathdetails:        	BitLearningPathDetails format CL NL* ( bitElem NL* )* ;
+article:     			    BitArticle format CL NL* ( bitElem NL* )* ;
+statement:                  BitStatement format CL NL* ( bitElem NL* )* ;
+details:                    BitDetails format CL NL* ( bitElem NL* )* ;
+sample_solution:            BitSampleSolution format CL NL* ( bitElem NL* )* ;
+buttoncopytext:             BitButtonCopytext format CL NL* ( bitElem NL* )* ;
+wbtcontinue:                BitWbtContinue format CL NL* ( bitElem NL* )* ;
+learningpathdetails:        BitLearningPathDetails format CL NL* ( bitElem NL* )* ;
 
 page:		                BitPage format CL NL* ( bitElem NL* )* ;
-note:	                    	BitNote format CL NL* ( bitElem NL* )* ;
+note:	                    BitNote format CL NL* ( bitElem NL* )* ;
 info:		            	BitInfo  format CL NL* ( bitElem NL* )* ;
 warning:	            	BitWarning  format CL NL* ( bitElem NL* )* ;
 remark:		            	BitRemark  format CL NL* ( bitElem NL* )* ;
-help: 			    	BitHelp  format CL NL* ( bitElem NL* )* ;
-danger: 		    	BitDanger  format CL NL* ( bitElem NL* )* ;
-bug: 			    	BitBug  format CL NL* ( bitElem NL* )* ;
-sidenote: 		    	BitSidenote  format CL NL* ( bitElem NL* )* ;
+help: 			    		BitHelp  format CL NL* ( bitElem NL* )* ;
+danger: 		    		BitDanger  format CL NL* ( bitElem NL* )* ;
+bug: 			    		BitBug  format CL NL* ( bitElem NL* )* ;
+sidenote: 		    		BitSidenote  format CL NL* ( bitElem NL* )* ;
 stickynote: 		    	BitStickynote  format CL NL* ( bitElem NL* )* ;
-quote: 			    	BitQuote  format CL NL* ( bitElem NL* )* ;
-footnote: 		    	BitFootnote  format CL NL* ( bitElem NL* )* ;
-hintbit: 		    	BitHint  format CL NL* ( bitElem NL* )* ;
-examplebit:                 	BitExample format CL NL* ( bitElem NL* )* ;
-vendor_padlet_embed:        	BitVendorPadletEmbed format CL NL* ( bitElem NL* )* ;
+quote: 			    		BitQuote  format CL NL* ( bitElem NL* )* ;
+footnote: 		    		BitFootnote  format CL NL* ( bitElem NL* )* ;
+hintbit: 		    		BitHint  format CL NL* ( bitElem NL* )* ;
+examplebit:                 BitExample format CL NL* ( bitElem NL* )* ;
+vendor_padlet_embed:        BitVendorPadletEmbed format CL NL* ( bitElem NL* )* ;
 scorm:  	                BitScorm format CL NL* ( bitElem NL* )* ;
 
 // New Jan 24. 2023
-bit_image:			BitImage format2 CL NL* ( bitElem NL*)* ;
+bit_image:				    BitImage format2 CL NL* ( bitElem NL*)* ;
 bit_imageLink:	      		BitImageLink format2 CL NL* ( bitElem NL*)* ;
 bit_imageZoom:	      		BitImageZoom format2 CL NL* ( bitElem NL*)* ;
 bit_imagePrototype:    		BitImagePrototype format2 CL NL* ( bitElem NL*)* ;
 bit_imageSuperWide: 		BitImageSuperWide format2 CL NL* ( bitElem NL*)* ;
-bit_audio: 			BitAudio format2 CL NL* ( bitElem NL*)* ;
+bit_audio: 					BitAudio format2 CL NL* ( bitElem NL*)* ;
 bit_audioLink:	      		BitAudioLink format2 CL NL* ( bitElem NL*)* ;
 bit_audioEmbed:	      		BitAudioEmbed format2 CL NL* ( bitElem NL*)* ;
-bit_video: 			BitVideo format2 CL NL* ( bitElem NL*)* ;
+bit_video: 					BitVideo format2 CL NL* ( bitElem NL*)* ;
 bit_videoLink:	      		BitVideoLink format2 CL NL* ( bitElem NL*)* ;
 bit_videoEmbed:	      		BitVideoEmbed format2 CL NL* ( bitElem NL*)* ;
-bit_videoPortrait: 		BitVideoPortrait format2 CL NL* ( bitElem NL*)* ;
+bit_videoPortrait: 			BitVideoPortrait format2 CL NL* ( bitElem NL*)* ;
 bit_videoLandscape: 		BitVideoLandscape format2 CL NL* ( bitElem NL*)* ;
 bit_stillImageFilm:   		BitStillImageFilm format2 CL NL* ( bitElem NL*)* ;
 bit_stillImageFilmLink:   	BitStillImageFilmLink format2 CL NL* ( bitElem NL*)* ;
@@ -340,23 +373,23 @@ bit_editorial:	      		BitEditorial format2 CL NL* ( bitElem NL*)* ;
 
 book_frontispiece:	       BitBookFrontispiece format CL NL* ( bitElem NL* )* ;
 book_title:	       	       BitBookTitle format CL NL* ( bitElem NL* )* ;
-book_copyright:	       	       BitBookCopyright format CL NL* ( bitElem NL* )* ;
+book_copyright:	       	   BitBookCopyright format CL NL* ( bitElem NL* )* ;
 book_dedication:	       BitBookDedication format CL NL* ( bitElem NL* )* ;
 book_forword:		       BitBookForword format CL NL* ( bitElem NL* )* ;
 book_preface:		       BitBookPreface format CL NL* ( bitElem NL* )* ;
 book_prologue:		       BitBookPrologue format CL NL* ( bitElem NL* )* ;
 book_epilogue:		       BitBookEpilogue format CL NL* ( bitElem NL* )* ;
 book_introduction:	       BitBookIntroduction format CL NL* ( bitElem NL* )* ;
-book_inciting_incident:	       BitBookIncitingIncident format CL NL* ( bitElem NL* )* ;
+book_inciting_incident:	   BitBookIncitingIncident format CL NL* ( bitElem NL* )* ;
 book_conclusion:	       BitBookConclusion format CL NL* ( bitElem NL* )* ;
-book_afterword:	               BitBookAfterword format CL NL* ( bitElem NL* )* ;
+book_afterword:	           BitBookAfterword format CL NL* ( bitElem NL* )* ;
 book_postscript: 	       BitBookPostscript format CL NL* ( bitElem NL* )* ;
 book_appendix:		       BitBookappendix format CL NL* ( bitElem NL* )* ;
 book_addendum:		       BitBookAddendum format CL NL* ( bitElem NL* )* ;
-book_acknowledgments:	       BitBookAcknowledgments format CL NL* ( bitElem NL* )* ;
-book_list_of_contributors:     BitBookListOfContributors format CL NL* ( bitElem NL* )* ;
+book_acknowledgments:	   BitBookAcknowledgments format CL NL* ( bitElem NL* )* ;
+book_list_of_contributors: BitBookListOfContributors format CL NL* ( bitElem NL* )* ;
 book_bibliography:	       BitBookBibliography format CL NL* ( bitElem NL* )* ;
-book_reference_list:	       BitBookReferenceList format CL NL* ( bitElem NL* )* ;
+book_reference_list:	   BitBookReferenceList format CL NL* ( bitElem NL* )* ;
 book_endnotes:		       BitBookEndnotes format CL NL* ( bitElem NL* )* ;
 book_notes: 		       BitBookNotes format CL NL* ( bitElem NL* )* ;
 book_copyright_permissions:BitBookCopyrightPermissions format CL NL* ( bitElem NL* )* ;
@@ -368,55 +401,55 @@ book_read_more:		       BitBookReadMore format CL NL* ( bitElem NL* )* ;
 book_summary:		       BitBookSummary format CL NL* ( bitElem NL* )* ;
 book_epigraph:		       BitBookEpigraph format CL NL* ( bitElem NL* )* ;
 
-code:			       BitCode format CL NL* ( bitElem NL* )* ;
-card1:			       BitCard1 format CL NL* ( bitElem NL* )* ;
-question1:		       BitQuestion1 format CL NL* ( bitElem NL* )* ;
+code:			       	   BitCode format CL NL* ( bitElem NL* )* ;
+card1:			       	   BitCard1 format CL NL* ( bitElem NL* )* ;
+question1:		       	   BitQuestion1 format CL NL* ( bitElem NL* )* ;
 
-screenshot:		       BitScreenshot format2 CL NL* ( bitElem NL*)* ;
+screenshot:		           BitScreenshot format2 CL NL* ( bitElem NL*)* ;
 focus_image:		       BitFocusImage format2 CL NL* ( bitElem NL*)* ;
-photo:			       BitPhoto format2 CL NL* ( bitElem NL*)* ;
+photo:			       	   BitPhoto format2 CL NL* ( bitElem NL*)* ;
 browser_image:		       BitBrowserImage format2 CL NL* ( bitElem NL*)* ;
 
-chapter_subject_matter:	       BitChapterSubjectMatter format CL NL* ( bitElem NL* )* ;
+chapter_subject_matter:	   BitChapterSubjectMatter format CL NL* ( bitElem NL* )* ;
 release_note:		       BitReleaseNote format CL NL* ( bitElem NL* )* ;
-conclusion:		       BitConclusion format CL NL* ( bitElem NL* )* ;
-featured:		       BitFeatured format CL NL* ( bitElem NL* )* ;
-vendor_amcharts_5_chart:       BitVendorAmcharts5Chart format2 CL NL* ( bitElem NL* )* ;
+conclusion:		       	   BitConclusion format CL NL* ( bitElem NL* )* ;
+featured:		       	   BitFeatured format CL NL* ( bitElem NL* )* ;
+vendor_amcharts_5_chart:   BitVendorAmcharts5Chart format2 CL NL* ( bitElem NL* )* ;
 
 newspaper_article:	       BitNewspaperArticle format CL NL* ( bitElem NL* )* ;
 blog_article:		       BitBlogArticle format CL NL* ( bitElem NL* )* ;
 book_article:		       BitBookArticle format CL NL* ( bitElem NL* )* ;
 notebook_article:	       BitNotebookArticle format CL NL* ( bitElem NL* )* ;
 workbook_article:	       BitWorkbookArticle format CL NL* ( bitElem NL* )* ;
-release_notes_summary:	       BitReleaseNotesSummary format CL NL* ( bitElem NL* )* ;
-message:                       BitMessage format CL NL* ( bitElem NL* )* ;
+release_notes_summary:	   BitReleaseNotesSummary format CL NL* ( bitElem NL* )* ;
+message:                   BitMessage format CL NL* ( bitElem NL* )* ;
 
 cook_preparation:	       BitCookPreparation format CL NL* ( bitElem NL* )* ;
-cook_step:		       BitCookStep format CL NL* ( bitElem NL* )* ;
+cook_step:		       	   BitCookStep format CL NL* ( bitElem NL* )* ;
 cook_ingredients:	       BitCookIngredients format CL NL* ( bitElem NL* )* ;
 cook_remark:		       BitCookRremark format CL NL* ( bitElem NL* )* ;
 cook_variation:		       BitCookVariation format CL NL* ( bitElem NL* )* ;
 cook_insert:		       BitCookInsert format CL NL* ( bitElem NL* )* ;
 cook_arrangement:	       BitCookArrangement format CL NL* ( bitElem NL* )* ;
-cook_practice_advise: 	       BitCookPracticeAdvise format CL NL* ( bitElem NL* )* ;
+cook_practice_advise: 	   BitCookPracticeAdvise format CL NL* ( bitElem NL* )* ;
 cook_plate: 		       BitCookPlate format CL NL* ( bitElem NL* )* ;
-cook_recommendation: 	       BitCookRecommendation format CL NL* ( bitElem NL* )* ;
+cook_recommendation: 	   BitCookRecommendation format CL NL* ( bitElem NL* )* ;
 cook_personal_recommendation:  BitCookPersonalRecommendation format CL NL* ( bitElem NL* )* ;
 cook_side_drink: 	       BitCookSideDrink format CL NL* ( bitElem NL* )* ;
 cook_side_dish: 	       BitCookSideDish format CL NL* ( bitElem NL* )* ;
 cook_timer: 		       BitCookTimer format CL NL* ( bitElem NL* )* ;
 
-lang_learning_outcomes:        BitLangLearningOutcomes format CL NL* ( bitElem NL* )* ;
+lang_learning_outcomes:    BitLangLearningOutcomes format CL NL* ( bitElem NL* )* ;
 lang_enabling_language_skills: BitLangEnablingLanguageSkills format CL NL* ( bitElem NL* )* ;
 lang_life_skills: 	       BitLangLifeSkills format CL NL* ( bitElem NL* )* ;
-lang_english_around_world:     BitLangEnglishAroundWorld format CL NL* ( bitElem NL* )* ;
+lang_english_around_world: BitLangEnglishAroundWorld format CL NL* ( bitElem NL* )* ;
 lang_good_to_know: 	       BitLangGoodtoknow format CL NL* ( bitElem NL* )* ;
-lang_learning_strategy:        BitLangLearningStrategy format CL NL* ( bitElem NL* )* ;
+lang_learning_strategy:    BitLangLearningStrategy format CL NL* ( bitElem NL* )* ;
 lang_like_a_local: 	       BitLangLikeAlocal format CL NL* ( bitElem NL* )* ;
-lang_useful_phrases: 	       BitLangUsefulPhrases format CL NL* ( bitElem NL* )* ;
+lang_useful_phrases: 	   BitLangUsefulPhrases format CL NL* ( bitElem NL* )* ;
 lang_level_down: 	       BitLangLevelDown format CL NL* ( bitElem NL* )* ;
 lang_level_up: 		       BitLangLevelUp format CL NL* ( bitElem NL* )* ;
-lang_extra_activity: 	       BitLangExtraActivity format CL NL* ( bitElem NL* )* ;
+lang_extra_activity: 	   BitLangExtraActivity format CL NL* ( bitElem NL* )* ;
 lang_video_script: 	       BitLangVideoScript format CL NL* ( bitElem NL* )* ;
 lang_audio_script: 	       BitLangAudioScript format CL NL* ( bitElem NL* )* ;
 lang_vocabulary: 	       BitLangVocabulary format CL NL* ( bitElem NL* )* ;
@@ -425,9 +458,9 @@ lang_teacher_note: 	       BitLangTeacherNote format CL NL+ ( bitElem NL* )* lin
 				  		   ( resource (NL* resource)* )? ;
 review_note:                   BitReviewNote format CL NL* ( bitElem NL* )* ;
 review_author_note:	       BitReviewAuthorNote format CL NL* ( bitElem NL* )* ;
-review_reviewer_note:	       BitReviewReviewerNote format CL NL* ( bitElem NL* )* ;
+review_reviewer_note:	   BitReviewReviewerNote format CL NL* ( bitElem NL* )* ;
 review_request_for_review_note:	BitReviewRequestForReviewNote format CL NL* ( bitElem NL* )* ;
-review_approved_note:	       BitReviewApprovedNote format CL NL* ( bitElem NL* )* ;
+review_approved_note:	   BitReviewApprovedNote format CL NL* ( bitElem NL* )* ;
 checklist:		       BitChecklist format CL NL* ( bitElem NL* )* ;
 video_transcript:	       BitVideoTranscript format CL NL* ( bitElem NL* )* ;
 audio_transcript:	       BitAudioTranscript format CL NL* ( bitElem NL* )* ;
@@ -447,6 +480,44 @@ figure:			       	   BitFigure format CL NL* ( bitElem NL*)* ;
 video_link_landscape:  	   BitVideoLinkLandscape format CL NL* ( bitElem NL*)* ;
 video_link_portrait:   	   BitVideoLinkPortrait format CL NL* ( bitElem NL*)* ;
 
+image_mood:                BitImageMood format CL NL* ( bitElem NL*)* ;
+image_figure:			   BitImageFigure format CL NL* ( bitElem NL*)* ;
+image_banner:			   BitImageBanner format CL NL* ( bitElem NL*)* ;
+image_styled:			   BitImageStyled format CL NL* ( bitElem NL*)* ;
+image_screenshot:		   BitImageScreenshot format CL NL* ( bitElem NL*)* ;
+app_get_screenshot:		   BitAppGetScreenshot format CL NL* ( bitElem NL*)* ;
+app_create_bits_from_image:BitAppCreateBitsFromImage format CL NL* ( bitElem NL*)* ;
+life_skill_sticker:		   BitLifeSkillSticker format CL NL* ( bitElem NL*)* ;
+details_image:			   BitDetailsImage format CL NL* ( bitElem NL*)* ;
+page_banner:			   BitPageBanner format CL NL* ( bitElem NL*)* ;
+page_buy_button:		   BitPageBuyButton format CL NL* ( bitElem NL*)* ;
+
+image_render_svg:  		   BitImageRenderSvg format CL NL* ( bitElem NL*)* ;
+vendor_jsfiddle:		   BitVendorJsfiddle format CL NL* ( bitElem NL*)* ;
+vendor_jsfiddle_embed:     BitVendorJsfiddleEmbed format CL NL* ( bitElem NL*)* ;
+app_code_editor:  		   BitAppCodeEditor format2 CL NL* ( bitElem NL*)* ;
+app_code_ide:  			   BitAppCodeIde format2 CL NL* ( bitElem NL*)* ;
+code_runtime:  			   BitCodeRuntime format2 CL NL* ( bitElem NL*)* ;
+output:  				   BitOutput format2 CL NL* ( bitElem NL*)* ;
+console_log:  			   BitConsoleLog format2 CL NL* ( bitElem NL*)* ;
+vendor_jupyter_cell_code:   BitVenderJupyterCellCode format2 CL NL* ( bitElem NL*)* ;
+vendor_jupyter_cell_raw:    BitVenderJupyterCellRaw format2 CL NL* ( bitElem NL*)* ;
+vendor_jupyter_output:      BitVenderJupyterOutput format2 CL NL* ( bitElem NL*)* ;
+vendor_jupyter_cell_markdown: 	BitVenderJupyterCellMarkdown format2 CL NL* ( bitElem NL*)* ;
+vendor_jupyter_ipynb: 	   BitVenderJupyterIpynb format2 CL NL* ( bitElem NL*)* ;
+app_code_cell: 			   BitAppCodeCell format2 CL NL* ( bitElem NL*)* ;
+stdout: 				   BitStdout format2 CL NL* ( bitElem NL*)* ;
+app_bitmark_from_javascript: BitAppBitmarkFromJavascript format2 CL NL* ( bitElem NL*)* ;
+app_bitmark_from_editor:   BitAppBitmarkFromEditor format2 CL NL* ( bitElem NL*)* ;
+
+images_logo_grave:		   BitImagesLogoGrave format CL NL* ( bitElem_noResource NL*)*
+						   logo+  // footer? NL*
+;
+logo: image_one logo_attribs* NL ;
+logo_attribs:
+      (AtWidth | AtHeight) COLON NUMERIC CL
+    | ( OPATALT | OpAtCaption | OpAtSearch | OpAtLicense | OpAtCopyright ) .*? CL
+;
 
 /* Obsolete
 bot_interview:

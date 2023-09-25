@@ -1,21 +1,8 @@
-[.app-ai-prompt:bitmark--&video]
-[@id:119760]
-[&video:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4]
-
-[.app-ai-prompt:bitmark--&image]
-[@id:119760]
-[&image:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/rav_video.mp4][@src2x:https://docs.bitmark.cloud/bit-books/rav/web-resources/video/poster.png]
-プロンプトとは
-プロンプト（Prompt）とは、AIとの対話やコマンドラインインタフェース（CLI）などの対話形式のシステムにおいて、ユーザが入力する指示や質問のことです。AIがユーザの要求や問いに対して適切な応答や結果を生成するためには、明確で具体的なプロンプトが必要です。不適切なプロンプトを使用すると、AIが望ましくない結果や誤った情報を生成する可能性があります。
-
-
-[.app-ai-prompt:bitmark--&image]
+[.vendor-jsfiddle&image]
 [@id:119768]
 [&image:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_1024x1024.jpg][@src1x:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64.jpg][@src2x:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64@2x.jpg][@width:640][@height:640]
-プロンプトとは
-プロンプト（Prompt）とは、AIとの対話やコマンドラインインタフェース（CLI）などの対話形式のシステムにおいて、ユーザが入力する指示や質問のことです。AIがユーザの要求や問いに対して適切な応答や結果を生成するためには、明確で具体的なプロンプトが必要です。不適切なプロンプトを使用すると、AIが望ましくない結果や誤った情報を生成する可能性があります。
-
-[.figure&image]
-[@id:304379]
-[@stat:ok]
-[&image:https://miro.medium.com/v2/resizefit1400/1nT_Rrk9LCI5XWiLGzzOzBQ$.gif]
+BitmarkListener.prototype.get_result = function () {
+  while (0 < this.curr_bit_stk.size)
+    delete this.curr_bit_stk.pop();
+  return this.stk.bucket;
+};

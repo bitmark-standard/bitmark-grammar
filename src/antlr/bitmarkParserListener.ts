@@ -45,6 +45,7 @@ import { BoactsContext } from "./bitmarkParser";
 import { FeedbackContext } from "./bitmarkParser";
 import { FooterContext } from "./bitmarkParser";
 import { BitElemContext } from "./bitmarkParser";
+import { BitElem_noResourceContext } from "./bitmarkParser";
 import { GapContext } from "./bitmarkParser";
 import { Single_gapContext } from "./bitmarkParser";
 import { Choice_plusContext } from "./bitmarkParser";
@@ -207,6 +208,37 @@ import { Book_link_prevContext } from "./bitmarkParser";
 import { FigureContext } from "./bitmarkParser";
 import { Video_link_landscapeContext } from "./bitmarkParser";
 import { Video_link_portraitContext } from "./bitmarkParser";
+import { Image_moodContext } from "./bitmarkParser";
+import { Image_figureContext } from "./bitmarkParser";
+import { Image_bannerContext } from "./bitmarkParser";
+import { Image_styledContext } from "./bitmarkParser";
+import { Image_screenshotContext } from "./bitmarkParser";
+import { App_get_screenshotContext } from "./bitmarkParser";
+import { App_create_bits_from_imageContext } from "./bitmarkParser";
+import { Life_skill_stickerContext } from "./bitmarkParser";
+import { Details_imageContext } from "./bitmarkParser";
+import { Page_bannerContext } from "./bitmarkParser";
+import { Page_buy_buttonContext } from "./bitmarkParser";
+import { Image_render_svgContext } from "./bitmarkParser";
+import { Vendor_jsfiddleContext } from "./bitmarkParser";
+import { Vendor_jsfiddle_embedContext } from "./bitmarkParser";
+import { App_code_editorContext } from "./bitmarkParser";
+import { App_code_ideContext } from "./bitmarkParser";
+import { Code_runtimeContext } from "./bitmarkParser";
+import { OutputContext } from "./bitmarkParser";
+import { Console_logContext } from "./bitmarkParser";
+import { Vendor_jupyter_cell_codeContext } from "./bitmarkParser";
+import { Vendor_jupyter_cell_rawContext } from "./bitmarkParser";
+import { Vendor_jupyter_outputContext } from "./bitmarkParser";
+import { Vendor_jupyter_cell_markdownContext } from "./bitmarkParser";
+import { Vendor_jupyter_ipynbContext } from "./bitmarkParser";
+import { App_code_cellContext } from "./bitmarkParser";
+import { StdoutContext } from "./bitmarkParser";
+import { App_bitmark_from_javascriptContext } from "./bitmarkParser";
+import { App_bitmark_from_editorContext } from "./bitmarkParser";
+import { Images_logo_graveContext } from "./bitmarkParser";
+import { LogoContext } from "./bitmarkParser";
+import { Logo_attribsContext } from "./bitmarkParser";
 import { Bot_choiceContext } from "./bitmarkParser";
 import { RatingContext } from "./bitmarkParser";
 import { Bullet_itemContext } from "./bitmarkParser";
@@ -750,6 +782,17 @@ export interface bitmarkParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitBitElem?: (ctx: BitElemContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.bitElem_noResource`.
+	 * @param ctx the parse tree
+	 */
+	enterBitElem_noResource?: (ctx: BitElem_noResourceContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.bitElem_noResource`.
+	 * @param ctx the parse tree
+	 */
+	exitBitElem_noResource?: (ctx: BitElem_noResourceContext) => void;
 
 	/**
 	 * Enter a parse tree produced by `bitmarkParser.gap`.
@@ -2532,6 +2575,347 @@ export interface bitmarkParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitVideo_link_portrait?: (ctx: Video_link_portraitContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.image_mood`.
+	 * @param ctx the parse tree
+	 */
+	enterImage_mood?: (ctx: Image_moodContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.image_mood`.
+	 * @param ctx the parse tree
+	 */
+	exitImage_mood?: (ctx: Image_moodContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.image_figure`.
+	 * @param ctx the parse tree
+	 */
+	enterImage_figure?: (ctx: Image_figureContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.image_figure`.
+	 * @param ctx the parse tree
+	 */
+	exitImage_figure?: (ctx: Image_figureContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.image_banner`.
+	 * @param ctx the parse tree
+	 */
+	enterImage_banner?: (ctx: Image_bannerContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.image_banner`.
+	 * @param ctx the parse tree
+	 */
+	exitImage_banner?: (ctx: Image_bannerContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.image_styled`.
+	 * @param ctx the parse tree
+	 */
+	enterImage_styled?: (ctx: Image_styledContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.image_styled`.
+	 * @param ctx the parse tree
+	 */
+	exitImage_styled?: (ctx: Image_styledContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.image_screenshot`.
+	 * @param ctx the parse tree
+	 */
+	enterImage_screenshot?: (ctx: Image_screenshotContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.image_screenshot`.
+	 * @param ctx the parse tree
+	 */
+	exitImage_screenshot?: (ctx: Image_screenshotContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.app_get_screenshot`.
+	 * @param ctx the parse tree
+	 */
+	enterApp_get_screenshot?: (ctx: App_get_screenshotContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.app_get_screenshot`.
+	 * @param ctx the parse tree
+	 */
+	exitApp_get_screenshot?: (ctx: App_get_screenshotContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.app_create_bits_from_image`.
+	 * @param ctx the parse tree
+	 */
+	enterApp_create_bits_from_image?: (ctx: App_create_bits_from_imageContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.app_create_bits_from_image`.
+	 * @param ctx the parse tree
+	 */
+	exitApp_create_bits_from_image?: (ctx: App_create_bits_from_imageContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.life_skill_sticker`.
+	 * @param ctx the parse tree
+	 */
+	enterLife_skill_sticker?: (ctx: Life_skill_stickerContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.life_skill_sticker`.
+	 * @param ctx the parse tree
+	 */
+	exitLife_skill_sticker?: (ctx: Life_skill_stickerContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.details_image`.
+	 * @param ctx the parse tree
+	 */
+	enterDetails_image?: (ctx: Details_imageContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.details_image`.
+	 * @param ctx the parse tree
+	 */
+	exitDetails_image?: (ctx: Details_imageContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.page_banner`.
+	 * @param ctx the parse tree
+	 */
+	enterPage_banner?: (ctx: Page_bannerContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.page_banner`.
+	 * @param ctx the parse tree
+	 */
+	exitPage_banner?: (ctx: Page_bannerContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.page_buy_button`.
+	 * @param ctx the parse tree
+	 */
+	enterPage_buy_button?: (ctx: Page_buy_buttonContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.page_buy_button`.
+	 * @param ctx the parse tree
+	 */
+	exitPage_buy_button?: (ctx: Page_buy_buttonContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.image_render_svg`.
+	 * @param ctx the parse tree
+	 */
+	enterImage_render_svg?: (ctx: Image_render_svgContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.image_render_svg`.
+	 * @param ctx the parse tree
+	 */
+	exitImage_render_svg?: (ctx: Image_render_svgContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.vendor_jsfiddle`.
+	 * @param ctx the parse tree
+	 */
+	enterVendor_jsfiddle?: (ctx: Vendor_jsfiddleContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.vendor_jsfiddle`.
+	 * @param ctx the parse tree
+	 */
+	exitVendor_jsfiddle?: (ctx: Vendor_jsfiddleContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.vendor_jsfiddle_embed`.
+	 * @param ctx the parse tree
+	 */
+	enterVendor_jsfiddle_embed?: (ctx: Vendor_jsfiddle_embedContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.vendor_jsfiddle_embed`.
+	 * @param ctx the parse tree
+	 */
+	exitVendor_jsfiddle_embed?: (ctx: Vendor_jsfiddle_embedContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.app_code_editor`.
+	 * @param ctx the parse tree
+	 */
+	enterApp_code_editor?: (ctx: App_code_editorContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.app_code_editor`.
+	 * @param ctx the parse tree
+	 */
+	exitApp_code_editor?: (ctx: App_code_editorContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.app_code_ide`.
+	 * @param ctx the parse tree
+	 */
+	enterApp_code_ide?: (ctx: App_code_ideContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.app_code_ide`.
+	 * @param ctx the parse tree
+	 */
+	exitApp_code_ide?: (ctx: App_code_ideContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.code_runtime`.
+	 * @param ctx the parse tree
+	 */
+	enterCode_runtime?: (ctx: Code_runtimeContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.code_runtime`.
+	 * @param ctx the parse tree
+	 */
+	exitCode_runtime?: (ctx: Code_runtimeContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.output`.
+	 * @param ctx the parse tree
+	 */
+	enterOutput?: (ctx: OutputContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.output`.
+	 * @param ctx the parse tree
+	 */
+	exitOutput?: (ctx: OutputContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.console_log`.
+	 * @param ctx the parse tree
+	 */
+	enterConsole_log?: (ctx: Console_logContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.console_log`.
+	 * @param ctx the parse tree
+	 */
+	exitConsole_log?: (ctx: Console_logContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.vendor_jupyter_cell_code`.
+	 * @param ctx the parse tree
+	 */
+	enterVendor_jupyter_cell_code?: (ctx: Vendor_jupyter_cell_codeContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.vendor_jupyter_cell_code`.
+	 * @param ctx the parse tree
+	 */
+	exitVendor_jupyter_cell_code?: (ctx: Vendor_jupyter_cell_codeContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.vendor_jupyter_cell_raw`.
+	 * @param ctx the parse tree
+	 */
+	enterVendor_jupyter_cell_raw?: (ctx: Vendor_jupyter_cell_rawContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.vendor_jupyter_cell_raw`.
+	 * @param ctx the parse tree
+	 */
+	exitVendor_jupyter_cell_raw?: (ctx: Vendor_jupyter_cell_rawContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.vendor_jupyter_output`.
+	 * @param ctx the parse tree
+	 */
+	enterVendor_jupyter_output?: (ctx: Vendor_jupyter_outputContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.vendor_jupyter_output`.
+	 * @param ctx the parse tree
+	 */
+	exitVendor_jupyter_output?: (ctx: Vendor_jupyter_outputContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.vendor_jupyter_cell_markdown`.
+	 * @param ctx the parse tree
+	 */
+	enterVendor_jupyter_cell_markdown?: (ctx: Vendor_jupyter_cell_markdownContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.vendor_jupyter_cell_markdown`.
+	 * @param ctx the parse tree
+	 */
+	exitVendor_jupyter_cell_markdown?: (ctx: Vendor_jupyter_cell_markdownContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.vendor_jupyter_ipynb`.
+	 * @param ctx the parse tree
+	 */
+	enterVendor_jupyter_ipynb?: (ctx: Vendor_jupyter_ipynbContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.vendor_jupyter_ipynb`.
+	 * @param ctx the parse tree
+	 */
+	exitVendor_jupyter_ipynb?: (ctx: Vendor_jupyter_ipynbContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.app_code_cell`.
+	 * @param ctx the parse tree
+	 */
+	enterApp_code_cell?: (ctx: App_code_cellContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.app_code_cell`.
+	 * @param ctx the parse tree
+	 */
+	exitApp_code_cell?: (ctx: App_code_cellContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.stdout`.
+	 * @param ctx the parse tree
+	 */
+	enterStdout?: (ctx: StdoutContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.stdout`.
+	 * @param ctx the parse tree
+	 */
+	exitStdout?: (ctx: StdoutContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.app_bitmark_from_javascript`.
+	 * @param ctx the parse tree
+	 */
+	enterApp_bitmark_from_javascript?: (ctx: App_bitmark_from_javascriptContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.app_bitmark_from_javascript`.
+	 * @param ctx the parse tree
+	 */
+	exitApp_bitmark_from_javascript?: (ctx: App_bitmark_from_javascriptContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.app_bitmark_from_editor`.
+	 * @param ctx the parse tree
+	 */
+	enterApp_bitmark_from_editor?: (ctx: App_bitmark_from_editorContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.app_bitmark_from_editor`.
+	 * @param ctx the parse tree
+	 */
+	exitApp_bitmark_from_editor?: (ctx: App_bitmark_from_editorContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.images_logo_grave`.
+	 * @param ctx the parse tree
+	 */
+	enterImages_logo_grave?: (ctx: Images_logo_graveContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.images_logo_grave`.
+	 * @param ctx the parse tree
+	 */
+	exitImages_logo_grave?: (ctx: Images_logo_graveContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.logo`.
+	 * @param ctx the parse tree
+	 */
+	enterLogo?: (ctx: LogoContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.logo`.
+	 * @param ctx the parse tree
+	 */
+	exitLogo?: (ctx: LogoContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.logo_attribs`.
+	 * @param ctx the parse tree
+	 */
+	enterLogo_attribs?: (ctx: Logo_attribsContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.logo_attribs`.
+	 * @param ctx the parse tree
+	 */
+	exitLogo_attribs?: (ctx: Logo_attribsContext) => void;
 
 	/**
 	 * Enter a parse tree produced by `bitmarkParser.bot_choice`.

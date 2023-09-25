@@ -1,3 +1,67 @@
+<<<<./tests/jsfiddle.bit
+[
+    {
+        "bitmark": "[.vendor-jsfiddle&image]\n[@id:119768]\n[&image:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_1024x1024.jpg][@src1x:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64.jpg][@src2x:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64@2x.jpg][@width:640][@height:640]\nBitmarkListener.prototype.get_result = function () {\n  while (0 < this.curr_bit_stk.size)\n    delete this.curr_bit_stk.pop();\n  return this.stk.bucket;\n};",
+        "bit": {
+            "type": "vendor-jsfiddle",
+            "format": "bitmark--",
+            "body": "BitmarkListener.prototype.get_result = function () {\n  while (0 < this.curr_bit_stk.size)\n    delete this.curr_bit_stk.pop();\n  return this.stk.bucket;\n};",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "119768"
+            ],
+            "resource": {
+                "type": "image",
+                "image": {
+                    "src": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_1024x1024.jpg",
+                    "showInIndex": false,
+                    "format": "jpg",
+                    "width": "640",
+                    "height": "640",
+                    "alt": "",
+                    "caption": "",
+                    "license": "",
+                    "copyright": "",
+                    "src1x": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64.jpg",
+                    "src2x": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64@2x.jpg"
+                }
+            }
+        }
+    },
+    {
+        "bitmark": "[.vendor-jsfiddle-embed&image]\n[@id:119768]\n# JS\nBitmarkListener.prototype.set_value_based_on_curr_bit_stk = function (val1, sub1, val2, sub2, tmpl = null) {\n  let subscript = this.curr_bit_stk.top();\n  let key_obj = null;\n\n  if (subscript.startsWith('{'))\n    key_obj = subscript.split('$'); // like \"{Diaz:0}:marks\"\n  if (key_obj.length === 2) {\n    if (tmpl && !(key_obj[0] in this.stk.top().bit[key_obj[1]]))\n      (this.stk.top()).bit[key_obj[1]][key_obj[0]] = R.clone(tmpl);\n    if (key_obj[0] in this.stk.top().bit[key_obj[1]]) {\n      // e.g. bit.gaps['{0}'].example = true;\n      (this.stk.top()).bit[key_obj[1]][key_obj[0]][sub1] = val1;\n      if (sub2 != null)\n        (this.stk.top()).bit[key_obj[1]][key_obj[0]][sub2] = val2;\n    }\n  }\n}\n# CSS\nbody { font-family: Helvetica, Tahoma; }\nh2 { font-size: 1.5em; margin-bottom: 10px; display: block;}\np { margin-bottom: 15px; display: block; font-size: 0.8em; }\nlabel { font-weight: bold; }\ntextarea, input[type=text] {\n    padding: 3px 5px;\n    width: 80%;\n    display: block;\n    border: 1px solid #ddd;\n    margin-bottom: 5px;\n}\ntextarea { height: 70px; }\n# HTML\n<h2>Load a fiddle based on the POST variables</h2>\n<form method='post' action='http://jsfiddle.net/api/post/mootools/1.3/dependencies/more/' target='check'>\n    <p><input type='submit'/> - fiddle will be loaded in different browser window/tab.</p>\n    <select name=\"panel_html\">\n        <option value=\"0\">HTML</option>\n    </select>\n    <textarea name='html'><p class=\"red\">It's magic!</p>\n<p><a href=\"http://doc.jsfiddle.net/api/post.html\">Documentation</a></p></textarea>\n    <select name=\"panel_js\">\n        <option value=\"0\">JavaScript</option>\n        <option value=\"1\">CoffeeScript</option>\n        <option value=\"2\">JavaScript 1.7</option>\n    </select>\n    <textarea name='js'>window.addEvent('domready', function() {\n  $$('p.red').each(function(el) {\n      el.setStyle('color', '#00ff00');\n  });\n});</textarea>\n    <select name=\"panel_css\">\n        <option value=\"0\">CSS</option>\n        <option value=\"1\">SCSS</option>\n    </select>\n    <textarea name='css'>p {font-family: Helvetica, Arial; }</textarea>\n    <label>Title:</label>\n    <input type='text' name='title' value='some title'/>\n    <label>Description:</label>\n    <textarea name='description'>descr</textarea>\n    <label>Resources (comma separated, no spaces):</label>\n    <textarea name='resources'>http://abc.it/xyz.js</textarea>\n    <label>DTD:</label>\n    <input type='text' name='dtd' value='html 4'/>\n    <label>Wrap (l/d/h/b)</label>\n    <input type='text' name='wrap' value='l'/>\n</form>",
+        "bit": {
+            "type": "vendor-jsfiddle-embed",
+            "format": "bitmark--",
+            "body": "# JS\nBitmarkListener.prototype.set_value_based_on_curr_bit_stk = function (val1, sub1, val2, sub2, tmpl = null) {\n  let subscript = this.curr_bit_stk.top();\n  let key_obj = null;\n\n  if (subscript.startsWith('{'))\n    key_obj = subscript.split('$'); // like \"{Diaz:0}:marks\"\n  if (key_obj.length === 2) {\n    if (tmpl && !(key_obj[0] in this.stk.top().bit[key_obj[1]]))\n      (this.stk.top()).bit[key_obj[1]][key_obj[0]] = R.clone(tmpl);\n    if (key_obj[0] in this.stk.top().bit[key_obj[1]]) {\n      // e.g. bit.gaps['{0}'].example = true;\n      (this.stk.top()).bit[key_obj[1]][key_obj[0]][sub1] = val1;\n      if (sub2 != null)\n        (this.stk.top()).bit[key_obj[1]][key_obj[0]][sub2] = val2;\n    }\n  }\n}\n# CSS\nbody { font-family: Helvetica, Tahoma; }\nh2 { font-size: 1.5em; margin-bottom: 10px; display: block;}\np { margin-bottom: 15px; display: block; font-size: 0.8em; }\nlabel { font-weight: bold; }\ntextarea, input[type=text] {\n    padding: 3px 5px;\n    width: 80%;\n    display: block;\n    border: 1px solid #ddd;\n    margin-bottom: 5px;\n}\ntextarea { height: 70px; }\n# HTML\n<h2>Load a fiddle based on the POST variables</h2>\n<form method='post' action='http://jsfiddle.net/api/post/mootools/1.3/dependencies/more/' target='check'>\n    <p><input type='submit'/> - fiddle will be loaded in different browser window/tab.</p>\n    <select name=\"panel_html\">\n        <option value=\"0\">HTML</option>\n    </select>\n    <textarea name='html'><p class=\"red\">It's magic!</p>\n<p><a href=\"http://doc.jsfiddle.net/api/post.html\">Documentation</a></p></textarea>\n    <select name=\"panel_js\">\n        <option value=\"0\">JavaScript</option>\n        <option value=\"1\">CoffeeScript</option>\n        <option value=\"2\">JavaScript 1.7</option>\n    </select>\n    <textarea name='js'>window.addEvent('domready', function() {\n  $$('p.red').each(function(el) {\n      el.setStyle('color', '#00ff00');\n  });\n});</textarea>\n    <select name=\"panel_css\">\n        <option value=\"0\">CSS</option>\n        <option value=\"1\">SCSS</option>\n    </select>\n    <textarea name='css'>p {font-family: Helvetica, Arial; }</textarea>\n    <label>Title:</label>\n    <input type='text' name='title' value='some title'/>\n    <label>Description:</label>\n    <textarea name='description'>descr</textarea>\n    <label>Resources (comma separated, no spaces):</label>\n    <textarea name='resources'>http://abc.it/xyz.js</textarea>\n    <label>DTD:</label>\n    <input type='text' name='dtd' value='html 4'/>\n    <label>Wrap (l/d/h/b)</label>\n    <input type='text' name='wrap' value='l'/>\n</form>",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "119768"
+            ]
+        }
+    },
+    {
+        "bitmark": "[.image-render-svg]\n[@id:119768]\n<?xml version=\"1.0\"?>\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\"\n  \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\"\n width=\"100%\" height=\"100%\" viewBox=\"0 0 1288.000000 728.000000\"\n preserveAspectRatio=\"xMidYMid meet\">\n<g transform=\"translate(0.000000,728.000000) scale(0.100000,-0.100000)\"\nfill=\"#000000\" stroke=\"none\">\n<path d=\"M0 3640 l0 -3640 6440 0 6440 0 0 3640 0 3640 -6440 0 -6440 0 0 -3640z\n m12800 0 l0 -3560 -6360 0 -6360 0 0 3560 0 3560 6360 0 6360 0 0 -3560z\"/>\n</g>\n</svg>",
+        "bit": {
+            "type": "image-render-svg",
+            "format": "bitmark--",
+            "body": "<?xml version=\"1.0\"?>\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\"\n  \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\"\n width=\"100%\" height=\"100%\" viewBox=\"0 0 1288.000000 728.000000\"\n preserveAspectRatio=\"xMidYMid meet\">\n<g transform=\"translate(0.000000,728.000000) scale(0.100000,-0.100000)\"\nfill=\"#000000\" stroke=\"none\">\n<path d=\"M0 3640 l0 -3640 6440 0 6440 0 0 3640 0 3640 -6440 0 -6440 0 0 -3640z\n m12800 0 l0 -3560 -6360 0 -6360 0 0 3560 0 3560 6360 0 6360 0 0 -3560z\"/>\n</g>\n</svg>",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "119768"
+            ]
+        }
+    }
+]
 <<<<./tests/learning-path1.bit
 [
     {
@@ -892,7 +956,7 @@
         }
     }
 ]
-<<<<./tests/page1.bit 
+<<<<./tests/page1.bit
 [
     {
         "bitmark": "[.page:bitmark++]\n[@ageRange:18][@ageRange:120]\n[@language:en]\n[@language:jp]\n[@language:cn]\n\n**Some bold text,**\nfollowed by some plain text. cloze open close cloze1 book.\n[&image:https://cdn.bitbook.education/cat.jpg]\n\nSome more text.\n::remark::\n::",
@@ -921,7 +985,7 @@
         }
     }
 ]
-<<<<./tests/page2.bit 
+<<<<./tests/page2.bit
 [
     {
         "bitmark": "[.page:bitmark++]\n**Erfolg um jeden Preis**\n\nImmer, wenn ein Dopingfall durch die Medien geht, melden sich auch die Moralisten zu Wort.\n\n[&image:http://cdn.bitbook.education/publishers/3/books/26363/erfolg.jpg]\n\nWas sind dagegen ein paar anabole Steroide ==anabole Steroide==(*synthetisch hergestellte Mittel zur Leistungssteigerung)==",
@@ -2599,11 +2663,7 @@
             "item": "05_Ablauf und Termine_022 (Freitext)",
             "hint": "Korrekte Lösung \n18 Monate. (Hinweis: Für die Berechnung kann das Zeichnen eines Gantt-Diagramms hilfreich sein.)",
             "isExample": false,
-            "example": "",
-            "resource": {
-                "type": "image",
-                "image": {}
-            }
+            "example": ""
         },
         "parser": {
             "excessResources": [
@@ -12029,7 +12089,7 @@
     }
 ]
 
-<<<<./tests/vocab2.bit 
+<<<<./tests/vocab2.bit
 [
     {
         "bitmark": "[.vocabulary-1]\nSeitenlinie\n[@language:de]\n==\nside line\n[@language:en-gb]\n[@ipa:ˈsʌɪdlʌɪn]\n[@pronunciation:https://media/audio/sideline_brit.mp3]\n--\nside line\n[@language:en-us]\n[@ipa:ˈssaɪdlaɪn]\n[@pronunciation:https://media/audio/sideline_us.mp3]\n--\ntouch line\n[@language:en]",
@@ -17244,6 +17304,822 @@
         }
     }
 ]
+<<<<./tests/images-logo-grave.bit
+[
+    {
+        "bitmark": "[.images-logo-grave:bitmark--]\n[@id:119768]\n[!logo images]\n[&image:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_1024x1024.jpg]\n[&image:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat4_1024x1024.jpg]\n[&image:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat5_1024x1024.jpg]\n[&image:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat6_1024x1024.jpg]\n[&image:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat7_1024x1024.jpg]\n[&image:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat8_1024x1024.jpg][@caption: Willy Brandt: Bundeskanzler der Bundesrepublik Deutschland von 1969 bis 1974][@width:1024][@height:256]",
+        "bit": {
+            "type": "images-logo-grave",
+            "format": "bitmark--",
+            "body": "",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "logos": [
+                {
+                    "type": "image",
+                    "image": {
+                        "src": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_1024x1024.jpg",
+                        "format": "jpg"
+                    }
+                },
+                {
+                    "type": "image",
+                    "image": {
+                        "src": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat4_1024x1024.jpg",
+                        "format": "jpg"
+                    }
+                },
+                {
+                    "type": "image",
+                    "image": {
+                        "src": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat5_1024x1024.jpg",
+                        "format": "jpg"
+                    }
+                },
+                {
+                    "type": "image",
+                    "image": {
+                        "src": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat6_1024x1024.jpg",
+                        "format": "jpg"
+                    }
+                },
+                {
+                    "type": "image",
+                    "image": {
+                        "src": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat7_1024x1024.jpg",
+                        "format": "jpg"
+                    }
+                },
+                {
+                    "type": "image",
+                    "image": {
+                        "src": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat8_1024x1024.jpg",
+                        "format": "jpg",
+                        "caption": " Willy Brandt: Bundeskanzler der Bundesrepublik Deutschland von 1969 bis 1974",
+                        "width": "1024",
+                        "height": "256"
+                    }
+                }
+            ],
+            "id": [
+                "119768"
+            ],
+            "instruction": "logo images"
+        }
+    }
+]
+<<<<./tests/new09242023.bit
+[
+    {
+        "bitmark": "[.image-mood:bitmark--]\n[@id:119768]\n[&image:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_1024x1024.jpg][@src1x:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64.jpg][@src2x:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64@2x.jpg][@width:640][@height:640]\nプロンプトとは\nプロンプト（Prompt）とは、AIとの対話やコマンドラインインタフェース（CLI）などの対話形式のシステムにおいて、ユーザが入力する指示や質問のことです。AIがユーザの要求や問いに対して適切な応答や結果を生成するためには、明確で具体的なプロンプトが必要です。不適切なプロンプトを使用すると、AIが望ましくない結果や誤った情報を生成する可能性があります。",
+        "bit": {
+            "type": "image-mood",
+            "format": "bitmark--",
+            "body": "プロンプトとは\nプロンプト（Prompt）とは、AIとの対話やコマンドラインインタフェース（CLI）などの対話形式のシステムにおいて、ユーザが入力する指示や質問のことです。AIがユーザの要求や問いに対して適切な応答や結果を生成するためには、明確で具体的なプロンプトが必要です。不適切なプロンプトを使用すると、AIが望ましくない結果や誤った情報を生成する可能性があります。",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "119768"
+            ],
+            "resource": {
+                "type": "image",
+                "image": {
+                    "src": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_1024x1024.jpg",
+                    "showInIndex": false,
+                    "format": "jpg",
+                    "width": "640",
+                    "height": "640",
+                    "alt": "",
+                    "caption": "",
+                    "license": "",
+                    "copyright": "",
+                    "src1x": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64.jpg",
+                    "src2x": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64@2x.jpg"
+                }
+            }
+        }
+    },
+    {
+        "bitmark": "[.image-figure:bitmark--]\n[@id:119768]\n[&image:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_1024x1024.jpg][@src1x:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64.jpg][@src2x:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64@2x.jpg][@width:640][@height:640]\nプロンプトとは\nプロンプト（Prompt）とは、AIとの対話やコマンドラインインタフェース（CLI）などの対話形式のシステムにおいて、ユーザが入力する指示や質問のことです。AIがユーザの要求や問いに対して適切な応答や結果を生成するためには、明確で具体的なプロンプトが必要です。不適切なプロンプトを使用すると、AIが望ましくない結果や誤った情報を生成する可能性があります。",
+        "bit": {
+            "type": "image-figure",
+            "format": "bitmark--",
+            "body": "プロンプトとは\nプロンプト（Prompt）とは、AIとの対話やコマンドラインインタフェース（CLI）などの対話形式のシステムにおいて、ユーザが入力する指示や質問のことです。AIがユーザの要求や問いに対して適切な応答や結果を生成するためには、明確で具体的なプロンプトが必要です。不適切なプロンプトを使用すると、AIが望ましくない結果や誤った情報を生成する可能性があります。",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "119768"
+            ],
+            "resource": {
+                "type": "image",
+                "image": {
+                    "src": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_1024x1024.jpg",
+                    "showInIndex": false,
+                    "format": "jpg",
+                    "width": "640",
+                    "height": "640",
+                    "alt": "",
+                    "caption": "",
+                    "license": "",
+                    "copyright": "",
+                    "src1x": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64.jpg",
+                    "src2x": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64@2x.jpg"
+                }
+            }
+        }
+    },
+    {
+        "bitmark": "[.image-banner:bitmark--]\n[@id:119768]\n[&image:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_1024x1024.jpg][@src1x:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64.jpg][@src2x:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64@2x.jpg][@width:640][@height:640]\nプロンプトとは\nプロンプト（Prompt）とは、AIとの対話やコマンドラインインタフェース（CLI）などの対話形式のシステムにおいて、ユーザが入力する指示や質問のことです。AIがユーザの要求や問いに対して適切な応答や結果を生成するためには、明確で具体的なプロンプトが必要です。不適切なプロンプトを使用すると、AIが望ましくない結果や誤った情報を生成する可能性があります。",
+        "bit": {
+            "type": "image-banner",
+            "format": "bitmark--",
+            "body": "プロンプトとは\nプロンプト（Prompt）とは、AIとの対話やコマンドラインインタフェース（CLI）などの対話形式のシステムにおいて、ユーザが入力する指示や質問のことです。AIがユーザの要求や問いに対して適切な応答や結果を生成するためには、明確で具体的なプロンプトが必要です。不適切なプロンプトを使用すると、AIが望ましくない結果や誤った情報を生成する可能性があります。",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "119768"
+            ],
+            "resource": {
+                "type": "image",
+                "image": {
+                    "src": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_1024x1024.jpg",
+                    "showInIndex": false,
+                    "format": "jpg",
+                    "width": "640",
+                    "height": "640",
+                    "alt": "",
+                    "caption": "",
+                    "license": "",
+                    "copyright": "",
+                    "src1x": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64.jpg",
+                    "src2x": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64@2x.jpg"
+                }
+            }
+        }
+    },
+    {
+        "bitmark": "[.image-styled:bitmark--]\n[@id:119768]\n[&image:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_1024x1024.jpg][@src1x:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64.jpg][@src2x:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64@2x.jpg][@width:640][@height:640]\nプロンプトとは\nプロンプト（Prompt）とは、AIとの対話やコマンドラインインタフェース（CLI）などの対話形式のシステムにおいて、ユーザが入力する指示や質問のことです。AIがユーザの要求や問いに対して適切な応答や結果を生成するためには、明確で具体的なプロンプトが必要です。不適切なプロンプトを使用すると、AIが望ましくない結果や誤った情報を生成する可能性があります。",
+        "bit": {
+            "type": "image-styled",
+            "format": "bitmark--",
+            "body": "プロンプトとは\nプロンプト（Prompt）とは、AIとの対話やコマンドラインインタフェース（CLI）などの対話形式のシステムにおいて、ユーザが入力する指示や質問のことです。AIがユーザの要求や問いに対して適切な応答や結果を生成するためには、明確で具体的なプロンプトが必要です。不適切なプロンプトを使用すると、AIが望ましくない結果や誤った情報を生成する可能性があります。",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "119768"
+            ],
+            "resource": {
+                "type": "image",
+                "image": {
+                    "src": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_1024x1024.jpg",
+                    "showInIndex": false,
+                    "format": "jpg",
+                    "width": "640",
+                    "height": "640",
+                    "alt": "",
+                    "caption": "",
+                    "license": "",
+                    "copyright": "",
+                    "src1x": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64.jpg",
+                    "src2x": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64@2x.jpg"
+                }
+            }
+        }
+    },
+    {
+        "bitmark": "[.image-screenshot:bitmark--]\n[@id:119768]\n[&image:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_1024x1024.jpg][@src1x:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64.jpg][@src2x:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64@2x.jpg][@width:640][@height:640]\nプロンプトとは\nプロンプト（Prompt）とは、AIとの対話やコマンドラインインタフェース（CLI）などの対話形式のシステムにおいて、ユーザが入力する指示や質問のことです。AIがユーザの要求や問いに対して適切な応答や結果を生成するためには、明確で具体的なプロンプトが必要です。不適切なプロンプトを使用すると、AIが望ましくない結果や誤った情報を生成する可能性があります。",
+        "bit": {
+            "type": "image-screenshot",
+            "format": "bitmark--",
+            "body": "プロンプトとは\nプロンプト（Prompt）とは、AIとの対話やコマンドラインインタフェース（CLI）などの対話形式のシステムにおいて、ユーザが入力する指示や質問のことです。AIがユーザの要求や問いに対して適切な応答や結果を生成するためには、明確で具体的なプロンプトが必要です。不適切なプロンプトを使用すると、AIが望ましくない結果や誤った情報を生成する可能性があります。",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "119768"
+            ],
+            "resource": {
+                "type": "image",
+                "image": {
+                    "src": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_1024x1024.jpg",
+                    "showInIndex": false,
+                    "format": "jpg",
+                    "width": "640",
+                    "height": "640",
+                    "alt": "",
+                    "caption": "",
+                    "license": "",
+                    "copyright": "",
+                    "src1x": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64.jpg",
+                    "src2x": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64@2x.jpg"
+                }
+            }
+        }
+    },
+    {
+        "bitmark": "[.app-get-screenshot:bitmark--]\n[@id:119768]\n[&image:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_1024x1024.jpg][@src1x:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64.jpg][@src2x:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64@2x.jpg][@width:640][@height:640]\nプロンプトとは\nプロンプト（Prompt）とは、AIとの対話やコマンドラインインタフェース（CLI）などの対話形式のシステムにおいて、ユーザが入力する指示や質問のことです。AIがユーザの要求や問いに対して適切な応答や結果を生成するためには、明確で具体的なプロンプトが必要です。不適切なプロンプトを使用すると、AIが望ましくない結果や誤った情報を生成する可能性があります。",
+        "bit": {
+            "type": "app-get-screenshot",
+            "format": "bitmark--",
+            "body": "プロンプトとは\nプロンプト（Prompt）とは、AIとの対話やコマンドラインインタフェース（CLI）などの対話形式のシステムにおいて、ユーザが入力する指示や質問のことです。AIがユーザの要求や問いに対して適切な応答や結果を生成するためには、明確で具体的なプロンプトが必要です。不適切なプロンプトを使用すると、AIが望ましくない結果や誤った情報を生成する可能性があります。",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "119768"
+            ],
+            "resource": {
+                "type": "image",
+                "image": {
+                    "src": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_1024x1024.jpg",
+                    "showInIndex": false,
+                    "format": "jpg",
+                    "width": "640",
+                    "height": "640",
+                    "alt": "",
+                    "caption": "",
+                    "license": "",
+                    "copyright": "",
+                    "src1x": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64.jpg",
+                    "src2x": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64@2x.jpg"
+                }
+            }
+        }
+    },
+    {
+        "bitmark": "[.life-skill-sticker:bitmark--]\n[@id:119768]\n[&image:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_1024x1024.jpg][@src1x:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64.jpg][@src2x:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64@2x.jpg][@width:640][@height:640]\nプロンプトとは\nプロンプト（Prompt）とは、AIとの対話やコマンドラインインタフェース（CLI）などの対話形式のシステムにおいて、ユーザが入力する指示や質問のことです。AIがユーザの要求や問いに対して適切な応答や結果を生成するためには、明確で具体的なプロンプトが必要です。不適切なプロンプトを使用すると、AIが望ましくない結果や誤った情報を生成する可能性があります。",
+        "bit": {
+            "type": "life-skill-sticker",
+            "format": "bitmark--",
+            "body": "プロンプトとは\nプロンプト（Prompt）とは、AIとの対話やコマンドラインインタフェース（CLI）などの対話形式のシステムにおいて、ユーザが入力する指示や質問のことです。AIがユーザの要求や問いに対して適切な応答や結果を生成するためには、明確で具体的なプロンプトが必要です。不適切なプロンプトを使用すると、AIが望ましくない結果や誤った情報を生成する可能性があります。",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "119768"
+            ],
+            "resource": {
+                "type": "image",
+                "image": {
+                    "src": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_1024x1024.jpg",
+                    "showInIndex": false,
+                    "format": "jpg",
+                    "width": "640",
+                    "height": "640",
+                    "alt": "",
+                    "caption": "",
+                    "license": "",
+                    "copyright": "",
+                    "src1x": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64.jpg",
+                    "src2x": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64@2x.jpg"
+                }
+            }
+        }
+    },
+    {
+        "bitmark": "[.details-image:bitmark--]\n[@id:119768]\n[&image:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_1024x1024.jpg][@src1x:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64.jpg][@src2x:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64@2x.jpg][@width:640][@height:640]\nプロンプトとは\nプロンプト（Prompt）とは、AIとの対話やコマンドラインインタフェース（CLI）などの対話形式のシステムにおいて、ユーザが入力する指示や質問のことです。AIがユーザの要求や問いに対して適切な応答や結果を生成するためには、明確で具体的なプロンプトが必要です。不適切なプロンプトを使用すると、AIが望ましくない結果や誤った情報を生成する可能性があります。",
+        "bit": {
+            "type": "details-image",
+            "format": "bitmark--",
+            "body": "プロンプトとは\nプロンプト（Prompt）とは、AIとの対話やコマンドラインインタフェース（CLI）などの対話形式のシステムにおいて、ユーザが入力する指示や質問のことです。AIがユーザの要求や問いに対して適切な応答や結果を生成するためには、明確で具体的なプロンプトが必要です。不適切なプロンプトを使用すると、AIが望ましくない結果や誤った情報を生成する可能性があります。",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "119768"
+            ],
+            "resource": {
+                "type": "image",
+                "image": {
+                    "src": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_1024x1024.jpg",
+                    "showInIndex": false,
+                    "format": "jpg",
+                    "width": "640",
+                    "height": "640",
+                    "alt": "",
+                    "caption": "",
+                    "license": "",
+                    "copyright": "",
+                    "src1x": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64.jpg",
+                    "src2x": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64@2x.jpg"
+                }
+            }
+        }
+    },
+    {
+        "bitmark": "[.page-banner:bitmark--]\n[@id:119768]\n[&image:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_1024x1024.jpg][@src1x:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64.jpg][@src2x:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64@2x.jpg][@width:640][@height:640]\nプロンプトとは\nプロンプト（Prompt）とは、AIとの対話やコマンドラインインタフェース（CLI）などの対話形式のシステムにおいて、ユーザが入力する指示や質問のことです。AIがユーザの要求や問いに対して適切な応答や結果を生成するためには、明確で具体的なプロンプトが必要です。不適切なプロンプトを使用すると、AIが望ましくない結果や誤った情報を生成する可能性があります。",
+        "bit": {
+            "type": "page-banner",
+            "format": "bitmark--",
+            "body": "プロンプトとは\nプロンプト（Prompt）とは、AIとの対話やコマンドラインインタフェース（CLI）などの対話形式のシステムにおいて、ユーザが入力する指示や質問のことです。AIがユーザの要求や問いに対して適切な応答や結果を生成するためには、明確で具体的なプロンプトが必要です。不適切なプロンプトを使用すると、AIが望ましくない結果や誤った情報を生成する可能性があります。",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "119768"
+            ],
+            "resource": {
+                "type": "image",
+                "image": {
+                    "src": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_1024x1024.jpg",
+                    "showInIndex": false,
+                    "format": "jpg",
+                    "width": "640",
+                    "height": "640",
+                    "alt": "",
+                    "caption": "",
+                    "license": "",
+                    "copyright": "",
+                    "src1x": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64.jpg",
+                    "src2x": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64@2x.jpg"
+                }
+            }
+        }
+    },
+    {
+        "bitmark": "[.page-buy-button:bitmark--]\n[@id:119768]\n[&image:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_1024x1024.jpg][@src1x:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64.jpg][@src2x:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64@2x.jpg][@width:640][@height:640]\nプロンプトとは\nプロンプト（Prompt）とは、AIとの対話やコマンドラインインタフェース（CLI）などの対話形式のシステムにおいて、ユーザが入力する指示や質問のことです。AIがユーザの要求や問いに対して適切な応答や結果を生成するためには、明確で具体的なプロンプトが必要です。不適切なプロンプトを使用すると、AIが望ましくない結果や誤った情報を生成する可能性があります。",
+        "bit": {
+            "type": "page-buy-button",
+            "format": "bitmark--",
+            "body": "プロンプトとは\nプロンプト（Prompt）とは、AIとの対話やコマンドラインインタフェース（CLI）などの対話形式のシステムにおいて、ユーザが入力する指示や質問のことです。AIがユーザの要求や問いに対して適切な応答や結果を生成するためには、明確で具体的なプロンプトが必要です。不適切なプロンプトを使用すると、AIが望ましくない結果や誤った情報を生成する可能性があります。",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "119768"
+            ],
+            "resource": {
+                "type": "image",
+                "image": {
+                    "src": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_1024x1024.jpg",
+                    "showInIndex": false,
+                    "format": "jpg",
+                    "width": "640",
+                    "height": "640",
+                    "alt": "",
+                    "caption": "",
+                    "license": "",
+                    "copyright": "",
+                    "src1x": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64.jpg",
+                    "src2x": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64@2x.jpg"
+                }
+            }
+        }
+    },
+    {
+        "bitmark": "[.image-render-svg]\n[@id:119768]\n[&image:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_1024x1024.jpg][@src1x:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64.jpg][@src2x:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64@2x.jpg][@width:640][@height:640]\nプロンプトとは\nプロンプト（Prompt）とは、AIとの対話やコマンドラインインタフェース（CLI）などの対話形式のシステムにおいて、ユーザが入力する指示や質問のことです。AIがユーザの要求や問いに対して適切な応答や結果を生成するためには、明確で具体的なプロンプトが必要です。不適切なプロンプトを使用すると、AIが望ましくない結果や誤った情報を生成する可能性があります。",
+        "bit": {
+            "type": "image-render-svg",
+            "format": "bitmark--",
+            "body": "プロンプトとは\nプロンプト（Prompt）とは、AIとの対話やコマンドラインインタフェース（CLI）などの対話形式のシステムにおいて、ユーザが入力する指示や質問のことです。AIがユーザの要求や問いに対して適切な応答や結果を生成するためには、明確で具体的なプロンプトが必要です。不適切なプロンプトを使用すると、AIが望ましくない結果や誤った情報を生成する可能性があります。",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "119768"
+            ],
+            "resource": {
+                "type": "image",
+                "image": {
+                    "src": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_1024x1024.jpg",
+                    "showInIndex": false,
+                    "format": "jpg",
+                    "width": "640",
+                    "height": "640",
+                    "alt": "",
+                    "caption": "",
+                    "license": "",
+                    "copyright": "",
+                    "src1x": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64.jpg",
+                    "src2x": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64@2x.jpg"
+                }
+            }
+        }
+    },
+    {
+        "bitmark": "[.app-code-editor]\n[@id:119768]\n[&image:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_1024x1024.jpg][@src1x:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64.jpg][@src2x:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64@2x.jpg][@width:640][@height:640]\nプロンプトとは\nプロンプト（Prompt）とは、AIとの対話やコマンドラインインタフェース（CLI）などの対話形式のシステムにおいて、ユーザが入力する指示や質問のことです。AIがユーザの要求や問いに対して適切な応答や結果を生成するためには、明確で具体的なプロンプトが必要です。不適切なプロンプトを使用すると、AIが望ましくない結果や誤った情報を生成する可能性があります。",
+        "bit": {
+            "type": "app-code-editor",
+            "format": "bitmark--",
+            "body": "プロンプトとは\nプロンプト（Prompt）とは、AIとの対話やコマンドラインインタフェース（CLI）などの対話形式のシステムにおいて、ユーザが入力する指示や質問のことです。AIがユーザの要求や問いに対して適切な応答や結果を生成するためには、明確で具体的なプロンプトが必要です。不適切なプロンプトを使用すると、AIが望ましくない結果や誤った情報を生成する可能性があります。",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "119768"
+            ],
+            "resource": {
+                "type": "image",
+                "image": {
+                    "width": "640",
+                    "height": "640",
+                    "src": "",
+                    "src1x": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64.jpg",
+                    "src2x": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64@2x.jpg"
+                }
+            }
+        },
+        "parser": {
+            "excessResources": [
+                {
+                    "type": "image",
+                    "format": "jpg",
+                    "src": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_1024x1024.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "bitmark": "[.app-code-ide]\n[@id:119768]\n[&image:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_1024x1024.jpg][@src1x:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64.jpg][@src2x:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64@2x.jpg][@width:640][@height:640]\nプロンプトとは\nプロンプト（Prompt）とは、AIとの対話やコマンドラインインタフェース（CLI）などの対話形式のシステムにおいて、ユーザが入力する指示や質問のことです。AIがユーザの要求や問いに対して適切な応答や結果を生成するためには、明確で具体的なプロンプトが必要です。不適切なプロンプトを使用すると、AIが望ましくない結果や誤った情報を生成する可能性があります。",
+        "bit": {
+            "type": "app-code-ide",
+            "format": "bitmark--",
+            "body": "プロンプトとは\nプロンプト（Prompt）とは、AIとの対話やコマンドラインインタフェース（CLI）などの対話形式のシステムにおいて、ユーザが入力する指示や質問のことです。AIがユーザの要求や問いに対して適切な応答や結果を生成するためには、明確で具体的なプロンプトが必要です。不適切なプロンプトを使用すると、AIが望ましくない結果や誤った情報を生成する可能性があります。",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "119768"
+            ],
+            "resource": {
+                "type": "image",
+                "image": {
+                    "width": "640",
+                    "height": "640",
+                    "src": "",
+                    "src1x": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64.jpg",
+                    "src2x": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64@2x.jpg"
+                }
+            }
+        },
+        "parser": {
+            "excessResources": [
+                {
+                    "type": "image",
+                    "format": "jpg",
+                    "src": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_1024x1024.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "bitmark": "[.code-runtime]\n[@id:119768]\n[&image:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_1024x1024.jpg][@src1x:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64.jpg][@src2x:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64@2x.jpg][@width:640][@height:640]\nプロンプトとは\nプロンプト（Prompt）とは、AIとの対話やコマンドラインインタフェース（CLI）などの対話形式のシステムにおいて、ユーザが入力する指示や質問のことです。AIがユーザの要求や問いに対して適切な応答や結果を生成するためには、明確で具体的なプロンプトが必要です。不適切なプロンプトを使用すると、AIが望ましくない結果や誤った情報を生成する可能性があります。",
+        "bit": {
+            "type": "code-runtime",
+            "format": "bitmark--",
+            "body": "プロンプトとは\nプロンプト（Prompt）とは、AIとの対話やコマンドラインインタフェース（CLI）などの対話形式のシステムにおいて、ユーザが入力する指示や質問のことです。AIがユーザの要求や問いに対して適切な応答や結果を生成するためには、明確で具体的なプロンプトが必要です。不適切なプロンプトを使用すると、AIが望ましくない結果や誤った情報を生成する可能性があります。",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "119768"
+            ],
+            "resource": {
+                "type": "image",
+                "image": {
+                    "width": "640",
+                    "height": "640",
+                    "src": "",
+                    "src1x": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64.jpg",
+                    "src2x": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64@2x.jpg"
+                }
+            }
+        },
+        "parser": {
+            "excessResources": [
+                {
+                    "type": "image",
+                    "format": "jpg",
+                    "src": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_1024x1024.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "bitmark": "[.output]\n[@id:119768]\n[&image:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_1024x1024.jpg][@src1x:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64.jpg][@src2x:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64@2x.jpg][@width:640][@height:640]\nプロンプトとは\nプロンプト（Prompt）とは、AIとの対話やコマンドラインインタフェース（CLI）などの対話形式のシステムにおいて、ユーザが入力する指示や質問のことです。AIがユーザの要求や問いに対して適切な応答や結果を生成するためには、明確で具体的なプロンプトが必要です。不適切なプロンプトを使用すると、AIが望ましくない結果や誤った情報を生成する可能性があります。",
+        "bit": {
+            "type": "output",
+            "format": "bitmark--",
+            "body": "プロンプトとは\nプロンプト（Prompt）とは、AIとの対話やコマンドラインインタフェース（CLI）などの対話形式のシステムにおいて、ユーザが入力する指示や質問のことです。AIがユーザの要求や問いに対して適切な応答や結果を生成するためには、明確で具体的なプロンプトが必要です。不適切なプロンプトを使用すると、AIが望ましくない結果や誤った情報を生成する可能性があります。",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "119768"
+            ],
+            "resource": {
+                "type": "image",
+                "image": {
+                    "width": "640",
+                    "height": "640",
+                    "src": "",
+                    "src1x": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64.jpg",
+                    "src2x": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64@2x.jpg"
+                }
+            }
+        },
+        "parser": {
+            "excessResources": [
+                {
+                    "type": "image",
+                    "format": "jpg",
+                    "src": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_1024x1024.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "bitmark": "[.console-log]\n[@id:119768]\n[&image:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_1024x1024.jpg][@src1x:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64.jpg][@src2x:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64@2x.jpg][@width:640][@height:640]\nプロンプトとは\nプロンプト（Prompt）とは、AIとの対話やコマンドラインインタフェース（CLI）などの対話形式のシステムにおいて、ユーザが入力する指示や質問のことです。AIがユーザの要求や問いに対して適切な応答や結果を生成するためには、明確で具体的なプロンプトが必要です。不適切なプロンプトを使用すると、AIが望ましくない結果や誤った情報を生成する可能性があります。",
+        "bit": {
+            "type": "console-log",
+            "format": "bitmark--",
+            "body": "プロンプトとは\nプロンプト（Prompt）とは、AIとの対話やコマンドラインインタフェース（CLI）などの対話形式のシステムにおいて、ユーザが入力する指示や質問のことです。AIがユーザの要求や問いに対して適切な応答や結果を生成するためには、明確で具体的なプロンプトが必要です。不適切なプロンプトを使用すると、AIが望ましくない結果や誤った情報を生成する可能性があります。",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "119768"
+            ],
+            "resource": {
+                "type": "image",
+                "image": {
+                    "width": "640",
+                    "height": "640",
+                    "src": "",
+                    "src1x": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64.jpg",
+                    "src2x": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64@2x.jpg"
+                }
+            }
+        },
+        "parser": {
+            "excessResources": [
+                {
+                    "type": "image",
+                    "format": "jpg",
+                    "src": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_1024x1024.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "bitmark": "[.vendor-jupyter-cell-code]\n[@id:119768]\n[&image:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_1024x1024.jpg][@src1x:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64.jpg][@src2x:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64@2x.jpg][@width:640][@height:640]\nプロンプトとは\nプロンプト（Prompt）とは、AIとの対話やコマンドラインインタフェース（CLI）などの対話形式のシステムにおいて、ユーザが入力する指示や質問のことです。AIがユーザの要求や問いに対して適切な応答や結果を生成するためには、明確で具体的なプロンプトが必要です。不適切なプロンプトを使用すると、AIが望ましくない結果や誤った情報を生成する可能性があります。",
+        "bit": {
+            "type": "vendor-jupyter-cell-code",
+            "format": "bitmark--",
+            "body": "プロンプトとは\nプロンプト（Prompt）とは、AIとの対話やコマンドラインインタフェース（CLI）などの対話形式のシステムにおいて、ユーザが入力する指示や質問のことです。AIがユーザの要求や問いに対して適切な応答や結果を生成するためには、明確で具体的なプロンプトが必要です。不適切なプロンプトを使用すると、AIが望ましくない結果や誤った情報を生成する可能性があります。",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "119768"
+            ],
+            "resource": {
+                "type": "image",
+                "image": {
+                    "width": "640",
+                    "height": "640",
+                    "src": "",
+                    "src1x": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64.jpg",
+                    "src2x": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64@2x.jpg"
+                }
+            }
+        },
+        "parser": {
+            "excessResources": [
+                {
+                    "type": "image",
+                    "format": "jpg",
+                    "src": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_1024x1024.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "bitmark": "[.vendor-jupyter-cell-raw]\n[@id:119768]\n[&image:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_1024x1024.jpg][@src1x:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64.jpg][@src2x:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64@2x.jpg][@width:640][@height:640]\nプロンプトとは\nプロンプト（Prompt）とは、AIとの対話やコマンドラインインタフェース（CLI）などの対話形式のシステムにおいて、ユーザが入力する指示や質問のことです。AIがユーザの要求や問いに対して適切な応答や結果を生成するためには、明確で具体的なプロンプトが必要です。不適切なプロンプトを使用すると、AIが望ましくない結果や誤った情報を生成する可能性があります。",
+        "bit": {
+            "type": "vendor-jupyter-cell-raw",
+            "format": "bitmark--",
+            "body": "プロンプトとは\nプロンプト（Prompt）とは、AIとの対話やコマンドラインインタフェース（CLI）などの対話形式のシステムにおいて、ユーザが入力する指示や質問のことです。AIがユーザの要求や問いに対して適切な応答や結果を生成するためには、明確で具体的なプロンプトが必要です。不適切なプロンプトを使用すると、AIが望ましくない結果や誤った情報を生成する可能性があります。",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "119768"
+            ],
+            "resource": {
+                "type": "image",
+                "image": {
+                    "width": "640",
+                    "height": "640",
+                    "src": "",
+                    "src1x": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64.jpg",
+                    "src2x": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64@2x.jpg"
+                }
+            }
+        },
+        "parser": {
+            "excessResources": [
+                {
+                    "type": "image",
+                    "format": "jpg",
+                    "src": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_1024x1024.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "bitmark": "[.vendor-jupyter-output]\n[@id:119768]\n[&image:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_1024x1024.jpg][@src1x:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64.jpg][@src2x:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64@2x.jpg][@width:640][@height:640]\nプロンプトとは\nプロンプト（Prompt）とは、AIとの対話やコマンドラインインタフェース（CLI）などの対話形式のシステムにおいて、ユーザが入力する指示や質問のことです。AIがユーザの要求や問いに対して適切な応答や結果を生成するためには、明確で具体的なプロンプトが必要です。不適切なプロンプトを使用すると、AIが望ましくない結果や誤った情報を生成する可能性があります。",
+        "bit": {
+            "type": "vendor-jupyter-output",
+            "format": "bitmark--",
+            "body": "プロンプトとは\nプロンプト（Prompt）とは、AIとの対話やコマンドラインインタフェース（CLI）などの対話形式のシステムにおいて、ユーザが入力する指示や質問のことです。AIがユーザの要求や問いに対して適切な応答や結果を生成するためには、明確で具体的なプロンプトが必要です。不適切なプロンプトを使用すると、AIが望ましくない結果や誤った情報を生成する可能性があります。",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "119768"
+            ],
+            "resource": {
+                "type": "image",
+                "image": {
+                    "width": "640",
+                    "height": "640",
+                    "src": "",
+                    "src1x": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64.jpg",
+                    "src2x": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64@2x.jpg"
+                }
+            }
+        },
+        "parser": {
+            "excessResources": [
+                {
+                    "type": "image",
+                    "format": "jpg",
+                    "src": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_1024x1024.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "bitmark": "[.vendor-jupyter-cell-markdown]\n[@id:119768]\n[&image:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_1024x1024.jpg][@src1x:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64.jpg][@src2x:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64@2x.jpg][@width:640][@height:640]\nプロンプトとは\nプロンプト（Prompt）とは、AIとの対話やコマンドラインインタフェース（CLI）などの対話形式のシステムにおいて、ユーザが入力する指示や質問のことです。AIがユーザの要求や問いに対して適切な応答や結果を生成するためには、明確で具体的なプロンプトが必要です。不適切なプロンプトを使用すると、AIが望ましくない結果や誤った情報を生成する可能性があります。",
+        "bit": {
+            "type": "vendor-jupyter-cell-markdown",
+            "format": "bitmark--",
+            "body": "プロンプトとは\nプロンプト（Prompt）とは、AIとの対話やコマンドラインインタフェース（CLI）などの対話形式のシステムにおいて、ユーザが入力する指示や質問のことです。AIがユーザの要求や問いに対して適切な応答や結果を生成するためには、明確で具体的なプロンプトが必要です。不適切なプロンプトを使用すると、AIが望ましくない結果や誤った情報を生成する可能性があります。",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "119768"
+            ],
+            "resource": {
+                "type": "image",
+                "image": {
+                    "width": "640",
+                    "height": "640",
+                    "src": "",
+                    "src1x": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64.jpg",
+                    "src2x": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64@2x.jpg"
+                }
+            }
+        },
+        "parser": {
+            "excessResources": [
+                {
+                    "type": "image",
+                    "format": "jpg",
+                    "src": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_1024x1024.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "bitmark": "[.vendor-jupyter-ipynb]\n[@id:119768]\n[&image:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_1024x1024.jpg][@src1x:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64.jpg][@src2x:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64@2x.jpg][@width:640][@height:640]\nプロンプトとは\nプロンプト（Prompt）とは、AIとの対話やコマンドラインインタフェース（CLI）などの対話形式のシステムにおいて、ユーザが入力する指示や質問のことです。AIがユーザの要求や問いに対して適切な応答や結果を生成するためには、明確で具体的なプロンプトが必要です。不適切なプロンプトを使用すると、AIが望ましくない結果や誤った情報を生成する可能性があります。",
+        "bit": {
+            "type": "vendor-jupyter-ipynb",
+            "format": "bitmark--",
+            "body": "プロンプトとは\nプロンプト（Prompt）とは、AIとの対話やコマンドラインインタフェース（CLI）などの対話形式のシステムにおいて、ユーザが入力する指示や質問のことです。AIがユーザの要求や問いに対して適切な応答や結果を生成するためには、明確で具体的なプロンプトが必要です。不適切なプロンプトを使用すると、AIが望ましくない結果や誤った情報を生成する可能性があります。",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "119768"
+            ],
+            "resource": {
+                "type": "image",
+                "image": {
+                    "width": "640",
+                    "height": "640",
+                    "src": "",
+                    "src1x": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64.jpg",
+                    "src2x": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64@2x.jpg"
+                }
+            }
+        },
+        "parser": {
+            "excessResources": [
+                {
+                    "type": "image",
+                    "format": "jpg",
+                    "src": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_1024x1024.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "bitmark": "[.app-code-cell]\n[@id:119768]\n[&image:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_1024x1024.jpg][@src1x:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64.jpg][@src2x:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64@2x.jpg][@width:640][@height:640]\nプロンプトとは\nプロンプト（Prompt）とは、AIとの対話やコマンドラインインタフェース（CLI）などの対話形式のシステムにおいて、ユーザが入力する指示や質問のことです。AIがユーザの要求や問いに対して適切な応答や結果を生成するためには、明確で具体的なプロンプトが必要です。不適切なプロンプトを使用すると、AIが望ましくない結果や誤った情報を生成する可能性があります。",
+        "bit": {
+            "type": "app-code-cell",
+            "format": "bitmark--",
+            "body": "プロンプトとは\nプロンプト（Prompt）とは、AIとの対話やコマンドラインインタフェース（CLI）などの対話形式のシステムにおいて、ユーザが入力する指示や質問のことです。AIがユーザの要求や問いに対して適切な応答や結果を生成するためには、明確で具体的なプロンプトが必要です。不適切なプロンプトを使用すると、AIが望ましくない結果や誤った情報を生成する可能性があります。",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "119768"
+            ],
+            "resource": {
+                "type": "image",
+                "image": {
+                    "width": "640",
+                    "height": "640",
+                    "src": "",
+                    "src1x": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64.jpg",
+                    "src2x": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64@2x.jpg"
+                }
+            }
+        },
+        "parser": {
+            "excessResources": [
+                {
+                    "type": "image",
+                    "format": "jpg",
+                    "src": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_1024x1024.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "bitmark": "[.stdout]\n[@id:119768]\n[&image:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_1024x1024.jpg][@src1x:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64.jpg][@src2x:https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64@2x.jpg][@width:640][@height:640]\nプロンプトとは\nプロンプト（Prompt）とは、AIとの対話やコマンドラインインタフェース（CLI）などの対話形式のシステムにおいて、ユーザが入力する指示や質問のことです。AIがユーザの要求や問いに対して適切な応答や結果を生成するためには、明確で具体的なプロンプトが必要です。不適切なプロンプトを使用すると、AIが望ましくない結果や誤った情報を生成する可能性があります。",
+        "bit": {
+            "type": "stdout",
+            "format": "bitmark--",
+            "body": "プロンプトとは\nプロンプト（Prompt）とは、AIとの対話やコマンドラインインタフェース（CLI）などの対話形式のシステムにおいて、ユーザが入力する指示や質問のことです。AIがユーザの要求や問いに対して適切な応答や結果を生成するためには、明確で具体的なプロンプトが必要です。不適切なプロンプトを使用すると、AIが望ましくない結果や誤った情報を生成する可能性があります。",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "119768"
+            ],
+            "resource": {
+                "type": "image",
+                "image": {
+                    "width": "640",
+                    "height": "640",
+                    "src": "",
+                    "src1x": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64.jpg",
+                    "src2x": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_64x64@2x.jpg"
+                }
+            }
+        },
+        "parser": {
+            "excessResources": [
+                {
+                    "type": "image",
+                    "format": "jpg",
+                    "src": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_1024x1024.jpg"
+                }
+            ]
+        }
+    }
+]
 <<<<
-
-  

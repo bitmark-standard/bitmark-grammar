@@ -222,6 +222,38 @@ BitFigure:					NL OPDOT S* 'figure' ;
 BitVideoLinkLandscape:  	NL OPDOT S* 'video-link-landscape' ;
 BitVideoLinkPortrait:   	NL OPDOT S* 'video-link-portrait' ;
 
+BitImageMood:				NL OPDOT S* 'image-mood' ;
+BitImageFigure:				NL OPDOT S* 'image-figure' ;
+BitImageBanner:				NL OPDOT S* 'image-banner' ;
+BitImageStyled:				NL OPDOT S* 'image-styled' ;
+BitImageScreenshot:			NL OPDOT S* 'image-screenshot' ;
+BitAppGetScreenshot:		NL OPDOT S* 'app-get-screenshot' ;
+BitAppCreateBitsFromImage:	NL OPDOT S* 'app-create-bits-from-image' ;
+BitLifeSkillSticker:		NL OPDOT S* 'life-skill-sticker' ;
+BitDetailsImage:			NL OPDOT S* 'details-image' ;
+BitImagesLogoGrave:			NL OPDOT S* 'images-logo-grave' ;
+BitPageBanner:				NL OPDOT S* 'page-banner' ;
+BitPageBuyButton:			NL OPDOT S* 'page-buy-button' ;
+
+BitVendorJsfiddle:		   NL OPDOT S* 'vendor-jsfiddle' ;
+BitVendorJsfiddleEmbed:	   NL OPDOT S* 'vendor-jsfiddle-embed' ;
+BitImageRenderSvg:		   NL OPDOT S* 'image-render-svg' ;
+BitAppCodeEditor:		   NL OPDOT S* 'app-code-editor' ;
+BitAppCodeIde:  		   NL OPDOT S* 'app-code-ide' ;
+BitCodeRuntime:  		   NL OPDOT S* 'code-runtime' ;
+BitOutput:  			   NL OPDOT S* 'output' ;
+BitConsoleLog:  		   NL OPDOT S* 'console-log' ;
+BitVenderJupyterCellCode:  NL OPDOT S* 'vendor-jupyter-cell-code' ;
+BitVenderJupyterCellRaw:   NL OPDOT S* 'vendor-jupyter-cell-raw' ;
+BitVenderJupyterOutput:    NL OPDOT S* 'vendor-jupyter-output' ;
+BitVenderJupyterCellMarkdown:   NL OPDOT S* 'vendor-jupyter-cell-markdown' ;
+BitVenderJupyterIpynb:     NL OPDOT S* 'vendor-jupyter-ipynb' ;
+BitAppCodeCell:  		   NL OPDOT S* 'app-code-cell' ;
+BitStdout:  			   NL OPDOT S* 'stdout' ;
+BitAppBitmarkFromJavascript:   NL OPDOT S* 'app-bitmark-from-javascript' ;
+BitAppBitmarkFromEditor:   NL OPDOT S* 'app-bitmark-from-editor' ;
+
+
 //
 OPDOLL:		'[' S* '$' ;      // Dollar
 OPBUL:          '[' S* '•' ;      // Bullet

@@ -14,7 +14,7 @@ const Diff = require('diff');
 
 //Error.stackTraceLimit = 5;
 const testfiles = [
-  
+
   './tests/book1.bit',
   './tests/book2.bit',
   './tests/book3.bit',
@@ -28,12 +28,12 @@ const testfiles = [
   //'./tests/botinterview1.bit',  not used
   //'./tests/botinterview2.bit',  not used
   './tests/chat1.bit',
-  './tests/chat2.bit',  
-  './tests/chat3.bit',  
-  './tests/conversation1.bit',  
-  './tests/conversation2.bit',  
-  './tests/conversation3.bit',  
-  './tests/cloze.bit', 
+  './tests/chat2.bit',
+  './tests/chat3.bit',
+  './tests/conversation1.bit',
+  './tests/conversation2.bit',
+  './tests/conversation3.bit',
+  './tests/cloze.bit',
   './tests/cloze2.bit',
   './tests/cloze3.bit',
   './tests/cloze4.bit', // Had .chapter
@@ -42,7 +42,7 @@ const testfiles = [
   './tests/cloze11.bit',
   './tests/cloze12.bit',
   './tests/cloze13.bit',
-  
+
   './tests/cloze-emoji.bit',
   './tests/cloze-emoji2.bit',
   './tests/clozeig.bit',  // Ok
@@ -52,7 +52,7 @@ const testfiles = [
   './tests/corr1.bit',
   './tests/corr2.bit',
   './tests/corr3.bit',
-  './tests/essay1.bit', 
+  './tests/essay1.bit',
   './tests/essay2.bit',
   './tests/essay3.bit',
   './tests/essay4.bit',
@@ -60,13 +60,13 @@ const testfiles = [
   './tests/essay6.bit',
   './tests/essay7.bit',
   './tests/essay8.bit',
-  './tests/essay9.bit',  
+  './tests/essay9.bit',
   './tests/flashcard1.bit',
   './tests/flashcard2.bit',
   './tests/flashcard3.bit',
   './tests/flashcard4.bit',
   './tests/flashcard-set.bit',
-  
+
   './tests/interview1.bit',
   './tests/interview2.bit',
   './tests/interview3.bit',
@@ -74,49 +74,49 @@ const testfiles = [
   './tests/interview5.bit',
   './tests/interview6.bit',
   './tests/interview7.bit',
-  './tests/interview8.bit',  
+  './tests/interview8.bit',
 
-  './tests/interview100.bit',  
-  //'./tests/interview101.bit',  
-  './tests/interview102.bit',  
-  './tests/interview103.bit',  
-  './tests/interview104.bit',  
-  './tests/interview105.bit',  
-  //'./tests/interview106.bit',  
-  './tests/interview107.bit',  
-  //'./tests/interview108.bit',  
+  './tests/interview100.bit',
+  //'./tests/interview101.bit',
+  './tests/interview102.bit',
+  './tests/interview103.bit',
+  './tests/interview104.bit',
+  './tests/interview105.bit',
+  //'./tests/interview106.bit',
+  './tests/interview107.bit',
+  //'./tests/interview108.bit',
   './tests/interview109.bit',
   './tests/interview110.bit',
   './tests/interview-image1.bit',
-  
+
   './tests/mark1.bit',
   //'./tests/mark2.bit',  // complex
-  './tests/match1.bit', 
-  //'./tests/match2.bit', 
+  './tests/match1.bit',
+  //'./tests/match2.bit',
   './tests/match3.bit',
   './tests/match4.bit',
   //'./tests/match5.bit',
-  './tests/matchsg1.bit',  
-  
+  './tests/matchsg1.bit',
+
   './tests/match-pict1.bit',  // 6/7
   './tests/match-pict2.bit',  // 6/7
   './tests/match-audio1.bit',  // 6/7
-  './tests/match-article1.bit',  // 6/7  
+  './tests/match-article1.bit',  // 6/7
   './tests/match-matrix1.bit',
   './tests/match-matrix3.bit',
-  
+
   './tests/multich-1.bit',
   './tests/multich-1-2.bit',  // has hints
   './tests/multires-1.bit',
   './tests/multires-1-2.bit',  // has hints
-  
+
   './tests/multich1.bit',
-  './tests/multich2.bit', 
+  './tests/multich2.bit',
   './tests/multichtx1.bit',
   './tests/multichtx2.bit',
   './tests/multichtx3.bit',
   './tests/multichtx4.bit',
-  
+
   './tests/multires1.bit',
   './tests/multires2.bit',
   './tests/multitxt1.bit',
@@ -126,7 +126,7 @@ const testfiles = [
 
   './tests/prepnote1.bit',
   './tests/rec1.bit',
-  './tests/seq1.bit', 
+  './tests/seq1.bit',
   './tests/seq2.bit',
   './tests/menu1.bit',
   './tests/takepic1.bit',
@@ -143,7 +143,7 @@ const testfiles = [
   './tests/survey-anon1.bit',
   './tests/highlighttext1.bit',  // 4/5/2021
   './tests/highlighttext2.bit',  // 4/5/2021
-  
+
   './tests/bit-alias1.bit',
   './tests/bit-alias2.bit',
   //'./tests/blocktags.bit', // ok
@@ -169,18 +169,18 @@ const testfiles = [
   './tests/bot-action-response3.bit',
 
   './tests/resource-all.bit',
-  './tests/document.bit',  
+  './tests/document.bit',
   './tests/utfgpun.bit',
-  './tests/vendor-amchart.bit',  
+  './tests/vendor-amchart.bit',
   './tests/url-regex.bit',
   './tests/release-notes-summary.bit',
-  
+
   // GMB
   './tests/GMB/cloze.bit',
   './tests/GMB/cloze_attachment.bit',
   './tests/GMB/cloze_bitmark--.bit',
   './tests/GMB/cloze_emoticons.bit',
-  './tests/GMB/essay.bit', 
+  './tests/GMB/essay.bit',
   './tests/GMB/bitmark_example.bit',
 
   './tests/placeholder.bit',
@@ -190,17 +190,20 @@ const testfiles = [
   './tests/bitmark-example.bit',
   './tests/app-ai-prompt.bit',
   './tests/booklink.bit',
+  './tests/jsfiddle.bit',
+  './tests/images-logo-grave.bit',
+  './tests/new09242023.bit',
 ];
 
 const testfilesX = [
-  './tests/vendor-amchart.bit',
+  './tests/jsfiddle.bit'
 ];
 
 const problematic = [
-    './tests/interview101.bit',  
-    './tests/interview106.bit',  
-    './tests/interview107.bit',  
-    './tests/interview108.bit',  
+    './tests/interview101.bit',
+    './tests/interview106.bit',
+    './tests/interview107.bit',
+    './tests/interview108.bit',
     './tests/match5.bit',
     './tests/match-matrix1.bit',
     './tests/match-matrix3.bit',
@@ -216,7 +219,7 @@ let load_expected = function() {
 };
 
 let get_expected = function(filepath) {
-  const re = new RegExp('<<<<'+filepath+'(\\s+[^<<<<]*\\s+)<<<<', 'm');  
+  const re = new RegExp('<<<<'+filepath+'(\\s+[^<<<<]*\\s+)<<<<', 'm');
 
   let m = expected_content.match(re);
   if (m) {
@@ -246,16 +249,16 @@ let __run__ = function(filepath, trace, debug, bit) {
   let bitmark = new parser.BitmarkParser(text, options, bit);
   let t_start;
   let t_end;
-  
+
   try {
     t_start = now();
     let json = bitmark.parse();
     t_end = now();
-    
+
     if (!json)
       console.log('No json for '+filepath);
 
-    
+
     if (json) {
       //console.log(json);
       if (check_diff) {
@@ -272,7 +275,7 @@ let __run__ = function(filepath, trace, debug, bit) {
 	      const color = part.added ? 'green' :
 		    part.removed ? 'red' : 'grey';
 	      process.stderr.write(part.value[color]);
-	    });	    
+	    });
 	  }
 	}
       }
@@ -286,7 +289,7 @@ let __run__ = function(filepath, trace, debug, bit) {
 
 let __main__ = function(trace, debug) {
   let t_ttl = 0.0;
-  
+
   let runtest = (filepath) => {
     try {
       let t = __run__(filepath, trace, debug, null);
@@ -312,4 +315,4 @@ for (let arg in myArgs) {
   if (myArgs[arg]==='--diff')
     check_diff = true;
 }
-__main__(trace, debug)    
+__main__(trace, debug)
