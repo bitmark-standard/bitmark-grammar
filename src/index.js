@@ -1,6 +1,6 @@
 /*
  * index.js
- * 
+ *
  */
 const process = require('process');
 const R = require('ramda');
@@ -88,6 +88,10 @@ class Preprocessor {
     }
     return false;
   }
+  is_a_js_bit(text) {
+	let m = text.match(/\.app-bitmark-from-javascript/);
+	return m != null;
+  }
 
   has_a_url(text) {
     let re = /\[(&audio|&image|&video|&article|&document|&app|&website|&still-image|@src[0-9]x)[A-Za-z\-]*:(http|https|file):\/\/.*?\](?=\n|\[@)/g;  // look for one
@@ -99,7 +103,7 @@ class Preprocessor {
     let re = /\[((&audio|&image|&video|&article|&document|&app|&website|&still-image|@src[0-9]x)[A-Za-z\-]*:(http|https|file):\/\/.*?)\](?=\n|\[@)/g;  // look for all
     let text_repl = text;
     let m;
-    
+
     while ((m = re.exec(text_repl)) !== null) {
       let mr = m[1].replace(/\[/g, '&#91;');
       mr = mr.replace(/\]/g, '&#93;');
@@ -125,7 +129,7 @@ class Preprocessor {
     return text_repl;
   }
 
-  /* 
+  /*
      Escare [] in json data. It confuses with Bitmark bits
      Uses HTML escape strings
     [ = &#91;
@@ -157,7 +161,8 @@ class Preprocessor {
   replace_stray_bitheads(text) {
     let seq = 0;
     let ignore = 5;
-    const regex = /(\[\.[^\]\[]+\])/;  // for the first bit if any
+    //const regex = /(\[\.[^\]\[]+\])/;  // for the first bit if any
+	const regex = /(\[\.[^\]\[]+)/;  // no need closing ] 10/6/2023
     const MAXSEQ = 20;  // cant have too many
     let x_array = [];
 
@@ -509,7 +514,7 @@ class BitmarkParser {
         let unknown = null;
 
         if (obj.length < 1) {
-          // Most probably wrong bit name 
+          // Most probably wrong bit name
           let bitre = /\s*\[(.*)\]/;
           let m = bit.bit.match(bitre);
           unknown = m[1];

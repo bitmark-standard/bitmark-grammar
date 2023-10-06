@@ -7,6 +7,7 @@ import { BitmarkContext } from "./bitmarkParser";
 import { Bitmark_Context } from "./bitmarkParser";
 import { BitContext } from "./bitmarkParser";
 import { BookContext } from "./bitmarkParser";
+import { Book_aliasContext } from "./bitmarkParser";
 import { ChapterContext } from "./bitmarkParser";
 import { Ai_promptContext } from "./bitmarkParser";
 import { Note_aiContext } from "./bitmarkParser";
@@ -364,6 +365,17 @@ export interface bitmarkParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitBook?: (ctx: BookContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `bitmarkParser.book_alias`.
+	 * @param ctx the parse tree
+	 */
+	enterBook_alias?: (ctx: Book_aliasContext) => void;
+	/**
+	 * Exit a parse tree produced by `bitmarkParser.book_alias`.
+	 * @param ctx the parse tree
+	 */
+	exitBook_alias?: (ctx: Book_aliasContext) => void;
 
 	/**
 	 * Enter a parse tree produced by `bitmarkParser.chapter`.

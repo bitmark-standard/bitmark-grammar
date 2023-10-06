@@ -6,8 +6,8 @@ endof bit -> default mode
 */
 lexer grammar bitmarkLexer;
 
-OPDOT:	        '[.' ;
-S:		          [ \t] ;
+OPDOT:				 '[.' ;
+S:		          	 [ \t] ;
 
 BitBook:              NL OPDOT S* 'book'    ;
 BitChapter:           NL OPDOT S* 'chapter'    ;
@@ -23,8 +23,8 @@ BitStatement:	      NL OPDOT S* 'statement'    ;
 BitDetails:	          NL OPDOT S* 'details-1'    ;
 BitSampleSolution:    NL OPDOT S* 'sample-solution'    ;
 BitTakeAudio:	      NL OPDOT S* 'take-audio'    ;
-CLOZE:		 'CLOZE' ;
-MATCH:		 'MATCH' ;
+CLOZE:		 		  'CLOZE' ;
+MATCH:		 		  'MATCH' ;
 
 BitArticle:	          NL OPDOT S* 'article'  ;
 BitPage:	          NL OPDOT S* 'page'    ;
@@ -252,44 +252,44 @@ BitAppCodeCell:  		   NL OPDOT S* 'app-code-cell' ;
 BitStdout:  			   NL OPDOT S* 'stdout' ;
 BitAppBitmarkFromJavascript:   NL OPDOT S* 'app-bitmark-from-javascript' ;
 BitAppBitmarkFromEditor:   NL OPDOT S* 'app-bitmark-from-editor' ;
-
+BitBookAlias:			   NL OPDOT S* 'book-alias' ;
 
 //
-OPDOLL:		'[' S* '$' ;      // Dollar
+OPDOLL:			'[' S* '$' ;      // Dollar
 OPBUL:          '[' S* '•' ;      // Bullet
 OPRANGLES:      '[' '►' S* ;  // Right angle
 OPRANGLEL:      '[' '▶' S* ;  // Right angle
 OPDANGLE:       '[▼' S* ;  // Down angle - Anchor
-OPU:		'[_' S* ;  // Underscore
-OPB: 		'[!' S* ;  // Bang!
-OPQ: 		'[?' S* ;  // Question
-OPA: 		'[@' S* ;  // At
-OPP: 		'[+' S* ;  // Plus
-OPM: 		'[-' S* ;  // Minus
-OPS: 		'[\'' S* ; // [' Single quote
-OPR: 		'[*' S* ;  // [* Asterisk
+OPU:			'[_' S* ;  // Underscore
+OPB: 			'[!' S* ;  // Bang!
+OPQ: 			'[?' S* ;  // Question
+OPA: 			'[@' S* ;  // At
+OPP: 			'[+' S* ;  // Plus
+OPM: 			'[-' S* ;  // Minus
+OPS: 			'[\'' S* ; // [' Single quote
+OPR: 			'[*' S* ;  // [* Asterisk
 OPHASH:	        '[#' S* ;  // [# Hash
 OPC:	        '[%' S* ;  // [% Item
 
-CL: 		S* ']' ;
-COLON: 		':' ;
-AMP: 		'&' ;
-DBLCOLON: 	'::' ;
-PLUS: 		'+' ;
+CL: 			S* ']' ;
+COLON: 			':' ;
+AMP: 			'&' ;
+DBLCOLON: 		'::' ;
+PLUS: 			'+' ;
 DotAt:	        '.@' ;
-Greater: 	'>' ;
-Less: 		'<' ;
+Greater: 		'>' ;
+Less: 			'<' ;
 RightAngle: 	'►' ;
 RightArrow:     '→' ;
 
 
 // Separators
-DBLEQ:		'==' ;
+DBLEQ:			'==' ;
 
-HSPL:		  NL '===' S* NL  ; // hard split
-HSPL2:		'==='   S* NL  ;   // hard split
-SSPL:	  	NL '---' S* NL  ; // soft split
-SSPL2:	 	'---'   S* NL  ; // soft split
+HSPL:		  	NL '===' S* NL  ; // hard split
+HSPL2:			'==='   S* NL  ;   // hard split
+SSPL:	  		NL '---' S* NL  ; // soft split
+SSPL2:	 		'---'   S* NL  ; // soft split
 
 QUOTE_INDEX: '[' [0-9]+ ']' ;  // Only for this lexer!
 
@@ -358,15 +358,15 @@ fragment UTF8:    [̈\u0000-\u00FF\u200c\u200d\u27CC] ;
 OPAT:	 	  '[@' ;
 AtProgress:       OPAT S* 'progress:'  ;  //-> AtDef
 AtReference:      OPAT S* 'reference:'  ; //-> AtDef
-AtWidth:	  OPAT S* 'width' ;
-AtHeight:	  OPAT S* 'height' ;
+AtWidth:	      OPAT S* 'width' ;
+AtHeight:	      OPAT S* 'height' ;
 AtProgressPoints: OPAT S* 'progressPoints' ;
 AtShortanswer:	  OPAT S* 'shortAnswer]'  ;
 AtLonganswer:	  OPAT S* 'longAnswer]' ;
 
-AtExampleWithStr:OPAT S* 'example:' (SENTENCE|COLON|NL)* CL ;
-AtExamplecol:    OPAT S* 'example:'  ;
-AtExamplecl:     OPAT S* 'example]'  ;
+AtExampleWithStr: OPAT S* 'example:' (SENTENCE|COLON|NL)* CL ;
+AtExamplecol:     OPAT S* 'example:'  ;
+AtExamplecl:      OPAT S* 'example]'  ;
 AtSampleSolution: OPAT S* 'sampleSolution:' (SENTENCE|COLON|NL)* CL ;
 
 AtPartialAnswerS:OPAT S* 'partialAnswer:' SENTENCE CL ;
@@ -374,14 +374,14 @@ AtPartialAnswer: OPAT S* 'partialAnswer]' ;
 AtLabeltrue:     OPAT S* 'labelTrue:'  ;
 AtLabelfalse:    OPAT S* 'labelFalse:'  ;
 AtPoints:        OPAT S* 'points:'  ;
-AtSrc:		       OPAT S* 'src' [0-9]+'x' ;  // added Sep 17
+AtSrc:		     OPAT S* 'src' [0-9]+'x' ;  // added Sep 17
 AtPartner:	     OPAT S* 'partner:' ;
 
-OPATALT: 	       OPAT S* 'alt:' ;
-OPAMARK: 	       OPAT S* 'mark:' ;
+OPATALT: 	     OPAT S* 'alt:' ;
+OPAMARK: 	     OPAT S* 'mark:' ;
 ShowInIndex:     OPAT S* 'showInIndex]' ;
 OpAtCaption:     OPAT S* 'caption:' ;
-OpAtLicense:	   OPAT S* 'license:' ;
+OpAtLicense:	 OPAT S* 'license:' ;
 OpAtCopyright:	 OPAT S* 'copyright:' ;
 OpAtSearch:      OPAT S* 'search:' ;
 
@@ -389,17 +389,17 @@ OpAtSearch:      OPAT S* 'search:' ;
 OpAtIsTracked:	 OPAT S* 'isTracked:'  ;
 OpAtIsInfoOnly:	 OPAT S* 'isInfoOnly:' ;
 
-AtDate:		 OPAT S* 'date:' ;
+AtDate:		     OPAT S* 'date:' ;
 
 
 
 
-Http:	  	 'http://'  ;
-Https:   	 'https://'  ;
-AmpAudio:	       '&audio' ;
-AmpImage:	       '&image' ;
+Http:	  	     'http://'  ;
+Https:   	     'https://'  ;
+AmpAudio:	     '&audio' ;
+AmpImage:	     '&image' ;
 AmpImageZoom:    '&image-zoom' ;
-AmpVideo:	       '&video' ;
+AmpVideo:	     '&video' ;
 AmpArticle:      '&article' ;
 AmpDocument:     '&document' ;
 AmpApp:        	 '&app' ;
@@ -416,49 +416,49 @@ OpAmpArticleAtt: '[&' S* 'article-attachment' ;
 OpAmpDocument:   '[&' S* 'document' ;
 OpAmpApp:        '[&' S* 'app' ;
 OpAmpWebsite:    '[&' S* 'website' ;  // NEW added 12/2/2020 usage [.message&website]..
-OpAmpStillImageFilm: '[&' S* 'still-image-film' ; 
+OpAmpStillImageFilm: '[&' S* 'still-image-film' ;
 
 BracEnclose:     '[' ([A-Za-z]|ROMANIA)+ ;
 
 // Added links Aug 18 2021
-AmpAudioLink:	   '&audio-link' ; 
-AmpImageLink:	   '&image-link' ; 
-AmpVideoLink:	   '&video-link' ; 
-AmpArticleLink:  '&article-link' ; 
-AmpDocumentLink: '&document-link' ;
-AmpDocumentDownload: '&document-download' ; 
-AmpAppLink:	     '&app-link' ;  
-AmpWebsiteLink:  '&website-link' ; 
+AmpAudioLink:	   '&audio-link' ;
+AmpImageLink:	   '&image-link' ;
+AmpVideoLink:	   '&video-link' ;
+AmpArticleLink:    '&article-link' ;
+AmpDocumentLink:   '&document-link' ;
+AmpDocumentDownload: '&document-download' ;
+AmpAppLink:	       '&app-link' ;
+AmpWebsiteLink:    '&website-link' ;
 AmpStillImageFilmLink:'&still-image-film-link' ;
 
 
-OpAmpAudioLink:	 '[&' S* 'audio-link' ; 
-OpAmpImageLink:	 '[&' S* 'image-link' ; 
-OpAmpVideoLink:	 '[&' S* 'video-link' ; 
-OpAmpArticleLink:'[&' S* 'article-link' ; 
+OpAmpAudioLink:	 '[&' S* 'audio-link' ;
+OpAmpImageLink:	 '[&' S* 'image-link' ;
+OpAmpVideoLink:	 '[&' S* 'video-link' ;
+OpAmpArticleLink:'[&' S* 'article-link' ;
 OpAmpDocumentLink:'[&' S* 'document-link' ;
 OpAmpDocumentDownload:'[&' S* 'document-download' ;
-OpAmpAppLink:	 '[&' S* 'app-link' ; 
-OpAmpWebsiteLink:'[&' S* 'website-link' ;  
-OpAmpStillImageFilmLink:'[&' S* 'still-image-film-link' ;  
+OpAmpAppLink:	 '[&' S* 'app-link' ;
+OpAmpWebsiteLink:'[&' S* 'website-link' ;
+OpAmpStillImageFilmLink:'[&' S* 'still-image-film-link' ;
 
-AmpImageEmbed:	  '&image-embed' ; 
-AmpVideoEmbed:	  '&video-embed' ; 
-AmpAudioEmbed: 	  '&daudio-embed' ; 
+AmpImageEmbed:	  '&image-embed' ;
+AmpVideoEmbed:	  '&video-embed' ;
+AmpAudioEmbed: 	  '&daudio-embed' ;
 AmpDocumentEmbed: '&document-embed' ;
 AmpStillImageFilmEmbed:  '&still-image-film-embed' ;
 
-OpAmpImageEmbed:    '[&' S* 'image-embed' ; 
-OpAmpVideoEmbed:    '[&' S* 'video-embed' ; 
-OpAmpAudioEmbed:    '[&' S* 'audio-embed' ; 
-OpAmpDocumentEmbed: '[&' S* 'document-embed' ; 
+OpAmpImageEmbed:    '[&' S* 'image-embed' ;
+OpAmpVideoEmbed:    '[&' S* 'video-embed' ;
+OpAmpAudioEmbed:    '[&' S* 'audio-embed' ;
+OpAmpDocumentEmbed: '[&' S* 'document-embed' ;
 OpAmpStillImageFilmEmbed:  '[&' S* 'still-image-film-embed' ;
 
 
 BitmarkMinus: 	 ':bitmark--' ;
 BitmarkPlus:  	 ':bitmark++' ;
 ColonText:   	 ':text' ;
-ColonJson:	 ':json' ;
+ColonJson:	     ':json' ;
 Prosemirror:	 ':prosemirror' ;
 Placeholder:	 ':placeholder' ;
 
@@ -488,8 +488,6 @@ LIST_LINE:
   | S* '('? [A-Za-z]+ (')') S+ SENTENCE NL
 ;
 ENCLBARS:	'|' .*? '|' ;
-
-
 
 // ******************************************************************
 

@@ -28,7 +28,7 @@ bitmark_:
 ;
 
 bit:
-	  book | chapter
+	  book | book_alias | chapter
 	| ai_prompt | note_ai | summary_ai | article_ai
 	| summary | toc
 	| bit_alias
@@ -119,6 +119,7 @@ bit:
 
 //
 book:      BitBook format CL NL* ( bitElem NL* )* ;
+book_alias:BitBookAlias format CL NL* ( bitElem NL* )* ;
 chapter:   BitChapter format CL NL* ( anchor NL )?
 	         resource (NL* resource)* ;
 

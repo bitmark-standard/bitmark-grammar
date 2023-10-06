@@ -1,7 +1,7 @@
 /*
  *  test-all.js
  *
- *  last update: Dec 2, 2020
+ *  last update: Oct 3,2023
  */
 const R = require('ramda');
 require('colors');
@@ -193,10 +193,11 @@ const testfiles = [
   './tests/jsfiddle.bit',
   './tests/images-logo-grave.bit',
   './tests/new09242023.bit',
+  './tests/book-alias.bit',
 ];
 
 const testfilesX = [
-  './tests/jsfiddle.bit'
+  './tests/cloze12.bit',
 ];
 
 const problematic = [
@@ -214,14 +215,23 @@ const EXPECTED_JSON_FILEPATH = './tests/EXPECTED.JSON';
 let   expected_content = '';
 let   check_diff = false;
 
+let escapeRegExp = function(string) {
+    return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); // $& means the whole matched string
+};
+
 let load_expected = function() {
   expected_content = fs.readFileSync(EXPECTED_JSON_FILEPATH, {encoding: 'utf8', fla:'r'});
 };
 
 let get_expected = function(filepath) {
-  const re = new RegExp('<<<<'+filepath+'(\\s+[^<<<<]*\\s+)<<<<', 'm');
+  //const reg = escapeRegExp('<<<<'+filepath+'(\\s+[^<<<<]*\\s+)<<<<');
+  const reg = `<<<<${filepath}\\n([\\n[\\s\\S]*?\\n]\\n*)<<<<`
+  const re = new RegExp(reg, 'm');
 
   let m = expected_content.match(re);
+  //console.log(reg);
+  //console.log(m[1]);
+  debugger
   if (m) {
     return m[1];
   }
@@ -257,7 +267,6 @@ let __run__ = function(filepath, trace, debug, bit) {
 
     if (!json)
       console.log('No json for '+filepath);
-
 
     if (json) {
       //console.log(json);
