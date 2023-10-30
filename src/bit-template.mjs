@@ -473,8 +473,12 @@ var JSON_BIT_TEMPLATES = {
         alt: '',
         caption: '',
         license: '',
-        copyright: ''
+        copyright: '',
     },
+    Image_logos_element: {
+	    type: 'image',
+        image: {  /*Image_detail_element*/ },
+	},
     ImageLink: {
         provider: '',
         url: ''

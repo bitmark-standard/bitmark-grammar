@@ -119,7 +119,7 @@ bit:
 
 //
 book:      BitBook format CL NL* ( bitElem NL* )* ;
-book_alias:BitBookAlias format CL NL* ( bitElem NL* )* ;
+book_alias: BitBookAlias format CL NL* ( bitElem NL* )* ;
 chapter:   BitChapter format CL NL* ( anchor NL )?
 	         resource (NL* resource)* ;
 

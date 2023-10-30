@@ -1,6 +1,6 @@
 /*
  * index.js
- * 
+ *
  */
 import { process } from 'process';
 import R_clone from 'ramda/es/clone.js';
@@ -14,32 +14,32 @@ import { BailErrorStrategy } from './typescript-es6/antlr4es6/BailErrorStrategy.
 import { DefaultErrorStrategy } from './typescript-es6/antlr4es6/DefaultErrorStrategy.js';
 import { ParseTreeWalker } from './typescript-es6/antlr4es6/tree/ParseTreeWalker.js';
 //
-import { bitmarkLexer } from './typescript-es6/bitmarkLexer.js';
-import { bitmarkParser } from './typescript-es6/bitmarkParser.js';
+const bitmarkLexer = require('./antlr/bitmarkLexer.js');
+const bitmarkParser = require('./antlr/bitmarkParser.js');
 // close
-import { clozeLexer } from './typescript-es6/clozeLexer.js';
-import { clozeParser } from './typescript-es6/clozeParser.js';
+const clozeLexer = require('./antlr/clozeLexer.js');
+const clozeParser = require('./antlr/clozeParser.js');
 // match
-import { matchLexer } from './typescript-es6/matchLexer.js';
-import { matchParser } from './typescript-es6/matchParser.js';
+const matchLexer = require('./antlr/matchLexer.js');
+const matchParser = require('./antlr/matchParser.js');
 // multiple-choice-*
-import { choiceLexer } from './typescript-es6/choiceLexer.js';
-import { choiceParser } from './typescript-es6/choiceParser.js';
+const choiceLexer = require('./antlr/choiceLexer.js');
+const choiceParser = require('./antlr/choiceParser.js');
 
-import { interviewLexer } from './typescript-es6/interviewLexer.js';
-import { interviewParser } from './typescript-es6/interviewParser.js';
+const interviewLexer = require('./antlr/interviewLexer.js');
+const interviewParser = require('./antlr/interviewParser.js');
 
-import { truefalseLexer } from './typescript-es6/truefalseLexer.js';
-import { truefalseParser } from './typescript-es6/truefalseParser.js';
+const truefalseLexer = require('./antlr/truefalseLexer.js');
+const truefalseParser = require('./antlr/truefalseParser.js');
 
-import { flashcardLexer } from './typescript-es6/flashcardLexer.js';
-import { flashcardParser } from './typescript-es6/flashcardParser.js';
+const flashcardLexer = require('./antlr/flashcardLexer.js');
+const flashcardParser = require('./antlr/flashcardParser.js');
 
-import { chatLexer } from './typescript-es6/chatLexer.js';
-import { chatParser } from './typescript-es6/chatParser.js';
+const chatLexer = require('./antlr/chatLexer.js');
+const chatParser = require('./antlr/chatParser.js');
 
-import { sequenceLexer } from './typescript-es6/sequenceLexer.js';
-import { sequenceParser } from './typescript-es6/sequenceParser.js';
+const sequenceLexer = require('./antlr/sequenceLexer.js');
+const sequenceParser = require('./antlr/sequenceParser.js');
 
 import { BitmarkListener } from './bitmark-listener.mjs';
 import { JSON_BIT_TEMPLATES } from './bit-template.mjs';
@@ -51,7 +51,7 @@ const JSON_BITS = [".vendor-amcharts-5-chart"];
  */
 class Preprocessor {
 
-  constructor() {}
+  constructor() { }
 
   countlines(text) {
     const lines = (text.match(/\n/g) || '').length + 1;
@@ -65,9 +65,9 @@ class Preprocessor {
    */
   split_bits(text) {
     text = text.replace(/\] +$/mg, ']');
-    if (text.charAt(text.length-1) !== '\n')
+    if (text.charAt(text.length - 1) !== '\n')
       text += '\n';
-    let bb = new BitUtil(text);    
+    let bb = new BitUtil(text);
     let bits = bb.split_bits(); // array of {offset, bittext}
     return bits;
   }
@@ -82,18 +82,22 @@ class Preprocessor {
 
   // Checks if the bit expects JSON data
   is_a_json_bit(text) {
-    if (text!==undefined) {
+    if (text !== undefined) {
       let x = text.match(/\S*\[(\.[^\]\[]+)\]/);
       let s = x[1].replace(/\:.*$/, '');  // remove format spec.
-      return 0<=JSON_BITS.indexOf(s) ? true : false;
+      return 0 <= JSON_BITS.indexOf(s) ? true : false;
     }
     return false;
+  }
+  is_a_js_bit(text) {
+	let m = text.match(/\.app-bitmark-from-javascript/);
+	return m != null;
   }
 
   has_a_url(text) {
     let re = /\[(&audio|&image|&video|&article|&document|&app|&website|&still-image|@src[0-9]x)[A-Za-z\-]*:(http|https|file):\/\/.*?\](?=\n|\[@)/g;  // look for one
     let m = text.match(re);
-    return m && 0 < m.length? true : false;
+    return m && 0 < m.length ? true : false;
   }
 
   escape_bracket_in_url_if_any(text) {
@@ -103,20 +107,37 @@ class Preprocessor {
 
     while ((m = re.exec(text_repl)) !== null) {
       let mr = m[1].replace(/\[/g, '&#91;');
-          mr = mr.replace(/\]/g, '&#93;');
+      mr = mr.replace(/\]/g, '&#93;');
       text_repl = text_repl.replace(m[1], mr);
     }
     return text_repl;
   }
 
-  /* 
+  /*
+    Escape the [] inside between ** and **. This is a special case and I am not
+    sure if this is a good solution. 7/25/2023
+   */
+  escape_brackets_in_emphasis(text) {
+    let re = /(\*\*+[^\[\*\n]*\[[^\]\*]*\][^\]\*\n]*\*+\*)/gms;
+    let text_repl=text;
+    let m;
+
+    while ((m = re.exec(text_repl)) !== null) {
+      let mr = m[1].replace(/\[/g, '&#91;');
+      mr = mr.replace(/\]/g, '&#93;');
+      text_repl = text_repl.replace(m[0], mr);
+    }
+    return text_repl;
+  }
+
+  /*
      Escare [] in json data. It confuses with Bitmark bits
      Uses HTML escape strings
     [ = &#91;
     ] = &#93;
   */
   escape_json_for_json_bits(text) {
-    String.prototype.lastIndexOfEnd = function(string) {
+    String.prototype.lastIndexOfEnd = function (string) {
       let io = this.lastIndexOf(string);
       return io == -1 ? -1 : io + string.length;
     };
@@ -133,15 +154,16 @@ class Preprocessor {
     json_repl = json_repl.replace(/\]/g, '&#93;');
     text = text.replace(json_orig, json_repl);
     // offset <0 to dont care just replace them
-    return [text, [{before: '[', after: '&#91;', offset: -1},
-		   {before: ']', after: '&#93;', offset: -1}]];
+    return [text, [{ before: '[', after: '&#91;', offset: -1 },
+    { before: ']', after: '&#93;', offset: -1 }]];
   }
 
   // Expecting single bit arg
   replace_stray_bitheads(text) {
     let seq = 0;
     let ignore = 5;
-    const regex = /(\[\.[^\]\[]+\])/;  // for the first bit if any
+    //const regex = /(\[\.[^\]\[]+\])/;  // for the first bit if any
+	const regex = /(\[\.[^\]\[]+)/;  // no need closing ] 10/6/2023
     const MAXSEQ = 20;  // cant have too many
     let x_array = [];
 
@@ -151,17 +173,18 @@ class Preprocessor {
 
       let where = text.slice(ignore).search(regex);
       if (where < 0)
-	break;
+        break;
       let tail = text.substr(where, text.length);
       let m = tail.match(regex);
-      if (text.charAt(where-1)!=='\n') {
-	// Replace that with a marker
-	text = this.replace_text_at(text, where+ignore, `$\{\{${seq}\}\}`, m[1]);
-	let x = { before: m[1],
-		  after: `$\{\{${seq}\}\}`,
-		  offset: where+ignore
-		};
-	x_array.push(x);
+      if (text.charAt(where - 1) !== '\n') {
+        // Replace that with a marker
+        text = this.replace_text_at(text, where + ignore, `$\{\{${seq}\}\}`, m[1]);
+        let x = {
+          before: m[1],
+          after: `$\{\{${seq}\}\}`,
+          offset: where + ignore
+        };
+        x_array.push(x);
       }
       ignore += where + m[1].length;
       seq++;
@@ -174,6 +197,7 @@ class Preprocessor {
   }
   // simple version. no offset
   unreplace_stray_bitheads(text, x_array) {
+    const unescape_brackets = txt => (txt.replace(/&#91;/g, '[')).replace(/&#93;/g, ']');
 
     for (let i in x_array) {
       //
@@ -182,6 +206,7 @@ class Preprocessor {
       var re = new RegExp(y, 'g');
       text = text.replace(re, x.before);
     }
+    text = unescape_brackets(text);  // get the backets back.
     return text;
   }
 }
@@ -190,11 +215,11 @@ class Preprocessor {
  */
 class BitmarkErrorListener extends DefaultErrorStrategy {
   //options = {};
-  
+
   constructor(source, options) {
     super();
     this.options = options;
-    this.errors  = [];
+    this.errors = [];
     this.bail_mode = false;
     this.source = source;
     return this;
@@ -206,25 +231,25 @@ class BitmarkErrorListener extends DefaultErrorStrategy {
 
   modifyErrorMessage(msg) {
     const STD_MSGS = [
-      {regex: /extraneous input ('[^\']*')/, repl: 'Unexpected input ${0}'},
-      {regex: /mismatched input ('[^\']*')/, repl: 'Rule violation around ${0}'},
-      {regex: /no viable alternative at input ('[^\']*')/, repl: 'Unexpected input ${0}'},
-      {regex: /missing/, repl: null},  // no mod
+      { regex: /extraneous input ('[^\']*')/, repl: 'Unexpected input ${0}' },
+      { regex: /mismatched input ('[^\']*')/, repl: 'Rule violation around ${0}' },
+      { regex: /no viable alternative at input ('[^\']*')/, repl: 'Unexpected input ${0}' },
+      { regex: /missing/, repl: null },  // no mod
     ];
     let fn = (ob, msg) => {
       let m = msg.match(ob.regex);
       let newmsg = null;
       if (m) {
-	if (ob.repl)
-	  newmsg = ob.repl.replace('${0}', m[1]);
+        if (ob.repl)
+          newmsg = ob.repl.replace('${0}', m[1]);
       }
       return newmsg;
     };
     let newmsg = null;
-    for (let i=0; i < STD_MSGS.length; i++) {
+    for (let i = 0; i < STD_MSGS.length; i++) {
       newmsg = fn(STD_MSGS[i], msg);
       if (newmsg)
-	break;
+        break;
     }
     if (!newmsg)
       newmsg = msg;
@@ -236,9 +261,9 @@ class BitmarkErrorListener extends DefaultErrorStrategy {
     let tmpl = R_clone(JSON_BIT_TEMPLATES.Error_Info);
 
     tmpl.message = msg;
-    tmpl.line = parseInt(line)-1;
+    tmpl.line = parseInt(line) - 1;
     tmpl.column = column;
-    
+
     let bb = new BitUtil(this.source);
     let bit = this.source;
     let errline = bb.get_error_line(this.source, line, column);
@@ -250,10 +275,10 @@ class BitmarkErrorListener extends DefaultErrorStrategy {
          errorLine: ''
        }
       }*/
-    if (0<errline.length)
+    if (0 < errline.length)
       tmpl.errorLine = errline;
     if (this.bail_mode) {
-      throw JSON.stringify(tmpl,null,4); // bail out
+      throw JSON.stringify(tmpl, null, 4); // bail out
     }
     else {
       // not aborting
@@ -264,7 +289,7 @@ class BitmarkErrorListener extends DefaultErrorStrategy {
   //
   manualError(ctx, line, column, message) {
     let tmpl = R_clone(JSON_BIT_TEMPLATES.Error_Info);
-    tmpl.line = line < 0? ctx._start._line : line; // 1 origin
+    tmpl.line = line < 0 ? ctx._start._line : line; // 1 origin
     tmpl.column = column; //ctx._start._charPositionInLine;
 
     let bb = new BitUtil(this.source);
@@ -286,85 +311,85 @@ let Option_Template = {
 class BitmarkParser {
   /*
    */
-  constructor(text1, options, bit=null) {
+  constructor(text1, options, bit = null) {
     this.ParserTable = {
       'cloze': {
-	regex: /\n\[\.[ \t]*cloze/,
-	name: 'cloze',
-	lexer: clozeLexer,
-	parser: clozeParser
+        regex: /\n\[\.[ \t]*cloze/,
+        name: 'cloze',
+        lexer: clozeLexer,
+        parser: clozeParser
       },
       'match': {
-	regex: /\n\[\.[ \t]*match/,
-	name: 'match',
-	lexer: matchLexer,
-	parser: matchParser
+        regex: /\n\[\.[ \t]*match/,
+        name: 'match',
+        lexer: matchLexer,
+        parser: matchParser
       },
       'multiple': {
-	regex: /\n\[\.[ \t]*(multiple|highlight)/,
-	name: 'multiple',
-	lexer: choiceLexer,
-	parser: choiceParser
+        regex: /\n\[\.[ \t]*(multiple|highlight)/,
+        name: 'multiple',
+        lexer: choiceLexer,
+        parser: choiceParser
       },
       'interview': {
-	regex: /\n\[\.[ \t]*interview/,
-	name: 'interview',
-	lexer: interviewLexer,
-	parser: interviewParser
+        regex: /\n\[\.[ \t]*interview/,
+        name: 'interview',
+        lexer: interviewLexer,
+        parser: interviewParser
       },
       'true-false': {
-	regex: /\n\[\.[ \t]*true-false/,
-	name: 'true-false',
-	lexer: truefalseLexer,
-	parser: truefalseParser
+        regex: /\n\[\.[ \t]*true-false/,
+        name: 'true-false',
+        lexer: truefalseLexer,
+        parser: truefalseParser
       },
       'flashcard': {
-	regex: /\n\[\.[ \t]*(flashcard|vocabulary)/,
-	name: 'flashcard',
-	lexer: flashcardLexer,
-	parser: flashcardParser
+        regex: /\n\[\.[ \t]*(flashcard|vocabulary)/,
+        name: 'flashcard',
+        lexer: flashcardLexer,
+        parser: flashcardParser
       },
       'vocabulary': {
-	regex: /\n\[\.[ \t]*vocabulary/,
-	name: 'vocabulary',
-	lexer: flashcardLexer,
-	parser: flashcardParser
+        regex: /\n\[\.[ \t]*vocabulary/,
+        name: 'vocabulary',
+        lexer: flashcardLexer,
+        parser: flashcardParser
       },
       'chat': {
-	regex: /\n\[\.[ \t]*chat/,
-	name: 'chat',
-	lexer: chatLexer,
-	parser: chatParser
+        regex: /\n\[\.[ \t]*chat/,
+        name: 'chat',
+        lexer: chatLexer,
+        parser: chatParser
       },
       'conversation': {
-	regex: /\n\[\.[ \t]*conversation/,
-	name: 'chat',
-	lexer: chatLexer,
-	parser: chatParser
+        regex: /\n\[\.[ \t]*conversation/,
+        name: 'chat',
+        lexer: chatLexer,
+        parser: chatParser
       },
       'sequence': {
-	regex: /\n\[\.[ \t]*sequence/,
-	name: 'sequence',
-	lexer: sequenceLexer,
-	parser: sequenceParser
+        regex: /\n\[\.[ \t]*sequence/,
+        name: 'sequence',
+        lexer: sequenceLexer,
+        parser: sequenceParser
       },
       'menu': {
-	regex: /\n\[\.[ \t]*menu-3/,
-	name: 'sequence',
-	lexer: sequenceLexer,
-	parser: sequenceParser
-      },      
+        regex: /\n\[\.[ \t]*menu-3/,
+        name: 'sequence',
+        lexer: sequenceLexer,
+        parser: sequenceParser
+      },
       'default': {
-	regex: null,
-	name: null,
-	lexer: bitmarkLexer,
-	parser: bitmarkParser
+        regex: null,
+        name: null,
+        lexer: bitmarkLexer,
+        parser: bitmarkParser
       },
 
     };
 
     this.options = options;
-    this.input_text = '\n'+text1;  // whole text. added NL 12/17/2020
+    this.input_text = '\n' + text1;  // whole text. added NL 12/17/2020
     this.x_array = [];
     this.parser_vars = {
       chars: null,
@@ -382,7 +407,7 @@ class BitmarkParser {
 
     // Tweak the stray bitheads
     let prep = new Preprocessor(this.source);
-    let replaced = splitted_text, x_array=[], y_array=[];
+    let replaced = splitted_text, x_array = [], y_array = [];
 
     if (prep.has_a_url(splitted_text)) {
       // Brackets contained in a URL is problem. Need to escape. No need x_array
@@ -391,15 +416,18 @@ class BitmarkParser {
     if (prep.is_a_json_bit(splitted_text)) {
       [replaced, x_array] = prep.escape_json_for_json_bits(replaced);
     }
-    
+    if (0 < replaced.indexOf('[', 6)) {  // skip initial [] for bit heading
+      replaced = prep.escape_brackets_in_emphasis(replaced);
+    }
+
     [replaced, y_array] = prep.replace_stray_bitheads(replaced);
     x_array = y_array.concat(x_array);
-    
+
     this.x_array = x_array;
     this.original_text = splitted_text;
-    this.input_text = replaced; 
+    this.input_text = replaced;
     splitted_text = replaced;
-    
+
     this.parser_vars.bit = bit;
     bit = !bit ? 'default' : bit;
 
@@ -410,7 +438,7 @@ class BitmarkParser {
       return null;
     }
     this.parser_vars.lexer = new lp.lexer(this.parser_vars.chars);
-    this.parser_vars.tokens =new CommonTokenStream(this.parser_vars.lexer);
+    this.parser_vars.tokens = new CommonTokenStream(this.parser_vars.lexer);
     this.parser_vars.parser = new lp.parser(this.parser_vars.tokens);
     this.parser_vars.printer = null;
 
@@ -431,9 +459,9 @@ class BitmarkParser {
     this.parser_vars.parser.buildParseTrees = true;
     this.parser_vars.parser.isTrace = this.options.trace;
     this.parser_vars.parser._interp.predictionMode = PredictionMode.SLL;  // works!!
-    this.parser_vars.printer = new BitmarkListener(this.parser_vars.errorlisten, 
-							    this.input_text,
-							    this.parser_vars.parser);
+    this.parser_vars.printer = new BitmarkListener(this.parser_vars.errorlisten,
+      this.input_text,
+      this.parser_vars.parser);
     this.parser_vars.parser.addParseListener(this.parser_vars.printer);
     let tree = this.parser_vars.parser.bitmark();
     return this.parser_vars.printer.get_result();  // not json
@@ -448,70 +476,69 @@ class BitmarkParser {
     let entry = null;
     let parsed = false;
 
-    
+
     for (let bit of bits) {
       parsed = false;
       let text_with_comments = R_clone(bit.bit);
       bit.bit = pp.remove_comments(bit.bit);  // Oct 4,2021
-      
+
       for (let key in this.ParserTable) {
-	if (bit.bit.match(this.ParserTable[key].regex)) {
-	  entry = this.ParserTable[key];
-	  // Initialize with new bitmark
-	  this.init(bit.bit, entry.name);
-	  let obj = this.run_parser();  // obj is an array
+        if (bit.bit.match(this.ParserTable[key].regex)) {
+          entry = this.ParserTable[key];
+          // Initialize with new bitmark
+          this.init(bit.bit, entry.name);
+          let obj = this.run_parser();  // obj is an array
 
-	  if (!obj || !obj.length) 
-	    obj = [{bitmark: bit}];
+          if (!obj || !obj.length)
+            obj = [{ bitmark: bit }];
 
-	  obj[0].bitmark = text_with_comments.trim(); 
+          obj[0].bitmark = text_with_comments.trim();
 
-	  // obj[0].bit.content at this point is bithead replaced text.
-	  obj[0].bit.body = pp.unreplace_stray_bitheads(obj[0].bit.body, this.x_array);
+          // obj[0].bit.content at this point is bithead replaced text.
+          obj[0].bit.body = pp.unreplace_stray_bitheads(obj[0].bit.body, this.x_array);
 
-	  if (0 < this.parser_vars.errorlisten.errors.length) {
-	    obj[0]['errors'] = this.parser_vars.errorlisten.errors;
-	    this.parser_vars.errorlisten.errors = [];
-	  }
-	  allobjs = allobjs.concat(obj);
-	  parsed = true;
-	  break;
-	}
+          if (0 < this.parser_vars.errorlisten.errors.length) {
+            obj[0]['errors'] = this.parser_vars.errorlisten.errors;
+            this.parser_vars.errorlisten.errors = [];
+          }
+          allobjs = allobjs.concat(obj);
+          parsed = true;
+          break;
+        }
       }
       if (!parsed) {
-	entry = this.ParserTable['default'];
-	// Run the default parser
-	this.init(bit.bit, entry.name);
+        entry = this.ParserTable['default'];
+        // Run the default parser
+        this.init(bit.bit, entry.name);
 
-	let obj = this.run_parser();
-	let unknown = null;
-	
-	if (obj.length < 1) {
-	  // Most probably wrong bit name 
-	  let bitre = /\s*\[(.*)\]/;
-	  let m = bit.bit.match(bitre);
-	  unknown = m[1];
-	}
-	else
-	  obj[0].bitmark = text_with_comments.trim(); 
+        let obj = this.run_parser();
+        let unknown = null;
 
-	// obj[0].bit.content at this point is bithead replaced text.
-	if (!unknown)
-	  debugger
-	  obj[0].bit.body =pp.unreplace_stray_bitheads(obj[0].bit.body, this.x_array);	
+        if (obj.length < 1) {
+          // Most probably wrong bit name
+          let bitre = /\s*\[(.*)\]/;
+          let m = bit.bit.match(bitre);
+          unknown = m[1];
+        }
+        else
+          obj[0].bitmark = text_with_comments.trim();
 
-	if (0 < this.parser_vars.errorlisten.errors.length) {
-	  if (!obj || !obj.length) 
-	    obj = [{bitmark: bit}];
-	  if (unknown) {
-	    obj[0]['errors'] = ["unknown bit name: "+unknown];
-	    obj[0].bitmark.offset = 0;
-	  }
-	  else
-	    obj[0]['errors'] = this.parser_vars.errorlisten.errors;
-	  this.parser_vars.errorlisten.errors = [];
-	}
-	allobjs = allobjs.concat(obj);
+        // obj[0].bit.content at this point is bithead replaced text.
+        if (!unknown)
+          obj[0].bit.body = pp.unreplace_stray_bitheads(obj[0].bit.body, this.x_array);
+
+        if (0 < this.parser_vars.errorlisten.errors.length) {
+          if (!obj || !obj.length)
+            obj = [{ bitmark: bit }];
+          if (unknown) {
+            obj[0]['errors'] = ["unknown bit name: " + unknown];
+            obj[0].bitmark.offset = 0;
+          }
+          else
+            obj[0]['errors'] = this.parser_vars.errorlisten.errors;
+          this.parser_vars.errorlisten.errors = [];
+        }
+        allobjs = allobjs.concat(obj);
       }
     }
     //const t1 = now();
@@ -519,15 +546,15 @@ class BitmarkParser {
     //  console.log(`Call to parser for 3 took ${t1 - t0} milliseconds.`);
 
     let json = JSON.stringify(allobjs, null, 4);
-    while (allobjs.length) { 
-      delete allobjs.pop(); 
+    while (allobjs.length) {
+      delete allobjs.pop();
     }
     if (this.options.debug)
       console.log(json);
 
     return json;
   }
-  
+
 };
 
 
