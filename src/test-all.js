@@ -192,7 +192,7 @@ const testfiles = [
   './tests/booklink.bit',
   './tests/jsfiddle.bit',
   './tests/images-logo-grave.bit',
-  './tests/new09242023.bit',
+  './tests/image-and-zoomDisabledprop.bit',
   './tests/book-alias.bit',
 ];
 

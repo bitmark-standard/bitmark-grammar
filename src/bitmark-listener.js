@@ -88,7 +88,7 @@ let BitmarkListener = function (error_listener, source, parser) {
 		    'jupyter-execution_count', 'jupyter-id', 'reasonableNumOfChars',
 		    'maxCreatedBits',
 				   ];
-  this.atdef_bool = ['aiGenerated', 'resolved'];
+  this.atdef_bool = ['aiGenerated', 'resolved', 'zoomDisabled'];
 
   this.bot_action_rating = [];  // for storing bot-action-rating at exitHint()
 
