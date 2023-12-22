@@ -768,6 +768,7 @@
     }
 ]
 <<<<./tests/book1.bit
+
 [
     {
         "bitmark": "[.book:text]\n[! this is my book]\n[# Erkundungen]\n[##  Deutsch als Fremdsprache]\n[%][%k testing L&D R&D]\n[@subject: Integriertes Kurs- und Arbeitsbuch Sprachniveau B2]\n[@ language:en]\n[@ copyright: © 2012 by A Publisher International Ltd., Zurich, Switzerland]\n[@ skills: reading]\n[@ ageRange: 18, 969]\n[@ complexity: intermediate]\n[@seriesTitle: German as a Foreign Language]\n[@seriesId: com.firstpub.e0111]\n[@numberInSeries: 1]\n[@format: Integrated course and work book]\n[@type: book]\n[@isLiveBook: false]\n[@isSmartBook: false]\n[@isHighQuality: true]",
@@ -2662,7 +2663,7 @@
             "instruction": "Berechnen Sie aufgrund des & folgenden Projektablaufplans die Projektdauer in Monaten. \nHinweis: In den Spalten «Vorgänger» und «Nachfolger» ist jeweils nur eine Nummer aufgeführt.",
             "partialAnswer": "",
             "body": "",
-            "item": "05_Ablauf und Termine_022 (Freitext)",
+            "item": "05_Ablaufund Termine_022 (Freitext)",
             "hint": "Korrekte Lösung \n18 Monate. (Hinweis: Für die Berechnung kann das Zeichnen eines Gantt-Diagramms hilfreich sein.)",
             "isExample": false,
             "example": ""
@@ -2693,7 +2694,7 @@
             "instruction": "Berechnen Sie aufgrund des & folgenden Projektablaufplans die Projektdauer in Monaten. \nHinweis: In den Spalten «Vorgänger» und «Nachfolger» ist jeweils nur eine Nummer aufgeführt.",
             "partialAnswer": "",
             "body": "",
-            "item": "05_Ablauf und Termine_022 (Freitext)",
+            "item": "05_Ablaufund Termine_022 (Freitext)",
             "hint": "Korrekte Lösung \n18 Monate. (Hinweis: Für die Berechnung kann das Zeichnen eines Gantt-Diagramms hilfreich sein.)",
             "isExample": false,
             "example": "",
@@ -12603,56 +12604,7 @@
         }
     }
 ]
-<<<<./tests/code.bit
-[
-    {
-        "bitmark": "[.code]\n[@id:51861]\n[@computerLanguage:javascript]\n[%][%Ausgleichsmassnahmen für Frauen der Übergangsgeneration]\nFrauen welche der Übergangsgeneration angehören und ≠ ihre Altersrente nicht vorbeziehen, erhalten einen lebenslangen Rentenzuschlag.",
-        "bit": {
-            "type": "code",
-            "format": "bitmark--",
-            "body": "Frauen welche der Übergangsgeneration angehören und ≠ ihre Altersrente nicht vorbeziehen, erhalten einen lebenslangen Rentenzuschlag.",
-            "item": "",
-            "hint": "",
-            "isExample": false,
-            "example": "",
-            "id": [
-                "51861"
-            ],
-            "computerLanguage": "javascript",
-            "lead": "Ausgleichsmassnahmen für Frauen der Übergangsgeneration"
-        }
-    },
-    {
-        "bitmark": "[.card-1]\n[@language:Japanese]\n::info::\n**Gebrauch der Zeitformen:**\nDas Präteritum verwendet man vor allem für schriftliche Äußerungen.\nIn der mündlichen Kommunikation gebrauchen wir in der Regel das Perfekt.\nDie Hilfsverben __haben__ und __sein__ und die Modalverben bilden eine Ausnahme und werden meistens im Präteritum verwendet.\n::\n\n::info::\n**Bildung des Perfekts:**\nAlle Verben, die einen Akkusativ verlangen, und alle reflexiven Verben bilden das Perfekt mit __haben__.\n__Wir haben ein Haus gebaut. Ich habe mich geärgert.__\nVerben der Orts- und Zustandsänderung sowie sein und bleiben bilden das Perfekt mit __sein__.\n__Wir sind nach Italien gefahren. Die Blumen sind verblüht.__\n::",
-        "bit": {
-            "type": "card-1",
-            "format": "bitmark--",
-            "body": "::info::\n**Gebrauch der Zeitformen:**\nDas Präteritum verwendet man vor allem für schriftliche Äußerungen.\nIn der mündlichen Kommunikation gebrauchen wir in der Regel das Perfekt.\nDie Hilfsverben __haben__ und __sein__ und die Modalverben bilden eine Ausnahme und werden meistens im Präteritum verwendet.\n::\n\n::info::\n**Bildung des Perfekts:**\nAlle Verben, die einen Akkusativ verlangen, und alle reflexiven Verben bilden das Perfekt mit __haben__.\n__Wir haben ein Haus gebaut. Ich habe mich geärgert.__\nVerben der Orts- und Zustandsänderung sowie sein und bleiben bilden das Perfekt mit __sein__.\n__Wir sind nach Italien gefahren. Die Blumen sind verblüht.__\n::",
-            "item": "",
-            "hint": "",
-            "isExample": false,
-            "example": "",
-            "language": [
-                "Japanese"
-            ]
-        }
-    },
-    {
-        "bitmark": "[.question-1]\n\n**Hier finden Sie wichtigen Wortschatz des Kapitels:**\n[%D1]\n[@language:Indonesian]\n**Angaben zur eigenen Person**\n* Ich heiße ...\n* Mein Name ist ...\n* Ich komme aus ...\n* Ich wohne in ...\n* Ich bin von Beruf ...\n* Ich arbeite bei ... als ...\n* Ich bin ledig/Single, verheiratet, geschieden.\n* Ich habe die __(deutsche)__ Staatsbürgerschaft.\n* Ich bin __(Deutsche(r)). __\n* In meiner Freizeit ...\n\n**Schule und Ausbildung**",
-        "bit": {
-            "type": "question-1",
-            "format": "bitmark--",
-            "body": "**Hier finden Sie wichtigen Wortschatz des Kapitels:**\n\n\n**Angaben zur eigenen Person**\n* Ich heiße ...\n* Mein Name ist ...\n* Ich komme aus ...\n* Ich wohne in ...\n* Ich bin von Beruf ...\n* Ich arbeite bei ... als ...\n* Ich bin ledig/Single, verheiratet, geschieden.\n* Ich habe die __(deutsche)__ Staatsbürgerschaft.\n* Ich bin __(Deutsche(r)). __\n* In meiner Freizeit ...\n\n**Schule und Ausbildung**",
-            "item": "D1",
-            "hint": "",
-            "isExample": false,
-            "example": "",
-            "language": [
-                "Indonesian"
-            ]
-        }
-    }
-]
+
 <<<<./tests/image-audio-video.bit
 [
     {
@@ -13537,7 +13489,7 @@
             "type": "vendor-amcharts-5-chart",
             "format": "json",
             "body": "{\"Test\": 100, \"Test2\": \"Json\"}",
-            "item": "item 1",
+            "item": "1",
             "hint": "",
             "isExample": false,
             "example": "",
@@ -13553,7 +13505,7 @@
             "type": "vendor-amcharts-5-chart",
             "format": "json",
             "body": "{\"Testing\": 200, \"Checking\": [1,2,3,4,5,6]}",
-            "item": "item 1",
+            "item": "1",
             "hint": "",
             "isExample": false,
             "example": "",
@@ -13569,7 +13521,7 @@
             "type": "vendor-amcharts-5-chart",
             "format": "json",
             "body": "{\n  \"name\": \"@bitmark-standard/bitmark-grammar\",\n  \"version\": \"1.0.23\",\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"git+https://github.com/bitmark-standard/bitmark-grammar.git\"\n  },\n  \"publishConfig\": {\n    \"registry\": \"https://npm.pkg.github.com\"\n  },\n  \"keywords\": [ \"bitmark\", \"grammar\", \"parser\" ],\n  \"keywords\": [ {\"bitmark\":0},{\"grammar\":1},{\"parser\":2}]\n}",
-            "item": "item 2",
+            "item": "2",
             "hint": "",
             "isExample": false,
             "example": "",
@@ -17085,7 +17037,7 @@
             "type": "bitmark-example",
             "format": "bitmark--",
             "body": "좋은 커밋을 작성하는 것은 미래를 대비하는 것입니다. 유용한 설명을 제공함으로써 문제를 해결하는 동안 자신이나 동료가 이리저리 찾아다니는 시간을 절약할 수 있습니다.\n\n미래의 자신에게 보내는 편지처럼 사려 깊은 커밋 메시지를 작성하는 데 걸리는 추가 시간은 매우 가치 있는 시간입니다. 대규모 프로젝트에서는 유지 관리를 위해 문서화가 필수적입니다.\n\n엔지니어링 팀 내에서는 협업과 커뮤니케이션이 가장 중요합니다. Git 커밋 메시지가 그 대표적인 예입니다. 팀에 커밋 메시지에 대한 규칙이 아직 마련되어 있지 않다면 규칙을 만들 것을 적극 권장합니다.",
-            "item": "Alfabett (the alphabet)",
+            "item": "Alfabett(the alphabet)",
             "hint": "",
             "isExample": false,
             "example": "",
@@ -17106,6 +17058,7 @@
         }
     }
 ]
+
 <<<<./tests/app-ai-prompt.bit
 [
     {
@@ -18154,6 +18107,43 @@
                     "src": "https://cdn.bitmark.cloud/books/com.firstpub.book98789/cat3_1024x1024.jpg"
                 }
             ]
+        }
+    }
+]
+<<<<./tests/toc-chap.bit
+[
+    {
+        "bitmark": "[.toc-chapter]\n[@id:119768]\n[@maxDisplayLevel: 256]\n[%item 1024][%lead 111][%pageNumber 90][%marginNumber 9]\n\n좋은 커밋을 작성하는 것은 미래를 대비하는 것입니다. 유용한 설명을 제공함으로써 문제를 해결하는 동안 자신이나 동료가 이리저리 찾아다니는 시간을 절약할 수 있습니다.\n\n미래의 자신에게 보내는 편지처럼 사려 깊은 커밋 메시지를 작성하는 데 걸리는 추가 시간은 매우 가치 있는 시간입니다. 대규모 프로젝트에서는 유지 관리를 위해 문서화가 필수적입니다.\n\n엔지니어링 팀 내에서는 협업과 커뮤니케이션이 가장 중요합니다. Git 커밋 메시지가 그 대표적인 예입니다. 팀에 커밋 메시지에 대한 규칙이 아직 마련되어 있지 않다면 규칙을 만들 것을 적극 권장합니다.\n[@publisher: 野田ヨシ]\n[@theme: プログラミング言語開発]",
+        "bit": {
+            "type": "toc-chapter",
+            "format": "bitmark--",
+            "body": "좋은 커밋을 작성하는 것은 미래를 대비하는 것입니다. 유용한 설명을 제공함으로써 문제를 해결하는 동안 자신이나 동료가 이리저리 찾아다니는 시간을 절약할 수 있습니다.\n\n미래의 자신에게 보내는 편지처럼 사려 깊은 커밋 메시지를 작성하는 데 걸리는 추가 시간은 매우 가치 있는 시간입니다. 대규모 프로젝트에서는 유지 관리를 위해 문서화가 필수적입니다.\n\n엔지니어링 팀 내에서는 협업과 커뮤니케이션이 가장 중요합니다. Git 커밋 메시지가 그 대표적인 예입니다. 팀에 커밋 메시지에 대한 규칙이 아직 마련되어 있지 않다면 규칙을 만들 것을 적극 권장합니다.",
+            "item": "1024",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "id": [
+                "119768"
+            ],
+            "maxDisplayLevel": 256,
+            "lead": "marginNumber 9",
+            "publisher": "野田ヨシ",
+            "theme": "プログラミング言語開発"
+        }
+    },
+    {
+        "bitmark": "[.toc-chapter]\n[%][%Ausgleichsmassnahmen für Frauen der Übergangsgeneration]\n[@publisher: 野田ヨシ]\n[@theme: プログラミング言語開発]",
+        "bit": {
+            "type": "toc-chapter",
+            "format": "bitmark--",
+            "body": "",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "lead": "Ausgleichsmassnahmen für Frauen der Übergangsgeneration",
+            "publisher": "野田ヨシ",
+            "theme": "プログラミング言語開発"
         }
     }
 ]

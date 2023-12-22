@@ -82,11 +82,12 @@ let BitmarkListener = function (error_listener, source, parser) {
 		    'externalLink', 'videoCallLink', 'externalLinkText', 'textReference',
 		    'quotedPerson', 'kind', 'collection', 'book', 'padletId',
 		    'scormSource', 'posterImage', 'computerLanguage', 'icon', 'iconChar',
-		    'releaseDate', 'releaseVersion', 'content2Buy', 'resolvedDate', 'resolvedBy',
+			'releaseDate', 'releaseVersion', 'content2Buy', 'resolvedDate', 'resolvedBy',
+			'publisher', 'theme'
   ];
   this.atdef_num = ['focusX', 'focusY', 'numberOfStars',
 		    'jupyter-execution_count', 'jupyter-id', 'reasonableNumOfChars',
-		    'maxCreatedBits',
+		    'maxCreatedBits', 'maxDisplayLevel'
 				   ];
   this.atdef_bool = ['aiGenerated', 'resolved', 'zoomDisabled'];
 
@@ -2579,14 +2580,15 @@ function escapeRegExp(string) {
 // Enter a parse tree produced by bitmarkParser#item.
 BitmarkListener.prototype.exitItem = function (ctx) {
   const code = this.but.getcode(ctx);
-  let regex = /\[%\s*([^\]]+)\s*\]/;
-  let val = this.but.get_bit_value(regex, code);
+  let regex = /\[%\s*([^\]\s]+)\s*([^\]]*)\]/;  // two captures
+  let vals = this.but.get_two_bit_values(regex, code);
   let cbit = this.curr_bit_stk.top();
   let type = this.stk.top().bit.type;
+  let val = (vals[1] == '' || (vals[0] != '' && vals[0] != 'item') ? (vals.join('')) : vals[1]).trim();
 
   if (code.startsWith('[%]')) {
     // item is [%].
-    (this.stk.top()).bit.body = (this.stk.top()).bit.body.split(code).join('');
+    (this.stk.top()).bit.body = (this.stk.top()).bit.body.split("[%]").join('');
     return;
   }
   if (cbit === 'cplus' || cbit === 'cminus' || cbit === 'interview_qanda') {
@@ -2618,16 +2620,28 @@ BitmarkListener.prototype.exitItem = function (ctx) {
     }
   }
   // remove anyway
-  (this.stk.top()).bit.body = (this.stk.top()).bit.body.split(code).join('');
+  let target = code.match(/(\[%[^\]]*\])/)[1];
+  (this.stk.top()).bit.body = (this.stk.top()).bit.body.replace(target, '');
 };
 
-// new 11/20/2021
 BitmarkListener.prototype.exitLead = function (ctx) {
   const code = this.but.getcode(ctx);
-  let regex = /\[%\s*([^\]]+)\s*\]/;
-  let val = this.but.get_bit_value(regex, code);
-  this.stk.top().bit['lead'] = val;  // save the only first one
+  let regex = /\[%\s*([^\]\s]+)\s*([^\]]+)\]/;  // two captures
+  let vals = this.but.get_two_bit_values(regex, code);
+  let key,val;
+  
+  if (!(vals[0] in ['lead','pageNumber','marginNumber'])) {
+    key = 'lead';
+    val = vals.join(' ');
+  }
+  else {
+    key = vals[0];
+    val = vals[1];
+  }
+  this.stk.top().bit[key] = val;  // create the key and save the val
+  (this.stk.top()).bit.body = (this.stk.top()).bit.body.replace(code, '');
 };
+
 // New April 2022
 BitmarkListener.prototype.enterLearning_path_lti = function (ctx) { this.push_tmpl(ctx, 'learning-path-lti', R.clone(JSON_BIT_TEMPLATES.LearningPath_bit)); };
 BitmarkListener.prototype.enterLearning_path_step = function (ctx) { this.push_tmpl(ctx, 'learning-path-step', R.clone(JSON_BIT_TEMPLATES.LearningPath_bit)); };
@@ -2928,6 +2942,8 @@ BitmarkListener.prototype.enterStdout = function (ctx) { this.push_tmpl(ctx, 'st
 BitmarkListener.prototype.enterApp_bitmark_from_javascript = function (ctx) { this.push_tmpl(ctx, 'app-bitmark-from-javascript'); }
 BitmarkListener.prototype.enterApp_bitmark_from_editor = function (ctx) { this.push_tmpl(ctx, 'app-bitmark-from-editor'); }
 BitmarkListener.prototype.enterBook_alias = function (ctx) { this.push_tmpl(ctx, 'book-alias'); }
+
+BitmarkListener.prototype.enterToc_chapter = function (ctx) { this.push_tmpl(ctx, 'toc-chapter'); }
 
 
 

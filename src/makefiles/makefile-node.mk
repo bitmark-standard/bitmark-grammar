@@ -56,6 +56,9 @@ sequence_js_files = sequenceLexer.js sequenceParser.js
 .DEFAULT_GOAL = es6
 
 es6: $(grammar_files)
+	cp $(common_lexer) $(build_dir)
+	cp $(common_parser) $(build_dir)
+
 	$(PYTHON) ./tools/replace_parser_content.py $(grammar_dir)/_bitmarkLexer.g4 $(grammar_dir)/common_lexer.g4 $(bitmark_lexer_file) '<<<<<<common<<<<<<'
 	$(PYTHON) ./tools/replace_parser_content.py $(grammar_dir)/_bitmarkParser.g4 $(grammar_dir)/common_parser.g4 $(bitmark_parser_file) '<<<<<<common<<<<<<'
 	$(NODE_MODULES)/antlr4ts-cli/antlr4ts $(ANTLR_OPT) $(bitmark_lexer_file);

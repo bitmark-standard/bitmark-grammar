@@ -322,6 +322,14 @@ class BitUtil {
     }
     return '';
   }
+  get_two_bit_values(regex, text) {
+    let m = text.match(regex);
+    if (m && m != undefined) {
+      return [m[1].trim(), m[2].trim()];
+    }
+    return [];
+  }
+  
   // multiple results
   get_bit_value_multi(regex, text) {
     let array = [text.matchAll(regex)];

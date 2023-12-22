@@ -194,6 +194,7 @@ const testfiles = [
   './tests/images-logo-grave.bit',
   './tests/image-and-zoomDisabledprop.bit',
   './tests/book-alias.bit',
+  './tests/toc-chap.bit',
 ];
 
 const testfilesX = [
