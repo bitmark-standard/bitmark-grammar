@@ -195,6 +195,8 @@ const testfiles = [
   './tests/image-and-zoomDisabledprop.bit',
   './tests/book-alias.bit',
   './tests/toc-chap.bit',
+  "./tests/gap-text1.bit",
+  "./tests/gap-text1-inst.bit",
 ];
 
 const testfilesX = [

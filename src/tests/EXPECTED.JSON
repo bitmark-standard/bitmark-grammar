@@ -18147,4 +18147,453 @@
         }
     }
 ]
+<<<<./tests/gap-text1.bit
+[
+    {
+        "bitmark": "[.gap-text][%cl1]I am coffee toast[_cloze][!noun ain hint for the second gap][?1 or 2][_gap text][!verb]",
+        "bit": {
+            "type": "gap-text",
+            "format": "bitmark--",
+            "body": "I am coffee toast{0}",
+            "item": "cl1",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "placeholders": {
+                "{0}": {
+                    "type": "gap",
+                    "item": "",
+                    "solutions": [],
+                    "hint": "1 or 2",
+                    "instruction": "verb",
+                    "isCaseSensitive": true,
+                    "isExample": false,
+                    "example": ""
+                }
+            }
+        }
+    }
+]
+<<<<./tests/gap-text1-inst.bit
+[
+    {
+        "bitmark": "[.gap-text:bitmark--&image]\n[%A10b]\n[!Wladimir Kaminer\n\nLesen Sie die Informationen über den Autor. Ergänzen Sie die fehlenden Präpositionen und eventuell die Artikel.]\n[&image:https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/wladimir_kaminer_2008_(3713591562).png]\n**Wladimir Kaminer**\nWladimir Kaminer wurde [_in] 1967 Moskau geboren. Er absolvierte eine Ausbildung zum Toningenieur [_für] Theater und Rundfunk und studierte anschließend Dramaturgie [_am] Moskauer Theaterinstitut. Seit 1990 wohnt er [_mit] seiner Frau und seinen beiden Kindern in Berlin. Kaminer veröffentlicht regelmäßig Texte [_in] verschiedenen deutschen Zeitungen und Zeitschriften. Er hatte eine wöchentliche Sendung namens __Wladimirs Welt__ beim __SFB 4 Radio MultiKulti__ sowie eine Rubrik [_beim] ZDF-Morgenmagazin und organisierte [_im] __Kaffee Burger__ Veranstaltungen wie seine inzwischen berüchtigte __Russendisko__. [_In] der gleichnamigen Erzählsammlung sowie dem Roman __Militärmusik__ wurde das kreative Multitalent [_zu] einem der beliebtesten und gefragtesten Autoren [_in] Deutschland.",
+        "bit": {
+            "type": "gap-text",
+            "format": "bitmark--",
+            "body": "**Wladimir Kaminer**\nWladimir Kaminer wurde {0} 1967 Moskau geboren. Er absolvierte eine Ausbildung zum Toningenieur {1} Theater und Rundfunk und studierte anschließend Dramaturgie {2} Moskauer Theaterinstitut. Seit 1990 wohnt er {3} seiner Frau und seinen beiden Kindern in Berlin. Kaminer veröffentlicht regelmäßig Texte {4} verschiedenen deutschen Zeitungen und Zeitschriften. Er hatte eine wöchentliche Sendung namens __Wladimirs Welt__ beim __SFB 4 Radio MultiKulti__ sowie eine Rubrik {5} ZDF-Morgenmagazin und organisierte {6} __Kaffee Burger__ Veranstaltungen wie seine inzwischen berüchtigte __Russendisko__. {7} der gleichnamigen Erzählsammlung sowie dem Roman __Militärmusik__ wurde das kreative Multitalent {8} einem der beliebtesten und gefragtesten Autoren {9} Deutschland.",
+            "item": "A10b",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "instruction": "Wladimir Kaminer\n\nLesen Sie die Informationen über den Autor. Ergänzen Sie die fehlenden Präpositionen und eventuell die Artikel.",
+            "resource": {
+                "type": "image",
+                "image": {
+                    "src": "https://docs.bitbook.education/bit-books/schubert/schubert_erkundungen_b2/web-resources/images/wladimir_kaminer_2008_(3713591562).png",
+                    "showInIndex": false,
+                    "format": "png",
+                    "width": null,
+                    "height": null,
+                    "alt": "",
+                    "caption": "",
+                    "license": "",
+                    "copyright": ""
+                }
+            },
+            "placeholders": {
+                "{0}": {
+                    "type": "gap",
+                    "item": "",
+                    "solutions": [],
+                    "hint": "",
+                    "instruction": "",
+                    "isCaseSensitive": true,
+                    "isExample": false,
+                    "example": ""
+                },
+                "{1}": {
+                    "type": "gap",
+                    "item": "",
+                    "solutions": [],
+                    "hint": "",
+                    "instruction": "",
+                    "isCaseSensitive": true,
+                    "isExample": false,
+                    "example": ""
+                },
+                "{2}": {
+                    "type": "gap",
+                    "item": "",
+                    "solutions": [],
+                    "hint": "",
+                    "instruction": "",
+                    "isCaseSensitive": true,
+                    "isExample": false,
+                    "example": ""
+                },
+                "{3}": {
+                    "type": "gap",
+                    "item": "",
+                    "solutions": [],
+                    "hint": "",
+                    "instruction": "",
+                    "isCaseSensitive": true,
+                    "isExample": false,
+                    "example": ""
+                },
+                "{4}": {
+                    "type": "gap",
+                    "item": "",
+                    "solutions": [],
+                    "hint": "",
+                    "instruction": "",
+                    "isCaseSensitive": true,
+                    "isExample": false,
+                    "example": ""
+                },
+                "{5}": {
+                    "type": "gap",
+                    "item": "",
+                    "solutions": [],
+                    "hint": "",
+                    "instruction": "",
+                    "isCaseSensitive": true,
+                    "isExample": false,
+                    "example": ""
+                },
+                "{6}": {
+                    "type": "gap",
+                    "item": "",
+                    "solutions": [],
+                    "hint": "",
+                    "instruction": "",
+                    "isCaseSensitive": true,
+                    "isExample": false,
+                    "example": ""
+                },
+                "{7}": {
+                    "type": "gap",
+                    "item": "",
+                    "solutions": [],
+                    "hint": "",
+                    "instruction": "",
+                    "isCaseSensitive": true,
+                    "isExample": false,
+                    "example": ""
+                },
+                "{8}": {
+                    "type": "gap",
+                    "item": "",
+                    "solutions": [],
+                    "hint": "",
+                    "instruction": "",
+                    "isCaseSensitive": true,
+                    "isExample": false,
+                    "example": ""
+                },
+                "{9}": {
+                    "type": "gap",
+                    "item": "",
+                    "solutions": [],
+                    "hint": "",
+                    "instruction": "",
+                    "isCaseSensitive": true,
+                    "isExample": false,
+                    "example": ""
+                }
+            }
+        }
+    },
+    {
+        "bitmark": "[.gap-text-instruction-grouped]\n[%B2b]\n[!Textarbeit\n\nErgänzen Sie die Verben.]\n1. Wenn du eine Fremdsprache richtig beherrschen willst, solltest du viel [_üben][!üben].\n2. Sie ist recht sicher auf dem Wakeboard und darf deshalb das Tempo [_steigern][!steigern].\n3. [_Entschlüsselt][!entschlüsseln] ihr im Wahlfach Kryptologie auch Geheimsprache?\n4. Ehe er ins tiefe Wasser [_springen][!springen] darf, muss er erst einmal schwimmen lernen.\n5. Hast du etwa vor, mir etwas zu [_verbergen][!verbergen]?\n6. Ihr [_taucht][!tauchen] aber tief! Habt ihr das in einer Tauchschule gelernt?\n7. Im Urlaub [_verirre][!sich verirren] ich mich regelmäßig bei langen Waldwanderungen.\n8. Creme dich bitte gut ein, sonst [_stechen][!stechen] dich die Mücken!\n9. [_Versenden][!versenden] Sie heute noch die Unterlagen für die Freizeitbroschüre?\n10. Du hast es gut, du hast Ferien und ich muss arbeiten. Ich würde gern mit dir [_tauschen][!tauschen]!\n11. Ich bewundere die Eiskunstläufer, wie federleicht sie übers Eis [_gleiten][!gleiten]!\n12. Karoline [_reitet][!reiten] schon seit zehn Jahren und hat jetzt ein eigenes Pferd.",
+        "bit": {
+            "type": "gap-text-instruction-grouped",
+            "format": "bitmark--",
+            "body": "1. Wenn du eine Fremdsprache richtig beherrschen willst, solltest du viel {0}.\n2. Sie ist recht sicher auf dem Wakeboard und darf deshalb das Tempo {1}.\n3. {2} ihr im Wahlfach Kryptologie auch Geheimsprache?\n4. Ehe er ins tiefe Wasser {3} darf, muss er erst einmal schwimmen lernen.\n5. Hast du etwa vor, mir etwas zu {4}?\n6. Ihr {5} aber tief! Habt ihr das in einer Tauchschule gelernt?\n7. Im Urlaub {6} ich mich regelmäßig bei langen Waldwanderungen.\n8. Creme dich bitte gut ein, sonst {7} dich die Mücken!\n9. {8} Sie heute noch die Unterlagen für die Freizeitbroschüre?\n10. Du hast es gut, du hast Ferien und ich muss arbeiten. Ich würde gern mit dir {9}!\n11. Ich bewundere die Eiskunstläufer, wie federleicht sie übers Eis {10}!\n12. Karoline {11} schon seit zehn Jahren und hat jetzt ein eigenes Pferd.",
+            "item": "B2b",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "instruction": "Textarbeit\n\nErgänzen Sie die Verben.",
+            "placeholders": {
+                "{0}": {
+                    "type": "gap",
+                    "item": "",
+                    "solutions": [],
+                    "hint": "",
+                    "instruction": "üben",
+                    "isCaseSensitive": true,
+                    "isExample": false,
+                    "example": ""
+                },
+                "{1}": {
+                    "type": "gap",
+                    "item": "",
+                    "solutions": [],
+                    "hint": "",
+                    "instruction": "steigern",
+                    "isCaseSensitive": true,
+                    "isExample": false,
+                    "example": ""
+                },
+                "{2}": {
+                    "type": "gap",
+                    "item": "",
+                    "solutions": [],
+                    "hint": "",
+                    "instruction": "entschlüsseln",
+                    "isCaseSensitive": true,
+                    "isExample": false,
+                    "example": ""
+                },
+                "{3}": {
+                    "type": "gap",
+                    "item": "",
+                    "solutions": [],
+                    "hint": "",
+                    "instruction": "springen",
+                    "isCaseSensitive": true,
+                    "isExample": false,
+                    "example": ""
+                },
+                "{4}": {
+                    "type": "gap",
+                    "item": "",
+                    "solutions": [],
+                    "hint": "",
+                    "instruction": "verbergen",
+                    "isCaseSensitive": true,
+                    "isExample": false,
+                    "example": ""
+                },
+                "{5}": {
+                    "type": "gap",
+                    "item": "",
+                    "solutions": [],
+                    "hint": "",
+                    "instruction": "tauchen",
+                    "isCaseSensitive": true,
+                    "isExample": false,
+                    "example": ""
+                },
+                "{6}": {
+                    "type": "gap",
+                    "item": "",
+                    "solutions": [],
+                    "hint": "",
+                    "instruction": "sich verirren",
+                    "isCaseSensitive": true,
+                    "isExample": false,
+                    "example": ""
+                },
+                "{7}": {
+                    "type": "gap",
+                    "item": "",
+                    "solutions": [],
+                    "hint": "",
+                    "instruction": "stechen",
+                    "isCaseSensitive": true,
+                    "isExample": false,
+                    "example": ""
+                },
+                "{8}": {
+                    "type": "gap",
+                    "item": "",
+                    "solutions": [],
+                    "hint": "",
+                    "instruction": "versenden",
+                    "isCaseSensitive": true,
+                    "isExample": false,
+                    "example": ""
+                },
+                "{9}": {
+                    "type": "gap",
+                    "item": "",
+                    "solutions": [],
+                    "hint": "",
+                    "instruction": "tauschen",
+                    "isCaseSensitive": true,
+                    "isExample": false,
+                    "example": ""
+                },
+                "{10}": {
+                    "type": "gap",
+                    "item": "",
+                    "solutions": [],
+                    "hint": "",
+                    "instruction": "gleiten",
+                    "isCaseSensitive": true,
+                    "isExample": false,
+                    "example": ""
+                },
+                "{11}": {
+                    "type": "gap",
+                    "item": "",
+                    "solutions": [],
+                    "hint": "",
+                    "instruction": "reiten",
+                    "isCaseSensitive": true,
+                    "isExample": false,
+                    "example": ""
+                }
+            }
+        }
+    },
+    {
+        "bitmark": "[.gap-text-instruction-grouped]\n[%A9b]\n[!Textarbeit\n\nErgänzen Sie im Text die fehlenden Verben.]\nAus welchem Grund [_kennen][!kennen][@example] mehr Menschen die Autobiografie eines Pop-Produzenten als die Bücher eines Literatur-Nobelpreisträgers? [_Liegt][!liegen][%1] es daran, dass die Medien öfter über den Pop-Produzenten [_berichten][!berichten][%2]? Laut Untersuchungsergebnissen der Nachrichtenforschung [_gibt][!geben][%3] es einige Kriterien, die die Neuigkeit zur Nachricht [_machen][!machen][%4]. Die wichtigsten Voraussetzungen, damit ein Ereignis in die Nachrichten [_kommt][!kommen][%5], sind: Aktualität und Überraschung, Bekanntheit, Spannung, Kuriosität und Nähe. Spannung bedeutet, dass die Neuigkeit einen Konflikt [_beinhaltet][!beinhalten][%6]. Kuriosität heißt, dass das Ereignis von der Norm [_abweichen][!abweichen][%7] sollte. Der Pop-Produzent [_erfüllt][!erfüllen][%8] fast alle Bedingungen. Wirkliche Objektivität kann es auch bei Nachrichten nicht [_geben][!geben][%9], denn viele Faktoren [_hängen][!abhängen][%10] von subjektiven Entscheidungen der Redakteure, Reporter und Kameraleute [_ab][%10]. Dies beginnt schon beim Kameramann und endet beim Redakteur, der darüber [_entscheidet][!entscheiden][%11], welche Themen überhaupt in der Nachrichtensendung [_behandelt][!beinhalten][%12] werden sollen.",
+        "bit": {
+            "type": "gap-text-instruction-grouped",
+            "format": "bitmark--",
+            "body": "Aus welchem Grund {0} mehr Menschen die Autobiografie eines Pop-Produzenten als die Bücher eines Literatur-Nobelpreisträgers? {1} es daran, dass die Medien öfter über den Pop-Produzenten {2}? Laut Untersuchungsergebnissen der Nachrichtenforschung {3} es einige Kriterien, die die Neuigkeit zur Nachricht {4}. Die wichtigsten Voraussetzungen, damit ein Ereignis in die Nachrichten {5}, sind: Aktualität und Überraschung, Bekanntheit, Spannung, Kuriosität und Nähe. Spannung bedeutet, dass die Neuigkeit einen Konflikt {6}. Kuriosität heißt, dass das Ereignis von der Norm {7} sollte. Der Pop-Produzent {8} fast alle Bedingungen. Wirkliche Objektivität kann es auch bei Nachrichten nicht {9}, denn viele Faktoren {10} von subjektiven Entscheidungen der Redakteure, Reporter und Kameraleute {11}. Dies beginnt schon beim Kameramann und endet beim Redakteur, der darüber {12}, welche Themen überhaupt in der Nachrichtensendung {13} werden sollen.",
+            "item": "A9b",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "instruction": "Textarbeit\n\nErgänzen Sie im Text die fehlenden Verben.",
+            "placeholders": {
+                "{0}": {
+                    "type": "gap",
+                    "item": "",
+                    "solutions": [],
+                    "hint": "",
+                    "instruction": "kennen",
+                    "isCaseSensitive": true,
+                    "isExample": true,
+                    "example": ""
+                },
+                "{1}": {
+                    "type": "gap",
+                    "item": "1",
+                    "solutions": [],
+                    "hint": "",
+                    "instruction": "liegen",
+                    "isCaseSensitive": true,
+                    "isExample": false,
+                    "example": ""
+                },
+                "{2}": {
+                    "type": "gap",
+                    "item": "2",
+                    "solutions": [],
+                    "hint": "",
+                    "instruction": "berichten",
+                    "isCaseSensitive": true,
+                    "isExample": false,
+                    "example": ""
+                },
+                "{3}": {
+                    "type": "gap",
+                    "item": "3",
+                    "solutions": [],
+                    "hint": "",
+                    "instruction": "geben",
+                    "isCaseSensitive": true,
+                    "isExample": false,
+                    "example": ""
+                },
+                "{4}": {
+                    "type": "gap",
+                    "item": "4",
+                    "solutions": [],
+                    "hint": "",
+                    "instruction": "machen",
+                    "isCaseSensitive": true,
+                    "isExample": false,
+                    "example": ""
+                },
+                "{5}": {
+                    "type": "gap",
+                    "item": "5",
+                    "solutions": [],
+                    "hint": "",
+                    "instruction": "kommen",
+                    "isCaseSensitive": true,
+                    "isExample": false,
+                    "example": ""
+                },
+                "{6}": {
+                    "type": "gap",
+                    "item": "6",
+                    "solutions": [],
+                    "hint": "",
+                    "instruction": "beinhalten",
+                    "isCaseSensitive": true,
+                    "isExample": false,
+                    "example": ""
+                },
+                "{7}": {
+                    "type": "gap",
+                    "item": "7",
+                    "solutions": [],
+                    "hint": "",
+                    "instruction": "abweichen",
+                    "isCaseSensitive": true,
+                    "isExample": false,
+                    "example": ""
+                },
+                "{8}": {
+                    "type": "gap",
+                    "item": "8",
+                    "solutions": [],
+                    "hint": "",
+                    "instruction": "erfüllen",
+                    "isCaseSensitive": true,
+                    "isExample": false,
+                    "example": ""
+                },
+                "{9}": {
+                    "type": "gap",
+                    "item": "9",
+                    "solutions": [],
+                    "hint": "",
+                    "instruction": "geben",
+                    "isCaseSensitive": true,
+                    "isExample": false,
+                    "example": ""
+                },
+                "{10}": {
+                    "type": "gap",
+                    "item": "10",
+                    "solutions": [],
+                    "hint": "",
+                    "instruction": "abhängen",
+                    "isCaseSensitive": true,
+                    "isExample": false,
+                    "example": ""
+                },
+                "{11}": {
+                    "type": "gap",
+                    "item": "10",
+                    "solutions": [],
+                    "hint": "",
+                    "instruction": "",
+                    "isCaseSensitive": true,
+                    "isExample": false,
+                    "example": ""
+                },
+                "{12}": {
+                    "type": "gap",
+                    "item": "11",
+                    "solutions": [],
+                    "hint": "",
+                    "instruction": "entscheiden",
+                    "isCaseSensitive": true,
+                    "isExample": false,
+                    "example": ""
+                },
+                "{13}": {
+                    "type": "gap",
+                    "item": "12",
+                    "solutions": [],
+                    "hint": "",
+                    "instruction": "beinhalten",
+                    "isCaseSensitive": true,
+                    "isExample": false,
+                    "example": ""
+                }
+            }
+        }
+    }
+]
 <<<<

@@ -122,7 +122,6 @@ BitmarkListener.prototype.push_bit2 = function (code, type, fmt_regex) {
 };
 // Call on enter
 BitmarkListener.prototype.push_tmpl = function (ctx, type, template = R.clone(JSON_BIT_TEMPLATES.Regular_bit)) {
-
   let b = template;
   b.bit.type = type;
 
@@ -284,20 +283,21 @@ BitmarkListener.prototype.enterGroup_died = function (ctx) {
 BitmarkListener.prototype.enterCloze = function (ctx) {
   this.push_tmpl(ctx, 'cloze');  // default template
 };
-
-// Exit a parse tree produced by bitmarkParser#cloze.
-//BitmarkListener.prototype.exitCloze = function(ctx) {};
-
 // Enter a parse tree produced by bitmarkParser#cloze_instruction_grouped.
 BitmarkListener.prototype.enterCloze_instruction_grouped = function (ctx) {
   this.push_tmpl(ctx, 'cloze-instruction-grouped');
 };
-// Exit a parse tree produced by bitmarkParser#cloze_instruction_grouped.
-//BitmarkListener.prototype.exitCloze_instruction_grouped = function(ctx) {};
-
 // Enter a parse tree produced by bitmarkParser#cloze_solution_grouped.
 BitmarkListener.prototype.enterCloze_solution_grouped = function (ctx) {
   this.push_tmpl(ctx, 'cloze-solution-grouped');
+};
+
+BitmarkListener.prototype.enterGap_text = function (ctx) {
+  this.push_tmpl(ctx, 'gap-text');  // default template
+};
+// Enter a parse tree produced by bitmarkParser#cloze_instruction_grouped.
+BitmarkListener.prototype.enterGap_text_instruction_grouped = function (ctx) {
+  this.push_tmpl(ctx, 'gap-text-instruction-grouped');
 };
 // Exit a parse tree produced by bitmarkParser#cloze_solution_grouped.
 //BitmarkListener.prototype.exitCloze_solution_grouped = function(ctx) {};
@@ -2629,7 +2629,7 @@ BitmarkListener.prototype.exitLead = function (ctx) {
   let regex = /\[%\s*([^\]\s]+)\s*([^\]]+)\]/;  // two captures
   let vals = this.but.get_two_bit_values(regex, code);
   let key,val;
-  
+
   if (!(vals[0] in ['lead','pageNumber','marginNumber'])) {
     key = 'lead';
     val = vals.join(' ');

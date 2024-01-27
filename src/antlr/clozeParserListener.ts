@@ -13,6 +13,8 @@ import { Cloze_instruction_groupedContext } from "./clozeParser";
 import { Cloze_solution_groupedContext } from "./clozeParser";
 import { GapContext } from "./clozeParser";
 import { Single_gapContext } from "./clozeParser";
+import { Gap_textContext } from "./clozeParser";
+import { Gap_text_instruction_groupedContext } from "./clozeParser";
 import { Cloze_and_multiple_choice_textContext } from "./clozeParser";
 import { Headed_inline_choicesContext } from "./clozeParser";
 import { Choice_headContext } from "./clozeParser";
@@ -215,6 +217,28 @@ export interface clozeParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitSingle_gap?: (ctx: Single_gapContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `clozeParser.gap_text`.
+	 * @param ctx the parse tree
+	 */
+	enterGap_text?: (ctx: Gap_textContext) => void;
+	/**
+	 * Exit a parse tree produced by `clozeParser.gap_text`.
+	 * @param ctx the parse tree
+	 */
+	exitGap_text?: (ctx: Gap_textContext) => void;
+
+	/**
+	 * Enter a parse tree produced by `clozeParser.gap_text_instruction_grouped`.
+	 * @param ctx the parse tree
+	 */
+	enterGap_text_instruction_grouped?: (ctx: Gap_text_instruction_groupedContext) => void;
+	/**
+	 * Exit a parse tree produced by `clozeParser.gap_text_instruction_grouped`.
+	 * @param ctx the parse tree
+	 */
+	exitGap_text_instruction_grouped?: (ctx: Gap_text_instruction_groupedContext) => void;
 
 	/**
 	 * Enter a parse tree produced by `clozeParser.cloze_and_multiple_choice_text`.

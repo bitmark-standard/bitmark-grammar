@@ -378,6 +378,12 @@ class BitmarkParser {
         lexer: sequenceLexer.sequenceLexer,
         parser: sequenceParser.sequenceParser
       },
+      'gap-text': {
+        regex: /\n\[\.[ \t]*gap-text/,
+        name: 'cloze',
+        lexer: clozeLexer.clozeLexer,
+        parser: clozeParser.clozeParser
+      },
       'default': {
         regex: null,
         name: null,
@@ -386,7 +392,6 @@ class BitmarkParser {
       },
 
     };
-
     this.options = options;
     this.input_text = '\n' + text1;  // whole text. added NL 12/17/2020
     this.x_array = [];
