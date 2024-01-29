@@ -2945,6 +2945,14 @@ BitmarkListener.prototype.enterBook_alias = function (ctx) { this.push_tmpl(ctx,
 
 BitmarkListener.prototype.enterToc_chapter = function (ctx) { this.push_tmpl(ctx, 'toc-chapter'); }
 
+BitmarkListener.prototype.enterHand_in_audio = function (ctx) { this.push_tmpl(ctx, 'hand-in-audio'); }
+BitmarkListener.prototype.enterHand_in_voice = function (ctx) { this.push_tmpl(ctx, 'hand-in-voice'); }
+BitmarkListener.prototype.enterHand_in_video = function (ctx) { this.push_tmpl(ctx, 'hand-in-video'); }
+BitmarkListener.prototype.enterHand_in_location = function (ctx) { this.push_tmpl(ctx, 'hand-in-location'); }
+BitmarkListener.prototype.enterHand_in_photo = function (ctx) { this.push_tmpl(ctx, 'hand-in-photo'); }
+BitmarkListener.prototype.enterHand_in_scan = function (ctx) { this.push_tmpl(ctx, 'hand-in-scan'); }
+BitmarkListener.prototype.enterHand_in_document = function (ctx) { this.push_tmpl(ctx, 'hand-in-document'); }
+BitmarkListener.prototype.enterHand_in_contact = function (ctx) { this.push_tmpl(ctx, 'hand-in-contact'); }
 
 
 BitmarkListener.prototype.enterImages_logo_grave = function (ctx) {

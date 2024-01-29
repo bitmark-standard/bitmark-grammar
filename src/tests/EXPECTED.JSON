@@ -18596,4 +18596,160 @@
         }
     }
 ]
+<<<<./tests/hand-in-audio.bit
+[
+    {
+        "bitmark": "[.hand-in-audio]\n[%][%Ausgleichsmassnahmen für Frauen der Übergangsgeneration]\n[@publisher: 野田ヨシカズ]\n[@theme: プログラミング言語開発\nThis command will run the parser on the target bit file and output json for it. cd to the 'src' directory and run\n]",
+        "bit": {
+            "type": "hand-in-audio",
+            "format": "bitmark--",
+            "body": "",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "lead": "Ausgleichsmassnahmen für Frauen der Übergangsgeneration",
+            "publisher": "野田ヨシカズ",
+            "theme": "プログラミング言語開発\nThis command will run the parser on the target bit file and output json for it. cd to the 'src' directory and run"
+        }
+    },
+    {
+        "bitmark": "[.hand-in-voice]\n[%][%Ausgleichsmassnahmen für Frauen der Übergangsgeneration]\n[@publisher: 野田ヨシカズ]\n[@theme: プログラミング言語開発\nThis command will run the parser on the target bit file and output json for it. cd to the 'src' directory and run\n]",
+        "bit": {
+            "type": "hand-in-voice",
+            "format": "bitmark--",
+            "body": "",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "lead": "Ausgleichsmassnahmen für Frauen der Übergangsgeneration",
+            "publisher": "野田ヨシカズ",
+            "theme": "プログラミング言語開発\nThis command will run the parser on the target bit file and output json for it. cd to the 'src' directory and run"
+        }
+    },
+    {
+        "bitmark": "[.hand-in-video]\n[%][%Ausgleichsmassnahmen für Frauen der Übergangsgeneration]\n[@publisher: 野田ヨシカズ]\n[@theme: プログラミング言語開発\nThis command will run the parser on the target bit file and output json for it. cd to the 'src' directory and run\n]",
+        "bit": {
+            "type": "hand-in-video",
+            "format": "bitmark--",
+            "body": "",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "lead": "Ausgleichsmassnahmen für Frauen der Übergangsgeneration",
+            "publisher": "野田ヨシカズ",
+            "theme": "プログラミング言語開発\nThis command will run the parser on the target bit file and output json for it. cd to the 'src' directory and run"
+        }
+    },
+    {
+        "bitmark": "[.hand-in-location]\n[%][%Ausgleichsmassnahmen für Frauen der Übergangsgeneration]\n[@publisher: 野田ヨシカズ]\n[@theme: プログラミング言語開発\nThis command will run the parser on the target bit file and output json for it. cd to the 'src' directory and run\n]",
+        "bit": {
+            "type": "hand-in-location",
+            "format": "bitmark--",
+            "body": "",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "lead": "Ausgleichsmassnahmen für Frauen der Übergangsgeneration",
+            "publisher": "野田ヨシカズ",
+            "theme": "プログラミング言語開発\nThis command will run the parser on the target bit file and output json for it. cd to the 'src' directory and run"
+        }
+    },
+    {
+        "bitmark": "[.hand-in-photo]\n[%][%Ausgleichsmassnahmen für Frauen der Übergangsgeneration]\n[@publisher: 野田ヨシカズ]\n[@theme: プログラミング言語開発\nThis command will run the parser on the target bit file and output json for it. cd to the 'src' directory and run\n]",
+        "bit": {
+            "type": "hand-in-photo",
+            "format": "bitmark--",
+            "body": "",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "lead": "Ausgleichsmassnahmen für Frauen der Übergangsgeneration",
+            "publisher": "野田ヨシカズ",
+            "theme": "プログラミング言語開発\nThis command will run the parser on the target bit file and output json for it. cd to the 'src' directory and run"
+        }
+    },
+    {
+        "bitmark": "[.hand-in-scan]\n[%][%Ausgleichsmassnahmen für Frauen der Übergangsgeneration]\n[@publisher: 野田ヨシカズ]\n[@theme: プログラミング言語開発\nThis command will run the parser on the target bit file and output json for it. cd to the 'src' directory and run\n]",
+        "bit": {
+            "type": "hand-in-scan",
+            "format": "bitmark--",
+            "body": "",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "lead": "Ausgleichsmassnahmen für Frauen der Übergangsgeneration",
+            "publisher": "野田ヨシカズ",
+            "theme": "プログラミング言語開発\nThis command will run the parser on the target bit file and output json for it. cd to the 'src' directory and run"
+        }
+    },
+    {
+        "bitmark": "[.hand-in-document]\n[%][%Ausgleichsmassnahmen für Frauen der Übergangsgeneration]\n[@publisher: 野田ヨシカズ]\n[@theme: プログラミング言語開発\nThis command will run the parser on the target bit file and output json for it. cd to the 'src' directory and run\n]",
+        "bit": {
+            "type": "hand-in-document",
+            "format": "bitmark--",
+            "body": "",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "lead": "Ausgleichsmassnahmen für Frauen der Übergangsgeneration",
+            "publisher": "野田ヨシカズ",
+            "theme": "プログラミング言語開発\nThis command will run the parser on the target bit file and output json for it. cd to the 'src' directory and run"
+        }
+    },
+    {
+        "bitmark": "[.hand-in-contact]\n[%][%Ausgleichsmassnahmen für Frauen der Übergangsgeneration]\n[@publisher: 野田ヨシカズ]\n[@theme: プログラミング言語開発\nThis command will run the parser on the target bit file and output json for it. cd to the 'src' directory and run\n]",
+        "bit": {
+            "type": "hand-in-contact",
+            "format": "bitmark--",
+            "body": "",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "lead": "Ausgleichsmassnahmen für Frauen der Übergangsgeneration",
+            "publisher": "野田ヨシカズ",
+            "theme": "プログラミング言語開発\nThis command will run the parser on the target bit file and output json for it. cd to the 'src' directory and run"
+        }
+    }
+]
+<<<<./tests/book-alias.bit
+[
+    {
+        "bitmark": "[.book-alias]\n\n[@externalId:e-garantie-so-nehr_jk34jh3kj4hj3kh4jk]\n\n[@spaceId:romanianlife]\n[@language:fr]\n[@publisher:romanianlife]\n[@theme:romanianlife-v3]\n[@coverImage:https://docs.bitmark.cloud/bit-books/swiss_life_select/einkommenssicherung_fr_2023/web-resources/images/cover_sl_garantie_so_mehr.png]\n[#Garantie so mehr]\n\n[@bookAlias: e-garantie-du-revenu_lj4qvpq8gk5m]",
+        "bit": {
+            "type": "book-alias",
+            "format": "bitmark--",
+            "body": "",
+            "item": "",
+            "hint": "",
+            "isExample": false,
+            "example": "",
+            "externalId": [
+                "e-garantie-so-nehr_jk34jh3kj4hj3kh4jk"
+            ],
+            "spaceId": [
+                "romanianlife"
+            ],
+            "language": [
+                "fr"
+            ],
+            "publisher": "romanianlife",
+            "theme": "romanianlife-v3",
+            "coverImage": [
+                "https://docs.bitmark.cloud/bit-books/swiss_life_select/einkommenssicherung_fr_2023/web-resources/images/cover_sl_garantie_so_mehr.png"
+            ],
+            "title": "Garantie so mehr",
+            "bookAlias": [
+                "e-garantie-du-revenu_lj4qvpq8gk5m"
+            ]
+        }
+    }
+]
 <<<<
